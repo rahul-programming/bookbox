@@ -25,18 +25,19 @@ interface ReaderViewProps {
   onBack: () => void;
   onOpenStashModal: (idea: IdeaCard) => void;
   onBookCompleted: () => void;
+  fontSizeIndex?: number;
 }
 
 export const ReaderView: React.FC<ReaderViewProps> = ({
   book,
   onBack,
   onOpenStashModal,
-  onBookCompleted
+  onBookCompleted,
+  fontSizeIndex = 1
 }) => {
   const [viewMode, setViewMode] = useState<ReaderViewMode>('blinks');
   const [currentBlinkIndex, setCurrentBlinkIndex] = useState(0);
   const [completedActionIds, setCompletedActionIds] = useState<string[]>([]);
-  const [fontSizeIndex, setFontSizeIndex] = useState(1); // 0=small, 1=normal, 2=large, 3=xlarge
   const [isAudioActive, setIsAudioActive] = useState(false);
   const [highlightRange, setHighlightRange] = useState({ start: -1, length: 0 });
   const [audioTrack, setAudioTrack] = useState<{ headline: string; text: string }>({
@@ -149,10 +150,6 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
     }
 
     onBookCompleted();
-  };
-
-  const cycleFontSize = () => {
-    setFontSizeIndex((fontSizeIndex + 1) % fontClasses.length);
   };
 
   // Universal Listen button for the current active tab
@@ -278,7 +275,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
 
           </div>
 
-          {/* Right Controls: Universal Listen, Font Sizer & Finish */}
+          {/* Right Controls: Universal Listen & Finish */}
           <div className="flex items-center space-x-2">
             
             {/* Universal Audio Listen Button */}
@@ -289,15 +286,6 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
             >
               <Volume2 className="w-3.5 h-3.5 text-blue-600 dark:text-blue-400 animate-pulse" />
               <span className="hidden sm:inline">Listen</span>
-            </button>
-
-            <button
-              onClick={cycleFontSize}
-              className="p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition text-xs font-bold flex items-center space-x-1"
-              title="Change Font Size"
-            >
-              <Type className="w-4 h-4" />
-              <span className="text-[10px]">{fontSizeIndex + 1}</span>
             </button>
 
             <button
@@ -341,6 +329,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
             completedActionIds={completedActionIds}
             onToggleAction={handleToggleAction}
             onStartAudio={handleStartAudio}
+            fontSizeClass={fontClasses[fontSizeIndex]}
           />
         )}
 
@@ -349,6 +338,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
             book={book}
             onOpenStashModal={onOpenStashModal}
             onStartAudio={handleStartAudio}
+            fontSizeClass={fontClasses[fontSizeIndex]}
           />
         )}
 
@@ -356,6 +346,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
           <MindMapView
             book={book}
             onStartAudio={handleStartAudio}
+            fontSizeIndex={fontSizeIndex}
           />
         )}
       </div>

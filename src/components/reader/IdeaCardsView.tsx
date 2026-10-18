@@ -7,9 +7,15 @@ interface IdeaCardsViewProps {
   book: Book;
   onOpenStashModal: (idea: IdeaCard) => void;
   onStartAudio: (headline: string, text: string) => void;
+  fontSizeClass?: string;
 }
 
-export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({ book, onOpenStashModal, onStartAudio }) => {
+export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({ 
+  book, 
+  onOpenStashModal, 
+  onStartAudio,
+  fontSizeClass = 'text-xs sm:text-sm leading-relaxed'
+}) => {
   const [ideas, setIdeas] = useState<IdeaCard[]>([]);
   const [activeFilter, setActiveFilter] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
@@ -219,12 +225,12 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({ book, onOpenStashM
                     {idea.quote ? (
                       <div className="p-3 rounded-xl bg-slate-50 dark:bg-slate-900 border-l-3 border-blue-500 mb-2">
                         <Quote className="w-3 h-3 text-blue-500 mb-1" />
-                        <p className="text-xs italic text-slate-700 dark:text-slate-300 line-clamp-3">
+                        <p className={`italic text-slate-700 dark:text-slate-300 line-clamp-3 ${fontSizeClass}`}>
                           "{idea.quote}"
                         </p>
                       </div>
                     ) : (
-                      <p className="text-xs text-slate-600 dark:text-slate-300 line-clamp-4 leading-relaxed">
+                      <p className={`text-slate-600 dark:text-slate-300 line-clamp-4 leading-relaxed ${fontSizeClass}`}>
                         {idea.body}
                       </p>
                     )}
@@ -267,12 +273,12 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({ book, onOpenStashM
                       </button>
                     </div>
 
-                    <p className="text-xs text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
+                    <p className={`text-slate-700 dark:text-slate-300 leading-relaxed mb-4 ${fontSizeClass}`}>
                       {idea.body}
                     </p>
 
                     {idea.actionItem && (
-                      <div className="p-3 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900/60 text-xs text-emerald-900 dark:text-emerald-200">
+                      <div className={`p-3 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900/60 text-emerald-900 dark:text-emerald-200 ${fontSizeClass}`}>
                         <strong className="block mb-1 font-semibold text-emerald-800 dark:text-emerald-300">
                           Action Step:
                         </strong>

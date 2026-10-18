@@ -19,6 +19,7 @@ import {
 interface MindMapViewProps {
   book: Book;
   onStartAudio: (headline: string, text: string) => void;
+  fontSizeIndex?: number;
 }
 
 interface LayoutNode {
@@ -54,7 +55,7 @@ const BRANCH_COLORS = [
   { stroke: '#06b6d4', fill: '#ecfeff', darkFill: '#164e63', border: '#06b6d4', text: '#155e75', darkText: '#a5f3fc' }, // Cyan
 ];
 
-export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) => {
+export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fontSizeIndex = 1 }) => {
   const containerRef = useRef<HTMLDivElement>(null);
 
   // Canvas Viewport State (Pan & Zoom)
@@ -417,6 +418,98 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
     setIsDragging(false);
   };
 
+  // Touch Pan & Pinch-to-Zoom Handlers (Mobile Touch Support)
+  const touchStateRef = useRef<{
+    mode: 'none' | 'pan' | 'pinch';
+    startPan: { x: number; y: number };
+    startTouch1: { x: number; y: number };
+    startTouch2: { x: number; y: number };
+    startDist: number;
+    startZoom: number;
+    hasMoved: boolean;
+  }>({
+    mode: 'none',
+    startPan: { x: 0, y: 0 },
+    startTouch1: { x: 0, y: 0 },
+    startTouch2: { x: 0, y: 0 },
+    startDist: 0,
+    startZoom: 1,
+    hasMoved: false
+  });
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    if (e.touches.length === 1) {
+      const t = e.touches[0];
+      touchStateRef.current = {
+        mode: 'pan',
+        startPan: { ...pan },
+        startTouch1: { x: t.clientX, y: t.clientY },
+        startTouch2: { x: 0, y: 0 },
+        startDist: 0,
+        startZoom: zoom,
+        hasMoved: false
+      };
+      setIsDragging(true);
+    } else if (e.touches.length === 2) {
+      const t1 = e.touches[0];
+      const t2 = e.touches[1];
+      const dist = Math.hypot(t1.clientX - t2.clientX, t1.clientY - t2.clientY);
+      touchStateRef.current = {
+        mode: 'pinch',
+        startPan: { ...pan },
+        startTouch1: { x: t1.clientX, y: t1.clientY },
+        startTouch2: { x: t2.clientX, y: t2.clientY },
+        startDist: dist,
+        startZoom: zoom,
+        hasMoved: true
+      };
+      setIsDragging(true);
+    }
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    const t = touchStateRef.current;
+    if (t.mode === 'pan' && e.touches.length === 1) {
+      const touch = e.touches[0];
+      const dx = touch.clientX - t.startTouch1.x;
+      const dy = touch.clientY - t.startTouch1.y;
+      if (Math.abs(dx) > 3 || Math.abs(dy) > 3) {
+        t.hasMoved = true;
+      }
+      setPan({
+        x: t.startPan.x + dx,
+        y: t.startPan.y + dy
+      });
+    } else if (t.mode === 'pinch' && e.touches.length === 2) {
+      const t1 = e.touches[0];
+      const t2 = e.touches[1];
+      const dist = Math.hypot(t1.clientX - t2.clientX, t1.clientY - t2.clientY);
+      if (t.startDist > 0) {
+        const factor = dist / t.startDist;
+        const newZoom = Math.min(2.0, Math.max(0.35, Number((t.startZoom * factor).toFixed(2))));
+        setZoom(newZoom);
+      }
+    }
+  };
+
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    if (e.touches.length === 0) {
+      touchStateRef.current.mode = 'none';
+      setIsDragging(false);
+    } else if (e.touches.length === 1) {
+      // Transition from pinch back to pan
+      const t = e.touches[0];
+      touchStateRef.current.mode = 'pan';
+      touchStateRef.current.startPan = { ...pan };
+      touchStateRef.current.startTouch1 = { x: t.clientX, y: t.clientY };
+    }
+  };
+
+  // Directional Pan Helper for Mobile Buttons
+  const handleNudgePan = (dx: number, dy: number) => {
+    setPan(prev => ({ x: prev.x + dx, y: prev.y + dy }));
+  };
+
   // Zoom Controls
   const handleZoom = (delta: number) => {
     setZoom(prev => Math.min(1.8, Math.max(0.4, Number((prev + delta).toFixed(2)))));
@@ -435,6 +528,14 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
   };
 
   const activeNode = findNodeById(book.mindMap, selectedNodeId) || book.mindMap;
+
+  // Dynamic font sizing based on global app font scaler
+  const nodeFontSizes = [
+    { title: 'text-xs', desc: 'text-[10px]' },
+    { title: 'text-xs sm:text-sm', desc: 'text-[11px]' },
+    { title: 'text-sm sm:text-base', desc: 'text-xs' },
+    { title: 'text-base sm:text-lg', desc: 'text-sm' },
+  ][fontSizeIndex] || { title: 'text-xs sm:text-sm', desc: 'text-[11px]' };
 
   // Flatten layout tree for rendering HTML nodes
   const allLayoutNodes = useMemo(() => {
@@ -592,12 +693,17 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
           onMouseMove={handleMouseMove}
           onMouseUp={handleMouseUp}
           onMouseLeave={handleMouseUp}
+          onTouchStart={handleTouchStart}
+          onTouchMove={handleTouchMove}
+          onTouchEnd={handleTouchEnd}
+          onTouchCancel={handleTouchEnd}
           className={`lg:col-span-3 h-[600px] sm:h-[680px] rounded-2xl border border-slate-200 dark:border-slate-700 bg-slate-50/60 dark:bg-[#0b101b] relative overflow-hidden shadow-inner select-none ${
             isDragging ? 'cursor-grabbing' : 'cursor-grab'
           }`}
           style={{
             backgroundImage: `radial-gradient(circle, rgba(148, 163, 184, 0.25) 1px, transparent 1px)`,
-            backgroundSize: '24px 24px'
+            backgroundSize: '24px 24px',
+            touchAction: 'none'
           }}
         >
           {/* Draggable & Scalable World Container */}
@@ -656,7 +762,10 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
                 return (
                   <div
                     key={node.id}
-                    onClick={() => setSelectedNodeId(node.id)}
+                    onClick={() => {
+                      if (touchStateRef.current.hasMoved) return;
+                      setSelectedNodeId(node.id);
+                    }}
                     className={`absolute -translate-x-1/2 -translate-y-1/2 rounded-2xl p-4 sm:p-5 bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-700 text-white shadow-xl shadow-blue-600/30 cursor-pointer border-2 transition-all transform hover:scale-[1.02] flex items-start space-x-3.5 ${
                       isSelected ? 'ring-4 ring-blue-400/50 border-white' : 'border-blue-400/30'
                     }`}
@@ -676,11 +785,11 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
                           Central Architecture
                         </span>
                       </div>
-                      <h4 className={`font-extrabold text-sm sm:text-base leading-snug break-words ${nodeViewMode === 'compact' ? 'truncate' : ''}`}>
+                      <h4 className={`font-extrabold leading-snug break-words ${nodeFontSizes.title} ${nodeViewMode === 'compact' ? 'truncate' : ''}`}>
                         {node.label}
                       </h4>
                       {nodeViewMode === 'detailed' && node.description && (
-                        <p className="text-xs text-blue-100/95 leading-relaxed mt-1 break-words font-sans">
+                        <p className={`text-blue-100/95 leading-relaxed mt-1 break-words font-sans ${nodeFontSizes.desc}`}>
                           {node.description}
                         </p>
                       )}
@@ -693,7 +802,10 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
               return (
                 <div
                   key={node.id}
-                  onClick={() => setSelectedNodeId(node.id)}
+                  onClick={() => {
+                    if (touchStateRef.current.hasMoved) return;
+                    setSelectedNodeId(node.id);
+                  }}
                   className={`absolute rounded-xl px-3.5 py-3 transition-all transform hover:scale-[1.02] cursor-pointer shadow-sm border ${
                     isSelected
                       ? 'ring-3 ring-blue-500/50 shadow-md z-20 scale-[1.02]'
@@ -730,7 +842,7 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
                         )}
                       </div>
 
-                      <p className={`text-xs font-bold leading-snug break-words ${
+                      <p className={`font-bold leading-snug break-words ${nodeFontSizes.title} ${
                         isSelected 
                           ? 'text-blue-600 dark:text-blue-400' 
                           : 'text-slate-900 dark:text-slate-100'
@@ -739,7 +851,7 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
                       </p>
 
                       {nodeViewMode === 'detailed' && node.description && (
-                        <p className="text-[11px] text-slate-600 dark:text-slate-300 mt-1.5 leading-relaxed font-sans break-words selection:bg-blue-100 dark:selection:bg-blue-900">
+                        <p className={`text-slate-600 dark:text-slate-300 mt-1.5 leading-relaxed font-sans break-words selection:bg-blue-100 dark:selection:bg-blue-900 ${nodeFontSizes.desc}`}>
                           {node.description}
                         </p>
                       )}
@@ -775,13 +887,71 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
             })}
           </div>
 
-          {/* Quick Controls Watermark / Helper */}
-          <div className="absolute bottom-3 left-3 text-[11px] font-medium text-slate-400 dark:text-slate-500 pointer-events-none bg-white/70 dark:bg-slate-900/70 backdrop-blur-xs px-2.5 py-1 rounded-lg border border-slate-200/50 dark:border-slate-800/50 flex items-center space-x-2">
-            <span>🖱 Drag to pan</span>
+          {/* Quick Controls Watermark / Touch Helper */}
+          <div className="absolute bottom-3 left-3 text-[11px] font-medium text-slate-400 dark:text-slate-500 pointer-events-none bg-white/80 dark:bg-slate-900/80 backdrop-blur-xs px-2.5 py-1 rounded-lg border border-slate-200/50 dark:border-slate-800/50 flex items-center space-x-1.5 sm:space-x-2">
+            <span>👆 Touch/drag to pan</span>
             <span>•</span>
-            <span>🔍 Zoom with buttons</span>
+            <span>🤏 Pinch zoom</span>
             <span>•</span>
-            <span>👆 Tap node to inspect</span>
+            <span>Tap node to inspect</span>
+          </div>
+
+          {/* Floating Mobile Directional & Zoom Controller */}
+          <div className="sm:hidden absolute bottom-3 right-3 flex flex-col items-center bg-white/90 dark:bg-slate-900/90 backdrop-blur-md p-1.5 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-lg space-y-1 z-30">
+            <button
+              onClick={() => handleNudgePan(0, 60)}
+              className="w-7 h-7 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 flex items-center justify-center text-xs font-bold active:scale-95 transition"
+              title="Pan Up"
+            >
+              ▲
+            </button>
+            <div className="flex items-center space-x-1">
+              <button
+                onClick={() => handleNudgePan(60, 0)}
+                className="w-7 h-7 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 flex items-center justify-center text-xs font-bold active:scale-95 transition"
+                title="Pan Left"
+              >
+                ◀
+              </button>
+              <button
+                onClick={centerView}
+                className="w-7 h-7 rounded-lg bg-blue-50 dark:bg-blue-950 text-blue-600 dark:text-blue-400 flex items-center justify-center text-[10px] font-bold active:scale-95 transition"
+                title="Center View"
+              >
+                ⊙
+              </button>
+              <button
+                onClick={() => handleNudgePan(-60, 0)}
+                className="w-7 h-7 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 flex items-center justify-center text-xs font-bold active:scale-95 transition"
+                title="Pan Right"
+              >
+                ▶
+              </button>
+            </div>
+            <button
+              onClick={() => handleNudgePan(0, -60)}
+              className="w-7 h-7 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 flex items-center justify-center text-xs font-bold active:scale-95 transition"
+              title="Pan Down"
+            >
+              ▼
+            </button>
+            <div className="w-full h-px bg-slate-200 dark:bg-slate-700 my-0.5" />
+            <div className="flex items-center space-x-1">
+              <button
+                onClick={() => handleZoom(0.15)}
+                className="w-7 h-7 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 flex items-center justify-center text-sm font-bold active:scale-95 transition"
+                title="Zoom In"
+              >
+                +
+              </button>
+              <button
+                onClick={() => handleZoom(-0.15)}
+                className="w-7 h-7 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 flex items-center justify-center text-sm font-bold active:scale-95 transition"
+                title="Zoom Out"
+              >
+                -
+              </button>
+            </div>
           </div>
 
         </div>

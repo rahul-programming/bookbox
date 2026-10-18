@@ -21,32 +21,137 @@ export const KeyInsightsView: React.FC<KeyInsightsViewProps> = ({
   onStartAudio,
   fontSizeClass
 }) => {
+  const [touchStartX, setTouchStartX] = React.useState<number | null>(null);
+  const [touchStartY, setTouchStartY] = React.useState<number | null>(null);
+  const [swipeOffset, setSwipeOffset] = React.useState<number>(0);
+  const [isSwiping, setIsSwiping] = React.useState<boolean>(false);
+
   const blink = book.blinks[currentBlinkIndex] || book.blinks[0];
   const isFirst = currentBlinkIndex === 0;
   const isLast = currentBlinkIndex === book.blinks.length - 1;
 
+  const handleTouchStart = (e: React.TouchEvent) => {
+    setTouchStartX(e.touches[0].clientX);
+    setTouchStartY(e.touches[0].clientY);
+    setIsSwiping(true);
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    if (touchStartX === null || touchStartY === null) return;
+    const deltaX = e.touches[0].clientX - touchStartX;
+    const deltaY = e.touches[0].clientY - touchStartY;
+    // Track horizontal swipe if dominant
+    if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) < 140) {
+      setSwipeOffset(deltaX * 0.35);
+    }
+  };
+
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    if (touchStartX !== null && touchStartY !== null) {
+      const touchEndX = e.changedTouches[0].clientX;
+      const touchEndY = e.changedTouches[0].clientY;
+      const deltaX = touchEndX - touchStartX;
+      const deltaY = touchEndY - touchStartY;
+
+      // Minimum swipe distance of 45px and predominantly horizontal
+      if (Math.abs(deltaX) > 45 && Math.abs(deltaX) > Math.abs(deltaY) * 1.2) {
+        if (deltaX < 0) {
+          // Swipe Left -> Next Insight
+          if (!isLast) {
+            onBlinkChange(currentBlinkIndex + 1);
+          } else {
+            onCompleteBook();
+          }
+        } else {
+          // Swipe Right -> Previous Insight
+          if (!isFirst) {
+            onBlinkChange(currentBlinkIndex - 1);
+          }
+        }
+      }
+    }
+    setTouchStartX(null);
+    setTouchStartY(null);
+    setSwipeOffset(0);
+    setIsSwiping(false);
+  };
+
   if (!blink) return null;
 
   return (
-    <div className="max-w-3xl mx-auto py-6 sm:py-8">
+    <div 
+      className="max-w-3xl mx-auto py-6 sm:py-8 touch-pan-y"
+      onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
+      onTouchEnd={handleTouchEnd}
+      onTouchCancel={handleTouchEnd}
+      style={{
+        transform: `translateX(${swipeOffset}px)`,
+        transition: isSwiping ? 'none' : 'transform 0.25s cubic-bezier(0.16, 1, 0.3, 1)'
+      }}
+    >
       
-      {/* Top Insight Stepper & Audio Trigger */}
-      <div className="flex items-center justify-between border-b border-slate-200/80 dark:border-slate-800 pb-4 mb-6">
+      {/* Top Insight Stepper, Top Prev/Next & Audio Trigger */}
+      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-200/80 dark:border-slate-800 pb-4 mb-6">
         <div className="flex items-center space-x-2">
           <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/60 px-3 py-1 rounded-full border border-blue-200 dark:border-blue-900">
             Insight {currentBlinkIndex + 1} of {book.blinks.length}
           </span>
-          <span className="text-xs text-slate-400">· ~2 min read</span>
+          <span className="text-xs text-slate-400 hidden sm:inline">· ~2 min read</span>
         </div>
 
-        <button
-          onClick={onStartAudio}
-          className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 text-xs font-semibold transition"
-          title="Listen to this Insight"
-        >
-          <Volume2 className="w-4 h-4 text-blue-600 dark:text-blue-400" />
-          <span>Listen</span>
-        </button>
+        {/* Top Prev & Next Navigation Buttons */}
+        <div className="flex items-center space-x-2">
+          <button
+            onClick={() => onBlinkChange(currentBlinkIndex - 1)}
+            disabled={isFirst}
+            className={`flex items-center space-x-1 px-3 py-1.5 rounded-lg text-xs font-semibold border transition ${
+              isFirst
+                ? 'opacity-40 cursor-not-allowed border-slate-200 dark:border-slate-800 text-slate-400'
+                : 'border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/80 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 shadow-2xs'
+            }`}
+            title="Previous Insight"
+          >
+            <ChevronLeft className="w-3.5 h-3.5" />
+            <span>Prev</span>
+          </button>
+
+          {isLast ? (
+            <button
+              onClick={onCompleteBook}
+              className="flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs shadow-xs transition"
+              title="Finish Book"
+            >
+              <CheckCircle className="w-3.5 h-3.5" />
+              <span>Finish</span>
+            </button>
+          ) : (
+            <button
+              onClick={() => onBlinkChange(currentBlinkIndex + 1)}
+              className="flex items-center space-x-1 px-3.5 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs shadow-xs transition"
+              title="Next Insight"
+            >
+              <span>Next</span>
+              <ChevronRight className="w-3.5 h-3.5" />
+            </button>
+          )}
+
+          <button
+            onClick={onStartAudio}
+            className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 text-xs font-semibold transition"
+            title="Listen to this Insight"
+          >
+            <Volume2 className="w-3.5 h-3.5 text-blue-600 dark:text-blue-400" />
+            <span className="hidden sm:inline">Listen</span>
+          </button>
+        </div>
+      </div>
+
+      {/* Mobile Swipe Hint */}
+      <div className="flex sm:hidden items-center justify-between text-[11px] text-slate-400 pb-2 px-1">
+        <span>👈 Swipe right for Prev</span>
+        <span className="font-medium text-blue-500/80">Swipable</span>
+        <span>Swipe left for Next 👉</span>
       </div>
 
       {/* Progress Dots */}

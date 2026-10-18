@@ -8,6 +8,9 @@ interface HeaderProps {
   onThemeChange: (theme: ThemeMode) => void;
   onOpenBackup: () => void;
   onOpenImportBook: () => void;
+  fontSizeIndex: number;
+  onIncreaseFontSize: () => void;
+  onDecreaseFontSize: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -15,7 +18,10 @@ export const Header: React.FC<HeaderProps> = ({
   theme,
   onThemeChange,
   onOpenBackup,
-  onOpenImportBook
+  onOpenImportBook,
+  fontSizeIndex,
+  onIncreaseFontSize,
+  onDecreaseFontSize
 }) => {
   const cycleTheme = () => {
     if (theme === 'light') onThemeChange('dark');
@@ -77,6 +83,34 @@ export const Header: React.FC<HeaderProps> = ({
                 style={{ width: `${goalPercent}%` }}
               />
             </div>
+          </div>
+
+          {/* Global Text Size Scaler (App Level) */}
+          <div 
+            className="flex items-center space-x-0.5 bg-slate-100 dark:bg-slate-800 rounded-lg p-0.5 border border-slate-200/80 dark:border-slate-700/80 shadow-2xs"
+            title="Adjust global text size (affects all tabs and reader views)"
+          >
+            <button
+              onClick={onDecreaseFontSize}
+              disabled={fontSizeIndex <= 0}
+              aria-label="Decrease font size"
+              title="Decrease text size (A-)"
+              className="px-2 py-1 rounded text-xs font-bold text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-700 disabled:opacity-30 disabled:cursor-not-allowed transition"
+            >
+              A-
+            </button>
+            <span className="text-[10px] font-mono font-bold text-slate-500 dark:text-slate-400 px-1 select-none">
+              {['SM', 'MD', 'LG', 'XL'][fontSizeIndex]}
+            </span>
+            <button
+              onClick={onIncreaseFontSize}
+              disabled={fontSizeIndex >= 3}
+              aria-label="Increase font size"
+              title="Increase text size (A+)"
+              className="px-2 py-1 rounded text-xs font-bold text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-700 disabled:opacity-30 disabled:cursor-not-allowed transition"
+            >
+              A+
+            </button>
           </div>
 
           {/* Theme Toggle Button */}

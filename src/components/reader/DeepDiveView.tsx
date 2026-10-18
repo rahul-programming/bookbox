@@ -185,13 +185,13 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ book, fontSizeClass,
               </div>
 
               {/* Elevator Pitch Callout */}
-              <div className="p-4 rounded-xl bg-blue-50/70 dark:bg-blue-950/30 border-l-4 border-blue-500 text-slate-800 dark:text-slate-200 text-sm sm:text-base font-medium leading-relaxed font-serif">
+              <div className={`p-4 rounded-xl bg-blue-50/70 dark:bg-blue-950/30 border-l-4 border-blue-500 text-slate-800 dark:text-slate-200 font-medium font-serif ${fontSizeClass}`}>
                 {book.onePageSummary.elevatorPitch}
               </div>
 
               {/* Deep Narrative Executive Summary if available */}
               {book.onePageSummary.executiveSummary && (
-                <div className="pt-2 text-sm sm:text-base text-slate-700 dark:text-slate-300 leading-relaxed font-serif space-y-3">
+                <div className={`pt-2 text-slate-700 dark:text-slate-300 font-serif space-y-3 ${fontSizeClass}`}>
                   {book.onePageSummary.executiveSummary.split('\n\n').map((para, i) => (
                     <p key={i}>{para}</p>
                   ))}
@@ -204,7 +204,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ book, fontSizeClass,
               <span className="text-xs font-bold uppercase tracking-wider text-blue-700 dark:text-blue-300 block mb-1">
                 Foundational Thesis
               </span>
-              <p className="text-base sm:text-lg font-bold text-slate-900 dark:text-slate-100 leading-snug">
+              <p className={`font-bold text-slate-900 dark:text-slate-100 ${fontSizeClass}`}>
                 "{book.onePageSummary.coreThesis}"
               </p>
             </div>
@@ -228,7 +228,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ book, fontSizeClass,
                         <span className="w-6 h-6 rounded-full bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">
                           {idx + 1}
                         </span>
-                        <p className="text-sm sm:text-base text-slate-800 dark:text-slate-200 leading-relaxed">
+                        <p className={`text-slate-800 dark:text-slate-200 ${fontSizeClass}`}>
                           {pillar}
                         </p>
                       </div>
@@ -245,7 +245,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ book, fontSizeClass,
                           {pillar.title}
                         </h4>
                       </div>
-                      <p className="text-sm text-slate-700 dark:text-slate-300 leading-relaxed font-serif pl-9">
+                      <p className={`text-slate-700 dark:text-slate-300 font-serif pl-9 ${fontSizeClass}`}>
                         {pillar.description}
                       </p>
                       {pillar.actionableTakeaway && (

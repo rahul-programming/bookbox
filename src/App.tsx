@@ -20,10 +20,30 @@ export function App() {
   const [profile, setProfile] = useState<UserHabitProfile | null>(null);
   const [stashedCount, setStashedCount] = useState<number>(0);
   const [theme, setTheme] = useState<ThemeMode>('light');
+  const [fontSizeIndex, setFontSizeIndex] = useState<number>(() => {
+    const saved = localStorage.getItem('bookbox_font_size');
+    return saved !== null ? parseInt(saved, 10) : 1;
+  });
   
   // Modals
   const [isBackupOpen, setIsBackupOpen] = useState(false);
   const [activeStashIdea, setActiveStashIdea] = useState<IdeaCard | null>(null);
+
+  const handleIncreaseFontSize = () => {
+    setFontSizeIndex(prev => {
+      const next = Math.min(3, prev + 1);
+      localStorage.setItem('bookbox_font_size', String(next));
+      return next;
+    });
+  };
+
+  const handleDecreaseFontSize = () => {
+    setFontSizeIndex(prev => {
+      const next = Math.max(0, prev - 1);
+      localStorage.setItem('bookbox_font_size', String(next));
+      return next;
+    });
+  };
 
   // Load theme and initialize database
   useEffect(() => {
@@ -91,6 +111,9 @@ export function App() {
         onThemeChange={handleThemeChange}
         onOpenBackup={() => setIsBackupOpen(true)}
         onOpenImportBook={() => setIsBackupOpen(true)}
+        fontSizeIndex={fontSizeIndex}
+        onIncreaseFontSize={handleIncreaseFontSize}
+        onDecreaseFontSize={handleDecreaseFontSize}
       />
 
       {/* Main Content: If a book is selected, open Unified ReaderView; otherwise show Tabs & Dashboard */}
@@ -103,6 +126,7 @@ export function App() {
           }}
           onOpenStashModal={(idea) => setActiveStashIdea(idea)}
           onBookCompleted={() => refreshData()}
+          fontSizeIndex={fontSizeIndex}
         />
       ) : (
         <>

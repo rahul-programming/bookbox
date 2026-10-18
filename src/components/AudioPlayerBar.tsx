@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 import { 
   Play, 
   Pause, 
@@ -9,8 +9,8 @@ import {
   SkipBack, 
   SkipForward, 
   X,
-  Check,
-  Sparkles
+  Sparkles,
+  Sliders
 } from 'lucide-react';
 import { speechService, VoiceOption } from '../services/speechService';
 
@@ -35,26 +35,39 @@ export const AudioPlayerBar: React.FC<AudioPlayerBarProps> = ({
   const [isPaused, setIsPaused] = useState(false);
   const [speed, setSpeed] = useState<number>(speechService.getPlaybackRate());
   const [voices, setVoices] = useState<VoiceOption[]>([]);
-  const [showVoicePicker, setShowVoicePicker] = useState(false);
+  const [showVoiceModal, setShowVoiceModal] = useState(false);
+  const [filterFemaleOnly, setFilterFemaleOnly] = useState(false);
   const [sentenceInfo, setSentenceInfo] = useState({ current: 1, total: 1 });
+  const [selectedVoiceId, setSelectedVoiceId] = useState<string>('');
 
-  // Load and sort voices by natural quality
+  // Load and continuously sync voices for Android asynchronous discovery
   useEffect(() => {
     const updateVoiceList = () => {
       const vList = speechService.getVoices();
-      setVoices(vList);
+      if (vList.length > 0) {
+        setVoices(vList);
+        const current = speechService.getSelectedVoice();
+        if (current) {
+          setSelectedVoiceId(current.voiceURI || current.name);
+        }
+      }
     };
 
     updateVoiceList();
+
+    // Aggressive multi-delay polling for Android Chrome / WebView / Samsung Internet
+    const timers = [100, 300, 700, 1500, 3000].map(ms => setTimeout(updateVoiceList, ms));
+
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
       window.speechSynthesis.addEventListener('voiceschanged', updateVoiceList);
       return () => {
+        timers.forEach(t => clearTimeout(t));
         window.speechSynthesis.removeEventListener('voiceschanged', updateVoiceList);
       };
     }
   }, []);
 
-  // When active text changes (e.g., user moves to next chapter or switches tabs), start/restart
+  // When active text changes (e.g., user moves to next chapter or switches tabs), start playback
   useEffect(() => {
     if (activeText && activeText.trim().length > 0) {
       startPlayback(0);
@@ -111,190 +124,359 @@ export const AudioPlayerBar: React.FC<AudioPlayerBarProps> = ({
     setSentenceInfo(prog);
   };
 
+  const handleSpeedSelect = (newSpeed: number) => {
+    speechService.setPlaybackRate(newSpeed);
+    setSpeed(newSpeed);
+  };
+
   const cycleSpeed = () => {
     const speeds = [1.0, 1.15, 1.25, 1.5, 1.75, 0.85];
     const currentIndex = speeds.indexOf(speed);
     const nextSpeed = speeds[(currentIndex + 1) % speeds.length];
-    speechService.setPlaybackRate(nextSpeed);
-    setSpeed(nextSpeed);
+    handleSpeedSelect(nextSpeed);
   };
 
-  const handleVoiceSelect = (v: SpeechSynthesisVoice) => {
-    speechService.setVoice(v);
-    setShowVoicePicker(false);
-    if (isPlaying && !isPaused) {
-      const curr = Math.max(0, sentenceInfo.current - 1);
-      startPlayback(curr);
+  const handleVoiceSelectById = (id: string) => {
+    const chosen = voices.find(v => v.id === id || v.rawName === id || v.voice.name === id);
+    if (chosen) {
+      speechService.setVoice(chosen.voice);
+      setSelectedVoiceId(chosen.id);
+      if (isPlaying && !isPaused) {
+        const curr = Math.max(0, sentenceInfo.current - 1);
+        startPlayback(curr);
+      }
+    }
+  };
+
+  const handleTestVoice = () => {
+    const active = speechService.getSelectedVoice();
+    if (active) {
+      speechService.testVoice(active);
     }
   };
 
   const activeVoice = speechService.getSelectedVoice();
 
+  // Categorize voices for Android Native <select> <optgroup> rendering
+  const { femaleVoices, androidVoices, otherVoices } = useMemo(() => {
+    const list = filterFemaleOnly ? voices.filter(v => v.isFemale) : voices;
+    const female = list.filter(v => v.isFemale);
+    const android = list.filter(v => !v.isFemale && v.isAndroid);
+    const other = list.filter(v => !v.isFemale && !v.isAndroid);
+
+    return {
+      femaleVoices: female,
+      androidVoices: android,
+      otherVoices: other
+    };
+  }, [voices, filterFemaleOnly]);
+
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 p-3 sm:p-4 bg-slate-900/95 dark:bg-slate-950/95 text-white border-t border-slate-700/80 backdrop-blur-lg shadow-2xl transition-all">
-      <div className="max-w-5xl mx-auto flex flex-col sm:flex-row sm:items-center justify-between gap-3 sm:gap-6">
-        
-        {/* Track Info & Sentence Counter */}
-        <div className="flex-1 min-w-0">
-          <div className="flex items-center space-x-2">
-            <span className={`w-2.5 h-2.5 rounded-full ${isPlaying && !isPaused ? 'bg-emerald-400 animate-pulse' : 'bg-slate-500'}`} />
-            <p className="text-[11px] font-semibold tracking-wider uppercase text-slate-400 truncate">
-              {bookTitle}
+    <>
+      {/* Floating Audio Narration Bottom Bar */}
+      <div className="fixed bottom-0 left-0 right-0 z-40 p-3 sm:p-4 bg-slate-900/95 dark:bg-slate-950/95 text-white border-t border-slate-700/80 backdrop-blur-lg shadow-2xl transition-all">
+        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row sm:items-center justify-between gap-3 sm:gap-6">
+          
+          {/* Track Info & Sentence Counter */}
+          <div className="flex-1 min-w-0">
+            <div className="flex items-center space-x-2">
+              <span className={`w-2.5 h-2.5 rounded-full ${isPlaying && !isPaused ? 'bg-emerald-400 animate-pulse' : 'bg-slate-500'}`} />
+              <p className="text-[11px] font-semibold tracking-wider uppercase text-slate-400 truncate">
+                {bookTitle}
+              </p>
+              <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-blue-300 border border-slate-700">
+                Sentence {sentenceInfo.current}/{sentenceInfo.total}
+              </span>
+            </div>
+            <p className="text-sm font-semibold text-slate-100 truncate mt-0.5">
+              {activeHeadline}
             </p>
-            <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-blue-300 border border-slate-700">
-              Sentence {sentenceInfo.current}/{sentenceInfo.total}
-            </span>
           </div>
-          <p className="text-sm font-semibold text-slate-100 truncate mt-0.5">
-            {activeHeadline}
-          </p>
-        </div>
 
-        {/* Playback Controls */}
-        <div className="flex items-center justify-between sm:justify-center space-x-1 sm:space-x-2">
-          
-          {/* Replay From Start */}
-          <button
-            onClick={() => startPlayback(0)}
-            className="p-2 rounded-full text-slate-400 hover:text-white hover:bg-slate-800 transition"
-            title="Restart from Beginning"
-          >
-            <RotateCcw className="w-4 h-4" />
-          </button>
-
-          {/* Previous Sentence */}
-          <button
-            onClick={handlePreviousSentence}
-            className="p-2 rounded-full text-slate-400 hover:text-white hover:bg-slate-800 transition"
-            title="Previous Sentence"
-          >
-            <SkipBack className="w-4 h-4" />
-          </button>
-
-          {/* Main Play / Pause Button */}
-          <button
-            onClick={handlePlayToggle}
-            className="p-3 rounded-full bg-blue-600 hover:bg-blue-500 text-white shadow-lg shadow-blue-600/30 transition transform hover:scale-105 active:scale-95"
-            title={isPlaying && !isPaused ? 'Pause' : 'Play Narration'}
-          >
-            {isPlaying && !isPaused ? (
-              <Pause className="w-5 h-5 fill-current" />
-            ) : (
-              <Play className="w-5 h-5 fill-current ml-0.5" />
-            )}
-          </button>
-
-          {/* Next Sentence */}
-          <button
-            onClick={handleNextSentence}
-            className="p-2 rounded-full text-slate-400 hover:text-white hover:bg-slate-800 transition"
-            title="Next Sentence"
-          >
-            <SkipForward className="w-4 h-4" />
-          </button>
-
-          {/* Stop Button */}
-          <button
-            onClick={handleStop}
-            className="p-2 rounded-full text-slate-400 hover:text-white hover:bg-slate-800 transition"
-            title="Stop Audio"
-          >
-            <Square className="w-4 h-4" />
-          </button>
-
-          {/* Next Item (if provided) */}
-          {onNext && (
+          {/* Playback Controls */}
+          <div className="flex items-center justify-between sm:justify-center space-x-1 sm:space-x-2">
+            
+            {/* Replay From Start */}
             <button
-              onClick={onNext}
+              onClick={() => startPlayback(0)}
               className="p-2 rounded-full text-slate-400 hover:text-white hover:bg-slate-800 transition"
-              title="Next Section"
+              title="Restart from Beginning"
             >
-              <FastForward className="w-4 h-4" />
+              <RotateCcw className="w-4 h-4" />
             </button>
-          )}
-        </div>
 
-        {/* Settings: Speed & Natural Voice Selector */}
-        <div className="flex items-center justify-end space-x-2 sm:space-x-3">
-          
-          {/* Speed Toggle */}
-          <button
-            onClick={cycleSpeed}
-            className="px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-bold text-blue-400 transition border border-slate-700"
-            title="Change Narration Speed"
-          >
-            {speed}x
-          </button>
-
-          {/* Voice Selector Trigger */}
-          <div className="relative">
+            {/* Previous Sentence */}
             <button
-              onClick={() => setShowVoicePicker(!showVoicePicker)}
+              onClick={handlePreviousSentence}
+              className="p-2 rounded-full text-slate-400 hover:text-white hover:bg-slate-800 transition"
+              title="Previous Sentence"
+            >
+              <SkipBack className="w-4 h-4" />
+            </button>
+
+            {/* Main Play / Pause Button */}
+            <button
+              onClick={handlePlayToggle}
+              className="p-3 rounded-full bg-blue-600 hover:bg-blue-500 text-white shadow-lg shadow-blue-600/30 transition transform hover:scale-105 active:scale-95"
+              title={isPlaying && !isPaused ? 'Pause' : 'Play Narration'}
+            >
+              {isPlaying && !isPaused ? (
+                <Pause className="w-5 h-5 fill-current" />
+              ) : (
+                <Play className="w-5 h-5 fill-current ml-0.5" />
+              )}
+            </button>
+
+            {/* Next Sentence */}
+            <button
+              onClick={handleNextSentence}
+              className="p-2 rounded-full text-slate-400 hover:text-white hover:bg-slate-800 transition"
+              title="Next Sentence"
+            >
+              <SkipForward className="w-4 h-4" />
+            </button>
+
+            {/* Stop Button */}
+            <button
+              onClick={handleStop}
+              className="p-2 rounded-full text-slate-400 hover:text-white hover:bg-slate-800 transition"
+              title="Stop Audio"
+            >
+              <Square className="w-4 h-4" />
+            </button>
+
+            {/* Next Section (if provided) */}
+            {onNext && (
+              <button
+                onClick={onNext}
+                className="p-2 rounded-full text-slate-400 hover:text-white hover:bg-slate-800 transition"
+                title="Next Section"
+              >
+                <FastForward className="w-4 h-4" />
+              </button>
+            )}
+          </div>
+
+          {/* Settings: Speed & TTSReader Voice Trigger */}
+          <div className="flex items-center justify-end space-x-2 sm:space-x-3">
+            
+            {/* Speed Toggle */}
+            <button
+              onClick={cycleSpeed}
+              className="px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-bold text-blue-400 transition border border-slate-700"
+              title="Change Narration Speed"
+            >
+              {speed}x
+            </button>
+
+            {/* Dedicated TTSReader Voice Modal Trigger */}
+            <button
+              onClick={() => setShowVoiceModal(true)}
               className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs transition border border-slate-700"
-              title="Voice Settings (Female Natural Voice)"
+              title="Open TTSReader Voice Settings (Android & High-Fidelity Voices)"
             >
               <Volume2 className="w-3.5 h-3.5 text-pink-400" />
-              <span className="hidden md:inline max-w-[120px] truncate text-slate-200 font-medium">
-                {activeVoice ? activeVoice.name.replace(/Google/i, '').replace(/\(Female\)/i, '').replace(/🌟/i, '').trim() : 'Natural Voice'}
+              <span className="hidden md:inline max-w-[130px] truncate text-slate-200 font-medium">
+                {activeVoice ? activeVoice.name.replace(/Google/i, '').replace(/\(Female\)/i, '').replace(/🌟/i, '').trim() : 'TTS Voice'}
               </span>
               <span className="text-[10px] text-pink-300 font-bold px-1.5 py-0.2 rounded bg-pink-950/80 border border-pink-700/60">
                 ♀ Natural
               </span>
+              <Sliders className="w-3 h-3 text-slate-400 ml-0.5" />
             </button>
 
-            {showVoicePicker && (
-              <div className="absolute right-0 bottom-full mb-3 w-72 max-h-80 overflow-y-auto rounded-2xl bg-slate-900 border border-slate-700 p-2.5 shadow-2xl z-50 text-xs">
-                <div className="px-2 py-1 mb-2 border-b border-slate-700/80 flex items-center justify-between">
-                  <span className="font-bold text-slate-200 flex items-center space-x-1.5">
-                    <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-                    <span>High-Fidelity Voices</span>
-                  </span>
-                  <span className="text-[10px] text-pink-400 font-semibold">♀ Female first</span>
-                </div>
-                
-                <div className="space-y-1">
-                  {voices.map((v, i) => {
-                    const isSelected = activeVoice?.name === v.voice.name;
-                    return (
-                      <button
-                        key={i}
-                        onClick={() => handleVoiceSelect(v.voice)}
-                        className={`w-full text-left px-2.5 py-2 rounded-xl text-xs truncate transition flex items-center justify-between ${
-                          isSelected 
-                            ? 'bg-blue-600/30 text-blue-300 font-semibold border border-blue-500/50' 
-                            : 'hover:bg-slate-800 text-slate-200'
-                        }`}
-                      >
-                        <div className="flex items-center space-x-1.5 truncate">
-                          {v.isFemale && <span className="text-pink-400 text-xs">♀</span>}
-                          <span className="truncate">{v.name}</span>
-                        </div>
-                        {isSelected && <Check className="w-3.5 h-3.5 text-blue-400 shrink-0 ml-1.5" />}
-                      </button>
-                    );
-                  })}
-                </div>
-              </div>
+            {/* Close Floating Bar */}
+            {onClose && (
+              <button
+                onClick={() => {
+                  handleStop();
+                  onClose();
+                }}
+                className="p-2 rounded-lg text-slate-400 hover:text-white transition"
+                title="Close Player"
+              >
+                <X className="w-4 h-4" />
+              </button>
             )}
+
           </div>
 
-          {/* Close Floating Bar */}
-          {onClose && (
-            <button
-              onClick={() => {
-                handleStop();
-                onClose();
-              }}
-              className="p-2 rounded-lg text-slate-400 hover:text-white transition"
-              title="Close Player"
-            >
-              <X className="w-4 h-4" />
-            </button>
-          )}
-
         </div>
-
       </div>
-    </div>
+
+      {/* TTSReader Voice Settings Modal Dialog (Works 100% on Android touch devices) */}
+      {showVoiceModal && (
+        <div 
+          className="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto"
+          onClick={() => setShowVoiceModal(false)}
+        >
+          <div 
+            className="bg-slate-900 border border-slate-700 rounded-3xl max-w-lg w-full p-5 sm:p-6 shadow-2xl space-y-5 text-white"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Modal Header */}
+            <div className="flex items-center justify-between pb-3 border-b border-slate-800">
+              <div className="flex items-center space-x-2.5">
+                <div className="w-9 h-9 rounded-xl bg-blue-600/20 text-blue-400 flex items-center justify-center border border-blue-500/30">
+                  <Volume2 className="w-5 h-5 text-pink-400" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-base text-slate-100 flex items-center space-x-2">
+                    <span>TTSReader Voice Settings</span>
+                    <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-emerald-950 text-emerald-300 border border-emerald-800">
+                      Android Ready
+                    </span>
+                  </h3>
+                  <p className="text-xs text-slate-400">
+                    High-fidelity neural and offline system voice models
+                  </p>
+                </div>
+              </div>
+
+              <button
+                onClick={() => setShowVoiceModal(false)}
+                className="p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            {/* Filter Pills */}
+            <div className="flex items-center space-x-2">
+              <button
+                onClick={() => setFilterFemaleOnly(false)}
+                className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition ${
+                  !filterFemaleOnly
+                    ? 'bg-blue-600 text-white shadow-xs'
+                    : 'bg-slate-800 text-slate-400 hover:text-white'
+                }`}
+              >
+                All Available Voices ({voices.length})
+              </button>
+              <button
+                onClick={() => setFilterFemaleOnly(true)}
+                className={`px-3 py-1.5 rounded-xl text-xs font-semibold flex items-center space-x-1.5 transition ${
+                  filterFemaleOnly
+                    ? 'bg-pink-600 text-white shadow-xs'
+                    : 'bg-slate-800 text-slate-400 hover:text-white'
+                }`}
+              >
+                <span>♀ Female Voices Only</span>
+                <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-black/30">
+                  {voices.filter(v => v.isFemale).length}
+                </span>
+              </button>
+            </div>
+
+            {/* Native Mobile Voice Picker Dropdown (Triggers Android OS Native Selection Dialog) */}
+            <div className="space-y-2">
+              <label className="text-xs font-bold text-slate-300 uppercase tracking-wider block">
+                Select Voice Model:
+              </label>
+
+              {voices.length === 0 ? (
+                <div className="p-4 rounded-xl bg-slate-800/80 border border-slate-700 text-xs text-slate-400 flex items-center space-x-2">
+                  <div className="w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin shrink-0" />
+                  <span>Loading device speech synthesis models...</span>
+                </div>
+              ) : (
+                <div className="relative">
+                  <select
+                    value={selectedVoiceId || activeVoice?.voiceURI || activeVoice?.name || ''}
+                    onChange={(e) => handleVoiceSelectById(e.target.value)}
+                    className="w-full p-3.5 rounded-xl bg-slate-800 text-slate-100 border border-slate-700 text-xs sm:text-sm font-medium focus:ring-2 focus:ring-blue-500 focus:outline-none transition"
+                  >
+                    {femaleVoices.length > 0 && (
+                      <optgroup label="🌟 High-Fidelity Female Voices (Recommended)">
+                        {femaleVoices.map(v => (
+                          <option key={v.id} value={v.id}>
+                            {v.name}
+                          </option>
+                        ))}
+                      </optgroup>
+                    )}
+
+                    {androidVoices.length > 0 && (
+                      <optgroup label="📱 Android & Google System Voices">
+                        {androidVoices.map(v => (
+                          <option key={v.id} value={v.id}>
+                            {v.name}
+                          </option>
+                        ))}
+                      </optgroup>
+                    )}
+
+                    {otherVoices.length > 0 && (
+                      <optgroup label="🎙️ Other Available System Voices">
+                        {otherVoices.map(v => (
+                          <option key={v.id} value={v.id}>
+                            {v.name}
+                          </option>
+                        ))}
+                      </optgroup>
+                    )}
+                  </select>
+                </div>
+              )}
+
+              <p className="text-[11px] text-slate-400">
+                💡 Tip on Android: Tapping opens your device's native voice selector. Google and Samsung TTS engines support natural local voices.
+              </p>
+            </div>
+
+            {/* Test Selected Voice Button */}
+            <div>
+              <button
+                type="button"
+                onClick={handleTestVoice}
+                className="w-full flex items-center justify-center space-x-2 py-3 rounded-xl bg-blue-600/20 hover:bg-blue-600/30 text-blue-300 border border-blue-500/40 font-semibold text-xs sm:text-sm transition transform active:scale-95 cursor-pointer"
+              >
+                <Volume2 className="w-4 h-4 text-pink-400 animate-pulse" />
+                <span>Test Selected Voice (Hear Sample) 🔊</span>
+              </button>
+            </div>
+
+            {/* Narration Speed Selection */}
+            <div className="space-y-2 pt-2 border-t border-slate-800">
+              <label className="text-xs font-bold text-slate-300 uppercase tracking-wider block">
+                Narration Speed:
+              </label>
+              <div className="grid grid-cols-6 gap-1.5 sm:gap-2">
+                {[0.85, 1.0, 1.15, 1.25, 1.5, 1.75].map(s => (
+                  <button
+                    key={s}
+                    type="button"
+                    onClick={() => handleSpeedSelect(s)}
+                    className={`py-2 rounded-xl text-xs font-bold transition ${
+                      speed === s
+                        ? 'bg-blue-600 text-white shadow-xs'
+                        : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
+                    }`}
+                  >
+                    {s}x
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Modal Actions */}
+            <div className="pt-2 border-t border-slate-800 flex items-center justify-between gap-3">
+              <div className="text-[11px] text-slate-400 flex items-center space-x-1.5">
+                <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+                <span>Voice saved to device storage</span>
+              </div>
+
+              <button
+                onClick={() => setShowVoiceModal(false)}
+                className="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs transition transform hover:scale-105 active:scale-95"
+              >
+                Done
+              </button>
+            </div>
+
+          </div>
+        </div>
+      )}
+    </>
   );
 };

@@ -22,6 +22,7 @@ interface ActionItemsViewProps {
   completedActionIds: string[];
   onToggleAction: (actionId: string) => void;
   onStartAudio: (headline: string, text: string) => void;
+  fontSizeClass?: string;
 }
 
 const CATEGORY_LABELS: Record<ActionCategory, { label: string; badge: string; icon: string }> = {
@@ -36,7 +37,8 @@ export const ActionItemsView: React.FC<ActionItemsViewProps> = ({
   book,
   completedActionIds,
   onToggleAction,
-  onStartAudio
+  onStartAudio,
+  fontSizeClass = 'text-sm sm:text-base leading-relaxed'
 }) => {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [copied, setCopied] = useState(false);
@@ -312,11 +314,11 @@ export const ActionItemsView: React.FC<ActionItemsViewProps> = ({
                     </div>
                   </div>
 
-                  <h3 className={`text-base font-bold text-slate-900 dark:text-slate-100 ${isDone ? 'line-through text-slate-400 dark:text-slate-500' : ''}`}>
+                  <h3 className={`font-bold text-slate-900 dark:text-slate-100 ${isDone ? 'line-through text-slate-400 dark:text-slate-500' : ''}`}>
                     {item.title}
                   </h3>
 
-                  <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                  <p className={`text-slate-600 dark:text-slate-300 ${fontSizeClass}`}>
                     {item.description}
                   </p>
 
@@ -337,7 +339,7 @@ export const ActionItemsView: React.FC<ActionItemsViewProps> = ({
                       </h4>
                       <ol className="space-y-1.5 pl-1">
                         {item.stepByStep.map((step, sIdx) => (
-                          <li key={sIdx} className="flex items-start space-x-2 text-xs text-slate-700 dark:text-slate-300 leading-relaxed">
+                          <li key={sIdx} className={`flex items-start space-x-2 text-slate-700 dark:text-slate-300 ${fontSizeClass}`}>
                             <span className="w-4 h-4 rounded-full bg-blue-100 dark:bg-blue-950 text-blue-700 dark:text-blue-300 flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">
                               {sIdx + 1}
                             </span>

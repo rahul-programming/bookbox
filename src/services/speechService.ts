@@ -1,10 +1,13 @@
 export interface VoiceOption {
   voice: SpeechSynthesisVoice;
+  id: string;
   name: string;
+  rawName: string;
   lang: string;
   isFemale: boolean;
   isNatural: boolean;
   isLocal: boolean;
+  isAndroid: boolean;
   score: number;
 }
 
@@ -18,15 +21,16 @@ export type BoundaryCallback = (charIndex: number, charLength: number, sentenceI
 export type EndCallback = () => void;
 export type StateChangeCallback = (isPlaying: boolean, isPaused: boolean, currentSentence: number, totalSentences: number) => void;
 
-class WebSpeechAudioEngine {
+class TTSReaderEngine {
   private synth: SpeechSynthesis | null = null;
   private currentUtterance: SpeechSynthesisUtterance | null = null;
   private voices: SpeechSynthesisVoice[] = [];
-  private selectedVoiceName: string = '';
+  private selectedVoiceId: string = '';
   private playbackRate: number = 1.0;
   private pauseTimer: ReturnType<typeof setTimeout> | null = null;
+  private keepAliveTimer: ReturnType<typeof setInterval> | null = null;
   
-  // Sentence-by-sentence queue for continuous, natural reading
+  // Sentence-by-sentence queue for natural, continuous reading
   private rawText: string = '';
   private sentences: SentenceChunk[] = [];
   private currentSentenceIdx: number = 0;
@@ -41,8 +45,13 @@ class WebSpeechAudioEngine {
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
       this.synth = window.speechSynthesis;
       this.loadVoices();
+
+      // Multi-stage polling: Android Chrome and WebView load voices asynchronously on startup
+      const pollDelays = [80, 200, 450, 900, 1800, 3200];
+      pollDelays.forEach(delay => {
+        setTimeout(() => this.loadVoices(), delay);
+      });
       
-      // Use addEventListener so we don't clobber other listeners
       if (typeof window.speechSynthesis.addEventListener === 'function') {
         window.speechSynthesis.addEventListener('voiceschanged', () => this.loadVoices());
       } else if (this.synth.onvoiceschanged !== undefined) {
@@ -51,11 +60,30 @@ class WebSpeechAudioEngine {
     }
   }
 
-  // Identify female voices accurately
+  // Detect English or compatible voices on all platforms including Android & Samsung
+  public isEnglishVoice(v: SpeechSynthesisVoice): boolean {
+    const lang = (v.lang || '').toLowerCase().replace(/_/g, '-');
+    const uri = (v.voiceURI || '').toLowerCase();
+    const name = (v.name || '').toLowerCase();
+
+    return (
+      lang.startsWith('en') || 
+      lang.startsWith('eng') || 
+      uri.includes('en-us') || 
+      uri.includes('en-gb') || 
+      uri.includes('en-au') || 
+      uri.includes('en-in') || 
+      uri.includes('en_') || 
+      name.includes('english')
+    );
+  }
+
+  // Identify female voices across Desktop, iOS, and Android
   public isFemaleVoice(v: SpeechSynthesisVoice): boolean {
-    const lower = `${v.name} ${v.voiceURI}`.toLowerCase();
+    const lower = `${v.name} ${v.voiceURI || ''} ${v.lang || ''}`.toLowerCase();
     const femaleIndicators = [
-      'female', 'samantha', 'karen', 'moira', 'tessa', 'fiona',
+      'female', 'sfg', 'iol', 'cxx', 'rjs', 'afh', 'wavenet-a', 'wavenet-c', 'wavenet-e', 'wavenet-f',
+      'samantha', 'karen', 'moira', 'tessa', 'fiona',
       'zira', 'jenny', 'aria', 'ava', 'allison', 'susan', 'veena',
       'serena', 'hazel', 'google us english', 'google uk english female'
     ];
@@ -66,14 +94,13 @@ class WebSpeechAudioEngine {
   private scoreVoice(v: SpeechSynthesisVoice): number {
     const name = v.name.toLowerCase();
     const uri = (v.voiceURI || '').toLowerCase();
-    const lang = v.lang.toLowerCase();
+    const isEng = this.isEnglishVoice(v);
 
-    // English voices only
-    if (!lang.startsWith('en')) return -1000;
+    if (!isEng) return -1000;
 
-    // Filter out notorious robotic Mac legacy voices and compact low-bitrate voices
+    // Filter out notoriously robotic legacy desktop voices
     const roboticBlacklist = [
-      'victoria', 'compact', 'fred', 'ralph', 'albert', 'bad news', 'bahh',
+      'victoria', 'fred', 'ralph', 'albert', 'bad news', 'bahh',
       'bells', 'boing', 'bubbles', 'cellos', 'deranged', 'good news',
       'hysterical', 'junior', 'pipe organ', 'trinoids', 'whisper', 'zarvox'
     ];
@@ -90,10 +117,13 @@ class WebSpeechAudioEngine {
     if (name.includes('enhanced') || uri.includes('enhanced')) score += 110;
     if (name.includes('premium') || uri.includes('premium')) score += 110;
 
-    // Google's modern TTS voices in Chrome
+    // Google's modern TTS voices on Android and Chrome
     if (name.includes('google uk english female')) score += 100;
     if (name.includes('google us english')) score += 95;
-    if (name.includes('google')) score += 60;
+    if (uri.includes('com.google.android.tts') || name.includes('google')) score += 85;
+
+    // Samsung TTS modern engines
+    if (name.includes('samsung') || uri.includes('samsung')) score += 80;
 
     // High quality modern female voices
     if (name.includes('jenny')) score += 90;
@@ -106,17 +136,51 @@ class WebSpeechAudioEngine {
     if (name.includes('tessa')) score += 60;
     if (name.includes('zira')) score += 50;
 
-    // Local voices get reliability bonus (never drop connection)
-    if (v.localService) score += 20;
+    // Local / Offline voices get reliability bonus on mobile devices
+    if (v.localService) score += 25;
 
     // Female bonus
     if (this.isFemaleVoice(v)) score += 30;
 
     // Standard dialect preference
-    if (lang === 'en-us' || lang === 'en_us') score += 15;
-    if (lang === 'en-gb' || lang === 'en_gb') score += 12;
+    const lang = (v.lang || '').toLowerCase();
+    if (lang.includes('en-us') || lang.includes('en_us')) score += 15;
+    if (lang.includes('en-gb') || lang.includes('en_gb')) score += 12;
 
     return score;
+  }
+
+  // Format technical Android identifiers into clean human-friendly names
+  public formatVoiceDisplayName(v: SpeechSynthesisVoice): string {
+    const uri = (v.voiceURI || '').toLowerCase();
+    const rawName = v.name;
+    const isFemale = this.isFemaleVoice(v);
+    const isAndroid = uri.includes('android') || uri.includes('samsung') || rawName.toLowerCase().includes('android') || rawName.toLowerCase().includes('samsung');
+
+    let name = rawName
+      .replace(/Microsoft /i, '')
+      .replace(/Online \(Natural\)/i, 'Natural')
+      .replace(/\(United States\)/i, 'US')
+      .replace(/\(United Kingdom\)/i, 'UK')
+      .replace(/English \(/i, '(')
+      .trim();
+
+    // Android Google TTS specific names: "en-us-x-sfg#female_1-local"
+    if (name.includes('en-us-x-') || name.includes('en-gb-x-') || name.includes('en-in-x-')) {
+      const parts = name.split('-');
+      const locale = parts.length > 1 ? parts[1].toUpperCase() : 'US';
+      const numMatch = name.match(/female_?(\d+)/i) || name.match(/male_?(\d+)/i) || name.match(/x-([a-z0-9]+)/i);
+      const id = numMatch ? numMatch[1] : '1';
+      name = `Google ${locale} ${isFemale ? 'Female' : 'Voice'} ${id}`.trim();
+    }
+
+    const badges: string[] = [];
+    if (isFemale) badges.push('♀ Female');
+    if (isAndroid) badges.push('📱 Android');
+    if (v.localService) badges.push('Offline');
+    else badges.push('Cloud');
+
+    return `${name} [${badges.join(' · ')}]`;
   }
 
   private loadVoices(): void {
@@ -125,14 +189,24 @@ class WebSpeechAudioEngine {
     if (freshVoices.length > 0) {
       this.voices = freshVoices;
       
-      // Auto-select preferred voice if not set
-      if (!this.selectedVoiceName) {
-        const sorted = [...this.voices]
-          .filter(v => v.lang.startsWith('en'))
-          .sort((a, b) => this.scoreVoice(b) - this.scoreVoice(a));
+      // Attempt to restore user's saved voice preference from localStorage
+      const savedVoiceId = typeof localStorage !== 'undefined' ? localStorage.getItem('bookbox_selected_voice') : null;
+      if (savedVoiceId) {
+        const matched = this.voices.find(v => (v.voiceURI && v.voiceURI === savedVoiceId) || v.name === savedVoiceId);
+        if (matched) {
+          this.selectedVoiceId = matched.voiceURI || matched.name;
+          return;
+        }
+      }
 
+      // If no valid saved voice, auto-select highest-scoring English/Android female voice
+      if (!this.selectedVoiceId) {
+        let candidates = this.voices.filter(v => this.isEnglishVoice(v));
+        if (candidates.length === 0) candidates = this.voices;
+
+        const sorted = [...candidates].sort((a, b) => this.scoreVoice(b) - this.scoreVoice(a));
         if (sorted.length > 0) {
-          this.selectedVoiceName = sorted[0].name;
+          this.selectedVoiceId = sorted[0].voiceURI || sorted[0].name;
         }
       }
     }
@@ -145,36 +219,33 @@ class WebSpeechAudioEngine {
       this.voices = currentList;
     }
 
-    return this.voices
-      .filter(v => v.lang.startsWith('en'))
+    let list = this.voices.filter(v => this.isEnglishVoice(v));
+    // If phone has no English voices explicitly labeled, show all device voices so it never breaks
+    if (list.length === 0 && this.voices.length > 0) {
+      list = this.voices;
+    }
+
+    return list
       .map(v => {
         const score = this.scoreVoice(v);
         const isFemale = this.isFemaleVoice(v);
         const isNatural = score >= 80;
         const isLocal = Boolean(v.localService);
-        
-        let displayName = v.name
-          .replace(/Microsoft /i, '')
-          .replace(/Online \(Natural\)/i, 'Natural')
-          .replace(/\(United States\)/i, 'US')
-          .replace(/\(United Kingdom\)/i, 'UK')
-          .trim();
-
-        if (isNatural) displayName = `🌟 ${displayName}`;
-        if (isFemale) displayName = `${displayName} ♀`;
-        if (isLocal) {
-          displayName = `${displayName} (Offline/Local)`;
-        } else {
-          displayName = `${displayName} (Cloud Network)`;
-        }
+        const uri = (v.voiceURI || '').toLowerCase();
+        const rawLower = v.name.toLowerCase();
+        const isAndroid = uri.includes('android') || uri.includes('samsung') || rawLower.includes('android') || rawLower.includes('samsung');
+        const displayName = this.formatVoiceDisplayName(v);
 
         return {
           voice: v,
+          id: v.voiceURI || v.name,
           name: displayName,
+          rawName: v.name,
           lang: v.lang,
           isFemale,
           isNatural,
           isLocal,
+          isAndroid,
           score
         };
       })
@@ -184,11 +255,39 @@ class WebSpeechAudioEngine {
   public getSelectedVoice(): SpeechSynthesisVoice | null {
     if (!this.synth) return null;
     const all = this.synth.getVoices();
-    return all.find(v => v.name === this.selectedVoiceName) || all[0] || null;
+    if (all.length === 0) return null;
+
+    if (this.selectedVoiceId) {
+      const match = all.find(v => (v.voiceURI && v.voiceURI === this.selectedVoiceId) || v.name === this.selectedVoiceId);
+      if (match) return match;
+    }
+
+    // Default to top scoring female voice or first available
+    const sorted = [...all].filter(v => this.isEnglishVoice(v)).sort((a, b) => this.scoreVoice(b) - this.scoreVoice(a));
+    return sorted[0] || all[0] || null;
   }
 
   public setVoice(voice: SpeechSynthesisVoice): void {
-    this.selectedVoiceName = voice.name;
+    this.selectedVoiceId = voice.voiceURI || voice.name;
+    try {
+      if (typeof localStorage !== 'undefined') {
+        localStorage.setItem('bookbox_selected_voice', this.selectedVoiceId);
+      }
+    } catch {
+      // Storage unavailable
+    }
+  }
+
+  // Instant voice sample preview
+  public testVoice(voice: SpeechSynthesisVoice): void {
+    if (!this.synth) return;
+    this.synth.cancel();
+    const testUtterance = new SpeechSynthesisUtterance("Hello! I am BookBox, your reading companion.");
+    testUtterance.voice = voice;
+    testUtterance.rate = this.playbackRate;
+    testUtterance.pitch = 1.0;
+    (window as unknown as { __bookbox_test_utterance: SpeechSynthesisUtterance }).__bookbox_test_utterance = testUtterance;
+    this.synth.speak(testUtterance);
   }
 
   public setPlaybackRate(rate: number): void {
@@ -218,7 +317,7 @@ class WebSpeechAudioEngine {
     };
   }
 
-  // Pre-process text to remove markdown, expand abbreviations, and ensure natural pronunciation
+  // Pre-process text to remove markdown, expand abbreviations, and ensure natural speech
   public cleanTextForSpeech(text: string): string {
     return text
       .replace(/\*\*(.*?)\*\*/g, '$1')
@@ -239,7 +338,7 @@ class WebSpeechAudioEngine {
   private splitIntoSentenceChunks(text: string): SentenceChunk[] {
     if (!text || text.trim().length === 0) return [];
     
-    // Split on sentence boundary (. ! ? or newline)
+    // Split on sentence boundaries (. ! ? or newline)
     const regex = /[^.!?\n\r]+(?:[.!?]+|[\n\r]+|$)/g;
     const chunks: SentenceChunk[] = [];
     let match: RegExpExecArray | null;
@@ -262,6 +361,24 @@ class WebSpeechAudioEngine {
     return chunks;
   }
 
+  // Android Chrome 15-second background speech freeze watchdog
+  private startKeepAlive(): void {
+    this.stopKeepAlive();
+    this.keepAliveTimer = setInterval(() => {
+      if (this.synth && this.synth.speaking && !this.isUserPaused) {
+        this.synth.pause();
+        this.synth.resume();
+      }
+    }, 9000);
+  }
+
+  private stopKeepAlive(): void {
+    if (this.keepAliveTimer) {
+      clearInterval(this.keepAliveTimer);
+      this.keepAliveTimer = null;
+    }
+  }
+
   public play(
     text: string, 
     onBoundary?: BoundaryCallback, 
@@ -272,9 +389,8 @@ class WebSpeechAudioEngine {
     if (!this.synth) return;
 
     if (this.pauseTimer) clearTimeout(this.pauseTimer);
+    this.stopKeepAlive();
 
-    // Cancel any previous utterance and give Chrome 50ms to settle its internal audio thread
-    // This delay is critical for remote Google voices so they do not get instantly canceled
     this.synth.cancel();
 
     this.rawText = text;
@@ -282,7 +398,6 @@ class WebSpeechAudioEngine {
     this.onEndCallback = onEnd || null;
     this.onStateChangeCallback = onStateChange || null;
 
-    // Split text into discrete sentence units for smooth cadence and freeze prevention
     this.sentences = this.splitIntoSentenceChunks(text);
     this.currentSentenceIdx = Math.max(0, Math.min(startSentenceIdx, this.sentences.length - 1));
     this.isUserPaused = false;
@@ -292,6 +407,8 @@ class WebSpeechAudioEngine {
       if (this.onEndCallback) this.onEndCallback();
       return;
     }
+
+    this.startKeepAlive();
 
     setTimeout(() => {
       this.speakCurrentSentence();
@@ -303,6 +420,7 @@ class WebSpeechAudioEngine {
 
     if (this.currentSentenceIdx >= this.sentences.length) {
       // Completed all sentences in the text
+      this.stopKeepAlive();
       this.isCurrentlyActive = false;
       this.currentUtterance = null;
       if (this.onStateChangeCallback) {
@@ -317,26 +435,16 @@ class WebSpeechAudioEngine {
     const currentChunk = this.sentences[this.currentSentenceIdx];
     const utterance = new SpeechSynthesisUtterance(currentChunk.text);
 
-    // Dynamically resolve voice from fresh getVoices() array to prevent stale object handles
-    const allVoices = this.synth.getVoices();
-    let voiceToUse = allVoices.find(v => v.name === this.selectedVoiceName);
-    
-    // If preferred voice not found, find top female voice or any English voice
-    if (!voiceToUse) {
-      voiceToUse = allVoices.find(v => v.lang.startsWith('en') && this.isFemaleVoice(v)) || 
-                   allVoices.find(v => v.lang.startsWith('en')) || 
-                   allVoices[0];
-    }
-
+    // Dynamically resolve voice from fresh getVoices() array
+    const voiceToUse = this.getSelectedVoice();
     if (voiceToUse) {
       utterance.voice = voiceToUse;
     }
     
     utterance.rate = this.playbackRate;
-    // Strict 1.0 pitch preserves authentic, unwarped human vocal formants
     utterance.pitch = 1.0;
 
-    // Keep global window reference so Chrome V8 garbage collector never aborts playback mid-sentence
+    // Prevent V8 garbage collector from aborting speech mid-sentence
     (window as unknown as { __bookbox_active_utterance: SpeechSynthesisUtterance }).__bookbox_active_utterance = utterance;
 
     // Notify UI of active sentence boundary
@@ -365,30 +473,31 @@ class WebSpeechAudioEngine {
       
       this.currentSentenceIdx++;
       
-      // Insert a natural 220ms breathing pause between sentences for realistic human cadence
+      // Natural 200ms breathing pause between sentences
       if (this.pauseTimer) clearTimeout(this.pauseTimer);
       this.pauseTimer = setTimeout(() => {
         this.speakCurrentSentence();
-      }, 220);
+      }, 200);
     };
 
     utterance.onerror = (e) => {
-      console.warn('Speech synthesis utterance event:', e.error, e);
+      console.warn('TTSReader utterance event:', e.error, e);
 
-      // If remote Google cloud voice failed (network or synthesis error), seamlessly fall back to local voice
+      // If cloud network voice failed, automatically switch to offline local device voice
       if (e.error === 'network' || e.error === 'synthesis-failed' || e.error === 'canceled') {
-        const localVoice = allVoices.find(v => v.localService && v.lang.startsWith('en') && this.isFemaleVoice(v)) ||
-                           allVoices.find(v => v.localService && v.lang.startsWith('en'));
+        const allVoices = this.synth?.getVoices() || [];
+        const localVoice = allVoices.find(v => v.localService && this.isEnglishVoice(v) && this.isFemaleVoice(v)) ||
+                           allVoices.find(v => v.localService && this.isEnglishVoice(v)) ||
+                           allVoices.find(v => v.localService);
 
         if (localVoice && voiceToUse && !voiceToUse.localService) {
-          console.info(`Switching from remote voice (${voiceToUse.name}) to offline reliable voice (${localVoice.name})`);
-          this.selectedVoiceName = localVoice.name;
+          console.info(`Switching from cloud voice (${voiceToUse.name}) to offline device voice (${localVoice.name})`);
+          this.setVoice(localVoice);
           setTimeout(() => this.speakCurrentSentence(), 60);
           return;
         }
       }
 
-      // Normal progression on recoverable error
       if (!this.isUserPaused) {
         this.currentSentenceIdx++;
         this.speakCurrentSentence();
@@ -396,8 +505,6 @@ class WebSpeechAudioEngine {
     };
 
     this.currentUtterance = utterance;
-    // NOTE: NEVER call this.synth.cancel() right before speak here! 
-    // Doing so destroys remote Google cloud voice streaming.
     this.synth.speak(utterance);
 
     if (this.onStateChangeCallback) {
@@ -407,6 +514,7 @@ class WebSpeechAudioEngine {
 
   public pause(): void {
     if (this.pauseTimer) clearTimeout(this.pauseTimer);
+    this.stopKeepAlive();
     if (this.synth) {
       this.isUserPaused = true;
       this.synth.cancel();
@@ -419,6 +527,7 @@ class WebSpeechAudioEngine {
   public resume(): void {
     if (this.synth && this.isCurrentlyActive && this.isUserPaused) {
       this.isUserPaused = false;
+      this.startKeepAlive();
       this.speakCurrentSentence();
     }
   }
@@ -453,6 +562,7 @@ class WebSpeechAudioEngine {
 
   private stopInternal(): void {
     if (this.pauseTimer) clearTimeout(this.pauseTimer);
+    this.stopKeepAlive();
     if (this.synth) {
       this.synth.cancel();
     }
@@ -470,4 +580,5 @@ class WebSpeechAudioEngine {
   }
 }
 
-export const speechService = new WebSpeechAudioEngine();
+export const speechService = new TTSReaderEngine();
+export const TTSReader = speechService;
