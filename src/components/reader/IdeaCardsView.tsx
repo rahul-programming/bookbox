@@ -3,13 +3,13 @@ import { Book, IdeaCard } from '../../types';
 import { db } from '../../db';
 import { Bookmark, RotateCw, Quote, ArrowRight, Check, Volume2 } from 'lucide-react';
 
-interface DeepstashViewProps {
+interface IdeaCardsViewProps {
   book: Book;
   onOpenStashModal: (idea: IdeaCard) => void;
   onStartAudio: (headline: string, text: string) => void;
 }
 
-export const DeepstashView: React.FC<DeepstashViewProps> = ({ book, onOpenStashModal, onStartAudio }) => {
+export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({ book, onOpenStashModal, onStartAudio }) => {
   const [ideas, setIdeas] = useState<IdeaCard[]>([]);
   const [flippedCards, setFlippedCards] = useState<Record<string, boolean>>({});
 
@@ -63,7 +63,7 @@ export const DeepstashView: React.FC<DeepstashViewProps> = ({ book, onOpenStashM
       <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-purple-50 to-indigo-50 dark:from-purple-950/20 dark:to-indigo-950/20 border border-purple-200/80 dark:border-purple-900/60 flex flex-wrap items-center justify-between gap-3">
         <div>
           <h3 className="font-bold text-sm sm:text-base text-purple-950 dark:text-purple-200">
-            Deepstash Idea Cards · {book.title}
+            Idea Cards · {book.title}
           </h3>
           <p className="text-xs text-purple-800 dark:text-purple-300">
             Atomic mental models and insights. Tap to flip cards or listen to insights.
@@ -131,7 +131,7 @@ export const DeepstashView: React.FC<DeepstashViewProps> = ({ book, onOpenStashM
                               ? 'bg-amber-100 dark:bg-amber-950 border-amber-300 text-amber-600'
                               : 'hover:bg-slate-100 dark:hover:bg-slate-700 border-slate-200 dark:border-slate-700 text-slate-500'
                           }`}
-                          title={idea.isStashed ? 'Stashed in Board' : 'Stash Idea'}
+                          title={idea.isStashed ? 'Saved in Collection' : 'Save Idea'}
                         >
                           {idea.isStashed ? (
                             <Check className="w-3.5 h-3.5 text-amber-600" />

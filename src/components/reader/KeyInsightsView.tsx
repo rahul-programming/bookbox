@@ -2,7 +2,7 @@ import React from 'react';
 import { Blink, Book } from '../../types';
 import { Lightbulb, ChevronLeft, ChevronRight, CheckCircle, Volume2 } from 'lucide-react';
 
-interface BlinkistViewProps {
+interface KeyInsightsViewProps {
   book: Book;
   currentBlinkIndex: number;
   highlightRange: { start: number; length: number };
@@ -12,7 +12,7 @@ interface BlinkistViewProps {
   fontSizeClass: string;
 }
 
-export const BlinkistView: React.FC<BlinkistViewProps> = ({
+export const KeyInsightsView: React.FC<KeyInsightsViewProps> = ({
   book,
   currentBlinkIndex,
   highlightRange,
@@ -30,11 +30,11 @@ export const BlinkistView: React.FC<BlinkistViewProps> = ({
   return (
     <div className="max-w-3xl mx-auto py-6 sm:py-8">
       
-      {/* Top Blink Stepper & Audio Trigger */}
+      {/* Top Insight Stepper & Audio Trigger */}
       <div className="flex items-center justify-between border-b border-slate-200/80 dark:border-slate-800 pb-4 mb-6">
         <div className="flex items-center space-x-2">
           <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/60 px-3 py-1 rounded-full border border-blue-200 dark:border-blue-900">
-            Blink {currentBlinkIndex + 1} of {book.blinks.length}
+            Insight {currentBlinkIndex + 1} of {book.blinks.length}
           </span>
           <span className="text-xs text-slate-400">· ~2 min read</span>
         </div>
@@ -42,7 +42,7 @@ export const BlinkistView: React.FC<BlinkistViewProps> = ({
         <button
           onClick={onStartAudio}
           className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 text-xs font-semibold transition"
-          title="Listen to this Blink"
+          title="Listen to this Insight"
         >
           <Volume2 className="w-4 h-4 text-blue-600 dark:text-blue-400" />
           <span>Listen</span>
@@ -62,12 +62,12 @@ export const BlinkistView: React.FC<BlinkistViewProps> = ({
                 ? 'w-3 bg-emerald-500'
                 : 'w-3 bg-slate-200 dark:bg-slate-700'
             }`}
-            title={`Jump to Blink ${idx + 1}`}
+            title={`Jump to Insight ${idx + 1}`}
           />
         ))}
       </div>
 
-      {/* Blink Headline */}
+      {/* Insight Headline */}
       <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-slate-100 tracking-tight leading-snug mb-6">
         {blink.headline}
       </h2>
@@ -93,7 +93,7 @@ export const BlinkistView: React.FC<BlinkistViewProps> = ({
         )}
       </div>
 
-      {/* Key Takeaway Callout Box (Blinkist signature feature) */}
+      {/* Key Takeaway Callout Box */}
       <div className="my-8 p-5 sm:p-6 rounded-2xl bg-amber-50 dark:bg-amber-950/30 border border-amber-200/80 dark:border-amber-900/60 shadow-xs">
         <div className="flex items-center space-x-2 text-amber-800 dark:text-amber-400 font-bold text-sm mb-2">
           <Lightbulb className="w-5 h-5 text-amber-500 fill-amber-500" />
@@ -116,7 +116,7 @@ export const BlinkistView: React.FC<BlinkistViewProps> = ({
           }`}
         >
           <ChevronLeft className="w-4 h-4" />
-          <span>Previous Blink</span>
+          <span>Previous Insight</span>
         </button>
 
         {isLast ? (
@@ -132,7 +132,7 @@ export const BlinkistView: React.FC<BlinkistViewProps> = ({
             onClick={() => onBlinkChange(currentBlinkIndex + 1)}
             className="flex items-center space-x-2 px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm shadow-md shadow-blue-600/20 transition transform hover:scale-105 active:scale-95"
           >
-            <span>Next Blink</span>
+            <span>Next Insight</span>
             <ChevronRight className="w-4 h-4" />
           </button>
         )}

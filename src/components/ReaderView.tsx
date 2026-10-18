@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Book, ReaderViewMode, UserProgress, IdeaCard } from '../types';
 import { db } from '../db';
-import { BlinkistView } from './reader/BlinkistView';
-import { ShortformView } from './reader/ShortformView';
-import { DeepstashView } from './reader/DeepstashView';
-import { StoryShotsView } from './reader/StoryShotsView';
+import { KeyInsightsView } from './reader/KeyInsightsView';
+import { DeepDiveView } from './reader/DeepDiveView';
+import { IdeaCardsView } from './reader/IdeaCardsView';
+import { MindMapView } from './reader/MindMapView';
 import { AudioPlayerBar } from './AudioPlayerBar';
 import { 
   ArrowLeft, 
@@ -197,10 +197,10 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
                   ? 'bg-white dark:bg-slate-900 text-blue-600 dark:text-blue-400 shadow-xs'
                   : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
               }`}
-              title="Blinkist Mode: 15-min audio-synced blinks"
+              title="Key Insights: 15-min audio-synced chapters"
             >
               <Zap className="w-3.5 h-3.5" />
-              <span className="hidden sm:inline">Blinks</span>
+              <span className="hidden sm:inline">Key Insights</span>
             </button>
 
             <button
@@ -210,7 +210,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
                   ? 'bg-white dark:bg-slate-900 text-blue-600 dark:text-blue-400 shadow-xs'
                   : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
               }`}
-              title="Shortform Mode: 1-Page summary, analysis, exercises"
+              title="Deep Dive: 1-Page summary, chapter breakdowns, exercises"
             >
               <FileText className="w-3.5 h-3.5" />
               <span className="hidden sm:inline">Deep Dive</span>
@@ -223,10 +223,10 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
                   ? 'bg-white dark:bg-slate-900 text-blue-600 dark:text-blue-400 shadow-xs'
                   : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
               }`}
-              title="Deepstash Mode: Swipeable idea cards"
+              title="Idea Cards: Bite-sized mental models and quotes"
             >
               <Sparkles className="w-3.5 h-3.5" />
-              <span className="hidden sm:inline">Cards</span>
+              <span className="hidden sm:inline">Idea Cards</span>
             </button>
 
             <button
@@ -236,7 +236,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
                   ? 'bg-white dark:bg-slate-900 text-blue-600 dark:text-blue-400 shadow-xs'
                   : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
               }`}
-              title="StoryShots Mode: Concept mind map"
+              title="Mind Map: Visual knowledge graph and concept hierarchy"
             >
               <Network className="w-3.5 h-3.5" />
               <span className="hidden sm:inline">Mind Map</span>
@@ -282,7 +282,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
       {/* Main View Container */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {viewMode === 'blinks' && (
-          <BlinkistView
+          <KeyInsightsView
             book={book}
             currentBlinkIndex={currentBlinkIndex}
             highlightRange={highlightRange}
@@ -294,7 +294,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
         )}
 
         {viewMode === 'deepdive' && (
-          <ShortformView
+          <DeepDiveView
             book={book}
             fontSizeClass={fontClasses[fontSizeIndex]}
             onStartAudio={handleStartAudio}
@@ -302,7 +302,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
         )}
 
         {viewMode === 'cards' && (
-          <DeepstashView
+          <IdeaCardsView
             book={book}
             onOpenStashModal={onOpenStashModal}
             onStartAudio={handleStartAudio}
@@ -310,7 +310,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
         )}
 
         {viewMode === 'mindmap' && (
-          <StoryShotsView
+          <MindMapView
             book={book}
             onStartAudio={handleStartAudio}
           />

@@ -18,26 +18,26 @@ export const NavigationTabs: React.FC<NavigationTabsProps> = ({
     {
       id: 'library' as MainTab,
       label: 'Library',
-      sublabel: 'Books & Blinks',
+      sublabel: 'Books & Summaries',
       icon: BookMarked
     },
     {
       id: 'ideas' as MainTab,
       label: 'Idea Feed',
-      sublabel: 'Deepstash Cards',
+      sublabel: 'Curated Insights',
       icon: Lightbulb
     },
     {
       id: 'stashes' as MainTab,
-      label: 'My Stashes',
-      sublabel: 'Second Brain',
+      label: 'Collections',
+      sublabel: 'Saved Boards',
       icon: FolderKanban,
       badge: stashedCount > 0 ? stashedCount : undefined
     },
     {
       id: 'growth' as MainTab,
       label: 'Habit & Growth',
-      sublabel: 'Headway Streaks',
+      sublabel: 'Daily Streaks',
       icon: Award
     }
   ];

@@ -74,7 +74,7 @@ export const HabitGrowthView: React.FC<HabitGrowthViewProps> = ({ profile, onPro
         <div className="space-y-2 text-center md:text-left">
           <div className="flex items-center justify-center md:justify-start space-x-2 text-xs font-bold uppercase tracking-wider text-amber-100">
             <Trophy className="w-4 h-4" />
-            <span>Headway Microlearning Habits</span>
+            <span>Microlearning Daily Habits</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-black tracking-tight">
             {streak} Day Reading Streak!

@@ -65,7 +65,7 @@ export const IdeaFeedView: React.FC<IdeaFeedViewProps> = ({ onSelectBook, onOpen
       <div className="rounded-3xl bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 p-6 sm:p-8 text-white shadow-lg">
         <div className="flex items-center space-x-2 text-xs font-bold uppercase tracking-wider text-purple-200 mb-2">
           <Sparkles className="w-4 h-4" />
-          <span>Deepstash Discovery Feed</span>
+          <span>Curated Ideas Feed</span>
         </div>
         <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight mb-2">
           Replace Doomscrolling with Micro-Ideas

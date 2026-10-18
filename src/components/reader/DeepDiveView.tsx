@@ -14,13 +14,13 @@ import {
   Volume2
 } from 'lucide-react';
 
-interface ShortformViewProps {
+interface DeepDiveViewProps {
   book: Book;
   fontSizeClass: string;
   onStartAudio: (headline: string, text: string) => void;
 }
 
-export const ShortformView: React.FC<ShortformViewProps> = ({ book, fontSizeClass, onStartAudio }) => {
+export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ book, fontSizeClass, onStartAudio }) => {
   const [activeSection, setActiveSection] = useState<'one-page' | 'chapters' | 'exercises'>('one-page');
   const [expandedChapters, setExpandedChapters] = useState<Record<string, boolean>>({
     'ch-0': true
@@ -131,7 +131,7 @@ export const ShortformView: React.FC<ShortformViewProps> = ({ book, fontSizeClas
       {/* Main Content Area */}
       <main className="lg:col-span-3 space-y-8">
         
-        {/* Section 1: The 1-Page Summary (Shortform hallmark) */}
+        {/* Section 1: The 1-Page Summary */}
         {activeSection === 'one-page' && (
           <div className="space-y-6">
             
@@ -205,7 +205,7 @@ export const ShortformView: React.FC<ShortformViewProps> = ({ book, fontSizeClas
                 </ul>
               </div>
 
-              {/* Counterarguments & Blind Spots (Shortform analytical hallmark) */}
+              {/* Counterarguments & Blind Spots */}
               <div className="p-5 rounded-2xl bg-amber-50/70 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-900/60">
                 <div className="flex items-center space-x-2 text-amber-800 dark:text-amber-400 font-bold text-sm mb-3">
                   <AlertTriangle className="w-4 h-4 text-amber-600" />
@@ -287,7 +287,7 @@ export const ShortformView: React.FC<ShortformViewProps> = ({ book, fontSizeClas
 
                       {/* Editorial Context Callout */}
                       <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/80 border-l-4 border-blue-500 text-xs sm:text-sm text-slate-600 dark:text-slate-300">
-                        <strong className="text-slate-900 dark:text-slate-100">Shortform Synthesis: </strong>
+                        <strong className="text-slate-900 dark:text-slate-100">Editorial Synthesis: </strong>
                         {blink.keyTakeaway}
                       </div>
                     </div>
@@ -304,7 +304,7 @@ export const ShortformView: React.FC<ShortformViewProps> = ({ book, fontSizeClas
             <div className="p-5 rounded-2xl bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-900/60 flex items-center justify-between">
               <div>
                 <h3 className="font-bold text-amber-900 dark:text-amber-200 text-sm sm:text-base">
-                  Shortform Interactive Worksheets
+                  Interactive Action Worksheets
                 </h3>
                 <p className="text-xs text-amber-800 dark:text-amber-300 mt-0.5">
                   Type your reflection responses. Work is automatically saved locally to your device.

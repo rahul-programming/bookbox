@@ -81,7 +81,7 @@ export const StashModal: React.FC<StashModalProps> = ({ idea, onClose, onSaved }
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2 text-slate-900 dark:text-slate-100 font-bold text-lg">
             <Bookmark className="w-5 h-5 text-amber-500" />
-            <span>Stash Idea to Board</span>
+            <span>Save Idea to Collection</span>
           </div>
           <button
             onClick={onClose}
@@ -177,7 +177,7 @@ export const StashModal: React.FC<StashModalProps> = ({ idea, onClose, onSaved }
             onClick={handleSave}
             className="px-5 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold shadow-md shadow-blue-500/20 transition"
           >
-            Save Stash
+            Save Selection
           </button>
         </div>
 

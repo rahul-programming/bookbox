@@ -82,7 +82,7 @@ export const StashBoardsView: React.FC<StashBoardsViewProps> = ({ onOpenStashMod
               className="flex items-center space-x-1.5 text-xs font-semibold text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition"
             >
               <ArrowLeft className="w-4 h-4" />
-              <span>Back to All Stashes</span>
+              <span>Back to All Collections</span>
             </button>
 
             {boardIdeas.length > 0 && !isFlashcardMode && (
@@ -180,16 +180,16 @@ export const StashBoardsView: React.FC<StashBoardsViewProps> = ({ onOpenStashMod
                     {selectedBoard.name}
                   </h2>
                   <p className="text-xs text-slate-500 dark:text-slate-400">
-                    {selectedBoard.description} · {boardIdeas.length} ideas stashed
+                    {selectedBoard.description} · {boardIdeas.length} ideas saved
                   </p>
                 </div>
               </div>
 
               {boardIdeas.length === 0 ? (
                 <div className="py-16 text-center text-slate-400 bg-white dark:bg-slate-800/50 rounded-2xl border border-dashed border-slate-200 dark:border-slate-700">
-                  <p>No ideas stashed in this board yet.</p>
+                  <p>No ideas saved in this collection yet.</p>
                   <p className="text-xs mt-1 text-slate-500">
-                    Browse the Idea Feed or Book Summaries and click "Stash" to add insights here.
+                    Browse the Idea Feed or Book Summaries and click "Save" to add insights here.
                   </p>
                 </div>
               ) : (

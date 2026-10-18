@@ -16,7 +16,7 @@ import {
   Volume2
 } from 'lucide-react';
 
-interface StoryShotsViewProps {
+interface MindMapViewProps {
   book: Book;
   onStartAudio: (headline: string, text: string) => void;
 }
@@ -54,7 +54,7 @@ const BRANCH_COLORS = [
   { stroke: '#06b6d4', fill: '#ecfeff', darkFill: '#164e63', border: '#06b6d4', text: '#155e75', darkText: '#a5f3fc' }, // Cyan
 ];
 
-export const StoryShotsView: React.FC<StoryShotsViewProps> = ({ book, onStartAudio }) => {
+export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) => {
   const containerRef = useRef<HTMLDivElement>(null);
 
   // Canvas Viewport State (Pan & Zoom)
