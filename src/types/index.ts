@@ -6,7 +6,7 @@ export type Category =
   | 'Leadership'
   | 'Strategy';
 
-export type ReaderViewMode = 'blinks' | 'deepdive' | 'cards' | 'mindmap';
+export type ReaderViewMode = 'blinks' | 'deepdive' | 'actionable' | 'cards' | 'mindmap';
 
 export type ThemeMode = 'light' | 'dark' | 'sepia';
 
@@ -17,13 +17,50 @@ export interface MindMapNode {
   children?: MindMapNode[];
 }
 
+export type DiagramType = 'cycle' | 'flow' | 'matrix' | 'comparison' | 'timeline';
+
+export interface DiagramNode {
+  id: string;
+  label: string;
+  sublabel?: string;
+  icon?: string;
+  color?: 'emerald' | 'blue' | 'indigo' | 'amber' | 'purple' | 'rose' | 'cyan';
+}
+
+export interface DiagramQuadrant {
+  title: string;
+  description: string;
+  color: 'emerald' | 'blue' | 'indigo' | 'amber' | 'purple' | 'rose' | 'cyan';
+}
+
+export interface DiagramComparisonSide {
+  title: string;
+  subtitle?: string;
+  badge?: string;
+  items: string[];
+}
+
+export interface ChapterDiagram {
+  type: DiagramType;
+  title: string;
+  caption?: string;
+  nodes?: DiagramNode[];
+  quadrants?: DiagramQuadrant[];
+  comparison?: {
+    sideA: DiagramComparisonSide;
+    sideB: DiagramComparisonSide;
+  };
+}
+
 export interface Blink {
   id: string;
   order: number;
+  chapterNumber?: number;
   headline: string;
   content: string;
   keyTakeaway: string;
   audioSnippetText: string;
+  diagram?: ChapterDiagram;
 }
 
 export interface ReflectionExercise {
@@ -42,6 +79,29 @@ export interface OnePageSummary {
   blindSpotsAndCounterarguments: string[];
 }
 
+export type ActionCategory = 'quick-win' | 'daily-routine' | 'environment' | 'audit' | 'system';
+
+export interface ActionItem {
+  id: string;
+  title: string;
+  description: string;
+  category: ActionCategory;
+  timeEstimateMinutes: number;
+  stepByStep: string[];
+  sourceChapter?: string;
+  linkedStory?: string;
+}
+
+export interface BookStory {
+  id: string;
+  title: string;
+  charactersOrSubject: string;
+  historicalPeriodOrSetting?: string;
+  narrative: string;
+  coreLesson: string;
+  sourceChapter: string;
+}
+
 export interface Book {
   id: string; // unique slug, e.g. 'atomic-habits'
   title: string;
@@ -55,6 +115,8 @@ export interface Book {
   blinks: Blink[];
   mindMap: MindMapNode;
   reflectionExercises: ReflectionExercise[];
+  actionItems?: ActionItem[];
+  stories?: BookStory[];
   tags: string[];
   isCustom?: boolean;
 }
@@ -94,6 +156,7 @@ export interface UserProgress {
   isCompleted: boolean;
   lastReadTimestamp: number;
   totalTimeSpentSeconds: number;
+  completedActionIds?: string[];
 }
 
 export interface ReflectionAnswer {

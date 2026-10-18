@@ -51,13 +51,22 @@ export async function initDatabase(): Promise<void> {
     // Initial progress on Atomic Habits
     const initialProgress: UserProgress = {
       bookId: 'atomic-habits',
-      completedBlinkIds: ['ah-blink-1'],
-      currentBlinkIndex: 1,
+      completedBlinkIds: ['ah-ch-1'],
+      currentBlinkIndex: 0,
       isCompleted: false,
       lastReadTimestamp: Date.now(),
-      totalTimeSpentSeconds: 180
+      totalTimeSpentSeconds: 180,
+      completedActionIds: []
     };
     await db.progress.put(initialProgress);
+  } else {
+    // Synchronize updated seed books (with expanded chapters, diagrams, stories & action items)
+    for (const b of SEED_BOOKS) {
+      const existing = await db.books.get(b.id);
+      if (!existing || (b.blinks && existing.blinks.length < b.blinks.length) || (b.actionItems && !existing.actionItems)) {
+        await db.books.put(b);
+      }
+    }
   }
 }
 

@@ -11,8 +11,10 @@ import {
   ChevronDown,
   ChevronRight,
   Save,
-  Volume2
+  Volume2,
+  Sparkles
 } from 'lucide-react';
+import { ChapterDiagramViewer } from './ChapterDiagramViewer';
 
 interface DeepDiveViewProps {
   book: Book;
@@ -21,7 +23,7 @@ interface DeepDiveViewProps {
 }
 
 export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ book, fontSizeClass, onStartAudio }) => {
-  const [activeSection, setActiveSection] = useState<'one-page' | 'chapters' | 'exercises'>('one-page');
+  const [activeSection, setActiveSection] = useState<'one-page' | 'chapters' | 'stories' | 'exercises'>('one-page');
   const [expandedChapters, setExpandedChapters] = useState<Record<string, boolean>>({
     'ch-0': true
   });
@@ -111,6 +113,18 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ book, fontSizeClass,
             >
               <BookOpen className="w-4 h-4 shrink-0" />
               <span>Chapter Analyses ({book.blinks.length})</span>
+            </button>
+
+            <button
+              onClick={() => setActiveSection('stories')}
+              className={`w-full flex items-center space-x-2.5 px-3 py-2 rounded-xl text-xs font-medium transition text-left ${
+                activeSection === 'stories'
+                  ? 'bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 font-semibold'
+                  : 'text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-700'
+              }`}
+            >
+              <Sparkles className="w-4 h-4 shrink-0 text-amber-500" />
+              <span>Stories & Anecdotes ({book.stories?.length || 0})</span>
             </button>
 
             <button
@@ -285,6 +299,11 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ book, fontSizeClass,
                         ))}
                       </div>
 
+                      {/* Chapter Visual Diagram Summary */}
+                      {blink.diagram && (
+                        <ChapterDiagramViewer diagram={blink.diagram} />
+                      )}
+
                       {/* Editorial Context Callout */}
                       <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/80 border-l-4 border-blue-500 text-xs sm:text-sm text-slate-600 dark:text-slate-300">
                         <strong className="text-slate-900 dark:text-slate-100">Editorial Synthesis: </strong>
@@ -298,7 +317,74 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ book, fontSizeClass,
           </div>
         )}
 
-        {/* Section 3: Interactive Reflection Exercises */}
+        {/* Section 3: Iconic Stories & Historical Anecdotes */}
+        {activeSection === 'stories' && (
+          <div className="space-y-6">
+            <div className="p-5 rounded-2xl bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-950/20 dark:to-orange-950/20 border border-amber-200 dark:border-amber-900/60 flex items-center justify-between">
+              <div>
+                <h3 className="font-bold text-amber-900 dark:text-amber-200 text-sm sm:text-base">
+                  Iconic Stories & Case Studies · {book.title}
+                </h3>
+                <p className="text-xs text-amber-800 dark:text-amber-300 mt-0.5">
+                  Real-world historical anecdotes, clinical experiments, and human stories that prove the principles.
+                </p>
+              </div>
+            </div>
+
+            {(!book.stories || book.stories.length === 0) ? (
+              <div className="p-12 text-center text-slate-400 bg-white dark:bg-slate-800 rounded-2xl border border-dashed border-slate-200 dark:border-slate-700">
+                <p>No standalone story anthology extracted yet. Anecdotes are woven directly into the Chapter Analyses.</p>
+              </div>
+            ) : (
+              <div className="space-y-6">
+                {book.stories.map((story, idx) => (
+                  <div key={story.id} className="p-6 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-xs space-y-4">
+                    <div className="flex flex-wrap items-center justify-between gap-2">
+                      <div className="flex flex-wrap items-center gap-2">
+                        <span className="text-xs font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-amber-100 dark:bg-amber-900/60 text-amber-800 dark:text-amber-200">
+                          Story {idx + 1}
+                        </span>
+                        {story.historicalPeriodOrSetting && (
+                          <span className="text-[11px] text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-700/60 px-2 py-0.5 rounded-md">
+                            {story.historicalPeriodOrSetting}
+                          </span>
+                        )}
+                        <span className="text-[11px] text-slate-400 font-medium">
+                          · {story.charactersOrSubject}
+                        </span>
+                      </div>
+
+                      <button
+                        onClick={() => onStartAudio(story.title, `${story.title}. Setting: ${story.historicalPeriodOrSetting || ''}. Narrative: ${story.narrative}. Core lesson: ${story.coreLesson}`)}
+                        className="p-1.5 rounded-lg text-slate-400 hover:text-amber-600 hover:bg-slate-100 dark:hover:bg-slate-700 transition"
+                        title="Listen to this story"
+                      >
+                        <Volume2 className="w-4 h-4 text-amber-500" />
+                      </button>
+                    </div>
+
+                    <h4 className="text-lg font-bold text-slate-900 dark:text-slate-100">
+                      {story.title}
+                    </h4>
+
+                    <div className={`text-slate-700 dark:text-slate-300 space-y-3 leading-relaxed font-serif ${fontSizeClass}`}>
+                      {story.narrative.split('\n\n').map((p, pIdx) => (
+                        <p key={pIdx}>{p}</p>
+                      ))}
+                    </div>
+
+                    <div className="p-4 rounded-xl bg-amber-50 dark:bg-amber-950/30 border border-amber-200/80 dark:border-amber-900/60 text-xs sm:text-sm text-amber-900 dark:text-amber-200">
+                      <strong className="text-amber-950 dark:text-amber-100">Core Behavioral Lesson: </strong>
+                      {story.coreLesson}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* Section 4: Interactive Reflection Exercises */}
         {activeSection === 'exercises' && (
           <div className="space-y-6">
             <div className="p-5 rounded-2xl bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-900/60 flex items-center justify-between">

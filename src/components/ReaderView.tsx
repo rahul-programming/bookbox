@@ -3,6 +3,7 @@ import { Book, ReaderViewMode, UserProgress, IdeaCard } from '../types';
 import { db } from '../db';
 import { KeyInsightsView } from './reader/KeyInsightsView';
 import { DeepDiveView } from './reader/DeepDiveView';
+import { ActionItemsView } from './reader/ActionItemsView';
 import { IdeaCardsView } from './reader/IdeaCardsView';
 import { MindMapView } from './reader/MindMapView';
 import { AudioPlayerBar } from './AudioPlayerBar';
@@ -10,6 +11,7 @@ import {
   ArrowLeft, 
   Zap, 
   FileText, 
+  ListChecks,
   Sparkles, 
   Network, 
   Type, 
@@ -33,6 +35,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
 }) => {
   const [viewMode, setViewMode] = useState<ReaderViewMode>('blinks');
   const [currentBlinkIndex, setCurrentBlinkIndex] = useState(0);
+  const [completedActionIds, setCompletedActionIds] = useState<string[]>([]);
   const [fontSizeIndex, setFontSizeIndex] = useState(1); // 0=small, 1=normal, 2=large, 3=xlarge
   const [isAudioActive, setIsAudioActive] = useState(false);
   const [highlightRange, setHighlightRange] = useState({ start: -1, length: 0 });
@@ -54,6 +57,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
       const existing = await db.progress.get(book.id);
       if (existing) {
         setCurrentBlinkIndex(Math.min(existing.currentBlinkIndex, book.blinks.length - 1));
+        setCompletedActionIds(existing.completedActionIds || []);
       } else {
         const newProg: UserProgress = {
           bookId: book.id,
@@ -61,13 +65,26 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
           currentBlinkIndex: 0,
           isCompleted: false,
           lastReadTimestamp: Date.now(),
-          totalTimeSpentSeconds: 0
+          totalTimeSpentSeconds: 0,
+          completedActionIds: []
         };
         await db.progress.put(newProg);
       }
     };
     loadProgress();
   }, [book.id, book.blinks.length]);
+
+  const handleToggleAction = async (actionId: string) => {
+    const next = completedActionIds.includes(actionId)
+      ? completedActionIds.filter(id => id !== actionId)
+      : [...completedActionIds, actionId];
+    
+    setCompletedActionIds(next);
+    const existing = await db.progress.get(book.id);
+    if (existing) {
+      await db.progress.update(book.id, { completedActionIds: next });
+    }
+  };
 
   const activeBlink = book.blinks[currentBlinkIndex] || book.blinks[0];
 
@@ -146,6 +163,10 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
       const s = book.onePageSummary;
       const text = `The 1-Page Master Summary of ${book.title} by ${book.author}. ${s.elevatorPitch}. Central Thesis: ${s.coreThesis}. Key conceptual pillars: ${s.keyPillars.join('. ')}. Key strengths: ${s.strengths.join('. ')}. Blind spots: ${s.blindSpotsAndCounterarguments.join('. ')}`;
       handleStartAudio(`1-Page Master Summary · ${book.title}`, text);
+    } else if (viewMode === 'actionable') {
+      const items = book.actionItems || [];
+      const text = `Tactical Action Playbook for ${book.title}. ${items.map((a, i) => `Action ${i + 1}: ${a.title}. ${a.description}`).join('. ')}`;
+      handleStartAudio(`Action Plan · ${book.title}`, text);
     } else if (viewMode === 'cards') {
       db.ideas.where('bookId').equals(book.id).toArray().then(ideas => {
         if (ideas.length > 0) {
@@ -214,6 +235,19 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
             >
               <FileText className="w-3.5 h-3.5" />
               <span className="hidden sm:inline">Deep Dive</span>
+            </button>
+
+            <button
+              onClick={() => setViewMode('actionable')}
+              className={`flex items-center space-x-1.5 px-3 py-1.5 rounded-lg transition ${
+                viewMode === 'actionable'
+                  ? 'bg-white dark:bg-slate-900 text-blue-600 dark:text-blue-400 shadow-xs'
+                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
+              }`}
+              title="Action Items: Concrete implementation checklist and protocols"
+            >
+              <ListChecks className="w-3.5 h-3.5" />
+              <span className="hidden sm:inline">Action Plan</span>
             </button>
 
             <button
@@ -297,6 +331,15 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
           <DeepDiveView
             book={book}
             fontSizeClass={fontClasses[fontSizeIndex]}
+            onStartAudio={handleStartAudio}
+          />
+        )}
+
+        {viewMode === 'actionable' && (
+          <ActionItemsView
+            book={book}
+            completedActionIds={completedActionIds}
+            onToggleAction={handleToggleAction}
             onStartAudio={handleStartAudio}
           />
         )}
