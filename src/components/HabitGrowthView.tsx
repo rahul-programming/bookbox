@@ -233,3 +233,4 @@ export const HabitGrowthView: React.FC<HabitGrowthViewProps> = ({ profile, onPro
     </div>
   );
 };
+

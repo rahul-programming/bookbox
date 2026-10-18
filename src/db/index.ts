@@ -105,3 +105,4 @@ export async function importDatabaseBackup(jsonString: string): Promise<boolean>
     return false;
   }
 }
+

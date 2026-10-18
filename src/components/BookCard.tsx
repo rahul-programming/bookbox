@@ -92,3 +92,4 @@ export const BookCard: React.FC<BookCardProps> = ({ book, progress, onSelect }) 
     </div>
   );
 };
+

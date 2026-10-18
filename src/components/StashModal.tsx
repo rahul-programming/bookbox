@@ -185,3 +185,4 @@ export const StashModal: React.FC<StashModalProps> = ({ idea, onClose, onSaved }
     </div>
   );
 };
+

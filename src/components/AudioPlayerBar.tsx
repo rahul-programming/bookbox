@@ -1,5 +1,16 @@
 import React, { useEffect, useState } from 'react';
-import { Play, Pause, Square, Volume2, RotateCcw, FastForward, X } from 'lucide-react';
+import { 
+  Play, 
+  Pause, 
+  Square, 
+  Volume2, 
+  RotateCcw, 
+  FastForward, 
+  SkipBack, 
+  SkipForward, 
+  X,
+  Check
+} from 'lucide-react';
 import { speechService, VoiceOption } from '../services/speechService';
 
 interface AudioPlayerBarProps {
@@ -24,35 +35,57 @@ export const AudioPlayerBar: React.FC<AudioPlayerBarProps> = ({
   const [speed, setSpeed] = useState<number>(speechService.getPlaybackRate());
   const [voices, setVoices] = useState<VoiceOption[]>([]);
   const [showVoicePicker, setShowVoicePicker] = useState(false);
+  const [sentenceInfo, setSentenceInfo] = useState({ current: 1, total: 1 });
 
+  // Load and populate natural voices
   useEffect(() => {
-    setVoices(speechService.getVoices());
+    const updateVoiceList = () => {
+      const vList = speechService.getVoices();
+      setVoices(vList);
+    };
+
+    updateVoiceList();
+    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+      window.speechSynthesis.onvoiceschanged = updateVoiceList;
+    }
   }, []);
 
-  const handlePlay = () => {
-    if (isPaused) {
-      speechService.resume();
-    } else {
-      speechService.play(
-        activeText,
-        (charIndex, charLength) => {
-          if (onSentenceHighlight) onSentenceHighlight(charIndex, charLength);
-        },
-        () => {
-          setIsPlaying(false);
-          setIsPaused(false);
-          if (onNext) onNext();
-        },
-        (playing, paused) => {
-          setIsPlaying(playing);
-          setIsPaused(paused);
-        }
-      );
+  // When active text changes (e.g., user moves to next blink), restart or update
+  useEffect(() => {
+    if (isPlaying && !isPaused) {
+      startPlayback();
     }
+  }, [activeText]);
+
+  const startPlayback = (startSentenceIdx: number = 0) => {
+    speechService.play(
+      activeText,
+      (charIndex, charLength, sentIdx, totalSents) => {
+        setSentenceInfo({ current: sentIdx, total: totalSents });
+        if (onSentenceHighlight) onSentenceHighlight(charIndex, charLength);
+      },
+      () => {
+        setIsPlaying(false);
+        setIsPaused(false);
+        if (onNext) onNext();
+      },
+      (playing, paused, currentSent, totalSents) => {
+        setIsPlaying(playing);
+        setIsPaused(paused);
+        setSentenceInfo({ current: currentSent, total: totalSents });
+      },
+      startSentenceIdx
+    );
   };
 
-  const handlePause = () => {
-    speechService.pause();
+  const handlePlayToggle = () => {
+    if (isPaused) {
+      speechService.resume();
+    } else if (isPlaying) {
+      speechService.pause();
+    } else {
+      startPlayback();
+    }
   };
 
   const handleStop = () => {
@@ -62,74 +95,100 @@ export const AudioPlayerBar: React.FC<AudioPlayerBarProps> = ({
     if (onSentenceHighlight) onSentenceHighlight(-1, 0);
   };
 
+  const handlePreviousSentence = () => {
+    speechService.previousSentence();
+    const prog = speechService.getSentenceProgress();
+    setSentenceInfo(prog);
+  };
+
+  const handleNextSentence = () => {
+    speechService.nextSentence();
+    const prog = speechService.getSentenceProgress();
+    setSentenceInfo(prog);
+  };
+
   const cycleSpeed = () => {
     const speeds = [1.0, 1.25, 1.5, 1.75, 2.0, 0.75];
     const currentIndex = speeds.indexOf(speed);
     const nextSpeed = speeds[(currentIndex + 1) % speeds.length];
     speechService.setPlaybackRate(nextSpeed);
     setSpeed(nextSpeed);
-    
-    // If actively playing, restart with new rate
-    if (isPlaying && !isPaused) {
-      handlePlay();
-    }
   };
 
   const handleVoiceSelect = (v: SpeechSynthesisVoice) => {
     speechService.setVoice(v);
     setShowVoicePicker(false);
-    if (isPlaying) {
-      handlePlay();
+    if (isPlaying && !isPaused) {
+      // Resume current sentence with new voice
+      const curr = Math.max(0, sentenceInfo.current - 1);
+      startPlayback(curr);
     }
   };
 
+  const activeVoice = speechService.getSelectedVoice();
+
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 p-3 sm:p-4 bg-slate-900/95 dark:bg-slate-950/95 text-white border-t border-slate-700/80 backdrop-blur-lg shadow-2xl transition-all">
-      <div className="max-w-4xl mx-auto flex items-center justify-between gap-3 sm:gap-6">
+      <div className="max-w-5xl mx-auto flex flex-col sm:flex-row sm:items-center justify-between gap-3 sm:gap-6">
         
-        {/* Track Info */}
+        {/* Track Info & Sentence Progress */}
         <div className="flex-1 min-w-0">
           <div className="flex items-center space-x-2">
-            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+            <span className={`w-2 h-2 rounded-full ${isPlaying && !isPaused ? 'bg-emerald-400 animate-pulse' : 'bg-slate-500'}`} />
             <p className="text-[11px] font-semibold tracking-wider uppercase text-slate-400 truncate">
               {bookTitle}
             </p>
+            <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-blue-300 border border-slate-700">
+              Sentence {sentenceInfo.current}/{sentenceInfo.total}
+            </span>
           </div>
-          <p className="text-sm font-medium text-slate-100 truncate">
+          <p className="text-sm font-medium text-slate-100 truncate mt-0.5">
             {activeHeadline}
           </p>
         </div>
 
         {/* Playback Controls */}
-        <div className="flex items-center space-x-2 sm:space-x-3">
+        <div className="flex items-center justify-between sm:justify-center space-x-1 sm:space-x-2">
           
           {/* Replay */}
           <button
-            onClick={handlePlay}
+            onClick={() => startPlayback(0)}
             className="p-2 rounded-full text-slate-400 hover:text-white hover:bg-slate-800 transition"
-            title="Restart Narration"
+            title="Restart Blink from Beginning"
           >
             <RotateCcw className="w-4 h-4" />
           </button>
 
+          {/* Previous Sentence */}
+          <button
+            onClick={handlePreviousSentence}
+            className="p-2 rounded-full text-slate-400 hover:text-white hover:bg-slate-800 transition"
+            title="Previous Sentence"
+          >
+            <SkipBack className="w-4 h-4" />
+          </button>
+
           {/* Main Play / Pause Button */}
-          {isPlaying && !isPaused ? (
-            <button
-              onClick={handlePause}
-              className="p-3 rounded-full bg-blue-600 hover:bg-blue-500 text-white shadow-lg shadow-blue-600/30 transition transform hover:scale-105 active:scale-95"
-              title="Pause"
-            >
+          <button
+            onClick={handlePlayToggle}
+            className="p-3 rounded-full bg-blue-600 hover:bg-blue-500 text-white shadow-lg shadow-blue-600/30 transition transform hover:scale-105 active:scale-95"
+            title={isPlaying && !isPaused ? 'Pause' : 'Play Narration'}
+          >
+            {isPlaying && !isPaused ? (
               <Pause className="w-5 h-5 fill-current" />
-            </button>
-          ) : (
-            <button
-              onClick={handlePlay}
-              className="p-3 rounded-full bg-blue-600 hover:bg-blue-500 text-white shadow-lg shadow-blue-600/30 transition transform hover:scale-105 active:scale-95"
-              title="Play Audio Narration"
-            >
+            ) : (
               <Play className="w-5 h-5 fill-current ml-0.5" />
-            </button>
-          )}
+            )}
+          </button>
+
+          {/* Next Sentence */}
+          <button
+            onClick={handleNextSentence}
+            className="p-2 rounded-full text-slate-400 hover:text-white hover:bg-slate-800 transition"
+            title="Next Sentence"
+          >
+            <SkipForward className="w-4 h-4" />
+          </button>
 
           {/* Stop Button */}
           <button
@@ -152,8 +211,8 @@ export const AudioPlayerBar: React.FC<AudioPlayerBarProps> = ({
           )}
         </div>
 
-        {/* Settings: Speed & Voices */}
-        <div className="flex items-center space-x-2 sm:space-x-3">
+        {/* Settings: Speed, Voice Picker, & Close */}
+        <div className="flex items-center justify-end space-x-2 sm:space-x-3">
           
           {/* Speed Toggle */}
           <button
@@ -165,32 +224,50 @@ export const AudioPlayerBar: React.FC<AudioPlayerBarProps> = ({
           </button>
 
           {/* Voice Selector Trigger */}
-          {voices.length > 0 && (
-            <div className="relative">
-              <button
-                onClick={() => setShowVoicePicker(!showVoicePicker)}
-                className="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 transition"
-                title="Voice Settings"
-              >
-                <Volume2 className="w-4 h-4" />
-              </button>
+          <div className="relative">
+            <button
+              onClick={() => setShowVoicePicker(!showVoicePicker)}
+              className="flex items-center space-x-1.5 px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs transition border border-slate-700"
+              title="Voice Settings (Female Reader Default)"
+            >
+              <Volume2 className="w-3.5 h-3.5 text-pink-400" />
+              <span className="hidden md:inline max-w-[100px] truncate text-slate-200">
+                {activeVoice ? activeVoice.name.replace(/Google/i, '').replace(/\(Female\)/i, '').trim() : 'Voice'}
+              </span>
+              <span className="text-[10px] text-pink-300 font-semibold px-1 py-0.2 rounded bg-pink-950/60 border border-pink-800/60">
+                ♀
+              </span>
+            </button>
 
-              {showVoicePicker && (
-                <div className="absolute right-0 bottom-full mb-3 w-56 max-h-60 overflow-y-auto rounded-xl bg-slate-800 border border-slate-700 p-2 shadow-2xl z-50 text-xs">
-                  <p className="font-semibold text-slate-400 mb-2 px-2">Natural Voices</p>
-                  {voices.map((v, i) => (
+            {showVoicePicker && (
+              <div className="absolute right-0 bottom-full mb-3 w-64 max-h-72 overflow-y-auto rounded-xl bg-slate-800 border border-slate-700 p-2 shadow-2xl z-50 text-xs">
+                <div className="px-2 py-1 mb-1 border-b border-slate-700/60 flex items-center justify-between">
+                  <span className="font-semibold text-slate-300">Reader Voices</span>
+                  <span className="text-[10px] text-pink-400">♀ Female prioritized</span>
+                </div>
+                {voices.map((v, i) => {
+                  const isSelected = activeVoice?.name === v.voice.name;
+                  return (
                     <button
                       key={i}
                       onClick={() => handleVoiceSelect(v.voice)}
-                      className="w-full text-left px-2 py-1.5 rounded-lg hover:bg-slate-700 text-slate-200 truncate transition"
+                      className={`w-full text-left px-2 py-1.5 rounded-lg text-xs truncate transition flex items-center justify-between ${
+                        isSelected 
+                          ? 'bg-blue-600/30 text-blue-300 font-medium' 
+                          : 'hover:bg-slate-700 text-slate-200'
+                      }`}
                     >
-                      {v.name}
+                      <div className="flex items-center space-x-1.5 truncate">
+                        {v.isFemale && <span className="text-pink-400 text-[11px]">♀</span>}
+                        <span className="truncate">{v.name}</span>
+                      </div>
+                      {isSelected && <Check className="w-3.5 h-3.5 text-blue-400 shrink-0 ml-1" />}
                     </button>
-                  ))}
-                </div>
-              )}
-            </div>
-          )}
+                  );
+                })}
+              </div>
+            )}
+          </div>
 
           {/* Close Floating Bar */}
           {onClose && (

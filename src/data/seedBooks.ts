@@ -654,3 +654,4 @@ export const SEED_BOARDS: StashBoard[] = [
     createdAt: Date.now() - 86400000 * 5
   }
 ];
+

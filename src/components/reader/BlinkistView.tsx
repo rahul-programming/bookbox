@@ -15,6 +15,7 @@ interface BlinkistViewProps {
 export const BlinkistView: React.FC<BlinkistViewProps> = ({
   book,
   currentBlinkIndex,
+  highlightRange,
   onBlinkChange,
   onCompleteBook,
   onStartAudio,
@@ -73,11 +74,23 @@ export const BlinkistView: React.FC<BlinkistViewProps> = ({
 
       {/* Main Content Paragraphs */}
       <div className={`text-slate-700 dark:text-slate-300 space-y-5 leading-relaxed font-serif ${fontSizeClass}`}>
-        {blink.content.split('\n\n').map((paragraph, pIdx) => (
-          <p key={pIdx}>
-            {paragraph}
-          </p>
-        ))}
+        {highlightRange.start >= 0 && highlightRange.length > 0 ? (
+          <div className="space-y-4">
+            <p className="whitespace-pre-line">
+              <span>{blink.content.slice(0, highlightRange.start)}</span>
+              <mark className="bg-amber-200/90 dark:bg-amber-900/60 dark:text-amber-100 text-slate-900 px-1 py-0.5 rounded shadow-xs transition-all duration-200 font-medium">
+                {blink.content.slice(highlightRange.start, highlightRange.start + highlightRange.length)}
+              </mark>
+              <span>{blink.content.slice(highlightRange.start + highlightRange.length)}</span>
+            </p>
+          </div>
+        ) : (
+          blink.content.split('\n\n').map((paragraph, pIdx) => (
+            <p key={pIdx}>
+              {paragraph}
+            </p>
+          ))
+        )}
       </div>
 
       {/* Key Takeaway Callout Box (Blinkist signature feature) */}
@@ -128,3 +141,4 @@ export const BlinkistView: React.FC<BlinkistViewProps> = ({
     </div>
   );
 };
+

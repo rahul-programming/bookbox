@@ -262,3 +262,4 @@ export const StashBoardsView: React.FC<StashBoardsViewProps> = ({ onOpenStashMod
     </div>
   );
 };
+

@@ -275,7 +275,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
         <AudioPlayerBar
           bookTitle={book.title}
           activeHeadline={activeBlink.headline}
-          activeText={activeBlink.audioSnippetText || activeBlink.content}
+          activeText={activeBlink.content}
           onSentenceHighlight={(start, len) => setHighlightRange({ start, length: len })}
           onNext={() => handleBlinkChange(currentBlinkIndex + 1)}
           onClose={() => setIsAudioActive(false)}
@@ -285,3 +285,4 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
     </div>
   );
 };
+

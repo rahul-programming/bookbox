@@ -310,3 +310,4 @@ export const ShortformView: React.FC<ShortformViewProps> = ({ book, fontSizeClas
     </div>
   );
 };
+

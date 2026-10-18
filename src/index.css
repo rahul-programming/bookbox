@@ -1,7 +1,10 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @layer base {
   :root {
+    color-scheme: light;
     --bg-primary: #f8fafc;
     --bg-surface: #ffffff;
     --bg-secondary: #f1f5f9;
@@ -12,6 +15,7 @@
   }
 
   .dark {
+    color-scheme: dark;
     --bg-primary: #090d16;
     --bg-surface: #111827;
     --bg-secondary: #1f2937;
@@ -22,6 +26,7 @@
   }
 
   .sepia {
+    color-scheme: light;
     --bg-primary: #fbf0d9;
     --bg-surface: #f4e8ce;
     --bg-secondary: #ebdcb9;
@@ -39,6 +44,40 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
+}
+
+/* Sepia Theme Overrides for Warm Paper Feel */
+html.sepia body {
+  background-color: #fbf0d9;
+  color: #433422;
+}
+
+html.sepia .bg-white {
+  background-color: #f4e8ce !important;
+}
+
+html.sepia .bg-slate-50 {
+  background-color: #fbf0d9 !important;
+}
+
+html.sepia .bg-slate-100 {
+  background-color: #ebdcb9 !important;
+}
+
+html.sepia .border-slate-200,
+html.sepia .border-slate-200\/80 {
+  border-color: #dac79e !important;
+}
+
+html.sepia .text-slate-900,
+html.sepia .text-slate-800 {
+  color: #433422 !important;
+}
+
+html.sepia .text-slate-700,
+html.sepia .text-slate-600,
+html.sepia .text-slate-500 {
+  color: #6e5c46 !important;
 }
 
 /* Custom scrollbars for clean reader layout */

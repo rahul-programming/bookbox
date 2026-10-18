@@ -74,3 +74,4 @@ export const NavigationTabs: React.FC<NavigationTabsProps> = ({
     </div>
   );
 };
+

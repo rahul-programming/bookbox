@@ -249,3 +249,4 @@ export const IdeaFeedView: React.FC<IdeaFeedViewProps> = ({ onSelectBook, onOpen
     </div>
   );
 };
+
