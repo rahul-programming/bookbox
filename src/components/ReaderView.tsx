@@ -158,17 +158,19 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
       handleStartAudio(activeBlink.headline, activeBlink.content);
     } else if (viewMode === 'deepdive') {
       const s = book.onePageSummary;
-      const text = `The 1-Page Master Summary of ${book.title} by ${book.author}. ${s.elevatorPitch}. Central Thesis: ${s.coreThesis}. Key conceptual pillars: ${s.keyPillars.join('. ')}. Key strengths: ${s.strengths.join('. ')}. Blind spots: ${s.blindSpotsAndCounterarguments.join('. ')}`;
+      const text = s.executiveSummary || `${s.elevatorPitch}\n\n${s.coreThesis}`;
       handleStartAudio(`1-Page Master Summary · ${book.title}`, text);
     } else if (viewMode === 'actionable') {
       const items = book.actionItems || [];
-      const text = `Tactical Action Playbook for ${book.title}. ${items.map((a, i) => `Action ${i + 1}: ${a.title}. ${a.description}`).join('. ')}`;
-      handleStartAudio(`Action Plan · ${book.title}`, text);
+      if (items.length > 0) {
+        handleStartAudio(items[0].title, items[0].description);
+      }
     } else if (viewMode === 'cards') {
       db.ideas.where('bookId').equals(book.id).toArray().then(ideas => {
-        if (ideas.length > 0) {
-          const card = ideas[0];
-          handleStartAudio(`${card.type}: ${card.headline}`, `${card.headline}. ${card.body}${card.quote ? ` Quote: ${card.quote}` : ''}`);
+        const pool = (ideas.length > 0 ? ideas : book.ideaCards) || [];
+        if (pool.length > 0) {
+          const card = pool[0];
+          handleStartAudio(card.headline, card.body);
         }
       });
     } else if (viewMode === 'mindmap') {
@@ -320,6 +322,9 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
             book={book}
             fontSizeClass={fontClasses[fontSizeIndex]}
             onStartAudio={handleStartAudio}
+            highlightRange={highlightRange}
+            activeAudioHeadline={audioTrack.headline}
+            isAudioActive={isAudioActive}
           />
         )}
 
@@ -330,6 +335,9 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
             onToggleAction={handleToggleAction}
             onStartAudio={handleStartAudio}
             fontSizeClass={fontClasses[fontSizeIndex]}
+            highlightRange={highlightRange}
+            activeAudioHeadline={audioTrack.headline}
+            isAudioActive={isAudioActive}
           />
         )}
 
@@ -339,6 +347,9 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
             onOpenStashModal={onOpenStashModal}
             onStartAudio={handleStartAudio}
             fontSizeClass={fontClasses[fontSizeIndex]}
+            highlightRange={highlightRange}
+            activeAudioHeadline={audioTrack.headline}
+            isAudioActive={isAudioActive}
           />
         )}
 

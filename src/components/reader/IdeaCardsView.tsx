@@ -2,19 +2,26 @@ import React, { useState, useEffect } from 'react';
 import { Book, IdeaCard } from '../../types';
 import { db } from '../../db';
 import { Bookmark, RotateCw, Quote, ArrowRight, Check, Volume2, Search, Filter } from 'lucide-react';
+import { HighlightedSentence } from './HighlightedSentence';
 
 interface IdeaCardsViewProps {
   book: Book;
   onOpenStashModal: (idea: IdeaCard) => void;
   onStartAudio: (headline: string, text: string) => void;
   fontSizeClass?: string;
+  highlightRange?: { start: number; length: number };
+  activeAudioHeadline?: string;
+  isAudioActive?: boolean;
 }
 
 export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({ 
   book, 
   onOpenStashModal, 
   onStartAudio,
-  fontSizeClass = 'text-xs sm:text-sm leading-relaxed'
+  fontSizeClass = 'text-xs sm:text-sm leading-relaxed',
+  highlightRange,
+  activeAudioHeadline,
+  isAudioActive
 }) => {
   const [ideas, setIdeas] = useState<IdeaCard[]>([]);
   const [activeFilter, setActiveFilter] = useState<string>('all');
@@ -60,10 +67,7 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({
 
   const handleListenCard = (idea: IdeaCard, e?: React.MouseEvent) => {
     if (e) e.stopPropagation();
-    let text = `${idea.headline}. ${idea.body}`;
-    if (idea.quote) text += ` Quote: ${idea.quote}`;
-    if (idea.actionItem) text += ` Action step: ${idea.actionItem}`;
-    onStartAudio(`${idea.type}: ${idea.headline}`, text);
+    onStartAudio(idea.headline, idea.body);
   };
 
   const handleListenAllCards = () => {
@@ -166,6 +170,7 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredIdeas.map((idea) => {
           const isFlipped = flippedCards[idea.id];
+          const isCardAudioActive = Boolean(isAudioActive && activeAudioHeadline === idea.headline);
 
           return (
             <div
@@ -173,7 +178,11 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({
               className="h-80 perspective-1000"
             >
               <div 
-                className={`relative w-full h-full transition-transform duration-500 transform-style-3d rounded-2xl shadow-sm border border-slate-200/80 dark:border-slate-700/80 bg-white dark:bg-slate-800/90 ${
+                className={`relative w-full h-full transition-transform duration-500 transform-style-3d rounded-2xl shadow-sm border bg-white dark:bg-slate-800/90 ${
+                  isCardAudioActive 
+                    ? 'ring-2 ring-blue-500 border-blue-400 dark:border-blue-500 shadow-lg' 
+                    : 'border-slate-200/80 dark:border-slate-700/80'
+                } ${
                   isFlipped ? 'rotate-y-180' : ''
                 }`}
               >
@@ -190,10 +199,14 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({
                         {/* Listen Button */}
                         <button
                           onClick={(e) => handleListenCard(idea, e)}
-                          className="p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500 hover:text-blue-600 transition"
+                          className={`p-1.5 rounded-lg border transition cursor-pointer ${
+                            isCardAudioActive
+                              ? 'bg-blue-600 text-white border-blue-600 shadow-xs'
+                              : 'border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500 hover:text-blue-600'
+                          }`}
                           title="Listen to this card"
                         >
-                          <Volume2 className="w-3.5 h-3.5" />
+                          <Volume2 className={`w-3.5 h-3.5 ${isCardAudioActive ? 'text-white animate-pulse' : ''}`} />
                         </button>
 
                         {/* Stash Button */}
@@ -202,7 +215,7 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({
                             e.stopPropagation();
                             onOpenStashModal(idea);
                           }}
-                          className={`p-1.5 rounded-lg border transition ${
+                          className={`p-1.5 rounded-lg border transition cursor-pointer ${
                             idea.isStashed
                               ? 'bg-amber-100 dark:bg-amber-950 border-amber-300 text-amber-600'
                               : 'hover:bg-slate-100 dark:hover:bg-slate-700 border-slate-200 dark:border-slate-700 text-slate-500'
@@ -230,9 +243,12 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({
                         </p>
                       </div>
                     ) : (
-                      <p className={`text-slate-600 dark:text-slate-300 line-clamp-4 leading-relaxed ${fontSizeClass}`}>
-                        {idea.body}
-                      </p>
+                      <HighlightedSentence
+                        text={idea.body}
+                        isActive={isCardAudioActive}
+                        highlightRange={highlightRange}
+                        className={`text-slate-600 dark:text-slate-300 line-clamp-4 leading-relaxed ${fontSizeClass}`}
+                      />
                     )}
                   </div>
 

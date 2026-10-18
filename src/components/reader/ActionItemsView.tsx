@@ -16,6 +16,7 @@ import {
   Filter
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
+import { HighlightedSentence } from './HighlightedSentence';
 
 interface ActionItemsViewProps {
   book: Book;
@@ -23,6 +24,9 @@ interface ActionItemsViewProps {
   onToggleAction: (actionId: string) => void;
   onStartAudio: (headline: string, text: string) => void;
   fontSizeClass?: string;
+  highlightRange?: { start: number; length: number };
+  activeAudioHeadline?: string;
+  isAudioActive?: boolean;
 }
 
 const CATEGORY_LABELS: Record<ActionCategory, { label: string; badge: string; icon: string }> = {
@@ -38,7 +42,10 @@ export const ActionItemsView: React.FC<ActionItemsViewProps> = ({
   completedActionIds,
   onToggleAction,
   onStartAudio,
-  fontSizeClass = 'text-sm sm:text-base leading-relaxed'
+  fontSizeClass = 'text-sm sm:text-base leading-relaxed',
+  highlightRange,
+  activeAudioHeadline,
+  isAudioActive
 }) => {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [copied, setCopied] = useState(false);
@@ -115,8 +122,7 @@ export const ActionItemsView: React.FC<ActionItemsViewProps> = ({
   };
 
   const handleListenAction = (item: ActionItem) => {
-    const text = `Action Item: ${item.title}. Estimated time: ${item.timeEstimateMinutes} minutes. Description: ${item.description}. Step by step implementation: ${item.stepByStep.join('. ')}.`;
-    onStartAudio(item.title, text);
+    onStartAudio(item.title, item.description);
   };
 
   const handleListenAllActions = () => {
@@ -247,12 +253,15 @@ export const ActionItemsView: React.FC<ActionItemsViewProps> = ({
           const isDone = completedActionIds.includes(item.id);
           const isExpanded = expandedSteps[item.id] ?? false;
           const catInfo = CATEGORY_LABELS[item.category] || CATEGORY_LABELS['quick-win'];
+          const isActionAudioActive = Boolean(isAudioActive && activeAudioHeadline === item.title);
 
           return (
             <div
               key={item.id}
               className={`rounded-2xl border transition-all duration-300 overflow-hidden shadow-xs ${
-                isDone 
+                isActionAudioActive
+                  ? 'ring-2 ring-emerald-500/80 border-emerald-400 dark:border-emerald-700 shadow-md bg-emerald-50/20 dark:bg-emerald-950/20'
+                  : isDone 
                   ? 'bg-emerald-50/40 dark:bg-emerald-950/20 border-emerald-300/80 dark:border-emerald-900/60 opacity-80'
                   : 'bg-white dark:bg-slate-800/90 border-slate-200 dark:border-slate-700 hover:border-slate-300'
               }`}
@@ -298,10 +307,14 @@ export const ActionItemsView: React.FC<ActionItemsViewProps> = ({
                     <div className="flex items-center space-x-1.5">
                       <button
                         onClick={() => handleListenAction(item)}
-                        className="p-1.5 rounded-lg text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-700 transition"
+                        className={`p-1.5 rounded-lg transition cursor-pointer ${
+                          isActionAudioActive
+                            ? 'bg-emerald-600 text-white shadow-xs'
+                            : 'text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-700'
+                        }`}
                         title="Listen to this action item"
                       >
-                        <Volume2 className="w-4 h-4" />
+                        <Volume2 className={`w-4 h-4 ${isActionAudioActive ? 'text-white animate-pulse' : ''}`} />
                       </button>
 
                       <button
@@ -318,9 +331,12 @@ export const ActionItemsView: React.FC<ActionItemsViewProps> = ({
                     {item.title}
                   </h3>
 
-                  <p className={`text-slate-600 dark:text-slate-300 ${fontSizeClass}`}>
-                    {item.description}
-                  </p>
+                  <HighlightedSentence
+                    text={item.description}
+                    isActive={isActionAudioActive}
+                    highlightRange={highlightRange}
+                    className={`text-slate-600 dark:text-slate-300 ${fontSizeClass}`}
+                  />
 
                   {/* Linked Story Badge if present */}
                   {item.linkedStory && (

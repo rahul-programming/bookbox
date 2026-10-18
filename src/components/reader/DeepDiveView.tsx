@@ -15,14 +15,25 @@ import {
   Sparkles
 } from 'lucide-react';
 import { ChapterDiagramViewer } from './ChapterDiagramViewer';
+import { HighlightedSentence } from './HighlightedSentence';
 
 interface DeepDiveViewProps {
   book: Book;
   fontSizeClass: string;
   onStartAudio: (headline: string, text: string) => void;
+  highlightRange?: { start: number; length: number };
+  activeAudioHeadline?: string;
+  isAudioActive?: boolean;
 }
 
-export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ book, fontSizeClass, onStartAudio }) => {
+export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ 
+  book, 
+  fontSizeClass, 
+  onStartAudio,
+  highlightRange,
+  activeAudioHeadline,
+  isAudioActive
+}) => {
   const [activeSection, setActiveSection] = useState<'one-page' | 'chapters' | 'stories' | 'exercises'>('one-page');
   const [expandedChapters, setExpandedChapters] = useState<Record<string, boolean>>({
     'ch-0': true
@@ -75,16 +86,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ book, fontSizeClass,
 
   const handleListenOnePage = () => {
     const s = book.onePageSummary;
-    const pillarTexts = s.keyPillars.map(p => typeof p === 'string' ? p : `${p.title}: ${p.description}`);
-    let text = `The 1-Page Master Summary of ${book.title} by ${book.author}. ${s.elevatorPitch}. `;
-    if (s.executiveSummary) {
-      text += `Executive Overview: ${s.executiveSummary}. `;
-    }
-    text += `Central Thesis: ${s.coreThesis}. Key conceptual pillars: ${pillarTexts.join('. ')}. `;
-    if (s.frameworkSteps && s.frameworkSteps.length > 0) {
-      text += `Core Operating Framework: ${s.frameworkName || 'Framework'}. ${s.frameworkSteps.map(st => `Step ${st.step}, ${st.name}: ${st.summary}`).join('. ')}. `;
-    }
-    text += `Key strengths: ${s.strengths.join('. ')}. Blind spots and counterarguments: ${s.blindSpotsAndCounterarguments.join('. ')}`;
+    const text = s.executiveSummary || `${s.elevatorPitch}\n\n${s.coreThesis}`;
     onStartAudio(`1-Page Master Summary · ${book.title}`, text);
   };
 
@@ -186,16 +188,26 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ book, fontSizeClass,
 
               {/* Elevator Pitch Callout */}
               <div className={`p-4 rounded-xl bg-blue-50/70 dark:bg-blue-950/30 border-l-4 border-blue-500 text-slate-800 dark:text-slate-200 font-medium font-serif ${fontSizeClass}`}>
-                {book.onePageSummary.elevatorPitch}
+                {!book.onePageSummary.executiveSummary ? (
+                  <HighlightedSentence
+                    text={book.onePageSummary.elevatorPitch}
+                    isActive={Boolean(isAudioActive && activeAudioHeadline?.includes('1-Page Master Summary'))}
+                    highlightRange={highlightRange}
+                  />
+                ) : (
+                  book.onePageSummary.elevatorPitch
+                )}
               </div>
 
               {/* Deep Narrative Executive Summary if available */}
               {book.onePageSummary.executiveSummary && (
-                <div className={`pt-2 text-slate-700 dark:text-slate-300 font-serif space-y-3 ${fontSizeClass}`}>
-                  {book.onePageSummary.executiveSummary.split('\n\n').map((para, i) => (
-                    <p key={i}>{para}</p>
-                  ))}
-                </div>
+                <HighlightedSentence
+                  text={book.onePageSummary.executiveSummary}
+                  isActive={Boolean(isAudioActive && activeAudioHeadline?.includes('1-Page Master Summary'))}
+                  highlightRange={highlightRange}
+                  className={`pt-2 text-slate-700 dark:text-slate-300 font-serif ${fontSizeClass}`}
+                  paragraphClassName="mb-3"
+                />
               )}
             </div>
 
@@ -373,19 +385,28 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ book, fontSizeClass,
           <div className="space-y-4">
             {book.blinks.map((blink, idx) => {
               const chKey = `ch-${idx}`;
-              const isExpanded = expandedChapters[chKey];
+              const isChapterAudioActive = Boolean(isAudioActive && activeAudioHeadline === blink.headline);
+              const isExpanded = expandedChapters[chKey] || isChapterAudioActive;
 
               return (
                 <div 
                   key={idx}
-                  className="rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 overflow-hidden shadow-xs"
+                  className={`rounded-2xl bg-white dark:bg-slate-800/90 border overflow-hidden shadow-xs transition-all ${
+                    isChapterAudioActive
+                      ? 'border-blue-400 dark:border-blue-600 ring-2 ring-blue-500/20'
+                      : 'border-slate-200 dark:border-slate-700'
+                  }`}
                 >
                   <div className="w-full p-5 flex items-center justify-between hover:bg-slate-50 dark:hover:bg-slate-700/50 transition">
                     <button
                       onClick={() => toggleChapter(chKey)}
-                      className="flex-1 text-left flex items-center space-x-3 mr-3"
+                      className="flex-1 text-left flex items-center space-x-3 mr-3 cursor-pointer"
                     >
-                      <span className="w-7 h-7 rounded-lg bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 flex items-center justify-center font-bold text-xs shrink-0">
+                      <span className={`w-7 h-7 rounded-lg flex items-center justify-center font-bold text-xs shrink-0 transition ${
+                        isChapterAudioActive 
+                          ? 'bg-blue-600 text-white animate-pulse'
+                          : 'bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300'
+                      }`}>
                         {idx + 1}
                       </span>
                       <h3 className="font-bold text-base sm:text-lg text-slate-900 dark:text-slate-100">
@@ -399,16 +420,20 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ book, fontSizeClass,
                           e.stopPropagation();
                           onStartAudio(blink.headline, blink.content);
                         }}
-                        className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-blue-50 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-700 hover:text-blue-600 dark:text-slate-200 text-xs font-semibold transition"
+                        className={`flex items-center space-x-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition cursor-pointer ${
+                          isChapterAudioActive
+                            ? 'bg-blue-600 text-white shadow-xs'
+                            : 'bg-slate-100 hover:bg-blue-50 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-700 hover:text-blue-600 dark:text-slate-200'
+                        }`}
                         title="Listen to this chapter"
                       >
-                        <Volume2 className="w-3.5 h-3.5 text-blue-500" />
-                        <span className="hidden sm:inline">Listen</span>
+                        <Volume2 className={`w-3.5 h-3.5 ${isChapterAudioActive ? 'text-white animate-pulse' : 'text-blue-500'}`} />
+                        <span className="hidden sm:inline">{isChapterAudioActive ? 'Playing' : 'Listen'}</span>
                       </button>
 
                       <button
                         onClick={() => toggleChapter(chKey)}
-                        className="p-1 rounded-lg text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"
+                        className="p-1 rounded-lg text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 cursor-pointer"
                       >
                         {isExpanded ? (
                           <ChevronDown className="w-5 h-5 text-slate-400" />
@@ -421,11 +446,13 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ book, fontSizeClass,
 
                   {isExpanded && (
                     <div className="p-6 pt-2 border-t border-slate-100 dark:border-slate-700/60 space-y-4">
-                      <div className={`text-slate-700 dark:text-slate-300 space-y-4 leading-relaxed font-serif ${fontSizeClass}`}>
-                        {blink.content.split('\n\n').map((p, pIdx) => (
-                          <p key={pIdx}>{p}</p>
-                        ))}
-                      </div>
+                      <HighlightedSentence
+                        text={blink.content}
+                        isActive={isChapterAudioActive}
+                        highlightRange={highlightRange}
+                        className={`text-slate-700 dark:text-slate-300 leading-relaxed font-serif ${fontSizeClass}`}
+                        paragraphClassName="mb-4"
+                      />
 
                       {/* Chapter Visual Diagram Summary */}
                       {blink.diagram && (
@@ -465,48 +492,66 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ book, fontSizeClass,
               </div>
             ) : (
               <div className="space-y-6">
-                {book.stories.map((story, idx) => (
-                  <div key={story.id} className="p-6 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-xs space-y-4">
-                    <div className="flex flex-wrap items-center justify-between gap-2">
-                      <div className="flex flex-wrap items-center gap-2">
-                        <span className="text-xs font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-amber-100 dark:bg-amber-900/60 text-amber-800 dark:text-amber-200">
-                          Story {idx + 1}
-                        </span>
-                        {story.historicalPeriodOrSetting && (
-                          <span className="text-[11px] text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-700/60 px-2 py-0.5 rounded-md">
-                            {story.historicalPeriodOrSetting}
+                {book.stories.map((story, idx) => {
+                  const isStoryAudioActive = Boolean(isAudioActive && activeAudioHeadline === story.title);
+
+                  return (
+                    <div 
+                      key={story.id} 
+                      className={`p-6 rounded-2xl bg-white dark:bg-slate-800/90 border shadow-xs space-y-4 transition-all ${
+                        isStoryAudioActive
+                          ? 'border-amber-400 dark:border-amber-600 ring-2 ring-amber-400/20 shadow-md'
+                          : 'border-slate-200 dark:border-slate-700'
+                      }`}
+                    >
+                      <div className="flex flex-wrap items-center justify-between gap-2">
+                        <div className="flex flex-wrap items-center gap-2">
+                          <span className="text-xs font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-amber-100 dark:bg-amber-900/60 text-amber-800 dark:text-amber-200">
+                            Story {idx + 1}
                           </span>
-                        )}
-                        <span className="text-[11px] text-slate-400 font-medium">
-                          · {story.charactersOrSubject}
-                        </span>
+                          {story.historicalPeriodOrSetting && (
+                            <span className="text-[11px] text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-700/60 px-2 py-0.5 rounded-md">
+                              {story.historicalPeriodOrSetting}
+                            </span>
+                          )}
+                          <span className="text-[11px] text-slate-400 font-medium">
+                            · {story.charactersOrSubject}
+                          </span>
+                        </div>
+
+                        <button
+                          onClick={() => onStartAudio(story.title, story.narrative)}
+                          className={`flex items-center space-x-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition cursor-pointer ${
+                            isStoryAudioActive
+                              ? 'bg-amber-500 text-white shadow-xs'
+                              : 'p-1.5 text-slate-400 hover:text-amber-600 hover:bg-slate-100 dark:hover:bg-slate-700'
+                          }`}
+                          title="Listen to this story"
+                        >
+                          <Volume2 className={`w-4 h-4 ${isStoryAudioActive ? 'text-white animate-pulse' : 'text-amber-500'}`} />
+                          {isStoryAudioActive && <span>Playing</span>}
+                        </button>
                       </div>
 
-                      <button
-                        onClick={() => onStartAudio(story.title, `${story.title}. Setting: ${story.historicalPeriodOrSetting || ''}. Narrative: ${story.narrative}. Core lesson: ${story.coreLesson}`)}
-                        className="p-1.5 rounded-lg text-slate-400 hover:text-amber-600 hover:bg-slate-100 dark:hover:bg-slate-700 transition"
-                        title="Listen to this story"
-                      >
-                        <Volume2 className="w-4 h-4 text-amber-500" />
-                      </button>
-                    </div>
+                      <h4 className="text-lg font-bold text-slate-900 dark:text-slate-100">
+                        {story.title}
+                      </h4>
 
-                    <h4 className="text-lg font-bold text-slate-900 dark:text-slate-100">
-                      {story.title}
-                    </h4>
+                      <HighlightedSentence
+                        text={story.narrative}
+                        isActive={isStoryAudioActive}
+                        highlightRange={highlightRange}
+                        className={`text-slate-700 dark:text-slate-300 leading-relaxed font-serif ${fontSizeClass}`}
+                        paragraphClassName="mb-3"
+                      />
 
-                    <div className={`text-slate-700 dark:text-slate-300 space-y-3 leading-relaxed font-serif ${fontSizeClass}`}>
-                      {story.narrative.split('\n\n').map((p, pIdx) => (
-                        <p key={pIdx}>{p}</p>
-                      ))}
+                      <div className="p-4 rounded-xl bg-amber-50 dark:bg-amber-950/30 border border-amber-200/80 dark:border-amber-900/60 text-xs sm:text-sm text-amber-900 dark:text-amber-200">
+                        <strong className="text-amber-950 dark:text-amber-100">Core Behavioral Lesson: </strong>
+                        {story.coreLesson}
+                      </div>
                     </div>
-
-                    <div className="p-4 rounded-xl bg-amber-50 dark:bg-amber-950/30 border border-amber-200/80 dark:border-amber-900/60 text-xs sm:text-sm text-amber-900 dark:text-amber-200">
-                      <strong className="text-amber-950 dark:text-amber-100">Core Behavioral Lesson: </strong>
-                      {story.coreLesson}
-                    </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             )}
           </div>
