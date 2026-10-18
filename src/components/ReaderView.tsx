@@ -13,7 +13,8 @@ import {
   Sparkles, 
   Network, 
   Type, 
-  CheckCircle2 
+  CheckCircle2,
+  Volume2
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 
@@ -35,6 +36,10 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
   const [fontSizeIndex, setFontSizeIndex] = useState(1); // 0=small, 1=normal, 2=large, 3=xlarge
   const [isAudioActive, setIsAudioActive] = useState(false);
   const [highlightRange, setHighlightRange] = useState({ start: -1, length: 0 });
+  const [audioTrack, setAudioTrack] = useState<{ headline: string; text: string }>({
+    headline: '',
+    text: ''
+  });
 
   const fontClasses = [
     'text-sm leading-relaxed',
@@ -64,78 +69,106 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
     loadProgress();
   }, [book.id, book.blinks.length]);
 
-  // Track active reading time every 30s
-  useEffect(() => {
-    const interval = setInterval(async () => {
-      const profile = await db.profile.get('active_profile');
-      if (profile) {
-        profile.todayMinutesRead += 0.5;
-        await db.profile.put(profile);
-      }
-      const prog = await db.progress.get(book.id);
-      if (prog) {
-        prog.totalTimeSpentSeconds += 30;
-        prog.lastReadTimestamp = Date.now();
-        await db.progress.put(prog);
-      }
-    }, 30000);
+  const activeBlink = book.blinks[currentBlinkIndex] || book.blinks[0];
 
-    return () => clearInterval(interval);
+  // Set default audio track to current blink on mount
+  useEffect(() => {
+    if (activeBlink) {
+      setAudioTrack({
+        headline: activeBlink.headline,
+        text: activeBlink.content
+      });
+    }
   }, [book.id]);
 
-  const handleBlinkChange = async (newIndex: number) => {
-    if (newIndex < 0 || newIndex >= book.blinks.length) return;
-    setCurrentBlinkIndex(newIndex);
+  const handleStartAudio = (headline: string, text: string) => {
+    setAudioTrack({ headline, text });
+    setIsAudioActive(true);
+  };
 
-    const blink = book.blinks[newIndex];
-    const prog = await db.progress.get(book.id);
-    if (prog) {
-      if (!prog.completedBlinkIds.includes(blink.id)) {
-        prog.completedBlinkIds.push(blink.id);
+  const handleBlinkChange = async (newIndex: number) => {
+    if (newIndex >= 0 && newIndex < book.blinks.length) {
+      setCurrentBlinkIndex(newIndex);
+      const targetBlink = book.blinks[newIndex];
+      
+      // If audio is actively playing, automatically update audio to the next blink
+      if (isAudioActive && targetBlink) {
+        handleStartAudio(targetBlink.headline, targetBlink.content);
       }
-      prog.currentBlinkIndex = newIndex;
-      await db.progress.put(prog);
+
+      // Persist progress to IndexedDB
+      const existing = await db.progress.get(book.id);
+      if (existing) {
+        const completed = new Set(existing.completedBlinkIds);
+        completed.add(activeBlink.id);
+        await db.progress.update(book.id, {
+          currentBlinkIndex: newIndex,
+          completedBlinkIds: Array.from(completed),
+          lastReadTimestamp: Date.now()
+        });
+      }
     }
   };
 
   const handleCompleteBook = async () => {
-    const prog = await db.progress.get(book.id);
-    if (prog) {
-      prog.isCompleted = true;
-      prog.completedBlinkIds = book.blinks.map(b => b.id);
-      await db.progress.put(prog);
-    }
-
-    const profile = await db.profile.get('active_profile');
-    if (profile) {
-      profile.totalBooksCompleted += 1;
-      profile.dailyStreak += 1;
-      await db.profile.put(profile);
-    }
-
     confetti({
       particleCount: 100,
       spread: 70,
       origin: { y: 0.6 }
     });
 
+    await db.progress.update(book.id, {
+      isCompleted: true,
+      lastReadTimestamp: Date.now()
+    });
+
+    // Update habit streak in profile
+    const profile = await db.profile.get('active_profile');
+    if (profile) {
+      await db.profile.update('active_profile', {
+        totalBooksCompleted: profile.totalBooksCompleted + 1,
+        todayMinutesRead: profile.todayMinutesRead + 15
+      });
+    }
+
     onBookCompleted();
   };
 
   const cycleFontSize = () => {
-    setFontSizeIndex((prev) => (prev + 1) % fontClasses.length);
+    setFontSizeIndex((fontSizeIndex + 1) % fontClasses.length);
   };
 
-  const activeBlink = book.blinks[currentBlinkIndex] || book.blinks[0];
+  // Universal Listen button for the current active tab
+  const handleUniversalListen = () => {
+    if (viewMode === 'blinks' && activeBlink) {
+      handleStartAudio(activeBlink.headline, activeBlink.content);
+    } else if (viewMode === 'deepdive') {
+      const s = book.onePageSummary;
+      const text = `The 1-Page Master Summary of ${book.title} by ${book.author}. ${s.elevatorPitch}. Central Thesis: ${s.coreThesis}. Key conceptual pillars: ${s.keyPillars.join('. ')}. Key strengths: ${s.strengths.join('. ')}. Blind spots: ${s.blindSpotsAndCounterarguments.join('. ')}`;
+      handleStartAudio(`1-Page Master Summary · ${book.title}`, text);
+    } else if (viewMode === 'cards') {
+      db.ideas.where('bookId').equals(book.id).toArray().then(ideas => {
+        if (ideas.length > 0) {
+          const card = ideas[0];
+          handleStartAudio(`${card.type}: ${card.headline}`, `${card.headline}. ${card.body}${card.quote ? ` Quote: ${card.quote}` : ''}`);
+        }
+      });
+    } else if (viewMode === 'mindmap') {
+      const root = book.mindMap;
+      const branches = root.children ? root.children.map(c => c.label).join(', ') : '';
+      const text = `${book.title} Concept Mind Map. ${root.label}. ${root.description || ''}. Primary branches: ${branches}.`;
+      handleStartAudio(`Concept Map · ${book.title}`, text);
+    }
+  };
 
   return (
-    <div className="min-h-screen pb-28 bg-slate-50 dark:bg-slate-900 transition-colors">
+    <div className="flex-1 pb-32">
       
-      {/* Reader Top Sticky Bar */}
-      <div className="sticky top-16 z-30 border-b border-slate-200/80 dark:border-slate-800 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md">
+      {/* Sticky Reader Sub-Header */}
+      <div className="sticky top-16 z-30 bg-white/95 dark:bg-slate-900/95 border-b border-slate-200 dark:border-slate-800 backdrop-blur-md transition-colors">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between gap-4">
           
-          {/* Back button & book title */}
+          {/* Back button & Book Info */}
           <div className="flex items-center space-x-3 min-w-0">
             <button
               onClick={onBack}
@@ -211,8 +244,19 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
 
           </div>
 
-          {/* Right Controls: Font Sizer & Finish */}
+          {/* Right Controls: Universal Listen, Font Sizer & Finish */}
           <div className="flex items-center space-x-2">
+            
+            {/* Universal Audio Listen Button */}
+            <button
+              onClick={handleUniversalListen}
+              className="flex items-center space-x-1 px-2.5 py-1.5 rounded-lg bg-blue-50 dark:bg-blue-950/60 hover:bg-blue-100 dark:hover:bg-blue-900/60 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-900 text-xs font-semibold transition"
+              title="Listen to current view with natural female voice"
+            >
+              <Volume2 className="w-3.5 h-3.5 text-blue-600 dark:text-blue-400 animate-pulse" />
+              <span className="hidden sm:inline">Listen</span>
+            </button>
+
             <button
               onClick={cycleFontSize}
               className="p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition text-xs font-bold flex items-center space-x-1"
@@ -244,7 +288,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
             highlightRange={highlightRange}
             onBlinkChange={handleBlinkChange}
             onCompleteBook={handleCompleteBook}
-            onStartAudio={() => setIsAudioActive(true)}
+            onStartAudio={() => handleStartAudio(activeBlink.headline, activeBlink.content)}
             fontSizeClass={fontClasses[fontSizeIndex]}
           />
         )}
@@ -253,6 +297,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
           <ShortformView
             book={book}
             fontSizeClass={fontClasses[fontSizeIndex]}
+            onStartAudio={handleStartAudio}
           />
         )}
 
@@ -260,24 +305,30 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
           <DeepstashView
             book={book}
             onOpenStashModal={onOpenStashModal}
+            onStartAudio={handleStartAudio}
           />
         )}
 
         {viewMode === 'mindmap' && (
           <StoryShotsView
             book={book}
+            onStartAudio={handleStartAudio}
           />
         )}
       </div>
 
-      {/* Floating Audio Narration Bar */}
-      {isAudioActive && activeBlink && (
+      {/* Floating Audio Narration Bar - Active across all tabs */}
+      {isAudioActive && (
         <AudioPlayerBar
           bookTitle={book.title}
-          activeHeadline={activeBlink.headline}
-          activeText={activeBlink.content}
+          activeHeadline={audioTrack.headline}
+          activeText={audioTrack.text}
           onSentenceHighlight={(start, len) => setHighlightRange({ start, length: len })}
-          onNext={() => handleBlinkChange(currentBlinkIndex + 1)}
+          onNext={() => {
+            if (viewMode === 'blinks' && currentBlinkIndex < book.blinks.length - 1) {
+              handleBlinkChange(currentBlinkIndex + 1);
+            }
+          }}
           onClose={() => setIsAudioActive(false)}
         />
       )}
@@ -285,4 +336,3 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
     </div>
   );
 };
-

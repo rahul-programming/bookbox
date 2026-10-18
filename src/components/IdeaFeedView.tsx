@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { IdeaCard, Category, Book } from '../types';
 import { db } from '../db';
-import { Search, Sparkles, RotateCw, Bookmark, Check, BookOpen, Quote } from 'lucide-react';
+import { Search, Sparkles, RotateCw, Bookmark, Check, BookOpen, Quote, Volume2 } from 'lucide-react';
+import { AudioPlayerBar } from './AudioPlayerBar';
 
 interface IdeaFeedViewProps {
   onSelectBook: (book: Book) => void;
@@ -13,6 +14,7 @@ export const IdeaFeedView: React.FC<IdeaFeedViewProps> = ({ onSelectBook, onOpen
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
   const [searchQuery, setSearchQuery] = useState('');
   const [flippedCards, setFlippedCards] = useState<Record<string, boolean>>({});
+  const [activeAudioIdea, setActiveAudioIdea] = useState<IdeaCard | null>(null);
 
   const categories = ['All', 'Productivity', 'Psychology', 'Finance', 'Philosophy'];
 
@@ -133,24 +135,37 @@ export const IdeaFeedView: React.FC<IdeaFeedViewProps> = ({ onSelectBook, onOpen
                           {idea.type}
                         </span>
 
-                        <button
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            onOpenStashModal(idea);
-                          }}
-                          className={`p-1.5 rounded-lg border transition ${
-                            idea.isStashed
-                              ? 'bg-amber-100 dark:bg-amber-950 border-amber-300 text-amber-600'
-                              : 'hover:bg-slate-100 dark:hover:bg-slate-700 border-slate-200 dark:border-slate-700 text-slate-500'
-                          }`}
-                          title={idea.isStashed ? 'Stashed in Board' : 'Stash Idea'}
-                        >
-                          {idea.isStashed ? (
-                            <Check className="w-3.5 h-3.5 text-amber-600" />
-                          ) : (
-                            <Bookmark className="w-3.5 h-3.5" />
-                          )}
-                        </button>
+                        <div className="flex items-center space-x-1">
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              setActiveAudioIdea(idea);
+                            }}
+                            className="p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500 hover:text-blue-600 transition"
+                            title="Listen to this Idea"
+                          >
+                            <Volume2 className="w-3.5 h-3.5" />
+                          </button>
+
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              onOpenStashModal(idea);
+                            }}
+                            className={`p-1.5 rounded-lg border transition ${
+                              idea.isStashed
+                                ? 'bg-amber-100 dark:bg-amber-950 border-amber-300 text-amber-600'
+                                : 'hover:bg-slate-100 dark:hover:bg-slate-700 border-slate-200 dark:border-slate-700 text-slate-500'
+                            }`}
+                            title={idea.isStashed ? 'Stashed in Board' : 'Stash Idea'}
+                          >
+                            {idea.isStashed ? (
+                              <Check className="w-3.5 h-3.5 text-amber-600" />
+                            ) : (
+                              <Bookmark className="w-3.5 h-3.5" />
+                            )}
+                          </button>
+                        </div>
                       </div>
 
                       <h3 className="font-bold text-base text-slate-900 dark:text-slate-100 leading-snug mb-2">
@@ -244,6 +259,16 @@ export const IdeaFeedView: React.FC<IdeaFeedViewProps> = ({ onSelectBook, onOpen
             );
           })}
         </div>
+      )}
+
+      {/* Floating Audio Player when listening to an idea card */}
+      {activeAudioIdea && (
+        <AudioPlayerBar
+          bookTitle={activeAudioIdea.bookTitle}
+          activeHeadline={activeAudioIdea.headline}
+          activeText={`${activeAudioIdea.headline}. ${activeAudioIdea.body}${activeAudioIdea.quote ? ` Quote: ${activeAudioIdea.quote}` : ''}${activeAudioIdea.actionItem ? ` Action step: ${activeAudioIdea.actionItem}` : ''}`}
+          onClose={() => setActiveAudioIdea(null)}
+        />
       )}
 
     </div>

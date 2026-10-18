@@ -12,11 +12,13 @@ import {
   BookOpen, 
   Layers,
   Sparkles,
-  Info
+  Info,
+  Volume2
 } from 'lucide-react';
 
 interface StoryShotsViewProps {
   book: Book;
+  onStartAudio: (headline: string, text: string) => void;
 }
 
 interface LayoutNode {
@@ -52,7 +54,7 @@ const BRANCH_COLORS = [
   { stroke: '#06b6d4', fill: '#ecfeff', darkFill: '#164e63', border: '#06b6d4', text: '#155e75', darkText: '#a5f3fc' }, // Cyan
 ];
 
-export const StoryShotsView: React.FC<StoryShotsViewProps> = ({ book }) => {
+export const StoryShotsView: React.FC<StoryShotsViewProps> = ({ book, onStartAudio }) => {
   const containerRef = useRef<HTMLDivElement>(null);
 
   // Canvas Viewport State (Pan & Zoom)
@@ -497,6 +499,17 @@ export const StoryShotsView: React.FC<StoryShotsViewProps> = ({ book }) => {
             >
               <RotateCcw className="w-3.5 h-3.5" />
             </button>
+            <button
+              onClick={() => {
+                const branches = book.mindMap.children ? book.mindMap.children.map(c => c.label).join(', ') : '';
+                onStartAudio(`${book.title} Concept Map`, `${book.title} concept architecture. ${book.mindMap.description || ''}. Primary branches: ${branches}.`);
+              }}
+              className="p-1.5 rounded-lg text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-950/60 transition flex items-center space-x-1 border border-blue-200/80 dark:border-blue-900/60"
+              title="Listen to Mind Map Overview"
+            >
+              <Volume2 className="w-3.5 h-3.5" />
+              <span className="text-xs font-semibold hidden sm:inline">Listen Map</span>
+            </button>
           </div>
 
         </div>
@@ -744,7 +757,21 @@ export const StoryShotsView: React.FC<StoryShotsViewProps> = ({ book }) => {
             )}
 
             {/* Quick Action Footer */}
-            <div className="pt-3 border-t border-slate-100 dark:border-slate-700/60">
+            <div className="pt-3 border-t border-slate-100 dark:border-slate-700/60 space-y-2">
+              <button
+                onClick={() => {
+                  const sub = activeNode.children && activeNode.children.length > 0 
+                    ? `. Connected concepts: ${activeNode.children.map(c => c.label).join(', ')}` 
+                    : '';
+                  onStartAudio(activeNode.label, `${activeNode.label}. ${activeNode.description || 'Core concept.'}${sub}`);
+                }}
+                className="w-full py-2 rounded-xl bg-blue-50 hover:bg-blue-100 dark:bg-blue-950/60 dark:hover:bg-blue-900/60 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-900 text-xs font-semibold transition flex items-center justify-center space-x-1.5"
+                title="Listen to this concept"
+              >
+                <Volume2 className="w-3.5 h-3.5 text-blue-600 dark:text-blue-400 animate-pulse" />
+                <span>Listen to Concept</span>
+              </button>
+
               <button
                 onClick={() => {
                   navigator.clipboard.writeText(`${activeNode.label}: ${activeNode.description || ''}`);

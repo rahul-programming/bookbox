@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Book, UserProgress, Category } from '../types';
 import { BookCard } from './BookCard';
-import { Search, Sparkles, Compass, Flame } from 'lucide-react';
+import { Search, Sparkles, Compass, Flame, Volume2 } from 'lucide-react';
+import { AudioPlayerBar } from './AudioPlayerBar';
 
 interface LibraryViewProps {
   books: Book[];
@@ -16,6 +17,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
 }) => {
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
   const [searchQuery, setSearchQuery] = useState('');
+  const [activeAudioBook, setActiveAudioBook] = useState<Book | null>(null);
 
   const categories = ['All', 'Productivity', 'Psychology', 'Finance', 'Philosophy'];
 
@@ -64,8 +66,26 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
             </p>
 
             <div className="pt-2 flex items-center space-x-3">
-              <button className="px-5 py-2.5 rounded-xl bg-white text-blue-700 font-bold text-xs shadow-md transition transform group-hover:scale-105">
+              <button 
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onSelectBook(dailyPick);
+                }}
+                className="px-5 py-2.5 rounded-xl bg-white text-blue-700 font-bold text-xs shadow-md transition transform hover:scale-105"
+              >
                 Start 15-min Summary
+              </button>
+
+              <button 
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setActiveAudioBook(dailyPick);
+                }}
+                className="flex items-center space-x-1.5 px-4 py-2.5 rounded-xl bg-white/20 hover:bg-white/30 text-white font-semibold text-xs border border-white/30 backdrop-blur-md transition"
+                title="Listen to summary preview"
+              >
+                <Volume2 className="w-3.5 h-3.5 animate-pulse" />
+                <span>Listen Audio</span>
               </button>
             </div>
           </div>
@@ -108,25 +128,34 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
 
       {/* Book Grid */}
       {filteredBooks.length === 0 ? (
-        <div className="py-20 text-center text-slate-400 bg-white dark:bg-slate-800/50 rounded-2xl border border-dashed border-slate-200 dark:border-slate-700">
-          <Compass className="w-8 h-8 mx-auto text-slate-400 mb-2 opacity-50" />
-          <p className="font-semibold text-sm">No summaries found</p>
-          <p className="text-xs text-slate-500 mt-1">Try selecting another category or clear your search query.</p>
+        <div className="py-16 text-center text-slate-400">
+          <p className="text-base font-medium">No books found matching "{searchQuery}"</p>
+          <p className="text-xs mt-1">Try clearing your search query or picking a different category.</p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredBooks.map((book) => (
             <BookCard
               key={book.id}
               book={book}
               progress={progressMap[book.id]}
               onSelect={onSelectBook}
+              onStartAudio={(b) => setActiveAudioBook(b)}
             />
           ))}
         </div>
       )}
 
+      {/* Floating Audio Player when listening from Library */}
+      {activeAudioBook && (
+        <AudioPlayerBar
+          bookTitle={activeAudioBook.title}
+          activeHeadline={`Summary Overview · ${activeAudioBook.title}`}
+          activeText={`The 1-Page Summary of ${activeAudioBook.title} by ${activeAudioBook.author}. ${activeAudioBook.onePageSummary.elevatorPitch}. Central thesis: ${activeAudioBook.onePageSummary.coreThesis}. Key conceptual pillars: ${activeAudioBook.onePageSummary.keyPillars.join('. ')}`}
+          onClose={() => setActiveAudioBook(null)}
+        />
+      )}
+
     </div>
   );
 };
-

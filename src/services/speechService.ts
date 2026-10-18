@@ -3,6 +3,8 @@ export interface VoiceOption {
   name: string;
   lang: string;
   isFemale: boolean;
+  isNatural: boolean;
+  score: number;
 }
 
 export interface SentenceChunk {
@@ -21,8 +23,10 @@ class WebSpeechAudioEngine {
   private voices: SpeechSynthesisVoice[] = [];
   private selectedVoice: SpeechSynthesisVoice | null = null;
   private playbackRate: number = 1.0;
+  private pauseTimer: ReturnType<typeof setTimeout> | null = null;
   
-  // Sentence-by-sentence queue for continuous reading without Chrome cutoff
+  // Sentence-by-sentence queue for continuous, natural reading
+  private rawText: string = '';
   private sentences: SentenceChunk[] = [];
   private currentSentenceIdx: number = 0;
   private isUserPaused: boolean = false;
@@ -42,55 +46,118 @@ class WebSpeechAudioEngine {
     }
   }
 
+  // Identify female voices accurately
   private isFemaleVoice(v: SpeechSynthesisVoice): boolean {
     const lower = `${v.name} ${v.voiceURI}`.toLowerCase();
     const femaleIndicators = [
-      'female', 'samantha', 'victoria', 'karen', 'moira', 'tessa', 'fiona',
-      'zira', 'jenny', 'ava', 'allison', 'susan', 'veena', 'serena', 'hazel',
-      'google us english' // Chrome's default Google US English is female
+      'female', 'samantha', 'karen', 'moira', 'tessa', 'fiona',
+      'zira', 'jenny', 'aria', 'ava', 'allison', 'susan', 'veena',
+      'serena', 'hazel', 'google us english', 'google uk english female'
     ];
     return femaleIndicators.some(indicator => lower.includes(indicator));
+  }
+
+  // Voice quality scoring: prioritize high-fidelity natural/neural voices and avoid legacy robotic voices
+  private scoreVoice(v: SpeechSynthesisVoice): number {
+    const name = v.name.toLowerCase();
+    const uri = (v.voiceURI || '').toLowerCase();
+    const lang = v.lang.toLowerCase();
+
+    // English voices only
+    if (!lang.startsWith('en')) return -1000;
+
+    // Filter out notorious robotic Mac legacy voices and compact low-bitrate voices
+    const roboticBlacklist = [
+      'victoria', 'compact', 'fred', 'ralph', 'albert', 'bad news', 'bahh',
+      'bells', 'boing', 'bubbles', 'cellos', 'deranged', 'good news',
+      'hysterical', 'junior', 'pipe organ', 'trinoids', 'whisper', 'zarvox'
+    ];
+    if (roboticBlacklist.some(r => name.includes(r) || uri.includes(r))) {
+      return -500;
+    }
+
+    let score = 0;
+
+    // Neural / Natural online voices are top tier
+    if (name.includes('natural') || uri.includes('natural')) score += 150;
+    if (name.includes('neural') || uri.includes('neural')) score += 140;
+    if (name.includes('online') || uri.includes('online')) score += 130;
+    if (name.includes('enhanced') || uri.includes('enhanced')) score += 110;
+    if (name.includes('premium') || uri.includes('premium')) score += 110;
+
+    // Google's modern TTS voices in Chrome
+    if (name.includes('google uk english female')) score += 100;
+    if (name.includes('google us english')) score += 95;
+    if (name.includes('google')) score += 60;
+
+    // High quality modern female voices
+    if (name.includes('jenny')) score += 90;
+    if (name.includes('aria')) score += 90;
+    if (name.includes('samantha') && !name.includes('compact')) score += 75;
+    if (name.includes('ava')) score += 70;
+    if (name.includes('allison')) score += 70;
+    if (name.includes('karen')) score += 65;
+    if (name.includes('moira')) score += 60;
+    if (name.includes('tessa')) score += 60;
+    if (name.includes('zira')) score += 50;
+
+    // Female bonus
+    if (this.isFemaleVoice(v)) score += 30;
+
+    // Standard dialect preference
+    if (lang === 'en-us' || lang === 'en_us') score += 15;
+    if (lang === 'en-gb' || lang === 'en_gb') score += 12;
+
+    return score;
   }
 
   private loadVoices(): void {
     if (!this.synth) return;
     this.voices = this.synth.getVoices();
     
-    // Auto-select preferred female English voice
-    if (!this.selectedVoice && this.voices.length > 0) {
-      const englishVoices = this.voices.filter(v => v.lang.startsWith('en'));
-      
-      // 1. Look for top-tier known female voices (Samantha, Victoria, Karen, Zira, Google US English)
-      const topFemale = englishVoices.find(v => {
-        const n = v.name.toLowerCase();
-        return n.includes('samantha') || n.includes('victoria') || n.includes('karen') || n.includes('google us english') || n.includes('zira');
-      });
+    if (this.voices.length > 0) {
+      // Sort all English voices by naturalness score
+      const sorted = [...this.voices]
+        .filter(v => v.lang.startsWith('en'))
+        .sort((a, b) => this.scoreVoice(b) - this.scoreVoice(a));
 
-      // 2. Look for any voice with female indicator
-      const anyFemale = englishVoices.find(v => this.isFemaleVoice(v));
-
-      // 3. Fallback to any natural English voice
-      const preferred = topFemale || anyFemale || englishVoices[0] || this.voices[0];
-      
-      this.selectedVoice = preferred;
+      // Auto-select the highest scored natural female voice
+      if (sorted.length > 0) {
+        if (!this.selectedVoice || this.scoreVoice(this.selectedVoice) < 0) {
+          this.selectedVoice = sorted[0];
+        }
+      }
     }
   }
 
   public getVoices(): VoiceOption[] {
     return this.voices
       .filter(v => v.lang.startsWith('en'))
-      .map(v => ({
-        voice: v,
-        name: `${v.name} ${this.isFemaleVoice(v) ? '♀ (Female)' : ''}`.trim(),
-        lang: v.lang,
-        isFemale: this.isFemaleVoice(v)
-      }))
-      .sort((a, b) => {
-        // Put female voices first
-        if (a.isFemale && !b.isFemale) return -1;
-        if (!a.isFemale && b.isFemale) return 1;
-        return a.name.localeCompare(b.name);
-      });
+      .map(v => {
+        const score = this.scoreVoice(v);
+        const isFemale = this.isFemaleVoice(v);
+        const isNatural = score >= 80;
+        let displayName = v.name
+          .replace(/Microsoft /i, '')
+          .replace(/Google /i, 'Google ')
+          .replace(/Online \(Natural\)/i, 'Natural')
+          .replace(/\(United States\)/i, 'US')
+          .replace(/\(United Kingdom\)/i, 'UK')
+          .trim();
+
+        if (isNatural) displayName = `🌟 ${displayName}`;
+        if (isFemale) displayName = `${displayName} ♀ (Female)`;
+
+        return {
+          voice: v,
+          name: displayName,
+          lang: v.lang,
+          isFemale,
+          isNatural,
+          score
+        };
+      })
+      .sort((a, b) => b.score - a.score);
   }
 
   public getSelectedVoice(): SpeechSynthesisVoice | null {
@@ -102,7 +169,7 @@ class WebSpeechAudioEngine {
   }
 
   public setPlaybackRate(rate: number): void {
-    this.playbackRate = Math.max(0.5, Math.min(2.5, rate));
+    this.playbackRate = Math.max(0.6, Math.min(2.0, rate));
   }
 
   public getPlaybackRate(): number {
@@ -128,16 +195,34 @@ class WebSpeechAudioEngine {
     };
   }
 
+  // Pre-process text to remove markdown, expand abbreviations, and ensure natural pronunciation
+  public cleanTextForSpeech(text: string): string {
+    return text
+      .replace(/\*\*(.*?)\*\*/g, '$1')
+      .replace(/\*(.*?)\*/g, '$1')
+      .replace(/_{1,2}(.*?)_{1,2}/g, '$1')
+      .replace(/#+\s+/g, '')
+      .replace(/`{1,3}.*?`{1,3}/g, '')
+      .replace(/\[(.*?)\]\(.*?\)/g, '$1')
+      .replace(/•\s*/g, '')
+      .replace(/—|–/g, ', ')
+      .replace(/\be\.g\.,?\s*/gi, 'for example, ')
+      .replace(/\bi\.e\.,?\s*/gi, 'that is, ')
+      .replace(/\bvs\.,?\s*/gi, 'versus ')
+      .replace(/&/g, 'and')
+      .trim();
+  }
+
   private splitIntoSentenceChunks(text: string): SentenceChunk[] {
     if (!text || text.trim().length === 0) return [];
     
-    // Split on sentence boundary while preserving text offsets
+    // Split on sentence boundary (. ! ? or newline)
     const regex = /[^.!?\n\r]+(?:[.!?]+|[\n\r]+|$)/g;
     const chunks: SentenceChunk[] = [];
     let match: RegExpExecArray | null;
 
     while ((match = regex.exec(text)) !== null) {
-      const chunkText = match[0].trim();
+      const chunkText = this.cleanTextForSpeech(match[0]);
       if (chunkText.length > 0) {
         chunks.push({
           text: chunkText,
@@ -148,7 +233,7 @@ class WebSpeechAudioEngine {
     }
 
     if (chunks.length === 0 && text.trim().length > 0) {
-      chunks.push({ text: text.trim(), start: 0, length: text.length });
+      chunks.push({ text: this.cleanTextForSpeech(text), start: 0, length: text.length });
     }
 
     return chunks;
@@ -166,11 +251,12 @@ class WebSpeechAudioEngine {
     // Reset current speech
     this.stopInternal();
 
+    this.rawText = text;
     this.onBoundaryCallback = onBoundary || null;
     this.onEndCallback = onEnd || null;
     this.onStateChangeCallback = onStateChange || null;
 
-    // Split text into discrete sentence units to bypass browser 15s freeze bug
+    // Split text into discrete sentence units for smooth cadence and freeze prevention
     this.sentences = this.splitIntoSentenceChunks(text);
     this.currentSentenceIdx = Math.max(0, Math.min(startSentenceIdx, this.sentences.length - 1));
     this.isUserPaused = false;
@@ -207,13 +293,13 @@ class WebSpeechAudioEngine {
       utterance.voice = this.selectedVoice;
     }
     utterance.rate = this.playbackRate;
-    // Set pitch slightly higher for natural pleasant female resonance
-    utterance.pitch = 1.05;
+    // Strict 1.0 pitch preserves authentic, unwarped human vocal formants
+    utterance.pitch = 1.0;
 
-    // Keep global reference so browser garbage collector doesn't cancel utterance
+    // Keep global reference so browser garbage collector never aborts playback
     (window as unknown as { __bookbox_active_utterance: SpeechSynthesisUtterance }).__bookbox_active_utterance = utterance;
 
-    // Initial boundary trigger at sentence start
+    // Notify UI of active sentence boundary
     if (this.onBoundaryCallback) {
       this.onBoundaryCallback(
         currentChunk.start, 
@@ -236,13 +322,17 @@ class WebSpeechAudioEngine {
 
     utterance.onend = () => {
       if (!this.isCurrentlyActive || this.isUserPaused) return;
-      // Advance to next sentence automatically
+      
       this.currentSentenceIdx++;
-      this.speakCurrentSentence();
+      
+      // Insert a natural 240ms breathing pause between sentences for realistic human cadence
+      if (this.pauseTimer) clearTimeout(this.pauseTimer);
+      this.pauseTimer = setTimeout(() => {
+        this.speakCurrentSentence();
+      }, 240);
     };
 
     utterance.onerror = (e) => {
-      // Ignore interrupted error caused by manual pause or stop
       if (e.error === 'interrupted' || e.error === 'canceled') return;
       console.warn('Speech synthesis utterance error:', e);
       if (!this.isUserPaused) {
@@ -252,7 +342,7 @@ class WebSpeechAudioEngine {
     };
 
     this.currentUtterance = utterance;
-    this.synth.cancel(); // Clear any hung queue before speaking chunk
+    this.synth.cancel(); // Flush queue cleanly before chunk
     this.synth.speak(utterance);
 
     if (this.onStateChangeCallback) {
@@ -261,9 +351,10 @@ class WebSpeechAudioEngine {
   }
 
   public pause(): void {
+    if (this.pauseTimer) clearTimeout(this.pauseTimer);
     if (this.synth) {
       this.isUserPaused = true;
-      this.synth.cancel(); // Canceling utterance while retaining currentSentenceIdx provides reliable pause
+      this.synth.cancel();
       if (this.onStateChangeCallback) {
         this.onStateChangeCallback(false, true, this.currentSentenceIdx + 1, this.sentences.length);
       }
@@ -278,6 +369,7 @@ class WebSpeechAudioEngine {
   }
 
   public nextSentence(): void {
+    if (this.pauseTimer) clearTimeout(this.pauseTimer);
     if (this.currentSentenceIdx < this.sentences.length - 1) {
       this.currentSentenceIdx++;
       if (this.isPlaying()) {
@@ -290,6 +382,7 @@ class WebSpeechAudioEngine {
   }
 
   public previousSentence(): void {
+    if (this.pauseTimer) clearTimeout(this.pauseTimer);
     if (this.currentSentenceIdx > 0) {
       this.currentSentenceIdx--;
       if (this.isPlaying()) {
@@ -302,6 +395,7 @@ class WebSpeechAudioEngine {
   }
 
   private stopInternal(): void {
+    if (this.pauseTimer) clearTimeout(this.pauseTimer);
     if (this.synth) {
       this.synth.cancel();
     }

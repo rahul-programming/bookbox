@@ -1,14 +1,15 @@
 import React from 'react';
 import { Book, UserProgress } from '../types';
-import { Clock, CheckCircle2, ChevronRight, Sparkles } from 'lucide-react';
+import { Clock, CheckCircle2, ChevronRight, Sparkles, Volume2 } from 'lucide-react';
 
 interface BookCardProps {
   book: Book;
   progress?: UserProgress;
   onSelect: (book: Book) => void;
+  onStartAudio?: (book: Book) => void;
 }
 
-export const BookCard: React.FC<BookCardProps> = ({ book, progress, onSelect }) => {
+export const BookCard: React.FC<BookCardProps> = ({ book, progress, onSelect, onStartAudio }) => {
   const totalBlinks = book.blinks.length;
   const completedBlinks = progress?.completedBlinkIds.length ?? 0;
   const isCompleted = progress?.isCompleted || (totalBlinks > 0 && completedBlinks === totalBlinks);
@@ -58,7 +59,7 @@ export const BookCard: React.FC<BookCardProps> = ({ book, progress, onSelect }) 
         ))}
       </div>
 
-      {/* Footer: Progress and CTA */}
+      {/* Footer: Progress, Audio Preview and CTA */}
       <div className="pt-3 border-t border-slate-100 dark:border-slate-700/80 flex items-center justify-between">
         {isCompleted ? (
           <div className="flex items-center space-x-1.5 text-xs font-semibold text-emerald-600 dark:text-emerald-400">
@@ -84,12 +85,26 @@ export const BookCard: React.FC<BookCardProps> = ({ book, progress, onSelect }) 
           </div>
         )}
 
-        <div className="flex items-center space-x-1 text-xs font-semibold text-blue-600 dark:text-blue-400 group-hover:translate-x-1 transition-transform">
-          <span>Read</span>
-          <ChevronRight className="w-4 h-4" />
+        <div className="flex items-center space-x-2">
+          {onStartAudio && (
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                onStartAudio(book);
+              }}
+              className="p-1.5 rounded-lg text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:bg-slate-700 transition"
+              title="Listen to summary"
+            >
+              <Volume2 className="w-4 h-4 text-blue-500" />
+            </button>
+          )}
+
+          <div className="flex items-center space-x-1 text-xs font-semibold text-blue-600 dark:text-blue-400 group-hover:translate-x-1 transition-transform">
+            <span>Read</span>
+            <ChevronRight className="w-4 h-4" />
+          </div>
         </div>
       </div>
     </div>
   );
 };
-

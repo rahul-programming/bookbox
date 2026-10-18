@@ -10,9 +10,11 @@ import {
   ArrowLeft, 
   Trash2, 
   CheckCircle,
-  HelpCircle
+  HelpCircle,
+  Volume2
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
+import { AudioPlayerBar } from './AudioPlayerBar';
 
 interface StashBoardsViewProps {
   onOpenStashModal: (idea: IdeaCard) => void;
@@ -25,6 +27,7 @@ export const StashBoardsView: React.FC<StashBoardsViewProps> = ({ onOpenStashMod
   const [isFlashcardMode, setIsFlashcardMode] = useState(false);
   const [flashcardIndex, setFlashcardIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
+  const [activeAudioIdea, setActiveAudioIdea] = useState<IdeaCard | null>(null);
 
   const loadBoards = async () => {
     const all = await db.stashes.toArray();
@@ -112,9 +115,23 @@ export const StashBoardsView: React.FC<StashBoardsViewProps> = ({ onOpenStashMod
                 className="min-h-96 p-8 rounded-3xl bg-white dark:bg-slate-800 border-2 border-slate-200 dark:border-slate-700 shadow-xl flex flex-col justify-between cursor-pointer transition-all transform hover:scale-[1.01]"
               >
                 <div>
-                  <span className="text-xs font-bold uppercase tracking-wider text-purple-600 dark:text-purple-400 bg-purple-50 dark:bg-purple-950/60 px-3 py-1 rounded-full border border-purple-200 dark:border-purple-900">
-                    {boardIdeas[flashcardIndex].category} · {boardIdeas[flashcardIndex].bookTitle}
-                  </span>
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs font-bold uppercase tracking-wider text-purple-600 dark:text-purple-400 bg-purple-50 dark:bg-purple-950/60 px-3 py-1 rounded-full border border-purple-200 dark:border-purple-900">
+                      {boardIdeas[flashcardIndex].category} · {boardIdeas[flashcardIndex].bookTitle}
+                    </span>
+
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setActiveAudioIdea(boardIdeas[flashcardIndex]);
+                      }}
+                      className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-purple-50 dark:bg-purple-950/60 hover:bg-purple-100 dark:hover:bg-purple-900/60 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-800 text-xs font-semibold transition"
+                      title="Listen to this card"
+                    >
+                      <Volume2 className="w-3.5 h-3.5 text-purple-600 dark:text-purple-400" />
+                      <span>Listen</span>
+                    </button>
+                  </div>
 
                   <h3 className="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-slate-100 mt-6 leading-snug">
                     {boardIdeas[flashcardIndex].headline}
@@ -196,12 +213,21 @@ export const StashBoardsView: React.FC<StashBoardsViewProps> = ({ onOpenStashMod
                       </div>
 
                       <div className="pt-2 border-t border-slate-100 dark:border-slate-700/60 flex items-center justify-between text-xs">
-                        <button
-                          onClick={() => onOpenStashModal(idea)}
-                          className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 font-medium"
-                        >
-                          Manage Board
-                        </button>
+                        <div className="flex items-center space-x-2">
+                          <button
+                            onClick={() => setActiveAudioIdea(idea)}
+                            className="p-1 rounded text-slate-400 hover:text-blue-600 transition"
+                            title="Listen to this card"
+                          >
+                            <Volume2 className="w-3.5 h-3.5" />
+                          </button>
+                          <button
+                            onClick={() => onOpenStashModal(idea)}
+                            className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 font-medium"
+                          >
+                            Manage
+                          </button>
+                        </div>
                         <span className="text-[10px] text-emerald-600 font-semibold flex items-center space-x-1">
                           <CheckCircle className="w-3 h-3" />
                           <span>Saved</span>
@@ -257,6 +283,16 @@ export const StashBoardsView: React.FC<StashBoardsViewProps> = ({ onOpenStashMod
             ))}
           </div>
         </div>
+      )}
+
+      {/* Floating Audio Player when listening to card in Stashes */}
+      {activeAudioIdea && (
+        <AudioPlayerBar
+          bookTitle={activeAudioIdea.bookTitle}
+          activeHeadline={activeAudioIdea.headline}
+          activeText={`${activeAudioIdea.headline}. ${activeAudioIdea.body}${activeAudioIdea.quote ? ` Quote: ${activeAudioIdea.quote}` : ''}${activeAudioIdea.actionItem ? ` Action step: ${activeAudioIdea.actionItem}` : ''}`}
+          onClose={() => setActiveAudioIdea(null)}
+        />
       )}
 
     </div>
