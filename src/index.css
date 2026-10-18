@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #f8fafc;
+    --bg-surface: #ffffff;
+    --bg-secondary: #f1f5f9;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --border-color: #e2e8f0;
+    --accent: #2563eb;
+  }
+
+  .dark {
+    --bg-primary: #090d16;
+    --bg-surface: #111827;
+    --bg-secondary: #1f2937;
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --border-color: #334155;
+    --accent: #3b82f6;
+  }
+
+  .sepia {
+    --bg-primary: #fbf0d9;
+    --bg-surface: #f4e8ce;
+    --bg-secondary: #ebdcb9;
+    --text-primary: #433422;
+    --text-secondary: #6e5c46;
+    --border-color: #dac79e;
+    --accent: #9c4221;
+  }
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom scrollbars for clean reader layout */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(156, 163, 175, 0.7);
+}
+
+/* 3D Flip Card Styles for Deepstash Idea Cards */
+.perspective-1000 {
+  perspective: 1000px;
+}
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+.backface-hidden {
+  backface-visibility: hidden;
+}
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
