@@ -88,12 +88,38 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
   };
 
   // Dimensions
-  const ROOT_WIDTH = nodeViewMode === 'detailed' ? 290 : 250;
-  const ROOT_HEIGHT = nodeViewMode === 'detailed' ? 84 : 70;
-  const NODE_WIDTH = nodeViewMode === 'detailed' ? 260 : 210;
-  const NODE_HEIGHT = nodeViewMode === 'detailed' ? 84 : 52;
+  const ROOT_WIDTH = nodeViewMode === 'detailed' ? 320 : 250;
+  const NODE_WIDTH = nodeViewMode === 'detailed' ? 300 : 210;
   const H_GAP = nodeViewMode === 'detailed' ? 95 : 85;
-  const V_GAP = nodeViewMode === 'detailed' ? 26 : 22;
+  const V_GAP = nodeViewMode === 'detailed' ? 24 : 20;
+
+  // Calculate dynamic height for any node to accommodate its full content in place
+  const getNodeHeight = (node: MindMapNode, isRoot = false): number => {
+    if (isRoot) {
+      if (nodeViewMode === 'compact') return 70;
+      const descLen = (node.description || '').length;
+      const descLines = descLen > 0 ? Math.ceil(descLen / 38) : 0;
+      return Math.max(90, 64 + descLines * 16);
+    }
+
+    if (nodeViewMode === 'compact') return 52;
+
+    const labelLen = node.label.length;
+    const descLen = (node.description || '').length;
+
+    // Inside a 300px wide card (padding 28px -> 272px text area):
+    // Bold title (text-xs) fits ~30 chars per line
+    // Regular description (text-[11px]) fits ~42 chars per line
+    const labelLines = Math.max(1, Math.ceil(labelLen / 30));
+    const descLines = descLen > 0 ? Math.max(1, Math.ceil(descLen / 42)) : 0;
+
+    // Padding (py-3 = 24px) + badge/header row (18px) + label text + description spacing and lines
+    let height = 24 + 18 + (labelLines * 17);
+    if (descLines > 0) {
+      height += 6 + (descLines * 16);
+    }
+    return Math.max(76, height);
+  };
 
   // Calculate layout coordinates recursively
   const { layoutTree, connectors, bounds } = useMemo(() => {
@@ -102,26 +128,28 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
     // Helper to calculate total bounding height of a subtree
     const getSubtreeHeight = (node: MindMapNode): number => {
       const isExpanded = expandedMap[node.id] !== false;
+      const selfHeight = getNodeHeight(node);
       if (!isExpanded || !node.children || node.children.length === 0) {
-        return NODE_HEIGHT;
+        return selfHeight;
       }
-      let h = 0;
+      let childrenTotalH = 0;
       for (const child of node.children) {
-        h += getSubtreeHeight(child);
+        childrenTotalH += getSubtreeHeight(child);
       }
-      h += (node.children.length - 1) * V_GAP;
-      return Math.max(NODE_HEIGHT, h);
+      childrenTotalH += (node.children.length - 1) * V_GAP;
+      return Math.max(selfHeight, childrenTotalH);
     };
 
     // Construct LayoutNode hierarchy
+    const rootH = getNodeHeight(rawRoot, true);
     const rootLayout: LayoutNode = {
       id: rawRoot.id,
       label: rawRoot.label,
       description: rawRoot.description,
-      x: 0,
-      y: 0,
+      x: -ROOT_WIDTH / 2,
+      y: -rootH / 2,
       width: ROOT_WIDTH,
-      height: ROOT_HEIGHT,
+      height: rootH,
       level: 0,
       branchIdx: 0,
       isLeft: false,
@@ -159,6 +187,7 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
       parent: LayoutNode
     ): LayoutNode => {
       const isExpanded = expandedMap[node.id] !== false;
+      const currentHeight = getNodeHeight(node);
       const currentLayout: LayoutNode = {
         id: node.id,
         label: node.label,
@@ -166,7 +195,7 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
         x: startX,
         y: startY,
         width: NODE_WIDTH,
-        height: NODE_HEIGHT,
+        height: currentHeight,
         level,
         branchIdx,
         isLeft,
@@ -177,22 +206,29 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
       };
 
       if (isExpanded && node.children && node.children.length > 0) {
-        const totalHeight = getSubtreeHeight(node);
-        let currentChildY = startY - totalHeight / 2 + NODE_HEIGHT / 2;
+        let totalChildrenH = 0;
+        node.children.forEach(c => {
+          totalChildrenH += getSubtreeHeight(c);
+        });
+        totalChildrenH += (node.children.length - 1) * V_GAP;
+
+        const parentCenterY = startY + currentHeight / 2;
+        let currentChildY = parentCenterY - totalChildrenH / 2;
         const nextX = isLeft 
           ? startX - NODE_WIDTH - H_GAP 
           : startX + NODE_WIDTH + H_GAP;
 
         node.children.forEach(child => {
           const childSubtreeHeight = getSubtreeHeight(child);
-          const childCenterY = currentChildY + childSubtreeHeight / 2 - NODE_HEIGHT / 2;
+          const childH = getNodeHeight(child);
+          const childTopY = currentChildY + (childSubtreeHeight - childH) / 2;
           const childLayout = layoutSubtree(
             child, 
             level + 1, 
             branchIdx, 
             isLeft, 
             nextX, 
-            childCenterY, 
+            childTopY, 
             currentLayout
           );
           currentLayout.children.push(childLayout);
@@ -211,14 +247,15 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
       });
       totalRightH += (rightChildren.length - 1) * V_GAP;
 
-      let currentY = -totalRightH / 2 + NODE_HEIGHT / 2;
+      let currentY = -totalRightH / 2;
       const startX = ROOT_WIDTH / 2 + H_GAP;
 
       rightChildren.forEach((childNode) => {
         const origIdx = primaryChildren.indexOf(childNode);
         const branchColorIdx = origIdx % BRANCH_COLORS.length;
         const subH = getSubtreeHeight(childNode);
-        const branchCenterY = currentY + subH / 2 - NODE_HEIGHT / 2;
+        const childH = getNodeHeight(childNode);
+        const childTopY = currentY + (subH - childH) / 2;
 
         const childLayout = layoutSubtree(
           childNode,
@@ -226,7 +263,7 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
           branchColorIdx,
           false,
           startX,
-          branchCenterY,
+          childTopY,
           rootLayout
         );
         rootLayout.children.push(childLayout);
@@ -242,14 +279,15 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
       });
       totalLeftH += (leftChildren.length - 1) * V_GAP;
 
-      let currentY = -totalLeftH / 2 + NODE_HEIGHT / 2;
+      let currentY = -totalLeftH / 2;
       const startX = -ROOT_WIDTH / 2 - H_GAP - NODE_WIDTH;
 
       leftChildren.forEach((childNode) => {
         const origIdx = primaryChildren.indexOf(childNode);
         const branchColorIdx = origIdx % BRANCH_COLORS.length;
         const subH = getSubtreeHeight(childNode);
-        const branchCenterY = currentY + subH / 2 - NODE_HEIGHT / 2;
+        const childH = getNodeHeight(childNode);
+        const childTopY = currentY + (subH - childH) / 2;
 
         const childLayout = layoutSubtree(
           childNode,
@@ -257,7 +295,7 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
           branchColorIdx,
           true,
           startX,
-          branchCenterY,
+          childTopY,
           rootLayout
         );
         rootLayout.children.push(childLayout);
@@ -269,8 +307,8 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
     const generatedConnectors: ConnectorPath[] = [];
     let minX = -ROOT_WIDTH / 2;
     let maxX = ROOT_WIDTH / 2;
-    let minY = -ROOT_HEIGHT / 2;
-    let maxY = ROOT_HEIGHT / 2;
+    let minY = -rootH / 2;
+    let maxY = rootH / 2;
 
     const traverseForConnectors = (node: LayoutNode) => {
       // Update bounds
@@ -485,9 +523,9 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
                   ? 'bg-white dark:bg-slate-800 text-blue-600 dark:text-blue-400 shadow-2xs font-semibold'
                   : 'text-slate-600 dark:text-slate-400'
               }`}
-              title="Show detailed concept descriptions on diagram nodes"
+              title="Show 100% full concept descriptions on diagram nodes in place"
             >
-              Detailed Nodes
+              Full Content
             </button>
             <button
               onClick={() => setNodeViewMode('compact')}
@@ -619,17 +657,17 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
                   <div
                     key={node.id}
                     onClick={() => setSelectedNodeId(node.id)}
-                    className={`absolute -translate-x-1/2 -translate-y-1/2 rounded-2xl p-4 bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-700 text-white shadow-xl shadow-blue-600/30 cursor-pointer border-2 transition-all transform hover:scale-[1.02] flex items-center space-x-3.5 ${
+                    className={`absolute -translate-x-1/2 -translate-y-1/2 rounded-2xl p-4 sm:p-5 bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-700 text-white shadow-xl shadow-blue-600/30 cursor-pointer border-2 transition-all transform hover:scale-[1.02] flex items-start space-x-3.5 ${
                       isSelected ? 'ring-4 ring-blue-400/50 border-white' : 'border-blue-400/30'
                     }`}
                     style={{
                       left: 0,
                       top: 0,
                       width: ROOT_WIDTH,
-                      minHeight: ROOT_HEIGHT
+                      minHeight: node.height
                     }}
                   >
-                    <div className="w-10 h-10 rounded-xl bg-white/20 backdrop-blur-md flex items-center justify-center shrink-0">
+                    <div className="w-10 h-10 rounded-xl bg-white/20 backdrop-blur-md flex items-center justify-center shrink-0 mt-0.5">
                       <BookOpen className="w-5 h-5 text-white" />
                     </div>
                     <div className="min-w-0 flex-1">
@@ -638,11 +676,11 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
                           Central Architecture
                         </span>
                       </div>
-                      <h4 className="font-extrabold text-sm sm:text-base leading-snug truncate">
+                      <h4 className={`font-extrabold text-sm sm:text-base leading-snug break-words ${nodeViewMode === 'compact' ? 'truncate' : ''}`}>
                         {node.label}
                       </h4>
                       {nodeViewMode === 'detailed' && node.description && (
-                        <p className="text-[11px] text-blue-100/90 leading-tight line-clamp-1 mt-0.5">
+                        <p className="text-xs text-blue-100/95 leading-relaxed mt-1 break-words font-sans">
                           {node.description}
                         </p>
                       )}
@@ -656,7 +694,7 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
                 <div
                   key={node.id}
                   onClick={() => setSelectedNodeId(node.id)}
-                  className={`absolute rounded-xl px-3.5 py-2.5 transition-all transform hover:scale-[1.02] cursor-pointer shadow-sm border ${
+                  className={`absolute rounded-xl px-3.5 py-3 transition-all transform hover:scale-[1.02] cursor-pointer shadow-sm border ${
                     isSelected
                       ? 'ring-3 ring-blue-500/50 shadow-md z-20 scale-[1.02]'
                       : matchesSearch
@@ -692,31 +730,45 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
                         )}
                       </div>
 
-                      <p className={`text-xs font-bold leading-snug ${
+                      <p className={`text-xs font-bold leading-snug break-words ${
                         isSelected 
                           ? 'text-blue-600 dark:text-blue-400' 
                           : 'text-slate-900 dark:text-slate-100'
-                      } ${nodeViewMode === 'compact' ? 'truncate' : 'line-clamp-2'}`}>
+                      } ${nodeViewMode === 'compact' ? 'truncate' : ''}`}>
                         {node.label}
                       </p>
 
                       {nodeViewMode === 'detailed' && node.description && (
-                        <p className="text-[11px] text-slate-600 dark:text-slate-400 mt-1 line-clamp-2 leading-relaxed font-sans">
+                        <p className="text-[11px] text-slate-600 dark:text-slate-300 mt-1.5 leading-relaxed font-sans break-words selection:bg-blue-100 dark:selection:bg-blue-900">
                           {node.description}
                         </p>
                       )}
                     </div>
 
-                    {/* Expand/Collapse Toggle Badge */}
-                    {hasChildren && (
+                    {/* Controls: Audio Listen & Expand/Collapse Toggle */}
+                    <div className="flex items-center space-x-1 ml-1 mt-0.5 shrink-0">
                       <button
-                        onClick={(e) => toggleNodeExpand(node.id, e)}
-                        className="w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-bold shrink-0 transition bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-600 dark:text-slate-300 ml-1 mt-0.5"
-                        title={isExpanded ? 'Collapse Branch' : `Expand (${node.rawNode.children!.length} items)`}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          const speechText = `${node.label}. ${node.description || ''}`;
+                          onStartAudio(node.label, speechText);
+                        }}
+                        className="w-5 h-5 rounded-md flex items-center justify-center text-slate-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-950/60 transition"
+                        title="Listen to this concept"
                       >
-                        {isExpanded ? '−' : `+${node.rawNode.children!.length}`}
+                        <Volume2 className="w-3 h-3" />
                       </button>
-                    )}
+
+                      {hasChildren && (
+                        <button
+                          onClick={(e) => toggleNodeExpand(node.id, e)}
+                          className="w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-bold transition bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-600 dark:text-slate-300"
+                          title={isExpanded ? 'Collapse Branch' : `Expand (${node.rawNode.children!.length} items)`}
+                        >
+                          {isExpanded ? '−' : `+${node.rawNode.children!.length}`}
+                        </button>
+                      )}
+                    </div>
                   </div>
                 </div>
               );
