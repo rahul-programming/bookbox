@@ -28,7 +28,7 @@ class TTSReaderEngine {
   private selectedVoiceId: string = '';
   private playbackRate: number = 1.0;
   private pauseTimer: ReturnType<typeof setTimeout> | null = null;
-  private keepAliveTimer: ReturnType<typeof setInterval> | null = null;
+  private sentenceWatchdogTimer: ReturnType<typeof setTimeout> | null = null;
   
   // Sentence-by-sentence queue for natural, continuous reading
   private rawText: string = '';
@@ -42,6 +42,10 @@ class TTSReaderEngine {
   private onStateChangeCallback: StateChangeCallback | null = null;
 
   constructor() {
+    if (typeof window !== 'undefined') {
+      (window as unknown as { __bookbox_utterances: SpeechSynthesisUtterance[] }).__bookbox_utterances = [];
+    }
+
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
       this.synth = window.speechSynthesis;
       this.loadVoices();
@@ -140,8 +144,18 @@ class TTSReaderEngine {
     if (name.includes('allison')) score += 70;
     if (name.includes('zira')) score += 50;
 
-    // Local / Offline voices get reliability bonus on mobile devices (iOS & Android)
-    if (v.localService) score += 25;
+    // Local / Offline voices get high reliability priority on mobile devices
+    const isAndroid = typeof navigator !== 'undefined' && /android/i.test(navigator.userAgent);
+    if (isAndroid) {
+      if (v.localService) {
+        score += 85; // High bonus for on-device voices that never drop network
+      }
+      if (uri.includes('network') || name.includes('network')) {
+        score -= 40; // Deprioritize network streaming voices that fail mid-session
+      }
+    } else {
+      if (v.localService) score += 25;
+    }
 
     // Female bonus
     if (this.isFemaleVoice(v)) score += 30;
@@ -335,11 +349,16 @@ class TTSReaderEngine {
       .replace(/`{1,3}.*?`{1,3}/g, '')
       .replace(/\[(.*?)\]\(.*?\)/g, '$1')
       .replace(/•\s*/g, '')
-      .replace(/—|–/g, ', ')
+      .replace(/["“”„]/g, '') // Strip quotes that confuse Android speech engine
+      .replace(/[()[\]{}]/g, ', ') // Convert brackets to natural breath pauses
+      .replace(/—|–|−/g, ', ')
+      .replace(/\.{2,}/g, '.')
+      .replace(/…/g, '.')
       .replace(/\be\.g\.,?\s*/gi, 'for example, ')
       .replace(/\bi\.e\.,?\s*/gi, 'that is, ')
       .replace(/\bvs\.,?\s*/gi, 'versus ')
       .replace(/&/g, 'and')
+      .replace(/\s+/g, ' ')
       .trim();
   }
 
@@ -353,7 +372,8 @@ class TTSReaderEngine {
 
     while ((match = regex.exec(text)) !== null) {
       const chunkText = this.cleanTextForSpeech(match[0]);
-      if (chunkText.length > 0) {
+      // Must contain at least one alphanumeric character
+      if (chunkText.length > 0 && /[a-zA-Z0-9]/.test(chunkText)) {
         chunks.push({
           text: chunkText,
           start: match.index,
@@ -363,32 +383,34 @@ class TTSReaderEngine {
     }
 
     if (chunks.length === 0 && text.trim().length > 0) {
-      chunks.push({ text: this.cleanTextForSpeech(text), start: 0, length: text.length });
+      const cleaned = this.cleanTextForSpeech(text);
+      if (cleaned.length > 0 && /[a-zA-Z0-9]/.test(cleaned)) {
+        chunks.push({ text: cleaned, start: 0, length: text.length });
+      }
     }
 
     return chunks;
   }
 
-  // Android Chrome 15-second background speech freeze watchdog (disabled on iOS to avoid clicks)
-  private startKeepAlive(): void {
-    this.stopKeepAlive();
-    const isChromiumOrAndroid = typeof navigator !== 'undefined' && 
-      (/android/i.test(navigator.userAgent) || (/chrome/i.test(navigator.userAgent) && !/iphone|ipad|ipod/i.test(navigator.userAgent)));
-
-    if (!isChromiumOrAndroid) return;
-
-    this.keepAliveTimer = setInterval(() => {
-      if (this.synth && this.synth.speaking && !this.isUserPaused) {
-        this.synth.pause();
-        this.synth.resume();
+  // Android & Mobile self-healing watchdog: detects if native engine hangs or drops onend
+  private startSentenceWatchdog(text: string): void {
+    this.clearSentenceWatchdog();
+    const words = text.split(/\s+/).length;
+    // ~150 wpm = ~2.5 words/sec. Add generous buffer.
+    const timeoutSec = Math.max(6, Math.ceil((words / (2.2 * this.playbackRate)) + 4));
+    this.sentenceWatchdogTimer = setTimeout(() => {
+      if (this.isCurrentlyActive && !this.isUserPaused) {
+        console.warn('TTS Watchdog: sentence timed out on Android/mobile, advancing safely...');
+        this.currentSentenceIdx++;
+        this.speakCurrentSentence();
       }
-    }, 9000);
+    }, timeoutSec * 1000);
   }
 
-  private stopKeepAlive(): void {
-    if (this.keepAliveTimer) {
-      clearInterval(this.keepAliveTimer);
-      this.keepAliveTimer = null;
+  private clearSentenceWatchdog(): void {
+    if (this.sentenceWatchdogTimer) {
+      clearTimeout(this.sentenceWatchdogTimer);
+      this.sentenceWatchdogTimer = null;
     }
   }
 
@@ -402,9 +424,9 @@ class TTSReaderEngine {
     if (!this.synth) return;
 
     if (this.pauseTimer) clearTimeout(this.pauseTimer);
-    this.stopKeepAlive();
+    this.clearSentenceWatchdog();
 
-    // On iOS Safari, only cancel if currently speaking/pending
+    // On iOS Safari & Android, only cancel if currently speaking/pending
     if (this.synth.speaking || this.synth.pending) {
       this.synth.cancel();
     }
@@ -424,11 +446,7 @@ class TTSReaderEngine {
       return;
     }
 
-    this.startKeepAlive();
-
-    // CRITICAL FOR IPHONE (iOS Safari WebKit):
-    // Must call speakCurrentSentence directly and synchronously in the user gesture event loop!
-    // Calling it inside setTimeout causes iOS WebKit to silently reject the speech utterance.
+    // Call speakCurrentSentence directly and synchronously in user gesture
     this.speakCurrentSentence();
   }
 
@@ -437,7 +455,7 @@ class TTSReaderEngine {
 
     if (this.currentSentenceIdx >= this.sentences.length) {
       // Completed all sentences in the text
-      this.stopKeepAlive();
+      this.clearSentenceWatchdog();
       this.isCurrentlyActive = false;
       this.currentUtterance = null;
       if (this.onStateChangeCallback) {
@@ -461,8 +479,18 @@ class TTSReaderEngine {
     utterance.rate = this.playbackRate;
     utterance.pitch = 1.0;
 
-    // Prevent V8 garbage collector from aborting speech mid-sentence
-    (window as unknown as { __bookbox_active_utterance: SpeechSynthesisUtterance }).__bookbox_active_utterance = utterance;
+    // Retain in persistent utterance pool to prevent V8 garbage collector from terminating speech
+    if (typeof window !== 'undefined') {
+      const win = window as unknown as { __bookbox_utterances: SpeechSynthesisUtterance[] };
+      if (!win.__bookbox_utterances) win.__bookbox_utterances = [];
+      win.__bookbox_utterances.push(utterance);
+      if (win.__bookbox_utterances.length > 20) {
+        win.__bookbox_utterances.shift();
+      }
+    }
+
+    // Start per-sentence watchdog (safeguard against Android dropping onend callback)
+    this.startSentenceWatchdog(currentChunk.text);
 
     // Notify UI of active sentence boundary
     if (this.onBoundaryCallback) {
@@ -486,21 +514,28 @@ class TTSReaderEngine {
     };
 
     utterance.onend = () => {
+      this.clearSentenceWatchdog();
       if (!this.isCurrentlyActive || this.isUserPaused) return;
       
       this.currentSentenceIdx++;
       
-      // Natural 200ms breathing pause between sentences
+      // Natural 240ms breathing pause between sentences (allows Android audio buffer to flush)
       if (this.pauseTimer) clearTimeout(this.pauseTimer);
       this.pauseTimer = setTimeout(() => {
         this.speakCurrentSentence();
-      }, 200);
+      }, 240);
     };
 
     utterance.onerror = (e) => {
+      this.clearSentenceWatchdog();
       console.warn('TTSReader utterance event:', e.error, e);
 
-      // If cloud network voice failed, automatically switch to offline local device voice
+      // If user paused, do not advance
+      if (e.error === 'interrupted' && this.isUserPaused) {
+        return;
+      }
+
+      // If cloud network voice failed on Android, automatically switch to offline local device voice
       if (e.error === 'network' || e.error === 'synthesis-failed' || e.error === 'canceled') {
         const allVoices = this.synth?.getVoices() || [];
         const localVoice = allVoices.find(v => v.localService && this.isEnglishVoice(v) && this.isFemaleVoice(v)) ||
@@ -510,16 +545,21 @@ class TTSReaderEngine {
         if (localVoice && voiceToUse && !voiceToUse.localService) {
           console.info(`Switching from cloud voice (${voiceToUse.name}) to offline device voice (${localVoice.name})`);
           this.setVoice(localVoice);
-          setTimeout(() => this.speakCurrentSentence(), 60);
+          setTimeout(() => this.speakCurrentSentence(), 80);
           return;
         }
       }
 
-      if (!this.isUserPaused) {
+      if (!this.isUserPaused && this.isCurrentlyActive) {
         this.currentSentenceIdx++;
-        this.speakCurrentSentence();
+        setTimeout(() => this.speakCurrentSentence(), 80);
       }
     };
+
+    // If browser speech synthesis was paused, resume it
+    if (this.synth.paused) {
+      this.synth.resume();
+    }
 
     this.currentUtterance = utterance;
     this.synth.speak(utterance);
@@ -531,7 +571,7 @@ class TTSReaderEngine {
 
   public pause(): void {
     if (this.pauseTimer) clearTimeout(this.pauseTimer);
-    this.stopKeepAlive();
+    this.clearSentenceWatchdog();
     if (this.synth) {
       this.isUserPaused = true;
       this.synth.cancel();
@@ -544,13 +584,13 @@ class TTSReaderEngine {
   public resume(): void {
     if (this.synth && this.isCurrentlyActive && this.isUserPaused) {
       this.isUserPaused = false;
-      this.startKeepAlive();
       this.speakCurrentSentence();
     }
   }
 
   public nextSentence(): void {
     if (this.pauseTimer) clearTimeout(this.pauseTimer);
+    this.clearSentenceWatchdog();
     if (this.currentSentenceIdx < this.sentences.length - 1) {
       this.currentSentenceIdx++;
       if (this.synth) this.synth.cancel();
@@ -565,6 +605,7 @@ class TTSReaderEngine {
 
   public previousSentence(): void {
     if (this.pauseTimer) clearTimeout(this.pauseTimer);
+    this.clearSentenceWatchdog();
     if (this.currentSentenceIdx > 0) {
       this.currentSentenceIdx--;
       if (this.synth) this.synth.cancel();
@@ -579,7 +620,7 @@ class TTSReaderEngine {
 
   private stopInternal(): void {
     if (this.pauseTimer) clearTimeout(this.pauseTimer);
-    this.stopKeepAlive();
+    this.clearSentenceWatchdog();
     if (this.synth) {
       this.synth.cancel();
     }
