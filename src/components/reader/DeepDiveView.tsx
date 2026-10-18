@@ -121,7 +121,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ book, fontSizeClass,
               }`}
             >
               <BookOpen className="w-4 h-4 shrink-0" />
-              <span>Chapter Analyses ({book.blinks.length})</span>
+              <span>Chapters ({book.blinks.length})</span>
             </button>
 
             <button
@@ -461,7 +461,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ book, fontSizeClass,
 
             {(!book.stories || book.stories.length === 0) ? (
               <div className="p-12 text-center text-slate-400 bg-white dark:bg-slate-800 rounded-2xl border border-dashed border-slate-200 dark:border-slate-700">
-                <p>No standalone story anthology extracted yet. Anecdotes are woven directly into the Chapter Analyses.</p>
+                <p>No standalone story anthology extracted yet. Anecdotes are woven directly into the Chapters.</p>
               </div>
             ) : (
               <div className="space-y-6">

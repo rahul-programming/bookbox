@@ -64,7 +64,7 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
   const [isDragging, setIsDragging] = useState(false);
   const [dragStart, setDragStart] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
 
-  // Map Mode: 'bilateral' (Classic XMind center root) or 'horizontal' (Left-to-right logic chart)
+  // Map Mode: 'bilateral' (Bilateral radial tree) or 'horizontal' (Left-to-right logic chart)
   const [layoutMode, setLayoutMode] = useState<'bilateral' | 'horizontal'>('bilateral');
 
   // Search Filter
@@ -505,11 +505,6 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
     }
   };
 
-  // Directional Pan Helper for Mobile Buttons
-  const handleNudgePan = (dx: number, dy: number) => {
-    setPan(prev => ({ x: prev.x + dx, y: prev.y + dy }));
-  };
-
   // Zoom Controls
   const handleZoom = (delta: number) => {
     setZoom(prev => Math.min(1.8, Math.max(0.4, Number((prev + delta).toFixed(2)))));
@@ -563,7 +558,7 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
           </div>
           <div>
             <h3 className="font-bold text-sm text-slate-900 dark:text-slate-100 flex items-center space-x-2">
-              <span>XMind Concept Map</span>
+              <span>Visual Concept Map</span>
               <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-blue-100 dark:bg-blue-950 text-blue-700 dark:text-blue-300">
                 Visual
               </span>
@@ -598,7 +593,7 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
                   ? 'bg-white dark:bg-slate-800 text-blue-600 dark:text-blue-400 shadow-xs font-semibold'
                   : 'text-slate-600 dark:text-slate-400'
               }`}
-              title="Classic XMind Bilateral Radial Tree"
+              title="Bilateral Radial Tree"
             >
               Bilateral
             </button>
@@ -894,64 +889,6 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
             <span>🤏 Pinch zoom</span>
             <span>•</span>
             <span>Tap node to inspect</span>
-          </div>
-
-          {/* Floating Mobile Directional & Zoom Controller */}
-          <div className="sm:hidden absolute bottom-3 right-3 flex flex-col items-center bg-white/90 dark:bg-slate-900/90 backdrop-blur-md p-1.5 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-lg space-y-1 z-30">
-            <button
-              onClick={() => handleNudgePan(0, 60)}
-              className="w-7 h-7 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 flex items-center justify-center text-xs font-bold active:scale-95 transition"
-              title="Pan Up"
-            >
-              ▲
-            </button>
-            <div className="flex items-center space-x-1">
-              <button
-                onClick={() => handleNudgePan(60, 0)}
-                className="w-7 h-7 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 flex items-center justify-center text-xs font-bold active:scale-95 transition"
-                title="Pan Left"
-              >
-                ◀
-              </button>
-              <button
-                onClick={centerView}
-                className="w-7 h-7 rounded-lg bg-blue-50 dark:bg-blue-950 text-blue-600 dark:text-blue-400 flex items-center justify-center text-[10px] font-bold active:scale-95 transition"
-                title="Center View"
-              >
-                ⊙
-              </button>
-              <button
-                onClick={() => handleNudgePan(-60, 0)}
-                className="w-7 h-7 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 flex items-center justify-center text-xs font-bold active:scale-95 transition"
-                title="Pan Right"
-              >
-                ▶
-              </button>
-            </div>
-            <button
-              onClick={() => handleNudgePan(0, -60)}
-              className="w-7 h-7 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 flex items-center justify-center text-xs font-bold active:scale-95 transition"
-              title="Pan Down"
-            >
-              ▼
-            </button>
-            <div className="w-full h-px bg-slate-200 dark:bg-slate-700 my-0.5" />
-            <div className="flex items-center space-x-1">
-              <button
-                onClick={() => handleZoom(0.15)}
-                className="w-7 h-7 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 flex items-center justify-center text-sm font-bold active:scale-95 transition"
-                title="Zoom In"
-              >
-                +
-              </button>
-              <button
-                onClick={() => handleZoom(-0.15)}
-                className="w-7 h-7 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 flex items-center justify-center text-sm font-bold active:scale-95 transition"
-                title="Zoom Out"
-              >
-                -
-              </button>
-            </div>
           </div>
 
         </div>

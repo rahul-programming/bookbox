@@ -157,16 +157,16 @@ export const AudioPlayerBar: React.FC<AudioPlayerBarProps> = ({
 
   const activeVoice = speechService.getSelectedVoice();
 
-  // Categorize voices for Android Native <select> <optgroup> rendering
-  const { femaleVoices, androidVoices, otherVoices } = useMemo(() => {
+  // Categorize voices for iPhone iOS & Android Native <select> <optgroup> rendering
+  const { femaleVoices, deviceVoices, otherVoices } = useMemo(() => {
     const list = filterFemaleOnly ? voices.filter(v => v.isFemale) : voices;
     const female = list.filter(v => v.isFemale);
-    const android = list.filter(v => !v.isFemale && v.isAndroid);
-    const other = list.filter(v => !v.isFemale && !v.isAndroid);
+    const device = list.filter(v => !v.isFemale && (v.isAndroid || (v.voice.voiceURI || '').toLowerCase().includes('apple')));
+    const other = list.filter(v => !v.isFemale && !v.isAndroid && !(v.voice.voiceURI || '').toLowerCase().includes('apple'));
 
     return {
       femaleVoices: female,
-      androidVoices: android,
+      deviceVoices: device,
       otherVoices: other
     };
   }, [voices, filterFemaleOnly]);
@@ -324,7 +324,7 @@ export const AudioPlayerBar: React.FC<AudioPlayerBarProps> = ({
                   <h3 className="font-bold text-base text-slate-100 flex items-center space-x-2">
                     <span>TTSReader Voice Settings</span>
                     <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-emerald-950 text-emerald-300 border border-emerald-800">
-                      Android Ready
+                      iPhone & Android Ready
                     </span>
                   </h3>
                   <p className="text-xs text-slate-400">
@@ -368,7 +368,7 @@ export const AudioPlayerBar: React.FC<AudioPlayerBarProps> = ({
               </button>
             </div>
 
-            {/* Native Mobile Voice Picker Dropdown (Triggers Android OS Native Selection Dialog) */}
+            {/* Native Mobile Voice Picker Dropdown (Triggers iOS / Android Native Selection Dialog) */}
             <div className="space-y-2">
               <label className="text-xs font-bold text-slate-300 uppercase tracking-wider block">
                 Select Voice Model:
@@ -396,9 +396,9 @@ export const AudioPlayerBar: React.FC<AudioPlayerBarProps> = ({
                       </optgroup>
                     )}
 
-                    {androidVoices.length > 0 && (
-                      <optgroup label="📱 Android & Google System Voices">
-                        {androidVoices.map(v => (
+                    {deviceVoices.length > 0 && (
+                      <optgroup label="📱 iPhone & Android System Voices">
+                        {deviceVoices.map(v => (
                           <option key={v.id} value={v.id}>
                             {v.name}
                           </option>
@@ -420,7 +420,7 @@ export const AudioPlayerBar: React.FC<AudioPlayerBarProps> = ({
               )}
 
               <p className="text-[11px] text-slate-400">
-                💡 Tip on Android: Tapping opens your device's native voice selector. Google and Samsung TTS engines support natural local voices.
+                💡 Tip: Fully compatible with iPhone (iOS Safari) and Android devices. Select your preferred voice and tap Test Voice to verify.
               </p>
             </div>
 

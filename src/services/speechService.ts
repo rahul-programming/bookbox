@@ -117,6 +117,14 @@ class TTSReaderEngine {
     if (name.includes('enhanced') || uri.includes('enhanced')) score += 110;
     if (name.includes('premium') || uri.includes('premium')) score += 110;
 
+    // Apple iOS voices
+    if (name.includes('siri')) score += 120;
+    if (name.includes('samantha')) score += 115;
+    if (name.includes('karen')) score += 95;
+    if (name.includes('moira')) score += 90;
+    if (name.includes('tessa')) score += 90;
+    if (uri.includes('apple') || uri.includes('ttsbundle')) score += 80;
+
     // Google's modern TTS voices on Android and Chrome
     if (name.includes('google uk english female')) score += 100;
     if (name.includes('google us english')) score += 95;
@@ -128,15 +136,11 @@ class TTSReaderEngine {
     // High quality modern female voices
     if (name.includes('jenny')) score += 90;
     if (name.includes('aria')) score += 90;
-    if (name.includes('samantha') && !name.includes('compact')) score += 85;
     if (name.includes('ava')) score += 70;
     if (name.includes('allison')) score += 70;
-    if (name.includes('karen')) score += 65;
-    if (name.includes('moira')) score += 60;
-    if (name.includes('tessa')) score += 60;
     if (name.includes('zira')) score += 50;
 
-    // Local / Offline voices get reliability bonus on mobile devices
+    // Local / Offline voices get reliability bonus on mobile devices (iOS & Android)
     if (v.localService) score += 25;
 
     // Female bonus
@@ -150,12 +154,13 @@ class TTSReaderEngine {
     return score;
   }
 
-  // Format technical Android identifiers into clean human-friendly names
+  // Format technical Android & iOS identifiers into clean human-friendly names
   public formatVoiceDisplayName(v: SpeechSynthesisVoice): string {
     const uri = (v.voiceURI || '').toLowerCase();
     const rawName = v.name;
     const isFemale = this.isFemaleVoice(v);
     const isAndroid = uri.includes('android') || uri.includes('samsung') || rawName.toLowerCase().includes('android') || rawName.toLowerCase().includes('samsung');
+    const isApple = uri.includes('apple') || uri.includes('ttsbundle') || rawName.toLowerCase().includes('siri') || rawName.toLowerCase().includes('samantha') || rawName.toLowerCase().includes('karen');
 
     let name = rawName
       .replace(/Microsoft /i, '')
@@ -176,7 +181,8 @@ class TTSReaderEngine {
 
     const badges: string[] = [];
     if (isFemale) badges.push('♀ Female');
-    if (isAndroid) badges.push('📱 Android');
+    if (isApple) badges.push('🍎 Apple iOS');
+    else if (isAndroid) badges.push('📱 Android');
     if (v.localService) badges.push('Offline');
     else badges.push('Cloud');
 
@@ -281,7 +287,9 @@ class TTSReaderEngine {
   // Instant voice sample preview
   public testVoice(voice: SpeechSynthesisVoice): void {
     if (!this.synth) return;
-    this.synth.cancel();
+    if (this.synth.speaking || this.synth.pending) {
+      this.synth.cancel();
+    }
     const testUtterance = new SpeechSynthesisUtterance("Hello! I am BookBox, your reading companion.");
     testUtterance.voice = voice;
     testUtterance.rate = this.playbackRate;
@@ -361,9 +369,14 @@ class TTSReaderEngine {
     return chunks;
   }
 
-  // Android Chrome 15-second background speech freeze watchdog
+  // Android Chrome 15-second background speech freeze watchdog (disabled on iOS to avoid clicks)
   private startKeepAlive(): void {
     this.stopKeepAlive();
+    const isChromiumOrAndroid = typeof navigator !== 'undefined' && 
+      (/android/i.test(navigator.userAgent) || (/chrome/i.test(navigator.userAgent) && !/iphone|ipad|ipod/i.test(navigator.userAgent)));
+
+    if (!isChromiumOrAndroid) return;
+
     this.keepAliveTimer = setInterval(() => {
       if (this.synth && this.synth.speaking && !this.isUserPaused) {
         this.synth.pause();
@@ -391,7 +404,10 @@ class TTSReaderEngine {
     if (this.pauseTimer) clearTimeout(this.pauseTimer);
     this.stopKeepAlive();
 
-    this.synth.cancel();
+    // On iOS Safari, only cancel if currently speaking/pending
+    if (this.synth.speaking || this.synth.pending) {
+      this.synth.cancel();
+    }
 
     this.rawText = text;
     this.onBoundaryCallback = onBoundary || null;
@@ -410,9 +426,10 @@ class TTSReaderEngine {
 
     this.startKeepAlive();
 
-    setTimeout(() => {
-      this.speakCurrentSentence();
-    }, 60);
+    // CRITICAL FOR IPHONE (iOS Safari WebKit):
+    // Must call speakCurrentSentence directly and synchronously in the user gesture event loop!
+    // Calling it inside setTimeout causes iOS WebKit to silently reject the speech utterance.
+    this.speakCurrentSentence();
   }
 
   private speakCurrentSentence(): void {

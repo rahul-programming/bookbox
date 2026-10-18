@@ -80,6 +80,18 @@ A mind map must not simply list naked chapter titles. It must function as an int
 - **Structural Breadth**: 4 to 6 primary conceptual pillars radiating from the central root.
 - **Hierarchical Depth**: Each pillar must branch into 3 to 5 sub-concepts (totaling 25 to 40+ nodes).
 - **Concept Detail in Diagram**: **Every single node must provide a substantive, multi-sentence `description`**. In BookBox's detailed diagram mode, these explanations render directly on the canvas nodes, allowing readers to study the interconnected concepts at a glance.
+- **Clean Visual Presentation**: Styled as a bilateral radial tree or left-to-right logic tree with direct touch pan and pinch zoom on mobile devices, free from on-screen joystick overlays or third-party branding.
+
+---
+
+### 1.7 High-Depth Historical Stories & Case Studies ($\ge 50\%$ Original Narrative Length)
+Stories, historical anecdotes, and clinical case studies must not be condensed into superficial 2-paragraph blurbs. They are the emotional and empirical anchor of non-fiction literature.
+- **Narrative Volume**: Each story must reach **at least 50% of the narrative depth and word count of the original book's telling** (typically 600 to 1,200 words across 5 to 9 substantive paragraphs per story).
+- **Required Depth Elements**:
+  - **Atmospheric Setting & Dramatis Personae**: Vivid historical setting, character motivations, political/cultural backdrops, and sensory details.
+  - **Authentic Dialogue & Quotes**: Real historical dialogues, coach directives, or researcher interviews.
+  - **Exact Quantitative Data**: Real statistics, percentages, and clinical findings (e.g., 25.8% increase in water sales, 5% relapse rate, 178 world championships).
+  - **Behavioral Psychology Breakdown**: Deep diagnostic analysis of why the mechanism works and how it translates into everyday modern life.
 
 ---
 
@@ -262,5 +274,7 @@ Before finalizing any book synthesis:
 - [ ] **Completeness**: Are all major chapters broken down individually?
 - [ ] **Visual Diagrams**: Does *every single chapter* have an intuitive `cycle`, `flow`, `matrix`, `comparison`, or `timeline` diagram?
 - [ ] **Actionability**: Are the reflection prompts and idea cards genuinely practical?
+- [ ] **Story Narrative Depth**: Does every historical story and clinical anecdote reach $\ge 50\%$ narrative length of the original book's telling (600–1,200 words per story)?
+- [ ] **Clean Mind Map**: Are mind map nodes informative with full explanations, without on-screen joystick overlays or third-party tool references?
 - [ ] **Zero Competitor Names**: Are all labels clean of external brand references?
 

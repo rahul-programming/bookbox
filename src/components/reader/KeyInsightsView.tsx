@@ -79,19 +79,9 @@ export const KeyInsightsView: React.FC<KeyInsightsViewProps> = ({
   if (!blink) return null;
 
   return (
-    <div 
-      className="max-w-3xl mx-auto py-6 sm:py-8 touch-pan-y"
-      onTouchStart={handleTouchStart}
-      onTouchMove={handleTouchMove}
-      onTouchEnd={handleTouchEnd}
-      onTouchCancel={handleTouchEnd}
-      style={{
-        transform: `translateX(${swipeOffset}px)`,
-        transition: isSwiping ? 'none' : 'transform 0.25s cubic-bezier(0.16, 1, 0.3, 1)'
-      }}
-    >
+    <div className="max-w-3xl mx-auto py-6 sm:py-8">
       
-      {/* Top Insight Stepper, Top Prev/Next & Audio Trigger */}
+      {/* Top Insight Stepper, Top Prev/Next & Audio Trigger (Fixed in Place) */}
       <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-200/80 dark:border-slate-800 pb-4 mb-6">
         <div className="flex items-center space-x-2">
           <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/60 px-3 py-1 rounded-full border border-blue-200 dark:border-blue-900">
@@ -172,41 +162,57 @@ export const KeyInsightsView: React.FC<KeyInsightsViewProps> = ({
         ))}
       </div>
 
-      {/* Insight Headline */}
-      <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-slate-100 tracking-tight leading-snug mb-6">
-        {blink.headline}
-      </h2>
+      {/* SWIPABLE CONTENT CARD: Only this area moves left/right on touch swipe */}
+      <div className="overflow-hidden relative rounded-2xl">
+        <div 
+          className="touch-pan-y select-text will-change-transform"
+          onTouchStart={handleTouchStart}
+          onTouchMove={handleTouchMove}
+          onTouchEnd={handleTouchEnd}
+          onTouchCancel={handleTouchEnd}
+          style={{
+            transform: `translateX(${swipeOffset}px)`,
+            opacity: isSwiping ? Math.max(0.65, 1 - Math.abs(swipeOffset) / 350) : 1,
+            transition: isSwiping ? 'none' : 'transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.28s ease-out'
+          }}
+        >
+          {/* Insight Headline */}
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-slate-100 tracking-tight leading-snug mb-6">
+            {blink.headline}
+          </h2>
 
-      {/* Main Content Paragraphs */}
-      <div className={`text-slate-700 dark:text-slate-300 space-y-5 leading-relaxed font-serif ${fontSizeClass}`}>
-        {highlightRange.start >= 0 && highlightRange.length > 0 ? (
-          <div className="space-y-4">
-            <p className="whitespace-pre-line">
-              <span>{blink.content.slice(0, highlightRange.start)}</span>
-              <mark className="bg-amber-200/90 dark:bg-amber-900/60 dark:text-amber-100 text-slate-900 px-1 py-0.5 rounded shadow-xs transition-all duration-200 font-medium">
-                {blink.content.slice(highlightRange.start, highlightRange.start + highlightRange.length)}
-              </mark>
-              <span>{blink.content.slice(highlightRange.start + highlightRange.length)}</span>
+          {/* Main Content Paragraphs */}
+          <div className={`text-slate-700 dark:text-slate-300 space-y-5 leading-relaxed font-serif ${fontSizeClass}`}>
+            {highlightRange.start >= 0 && highlightRange.length > 0 ? (
+              <div className="space-y-4">
+                <p className="whitespace-pre-line">
+                  <span>{blink.content.slice(0, highlightRange.start)}</span>
+                  <mark className="bg-amber-200/90 dark:bg-amber-900/60 dark:text-amber-100 text-slate-900 px-1 py-0.5 rounded shadow-xs transition-all duration-200 font-medium">
+                    {blink.content.slice(highlightRange.start, highlightRange.start + highlightRange.length)}
+                  </mark>
+                  <span>{blink.content.slice(highlightRange.start + highlightRange.length)}</span>
+                </p>
+              </div>
+            ) : (
+              blink.content.split('\n\n').map((paragraph, pIdx) => (
+                <p key={pIdx}>
+                  {paragraph}
+                </p>
+              ))
+            )}
+          </div>
+
+          {/* Key Takeaway Callout Box */}
+          <div className="my-8 p-5 sm:p-6 rounded-2xl bg-amber-50 dark:bg-amber-950/30 border border-amber-200/80 dark:border-amber-900/60 shadow-xs">
+            <div className="flex items-center space-x-2 text-amber-800 dark:text-amber-400 font-bold text-sm mb-2">
+              <Lightbulb className="w-5 h-5 text-amber-500 fill-amber-500" />
+              <span>Key Takeaway</span>
+            </div>
+            <p className="text-sm sm:text-base font-medium text-amber-950 dark:text-amber-200 leading-relaxed">
+              {blink.keyTakeaway}
             </p>
           </div>
-        ) : (
-          blink.content.split('\n\n').map((paragraph, pIdx) => (
-            <p key={pIdx}>
-              {paragraph}
-            </p>
-          ))
-        )}
-      </div>
-
-      {/* Key Takeaway Callout Box */}
-      <div className="my-8 p-5 sm:p-6 rounded-2xl bg-amber-50 dark:bg-amber-950/30 border border-amber-200/80 dark:border-amber-900/60 shadow-xs">
-        <div className="flex items-center space-x-2 text-amber-800 dark:text-amber-400 font-bold text-sm mb-2">
-          <Lightbulb className="w-5 h-5 text-amber-500 fill-amber-500" />
-          <span>Key Takeaway</span>
         </div>
-        <p className="text-sm sm:text-base font-medium text-amber-950 dark:text-amber-200 leading-relaxed">
-          {blink.keyTakeaway}
-        </p>
       </div>
 
       {/* Navigation Controls */}
