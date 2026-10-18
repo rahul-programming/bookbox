@@ -4,6 +4,7 @@ export interface VoiceOption {
   lang: string;
   isFemale: boolean;
   isNatural: boolean;
+  isLocal: boolean;
   score: number;
 }
 
@@ -21,7 +22,7 @@ class WebSpeechAudioEngine {
   private synth: SpeechSynthesis | null = null;
   private currentUtterance: SpeechSynthesisUtterance | null = null;
   private voices: SpeechSynthesisVoice[] = [];
-  private selectedVoice: SpeechSynthesisVoice | null = null;
+  private selectedVoiceName: string = '';
   private playbackRate: number = 1.0;
   private pauseTimer: ReturnType<typeof setTimeout> | null = null;
   
@@ -40,14 +41,18 @@ class WebSpeechAudioEngine {
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
       this.synth = window.speechSynthesis;
       this.loadVoices();
-      if (this.synth.onvoiceschanged !== undefined) {
+      
+      // Use addEventListener so we don't clobber other listeners
+      if (typeof window.speechSynthesis.addEventListener === 'function') {
+        window.speechSynthesis.addEventListener('voiceschanged', () => this.loadVoices());
+      } else if (this.synth.onvoiceschanged !== undefined) {
         this.synth.onvoiceschanged = () => this.loadVoices();
       }
     }
   }
 
   // Identify female voices accurately
-  private isFemaleVoice(v: SpeechSynthesisVoice): boolean {
+  public isFemaleVoice(v: SpeechSynthesisVoice): boolean {
     const lower = `${v.name} ${v.voiceURI}`.toLowerCase();
     const femaleIndicators = [
       'female', 'samantha', 'karen', 'moira', 'tessa', 'fiona',
@@ -57,7 +62,7 @@ class WebSpeechAudioEngine {
     return femaleIndicators.some(indicator => lower.includes(indicator));
   }
 
-  // Voice quality scoring: prioritize high-fidelity natural/neural voices and avoid legacy robotic voices
+  // Voice quality scoring: prioritize high-fidelity natural/neural voices
   private scoreVoice(v: SpeechSynthesisVoice): number {
     const name = v.name.toLowerCase();
     const uri = (v.voiceURI || '').toLowerCase();
@@ -93,13 +98,16 @@ class WebSpeechAudioEngine {
     // High quality modern female voices
     if (name.includes('jenny')) score += 90;
     if (name.includes('aria')) score += 90;
-    if (name.includes('samantha') && !name.includes('compact')) score += 75;
+    if (name.includes('samantha') && !name.includes('compact')) score += 85;
     if (name.includes('ava')) score += 70;
     if (name.includes('allison')) score += 70;
     if (name.includes('karen')) score += 65;
     if (name.includes('moira')) score += 60;
     if (name.includes('tessa')) score += 60;
     if (name.includes('zira')) score += 50;
+
+    // Local voices get reliability bonus (never drop connection)
+    if (v.localService) score += 20;
 
     // Female bonus
     if (this.isFemaleVoice(v)) score += 30;
@@ -113,40 +121,52 @@ class WebSpeechAudioEngine {
 
   private loadVoices(): void {
     if (!this.synth) return;
-    this.voices = this.synth.getVoices();
-    
-    if (this.voices.length > 0) {
-      // Sort all English voices by naturalness score
-      const sorted = [...this.voices]
-        .filter(v => v.lang.startsWith('en'))
-        .sort((a, b) => this.scoreVoice(b) - this.scoreVoice(a));
+    const freshVoices = this.synth.getVoices();
+    if (freshVoices.length > 0) {
+      this.voices = freshVoices;
+      
+      // Auto-select preferred voice if not set
+      if (!this.selectedVoiceName) {
+        const sorted = [...this.voices]
+          .filter(v => v.lang.startsWith('en'))
+          .sort((a, b) => this.scoreVoice(b) - this.scoreVoice(a));
 
-      // Auto-select the highest scored natural female voice
-      if (sorted.length > 0) {
-        if (!this.selectedVoice || this.scoreVoice(this.selectedVoice) < 0) {
-          this.selectedVoice = sorted[0];
+        if (sorted.length > 0) {
+          this.selectedVoiceName = sorted[0].name;
         }
       }
     }
   }
 
   public getVoices(): VoiceOption[] {
+    if (!this.synth) return [];
+    const currentList = this.synth.getVoices();
+    if (currentList.length > 0) {
+      this.voices = currentList;
+    }
+
     return this.voices
       .filter(v => v.lang.startsWith('en'))
       .map(v => {
         const score = this.scoreVoice(v);
         const isFemale = this.isFemaleVoice(v);
         const isNatural = score >= 80;
+        const isLocal = Boolean(v.localService);
+        
         let displayName = v.name
           .replace(/Microsoft /i, '')
-          .replace(/Google /i, 'Google ')
           .replace(/Online \(Natural\)/i, 'Natural')
           .replace(/\(United States\)/i, 'US')
           .replace(/\(United Kingdom\)/i, 'UK')
           .trim();
 
         if (isNatural) displayName = `🌟 ${displayName}`;
-        if (isFemale) displayName = `${displayName} ♀ (Female)`;
+        if (isFemale) displayName = `${displayName} ♀`;
+        if (isLocal) {
+          displayName = `${displayName} (Offline/Local)`;
+        } else {
+          displayName = `${displayName} (Cloud Network)`;
+        }
 
         return {
           voice: v,
@@ -154,6 +174,7 @@ class WebSpeechAudioEngine {
           lang: v.lang,
           isFemale,
           isNatural,
+          isLocal,
           score
         };
       })
@@ -161,11 +182,13 @@ class WebSpeechAudioEngine {
   }
 
   public getSelectedVoice(): SpeechSynthesisVoice | null {
-    return this.selectedVoice;
+    if (!this.synth) return null;
+    const all = this.synth.getVoices();
+    return all.find(v => v.name === this.selectedVoiceName) || all[0] || null;
   }
 
   public setVoice(voice: SpeechSynthesisVoice): void {
-    this.selectedVoice = voice;
+    this.selectedVoiceName = voice.name;
   }
 
   public setPlaybackRate(rate: number): void {
@@ -248,8 +271,11 @@ class WebSpeechAudioEngine {
   ): void {
     if (!this.synth) return;
 
-    // Reset current speech
-    this.stopInternal();
+    if (this.pauseTimer) clearTimeout(this.pauseTimer);
+
+    // Cancel any previous utterance and give Chrome 50ms to settle its internal audio thread
+    // This delay is critical for remote Google voices so they do not get instantly canceled
+    this.synth.cancel();
 
     this.rawText = text;
     this.onBoundaryCallback = onBoundary || null;
@@ -267,7 +293,9 @@ class WebSpeechAudioEngine {
       return;
     }
 
-    this.speakCurrentSentence();
+    setTimeout(() => {
+      this.speakCurrentSentence();
+    }, 60);
   }
 
   private speakCurrentSentence(): void {
@@ -289,14 +317,26 @@ class WebSpeechAudioEngine {
     const currentChunk = this.sentences[this.currentSentenceIdx];
     const utterance = new SpeechSynthesisUtterance(currentChunk.text);
 
-    if (this.selectedVoice) {
-      utterance.voice = this.selectedVoice;
+    // Dynamically resolve voice from fresh getVoices() array to prevent stale object handles
+    const allVoices = this.synth.getVoices();
+    let voiceToUse = allVoices.find(v => v.name === this.selectedVoiceName);
+    
+    // If preferred voice not found, find top female voice or any English voice
+    if (!voiceToUse) {
+      voiceToUse = allVoices.find(v => v.lang.startsWith('en') && this.isFemaleVoice(v)) || 
+                   allVoices.find(v => v.lang.startsWith('en')) || 
+                   allVoices[0];
     }
+
+    if (voiceToUse) {
+      utterance.voice = voiceToUse;
+    }
+    
     utterance.rate = this.playbackRate;
     // Strict 1.0 pitch preserves authentic, unwarped human vocal formants
     utterance.pitch = 1.0;
 
-    // Keep global reference so browser garbage collector never aborts playback
+    // Keep global window reference so Chrome V8 garbage collector never aborts playback mid-sentence
     (window as unknown as { __bookbox_active_utterance: SpeechSynthesisUtterance }).__bookbox_active_utterance = utterance;
 
     // Notify UI of active sentence boundary
@@ -325,16 +365,30 @@ class WebSpeechAudioEngine {
       
       this.currentSentenceIdx++;
       
-      // Insert a natural 240ms breathing pause between sentences for realistic human cadence
+      // Insert a natural 220ms breathing pause between sentences for realistic human cadence
       if (this.pauseTimer) clearTimeout(this.pauseTimer);
       this.pauseTimer = setTimeout(() => {
         this.speakCurrentSentence();
-      }, 240);
+      }, 220);
     };
 
     utterance.onerror = (e) => {
-      if (e.error === 'interrupted' || e.error === 'canceled') return;
-      console.warn('Speech synthesis utterance error:', e);
+      console.warn('Speech synthesis utterance event:', e.error, e);
+
+      // If remote Google cloud voice failed (network or synthesis error), seamlessly fall back to local voice
+      if (e.error === 'network' || e.error === 'synthesis-failed' || e.error === 'canceled') {
+        const localVoice = allVoices.find(v => v.localService && v.lang.startsWith('en') && this.isFemaleVoice(v)) ||
+                           allVoices.find(v => v.localService && v.lang.startsWith('en'));
+
+        if (localVoice && voiceToUse && !voiceToUse.localService) {
+          console.info(`Switching from remote voice (${voiceToUse.name}) to offline reliable voice (${localVoice.name})`);
+          this.selectedVoiceName = localVoice.name;
+          setTimeout(() => this.speakCurrentSentence(), 60);
+          return;
+        }
+      }
+
+      // Normal progression on recoverable error
       if (!this.isUserPaused) {
         this.currentSentenceIdx++;
         this.speakCurrentSentence();
@@ -342,7 +396,8 @@ class WebSpeechAudioEngine {
     };
 
     this.currentUtterance = utterance;
-    this.synth.cancel(); // Flush queue cleanly before chunk
+    // NOTE: NEVER call this.synth.cancel() right before speak here! 
+    // Doing so destroys remote Google cloud voice streaming.
     this.synth.speak(utterance);
 
     if (this.onStateChangeCallback) {
@@ -372,8 +427,9 @@ class WebSpeechAudioEngine {
     if (this.pauseTimer) clearTimeout(this.pauseTimer);
     if (this.currentSentenceIdx < this.sentences.length - 1) {
       this.currentSentenceIdx++;
+      if (this.synth) this.synth.cancel();
       if (this.isPlaying()) {
-        this.speakCurrentSentence();
+        setTimeout(() => this.speakCurrentSentence(), 50);
       } else if (this.onBoundaryCallback && this.sentences[this.currentSentenceIdx]) {
         const s = this.sentences[this.currentSentenceIdx];
         this.onBoundaryCallback(s.start, s.length, this.currentSentenceIdx + 1, this.sentences.length);
@@ -385,8 +441,9 @@ class WebSpeechAudioEngine {
     if (this.pauseTimer) clearTimeout(this.pauseTimer);
     if (this.currentSentenceIdx > 0) {
       this.currentSentenceIdx--;
+      if (this.synth) this.synth.cancel();
       if (this.isPlaying()) {
-        this.speakCurrentSentence();
+        setTimeout(() => this.speakCurrentSentence(), 50);
       } else if (this.onBoundaryCallback && this.sentences[this.currentSentenceIdx]) {
         const s = this.sentences[this.currentSentenceIdx];
         this.onBoundaryCallback(s.start, s.length, this.currentSentenceIdx + 1, this.sentences.length);

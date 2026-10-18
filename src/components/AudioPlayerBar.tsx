@@ -47,7 +47,10 @@ export const AudioPlayerBar: React.FC<AudioPlayerBarProps> = ({
 
     updateVoiceList();
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-      window.speechSynthesis.onvoiceschanged = updateVoiceList;
+      window.speechSynthesis.addEventListener('voiceschanged', updateVoiceList);
+      return () => {
+        window.speechSynthesis.removeEventListener('voiceschanged', updateVoiceList);
+      };
     }
   }, []);
 
