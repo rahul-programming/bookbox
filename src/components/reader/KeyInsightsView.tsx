@@ -21,297 +21,180 @@ export const KeyInsightsView: React.FC<KeyInsightsViewProps> = ({
   onStartAudio,
   fontSizeClass
 }) => {
-  // Local active index synced with currentBlinkIndex
-  const [activeIdx, setActiveIdx] = React.useState<number>(currentBlinkIndex);
-  // Target index being navigated to
-  const [targetIdx, setTargetIdx] = React.useState<number | null>(null);
-  // Transition status: 'idle' | 'swiping' | 'exiting' | 'springing'
-  const [transitionStatus, setTransitionStatus] = React.useState<'idle' | 'swiping' | 'exiting' | 'springing'>('idle');
-  // Direction: 'left' (next) or 'right' (prev)
-  const [direction, setDirection] = React.useState<'left' | 'right'>('left');
-  // Live drag offset in pixels
   const [dragOffset, setDragOffset] = React.useState<number>(0);
+  const [isDragging, setIsDragging] = React.useState<boolean>(false);
 
-  // Sync external changes (e.g. from Audio player auto-advancing)
+  const startXRef = React.useRef<number | null>(null);
+  const startYRef = React.useRef<number | null>(null);
+  const startTimeRef = React.useRef<number>(0);
+  const isHorizontalIntentRef = React.useRef<boolean | null>(null);
+
+  const total = book.blinks.length;
+  const isFirst = currentBlinkIndex === 0;
+  const isLast = currentBlinkIndex === total - 1;
+  const currentBlink = book.blinks[currentBlinkIndex] || book.blinks[0];
+
+  // Keyboard navigation (Arrow keys)
   React.useEffect(() => {
-    if (currentBlinkIndex !== activeIdx && transitionStatus === 'idle') {
-      const dir = currentBlinkIndex > activeIdx ? 'left' : 'right';
-      setDirection(dir);
-      setTargetIdx(currentBlinkIndex);
-      setTransitionStatus('exiting');
-
-      const t = setTimeout(() => {
-        setActiveIdx(currentBlinkIndex);
-        setDragOffset(0);
-        setTransitionStatus('idle');
-        setTargetIdx(null);
-      }, 280);
-      return () => clearTimeout(t);
-    }
-  }, [currentBlinkIndex, activeIdx, transitionStatus]);
-
-  const blink = book.blinks[activeIdx] || book.blinks[0];
-  const isFirst = activeIdx === 0;
-  const isLast = activeIdx === book.blinks.length - 1;
-
-  // Touch gesture tracking
-  const touchStartRef = React.useRef<{ x: number; y: number; time: number } | null>(null);
-  const touchAxisRef = React.useRef<'horizontal' | 'vertical' | null>(null);
-
-  const handleTouchStart = (e: React.TouchEvent) => {
-    if (transitionStatus !== 'idle') return;
-    touchStartRef.current = {
-      x: e.touches[0].clientX,
-      y: e.touches[0].clientY,
-      time: Date.now()
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+      if (e.key === 'ArrowRight') {
+        if (!isLast) onBlinkChange(currentBlinkIndex + 1);
+        else onCompleteBook();
+      } else if (e.key === 'ArrowLeft') {
+        if (!isFirst) onBlinkChange(currentBlinkIndex - 1);
+      }
     };
-    touchAxisRef.current = null;
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [currentBlinkIndex, isFirst, isLast, onBlinkChange, onCompleteBook]);
+
+  // Touch gesture handling
+  const handleTouchStart = (e: React.TouchEvent) => {
+    startXRef.current = e.touches[0].clientX;
+    startYRef.current = e.touches[0].clientY;
+    startTimeRef.current = Date.now();
+    isHorizontalIntentRef.current = null;
+    setIsDragging(true);
   };
 
   const handleTouchMove = (e: React.TouchEvent) => {
-    if (!touchStartRef.current || transitionStatus === 'exiting') return;
+    if (startXRef.current === null || startYRef.current === null) return;
     const currentX = e.touches[0].clientX;
     const currentY = e.touches[0].clientY;
-    const deltaX = currentX - touchStartRef.current.x;
-    const deltaY = currentY - touchStartRef.current.y;
+    const deltaX = currentX - startXRef.current;
+    const deltaY = currentY - startYRef.current;
 
-    if (!touchAxisRef.current) {
+    // Detect gesture direction
+    if (isHorizontalIntentRef.current === null) {
       if (Math.abs(deltaY) > Math.abs(deltaX) && Math.abs(deltaY) > 8) {
-        touchAxisRef.current = 'vertical';
+        // Vertical page scroll detected -> do not intercept
+        isHorizontalIntentRef.current = false;
         return;
       }
-      if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 8) {
-        touchAxisRef.current = 'horizontal';
+      if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 6) {
+        isHorizontalIntentRef.current = true;
       }
     }
 
-    if (touchAxisRef.current === 'horizontal') {
+    if (isHorizontalIntentRef.current) {
       let offset = deltaX;
-      if (deltaX < 0) {
-        // Dragging Left -> Next Card
-        setDirection('left');
-        setTargetIdx(Math.min(activeIdx + 1, book.blinks.length - 1));
-        if (activeIdx === book.blinks.length - 1) {
-          offset = deltaX * 0.25; // Rubber-band bounce on last card
-        }
-      } else if (deltaX > 0) {
-        // Dragging Right -> Prev Card
-        setDirection('right');
-        setTargetIdx(Math.max(activeIdx - 1, 0));
-        if (activeIdx === 0) {
-          offset = deltaX * 0.25; // Rubber-band bounce on first card
-        }
+      // Damping resistance at track boundaries
+      if (currentBlinkIndex === 0 && deltaX > 0) {
+        offset = deltaX * 0.25;
+      } else if (currentBlinkIndex === total - 1 && deltaX < 0) {
+        offset = deltaX * 0.25;
       }
       setDragOffset(offset);
-      setTransitionStatus('swiping');
     }
   };
 
-  const handleTouchEnd = () => {
-    if (!touchStartRef.current) return;
-    const deltaX = dragOffset;
-    const elapsed = Date.now() - touchStartRef.current.time;
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    if (startXRef.current === null) return;
+    const endX = e.changedTouches[0].clientX;
+    const deltaX = endX - startXRef.current;
+    const elapsed = Date.now() - startTimeRef.current;
     const velocity = Math.abs(deltaX) / Math.max(1, elapsed);
-    const wasHorizontal = touchAxisRef.current === 'horizontal';
+    const wasHorizontal = isHorizontalIntentRef.current === true;
 
-    touchStartRef.current = null;
-    touchAxisRef.current = null;
+    startXRef.current = null;
+    startYRef.current = null;
+    isHorizontalIntentRef.current = null;
 
-    if (!wasHorizontal) {
-      setDragOffset(0);
-      setTransitionStatus('idle');
-      return;
-    }
+    if (wasHorizontal) {
+      const threshold = 45;
+      const isQuickFlick = velocity > 0.35 && Math.abs(deltaX) > 20;
 
-    const threshold = 60;
-    const isSwipe = Math.abs(deltaX) > threshold || velocity > 0.35;
-
-    if (isSwipe && deltaX < 0) {
-      // Swipe Left -> Next Card
-      if (activeIdx < book.blinks.length - 1) {
-        setDirection('left');
-        setTransitionStatus('exiting');
-        setDragOffset(-window.innerWidth || -420);
-        setTimeout(() => {
-          const nextIdx = activeIdx + 1;
-          setActiveIdx(nextIdx);
-          onBlinkChange(nextIdx);
-          setDragOffset(0);
-          setTransitionStatus('idle');
-          setTargetIdx(null);
-        }, 280);
-      } else {
-        // Last card swipe left -> Complete book
-        setDirection('left');
-        setTransitionStatus('exiting');
-        setDragOffset(-window.innerWidth || -420);
-        setTimeout(() => {
+      if (deltaX < -threshold || (isQuickFlick && deltaX < 0)) {
+        // Swipe Left -> Next Insight Card
+        if (!isLast) {
+          onBlinkChange(currentBlinkIndex + 1);
+        } else {
           onCompleteBook();
-          setDragOffset(0);
-          setTransitionStatus('idle');
-          setTargetIdx(null);
-        }, 280);
+        }
+      } else if (deltaX > threshold || (isQuickFlick && deltaX > 0)) {
+        // Swipe Right -> Previous Insight Card
+        if (!isFirst) {
+          onBlinkChange(currentBlinkIndex - 1);
+        }
       }
-    } else if (isSwipe && deltaX > 0) {
-      // Swipe Right -> Prev Card
-      if (activeIdx > 0) {
-        setDirection('right');
-        setTransitionStatus('exiting');
-        setDragOffset(window.innerWidth || 420);
-        setTimeout(() => {
-          const prevIdx = activeIdx - 1;
-          setActiveIdx(prevIdx);
-          onBlinkChange(prevIdx);
-          setDragOffset(0);
-          setTransitionStatus('idle');
-          setTargetIdx(null);
-        }, 280);
-      } else {
-        // Elastic spring back to center
-        setTransitionStatus('springing');
-        setDragOffset(0);
-        setTimeout(() => {
-          setTransitionStatus('idle');
-        }, 260);
+    }
+
+    setDragOffset(0);
+    setIsDragging(false);
+  };
+
+  // Mouse drag handling (for desktop & trackpad testing)
+  const handleMouseDown = (e: React.MouseEvent) => {
+    startXRef.current = e.clientX;
+    startYRef.current = e.clientY;
+    startTimeRef.current = Date.now();
+    isHorizontalIntentRef.current = null;
+    setIsDragging(true);
+  };
+
+  const handleMouseMove = (e: React.MouseEvent) => {
+    if (startXRef.current === null) return;
+    const deltaX = e.clientX - startXRef.current;
+    const deltaY = e.clientY - (startYRef.current || 0);
+
+    if (isHorizontalIntentRef.current === null) {
+      if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 5) {
+        isHorizontalIntentRef.current = true;
+      } else if (Math.abs(deltaY) > Math.abs(deltaX) && Math.abs(deltaY) > 8) {
+        isHorizontalIntentRef.current = false;
+        return;
       }
-    } else {
-      // Threshold not reached: Elastic spring back to center
-      setTransitionStatus('springing');
-      setDragOffset(0);
-      setTimeout(() => {
-        setTransitionStatus('idle');
-      }, 260);
+    }
+
+    if (isHorizontalIntentRef.current) {
+      let offset = deltaX;
+      if (currentBlinkIndex === 0 && deltaX > 0) {
+        offset = deltaX * 0.25;
+      } else if (currentBlinkIndex === total - 1 && deltaX < 0) {
+        offset = deltaX * 0.25;
+      }
+      setDragOffset(offset);
     }
   };
 
-  // Programmatic smooth card navigation for Next/Prev buttons & progress dots
-  const navigateTo = (newIndex: number, isCompleting = false) => {
-    if (transitionStatus !== 'idle') return;
-    if (isCompleting) {
-      setDirection('left');
-      setTransitionStatus('exiting');
-      setTimeout(() => {
-        onCompleteBook();
-        setTransitionStatus('idle');
-      }, 280);
-      return;
-    }
-    if (newIndex === activeIdx || newIndex < 0 || newIndex >= book.blinks.length) return;
-    const dir = newIndex > activeIdx ? 'left' : 'right';
-    setDirection(dir);
-    setTargetIdx(newIndex);
-    setTransitionStatus('exiting');
+  const handleMouseUp = (e: React.MouseEvent) => {
+    if (startXRef.current === null) return;
+    const deltaX = e.clientX - startXRef.current;
+    const elapsed = Date.now() - startTimeRef.current;
+    const velocity = Math.abs(deltaX) / Math.max(1, elapsed);
+    const wasHorizontal = isHorizontalIntentRef.current === true;
 
-    setTimeout(() => {
-      setActiveIdx(newIndex);
-      onBlinkChange(newIndex);
-      setDragOffset(0);
-      setTransitionStatus('idle');
-      setTargetIdx(null);
-    }, 280);
+    startXRef.current = null;
+    startYRef.current = null;
+    isHorizontalIntentRef.current = null;
+
+    if (wasHorizontal) {
+      const threshold = 45;
+      const isQuickFlick = velocity > 0.35 && Math.abs(deltaX) > 20;
+
+      if (deltaX < -threshold || (isQuickFlick && deltaX < 0)) {
+        if (!isLast) onBlinkChange(currentBlinkIndex + 1);
+        else onCompleteBook();
+      } else if (deltaX > threshold || (isQuickFlick && deltaX > 0)) {
+        if (!isFirst) onBlinkChange(currentBlinkIndex - 1);
+      }
+    }
+
+    setDragOffset(0);
+    setIsDragging(false);
   };
 
-  // Determine underneath card to preview during deck animation
-  const underneathIndex = targetIdx !== null 
-    ? targetIdx 
-    : direction === 'left' 
-    ? Math.min(activeIdx + 1, book.blinks.length - 1)
-    : Math.max(activeIdx - 1, 0);
-
-  const underneathBlink = book.blinks[underneathIndex] && underneathIndex !== activeIdx
-    ? book.blinks[underneathIndex]
-    : null;
-
-  // Active top card transform styles
-  let topCardTransform = 'translate3d(0, 0, 0) rotate(0deg) scale(1)';
-  let topCardOpacity = 1;
-  let topCardTransition = 'none';
-
-  if (transitionStatus === 'swiping') {
-    const rotation = dragOffset * 0.035;
-    topCardTransform = `translate3d(${dragOffset}px, 0, 0) rotate(${rotation}deg)`;
-    topCardOpacity = Math.max(0.7, 1 - Math.abs(dragOffset) / 500);
-    topCardTransition = 'none';
-  } else if (transitionStatus === 'exiting') {
-    const exitX = direction === 'left' ? '-115%' : '115%';
-    const exitRot = direction === 'left' ? '-7deg' : '7deg';
-    topCardTransform = `translate3d(${exitX}, 0, 0) rotate(${exitRot}) scale(0.95)`;
-    topCardOpacity = 0;
-    topCardTransition = 'transform 0.28s cubic-bezier(0.2, 0.9, 0.3, 1), opacity 0.24s ease-out';
-  } else if (transitionStatus === 'springing') {
-    topCardTransform = 'translate3d(0, 0, 0) rotate(0deg) scale(1)';
-    topCardOpacity = 1;
-    topCardTransition = 'transform 0.26s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.26s ease-out';
-  }
-
-  // Underneath card transform styles
-  let underneathScale = 0.96;
-  let underneathTranslateY = 10;
-  let underneathOpacity = 0.55;
-
-  if (transitionStatus === 'swiping') {
-    const progress = Math.min(1, Math.abs(dragOffset) / 220);
-    underneathScale = 0.96 + 0.04 * progress;
-    underneathTranslateY = 10 * (1 - progress);
-    underneathOpacity = 0.55 + 0.45 * progress;
-  } else if (transitionStatus === 'exiting') {
-    underneathScale = 1.0;
-    underneathTranslateY = 0;
-    underneathOpacity = 1.0;
-  }
-
-  // Helper to render card content cleanly
-  const renderCardContent = (b: Blink, isUnderneath = false) => (
-    <div className="space-y-6">
-      {/* Insight Headline */}
-      <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-slate-100 tracking-tight leading-snug">
-        {b.headline}
-      </h2>
-
-      {/* Main Content Paragraphs */}
-      <div className={`text-slate-700 dark:text-slate-300 space-y-5 leading-relaxed font-serif ${fontSizeClass}`}>
-        {!isUnderneath && highlightRange.start >= 0 && highlightRange.length > 0 ? (
-          <div className="space-y-4">
-            <p className="whitespace-pre-line">
-              <span>{b.content.slice(0, highlightRange.start)}</span>
-              <mark className="bg-amber-200/90 dark:bg-amber-900/60 dark:text-amber-100 text-slate-900 px-1 py-0.5 rounded shadow-xs transition-all duration-200 font-medium">
-                {b.content.slice(highlightRange.start, highlightRange.start + highlightRange.length)}
-              </mark>
-              <span>{b.content.slice(highlightRange.start + highlightRange.length)}</span>
-            </p>
-          </div>
-        ) : (
-          b.content.split('\n\n').map((paragraph, pIdx) => (
-            <p key={pIdx}>
-              {paragraph}
-            </p>
-          ))
-        )}
-      </div>
-
-      {/* Key Takeaway Callout Box */}
-      <div className="mt-8 p-5 sm:p-6 rounded-2xl bg-amber-50/90 dark:bg-amber-950/40 border border-amber-200/80 dark:border-amber-900/60 shadow-xs">
-        <div className="flex items-center space-x-2 text-amber-800 dark:text-amber-400 font-bold text-sm mb-2">
-          <Lightbulb className="w-5 h-5 text-amber-500 fill-amber-500 shrink-0" />
-          <span>Key Takeaway</span>
-        </div>
-        <p className="text-sm sm:text-base font-medium text-amber-950 dark:text-amber-200 leading-relaxed">
-          {b.keyTakeaway}
-        </p>
-      </div>
-    </div>
-  );
-
-  if (!blink) return null;
+  if (!currentBlink) return null;
 
   return (
     <div className="max-w-3xl mx-auto py-6 sm:py-8">
       
-      {/* Top Insight Stepper, Top Prev/Next & Audio Trigger (Fixed in Place) */}
+      {/* Top Insight Stepper, Top Prev/Next & Audio Trigger (Stationary Header) */}
       <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-200/80 dark:border-slate-800 pb-4 mb-6">
         <div className="flex items-center space-x-2">
           <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/60 px-3 py-1 rounded-full border border-blue-200 dark:border-blue-900">
-            Insight {activeIdx + 1} of {book.blinks.length}
+            Insight {currentBlinkIndex + 1} of {total}
           </span>
           <span className="text-xs text-slate-400 hidden sm:inline">· ~2 min read</span>
         </div>
@@ -319,8 +202,8 @@ export const KeyInsightsView: React.FC<KeyInsightsViewProps> = ({
         {/* Top Prev & Next Navigation Buttons */}
         <div className="flex items-center space-x-2">
           <button
-            onClick={() => navigateTo(activeIdx - 1)}
-            disabled={isFirst || transitionStatus !== 'idle'}
+            onClick={() => onBlinkChange(currentBlinkIndex - 1)}
+            disabled={isFirst}
             className={`flex items-center space-x-1 px-3 py-1.5 rounded-lg text-xs font-semibold border transition ${
               isFirst
                 ? 'opacity-40 cursor-not-allowed border-slate-200 dark:border-slate-800 text-slate-400'
@@ -334,8 +217,7 @@ export const KeyInsightsView: React.FC<KeyInsightsViewProps> = ({
 
           {isLast ? (
             <button
-              onClick={() => navigateTo(activeIdx, true)}
-              disabled={transitionStatus !== 'idle'}
+              onClick={onCompleteBook}
               className="flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs shadow-xs transition active:scale-95"
               title="Finish Book"
             >
@@ -344,8 +226,7 @@ export const KeyInsightsView: React.FC<KeyInsightsViewProps> = ({
             </button>
           ) : (
             <button
-              onClick={() => navigateTo(activeIdx + 1)}
-              disabled={transitionStatus !== 'idle'}
+              onClick={() => onBlinkChange(currentBlinkIndex + 1)}
               className="flex items-center space-x-1 px-3.5 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs shadow-xs transition active:scale-95"
               title="Next Insight"
             >
@@ -365,11 +246,11 @@ export const KeyInsightsView: React.FC<KeyInsightsViewProps> = ({
         </div>
       </div>
 
-      {/* Mobile Swipe Guidance Bar */}
-      <div className="flex sm:hidden items-center justify-between text-[11px] text-slate-400 pb-3 px-1">
+      {/* Swipe Guidance Pill */}
+      <div className="flex items-center justify-between text-[11px] text-slate-400 pb-3 px-1">
         <span>👈 Swipe right for Prev</span>
-        <span className="font-semibold text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/60 px-2 py-0.5 rounded-md">
-          Card Deck
+        <span className="font-semibold text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/60 px-2.5 py-0.5 rounded-md border border-blue-200/60 dark:border-blue-900/60">
+          Card {currentBlinkIndex + 1} of {total}
         </span>
         <span>Swipe left for Next 👉</span>
       </div>
@@ -379,12 +260,11 @@ export const KeyInsightsView: React.FC<KeyInsightsViewProps> = ({
         {book.blinks.map((_, idx) => (
           <button
             key={idx}
-            onClick={() => navigateTo(idx)}
-            disabled={transitionStatus !== 'idle'}
+            onClick={() => onBlinkChange(idx)}
             className={`h-2 rounded-full transition-all duration-300 ${
-              idx === activeIdx
+              idx === currentBlinkIndex
                 ? 'w-8 bg-blue-600 dark:bg-blue-500 shadow-xs'
-                : idx < activeIdx
+                : idx < currentBlinkIndex
                 ? 'w-2.5 bg-emerald-500/80 hover:bg-emerald-500'
                 : 'w-2.5 bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 dark:hover:bg-slate-600'
             }`}
@@ -393,57 +273,94 @@ export const KeyInsightsView: React.FC<KeyInsightsViewProps> = ({
         ))}
       </div>
 
-      {/* SWIPABLE CARD DECK CONTAINER: Smoothly animated physical card stack */}
-      <div className="relative overflow-hidden py-3 px-1 sm:px-2 select-text">
-        
-        {/* Background Deck Silhouette Layer 2 (Bottom-most card depth) */}
+      {/* ANIMATED CARD CAROUSEL TRACK: Smoothly sliding cards with 3D elevation */}
+      <div 
+        className="relative overflow-hidden py-3 select-text touch-pan-y cursor-grab active:cursor-grabbing"
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+        onTouchCancel={handleTouchEnd}
+        onMouseDown={handleMouseDown}
+        onMouseMove={handleMouseMove}
+        onMouseUp={handleMouseUp}
+        onMouseLeave={handleMouseUp}
+      >
         <div 
-          className="absolute inset-x-3 inset-y-0 bg-slate-100 dark:bg-slate-800/40 rounded-3xl pointer-events-none transition-all duration-300"
+          className="flex w-full items-start will-change-transform"
           style={{
-            transform: 'scale(0.93) translateY(14px)',
-            opacity: 0.35,
-            border: '1px solid rgba(148, 163, 184, 0.25)'
-          }}
-        />
-
-        {/* Background Deck Layer 1 (Underneath card with live content) */}
-        {underneathBlink && (
-          <div 
-            className="absolute inset-x-2 inset-y-0 z-0 p-6 sm:p-8 rounded-3xl bg-white/95 dark:bg-slate-800/90 border border-slate-200/80 dark:border-slate-700/80 shadow-md pointer-events-none overflow-hidden"
-            style={{
-              transform: `scale(${underneathScale}) translateY(${underneathTranslateY}px)`,
-              opacity: underneathOpacity,
-              transition: transitionStatus === 'swiping' 
-                ? 'none' 
-                : 'transform 0.28s cubic-bezier(0.2, 0.9, 0.3, 1), opacity 0.26s ease-out'
-            }}
-          >
-            {renderCardContent(underneathBlink, true)}
-          </div>
-        )}
-
-        {/* Top Active Interactive Card */}
-        <div 
-          className="relative z-10 p-6 sm:p-8 rounded-3xl bg-white dark:bg-slate-800/95 border border-slate-200/90 dark:border-slate-700 shadow-xl shadow-slate-200/40 dark:shadow-slate-900/60 will-change-transform touch-pan-y"
-          onTouchStart={handleTouchStart}
-          onTouchMove={handleTouchMove}
-          onTouchEnd={handleTouchEnd}
-          onTouchCancel={handleTouchEnd}
-          style={{
-            transform: topCardTransform,
-            opacity: topCardOpacity,
-            transition: topCardTransition
+            transform: `translate3d(calc(-${currentBlinkIndex * 100}% + ${dragOffset}px), 0, 0)`,
+            transition: isDragging 
+              ? 'none' 
+              : 'transform 0.38s cubic-bezier(0.22, 1, 0.36, 1)'
           }}
         >
-          {renderCardContent(blink, false)}
+          {book.blinks.map((blink, idx) => {
+            const isCurrent = idx === currentBlinkIndex;
+            return (
+              <div 
+                key={blink.id || idx}
+                className="w-full shrink-0 px-1 sm:px-2 transition-all duration-300"
+                style={{
+                  transform: isCurrent && dragOffset !== 0
+                    ? `scale(1) rotate(${dragOffset * 0.018}deg)`
+                    : isCurrent
+                    ? 'scale(1) rotate(0deg)'
+                    : 'scale(0.96) rotate(0deg)',
+                  opacity: isCurrent ? 1 : 0.45
+                }}
+              >
+                {/* Physical Card Container with Shadow & Border */}
+                <div className="p-6 sm:p-8 rounded-3xl bg-white dark:bg-slate-800/95 border border-slate-200/90 dark:border-slate-700 shadow-xl shadow-slate-200/40 dark:shadow-slate-900/60 space-y-6">
+                  
+                  {/* Insight Headline */}
+                  <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-slate-100 tracking-tight leading-snug">
+                    {blink.headline}
+                  </h2>
+
+                  {/* Main Content Paragraphs */}
+                  <div className={`text-slate-700 dark:text-slate-300 space-y-5 leading-relaxed font-serif ${fontSizeClass}`}>
+                    {isCurrent && highlightRange.start >= 0 && highlightRange.length > 0 ? (
+                      <div className="space-y-4">
+                        <p className="whitespace-pre-line">
+                          <span>{blink.content.slice(0, highlightRange.start)}</span>
+                          <mark className="bg-amber-200/90 dark:bg-amber-900/60 dark:text-amber-100 text-slate-900 px-1 py-0.5 rounded shadow-xs transition-all duration-200 font-medium">
+                            {blink.content.slice(highlightRange.start, highlightRange.start + highlightRange.length)}
+                          </mark>
+                          <span>{blink.content.slice(highlightRange.start + highlightRange.length)}</span>
+                        </p>
+                      </div>
+                    ) : (
+                      blink.content.split('\n\n').map((paragraph, pIdx) => (
+                        <p key={pIdx}>
+                          {paragraph}
+                        </p>
+                      ))
+                    )}
+                  </div>
+
+                  {/* Key Takeaway Callout Box */}
+                  <div className="mt-8 p-5 sm:p-6 rounded-2xl bg-amber-50/90 dark:bg-amber-950/40 border border-amber-200/80 dark:border-amber-900/60 shadow-xs">
+                    <div className="flex items-center space-x-2 text-amber-800 dark:text-amber-400 font-bold text-sm mb-2">
+                      <Lightbulb className="w-5 h-5 text-amber-500 fill-amber-500 shrink-0" />
+                      <span>Key Takeaway</span>
+                    </div>
+                    <p className="text-sm sm:text-base font-medium text-amber-950 dark:text-amber-200 leading-relaxed">
+                      {blink.keyTakeaway}
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
 
       {/* Bottom Navigation Controls */}
       <div className="mt-8 pt-6 border-t border-slate-200/80 dark:border-slate-800 flex items-center justify-between gap-4">
         <button
-          onClick={() => navigateTo(activeIdx - 1)}
-          disabled={isFirst || transitionStatus !== 'idle'}
+          onClick={() => onBlinkChange(currentBlinkIndex - 1)}
+          disabled={isFirst}
           className={`flex items-center space-x-1.5 px-4 py-2 rounded-xl text-sm font-semibold transition ${
             isFirst
               ? 'opacity-40 cursor-not-allowed text-slate-400'
@@ -456,8 +373,7 @@ export const KeyInsightsView: React.FC<KeyInsightsViewProps> = ({
 
         {isLast ? (
           <button
-            onClick={() => navigateTo(activeIdx, true)}
-            disabled={transitionStatus !== 'idle'}
+            onClick={onCompleteBook}
             className="flex items-center space-x-2 px-6 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-sm shadow-md shadow-emerald-600/20 transition transform hover:scale-105 active:scale-95"
           >
             <CheckCircle className="w-4 h-4" />
@@ -465,8 +381,7 @@ export const KeyInsightsView: React.FC<KeyInsightsViewProps> = ({
           </button>
         ) : (
           <button
-            onClick={() => navigateTo(activeIdx + 1)}
-            disabled={transitionStatus !== 'idle'}
+            onClick={() => onBlinkChange(currentBlinkIndex + 1)}
             className="flex items-center space-x-2 px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm shadow-md shadow-blue-600/20 transition transform hover:scale-105 active:scale-95"
           >
             <span>Next Insight</span>
