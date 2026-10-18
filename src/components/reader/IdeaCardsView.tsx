@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Book, IdeaCard } from '../../types';
 import { db } from '../../db';
-import { Bookmark, RotateCw, Quote, ArrowRight, Check, Volume2 } from 'lucide-react';
+import { Bookmark, RotateCw, Quote, ArrowRight, Check, Volume2, Search, Filter } from 'lucide-react';
 
 interface IdeaCardsViewProps {
   book: Book;
@@ -11,15 +11,39 @@ interface IdeaCardsViewProps {
 
 export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({ book, onOpenStashModal, onStartAudio }) => {
   const [ideas, setIdeas] = useState<IdeaCard[]>([]);
+  const [activeFilter, setActiveFilter] = useState<string>('all');
+  const [searchQuery, setSearchQuery] = useState<string>('');
   const [flippedCards, setFlippedCards] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
     const loadIdeas = async () => {
       const bookIdeas = await db.ideas.where('bookId').equals(book.id).toArray();
-      setIdeas(bookIdeas);
+      if (bookIdeas.length > 0) {
+        setIdeas(bookIdeas);
+      } else if (book.ideaCards && book.ideaCards.length > 0) {
+        setIdeas(book.ideaCards);
+      } else {
+        // Dynamic fallback from blinks so every book has rich idea cards
+        const fallbackCards: IdeaCard[] = book.blinks.map((blink, idx) => ({
+          id: `dyn-idea-${book.id}-${idx}`,
+          bookId: book.id,
+          bookTitle: book.title,
+          author: book.author,
+          category: book.category,
+          type: (idx % 3 === 0 ? 'mental-model' : idx % 3 === 1 ? 'actionable' : 'concept') as any,
+          headline: blink.headline,
+          body: blink.content.slice(0, 220) + (blink.content.length > 220 ? '...' : ''),
+          actionItem: blink.keyTakeaway,
+          tags: book.tags.slice(0, 3),
+          isStashed: false,
+          stashBoardIds: [],
+          createdAt: Date.now() - idx * 1000
+        }));
+        setIdeas(fallbackCards);
+      }
     };
     loadIdeas();
-  }, [book.id]);
+  }, [book.id, book.ideaCards, book.blinks]);
 
   const toggleFlip = (id: string) => {
     setFlippedCards(prev => ({
@@ -37,16 +61,25 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({ book, onOpenStashM
   };
 
   const handleListenAllCards = () => {
-    if (ideas.length === 0) return;
-    const combined = ideas.map((idea, idx) => {
+    if (filteredIdeas.length === 0) return;
+    const combined = filteredIdeas.map((idea, idx) => {
       let t = `Card ${idx + 1}: ${idea.headline}. ${idea.body}`;
       if (idea.quote) t += ` Quote: ${idea.quote}`;
       if (idea.actionItem) t += ` Action: ${idea.actionItem}`;
       return t;
     }).join('. Next idea. ');
 
-    onStartAudio(`All Idea Cards · ${book.title}`, combined);
+    onStartAudio(`Idea Cards · ${book.title}`, combined);
   };
+
+  const filteredIdeas = ideas.filter(idea => {
+    const matchesFilter = activeFilter === 'all' || idea.type === activeFilter;
+    const matchesSearch = searchQuery.trim() === '' || 
+      idea.headline.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      idea.body.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      (idea.quote && idea.quote.toLowerCase().includes(searchQuery.toLowerCase()));
+    return matchesFilter && matchesSearch;
+  });
 
   if (ideas.length === 0) {
     return (
@@ -66,7 +99,7 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({ book, onOpenStashM
             Idea Cards · {book.title}
           </h3>
           <p className="text-xs text-purple-800 dark:text-purple-300">
-            Atomic mental models and insights. Tap to flip cards or listen to insights.
+            Atomic mental models, tactical frameworks, and quotes. Tap card to flip or save to stash.
           </p>
         </div>
 
@@ -74,21 +107,58 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({ book, onOpenStashM
           <button
             onClick={handleListenAllCards}
             className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-purple-100 hover:bg-purple-200 dark:bg-purple-900/60 dark:hover:bg-purple-800/60 text-purple-900 dark:text-purple-100 text-xs font-semibold transition border border-purple-300 dark:border-purple-700 shadow-2xs"
-            title="Listen to all idea cards"
+            title="Listen to filtered idea cards"
           >
             <Volume2 className="w-3.5 h-3.5 text-purple-700 dark:text-purple-300" />
-            <span>Listen All Cards</span>
+            <span>Listen Cards</span>
           </button>
           
           <span className="text-xs font-bold px-3 py-1 rounded-full bg-purple-200 dark:bg-purple-900 text-purple-900 dark:text-purple-100">
-            {ideas.length} Cards
+            {filteredIdeas.length} / {ideas.length} Cards
           </span>
+        </div>
+      </div>
+
+      {/* Filter and Search Bar */}
+      <div className="flex flex-wrap items-center justify-between gap-3 p-3 rounded-xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-xs">
+        <div className="flex flex-wrap items-center gap-1.5">
+          {[
+            { id: 'all', label: 'All Cards', count: ideas.length },
+            { id: 'mental-model', label: 'Mental Models', count: ideas.filter(i => i.type === 'mental-model').length },
+            { id: 'actionable', label: 'Actionable', count: ideas.filter(i => i.type === 'actionable').length },
+            { id: 'quote', label: 'Quotes', count: ideas.filter(i => i.type === 'quote').length },
+            { id: 'concept', label: 'Concepts', count: ideas.filter(i => i.type === 'concept').length },
+          ].filter(tab => tab.count > 0 || tab.id === 'all').map(tab => (
+            <button
+              key={tab.id}
+              onClick={() => setActiveFilter(tab.id)}
+              className={`px-3 py-1 rounded-lg text-xs font-medium transition ${
+                activeFilter === tab.id
+                  ? 'bg-purple-600 text-white shadow-2xs font-semibold'
+                  : 'text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700'
+              }`}
+            >
+              {tab.label} ({tab.count})
+            </button>
+          ))}
+        </div>
+
+        {/* Search input */}
+        <div className="relative w-full sm:w-56">
+          <Search className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder="Search idea cards..."
+            className="w-full pl-8 pr-3 py-1.5 text-xs rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 placeholder-slate-400 focus:outline-hidden focus:ring-1 focus:ring-purple-500"
+          />
         </div>
       </div>
 
       {/* Grid of Idea Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {ideas.map((idea) => {
+        {filteredIdeas.map((idea) => {
           const isFlipped = flippedCards[idea.id];
 
           return (

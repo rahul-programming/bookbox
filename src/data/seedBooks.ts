@@ -387,36 +387,7 @@ Just as a fire turns everything thrown into it into flame, a disciplined mind co
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
-  {
-    id: 'idea-1',
-    bookId: 'atomic-habits',
-    bookTitle: 'Atomic Habits',
-    author: 'James Clear',
-    category: 'Productivity',
-    type: 'concept',
-    headline: 'You fall to the level of your systems',
-    body: 'Goals are good for setting a direction, but systems are best for making progress. A goal is an outcome; a system is the daily process that guarantees it.',
-    actionItem: 'Audit one major goal: what is the 5-minute recurring system that will carry you there?',
-    tags: ['Systems', 'Habits', 'Productivity'],
-    isStashed: true,
-    stashBoardIds: ['board-models'],
-    createdAt: Date.now() - 86400000 * 2
-  },
-  {
-    id: 'idea-2',
-    bookId: 'atomic-habits',
-    bookTitle: 'Atomic Habits',
-    author: 'James Clear',
-    category: 'Productivity',
-    type: 'actionable',
-    headline: 'The Two-Minute Rule: Standardize before you optimize',
-    body: 'When starting any new habit, scale it down until it takes less than 2 minutes. A habit must be established before it can be improved.',
-    quote: 'Make it so easy that you cannot say no.',
-    tags: ['Friction', 'Action', 'Routines'],
-    isStashed: false,
-    stashBoardIds: [],
-    createdAt: Date.now() - 86400000 * 1
-  },
+  ...(ATOMIC_HABITS_BOOK.ideaCards || []),
   {
     id: 'idea-3',
     bookId: 'deep-work',

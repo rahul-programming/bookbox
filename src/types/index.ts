@@ -71,10 +71,35 @@ export interface ReflectionExercise {
   placeholder?: string;
 }
 
+export interface KeyPillarDetail {
+  title: string;
+  description: string;
+  actionableTakeaway?: string;
+}
+
+export interface FrameworkStep {
+  step: number;
+  name: string;
+  summary: string;
+  executionTip: string;
+}
+
+export interface ReadingRoadmapItem {
+  goalOrAudience: string;
+  recommendedChapters: string;
+  rationale: string;
+}
+
 export interface OnePageSummary {
   elevatorPitch: string;
+  executiveSummary?: string;
   coreThesis: string;
-  keyPillars: string[];
+  keyPillars: (string | KeyPillarDetail)[];
+  frameworkName?: string;
+  frameworkSummary?: string;
+  frameworkSteps?: FrameworkStep[];
+  targetAudience?: string[];
+  readingRoadmap?: ReadingRoadmapItem[];
   strengths: string[];
   blindSpotsAndCounterarguments: string[];
 }
@@ -117,6 +142,7 @@ export interface Book {
   reflectionExercises: ReflectionExercise[];
   actionItems?: ActionItem[];
   stories?: BookStory[];
+  ideaCards?: IdeaCard[];
   tags: string[];
   isCustom?: boolean;
 }

@@ -55,9 +55,37 @@ Supported diagram types:
 
 ---
 
+### 1.4 Expanded 1-Page Master Summary Architecture
+The 1-Page Summary must not be a mere two-sentence elevator pitch. It must serve as a comprehensive, publication-grade executive briefing:
+- **Executive Narrative (`executiveSummary`)**: 3 to 5 substantive paragraphs explaining the societal context, intellectual origins, psychological mechanisms, and real-world implications of the book.
+- **Detailed Pillars (`keyPillars`)**: Each pillar must be a structured entity with a `title`, a rich multi-sentence `description`, and a concrete `actionableTakeaway`.
+- **Signature Operating Model (`frameworkSteps`)**: Break down the author's primary system or algorithm into numbered procedural steps with practical execution tips.
+- **Reading Roadmap (`readingRoadmap`)**: Pragmatic navigational guides tailored for different personas (e.g., immediate tactical intervention, long-term mastery, managers/leaders).
+- **Critical Assessment**: Balanced evaluation containing 4 to 6 distinct strengths and 4 to 6 nuanced counterarguments/edge cases.
+
+---
+
+### 1.5 High-Density Atomic Idea Cards (15–20 Cards per Book)
+Each book must generate a comprehensive deck of **at least 15 to 20 Atomic Idea Cards** (`IdeaCard`):
+- `mental-model` (4–6 cards): Reusable decision heuristics and cognitive frameworks.
+- `actionable` (4–6 cards): Concrete protocols with step-by-step rules you can execute immediately.
+- `quote` (3–5 cards): Iconic quotations paired with insightful contextual commentary.
+- `concept` (3–5 cards): Deep psychological or philosophical paradigm shifts.
+Every card must provide an unmistakable headline, an in-depth explanatory body, and practical metadata.
+
+---
+
+### 1.6 In-Depth Conceptual Mind Map (25–40+ Nodes with Full Explanations)
+A mind map must not simply list naked chapter titles. It must function as an interactive conceptual encyclopedia:
+- **Structural Breadth**: 4 to 6 primary conceptual pillars radiating from the central root.
+- **Hierarchical Depth**: Each pillar must branch into 3 to 5 sub-concepts (totaling 25 to 40+ nodes).
+- **Concept Detail in Diagram**: **Every single node must provide a substantive, multi-sentence `description`**. In BookBox's detailed diagram mode, these explanations render directly on the canvas nodes, allowing readers to study the interconnected concepts at a glance.
+
+---
+
 ## 2. Synthesis Architecture Schema
 
-Each synthesized book must populate all five interactive dimensions of BookBox:
+Each synthesized book must populate all interactive dimensions of BookBox:
 
 ```typescript
 export interface Book {
@@ -71,13 +99,31 @@ export interface Book {
   publishedYear: number;
   tags: string[];
 
-  // Dimension 1: Executive 1-Page Master Summary
+  // Dimension 1: Comprehensive 1-Page Master Summary
   onePageSummary: {
-    elevatorPitch: string;            // 1-2 punchy sentences
+    elevatorPitch: string;            // 1-2 punchy sentences for library preview
+    executiveSummary: string;         // 3-5 substantive narrative paragraphs
     coreThesis: string;               // The fundamental shift in worldview
-    keyPillars: string[];             // 3-5 foundational conceptual pillars
-    strengths: string[];              // Why the book works
-    blindSpotsAndCounterarguments: string[]; // Rigorous critique & failure modes
+    keyPillars: Array<{               // Detailed conceptual pillars
+      title: string;
+      description: string;
+      actionableTakeaway?: string;
+    }>;
+    frameworkName?: string;           // E.g. "The 4 Laws of Behavior Change"
+    frameworkSummary?: string;
+    frameworkSteps?: Array<{
+      step: number;
+      name: string;
+      summary: string;
+      executionTip: string;
+    }>;
+    readingRoadmap?: Array<{
+      goalOrAudience: string;
+      recommendedChapters: string;
+      rationale: string;
+    }>;
+    strengths: string[];              // 4-6 critical superpowers
+    blindSpotsAndCounterarguments: string[]; // 4-6 rigorous critiques
   };
 
   // Dimension 2: Chapter-by-Chapter Deep Dive & Key Insights
@@ -88,28 +134,25 @@ export interface Book {
     content: string;                  // In-depth multi-paragraph narrative (3-6 substantive paragraphs)
     keyTakeaway: string;              // 1-sentence memorable synthesis
     audioSnippetText: string;         // Spoken audio preview
-    diagram: ChapterDiagram;          // Visually appealing diagram model
+    diagram: ChapterDiagram;          // Visually appealing diagram model (cycle, flow, matrix, comparison, timeline)
   }>;
 
-  // Dimension 3: Concept Mind Map (Interactive Bézier Hierarchy)
-  mindMap: MindMapNode;               // Root node with 4-6 primary branches and 2-4 sub-nodes each
+  // Dimension 3: Concept Mind Map (25-40+ Detailed Concept Nodes)
+  mindMap: MindMapNode;               // Central root with 4-6 pillars, each with 3-5 descriptive sub-nodes
 
-  // Dimension 4: Practical Reflection Worksheets
-  reflectionExercises: Array<{
-    id: string;
-    chapterOrder: number;
-    title: string;
-    prompt: string;                   // Probing, introspective question
-    placeholder: string;
-  }>;
+  // Dimension 4: High-Yield Idea Cards (15-20 Cards Deck)
+  ideaCards?: IdeaCard[];
+
+  // Dimension 5: Practical Action Items & Implementation Protocols
+  actionItems?: ActionItem[];
+
+  // Dimension 6: Historical Stories & Clinical Anecdotes
+  stories?: BookStory[];
+
+  // Dimension 7: Reflection Worksheets
+  reflectionExercises: ReflectionExercise[];
 }
 ```
-
-Alongside the book entity, generate 8 to 15 **Atomic Idea Cards** (`IdeaCard`):
-- `quote`: Memorable phrasing from the author.
-- `mental-model`: Reusable decision heuristic or framework.
-- `actionable`: Concrete tactical step you can execute within 10 minutes.
-- `concept`: Deep psychological or philosophical paradigm.
 
 ---
 

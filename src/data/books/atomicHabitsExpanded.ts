@@ -1,4 +1,4 @@
-import { Book } from '../../types';
+import type { Book } from '../../types/index.ts';
 
 export const ATOMIC_HABITS_BOOK: Book = {
   id: 'atomic-habits',
@@ -12,23 +12,99 @@ export const ATOMIC_HABITS_BOOK: Book = {
   tags: ['Habits', 'Behavioral Science', 'Self-Improvement', 'Systems', 'Psychology'],
   onePageSummary: {
     elevatorPitch: 'Atomic Habits exposes the brutal truth that goals are largely useless without systems: you do not rise to the level of your ambitions, you sink straight down to the operational level of your daily routines.',
+    executiveSummary: `Most conventional self-help advice commits a fatal error: it treats self-improvement as a heroic test of character. We are told to cultivate unyielding willpower, summon fierce motivation, and manifest audacious goals. When we inevitably fail, we drown in guilt, assuming some fundamental defect in our moral fiber.
+
+James Clear radically flips this paradigm on its head by asserting that you do not have a willpower problem; you have a systems problem. Human beings evolved in an immediate-return environment on the African savanna, wired to conserve energy and pursue immediate metabolic payoffs. In contrast, modern civilized life operates almost entirely in delayed-return environments—where saving money, exercising, or writing software yields benefits only months or decades later. To thrive in a delayed-return world, you cannot rely on fleeting emotional highs; you must engineer an operating system where good habits are friction-free defaults and bad habits are cognitively and physically expensive.
+
+At the epicenter of Clear's behavioral engine lies the concept of atomic compounding. Just as physical matter is built from microscopic atoms, outsized life outcomes are built from minuscule, seemingly trivial 1% daily decisions. A single choice made before noon appears statistically negligible on Day 1, yet through compound interest (1.01^365 = 37.78), it multiplies your capacity nearly 38-fold across a single year. Clear demonstrates that true transformation is not an event, but an identity shift: every micro-action you take is an undeniable vote for the person you wish to become.
+
+By organizing behavior change into four biological stages—Cue (make it obvious), Craving (make it attractive), Response (make it easy), and Reward (make it satisfying)—Atomic Habits provides an exhaustive, field-tested toolkit that bridges neurochemistry, cognitive psychology, and spatial architecture. It strips away the mystique of elite discipline, replacing it with pragmatic levers that anyone can implement in their kitchen, office, or gym.`,
     coreThesis: 'True behavioral change is never an explosive overnight conversion; it is an invisible compounding equation where tiny 1% daily adjustments either catapult you into elite competence or gently slide your life into mediocrity.',
     keyPillars: [
-      'The 1% Compounding Equation: Small choices look mathematically irrelevant on day 3 but become unstoppable tidal waves by year 3.',
-      'Identity Over Outcomes: Stop asking "What do I want to achieve?" and start asking "Who is the type of person who accomplishes this?" Every micro-action is a ballot cast for your identity.',
-      'The 4-Stage Neurological Loop: Every habit follows Cue → Craving → Response → Reward. Master these four levers and you master human motivation.',
-      'The Four Laws of Behavior Change: To build a habit, make it Obvious, Attractive, Easy, and Satisfying. To destroy a vice, invert them: make it Invisible, Unattractive, Difficult, and Painful.',
-      'Environment Design Trumps Willpower: Willpower is a leaky battery; environmental visual cues dictate 80% of unconscious physical movements.'
+      {
+        title: 'The 1% Compounding Equation & The Latent Plateau',
+        description: 'Small daily improvements look completely insignificant in the short term (1.01^365 = 37.78). Breakthrough moments are simply the delayed phase transition of stored energy crossing the threshold of latent potential, much like ice melting only when the room warms past 32°F.',
+        actionableTakeaway: 'Ignore lagging metrics (bank accounts, scales); measure your trajectory by tracking daily consistency.'
+      },
+      {
+        title: 'Identity-Based Transformation Over Outcome Fixation',
+        description: 'Outcome goals ("I want to lose 20 pounds") fail because they address the surface without altering the underlying self-image. True behavioral change occurs at the level of identity ("I am a runner"). Every choice you execute is an internal vote casting evidence for your identity.',
+        actionableTakeaway: 'Ask yourself at every decision junction: "What would a healthy/productive person do right now?"'
+      },
+      {
+        title: 'The 4-Stage Neurological Feedback Loop',
+        description: 'Every human habit adheres to a biological loop: Cue triggers Craving; Craving prompts Response; Response delivers Reward. Mastering these four levers gives you total control over human motivation and automated habit formation.',
+        actionableTakeaway: 'Audit your vices against the 4 stages to identify which specific link in the chain is feeding the addiction.'
+      },
+      {
+        title: 'The Four Laws of Behavior Change Operating Model',
+        description: 'To construct an enduring positive habit, make it Obvious (visual triggers), Attractive (dopamine bundling), Easy (friction reduction), and Satisfying (immediate feedback). To annihilate an unwanted vice, invert the laws: make it Invisible, Unattractive, Difficult, and Painful.',
+        actionableTakeaway: 'When stuck, adjust the friction: lower the steps to start a good habit to under 2 minutes, and increase friction for bad habits.'
+      },
+      {
+        title: 'Environment Architecture Trumps White-Knuckle Willpower',
+        description: 'Disciplined individuals do not possess superhuman willpower; they design environments with radically fewer temptations. Visual cues govern over 80% of unconscious physical movements. You cannot win a long-term fight against your immediate surroundings.',
+        actionableTakeaway: 'Designate separate physical zones for separate tasks (e.g., bed only for sleep, desk only for focused work).'
+      }
+    ],
+    frameworkName: 'The 4 Laws of Behavior Change Operating Model',
+    frameworkSummary: 'A bi-directional systems framework mapping neurological reinforcement to practical daily environmental adjustments.',
+    frameworkSteps: [
+      {
+        step: 1,
+        name: 'Make It Obvious (The Cue)',
+        summary: 'Design clear visual triggers and eliminate ambiguity using implementation intentions and habit stacking.',
+        executionTip: 'Use the formula: "After I [CURRENT HABIT], I will [NEW HABIT] at [TIME] in [LOCATION]."'
+      },
+      {
+        step: 2,
+        name: 'Make It Attractive (The Craving)',
+        summary: 'Leverage dopamine anticipation by pairing tasks you need to do with activities you want to do (Temptation Bundling).',
+        executionTip: 'Immerse yourself in social circles where your desired behavior is the normal, celebrated baseline.'
+      },
+      {
+        step: 3,
+        name: 'Make It Easy (The Response)',
+        summary: 'Reduce friction, eliminate activation energy, and scale any intimidating habit down to less than 120 seconds.',
+        executionTip: 'Apply the 2-Minute Rule: standardize before you optimize. A habit must be established before it can be improved.'
+      },
+      {
+        step: 4,
+        name: 'Make It Satisfying (The Reward)',
+        summary: 'Provide immediate sensory reinforcement and maintain visual streaks to validate your compounding progress.',
+        executionTip: 'Adopt the "Never Miss Twice" rule: off-days happen, but an immediate rebound prevents the birth of a bad habit.'
+      }
+    ],
+    readingRoadmap: [
+      {
+        goalOrAudience: 'Rapid Personal Habit Reboot',
+        recommendedChapters: 'Chapters 1, 2, 5, 10, 13',
+        rationale: 'Delivers the highest immediate leverage by mastering the 1% compound curve, habit stacking, and the 2-minute rule.'
+      },
+      {
+        goalOrAudience: 'Breaking Entrenched Digital Vices',
+        recommendedChapters: 'Chapters 4, 6, 8, 11, 14',
+        rationale: 'Focuses on the 4 Inversions: eliminating visual triggers, environment restructuring, and friction barriers.'
+      },
+      {
+        goalOrAudience: 'Team Leaders & Culture Architects',
+        recommendedChapters: 'Chapters 7, 9, 12, 15',
+        rationale: 'Explains social mimicry, tribal belonging, accountability contracts, and institutional habit scoring.'
+      }
     ],
     strengths: [
-      'Unforgivingly practical: replaces vague motivational fluff with concrete heuristics, implementation scripts, and spatial architectures.',
+      'Unforgivingly practical: replaces vague motivational hype with concrete heuristics, implementation scripts, and spatial architectures.',
       'Brilliantly bridges neurochemical mechanisms (dopamine anticipation) with everyday kitchen-table situations.',
-      'Destroys the "all-or-nothing" guilt trap with resilient guardrails like the 2-Minute Rule and "Never Miss Twice".'
+      'Destroys the "all-or-nothing" guilt trap with resilient guardrails like the 2-Minute Rule and "Never Miss Twice".',
+      'Integrates biological evolution with delayed-return modern economics, explaining why human willpower naturally breaks down.',
+      'Equips readers with dual-direction frameworks: identical rules work both for habit cultivation and vice destruction.'
     ],
     blindSpotsAndCounterarguments: [
       'Understates structural socioeconomic friction: environment design is far easier in a spacious private studio than in a cramped multi-generational household.',
       'The literal compound math (1.01^365 = 37.78) is an illustrative psychological metaphor rather than a mathematical law for creative, non-linear breakthroughs.',
-      'Can turn neurotic perfectionists into obsessive micro-metric trackers who experience panic when missing a checkmark.'
+      'Can turn neurotic perfectionists into obsessive micro-metric trackers who experience anxiety when missing a single checkmark.',
+      'Over-indexes on predictable, incremental processes; less effective for high-variance creative intuition or unpredictable entrepreneurial leaps.',
+      'Assumes individual agency over environmental cues that are frequently dictated by corporate employers or family obligations.'
     ]
   },
   blinks: [
@@ -524,63 +600,431 @@ Habits provide the speed; deliberate reflection provides the steering wheel. Wit
     children: [
       {
         id: 'ah-foundations',
-        label: '1. Core Foundations',
-        description: 'The mathematical and identity basis for micro-adjustments',
+        label: '1. Foundations of Behavior Design',
+        description: 'The mathematical compounding mechanics and identity-level paradigms of behavioral change',
         children: [
-          { id: 'ah-compound-math', label: 'The 1% Compound Math (37x/year)', description: 'Small daily choices compound exponentially' },
-          { id: 'ah-latent-valley', label: 'Valley of Latent Potential', description: 'Results lag behind effort until crossing the critical threshold' },
-          { id: 'ah-identity-shift', label: 'Identity Over Outcomes', description: 'Every action is a vote for who you want to become' },
-          { id: 'ah-systems-vs-goals', label: 'Systems vs. Goals', description: 'You fall to the level of your systems' }
+          { 
+            id: 'ah-compound-math', 
+            label: '1% Compounding Math', 
+            description: 'Daily 1% improvements yield a 37.78x multiplier across 365 days. Outcomes are lagging measures of habits.' 
+          },
+          { 
+            id: 'ah-latent-valley', 
+            label: 'Valley of Latent Potential', 
+            description: 'Effort stores potential energy below the surface before crossing the critical phase-transition tipping point at 32°F.' 
+          },
+          { 
+            id: 'ah-identity-shift', 
+            label: 'Identity-Based Transformation', 
+            description: 'True change occurs at the level of self-image. Every micro-action is an undeniable ballot cast for who you want to become.' 
+          },
+          { 
+            id: 'ah-systems-vs-goals', 
+            label: 'Systems Over Goals', 
+            description: 'Winners and losers share identical goals. The sole differentiator is the operational efficiency of the daily system.' 
+          }
         ]
       },
       {
         id: 'ah-law1',
-        label: '2. Law 1: Make It Obvious',
-        description: 'Visual cues and environment design',
+        label: '2. Law 1: Make It Obvious (The Cue)',
+        description: 'Environmental spatial design, habit scorecards, and eliminating behavioral ambiguity',
         children: [
-          { id: 'ah-scorecard', label: 'Habits Scorecard', description: 'Pointing and calling unconscious routines' },
-          { id: 'ah-impl-intent', label: 'Implementation Intentions', description: 'I will [BEHAVIOR] at [TIME] in [LOCATION]' },
-          { id: 'ah-stacking', label: 'Habit Stacking', description: 'After [CURRENT HABIT], I will [NEW HABIT]' },
-          { id: 'ah-env-design', label: 'Environment Architecture', description: 'Context is king; make visual cues unmistakable' },
-          { id: 'ah-inversion1', label: 'Inversion: Make It Invisible', description: 'Eliminate temptation cues rather than white-knuckling' }
+          { 
+            id: 'ah-scorecard', 
+            label: 'Habits Scorecard & Awareness', 
+            description: 'Japanese Pointing-and-Calling audits unconscious routines to elevate automatic vices into conscious awareness.' 
+          },
+          { 
+            id: 'ah-impl-intent', 
+            label: 'Implementation Intentions', 
+            description: 'Pre-commit explicit execution scripts: "I will execute [BEHAVIOR] at [EXACT TIME] in [SPECIFIC LOCATION]."' 
+          },
+          { 
+            id: 'ah-stacking', 
+            label: 'Habit Stacking Architecture', 
+            description: 'Capitalize on synaptic pruning by anchoring a new target routine immediately onto an established anchor habit.' 
+          },
+          { 
+            id: 'ah-env-design', 
+            label: 'Environment Architecture', 
+            description: 'Visual cues govern 80% of human perception. Designate dedicated physical contexts: one space, one purpose.' 
+          },
+          { 
+            id: 'ah-inversion1', 
+            label: 'Inversion: Make It Invisible', 
+            description: 'Banish temptation cues into inaccessible basements; self-control is an illusion created by low-temptation spaces.' 
+          }
         ]
       },
       {
         id: 'ah-law2',
-        label: '3. Law 2: Make It Attractive',
-        description: 'Dopamine spikes and social gravity',
+        label: '3. Law 2: Make It Attractive (The Craving)',
+        description: 'Dopamine anticipation surges, temptation bundling, and tribal social mimicry',
         children: [
-          { id: 'ah-dopamine-spike', label: 'Dopamine Anticipation Spike', description: 'Desire drives action, not the reward itself' },
-          { id: 'ah-temptation-bundle', label: 'Temptation Bundling', description: 'Pairing what you need with what you want' },
-          { id: 'ah-social-mimicry', label: 'The 3 Circles of Mimicry', description: 'Imitating the Close, the Many, and the Powerful' },
-          { id: 'ah-inversion2', label: 'Inversion: Make It Unattractive', description: 'Reframing mindset to highlight long-term penalties' }
+          { 
+            id: 'ah-dopamine-spike', 
+            label: 'Dopamine Anticipation Spike', 
+            description: 'Dopamine surges upon anticipating a reward, not consuming it. Craving and desire are the real engines of action.' 
+          },
+          { 
+            id: 'ah-temptation-bundle', 
+            label: 'Temptation Bundling', 
+            description: 'Premack\'s Principle: wire an essential obligation you need to do directly into an enticing pleasure you want to do.' 
+          },
+          { 
+            id: 'ah-social-mimicry', 
+            label: 'The 3 Circles of Mimicry', 
+            description: 'Humans naturally adopt behaviors that signal belonging across the Close (family), Many (crowd), and Powerful (status).' 
+          },
+          { 
+            id: 'ah-reframing', 
+            label: 'Cognitive Mindset Reframing', 
+            description: 'Shift internal dialogue from burdensome "I have to" to empowering "I get to", converting duty into privilege.' 
+          },
+          { 
+            id: 'ah-inversion2', 
+            label: 'Inversion: Make It Unattractive', 
+            description: 'Deconstruct the seductive illusion of vices by highlighting immediate toxic consequences and hidden costs.' 
+          }
         ]
       },
       {
         id: 'ah-law3',
-        label: '4. Law 3: Make It Easy',
-        description: 'Friction reduction and procedural ramp-up',
+        label: '4. Law 3: Make It Easy (The Response)',
+        description: 'Friction engineering, repetition volume, and overcoming activation inertia',
         children: [
-          { id: 'ah-least-effort', label: 'Law of Least Effort', description: 'Humans naturally follow the path of minimum resistance' },
-          { id: 'ah-two-min-rule', label: 'The 2-Minute Rule', description: 'Scale habits down to 120 seconds to overcome inertia' },
-          { id: 'ah-motion-vs-action', label: 'Motion vs. Action', description: 'Stop preparing to work; execute the crucible' },
-          { id: 'ah-prime-env', label: 'Prime the Environment', description: 'Reset the room for immediate tomorrow use' },
-          { id: 'ah-inversion3', label: 'Inversion: Make It Difficult', description: 'Add friction and commitment devices for vices' }
+          { 
+            id: 'ah-least-effort', 
+            label: 'Law of Least Effort', 
+            description: 'Human biology conserves metabolic energy; routines flourish when the friction barrier is reduced to near-zero.' 
+          },
+          { 
+            id: 'ah-two-min-rule', 
+            label: 'The 2-Minute Gateway Rule', 
+            description: 'Standardize before you optimize: scale any intimidating habit down to under 120 seconds to establish identity momentum.' 
+          },
+          { 
+            id: 'ah-motion-vs-action', 
+            label: 'Motion vs. Action Crucible', 
+            description: 'Motion is planning and research that delays failure; action is delivering output that carries irreversible stakes.' 
+          },
+          { 
+            id: 'ah-prime-env', 
+            label: 'Priming Tomorrow\'s Environment', 
+            description: 'Reset rooms and lay out tomorrow\'s tools tonight to eliminate morning decision fatigue and friction.' 
+          },
+          { 
+            id: 'ah-inversion3', 
+            label: 'Inversion: Make It Difficult', 
+            description: 'Install irreversible commitment devices and multi-step friction barriers that make vices physically agonizing.' 
+          }
         ]
       },
       {
         id: 'ah-law4',
-        label: '5. Law 4: Make It Satisfying',
-        description: 'Immediate rewards and streak preservation',
+        label: '5. Law 4: Make It Satisfying (The Reward)',
+        description: 'Immediate sensory reinforcement, streak tracking, and rapid recovery protocols',
         children: [
-          { id: 'ah-cardinal-rule', label: 'The Cardinal Rule', description: 'What is immediately rewarded is repeated' },
-          { id: 'ah-visual-tracker', label: 'Visual Habit Tracker', description: 'Don’t break the chain; verify daily votes' },
-          { id: 'ah-never-miss-twice', label: 'Never Miss Twice', description: 'Recover immediately from off-days to protect identity' },
-          { id: 'ah-accountability-partner', label: 'Accountability Contracts', description: 'Add immediate social cost to failure' }
+          { 
+            id: 'ah-cardinal-rule', 
+            label: 'Cardinal Rule of Behavior', 
+            description: 'What is immediately rewarded is repeated; what is immediately punished is systematically avoided.' 
+          },
+          { 
+            id: 'ah-visual-tracker', 
+            label: 'Visual Streak Tracking', 
+            description: 'The Jerry Seinfeld "Don\'t Break the Chain" effect delivers immediate sensory proof of daily progress.' 
+          },
+          { 
+            id: 'ah-never-miss-twice', 
+            label: 'The "Never Miss Twice" Rule', 
+            description: 'Missing once is an accident; missing twice is the birth of an insidious counter-habit. Rebound immediately.' 
+          },
+          { 
+            id: 'ah-accountability-partner', 
+            label: 'Accountability Contracts', 
+            description: 'Establish binding social contracts with public stakes and immediate financial penalties for missed targets.' 
+          },
+          { 
+            id: 'ah-inversion4', 
+            label: 'Inversion: Make It Painful', 
+            description: 'Attach immediate, public social embarrassment and financial pain to every occurrence of an unwanted vice.' 
+          }
+        ]
+      },
+      {
+        id: 'ah-mastery',
+        label: '6. Advanced Mastery: Good to Great',
+        description: 'Operating in the Goldilocks zone, mastering boredom, and deliberate review',
+        children: [
+          { 
+            id: 'ah-goldilocks-rule', 
+            label: 'The Goldilocks Rule', 
+            description: 'Peak motivation occurs when challenges sit ~4% beyond current capability, preventing both boredom and anxiety.' 
+          },
+          { 
+            id: 'ah-handling-boredom', 
+            label: 'Falling in Love with Boredom', 
+            description: 'The greatest threat to greatness is boredom, not failure. Olympians train when the workout feels monotonous.' 
+          },
+          { 
+            id: 'ah-deliberate-review', 
+            label: 'Annual Review & Integrity Audits', 
+            description: 'Habits + Deliberate Practice = Mastery. Regularly calibrate metrics to stop automated habits from turning into blind spots.' 
+          },
+          { 
+            id: 'ah-upward-spiral', 
+            label: 'The Upward Identity Spiral', 
+            description: 'Small wins establish self-respect, raising internal standards and driving perpetual long-term compounding.' 
+          }
         ]
       }
     ]
   },
+  ideaCards: [
+    {
+      id: 'ah-idea-1',
+      bookId: 'atomic-habits',
+      bookTitle: 'Atomic Habits',
+      author: 'James Clear',
+      category: 'Productivity',
+      type: 'mental-model',
+      headline: 'The 1% Compounding Equation: Trajectory Over Position',
+      body: 'Getting 1% better each day yields a result 37.78x greater after one year (1.01^365 = 37.78). Making choices 1% worse erodes capacity down to nearly zero (0.99^365 = 0.03). Small choices look completely irrelevant in the short term, but your ultimate outcomes are simply a lagging measure of your daily compounding habits.',
+      actionItem: 'Stop fixating on your current bank balance or weight. Focus entirely on whether your current daily trajectory is pointing toward your goals.',
+      tags: ['Compounding', 'Systems', 'Productivity'],
+      isStashed: true,
+      stashBoardIds: ['board-models'],
+      createdAt: Date.now() - 86400000 * 2
+    },
+    {
+      id: 'ah-idea-2',
+      bookId: 'atomic-habits',
+      bookTitle: 'Atomic Habits',
+      author: 'James Clear',
+      category: 'Productivity',
+      type: 'actionable',
+      headline: 'The Two-Minute Rule: Standardize Before You Optimize',
+      body: 'When starting any new routine, scale it down until it takes less than 120 seconds to execute. "Read 30 pages" becomes "Read 1 page." "Run 5 miles" becomes "Put on my running shoes and step outside." A habit must be firmly established before it can ever be improved.',
+      quote: 'Make it so ridiculously easy at the start that you cannot say no.',
+      actionItem: 'Identify your most intimidating goal and define a 2-minute gateway version to perform tomorrow morning.',
+      tags: ['Friction', 'Action', 'Routines'],
+      isStashed: false,
+      stashBoardIds: [],
+      createdAt: Date.now() - 86400000 * 1
+    },
+    {
+      id: 'ah-idea-3',
+      bookId: 'atomic-habits',
+      bookTitle: 'Atomic Habits',
+      author: 'James Clear',
+      category: 'Productivity',
+      type: 'concept',
+      headline: 'Identity-Based Habits: Voting For Your Future Self',
+      body: 'True behavioral change is never about what you want to achieve (outcomes); it is about who you believe you are (identity). Every micro-action you take is a ballot cast for the type of person you wish to become. A single pushup does not transform your physique, but it casts an undeniable vote: "I am someone who doesn\'t miss workouts."',
+      quote: 'You do not rise to the level of your goals. You fall to the level of your systems.',
+      tags: ['Identity', 'Psychology', 'Self-Image'],
+      isStashed: true,
+      stashBoardIds: ['board-models'],
+      createdAt: Date.now() - 86400000 * 3
+    },
+    {
+      id: 'ah-idea-4',
+      bookId: 'atomic-habits',
+      bookTitle: 'Atomic Habits',
+      author: 'James Clear',
+      category: 'Productivity',
+      type: 'mental-model',
+      headline: 'The Plateau of Latent Potential & Phase Transitions',
+      body: 'When starting a new habit, results lag behind effort for weeks or months. This is the Valley of Latent Potential where 95% of people surrender. Like an ice cube sitting in a room warming from 25°F to 31°F where no melting is visible until the 32nd degree, your accumulated effort is never wasted—it is simply stored until crossing the critical phase transition threshold.',
+      actionItem: 'When frustrated by a lack of visible progress, remind yourself that you are heating the ice cube from 29° to 30°.',
+      tags: ['Mental Models', 'Patience', 'Compounding'],
+      isStashed: true,
+      stashBoardIds: ['board-models'],
+      createdAt: Date.now() - 86400000 * 4
+    },
+    {
+      id: 'ah-idea-5',
+      bookId: 'atomic-habits',
+      bookTitle: 'Atomic Habits',
+      author: 'James Clear',
+      category: 'Productivity',
+      type: 'actionable',
+      headline: 'Habit Stacking: Neural Anchoring on Automatic Routines',
+      body: 'The human brain undergoes massive synaptic pruning to automate adult routines. You can exploit this existing neural wiring through Habit Stacking: anchor your new desired habit directly onto the back of an existing, unbreakable daily anchor. Formula: "After I [CURRENT HABIT], I will [NEW HABIT]."',
+      actionItem: 'Write out: "After I pour my morning coffee, I will open my journal and write 1 line."',
+      tags: ['Habit Stacking', 'Routines', 'Behavior Design'],
+      isStashed: false,
+      stashBoardIds: [],
+      createdAt: Date.now() - 86400000 * 5
+    },
+    {
+      id: 'ah-idea-6',
+      bookId: 'atomic-habits',
+      bookTitle: 'Atomic Habits',
+      author: 'James Clear',
+      category: 'Productivity',
+      type: 'actionable',
+      headline: 'Environment Architecture & The Dutch Hallway Rule',
+      body: 'In 1970s Amsterdam, households with electrical meters in the front hallway consumed 30% less energy than identical houses with meters hidden in the dark basement. Visual cues dictate over 80% of unconscious physical movements. Stop relying on internal willpower; redesign your physical space so positive cues are obvious and distractions are banished.',
+      quote: 'Disciplined people are better at structuring their lives in a way that does not require heroic willpower.',
+      tags: ['Environment Design', 'Friction', 'Spatial Context'],
+      isStashed: true,
+      stashBoardIds: ['board-focus'],
+      createdAt: Date.now() - 86400000 * 6
+    },
+    {
+      id: 'ah-idea-7',
+      bookId: 'atomic-habits',
+      bookTitle: 'Atomic Habits',
+      author: 'James Clear',
+      category: 'Productivity',
+      type: 'quote',
+      headline: 'The Ultimate Differentiator: Systems Over Goals',
+      body: 'Every Olympic competitor wants the gold medal. Every job applicant wants the offer. Winners and losers share the exact same goals. Therefore, the goal itself cannot be the differentiator between success and failure. The differentiator is the operational efficacy of the daily system.',
+      quote: 'You do not rise to the level of your goals. You fall to the level of your systems.',
+      tags: ['Systems', 'Goals', 'Performance'],
+      isStashed: true,
+      stashBoardIds: ['board-models'],
+      createdAt: Date.now() - 86400000 * 7
+    },
+    {
+      id: 'ah-idea-8',
+      bookId: 'atomic-habits',
+      bookTitle: 'Atomic Habits',
+      author: 'James Clear',
+      category: 'Productivity',
+      type: 'mental-model',
+      headline: 'The Dopamine Anticipation Spike: Desire Precedes Pleasure',
+      body: 'Neuroscientific studies reveal that dopamine surges when you ANTICIPATE a reward, not when you actually consume it. Gambling addicts spike dopamine when pulling the lever, not when winning coins. Desire is the engine that drives action. If you want a habit to stick, make the anticipation attractive.',
+      actionItem: 'Bundle a high-desire reward immediately following the completion of your target habit.',
+      tags: ['Neuroscience', 'Dopamine', 'Motivation'],
+      isStashed: false,
+      stashBoardIds: [],
+      createdAt: Date.now() - 86400000 * 8
+    },
+    {
+      id: 'ah-idea-9',
+      bookId: 'atomic-habits',
+      bookTitle: 'Atomic Habits',
+      author: 'James Clear',
+      category: 'Productivity',
+      type: 'actionable',
+      headline: 'Temptation Bundling (Premack\'s Principle)',
+      body: 'Premack\'s Principle states that more probable behaviors will reinforce less probable behaviors. Pair an essential habit you NEED to do with a pleasurable habit you WANT to do. Ronan Byrne hacked his stationary exercise bike to only play Netflix when pedaling at a sustained RPM.',
+      actionItem: 'Formula: "I will only [WANT TO DO] while or immediately after I [NEED TO DO]."',
+      tags: ['Temptation Bundling', 'Hacks', 'Behavior Design'],
+      isStashed: true,
+      stashBoardIds: ['board-focus'],
+      createdAt: Date.now() - 86400000 * 9
+    },
+    {
+      id: 'ah-idea-10',
+      bookId: 'atomic-habits',
+      bookTitle: 'Atomic Habits',
+      author: 'James Clear',
+      category: 'Productivity',
+      type: 'concept',
+      headline: 'The Three Circles of Social Mimicry',
+      body: 'Humans are social primates who imitate the behaviors of three tribal groups: The Close (family and friends), The Many (the crowd and cultural consensus), and The Powerful (those with high status). We often adopt destructive habits simply to belong to the tribe, because being wrong with the crowd feels safer than being right alone.',
+      actionItem: 'Join a group where your desired behavior is the normal, baseline default.',
+      tags: ['Social Proof', 'Tribal Psychology', 'Belonging'],
+      isStashed: false,
+      stashBoardIds: [],
+      createdAt: Date.now() - 86400000 * 10
+    },
+    {
+      id: 'ah-idea-11',
+      bookId: 'atomic-habits',
+      bookTitle: 'Atomic Habits',
+      author: 'James Clear',
+      category: 'Productivity',
+      type: 'mental-model',
+      headline: 'Motion vs. Action: The Illusion of Productive Work',
+      body: 'Motion is strategizing, researching, and outlining. It feels like productive labor, but it will never produce an outcome on its own. Action is delivering the code, hitting send, or stepping onto the gym floor. Motion lets you delay failure while preserving your ego; Action puts your reputation on the line.',
+      quote: 'Motion makes you feel like you\'re getting things done. But really, you’re just preparing to get something done.',
+      tags: ['Execution', 'Procrastination', 'Mental Models'],
+      isStashed: true,
+      stashBoardIds: ['board-focus'],
+      createdAt: Date.now() - 86400000 * 11
+    },
+    {
+      id: 'ah-idea-12',
+      bookId: 'atomic-habits',
+      bookTitle: 'Atomic Habits',
+      author: 'James Clear',
+      category: 'Productivity',
+      type: 'actionable',
+      headline: 'The "Never Miss Twice" Recovery Protocol',
+      body: 'Perfection is an illusion. Anyone can encounter emergencies, illnesses, or travel delays that disrupt a daily streak. Missing once is an unavoidable accident. Missing twice is the start of a brand new, insidious habit of skipping. When life derails your routine, do a truncated 60-second version immediately to preserve the identity vote.',
+      actionItem: 'If you miss your workout today, drop down and do 5 pushups before bed. Never let the counter hit two consecutive zeros.',
+      tags: ['Resilience', 'Streaks', 'Consistency'],
+      isStashed: true,
+      stashBoardIds: ['board-models'],
+      createdAt: Date.now() - 86400000 * 12
+    },
+    {
+      id: 'ah-idea-13',
+      bookId: 'atomic-habits',
+      bookTitle: 'Atomic Habits',
+      author: 'James Clear',
+      category: 'Productivity',
+      type: 'quote',
+      headline: 'Every Action Is a Vote for Your Character',
+      body: 'You do not need a unanimous vote to win an election; you just need a decisive majority. You don\'t have to be perfect in every hour of the day. As long as the majority of your daily micro-actions vote for your desired self-image, your internal identity shifts.',
+      quote: 'Every action you take is a vote for the type of person you wish to become. No single instance will transform your beliefs, but as the votes build up, so does the evidence of your new identity.',
+      tags: ['Identity', 'Self-Image', 'Inspiration'],
+      isStashed: true,
+      stashBoardIds: ['board-models'],
+      createdAt: Date.now() - 86400000 * 13
+    },
+    {
+      id: 'ah-idea-14',
+      bookId: 'atomic-habits',
+      bookTitle: 'Atomic Habits',
+      author: 'James Clear',
+      category: 'Productivity',
+      type: 'mental-model',
+      headline: 'The Goldilocks Rule of Human Motivation',
+      body: 'Peak human motivation occurs when working on tasks that are right on the edge of current abilities—roughly 4% beyond current capability. Too easy leads to crippling boredom; too difficult leads to crippling anxiety. Elite performance requires calibrating difficulty to stay in this narrow cognitive sweet spot.',
+      actionItem: 'Audit tasks you feel resistant to. If bored, increase the challenge; if anxious, simplify the scope.',
+      tags: ['Flow', 'Motivation', 'Mastery'],
+      isStashed: false,
+      stashBoardIds: [],
+      createdAt: Date.now() - 86400000 * 14
+    },
+    {
+      id: 'ah-idea-15',
+      bookId: 'atomic-habits',
+      bookTitle: 'Atomic Habits',
+      author: 'James Clear',
+      category: 'Productivity',
+      type: 'actionable',
+      headline: 'The Habit Contract: Making Inaction Immediately Painful',
+      body: 'Humans naturally respond to immediate social and monetary pain. Bryan Harris created a signed Habit Contract with his wife and trainer: if he skipped a daily food log, he had to pay $200, and if he skipped a morning weigh-in, he had to give his trainer $500 and run sprints in the summer heat.',
+      actionItem: 'Pick one chronic bad habit and establish an accountability partner with an immediate financial penalty for every violation.',
+      tags: ['Accountability', 'Commitment Devices', 'Habits'],
+      isStashed: true,
+      stashBoardIds: ['board-focus'],
+      createdAt: Date.now() - 86400000 * 15
+    },
+    {
+      id: 'ah-idea-16',
+      bookId: 'atomic-habits',
+      bookTitle: 'Atomic Habits',
+      author: 'James Clear',
+      category: 'Productivity',
+      type: 'concept',
+      headline: 'The Downside of Good Habits: The Complacency Trap',
+      body: 'Habits create automaticity, which frees cognitive bandwidth. However, automaticity can become the enemy of continuous improvement. Once you perform a task automatically, you stop noticing subtle micro-errors. True mastery requires combining automatic habits with deliberate, uncomfortable review: Habits + Deliberate Practice = Mastery.',
+      quote: 'The secret to getting results that last is to never stop making improvements.',
+      tags: ['Mastery', 'Deliberate Practice', 'Complacency'],
+      isStashed: false,
+      stashBoardIds: [],
+      createdAt: Date.now() - 86400000 * 16
+    }
+  ],
   reflectionExercises: [
     {
       id: 'ah-ex-1',

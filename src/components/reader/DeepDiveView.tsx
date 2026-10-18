@@ -75,7 +75,16 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ book, fontSizeClass,
 
   const handleListenOnePage = () => {
     const s = book.onePageSummary;
-    const text = `The 1-Page Master Summary of ${book.title} by ${book.author}. ${s.elevatorPitch}. Central Thesis: ${s.coreThesis}. Key conceptual pillars: ${s.keyPillars.join('. ')}. Key strengths: ${s.strengths.join('. ')}. Blind spots and counterarguments: ${s.blindSpotsAndCounterarguments.join('. ')}`;
+    const pillarTexts = s.keyPillars.map(p => typeof p === 'string' ? p : `${p.title}: ${p.description}`);
+    let text = `The 1-Page Master Summary of ${book.title} by ${book.author}. ${s.elevatorPitch}. `;
+    if (s.executiveSummary) {
+      text += `Executive Overview: ${s.executiveSummary}. `;
+    }
+    text += `Central Thesis: ${s.coreThesis}. Key conceptual pillars: ${pillarTexts.join('. ')}. `;
+    if (s.frameworkSteps && s.frameworkSteps.length > 0) {
+      text += `Core Operating Framework: ${s.frameworkName || 'Framework'}. ${s.frameworkSteps.map(st => `Step ${st.step}, ${st.name}: ${st.summary}`).join('. ')}. `;
+    }
+    text += `Key strengths: ${s.strengths.join('. ')}. Blind spots and counterarguments: ${s.blindSpotsAndCounterarguments.join('. ')}`;
     onStartAudio(`1-Page Master Summary · ${book.title}`, text);
   };
 
@@ -145,14 +154,15 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ book, fontSizeClass,
       {/* Main Content Area */}
       <main className="lg:col-span-3 space-y-8">
         
-        {/* Section 1: The 1-Page Summary */}
+        {/* Section 1: The Expanded 1-Page Summary */}
         {activeSection === 'one-page' && (
           <div className="space-y-6">
             
-            <div className="p-6 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-sm">
-              <div className="flex items-center justify-between mb-3">
+            {/* Header & Executive Overview */}
+            <div className="p-6 sm:p-7 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-sm space-y-4">
+              <div className="flex items-center justify-between">
                 <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
-                  Executive Overview
+                  Comprehensive 1-Page Summary
                 </span>
                 
                 <button
@@ -165,51 +175,169 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ book, fontSizeClass,
                 </button>
               </div>
 
-              <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100 mt-1 mb-4">
-                The 1-Page Master Summary of {book.title}
-              </h2>
-              <p className="text-base text-slate-700 dark:text-slate-300 leading-relaxed font-serif">
+              <div>
+                <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-slate-100">
+                  {book.title}
+                </h2>
+                <p className="text-sm font-medium text-slate-500 dark:text-slate-400 mt-1">
+                  By {book.author} · {book.category} · {book.publishedYear}
+                </p>
+              </div>
+
+              {/* Elevator Pitch Callout */}
+              <div className="p-4 rounded-xl bg-blue-50/70 dark:bg-blue-950/30 border-l-4 border-blue-500 text-slate-800 dark:text-slate-200 text-sm sm:text-base font-medium leading-relaxed font-serif">
                 {book.onePageSummary.elevatorPitch}
-              </p>
+              </div>
+
+              {/* Deep Narrative Executive Summary if available */}
+              {book.onePageSummary.executiveSummary && (
+                <div className="pt-2 text-sm sm:text-base text-slate-700 dark:text-slate-300 leading-relaxed font-serif space-y-3">
+                  {book.onePageSummary.executiveSummary.split('\n\n').map((para, i) => (
+                    <p key={i}>{para}</p>
+                  ))}
+                </div>
+              )}
             </div>
 
-            {/* Core Thesis */}
-            <div className="p-6 rounded-2xl bg-blue-50/80 dark:bg-blue-950/30 border border-blue-200/80 dark:border-blue-900/60">
-              <h3 className="text-sm font-bold uppercase tracking-wider text-blue-700 dark:text-blue-300 mb-2">
-                Central Thesis
-              </h3>
-              <p className="text-base sm:text-lg font-semibold text-blue-950 dark:text-blue-100 leading-relaxed">
+            {/* Central Thesis */}
+            <div className="p-6 rounded-2xl bg-gradient-to-r from-blue-500/10 via-indigo-500/10 to-purple-500/10 dark:from-blue-950/40 dark:to-indigo-950/40 border border-blue-200 dark:border-blue-800/80">
+              <span className="text-xs font-bold uppercase tracking-wider text-blue-700 dark:text-blue-300 block mb-1">
+                Foundational Thesis
+              </span>
+              <p className="text-base sm:text-lg font-bold text-slate-900 dark:text-slate-100 leading-snug">
                 "{book.onePageSummary.coreThesis}"
               </p>
             </div>
 
-            {/* Main Pillars */}
-            <div className="p-6 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-sm">
-              <h3 className="text-base font-bold text-slate-900 dark:text-slate-100 mb-4">
-                Key Conceptual Pillars
-              </h3>
-              <ul className="space-y-3">
-                {book.onePageSummary.keyPillars.map((pillar, idx) => (
-                  <li key={idx} className="flex items-start space-x-3 text-sm sm:text-base text-slate-700 dark:text-slate-300">
-                    <span className="w-6 h-6 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">
-                      {idx + 1}
-                    </span>
-                    <span>{pillar}</span>
-                  </li>
-                ))}
-              </ul>
+            {/* Key Conceptual Pillars */}
+            <div className="p-6 sm:p-7 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-sm space-y-5">
+              <div>
+                <h3 className="text-lg font-bold text-slate-900 dark:text-slate-100">
+                  Core Conceptual Pillars
+                </h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
+                  The primary intellectual engines and structural building blocks of the book.
+                </p>
+              </div>
+
+              <div className="space-y-4">
+                {book.onePageSummary.keyPillars.map((pillar, idx) => {
+                  if (typeof pillar === 'string') {
+                    return (
+                      <div key={idx} className="flex items-start space-x-3.5 p-3.5 rounded-xl bg-slate-50 dark:bg-slate-900/50 border border-slate-200/80 dark:border-slate-700/60">
+                        <span className="w-6 h-6 rounded-full bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">
+                          {idx + 1}
+                        </span>
+                        <p className="text-sm sm:text-base text-slate-800 dark:text-slate-200 leading-relaxed">
+                          {pillar}
+                        </p>
+                      </div>
+                    );
+                  }
+
+                  return (
+                    <div key={idx} className="p-4 sm:p-5 rounded-xl bg-slate-50/80 dark:bg-slate-900/50 border border-slate-200/80 dark:border-slate-700/60 space-y-2.5">
+                      <div className="flex items-center space-x-3">
+                        <span className="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xs shrink-0">
+                          {idx + 1}
+                        </span>
+                        <h4 className="font-bold text-sm sm:text-base text-slate-900 dark:text-slate-100">
+                          {pillar.title}
+                        </h4>
+                      </div>
+                      <p className="text-sm text-slate-700 dark:text-slate-300 leading-relaxed font-serif pl-9">
+                        {pillar.description}
+                      </p>
+                      {pillar.actionableTakeaway && (
+                        <div className="ml-9 p-2.5 rounded-lg bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-900/50 text-xs text-emerald-900 dark:text-emerald-300 font-medium flex items-start space-x-2">
+                          <CheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0 mt-0.5" />
+                          <span><strong>Key Action:</strong> {pillar.actionableTakeaway}</span>
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
             </div>
 
-            {/* Strengths & Counterarguments Grid */}
+            {/* Signature Framework / Operating Model */}
+            {book.onePageSummary.frameworkSteps && book.onePageSummary.frameworkSteps.length > 0 && (
+              <div className="p-6 sm:p-7 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-sm space-y-5">
+                <div>
+                  <div className="flex items-center space-x-2 text-xs font-bold uppercase tracking-wider text-indigo-600 dark:text-indigo-400 mb-1">
+                    <Sparkles className="w-3.5 h-3.5" />
+                    <span>Signature Operating Model</span>
+                  </div>
+                  <h3 className="text-lg font-bold text-slate-900 dark:text-slate-100">
+                    {book.onePageSummary.frameworkName || 'The Core Implementation Framework'}
+                  </h3>
+                  {book.onePageSummary.frameworkSummary && (
+                    <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
+                      {book.onePageSummary.frameworkSummary}
+                    </p>
+                  )}
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {book.onePageSummary.frameworkSteps.map((step) => (
+                    <div 
+                      key={step.step}
+                      className="p-4 rounded-xl bg-indigo-50/40 dark:bg-indigo-950/20 border border-indigo-100 dark:border-indigo-900/40 space-y-2"
+                    >
+                      <div className="flex items-center space-x-2">
+                        <span className="w-6 h-6 rounded-lg bg-indigo-600 text-white flex items-center justify-center font-bold text-xs shrink-0">
+                          {step.step}
+                        </span>
+                        <h4 className="font-bold text-sm text-slate-900 dark:text-slate-100">
+                          {step.name}
+                        </h4>
+                      </div>
+                      <p className="text-xs text-slate-700 dark:text-slate-300 leading-relaxed">
+                        {step.summary}
+                      </p>
+                      <div className="pt-1 text-[11px] text-indigo-900 dark:text-indigo-300 font-medium bg-white/70 dark:bg-slate-800/70 p-2 rounded-lg border border-indigo-200/60 dark:border-indigo-800/40">
+                        ⚡ <strong>Tip:</strong> {step.executionTip}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Reading Roadmap & Strategy */}
+            {book.onePageSummary.readingRoadmap && book.onePageSummary.readingRoadmap.length > 0 && (
+              <div className="p-6 sm:p-7 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-sm space-y-4">
+                <h3 className="text-base sm:text-lg font-bold text-slate-900 dark:text-slate-100">
+                  Target Audience & Reading Roadmap
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-3.5">
+                  {book.onePageSummary.readingRoadmap.map((item, idx) => (
+                    <div key={idx} className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-900/50 border border-slate-200/80 dark:border-slate-700/60 space-y-1.5">
+                      <span className="text-[11px] font-bold text-blue-600 dark:text-blue-400 uppercase tracking-wider block">
+                        {item.goalOrAudience}
+                      </span>
+                      <p className="text-xs font-semibold text-slate-900 dark:text-slate-100">
+                        Focus: {item.recommendedChapters}
+                      </p>
+                      <p className="text-[11px] text-slate-600 dark:text-slate-400 leading-relaxed">
+                        {item.rationale}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Critical Analysis: Strengths & Counterarguments Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               
               {/* Strengths */}
               <div className="p-5 rounded-2xl bg-emerald-50/70 dark:bg-emerald-950/20 border border-emerald-200 dark:border-emerald-900/60">
                 <div className="flex items-center space-x-2 text-emerald-800 dark:text-emerald-400 font-bold text-sm mb-3">
                   <CheckCircle className="w-4 h-4 text-emerald-600" />
-                  <span>Key Strengths</span>
+                  <span>Key Strengths & Superpowers</span>
                 </div>
-                <ul className="space-y-2 text-xs sm:text-sm text-emerald-950 dark:text-emerald-200">
+                <ul className="space-y-2.5 text-xs sm:text-sm text-emerald-950 dark:text-emerald-200">
                   {book.onePageSummary.strengths.map((s, idx) => (
                     <li key={idx} className="flex items-start space-x-2">
                       <span className="text-emerald-600 font-bold">•</span>
@@ -223,9 +351,9 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({ book, fontSizeClass,
               <div className="p-5 rounded-2xl bg-amber-50/70 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-900/60">
                 <div className="flex items-center space-x-2 text-amber-800 dark:text-amber-400 font-bold text-sm mb-3">
                   <AlertTriangle className="w-4 h-4 text-amber-600" />
-                  <span>Blind Spots & Counterarguments</span>
+                  <span>Blind Spots & Critical Counterarguments</span>
                 </div>
-                <ul className="space-y-2 text-xs sm:text-sm text-amber-950 dark:text-amber-200">
+                <ul className="space-y-2.5 text-xs sm:text-sm text-amber-950 dark:text-amber-200">
                   {book.onePageSummary.blindSpotsAndCounterarguments.map((b, idx) => (
                     <li key={idx} className="flex items-start space-x-2">
                       <span className="text-amber-600 font-bold">•</span>

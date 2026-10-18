@@ -72,6 +72,9 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
   // Selected Node for Detailed Inspector
   const [selectedNodeId, setSelectedNodeId] = useState<string>(book.mindMap.id);
 
+  // Concept View Mode: 'detailed' (shows in-depth conceptual summaries inside diagram nodes) vs 'compact'
+  const [nodeViewMode, setNodeViewMode] = useState<'detailed' | 'compact'>('detailed');
+
   // Branch Collapse/Expand State
   const [expandedMap, setExpandedMap] = useState<Record<string, boolean>>({});
 
@@ -85,12 +88,12 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
   };
 
   // Dimensions
-  const ROOT_WIDTH = 260;
-  const ROOT_HEIGHT = 72;
-  const NODE_WIDTH = 210;
-  const NODE_HEIGHT = 52;
-  const H_GAP = 90;
-  const V_GAP = 24;
+  const ROOT_WIDTH = nodeViewMode === 'detailed' ? 290 : 250;
+  const ROOT_HEIGHT = nodeViewMode === 'detailed' ? 84 : 70;
+  const NODE_WIDTH = nodeViewMode === 'detailed' ? 260 : 210;
+  const NODE_HEIGHT = nodeViewMode === 'detailed' ? 84 : 52;
+  const H_GAP = nodeViewMode === 'detailed' ? 95 : 85;
+  const V_GAP = nodeViewMode === 'detailed' ? 26 : 22;
 
   // Calculate layout coordinates recursively
   const { layoutTree, connectors, bounds } = useMemo(() => {
@@ -340,7 +343,7 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
       connectors: generatedConnectors,
       bounds: { minX: minX - 100, maxX: maxX + 100, minY: minY - 100, maxY: maxY + 100 }
     };
-  }, [book.mindMap, layoutMode, expandedMap, selectedNodeId]);
+  }, [book.mindMap, layoutMode, expandedMap, selectedNodeId, nodeViewMode]);
 
   // Center the view on initial mount or layout switch
   const centerView = () => {
@@ -470,6 +473,32 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
               title="Left-to-Right Logic Chart"
             >
               Logic Tree
+            </button>
+          </div>
+
+          {/* Node Detail Density Toggle */}
+          <div className="flex items-center space-x-1 bg-slate-100 dark:bg-slate-700/60 p-0.5 rounded-lg border border-slate-200/80 dark:border-slate-600 text-xs">
+            <button
+              onClick={() => setNodeViewMode('detailed')}
+              className={`px-2.5 py-1 rounded-md transition ${
+                nodeViewMode === 'detailed'
+                  ? 'bg-white dark:bg-slate-800 text-blue-600 dark:text-blue-400 shadow-2xs font-semibold'
+                  : 'text-slate-600 dark:text-slate-400'
+              }`}
+              title="Show detailed concept descriptions on diagram nodes"
+            >
+              Detailed Nodes
+            </button>
+            <button
+              onClick={() => setNodeViewMode('compact')}
+              className={`px-2.5 py-1 rounded-md transition ${
+                nodeViewMode === 'compact'
+                  ? 'bg-white dark:bg-slate-800 text-blue-600 dark:text-blue-400 shadow-2xs font-semibold'
+                  : 'text-slate-600 dark:text-slate-400'
+              }`}
+              title="Compact node layout"
+            >
+              Compact
             </button>
           </div>
 
@@ -606,12 +635,17 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
                     <div className="min-w-0 flex-1">
                       <div className="flex items-center space-x-1.5">
                         <span className="text-[10px] uppercase font-bold tracking-wider text-blue-200">
-                          Central Theme
+                          Central Architecture
                         </span>
                       </div>
                       <h4 className="font-extrabold text-sm sm:text-base leading-snug truncate">
                         {node.label}
                       </h4>
+                      {nodeViewMode === 'detailed' && node.description && (
+                        <p className="text-[11px] text-blue-100/90 leading-tight line-clamp-1 mt-0.5">
+                          {node.description}
+                        </p>
+                      )}
                     </div>
                   </div>
                 );
@@ -622,7 +656,7 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
                 <div
                   key={node.id}
                   onClick={() => setSelectedNodeId(node.id)}
-                  className={`absolute rounded-xl px-3.5 py-2.5 transition-all transform hover:scale-[1.03] cursor-pointer shadow-sm border ${
+                  className={`absolute rounded-xl px-3.5 py-2.5 transition-all transform hover:scale-[1.02] cursor-pointer shadow-sm border ${
                     isSelected
                       ? 'ring-3 ring-blue-500/50 shadow-md z-20 scale-[1.02]'
                       : matchesSearch
@@ -635,44 +669,55 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio }) 
                     width: node.width,
                     minHeight: node.height,
                     borderColor: isSelected ? branchStyle.stroke : undefined,
-                    borderLeftWidth: node.level === 1 ? '5px' : '3px',
+                    borderLeftWidth: node.level === 1 ? '5px' : '3.5px',
                     borderLeftColor: branchStyle.stroke
                   }}
                 >
-                  <div className="flex items-center justify-between gap-1.5">
-                    <p className={`text-xs font-semibold leading-tight truncate ${
-                      isSelected 
-                        ? 'text-blue-600 dark:text-blue-400' 
-                        : 'text-slate-800 dark:text-slate-200'
-                    }`}>
-                      {node.label}
-                    </p>
+                  <div className="flex items-start justify-between gap-1.5">
+                    <div className="min-w-0 flex-1">
+                      <div className="flex items-center space-x-1.5 mb-1">
+                        {node.level === 1 && (
+                          <span 
+                            className="text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.2 rounded"
+                            style={{
+                              backgroundColor: branchStyle.fill,
+                              color: branchStyle.text
+                            }}
+                          >
+                            Pillar {node.branchIdx + 1}
+                          </span>
+                        )}
+                        {node.level > 1 && (
+                          <span className="w-1.5 h-1.5 rounded-full shrink-0" style={{ backgroundColor: branchStyle.stroke }} />
+                        )}
+                      </div>
+
+                      <p className={`text-xs font-bold leading-snug ${
+                        isSelected 
+                          ? 'text-blue-600 dark:text-blue-400' 
+                          : 'text-slate-900 dark:text-slate-100'
+                      } ${nodeViewMode === 'compact' ? 'truncate' : 'line-clamp-2'}`}>
+                        {node.label}
+                      </p>
+
+                      {nodeViewMode === 'detailed' && node.description && (
+                        <p className="text-[11px] text-slate-600 dark:text-slate-400 mt-1 line-clamp-2 leading-relaxed font-sans">
+                          {node.description}
+                        </p>
+                      )}
+                    </div>
 
                     {/* Expand/Collapse Toggle Badge */}
                     {hasChildren && (
                       <button
                         onClick={(e) => toggleNodeExpand(node.id, e)}
-                        className="w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-bold shrink-0 transition bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-600 dark:text-slate-300"
+                        className="w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-bold shrink-0 transition bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-600 dark:text-slate-300 ml-1 mt-0.5"
                         title={isExpanded ? 'Collapse Branch' : `Expand (${node.rawNode.children!.length} items)`}
                       >
                         {isExpanded ? '−' : `+${node.rawNode.children!.length}`}
                       </button>
                     )}
                   </div>
-
-                  {node.level === 1 && (
-                    <div className="flex items-center space-x-1 mt-1">
-                      <span 
-                        className="text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.2 rounded"
-                        style={{
-                          backgroundColor: branchStyle.fill,
-                          color: branchStyle.text
-                        }}
-                      >
-                        Branch {node.branchIdx + 1}
-                      </span>
-                    </div>
-                  )}
                 </div>
               );
             })}

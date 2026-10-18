@@ -60,11 +60,23 @@ export async function initDatabase(): Promise<void> {
     };
     await db.progress.put(initialProgress);
   } else {
-    // Synchronize updated seed books (with expanded chapters, diagrams, stories & action items)
+    // Synchronize updated seed books (with expanded chapters, diagrams, stories, ideaCards & action items)
     for (const b of SEED_BOOKS) {
       const existing = await db.books.get(b.id);
-      if (!existing || (b.blinks && existing.blinks.length < b.blinks.length) || (b.actionItems && !existing.actionItems)) {
+      if (!existing || 
+          (b.blinks && existing.blinks.length < b.blinks.length) || 
+          (b.actionItems && !existing.actionItems) || 
+          (b.ideaCards && !existing.ideaCards) ||
+          (b.onePageSummary?.frameworkSteps && !existing.onePageSummary?.frameworkSteps)) {
         await db.books.put(b);
+      }
+      if (b.ideaCards && b.ideaCards.length > 0) {
+        for (const card of b.ideaCards) {
+          const existingIdea = await db.ideas.get(card.id);
+          if (!existingIdea) {
+            await db.ideas.put(card);
+          }
+        }
       }
     }
   }

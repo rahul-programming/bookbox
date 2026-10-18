@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "build:singlefile": "tsc -b && vite build --config vite.singlefile.config.ts",
     "lint": "oxlint",
+    "validate:content": "node --experimental-strip-types -e \"import { ATOMIC_HABITS_BOOK } from './src/data/books/atomicHabitsExpanded.ts'; import { createRequire } from 'module'; const require = createRequire(import.meta.url); const { validateBookContent } = require('./.agents/skills/book-content-synthesizer/scripts/validate_book_content.cjs'); validateBookContent(ATOMIC_HABITS_BOOK);\"",
     "preview": "vite preview"
   },
   "dependencies": {
