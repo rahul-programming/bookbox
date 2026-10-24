@@ -139,12 +139,23 @@ export const StashBoardsView: React.FC<StashBoardsViewProps> = ({ onOpenStashMod
 
                   {isFlipped ? (
                     <div className="mt-6 pt-6 border-t border-slate-100 dark:border-slate-700 space-y-4 animate-fade-in">
-                      <p className="text-sm sm:text-base text-slate-700 dark:text-slate-300 leading-relaxed font-serif">
-                        {boardIdeas[flashcardIndex].body}
-                      </p>
+                      <div className="space-y-1.5 text-sm sm:text-base text-slate-700 dark:text-slate-300 font-serif">
+                        {(boardIdeas[flashcardIndex].body.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (
+                          <p key={idx} className="leading-relaxed">
+                            {sentence}
+                          </p>
+                        ))}
+                      </div>
                       {boardIdeas[flashcardIndex].actionItem && (
                         <div className="p-3 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900/60 text-xs text-emerald-900 dark:text-emerald-200">
-                          <strong>Action Rule: </strong> {boardIdeas[flashcardIndex].actionItem}
+                          <strong className="block mb-1">Action Rule: </strong>
+                          <div className="space-y-1">
+                            {(boardIdeas[flashcardIndex].actionItem.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (
+                              <p key={idx} className="leading-relaxed">
+                                {sentence}
+                              </p>
+                            ))}
+                          </div>
                         </div>
                       )}
                     </div>

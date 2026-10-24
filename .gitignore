@@ -12,6 +12,15 @@ dist
 dist-ssr
 *.local
 
+# Cache and Scratch
+cache/
+scratch/
+__pycache__/
+*.pyc
+test_json.py
+dist-singlefile/
+src/data/*_tracker.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

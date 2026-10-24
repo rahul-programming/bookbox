@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { IdeaCard, Category, Book } from '../types';
 import { db } from '../db';
-import { Search, Sparkles, RotateCw, Bookmark, Check, BookOpen, Quote, Volume2 } from 'lucide-react';
+import { Search, Sparkles, RotateCw, Bookmark, Check, BookOpen, Quote, Volume2, X } from 'lucide-react';
 import { AudioPlayerBar } from './AudioPlayerBar';
 
 interface IdeaFeedViewProps {
@@ -16,7 +16,18 @@ export const IdeaFeedView: React.FC<IdeaFeedViewProps> = ({ onSelectBook, onOpen
   const [flippedCards, setFlippedCards] = useState<Record<string, boolean>>({});
   const [activeAudioIdea, setActiveAudioIdea] = useState<IdeaCard | null>(null);
 
-  const categories = ['All', 'Productivity', 'Psychology', 'Finance', 'Philosophy'];
+  const categories = React.useMemo(() => {
+    const cats = new Set<string>();
+    ideas.forEach(i => {
+      if (i.category) cats.add(i.category);
+    });
+    const priorityOrder = ['Productivity', 'Psychology', 'Finance', 'Philosophy', 'Strategy', 'Leadership'];
+    const ordered = priorityOrder.filter(c => cats.has(c));
+    Array.from(cats).sort().forEach(c => {
+      if (!ordered.includes(c)) ordered.push(c);
+    });
+    return ['All', ...ordered];
+  }, [ideas]);
 
   const loadAllIdeas = async () => {
     let query = db.ideas.toCollection();
@@ -97,14 +108,32 @@ export const IdeaFeedView: React.FC<IdeaFeedViewProps> = ({ onSelectBook, onOpen
 
         {/* Search Input */}
         <div className="relative w-full sm:w-64">
-          <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+          <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
           <input
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Escape') setSearchQuery('');
+            }}
             placeholder="Search mental models..."
-            className="w-full pl-9 pr-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-xs"
+            className="w-full pl-9 pr-10 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-xs"
           />
+          {searchQuery && (
+            <button
+              type="button"
+              onMouseDown={(e) => {
+                e.preventDefault();
+                setSearchQuery('');
+              }}
+              onClick={() => setSearchQuery('')}
+              className="absolute right-2.5 top-1/2 -translate-y-1/2 w-5 h-5 flex items-center justify-center rounded-full bg-slate-200 hover:bg-slate-300 dark:bg-slate-700 dark:hover:bg-slate-600 border border-slate-300/80 dark:border-slate-600 text-slate-700 dark:text-slate-200 hover:text-slate-900 dark:hover:text-white shadow-2xs transition-all cursor-pointer z-10"
+              title="Clear search"
+              aria-label="Clear search"
+            >
+              <X className="w-3 h-3 stroke-[2.5]" />
+            </button>
+          )}
         </div>
 
       </div>
@@ -120,77 +149,82 @@ export const IdeaFeedView: React.FC<IdeaFeedViewProps> = ({ onSelectBook, onOpen
             const isFlipped = flippedCards[idea.id];
 
             return (
-              <div key={idea.id} className="h-80 perspective-1000">
+              <div key={idea.id} className="h-[390px] sm:h-[410px] perspective-1000">
                 <div
                   className={`relative w-full h-full transition-transform duration-500 transform-style-3d rounded-2xl shadow-xs hover:shadow-md border border-slate-200/80 dark:border-slate-700/80 bg-white dark:bg-slate-800 ${
                     isFlipped ? 'rotate-y-180' : ''
                   }`}
                 >
                   {/* Front of Card */}
-                  <div className="absolute inset-0 p-5 flex flex-col justify-between backface-hidden rounded-2xl">
-                    <div>
-                      {/* Top Meta & Stash Button */}
-                      <div className="flex items-center justify-between gap-2 mb-3">
-                        <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-blue-50 dark:bg-blue-950/60 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-900">
-                          {idea.type}
-                        </span>
+                  <div className="absolute inset-0 p-5 flex flex-col justify-between backface-hidden rounded-2xl overflow-hidden">
+                    {/* Top Meta Bar */}
+                    <div className="flex items-center justify-between gap-2 mb-2 shrink-0">
+                      <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-blue-50 dark:bg-blue-950/60 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-900">
+                        {idea.type}
+                      </span>
 
-                        <div className="flex items-center space-x-1">
-                          <button
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              setActiveAudioIdea(idea);
-                            }}
-                            className="p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500 hover:text-blue-600 transition"
-                            title="Listen to this Idea"
-                          >
-                            <Volume2 className="w-3.5 h-3.5" />
-                          </button>
+                      <div className="flex items-center space-x-1">
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setActiveAudioIdea(idea);
+                          }}
+                          className="p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-500 hover:text-blue-600 transition cursor-pointer"
+                          title="Listen to this Idea"
+                        >
+                          <Volume2 className="w-3.5 h-3.5" />
+                        </button>
 
-                          <button
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              onOpenStashModal(idea);
-                            }}
-                            className={`p-1.5 rounded-lg border transition ${
-                              idea.isStashed
-                                ? 'bg-amber-100 dark:bg-amber-950 border-amber-300 text-amber-600'
-                                : 'hover:bg-slate-100 dark:hover:bg-slate-700 border-slate-200 dark:border-slate-700 text-slate-500'
-                            }`}
-                            title={idea.isStashed ? 'Stashed in Board' : 'Stash Idea'}
-                          >
-                            {idea.isStashed ? (
-                              <Check className="w-3.5 h-3.5 text-amber-600" />
-                            ) : (
-                              <Bookmark className="w-3.5 h-3.5" />
-                            )}
-                          </button>
-                        </div>
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            onOpenStashModal(idea);
+                          }}
+                          className={`p-1.5 rounded-lg border transition cursor-pointer ${
+                            idea.isStashed
+                              ? 'bg-amber-100 dark:bg-amber-950 border-amber-300 text-amber-600'
+                              : 'hover:bg-slate-100 dark:hover:bg-slate-700 border-slate-200 dark:border-slate-700 text-slate-500'
+                          }`}
+                          title={idea.isStashed ? 'Stashed in Board' : 'Stash Idea'}
+                        >
+                          {idea.isStashed ? (
+                            <Check className="w-3.5 h-3.5 text-amber-600" />
+                          ) : (
+                            <Bookmark className="w-3.5 h-3.5" />
+                          )}
+                        </button>
                       </div>
+                    </div>
 
-                      <h3 className="font-bold text-base text-slate-900 dark:text-slate-100 leading-snug mb-2">
+                    {/* Scrollable Front Content */}
+                    <div className="flex-1 min-h-0 overflow-y-auto pr-1 my-1 space-y-2">
+                      <h3 className="font-bold text-base text-slate-900 dark:text-slate-100 leading-snug">
                         {idea.headline}
                       </h3>
 
                       {idea.quote ? (
-                        <div className="p-3 rounded-xl bg-slate-50 dark:bg-slate-900 border-l-3 border-blue-500 mb-2">
+                        <div className="p-3 rounded-xl bg-slate-50 dark:bg-slate-900 border-l-3 border-blue-500">
                           <Quote className="w-3 h-3 text-blue-500 mb-1" />
-                          <p className="text-xs italic text-slate-700 dark:text-slate-300 line-clamp-3">
+                          <p className="text-xs italic text-slate-700 dark:text-slate-300">
                             "{idea.quote}"
                           </p>
                         </div>
                       ) : (
-                        <p className="text-xs text-slate-600 dark:text-slate-300 line-clamp-4 leading-relaxed">
-                          {idea.body}
-                        </p>
+                        <div className="space-y-1.5 text-xs text-slate-600 dark:text-slate-300">
+                          {(idea.body.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (
+                            <p key={idx} className="leading-relaxed">
+                              {sentence}
+                            </p>
+                          ))}
+                        </div>
                       )}
                     </div>
 
                     {/* Bottom: Book Link & Flip button */}
-                    <div className="pt-2 border-t border-slate-100 dark:border-slate-700/60 flex items-center justify-between">
+                    <div className="pt-2 border-t border-slate-100 dark:border-slate-700/60 flex items-center justify-between shrink-0">
                       <button
                         onClick={() => handleOpenBook(idea.bookId)}
-                        className="flex items-center space-x-1 text-[11px] font-semibold text-slate-500 dark:text-slate-400 hover:text-blue-600 transition truncate max-w-[65%]"
+                        className="flex items-center space-x-1 text-[11px] font-semibold text-slate-500 dark:text-slate-400 hover:text-blue-600 transition truncate max-w-[65%] cursor-pointer"
                       >
                         <BookOpen className="w-3 h-3 shrink-0" />
                         <span className="truncate">{idea.bookTitle}</span>
@@ -198,7 +232,7 @@ export const IdeaFeedView: React.FC<IdeaFeedViewProps> = ({ onSelectBook, onOpen
 
                       <button
                         onClick={() => toggleFlip(idea.id)}
-                        className="flex items-center space-x-1 text-xs font-semibold text-blue-600 dark:text-blue-400 hover:text-blue-700 transition"
+                        className="flex items-center space-x-1 text-xs font-semibold text-blue-600 dark:text-blue-400 hover:text-blue-700 transition cursor-pointer"
                       >
                         <span>Details</span>
                         <RotateCw className="w-3.5 h-3.5" />
@@ -207,40 +241,45 @@ export const IdeaFeedView: React.FC<IdeaFeedViewProps> = ({ onSelectBook, onOpen
                   </div>
 
                   {/* Back of Card */}
-                  <div className="absolute inset-0 p-5 flex flex-col justify-between rotate-y-180 backface-hidden rounded-2xl bg-slate-50 dark:bg-slate-900/95">
-                    <div>
-                      <div className="flex items-center justify-between mb-3">
-                        <span className="text-[10px] font-bold text-slate-400 uppercase">
-                          Action Heuristic & Source
-                        </span>
-                        <button
-                          onClick={() => toggleFlip(idea.id)}
-                          className="p-1 rounded-md text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"
-                        >
-                          <RotateCw className="w-3.5 h-3.5" />
-                        </button>
-                      </div>
+                  <div className="absolute inset-0 p-5 flex flex-col justify-between rotate-y-180 backface-hidden rounded-2xl bg-slate-50 dark:bg-slate-900/95 overflow-hidden">
+                    {/* Top Meta Bar */}
+                    <div className="flex items-center justify-between gap-2 mb-2 shrink-0">
+                      <span className="text-[10px] font-bold text-purple-600 dark:text-purple-400 uppercase tracking-wider">
+                        Action Heuristic & Source
+                      </span>
+                    </div>
 
-                      <p className="text-xs text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
-                        {idea.body}
-                      </p>
+                    {/* Scrollable Back Content */}
+                    <div className="flex-1 min-h-0 overflow-y-auto pr-1 my-1 space-y-3">
+                      <div className="space-y-1.5 text-xs text-slate-700 dark:text-slate-300">
+                        {(idea.body.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (
+                          <p key={idx} className="leading-relaxed">
+                            {sentence}
+                          </p>
+                        ))}
+                      </div>
 
                       {idea.actionItem && (
                         <div className="p-3 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900/60">
                           <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-800 dark:text-emerald-400">
                             Apply this:
                           </span>
-                          <p className="text-xs font-medium text-emerald-950 dark:text-emerald-200 mt-0.5">
-                            {idea.actionItem}
-                          </p>
+                          <div className="mt-0.5 space-y-1 text-xs font-medium text-emerald-950 dark:text-emerald-200">
+                            {(idea.actionItem.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (
+                              <p key={idx} className="leading-relaxed">
+                                {sentence}
+                              </p>
+                            ))}
+                          </div>
                         </div>
                       )}
                     </div>
 
-                    <div className="pt-2 border-t border-slate-200 dark:border-slate-800 flex items-center justify-between">
+                    {/* Bottom Footer */}
+                    <div className="pt-2 border-t border-slate-200 dark:border-slate-800 flex items-center justify-between shrink-0">
                       <button
                         onClick={() => onOpenStashModal(idea)}
-                        className="flex items-center space-x-1 text-xs font-semibold text-amber-600 dark:text-amber-400"
+                        className="flex items-center space-x-1 text-xs font-semibold text-amber-600 dark:text-amber-400 cursor-pointer"
                       >
                         <Bookmark className="w-3.5 h-3.5" />
                         <span>{idea.isStashed ? 'In Stash' : 'Stash Card'}</span>
@@ -248,9 +287,10 @@ export const IdeaFeedView: React.FC<IdeaFeedViewProps> = ({ onSelectBook, onOpen
 
                       <button
                         onClick={() => toggleFlip(idea.id)}
-                        className="text-xs text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 font-medium"
+                        className="flex items-center space-x-1 text-xs font-semibold text-purple-600 dark:text-purple-400 hover:text-purple-700 transition cursor-pointer"
                       >
-                        Flip Front
+                        <RotateCw className="w-3.5 h-3.5" />
+                        <span>Back to Card</span>
                       </button>
                     </div>
                   </div>

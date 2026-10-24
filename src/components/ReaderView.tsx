@@ -1,6 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { Book, ReaderViewMode, UserProgress, IdeaCard } from '../types';
-import { db } from '../db';
+import { 
+  db, 
+  saveUserProgress, 
+  toggleFavorite, 
+  toggleCurrentlyReading, 
+  getUserProgressMap, 
+  getUserProfile, 
+  saveUserProfile, 
+  getActiveUserId 
+} from '../db';
 import { KeyInsightsView } from './reader/KeyInsightsView';
 import { DeepDiveView } from './reader/DeepDiveView';
 import { ActionItemsView } from './reader/ActionItemsView';
@@ -16,7 +25,9 @@ import {
   Network, 
   Type, 
   CheckCircle2,
-  Volume2
+  Volume2,
+  Heart,
+  BookOpen
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 
@@ -38,6 +49,8 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
   const [viewMode, setViewMode] = useState<ReaderViewMode>('blinks');
   const [currentBlinkIndex, setCurrentBlinkIndex] = useState(0);
   const [completedActionIds, setCompletedActionIds] = useState<string[]>([]);
+  const [isFavorite, setIsFavorite] = useState(false);
+  const [isCurrentlyReading, setIsCurrentlyReading] = useState(true);
   const [isAudioActive, setIsAudioActive] = useState(false);
   const [highlightRange, setHighlightRange] = useState({ start: -1, length: 0 });
   const [audioTrack, setAudioTrack] = useState<{ headline: string; text: string }>({
@@ -55,25 +68,40 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
   // Load or initialize progress
   useEffect(() => {
     const loadProgress = async () => {
-      const existing = await db.progress.get(book.id);
+      const uid = getActiveUserId();
+      const pMap = await getUserProgressMap(uid);
+      const existing = pMap[book.id];
       if (existing) {
-        setCurrentBlinkIndex(Math.min(existing.currentBlinkIndex, book.blinks.length - 1));
+        setCurrentBlinkIndex(Math.min(existing.currentBlinkIndex, Math.max(0, book.blinks.length - 1)));
         setCompletedActionIds(existing.completedActionIds || []);
+        setIsFavorite(!!existing.isFavorite);
+        setIsCurrentlyReading(existing.isCurrentlyReading ?? true);
       } else {
-        const newProg: UserProgress = {
-          bookId: book.id,
+        await saveUserProgress(book.id, {
           completedBlinkIds: [],
           currentBlinkIndex: 0,
           isCompleted: false,
           lastReadTimestamp: Date.now(),
           totalTimeSpentSeconds: 0,
-          completedActionIds: []
-        };
-        await db.progress.put(newProg);
+          completedActionIds: [],
+          isFavorite: false,
+          isCurrentlyReading: true
+        });
+        setIsCurrentlyReading(true);
       }
     };
     loadProgress();
   }, [book.id, book.blinks.length]);
+
+  const handleToggleFavorite = async () => {
+    const next = await toggleFavorite(book.id);
+    setIsFavorite(next);
+  };
+
+  const handleToggleCurrentlyReading = async () => {
+    const next = await toggleCurrentlyReading(book.id);
+    setIsCurrentlyReading(next);
+  };
 
   const handleToggleAction = async (actionId: string) => {
     const next = completedActionIds.includes(actionId)
@@ -81,10 +109,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
       : [...completedActionIds, actionId];
     
     setCompletedActionIds(next);
-    const existing = await db.progress.get(book.id);
-    if (existing) {
-      await db.progress.update(book.id, { completedActionIds: next });
-    }
+    await saveUserProgress(book.id, { completedActionIds: next });
   };
 
   const activeBlink = book.blinks[currentBlinkIndex] || book.blinks[0];
@@ -114,17 +139,18 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
         handleStartAudio(targetBlink.headline, targetBlink.content);
       }
 
-      // Persist progress to IndexedDB
-      const existing = await db.progress.get(book.id);
-      if (existing) {
-        const completed = new Set(existing.completedBlinkIds);
-        completed.add(activeBlink.id);
-        await db.progress.update(book.id, {
-          currentBlinkIndex: newIndex,
-          completedBlinkIds: Array.from(completed),
-          lastReadTimestamp: Date.now()
-        });
-      }
+      // Persist progress to user storage
+      const uid = getActiveUserId();
+      const pMap = await getUserProgressMap(uid);
+      const existing = pMap[book.id];
+      const completed = new Set(existing?.completedBlinkIds || []);
+      if (activeBlink) completed.add(activeBlink.id);
+
+      await saveUserProgress(book.id, {
+        currentBlinkIndex: newIndex,
+        completedBlinkIds: Array.from(completed),
+        lastReadTimestamp: Date.now()
+      });
     }
   };
 
@@ -135,18 +161,18 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
       origin: { y: 0.6 }
     });
 
-    await db.progress.update(book.id, {
+    await saveUserProgress(book.id, {
       isCompleted: true,
       lastReadTimestamp: Date.now()
     });
 
     // Update habit streak in profile
-    const profile = await db.profile.get('active_profile');
+    const uid = getActiveUserId();
+    const profile = await getUserProfile(uid);
     if (profile) {
-      await db.profile.update('active_profile', {
-        totalBooksCompleted: profile.totalBooksCompleted + 1,
-        todayMinutesRead: profile.todayMinutesRead + 15
-      });
+      profile.totalBooksCompleted += 1;
+      profile.todayMinutesRead += 15;
+      await saveUserProfile(profile, uid);
     }
 
     onBookCompleted();
@@ -277,9 +303,38 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
 
           </div>
 
-          {/* Right Controls: Universal Listen & Finish */}
-          <div className="flex items-center space-x-2">
-            
+          {/* Right Controls: Favorite, Reading, Universal Listen & Finish */}
+          <div className="flex items-center space-x-1.5 sm:space-x-2">
+            {/* Favorite Toggle Button */}
+            <button
+              onClick={handleToggleFavorite}
+              className={`p-1.5 sm:px-2.5 sm:py-1.5 rounded-lg border text-xs font-semibold flex items-center space-x-1 transition cursor-pointer ${
+                isFavorite
+                  ? 'bg-rose-50 dark:bg-rose-950/60 text-rose-600 dark:text-rose-400 border-rose-200 dark:border-rose-900 shadow-2xs'
+                  : 'text-slate-500 dark:text-slate-400 border-slate-200 dark:border-slate-700 hover:text-rose-500 hover:bg-rose-50/50'
+              }`}
+              title={isFavorite ? "Favorited (Click to remove)" : "Add to Favorites"}
+              aria-label={isFavorite ? "Favorited" : "Add to Favorites"}
+            >
+              <Heart className={`w-3.5 h-3.5 ${isFavorite ? 'fill-rose-500 text-rose-500' : ''}`} />
+              <span className="hidden lg:inline">{isFavorite ? 'Favorited' : 'Favorite'}</span>
+            </button>
+
+            {/* Currently Reading Toggle Button */}
+            <button
+              onClick={handleToggleCurrentlyReading}
+              className={`p-1.5 sm:px-2.5 sm:py-1.5 rounded-lg border text-xs font-semibold flex items-center space-x-1 transition cursor-pointer ${
+                isCurrentlyReading
+                  ? 'bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 border-blue-200 dark:border-blue-900 shadow-2xs'
+                  : 'text-slate-500 dark:text-slate-400 border-slate-200 dark:border-slate-700 hover:text-blue-600 hover:bg-blue-50/50'
+              }`}
+              title={isCurrentlyReading ? "In Reading Queue (Click to remove)" : "Add to Currently Reading"}
+              aria-label={isCurrentlyReading ? "Reading" : "Add to Currently Reading"}
+            >
+              <BookOpen className={`w-3.5 h-3.5 ${isCurrentlyReading ? 'text-blue-600' : ''}`} />
+              <span className="hidden lg:inline">{isCurrentlyReading ? 'Reading' : 'Queue'}</span>
+            </button>
+
             {/* Universal Audio Listen Button */}
             <button
               onClick={handleUniversalListen}
@@ -312,7 +367,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
             highlightRange={highlightRange}
             onBlinkChange={handleBlinkChange}
             onCompleteBook={handleCompleteBook}
-            onStartAudio={() => handleStartAudio(activeBlink.headline, activeBlink.content)}
+            onStartAudio={() => handleStartAudio(activeBlink.headline, activeBlink.keyInsight || activeBlink.content)}
             fontSizeClass={fontClasses[fontSizeIndex]}
           />
         )}

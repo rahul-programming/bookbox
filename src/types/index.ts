@@ -57,8 +57,9 @@ export interface Blink {
   order: number;
   chapterNumber?: number;
   headline: string;
-  content: string;
-  keyTakeaway: string;
+  keyInsight?: string; // Short, punchy, witty 'wow factor' insight (simple & funny language, not a summary)
+  content: string;     // Full deep dive chapter analysis (substantive prose)
+  keyTakeaway: string; // 1-2 sentence memorable takeaway
   audioSnippetText: string;
   diagram?: ChapterDiagram;
 }
@@ -102,6 +103,7 @@ export interface OnePageSummary {
   readingRoadmap?: ReadingRoadmapItem[];
   strengths: string[];
   blindSpotsAndCounterarguments: string[];
+  conceptGrid?: any;
 }
 
 export type ActionCategory = 'quick-win' | 'daily-routine' | 'environment' | 'audit' | 'system';
@@ -132,6 +134,7 @@ export interface Book {
   title: string;
   author: string;
   category: Category;
+  subcategory?: string;
   coverColor: string; // gradient / color identifier
   coverEmoji: string;
   readingTimeMinutes: number;
@@ -155,12 +158,32 @@ export interface IdeaCard {
   bookTitle: string;
   author: string;
   category: Category;
+  subcategory?: string;
   type: IdeaType;
   headline: string;
   body: string;
   quote?: string;
   actionItem?: string;
   tags: string[];
+  isStashed: boolean;
+  stashBoardIds: string[];
+  createdAt: number;
+}
+
+export interface UserAccount {
+  id: string; // 'usr_' + timestamp
+  name: string;
+  email: string;
+  passwordHash: string; // Client-side SHA-256 hash
+  avatarEmoji: string;
+  createdAt: number;
+  lastLoginAt: number;
+}
+
+export interface UserScopedStash {
+  id: string; // `${userId}___${ideaId}`
+  userId: string;
+  ideaId: string;
   isStashed: boolean;
   stashBoardIds: string[];
   createdAt: number;
@@ -173,16 +196,21 @@ export interface StashBoard {
   icon: string;
   color: string;
   createdAt: number;
+  userId?: string;
 }
 
 export interface UserProgress {
   bookId: string;
+  actualBookId?: string;
+  userId?: string;
   completedBlinkIds: string[];
   currentBlinkIndex: number;
   isCompleted: boolean;
   lastReadTimestamp: number;
   totalTimeSpentSeconds: number;
   completedActionIds?: string[];
+  isFavorite?: boolean;
+  isCurrentlyReading?: boolean;
 }
 
 export interface ReflectionAnswer {

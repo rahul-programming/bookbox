@@ -1,6 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { IdeaCard, StashBoard } from '../types';
-import { db } from '../db';
+import { 
+  db, 
+  setUserIdeaStash, 
+  getUserProfile, 
+  saveUserProfile, 
+  addUserBoard, 
+  getUserBoards, 
+  getActiveUserId 
+} from '../db';
 import { X, Plus, Bookmark, Check } from 'lucide-react';
 
 interface StashModalProps {
@@ -18,8 +26,9 @@ export const StashModal: React.FC<StashModalProps> = ({ idea, onClose, onSaved }
   useEffect(() => {
     if (!idea) return;
     const loadBoards = async () => {
-      const allBoards = await db.stashes.toArray();
-      setBoards(allBoards);
+      const uid = getActiveUserId();
+      const userBoards = await getUserBoards(uid);
+      setBoards(userBoards);
       setSelectedBoardIds(idea.stashBoardIds || []);
     };
     loadBoards();
@@ -38,16 +47,18 @@ export const StashModal: React.FC<StashModalProps> = ({ idea, onClose, onSaved }
   const handleCreateBoard = async () => {
     if (!newBoardName.trim()) return;
 
+    const uid = getActiveUserId();
     const newBoard: StashBoard = {
       id: `board-${Date.now()}`,
       name: newBoardName.trim(),
       description: 'Custom learning collection',
       icon: '💡',
       color: 'bg-indigo-500',
-      createdAt: Date.now()
+      createdAt: Date.now(),
+      userId: uid || undefined
     };
 
-    await db.stashes.add(newBoard);
+    await addUserBoard(newBoard, uid);
     setBoards(prev => [...prev, newBoard]);
     setSelectedBoardIds(prev => [...prev, newBoard.id]);
     setNewBoardName('');
@@ -56,17 +67,15 @@ export const StashModal: React.FC<StashModalProps> = ({ idea, onClose, onSaved }
 
   const handleSave = async () => {
     const isNowStashed = selectedBoardIds.length > 0;
+    const uid = getActiveUserId();
     
-    await db.ideas.update(idea.id, {
-      isStashed: isNowStashed,
-      stashBoardIds: selectedBoardIds
-    });
+    await setUserIdeaStash(idea.id, isNowStashed, selectedBoardIds, uid);
 
-    const profile = await db.profile.get('active_profile');
+    const profile = await getUserProfile(uid);
     if (profile) {
       const allStashed = await db.ideas.where('isStashed').equals(1).count();
       profile.totalIdeasStashed = allStashed;
-      await db.profile.put(profile);
+      await saveUserProfile(profile, uid);
     }
 
     onSaved();

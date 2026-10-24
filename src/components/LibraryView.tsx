@@ -1,35 +1,99 @@
 import React, { useState } from 'react';
 import { Book, UserProgress, Category } from '../types';
 import { BookCard } from './BookCard';
-import { Search, Sparkles, Compass, Flame, Volume2 } from 'lucide-react';
+import { Search, Sparkles, Compass, Flame, Volume2, X } from 'lucide-react';
 import { AudioPlayerBar } from './AudioPlayerBar';
 
 interface LibraryViewProps {
   books: Book[];
   progressMap: Record<string, UserProgress>;
   onSelectBook: (book: Book) => void;
+  onToggleFavorite?: (bookId: string) => void;
+  onToggleCurrentlyReading?: (bookId: string) => void;
+  resetTrigger?: number;
 }
 
 export const LibraryView: React.FC<LibraryViewProps> = ({
   books,
   progressMap,
-  onSelectBook
+  onSelectBook,
+  onToggleFavorite,
+  onToggleCurrentlyReading,
+  resetTrigger
 }) => {
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
+  const [selectedSubcategory, setSelectedSubcategory] = useState<string>('All');
   const [searchQuery, setSearchQuery] = useState('');
   const [activeAudioBook, setActiveAudioBook] = useState<Book | null>(null);
 
-  const categories = ['All', 'Productivity', 'Psychology', 'Finance', 'Philosophy'];
+  // Reset category, subcategory and search when Home is clicked
+  React.useEffect(() => {
+    if (resetTrigger !== undefined && resetTrigger > 0) {
+      setSelectedCategory('All');
+      setSelectedSubcategory('All');
+      setSearchQuery('');
+    }
+  }, [resetTrigger]);
+
+  const categories = React.useMemo(() => {
+    const cats = new Set<string>();
+    books.forEach(b => {
+      if (b.category) cats.add(b.category);
+    });
+    const priorityOrder = ['Productivity', 'Psychology', 'Finance', 'Philosophy', 'Strategy', 'Leadership'];
+    const ordered = priorityOrder.filter(c => cats.has(c));
+    Array.from(cats).sort().forEach(c => {
+      if (!ordered.includes(c)) ordered.push(c);
+    });
+    return ['All', ...ordered];
+  }, [books]);
+
+  // Books in the currently selected category
+  const booksInSelectedCategory = React.useMemo(() => {
+    if (selectedCategory === 'All') return [];
+    return books.filter(b => b.category === selectedCategory);
+  }, [books, selectedCategory]);
+
+  // Only show subcategories once a category has more than 5 books
+  const subcategories = React.useMemo(() => {
+    if (selectedCategory === 'All' || booksInSelectedCategory.length <= 5) return [];
+
+    const subs = new Set<string>();
+    booksInSelectedCategory.forEach(b => {
+      if (b.subcategory && b.subcategory.trim()) {
+        subs.add(b.subcategory.trim());
+      } else if (b.tags && b.tags.length > 0) {
+        const candidate = b.tags.find(
+          t => t.toLowerCase() !== b.category.toLowerCase() && t !== 'Custom'
+        );
+        if (candidate) subs.add(candidate);
+      }
+    });
+
+    if (subs.size === 0) return [];
+    return ['All', ...Array.from(subs).sort()];
+  }, [selectedCategory, booksInSelectedCategory]);
+
+  const handleCategoryChange = (cat: string) => {
+    setSelectedCategory(cat);
+    setSelectedSubcategory('All');
+  };
 
   const filteredBooks = books.filter(b => {
     const matchCat = selectedCategory === 'All' || b.category === selectedCategory;
+    const matchSub =
+      selectedSubcategory === 'All' ||
+      !subcategories.length ||
+      b.subcategory === selectedSubcategory ||
+      (b.tags && b.tags.includes(selectedSubcategory));
     const matchSearch =
       searchQuery.trim() === '' ||
       b.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
       b.author.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      b.tags.some(t => t.toLowerCase().includes(searchQuery.toLowerCase()));
+      b.tags.some(t => t.toLowerCase().includes(searchQuery.toLowerCase())) ||
+      (b.subcategory && b.subcategory.toLowerCase().includes(searchQuery.toLowerCase()));
 
-    return matchCat && matchSearch;
+    return matchCat && matchSub && matchSearch;
   });
 
   const dailyPick = books[0] || null;
@@ -100,7 +164,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
           {categories.map((cat) => (
             <button
               key={cat}
-              onClick={() => setSelectedCategory(cat)}
+              onClick={() => handleCategoryChange(cat)}
               className={`px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition cursor-pointer ${
                 selectedCategory === cat
                   ? 'bg-blue-600 text-white shadow-xs'
@@ -114,17 +178,57 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
 
         {/* Search Input */}
         <div className="relative w-full sm:w-72">
-          <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+          <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
           <input
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Escape') setSearchQuery('');
+            }}
             placeholder="Search books, authors, tags..."
-            className="w-full pl-9 pr-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-xs"
+            className="w-full pl-9 pr-10 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-xs"
           />
+          {searchQuery && (
+            <button
+              type="button"
+              onMouseDown={(e) => {
+                e.preventDefault();
+                setSearchQuery('');
+              }}
+              onClick={() => setSearchQuery('')}
+              className="absolute right-2.5 top-1/2 -translate-y-1/2 w-5 h-5 flex items-center justify-center rounded-full bg-slate-200 hover:bg-slate-300 dark:bg-slate-700 dark:hover:bg-slate-600 border border-slate-300/80 dark:border-slate-600 text-slate-700 dark:text-slate-200 hover:text-slate-900 dark:hover:text-white shadow-2xs transition-all cursor-pointer z-10"
+              title="Clear search"
+              aria-label="Clear search"
+            >
+              <X className="w-3 h-3 stroke-[2.5]" />
+            </button>
+          )}
         </div>
 
       </div>
+
+      {/* Subcategory Pills (automatically displayed when category has > 5 books) */}
+      {subcategories.length > 0 && (
+        <div className="flex items-center space-x-2 overflow-x-auto pb-1 no-scrollbar -mt-3 pt-1">
+          <span className="text-[11px] font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-wider shrink-0 mr-1">
+            Subcategories ({booksInSelectedCategory.length}):
+          </span>
+          {subcategories.map((sub) => (
+            <button
+              key={sub}
+              onClick={() => setSelectedSubcategory(sub)}
+              className={`px-3 py-1 rounded-lg text-xs font-medium whitespace-nowrap transition cursor-pointer ${
+                selectedSubcategory === sub
+                  ? 'bg-blue-100 text-blue-800 dark:bg-blue-900/60 dark:text-blue-200 border border-blue-300 dark:border-blue-700 font-semibold shadow-2xs'
+                  : 'bg-slate-100/80 dark:bg-slate-800/60 text-slate-600 dark:text-slate-400 border border-slate-200 dark:border-slate-700/60 hover:bg-slate-200/60'
+              }`}
+            >
+              {sub === 'All' ? `All ${selectedCategory}` : sub}
+            </button>
+          ))}
+        </div>
+      )}
 
       {/* Book Grid */}
       {filteredBooks.length === 0 ? (
@@ -141,6 +245,8 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
               progress={progressMap[book.id]}
               onSelect={onSelectBook}
               onStartAudio={(b) => setActiveAudioBook(b)}
+              onToggleFavorite={onToggleFavorite}
+              onToggleCurrentlyReading={onToggleCurrentlyReading}
             />
           ))}
         </div>

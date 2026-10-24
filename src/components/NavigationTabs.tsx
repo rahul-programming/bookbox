@@ -1,18 +1,22 @@
 import React from 'react';
-import { BookMarked, Lightbulb, FolderKanban, Award } from 'lucide-react';
+import { BookMarked, Heart, BookOpen, Lightbulb, FolderKanban, Award } from 'lucide-react';
 
-export type MainTab = 'library' | 'ideas' | 'stashes' | 'growth';
+export type MainTab = 'library' | 'favorites' | 'reading' | 'ideas' | 'stashes' | 'growth';
 
 interface NavigationTabsProps {
   activeTab: MainTab;
   onTabChange: (tab: MainTab) => void;
   stashedCount?: number;
+  favoritesCount?: number;
+  readingCount?: number;
 }
 
 export const NavigationTabs: React.FC<NavigationTabsProps> = ({
   activeTab,
   onTabChange,
-  stashedCount = 0
+  stashedCount = 0,
+  favoritesCount = 0,
+  readingCount = 0
 }) => {
   const tabs = [
     {
@@ -20,6 +24,20 @@ export const NavigationTabs: React.FC<NavigationTabsProps> = ({
       label: 'Library',
       sublabel: 'Books & Summaries',
       icon: BookMarked
+    },
+    {
+      id: 'favorites' as MainTab,
+      label: 'Favorites',
+      sublabel: 'Starred Books',
+      icon: Heart,
+      badge: favoritesCount > 0 ? favoritesCount : undefined
+    },
+    {
+      id: 'reading' as MainTab,
+      label: 'Currently Reading',
+      sublabel: 'In Progress',
+      icon: BookOpen,
+      badge: readingCount > 0 ? readingCount : undefined
     },
     {
       id: 'ideas' as MainTab,

@@ -1,38 +1,96 @@
 import React from 'react';
 import { Book, UserProgress } from '../types';
-import { Clock, CheckCircle2, ChevronRight, Sparkles, Volume2 } from 'lucide-react';
+import { Clock, CheckCircle2, ChevronRight, Sparkles, Volume2, Heart, BookOpen } from 'lucide-react';
 
 interface BookCardProps {
   book: Book;
   progress?: UserProgress;
   onSelect: (book: Book) => void;
   onStartAudio?: (book: Book) => void;
+  onToggleFavorite?: (bookId: string) => void;
+  onToggleCurrentlyReading?: (bookId: string) => void;
 }
 
-export const BookCard: React.FC<BookCardProps> = ({ book, progress, onSelect, onStartAudio }) => {
+export const BookCard: React.FC<BookCardProps> = ({ 
+  book, 
+  progress, 
+  onSelect, 
+  onStartAudio,
+  onToggleFavorite,
+  onToggleCurrentlyReading
+}) => {
   const totalBlinks = book.blinks.length;
   const completedBlinks = progress?.completedBlinkIds.length ?? 0;
   const isCompleted = progress?.isCompleted || (totalBlinks > 0 && completedBlinks === totalBlinks);
   const percent = totalBlinks > 0 ? Math.round((completedBlinks / totalBlinks) * 100) : 0;
+  const isFavorite = !!progress?.isFavorite;
+  const isCurrentlyReading = progress?.isCurrentlyReading ?? (completedBlinks > 0 && !isCompleted);
 
   return (
     <div
       onClick={() => onSelect(book)}
       className="group relative flex flex-col rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200/80 dark:border-slate-700/80 p-5 shadow-xs hover:shadow-lg hover:border-blue-400 dark:hover:border-blue-500 transition-all duration-300 cursor-pointer overflow-hidden"
     >
-      {/* Top Header: Cover Emoji & Category Badge */}
+      {/* Top Header: Cover Emoji & Action Buttons / Category Badge */}
       <div className="flex items-start justify-between gap-3 mb-4">
         <div className={`w-14 h-18 rounded-xl bg-gradient-to-br ${book.coverColor} flex items-center justify-center text-3xl shadow-sm group-hover:scale-105 transition-transform duration-300`}>
           {book.coverEmoji}
         </div>
 
         <div className="flex flex-col items-end gap-1.5">
-          <span className="text-[11px] font-semibold tracking-wide uppercase px-2.5 py-0.5 rounded-full bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-600">
-            {book.category}
-          </span>
-          <div className="flex items-center space-x-1 text-xs text-slate-500 dark:text-slate-400">
-            <Clock className="w-3.5 h-3.5" />
-            <span>{book.readingTimeMinutes} min</span>
+          <div className="flex items-center space-x-1">
+            {/* Quick Favorite Toggle */}
+            <button
+              type="button"
+              onClick={(e) => {
+                e.stopPropagation();
+                onToggleFavorite?.(book.id);
+              }}
+              className={`p-1.5 rounded-lg transition-colors cursor-pointer ${
+                isFavorite
+                  ? 'text-rose-500 bg-rose-50 dark:bg-rose-950/60 hover:bg-rose-100 dark:hover:bg-rose-900/60'
+                  : 'text-slate-400 hover:text-rose-500 hover:bg-rose-50/60 dark:hover:bg-slate-700/60'
+              }`}
+              title={isFavorite ? "Remove from Favorites" : "Add to Favorites"}
+              aria-label={isFavorite ? "Remove from Favorites" : "Add to Favorites"}
+            >
+              <Heart className={`w-4 h-4 ${isFavorite ? 'fill-rose-500 text-rose-500' : ''}`} />
+            </button>
+
+            {/* Quick Currently Reading Toggle */}
+            <button
+              type="button"
+              onClick={(e) => {
+                e.stopPropagation();
+                onToggleCurrentlyReading?.(book.id);
+              }}
+              className={`p-1.5 rounded-lg transition-colors cursor-pointer ${
+                isCurrentlyReading
+                  ? 'text-blue-600 bg-blue-50 dark:bg-blue-950/60 hover:bg-blue-100 dark:hover:bg-blue-900/60'
+                  : 'text-slate-400 hover:text-blue-600 hover:bg-blue-50/60 dark:hover:bg-slate-700/60'
+              }`}
+              title={isCurrentlyReading ? "Remove from Currently Reading" : "Add to Currently Reading"}
+              aria-label={isCurrentlyReading ? "Remove from Currently Reading" : "Add to Currently Reading"}
+            >
+              <BookOpen className={`w-4 h-4 ${isCurrentlyReading ? 'text-blue-600 fill-blue-100 dark:fill-blue-950' : ''}`} />
+            </button>
+
+            {/* Category Badge */}
+            <span className="text-[11px] font-semibold tracking-wide uppercase px-2.5 py-0.5 rounded-full bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-600">
+              {book.category}
+            </span>
+          </div>
+
+          <div className="flex items-center space-x-2 text-xs text-slate-500 dark:text-slate-400">
+            {book.subcategory && (
+              <span className="text-[10px] text-slate-500 dark:text-slate-400 font-medium text-right line-clamp-1 max-w-[120px]" title={book.subcategory}>
+                {book.subcategory}
+              </span>
+            )}
+            <div className="flex items-center space-x-1">
+              <Clock className="w-3 h-3" />
+              <span>{book.readingTimeMinutes} min</span>
+            </div>
           </div>
         </div>
       </div>
@@ -66,16 +124,16 @@ export const BookCard: React.FC<BookCardProps> = ({ book, progress, onSelect, on
             <CheckCircle2 className="w-4 h-4" />
             <span>Completed</span>
           </div>
-        ) : completedBlinks > 0 ? (
+        ) : isCurrentlyReading ? (
           <div className="flex items-center space-x-2">
             <div className="w-16 h-1.5 bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
               <div
                 className="h-full bg-blue-600 rounded-full"
-                style={{ width: `${percent}%` }}
+                style={{ width: `${Math.max(5, percent)}%` }}
               />
             </div>
-            <span className="text-[11px] font-medium text-slate-500 dark:text-slate-400">
-              {completedBlinks}/{totalBlinks}
+            <span className="text-[11px] font-semibold text-blue-600 dark:text-blue-400">
+              Reading ({completedBlinks}/{totalBlinks})
             </span>
           </div>
         ) : (

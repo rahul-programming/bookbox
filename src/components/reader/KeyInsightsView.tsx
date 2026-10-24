@@ -317,36 +317,56 @@ export const KeyInsightsView: React.FC<KeyInsightsViewProps> = ({
                     {blink.headline}
                   </h2>
 
-                  {/* Main Content Paragraphs */}
-                  <div className={`text-slate-700 dark:text-slate-300 space-y-5 leading-relaxed font-serif ${fontSizeClass}`}>
-                    {isCurrent && highlightRange.start >= 0 && highlightRange.length > 0 ? (
-                      <div className="space-y-4">
-                        <p className="whitespace-pre-line">
-                          <span>{blink.content.slice(0, highlightRange.start)}</span>
-                          <mark className="bg-amber-200/90 dark:bg-amber-900/60 dark:text-amber-100 text-slate-900 px-1 py-0.5 rounded shadow-xs transition-all duration-200 font-medium">
-                            {blink.content.slice(highlightRange.start, highlightRange.start + highlightRange.length)}
-                          </mark>
-                          <span>{blink.content.slice(highlightRange.start + highlightRange.length)}</span>
-                        </p>
+                  {/* Key Takeaway Callout Box (Positioned at the Top) */}
+                  {blink.keyTakeaway && (
+                    <div className="p-4 sm:p-5 rounded-2xl bg-amber-50/90 dark:bg-amber-950/40 border border-amber-200/80 dark:border-amber-900/60 shadow-xs">
+                      <div className="flex items-center space-x-2 text-amber-800 dark:text-amber-400 font-bold text-xs uppercase tracking-wider mb-1.5">
+                        <Lightbulb className="w-4 h-4 text-amber-500 fill-amber-500 shrink-0" />
+                        <span>Key Takeaway</span>
                       </div>
-                    ) : (
-                      blink.content.split('\n\n').map((paragraph, pIdx) => (
-                        <p key={pIdx}>
-                          {paragraph}
-                        </p>
-                      ))
-                    )}
-                  </div>
-
-                  {/* Key Takeaway Callout Box */}
-                  <div className="mt-8 p-5 sm:p-6 rounded-2xl bg-amber-50/90 dark:bg-amber-950/40 border border-amber-200/80 dark:border-amber-900/60 shadow-xs">
-                    <div className="flex items-center space-x-2 text-amber-800 dark:text-amber-400 font-bold text-sm mb-2">
-                      <Lightbulb className="w-5 h-5 text-amber-500 fill-amber-500 shrink-0" />
-                      <span>Key Takeaway</span>
+                      <p className="text-sm sm:text-base font-medium text-amber-950 dark:text-amber-200 leading-relaxed">
+                        {blink.keyTakeaway}
+                      </p>
                     </div>
-                    <p className="text-sm sm:text-base font-medium text-amber-950 dark:text-amber-200 leading-relaxed">
-                      {blink.keyTakeaway}
-                    </p>
+                  )}
+
+                  {/* Main Content Paragraphs (Prefers Short, Punchy keyInsight; falls back to content) */}
+                  <div className={`text-slate-700 dark:text-slate-300 space-y-4 sm:space-y-5 leading-relaxed font-serif ${fontSizeClass}`}>
+                    {(() => {
+                      const text = blink.keyInsight || blink.content;
+                      if (isCurrent && highlightRange.start >= 0 && highlightRange.length > 0) {
+                        return (
+                          <div className="space-y-4 sm:space-y-5">
+                            <p className="whitespace-pre-line leading-relaxed">
+                              <span>{text.slice(0, highlightRange.start)}</span>
+                              <mark className="bg-amber-200/90 dark:bg-amber-900/60 dark:text-amber-100 text-slate-900 px-1 py-0.5 rounded shadow-xs transition-all duration-200 font-medium">
+                                {text.slice(highlightRange.start, highlightRange.start + highlightRange.length)}
+                              </mark>
+                              <span>{text.slice(highlightRange.start + highlightRange.length)}</span>
+                            </p>
+                          </div>
+                        );
+                      }
+                      return text.split('\n\n').map((paragraph, pIdx) => {
+                        // Format inline typography: clean quotes and render bold terms properly
+                        let cleaned = paragraph.replace(/\*\*"([^"]+)"\*\*/g, '"$1"');
+                        const parts = cleaned.split(/(\*\*[^*]+\*\*)/g);
+                        return (
+                          <p key={pIdx} className="leading-relaxed">
+                            {parts.map((part, i) => {
+                              if (part.startsWith('**') && part.endsWith('**')) {
+                                const inner = part.slice(2, -2);
+                                if (inner.includes('"') || inner.includes("'") || inner.length > 25) {
+                                  return <span key={i}>"{inner.replace(/^["']|["']$/g, '')}"</span>;
+                                }
+                                return <strong key={i} className="font-semibold text-slate-900 dark:text-slate-100">{inner}</strong>;
+                              }
+                              return part;
+                            })}
+                          </p>
+                        );
+                      });
+                    })()}
                   </div>
 
                 </div>

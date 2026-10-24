@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
-    viteSingleFile()
+    viteSingleFile({ outputFileName: 'BookBox.html' })
   ],
   build: {
     target: 'esnext',

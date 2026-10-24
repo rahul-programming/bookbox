@@ -13,18 +13,31 @@ export const HighlightedSentence: React.FC<HighlightedSentenceProps> = ({
   isActive,
   highlightRange,
   className = '',
-  paragraphClassName = ''
+  paragraphClassName = 'mb-4 leading-relaxed'
 }) => {
   if (!text) return null;
 
   if (!isActive || !highlightRange || highlightRange.start < 0 || highlightRange.length <= 0) {
     return (
       <div className={className}>
-        {text.split('\n\n').map((paragraph, idx) => (
-          <p key={idx} className={paragraphClassName}>
-            {paragraph}
-          </p>
-        ))}
+        {text.split('\n\n').map((paragraph, idx) => {
+          let cleaned = paragraph.replace(/\*\*"([^"]+)"\*\*/g, '"$1"');
+          const parts = cleaned.split(/(\*\*[^*]+\*\*)/g);
+          return (
+            <p key={idx} className={paragraphClassName}>
+              {parts.map((part, i) => {
+                if (part.startsWith('**') && part.endsWith('**')) {
+                  const inner = part.slice(2, -2);
+                  if (inner.includes('"') || inner.includes("'") || inner.length > 25) {
+                    return <span key={i}>"{inner.replace(/^["']|["']$/g, '')}"</span>;
+                  }
+                  return <strong key={i} className="font-semibold text-slate-900 dark:text-slate-100">{inner}</strong>;
+                }
+                return part;
+              })}
+            </p>
+          );
+        })}
       </div>
     );
   }

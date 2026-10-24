@@ -206,7 +206,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
                   isActive={Boolean(isAudioActive && activeAudioHeadline?.includes('1-Page Master Summary'))}
                   highlightRange={highlightRange}
                   className={`pt-2 text-slate-700 dark:text-slate-300 font-serif ${fontSizeClass}`}
-                  paragraphClassName="mb-3"
+                  paragraphClassName="mb-4 sm:mb-5 leading-relaxed"
                 />
               )}
             </div>
@@ -261,9 +261,9 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
                         {pillar.description}
                       </p>
                       {pillar.actionableTakeaway && (
-                        <div className="ml-9 p-2.5 rounded-lg bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-900/50 text-xs text-emerald-900 dark:text-emerald-300 font-medium flex items-start space-x-2">
-                          <CheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0 mt-0.5" />
-                          <span><strong>Key Action:</strong> {pillar.actionableTakeaway}</span>
+                        <div className="ml-9 p-3 sm:p-4 rounded-xl bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-900/50 text-sm sm:text-base text-emerald-950 dark:text-emerald-200 font-medium flex items-start space-x-3 shadow-xs">
+                          <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-600 dark:text-emerald-400 shrink-0 mt-0.5" />
+                          <span className="leading-relaxed"><strong className="font-bold text-emerald-800 dark:text-emerald-300">Key Action:</strong> {pillar.actionableTakeaway}</span>
                         </div>
                       )}
                     </div>
@@ -451,7 +451,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
                         isActive={isChapterAudioActive}
                         highlightRange={highlightRange}
                         className={`text-slate-700 dark:text-slate-300 leading-relaxed font-serif ${fontSizeClass}`}
-                        paragraphClassName="mb-4"
+                        paragraphClassName="mb-4 sm:mb-5 leading-relaxed"
                       />
 
                       {/* Chapter Visual Diagram Summary */}

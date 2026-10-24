@@ -13,7 +13,8 @@ import {
   Layers,
   Sparkles,
   Info,
-  Volume2
+  Volume2,
+  X
 } from 'lucide-react';
 
 interface MindMapViewProps {
@@ -96,28 +97,29 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
 
   // Calculate dynamic height for any node to accommodate its full content in place
   const getNodeHeight = (node: MindMapNode, isRoot = false): number => {
+    const rawDesc = node.description || '';
+    const sentences = rawDesc.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean);
+    let descLines = 0;
+    for (const s of sentences) {
+      descLines += Math.max(1, Math.ceil(s.length / (isRoot ? 38 : 42)));
+    }
+
     if (isRoot) {
       if (nodeViewMode === 'compact') return 70;
-      const descLen = (node.description || '').length;
-      const descLines = descLen > 0 ? Math.ceil(descLen / 38) : 0;
-      return Math.max(90, 64 + descLines * 16);
+      const sentenceBreaks = Math.max(0, sentences.length - 1);
+      return Math.max(90, 64 + descLines * 18 + sentenceBreaks * 4);
     }
 
     if (nodeViewMode === 'compact') return 52;
 
     const labelLen = node.label.length;
-    const descLen = (node.description || '').length;
-
-    // Inside a 300px wide card (padding 28px -> 272px text area):
-    // Bold title (text-xs) fits ~30 chars per line
-    // Regular description (text-[11px]) fits ~42 chars per line
     const labelLines = Math.max(1, Math.ceil(labelLen / 30));
-    const descLines = descLen > 0 ? Math.max(1, Math.ceil(descLen / 42)) : 0;
 
     // Padding (py-3 = 24px) + badge/header row (18px) + label text + description spacing and lines
     let height = 24 + 18 + (labelLines * 17);
     if (descLines > 0) {
-      height += 6 + (descLines * 16);
+      const sentenceBreaks = Math.max(0, sentences.length - 1);
+      height += 6 + (descLines * 16) + (sentenceBreaks * 4);
     }
     return Math.max(76, height);
   };
@@ -574,14 +576,32 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
           
           {/* Search in map */}
           <div className="relative">
-            <Search className="w-3.5 h-3.5 text-slate-400 absolute left-2.5 top-2.5" />
+            <Search className="w-3.5 h-3.5 text-slate-400 absolute left-2.5 top-2.5 pointer-events-none" />
             <input
               type="text"
               placeholder="Search concepts..."
               value={searchQuery}
               onChange={e => setSearchQuery(e.target.value)}
-              className="pl-8 pr-3 py-1.5 text-xs rounded-xl bg-slate-100 dark:bg-slate-700/60 border border-transparent focus:border-blue-500 focus:bg-white dark:focus:bg-slate-800 text-slate-800 dark:text-slate-200 outline-none transition w-36 sm:w-44"
+              onKeyDown={(e) => {
+                if (e.key === 'Escape') setSearchQuery('');
+              }}
+              className="pl-8 pr-8 py-1.5 text-xs rounded-xl bg-slate-100 dark:bg-slate-700/60 border border-transparent focus:border-blue-500 focus:bg-white dark:focus:bg-slate-800 text-slate-800 dark:text-slate-200 outline-none transition w-36 sm:w-44"
             />
+            {searchQuery && (
+              <button
+                type="button"
+                onMouseDown={(e) => {
+                  e.preventDefault();
+                  setSearchQuery('');
+                }}
+                onClick={() => setSearchQuery('')}
+                className="absolute right-1.5 top-1/2 -translate-y-1/2 w-4.5 h-4.5 flex items-center justify-center rounded-full bg-slate-200/90 hover:bg-slate-300 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-600 dark:text-slate-200 hover:text-slate-900 dark:hover:text-white shadow-xs transition-all cursor-pointer z-10"
+                title="Clear search"
+                aria-label="Clear search"
+              >
+                <X className="w-2.5 h-2.5 stroke-[2.5]" />
+              </button>
+            )}
           </div>
 
           {/* Layout Mode Switcher */}
@@ -784,9 +804,13 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
                         {node.label}
                       </h4>
                       {nodeViewMode === 'detailed' && node.description && (
-                        <p className={`text-blue-100/95 leading-relaxed mt-1 break-words font-sans ${nodeFontSizes.desc}`}>
-                          {node.description}
-                        </p>
+                        <div className={`text-blue-100/95 leading-relaxed mt-1.5 break-words font-sans space-y-1 ${nodeFontSizes.desc}`}>
+                          {(node.description.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (
+                            <span key={idx} className="block leading-relaxed">
+                              {sentence}
+                            </span>
+                          ))}
+                        </div>
                       )}
                     </div>
                   </div>
@@ -846,9 +870,13 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
                       </p>
 
                       {nodeViewMode === 'detailed' && node.description && (
-                        <p className={`text-slate-600 dark:text-slate-300 mt-1.5 leading-relaxed font-sans break-words selection:bg-blue-100 dark:selection:bg-blue-900 ${nodeFontSizes.desc}`}>
-                          {node.description}
-                        </p>
+                        <div className={`text-slate-600 dark:text-slate-300 mt-1.5 leading-relaxed font-sans break-words selection:bg-blue-100 dark:selection:bg-blue-900 space-y-1 ${nodeFontSizes.desc}`}>
+                          {(node.description.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (
+                            <span key={idx} className="block leading-relaxed">
+                              {sentence}
+                            </span>
+                          ))}
+                        </div>
                       )}
                     </div>
 
@@ -918,7 +946,13 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
 
             <div className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200/80 dark:border-slate-800 text-xs text-slate-700 dark:text-slate-300 leading-relaxed font-serif">
               {activeNode.description ? (
-                <span>{activeNode.description}</span>
+                <div className="space-y-1.5">
+                  {(activeNode.description.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (
+                    <span key={idx} className="block leading-relaxed">
+                      {sentence}
+                    </span>
+                  ))}
+                </div>
               ) : (
                 <span className="italic text-slate-400">
                   Core architectural branch in the book's conceptual framework.
