@@ -13,18 +13,20 @@ export const HighlightedSentence: React.FC<HighlightedSentenceProps> = ({
   isActive,
   highlightRange,
   className = '',
-  paragraphClassName = 'mb-4 leading-relaxed'
+  paragraphClassName = 'mb-4 leading-relaxed break-words'
 }) => {
   if (!text) return null;
 
+  const combinedClass = `break-words min-w-0 ${className}`.trim();
+
   if (!isActive || !highlightRange || highlightRange.start < 0 || highlightRange.length <= 0) {
     return (
-      <div className={className}>
+      <div className={combinedClass}>
         {text.split('\n\n').map((paragraph, idx) => {
           let cleaned = paragraph.replace(/\*\*"([^"]+)"\*\*/g, '"$1"');
           const parts = cleaned.split(/(\*\*[^*]+\*\*)/g);
           return (
-            <p key={idx} className={paragraphClassName}>
+            <p key={idx} className={`${paragraphClassName} break-words`}>
               {parts.map((part, i) => {
                 if (part.startsWith('**') && part.endsWith('**')) {
                   const inner = part.slice(2, -2);
@@ -49,7 +51,7 @@ export const HighlightedSentence: React.FC<HighlightedSentenceProps> = ({
   let currentOffset = 0;
 
   return (
-    <div className={className}>
+    <div className={combinedClass}>
       {paragraphs.map((para, idx) => {
         const pStart = currentOffset;
         const pEnd = pStart + para.length;
@@ -60,7 +62,7 @@ export const HighlightedSentence: React.FC<HighlightedSentenceProps> = ({
 
         if (!hasOverlap) {
           return (
-            <p key={idx} className={paragraphClassName}>
+            <p key={idx} className={`${paragraphClassName} break-words`}>
               {para}
             </p>
           );
@@ -74,7 +76,7 @@ export const HighlightedSentence: React.FC<HighlightedSentenceProps> = ({
         const afterPara = para.slice(relEnd);
 
         return (
-          <p key={idx} className={paragraphClassName}>
+          <p key={idx} className={`${paragraphClassName} break-words`}>
             <span>{beforePara}</span>
             <mark className="bg-amber-200/90 dark:bg-amber-900/70 dark:text-amber-100 text-slate-900 px-1 py-0.5 rounded shadow-xs transition-all duration-200 font-medium">
               {highlightedPara}

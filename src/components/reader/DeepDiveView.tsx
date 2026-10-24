@@ -154,14 +154,14 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
       </aside>
 
       {/* Main Content Area */}
-      <main className="lg:col-span-3 space-y-8">
+      <main className="lg:col-span-3 space-y-6 sm:space-y-8 min-w-0 break-words">
         
         {/* Section 1: The Expanded 1-Page Summary */}
         {activeSection === 'one-page' && (
-          <div className="space-y-6">
+          <div className="space-y-6 min-w-0 break-words">
             
             {/* Header & Executive Overview */}
-            <div className="p-6 sm:p-7 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-sm space-y-4">
+            <div className="p-4 sm:p-6 lg:p-7 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-sm space-y-4 min-w-0 break-words">
               <div className="flex items-center justify-between">
                 <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
                   Comprehensive 1-Page Summary
@@ -178,7 +178,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
               </div>
 
               <div>
-                <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-slate-100">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 dark:text-slate-100 break-words">
                   {book.title}
                 </h2>
                 <p className="text-sm font-medium text-slate-500 dark:text-slate-400 mt-1">
@@ -187,7 +187,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
               </div>
 
               {/* Elevator Pitch Callout */}
-              <div className={`p-4 rounded-xl bg-blue-50/70 dark:bg-blue-950/30 border-l-4 border-blue-500 text-slate-800 dark:text-slate-200 font-medium font-serif ${fontSizeClass}`}>
+              <div className={`p-4 rounded-xl bg-blue-50/70 dark:bg-blue-950/30 border-l-4 border-blue-500 text-slate-800 dark:text-slate-200 font-medium font-serif min-w-0 break-words ${fontSizeClass}`}>
                 {!book.onePageSummary.executiveSummary ? (
                   <HighlightedSentence
                     text={book.onePageSummary.elevatorPitch}
@@ -212,17 +212,17 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
             </div>
 
             {/* Central Thesis */}
-            <div className="p-6 rounded-2xl bg-gradient-to-r from-blue-500/10 via-indigo-500/10 to-purple-500/10 dark:from-blue-950/40 dark:to-indigo-950/40 border border-blue-200 dark:border-blue-800/80">
+            <div className="p-4 sm:p-6 rounded-2xl bg-gradient-to-r from-blue-500/10 via-indigo-500/10 to-purple-500/10 dark:from-blue-950/40 dark:to-indigo-950/40 border border-blue-200 dark:border-blue-800/80 min-w-0 break-words">
               <span className="text-xs font-bold uppercase tracking-wider text-blue-700 dark:text-blue-300 block mb-1">
                 Foundational Thesis
               </span>
-              <p className={`font-bold text-slate-900 dark:text-slate-100 ${fontSizeClass}`}>
+              <p className={`font-bold text-slate-900 dark:text-slate-100 break-words ${fontSizeClass}`}>
                 "{book.onePageSummary.coreThesis}"
               </p>
             </div>
 
             {/* Key Conceptual Pillars */}
-            <div className="p-6 sm:p-7 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-sm space-y-5">
+            <div className="p-4 sm:p-6 lg:p-7 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-sm space-y-5 min-w-0 break-words">
               <div>
                 <h3 className="text-lg font-bold text-slate-900 dark:text-slate-100">
                   Core Conceptual Pillars
@@ -236,11 +236,11 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
                 {book.onePageSummary.keyPillars.map((pillar, idx) => {
                   if (typeof pillar === 'string') {
                     return (
-                      <div key={idx} className="flex items-start space-x-3.5 p-3.5 rounded-xl bg-slate-50 dark:bg-slate-900/50 border border-slate-200/80 dark:border-slate-700/60">
+                      <div key={idx} className="flex items-start space-x-3.5 p-3.5 rounded-xl bg-slate-50 dark:bg-slate-900/50 border border-slate-200/80 dark:border-slate-700/60 min-w-0 break-words">
                         <span className="w-6 h-6 rounded-full bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 flex items-center justify-center font-bold text-xs shrink-0 mt-0.5">
                           {idx + 1}
                         </span>
-                        <p className={`text-slate-800 dark:text-slate-200 ${fontSizeClass}`}>
+                        <p className={`text-slate-800 dark:text-slate-200 break-words min-w-0 ${fontSizeClass}`}>
                           {pillar}
                         </p>
                       </div>
@@ -248,22 +248,22 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
                   }
 
                   return (
-                    <div key={idx} className="p-4 sm:p-5 rounded-xl bg-slate-50/80 dark:bg-slate-900/50 border border-slate-200/80 dark:border-slate-700/60 space-y-2.5">
+                    <div key={idx} className="p-4 sm:p-5 rounded-xl bg-slate-50/80 dark:bg-slate-900/50 border border-slate-200/80 dark:border-slate-700/60 space-y-2.5 min-w-0 break-words">
                       <div className="flex items-center space-x-3">
                         <span className="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xs shrink-0">
                           {idx + 1}
                         </span>
-                        <h4 className="font-bold text-sm sm:text-base text-slate-900 dark:text-slate-100">
+                        <h4 className="font-bold text-sm sm:text-base text-slate-900 dark:text-slate-100 break-words">
                           {pillar.title}
                         </h4>
                       </div>
-                      <p className={`text-slate-700 dark:text-slate-300 font-serif pl-9 ${fontSizeClass}`}>
+                      <p className={`text-slate-700 dark:text-slate-300 font-serif pl-0 sm:pl-9 break-words ${fontSizeClass}`}>
                         {pillar.description}
                       </p>
                       {pillar.actionableTakeaway && (
-                        <div className="ml-9 p-3 sm:p-4 rounded-xl bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-900/50 text-sm sm:text-base text-emerald-950 dark:text-emerald-200 font-medium flex items-start space-x-3 shadow-xs">
+                        <div className="ml-0 sm:ml-9 p-3 sm:p-4 rounded-xl bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-900/50 text-sm sm:text-base text-emerald-950 dark:text-emerald-200 font-medium flex items-start space-x-3 shadow-xs min-w-0 break-words">
                           <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-600 dark:text-emerald-400 shrink-0 mt-0.5" />
-                          <span className="leading-relaxed"><strong className="font-bold text-emerald-800 dark:text-emerald-300">Key Action:</strong> {pillar.actionableTakeaway}</span>
+                          <span className="leading-relaxed break-words"><strong className="font-bold text-emerald-800 dark:text-emerald-300">Key Action:</strong> {pillar.actionableTakeaway}</span>
                         </div>
                       )}
                     </div>
@@ -445,7 +445,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
                   </div>
 
                   {isExpanded && (
-                    <div className="p-6 pt-2 border-t border-slate-100 dark:border-slate-700/60 space-y-4">
+                    <div className="p-4 sm:p-6 pt-2 border-t border-slate-100 dark:border-slate-700/60 space-y-4 min-w-0 break-words">
                       <HighlightedSentence
                         text={blink.content}
                         isActive={isChapterAudioActive}

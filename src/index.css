@@ -37,12 +37,17 @@
   }
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 html, body {
   overflow-x: hidden;
-  max-width: 100vw;
+  max-width: 100%;
   width: 100%;
   position: relative;
   -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -52,13 +57,22 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 #root {
   width: 100%;
-  max-width: 100vw;
+  max-width: 100%;
   overflow-x: hidden;
   position: relative;
+  min-width: 0;
+}
+
+/* Universal text reflow & wrap rules to prevent clipping on iPhone / WebKit */
+p, h1, h2, h3, h4, h5, h6, span, blockquote, q, strong, em, mark, a {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 /* Sepia Theme Overrides for Warm Paper Feel */

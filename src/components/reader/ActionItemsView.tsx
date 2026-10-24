@@ -327,7 +327,7 @@ export const ActionItemsView: React.FC<ActionItemsViewProps> = ({
                     </div>
                   </div>
 
-                  <h3 className={`font-bold text-slate-900 dark:text-slate-100 ${isDone ? 'line-through text-slate-400 dark:text-slate-500' : ''}`}>
+                  <h3 className={`font-bold text-slate-900 dark:text-slate-100 break-words ${isDone ? 'line-through text-slate-400 dark:text-slate-500' : ''}`}>
                     {item.title}
                   </h3>
 
@@ -335,7 +335,7 @@ export const ActionItemsView: React.FC<ActionItemsViewProps> = ({
                     text={item.description}
                     isActive={isActionAudioActive}
                     highlightRange={highlightRange}
-                    className={`text-slate-600 dark:text-slate-300 ${fontSizeClass}`}
+                    className={`text-slate-600 dark:text-slate-300 break-words ${fontSizeClass}`}
                   />
 
                   {/* Linked Story Badge if present */}

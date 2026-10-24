@@ -286,7 +286,7 @@ export const KeyInsightsView: React.FC<KeyInsightsViewProps> = ({
         onMouseLeave={handleMouseUp}
       >
         <div 
-          className="flex w-full items-start will-change-transform"
+          className="flex w-full items-start will-change-transform min-w-0"
           style={{
             transform: `translate3d(calc(-${currentBlinkIndex * 100}% + ${dragOffset}px), 0, 0)`,
             transition: isDragging 
@@ -299,7 +299,7 @@ export const KeyInsightsView: React.FC<KeyInsightsViewProps> = ({
             return (
               <div 
                 key={blink.id || idx}
-                className="w-full shrink-0 px-1 sm:px-2 transition-all duration-300"
+                className="w-full shrink-0 px-1 sm:px-2 transition-all duration-300 min-w-0 max-w-full"
                 style={{
                   transform: isCurrent && dragOffset !== 0
                     ? `scale(1) rotate(${dragOffset * 0.018}deg)`
@@ -310,34 +310,34 @@ export const KeyInsightsView: React.FC<KeyInsightsViewProps> = ({
                 }}
               >
                 {/* Physical Card Container with Shadow & Border */}
-                <div className="p-6 sm:p-8 rounded-3xl bg-white dark:bg-slate-800/95 border border-slate-200/90 dark:border-slate-700 shadow-xl shadow-slate-200/40 dark:shadow-slate-900/60 space-y-6">
+                <div className="p-4 sm:p-6 lg:p-8 rounded-3xl bg-white dark:bg-slate-800/95 border border-slate-200/90 dark:border-slate-700 shadow-xl shadow-slate-200/40 dark:shadow-slate-900/60 space-y-5 sm:space-y-6 min-w-0 break-words overflow-hidden">
                   
                   {/* Insight Headline */}
-                  <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-slate-100 tracking-tight leading-snug">
+                  <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 dark:text-slate-100 tracking-tight leading-snug break-words">
                     {blink.headline}
                   </h2>
 
                   {/* Key Takeaway Callout Box (Positioned at the Top) */}
                   {blink.keyTakeaway && (
-                    <div className="p-4 sm:p-5 rounded-2xl bg-amber-50/90 dark:bg-amber-950/40 border border-amber-200/80 dark:border-amber-900/60 shadow-xs">
+                    <div className="p-3.5 sm:p-5 rounded-2xl bg-amber-50/90 dark:bg-amber-950/40 border border-amber-200/80 dark:border-amber-900/60 shadow-xs min-w-0 break-words">
                       <div className="flex items-center space-x-2 text-amber-800 dark:text-amber-400 font-bold text-xs uppercase tracking-wider mb-1.5">
                         <Lightbulb className="w-4 h-4 text-amber-500 fill-amber-500 shrink-0" />
                         <span>Key Takeaway</span>
                       </div>
-                      <p className="text-sm sm:text-base font-medium text-amber-950 dark:text-amber-200 leading-relaxed">
+                      <p className="text-xs sm:text-sm md:text-base font-medium text-amber-950 dark:text-amber-200 leading-relaxed break-words">
                         {blink.keyTakeaway}
                       </p>
                     </div>
                   )}
 
                   {/* Main Content Paragraphs (Prefers Short, Punchy keyInsight; falls back to content) */}
-                  <div className={`text-slate-700 dark:text-slate-300 space-y-4 sm:space-y-5 leading-relaxed font-serif ${fontSizeClass}`}>
+                  <div className={`text-slate-700 dark:text-slate-300 space-y-3.5 sm:space-y-5 leading-relaxed font-serif break-words min-w-0 ${fontSizeClass}`}>
                     {(() => {
                       const text = blink.keyInsight || blink.content;
                       if (isCurrent && highlightRange.start >= 0 && highlightRange.length > 0) {
                         return (
-                          <div className="space-y-4 sm:space-y-5">
-                            <p className="whitespace-pre-line leading-relaxed">
+                          <div className="space-y-3.5 sm:space-y-5 min-w-0 break-words">
+                            <p className="whitespace-pre-wrap leading-relaxed break-words">
                               <span>{text.slice(0, highlightRange.start)}</span>
                               <mark className="bg-amber-200/90 dark:bg-amber-900/60 dark:text-amber-100 text-slate-900 px-1 py-0.5 rounded shadow-xs transition-all duration-200 font-medium">
                                 {text.slice(highlightRange.start, highlightRange.start + highlightRange.length)}
@@ -352,7 +352,7 @@ export const KeyInsightsView: React.FC<KeyInsightsViewProps> = ({
                         let cleaned = paragraph.replace(/\*\*"([^"]+)"\*\*/g, '"$1"');
                         const parts = cleaned.split(/(\*\*[^*]+\*\*)/g);
                         return (
-                          <p key={pIdx} className="leading-relaxed">
+                          <p key={pIdx} className="leading-relaxed break-words">
                             {parts.map((part, i) => {
                               if (part.startsWith('**') && part.endsWith('**')) {
                                 const inner = part.slice(2, -2);

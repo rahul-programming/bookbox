@@ -1,5 +1,5 @@
 // 7 Powers: The Foundations of Business Strategy by Hamilton Helmer
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -441,169 +441,169 @@ export const SEVEN_POWERS_BOOK: Book = {
   "actionItems": [
     {
       "id": "7-powers-the-foundations-of-business-strategy-act-1",
-      "title": "Scale Advantage Fixed-Cost Triage",
-      "description": "Separate true scale-sensitive fixed investments from linear operational bloat to identify where unit costs will structurally decline.",
+      "title": "Cut Costs by Growing Bigger",
+      "description": "Find fixed expenses that get cheaper per customer as your business grows. Remove bloated costs that rise with every new order.",
       "category": "quick-win",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "List your top five operational expense lines from last quarter.",
-        "Label each line item as either volume-invariant fixed overhead or per-unit variable cost.",
-        "Calculate the exact customer or production volume needed to cut per-unit fixed costs in half.",
-        "Flag and eliminate any recurring overhead that scales linearly without yielding pricing power."
+        "1. List your five biggest spending lines from last quarter.",
+        "2. Mark which costs stay flat when customer numbers grow.",
+        "3. Find the sales volume needed to cut costs per unit in half.",
+        "4. Stop paying for extra tools that do not help you scale."
       ],
       "sourceChapter": "Chapter 1: Scale Economies"
     },
     {
       "id": "7-powers-the-foundations-of-business-strategy-act-2",
-      "title": "Network Participation Friction Check",
-      "description": "Review daily touchpoints to guarantee every new user transaction produces a direct or indirect utility lift for existing participants.",
+      "title": "Help Users Help Each Other",
+      "description": "Make sure every new customer naturally makes the product better for everyone else. Smooth out roadblocks that stop users from sharing.",
       "category": "daily-routine",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Examine the latest user onboarding flow or daily transaction log.",
-        "Check whether this activity generated an asset, review, connection, or liquidity signal for other users.",
-        "Identify the primary point of friction that prevented the user from sharing data or connecting with peers.",
-        "Implement one inline tweak to make the shared interaction the default path."
+        "1. Look at how people signed up or bought things today.",
+        "2. Ask if their activity added value for any other user.",
+        "3. Spot whatever stopped them from inviting friends or posting reviews.",
+        "4. Change the screen flow so sharing becomes the easy default choice."
       ],
       "sourceChapter": "Chapter 2: Network Economies"
     },
     {
       "id": "7-powers-the-foundations-of-business-strategy-act-3",
-      "title": "Counter-Positioning Asymmetry War Room",
-      "description": "Establish a dedicated physical or digital workspace displaying the incumbent's revenue model alongside your disruptive offer to expose collateral damage barriers.",
+      "title": "Spot What Rivals Cannot Copy",
+      "description": "Map out your business model next to the market leader. Find the painful sacrifices they would face by copying you.",
       "category": "environment",
       "timeEstimateMinutes": 60,
       "stepByStep": [
-        "Create a shared canvas mapping the incumbent leader's primary profit engine and distribution channels.",
-        "Draft your new pricing or distribution model directly adjacent to theirs.",
-        "List the exact dollar and reputational penalties the incumbent faces if they copy your business model today.",
-        "Pin this map in your strategy space as a visual filter for all upcoming product and marketing launches."
+        "1. Sketch out how your biggest rival earns money today.",
+        "2. Place your new offer directly side by side with theirs.",
+        "3. List the exact profits they would lose by copying you.",
+        "4. Put this chart on the wall to guide every new launch."
       ],
       "sourceChapter": "Chapter 3: Counter-Positioning"
     },
     {
       "id": "7-powers-the-foundations-of-business-strategy-act-4",
-      "title": "Switching Cost and Churn Vulnerability Audit",
-      "description": "Audit user dependencies to measure procedural, financial, and relational switching barriers that shield your baseline from competitor discounts.",
+      "title": "Stop Customers From Leaving You",
+      "description": "Check how hard it is for customers to leave for a cheaper rival. Make your product so essential that switching is painful.",
       "category": "audit",
       "timeEstimateMinutes": 90,
       "stepByStep": [
-        "Pull exit interview feedback and cancelation data from the past ninety days.",
-        "Score your switching barriers across three vectors: data lock-in, training investment, and vendor integration complexity.",
-        "Identify account cohorts that defected strictly due to rival pricing discounts.",
-        "Formulate an action plan to embed essential workflows that competitors cannot migrate with price cuts alone."
+        "1. Collect all customer cancellation reasons from the last three months.",
+        "2. Rate how hard it is to move data out of your tool.",
+        "3. Find clients who left only because a rival offered lower prices.",
+        "4. Build deeper daily routines that rival discounts cannot break apart."
       ],
       "sourceChapter": "Chapter 4: Switching Costs"
     },
     {
       "id": "7-powers-the-foundations-of-business-strategy-act-5",
-      "title": "Brand Clearance Premium Engine",
-      "description": "Build an operating protocol that links customer willingness-to-pay directly to cognitive relief and objective validation rather than cosmetic marketing.",
+      "title": "Win Trust to Charge More",
+      "description": "Give buyers peace of mind so they happily pay you higher prices. Back up every single promise with clear proof.",
       "category": "system",
       "timeEstimateMinutes": 120,
       "stepByStep": [
-        "Determine the specific operational risk or anxiety your buyer experiences when choosing an unproven alternative.",
-        "Document proof points, warranties, and certifications that systematically eliminate that buyer anxiety.",
-        "Standardize customer onboarding collateral around risk reduction rather than feature lists.",
-        "Measure and track gross margin elasticity against generic industry competitors quarterly."
+        "1. Name the biggest fear buyers have when picking a new supplier.",
+        "2. Collect guarantees, tests, and customer stories that erase that exact fear.",
+        "3. Rewrite your sales pitch to focus on safety instead of features.",
+        "4. Compare your profit margins against cheap generic rivals every quarter."
       ],
       "sourceChapter": "Chapter 5: Branding"
     },
     {
       "id": "7-powers-the-foundations-of-business-strategy-act-6",
-      "title": "Cornered Resource Exclusivity Assessment",
-      "description": "Quickly verify whether your proprietary talent, intellectual property, or source agreements possess enforceable operational exclusivity.",
+      "title": "Protect Your Secret Weapon",
+      "description": "Check if rivals can legally steal or copy your best assets. Secure exclusive rights before someone else grabs them.",
       "category": "quick-win",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Inventory your three most critical business assets: patents, key supplier agreements, or foundational personnel contracts.",
-        "Inspect each contract or registry filing for explicit non-compete, exclusivity, or transfer limitations.",
-        "Score whether a well-funded rival could replicate the exact asset inside twelve months.",
-        "Flag vulnerable assets and schedule formal renegotiation or IP filings immediately."
+        "1. List your best patents, key talent, and unique supplier contracts.",
+        "2. Read each deal to confirm you own total exclusive rights.",
+        "3. Ask if a rich rival could duplicate this in twelve months.",
+        "4. Renew weak contracts and file legal protections for vulnerable ideas."
       ],
       "sourceChapter": "Chapter 6: Cornered Resource"
     },
     {
       "id": "7-powers-the-foundations-of-business-strategy-act-7",
-      "title": "Tacit Process Complexity Standup",
-      "description": "Dedicate five minutes in the daily operational standup to codify unspoken, complex process interactions that cannot be reverse-engineered.",
+      "title": "Share Unwritten Team Tricks",
+      "description": "Take five minutes every day to discuss complex team handoffs. Spread subtle skills across your team so rivals cannot copy them.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Ask team leads to highlight one complex cross-functional handoff completed in the last twenty-four hours.",
-        "Evaluate whether an external observer reading your standard operating procedures could replicate that execution.",
-        "Catalog the subtle coordination insights that made the turnaround fast and error-free.",
-        "Reinforce internal pairing routines so tacit craft spreads across teams without leaking outside the firm."
+        "1. Ask someone to explain one tricky task finished today.",
+        "2. Decide if an outsider reading your guide could pull it off.",
+        "3. Write down the hidden tips that made the work go fast.",
+        "4. Pair teammates together so these special skills spread naturally inside."
       ],
       "sourceChapter": "Chapter 7: Process Power"
     },
     {
       "id": "7-powers-the-foundations-of-business-strategy-act-8",
-      "title": "Competitive Moat Surveillance Dashboard",
-      "description": "Configure an operational monitor that flags rival margin compressions, predatory discounting, and aggressive copycat feature releases.",
+      "title": "Watch Competitors Like a Hawk",
+      "description": "Track rival prices and copycat launches in real time. Catch warning signs early so your profits stay safe.",
       "category": "environment",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "Set up automated tracking alerts for top competitors' job descriptions, pricing tables, and patent filings.",
-        "Build a dashboard displaying your gross margin trajectory versus peer industry benchmarks.",
-        "Establish an alert threshold triggered when an aggressive competitor drops pricing below your cost floor.",
-        "Assign strategic review ownership for every alert directly to executive leadership."
+        "1. Set up daily web alerts for competitor pricing and new hires.",
+        "2. Build a simple tracker showing your profit margins beside theirs.",
+        "3. Create an alert for when rivals drop prices below your costs.",
+        "4. Review every sudden rival price drop with your leadership team."
       ],
       "sourceChapter": "Chapter 8: The Power Progression"
     },
     {
       "id": "7-powers-the-foundations-of-business-strategy-act-9",
-      "title": "Operational Surplus vs. Power Barrier Audit",
-      "description": "Audit recent operational efficiencies to determine if productivity gains produced durable economic power or were simply competed away to consumers.",
+      "title": "Keep Your Hard-Won Profits",
+      "description": "Check if your cost savings gave you lasting power over rivals. Avoid spending time on quick fixes that competitors easily copy.",
       "category": "audit",
       "timeEstimateMinutes": 75,
       "stepByStep": [
-        "Review the last three successful internal optimization and cost-cutting initiatives.",
-        "Trace whether cost savings translated into expanded return on invested capital or matching price concessions.",
-        "Determine whether the underlying improvement is protected by any of the 7 Powers.",
-        "Reallocate engineering capital from easily copyable optimizations toward defensive moat architecture."
+        "1. Look at your last three cost-saving company projects.",
+        "2. Check if savings stayed in profits or vanished into discounts.",
+        "3. Ask which of the seven powers truly protects each project.",
+        "4. Move engineering time toward features that rivals cannot easily recreate."
       ],
       "sourceChapter": "Chapter 8: The Power Progression"
     },
     {
       "id": "7-powers-the-foundations-of-business-strategy-act-10",
-      "title": "Power-Gated Resource Allocation Protocol",
-      "description": "Institute a capital allocation gateway that rejects strategic funding requests lacking an identifiable route to durable moat formation.",
+      "title": "Fund Only Lasting Advantages",
+      "description": "Block internal budgets for projects that lack lasting competitive edges. Put your money where rivals cannot follow.",
       "category": "system",
       "timeEstimateMinutes": 90,
       "stepByStep": [
-        "Write a mandatory prerequisite section into your project approval template requiring proof of Power potential.",
-        "Require sponsors to specify which of the 7 Powers their initiative will construct.",
-        "Mandate clear milestone criteria outlining the exact competitive barrier and cost asymmetry expected.",
-        "Establish a sunset mechanism that terminates projects that fail to demonstrate defensive moats within six months."
+        "1. Add a mandatory strategic power section to your budget template.",
+        "2. Require project leaders to name their exact long-term competitive moat.",
+        "3. Set clear targets for the specific cost advantage you expect.",
+        "4. Stop funding any project that shows zero defensive edge by month six."
       ],
       "sourceChapter": "Chapter 8: The Power Progression"
     },
     {
       "id": "7-powers-the-foundations-of-business-strategy-act-11",
-      "title": "Incumbent Orthodoxy Spot-Check",
-      "description": "Pinpoint one established industry standard that competitors view as untouchable, revealing an opening for asymmetric attack.",
+      "title": "Break Old Industry Rules",
+      "description": "Spot annoying industry habits that big rivals refuse to change. Use their stubborn rules to win away unhappy customers.",
       "category": "quick-win",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Identify the primary billing metric, contract lock-in, or distribution model shared by industry leaders.",
-        "Determine why leaders cling to this standard despite customer frustration.",
-        "Calculate the immediate revenue hit the incumbent would take if they abolished that standard.",
-        "Draft a trial offering that bypasses this legacy constraint to attract underserved market demand."
+        "1. Pick one hated rule or fee that all big rivals charge.",
+        "2. Explain why rivals cling to this rule despite customer anger.",
+        "3. Count how much revenue rivals would lose if they dropped it.",
+        "4. Launch a simple test offer that completely scraps that hated rule."
       ],
       "sourceChapter": "Chapter 3: Counter-Positioning"
     },
     {
       "id": "7-powers-the-foundations-of-business-strategy-act-12",
-      "title": "Ecosystem Data Gravity Pipeline",
-      "description": "Build an architectural standard that ensures customer usage automatically enriches internal datasets, cementing an insurmountable learning curve.",
+      "title": "Learn Faster From Daily Data",
+      "description": "Feed daily customer usage back into your product systems. Keep your business getting smarter and harder to beat over time.",
       "category": "system",
       "timeEstimateMinutes": 180,
       "stepByStep": [
-        "Map how telemetry and proprietary execution data travel through your product pipeline.",
-        "Automate the feedback loop so user outputs immediately train workflow algorithms or refine operational tooling.",
-        "Confirm that the resulting performance enhancements are instantly visible to the customer.",
-        "Audit the dataset regularly to ensure raw data transforms into an unreplicable operational moat."
+        "1. Track how user data flows through your core software tools.",
+        "2. Feed customer actions back into your system to improve automated results.",
+        "3. Ensure users instantly feel the speed and accuracy gains.",
+        "4. Review data monthly to protect your growing technological lead."
       ],
       "sourceChapter": "Chapter 7: Process Power"
     }
@@ -780,10 +780,10 @@ export const SEVEN_POWERS_BOOK: Book = {
       "author": "Hamilton Helmer",
       "category": "Strategy",
       "type": "mental-model",
-      "headline": "Power Equals Benefit Plus Barrier",
-      "body": "Operational excellence alone guarantees zero economic rent because best practices diffuse rapidly.\nSustainable excess cash flow requires two simultaneous components: a Benefit that elevates value or lowers cost, and an impenetrable Barrier that prevents competitors from matching it without incurring catastrophic loss.",
+      "headline": "Benefit Plus Barrier",
+      "body": "Being good at your work is not enough to win.\nTrue power needs both a big benefit and a strong barrier.\nThe barrier stops other companies from copying your success.",
       "quote": "Power is the set of conditions creating the potential for persistent differential returns.",
-      "actionItem": "Audit your core value proposition and explicitly identify the structural barrier preventing an equally capitalized rival from duplicating it.",
+      "actionItem": "Find the one thing stopping a rich rival from copying you.",
       "tags": [
         "Strategy",
         "Core Insights"
@@ -801,10 +801,10 @@ export const SEVEN_POWERS_BOOK: Book = {
       "author": "Hamilton Helmer",
       "category": "Strategy",
       "type": "concept",
-      "headline": "Scale Economics as Fixed-Cost Amortization",
-      "body": "Scale Economics manifests when a business spreads significant, non-negotiable fixed costs over a massively larger unit volume than competitors can reach.\nThe barrier emerges because matching your unit costs requires matching your unit volume\u2014a multi-year capital commitment with negative prospective returns for entrants.",
+      "headline": "Scale Lowers Unit Costs",
+      "body": "Big companies spread fixed setup costs over millions of items.\nThis makes each single item much cheaper to produce.\nNew rivals cannot match these low prices without losing huge money.",
       "quote": "Scale Economics is a business in which per unit cost declines with an increase in scale.",
-      "actionItem": "Identify your primary fixed cost infrastructure and concentrate volume to force lower per-unit economics that rivals cannot match.",
+      "actionItem": "Grow sales fast to push your unit costs below all rivals.",
       "tags": [
         "Strategy",
         "Core Insights"
@@ -822,10 +822,10 @@ export const SEVEN_POWERS_BOOK: Book = {
       "author": "Hamilton Helmer",
       "category": "Strategy",
       "type": "concept",
-      "headline": "Network Economies and Winner-Take-Most Topology",
-      "body": "A Network Economy arises when the addition of a customer directly increases the product's value for every other customer.\nThe barrier is brutal: a challenger must build equivalent user density from day one, facing an asymmetric fight where an empty network holds near-zero standalone utility.",
+      "headline": "The Network Effect",
+      "body": "Your product becomes more valuable as more people join and use it.\nBuyers stay because leaving means losing access to everyone else.\nA new competitor with zero users offers almost no value.",
       "quote": "The value of the service to each user increases with the addition of other users.",
-      "actionItem": "Determine the minimum viable density of your network and over-invest capital to cross that threshold before competitors reach parity.",
+      "actionItem": "Spend heavily early on to sign up users before rivals do.",
       "tags": [
         "Strategy",
         "Core Insights"
@@ -843,10 +843,10 @@ export const SEVEN_POWERS_BOOK: Book = {
       "author": "Hamilton Helmer",
       "category": "Strategy",
       "type": "mental-model",
-      "headline": "Counter-Positioning: The Incumbent's Dilemma",
-      "body": "Counter-Positioning occurs when an upstart adopts an unconventional business model that incumbents could duplicate, but refuse to because doing so would destroy their existing revenue streams, asset base, or channel partnerships.\nThe barrier is the incumbent's own rational profit-maximization calculus.",
+      "headline": "The Leader's Trap",
+      "body": "A small startup invents a new and better way of doing business.\nThe big market leader sees it but chooses not to copy.\nCopying the new way would destroy their existing profits.",
       "quote": "A newcomer adopts a new, superior business model which the incumbent does not mimic due to expected damage to its existing business.",
-      "actionItem": "Attack incumbents along vectors where their response would inflict self-immolation on their core balance sheet or margins.",
+      "actionItem": "Pick a business model that hurts a big rival if copied.",
       "tags": [
         "Strategy",
         "Core Insights"
@@ -864,10 +864,10 @@ export const SEVEN_POWERS_BOOK: Book = {
       "author": "Hamilton Helmer",
       "category": "Strategy",
       "type": "concept",
-      "headline": "Switching Costs: The Moat of Procedural Pain",
-      "body": "Switching Costs exist when the customer bears substantial friction\u2014financial, procedural, relational, or cognitive\u2014to replace an incumbent supplier.\nAs long as the delta between your pricing and a competitor's is lower than the switching penalty, your customer is mathematically locked in.",
+      "headline": "High Switching Costs",
+      "body": "Customers stick with you when changing to a rival hurts too much.\nSwitching takes too much time, money, and effort to be worth it.\nAs long as staying is easier, customers will not leave.",
       "quote": "The value loss expected by a customer that would be incurred on switching to an alternate supplier.",
-      "actionItem": "Deeply embed your product into the customer's mission-critical workflows, data pipelines, and team habits to elevate replacement pain.",
+      "actionItem": "Plug your product deep into daily routines so leaving feels painful.",
       "tags": [
         "Strategy",
         "Core Insights"
@@ -885,10 +885,10 @@ export const SEVEN_POWERS_BOOK: Book = {
       "author": "Hamilton Helmer",
       "category": "Strategy",
       "type": "concept",
-      "headline": "Branding as Cognitive Risk Reduction",
-      "body": "Genuine Branding Power is not simple awareness; it is an objective price premium extracted through affective affinity or reduced buyer perceived risk.\nThe barrier is historical time: emotional trust and accumulated reputation cannot be purchased overnight with a compressed ad budget.",
+      "headline": "Branding Builds Trust",
+      "body": "A strong brand lets you charge higher prices for standard products.\nCustomers pay more because they feel safe buying from a trusted name.\nRivals cannot quickly buy this trust with money or ads.",
       "quote": "The durable attribution of higher value to an objectively identical offering that is based on historical information encountered by the buyer.",
-      "actionItem": "Focus brand positioning strictly around de-risking high-stakes decisions for buyers rather than generic awareness campaigns.",
+      "actionItem": "Make buyers feel completely safe picking you over cheap competitors.",
       "tags": [
         "Strategy",
         "Core Insights"
@@ -906,10 +906,10 @@ export const SEVEN_POWERS_BOOK: Book = {
       "author": "Hamilton Helmer",
       "category": "Strategy",
       "type": "concept",
-      "headline": "Cornered Resource: Proprietary Asymmetry",
-      "body": "A Cornered Resource provides preferential access to a scarce asset that boosts product value or reduces input costs permanently.\nThe barrier is legal exclusivity, intellectual property, or idiosyncratic human capital that an external buyer cannot bid away at fair market value.",
+      "headline": "Cornered Resource",
+      "body": "You own a rare asset that gives you an unfair advantage.\nIt could be a key patent, great land, or special talent.\nCompetitors cannot buy or copy this asset at a fair price.",
       "quote": "Preferential access at attractive terms to a coveted asset that can independently enhance value.",
-      "actionItem": "Secure long-term exclusive licenses, patent protections, or unrepeatable geographic locations before industry consolidation begins.",
+      "actionItem": "Lock up exclusive rights, patents, or prime locations before others act.",
       "tags": [
         "Strategy",
         "Core Insights"
@@ -927,10 +927,10 @@ export const SEVEN_POWERS_BOOK: Book = {
       "author": "Hamilton Helmer",
       "category": "Strategy",
       "type": "concept",
-      "headline": "Process Power: Tacit Institutional Complexity",
-      "body": "Process Power is an embedded set of organization-wide capabilities that deliver superior speed or lower cost, evolved through iterative institutional learning.\nThe barrier is systemic opacity: competitors cannot copy it simply by hiring away key personnel or reading manuals.",
+      "headline": "Hidden Process Power",
+      "body": "Your entire company works together in a special, highly trained way.\nYears of learning make your team faster, better, and cheaper.\nRivals cannot copy your method even by hiring your staff.",
       "quote": "Embedded company organization and activity sets which enable lower costs and/or superior products.",
-      "actionItem": "Cultivate complex, cross-functional organizational routines that are impossible to inspect or replicate from the outside.",
+      "actionItem": "Build deep team habits that outsiders cannot see or copy easily.",
       "tags": [
         "Strategy",
         "Core Insights"
@@ -948,10 +948,10 @@ export const SEVEN_POWERS_BOOK: Book = {
       "author": "Hamilton Helmer",
       "category": "Strategy",
       "type": "mental-model",
-      "headline": "The Power Progression Timeline",
-      "body": "Powers cannot be acquired arbitrarily; they belong to specific lifecycle phases.\nOrigination unlocks Counter-Positioning and Cornered Resources.\nThe Takeoff phase allows Scale Economics, Network Economies, and Switching Costs.\nStability only leaves Branding and Process Power.",
+      "headline": "The Power Stages",
+      "body": "You can only build certain powers at specific times.\nStartups can grab unique assets and attack old business models.\nFast-growing markets allow scale, while mature markets only allow brand power.",
       "quote": "Power is primarily acquired during the rapid growth phase of the industry.",
-      "actionItem": "Diagnose your exact industry phase and stop pursuing moats whose strategic window of opportunity has already closed.",
+      "actionItem": "Check your market stage and pursue powers that fit today.",
       "tags": [
         "Strategy",
         "Core Insights"
@@ -969,10 +969,10 @@ export const SEVEN_POWERS_BOOK: Book = {
       "author": "Hamilton Helmer",
       "category": "Strategy",
       "type": "actionable",
-      "headline": "Exploit The Takeoff Window Before Crystallization",
-      "body": "During the Takeoff phase, industry boundaries are fluid and market share is uncommitted.\nWinning during this window generates self-reinforcing moats (Scale and Network Effects) that crystallize the landscape.\nPost-takeoff, acquiring Power becomes orders of magnitude more expensive.",
+      "headline": "Win During Takeoff",
+      "body": "Markets stay wide open during the rapid takeoff phase.\nWinning big volume now creates strong moats that last for decades.\nOnce a market matures, winning power becomes almost impossible.",
       "quote": "Once the industry matures, the rules of the game are set and Power becomes exceedingly difficult to establish.",
-      "actionItem": "Sacrifice near-term margins during rapid market expansion to capture absolute unit volume and establish unassailable structural barriers.",
+      "actionItem": "Give up short-term profits today to grab total market share.",
       "tags": [
         "Strategy",
         "Core Insights"
@@ -990,10 +990,10 @@ export const SEVEN_POWERS_BOOK: Book = {
       "author": "Hamilton Helmer",
       "category": "Strategy",
       "type": "mental-model",
-      "headline": "The Delusion of Operational Excellence",
-      "body": "Operational excellence is table stakes, not a strategy.\nAny process improvement, software tool, or supply chain technique that can be adopted by one player can be adopted by all.\nWithout a structural Barrier, competitive convergence will inevitably drive economic profits to zero.",
+      "headline": "Efficiency Is Not Strategy",
+      "body": "Working hard and using good tools is required to stay alive.\nHowever, every rival can buy the exact same software and tools.\nWithout a real barrier, competition wipes out all your profits.",
       "quote": "Operational excellence is about doing things better, but strategy is about doing things differently to create a sustainable advantage.",
-      "actionItem": "Stop treating software deployments or productivity gains as competitive advantages; pair them with proprietary distribution or scale.",
+      "actionItem": "Pair every software tool with unique scale or locked distribution.",
       "tags": [
         "Strategy",
         "Core Insights"
@@ -1011,10 +1011,10 @@ export const SEVEN_POWERS_BOOK: Book = {
       "author": "Hamilton Helmer",
       "category": "Strategy",
       "type": "quote",
-      "headline": "Strategy as Differential Value Extraction",
-      "body": "Business value is purely the discounted stream of future free cash flows.\nA company cannot generate persistent returns above the cost of capital without structural protection against the forces of competitive arbitrage.",
+      "headline": "Protect Future Profits",
+      "body": "A company is only worth the cash it generates over time.\nYou cannot keep making strong profits without walls that stop copycats.\nGood strategy builds walls around your cash flow.",
       "quote": "Strategy is the study of the fundamental determinants of potential business value.",
-      "actionItem": "Anchor your long-term strategic plan exclusively around creating barriers that shield economic rents from erosion.",
+      "actionItem": "Build clear barriers that keep your long-term profits safe.",
       "tags": [
         "Strategy",
         "Core Insights"
@@ -1032,10 +1032,10 @@ export const SEVEN_POWERS_BOOK: Book = {
       "author": "Hamilton Helmer",
       "category": "Strategy",
       "type": "actionable",
-      "headline": "Design Products for High Switching Frictions",
-      "body": "Customer retention driven solely by customer satisfaction is fragile.\nBuild structural switching costs into the architecture: create proprietary data stores, deep enterprise integration layers, and multi-departmental workflows that make migrating to a competitor logistically unthinkable.",
+      "headline": "Make Leaving Hard",
+      "body": "Happy customers can still leave if a cheaper rival shows up.\nKeep them by becoming the central place they store critical data.\nMoving away should feel too messy and painful to consider.",
       "quote": "Switching costs arise when a customer expects that the cost of switching exceeds the incremental value offered by an alternative.",
-      "actionItem": "Map your software or service to become the central system of record, ensuring replacement requires cross-departmental coordination costs.",
+      "actionItem": "Store essential client data so leaving requires too much painful effort.",
       "tags": [
         "Strategy",
         "Core Insights"
@@ -1053,10 +1053,10 @@ export const SEVEN_POWERS_BOOK: Book = {
       "author": "Hamilton Helmer",
       "category": "Strategy",
       "type": "actionable",
-      "headline": "Weaponize Collateral Damage Against Incumbents",
-      "body": "To successfully counter-position, design your value chain such that for an incumbent to respond, they must cannibalize their highest-margin product, alienate their primary distributors, or write off massive capital investments.\nTheir hesitation is your runway.",
+      "headline": "Target Their Cash Cow",
+      "body": "Build a product that hits your rival's main money maker.\nTo fight you, they would have to wreck their own sales.\nWhile they pause and hesitate, you can run and win.",
       "quote": "The incumbent calculates that adopting the challenger's model would inflict more damage on itself than letting the challenger run.",
-      "actionItem": "Pinpoint the single most profitable revenue line of your target competitor and design an offering that forces them to invalidate it to compete.",
+      "actionItem": "Create an offer that forces big rivals to sacrifice major profits.",
       "tags": [
         "Strategy",
         "Core Insights"
@@ -1074,10 +1074,10 @@ export const SEVEN_POWERS_BOOK: Book = {
       "author": "Hamilton Helmer",
       "category": "Strategy",
       "type": "quote",
-      "headline": "The Transient Nature of Origination",
-      "body": "A brilliant invention without an immediate barrier is nothing more than free research and development for better-capitalized fast-followers.\nInvention creates the opportunity for Power; it is not Power itself.",
+      "headline": "Invention Needs A Wall",
+      "body": "A fresh invention does not give you lasting power by itself.\nRich rivals will quickly copy any great idea that lacks protection.\nYou must turn new ideas into strong moats right away.",
       "quote": "Invention is the source of all Power, but invention itself is not Power.",
-      "actionItem": "Convert every technological breakthrough immediately into scale, lock-in, or proprietary data moats before competitors reverse-engineer it.",
+      "actionItem": "Turn every new feature into scale or customer lock-in immediately.",
       "tags": [
         "Strategy",
         "Core Insights"
@@ -1095,10 +1095,10 @@ export const SEVEN_POWERS_BOOK: Book = {
       "author": "Hamilton Helmer",
       "category": "Strategy",
       "type": "actionable",
-      "headline": "Detect Negative Network Spillover Boundaries",
-      "body": "Not all network growth is accretive.\nNetwork economies often exhibit sharp geographic, functional, or demographic boundaries.\nBeyond those boundaries, congestion, noise, or heterogeneous user bases create diseconomies that break the moat.",
+      "headline": "Set Network Limits",
+      "body": "Growing your user network too broadly can ruin the user experience.\nCrowding and noise make the service worse for your core fans.\nProtect your main base instead of chasing every random user.",
       "quote": "Network Economies are defined by their boundaries; expanding beyond them can degrade the core value proposition.",
-      "actionItem": "Enforce strict boundaries around your core network to preserve density and utility rather than diluting it through broad expansion.",
+      "actionItem": "Keep your focus sharp on your core group of active users.",
       "tags": [
         "Strategy",
         "Core Insights"
@@ -1116,10 +1116,10 @@ export const SEVEN_POWERS_BOOK: Book = {
       "author": "Hamilton Helmer",
       "category": "Strategy",
       "type": "mental-model",
-      "headline": "The Static vs. Dynamic Strategic Lens",
-      "body": "Static strategy evaluates whether you possess Power today and how to price against it.\nDynamic strategy is the ruthless navigation required to invent and capture Power while the market is still forming.\nA firm that masters static extraction without dynamic renewal will decay.",
+      "headline": "Defend And Create",
+      "body": "Good strategy does two different jobs at the same time.\nIt protects the power you own and builds new power tomorrow.\nCompanies that stop building new advantages will slowly fall apart.",
       "quote": "Statics addresses the question of whether a business has Power. Dynamics addresses how that Power was created.",
-      "actionItem": "Separate quarterly margin defense from dynamic moat-building initiatives in your executive capital allocation reviews.",
+      "actionItem": "Spend time building next year's moats, not just guarding today's sales.",
       "tags": [
         "Strategy",
         "Core Insights"
@@ -1137,10 +1137,10 @@ export const SEVEN_POWERS_BOOK: Book = {
       "author": "Hamilton Helmer",
       "category": "Strategy",
       "type": "actionable",
-      "headline": "Lock Down Cornered Talent with Structural Equity",
-      "body": "If your competitive edge relies on star individuals, they possess the power, not the firm.\nWithout institutionalization or asymmetric equity structures, they will capture the economic rent through compensation.\nTransform talent-dependent moats into proprietary software, data, and IP.",
+      "headline": "Turn Talent Into Code",
+      "body": "If one star worker makes your business special, they hold the power.\nThey can easily walk away or demand all the profit.\nTurn their personal knowledge into company software, playbooks, and systems.",
       "quote": "If the resource can command its full market value, the excess returns accrue to the resource, not the firm.",
-      "actionItem": "Codify idiosyncratic human expertise into automated pipelines and proprietary corporate infrastructure to retain the surplus value.",
+      "actionItem": "Document key worker skills into playbooks and company software tools.",
       "tags": [
         "Strategy",
         "Core Insights"
@@ -1158,10 +1158,10 @@ export const SEVEN_POWERS_BOOK: Book = {
       "author": "Hamilton Helmer",
       "category": "Strategy",
       "type": "quote",
-      "headline": "The True Measure of Strategic Success",
-      "body": "Market share, headline revenue, and user praise are vanity metrics.\nStrategy has one master: persistent differential returns on invested capital over time.\nWithout structural barriers, high returns simply invite capital invasion.",
+      "headline": "True Strategic Success",
+      "body": "Big user numbers and vanity revenue do not mean you won.\nGreat strategy means making high profits that rivals cannot touch.\nWithout strong barriers, rivals will arrive and take those profits.",
       "quote": "The purpose of strategy is to create persistent differential returns.",
-      "actionItem": "Measure strategy by return on invested capital relative to weighted average cost of capital, not top-line growth rate.",
+      "actionItem": "Judge success by healthy profit margins rather than simple revenue growth.",
       "tags": [
         "Strategy",
         "Core Insights"
@@ -1179,10 +1179,10 @@ export const SEVEN_POWERS_BOOK: Book = {
       "author": "Hamilton Helmer",
       "category": "Strategy",
       "type": "mental-model",
-      "headline": "The Moat S-Curve and Competitive Equilibrium",
-      "body": "Once an industry hits maturity, market positions freeze into an equilibrium where established Powers extract sustained rents.\nAt this stage, challenging an entrenched player head-on is value destruction; your only viable option is targeting an adjacent unformed market or awaiting paradigm disruption.",
+      "headline": "Avoid Giant Leaders",
+      "body": "Old industries freeze in place once winners claim their moats.\nFighting an established market giant head-on will only waste your money.\nInstead, focus your energy on fresh, unformed markets.",
       "quote": "When the dust settles, those with Power will earn differential returns, and those without will earn ordinary returns.",
-      "actionItem": "Cease frontal assaults on mature scale leaders; pivot resource allocation entirely toward emerging category frontiers.",
+      "actionItem": "Stop fighting entrenched leaders and target new, growing categories instead.",
       "tags": [
         "Strategy",
         "Core Insights"
@@ -1196,42 +1196,42 @@ export const SEVEN_POWERS_BOOK: Book = {
   ],
   "mindMap": {
     "id": "root",
-    "label": "7 Powers: The Foundations of Business Strategy",
-    "description": "Hamilton Helmer's definitive blueprint detailing the seven structural mechanisms that generate persistent, asymmetric economic returns.\nStrategy is not operational excellence; it is establishing a durable barrier against relentless competitive arbitrage.",
+    "label": "The 7 Powers",
+    "description": "A simple guide to building a business that stays profitable.\nIt explains the seven unfair advantages that protect companies from rivals.",
     "children": [
       {
         "id": "power-foundations",
-        "label": "Foundational Strategy Calculus",
-        "description": "The fundamental physics of strategic value creation and market defensibility.\nBusiness value equals current operational cash flow multiplied by the durability of a structural barrier that repels competitive imitation.",
+        "label": "Strategy Basics",
+        "description": "What truly makes a business valuable.\nGreat businesses make money and keep rivals from copying them.",
         "children": [
           {
             "id": "power-definition",
-            "label": "The Definition of Power",
-            "description": "Power is a set of persistent condition(s) creating substantial ongoing economic profits that competitors cannot easily erode.\nIt demands a dual dynamic: a distinct Benefit to customers alongside an impenetrable Barrier that protects margins.",
+            "label": "What Is Power?",
+            "description": "Power is an advantage that rivals cannot easily steal.\nIt gives customers big value while blocking competitor attacks.",
             "children": [
               {
                 "id": "the-benefit",
-                "label": "The Benefit (Surplus Value)",
-                "description": "The ability to materially augment product utility or drastically reduce input costs relative to peers.\nWithout an undeniable surplus value generated for users, no economic rent can be captured.",
+                "label": "The Benefit",
+                "description": "Making better products or making them cheaper than others.\nCustomers must get real extra value.",
                 "children": []
               },
               {
                 "id": "the-barrier",
-                "label": "The Barrier (Competitive Inability)",
-                "description": "The structural friction preventing rivals from copying or arbitraging away your profit margins.\nA Benefit without an impenetrable Barrier is mere philanthropy for the market.",
+                "label": "The Barrier",
+                "description": "A wall that stops rivals from copying your success.\nWithout a barrier, competitors quickly destroy your profits.",
                 "children": []
               }
             ]
           },
           {
             "id": "fundamental-equation",
-            "label": "The Fundamental Value Equation",
-            "description": "Enterprise value is governed by two factors: current market scale and the long-term persistence of differential margins.\nPower is the exclusive mechanism that secures future cash flows against commoditization.",
+            "label": "The Value Equation",
+            "description": "Company value depends on current earnings and how long profits last.\nPower protects your future cash.",
             "children": [
               {
                 "id": "static-vs-dynamic",
-                "label": "Statics vs. Dynamics",
-                "description": "Statics analyzes the existing moat and ongoing economic extraction during market maturity.\nDynamics outlines the precise window and strategic maneuver required to establish that moat during company gestation.",
+                "label": "Building vs Defending",
+                "description": "Dynamics is the smart move used to build your advantage early.\nStatics is using that advantage to profit once you are established.",
                 "children": []
               }
             ]
@@ -1241,23 +1241,23 @@ export const SEVEN_POWERS_BOOK: Book = {
       {
         "id": "scale-economies",
         "label": "1. Scale Economies",
-        "description": "A state where unit cost declines relentlessly as absolute production volume scales over a high-fixed-cost asset base.\nThe incumbent forces rivals into an unsustainable cost structure or permanent capital starvation.",
+        "description": "Making more units makes each unit cheaper to produce.\nBigger companies enjoy much lower costs than small rivals.",
         "children": [
           {
             "id": "scale-barrier-benefit",
-            "label": "Mechanism: High Fixed Costs vs. Marginal Advantage",
-            "description": "Massive fixed investments spread over immense operational output create microscopic per-unit costs.\nChallengers must match these colossal capital outlays while commanding only fraction of the market volume.",
+            "label": "The Cost Gap",
+            "description": "Large upfront investments spread across massive sales shrink single-unit costs.\nSmaller rivals face higher costs on every item.",
             "children": [
               {
                 "id": "netflix-streaming-scale",
-                "label": "Streaming Content Infrastructure",
-                "description": "Netflix amortizes massive multi-billion-dollar annual production budgets across hundreds of millions of paying subscribers.\nAny newcomer matching their content output faces crippling per-subscriber amortization expenses.",
+                "label": "Netflix Content Scale",
+                "description": "Netflix spreads huge show budgets across hundreds of millions of viewers.\nRivals spend similar money across far fewer subscribers.",
                 "children": []
               },
               {
                 "id": "scale-preemption",
-                "label": "Preemptive Volume Expansion",
-                "description": "Aggressively pricing below near-term margins to capture scale thresholds before competitors mobilize.\nOnce minimum efficient scale is cornered, the cost deficit for entrants becomes fatal.",
+                "label": "Racing to Scale",
+                "description": "Lowering prices early to win the most customers.\nOnce you are biggest, rivals cannot match your low costs.",
                 "children": []
               }
             ]
@@ -1266,24 +1266,24 @@ export const SEVEN_POWERS_BOOK: Book = {
       },
       {
         "id": "network-economies",
-        "label": "2. Network Economies",
-        "description": "The value of a service to each user increases nonlinearly as the overall user base expands.\nThe resulting gravitational pull consolidates the entire category into a natural winner-take-all monopoly.",
+        "label": "2. Network Effects",
+        "description": "A product gets more useful as more people join.\nEventually, the biggest platform wins the entire market.",
         "children": [
           {
             "id": "network-barrier-benefit",
-            "label": "Mechanism: Asymmetric Utility & Liquidity Deficit",
-            "description": "New entrants cannot replicate the intrinsic utility of an interconnected ecosystem regardless of how superior their standalone technology is.\nUsers defecting to an isolated rival sacrifice critical network connectivity and liquidity.",
+            "label": "The Community Moat",
+            "description": "New competitors cannot offer the same value without an active user base.\nLeaving the main network means losing everyone else.",
             "children": [
               {
                 "id": "direct-vs-indirect",
-                "label": "Direct & Two-Sided Market Density",
-                "description": "Direct networks link users to users, while two-sided networks link buyers to merchants or developers to users.\nIn platforms like Visa or iOS, critical density on one side inexorably commands participation on the other.",
+                "label": "Two-Sided Networks",
+                "description": "More buyers attract more sellers, and more sellers attract more buyers.\nVisa and app stores become unbeatable through this loop.",
                 "children": []
               },
               {
                 "id": "cold-start-dilemma",
-                "label": "The Cold Start Defensibility",
-                "description": "A competitor attempting to unseat an incumbent must subsidize user acquisition to impossible levels.\nSubsidizing two-sided markets without established liquidity burns balance sheets into ruin.",
+                "label": "Starting From Zero",
+                "description": "New platforms struggle because nobody joins an empty network.\nCatching up requires spending fortunes to buy users.",
                 "children": []
               }
             ]
@@ -1293,23 +1293,23 @@ export const SEVEN_POWERS_BOOK: Book = {
       {
         "id": "counter-positioning",
         "label": "3. Counter-Positioning",
-        "description": "A newcomer adopts a novel, superior business model that the incumbent cannot copy without cannibalizing its existing core profits.\nThe market leader is paralyzed by rational self-preservation while their moat is systematically dismantled.",
+        "description": "Using a new business model that market leaders cannot copy.\nCopying you would destroy their existing core profits.",
         "children": [
           {
             "id": "incumbent-curse",
-            "label": "Mechanism: The Innovator's Margin Trap",
-            "description": "The incumbent's executive compensation, capital allocation, and key customer relationships are tied to the legacy model.\nResponding directly to the entrant requires torching established revenue streams and infuriating existing shareholders.",
+            "label": "The Leader's Dilemma",
+            "description": "Old leaders hesitate to adopt your model because it hurts their main income.\nThey watch you grow while trying to protect legacy sales.",
             "children": [
               {
                 "id": "vanguard-passive-investing",
-                "label": "Vanguard vs. Wall Street Brokerages",
-                "description": "Bogle introduced ultra-low-cost index mutual funds with no management fees.\nActive asset managers could not replicate Vanguard's pricing without instantly obliterating their own multi-billion-dollar advisory commissions.",
+                "label": "Vanguard Index Funds",
+                "description": "Vanguard launched cheap index funds with near-zero fees.\nWall Street brokers could not copy it without losing giant commissions.",
                 "children": []
               },
               {
                 "id": "paralysis-window",
-                "label": "The Strategic Window of Hesitation",
-                "description": "Counter-Positioning endures only until the challenger achieves unassailable scale or the legacy cash cow completely decays.\nThe challenger must build secondary moats before the incumbent finally accepts the pain of transition.",
+                "label": "Hesitation Window",
+                "description": "Leaders stay frozen until the newcomer becomes too big to stop.\nThe challenger must lock in other advantages quickly.",
                 "children": []
               }
             ]
@@ -1319,23 +1319,23 @@ export const SEVEN_POWERS_BOOK: Book = {
       {
         "id": "switching-costs",
         "label": "4. Switching Costs",
-        "description": "A structural condition where the financial, operational, or psychological burden of moving to an alternative product decisively outweighs any perceived feature delta.\nCustomers remain captive because defecting induces unacceptable friction.",
+        "description": "Leaving for a competitor is too painful, expensive, or risky.\nCustomers stay loyal simply because switching is too hard.",
         "children": [
           {
             "id": "procedural-friction",
-            "label": "Mechanism: Deep Workflow & Data Entrenchment",
-            "description": "Embedding mission-critical software, custom databases, or specialized institutional processes deep into an enterprise's central nervous system.\nReplacing the system risks operational collapse, administrative chaos, and massive retraining overhead.",
+            "label": "Built Into Workflows",
+            "description": "When a tool runs your daily operations, replacing it risks disaster.\nRetraining staff and migrating data creates massive headaches.",
             "children": [
               {
                 "id": "enterprise-sap-paradigm",
-                "label": "Mission-Critical ERP Integration",
-                "description": "Enterprise platforms like SAP or Epic Systems manage core enterprise ledgers and medical records.\nEven if a rival offers a 50% cheaper or 30% faster system, the catastrophic risk of a failed migration locks the customer in.",
+                "label": "Core Enterprise Software",
+                "description": "Systems like SAP run entire company records and finances.\nEven cheaper alternatives are ignored because migration errors ruin businesses.",
                 "children": []
               },
               {
-                "id": "installed-base-extraction",
-                "label": "Installed Base Pricing Power",
-                "description": "High switching costs permit the incumbent to continuously push price increases above standard inflation.\nThe switching penalty acts as a monetary toll that shields pricing indiscretions.",
+                "id": "installed-base-pricing",
+                "label": "Pricing Freedom",
+                "description": "Because leaving hurts, incumbents can raise prices gently over time.\nCustomers pay the increases rather than facing the move.",
                 "children": []
               }
             ]
@@ -1344,24 +1344,24 @@ export const SEVEN_POWERS_BOOK: Book = {
       },
       {
         "id": "branding",
-        "label": "5. Branding",
-        "description": "The durable attribution of higher value to an objectively identical offering, anchored by historic reliability or perceived identity status.\nIt is the slowest power to construct and demands exhaustive, repetitive capital deployment.",
+        "label": "5. Brand Power",
+        "description": "Charging higher prices because customers trust your name or status.\nBuilding this trust takes years of consistent excellence.",
         "children": [
           {
             "id": "affective-and-objective",
-            "label": "Mechanism: Bounded Rationality & Affective Resonance",
-            "description": "Under high uncertainty, consumers rely on brand heritage as a heuristic for safety, or purchase luxury labels to project social standing.\nRivals cannot purchase history or manufactured prestige overnight, regardless of marketing budgets.",
+            "label": "Trust and Prestige",
+            "description": "Buyers choose famous brands to avoid risk or show off status.\nRivals cannot buy decades of public trust overnight.",
             "children": [
               {
                 "id": "counterfeit-resistance",
-                "label": "The Peace of Mind & Status Premium",
-                "description": "Tiffany, Rolex, or infant formula brands command massive gross margin deltas purely on trust and status validation.\nCompetitors offering identical physical ingredients fail to evoke the subconscious reassurance demanded by the buyer.",
+                "label": "Peace of Mind",
+                "description": "Brands like Rolex or baby formula charge premiums for safety and reputation.\nGeneric copies cannot match that emotional feeling.",
                 "children": []
               },
               {
                 "id": "fragility-decay",
-                "label": "Brand Vulnerability and Dilution",
-                "description": "Branding requires decades of unbroken consistency to establish but can dissolve rapidly under compromised product quality or market overexposure.\nIt is a moat that demands ruthless discipline to maintain.",
+                "label": "Brand Fragility",
+                "description": "A brand takes decades to build but can vanish with bad quality.\nIt requires constant care to protect.",
                 "children": []
               }
             ]
@@ -1371,23 +1371,23 @@ export const SEVEN_POWERS_BOOK: Book = {
       {
         "id": "cornered-resource",
         "label": "6. Cornered Resource",
-        "description": "Preferential, exclusive access to a scarce asset that independently enhances value or reduces cost over a sustained operational horizon.\nThe resource must be legally or naturally non-replicable by external competitors.",
+        "description": "Owning a unique asset that competitors cannot buy or replicate.\nThis gives you exclusive advantages in cost or quality.",
         "children": [
           {
             "id": "five-screening-tests",
-            "label": "Mechanism: Helmer's Cornered Asset Tests",
-            "description": "To qualify, the asset must be idiosyncratic, non-transferable, sufficient to drive market share, enduring, and acquired at an attractive price.\nIf the asset can be bought on the open market, economic rent accrues to the asset seller, not the firm.",
+            "label": "What Qualifies",
+            "description": "The asset must be rare, lasting, and genuinely drive profits.\nIf anyone can buy it on the open market, it is not a power.",
             "children": [
               {
                 "id": "intellectual-and-talent",
-                "label": "Patents, Geography, and Unique Talent",
-                "description": "Includes exclusive pharmaceutical drug patents, sovereign regulatory concessions, unique lithium mineral deposits, or irreplaceable creative genius like early Pixar\u2019s brain trust.\nWithout strict unbundling limits, talent extracts all the surplus.",
+                "label": "Patents and Superstars",
+                "description": "Examples include drug patents, rare mineral lands, or elite creative teams.\nWithout legal protection, key talent can walk away with your edge.",
                 "children": []
               },
               {
                 "id": "bargaining-power-leakage",
-                "label": "The Rent Extraction Hazard",
-                "description": "When an elite employee or supplier is the cornered resource, they hold the leverage to negotiate away company margins in compensation.\nA firm only retains power if the resource is bound to the organization's institutional substrate.",
+                "label": "Retaining the Value",
+                "description": "If a single star employee holds the secret, they demand all the profits.\nThe advantage must belong to the company itself.",
                 "children": []
               }
             ]
@@ -1397,23 +1397,23 @@ export const SEVEN_POWERS_BOOK: Book = {
       {
         "id": "process-power",
         "label": "7. Process Power",
-        "description": "Organizationally embedded operational capabilities, accumulated over years of systemic iteration, that cannot be reverse-engineered or matched by rivals.\nIt is tacit institutional knowledge made real through relentless micro-optimizations.",
+        "description": "Company-wide habits and skills developed over decades of practice.\nRivals cannot copy it because the system is so complex.",
         "children": [
           {
             "id": "tacit-knowledge-barrier",
-            "label": "Mechanism: Complex Systems & Uncodified Mastery",
-            "description": "The competitive advantage is woven into cultural practices, team interdependencies, and operational subtleties that are not documented in manuals.\nEven if a rival poaches key executives, the full organismic machinery cannot be transplanted.",
+            "label": "Hidden Know-How",
+            "description": "The secret sauce lives inside daily teamwork and company culture.\nIt cannot be copied from manuals or by hiring away a manager.",
             "children": [
               {
                 "id": "toyota-tps-hegemony",
-                "label": "Toyota Production System (TPS)",
-                "description": "Toyota openly allowed Detroit executives to tour their factories for decades without losing market dominance.\nCompetitors copied kanban boards and andon cords but failed completely to absorb the collective human feedback loops powering them.",
+                "label": "Toyota Lean Production",
+                "description": "Toyota gave rivals factory tours and still beat them on quality.\nOthers copied the signs and tools, but missed the underlying culture.",
                 "children": []
               },
               {
                 "id": "time-bound-opacity",
-                "label": "Hysteresis and Temporal Moats",
-                "description": "Process Power takes fifteen to twenty years of compounding organizational discipline to synthesize.\nChallengers cannot compress the time dimension with sheer capital injections alone.",
+                "label": "Takes Decades",
+                "description": "This power requires twenty years of slow, steady improvement.\nRivals cannot speed it up with cash.",
                 "children": []
               }
             ]
@@ -1422,44 +1422,44 @@ export const SEVEN_POWERS_BOOK: Book = {
       },
       {
         "id": "strategy-dynamics",
-        "label": "Strategy Dynamics & Lifecycle Windows",
-        "description": "The chronological sequence dictating when and how distinct powers can be seized during an industry's evolution.\nTiming is everything: attempting to erect a power outside its natural window squanders balance sheet capital.",
+        "label": "When to Build",
+        "description": "Different powers can only be captured at specific times.\nTiming is everything when building competitive advantages.",
         "children": [
           {
             "id": "origination-phase",
-            "label": "The Takeoff Phase (Originating Moats)",
-            "description": "During industry inception, market boundaries are undefined and structural volatility is maximal.\nCounter-Positioning and Cornered Resources must be locked down here, or the strategic high ground is permanently lost.",
+            "label": "Starting Out",
+            "description": "At the start, markets are wide open and changing fast.\nYou must grab unique resources and surprise leaders early.",
             "children": [
               {
                 "id": "invention-to-adoption",
-                "label": "The Creative Flash Window",
-                "description": "True power emerges when introducing an unprecedented value proposition that disrupts competitive equilibrium.\nOnce user adoption surges into mainstream trajectories, the window to capture primary resource rights slams shut.",
+                "label": "The Early Window",
+                "description": "Great power comes from offering something brand new.\nOnce the market matures, early chances disappear forever.",
                 "children": []
               }
             ]
           },
           {
             "id": "takeoff-phase",
-            "label": "The Growth Phase (Scaling Moats)",
-            "description": "When adoption turns exponential, structural moats shift to volume and engagement.\nScale Economies, Network Economies, and Switching Costs must be constructed aggressively before market shares solidify.",
+            "label": "Rapid Growth",
+            "description": "When customer demand explodes, focus on getting big fast.\nThis is the only moment to build scale and network effects.",
             "children": [
               {
                 "id": "land-grab-intensity",
-                "label": "Capital Acceleration for Network Capture",
-                "description": "Prioritizing aggressive network size over short-term profitability to trigger non-linear utility returns.\nDelaying expansion during this inflection allows competitors to capture the critical mass required for self-sustaining network effects.",
+                "label": "The Land Grab",
+                "description": "Grow user numbers fast before competitors can catch up.\nFalling behind now means losing the entire network.",
                 "children": []
               }
             ]
           },
           {
             "id": "stability-phase",
-            "label": "The Maturity Phase (Static Extraction)",
-            "description": "Once industry growth flattens and market boundaries freeze, structural innovation ceases.\nIncumbents can now forge Brand Power or slowly compound Process Power to entrench static, defensive moats.",
+            "label": "Mature Market",
+            "description": "When market growth stops, defend what you have.\nCompanies now rely on strong branding and refined internal processes.",
             "children": [
               {
                 "id": "operational-discipline",
-                "label": "Harvesting Rents & Repelling Attrition",
-                "description": "Focus shifts from raw territory acquisition to margin optimization, rigorous capital allocation, and defensive moat maintenance.\nFailing to sustain structural moats here invites activist takeovers or catastrophic disruption.",
+                "label": "Protecting Profits",
+                "description": "Focus shifts to running efficiently and guarding margins.\nWeak moats leave you open to sudden disruption.",
                 "children": []
               }
             ]

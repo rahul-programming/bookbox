@@ -249,22 +249,22 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({
                   </div>
 
                   {/* Scrollable Front Content */}
-                  <div className="flex-1 min-h-0 overflow-y-auto pr-1 my-1 space-y-2">
-                    <h4 className="font-bold text-base text-slate-900 dark:text-slate-100 leading-snug">
+                  <div className="flex-1 min-h-0 overflow-y-auto pr-1 my-1 space-y-2 break-words">
+                    <h4 className="font-bold text-base text-slate-900 dark:text-slate-100 leading-snug break-words">
                       {idea.headline}
                     </h4>
 
                     {idea.quote ? (
-                      <div className="p-3 rounded-xl bg-slate-50 dark:bg-slate-900 border-l-3 border-blue-500">
+                      <div className="p-3 rounded-xl bg-slate-50 dark:bg-slate-900 border-l-3 border-blue-500 break-words">
                         <Quote className="w-3 h-3 text-blue-500 mb-1" />
-                        <p className={`italic text-slate-700 dark:text-slate-300 ${fontSizeClass}`}>
+                        <p className={`italic text-slate-700 dark:text-slate-300 break-words ${fontSizeClass}`}>
                           "{idea.quote}"
                         </p>
                       </div>
                     ) : (
-                      <div className={`text-slate-600 dark:text-slate-300 space-y-1.5 ${fontSizeClass}`}>
+                      <div className={`text-slate-600 dark:text-slate-300 space-y-1.5 break-words ${fontSizeClass}`}>
                         {(idea.body.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (
-                          <p key={idx} className="leading-relaxed">
+                          <p key={idx} className="leading-relaxed break-words">
                             {sentence}
                           </p>
                         ))}
@@ -319,23 +319,23 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({
                   </div>
 
                   {/* Scrollable Back Content - Prevents Any Spillover */}
-                  <div className="flex-1 min-h-0 overflow-y-auto pr-1 my-1 space-y-3">
-                    <div className={`text-slate-700 dark:text-slate-300 space-y-1.5 ${fontSizeClass}`}>
+                  <div className="flex-1 min-h-0 overflow-y-auto pr-1 my-1 space-y-3 break-words">
+                    <div className={`text-slate-700 dark:text-slate-300 space-y-1.5 break-words ${fontSizeClass}`}>
                       {(idea.body.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (
-                        <p key={idx} className="leading-relaxed">
+                        <p key={idx} className="leading-relaxed break-words">
                           {sentence}
                         </p>
                       ))}
                     </div>
 
                     {idea.actionItem && (
-                      <div className={`p-3 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900/60 text-emerald-900 dark:text-emerald-200 ${fontSizeClass}`}>
-                        <strong className="block mb-1 font-semibold text-emerald-800 dark:text-emerald-300">
+                      <div className={`p-3 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900/60 text-emerald-900 dark:text-emerald-200 break-words ${fontSizeClass}`}>
+                        <strong className="block mb-1 font-semibold text-emerald-800 dark:text-emerald-300 break-words">
                           Action Step:
                         </strong>
-                        <div className="space-y-1">
+                        <div className="space-y-1 break-words">
                           {(idea.actionItem.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (
-                            <p key={idx} className="leading-relaxed">
+                            <p key={idx} className="leading-relaxed break-words">
                               {sentence}
                             </p>
                           ))}
