@@ -1,5 +1,5 @@
 // Expert Political Judgment by Philip E. Tetlock
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -405,169 +405,169 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
   "actionItems": [
     {
       "id": "expert-political-judgment-act-1",
-      "title": "Calibrate Your Probabilistic Language",
-      "description": "Replace vague probability terms like 'likely' or 'serious possibility' with explicit percentage estimates so you can actually test whether your foresight mechanics match reality.",
+      "title": "Use Percentages Instead of Vague Words",
+      "description": "Stop using fuzzy words like 'likely' or 'maybe' when predicting future outcomes. Put a clear percentage on your guess to see if you were right.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Select one key prediction you are making today regarding work, news, or a personal project.",
-        "Spot vague hedging words like 'probably', 'maybe', or 'unlikely' in your initial thought.",
-        "Assign a precise numerical probability between 5% and 95% to the expected outcome.",
-        "Write the percentage down next to the specific deadline when it can be verified."
+        "Pick one prediction you want to make about work, news, or life.",
+        "Catch yourself using vague words like 'probably' or 'might happen.'",
+        "Give your prediction a clear number between 5% and 95%.",
+        "Write down your number next to the deadline for the result."
       ],
       "sourceChapter": "Chapter 1"
     },
     {
       "id": "expert-political-judgment-act-2",
-      "title": "Map Hedgehog vs. Fox Perspectives",
-      "description": "Examine a major belief through two competing cognitive lenses: the single grand overarching theory ('hedgehog') versus a patchwork of diverse situational clues ('fox').",
+      "title": "Compare One Big Idea to Many",
+      "description": "Test your strong beliefs against messy facts. Avoid relying on a single grand theory to explain everything.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Pick a contentious topic where you hold a strong, decisive stance.",
-        "Identify the single big ideological principle driving your conclusion.",
-        "Deliberately list three distinct, messy real-world counter-factors that resist this single principle.",
-        "Synthesize both angles into a more nuanced, contingent forecast."
+        "Pick a topic where you hold a very strong personal opinion.",
+        "Spot the single big idea that drives your view on this topic.",
+        "List three real facts that do not fit neatly into that idea.",
+        "Combine both views into a more balanced, open-minded forecast."
       ],
       "sourceChapter": "Chapter 3"
     },
     {
       "id": "expert-political-judgment-act-3",
-      "title": "Establish the Outside-View Base Rate",
-      "description": "Anchor your intuition in objective statistical reality before letting subjective optimism skew your estimate of how an initiative will unfold.",
+      "title": "Check Past Averages First",
+      "description": "Look at historical data before guessing how long something will take. Do not let wishful thinking blind your early plan.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Define the reference class for a task you are about to start (e.g., how long similar projects typically take).",
-        "Look up or calculate historical averages for that general category rather than focusing on your unique strengths.",
-        "Set that historical frequency as your baseline starting probability or duration.",
-        "Adjust upward or downward only based on verified, concrete differentiators."
+        "Pick a new task you plan to start this week.",
+        "Find out how long similar tasks usually take other normal people.",
+        "Use that average number as your starting estimate for the project.",
+        "Change that number only if you have clear proof of differences."
       ],
       "sourceChapter": "Chapter 4"
     },
     {
       "id": "expert-political-judgment-act-4",
-      "title": "Daily Belief Update Micro-Check",
-      "description": "Treat every incoming piece of daily news as experimental feedback, nudging your conviction meters in proportion to the evidence rather than digging in your heels.",
+      "title": "Update Beliefs With New Clues",
+      "description": "Treat new daily updates as helpful clues instead of threats to your ego. Shift your views by small steps when facts change.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Review today's top surprise headline or unexpected workplace update.",
-        "Ask yourself which of your working assumptions this development challenges.",
-        "Practice incremental belief updating by nudging your prior confidence power up or down by 5-10%.",
-        "Log whether you felt an emotional impulse to explain away the anomaly."
+        "Notice one surprising piece of news or work feedback received today.",
+        "Ask what old assumption this new piece of news challenges.",
+        "Nudge your confidence up or down by five or ten percent.",
+        "Notice if you felt an urge to ignore this new fact."
       ],
       "sourceChapter": "Chapter 4"
     },
     {
       "id": "expert-political-judgment-act-5",
-      "title": "Morning Devil's Advocate Micro-Drill",
-      "description": "Start your day by identifying how your primary daily goal could run into unseen friction, turning defensive blind spots into active contingency plans.",
+      "title": "Spot How Plans Can Fail",
+      "description": "Start each morning by looking for weak points in your main daily goal. Fixing problems early keeps your daily schedule safe.",
       "category": "daily-routine",
       "timeEstimateMinutes": 7,
       "stepByStep": [
-        "Identify the most critical decision or plan scheduled for today.",
-        "Construct the strongest plausible argument for why that plan could fail.",
-        "Inspect which psychological assumptions you took for granted without empirical backing.",
-        "Adjust one concrete action step to preempt the identified failure point."
+        "Select the most important task on your calendar for today.",
+        "Think of the most realistic reason this plan could go wrong.",
+        "Check which of your basic guesses might turn out false.",
+        "Change one concrete step right now to prevent that mistake."
       ],
       "sourceChapter": "Chapter 6"
     },
     {
       "id": "expert-political-judgment-act-6",
-      "title": "Audit Information Ecology for Single-Story Bias",
-      "description": "Restructure your digital reading feed to dismantle ideological echo chambers that reinforce dogmatic 'hedgehog' thinking patterns.",
+      "title": "Mix Up Your Daily News",
+      "description": "Read views from different sides to avoid getting stuck in one echo chamber. Broad inputs will help you see reality much more clearly.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Review your bookmarked news sources, RSS subscriptions, and social media follows.",
-        "Flag channels that consistently apply a single thematic narrative to all global events.",
-        "Subscribe to two analytical publications that look at problems through pragmatic, empirical, and multi-disciplinary lenses.",
-        "Group diverse perspectives side-by-side to provoke constructive cognitive friction."
+        "Check all the news feeds and social accounts you follow daily.",
+        "Spot sources that repeat the exact same story angle every time.",
+        "Follow two thoughtful sources that offer very different viewpoints.",
+        "Read these different views side by side to sharpen your thinking."
       ],
       "sourceChapter": "Chapter 3"
     },
     {
       "id": "expert-political-judgment-act-7",
-      "title": "Configure Ambiguity Triggers on Your Desk",
-      "description": "Place physical visual prompts in your working environment to interrupt automatic certainty and signal that reality is probabilistic.",
+      "title": "Keep Sticky Notes on Desk",
+      "description": "Place simple visual reminders on your desk to question your assumptions. They remind you to stay humble when making big decisions.",
       "category": "environment",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Create a visual index card displaying Tetlock's mantra: 'What would it take to change my mind?'",
-        "Place it directly beneath your primary computer monitor or workspace notepad.",
-        "Add a small two-column sticky note labeled 'Clues For' and 'Clues Against' next to active decisions.",
-        "Refer to these prompts before finalizing any analytical deliverable or forecast."
+        "Write 'What would change my mind?' on an index card.",
+        "Place the card directly under your computer screen right now.",
+        "Stick a note nearby with columns for 'Pros' and 'Cons.'",
+        "Read both notes before you finalize any big choice or plan."
       ],
       "sourceChapter": "Chapter 5"
     },
     {
       "id": "expert-political-judgment-act-8",
-      "title": "Brier Score Personal Performance Audit",
-      "description": "Calculate your statistical Brier accuracy score on past predictions to measure genuine calibration versus self-deceptive overconfidence.",
+      "title": "Score Your Guessing Accuracy",
+      "description": "Score your past guesses to see if you are truly accurate. This simple math test quickly exposes overconfidence.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Gather at least 10 resolved predictions you made over the last quarter with assigned probabilities.",
-        "Code each actual outcome as 1 (occurred) or 0 (did not occur).",
-        "Calculate the squared difference between each probability forecast and the actual binary outcome.",
-        "Average the squared differences to find your Brier score, aiming closer to 0.0 rather than 0.5."
+        "Collect ten past predictions where you gave a clear percentage guess.",
+        "Mark each event with a one if true or zero if false.",
+        "Subtract the actual outcome from your guess, then square that number.",
+        "Find the average score, aiming for zero rather than big misses."
       ],
       "sourceChapter": "Chapter 2"
     },
     {
       "id": "expert-political-judgment-act-9",
-      "title": "The 'I Was Almost Right' Defense Audit",
-      "description": "Catalog the defense mechanisms you instinctively deploy when an expectation fails, neutralizing rationalizations that block experiential learning.",
+      "title": "Stop Making Bad Excuses",
+      "description": "Stop telling yourself you were almost right when a prediction fails. Facing your wrong guesses helps you learn much faster.",
       "category": "audit",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Select a recent forecast or tactical choice that went unambiguously wrong.",
-        "Check your private thoughts against common defenses: 'It almost happened', 'Timing was just off', or 'An unprecedented fluke occurred'.",
-        "Strip away the defense and candidly write down the core flaw in your initial model.",
-        "Record the exact cognitive bias that prevented you from seeing the warning signs sooner."
+        "Pick one past guess or decision that turned out completely wrong.",
+        "Notice excuses like 'I was almost right' or 'bad luck happened.'",
+        "Throw out those excuses and state the real flaw clearly.",
+        "Write down the exact blind spot that tricked you back then."
       ],
       "sourceChapter": "Chapter 4"
     },
     {
       "id": "expert-political-judgment-act-10",
-      "title": "Hindsight Bias Correction Audit",
-      "description": "Compare your actual recorded historical notes against your current memory of past events to spot retrospective revisionism.",
+      "title": "Catch Your False Memories",
+      "description": "Compare old written notes with what you recall happening later on. You will quickly see that you did not know everything all along.",
       "category": "audit",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Pick an unexpected event from earlier this year whose outcome is now fully settled.",
-        "Write down your immediate, unprompted memory of how likely you thought it was before it happened.",
-        "Retrieve your original notes, journal entries, or emails sent right before that event.",
-        "Compare the documented historical record to your reconstructed memory to spot false inevitability."
+        "Pick an unexpected event from this past year that already ended.",
+        "Write down how likely you remember thinking it was back then.",
+        "Find your old emails or notes written before that event happened.",
+        "Compare your old written words against your current memory today."
       ],
       "sourceChapter": "Chapter 5"
     },
     {
       "id": "expert-political-judgment-act-11",
-      "title": "Verifiable Prediction Registry Protocol",
-      "description": "Build an unalterable tracking registry to capture probabilistic forecasts, explicit criteria, and clear expiration dates.",
+      "title": "Build a Simple Prediction Tracker",
+      "description": "Keep a clean digital sheet to track all your future predictions. Written records prevent you from rewriting history later.",
       "category": "system",
       "timeEstimateMinutes": 35,
       "stepByStep": [
-        "Set up a dedicated tracking spreadsheet or digital ledger titled 'Foresight Journal'.",
-        "Create columns: Forecast Claim, Numerical Probability (0-100%), Expiration Date, Falsification Criteria, and Actual Result.",
-        "Ensure every claim has unambiguous, observable criteria so outcome evaluation cannot be fudged.",
-        "Schedule a recurring monthly calendar block to resolve matured forecasts."
+        "Open a fresh spreadsheet and title it 'Prediction Log.'",
+        "Create columns for your claim, percentage chance, deadline, and result.",
+        "Write clear rules so anyone can tell if you won or lost.",
+        "Set a monthly calendar alert to check off your finished guesses."
       ],
       "sourceChapter": "Chapter 2"
     },
     {
       "id": "expert-political-judgment-act-12",
-      "title": "Counterfactual Scenario Stress-Testing System",
-      "description": "Implement an institutional review framework that tests policies against alternative historical trajectories and branching possibilities.",
+      "title": "Test What If Scenarios",
+      "description": "Test your plans against surprise problems before you launch them. Safe backup steps protect you when surprises strike.",
       "category": "system",
       "timeEstimateMinutes": 40,
       "stepByStep": [
-        "Select a major strategic plan or team policy currently under consideration.",
-        "Draft two vivid counterfactual branches: 'What if a tiny initial condition went differently?' and 'What if external volatility spikes?'",
-        "Evaluate whether the strategy relies entirely on one fragile causal sequence.",
-        "Build modular safeguards into the system so it stays robust under multiple plausible futures."
+        "Pick a major plan that you or your team are considering.",
+        "Ask what happens if one key starting condition goes badly wrong.",
+        "Check if your strategy relies on everything working out perfectly.",
+        "Add practical backup steps so the plan survives sudden bad surprises."
       ],
       "sourceChapter": "Chapter 5"
     }
@@ -744,10 +744,10 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       "author": "Philip E. Tetlock",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Fox vs. The Hedgehog Cognitive Engine",
-      "body": "Borrowing Archilochus's classic fable, Tetlock categorizes thinkers into hedgehogs\u2014who know one big thing and force complex reality into a solitary grand theory\u2014and foxes\u2014who know many small things, comfortably navigating messy contradiction, nuance, and pluralistic models.",
+      "headline": "Foxes Versus Hedgehogs",
+      "body": "Hedgehogs view the whole world through one big idea.\nFoxes use many small ideas and accept messiness.\nBecause foxes stay open, they make far better predictions.",
       "quote": "The fox knows many things, but the hedgehog knows one big thing.",
-      "actionItem": "When confronting complex puzzles, assemble insights from three conflicting disciplines before choosing an intervention.",
+      "actionItem": "Look at your problem through three different lenses before deciding.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -765,10 +765,10 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       "author": "Philip E. Tetlock",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Chimpanzee Dart-Board Baseline",
-      "body": "In a landmark 20-year study tracking 284 experts and 82,800 predictions, average forecasters performed barely better than chance, routinely failing to beat an algorithmic dart-throwing chimp distributing equal odds across outcomes.",
+      "headline": "The Dart-Throwing Chimp",
+      "body": "Tetlock tracked thousands of expert forecasts over twenty years.\nThe average expert barely beat pure random chance.\nA monkey throwing darts scored just as well.",
       "quote": "It is impossible to find any domain in which humans clearly outperformed crude extrapolation algorithms.",
-      "actionItem": "Before assigning predictive brilliance to an expert, measure their accuracy against an equal-odds baseline.",
+      "actionItem": "Check expert claims against a simple coin flip or baseline rate.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -786,10 +786,10 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       "author": "Philip E. Tetlock",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Calibrate Subjective Probability With Real Numbers",
-      "body": "Vague verbiage like 'serious possibility' or 'imminent risk' provides psychological camouflage for incorrect guesses.\nTranslating intuitive gut feelings into hard percentage probabilities (e.g., 35% or 70%) exposes overconfidence to empirical scrutiny.",
+      "headline": "Use Real Numbers",
+      "body": "Words like 'maybe' or 'likely' hide bad guesses.\nUsing exact numbers like 70% makes your thinking clear.\nNumbers force you to be honest with yourself.",
       "quote": "Vagueness is the friend of the forecaster who wants to avoid ever being proven wrong.",
-      "actionItem": "Replace words like 'likely' or 'improbable' with specific percentage ranges in every decision log.",
+      "actionItem": "Stop saying 'probably' and write an exact percentage instead.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -807,10 +807,10 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       "author": "Philip E. Tetlock",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The 'Off on Timing' Defense Mechanism",
-      "body": "When predictions collapse, hedgehogs protect their overarching ideological model by asserting their causal logic remains flawless\u2014arguing the predicted apocalypse or miracle is simply taking longer to materialize than originally planned.",
+      "headline": "Bad Timing Excuses",
+      "body": "When experts guess wrong, they make quick excuses.\nThey claim their idea is still right, just delayed.\nThis keeps them from admitting they made a mistake.",
       "quote": "Belief systems are often held together by elaborate protective belts of auxiliary hypotheses.",
-      "actionItem": "Establish strict, non-negotiable time horizons for every forecast to prevent shifting goalposts later.",
+      "actionItem": "Put a strict deadline on every prediction you make.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -828,10 +828,10 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       "author": "Philip E. Tetlock",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Brier Score Reality Check",
-      "body": "A Brier score calculates the mean squared difference between probabilistic forecasts and actual real-world outcomes, acting as an impartial scoreboard that rewards calibrated accuracy while heavily penalizing unjustified extreme confidence.",
+      "headline": "Keep An Honest Scorecard",
+      "body": "A Brier score grades how close your odds were to reality.\nIt rewards honest accuracy and punishes cocky guesses.\nIt acts as an unbiased scoreboard for your mind.",
       "quote": "Good judgment requires not just knowing what you know, but knowing how much you do not know.",
-      "actionItem": "Track your quarterly strategic bets in a simple spreadsheet and calculate their precision when outcomes resolve.",
+      "actionItem": "Track your decisions in a sheet and score the results later.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -849,10 +849,10 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       "author": "Philip E. Tetlock",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Humility Outperforms Grandeur",
-      "body": "Tetlock demonstrates that predictive skill is not determined by academic credentials, access to classified intelligence, or ideological allegiance, but rather by cognitive style: whether one approaches reality with humility or dogmatism.",
+      "headline": "Humility Beats Big Credentials",
+      "body": "Fancy degrees do not guarantee accurate answers.\nPeople who admit what they do not know forecast better.\nQuiet humility beats loud confidence every time.",
       "quote": "Those who knew the most were often the most overconfident and made some of the poorest forecasts.",
-      "actionItem": "Prioritize forecasts from investigators who showcase their own uncertainties and past mistakes.",
+      "actionItem": "Trust people who freely talk about their past mistakes.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -870,10 +870,10 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       "author": "Philip E. Tetlock",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Near-Miss Fallacy",
-      "body": "When a predicted catastrophe fails to occur, dogmatic forecasters frequently rescue their reputation by claiming it almost happened, treating a non-event as a near-miss that essentially confirms their theoretical genius.",
+      "headline": "The Near-Miss Trap",
+      "body": "When an expert prediction fails, they often say it almost happened.\nThey treat a total miss like a partial win.\nIn reality, a miss is still just a miss.",
       "quote": "Experts easily convince themselves that they nearly got it right.",
-      "actionItem": "Disregard near-miss rationalizations when assessing forecasting track records; count missed outcomes as misses.",
+      "actionItem": "Count failed bets as losses instead of giving yourself credit for near-misses.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -891,10 +891,10 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       "author": "Philip E. Tetlock",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Conduct Asymmetry Tests on Your Beliefs",
-      "body": "Notice how you interpret reality: do you eagerly accept supporting evidence without resistance while applying hyper-skeptical scrutiny to conflicting data?\nSubjecting all inputs to an identical standard prevents systematic confirmation bias.",
+      "headline": "Test Both Sides Fairly",
+      "body": "We accept ideas we like without checking facts.\nYet we fiercely attack ideas we dislike.\nTreat all evidence with the exact same fair rule.",
       "quote": "We apply strict scrutiny to claims we dislike and minimal scrutiny to claims that soothe our preconceptions.",
-      "actionItem": "Write down the strongest counter-argument to your prevailing thesis and evaluate it using your opponents' criteria.",
+      "actionItem": "Find the best opposing argument and judge it with an open mind.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -912,10 +912,10 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       "author": "Philip E. Tetlock",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Bayesian Belief Updating",
-      "body": "High-performing forecasters view opinions as dynamic variables rather than permanent identities.\nWhen confronted with fresh empirical observations, they incrementally calibrate their priors instead of digging into trench warfare.",
+      "headline": "Update Beliefs In Steps",
+      "body": "Treat your beliefs like tests, not personal battles.\nWhen new facts appear, nudge your odds up or down.\nGreat thinkers change their minds step by step.",
       "quote": "Beliefs should be treated as testable hypotheses, not sacred treasures to defend.",
-      "actionItem": "When surprising news breaks, pause and explicitly nudge your probability score up or down by 5% to 15%.",
+      "actionItem": "When new facts arrive, adjust your confidence by ten percent.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -933,10 +933,10 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       "author": "Philip E. Tetlock",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Fame-Accuracy Paradox",
-      "body": "Mass media rewards polarizing hedgehogs who make flamboyant, catastrophic, or utopian assertions with absolute certainty.\nIronically, the very traits that manufacture television fame correlate inversely with reliable predictive acumen.",
+      "headline": "The Fame Paradox",
+      "body": "TV news loves loud pundits who make dramatic claims.\nBut famous pundits usually make the worst forecasts.\nFlashy drama sells airtime, but it ruins clear thinking.",
       "quote": "The more famous an expert was, the less accurate their forecasts turned out to be.",
-      "actionItem": "Discount the predictive certainty of media figures whose visibility relies on outrage, certainty, and drama.",
+      "actionItem": "Ignore loud media figures who speak with total certainty.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -954,10 +954,10 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       "author": "Philip E. Tetlock",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Deploy Dialectical Self-Debates",
-      "body": "Foxes consistently simulate competing voices inside their own minds.\nBy intentionally adopting the persona of a brilliant antagonist, you uncover blind spots, edge cases, and fragile assumptions before reality punishes them.",
+      "headline": "Argue With Yourself",
+      "body": "Foxes run debates inside their own heads.\nImagine a smart critic picking apart your plan.\nThis helps you catch blind spots before real trouble hits.",
       "quote": "Self-critical thinkers are constantly asking: what could make my favorite scenario fall apart?",
-      "actionItem": "Before finalizing any roadmap, draft a one-page memo detailing exactly how your strategy could disintegrate.",
+      "actionItem": "Write down three ways your current plan could fail.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -975,10 +975,10 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       "author": "Philip E. Tetlock",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Extremism and Diminishing Accuracy",
-      "body": "Dogmatic adherence to any monolithic framework\u2014whether free-market fundamentalism, radical Marxism, or deep ecology\u2014blinds thinkers to non-linear feedback loops and anomalies that contradict their ideological manifesto.",
+      "headline": "Extreme Views Blind You",
+      "body": "Stubborn loyalty to any single dogma creates huge blind spots.\nPeople ignore clear facts that clash with their club.\nRigid thinking always harms good judgment.",
       "quote": "Ideological zeal acts like a pair of blinders that makes peripheral movement invisible.",
-      "actionItem": "Identify which ideological community validates your opinions, and deliberately seek out their sharpest dissenter.",
+      "actionItem": "Read articles written by thoughtful critics of your favorite group.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -996,10 +996,10 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       "author": "Philip E. Tetlock",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Seduction of Narrative Coherence",
-      "body": "Human psychology hungers for neat, narrative closure.\nWe mistake an elegant, cohesive story for high probability, forgetting that reality frequently stumbles along via chaotic, disconnected accidents and historical contingencies.",
+      "headline": "Neat Stories Mislead Us",
+      "body": "We love tidy stories that make sense.\nBut real life is messy and full of accidents.\nA pretty story is not proof of truth.",
       "quote": "Coherence is not a substitute for correspondence with reality.",
-      "actionItem": "Beware of persuasive, tidy stories: ask what unmentioned random variables could easily derail the narrative.",
+      "actionItem": "Ask what random accident could ruin your favorite theory.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1017,10 +1017,10 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       "author": "Philip E. Tetlock",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Inside vs. Outside View",
-      "body": "The inside view fixates on the unique details, hopes, and mechanics of a specific case.\nThe outside view ignores internal idiosyncrasies and asks a foundational baseline question: across historical base rates, how often does this type of event occur?",
+      "headline": "Inside Versus Outside View",
+      "body": "The inside view focuses only on your special situation.\nThe outside view asks how often this happens in general.\nAlways start with the general rate.",
       "quote": "Failure to consult base rates is one of the most pervasive sources of predictive error.",
-      "actionItem": "Before planning a major venture, calculate the historical success rate of peer endeavors in that category.",
+      "actionItem": "Look up how often similar projects succeed before setting targets.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1038,10 +1038,10 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       "author": "Philip E. Tetlock",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Hindsight Bias Rewrites History",
-      "body": "Once an unexpected historical outcome occurs, humans rapidly convince themselves they foresaw it all along.\nThis retrospective illusion erases our prior uncertainty and deprives our cognitive software of genuine learning opportunities.",
+      "headline": "I Knew It All Along",
+      "body": "After something happens, people claim they saw it coming.\nThis trick of memory hides our past confusion.\nWhen we forget our doubts, we fail to learn.",
       "quote": "Once an outcome occurs, people systematically overestimate how likely they thought it was beforehand.",
-      "actionItem": "Date-stamp and lock your predictions in writing so you cannot rewrite your memories after the fact.",
+      "actionItem": "Write down your guesses today so you cannot rewrite the past.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1059,10 +1059,10 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       "author": "Philip E. Tetlock",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Break Big Problems into Fermi Sub-Components",
-      "body": "When tackling sweeping, ambiguous questions, foxes don't leap straight to gut declarations.\nThey decompose complex problems into tractable, measurable sub-questions, bounding uncertainty step by step.",
+      "headline": "Break Big Problems Down",
+      "body": "Do not tackle giant questions all at once.\nChop them down into smaller pieces you can measure.\nSolving small pieces gives you the big answer.",
       "quote": "Break the intractable down into manageable, empirically answerable parts.",
-      "actionItem": "Deconstruct a vague forecast into three measurable components before assigning an overall probability.",
+      "actionItem": "Split one big, hard problem into three simple questions today.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1080,10 +1080,10 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       "author": "Philip E. Tetlock",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Overconfidence as an Inverted U-Curve",
-      "body": "As experts amass specialized credentials and information, their confidence skyrockets linearly, yet their predictive accuracy flattens or drops.\nMore data often serves merely to rationalize existing biases rather than refine precision.",
+      "headline": "The Overconfidence Curve",
+      "body": "As people learn more, their confidence shoots way up.\nYet their actual forecast accuracy stays flat.\nToo much extra data just feeds your old habits.",
       "quote": "Knowledge is a double-edged sword that can generate illusions of mastery.",
-      "actionItem": "When researching a topic, deliberately stop gathering confirmatory evidence once core base rates are clear.",
+      "actionItem": "Stop hunting for extra facts once your baseline numbers make sense.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1101,10 +1101,10 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       "author": "Philip E. Tetlock",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Counterfactual Flattery",
-      "body": "People readily construct alternate histories to comfort themselves: 'If the weather hadn't turned bad, our military campaign would have prevailed.' These selective counterfactuals immunize failed theories from empirical falsification.",
+      "headline": "Fake 'What-If' Excuses",
+      "body": "People make up fake histories when they lose.\nThey claim bad luck ruined an otherwise perfect plan.\nThis excuse stops people from facing their real mistakes.",
       "quote": "We invent alternate universes to prove we were right in spirit if not in fact.",
-      "actionItem": "Refuse to use hypothetical 'what if' histories to salvage an assumption that broke against empirical data.",
+      "actionItem": "Accept bad results without inventing 'what-if' excuses to soften the blow.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1122,10 +1122,10 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       "author": "Philip E. Tetlock",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Value of Nuanced Ambiguity",
-      "body": "The pursuit of truth demands enduring the cognitive discomfort of living with unresolved contradictions rather than forcing the world into artificial, satisfying intellectual clarity.",
+      "headline": "Embrace The Gray Areas",
+      "body": "The real world does not fit into simple boxes.\nReal truth requires living with doubts and contradictions.\nSimple answers are often just lazy answers.",
       "quote": "Good forecasters have a high tolerance for cognitive dissonance and a healthy appetite for nuance.",
-      "actionItem": "Catch yourself when reaching for an easy black-and-white explanation; highlight two messy nuances instead.",
+      "actionItem": "Name two trade-offs whenever someone pushes a simple solution.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1143,10 +1143,10 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       "author": "Philip E. Tetlock",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Ensemble Forecasting and Team Cognitive Diversity",
-      "body": "No single individual possesses all relevant perspectives.\nCombining predictions from multiple independent foxes with distinct mental models consistently outstrips even the most brilliant single subject-matter specialist.",
+      "headline": "Combine Different Minds",
+      "body": "No single person knows everything.\nCombining guesses from diverse thinkers beats any lone genius.\nMixing different views washes away personal blind spots.",
       "quote": "Aggregating diverse, independent perspectives is one of the most reliable ways to wash out idiosyncratic error.",
-      "actionItem": "Pool estimates from three colleagues with opposing disciplinary backgrounds and take their weighted average.",
+      "actionItem": "Average the estimates of three teammates with different skill sets.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1161,44 +1161,48 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
   "mindMap": {
     "id": "root",
     "label": "Expert Political Judgment",
-    "description": "Philip Tetlock's groundbreaking twenty-year study investigates how experts predict global events and why so many predictions fail.\nThrough empirical rigor, it uncovers the cognitive habits, statistical realities, and systemic blind spots that separate genuine foresight from overconfident delusion.",
+    "description": "This study tests how well experts predict world events.\nIt shows why so many expert guesses fail.",
     "children": [
       {
         "id": "epistemological-divide",
-        "label": "The Epistemological Divide: Foxes vs. Hedgehogs",
-        "description": "Borrowing Archilochus's classic fable, Tetlock divides thinkers into two distinct cognitive architectures with drastically different predictive track records.\nThis fundamental distinction reveals how our thinking style governs how we interpret evidence, update beliefs, and navigate complex real-world systems.",
+        "label": "Foxes Versus Hedgehogs",
+        "description": "Thinkers fall into two main groups.\nHow you think shapes how well you predict the future.",
         "children": [
           {
             "id": "hedgehog-mindset",
-            "label": "The Hedgehog Mindset: The Big Idea",
-            "description": "Hedgehogs organize their world around one grand overarching theory, viewing complex geopolitics through a single ideological prism.\nWhile persuasive and media-friendly, this conceptual rigidity causes them to miss anomalous signals that contradict their core belief.",
+            "label": "The Hedgehog Mindset",
+            "description": "Hedgehogs explain everything using one big idea.\nThey stay stubborn and miss facts that prove them wrong.",
             "children": [
               {
                 "id": "ideological-reductionism",
-                "label": "Ideological Reductionism",
-                "description": "Hedgehogs compress multi-causal reality into convenient deterministic models like free-market absolutism or structural Marxism.\nThis reductionist lens strips away crucial systemic nuances, making their forecasts brittle when black swan events strike."
+                "label": "One-Track Thinking",
+                "description": "They force complex world events into one simple theory.\nThis causes big mistakes when surprise events happen.",
+                "children": []
               },
               {
                 "id": "extreme-calibration-penalties",
-                "label": "Extreme Calibration Penalties",
-                "description": "Hedgehogs consistently assign 80% to 100% probabilities to extreme outcomes that rarely materialize.\nTheir radical overconfidence inflates error scores, revealing a striking mismatch between internal certainty and external reality."
+                "label": "Wild Overconfidence",
+                "description": "They claim extreme events are almost certain to happen.\nIn reality, their extreme forecasts rarely come true.",
+                "children": []
               }
             ]
           },
           {
             "id": "fox-mindset",
-            "label": "The Fox Mindset: Eclectic Pragmatism",
-            "description": "Foxes navigate uncertainty by blending insights from multiple competing disciplines, theories, and perspectives without committing dogmatically to any single one.\nTheir epistemic humility allows them to spot emerging anomalies and adjust to fluid landscapes far more effectively.",
+            "label": "The Fox Mindset",
+            "description": "Foxes use many different ideas and viewpoints.\nThey stay open-minded and adjust when things change.",
             "children": [
               {
                 "id": "multidisciplinary-synthesis",
-                "label": "Multidisciplinary Synthesis",
-                "description": "Rather than relying on one master narrative, foxes stitch together evolutionary biology, market incentives, and psychological dynamics.\nThis diverse mosaic of mental models prevents catastrophic blind spots when singular theories collapse."
+                "label": "Blending Many Ideas",
+                "description": "Foxes borrow tools from many different fields.\nThis stops them from relying on just one weak theory.",
+                "children": []
               },
               {
                 "id": "probabilistic-calibration",
-                "label": "Nuanced Calibration",
-                "description": "Foxes instinctively communicate in shades of gray, assigning calibrated probabilities like 40% or 60% rather than binary absolutes.\nOver thousands of trials, their subjective confidence closely mirrors real-world objective frequencies."
+                "label": "Thinking in Chances",
+                "description": "They talk in odds like forty or sixty percent.\nTheir personal confidence closely matches real-world results.",
+                "children": []
               }
             ]
           }
@@ -1206,40 +1210,44 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       },
       {
         "id": "empirical-benchmarking",
-        "label": "Empirical Benchmarking: The 20-Year Study",
-        "description": "Tetlock subjected 284 political, economic, and security experts to nearly 28,000 specific forecasting trials over two decades.\nBy comparing human judgment against formal algorithmic benchmarks, the study established the first objective baseline for geopolitical foresight.",
+        "label": "The 20-Year Test",
+        "description": "Researchers tracked thousands of expert forecasts over twenty years.\nThey tested human judgment against simple math rules.",
         "children": [
           {
             "id": "chimpanzee-dart-benchmark",
-            "label": "The Chimp Dart-Throwing Baseline",
-            "description": "Tetlock established a baseline of pure randomness, famously asking if human experts could beat a dart-throwing chimpanzee assigning equal odds.\nIn aggregate, the average specialist barely outperformed random chance, particularly when forecasting long-range systemic trajectories.",
+            "label": "The Chimp Test",
+            "description": "The test asked if experts could beat random guesses.\nMost experts did no better than pure chance.",
             "children": [
               {
                 "id": "base-rate-neglect",
-                "label": "Base-Rate Neglect",
-                "description": "Experts frequently ignored historical frequency baselines in favor of compelling, highly narrative case studies.\nForgetting how rarely sudden state collapses actually occur caused forecasters to routinely overpredict dramatic disruptions."
+                "label": "Ignoring Past Odds",
+                "description": "Experts fall for exciting stories.\nThey forget how rarely dramatic events actually happen.",
+                "children": []
               },
               {
                 "id": "regression-to-the-mean",
-                "label": "Blindness to Mean Reversion",
-                "description": "When a regime or economic metric was experiencing historic highs or lows, forecasters projected linear continuation.\nThey chronically underestimated how stabilizing homeostatic feedback loops drag runaway systems back toward long-term historical averages."
+                "label": "Ignoring the Average",
+                "description": "Things at record highs or lows usually return to normal.\nExperts wrongly predict extreme trends will keep going forever.",
+                "children": []
               }
             ]
           },
           {
             "id": "algorithmic-contrasts",
-            "label": "Crude Algorithms vs. Human Expertise",
-            "description": "Simple statistical algorithms, such as minimalist linear regression and auto-regressive models, consistently outperformed seasoned geopolitical analysts.\nThe machines lacked human imagination, but they also lacked human vanity, selective memory, and narrative bias.",
+            "label": "Simple Math Formulas",
+            "description": "Basic math rules beat top human experts.\nFormulas do not have pride or wishful thinking.",
             "children": [
               {
                 "id": "linear-model-superiority",
-                "label": "The Ruthless Consistency of Linear Models",
-                "description": "Simple models weigh critical variables with unwavering consistency across every case without suffering from fatigue or emotional bias.\nHumans alter their weighting schemes on whim, injecting cognitive noise that degrades predictive accuracy."
+                "label": "Steady Computer Rules",
+                "description": "Formulas apply the same rules every single time.\nHumans change their minds based on mood and fatigue.",
+                "children": []
               },
               {
                 "id": "the-broken-leg-fallacy",
-                "label": "The Broken-Leg Problem",
-                "description": "Experts frequently override statistical baselines because they believe they have discovered a unique, exceptional variable.\nIn reality, these idiosyncratic exceptions are usually red herrings that degrade rather than enhance predictive power."
+                "label": "Looking for Exceptions",
+                "description": "Experts often think they found a special exception.\nThese unique hunches usually ruin forecast accuracy.",
+                "children": []
               }
             ]
           }
@@ -1247,42 +1255,45 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       },
       {
         "id": "cognitive-defenses",
-        "label": "Cognitive Defense Mechanisms & Belief Preservation",
-        "description": "When expert forecasts were shattered by reality, Tetlock observed that analysts rarely admitted their underlying mental models were wrong.\nInstead, experts deployed intricate psychological maneuvers to rescue their intellectual status and protect their core belief systems.",
+        "label": "Making Excuses",
+        "description": "Experts hate admitting when their predictions go wrong.\nInstead, they make up clever excuses to save face.",
         "children": [
           {
             "id": "off-on-timing-defense",
-            "label": "The 'Off on Timing' Defense",
-            "description": "Forecasters whose predicted catastrophes failed to happen claimed their fundamental analysis was sound and only the clock was mistaken.\nBy stretching the deadline into an indefinite future, their hypotheses become unfalsifiable and immune to empirical correction.",
+            "label": "Wrong Timing Excuse",
+            "description": "Experts claim they were right, just too early.\nThey push the date back so they never look wrong.",
             "children": [
               {
                 "id": "perpetual-crisis-framing",
-                "label": "Perpetual Crisis Framing",
-                "description": "Doomsayers continuously push back the horizon of systemic collapse whenever their predictions fail to materialize.\nThis mental trick preserves their professional standing by portraying disaster as lingering just around the corner."
+                "label": "Always Almost Happening",
+                "description": "Doom prophets keep moving their deadline forward.\nThey claim disaster is still right around the corner.",
+                "children": []
               }
             ]
           },
           {
             "id": "almost-right-scenario",
-            "label": "The 'Almost Right' Counterfactual",
-            "description": "Experts argued that their predicted outcome would have happened if not for an unforeseen, trivial fluke at the eleventh hour.\nThey treated close calls as moral victories, using unobservable alternate realities to validate their broken forecasts.",
+            "label": "The Near-Miss Excuse",
+            "description": "Experts argue they were nearly right except for bad luck.\nThey treat close misses as personal victories.",
             "children": [
               {
                 "id": "counterfactual-asymmetry",
-                "label": "Asymmetric Counterfactual Auditing",
-                "description": "When experts guessed correctly, they attributed it purely to their insightful causal theories rather than luck.\nWhen they guessed incorrectly, they blamed random historical flukes, shielding their core worldview from challenge."
+                "label": "Double Standards",
+                "description": "When right, experts praise their own genius.\nWhen wrong, they blame random bad luck.",
+                "children": []
               }
             ]
           },
           {
             "id": "unforeseeable-shock-excuse",
-            "label": "The 'Exogenous Shock' Exception",
-            "description": "Analysts defended failed predictions by defining unexpected variables as unfair, black-swan anomalies outside their jurisdiction.\nThis reveals a cognitive double standard: experts take credit for complex trends while outsourcing unpredictability to external anomalies.",
+            "label": "The Surprise Excuse",
+            "description": "They blame surprise shocks that nobody could foresee.\nThey take credit for wins but blame bad luck for losses.",
             "children": [
               {
                 "id": "boundary-shifting",
-                "label": "Convenient Boundary-Shifting",
-                "description": "Experts retroactively shrink their analytical model's scope whenever an awkward variable shatters their original thesis.\nThis lets them claim their model was pristine within its newly restricted, synthetic borders."
+                "label": "Moving the Goalposts",
+                "description": "Experts shrink what their original prediction covered.\nThis lets them pretend their theory is still spotless.",
+                "children": []
               }
             ]
           }
@@ -1290,40 +1301,44 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       },
       {
         "id": "evaluation-metrics",
-        "label": "The Physics of Foresight: Scoring Judgment",
-        "description": "Tetlock applied mathematical scoring rules from meteorological forecasting to geopolitical assessment, moving evaluation from rhetoric to quantitative performance.\nThis rigorous measurement framework exposes hidden trade-offs between bold conjecture and calibrated accuracy.",
+        "label": "Scoring Predictions",
+        "description": "Clear math scores show who actually predicts best.\nThis separates real accuracy from confident smooth talk.",
         "children": [
           {
             "id": "brier-scores",
-            "label": "Brier Score Decomposition",
-            "description": "The Brier score measures the mean squared error between subjective probability assignments and actual binary outcomes.\nIt breaks predictive performance down into distinct mathematical components, separating raw accuracy from fine-grained discrimination.",
+            "label": "The Accuracy Score",
+            "description": "A math score tracks errors in expert guesses.\nIt measures true accuracy across many tries.",
             "children": [
               {
                 "id": "calibration-dimension",
-                "label": "Calibration: The Honesty of Probabilities",
-                "description": "Calibration measures whether events happen as often as an analyst says they will over repeated trials.\nA forecaster with stellar calibration ensures that of all the events given a 70% probability, exactly seven out of ten actually occur."
+                "label": "Honest Probabilities",
+                "description": "This checks if your confidence matches reality.\nThings you give seventy percent odds should happen seven in ten times.",
+                "children": []
               },
               {
                 "id": "resolution-dimension",
-                "label": "Resolution: The Courage of Discrimination",
-                "description": "Resolution measures a thinker's ability to decisively separate events that occur from those that do not, moving away from safe base rates.\nHigh resolution requires boldly moving toward 0% and 100% when signals warrant, without collapsing into reckless overconfidence."
+                "label": "Making Bold Calls",
+                "description": "This measures the nerve to make clear yes-or-no calls.\nGood forecasters take stands without being reckless.",
+                "children": []
               }
             ]
           },
           {
             "id": "content-tradeoffs",
-            "label": "Content vs. Methodological Specialization",
-            "description": "Tetlock found that deep historical domain expertise had virtually zero correlation with superior long-term forecasting accuracy.\nWhat mattered was not how much specialized knowledge an analyst possessed, but how that analyst processed dynamic, incoming information.",
+            "label": "Knowledge Versus Method",
+            "description": "Deep subject knowledge does not guarantee better forecasts.\nHow you think matters more than how much you know.",
             "children": [
               {
                 "id": "curse-of-knowledge",
-                "label": "The Curse of Hyper-Specialized Knowledge",
-                "description": "Vast regional expertise often blinds analysts by tempting them to weave needlessly elaborate, fragile causal narratives.\nThese complex theories frequently underperform broader, parsimonious systemic models that stick to base rates."
+                "label": "Knowing Too Much",
+                "description": "Super-specialized experts invent overly complex stories.\nThese complicated guesses usually lose to simple historical facts.",
+                "children": []
               },
               {
                 "id": "provisional-updating",
-                "label": "Bayesian Belief Updating",
-                "description": "Top performers update their beliefs in incremental, mathematical proportions according to Bayes' Rule.\nThey do not cling to past claims, but impartially adjust probabilities as new real-world evidence trickles in."
+                "label": "Updating with Facts",
+                "description": "The best thinkers change their minds as new facts arrive.\nThey do not cling to past claims.",
+                "children": []
               }
             ]
           }
@@ -1331,40 +1346,44 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
       },
       {
         "id": "societal-media-dynamics",
-        "label": "Systemic Feedback Loops: Media & Incentives",
-        "description": "The modern attention economy actively selects for bad forecasting, creating systemic distortions that reward confident hedgehogs while ignoring cautious foxes.\nUnderstanding this incentive landscape explains why public political discourse remains perpetually overconfident.",
+        "label": "Media and Incentives",
+        "description": "TV and news reward loud, extreme opinions.\nThis system favors confident loud voices over cautious thinkers.",
         "children": [
           {
             "id": "soundbite-selection",
-            "label": "The Media's Overconfidence Premium",
-            "description": "Television networks and opinion pages favor bold, provocative, and uncompromising declarations over nuanced probability intervals.\nAs a result, hedgehogs dominate airwaves because their absolute assertions deliver theatrical drama and clear narratives.",
+            "label": "Rewarding Loud Voices",
+            "description": "The media loves dramatic, certain claims.\nStubborn hedgehogs get invited on TV because they bring drama.",
             "children": [
               {
                 "id": "punishment-of-nuance",
-                "label": "The Disincentive for Nuance",
-                "description": "Pundits who qualify their forecasts with error margins and conditional probabilities are dismissed as indecisive or evasive.\nThe public craves psychological certainty, punishing thinkers who transparently expose the deep randomness of reality."
+                "label": "Punishing Honest Doubt",
+                "description": "People who talk about chances get called weak or indecisive.\nAudiences want easy answers, not honest uncertainty.",
+                "children": []
               },
               {
                 "id": "fame-inaccuracy-correlation",
-                "label": "The Inverse Fame Correlation",
-                "description": "Tetlock demonstrated an inverse correlation between an expert's media visibility and their empirical predictive accuracy.\nThe more prominent a commentator becomes, the more ideological and overconfident their public forecasts tend to be."
+                "label": "Fame Lowers Accuracy",
+                "description": "The more famous a pundit gets, the worse their guesses become.\nCelebrity forecasters tend to be the most overconfident.",
+                "children": []
               }
             ]
           },
           {
             "id": "accountability-systems",
-            "label": "Designing Accountable Forecasting Arenas",
-            "description": "To fix our broken forecasting culture, Tetlock advocates for structured institutional tournaments where predictions are preregistered, tracked, and scored transparently.\nRemoving rhetorical wiggle room turns political analysis into a cumulative, self-correcting science.",
+            "label": "Keeping Real Score",
+            "description": "We need open contests that score every prediction.\nTracking real results forces experts to be honest.",
             "children": [
               {
                 "id": "pre-registered-prediction",
-                "label": "Pre-Registration & Timestamping",
-                "description": "Requiring analysts to specify precise probability metrics, explicit conditionality, and unambiguous deadlines eliminates retroactive spin.\nThis paper trail holds thinkers directly accountable to the cold verdict of reality."
+                "label": "Writing Guesses Down",
+                "description": "Experts must write down exact odds and dates in advance.\nThis stops them from changing their stories later.",
+                "children": []
               },
               {
                 "id": "epistemic-reputation-markets",
-                "label": "Reputational Stakes on Calibration",
-                "description": "Institutions must reward analysts based on proven Brier scores rather than their rhetorical flair or ideological loyalty.\nRealigning reputational incentives elevates the humble, multi-perspective fox over the blustering hedgehog."
+                "label": "Rewarding Good Scores",
+                "description": "We should praise forecasters who are proven right by numbers.\nThis rewards humble thinkers over loud talkers.",
+                "children": []
               }
             ]
           }

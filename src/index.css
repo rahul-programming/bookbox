@@ -37,6 +37,14 @@
   }
 }
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+  width: 100%;
+  position: relative;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
@@ -44,6 +52,13 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
+}
+
+#root {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  position: relative;
 }
 
 /* Sepia Theme Overrides for Warm Paper Feel */
@@ -99,13 +114,21 @@ html.sepia .text-slate-500 {
 /* 3D Flip Card Styles for Idea Cards */
 .perspective-1000 {
   perspective: 1000px;
+  -webkit-perspective: 1000px;
 }
 .transform-style-3d {
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
 }
 .backface-hidden {
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 .rotate-y-180 {
   transform: rotateY(180deg);
+}
+.card-face-clip {
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  clip-path: inset(0 round 1rem);
+  -webkit-clip-path: inset(0 round 1rem);
 }

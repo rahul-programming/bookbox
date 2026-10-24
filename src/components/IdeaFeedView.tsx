@@ -70,7 +70,7 @@ export const IdeaFeedView: React.FC<IdeaFeedViewProps> = ({ onSelectBook, onOpen
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+    <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-6 w-full max-w-full overflow-hidden">
       
       {/* Top Banner */}
       <div className="rounded-3xl bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 p-6 sm:p-8 text-white shadow-lg">
@@ -156,7 +156,7 @@ export const IdeaFeedView: React.FC<IdeaFeedViewProps> = ({ onSelectBook, onOpen
                   }`}
                 >
                   {/* Front of Card */}
-                  <div className="absolute inset-0 p-5 flex flex-col justify-between backface-hidden rounded-2xl overflow-hidden">
+                  <div className="absolute inset-0 p-5 flex flex-col justify-between backface-hidden rounded-2xl overflow-hidden card-face-clip">
                     {/* Top Meta Bar */}
                     <div className="flex items-center justify-between gap-2 mb-2 shrink-0">
                       <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-blue-50 dark:bg-blue-950/60 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-900">
@@ -241,12 +241,19 @@ export const IdeaFeedView: React.FC<IdeaFeedViewProps> = ({ onSelectBook, onOpen
                   </div>
 
                   {/* Back of Card */}
-                  <div className="absolute inset-0 p-5 flex flex-col justify-between rotate-y-180 backface-hidden rounded-2xl bg-slate-50 dark:bg-slate-900/95 overflow-hidden">
+                  <div className="absolute inset-0 p-5 flex flex-col justify-between rotate-y-180 backface-hidden rounded-2xl bg-slate-50 dark:bg-slate-900/95 overflow-hidden card-face-clip">
                     {/* Top Meta Bar */}
                     <div className="flex items-center justify-between gap-2 mb-2 shrink-0">
                       <span className="text-[10px] font-bold text-purple-600 dark:text-purple-400 uppercase tracking-wider">
                         Action Heuristic & Source
                       </span>
+                      <button
+                        onClick={() => toggleFlip(idea.id)}
+                        className="p-1.5 rounded-lg border border-purple-200 dark:border-purple-800 hover:bg-purple-100 dark:hover:bg-purple-950 text-purple-600 dark:text-purple-400 transition cursor-pointer"
+                        title="Back to Card"
+                      >
+                        <RotateCw className="w-3.5 h-3.5" />
+                      </button>
                     </div>
 
                     {/* Scrollable Back Content */}

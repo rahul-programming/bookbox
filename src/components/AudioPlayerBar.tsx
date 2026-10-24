@@ -205,8 +205,8 @@ export const AudioPlayerBar: React.FC<AudioPlayerBarProps> = ({
   return (
     <>
       {/* Floating Audio Narration Bottom Bar */}
-      <div className="fixed bottom-0 left-0 right-0 z-40 p-2.5 sm:p-3.5 bg-slate-900/95 dark:bg-slate-950/95 text-white border-t border-slate-700/80 backdrop-blur-lg shadow-2xl transition-all">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-3">
+      <div className="fixed bottom-0 left-0 right-0 z-40 p-2.5 sm:p-3.5 bg-slate-900/95 dark:bg-slate-950/95 text-white border-t border-slate-700/80 backdrop-blur-lg shadow-2xl transition-all max-w-full overflow-hidden">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-3 w-full min-w-0">
           
           {/* LEFT-ALIGNED: Complete Playback Controls + Speed Stepper + Voice Modal Trigger */}
           <div className="flex items-center flex-wrap gap-1.5 sm:gap-2">

@@ -1,5 +1,5 @@
 // Linked: How Everything Is Connected by Albert-László Barabási
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -674,169 +674,169 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
   "actionItems": [
     {
       "id": "linked-how-everything-is-connected-act-1",
-      "title": "Map Your Weak-Tie Bridges",
-      "description": "Close friends form tight clusters, while acquaintances build bridges to distant social worlds. Spotting your weak ties reveals surprising paths to fresh ideas and unseen opportunities.",
+      "title": "Reach Out to Distant Contacts",
+      "description": "Casual acquaintances open doors to fresh ideas. Talking to them brings views your close friends miss.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Open your messaging app or contact list and scroll back 6 to 12 months.",
-        "List 3 people outside your immediate circle whose work or interests differ completely from yours.",
-        "Draft a brief, friendly check-in note to one of them asking what intriguing project they are currently exploring.",
-        "Notice what novel information flows back that your usual circle would never discuss."
+        "1. Open your chat app and scroll back several months.",
+        "2. Pick three people who work outside your daily field.",
+        "3. Send one person a short, friendly text today.",
+        "4. Ask them what exciting project they are working on."
       ],
       "sourceChapter": "Chapter 3: The Six Degrees of Separation"
     },
     {
       "id": "linked-how-everything-is-connected-act-2",
-      "title": "Spot the Super-Hubs in Your Field",
-      "description": "Real-world networks are not democratic; a tiny fraction of highly connected hubs hold the entire web together. Pinpointing the key hubs in your industry shows you where influence truly concentrates.",
+      "title": "Find Key Industry Connectors",
+      "description": "A few well-connected leaders link whole industries together. Following them shows you where big trends begin.",
       "category": "audit",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Select your core domain or industry niche.",
-        "Identify 3 major individuals, organizations, or newsletters that connect disparate groups together.",
-        "Check how many links or introductions in your career trace back to these specific nodes.",
-        "Track the content or announcements they amplify to observe upcoming shifts before they become mainstream."
+        "1. Pick your main work field or personal hobby.",
+        "2. List three top leaders or newsletters everyone follows.",
+        "3. Check which past career opportunities came from them.",
+        "4. Follow their posts to spot big changes early."
       ],
       "sourceChapter": "Chapter 5: Hubs and Connectors"
     },
     {
       "id": "linked-how-everything-is-connected-act-3",
-      "title": "Audit Single Points of Vulnerability",
-      "description": "Scale-free networks resist random breakdowns effortlessly, but crumble when targeted at their central hubs. Auditing your critical dependencies reveals hidden fragility in your personal operations.",
+      "title": "Fix Single Points of Failure",
+      "description": "Losing one central tool can freeze all your work. Setting up simple backups prevents sudden painful shutdowns.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "List every tool, service, or person whose sudden disappearance would freeze your daily workflow.",
-        "Circle any node that handles more than 50% of your critical communication or data storage.",
-        "Write down an immediate backup alternative for your single most critical hub.",
-        "Test accessing that alternative today so a potential disruption won't paralyze you."
+        "1. List tools or people your daily work needs most.",
+        "2. Mark any item that holds most of your data.",
+        "3. Choose a solid backup option for that item.",
+        "4. Test that backup now so you stay safe."
       ],
       "sourceChapter": "Chapter 9: The Fragile Web"
     },
     {
       "id": "linked-how-everything-is-connected-act-4",
-      "title": "Establish a Cross-Domain Information Diet",
-      "description": "Ideas stagnate when your incoming feed forms an insular cluster. Introducing deliberate random connections breaks cognitive echo chambers and fuels breakthrough insights.",
+      "title": "Read Outside Your Usual Bubble",
+      "description": "Reading the same topics makes your ideas feel stale. Exploring random subjects sparks surprising creative breakthroughs.",
       "category": "environment",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Review your browser bookmarks, RSS feeds, or news app subscriptions.",
-        "Subscribe to one publication or journal completely outside your industry (such as marine biology, urban planning, or materials science).",
-        "Place this new source directly next to your primary professional reading tab.",
-        "Read one article from it weekly to import distant metaphors into your everyday problem-solving."
+        "1. Check your daily bookmarks and news app feeds.",
+        "2. Pick one topic completely unrelated to your job.",
+        "3. Follow one blog or magazine on that topic.",
+        "4. Read one fresh article from it each week."
       ],
       "sourceChapter": "Chapter 4: Small Worlds"
     },
     {
       "id": "linked-how-everything-is-connected-act-5",
-      "title": "Log Daily Positive Feedback Loops",
-      "description": "In preferential attachment, small early leads compound exponentially through the rich-get-richer dynamic. Tracking daily reinforcing loops helps you harness cumulative advantage intentionally.",
+      "title": "Build Momentum with Daily Wins",
+      "description": "Small daily wins grow faster when you connect them. Linking your tasks helps your past work help you tomorrow.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "At the end of your workday, write down one small positive action you completed (e.g., publishing a note, shipping a feature).",
-        "Ask yourself: 'Does this action make the next iteration easier, or does it vanish once finished?'",
-        "Identify one way to link today's output directly into an existing repository, project index, or ongoing conversation.",
-        "Commit to repeating this linking step daily so your effort compounds like interest."
+        "1. Write down one useful task you finished today.",
+        "2. Ask if this win helps your next task.",
+        "3. Link today's work to a main shared project folder.",
+        "4. Repeat this quick habit at every day's end."
       ],
       "sourceChapter": "Chapter 6: The 80/20 Rule and Preferential Attachment"
     },
     {
       "id": "linked-how-everything-is-connected-act-6",
-      "title": "Prune Clustering to Prevent Groupthink",
-      "description": "High clustering creates warmth and trust, but it also breeds echo chambers that resist corrective feedback. Auditing team meetings ensures dissenting viewpoints stay connected to the center.",
+      "title": "Invite Outside Voices to Meetings",
+      "description": "Teams that think alike often miss obvious flaws. Bringing in outside observers catches blind spots fast.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Observe your upcoming recurring project or team meetings.",
-        "Check whether all attendees belong to the exact same department or shared worldview.",
-        "Invite one guest observer from a neighboring department or an external advisory role to the next session.",
-        "Ask them specifically to flag assumptions that people inside the cluster take for granted."
+        "1. Look at your next big team work meeting.",
+        "2. Check if all members share the same views.",
+        "3. Invite one guest from a totally different team.",
+        "4. Ask them to point out your shared assumptions."
       ],
       "sourceChapter": "Chapter 4: Small Worlds"
     },
     {
       "id": "linked-how-everything-is-connected-act-7",
-      "title": "Build a Shared Knowledge Graph",
-      "description": "Organizing notes in isolated folders mimics old hierarchical trees, whereas thought operates as an interconnected scale-free network. Linking ideas organically sparks unexpected connections.",
+      "title": "Link Your Separate Notes Together",
+      "description": "Locking notes in isolated folders hides helpful connections. Linking related ideas together reveals exciting new insights.",
       "category": "system",
       "timeEstimateMinutes": 35,
       "stepByStep": [
-        "Select your preferred digital notebook (such as Obsidian, Roam, or Notion).",
-        "Pick 5 notes written over the past month that currently sit in separate folders.",
-        "Create bi-directional links between any notes that share a core principle, question, or mechanism.",
-        "Add a central 'Hub Note' that summarizes how these concepts interact dynamically."
+        "1. Open your favorite notes or writing app today.",
+        "2. Pick five notes filed in completely different folders.",
+        "3. Add clickable links between notes with similar themes.",
+        "4. Create one main note tying them all together."
       ],
       "sourceChapter": "Chapter 7: Rich Get Richer"
     },
     {
       "id": "linked-how-everything-is-connected-act-8",
-      "title": "Test Fitness Over Pure Seniority",
-      "description": "The simple rich-get-richer model predicts older nodes always win, yet higher 'fitness' lets newcomers leapfrog legacy giants. Gauging innate quality ensures you do not mistake age for competitive superiority.",
+      "title": "Test Old Habits Against New",
+      "description": "Old habits often survive just because they came first. Trying newer tools helps you find better, faster solutions.",
       "category": "audit",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Examine 3 products, habits, or routines you maintain simply because 'that's how it's always been done.'",
-        "Score each on pure utility, efficiency, and delight (fitness) on a scale of 1 to 10.",
-        "Compare them to a newer, leaner tool or method you have hesitated to adopt.",
-        "Replace the lowest-scoring legacy routine with the high-fitness challenger for a one-week trial."
+        "1. Pick three habits you keep out of tradition.",
+        "2. Score each tool from one to ten on usefulness.",
+        "3. Find a modern tool with a better design.",
+        "4. Try the newer tool for one full week."
       ],
       "sourceChapter": "Chapter 8: Fit Get Richer"
     },
     {
       "id": "linked-how-everything-is-connected-act-9",
-      "title": "Trace Contagion Cascades in Daily Habits",
-      "description": "Behaviors, moods, and productivity spread along social ties like spreading epidemics. Mapping who influences your energy illuminates unconscious social contagions.",
+      "title": "Stop Catching Other Peoples Moods",
+      "description": "Stress and bad moods spread quickly through group chats. Spotting bad vibes early helps you protect your energy.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Notice a sudden shift in your mood, energy level, or stress during the day.",
-        "Trace backward 30 minutes to identify the interaction or message thread that preceded it.",
-        "Note whether you absorbed that state from a connected node in your network.",
-        "Take two deliberate deep breaths and choose whether to propagate that emotional state or break the cascade."
+        "1. Notice when your mood drops suddenly during work.",
+        "2. Look back at your recent chats or emails.",
+        "3. Ask if you absorbed someone else's quiet stress.",
+        "4. Take two deep breaths and release that tension."
       ],
       "sourceChapter": "Chapter 10: Viruses and Fads"
     },
     {
       "id": "linked-how-everything-is-connected-act-10",
-      "title": "Engineered Serendipity Walks",
-      "description": "Strict physical routines entrench predictable networks. Changing your physical navigation path injects random encounters and exposes you to unexpected environmental cues.",
+      "title": "Take an Unfamiliar Daily Route",
+      "description": "Walking identical paths every day makes thinking feel rigid. Taking new streets wakes up your creative senses.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Take a planned 15-minute walk or commute today.",
-        "Intentionally abandon your standard path and take two turns down unfamiliar streets or office hallways.",
-        "Notice three distinct details, businesses, or people you have never seen before.",
-        "Jot down one metaphor or unexpected insight sparked by this unfamiliar route."
+        "1. Step outside for a short fifteen minute walk.",
+        "2. Turn down two streets you never walk through.",
+        "3. Spot three new things along the sidewalk today.",
+        "4. Note one new idea sparked by the walk."
       ],
       "sourceChapter": "Chapter 2: The Random Universe"
     },
     {
       "id": "linked-how-everything-is-connected-act-11",
-      "title": "Design a Decentralized Emergency Response",
-      "description": "Centralized systems fail catastrophically if their single leader or coordinator goes down. Building peer-to-peer redundancy guarantees your household or team functions uninterrupted.",
+      "title": "Share Vital Emergency Knowledge",
+      "description": "Trouble hits hard if only one person knows passwords. Sharing key plans keeps everyone moving during unexpected crises.",
       "category": "system",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "Identify an urgent scenario (e.g., internet outage, travel emergency, power cutoff).",
-        "Write down standard operating procedures that do not depend on one designated decision-maker.",
-        "Ensure at least two people share access keys, contact directories, and backup steps.",
-        "Run a 5-minute simulated tabletop walkthrough with the team or family to verify self-organizing resilience."
+        "1. Pick a surprise issue like lost web access.",
+        "2. Write simple steps anyone can easily follow today.",
+        "3. Give two team members access to necessary accounts.",
+        "4. Practice the steps together in five quick minutes."
       ],
       "sourceChapter": "Chapter 11: The Awakening Internet"
     },
     {
       "id": "linked-how-everything-is-connected-act-12",
-      "title": "Practice Deliberate Broker Introductions",
-      "description": "Networks naturally fragment into insular communities unless active bridges bring them together. Introducing two people from separate worlds multiplies the total value of your broader network.",
+      "title": "Introduce Friends Across Circles",
+      "description": "People rarely connect across separate social circles on their own. Introducing two different friends creates lasting mutual value.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Think of two people in your network from entirely different professions who share a mutual puzzle or curiosity.",
-        "Confirm privately with both parties that they are open to an introduction.",
-        "Send a warm 3-sentence email highlighting the exact point of intersection between their ideas.",
-        "Step back and allow the new network edge to flourish autonomously."
+        "1. Think of two friends who share similar interests.",
+        "2. Ask both people privately if they want introductions.",
+        "3. Send an email connecting them with three sentences.",
+        "4. Step back and let their conversation grow naturally."
       ],
       "sourceChapter": "Chapter 14: The Connected Age"
     }
@@ -1013,10 +1013,10 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       "author": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Scale-Free Architecture",
-      "body": "Real-world networks do not conform to bell curves.\nInstead of a democratic average where every node possesses roughly similar links, complex systems follow power-law distributions.\nA microscopic handful of hyper-connected nodes (hubs) hold the entire fabric together, surrounded by millions of sparsely linked nodes.",
+      "headline": "The Power of Hubs",
+      "body": "Most real networks do not share links equally among everyone.\nInstead, a few popular spots hold almost all the connections.\nThese super-connected hubs quietly keep the whole system linked together.",
       "quote": "The scale-free topology is not a unique property of the Internet or the cell. It seems to be a universal feature of complex networks.",
-      "actionItem": "Stop planning for average cases in your organization; identify the vital few nodes that channel 80% of information flow.",
+      "actionItem": "Find the key people who handle most team communication today.\nSupport them directly so information flows smoothly without delays.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1034,10 +1034,10 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       "author": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Preferential Attachment",
-      "body": "Networks are living, evolving organisms driven by continuous growth.\nWhen a new node joins a network, it does not link at random.\nIt favors nodes that already enjoy a high degree of connectivity, triggering a systemic rich-get-richer feedback loop across the entire web.",
+      "headline": "The Rich Get Richer",
+      "body": "Networks grow bigger as new members arrive every single day.\nNewcomers almost always prefer to link with already popular members.\nThis pattern gives popular players more power over time.",
       "quote": "Growth and preferential attachment explain the existence of hubs: as new nodes arrive, they prefer to connect to the more connected nodes.",
-      "actionItem": "When launching a new initiative, attach it directly to an existing high-reputation hub rather than building isolated visibility from scratch.",
+      "actionItem": "Partner with an established voice when launching your new project.\nTheir built-in audience gives your idea instant credibility.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1055,10 +1055,10 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       "author": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Mobilize the Power of Weak Ties",
-      "body": "Your close friends inhabit the same cognitive and social cluster as you, circulating redundant information.\nNovel opportunities, breakthrough ideas, and unexpected career pivots almost always traverse weak ties\u2014casual acquaintances who bridge isolated social galaxies.",
+      "headline": "Power of Weak Ties",
+      "body": "Your close friends usually share the exact same updates as you.\nCasual acquaintances live in different worlds and hear different news.\nThey bring you fresh opportunities and surprising job leads.",
       "quote": "Weak ties are responsible for the majority of the paths that bridge social communities.",
-      "actionItem": "Schedule a monthly check-in with two acquaintances from outside your immediate team or industry to access non-redundant insights.",
+      "actionItem": "Send a friendly text message to two casual acquaintances today.\nAsk about their work to discover fresh perspectives.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1076,10 +1076,10 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       "author": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Hidden Geometry of Reality",
-      "body": "Behind the superficial chaos of nature, economies, and societies lies a breathtaking, mathematically rigorous architecture.\nUnderstanding link topology illuminates how cells metabolize, how blackouts spread, and how human culture evolves.",
+      "headline": "Hidden Web of Life",
+      "body": "Nature and daily life may look messy on the surface.\nSimple rules quietly connect people, living cells, and modern power lines.\nLearning these links helps us understand how our world behaves.",
       "quote": "Networks are present everywhere. All we need is an eye for them.",
-      "actionItem": "Map the hidden dependency network of your top three professional deliverables to discover systemic bottlenecks.",
+      "actionItem": "Draw a quick diagram of your current work project today.\nNote every person and tool you rely on to finish tasks.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1097,10 +1097,10 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       "author": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Fitness Model",
-      "body": "Preferential attachment implies first-mover advantage is absolute, yet history proves newcomers can dethrone incumbents.\nEach node carries an inherent 'fitness'\u2014an ability to attract links regardless of entry time.\nHigh-fitness nodes rapidly outpace early nodes by vacuuming up new connections.",
+      "headline": "Value Beats Head Starts",
+      "body": "Starting first helps, but quality matters much more in the end.\nA great new idea can quickly overtake old, lazy leaders.\nPeople naturally run toward things that solve their daily problems best.",
       "quote": "In a competitive environment, each node has a fitness that determines its ability to compete for links.",
-      "actionItem": "Do not despair if you enter a crowded market late; focus relentlessly on maximizing the intrinsic fitness of your offering.",
+      "actionItem": "Never worry about entering a crowded market late.\nFocus on making your product clearly more helpful than older choices.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1118,10 +1118,10 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       "author": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Achilles' Heel of Scale-Free Webs",
-      "body": "Scale-free networks are astoundingly robust against accidental damage.\nYou can eliminate 80% of random nodes and communication remains intact.\nHowever, they possess a fatal flaw: targeted removal of just a few dominant hubs shatters the network into paralyzed, isolated shards.",
+      "headline": "The Hidden Weak Spot",
+      "body": "Big networks easily survive many small random errors every day.\nMost pieces can vanish without breaking down the main system.\nBut knocking out just a few top hubs destroys everything fast.",
       "quote": "Scale-free networks are simultaneously robust against random failures and vulnerable to coordinated attacks.",
-      "actionItem": "Conduct a stress test on your team: identify who holds irreplaceable knowledge and distribute their core workflows immediately.",
+      "actionItem": "Spot the single team member who holds all the passwords.\nShare those critical responsibilities with another trusted teammate today.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1139,10 +1139,10 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       "author": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Inoculate Hubs to Halt Cascades",
-      "body": "Because scale-free networks exhibit an epidemic threshold near zero, random vaccination is notoriously inefficient.\nTo arrest the spread of an infection, computer virus, or toxic cultural rumor, you must prioritize immunizing the central hubs that link disparate clusters.",
+      "headline": "Protect the Hubs First",
+      "body": "Viruses and rumors spread fast by jumping into popular hubs.\nRandomly fixing small parts rarely stops a fast-moving fire.\nProtecting the main hubs keeps the whole community safe and calm.",
       "quote": "By immunizing the hubs, we can protect the entire network.",
-      "actionItem": "During organizational transformations, invest time onboarding key cultural influencers rather than broadcasting generic company-wide announcements.",
+      "actionItem": "Talk to key team leaders before rolling out big company changes.\nWinning their trust helps persuade everyone else smoothly.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1160,10 +1160,10 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       "author": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Fragility of Hub-Centric Systems",
-      "body": "Our modern technological and financial infrastructure trades redundancy for scale-free efficiency.\nThis topological bargain creates miraculous speed during peace, but risks planetary contagion when stress hits central nodes.",
+      "headline": "The Cost of Efficiency",
+      "body": "Modern networks run very fast by using central hubs everywhere.\nThis smart setup saves time during peaceful days.\nBut when central hubs crash, entire banking or tech systems break down.",
       "quote": "The vulnerability of scale-free networks to attack is the price we pay for their fault tolerance.",
-      "actionItem": "Audit personal financial assets to ensure they do not rely on a single custodian or settlement hub.",
+      "actionItem": "Keep some savings in a second independent bank account today.\nAvoid relying entirely on a single platform for money.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1181,10 +1181,10 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       "author": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Six Degrees and the Shrinking Globe",
-      "body": "The 'small-world' phenomenon is not magic; it is topological geometry.\nBecause our social networks combine high local clustering (everyone knows each other locally) with rare long-range shortcuts, the path length between any two nodes on Earth scales logarithmically rather than linearly.",
+      "headline": "Small World Shortcuts",
+      "body": "Most people live inside small, tight groups of close friends.\nYet a few travelers build fast shortcuts between distant cities.\nThese rare bridges let any message reach anywhere within six steps.",
       "quote": "We live in a small world because our networks are clustered yet laced with shortcuts.",
-      "actionItem": "Actively create cross-disciplinary bridges by introducing two people from completely unrelated fields who share a common curiosity.",
+      "actionItem": "Introduce two smart friends from totally different industries today.\nA quick intro email can spark creative new projects.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1202,10 +1202,10 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       "author": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Bose-Einstein Condensation in Networks",
-      "body": "When a node's fitness drastically overshadows its rivals, a mathematical phase transition occurs analogous to quantum physics.\nA single node condenses the network links into a monopolistic singularity, leaving zero room for secondary players.",
+      "headline": "Winner Takes All",
+      "body": "Sometimes one product is noticeably better than all its rivals.\nCustomers flock to this favorite player and abandon everyone else.\nThe winner ends up taking over almost the entire market.",
       "quote": "In the winner-takes-all phase, the fittest node grabs all the links, mimicking Bose-Einstein condensation.",
-      "actionItem": "Assess whether your market is heading toward a single-node monopoly; if so, carve out a differentiated, non-overlapping category.",
+      "actionItem": "Avoid battling a giant player directly on their home turf.\nCreate a unique niche where your team can clearly stand out.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1223,10 +1223,10 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       "author": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Become a Strategic Network Broker",
-      "body": "The most valuable position in any system is the structural bridge connecting two tightly-knit clusters that otherwise cannot communicate.\nBridges control the flow of ideas, arbitrage perspective differences, and synthesize hybrid breakthroughs.",
+      "headline": "Be the Bridge",
+      "body": "Separate teams often work in total isolation and never talk.\nThe person who connects both groups becomes extremely valuable.\nThey help great ideas cross borders to create breakthrough solutions.",
       "quote": "The nodes that bridge communities are the real linchpins of the web.",
-      "actionItem": "Identify two disconnected teams inside your workplace and establish a monthly cross-pollination briefing between them.",
+      "actionItem": "Set up a brief monthly meeting between two disconnected teams today.\nHelp them share their biggest challenges and common goals.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1244,10 +1244,10 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       "author": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Death of the Bell Curve",
-      "body": "Traditional statistical mechanics assumed nature distributed connections according to a Poisson curve, where extremes were negligible anomalies.\nReal networks prove the extremes govern the system.",
+      "headline": "Expect the Extremes",
+      "body": "Old textbooks assumed most events always hover near the middle.\nReal human networks run on wild, uneven numbers instead.\nA few extreme events and superstar users shape the whole outcome.",
       "quote": "The bell curve is dead. The power law rules the universe of complex networks.",
-      "actionItem": "Stop basing your business forecasts on median customer behavior; design systems specifically for the fat-tail power users.",
+      "actionItem": "Look past average customer numbers in your monthly reports.\nDesign special features for your most active super users today.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1265,10 +1265,10 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       "author": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Cascading Failures and Network Overload",
-      "body": "When a single hub fails, its traffic is automatically rerouted to adjacent nodes.\nIf those neighbors lack spare throughput, they promptly crash, pushing the combined load to further nodes in an unstoppable domino wave across the power grid, bank clearinghouses, or the internet.",
+      "headline": "The Domino Effect",
+      "body": "When a major hub crashes, its traffic shifts onto neighbors.\nIf those neighbors are already busy, they quickly crash too.\nThe failure races across the whole system like falling dominoes.",
       "quote": "A single local failure can trigger a cascading breakdown that takes down the whole system.",
-      "actionItem": "Build intentional buffers and circuit breakers into your workflows to stop localized crises from propagating downstream.",
+      "actionItem": "Add simple safety limits to your team workflows today.\nStop small errors early before they swamp your other coworkers.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1286,10 +1286,10 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       "author": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Clustering Coefficient",
-      "body": "The clustering coefficient measures the likelihood that two of your associates are also connected to each other.\nHigh clustering fosters high trust and tribal cohesion, but drastically chokes the ingress of novel external information.",
+      "headline": "Tight Groups vs Fresh News",
+      "body": "When all your friends know each other, trust grows deep.\nBut tight groups often repeat the same familiar ideas constantly.\nThey accidentally block out fresh news from the wider world.",
       "quote": "Clustering is the measure of how tightly your friends are knit together.",
-      "actionItem": "Diversify your information diet by following thinkers who hold views diametrically opposed to your circle's consensus.",
+      "actionItem": "Follow three thinkers outside your usual field on social media today.\nRead different viewpoints to break out of echo chambers.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1307,10 +1307,10 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       "author": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Leverage Directed Links Over Undirected Noise",
-      "body": "Not all connections are reciprocal.\nIn directed networks like the web or citations, incoming links signify authority, whereas outgoing links merely reflect curiosity.\nBuild your influence by engineering inbound citations through high-value open resources.",
+      "headline": "Attract Real Respect",
+      "body": "Pointing at other people does not make you a leader.\nReal influence comes when other people choose to point to you.\nTrue authority grows when your work helps others succeed.",
       "quote": "In directed networks, what matters is not who you point to, but who points to you.",
-      "actionItem": "Publish a definitive, open-source reference guide for your industry to naturally capture high-authority inbound links.",
+      "actionItem": "Publish a clear, helpful guide on a common problem today.\nLet people share your useful advice across their own networks.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1328,10 +1328,10 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       "author": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Self-Organization Beyond Central Control",
-      "body": "No central committee designed the internet, regulated cellular metabolic pathways, or orchestrated language evolution.\nComplex networks self-organize from bottom-up micro-rules into breathtaking global architectures.",
+      "headline": "Bottom-Up Growth",
+      "body": "No single boss built the internet or created human languages.\nMillions of ordinary people made small choices on their own.\nThese simple actions naturally created a huge, living web.",
       "quote": "Nobody designed the web. It grew on its own, shaped by the independent actions of millions of individuals.",
-      "actionItem": "Foster simple bottom-up interaction rules in your teams rather than dictating rigid top-down organizational charts.",
+      "actionItem": "Give your team a few clear principles rather than rigid rules.\nLet them solve daily problems freely without micromanagement.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1349,10 +1349,10 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       "author": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Percolation and the Giant Component",
-      "body": "If you add links between nodes randomly one by one, nothing visible happens for a long time.\nThen, at an exact mathematical threshold (one link per node on average), the system suddenly snaps into a giant connected component that spans the majority of the network.",
+      "headline": "The Tipping Point",
+      "body": "Adding new connections one by one feels very slow initially.\nFor a while, nothing obvious seems to happen at all.\nThen suddenly, one extra link joins the whole community together.",
       "quote": "There is a critical point at which isolated clusters suddenly coalesce into a giant component.",
-      "actionItem": "Persist through the slow early stages of relationship building; systemic connection often appears abruptly as a critical tipping point.",
+      "actionItem": "Keep reaching out to people even when progress feels slow.\nSmall daily connections will eventually click into a powerful network.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1370,10 +1370,10 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       "author": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Disappearing Epidemic Threshold",
-      "body": "In uniform random networks, an infection dies out if its transmission rate falls below a mathematical threshold.\nBut in scale-free networks with extreme hubs, the threshold vanishes entirely.\nEven extremely weak, low-virulence ideas or viruses can survive indefinitely by residing in hubs.",
+      "headline": "Rumors Live in Hubs",
+      "body": "In ordinary groups, weak rumors naturally fade away and die.\nBut in hub networks, rumors survive by reaching popular voices.\nOnce a hub shares bad information, it never disappears.",
       "quote": "In a scale-free network, the epidemic threshold is zero. Viruses can spread no matter how weak they are.",
-      "actionItem": "Never ignore small, persistent cultural pathologies in an organization; if they reach an internal hub, they will become endemic.",
+      "actionItem": "Address toxic office rumors immediately before they spread further.\nClarify the facts with team leaders to maintain trust.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1391,10 +1391,10 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       "author": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Engineer Deliberate Hub Redundancy",
-      "body": "When a company relies on an individual 'rockstar' who connects client relations, code architecture, and executive vision, the entire enterprise is exposed to existential risk.\nDeliberately decentralize critical hubs by pairing leaders with shadow apprentices.",
+      "headline": "Build Backup Leaders",
+      "body": "Relying on one superstar worker puts your entire business at risk.\nIf that key person leaves, vital projects suddenly freeze.\nSmart teams train partners to share crucial relationships and skills.",
       "quote": "A network that depends on a single hub is a network that lives on borrowed time.",
-      "actionItem": "Identify the top hub in your company and create a formal co-pilot structure to duplicate their critical link pathways.",
+      "actionItem": "Pair your top specialist with an apprentice this week.\nHave them shadow meetings so knowledge stays inside the company.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1412,10 +1412,10 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       "author": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Web of Life and Mind",
-      "body": "Reductionism failed because dissecting the parts cannot explain the emergent behavior of the system.\nThe future of science and human mastery belongs to those who trace the invisible lines of connection.",
+      "headline": "See the Whole Picture",
+      "body": "Looking at isolated pieces never reveals how living things truly work.\nReal magic happens in the connections between every part.\nTracing these links helps us solve difficult modern problems.",
       "quote": "We must recognize that we are not isolated individuals, but nodes in a magnificent, interconnected web.",
-      "actionItem": "Evaluate complex problems by mapping relationships and feedback loops rather than isolating individual components in a vacuum.",
+      "actionItem": "Examine how your team pieces interact before assigning blame today.\nFix broken handoffs between roles instead of scolding individuals.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1429,52 +1429,52 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
   ],
   "mindMap": {
     "id": "root",
-    "label": "Linked: How Everything Is Connected",
-    "description": "Albert-L\u00e1szl\u00f3 Barab\u00e1si reveals the invisible architecture governing nature, society, technology, and thought.\nAcross vastly different domains, complex systems organize themselves through universal laws of network topology, hubs, and power-law dynamics rather than pure randomness.",
+    "label": "Linked: How Connections Work",
+    "description": "Everything in our world connects through hidden webs.\nSimple rules shape how nature, people, and machines link together.",
     "children": [
       {
         "id": "random-universe-myth",
-        "label": "The Random Universe Myth & Classic Graph Theory",
-        "description": "For decades, classical mathematics assumed large-scale real-world networks grew uniformly and unpredictably.\nBarab\u00e1si shows how this early mental model blinded us to the profound architectural biases hidden in nature and human connection.",
+        "label": "The Random Web Myth",
+        "description": "Scientists once thought real networks grew purely by chance.\nIn truth, nature follows hidden rules rather than random luck.",
         "children": [
           {
             "id": "erdos-renyi-model",
-            "label": "The Erd\u0151s-R\u00e9nyi Paradigm",
-            "description": "Paul Erd\u0151s and Alfr\u00e9d R\u00e9nyi proposed that networks emerge by randomly scattering links between nodes with equal probability.\nUnder this view, almost every node ends up with roughly the same average number of connections, forming a bell curve.",
+            "label": "Equal Chance Theory",
+            "description": "Early math assumed links formed completely at random.\nThis model predicted that everyone would have similar numbers of friends.",
             "children": [
               {
                 "id": "bell-curve-blindspot",
-                "label": "The Bell Curve Blindspot",
-                "description": "Poisson-style distributions predict that extreme outliers are statistically impossible, implying no single airport or person could dominate global traffic.\nReal systems violently violate this tidy assumption through massive, disproportionate focal points.",
+                "label": "The Average Myth",
+                "description": "The old model claimed giant outliers could never exist.\nReal life proves this wrong with massive hubs like Google.",
                 "children": [
                   {
                     "id": "homogeneity-fallacy",
-                    "label": "The Fallacy of Homogeneity",
-                    "description": "Assuming human societies and biochemical reactions are egalitarian led science to underestimate system vulnerabilities.\nWhen everyone looks like the average member, the hidden power brokers remain completely invisible to analysts."
+                    "label": "Ignoring Key Players",
+                    "description": "Assuming everyone is average blinds us to powerful leaders.\nA few key nodes hold immense hidden influence."
                   }
                 ]
               },
               {
                 "id": "phase-transitions",
-                "label": "Phase Transitions in Random Graphs",
-                "description": "Erd\u0151s discovered that gradually adding random links creates sudden, dramatic tipping points where isolated islands abruptly snap into one giant connected component.\nThis mathematical threshold mirrors how liquid water suddenly turns into ice or vapor."
+                "label": "Sudden Tipping Points",
+                "description": "Adding just a few links can suddenly unite isolated groups.\nSmall additions make separate islands snap into one giant web."
               }
             ]
           },
           {
             "id": "six-degrees-origin",
-            "label": "Six Degrees of Separation",
-            "description": "Originating in Frigyes Karinthy's 1929 short story, the idea captured humanity's intuitive hunch that the world is mysteriously small.\nIt suggested that despite billons of inhabitants, very few intermediate handshakes separate any two strangers.",
+            "label": "Six Degrees Concept",
+            "description": "People long suspected our vast world is surprisingly small.\nOnly a few handshakes separate any two strangers on Earth.",
             "children": [
               {
                 "id": "milgram-small-world-experiment",
-                "label": "Milgram's Postcard Experiment",
-                "description": "Stanley Milgram tested the hypothesis empirically by asking participants in Nebraska and Kansas to forward letters toward a target stockbroker in Boston.\nThe packages that successfully arrived did so in an astonishing median of just 5.5 to 6 hops.",
+                "label": "The Letter Experiment",
+                "description": "Volunteers mailed letters to complete strangers across the country.\nMost letters reached their target in just six hops.",
                 "children": [
                   {
                     "id": "funneling-to-mavens",
-                    "label": "The Maven Funnel Effect",
-                    "description": "Milgram noticed that the final steps didn't diffuse across society equally, but converged onto a handful of hyper-connected local individuals.\nThese gatekeepers held an uncanny ability to bridge otherwise separate social strata."
+                    "label": "Super-Connector Bottlenecks",
+                    "description": "Most letters passed through the exact same popular people.\nA handful of well-known individuals linked whole communities."
                   }
                 ]
               }
@@ -1484,42 +1484,42 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       },
       {
         "id": "small-worlds-clustering",
-        "label": "Small Worlds and Clustering Dynamics",
-        "description": "Bridging the gap between rigid order and total randomness revealed how real communities maintain intense local cohesion without sacrificing global reach.\nNetworks balance tight-knit comfort with breathtaking global access.",
+        "label": "Small Worlds and Cliques",
+        "description": "Real communities form tight local groups yet reach far away.\nWe enjoy close-knit circles while staying globally connected.",
         "children": [
           {
             "id": "watts-strogatz-breakthrough",
-            "label": "Watts-Strogatz Collective Dynamics",
-            "description": "Duncan Watts and Steven Strogatz discovered that rewiring just a tiny fraction of links in a neat lattice drastically collapses global path lengths while preserving high local clustering.\nThis created the mathematical blueprint for the modern small-world phenomenon.",
+            "label": "Shortcut Discovery",
+            "description": "Rewiring just a few links drastically shrinks long distances.\nThis simple trick keeps local friend groups tightly connected.",
             "children": [
               {
                 "id": "clustering-coefficient",
-                "label": "The Clustering Coefficient",
-                "description": "In human relationships and neural circuitry, your friends are overwhelmingly likely to know each other, forming dense, protective triangles.\nThis local cliquishness provides stability, social trust, and mutual reinforcement.",
+                "label": "Tight Friend Circles",
+                "description": "Your friends will very likely become friends with each other.\nThese small triangles build trust and strong support.",
                 "children": [
                   {
                     "id": "triadic-closure",
-                    "label": "Triadic Closure & Trust",
-                    "description": "When two independent nodes share a common partner, the energetic friction of connecting between them plunges toward zero.\nThis organic pull weaves tight fabric that cushions individuals against social alienation."
+                    "label": "Mutual Friends",
+                    "description": "Sharing a friend makes it effortless to meet someone new.\nThis natural pull keeps social groups tight and warm."
                   }
                 ]
               },
               {
                 "id": "shortcuts-across-chasms",
-                "label": "Global Shortcuts",
-                "description": "A single long-range tie between distant communities acts like a wormhole through social hyperspace.\nThese scarce trans-continental connections compress hundreds of intermediate relational steps into a solitary instantaneous jump."
+                "label": "Long-Distance Bridges",
+                "description": "A single far-reaching link connects two distant worlds.\nIt creates an instant bridge across vast social spaces."
               }
             ]
           },
           {
             "id": "granovetter-weak-ties",
-            "label": "The Strength of Weak Ties",
-            "description": "Mark Granovetter's foundational sociological research demonstrated that novel information, job opportunities, and life-changing ideas rarely come from close friends.\nClose friends inhabit the exact same information bubble, rendering redundant advice.",
+            "label": "Power of Acquaintances",
+            "description": "New jobs and fresh ideas rarely come from close friends.\nClose friends share the same information you already know.",
             "children": [
               {
                 "id": "acquaintances-as-bridges",
-                "label": "Acquaintances as Knowledge Bridges",
-                "description": "Casual acquaintances travel in totally different social circles, granting you privileged access to uncharted reservoirs of capital, gossip, and insights.\nCultivating broad, lightweight connections dramatically boosts systemic serendipity."
+                "label": "Casual Contacts",
+                "description": "Casual contacts move in different circles and bring fresh news.\nKnowing many casual acquaintances opens surprising new doors."
               }
             ]
           }
@@ -1527,47 +1527,47 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       },
       {
         "id": "scale-free-revolution",
-        "label": "The Scale-Free Architecture & Hubs",
-        "description": "Barab\u00e1si's signature discovery was that natural and technological systems do not follow Gaussian bell curves at all.\nInstead, they obey heavy-tailed power laws where an elite minority of nodes command astronomical numbers of links.",
+        "label": "The Rise of Hubs",
+        "description": "Real-world networks do not spread links evenly.\nA tiny handful of giants hold most of the connections.",
         "children": [
           {
             "id": "power-law-distribution",
-            "label": "Power-Law Distributions (80/20 on Steroids)",
-            "description": "Unlike human height, where an eight-foot person is an extreme anomaly, link distributions are scale-free, spanning several orders of magnitude.\nThe absence of a characteristic 'scale' allows colossal giants to naturally coexist with countless tiny nodes.",
+            "label": "The 80-20 Rule",
+            "description": "Connections follow an extreme split rather than a bell curve.\nA few huge giants live alongside millions of tiny nodes.",
             "children": [
               {
                 "id": "infinite-variance-nature",
-                "label": "Fat Tails and Extreme Variance",
-                "description": "The fat tail of a Pareto-style distribution ensures that mega-events and hyper-nodes are recurring features of reality, not bizarre statistical accidents.\nExpecting predictability in scale-free environments guarantees recurring intellectual shock."
+                "label": "Extreme Giants",
+                "description": "Massive runaway winners are normal in scale-free webs.\nExpecting equal outcomes in these systems leads to constant surprise."
               }
             ]
           },
           {
             "id": "emergence-of-hubs",
-            "label": "The Reign of Hubs",
-            "description": "Hubs are the super-connectors\u2014like Google on the Web, O'Hare in aviation, or p53 in the human cell.\nThey hold sprawling webs together by acting as centralized relational magnets that minimize global travel times.",
+            "label": "Super-Hubs",
+            "description": "Hubs are super-connectors like big airports or search engines.\nThey keep vast webs united and shorten travel times.",
             "children": [
               {
                 "id": "hubs-as-navigators",
-                "label": "Cognitive and Informational Hubs",
-                "description": "In psychology and intellectual history, certain polymaths and canonical books act as semantic hubs that organize thousands of disparate theories.\nWithout these mental anchor points, human culture would splinter into unnavigable jargon."
+                "label": "Core Anchor Ideas",
+                "description": "Classic books and key thinkers anchor entire fields of study.\nWithout them, shared knowledge would drift into confusing chaos."
               }
             ]
           },
           {
             "id": "preferential-attachment",
-            "label": "Preferential Attachment & Growth",
-            "description": "Real networks are not static frozen objects; they continuously expand node by node while exhibiting a 'rich-get-richer' mechanism.\nNewcomers consciously or unconsciously prefer connecting to established nodes that already boast massive visibility.",
+            "label": "Rich Get Richer",
+            "description": "Networks grow by constantly welcoming new arrivals.\nNewcomers naturally prefer to link to already famous nodes.",
             "children": [
               {
                 "id": "first-mover-feedback",
-                "label": "Cumulative Advantage Loops",
-                "description": "Early entry provides a massive initial advantage that compounds exponentially through recursive feedback loops.\nAs early nodes accumulate links, their elevated prominence makes them far more likely to capture the next wave of entrants.",
+                "label": "Early Lead Advantage",
+                "description": "Starting early gives nodes a head start that compounds rapidly.\nHigh visibility keeps attracting each new wave of newcomers.",
                 "children": [
                   {
                     "id": "matthew-effect",
-                    "label": "The Matthew Effect",
-                    "description": "Echoing the biblical proverb, those who possess abundance are showered with more, while those with little struggle for relevance.\nThis dynamic explains citation monopolies in academia, viral celebrity fame, and wealth concentration."
+                    "label": "Winner Advantage",
+                    "description": "Those who have plenty attract even more rewards.\nThis explains runaway celebrity fame and extreme wealth gaps."
                   }
                 ]
               }
@@ -1577,30 +1577,30 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       },
       {
         "id": "fitness-and-competition",
-        "label": "Fitness, Evolution, and Network Darwinism",
-        "description": "Pure first-mover advantage cannot explain why young upstarts like Google or Facebook eclipsed entrenched pioneers like AltaVista and Myspace.\nBarab\u00e1si incorporates node 'fitness' to model competitive survival in dynamic landscapes.",
+        "label": "Quality and Competition",
+        "description": "Being first is not enough if a better newcomer arrives.\nNodes compete to win links based on true usefulness.",
         "children": [
           {
             "id": "fitness-model-dynamics",
-            "label": "Intrinsic Node Fitness",
-            "description": "Fitness represents an innate capacity to attract links, whether determined by a webpage's design, an idea's resonance, or an organism's biological utility.\nA node with sky-high fitness can outgrow sluggish elder incumbents in record time.",
+            "label": "Natural Appeal",
+            "description": "Some nodes attract followers faster because they offer superior quality.\nA great new product can quickly surpass older giants.",
             "children": [
               {
                 "id": "qualitative-attractiveness",
-                "label": "The Chemistry of Attraction",
-                "description": "Whether evaluating charisma in leaders or efficiency in software protocols, fitness quantifies how readily an entity converts raw encounters into lasting connections.\nIt bridges cold topological math with psychological desire and utility."
+                "label": "The Magnet Factor",
+                "description": "Charisma, speed, or smart design helps entities turn views into bonds.\nTrue appeal bridges math with human desire."
               }
             ]
           },
           {
             "id": "bose-einstein-condensation",
-            "label": "Bose-Einstein Condensation & Monopolies",
-            "description": "By mapping network equations onto quantum thermodynamics, researchers discovered that extreme fitness can trigger a network phase transition.\nIn this scenario, a single super-fit node condenses virtually all available links, creating a total winner-take-all monopoly.",
+            "label": "Runaway Monopolies",
+            "description": "When a node is vastly superior, it grabs almost everything.\nThis dynamic creates absolute, winner-take-all monopolies.",
             "children": [
               {
                 "id": "winner-take-all-markets",
-                "label": "Winner-Take-All Market Psychology",
-                "description": "When digital network effects merge with quantum condensation dynamics, silver and bronze medalists are completely starved of oxygen.\nConsumer psychology aligns toward standardized convenience, converting open ecosystems into closed walled gardens."
+                "label": "Solo Market Winners",
+                "description": "Users flock to the top platform for pure convenience.\nRunners-up get squeezed out as one giant dominates."
               }
             ]
           }
@@ -1608,35 +1608,35 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       },
       {
         "id": "resilience-and-vulnerability",
-        "label": "Robustness, Fragility, and Systemic Collapse",
-        "description": "The peculiar geometry of scale-free networks bestows an astonishing dual personality: godlike invulnerability against random bad luck, coupled with terrifying frailty against targeted sabotage.",
+        "label": "Tough Yet Fragile",
+        "description": "Networks easily survive random mistakes and minor accidents.\nHowever, targeted strikes on main hubs can collapse everything.",
         "children": [
           {
             "id": "achilles-heel-paradox",
-            "label": "The Achilles' Heel of Complex Networks",
-            "description": "You can knock out dozens of random nodes across the Internet or a living cell without disrupting overall structural harmony.\nHowever, precisely targeting the top 1% of vital hubs shatters the entire network into helpless, disconnected shards.",
+            "label": "The Hidden Weakness",
+            "description": "You can break dozens of random nodes without causing damage.\nYet taking down key hubs shatters the whole system.",
             "children": [
               {
                 "id": "accidental-fault-tolerance",
-                "label": "Fault Tolerance Against Chaos",
-                "description": "Because the overwhelming majority of nodes possess only one or two connections, blind mutations or hardware outages almost always strike peripheral trivia.\nThis natural topological buffer protects complex life and critical infrastructure from routine decay."
+                "label": "Accident Immunity",
+                "description": "Most nodes have very few links and matter little.\nRandom failures almost always hit unimportant outer edges safely."
               },
               {
                 "id": "targeted-hub-strikes",
-                "label": "Targeted Attacks and Cyberwarfare",
-                "description": "Malicious actors or critical stress vectors do not pick targets at random; they weaponize the network's architectural reliance on critical hubs.\nDisabling key power grid transformers or major routing backbones unleashes immediate catastrophic paralysis."
+                "label": "Targeted Attacks",
+                "description": "Smart attackers ignore small nodes and target vital central hubs.\nBreaking key power lines or major routers causes total blackouts."
               }
             ]
           },
           {
             "id": "cascading-failures",
-            "label": "Cascading Failures and Domino Effects",
-            "description": "When an overloaded hub collapses, its massive operational burden is instantly redistributed across neighboring nodes.\nIf those neighbors lack reserve buffering capacity, they too buckle under the strain, triggering an unstoppable chain reaction of failure.",
+            "label": "Domino Effect",
+            "description": "When a major hub fails, its heavy burden spills over.\nOverwhelmed neighbors then fail one after another in a crash.",
             "children": [
               {
                 "id": "financial-contagion",
-                "label": "Financial & Supply Chain Contagion",
-                "description": "Interconnected banking balance sheets create hidden stress pipelines where the liquidation of one mega-institution forces panic sales across the world.\nSystemic risk lives in the topology of reciprocal exposures rather than individual corporate balance sheets."
+                "label": "Financial Panic",
+                "description": "Tightly linked banks share hidden risks and debts.\nOne failing mega-bank can trigger worldwide market collapse."
               }
             ]
           }
@@ -1644,35 +1644,35 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       },
       {
         "id": "biological-and-social-webs",
-        "label": "Living Networks: Cells, Viruses, and Memes",
-        "description": "From the microscopic metabolic dance within mitochondria to pandemic contagions sweeping continents, life is fundamentally an ongoing symphony of interconnected webs.",
+        "label": "Living Networks",
+        "description": "From cell chemistry to spreading germs, life depends on webs.\nLiving bodies and human societies run on similar connected rules.",
         "children": [
           {
             "id": "cellular-metabolic-wiring",
-            "label": "Metabolic and Genetic Circuitry",
-            "description": "Within a biological cell, proteins, enzymes, and genes form scale-free interactions that have survived billions of years of evolutionary pressure.\nMaster regulatory hubs coordinate cellular repair, while peripheral pathways handle interchangeable chemical tasks.",
+            "label": "Cell Wiring",
+            "description": "Genes and proteins work together inside cells like busy networks.\nKey master proteins steer healing while simpler parts do chores.",
             "children": [
               {
                 "id": "p53-guardian-hub",
-                "label": "p53: The Cellular Guardian",
-                "description": "The p53 protein sits at the center of critical biological feedback loops, constantly monitoring DNA damage and halting tumor development.\nWhen cancer knocks out this single supreme hub, cellular stability disintegrates into rampant malignant growth."
+                "label": "The Guardian Protein",
+                "description": "The p53 protein acts as a master hub stopping tumors.\nIf this single hub breaks, cancer cells grow unchecked."
               }
             ]
           },
           {
             "id": "epidemic-thresholds",
-            "label": "Epidemic Spreading & Zero-Threshold Realities",
-            "description": "Classical epidemiological models assumed that diseases require a minimum contagion threshold to survive without burning out.\nIn scale-free social environments, the mathematical epidemic threshold drops to zero because super-spreader hubs keep viruses perpetually alive.",
+            "label": "Spreading Outbreaks",
+            "description": "In connected worlds, contagious bugs spread far easier than expected.\nCentral social hubs keep viruses moving without dying out.",
             "children": [
               {
                 "id": "super-spreaders-transmission",
-                "label": "Super-Spreaders & Asymmetric Contagion",
-                "description": "A virus or cultural meme does not advance through uniform population marching; it hitchhikes on individuals with hundreds of daily contacts.\nImmunizing or converting these central hubs snuffs out contagion far more effectively than treating the general public at random.",
+                "label": "Super-Spreaders",
+                "description": "Viruses and viral trends travel fastest through people with many contacts.\nProtecting these central connectors stops outbreaks quickly.",
                 "children": [
                   {
                     "id": "targeted-immunization-strategy",
-                    "label": "Targeted Immunization Strategy",
-                    "description": "By having random people nominate their friends, public health workers naturally drift toward high-degree hubs due to friendship paradox mathematics.\nVaccinating these nominated connectors builds collective herd immunity with a tiny fraction of the usual vaccines."
+                    "label": "Smart Vaccination",
+                    "description": "Asking people to name friends naturally uncovers busy hubs.\nVaccinating these named friends protects communities using fewer doses."
                   }
                 ]
               }
@@ -1680,13 +1680,13 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
           },
           {
             "id": "internet-and-web-architecture",
-            "label": "The Physical Web vs. Logical Internet",
-            "description": "Barab\u00e1si mapped the World Wide Web's billions of hyperlinked documents, discovering bow-tie structural components that defy centralized human planning.\nThe Internet's physical wiring and the Web's cognitive architecture emerged organically as living, breathing self-organizing systems.",
+            "label": "The World Wide Web",
+            "description": "Billions of online webpages grew naturally without a central planner.\nThe web behaves like a living, self-organizing system.",
             "children": [
               {
                 "id": "bow-tie-structure",
-                "label": "The Bow-Tie Topology of the Web",
-                "description": "The Web features a strongly connected central core flanked by an 'IN' component of originating links, an 'OUT' component of dead-end landing pages, and disconnected tendrils.\nNavigation through this digital labyrinth depends heavily on directed, one-way paths."
+                "label": "Bow-Tie Web Shape",
+                "description": "The web has a dense core, entry paths, and dead ends.\nSurfing through it requires following one-way digital paths."
               }
             ]
           }
@@ -1694,30 +1694,30 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
       },
       {
         "id": "systems-thinking-implications",
-        "label": "Systems Thinking & Future Interconnected Horizons",
-        "description": "Embracing network thinking demands a radical philosophical shift from reductionist isolation toward holistic, interconnected awareness.\nTo master complexity, we must stop dissecting the pieces in isolation and learn to decode the invisible relationships binding them together.",
+        "label": "Systems Thinking",
+        "description": "Understanding our world requires looking at connections, not isolated pieces.\nTrue answers lie in how parts interact with each other.",
         "children": [
           {
             "id": "beyond-reductionism",
-            "label": "The Death of Reductionism",
-            "description": "Dissecting a radio into individual transistors or a genome into isolated genes can never explain the emergent magic of the music or conscious life.\nThe profound properties of complex entities reside entirely in how nodes converse, modulate, and synchronize with one another.",
+            "label": "Beyond Single Parts",
+            "description": "Studying loose wires will never explain the beauty of music.\nReal magic happens in how components talk and work together.",
             "children": [
               {
                 "id": "emergent-collective-intelligence",
-                "label": "Emergence & Collective Intelligence",
-                "description": "No single neuron understands a Shakespearean sonnet, and no single ant plans the intricate climate control of the colony mound.\nIntelligence and adaptive survival spontaneously emerge when countless simple agents follow shared local topological rules."
+                "label": "Team Intelligence",
+                "description": "No single ant designs an entire colony mound.\nSmart team behavior emerges when simple members follow shared rules."
               }
             ]
           },
           {
             "id": "navigating-hyperconnected-world",
-            "label": "Mastering Network Literacy",
-            "description": "As artificial intelligence, algorithmic feeds, and global logistics knit our civilization into an ever-tighter tapestry, understanding network dynamics becomes essential for human agency.\nNavigating the modern world requires spotting hidden hubs, anticipating runaway cascades, and cultivating resilient webs of purpose.",
+            "label": "Living Connected",
+            "description": "Algorithms and global trade now bind us closer than ever.\nSpotting hidden hubs helps us make wiser personal decisions.",
             "children": [
               {
                 "id": "resilience-by-design",
-                "label": "Designing Anti-Fragile Architectures",
-                "description": "Future engineers, psychologists, and policy makers must deliberately introduce decentralization buffers to prevent catastrophic cascades in human systems.\nKnowing that pure scale-free efficiency breeds catastrophic fragility allows us to design balanced, humane, and self-healing networks."
+                "label": "Safer System Design",
+                "description": "We must build safeguards to stop sudden domino collapses.\nSmart backups help human networks stay healthy and durable."
               }
             ]
           }

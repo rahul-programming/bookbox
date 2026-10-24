@@ -1,5 +1,5 @@
 // Factfulness by Hans Rosling
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -534,169 +534,169 @@ export const FACTFULNESS_BOOK: Book = {
   "actionItems": [
     {
       "id": "factfulness-act-1",
-      "title": "Split the World into Four Income Levels",
-      "description": "Our brain loves binary dividing lines like rich versus poor, but real life moves across a smooth continuum. Replace the misleading binary trap with Hans Rosling's 4-level income framework to view global living standards accurately.",
+      "title": "Use Four Income Levels Daily",
+      "description": "Stop dividing the world into rich and poor. Most people live in the middle on four simple income levels.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Draw four columns labeled Level 1 ($2/day), Level 2 ($8/day), Level 3 ($32/day), and Level 4 ($64+/day).",
-        "List basic daily necessities\u2014like water collection, cooking fuel, transport, and refrigeration\u2014across each level.",
-        "Pin this quick reference card beside your monitor or notebook.",
-        "Whenever you read an article citing 'developing versus developed nations', mentally map which level is actually being discussed."
+        "1. Draw four columns labeled Level 1, Level 2, Level 3, and Level 4.",
+        "2. Note how each group gets water, food, and daily travel.",
+        "3. Keep this sheet on your desk for easy reference.",
+        "4. Place any country you read about into one of these levels."
       ],
       "sourceChapter": "Chapter 1: The Gap Instinct"
     },
     {
       "id": "factfulness-act-2",
-      "title": "Practice the 'Better, Yet Still Bad' Distinction",
-      "description": "When bad things happen, we often assume everything is getting worse. Train your brain to hold two facts at once: things can be both significantly improved compared to the past and still bad enough to demand our attention.",
+      "title": "Spot Better Yet Still Bad",
+      "description": "Things can be bad today but still better than before. Practice holding both ideas in your head at once.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Pick one distressing headline you encounter during your morning reading.",
-        "State out loud: 'This current situation is bad, but has the 20-year trend moved in the right direction?'",
-        "Quickly verify historical metrics (like child mortality, extreme poverty, or literacy rates) for that issue.",
-        "Reframe your reaction from helpless alarm to constructive persistence."
+        "1. Pick one sad news story you saw today.",
+        "2. Ask yourself if this problem was worse twenty years ago.",
+        "3. Look up the long-term trend line online.",
+        "4. Notice how the trend has improved over time."
       ],
       "sourceChapter": "Chapter 2: The Negativity Instinct"
     },
     {
       "id": "factfulness-act-3",
-      "title": "Curate an 'Unseen Progress' Data Stream",
-      "description": "News feeds disproportionately magnify sudden disasters while ignoring silent, incremental progress. Rebalance your information diet by adding steady, evidence-based trackers to your daily browsing environment.",
+      "title": "Bookmark Real Progress Trackers",
+      "description": "News feeds show bad events and skip quiet progress. Balance your view with real long-term data sources.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Bookmark verified open-access data monitors such as Our World in Data and Gapminder.",
-        "Replace one sensationalist news shortcut on your home screen or browser bookmark bar with a data dashboard.",
-        "Subscribe to one long-horizon science or public health briefing focused on decade-scale trends.",
-        "Check this dashboard once a week to anchor your mental baseline in verified numbers."
+        "1. Bookmark websites like Gapminder and Our World in Data.",
+        "2. Replace one daily gossip site shortcut with a data tracker.",
+        "3. Sign up for one weekly newsletter about global health.",
+        "4. Check these real charts once every week."
       ],
       "sourceChapter": "Chapter 2: The Negativity Instinct"
     },
     {
       "id": "factfulness-act-4",
-      "title": "Test Curves for Natural Flattening and S-Bends",
-      "description": "We instinctively project straight diagonal lines into the sky, assuming trends will continue forever. Investigate the underlying mechanics to uncover natural saturation points and S-curves before making projections.",
+      "title": "Check Curves for Natural Bends",
+      "description": "Lines do not go up straight forever. Most real-world trends slow down and flatten out over time.",
       "category": "audit",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Select a trendline you frequently consult at work or in personal planning (such as customer growth, traffic, or consumption).",
-        "Plot the historical data points on paper rather than just projecting the recent slope.",
-        "Identify biological, physical, or resource constraints that will naturally bend the curve into an S-curve or bell shape.",
-        "Adjust your future scenarios to account for leveling off rather than runaway straight lines."
+        "1. Pick a business or personal growth chart you follow.",
+        "2. Draw the past numbers on a piece of paper.",
+        "3. List natural limits that will slow this growth down.",
+        "4. Redraw your forecast with a curve that flattens out."
       ],
       "sourceChapter": "Chapter 3: The Straight Line Instinct"
     },
     {
       "id": "factfulness-act-5",
-      "title": "Implement the 'Risk Equals Danger Times Exposure' Filter",
-      "description": "Fear makes small, dramatic dangers feel enormous while blinding us to common, quiet risks. Build a systematic checklist calculating actual exposure before letting panic dictate your decisions or budgets.",
+      "title": "Filter Fear with Real Exposure",
+      "description": "Scary events feel common even when they are super rare. Measure your real exposure before you start to worry.",
       "category": "system",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Write down the formula: Calculated Risk = Real Danger \u00d7 Actual Exposure.",
-        "When an alarming event triggers acute worry (like plane crashes, shark attacks, or rare illnesses), pause before acting.",
-        "Calculate your real-world frequency of exposure to that specific trigger.",
-        "Channel your protective resources toward the high-exposure, routine hazards that genuinely matter."
+        "1. Write down: Real Risk equals Danger times Exposure.",
+        "2. Pause whenever a scary news story makes you feel nervous.",
+        "3. Check how often you actually face that specific danger.",
+        "4. Spend your energy on daily risks you meet every day."
       ],
       "sourceChapter": "Chapter 4: The Fear Instinct"
     },
     {
       "id": "factfulness-act-6",
-      "title": "Pair Every Standalone Number with a Denominator",
-      "description": "A single lonely number without context is engineered to shock your brain. Instantly tame sensational statistics by demanding a comparison and calculating the per-person rate.",
+      "title": "Compare Numbers to Total Size",
+      "description": "A single big number easily tricks your mind. Always compare isolated numbers against the total group size.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Highlight any isolated headline stat (for instance, '$10 billion in damage' or '5,000 cases').",
-        "Find a reference baseline: compare it with last year's figure or the total population involved.",
-        "Divide the absolute quantity by the total group size to get the per-capita rate.",
-        "Assess whether the rate is actually rising, falling, or negligible in proportion."
+        "1. Pick out any big scary number in the news.",
+        "2. Find the total number of people involved in the event.",
+        "3. Divide the big number by the total population count.",
+        "4. Check the true per-person rate before forming an opinion."
       ],
       "sourceChapter": "Chapter 5: The Size Instinct"
     },
     {
       "id": "factfulness-act-7",
-      "title": "Hunt for Differences Within and Similarities Across",
-      "description": "Category thinking blinds us by assuming everyone in a given group behaves identically. Sharpen your observations by looking for variation inside familiar groups and shared realities across rival groups.",
+      "title": "Look for Variety Inside Groups",
+      "description": "People inside any single group do not act the same way. Look for internal differences and shared traits across groups.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Notice when you catch yourself thinking 'they always do X' about a team, culture, or demographic.",
-        "Identify at least two notable contradictions or differences within that exact group.",
-        "Identify two core practices that group shares with your own peer group.",
-        "Update your notes or speech to reflect specific behavioral conditions rather than blanket labels."
+        "1. Catch yourself when you think all members of a group match.",
+        "2. Find two big differences between people inside that same group.",
+        "3. Find two habits that group shares with your own friends.",
+        "4. Speak about specific actions instead of using broad labels."
       ],
       "sourceChapter": "Chapter 6: The Generalization Instinct"
     },
     {
       "id": "factfulness-act-8",
-      "title": "Place Generational Cultural Baselines in Visible View",
-      "description": "Rocks erode so slowly they seem permanent, and human culture often feels similarly immutable. Create an environmental anchor demonstrating that social values evolve dramatically across generations.",
+      "title": "Map Slow Generational Change Visually",
+      "description": "Cultures and societies change slowly, like moving water. Keep visual reminders that slow change still creates huge shifts.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Select a social indicator that feels stagnant today (such as female tertiary education rates or workplace safety standards).",
-        "Print or sketch a simple chart showing how that exact metric transformed between your grandparents' era and now.",
-        "Keep this comparison visible in your office or workspace as a cognitive reminder that slow change is not zero change.",
-        "Reference it whenever a colleague or peer claims a certain culture or system 'can never change'."
+        "1. Pick a social topic that seems stuck in place today.",
+        "2. Find data on how it changed over fifty years.",
+        "3. Print a simple chart and place it on your wall.",
+        "4. Look at it when someone says nothing ever changes."
       ],
       "sourceChapter": "Chapter 7: The Destiny Instinct"
     },
     {
       "id": "factfulness-act-9",
-      "title": "Audit Decisions for the Single-Perspective Trap",
-      "description": "To a child with a hammer, everything looks like a nail. Systematically cross-examine your pet theories and preferred professional tools to see where they fail to grasp multidimensional problems.",
+      "title": "Question Your Favorite Tool Often",
+      "description": "If you only carry a hammer, everything looks like a nail. Test your ideas by looking through other people's lenses.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Take a major problem or strategy you are currently addressing in your business or life.",
-        "Write down your primary diagnostic framework (e.g., 'This is strictly an engineering bottleneck').",
-        "Interview or read one specialist from a completely opposing discipline (e.g., anthropology, finance, or behavioral psychology).",
-        "Record three critical blind spots your favorite framework missed and incorporate their complementary fixes."
+        "1. Pick a tough problem you want to solve right now.",
+        "2. Write down your main way of looking at this issue.",
+        "3. Ask someone from a different field for their take.",
+        "4. Add two of their new ideas into your main plan."
       ],
       "sourceChapter": "Chapter 8: The Single Perspective Instinct"
     },
     {
       "id": "factfulness-act-10",
-      "title": "Replace the Scapegoat with a Systems Map",
-      "description": "When things go wrong, hunting for a villain feels satisfying but fixes nothing. Channel that emotional energy into tracing incentives, infrastructure gaps, and institutional feedback loops.",
+      "title": "Fix the System Instead of Blaming",
+      "description": "Blaming someone feels good but never solves the real problem. Look at bad setups and broken rules instead of villains.",
       "category": "system",
       "timeEstimateMinutes": 35,
       "stepByStep": [
-        "When an operational failure or mistake occurs, declare an immediate freeze on assigning individual blame.",
-        "Draw an input-output diagram detailing the handoffs, time pressures, and tool limitations involved in the incident.",
-        "Identify the missing safety check or conflicting incentive that made the error probable.",
-        "Restructure the underlying workflow so that even an exhausted, distracted human would not cause the failure."
+        "1. Stop pointing fingers when a mistake happens at work.",
+        "2. Map out each step that led up to the breakdown.",
+        "3. Find the missing check or confusing step in the flow.",
+        "4. Fix the work setup so tired people avoid the trap."
       ],
       "sourceChapter": "Chapter 9: The Blame Instinct"
     },
     {
       "id": "factfulness-act-11",
-      "title": "Enforce a Mandatory 24-Hour Cooling Gate for 'Urgent' Demands",
-      "description": "The urgency instinct creates dramatic panic, making us rush into irrational choices under the guise of an immediate crisis. Install a mandatory pause whenever someone tells you to 'act right now or lose everything.'",
+      "title": "Pause Urgent Demands for One Day",
+      "description": "Fake rush makes people take foolish, rushed actions. Wait twenty-four hours before agreeing to any urgent, pushy demand.",
       "category": "system",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Establish a personal policy: high-stakes non-emergency decisions require data verification before execution.",
-        "When pressured with an ultimatum ('You must decide right this second!'), request specific underlying data tables.",
-        "Take a planned 24-hour buffer to inspect historical precedents and run baseline checks.",
-        "Proceed only when decisions can be made calmly based on methodical step-by-step evaluation."
+        "1. Make a rule to pause big choices that lack data.",
+        "2. Ask for clear facts when someone pushes for quick action.",
+        "3. Sleep on the choice for one full day first.",
+        "4. Decide calmly only after you inspect the real numbers."
       ],
       "sourceChapter": "Chapter 10: The Urgency Instinct"
     },
     {
       "id": "factfulness-act-12",
-      "title": "Conduct a Quarterly Factfulness Ignorance Inventory",
-      "description": "Educated preconceptions often lag behind global reality by several decades. Routinely audit your mental model against verified global indicators to actively purge outdated assumptions.",
+      "title": "Test Your World Knowledge Regularly",
+      "description": "Old beliefs stick around long after the facts have changed. Test your knowledge often to clear away wrong mental habits.",
       "category": "audit",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Schedule a recurring calendar reminder every three months titled 'Ignorance Health Check'.",
-        "Take the 13-question Gapminder Worldview test covering vaccination, education, and energy baselines.",
-        "Flag every question where your intuition scored worse than a chimpanzee guessing randomly.",
-        "Write a one-sentence factual correction for each missed concept and update your working mental model."
+        "1. Set a calendar alert once every three months.",
+        "2. Take the free Gapminder global quiz online.",
+        "3. Mark every question where your guess was wrong.",
+        "4. Write down the true facts to update your views."
       ],
       "sourceChapter": "Chapter 11: Factfulness in Practice"
     }
@@ -874,9 +874,9 @@ export const FACTFULNESS_BOOK: Book = {
       "category": "Psychology",
       "type": "mental-model",
       "headline": "The Four Income Levels",
-      "body": "Humanity does not live in two camps of rich and poor.\nSeven billion people span four distinct income tiers, from surviving on $2 a day on Level 1 to reliable electricity and higher education on Level 4.\nMost of humanity lives in the middle.",
+      "body": "The world is not split into rich and poor people.\nMost humans live in the middle on four simple income steps.\nExtreme poverty is shrinking every single year.",
       "quote": "There is no gap between the West and the rest, between developed and developing, between rich and poor.",
-      "actionItem": "Replace 'developing world' generalizations with specific questions about which income level a population occupies.",
+      "actionItem": "Stop saying developing world.\nAsk which income level a group actually has.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -895,9 +895,9 @@ export const FACTFULNESS_BOOK: Book = {
       "category": "Psychology",
       "type": "concept",
       "headline": "Bad and Getting Better",
-      "body": "A situation can be simultaneously catastrophic in absolute terms and significantly improved compared to its past.\nConflating 'bad' with 'getting worse' blinds us to interventions that are already working.",
+      "body": "Things can be bad and getting better at the same time.\nBad describes the current state.\nBetter describes the direction of change over time.",
       "quote": "The solution is not to choose between bad and better. It is to realize that something can be both.",
-      "actionItem": "When tracking a difficult metric, chart the trend line over 20 years before declaring whether trajectory or status matters most.",
+      "actionItem": "Look at twenty-year trends before deciding if a problem is truly worsening.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -915,10 +915,10 @@ export const FACTFULNESS_BOOK: Book = {
       "author": "Hans Rosling",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Curved Lines Beat Straight Rulers",
-      "body": "Natural, biological, and economic phenomena rarely follow straight lines indefinitely.\nPopulation growth, epidemic spread, and wealth accumulation follow S-curves, bell curves, or plateau shapes governed by physical ceilings.",
+      "headline": "Lines Usually Curve",
+      "body": "Trends rarely move in a straight line forever.\nGrowth often slows down, flattens out, or forms a curve.\nNatural limits always stop lines from rising endlessly.",
       "quote": "Remember that curves come in different shapes. Don't assume straight lines.",
-      "actionItem": "Challenge any hockey-stick growth forecast by identifying the environmental limit or saturation threshold that will bend the curve.",
+      "actionItem": "Check where a rising chart might flatten out before trusting straight forecasts.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -936,10 +936,10 @@ export const FACTFULNESS_BOOK: Book = {
       "author": "Hans Rosling",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Fear-to-Risk Disconnect",
-      "body": "Evolution wired the brain to fear predators, captivity, and sudden violence.\nModern media amplifies these primal triggers, causing us to over-allocate resources to rare catastrophes while neglecting mundane, high-impact hazards.",
+      "headline": "Fear Blinds Real Risk",
+      "body": "Our brains fear dramatic threats like plane crashes and shark attacks.\nScary events get big news coverage but cause very few actual deaths.\nCommon, quiet dangers harm far more people.",
       "quote": "Risk equals danger multiplied by exposure.",
-      "actionItem": "Calculate statistical exposure before shifting budgets or daily habits in response to frightening news reports.",
+      "actionItem": "Check real accident numbers before changing habits because of scary headlines.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -957,10 +957,10 @@ export const FACTFULNESS_BOOK: Book = {
       "author": "Hans Rosling",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Never Trust a Lonely Number",
-      "body": "A standalone number in a headline is designed to evoke emotion, not understanding.\nAny figure\u2014whether deaths, dollars, or tons of emissions\u2014remains completely meaningless until divided by a denominator or compared against a peer group.",
+      "headline": "Never Trust Lonely Numbers",
+      "body": "A single big number by itself tells you almost nothing.\nIt is usually chosen to shock you rather than inform you.\nAlways compare that number to a past total or another group.",
       "quote": "Never leave a number all on its own. Always ask what it should be compared with.",
-      "actionItem": "Refuse to form an opinion on any absolute numerical claim until you obtain its per capita rate or historical equivalent.",
+      "actionItem": "Ask for comparisons whenever someone shares a shocking single number.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -978,10 +978,10 @@ export const FACTFULNESS_BOOK: Book = {
       "author": "Hans Rosling",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The 80/20 Zoom Rule",
-      "body": "When presented with a long list of problems, our instinct is to treat all items with equal weight.\nIdentifying the largest two or three items usually reveals 80 percent of the system's total leverage.",
+      "headline": "Find the Big Items",
+      "body": "Do not treat every problem on a long list as equally big.\nA few large items usually cause most of the trouble.\nFocus your effort on the biggest causes first.",
       "quote": "Look for the largest items first. Don't spread your energy equally over everything.",
-      "actionItem": "Sort sprawling problem inventories in descending order by scale and focus resources strictly on the top 20 percent.",
+      "actionItem": "Sort your task list by size and fix the top two first.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1000,9 +1000,9 @@ export const FACTFULNESS_BOOK: Book = {
       "category": "Psychology",
       "type": "concept",
       "headline": "The Generalization Trap",
-      "body": "Categorization is an essential mental shortcut, but it easily congeals into prejudice.\nHigh variance inside a category often dwarfs the variance between categories, rendering crude demographic labels misleading.",
+      "body": "Putting things into groups helps us think, but it can mislead us.\nPeople inside the same group often differ from one another greatly.\nPeople across different groups often share similar daily lives.",
       "quote": "Beware of generalizations. They can make us see groups that do not exist.",
-      "actionItem": "Actively search for differences within any category and similarities across different categories to break stereotyped assumptions.",
+      "actionItem": "Look for differences inside groups to avoid lazy stereotypes.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1021,9 +1021,9 @@ export const FACTFULNESS_BOOK: Book = {
       "category": "Psychology",
       "type": "actionable",
       "headline": "Split the Majority",
-      "body": "When an analysis claims that 'most' or 'a majority' behaves a certain way, look closer.\nA 51 percent majority behaves very differently from a 99 percent consensus, yet both are frequently summarized with the same word.",
+      "body": "The word majority can hide what is really going on.\nFifty-one percent is very different from ninety-nine percent.\nBoth get called a majority, but they mean totally different things.",
       "quote": "Look for differences within groups, especially when the group is large.",
-      "actionItem": "Ask for the exact percentage whenever a presenter uses the words 'majority', 'most', or 'typical'.",
+      "actionItem": "Ask for the exact percentage when people use the word majority.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1041,10 +1041,10 @@ export const FACTFULNESS_BOOK: Book = {
       "author": "Hans Rosling",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Glacial Change Is Still Change",
-      "body": "Because humans judge reality against brief personal memories, we mistake slow compounding improvements for cultural stasis.\nEven 1 percent annual progress compounds into profound structural transformation over a generation.",
+      "headline": "Slow Change Is Change",
+      "body": "Big changes happen slowly year after year.\nBecause daily life feels unchanging, we miss long-term progress.\nTiny annual improvements build huge gains over thirty years.",
       "quote": "Slow change is not no change. Small, slow improvements compound over time.",
-      "actionItem": "Assess societal and organizational shifts over decadal horizons rather than quarterly or annual review cycles.",
+      "actionItem": "Judge major progress over decades instead of weeks or months.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1062,10 +1062,10 @@ export const FACTFULNESS_BOOK: Book = {
       "author": "Hans Rosling",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Culture Is Not Destiny",
-      "body": "Social norms, family sizes, and religious practices are fluid adaptations to material conditions, not immutable bedrock.\nWhen maternal health and living standards rise on Level 2 and 3, birth rates fall uniformly across every faith and continent.",
+      "headline": "Culture Always Changes",
+      "body": "Cultures and family traditions are not set in stone.\nAs living standards and health care improve, lifestyles shift everywhere.\nWhen child survival rises, families choose to have fewer babies.",
       "quote": "Societies and cultures are not rocks. They are constantly moving and changing.",
-      "actionItem": "Look for economic prerequisites before attributing a group's behavior to permanent cultural or religious traits.",
+      "actionItem": "Check income levels before blaming culture or religion for human behavior.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1083,10 +1083,10 @@ export const FACTFULNESS_BOOK: Book = {
       "author": "Hans Rosling",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Update Your Knowledge Expiration Dates",
-      "body": "Facts about geopolitics, global health, and technology decay rapidly.\nThe mental model you formed during your school years represents an obsolete era, not current operational reality.",
+      "headline": "Update Old Facts",
+      "body": "Facts about our world expire faster than we realize.\nWhat you learned in school decades ago is now often completely wrong.\nThe world has made massive progress since your childhood.",
       "quote": "Some knowledge becomes outdated quickly. Technology, countries, and societies are changing constantly.",
-      "actionItem": "Identify three foundational assumptions you hold about world demographics and cross-check them against current UN data.",
+      "actionItem": "Look up fresh official data to verify old childhood facts.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1104,10 +1104,10 @@ export const FACTFULNESS_BOOK: Book = {
       "author": "Hans Rosling",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Single-Perspective Pitfall",
-      "body": "An expert with a single lens will interpret every malfunction as a validation of their theory.\nTrue understanding requires triangulating across disparate disciplines rather than handing total authority to a single ideology.",
+      "headline": "Use Multiple Tools",
+      "body": "No single expert has the right answer to every problem.\nIf you only hold a hammer, everything looks like a nail.\nTrue understanding needs ideas from several fields at once.",
       "quote": "Being open to ideas from other fields can help you see solutions you would otherwise miss.",
-      "actionItem": "Consult a practitioner with an opposing specialty whenever evaluating a major strategic proposal.",
+      "actionItem": "Ask someone outside your field to review your big plans.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1125,10 +1125,10 @@ export const FACTFULNESS_BOOK: Book = {
       "author": "Hans Rosling",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Scapegoat Instinct",
-      "body": "When complex systems produce negative outcomes, the brain seeks a malicious agent to punish.\nHunting for villains feels satisfying, but it diverts cognitive energy away from diagnosing systemic friction and misaligned structures.",
+      "headline": "Look Beyond Villains",
+      "body": "When things go wrong, we look for a villain to blame.\nBlaming an individual makes us feel good, but it fixes nothing.\nReal problems usually come from broken processes and bad systems.",
       "quote": "When things go wrong, do not look for a scapegoat. Look for causes, not villains.",
-      "actionItem": "Conduct a post-mortem that explicitly forbids naming individual culprits, focusing solely on procedural flaws and incentives.",
+      "actionItem": "Review errors without naming names to find broken process steps instead.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1146,10 +1146,10 @@ export const FACTFULNESS_BOOK: Book = {
       "author": "Hans Rosling",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Hero Fallacy",
-      "body": "Just as we blame villains for disasters, we attribute monumental social breakthroughs to singular charismatic heroes.\nIn reality, sustained progress is driven by anonymous infrastructure, institutional stability, and distributed civil servants.",
+      "headline": "Systems Over Heroes",
+      "body": "We love giving all the praise to one heroic leader.\nIn truth, real improvements come from quiet systems and steady teamwork.\nSafe roads, public health, and steady rules matter much more.",
       "quote": "When someone claims something good happened because of an individual, look for the system that made it possible.",
-      "actionItem": "Map the unseen institutional machinery and baseline logistics that make visible individual triumphs possible.",
+      "actionItem": "Thank the background teams whose quiet work keeps daily systems running.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1167,10 +1167,10 @@ export const FACTFULNESS_BOOK: Book = {
       "author": "Hans Rosling",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Defuse Now-or-Never Claims",
-      "body": "The urgency instinct provokes panicked fight-or-flight thinking, disabling the prefrontal cortex.\nHigh-stakes claims that insist you must act instantly are almost always calculated attempts to bypass critical verification.",
+      "headline": "Pause Before Panicking",
+      "body": "Urgent warnings make us panic and stop thinking clearly.\nPeople push urgent deadlines to stop you from checking the facts.\nVery few real situations are truly now or never.",
       "quote": "When urgency calls, stop, breathe, and ask for more data. It is almost never now or never.",
-      "actionItem": "Impose a mandatory 24-hour cooling-off and data-verification period on any deal presented as an emergency.",
+      "actionItem": "Wait one full day before deciding on any rushed offer.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1188,10 +1188,10 @@ export const FACTFULNESS_BOOK: Book = {
       "author": "Hans Rosling",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Fact-Based Worldview as Therapy",
-      "body": "A world grounded in verified data is not an exercise in cold calculation; it is an antidote to chronic stress.\nSeeing the world accurately delivers clarity, emotional peace, and actionable hope.",
+      "headline": "Facts Bring Peace",
+      "body": "Looking at real data is great for your mental peace.\nThe news makes the world seem hopelessly broken every day.\nClear facts show you how much life is actually improving.",
       "quote": "When you have a fact-based worldview, you see that the world is not as bad as it seems, and you can see what you have to do to keep making it better.",
-      "actionItem": "Replace sensationalist news feeds with longitudinal data dashboards to lower existential dread.",
+      "actionItem": "Swap dramatic news alerts for reliable long-term data charts.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1209,10 +1209,10 @@ export const FACTFULNESS_BOOK: Book = {
       "author": "Hans Rosling",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Reality of the Belly Curve",
-      "body": "Humanity clusters in the center, not on the extremes.\nThe common belief that the globe is split between rich and destitute ignores the vast majority living productive lives in middle-income tiers.",
+      "headline": "Most Live in Middle",
+      "body": "Most humans live in the middle, not at extreme ends.\nExtremely poor and extremely wealthy groups are actually quite small.\nFive billion people work and live right in between.",
       "quote": "The low-income countries are much more developed than most people think. And vastly fewer people live in them.",
-      "actionItem": "Audit market strategies to ensure you are designing products for the middle 5 billion consumers on Levels 2 and 3.",
+      "actionItem": "Build products for middle-income families rather than just the richest buyers.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1231,9 +1231,9 @@ export const FACTFULNESS_BOOK: Book = {
       "category": "Psychology",
       "type": "mental-model",
       "headline": "The Chimpanzee Test",
-      "body": "Experts consistently score worse than random chance on factual tests about world trends because their errors are systematically biased by dramatic cognitive heuristics, not lack of intelligence.",
+      "body": "Smart people often score worse on world quizzes than random guessing.\nThis is not because they lack brains or study time.\nTheir minds rely on outdated and overly negative ideas.",
       "quote": "The problem is not that people do not know the answers. It is that they know the wrong answers.",
-      "actionItem": "Test your team's baseline assumptions on key domain metrics using multiple-choice quizzes before launching new initiatives.",
+      "actionItem": "Take a basic global facts test with your work team.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1251,10 +1251,10 @@ export const FACTFULNESS_BOOK: Book = {
       "author": "Hans Rosling",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Demand Per-Capita Measures",
-      "body": "Comparing large nations directly to small nations creates distorted narratives.\nMeasuring national carbon emissions, crime rates, or wealth without adjusting for population size guarantees flawed conclusions.",
+      "headline": "Divide by Population",
+      "body": "Comparing large nations directly to small nations is misleading.\nA giant nation will always have higher total numbers.\nAlways divide by the number of people to see truth.",
       "quote": "Always divide by the population. Per-capita numbers reveal the truth behind the total.",
-      "actionItem": "Normalize total metrics against relevant population units before comparing organizations or regions.",
+      "actionItem": "Divide total numbers by population before comparing two different countries.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1272,10 +1272,10 @@ export const FACTFULNESS_BOOK: Book = {
       "author": "Hans Rosling",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Humility and Curiosity",
-      "body": "The two foundational pillars of critical thinking are intellectual humility (recognizing the boundaries of your knowledge) and curiosity (taking pleasure in discovering facts that contradict your preconceptions).",
+      "headline": "Stay Humble and Curious",
+      "body": "Clear thinking requires curiosity and admitting you do not know everything.\nBe glad when new facts prove your old views wrong.\nIt simply means you are seeing the world clearer.",
       "quote": "Being factful means being humble and curious. It means relaxing your need to know everything and enjoying being surprised.",
-      "actionItem": "Celebrate being proven wrong on a long-held belief by writing down the exact mechanism that corrected your view.",
+      "actionItem": "Write down one wrong belief you happily changed this week.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1289,183 +1289,202 @@ export const FACTFULNESS_BOOK: Book = {
   ],
   "mindMap": {
     "id": "factfulness-root",
-    "label": "Factfulness: The Secret Mechanics of How We See the World",
-    "description": "Our brains are equipped with dramatic survival instincts forged in the Pleistocene era that systematically distort how we perceive global reality.\nPracticing factfulness means swapping emotional intuition for calibrated data, learning to spot the ten cognitive optical illusions that make the world seem far more perilous than it actually is.",
+    "label": "Factfulness",
+    "description": "Our brains look for drama instead of facts.\nLearn to see the world as it really is.",
     "children": [
       {
         "id": "theme-gap-instinct",
-        "label": "The Gap Instinct (Binary Thinking Trap)",
-        "description": "Human cognition craves neat polarities, automatically dividing continuous spectra into dramatic caricatures like 'rich versus poor' or 'us versus them'.\nThis mental glitch blinds us to the vast, flourishing middle where the overwhelming majority of humanity actually lives.",
+        "label": "The Gap Instinct",
+        "description": "We divide the world into rich and poor.\nMost people actually live in the middle.",
         "children": [
           {
             "id": "gap-four-income-levels",
-            "label": "The Four Income Levels",
-            "description": "Instead of viewing the globe as developed versus developing, imagine humanity arranged along four progressive tiers of daily income from one dollar to over thirty-two dollars.\nThis lucid framework reveals how billions have moved out of destitution into stable, evolving middle-tier livelihoods.",
+            "label": "Four Income Levels",
+            "description": "Humanity lives across four income steps.\nMost people have moved past extreme poverty.",
             "children": [
               {
                 "id": "gap-level-one",
-                "label": "Level 1: Extreme Survival",
-                "description": "Around one billion people survive on less than two dollars a day, walking barefoot for hours to haul water and cooking over open fires.\nHere, a single bad harvest or illness causes catastrophic shock, but global efforts continue to shrink this proportion every decade."
+                "label": "Level 1: Extreme Poverty",
+                "description": "One billion people live on very little.\nThey walk for water and cook on open fire.",
+                "children": []
               },
               {
                 "id": "gap-level-two-three",
-                "label": "Levels 2 & 3: The Expanding Middle",
-                "description": "Home to approximately five billion people who own bicycles, electric cookers, mattresses, and shoes, with kids attending primary school.\nThis overlooked majority represents humanity's massive technological transition away from starvation toward resilient community networks."
+                "label": "Levels 2 and 3",
+                "description": "Five billion people live in the middle.\nThey have shoes, bikes, and basic food.",
+                "children": []
               },
               {
                 "id": "gap-level-four",
-                "label": "Level 4: Consumer Affluence",
-                "description": "Roughly one billion affluent consumers experience hot tap water, reliable healthcare, cars, and tertiary education.\nLiving inside this top bracket creates an echo chamber, misleading members into thinking everyone below them is trapped in undifferentiated destitution."
+                "label": "Level 4: Wealthy Living",
+                "description": "One billion people have tap water and cars.\nThey mistakenly think the rest are starving.",
+                "children": []
               }
             ]
           },
           {
             "id": "gap-majority-middle",
-            "label": "Mapping the Majority",
-            "description": "Whenever you encounter a comparison between two extremes, look immediately for where the true mass of data clusters.\nReality almost never lives in the polar tails of a bell curve; it gathers in the interconnected middle ground."
+            "label": "Look for the Middle",
+            "description": "Do not just look at two extremes.\nThe biggest group is almost always in between.",
+            "children": []
           },
           {
             "id": "gap-overlapping-spreads",
-            "label": "Overlapping Distributions",
-            "description": "When comparing two groups, such as math scores or healthcare metrics across nations, their distributions usually overlap significantly rather than standing apart.\nComparing simplistic averages creates an illusion of separation that conceals striking shared commonalities."
+            "label": "Overlapping Groups",
+            "description": "Two groups are rarely completely separate.\nThey usually share a lot of common ground.",
+            "children": []
           }
         ]
       },
       {
         "id": "theme-negativity-instinct",
-        "label": "The Negativity Instinct (The Bad News Bias)",
-        "description": "Our evolutionary psychology prioritizes danger signals, causing us to remember past distress vividly while taking incremental, quiet progress completely for granted.\nMedia networks capitalize on this quirk by broadcasting sensational catastrophes rather than slow, monumental improvements.",
+        "label": "The Negativity Instinct",
+        "description": "Bad news travels fast, while good news spreads slowly.\nWe easily forget how hard the past was.",
         "children": [
           {
             "id": "negativity-bad-and-better",
-            "label": "Bad Yet Better Paradox",
-            "description": "Things can be both historically terrible and steadily improving at the exact same moment in time.\nAcknowledging ongoing suffering does not require denying fifty years of miraculous declines in child mortality and extreme poverty."
+            "label": "Bad but Getting Better",
+            "description": "Things can be bad today.\nThey can still be much better than before.",
+            "children": []
           },
           {
             "id": "negativity-silent-progress",
-            "label": "The Invisible March of Miracles",
-            "description": "Epochal shifts\u2014such as rural electrification, falling famine rates, and high vaccination coverage\u2014rarely produce dramatic headlines because they occur gradually over decades.\nBecause good news unfolds like grass growing, our conscious awareness rarely registers its monumental scale."
+            "label": "Slow, Silent Progress",
+            "description": "Great progress happens quietly over many years.\nIt rarely makes the front-page news.",
+            "children": []
           },
           {
             "id": "negativity-historical-nostalgia",
-            "label": "Romanticizing the Past",
-            "description": "Humans possess a built-in rose-tinted rear-view mirror that erases historical misery and glorifies ancestral times.\nLooking at raw epidemiological data quickly reminds us that life just a century ago was brutally short, precarious, and plagued by preventable agony."
+            "label": "Glorifying the Past",
+            "description": "We often romanticize older times.\nIn reality, life back then was far harsher.",
+            "children": []
           }
         ]
       },
       {
         "id": "theme-straight-line-instinct",
-        "label": "The Straight Line Instinct (Linear Projection Myth)",
-        "description": "We instinctively assume that any trend climbing upward will continue charging forward along an unbroken trajectory forever.\nIn nature and complex human social systems, straight lines are anomalous curiosities rather than the prevailing rule.",
+        "label": "The Straight Line Instinct",
+        "description": "We assume trends go straight up forever.\nMost trends naturally slow down or curve.",
         "children": [
           {
             "id": "line-population-flattening",
-            "label": "The S-Curve of Population",
-            "description": "Fears of runaway overpopulation miss the biological and socioeconomic brakes that naturally halt reproductive rates.\nAs child survival rates increase and women gain education, birth rates plummet, transforming explosive curves into stable horizontal plateaus.",
+            "label": "Population Curves",
+            "description": "Global population growth is slowing down.\nBetter healthcare and education lead to smaller families.",
             "children": [
               {
                 "id": "line-peak-child",
-                "label": "Peak Child Milestone",
-                "description": "The world reached 'Peak Child' around the turn of the millennium, meaning the absolute count of children on Earth has permanently plateaued at roughly two billion.\nFuture population growth stems almost entirely from current cohorts aging into adulthood rather than soaring birth rates."
+                "label": "Peak Child Count",
+                "description": "The number of children has stopped growing.\nIt has stayed steady at about two billion.",
+                "children": []
               }
             ]
           },
           {
             "id": "line-curve-diversity",
-            "label": "Natural Dynamic Trajectories",
-            "description": "Real-world trends behave like bell curves, exponential bursts, humped trajectories, or logistic saturation curves.\nAssuming linearity leads to wildly inaccurate forecasts in economic models, infectious disease vectors, and resource consumption patterns."
+            "label": "Lines Bend and Curve",
+            "description": "Real life does not follow straight lines.\nLines bend, flatten, or rise and fall.",
+            "children": []
           }
         ]
       },
       {
         "id": "theme-fear-instinct",
-        "label": "The Fear Instinct (Emotional Risk Amplification)",
-        "description": "The human amygdala is hardwired to react with frantic urgency to physical violence, captivity, contamination, and natural disasters.\nWhile this ancient circuitry kept our hunter-gatherer ancestors alert, today it drowns out calm, probabilistic risk assessment.",
+        "label": "The Fear Instinct",
+        "description": "Fear makes us focus on dramatic dangers.\nIt stops us from seeing real, everyday risks.",
         "children": [
           {
             "id": "fear-frightening-vs-dangerous",
-            "label": "Frightening vs. Truly Dangerous",
-            "description": "Something that terrifies us emotionally is rarely what is statistically most likely to kill us.\nAn airplane crash triggers acute primal terror, yet everyday sedentary habits and highway commutes carry vastly higher actuarial peril.",
+            "label": "Scary vs Dangerous",
+            "description": "What scares us is rarely what harms us.\nPlane crashes feel terrifying, but cars cause more deaths.",
             "children": [
               {
                 "id": "fear-risk-formula",
-                "label": "Risk = Danger x Exposure",
-                "description": "True danger is a quantitative equation multiplying actual hazard severity by real-world exposure frequency.\nWhen fear hijacks rational calculation, exposure drops to zero in our minds while imaginary hazard swells to infinite proportion."
+                "label": "Calculate Real Risk",
+                "description": "Risk equals danger times exposure.\nDo not let fear blow danger out of proportion.",
+                "children": []
               }
             ]
           },
           {
             "id": "fear-disaster-resilience",
-            "label": "The Architecture of Resilience",
-            "description": "Deaths caused by natural catastrophes have collapsed by over ninety percent over the last century despite extreme weather occurrences.\nThis triumph is not due to gentler nature, but to engineering wonders like early warning radars, robust dikes, and organized disaster logistics."
+            "label": "Fewer Disaster Deaths",
+            "description": "Deaths from natural disasters have fallen sharply.\nBetter buildings and early warnings keep us safer.",
+            "children": []
           }
         ]
       },
       {
         "id": "theme-size-instinct",
-        "label": "The Size Instinct (Lone Number Distortion)",
-        "description": "Isolated digits without comparative scale systematically deceive our sensory perception.\nA standalone headline reporting a tragic count of thousands seems overwhelming until placed in proportion to total populations or historic baselines.",
+        "label": "The Size Instinct",
+        "description": "Single numbers can easily mislead you.\nAlways compare a number to see its scale.",
         "children": [
           {
             "id": "size-comparison-necessity",
-            "label": "The Imperative of Comparison",
-            "description": "Never accept an emotionally charged single number in isolation without demanding a comparative benchmark.\nWeighing a current count against yesterday's record or against a neighboring country immediately restores analytical perspective.",
+            "label": "Always Compare Numbers",
+            "description": "Never judge a lone number by itself.\nCompare it to another number to understand it.",
             "children": [
               {
                 "id": "size-per-capita-division",
-                "label": "Per Capita Normalization",
-                "description": "Dividing raw totals by overall population transforms deceptive absolute figures into illuminating per-person realities.\nIt prevents populous nations like China and India from unfairly skewing comparative emissions or consumption tables."
+                "label": "Divide by Population",
+                "description": "Look at rates per person.\nThis keeps big countries from distorting the picture.",
+                "children": []
               }
             ]
           },
           {
             "id": "size-80-20-pareto",
-            "label": "The 80/20 Leverage Rule",
-            "description": "When faced with sprawling itemized lists of issues, a tiny handful of elements routinely accounts for the lion's share of total impact.\nIdentifying these dominant variables prevents scarce diagnostic resources from being squandered on peripheral trivia."
+            "label": "The 80/20 Rule",
+            "description": "A few big items usually cause most problems.\nFocus your energy on those major causes first.",
+            "children": []
           }
         ]
       },
       {
         "id": "theme-generalization-instinct",
-        "label": "The Generalization Instinct (Category Errors)",
-        "description": "Our brains automatically compress complex information into coarse mental filing cabinets, stereotyping entire continents or groups under single banners.\nLeft uninspected, this tendency causes us to make ridiculous category mistakes across dynamic societies.",
+        "label": "The Generalization Instinct",
+        "description": "We lump whole groups and nations together.\nThis hides the big differences inside each group.",
         "children": [
           {
             "id": "gen-cross-category-bridges",
-            "label": "Income Trumps Geography",
-            "description": "A family on Level 2 in rural China lives a life strikingly similar to a family on Level 2 in Nigeria or Mexico, sharing identical cooking stoves and floor mats.\nMaterial income levels predict human daily rituals far more accurately than cultural, religious, or continental boundaries."
+            "label": "Income Shapes Daily Life",
+            "description": "People at the same income live similarly.\nDaily habits depend more on money than culture.",
+            "children": []
           },
           {
             "id": "gen-unconscious-split",
-            "label": "Interrogating the Majority Rule",
-            "description": "When someone claims a certain behavior characterizes a group majority, investigate whether that means fifty-one percent or ninety-nine percent.\nBroad majorities frequently hide diverse, contested subcultures striving in diametrically opposed directions."
+            "label": "Question Majority Claims",
+            "description": "A majority can mean 51% or 99%.\nAsk how large the majority really is.",
+            "children": []
           },
           {
             "id": "gen-unusual-cases",
-            "label": "Beware the Vivid Exception",
-            "description": "Memorable anomalies frequently get elevated into false universal archetypes through narrative drama.\nWhenever an extreme anecdote commands attention, systematically verify whether it represents a real baseline pattern or just an idiosyncratic statistical outlier."
+            "label": "Spot Rare Exceptions",
+            "description": "Vivid stories stand out in our minds.\nDo not mistake one rare case for the rule.",
+            "children": []
           }
         ]
       },
       {
         "id": "theme-destiny-instinct",
-        "label": "The Destiny Instinct (The Illusion of Inevitability)",
-        "description": "This cognitive bias whispers that underlying characteristics\u2014be they culture, religion, climate, or geography\u2014predetermine an unalterable fate.\nIt treats dynamic historical processes as static, stone-carved destinies incapable of self-transformation.",
+        "label": "The Destiny Instinct",
+        "description": "We assume cultures never change.\nIn reality, every society changes over time.",
         "children": [
           {
             "id": "destiny-slow-vs-static",
-            "label": "Slow Change Is Not No Change",
-            "description": "Societies evolve along geological timescales that appear stationary to impatient, short-horizon observers.\nJust because cultural values or economic models shift by single-digit percentages annually does not mean their trajectory is frozen."
+            "label": "Slow Change Happens",
+            "description": "Slow progress is still real progress.\nSmall annual shifts create huge long-term results.",
+            "children": []
           },
           {
             "id": "destiny-cultural-plasticity",
-            "label": "The Plasticity of Culture",
-            "description": "Traditions, social taboos, and birth rates are fluid, responsive mechanisms that rapidly adapt to new socioeconomic conditions.\nAsian and African family sizes have plummeted in direct correlation with female education and modern healthcare, debunking static fatalism.",
+            "label": "Cultures Keep Changing",
+            "description": "Traditions evolve as living conditions improve.\nValues and family sizes change rapidly across generations.",
             "children": [
               {
                 "id": "destiny-historic-reversals",
-                "label": "Tracking Gradual Upgrades",
-                "description": "Keep a ledger of small historical baseline updates to avoid misjudging modern progress through outdated historical memories.\nComparing current civic indicators to grandmother generations provides definitive empirical proof of radical cultural metamorphosis."
+                "label": "Track Changes Over Time",
+                "description": "Compare today with your grandparents' era.\nYou will see how much has truly changed.",
+                "children": []
               }
             ]
           }
@@ -1473,69 +1492,77 @@ export const FACTFULNESS_BOOK: Book = {
       },
       {
         "id": "theme-single-instinct",
-        "label": "The Single Perspective Instinct (Dogma over Diagnostic)",
-        "description": "We are seduced by clean, silver-bullet theories that promise to explain all societal problems with a single ideological lens.\nWhether through pure free-market zeal, central planning, or technocratic obsession, single lenses inevitably distort multifaceted systemic truths.",
+        "label": "The Single Perspective",
+        "description": "Simple ideas cannot solve every problem.\nNo single theory explains the entire world.",
         "children": [
           {
             "id": "single-toolbox-fallacy",
-            "label": "The Hammer and Nail Dilemma",
-            "description": "To a person wielding a favorite conceptual hammer, every systemic dysfunction looks like a matching nail.\nRelying on an oversimplified toolkit turns genuine experts into dogmatists who fail to notice complex peripheral feedback dynamics."
+            "label": "Beyond One Tool",
+            "description": "To a hammer, everything looks like a nail.\nUse multiple tools to fix complex issues.",
+            "children": []
           },
           {
             "id": "single-plural-measures",
-            "label": "Multidisciplinary Triangulation",
-            "description": "No single metric, such as GDP or electoral democracy, serves as an omniscient proxy for civilizational health.\nRobust diagnosis requires examining diverse arrays of health indices, educational attainment, infrastructure access, and civic rights simultaneously."
+            "label": "Use Multiple Numbers",
+            "description": "No single number shows the whole truth.\nCheck health, schooling, and income together.",
+            "children": []
           }
         ]
       },
       {
         "id": "theme-blame-instinct",
-        "label": "The Blame Instinct (The Scapegoat Reflex)",
-        "description": "When tragedy strikes or systems collapse, our instinctive impulse is to hunt down an evil villain or a heroic savior.\nThis obsession with individual agency prevents us from understanding the silent, mechanical architecture of institutional processes and feedback loops.",
+        "label": "The Blame Instinct",
+        "description": "We love finding someone to blame.\nBad results usually come from broken systems.",
         "children": [
           {
             "id": "blame-system-over-villain",
-            "label": "Investigating Systems, Not Scapegoats",
-            "description": "Industrial crashes, supply shocks, and bureaucratic breakdowns usually emerge from poorly configured incentives and fragmented procedures rather than malicious intent.\nRemoving a single bad apple does nothing if the orchard's underlying soil conditions remain toxic."
+            "label": "Fix the System",
+            "description": "Do not just look for a villain.\nLook at the broken rules and bad setups.",
+            "children": []
           },
           {
             "id": "blame-hero-myth",
-            "label": "The Illusion of the Solitary Savior",
-            "description": "We lavish credit upon political figureheads and charismatic inventors, neglecting the collective labor of unheralded technicians, nurses, and civil servants.\nEnduring historical progress is almost always a collaborative, emergent property of distributed societal networks."
+            "label": "Heroes Need Helpers",
+            "description": "No single hero fixes the world alone.\nReal progress takes steady teamwork from many people.",
+            "children": []
           }
         ]
       },
       {
         "id": "theme-urgency-instinct",
-        "label": "The Urgency Instinct (Panic-Driven Action)",
-        "description": "The visceral cry of 'now or never!' triggers psychological fight-or-flight mechanisms that freeze careful analytical thinking.\nPanic encourages reckless shortcuts, fuels sensationalized forecasting, and reliably derails effective strategic policymaking.",
+        "label": "The Urgency Instinct",
+        "description": "Panicking leads to rushed decisions.\nTake a breath and check the facts first.",
         "children": [
           {
             "id": "urgency-pause-breathe",
-            "label": "The Tactical Pause",
-            "description": "Whenever someone insists you must act this very second without checking data, they are usually trying to bypass your critical faculties.\nGenuine systemic emergencies are managed through methodical triage, careful verification, and measured execution rather than chaotic haste."
+            "label": "Pause Before Acting",
+            "description": "Urgent calls to act often hide weak data.\nTake time to think before you leap.",
+            "children": []
           },
           {
             "id": "urgency-measured-data-hygiene",
-            "label": "Insisting on High-Fidelity Data",
-            "description": "Making hurried decisions based on speculative, hastily gathered numbers leads to disastrous misallocations of capital and labor.\nCalibrating real-time measurement pipelines ensures that intervention forces strike where they can produce maximum systemic remedy."
+            "label": "Insist on Clear Data",
+            "description": "Hasty choices waste time and money.\nAlways check that your numbers are reliable.",
+            "children": []
           }
         ]
       },
       {
         "id": "theme-factfulness-in-practice",
-        "label": "Factfulness in Practice (The Calibrated Mind)",
-        "description": "Factfulness is not an encyclopedic memorization of static facts, but a continuous mental hygiene that defuses dramatic cognitive reflexes.\nIt transforms existential dread into tranquil curiosity, empowering us to navigate our interconnected world with clarity and constructive agency.",
+        "label": "Factfulness in Practice",
+        "description": "Factfulness is a calm mental habit.\nIt helps you see the world clearly.",
         "children": [
           {
             "id": "practice-epistemic-humility",
-            "label": "Radical Epistemic Humility",
-            "description": "Cultivating the courage to openly declare 'I do not know' shields the mind from reactionary dogmatism and intellectual calcification.\nWelcoming disconfirming datasets turns ignorance into an invigorating scientific journey of discovery."
+            "label": "Admit What You Don't Know",
+            "description": "It is okay to say you do not know.\nBeing open to new facts helps you learn.",
+            "children": []
           },
           {
             "id": "practice-worldview-updates",
-            "label": "Continuous Worldview Upgrades",
-            "description": "The world is an evolving organism; knowledge gained in high school or college decays into historical trivia over subsequent decades.\nPeriodically benchmarking your basic intuitions against trusted global data repositories keeps your mental map aligned with evolving reality."
+            "label": "Keep Facts Updated",
+            "description": "The world keeps changing every year.\nUpdate your facts so your thinking stays fresh.",
+            "children": []
           }
         ]
       }

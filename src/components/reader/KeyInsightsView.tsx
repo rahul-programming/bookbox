@@ -188,7 +188,7 @@ export const KeyInsightsView: React.FC<KeyInsightsViewProps> = ({
   if (!currentBlink) return null;
 
   return (
-    <div className="max-w-3xl mx-auto py-6 sm:py-8">
+    <div className="max-w-3xl mx-auto py-6 sm:py-8 w-full max-w-full overflow-hidden">
       
       {/* Top Insight Stepper, Top Prev/Next & Audio Trigger (Stationary Header) */}
       <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-200/80 dark:border-slate-800 pb-4 mb-6">

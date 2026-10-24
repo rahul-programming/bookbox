@@ -1,5 +1,5 @@
 // Decisive by Chip Heath & Dan Heath
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -552,169 +552,169 @@ export const DECISIVE_BOOK: Book = {
   "actionItems": [
     {
       "id": "decisive-act-1",
-      "title": "Run the Vanishing Options Test",
-      "description": "Our minds love narrow binary framing ('Should I do X or not?'). Break narrow framing instantly by pretending your current favorite option vanished into thin air.",
+      "title": "Use Vanishing Options Test",
+      "description": "We often get trapped asking yes-or-no questions. Pretend your favorite choice vanished to find fresh paths.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Write down your primary decision question on a blank sheet of paper.",
-        "Draw an 'X' through your current leading option and declare it completely impossible.",
-        "Ask yourself: 'If this choice didn't exist anywhere in the world, what else could I do?'",
-        "Brainstorm two brand new alternatives that force you to look at alternative avenues."
+        "1. Write down your main choice on paper.",
+        "2. Cross out your top choice completely.",
+        "3. Ask what you would do instead.",
+        "4. List two new workable options now."
       ],
       "sourceChapter": "Chapter 2: Avoid Narrow Framing"
     },
     {
       "id": "decisive-act-2",
-      "title": "Multi-Track with Simultaneous Alternatives",
-      "description": "Considering options in series leads to ego investment; designing options in parallel keeps your brain objective and reveals hidden system trade-offs.",
+      "title": "Compare Multiple Choices Together",
+      "description": "Working on one idea makes you fall in love with it. Build several ideas at once to stay fair.",
       "category": "system",
       "timeEstimateMinutes": 35,
       "stepByStep": [
-        "Pick a pending design or project choice that currently only has one working draft.",
-        "Split your energy into creating two or three distinctly different prototypes at once.",
-        "Present all variations together without revealing which one you drafted first.",
-        "Synthesize the strongest elements of each path into a cohesive final solution."
+        "1. Pick a project with one draft.",
+        "2. Sketch three very different options quickly.",
+        "3. Compare all options side by side.",
+        "4. Combine the best parts into one."
       ],
       "sourceChapter": "Chapter 3: Multitrack"
     },
     {
       "id": "decisive-act-3",
-      "title": "Establish an Outside-View Base Rate Audit",
-      "description": "Our internal optimism bias assumes we are exceptional exceptions. Calibrate your predictions against cold, empirical base rates from people who walked the exact same path.",
+      "title": "Check Real World Rates",
+      "description": "We always think we will beat the odds. Look up real results from people before you.",
       "category": "audit",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Identify a major initiative, venture, or timeline you are estimating.",
-        "Look up industry benchmarks or interview two impartial people who attempted the same feat.",
-        "Record their median completion time, failure rate, and unexpected budget surprises.",
-        "Adjust your internal forecast so it aligns squarely with empirical historical data."
+        "1. Pick a big goal you planned.",
+        "2. Ask two veterans how it went.",
+        "3. Write down common delays and costs.",
+        "4. Fix your plan using real numbers."
       ],
       "sourceChapter": "Chapter 5: Consider the Opposite"
     },
     {
       "id": "decisive-act-4",
-      "title": "Run a Low-Stakes Ooching Experiment",
-      "description": "Rather than jumping blindly into an all-or-nothing bet, create a micro-scale physical test to collect real-world signal before committing capital or career energy.",
+      "title": "Run a Tiny Test",
+      "description": "Do not bet everything on a single guess. Test your idea cheaply before jumping in fully.",
       "category": "quick-win",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Identify the single biggest assumption underpinning your big decision.",
-        "Design a micro-experiment that tests that assumption within 48 hours for under $20.",
-        "Expose the micro-prototype to actual users or spend half a day shadowing the job.",
-        "Evaluate observed behavior rather than relying on abstract internal speculation."
+        "1. Spot your biggest risky assumption today.",
+        "2. Create a test under twenty dollars.",
+        "3. Show the test to real customers.",
+        "4. Check actual results before spending money."
       ],
       "sourceChapter": "Chapter 6: Zoom Out, Zoom In"
     },
     {
       "id": "decisive-act-5",
-      "title": "Apply the 10/10/10 Emotional Distance Check",
-      "description": "Short-term emotion is the fiercest enemy of lucid decision-making. Shift your perspective into three distinct temporal horizons to quiet acute visceral fear.",
+      "title": "Use the 10/10/10 Rule",
+      "description": "Hot feelings can ruin good choices quickly. Look at your choice across three timespans.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Pause when facing a tough dilemma, awkward conversation, or risky impulse.",
-        "Ask yourself: 'How will I feel about this choice 10 minutes from now?'",
-        "Ask: 'How will I feel about this decision 10 months from now?'",
-        "Conclude with: 'How will I look back on this 10 years from now?'"
+        "1. Pause before you make any choice.",
+        "2. Ask how you feel in minutes.",
+        "3. Ask how you feel in months.",
+        "4. Ask how you feel in years."
       ],
       "sourceChapter": "Chapter 8: Overcome Short-Term Emotion"
     },
     {
       "id": "decisive-act-6",
-      "title": "Consult Your Best Friend Perspective",
-      "description": "We give great advice to others because we naturally spot the macro landscape, yet we obsess over micro worries when deciding for ourselves. Swap viewpoints.",
+      "title": "Ask Friend Advice Question",
+      "description": "We give great advice to our friends. Treat yourself like a friend to see clearly.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Notice when you are agonizing over two conflicting personal choices.",
-        "Frame the dilemma as if your closest friend or colleague just walked in with it.",
-        "Notice what clear, straightforward advice springs immediately to your mind.",
-        "Adopt that exact objective recommendation for your own situation."
+        "1. Notice when you feel totally stuck.",
+        "2. Imagine your best friend has this problem.",
+        "3. Notice what advice you give them.",
+        "4. Follow that exact advice yourself today."
       ],
       "sourceChapter": "Chapter 8: Overcome Short-Term Emotion"
     },
     {
       "id": "decisive-act-7",
-      "title": "Design a Physical Core Priorities Board",
-      "description": "Without explicit environmental cues, urgent minor tasks will relentlessly crowd out your fundamental core priorities. Make your core trade-offs visible on your wall.",
+      "title": "Post Your Top Priorities",
+      "description": "Busy work will push out what matters most. Keep your main goals right in front of you.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Identify your top three non-negotiable core priorities for the quarter.",
-        "Create a dedicated visual board or desktop placard displaying them side-by-side.",
-        "List common peripheral distractions explicitly labeled as 'Do Not Prioritize'.",
-        "Position the board directly in your visual eyeline so every new demand confronts it."
+        "1. Pick your top three big goals.",
+        "2. Write them large on an index card.",
+        "3. List common distractions you must skip.",
+        "4. Place the card on your computer monitor."
       ],
       "sourceChapter": "Chapter 9: Honor Your Core Priorities"
     },
     {
       "id": "decisive-act-8",
-      "title": "Conduct a Prospective Hindsight Premortem",
-      "description": "Overconfidence tricks us into planning only for success. Peer forward into the future, assume total systemic disaster, and uncover structural vulnerabilities today.",
+      "title": "Plan for Future Failure",
+      "description": "We usually plan as if nothing goes wrong. Pretend your project failed so you spot traps early.",
       "category": "system",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Gather your project team or sit down with your personal venture plan.",
-        "Set the mental clock forward 12 months: 'The project failed utterly and catastrophically.'",
-        "Spend 10 minutes writing down the exact chain reaction of events that caused this doom.",
-        "Build specific safeguards and mitigation protocols against the top vulnerabilities."
+        "1. Look at your current big plan.",
+        "2. Pretend one year passed and it failed.",
+        "3. List every reason that caused the failure.",
+        "4. Add safety steps to your plan now."
       ],
       "sourceChapter": "Chapter 10: Bookend the Future"
     },
     {
       "id": "decisive-act-9",
-      "title": "Install an Automated Tripwire Trigger",
-      "description": "Human beings sleepwalk into escalating commitments. Anchor your plan to a crisp, measurable tripwire that jolts you awake and forces a deliberate re-evaluation.",
+      "title": "Set a Clear Tripwire",
+      "description": "We easily stay with bad projects too long. Set an automatic alarm that tells you to stop.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Pinpoint a project, investment, or initiative susceptible to scope creep.",
-        "Define an unambiguous numerical metric or deadline (e.g., 'If churn hits 8%' or 'By Day 60').",
-        "Attach a mandatory calendar reminder or automated software alert to that exact threshold.",
-        "Agree in advance that hitting the tripwire automatically halts activity for a scheduled review."
+        "1. Pick a project that wastes extra time.",
+        "2. Set an exact date or budget limit.",
+        "3. Add a calendar alert for that number.",
+        "4. Agree to stop and review when reached."
       ],
       "sourceChapter": "Chapter 11: Set a Tripwire"
     },
     {
       "id": "decisive-act-10",
-      "title": "Audit Past Decisions for Narrow Framing Leaks",
-      "description": "Inspect your past quarter's decision logs to discover how many times you fell victim to whether-or-not traps, and identify systemic blind spots.",
+      "title": "Review Old Decisions for Traps",
+      "description": "We often make choices with only one option. Look back at past choices to spot blind spots.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Collect notes or email threads for the last five major choices you made.",
-        "Classify each decision question: was it phrased as 'Whether to do X' or 'Which option to choose'?",
-        "Count the total number of distinct, viable alternatives that were genuinely explored.",
-        "Note recurring team dynamics or psychological biases that compressed your choice set."
+        "1. Pull up your last five choices.",
+        "2. Check if questions were yes-or-no traps.",
+        "3. Count how many options you tried.",
+        "4. Note habits that limited your thinking."
       ],
       "sourceChapter": "Chapter 1: The Four Villains of Decision Making"
     },
     {
       "id": "decisive-act-11",
-      "title": "Construct an Opportunity Cost Sticky-Note Mirror",
-      "description": "Every choice to spend time or capital on one item silently steals capacity from another. Alter your workspace so opportunity costs are impossible to ignore.",
+      "title": "Track What You Give Up",
+      "description": "Spending time on one thing costs you another. Remind yourself what you sacrifice on every choice.",
       "category": "environment",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Write the phrase: 'What are you giving up by making this choice?' on an index card.",
-        "Affix it directly next to your budget spreadsheet or task management window.",
-        "Whenever a new financial expense or project comes up, name what cannot be funded.",
-        "Ensure the sacrificed opportunity is weighed against the incoming request."
+        "1. Write what you give up on paper.",
+        "2. Stick that note by your computer screen.",
+        "3. Read the note before starting new tasks.",
+        "4. Ask if the trade makes total sense."
       ],
       "sourceChapter": "Chapter 2: Avoid Narrow Framing"
     },
     {
       "id": "decisive-act-12",
-      "title": "Execute a Procedural Justice Check on Decisions",
-      "description": "Decisions often collapse during execution when stakeholders feel ignored. Run a systematic fairness protocol to ensure everyone felt heard and the process was clear.",
+      "title": "Run a Fair Process Check",
+      "description": "People reject choices when they feel left out. Make sure everybody is heard before you decide.",
       "category": "system",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Review any impending group decision before the final verdict is announced.",
-        "Check that dissenting viewpoints were explicitly invited, listened to, and recorded.",
-        "Summarize the strongest counterarguments back to the team to prove comprehension.",
-        "Explain transparently how the final criteria were applied to determine the path forward."
+        "1. Pause before you announce a group choice.",
+        "2. Listen to team members who disagree first.",
+        "3. Repeat their concerns back to them clearly.",
+        "4. Explain how you reached the final call."
       ],
       "sourceChapter": "Chapter 12: Trusting the Process"
     }
@@ -891,10 +891,10 @@ export const DECISIVE_BOOK: Book = {
       "author": "Chip Heath & Dan Heath",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The WRAP Framework",
-      "body": "Human cognitive hardware is vulnerable to four distinct decision saboteurs: narrow framing, confirmation bias, short-term emotion, and overconfidence.\nThe WRAP architecture systematically counters them: Widen your options, Reality-test your assumptions, Attain distance before deciding, and Prepare to be wrong.",
+      "headline": "The WRAP Process",
+      "body": "Four traps ruin our choices: narrow focus, bias, short-term feelings, and overconfidence.\nThe WRAP steps beat them.\nWiden options, test assumptions, get distance, and prepare to fail.",
       "quote": "A normal decision process is like driving down a dark road with your high beams off.",
-      "actionItem": "Diagnose your active decision: which of the four cognitive traps is currently warping your judgment?",
+      "actionItem": "Look at your choice today.\nName which trap is pulling you off course.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -912,10 +912,10 @@ export const DECISIVE_BOOK: Book = {
       "author": "Chip Heath & Dan Heath",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Narrow Framing and Spotlight Fallacy",
-      "body": "The brain behaves like an impatient spotlight, illuminating only the immediate choice in front of it and plunging the surrounding landscape into darkness.\nThis produces binary 'whether-or-not' decisions, blinding us to the vast terrain of parallel opportunities.",
+      "headline": "The Spotlight Trap",
+      "body": "Our minds shine light on only one choice at a time.\nWe treat decisions as simple yes-or-no questions.\nThis makes us miss other great paths.",
       "quote": "Focusing is great for analyzing options, but it is terrible for spotting them.",
-      "actionItem": "Convert your current binary dilemma into a multi-choice question containing at least three viable options.",
+      "actionItem": "Turn your yes-or-no question into a choice with three real options.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -933,10 +933,10 @@ export const DECISIVE_BOOK: Book = {
       "author": "Chip Heath & Dan Heath",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Run the Vanishing Options Test",
-      "body": "When you believe you are cornered into a single course of action, force a mental reset by pretending your existing choices have been outlawed.\nStripping away your primary path jolts your brain out of complacency and catalyzes latent creative solutions.",
+      "headline": "Vanishing Options Test",
+      "body": "We often feel stuck with only one choice.\nPretend your current choices are banned.\nThis trick forces your brain to find fresh answers.",
       "quote": "What if you could not choose any of the options you are currently considering? What else could you do?",
-      "actionItem": "Erase your favored plan from the table for ten minutes and brainstorm two alternative ways to reach the goal.",
+      "actionItem": "Drop your top plan for ten minutes.\nBrainstorm two new ways forward.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -955,9 +955,9 @@ export const DECISIVE_BOOK: Book = {
       "category": "Psychology",
       "type": "mental-model",
       "headline": "Multitracking",
-      "body": "Considering multiple paths simultaneously inoculates decision-makers against ego attachment and defensive territorialism.\nWhen teams pursue 2 to 3 alternatives in parallel, they pivot faster, maintain emotional agility, and sidestep ideological gridlock.",
+      "body": "Work on two or three options at the same time.\nThis keeps you from falling in love with one idea.\nPeople argue less and move faster.",
       "quote": "When you consider multiple options simultaneously, the stakes change from 'my idea versus yours' to 'which combination works best'.",
-      "actionItem": "Never launch a strategic initiative with only one proposal; insist on presenting two distinct alternatives.",
+      "actionItem": "Bring at least two solid proposals to your next big project review.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -975,10 +975,10 @@ export const DECISIVE_BOOK: Book = {
       "author": "Chip Heath & Dan Heath",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Prevention vs. Promotion Balance",
-      "body": "Decisions often skew toward either fierce defense (avoiding loss) or eager offense (seizing gain).\nThe most resilient strategies consciously splice both: shielding baseline risks while actively cultivating speculative upsides.",
+      "headline": "Defense and Offense",
+      "body": "Some choices play defense to prevent loss.\nOther choices play offense to chase growth.\nThe best plans use both at once.",
       "quote": "The best multitrackers blend a prevention mindset with a promotion mindset.",
-      "actionItem": "Audit your current project portfolio to ensure you have both risk-hedging safety nets and ambitious growth bets.",
+      "actionItem": "Check your current plan.\nMake sure it protects downside while chasing upside.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -996,10 +996,10 @@ export const DECISIVE_BOOK: Book = {
       "author": "Chip Heath & Dan Heath",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Illusion of Choice",
-      "body": "Most business and personal choices look like choices only on the surface.\nIn reality, they are disguised ultimatums manufactured by our refusal to look beyond the immediate narrative.",
+      "headline": "Fake Choices",
+      "body": "Many choices are not real choices at all.\nWe often push one favorite idea and pretend to consider alternatives.\nAdding one real extra option changes everything.",
       "quote": "Adding just one more alternative radically improves your decisions.",
-      "actionItem": "Check whether your decision is genuine selection or simply an approval process for a preordained favorite.",
+      "actionItem": "Ask if you are truly choosing or just approving your favorite idea.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1017,10 +1017,10 @@ export const DECISIVE_BOOK: Book = {
       "author": "Chip Heath & Dan Heath",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Find Someone Who Solved It",
-      "body": "Instead of reinventing the wheel inside an echo chamber, locate peers, competitors, or external domains that have cracked your exact systemic friction.\nLook internally for bright spots and externally across unrelated industries.",
+      "headline": "Copy What Works",
+      "body": "Do not solve hard problems from scratch.\nSomeone else has already solved this exact issue.\nLook inside your team and across other industries.",
       "quote": "To break out of a narrow frame, look for bright spots: who is already succeeding with this exact struggle?",
-      "actionItem": "Identify one internal department and one outside industry that faced your operational bottleneck, and interview them.",
+      "actionItem": "Find someone who already fixed your problem.\nAsk how they did it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1038,10 +1038,10 @@ export const DECISIVE_BOOK: Book = {
       "author": "Chip Heath & Dan Heath",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Ooching (Micro-Experimentation)",
-      "body": "Ooching means constructing small-scale, empirical trials to test core hypotheses before making irreversible commitments.\nRather than trusting abstract forecasts, engineer a living prototype to let real-world contact reveal system behavior.",
+      "headline": "Ooching",
+      "body": "Ooching means running small tests before you dive in.\nDo not guess what will happen in the future.\nTry a small sample in the real world first.",
       "quote": "Why predict when you can test? Why guess when you can know?",
-      "actionItem": "Design a 72-hour test run for your pending major project instead of spending weeks compiling prediction decks.",
+      "actionItem": "Run a quick three-day test before spending big money on a project.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1059,10 +1059,10 @@ export const DECISIVE_BOOK: Book = {
       "author": "Chip Heath & Dan Heath",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Outside View vs. The Inside View",
-      "body": "The inside view relies on vivid, personalized storytelling and intoxicating optimism.\nThe outside view relies on objective base-rate data from hundreds of comparable cases.\nThe outside view is almost always more accurate.",
+      "headline": "Inside vs Outside View",
+      "body": "The inside view trusts our own hopeful feelings.\nThe outside view looks at real data from similar cases.\nReal numbers are much more honest than hope.",
       "quote": "The inside view is a snapshot of our own rosy expectations; the outside view is a summary of what actually happened to others.",
-      "actionItem": "Look up the standard statistical failure and completion rates for your planned venture before setting your budget.",
+      "actionItem": "Look up average success rates for your goal before setting your plan.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1080,10 +1080,10 @@ export const DECISIVE_BOOK: Book = {
       "author": "Chip Heath & Dan Heath",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Consulting Experts for Base Rates",
-      "body": "Domain experts are notorious for terrible future predictions, but exceptional at cataloging historical realities.\nAsk experts about the past and present base rates, not their prophecies of what tomorrow holds.",
+      "headline": "Ask Experts for Facts",
+      "body": "Experts are bad at predicting the future.\nHowever, they know past facts very well.\nAsk them what usually happens, not what will happen.",
       "quote": "Ask experts for base rates and current mechanics, not for predictions.",
-      "actionItem": "When speaking with a mentor, replace 'Do you think this will succeed?' with 'What are the most common ways this fails?'",
+      "actionItem": "Ask an expert: What are the most common ways this goes wrong?",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1102,9 +1102,9 @@ export const DECISIVE_BOOK: Book = {
       "category": "Psychology",
       "type": "mental-model",
       "headline": "The 10/10/10 Rule",
-      "body": "Visceral emotions hijack rational calculus by amplifying immediate discomfort.\nThe 10/10/10 framework recalibrates perspective by asking how you will feel about the choice in 10 minutes, 10 months, and 10 years, filtering transient agitation.",
+      "body": "Strong feelings mess up our choices right now.\nAsk how you will feel in 10 minutes, 10 months, and 10 years.\nThis clears away quick panic.",
       "quote": "Short-term emotion is the silent killer of strategic conviction.",
-      "actionItem": "Map your current agonizing decision across the 10-minute, 10-month, and 10-year emotional horizon.",
+      "actionItem": "Rate your tough choice across 10 minutes, 10 months, and 10 years.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1122,10 +1122,10 @@ export const DECISIVE_BOOK: Book = {
       "author": "Chip Heath & Dan Heath",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Mere Exposure and Status Quo Bias",
-      "body": "The human mind naturally develops affection for whatever is familiar, confusing comfort with intrinsic value.\nThis evolutionary inertia keeps individuals and organizations anchored to deteriorating routines long past their expiration.",
+      "headline": "The Comfort Trap",
+      "body": "We like things simply because we know them well.\nWe confuse comfort with quality.\nThis habit keeps us stuck in bad routines.",
       "quote": "We do not just prefer the familiar; we actively construct rationalizations to protect it.",
-      "actionItem": "Identify one legacy procedure you protect simply because you are used to it, and challenge its utility.",
+      "actionItem": "Pick one routine you keep only because it feels comfortable.\nTest its value.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1143,10 +1143,10 @@ export const DECISIVE_BOOK: Book = {
       "author": "Chip Heath & Dan Heath",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "The Outside Observer Heuristic",
-      "body": "When tangled in conflicting emotions, mental distance provides immediate clarity.\nAsk yourself: 'If I were replaced tomorrow, what would my successor do?' or 'What advice would I give my best friend in this exact spot?'",
+      "headline": "Best Friend Advice",
+      "body": "It is easy to give good advice to other people.\nWe struggle only when we decide for ourselves.\nStep back and look from the outside.",
       "quote": "Distance gives clarity. We advise others with wise detachment, yet drown in our own emotional soup.",
-      "actionItem": "Draft a one-page advisory memo to yourself written from the perspective of an incoming external CEO.",
+      "actionItem": "Ask yourself: What advice would I give my best friend right now?",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1164,10 +1164,10 @@ export const DECISIVE_BOOK: Book = {
       "author": "Chip Heath & Dan Heath",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Core Priorities Clarification",
-      "body": "Indecision is rarely an informational deficit; it is an unresolved conflict of underlying values.\nCreating an explicit hierarchy of core priorities acts as an internal compass, allowing non-essential trade-offs to resolve themselves cleanly.",
+      "headline": "Rank Your Priorities",
+      "body": "Hard choices happen when our goals bump into each other.\nYou must rank what matters most.\nClear priorities make tough trade-offs easy.",
       "quote": "If you want to resolve an agonizing decision, resolve your ranking of priorities first.",
-      "actionItem": "Rank your top three operating values in strict numerical order; enforce zero ties between them.",
+      "actionItem": "Rank your top three goals in order.\nDo not allow any ties.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1185,10 +1185,10 @@ export const DECISIVE_BOOK: Book = {
       "author": "Chip Heath & Dan Heath",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Premortem Technique",
-      "body": "Prospective hindsight radically improves foresight.\nBefore launching, instruct the team to imagine that the initiative has collapsed into a complete disaster one year from now.\nTrace the forensic causes of that imaginary ruin to neutralize real hazards.",
+      "headline": "The Premortem",
+      "body": "Pretend your project failed completely one year from today.\nAsk the team what caused the crash.\nSpotting mistakes early lets you fix them now.",
       "quote": "A premortem gives people permission to voice dissenting doubts without seeming disloyal.",
-      "actionItem": "Gather your team for thirty minutes to write the obituary of your current initiative and list every fatal flaw.",
+      "actionItem": "Ask your team: If this fails completely next year, why did it happen?",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1206,10 +1206,10 @@ export const DECISIVE_BOOK: Book = {
       "author": "Chip Heath & Dan Heath",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "The Preparade Strategy",
-      "body": "While premortems prepare you for unexpected collapse, preparades prepare you for runaway success.\nSurges in adoption and hyper-growth bring their own systemic shocks, bottlenecks, and breakdown points if capacity planning is ignored.",
+      "headline": "The Preparade",
+      "body": "Huge success brings its own big troubles.\nSystems break when too many customers show up at once.\nPlan ahead for sudden wild growth.",
       "quote": "Massive success brings its own operational chaos; prepare for the parade as rigorously as the funeral.",
-      "actionItem": "Outline what systems, servers, or personnel will buckle if demand for your offering spikes tenfold next month.",
+      "actionItem": "List what breaks first if your users grow ten times next month.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1227,10 +1227,10 @@ export const DECISIVE_BOOK: Book = {
       "author": "Chip Heath & Dan Heath",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Tripwires and Circuit Breakers",
-      "body": "Autopilot behavior and sunk-cost fallacy cause us to sleepwalk through escalating failures.\nInstalling objective, pre-committed tripwires snaps us out of cognitive slumber and prompts deliberate reassessment before damage compounds.",
+      "headline": "Set Tripwires",
+      "body": "We stick with bad ideas because we are on autopilot.\nA tripwire is a preset trigger that wakes you up.\nIt forces you to rethink.",
       "quote": "A tripwire is an alarm clock for the subconscious mind, snapping us awake when conditions change.",
-      "actionItem": "Establish a strict numerical metric and hard deadline on your active investment that automatically forces a pivot.",
+      "actionItem": "Pick a clear number or date that forces you to stop or change.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1248,10 +1248,10 @@ export const DECISIVE_BOOK: Book = {
       "author": "Chip Heath & Dan Heath",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Overconfidence in Predictive Precision",
-      "body": "Our intuition is hopelessly overconfident about future forecasts.\nThe antidote is not trying harder to guess the exact bullseye, but methodically broadening the cone of probabilities to accommodate dramatic variance.",
+      "headline": "Range Over Guesses",
+      "body": "People are far too confident about future outcomes.\nDo not guess a single number.\nThink about a wide range from worst to best.",
       "quote": "The future is not a single point on a map; it is a wide distribution of possibilities.",
-      "actionItem": "Replace point estimates in your budgets and schedules with wide scenario brackets from worst-case to best-case.",
+      "actionItem": "Give a low and high estimate for your project instead of one number.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1269,10 +1269,10 @@ export const DECISIVE_BOOK: Book = {
       "author": "Chip Heath & Dan Heath",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Bookending Outcomes",
-      "body": "Bookending bounds reality by deliberately mapping both extremes: the catastrophic lower bound and the ecstatic upper bound.\nBy preparing for the structural realities of both horizons, you render the middle journey robust and antifragile.",
+      "headline": "Bookending",
+      "body": "Bookending means planning for both extremes.\nPicture the absolute worst outcome and the best outcome.\nWhen both ends are covered, you are safe.",
       "quote": "To prepare for an uncertain future, bookend your expectations: plan for the worst, prepare for the best.",
-      "actionItem": "Document your containment protocol for the bottom 5% downside and your leverage plan for the top 5% upside.",
+      "actionItem": "Write a safety plan for the worst case and a growth plan for the best.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1290,10 +1290,10 @@ export const DECISIVE_BOOK: Book = {
       "author": "Chip Heath & Dan Heath",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Institutionalizing Constructive Dissent",
-      "body": "Flawless consensus is frequently the byproduct of social compliance rather than analytical rigor.\nProtect strategic clarity by assigning rotating devil's advocates whose explicit duty is to stress-test consensus assumptions.",
+      "headline": "Encourage Disagreement",
+      "body": "Total agreement in a meeting is often fake.\nPeople stay quiet to be nice.\nAppoint someone to challenge ideas and find hidden flaws.",
       "quote": "Genuine debate is not a threat to cohesion; it is the ultimate safeguard against collective delusion.",
-      "actionItem": "Assign a rotating contrarian in your next planning session whose sole job is to surface three unaddressed vulnerabilities.",
+      "actionItem": "Pick one team member to challenge the group plan in your next meeting.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1307,48 +1307,48 @@ export const DECISIVE_BOOK: Book = {
   ],
   "mindMap": {
     "id": "root",
-    "label": "Decisive: How to Make Better Choices in Life and Work",
-    "description": "An architectural exploration into how human beings navigate forks in the road under fog and friction.\nChip and Dan Heath dissect the subtle cognitive tripwires that hijack our reasoning and construct a disciplined four-step operational system known as the WRAP process to engineer wiser, more resilient choices.",
+    "label": "Decisive: Making Choices",
+    "description": "We often make choices using gut feelings.\nThis book shares a four-step process to make smarter choices.",
     "children": [
       {
         "id": "four-villains",
-        "label": "The Four Villains of Decision Making",
-        "description": "The invisible neurological distortions and cognitive traps that systematically compromise our intuitive judgments.\nRecognizing these built-in psychological blind spots is the vital diagnostic baseline required before any behavioral countermeasure can take effect.",
+        "label": "Four Decision Traps",
+        "description": "Our minds play tricks on us when making choices.\nKnowing these hidden traps helps us avoid big mistakes.",
         "children": [
           {
             "id": "narrow-framing",
             "label": "Narrow Framing",
-            "description": "The reflexive cognitive tendency to compress complex multidimensional problems into binary whether-or-not dilemmas.\nBy trapping our attention inside an artificial either/or corridor, we overlook fertile alternative possibilities hiding just beyond our initial focal perimeter.",
+            "description": "We treat choices like simple yes-or-no questions.\nThis makes us miss other great options.",
             "children": [
               {
                 "id": "spotlight-effect",
-                "label": "The Mental Spotlight",
-                "description": "Our attention acts like an intensely focused theatrical beam that illuminates only what sits directly in front of us while plunging peripheral context into darkness.\nWe routinely forget that unlit options exist outside the beam's circumference simply because they are not immediately visible.",
+                "label": "The Spotlight",
+                "description": "We focus only on what is right in front of us.\nWe forget to look at what lies outside the light.",
                 "children": []
               },
               {
                 "id": "binary-trap",
-                "label": "Whether-or-Not Dilemmas",
-                "description": "The linguistic trap where decisions are structured as binary ultimatums, such as deciding whether to break up or stay, or whether to fire an employee.\nResearch demonstrates that the vast majority of such binary formulations collapse under rigorous inspection once a third alternative is introduced.",
+                "label": "Either-Or Thinking",
+                "description": "Asking 'should I quit or stay?' limits our thinking.\nThere is almost always a third choice available.",
                 "children": []
               }
             ]
           },
           {
             "id": "confirmation-bias",
-            "label": "Confirmation Bias",
-            "description": "The subconscious mechanism that leads us to hunt for evidence supporting our pre-existing hunch while quietly discarding disconfirming data.\nWe develop a visceral attachment to our working hypothesis and mistakenly treat our self-serving investigation as objective truth gathering.",
+            "label": "Seeking Agreement",
+            "description": "We look for facts that prove our hunch right.\nAt the same time, we ignore facts that disagree.",
             "children": [
               {
                 "id": "self-serving-data",
-                "label": "Manufactured Agreement",
-                "description": "The subtle conversational choreography where decision-makers consult cheerleaders rather than genuine critics to rubber-stamp their favored strategy.\nThis creates a dangerous illusion of thorough consensus while shielding vulnerable assumptions from scrutiny.",
+                "label": "Asking Fans Only",
+                "description": "We ask people who already agree with us for advice.\nThis gives us fake confidence.",
                 "children": []
               },
               {
                 "id": "gut-feeling-fallacy",
-                "label": "The Gut-Check Fallacy",
-                "description": "The romanticized belief that unexamined instinct possesses mystical foresight when evaluating novel, non-repetitive dilemmas.\nWhile intuition excels in familiar tactical domains with immediate feedback, it notoriously deceives us when evaluating complex strategic crossroads.",
+                "label": "Trusting Gut Instinct",
+                "description": "Gut feelings can mislead us on hard choices.\nInstinct needs facts to back it up.",
                 "children": []
               }
             ]
@@ -1356,37 +1356,37 @@ export const DECISIVE_BOOK: Book = {
           {
             "id": "short-term-emotion",
             "label": "Short-Term Emotion",
-            "description": "The visceral, high-amplitude affective waves\u2014such as panic, greed, anger, or embarrassment\u2014that cloud temporal perspective.\nWhen agitated by short-term emotional currents, our neural circuitry heavily discounts future utility in favor of fleeting psychological comfort.",
+            "description": "Strong feelings like fear or anger take over.\nThey make us pick what feels safe right now.",
             "children": [
               {
                 "id": "emotional-cycling",
-                "label": "Agitated Rumination",
-                "description": "The paralyzing cycle where competing anxieties churn the same internal evidence over and over without generating fresh insight.\nThis mental turbulence masquerades as deep deliberation while actually just churning the dust and exhausting our executive willpower.",
+                "label": "Overthinking and Worry",
+                "description": "We replay our worries again and again.\nThis drains our energy without solving anything.",
                 "children": []
               },
               {
                 "id": "mere-exposure-effect",
-                "label": "Status Quo Inertia",
-                "description": "Our hardwired affinity for what is familiar and comfortable over what is unfamiliar but potentially superior.\nThis behavioral anchor makes departures from historical baselines feel disproportionately perilous, anchoring us to sub-optimal existing patterns.",
+                "label": "Fear of Change",
+                "description": "We prefer familiar things because they feel safe.\nThis keeps us stuck in bad habits.",
                 "children": []
               }
             ]
           },
           {
             "id": "overconfidence",
-            "label": "Overconfidence in the Future",
-            "description": "The unwarranted cognitive certainty that we can accurately forecast how the future will unfold.\nWe draw razor-thin projections based on optimistic assumptions, leaving virtually zero buffer for systemic volatility, bad luck, or unforeseen friction.",
+            "label": "Too Much Confidence",
+            "description": "We think we can guess the future accurately.\nWe leave no room for bad luck or surprises.",
             "children": [
               {
                 "id": "illusion-of-control",
-                "label": "Predictive Presumption",
-                "description": "The flattering mental model where we imagine our agency can master complex macro variables beyond our sphere of influence.\nThis hubris causes us to design brittle strategic plans that fracture under the very first unpredictable market shock.",
+                "label": "False Control",
+                "description": "We think we can control things we cannot.\nThen our plans break when surprises happen.",
                 "children": []
               },
               {
                 "id": "unknown-unknowns",
-                "label": "Neglect of Black Swans",
-                "description": "The chronic cognitive oversight where decision-makers fail to account for elements that do not yet exist in their reference library.\nWe map probabilities using only known historical distributions, blind to emerging systemic shifts waiting offstage.",
+                "label": "Blind Spots",
+                "description": "We forget that unexpected events can happen.\nWe plan only for what we already know.",
                 "children": []
               }
             ]
@@ -1395,62 +1395,62 @@ export const DECISIVE_BOOK: Book = {
       },
       {
         "id": "widen-options",
-        "label": "W - Widen Your Options",
-        "description": "The first pillar of the WRAP framework, designed to shatter narrow framing by aggressively expanding the decision field.\nBy generating diverse, non-obvious alternatives, we dismantle artificial ultimatums and expose the hidden possibilities latent within the problem architecture.",
+        "label": "Widen Your Options",
+        "description": "Step one of WRAP is adding more choices.\nMore options lead to much better outcomes.",
         "children": [
           {
             "id": "opportunity-cost",
-            "label": "Opportunity Cost Auditing",
-            "description": "The mental habit of explicitly asking what other resources, experiences, or initiatives are foregone by committing capital or attention to a single path.\nMaking the hidden price tag of inaction elsewhere visible instantly alters the perceived value of the proposal on the table.",
+            "label": "Count the Costs",
+            "description": "Ask what you give up by picking one path.\nSeeing lost chances clarifies what matters.",
             "children": [
               {
                 "id": "vanishing-options-test",
-                "label": "The Vanishing Options Test",
-                "description": "A thought experiment where you artificially delete your current top choice and ask: 'If this primary route were legally or physically banned, what would I do next?' This forced constraint breaks cognitive fixations and sparks lateral problem-solving ingenuity.",
+                "label": "Vanishing Options Test",
+                "description": "Imagine your favorite option disappeared.\nAsk yourself what you would do next.",
                 "children": []
               },
               {
                 "id": "capital-allocation-check",
-                "label": "Next-Best-Dollar Questioning",
-                "description": "A forensic evaluation that probes what else could be acquired with the exact same budget, hours, or organizational energy.\nBy comparing an investment against alternative creative bets rather than zero, the true comparative hurdle is established.",
+                "label": "Best Use of Resources",
+                "description": "Ask what else you could buy with this time and money.\nCompare your idea to other good uses.",
                 "children": []
               }
             ]
           },
           {
             "id": "multitracking",
-            "label": "Multitracking Protocols",
-            "description": "The disciplined practice of cultivating and advancing two to three distinct operational avenues simultaneously rather than sequential betting.\nWhen teams develop competing prototypes concurrently, ego investment drops and the cross-pollination of breakthrough ideas surges.",
+            "label": "Try Multiple Paths",
+            "description": "Work on two or three good ideas at once.\nThis sparks creativity and prevents stubborn pride.",
             "children": [
               {
                 "id": "dual-mindset",
-                "label": "Prevention vs. Promotion Balancing",
-                "description": "Pairing defensive safeguards that protect the existing floor with aggressive exploratory plays that probe the ceiling.\nBlending both psychological stances inside one overarching portfolio avoids the twin perils of paralyzing paranoia and unchecked recklessness.",
+                "label": "Defense and Attack",
+                "description": "Balance playing not to lose with playing to win.\nThis protects you while still letting you grow.",
                 "children": []
               },
               {
                 "id": "ego-decoupling",
-                "label": "Decoupling Ego from Proposals",
-                "description": "When individuals are tasked with championing only one solitary initiative, their personal identity becomes inextricably entangled with its acceptance.\nNurturing multiple live options ensures team members champion overall mission success rather than personal pet proposals.",
+                "label": "Drop the Ego",
+                "description": "Do not tie your self-worth to just one idea.\nWhen you hold multiple ideas, you stay open-minded.",
                 "children": []
               }
             ]
           },
           {
             "id": "find-someone-who-solved",
-            "label": "Find Someone Who Solved Your Problem",
-            "description": "Looking outward to discover bright spots, benchmark solutions, and historical analogies where identical challenges have already been mastered.\nInstead of reinventing the wheel in isolation, we harvest the hard-won experiential wisdom of adjacent pioneers.",
+            "label": "Find Proven Solutions",
+            "description": "Look for someone who already solved your problem.\nLearn from their wins instead of starting from zero.",
             "children": [
               {
                 "id": "internal-bright-spots",
-                "label": "Internal Bright Spots",
-                "description": "Investigating localized pockets of success inside your own organizational perimeter where positive deviance is already occurring against the odds.\nIdentifying and magnifying these homegrown anomalies provides immediate, culturally compatible blueprints for change.",
+                "label": "Find Bright Spots",
+                "description": "Find places inside your team that already work well.\nCopy their success to fix other areas.",
                 "children": []
               },
               {
                 "id": "laddering-up",
-                "label": "Analogy Laddering",
-                "description": "Abstracting the core structural dynamics of a puzzle to locate parallel precedents in entirely unrelated industries or academic disciplines.\nMoving up the ladder of abstraction unlocks cross-domain innovations that straightforward industry benchmarking would never unearth.",
+                "label": "Learn from Others",
+                "description": "Look outside your field for fresh ideas.\nOther industries often have answers you can borrow.",
                 "children": []
               }
             ]
@@ -1459,62 +1459,62 @@ export const DECISIVE_BOOK: Book = {
       },
       {
         "id": "reality-test-assumptions",
-        "label": "R - Reality-Test Your Assumptions",
-        "description": "The second WRAP pillar, engineered to counteract confirmation bias by deliberately stress-testing core convictions.\nRather than accumulating validating accolades, this phase subjects foundational hypotheses to rigorous empirical cross-examination and real-world pilot tests.",
+        "label": "Reality-Test Assumptions",
+        "description": "Step two of WRAP is testing your beliefs.\nCheck if your ideas hold up in the real world.",
         "children": [
           {
             "id": "spark-constructive-debate",
-            "label": "Sparking Constructive Dissent",
-            "description": "Institutionalizing deliberate friction and adversarial perspectives to expose brittle assumptions before resources are committed.\nHealthy decision cultures treat respectful conflict as an indispensable intellectual filter rather than disloyalty.",
+            "label": "Encourage Helpful Debate",
+            "description": "Welcome honest disagreement before deciding.\nDisagreements expose weak spots before you commit.",
             "children": [
               {
                 "id": "devils-advocate-process",
-                "label": "Chartered Skepticism",
-                "description": "Formally designating respected colleagues to act as genuine interrogators tasked with uncovering the catastrophic flaws of a favored plan.\nWhen skepticism is made an explicit civic duty, social penalties for challenging authority evaporate.",
+                "label": "Assign a Critic",
+                "description": "Pick someone to find flaws in your plan on purpose.\nThis makes speaking up safe and normal.",
                 "children": []
               },
               {
                 "id": "what-would-have-to-be-true",
-                "label": "The 'What Would Have to Be True' Frame",
-                "description": "Reframing contentious debate away from defensive arguing toward collaborative conditions mapping: 'For this underdog option to be the absolute best choice, what underlying assumptions would have to hold true?' This transforms adversaries into joint investigators inspecting shared hypotheses.",
+                "label": "What Must Be True",
+                "description": "Ask what conditions would make an underdog idea work.\nThis turns arguments into helpful team problem-solving.",
                 "children": []
               }
             ]
           },
           {
             "id": "zoom-out-zoom-in",
-            "label": "Zoom Out, Zoom In",
-            "description": "Balancing cold, statistical population-level realities (the outside view) with nuanced, sensory, granular textures (the close-up view).\nCombining big-data base rates with visceral ground-truth observations inoculates leaders against intoxicating internal narratives.",
+            "label": "Zoom Out and In",
+            "description": "Check basic averages, then see the details up close.\nBoth views keep your plan realistic.",
             "children": [
               {
                 "id": "base-rates",
-                "label": "The Outside View (Base Rates)",
-                "description": "Consulting objective historical survival curves and statistical averages for similar ventures in the broader ecosystem.\nIgnoring base rates out of an arrogant belief that your unique passion exempts you from mathematical gravity is the hallmark of catastrophic planning.",
+                "label": "Look at Averages",
+                "description": "Look at common results for people in your shoes.\nDo not assume you are the special exception.",
                 "children": []
               },
               {
                 "id": "close-up-texture",
-                "label": "The Ground-Truth Close-Up",
-                "description": "Immersing oneself directly into the field to observe how end-users physically grapple with the problem in real time.\nIntimate field observations expose qualitative friction points that sanitized executive summaries and spreadsheets systematically smooth away.",
+                "label": "See the Frontlines",
+                "description": "Talk directly to users and see how they act.\nSmall details show problems that spreadsheets hide.",
                 "children": []
               }
             ]
           },
           {
             "id": "ooching",
-            "label": "Ooching (Micro-Experimentation)",
-            "description": "Conducting miniature, low-stakes experiential probes to collect authentic behavioral feedback before committing irreversible capital.\nWhen assumptions can be cheaply validated through physical action, intellectual forecasting becomes unnecessary.",
+            "label": "Run Small Tests",
+            "description": "Take tiny steps to test ideas before going all in.\nTesting beats guessing every time.",
             "children": [
               {
                 "id": "prototype-over-prediction",
-                "label": "Live-Action Prototyping",
-                "description": "Creating rapid physical or service micro-tests to gauge authentic customer commitment instead of trusting polite survey declarations.\nPeople's stated theoretical preferences frequently contradict how they deploy their hard currency in real-life environments.",
+                "label": "Try Simple Prototypes",
+                "description": "Test a small sample with real users.\nWatch what people actually do, not what they say.",
                 "children": []
               },
               {
                 "id": "ooching-limits",
-                "label": "The Boundary of Ooching",
-                "description": "Recognizing structural scenarios where incremental dip-your-toe testing is mechanically impossible, such as launching a spacecraft or major infrastructure projects.\nIn contexts demanding absolute irreversible commitment, the analytical rigor of the other WRAP pillars must step in.",
+                "label": "When Tests Do Not Work",
+                "description": "Some choices require all-or-nothing action.\nWhen you cannot test, rely on the other steps.",
                 "children": []
               }
             ]
@@ -1523,43 +1523,43 @@ export const DECISIVE_BOOK: Book = {
       },
       {
         "id": "attain-distance",
-        "label": "A - Attain Distance Before Deciding",
-        "description": "The third WRAP pillar, constructed to disarm the destabilizing pull of acute short-term emotion.\nBy establishing psychological and chronological distance, we quiet visceral turbulence and re-anchor our choices to durable values and long-term purpose.",
+        "label": "Step Back First",
+        "description": "Step three of WRAP is cooling down your emotions.\nDistance helps you see what truly matters.",
         "children": [
           {
             "id": "temporal-distance",
-            "label": "Temporal Distancing Techniques",
-            "description": "Shifting the temporal lens to observe the present dilemma from the vantage point of the unfolding future.\nElevating perspective above the immediate emotional turbulence reveals which anxieties will dissolve harmlessly over time.",
+            "label": "Look Ahead in Time",
+            "description": "Imagine looking back on this choice from the future.\nMost worries fade away quickly over time.",
             "children": [
               {
                 "id": "10-10-10-rule",
-                "label": "The 10/10/10 Framework",
-                "description": "A mental calibration tool that evaluates how you will perceive a prospective decision 10 minutes from now, 10 months from now, and 10 years from now.\nThis simple timeline projection swiftly defuses acute embarrassment while underscoring permanent life objectives.",
+                "label": "The 10-10-10 Rule",
+                "description": "Ask how you will feel in 10 minutes, 10 months, and 10 years.\nThis calms panic and shows long-term value.",
                 "children": []
               },
               {
                 "id": "best-friend-test",
-                "label": "The Best-Friend Lens",
-                "description": "Asking yourself: 'What clear advice would I give to my best friend if they walked into the room facing this identical dilemma?' Stripping away your personal tangle of defensive emotions clarifies the core priority with startling, undeniable simplicity.",
+                "label": "Best-Friend Test",
+                "description": "Ask what advice you would give your best friend.\nThis clears away fear and makes the answer obvious.",
                 "children": []
               }
             ]
           },
           {
             "id": "clarifying-core-priorities",
-            "label": "Clarifying Core Priorities",
-            "description": "Disentangling tangled, competing organizational or personal aspirations to rank what matters most with absolute clarity.\nResolving hidden ideological conflicts in advance creates a coherent compass that guides turbulent tactical decisions.",
+            "label": "Name Your Priorities",
+            "description": "Decide what matters most to you in advance.\nA clear priority makes hard choices simple.",
             "children": [
               {
                 "id": "priority-triage",
-                "label": "Uncompromising Hierarchy",
-                "description": "Accepting the uncomfortable reality that not all positive values can share the top tier during a systemic crisis.\nExplicitly declaring which principle takes absolute operational precedence when conflicts erupt protects teams from agonizing vacillation.",
+                "label": "Pick Number One",
+                "description": "You cannot make everything top priority.\nPick the single most important goal first.",
                 "children": []
               },
               {
                 "id": "protecting-priorities",
-                "label": "Defending Time Baselines",
-                "description": "Auditing daily calendar expenditures to systematically purge low-value busywork that cannibalizes prime cognitive focus from core priorities.\nHonoring high-level purpose requires building fierce structural moats around deep strategic execution time.",
+                "label": "Guard Your Time",
+                "description": "Clear away busywork that wastes your day.\nProtect your time for things that really count.",
                 "children": []
               }
             ]
@@ -1568,49 +1568,49 @@ export const DECISIVE_BOOK: Book = {
       },
       {
         "id": "prepare-to-be-wrong",
-        "label": "P - Prepare to Be Wrong",
-        "description": "The final WRAP pillar, which embraces humility regarding our predictive faculties and engineers shock-absorbers for an uncertain future.\nBy mapping boundaries of variance and installing tripwires, we safeguard against downside ruin while capitalizing on upside luck.",
+        "label": "Prepare to Be Wrong",
+        "description": "Step four of WRAP is planning for surprise outcomes.\nBuild safety nets in case things go off track.",
         "children": [
           {
             "id": "bookending-future",
-            "label": "Bookending the Future",
-            "description": "Anticipating an expansive corridor of possibilities rather than fixating on a singular baseline forecast.\nSystematically contemplating both catastrophic collapse and wild unexpected triumph equips decision-makers with robust contingencies for whatever reality manifests.",
+            "label": "Plan for Both Extremes",
+            "description": "Think about the worst case and the best case.\nPreparing for both keeps you ready for anything.",
             "children": [
               {
                 "id": "premortem-protocol",
-                "label": "The Prospective Premortem",
-                "description": "Imagining that the project has suffered an absolute, catastrophic failure twelve months into the future, and asking: 'What sequence of events triggered this disaster?' This psychological safe space legitimizes the surfacing of overlooked warning signs.",
+                "label": "The Premortem",
+                "description": "Imagine the project failed one year from now.\nAsk what went wrong so you can fix it today.",
                 "children": []
               },
               {
                 "id": "preparade-protocol",
-                "label": "The Prospective Preparade",
-                "description": "Envisioning that the initiative has achieved a colossal, wild success that swamps current capacity, and planning: 'How will we gracefully absorb and scale this explosive demand?' Preparing for positive black swans prevents organizational paralysis when fortune strikes.",
+                "label": "The Preparade",
+                "description": "Imagine your project becomes a wild success.\nPlan how you will handle the huge demand.",
                 "children": []
               },
               {
                 "id": "safety-factor",
-                "label": "Safety Margins & Redundancy",
-                "description": "Borrowing the civil engineer's discipline of adding generous tolerance thresholds to timelines, budgets, and physical infrastructure.\nAssuming that unpredicted frictions will inevitably multiply costs insulates projects from fatal supply chain or execution shocks.",
+                "label": "Add Safety Margins",
+                "description": "Add extra time and money to your budget.\nExtra cushion protects you when surprises hit.",
                 "children": []
               }
             ]
           },
           {
             "id": "tripwires",
-            "label": "Installing Strategic Tripwires",
-            "description": "Setting deliberate, pre-programmed perceptual triggers that snap teams out of autopilot slumber when real-world conditions cross designated thresholds.\nTripwires disrupt drift, forcing conscious re-evaluation before incremental decline becomes irreversible disaster.",
+            "label": "Set Tripwires",
+            "description": "Set clear triggers to wake you up when things slip.\nTripwires stop bad habits before disaster strikes.",
             "children": [
               {
                 "id": "deadlines-and-partitions",
-                "label": "Partitions and Bounded Budgets",
-                "description": "Establishing non-negotiable temporal and budgetary firewalls, such as allocating fixed seed cash and setting an inflexible milestone date.\nForcing an explicit go/no-go summit prevents the creeping sunk-cost fallacy from draining strategic reserves.",
+                "label": "Set Hard Limits",
+                "description": "Set fixed deadlines and strict spending caps.\nThis stops you from throwing good money after bad.",
                 "children": []
               },
               {
                 "id": "pattern-tripwires",
-                "label": "Pattern-Breaker Triggers",
-                "description": "Tagging subtle behavioral or performance signatures that immediately mandate a formal pause, such as a sharp customer churn uptick or three straight safety infractions.\nAutomatic tripwires transform diffuse, creeping degradation into an undeniable prompt for decisive intervention.",
+                "label": "Warning Signs",
+                "description": "Pick specific red flags that trigger an immediate stop.\nThis forces a fresh look before problems get worse.",
                 "children": []
               }
             ]

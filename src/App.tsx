@@ -159,7 +159,7 @@ export function App() {
   }
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 transition-colors font-sans antialiased flex flex-col">
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 transition-colors font-sans antialiased flex flex-col w-full max-w-full overflow-x-hidden">
       
       {/* Top Application Header */}
       <Header
@@ -212,7 +212,7 @@ export function App() {
           />
 
           {/* Active Tab Screen */}
-          <main className="flex-1">
+          <main className="flex-1 w-full max-w-full overflow-x-hidden">
             {activeTab === 'library' && (
               <LibraryView
                 books={books}

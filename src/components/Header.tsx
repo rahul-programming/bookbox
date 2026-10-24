@@ -55,13 +55,13 @@ export const Header: React.FC<HeaderProps> = ({
   const goalPercent = Math.min(100, Math.round((todayMinutes / dailyGoal) * 100));
 
   return (
-    <header className="sticky top-0 z-40 border-b border-slate-200/80 dark:border-slate-800/80 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md transition-colors">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+    <header className="sticky top-0 z-40 border-b border-slate-200/80 dark:border-slate-800/80 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md transition-colors w-full max-w-full overflow-hidden">
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 h-16 flex items-center justify-between w-full min-w-0">
         
         {/* Logo Branding - Clickable to return to Home from any page */}
         <div 
           onClick={onGoHome}
-          className="flex items-center space-x-3 cursor-pointer select-none group transition-all transform active:scale-95 p-1.5 -ml-1.5 rounded-2xl hover:bg-slate-100/80 dark:hover:bg-slate-800/60"
+          className="flex items-center space-x-2 sm:space-x-3 cursor-pointer select-none group transition-all transform active:scale-95 p-1 -ml-1 sm:p-1.5 sm:-ml-1.5 rounded-2xl hover:bg-slate-100/80 dark:hover:bg-slate-800/60 shrink-0"
           title="Return to Home (Library)"
           role="button"
           tabIndex={0}
@@ -73,34 +73,35 @@ export const Header: React.FC<HeaderProps> = ({
             }
           }}
         >
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-white shadow-md shadow-blue-500/20 group-hover:scale-105 group-hover:shadow-blue-500/40 transition-all duration-200">
+          <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-white shadow-md shadow-blue-500/20 group-hover:scale-105 group-hover:shadow-blue-500/40 transition-all duration-200 shrink-0">
             <BookOpen className="w-5 h-5" />
           </div>
-          <div>
+          {/* Text Branding - hidden on small mobile to maximize space */}
+          <div className="hidden sm:block">
             <div className="flex items-center space-x-1.5">
               <span className="font-bold text-lg tracking-tight bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400 bg-clip-text text-transparent group-hover:from-blue-500 group-hover:to-indigo-500 transition-colors">
                 BookBox
               </span>
-              <span className="text-[10px] font-semibold uppercase px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-950 text-blue-700 dark:text-blue-300">
+              <span className="hidden md:inline text-[10px] font-semibold uppercase px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-950 text-blue-700 dark:text-blue-300">
                 Local
               </span>
             </div>
-            <p className="text-[11px] text-slate-500 dark:text-slate-400 hidden sm:block">
+            <p className="text-[11px] text-slate-500 dark:text-slate-400">
               Zero-Server Microlearning & Synthesis
             </p>
           </div>
         </div>
 
         {/* Right Controls: Streaks, Goal, Theme, Data, Import */}
-        <div className="flex items-center space-x-2 sm:space-x-4">
+        <div className="flex items-center space-x-1.5 sm:space-x-3 shrink-0">
           
           {/* Daily Streak Badge */}
           <div 
-            className="flex items-center space-x-1.5 px-3 py-1.5 rounded-full bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-900/60 text-amber-700 dark:text-amber-400 text-xs font-semibold"
+            className="flex items-center space-x-1 sm:space-x-1.5 px-2.5 sm:px-3 py-1.5 rounded-full bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-900/60 text-amber-700 dark:text-amber-400 text-xs font-semibold shrink-0"
             title="Daily Learning Streak"
           >
-            <Flame className="w-4 h-4 text-amber-500 fill-amber-500 animate-pulse" />
-            <span>{streak}d Streak</span>
+            <Flame className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-500 fill-amber-500 animate-pulse" />
+            <span>{streak}d<span className="hidden sm:inline"> Streak</span></span>
           </div>
 
           {/* Daily Goal Progress */}
@@ -128,11 +129,11 @@ export const Header: React.FC<HeaderProps> = ({
               disabled={fontSizeIndex <= 0}
               aria-label="Decrease font size"
               title="Decrease text size (A-)"
-              className="px-2 py-1 rounded text-xs font-bold text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-700 disabled:opacity-30 disabled:cursor-not-allowed transition"
+              className="px-1.5 sm:px-2 py-1 rounded text-xs font-bold text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-700 disabled:opacity-30 disabled:cursor-not-allowed transition"
             >
               A-
             </button>
-            <span className="text-[10px] font-mono font-bold text-slate-500 dark:text-slate-400 px-1 select-none">
+            <span className="text-[10px] font-mono font-bold text-slate-500 dark:text-slate-400 px-0.5 sm:px-1 select-none">
               {['SM', 'MD', 'LG', 'XL'][fontSizeIndex]}
             </span>
             <button
@@ -140,7 +141,7 @@ export const Header: React.FC<HeaderProps> = ({
               disabled={fontSizeIndex >= 3}
               aria-label="Increase font size"
               title="Increase text size (A+)"
-              className="px-2 py-1 rounded text-xs font-bold text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-700 disabled:opacity-30 disabled:cursor-not-allowed transition"
+              className="px-1.5 sm:px-2 py-1 rounded text-xs font-bold text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-700 disabled:opacity-30 disabled:cursor-not-allowed transition"
             >
               A+
             </button>

@@ -1,5 +1,5 @@
 // Deep Work: Rules for Focused Success in a Distracted World by Cal Newport
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -366,169 +366,169 @@ export const DEEP_WORK_BOOK: Book = {
   "actionItems": [
     {
       "id": "deep-work-act-1",
-      "title": "Establish an Absolute Shutdown Ritual",
-      "description": "Close your workday with a concrete, formal sign-off routine so your mind stops churning on incomplete tasks all evening.",
+      "title": "Build a Work Shutdown Routine",
+      "description": "End each workday with a clean routine. This lets your mind rest and stop stressing all night.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Check your inbox and task lists one last time to ensure no urgent fires exist.",
-        "Update tomorrow's schedule and transfer open loops onto a reliable capture system.",
-        "Review your remaining work items and consciously note that each is safely tracked for later.",
-        "Say your chosen termination phrase (such as 'Shutdown Complete') out loud and close your work machine."
+        "1. Check your email and task list one last time.",
+        "2. Write down your top plans for tomorrow.",
+        "3. Make sure every loose task is written down safely.",
+        "4. Say 'Shutdown complete' out loud and shut your laptop."
       ],
       "sourceChapter": "Rule #1: Work Deeply"
     },
     {
       "id": "deep-work-act-2",
-      "title": "Build a Distraction-Free Deep Work Chamber",
-      "description": "Designate a dedicated physical space stripped of visual noise and everyday interruptions to cue your brain for intense concentration.",
+      "title": "Set Up a Focus Space",
+      "description": "Pick a quiet spot just for hard focus. A clean space helps your brain lock in fast.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Pick a physical location\u2014a corner desk, quiet library nook, or spare room\u2014used exclusively for deep work.",
-        "Clear off all desktop clutter, leaving only the materials needed for your current target project.",
-        "Stock the station in advance with water, pen, notebook, and necessary chargers so you never need to leave mid-session.",
-        "Establish an unambiguous visual 'do not disturb' cue (such as closed doors or noise-cancelling headphones) for those around you."
+        "1. Pick a quiet desk or room just for focused work.",
+        "2. Clear every bit of mess off your desk.",
+        "3. Grab your water, pen, and notebook before you start.",
+        "4. Put on big headphones so people know not to bug you."
       ],
       "sourceChapter": "Rule #1: Work Deeply"
     },
     {
       "id": "deep-work-act-3",
-      "title": "Schedule Internet Use in Advance",
-      "description": "Train your concentration muscle by only touching the internet during pre-planned blocks instead of reflexive clicking.",
+      "title": "Plan Your Internet Time",
+      "description": "Stop clicking links on impulse during work. Only go online at set times you chose earlier.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Before your focus session starts, assign explicit times on paper for when you are allowed to go online.",
-        "Keep your device offline or set browser/network blockers during offline blocks.",
-        "If you hit a point where you need external information to proceed, switch temporarily to an offline task rather than cheating your block.",
-        "When the scheduled internet block arrives, handle all web requests efficiently, then immediately disconnect."
+        "1. Write down exact times you can go online today.",
+        "2. Turn off Wi-Fi until your scheduled web time arrives.",
+        "3. Work on an offline task if you get stuck.",
+        "4. Handle all web tasks fast, then log right off."
       ],
       "sourceChapter": "Rule #2: Embrace Boredom"
     },
     {
       "id": "deep-work-act-4",
-      "title": "Practice Productive Meditation During Commutes",
-      "description": "Turn routine physical activities into mental workouts by focusing entirely on a single professional problem without diversion.",
+      "title": "Think Deeply on Walks",
+      "description": "Use routine walks or commutes to solve one hard problem. Keep your brain locked on that single topic.",
       "category": "daily-routine",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Identify a clearly defined, high-leverage intellectual problem you need to solve before heading out.",
-        "Begin your physical activity (such as a morning walk, run, or train commute) without podcasts or music.",
-        "Hold the chosen problem in your mind and systematically break down its sub-components.",
-        "Whenever your mind drifts to anxieties or unrelated thoughts, gently pull focus back to the problem at hand."
+        "1. Pick one tough work problem before you head out.",
+        "2. Leave your podcasts and music off while walking.",
+        "3. Break down the problem step by step in your head.",
+        "4. Pull your focus back gently whenever your mind drifts away."
       ],
       "sourceChapter": "Rule #2: Embrace Boredom"
     },
     {
       "id": "deep-work-act-5",
-      "title": "Execute the 30-Day Social Media Purge",
-      "description": "Audit which digital networks genuinely contribute to your core personal and professional ambitions by walking away cold turkey.",
+      "title": "Take a Social Media Break",
+      "description": "Quit social apps for thirty days straight. See if your life and work get better without them.",
       "category": "audit",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Pick your top 2-3 most habit-forming social networks and delete their apps from all mobile devices.",
-        "Refrain from announcing your departure; simply stop logging in or posting for 30 consecutive days.",
-        "Note whether anyone noticed your absence or if your day-to-day progress improved significantly.",
-        "After 30 days, evaluate whether each platform offers substantial, irreplaceable value before deciding to reactivate."
+        "1. Delete your top social media apps from your phone.",
+        "2. Stay off each app for thirty full days silently.",
+        "3. Notice if anyone cares or if your focus improves.",
+        "4. Keep only apps that add real value to your life."
       ],
       "sourceChapter": "Rule #3: Quit Social Media"
     },
     {
       "id": "deep-work-act-6",
-      "title": "Apply the Craftsman Approach to Tool Selection",
-      "description": "Replace the 'any-benefit' rationalization with a clear evaluation of whether a tool's harm outweighs its minor perks.",
+      "title": "Cut Useless Digital Tools",
+      "description": "Drop apps that waste your time. Keep only tools that clearly help your biggest goals.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "List your top two core professional goals and two high-priority personal values.",
-        "Identify the primary daily activities that directly drive progress toward these specific goals.",
-        "List every digital network, communication app, and content feed you regularly consume.",
-        "Score each tool: keep only tools whose net impact on your core goals is substantially positive, discarding marginal ones."
+        "1. Write down your two biggest work and life goals.",
+        "2. List all the apps and sites you check daily.",
+        "3. Ask if each tool truly helps your main goals.",
+        "4. Delete any tool that brings more distraction than help."
       ],
       "sourceChapter": "Rule #3: Quit Social Media"
     },
     {
       "id": "deep-work-act-7",
-      "title": "Block Every Minute of Your Day on Grid Paper",
-      "description": "Take control of your schedule by dividing the entire workday into tangible blocks rather than letting impulse direct your workflow.",
+      "title": "Block Every Work Hour",
+      "description": "Plan your whole day in clear time blocks. Do not let random impulses run your workday.",
       "category": "system",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Draw a two-column grid in a dedicated notebook at the start of your morning, marking work hours line-by-line.",
-        "Assign every block of time to a specific task, clustering shallow chores together into dedicated periods.",
-        "When an interruption or unexpected delay shifts your timing, cross out the remaining blocks and redraw the day's plan.",
-        "Review your completed schedule grid at day's end to calibrate time estimations for future focus windows."
+        "1. Draw simple boxes for every hour in a notebook.",
+        "2. Assign one specific task to each open block.",
+        "3. Redraw your plan if urgent tasks disrupt your schedule.",
+        "4. Review your chart at night to plan better tomorrow."
       ],
       "sourceChapter": "Rule #4: Drain the Shallows"
     },
     {
       "id": "deep-work-act-8",
-      "title": "Conduct a Shallow-to-Deep Work Ratio Audit",
-      "description": "Quantify your real balance between cognitive heavy-lifting and reactive coordination tasks to protect yourself from burn-out.",
+      "title": "Track Your Shallow Work",
+      "description": "Find out how much time you waste on easy tasks. Protect your day for hard, important projects.",
       "category": "audit",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Ask yourself: 'How many months would it take to train a smart college graduate without domain expertise to do this task?'",
-        "Label all tasks taking less than a few weeks of training as shallow (status updates, formatting, routine emails).",
-        "Calculate the exact percentage of your work week currently consumed by these shallow duties.",
-        "Set an explicit target cap with your team or manager (ideally 30\u201350% maximum) for shallow work."
+        "1. List all routine tasks that require little real skill.",
+        "2. Track how many weekly hours you spend on them.",
+        "3. Calculate your total weekly percent of shallow tasks.",
+        "4. Set a hard limit to keep easy tasks low."
       ],
       "sourceChapter": "Rule #4: Drain the Shallows"
     },
     {
       "id": "deep-work-act-9",
-      "title": "Adopt Process-Centric Email Responses",
-      "description": "End endless reply loops by crafting emails that map out the entire project path through to final resolution in a single message.",
+      "title": "Write Complete Emails",
+      "description": "Stop sending messy emails back and forth. Answer every question clearly in your very first reply.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Before hitting reply to a logistical or decision email, pause and identify the exact desired end state.",
-        "Draft your response specifying the sequential steps required to arrive at that completion.",
-        "Provide your inputs, alternatives, and availability upfront (e.g., 'If X is true, let's do A; if Y, let's do B at 2 PM').",
-        "Explicitly state what action concludes the thread so no further confirmation ping is necessary."
+        "1. Think of the final goal before you reply.",
+        "2. List clear next steps directly in the email body.",
+        "3. Offer clear options and meeting times right away.",
+        "4. End with next steps so nobody needs to reply."
       ],
       "sourceChapter": "Rule #4: Drain the Shallows"
     },
     {
       "id": "deep-work-act-10",
-      "title": "Install a 4DX Physical Scoreboard",
-      "description": "Make your deep work hours visible and compelling by maintaining an impossible-to-ignore tally near your workspace.",
+      "title": "Track Daily Focus Hours",
+      "description": "Keep a big score chart on your wall. Tracking focus hours motivates you to do deep work daily.",
       "category": "system",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Pin a large monthly calendar or card stock chart onto the wall directly behind your workstation.",
-        "Track only one lead measure: the total cumulative hours spent in uninterrupted deep work each day.",
-        "Write the hours logged clearly on the board after completing each verified focus block.",
-        "Celebrate weekly milestones when you reach your baseline target of deep work hours."
+        "1. Hang a large monthly calendar right by your desk.",
+        "2. Count only uninterrupted hours of deep, focused work.",
+        "3. Write down your focus hours at the day's end.",
+        "4. Celebrate each week you hit your deep work goal."
       ],
       "sourceChapter": "Rule #1: Work Deeply"
     },
     {
       "id": "deep-work-act-11",
-      "title": "Execute a 90-Minute Single-Task Sprint",
-      "description": "Trigger immediate momentum right now by locking down all inputs and attacking your highest-friction project for 90 minutes.",
+      "title": "Run a 90-Minute Sprint",
+      "description": "Build fast momentum on a tough project right now. Lock away distractions and work hard for ninety minutes.",
       "category": "quick-win",
       "timeEstimateMinutes": 90,
       "stepByStep": [
-        "Select the single most intellectually demanding project currently on your to-do list.",
-        "Put your phone on airplane mode and stash it physically in another room.",
-        "Set a visible timer for 90 minutes with zero tab switching or multitasking permitted.",
-        "Work purely on the core problem until the timer chimes, stopping immediately for a restorative break."
+        "1. Pick your single hardest task on your list.",
+        "2. Put your phone in another room right now.",
+        "3. Set a timer for ninety minutes of pure focus.",
+        "4. Stop the moment the bell rings and rest well."
       ],
       "sourceChapter": "Rule #1: Work Deeply"
     },
     {
       "id": "deep-work-act-12",
-      "title": "Establish Sender Filter Barriers",
-      "description": "Filter out non-essential email requests before they ever reach your screen by raising the barrier for casual communication.",
+      "title": "Filter Incoming Messages",
+      "description": "Stop random emails from breaking your focus. Make senders answer basic questions before reaching you.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Review incoming message types that consistently fragment your day with open-ended demands.",
-        "Create an autoresponder or website contact notice specifying clear criteria for receiving a reply.",
-        "Require correspondents to do upfront daily projects (e.g., attach outlines, check FAQs, or specify concrete proposals).",
-        "Grant yourself full permission to leave ambiguous, low-value incoming messages unanswered."
+        "1. Spot emails that waste your time with vague questions.",
+        "2. Post clear rules for what messages get a reply.",
+        "3. Tell senders to check your FAQ page first.",
+        "4. Ignore vague messages that do not follow your rules."
       ],
       "sourceChapter": "Rule #4: Drain the Shallows"
     }
@@ -705,10 +705,10 @@ export const DEEP_WORK_BOOK: Book = {
       "author": "Cal Newport",
       "category": "Productivity",
       "type": "concept",
-      "headline": "The Deep Work Hypothesis",
-      "body": "The ability to perform deep work is becoming increasingly rare at the exact same time it is becoming increasingly valuable in our economy.\nThose who cultivate this skill will thrive.",
+      "headline": "The Deep Work Advantage",
+      "body": "Deep focus is becoming rare today.\nAt the same time, it is becoming much more valuable.\nPeople who master focus will win big.",
       "quote": "If you don't produce, you won't thrive\u2014no matter how skilled or talented you are.",
-      "actionItem": "Schedule a dedicated 90-minute block for your most cognitively demanding task before opening email tomorrow morning.",
+      "actionItem": "Block ninety minutes tomorrow morning for your hardest task before checking email.",
       "tags": [
         "Productivity",
         "Core Insights"
@@ -726,10 +726,10 @@ export const DEEP_WORK_BOOK: Book = {
       "author": "Cal Newport",
       "category": "Productivity",
       "type": "mental-model",
-      "headline": "Attention Residue",
-      "body": "When you switch from Task A to Task B, your attention does not follow immediately.\nA residue of cognitive capacity remains stuck on the prior task, drastically impairing your performance on the new task.",
+      "headline": "Leftover Attention",
+      "body": "Your brain does not switch tasks instantly.\nA piece of your mind stays stuck on the old task.\nThis slows you down on your new work.",
       "quote": "People experiencing attention residue after switching tasks are likely to demonstrate poor performance on that next task.",
-      "actionItem": "Eliminate rapid inbox-checking breaks during hard projects; keep single-task blocks completely isolated.",
+      "actionItem": "Stop checking your inbox during hard work.\nFocus on one single task at a time.",
       "tags": [
         "Productivity",
         "Core Insights"
@@ -747,10 +747,10 @@ export const DEEP_WORK_BOOK: Book = {
       "author": "Cal Newport",
       "category": "Productivity",
       "type": "concept",
-      "headline": "High-Quality Work Equation",
-      "body": "High-Quality Work Produced equals Time Spent multiplied by Intensity of Focus.\nDoubling your focus intensity cuts required project duration in half and yields breakthrough creative results.",
+      "headline": "The Quality Equation",
+      "body": "Great work equals time spent multiplied by intensity of focus.\nFocusing twice as hard cuts your project time in half.\nYou finish better work much faster.",
       "quote": "High-Quality Work Produced = (Time Spent) x (Intensity of Focus).",
-      "actionItem": "Work with a countdown timer running visibly on your desk to ratchet up focus intensity on a single objective.",
+      "actionItem": "Set a visual timer on your desk to push your focus on one goal.",
       "tags": [
         "Productivity",
         "Core Insights"
@@ -768,10 +768,10 @@ export const DEEP_WORK_BOOK: Book = {
       "author": "Cal Newport",
       "category": "Productivity",
       "type": "actionable",
-      "headline": "The Rhythmic Philosophy of Deep Work",
-      "body": "Transform deep work into an effortless daily habit by fixing identical time slots each morning.\nHabitual consistency removes the willpower tax required to initiate deep focus.",
+      "headline": "Daily Focus Habit",
+      "body": "Make deep work an automatic daily habit.\nPick the same exact hours every single morning.\nA fixed schedule saves your willpower.",
       "quote": "The rhythmic philosophy argues that the easiest way to consistently start deep work sessions is to transform them into a simple, regular habit.",
-      "actionItem": "Block out 8:00 AM to 10:00 AM Monday through Friday strictly for cognitively rigorous output.",
+      "actionItem": "Block eight to ten each morning for your most important work.",
       "tags": [
         "Productivity",
         "Core Insights"
@@ -789,10 +789,10 @@ export const DEEP_WORK_BOOK: Book = {
       "author": "Cal Newport",
       "category": "Productivity",
       "type": "mental-model",
-      "headline": "The Craftsman Approach to Tool Selection",
-      "body": "Adopt a digital tool only if its positive impacts substantially outweigh its negative drag on core life and career priorities.\nReject the flawed 'any-benefit' mindset.",
+      "headline": "Smart Tool Selection",
+      "body": "Do not use a tool just because it offers minor benefits.\nUse it only if its benefits clearly beat its costs.\nProtect your time and energy.",
       "quote": "Identify the core factors that determine success and happiness in your professional and personal life. Only adopt a tool if its positive impacts substantially outweigh its negative impacts.",
-      "actionItem": "Delete one social media or news application from your phone for the next 30 days and observe the cognitive lift.",
+      "actionItem": "Delete one social media app from your phone for thirty days.",
       "tags": [
         "Productivity",
         "Core Insights"
@@ -810,10 +810,10 @@ export const DEEP_WORK_BOOK: Book = {
       "author": "Cal Newport",
       "category": "Productivity",
       "type": "actionable",
-      "headline": "Schedule Every Minute of Your Day",
-      "body": "Treat your daily schedule like a budget.\nWhen you pre-assign a designated purpose to every hour, you eliminate decision fatigue and prevent shallow drift.",
+      "headline": "Plan Every Hour",
+      "body": "Treat your daily schedule like money in a budget.\nGive every hour of your workday a clear job.\nThis prevents you from wasting time aimlessly.",
       "quote": "A 40-hour directed workweek, I estimate, produces the same amount of value as a 60-plus-hour undirected workweek.",
-      "actionItem": "Spend five minutes each morning mapping out your workday in 30-minute blocks on a simple paper grid.",
+      "actionItem": "Spend five minutes each morning mapping your day in thirty-minute blocks.",
       "tags": [
         "Productivity",
         "Core Insights"
@@ -831,10 +831,10 @@ export const DEEP_WORK_BOOK: Book = {
       "author": "Cal Newport",
       "category": "Productivity",
       "type": "concept",
-      "headline": "The Metric of Lead Behaviors",
-      "body": "Lag metrics show results that occurred in the past, while lead metrics measure the daily behaviors that create those results.\nYour primary daily target must be deep work hours executed.",
+      "headline": "Track Daily Actions",
+      "body": "Past results show what already happened.\nDaily habits show what will happen next.\nTrack the hours you spend in deep focus each day.",
       "quote": "For deep work, the relevant lead metric is simple: time spent in a state of deep work dedicated toward your wildly important goal.",
-      "actionItem": "Place a physical tally chart beside your keyboard tracking completed 60-minute deep blocks each week.",
+      "actionItem": "Keep a paper tally by your keyboard tracking your daily deep work hours.",
       "tags": [
         "Productivity",
         "Core Insights"
@@ -852,10 +852,10 @@ export const DEEP_WORK_BOOK: Book = {
       "author": "Cal Newport",
       "category": "Productivity",
       "type": "quote",
-      "headline": "The Meaningfulness of Depth",
-      "body": "A deep life is not merely productive; it provides an antidote to existential restlessness by imbuing daily craft with pride, clarity, and mastery.",
+      "headline": "The Meaningful Life",
+      "body": "Deep focus does more than boost output.\nIt gives your daily work clear meaning and pride.\nA focused life feels calm and satisfying.",
       "quote": "A deep life is a good life, any way you look at it.",
-      "actionItem": "Pick one core craft skill and commit to deliberate practice without any music, screens, or interruptions for 45 minutes today.",
+      "actionItem": "Practice your core skill for forty-five minutes today with no music or screens.",
       "tags": [
         "Productivity",
         "Core Insights"
@@ -873,10 +873,10 @@ export const DEEP_WORK_BOOK: Book = {
       "author": "Cal Newport",
       "category": "Productivity",
       "type": "mental-model",
-      "headline": "The Principle of Least Resistance",
-      "body": "In a work environment without clear feedback loops on value creation, people default to whatever behaviors are easiest in the moment, such as firing off constant quick messages.",
+      "headline": "Path of Least Resistance",
+      "body": "Without clear goals, workers pick whatever is easiest right now.\nThey send quick messages instead of doing real work.\nEasy work feels busy but creates little value.",
       "quote": "In a business setting, without clear feedback on the impact of various behaviors to the bottom line, we will tend toward behaviors that are easiest in the moment.",
-      "actionItem": "Replace five reactive back-and-forth emails with a single comprehensive message stating options, deadlines, and default paths.",
+      "actionItem": "Replace five quick emails with one complete message listing dates and clear steps.",
       "tags": [
         "Productivity",
         "Core Insights"
@@ -894,10 +894,10 @@ export const DEEP_WORK_BOOK: Book = {
       "author": "Cal Newport",
       "category": "Productivity",
       "type": "actionable",
-      "headline": "Productive Meditation",
-      "body": "Use physical downtime\u2014such as walking, running, or showering\u2014to focus your attention entirely on a well-defined professional problem without losing the thread.",
+      "headline": "Productive Walking",
+      "body": "Use everyday physical downtime to solve one work problem.\nYou can do this while walking, jogging, or showering.\nKeep your mind locked on that single challenge.",
       "quote": "The goal of productive meditation is to take a period in which you're occupied physically but not mentally and focus your attention on a single well-defined professional problem.",
-      "actionItem": "Take a 20-minute afternoon walk without headphones, holding a single technical problem in your mind.",
+      "actionItem": "Take a twenty-minute walk without headphones and think through one tough problem.",
       "tags": [
         "Productivity",
         "Core Insights"
@@ -915,10 +915,10 @@ export const DEEP_WORK_BOOK: Book = {
       "author": "Cal Newport",
       "category": "Productivity",
       "type": "concept",
-      "headline": "The Grand Gesture",
-      "body": "Radically changing your environment or making a significant investment in focus creates a psychological shift that validates the immense importance of your task.",
+      "headline": "The Big Move",
+      "body": "Changing your work location can trigger deep focus.\nSpending money or effort on focus signals that the task matters.\nYour brain takes the work more seriously.",
       "quote": "By putting yourself in a new environment, or investing significant effort or money to support a deep work task, you increase the perceived importance of the task.",
-      "actionItem": "Book a quiet library study carrel or conference room for half a day to break through a lingering project bottleneck.",
+      "actionItem": "Book a quiet library desk or private room to finish a stuck project.",
       "tags": [
         "Productivity",
         "Core Insights"
@@ -936,10 +936,10 @@ export const DEEP_WORK_BOOK: Book = {
       "author": "Cal Newport",
       "category": "Productivity",
       "type": "mental-model",
-      "headline": "Busyness as a Proxy for Productivity",
-      "body": "In knowledge work, true value is often ambiguous.\nWhen clarity is lacking, professionals default to visible, frantic activity\u2014replying to messages fast\u2014to prove their worth.",
+      "headline": "Fake Productivity",
+      "body": "Real value can be hard to measure in modern jobs.\nWorkers often show they are working by sending fast messages.\nBeing constantly busy is not the same as getting things done.",
       "quote": "In the absence of clear indicators of what it means to be productive and valuable in their jobs, many knowledge workers turn back toward an industrial indicator of productivity: doing lots of stuff in a visible manner.",
-      "actionItem": "Audit your day and stop doing one highly visible, zero-impact administrative task.",
+      "actionItem": "Stop doing one visible but useless daily chore that adds no real value.",
       "tags": [
         "Productivity",
         "Core Insights"
@@ -957,10 +957,10 @@ export const DEEP_WORK_BOOK: Book = {
       "author": "Cal Newport",
       "category": "Productivity",
       "type": "actionable",
-      "headline": "The Ironclad Shutdown Routine",
-      "body": "At the end of your workday, execute a consistent ritual: review your open loops, ensure your plan for tomorrow is set, and vocalize a definitive shutdown phrase to disconnect cleanly.",
+      "headline": "Daily Shutdown Ritual",
+      "body": "End your workday with a clear, repeated routine.\nCheck your unfinished tasks and set tomorrow's plan.\nSay a final phrase out loud to stop working completely.",
       "quote": "At the end of the workday, shut down your consideration of work issues until the next morning\u2014no after-dinner email check, no mental replays of conversations.",
-      "actionItem": "Complete a 5-minute desktop close-down and say 'Shutdown complete' out loud to trigger complete evening recovery.",
+      "actionItem": "Close your computer and say 'Shutdown complete' out loud at the end of work.",
       "tags": [
         "Productivity",
         "Core Insights"
@@ -978,10 +978,10 @@ export const DEEP_WORK_BOOK: Book = {
       "author": "Cal Newport",
       "category": "Productivity",
       "type": "concept",
-      "headline": "Bimodal Deep Work",
-      "body": "Divide your schedule into clearly separated spans of deep time and shallow time.\nDedicate multi-day bursts exclusively to deep projects, leaving the rest for normal administration.",
+      "headline": "Two-Mode Schedule",
+      "body": "Split your life into separate focus days and open days.\nSpend several full days only on major projects.\nUse other days for meetings, emails, and small chores.",
       "quote": "This philosophy believes that deep work can produce extreme productivity, but only if the subject dedicates enough time to such endeavors to reach maximum cognitive intensity.",
-      "actionItem": "Block off one full day this month with auto-responders active to advance a major project without checking incoming pings.",
+      "actionItem": "Block one full day this month to work without checking any messages.",
       "tags": [
         "Productivity",
         "Core Insights"
@@ -999,10 +999,10 @@ export const DEEP_WORK_BOOK: Book = {
       "author": "Cal Newport",
       "category": "Productivity",
       "type": "actionable",
-      "headline": "Schedule Your Internet Use",
-      "body": "Instead of scheduling occasional breaks from the internet to focus, schedule brief, pre-planned windows when you are permitted to go online.\nKeep all other blocks offline by default.",
+      "headline": "Scheduled Internet Time",
+      "body": "Do not take quick breaks from the web to focus.\nStay offline by default all day.\nSchedule short, planned blocks when you are allowed to go online.",
       "quote": "To succeed with deep work you must rewire your brain to be comfortable resisting distracting stimuli.",
-      "actionItem": "Work entirely offline for 60 minutes; if you need to research something, write it on paper and look it up only during your next scheduled window.",
+      "actionItem": "Work offline for one hour and write research questions on paper for later.",
       "tags": [
         "Productivity",
         "Core Insights"
@@ -1020,10 +1020,10 @@ export const DEEP_WORK_BOOK: Book = {
       "author": "Cal Newport",
       "category": "Productivity",
       "type": "quote",
-      "headline": "Clarity Trumps Willpower",
-      "body": "Willpower is a finite muscle that fatigues quickly.\nStructuring clear rules and rituals minimizes reliance on raw willpower to enter deep concentration.",
+      "headline": "Routines Beat Willpower",
+      "body": "Willpower runs out quickly during the day.\nClear daily routines make starting your work easy.\nGood systems remove the need to force yourself to focus.",
       "quote": "The key to developing a deep work habit is to move beyond good intentions and add routines and rituals to your working life designed to minimize the amount of your limited willpower necessary to transition and maintain unbroken concentration.",
-      "actionItem": "Standardize your workstation: clear your surface of everything except one notebook, one pen, and your working screen before you start.",
+      "actionItem": "Clear your desk so only one notebook, pen, and your screen remain.",
       "tags": [
         "Productivity",
         "Core Insights"
@@ -1041,10 +1041,10 @@ export const DEEP_WORK_BOOK: Book = {
       "author": "Cal Newport",
       "category": "Productivity",
       "type": "mental-model",
-      "headline": "Fixed-Schedule Productivity",
-      "body": "Fix your finish line first.\nBy declaring an unbending cut-off time for your workday, you force yourself to say no to non-essential tasks and streamline your operational systems.",
+      "headline": "Fixed Finish Line",
+      "body": "Set a hard stopping time for your workday.\nWorking backward forces you to cut out useless tasks.\nStrict limits protect your evenings and keep your work sharp.",
       "quote": "I fix the firm goal of not working past a certain time, then work backward to find productivity strategies that allow me to satisfy this declaration.",
-      "actionItem": "Pick 5:30 PM as your non-negotiable stop time today; ruthlessly pare down your afternoon tasks to meet it.",
+      "actionItem": "Pick 5:30 PM as your strict stop time today and leave on time.",
       "tags": [
         "Productivity",
         "Core Insights"
@@ -1062,10 +1062,10 @@ export const DEEP_WORK_BOOK: Book = {
       "author": "Cal Newport",
       "category": "Productivity",
       "type": "actionable",
-      "headline": "Process-Centric Communication",
-      "body": "When answering logistical emails, describe the complete project lifecycle to completion rather than lobbing quick, ambiguous questions that require five follow-ups.",
+      "headline": "All-in-One Messages",
+      "body": "Do not send vague, one-line emails that cause endless back-and-forth replies.\nMap out the entire next step in a single message.\nGive clear choices and deadlines right away.",
       "quote": "What is the project represented by this message, and what is the most efficient process for bringing this project to a successful conclusion?",
-      "actionItem": "Reply to your next scheduling email with two precise time options, the agenda, the meeting link, and the call-in details in one single note.",
+      "actionItem": "Reply to your next email with two times, the agenda, and call details.",
       "tags": [
         "Productivity",
         "Core Insights"
@@ -1083,10 +1083,10 @@ export const DEEP_WORK_BOOK: Book = {
       "author": "Cal Newport",
       "category": "Productivity",
       "type": "concept",
-      "headline": "The Shallow Work Cap",
-      "body": "Most knowledge workers can sustain only about 4 hours of true deep work per day.\nCap your shallow work budget tightly so it doesn't crowd out this high-leverage cognitive window.",
+      "headline": "Limit Easy Work",
+      "body": "Most people can handle only four hours of deep focus daily.\nKeep shallow tasks like email under tight control.\nNever let easy work crowd out your core goals.",
       "quote": "Treat shallow work with suspicion, because its damage is often vastly underestimated and its importance vastly overestimated.",
-      "actionItem": "Calculate your shallow work ratio today: if shallow tasks exceed 50% of your working hours, decline one non-vital meeting this week.",
+      "actionItem": "Check your schedule today and decline one meeting that is not strictly needed.",
       "tags": [
         "Productivity",
         "Core Insights"
@@ -1104,10 +1104,10 @@ export const DEEP_WORK_BOOK: Book = {
       "author": "Cal Newport",
       "category": "Productivity",
       "type": "quote",
-      "headline": "Focus as Mastery",
-      "body": "Mastering the ability to direct your focus transforms work from chaotic drudgery into an arena of genuine craftsmanship and high personal satisfaction.",
+      "headline": "Deep Work Fulfillment",
+      "body": "Directing your attention changes your relationship with work.\nFocus turns dull chores into rewarding craft.\nYou get more done and feel much happier.",
       "quote": "To leave the distractions and ambiguities of the shallow world behind is to discover that a deep life is not an austere existence, but instead one rich in productivity and meaning.",
-      "actionItem": "Close all open browser tabs at the end of the day to begin tomorrow's focus session from a blank, intentional slate.",
+      "actionItem": "Close every open browser tab tonight so you start tomorrow completely fresh.",
       "tags": [
         "Productivity",
         "Core Insights"
@@ -1121,98 +1121,98 @@ export const DEEP_WORK_BOOK: Book = {
   ],
   "mindMap": {
     "id": "root",
-    "label": "Deep Work: Rules for Focused Success in a Distracted World",
-    "description": "Deep work is the superpower of the modern knowledge economy, enabling you to master hard things quickly and produce elite results.\nBy cultivating intense, distraction-free concentration, you systematically build unbreakable momentum and reclaim control of your cognitive life.",
+    "label": "Deep Work",
+    "description": "Deep work means focusing without distractions on hard tasks.\nIt helps you learn fast and create great things.",
     "children": [
       {
         "id": "part-1-the-idea",
-        "label": "Part 1: The Core Hypothesis & Value",
-        "description": "The ability to perform deep work is becoming increasingly rare at the exact moment it is becoming increasingly valuable in our economy.\nMastering this fundamental skill sets you apart as a high-impact producer who consistently wins.",
+        "label": "Why Focus Matters",
+        "description": "Deep focus is rare today, but very valuable.\nMastering it helps you stand out and win.",
         "children": [
           {
             "id": "hyp-deep-vs-shallow",
-            "label": "Deep Work vs. Shallow Work",
-            "description": "Deep work consists of professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their absolute limit.\nIn contrast, shallow work involves non-cognitively demanding, logistical tasks that are easily replicated and create little real value.",
+            "label": "Deep vs Shallow",
+            "description": "Deep work requires full focus on hard tasks.\nShallow work is easy tasks like checking email.",
             "children": [
               {
                 "id": "hyp-deep-definition",
-                "label": "Cognitive Superpower",
-                "description": "Deep work stretches your mental faculties, generating new value and refining your technical capabilities.\nIt produces high-leverage breakthroughs that are durable and difficult for competitors or algorithms to copy.",
+                "label": "Deep Work Power",
+                "description": "Deep work stretches your brain to build real value.\nIt creates results that others cannot easily copy.",
                 "children": []
               },
               {
                 "id": "hyp-shallow-trap",
-                "label": "The Shallow Work Treadmill",
-                "description": "Shallow work keeps you feeling frantically busy through endless emails, meetings, and quick messaging pings without moving the needle on major goals.\nIf left unchecked, it permanently erodes your capacity to sustain prolonged focus.",
+                "label": "The Shallow Trap",
+                "description": "Quick tasks make you feel busy without making progress.\nOver time, they ruin your ability to concentrate.",
                 "children": []
               }
             ]
           },
           {
             "id": "hyp-high-value-winners",
-            "label": "Who Thrives in the New Economy",
-            "description": "The contemporary digital economy disproportionately rewards those who can rapidly master complex machines and systems while operating at an elite level.\nDeep work provides the cognitive leverage required to join this winning echelon.",
+            "label": "Who Wins Today",
+            "description": "Today's world rewards people who master hard tools quickly.\nDeep focus gives you that winning edge.",
             "children": [
               {
                 "id": "hyp-high-skilled-workers",
-                "label": "High-Skilled Laborers",
-                "description": "These individuals master intricate tools, complex software, and complex systems to pull ahead of the pack.\nThey continuously upgrade their craft by investing uninterrupted focus into difficult technical domains.",
+                "label": "Skilled Experts",
+                "description": "These people master complex tech and tools.\nThey focus deeply to stay ahead of the crowd.",
                 "children": []
               },
               {
                 "id": "hyp-superstars",
-                "label": "The Superstar Effect",
-                "description": "Globalized communication networks reward top-tier performers with massive, winner-take-all advantages over mediocre rivals.\nBy turning out premium creative output through deep focus, you command outsized market influence.",
+                "label": "The Superstars",
+                "description": "Top performers win most of the rewards today.\nDeep work helps you make world-class work.",
                 "children": []
               },
               {
                 "id": "hyp-owners-capital",
-                "label": "Owners of Capital",
-                "description": "Investors and entrepreneurs deploy capital into disruptive automated technologies that amplify human ingenuity.\nDeep analytical thought allows them to spot emerging market asymmetries before anyone else.",
+                "label": "Business Owners",
+                "description": "Smart leaders back new ideas and powerful tools.\nDeep thinking helps them spot big opportunities early.",
                 "children": []
               }
             ]
           },
           {
             "id": "hyp-core-abilities",
-            "label": "The Two Core Abilities for Success",
-            "description": "Thriving today demands two linked abilities: mastering hard things quickly and producing at an elite level of both quality and speed.\nBoth abilities depend entirely on your capacity to lock into intense, unbroken concentration.",
+            "label": "Two Core Skills",
+            "description": "You need to learn fast and produce great work.\nBoth require long stretches of quiet focus.",
             "children": [
               {
                 "id": "hyp-master-hard-things",
-                "label": "Rapid Deliberate Practice",
-                "description": "Learning hard skills quickly requires deliberate practice with immediate feedback and absolute focus on your weaknesses.\nWhen you concentrate without distraction, your brain wraps myelin around relevant neural circuits to cement peak performance.",
+                "label": "Learn Hard Things",
+                "description": "Practice difficult skills with full attention.\nZero distractions help your brain rewire faster.",
                 "children": []
               },
               {
                 "id": "hyp-produce-elite-output",
-                "label": "High-Volume, High-Quality Output",
-                "description": "High-quality work produced is mathematically proportional to the time spent multiplied by the intensity of your focus.\nSlashing multitasking lets you compress months of unfocused labor into weeks of razor-sharp execution.",
+                "label": "Create Quality Fast",
+                "description": "Great work equals time spent times intense focus.\nStop multitasking to finish projects much faster.",
                 "children": []
               }
             ]
           },
           {
             "id": "hyp-deep-is-rare-and-meaningful",
-            "label": "The Rarity & Meaning of Depth",
-            "description": "Deep work is shockingly rare because business cultures default to the path of least resistance and visible busyness.\nCommitting to depth not only brings professional triumph, but also infuses your daily routine with craftsmanship and deep neurological fulfillment.",
+            "label": "Rare and Rewarding",
+            "description": "Few people focus deeply because being busy feels easier.\nTrue focus brings joy, meaning, and better results.",
             "children": [
               {
                 "id": "hyp-metric-black-hole",
-                "label": "The Metric Black Hole",
-                "description": "Companies struggle to measure the exact bottom-line cost of fragmented attention, so they tolerate constant interruptions like open offices and instant chat.\nRecognizing this blind spot empowers you to aggressively safeguard your calendar.",
+                "label": "Hidden Costs",
+                "description": "Offices ignore the cost of constant interruptions.\nProtect your calendar from endless chatter.",
                 "children": []
               },
               {
                 "id": "hyp-busyness-as-proxy",
-                "label": "Busyness as Proxy for Productivity",
-                "description": "In the absence of clear productivity metrics, knowledge workers fall back on visible busyness to prove their worth.\nReal winners replace superficial responsive antics with tangible, finished milestones.",
+                "label": "Fake Busyness",
+                "description": "People look busy when real output is hard to measure.\nAim for real results instead of quick replies.",
                 "children": []
               },
               {
                 "id": "hyp-meaningful-life",
-                "label": "Neurological & Philosophical Joy",
-                "description": "Your brain constructs your lived reality based on what you pay attention to during the day.\nFocusing deeply on noble, challenging crafts protects your psyche from petty anxieties and creates profound professional satisfaction.",
+                "label": "Joy of Focus",
+                "description": "What you pay attention to shapes your life.\nDeep craft brings calm and true work satisfaction.",
                 "children": []
               }
             ]
@@ -1221,118 +1221,118 @@ export const DEEP_WORK_BOOK: Book = {
       },
       {
         "id": "rule-1-work-deeply",
-        "label": "Rule 1: Work Deeply",
-        "description": "Willpower is a finite muscle that rapidly depletes throughout the day, so relying on motivation alone will fail.\nYou must construct intelligent daily routines, ritualized workspaces, and structured philosophies to make focus effortless.",
+        "label": "Work Deeply",
+        "description": "Willpower runs out quickly each day.\nSet up clear routines so focusing feels natural.",
         "children": [
           {
             "id": "r1-scheduling-philosophies",
-            "label": "Deep Work Scheduling Philosophies",
-            "description": "Select an execution model that fits your specific job demands and lifestyle realities so deep work becomes an inevitable habit.\nConsistency beats erratic bursts of inspiration every single time.",
+            "label": "Choose Your Schedule",
+            "description": "Pick a focus routine that fits your job.\nConsistency matters much more than sudden bursts of effort.",
             "children": [
               {
                 "id": "r1-monastic-philosophy",
-                "label": "Monastic Philosophy",
-                "description": "This approach eliminates or dramatically minimizes all shallow obligations, dedicating virtually all working hours to high-impact depth.\nIt suits solo creators, novelists, and researchers whose success hinges on uninterrupted breakthroughs.",
+                "label": "All-In Focus",
+                "description": "Cut out almost all shallow tasks completely.\nBest for writers and researchers needing quiet months.",
                 "children": []
               },
               {
                 "id": "r1-bimodal-philosophy",
-                "label": "Bimodal Philosophy",
-                "description": "You divide your calendar into dedicated blocks of time\u2014such as full days or seasonal retreats\u2014reserved exclusively for deep work while handling shallow tasks during the rest.\nThis preserves intense creative focus without abandoning vital administrative partnerships.",
+                "label": "Split Schedule",
+                "description": "Dedicate whole days or weeks to deep work.\nUse the remaining time for normal office tasks.",
                 "children": []
               },
               {
                 "id": "r1-rhythmic-philosophy",
-                "label": "Rhythmic Philosophy",
-                "description": "Transform deep work into a steady daily rhythm by booking standard, recurring blocks, like 8:00 AM to 10:30 AM every morning.\nThis leverages habitual momentum so you dive straight into hard challenges without wasting mental willpower deciding when to begin.",
+                "label": "Daily Habit",
+                "description": "Block out the same focus hours every single morning.\nRoutine removes the choice of when to start.",
                 "children": []
               },
               {
                 "id": "r1-journalistic-philosophy",
-                "label": "Journalistic Philosophy",
-                "description": "You switch instantly into deep work mode on the fly whenever an unexpected thirty- or sixty-minute opening appears in your schedule.\nThis demanding approach requires seasoned mental discipline and complete confidence in your workflow.",
+                "label": "Anytime Sprints",
+                "description": "Jump into deep work whenever free time pops up.\nRequires strong mental discipline to start instantly.",
                 "children": []
               }
             ]
           },
           {
             "id": "r1-ritualize",
-            "label": "Ritualize the Environment",
-            "description": "Craft strict rituals around where you work, how long you work, and how you sustain your physical energy.\nStandardizing your workspace and session boundaries eliminates decision fatigue and signals your brain that it is time to perform.",
+            "label": "Create Focus Rituals",
+            "description": "Set clear rules for where and how you work.\nGood habits signal your brain it is time to concentrate.",
             "children": [
               {
                 "id": "r1-location-and-rules",
-                "label": "Dedicated Space & Operating Rules",
-                "description": "Designate a quiet, distraction-free sanctuary equipped only with the essentials needed to execute your immediate task.\nEstablish strict rules that ban internet surfing, notifications, and unscheduled breaks during the sprint.",
+                "label": "Quiet Workspace",
+                "description": "Pick a quiet spot with no digital distractions.\nBan web browsing and phone alerts while working.",
                 "children": []
               },
               {
                 "id": "r1-support-materials",
-                "label": "Energy & Cognitive Support",
-                "description": "Fuel your cognitive engines with good coffee, proper hydration, and nutritious snacks before sitting down to focus.\nHaving clear reference materials ready ensures you never break focus to hunt down missing resources.",
+                "label": "Prep and Fuel",
+                "description": "Have coffee, water, and notes ready beforehand.\nNever stop working just to hunt for tools.",
                 "children": []
               }
             ]
           },
           {
             "id": "r1-grand-gestures",
-            "label": "The Grand Gesture",
-            "description": "Invest significant radical effort, travel, or capital to dramatically increase the perceived importance of your deep work objective.\nBy making a major commitment, you silence procrastination and unlock extraordinary mental energy.",
+            "label": "Make Big Commitments",
+            "description": "Spend time or money to show your brain this matters.\nA big step pushes you past lazy excuses.",
             "children": [
               {
                 "id": "r1-radical-commitment",
-                "label": "Psychological Stakes",
-                "description": "Renting a remote cabin, booking a round-trip flight just to write, or purchasing dedicated hardware snaps your mind out of complacency.\nThe visible investment raises the stakes and compels you to deliver matching creative results.",
+                "label": "Raise the Stakes",
+                "description": "Rent a quiet cabin or buy dedicated tools.\nThe investment forces you to get the job done.",
                 "children": []
               }
             ]
           },
           {
             "id": "r1-4dx-framework",
-            "label": "Execute Like a Business (The 4DX Framework)",
-            "description": "Borrow proven execution disciplines from the business world to reliably translate your high-minded focus intentions into measurable output.\nExecution is the bridge connecting visionary ideas to undisputed real-world mastery.",
+            "label": "Execute Your Goals",
+            "description": "Use business rules to turn focus into real output.\nClear plans bridge big dreams and daily action.",
             "children": [
               {
                 "id": "r1-wildly-important-goals",
-                "label": "Focus on the Wildly Important",
-                "description": "Identify a tiny number of ambitious targets that generate extraordinary leverage rather than scattering effort across dozens of secondary tasks.\nA narrow, high-stakes bullseye provides immediate clarity on where your deep hours must go.",
+                "label": "Top Goals Only",
+                "description": "Pick only one or two vital goals at a time.\nA clear target keeps your attention locked in.",
                 "children": []
               },
               {
                 "id": "r1-lead-measures",
-                "label": "Act on Lead Measures",
-                "description": "Track the direct inputs you fully control\u2014specifically your total accumulated deep work hours\u2014rather than obsessing over lagging outcomes.\nWatching your daily deep work tally climb builds irresistible forward momentum.",
+                "label": "Track Focus Hours",
+                "description": "Count how many hours you spend in deep focus.\nTracking hours gives you direct control over success.",
                 "children": []
               },
               {
                 "id": "r1-compelling-scoreboard",
-                "label": "Keep a Compelling Scoreboard",
-                "description": "Create a prominent visual tracker displaying your daily deep work streaks and major milestone accomplishments.\nPeople play differently when they are keeping score, turning discipline into an addictive personal game.",
+                "label": "Keep Score",
+                "description": "Make a simple scoreboard for your focus streaks.\nTracking progress turns work into a fun game.",
                 "children": []
               },
               {
                 "id": "r1-cadence-of-accountability",
-                "label": "Create a Cadence of Accountability",
-                "description": "Hold regular weekly reviews to confront your numbers, analyze what caused friction, and optimize your schedule for the week ahead.\nConsistent reflection ensures continuous improvement and keeps you relentlessly honest with yourself.",
+                "label": "Weekly Reviews",
+                "description": "Review your focus hours once every week.\nFix what went wrong to improve next week.",
                 "children": []
               }
             ]
           },
           {
             "id": "r1-shutdown-ritual",
-            "label": "The Complete Evening Shutdown",
-            "description": "End each workday with a deliberate, thorough shutdown ritual that reviews unfinished tasks, plans tomorrow, and terminates all work-related thoughts.\nGenuine psychological rest is mandatory to recharge your executive attention for tomorrow's challenges.",
+            "label": "Daily Work Shutdown",
+            "description": "End each workday with a clear closing routine.\nReal rest recharges your brain for the next day.",
             "children": [
               {
                 "id": "r1-zeigarnik-resolution",
-                "label": "Neutralizing Open Loops",
-                "description": "Write down explicit next steps for all incomplete tasks so your brain feels safe letting them go overnight.\nResolving the Zeigarnik Effect prevents unresolved obligations from intruding on your evening peace.",
+                "label": "Plan Next Steps",
+                "description": "Write down a plan for any unfinished work.\nThis lets your brain relax all evening.",
                 "children": []
               },
               {
                 "id": "r1-verbal-shutdown",
-                "label": "The Shutdown Phrase",
-                "description": "Utter an explicit concluding phrase like 'Shutdown complete' once your daily review wraps up, drawing a firm psychological boundary.\nThis clean mental break prevents stressful work thoughts from leaking into family and rest time.",
+                "label": "Say It's Done",
+                "description": "Say a phrase like 'Shutdown complete' out loud.\nThis draws a clean line between work and life.",
                 "children": []
               }
             ]
@@ -1341,114 +1341,114 @@ export const DEEP_WORK_BOOK: Book = {
       },
       {
         "id": "rule-2-embrace-boredom",
-        "label": "Rule 2: Embrace Boredom",
-        "description": "The ability to concentrate deeply is a trained skill that can be easily ruined by an addiction to quick digital novelty.\nTo build unstoppable focus, you must condition your mind to tolerate boredom without reaching for a phone or opening a new browser tab.",
+        "label": "Embrace Boredom",
+        "description": "Focus is a muscle hurt by constant digital dopamine.\nTeach your brain to be bored without grabbing your phone.",
         "children": [
           {
             "id": "r2-rewiring-attention",
-            "label": "Rewiring Cognitive Wiring",
-            "description": "If every momentary pause or boring queue is filled with smartphone scrolling, your brain becomes chronically wired for distraction.\nYou must actively train your neural pathways to endure quiet spaces and sustain hard analytical focus.",
+            "label": "Train Your Brain",
+            "description": "Checking phones during every pause ruins focus.\nPractice sitting quietly to rebuild your attention span.",
             "children": [
               {
                 "id": "r2-internet-blocks",
-                "label": "Schedule Internet Use in Advance",
-                "description": "Pre-assign strict windows for internet use and keep the rest of your time completely offline, regardless of temptations.\nKeeping your offline blocks sacred trains you to resist sudden urges for quick digital hits.",
+                "label": "Schedule Web Time",
+                "description": "Set specific times to go online and stay offline otherwise.\nThis trains you to fight random urges.",
                 "children": []
               },
               {
                 "id": "r2-overcoming-frustration",
-                "label": "Sitting Through Cognitive Resistance",
-                "description": "When hard intellectual work stalls, do not switch tabs to escape the discomfort.\nStaying seated and breathing through the friction trains your mind to break through mental plateaus.",
+                "label": "Sit with Discomfort",
+                "description": "Do not switch tabs when hard work gets annoying.\nStaying seated helps you push past mental walls.",
                 "children": []
               }
             ]
           },
           {
             "id": "r2-rooseveltian-sprints",
-            "label": "Rooseveltian Sprints",
-            "description": "Pick a tough cognitive task and set an aggressive, near-impossible deadline to finish it, forcing your brain into peak concentration.\nThese high-octane intervals expand your cognitive capacity and destroy lingering procrastination habits.",
+            "label": "Timed Sprints",
+            "description": "Give yourself a tight, hard deadline to finish a task.\nUrgency forces your mind into 100% focus.",
             "children": [
               {
                 "id": "r2-artificial-deadlines",
-                "label": "Artificial Urgency & Intensity",
-                "description": "Slashing the allowed time in half eliminates any opportunity for mind-wandering or side tasks.\nYour brain recruits every spare neuron to beat the clock, producing exceptional speed and clarity.",
+                "label": "Beat the Clock",
+                "description": "Cut your normal working time right in half.\nYour brain stops wandering and works much faster.",
                 "children": []
               }
             ]
           },
           {
             "id": "r2-productive-meditation",
-            "label": "Productive Meditation",
-            "description": "Use routine physical activities\u2014such as walking, running, or driving\u2014to focus your undivided attention on a single, well-defined professional problem.\nThis deliberate habit sharpens your mental grip and yields powerful solutions out of thin air.",
+            "label": "Think While Moving",
+            "description": "Use walks or drives to solve one specific problem.\nKeep your mind locked on that single question.",
             "children": [
               {
                 "id": "r2-mental-distraction-loops",
-                "label": "Catching Mental Drifts",
-                "description": "Whenever your thoughts drift toward personal worries or daydreaming, gently guide your focus back to the core challenge.\nThis mental practice strengthens your attention control, much like traditional mindfulness meditation.",
+                "label": "Catch Mind Wandering",
+                "description": "Gently pull your mind back when it drifts off.\nThis exercise builds strong attention control.",
                 "children": []
               },
               {
                 "id": "r2-structuring-deep-thoughts",
-                "label": "Stepwise Problem Breakdown",
-                "description": "Begin by reviewing the relevant variables, formulate a precise question, and then systematically evaluate potential solutions.\nStructuring your thoughts prevents circular rumination and drives real intellectual breakthroughs.",
+                "label": "Step-by-Step Thinking",
+                "description": "Review the facts, ask a question, and test ideas.\nStructured steps stop your mind from running in circles.",
                 "children": []
               }
             ]
           },
           {
             "id": "r2-memory-training",
-            "label": "Memorization & Attention Drills",
-            "description": "Practicing structured memory techniques, like memorizing a shuffled deck of cards, systematically strengthens your working memory and focus.\nThese fun cognitive drills build raw mental stamina that carries over into your professional work.",
+            "label": "Memory Practice",
+            "description": "Practice memorizing cards or lists for mental exercise.\nThese fun drills build strong working memory and stamina.",
             "children": []
           }
         ]
       },
       {
         "id": "rule-3-quit-social-media",
-        "label": "Rule 3: Quit Social Media",
-        "description": "Reject the flawed belief that any tiny, potential benefit justifies surrendering your precious attention to addictive digital platforms.\nTake back control by evaluating tools like a master craftsman, keeping only the services that directly support your core goals.",
+        "label": "Quit Social Media",
+        "description": "Tiny online perks do not justify losing your attention.\nKeep only the digital tools that truly help your goals.",
         "children": [
           {
             "id": "r3-craftsman-approach",
-            "label": "The Craftsman Approach to Tool Selection",
-            "description": "Select a tool only if its positive impacts on your core personal and professional priorities significantly outweigh its negative disruptions.\nThis rigorous standard sweeps away shallow digital clutter and protects your peak creative hours.",
+            "label": "Pick Tools Carefully",
+            "description": "Use an app only if its benefits clearly beat its harms.\nDrop anything that eats up your valuable focus time.",
             "children": [
               {
                 "id": "r3-any-benefit-fallacy",
-                "label": "The 'Any-Benefit' Fallacy",
-                "description": "Low-impact tools justify their presence by pointing to minor, incidental perks, like discovering a neat article or chatting with an old acquaintance.\nSavvy performers see through this trap, recognizing that small perks can carry massive cognitive costs.",
+                "label": "Ditch Tiny Perks",
+                "description": "Do not keep an app just for small, random benefits.\nLittle perks often come with huge hidden costs.",
                 "children": []
               },
               {
                 "id": "r3-law-of-vital-few",
-                "label": "The Law of the Vital Few (80/20)",
-                "description": "Roughly 80 percent of your success stems from just 20 percent of your core activities and habits.\nChannel your precious time into those high-leverage drivers rather than scattering energy across dozens of secondary apps.",
+                "label": "Focus on the 20%",
+                "description": "A few key habits drive most of your success.\nPut your time there instead of surfing apps.",
                 "children": []
               }
             ]
           },
           {
             "id": "r3-digital-detox-experiment",
-            "label": "The 30-Day Digital Detox",
-            "description": "Quietly step away from social media and digital entertainment services for thirty consecutive days without announcing your departure.\nUse this temporary break to test whether anyone actually misses your presence or if your daily life noticeably improves.",
+            "label": "30-Day App Break",
+            "description": "Quit social media for 30 days without telling anyone.\nSee if your life gets better without it.",
             "children": [
               {
                 "id": "r3-detox-evaluation",
-                "label": "Post-Detox Cold Assessment",
-                "description": "After thirty quiet days, ask yourself if the world suffered from your silence and whether your days were genuinely richer.\nIf the honest answer is no, permanently delete the app and don't look back.",
+                "label": "Honest Review",
+                "description": "After a month, check if anyone noticed you were gone.\nIf life was better, delete the apps for good.",
                 "children": []
               }
             ]
           },
           {
             "id": "r3-high-quality-leisure",
-            "label": "Cultivate High-Quality Leisure",
-            "description": "Plan your evening and weekend leisure hours with the same care and intention as your workday priorities.\nFilling your downtime with rich hobbies, great books, and real community leaves zero room for mindless late-night screen scrolling.",
+            "label": "Better Free Time",
+            "description": "Plan your evenings and weekends with fun, real activities.\nGood hobbies keep you from scrolling screens aimlessly.",
             "children": [
               {
                 "id": "r3-deliberate-recreation",
-                "label": "Active Craft vs. Passive Consumption",
-                "description": "Engage in hands-on hobbies like woodworking, fitness, music, or gardening that demand active physical or mental presence.\nActive recreation leaves you energized and deeply recharged for your next deep work sprint.",
+                "label": "Active Hobbies",
+                "description": "Try fitness, reading, crafting, or meeting friends.\nActive fun refreshes you far better than passive scrolling.",
                 "children": []
               }
             ]
@@ -1457,75 +1457,75 @@ export const DEEP_WORK_BOOK: Book = {
       },
       {
         "id": "rule-4-drain-the-shallows",
-        "label": "Rule 4: Drain the Shallows",
-        "description": "Treat shallow work as a hazardous operational expense that must be ruthlessly trimmed, automated, or eliminated.\nDesigning a streamlined daily schedule protects your cognitive bandwidth so you can deliver exceptional, world-class output.",
+        "label": "Cut Shallow Work",
+        "description": "Shallow tasks eat up your time and brainpower.\nCut, batch, and limit them to make space for depth.",
         "children": [
           {
             "id": "r4-time-blocking",
-            "label": "Schedule Every Minute of Your Day",
-            "description": "Divide your workday into intentional blocks on paper, assigning every hour a specific, dedicated objective.\nWhen unexpected disruptions arise, simply redraw the remaining blocks to stay in total control of your time.",
+            "label": "Block Every Hour",
+            "description": "Plan out every hour of your workday on paper.\nIf plans change, simply redraw your schedule blocks.",
             "children": [
               {
                 "id": "r4-block-adjustments",
-                "label": "Dynamic Schedule Refinement",
-                "description": "Treat your schedule as a flexible blueprint rather than a rigid cage, readily updating blocks as priorities shift throughout the day.\nThis adaptable approach keeps you proactive and productive no matter what comes up.",
+                "label": "Flexible Plans",
+                "description": "Update your schedule as the day unfolds.\nStaying flexible keeps you in charge of your day.",
                 "children": []
               },
               {
                 "id": "r4-buffer-blocks",
-                "label": "Strategic Overflow Buffers",
-                "description": "Build dedicated buffer blocks into your afternoon to absorb spillover tasks, unexpected emails, and spontaneous logistical questions.\nBuffers protect your core deep work blocks from getting derailed by routine daily friction.",
+                "label": "Add Buffer Time",
+                "description": "Save time blocks for sudden tasks and quick emails.\nBuffers keep surprises from ruining your focus work.",
                 "children": []
               }
             ]
           },
           {
             "id": "r4-quantify-depth",
-            "label": "Quantify the Depth of Every Activity",
-            "description": "Evaluate tasks by asking how many months it would take a smart college graduate without specialized training to perform them.\nIf the answer is just a few days or weeks, that task is shallow and should be aggressively contained.",
+            "label": "Judge Task Depth",
+            "description": "Ask how long it takes a beginner to do your task.\nIf it takes days, it is shallow work.",
             "children": [
               {
                 "id": "r4-shallow-budget",
-                "label": "The Shallow Work Budget",
-                "description": "Set a firm upper limit on shallow work\u2014such as no more than 30 to 50 percent of your total daily working hours.\nCapping administrative overhead forces you to say no to trivial requests and safeguard your focus.",
+                "label": "Cap Shallow Tasks",
+                "description": "Limit shallow tasks to under half your workday.\nSetting a cap helps you say no to busywork.",
                 "children": []
               }
             ]
           },
           {
             "id": "r4-fixed-schedule-productivity",
-            "label": "Fixed-Schedule Productivity",
-            "description": "Establish a firm, immovable finish line for your workday\u2014such as 5:30 PM sharp\u2014and refuse to work beyond it under any circumstances.\nThis hard boundary forces ruthless efficiency and wipes out low-priority commitments.",
+            "label": "Set Hard Stop Times",
+            "description": "Pick a firm time to stop working each day.\nA hard cutoff forces you to work efficiently.",
             "children": [
               {
                 "id": "r4-radical-saying-no",
-                "label": "The Art of the Gracious Refusal",
-                "description": "Decline non-essential invites, projects, and committee roles with concise, polite, and unambiguous clarity.\nGuarding your calendar creates the open space required to produce truly outstanding, high-impact work.",
+                "label": "Politely Say No",
+                "description": "Turn down unimportant meetings and requests politely.\nProtecting your time leaves space for meaningful results.",
                 "children": []
               }
             ]
           },
           {
             "id": "r4-email-tactics",
-            "label": "Tame the Communication Beast",
-            "description": "Transform email and messaging channels from constant interruptors into efficient, tightly controlled communication tools.\nSetting thoughtful boundaries keeps you from spending your best hours babysitting an inbox.",
+            "label": "Tame Your Inbox",
+            "description": "Stop letting messages control your working hours.\nSet clear boundaries so you can finish real work.",
             "children": [
               {
                 "id": "r4-sender-filters",
-                "label": "Sender Filters & Expectations",
-                "description": "Post clear guidance explaining that you process incoming messages slowly and only reply to queries that match your current priorities.\nManaging expectations up front dramatically cuts down on inbound message volume.",
+                "label": "Filter Inbound Messages",
+                "description": "Tell people you reply slowly and prioritize key messages.\nThis cuts down incoming email right away.",
                 "children": []
               },
               {
                 "id": "r4-process-centric-emails",
-                "label": "Process-Centric Communication",
-                "description": "When answering an email, lay out the full workflow, next steps, and contingency plans in a single structured reply rather than triggering endless back-and-forth pings.\nClosing loops in one message frees up hours of future attention.",
+                "label": "Send Complete Replies",
+                "description": "Explain all next steps in a single clear email.\nThis stops back-and-forth messages before they start.",
                 "children": []
               },
               {
                 "id": "r4-do-not-reply",
-                "label": "The Courage Not to Reply",
-                "description": "Feel completely comfortable leaving ambiguous, unsolicited, or low-priority messages unanswered.\nProtecting your creative output is far more valuable than satisfying every stranger's demand for instant attention.",
+                "label": "Skip Low-Value Mail",
+                "description": "You do not need to answer every random message.\nProtect your focus instead of pleasing everyone.",
                 "children": []
               }
             ]

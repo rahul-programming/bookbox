@@ -1,5 +1,5 @@
 // How to Decide by Annie Duke
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -452,169 +452,169 @@ export const HOW_TO_DECIDE_BOOK: Book = {
   "actionItems": [
     {
       "id": "how-to-decide-act-1",
-      "title": "Decide-or-Freeroll Low-Stakes Filter",
-      "description": "Stop bleeding cognitive bandwidth on trivial choices with negligible downside. If worst-case loss is immaterial, pull the trigger in under 30 seconds.",
+      "title": "Fast Low-Stakes Filter",
+      "description": "Stop wasting mental energy on small choices. Pick an option in thirty seconds when downside is tiny.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Spot any minor decision you have delayed for over 5 minutes (e.g., lunch order, email sign-off, draft title).",
-        "Ask the asymmetric test: 'If this turns out terribly, will anyone care or remember in 7 days?'",
-        "If the answer is no, declare it a freeroll or low-consequence choice.",
-        "Commit immediately to the first acceptable option without second-guessing."
+        "1. Pick a small choice you have put off today.",
+        "2. Ask if this will matter at all in seven days.",
+        "3. Confirm that a bad outcome will not hurt you.",
+        "4. Choose the first good-enough option right away without overthinking."
       ],
       "sourceChapter": "Chapter 2"
     },
     {
       "id": "how-to-decide-act-2",
-      "title": "Clean-Slate Decision Interview",
-      "description": "Quarantine outside opinions to prevent contagious bias and groupthink from contaminating independent judgment.",
+      "title": "Blind Opinion Check",
+      "description": "Get unbiased advice by hiding your personal thoughts first. This stops people from simply agreeing with you.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Draft a high-priority problem statement stripped of your personal hunch, preferred solution, or emotional spin.",
-        "Send the objective facts directly to an advisor or peer without revealing what you want them to say.",
-        "Require them to give their baseline evaluation or probability range first.",
-        "Compare their raw analysis against your private estimate to isolate true signal from echo-chamber noise."
+        "1. Write down only the plain facts of your problem.",
+        "2. Send those facts to an advisor without your own opinion.",
+        "3. Ask them for their raw view or best guess first.",
+        "4. Compare their unbiased advice with your own original hunch."
       ],
       "sourceChapter": "Chapter 6"
     },
     {
       "id": "how-to-decide-act-3",
-      "title": "Post-Mortem Resulting Decoupling",
-      "description": "Break the dangerous resulting habit that conflates good outcomes with smart decisions and bad outcomes with poor execution.",
+      "title": "Separate Luck from Skill",
+      "description": "A good outcome does not always mean you made a smart choice. Judge your process instead of the final result.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Select one finished event from yesterday\u2014either a surprising win or an unexpected flop.",
-        "Grade the decision quality purely on information available prior to the outcome, ignoring how things landed.",
-        "Identify whether luck (variance) or process drive was the primary factor behind the final outcome.",
-        "Log whether you would repeat the exact same wager given identical odds and incomplete information."
+        "1. Pick one recent win or loss from your past week.",
+        "2. Review only what you knew before the final result happened.",
+        "3. Ask if pure luck caused the win or loss.",
+        "4. Decide if you would make that exact same move again."
       ],
       "sourceChapter": "Chapter 1"
     },
     {
       "id": "how-to-decide-act-4",
-      "title": "Pre-Call Confidence Interval Bracket",
-      "description": "Force realistic appraisal of uncertainty before committing capital, time, or strategic focus to any initiative.",
+      "title": "Set a Realistic Range",
+      "description": "Never rely on a single optimistic guess. Give yourself a wide high-and-low range instead.",
       "category": "daily-routine",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Pick a strategic projection you need to make today (e.g., project timeline, client conversion, budget).",
-        "Replace single-point guesses ('it will take 3 weeks') with a disciplined 90% confidence interval ('between 10 and 28 days').",
-        "Challenge yourself: 'What unseen headwinds make the lower bound breach? What tailwinds hit the upper?'",
-        "Base commitments and resource cushions strictly on the broad range rather than the optimistic median."
+        "1. Pick a project timeline or budget you must forecast today.",
+        "2. Replace one exact guess with a realistic high and low range.",
+        "3. Ask what bad surprises could push you past the high mark.",
+        "4. Plan your schedule around the full range, not best hopes."
       ],
       "sourceChapter": "Chapter 4"
     },
     {
       "id": "how-to-decide-act-5",
-      "title": "Physical Decision Log Installation",
-      "description": "Establish a tamper-proof paper trail that records beliefs and probabilities before outcome bias rewrites your memory.",
+      "title": "Start a Decision Log",
+      "description": "Keep a written record of your key choices before taking action. Your memory will change once you see the result.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Create a dedicated, easily accessible table in your workspace or digital workspace titled 'Decision Archive'.",
-        "Set mandatory columns: Date, Decision, Alternative Rejected, Assumed Odds/Beliefs, Known Unknowns, Re-evaluation Date.",
-        "Pin this template directly in your primary desktop viewport or open desk notebook.",
-        "Make entry completion a hard gate before kicking off any project with greater than $1,000 or 10 hours at stake."
+        "1. Create a simple sheet called Decision Log on your computer.",
+        "2. Add columns for date, choice made, options skipped, and doubts.",
+        "3. Keep this sheet open on your screen during major planning.",
+        "4. Fill out a row before starting any big new project."
       ],
       "sourceChapter": "Chapter 3"
     },
     {
       "id": "how-to-decide-act-6",
-      "title": "Contrarian Sounding Board Charter",
-      "description": "Surround your planning environment with sparring partners contractually obligated to challenge your core assumptions.",
+      "title": "Find a Devil's Advocate",
+      "description": "Pick honest friends who will challenge your ideas directly. Good pushback helps you spot hidden traps early.",
       "category": "environment",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Select 2 colleagues or professional peers with analytical rigor and zero stake in flattering your ego.",
-        "Form an informal 'Decision Pod' governed by poker table rules: focus on process, question certainty, celebrate admitting errors.",
-        "Set an explicit pact: all major moves must undergo five minutes of brutal devil's advocate stress-testing.",
-        "Standardize the question prompt: 'If Rahul is completely wrong here, what was the blind spot he ignored?'"
+        "1. Pick two honest peers who will not sugarcoat the truth.",
+        "2. Ask them to spend five minutes trying to poke holes.",
+        "3. Ask them where your biggest blind spot might be hiding.",
+        "4. Thank them for finding flaws before you spend real money."
       ],
       "sourceChapter": "Chapter 6"
     },
     {
       "id": "how-to-decide-act-7",
-      "title": "Hindsight Bias Hindsight Audit",
-      "description": "Inspect completed initiatives to catch your brain pretending you 'knew it all along' after the fact.",
+      "title": "Spot I-Knew-It Thinking",
+      "description": "Check past notes to see what you truly predicted back then. We often pretend we knew the outcome all along.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Pull records from a decision made 3 to 6 months ago that recently produced a decisive result.",
-        "Read your original notes or emails written before execution to see your actual forecast at the time.",
-        "Compare your documented doubts against what you currently tell yourself you predicted.",
-        "Note where outcome hindsight erased uncertainty, and write down the exact blind spot that went unaddressed."
+        "1. Find an old decision you made three months ago.",
+        "2. Read your early notes to see your true past thoughts.",
+        "3. Check your old doubts against what you claim you knew.",
+        "4. Write down the surprises you failed to see back then."
       ],
       "sourceChapter": "Chapter 1"
     },
     {
       "id": "how-to-decide-act-8",
-      "title": "Negative Space Audit (The Unchosen Paths)",
-      "description": "Audit the options you killed to evaluate whether you rejected them based on rigorous odds or lazy defaults.",
+      "title": "Review Rejected Options",
+      "description": "Look at the options you threw away on past projects. Make sure you did not ditch good ideas from fear.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "List your last three major strategic bets and write down the runner-up option you rejected for each.",
-        "Score the expected value and downside risk of those discarded paths using fresh, unemotional data.",
-        "Check if you rejected choices due to status-quo bias, fear of looking foolish, or legitimate risk-reward deficits.",
-        "Extract one systematic bias currently skewing your option selection toward safe mediocrity."
+        "1. List your last three big choices and the runner-up options.",
+        "2. Look at the skipped options with fresh eyes and facts.",
+        "3. Ask if you rejected them just to play it safe.",
+        "4. Pick one good idea you can revive for future projects."
       ],
       "sourceChapter": "Chapter 5"
     },
     {
       "id": "how-to-decide-act-9",
-      "title": "Pros-and-Cons Elimination Protocol",
-      "description": "Replace subjective, unweighted pro-and-con lists with an objective multi-attribute decision tree.",
+      "title": "Ditch Pros and Cons",
+      "description": "Simple pro and con lists hide real chances of success. Score likely outcomes with numbers instead.",
       "category": "system",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "Take an unresolved strategic trade-off currently parked in your backlog.",
-        "Ban traditional pro/con lists; draft explicit alternative scenarios with estimated probability weights (must total 100%).",
-        "Assign concrete payoff scores (-10 to +10) across distinct payoffs: capital efficiency, strategic leverage, downside ruin.",
-        "Calculate the expected payoff across scenarios to reveal the dominant mathematical choice."
+        "1. Pick a tough choice you have delayed this week.",
+        "2. List your top two paths instead of standard pro lists.",
+        "3. Give each possible outcome a score from minus ten to ten.",
+        "4. Multiply scores by chances to find the best overall path."
       ],
       "sourceChapter": "Chapter 3"
     },
     {
       "id": "how-to-decide-act-10",
-      "title": "Kill Criteria & Tripwire Architecture",
-      "description": "Pre-commit to exit rules while rational so sunk cost fallacy cannot trap you in bleeding positions later.",
+      "title": "Set Quit Rules Early",
+      "description": "Decide when to walk away before you start a project. Clear quit rules protect you from wasting time later.",
       "category": "system",
       "timeEstimateMinutes": 35,
       "stepByStep": [
-        "Select an active venture, campaign, or initiative that carries meaningful ongoing expenditure.",
-        "Define 2 unmistakable, non-negotiable failure markers (e.g., 'If metric X is below Y by Day Z').",
-        "Set automated calendar alarms or external milestones that force mandatory shutdown when tripwires trigger.",
-        "Delegate shutdown authority to an objective peer so your emotional attachment cannot override the kill switch."
+        "1. Pick an active project that is costing you time or money.",
+        "2. Pick two clear warning signs that show the project failed.",
+        "3. Set calendar deadlines to review those two signs without fail.",
+        "4. Agree in advance to shut it down if warnings trigger."
       ],
       "sourceChapter": "Chapter 7"
     },
     {
       "id": "how-to-decide-act-11",
-      "title": "Prospective Hindsight Pre-Mortem",
-      "description": "Assume catastrophic failure has already occurred in order to surface lurking vulnerabilities before deployment.",
+      "title": "Plan for Failure Now",
+      "description": "Pretend your new plan has already failed completely in twelve months. Looking backward helps you spot lurking hazards.",
       "category": "system",
       "timeEstimateMinutes": 40,
       "stepByStep": [
-        "Fast-forward 12 months ahead: state as fact that your upcoming initiative has collapsed into an absolute disaster.",
-        "Spend 10 minutes writing the complete narrative history of how and why the failure occurred.",
-        "Group the post-mortem reasons into preventable process mistakes versus external variance.",
-        "Build immediate defensive guardrails and early-warning tripwires into the current project roadmap."
+        "1. Imagine your upcoming project failed completely one year from now.",
+        "2. Spend ten minutes writing down every reason why it died.",
+        "3. Circle the mistakes that you can easily prevent right now.",
+        "4. Add safeguards to your current plan to stop those traps."
       ],
       "sourceChapter": "Chapter 5"
     },
     {
       "id": "how-to-decide-act-12",
-      "title": "Information Valuation Cut-Off Rule",
-      "description": "Determine the true value of acquiring additional information versus the burning cost of delay.",
+      "title": "Know When to Stop",
+      "description": "Extra research often just stalls you from taking action. Stop gathering facts when new data will not change minds.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Identify a stalled decision where your team claims they 'need more data' before acting.",
-        "Ask: 'Would realistic new data actually flip our decision, or will it just make us feel incrementally safer?'",
-        "Calculate whether the cost of delay (lost momentum, competitor speed) exceeds the marginal clarity gained.",
-        "If marginal data won't alter the bet, terminate information gathering and execute immediately."
+        "1. Find a stalled decision where someone asked for more data.",
+        "2. Ask if more data would actually change your final pick.",
+        "3. Ask if waiting for answers costs more than moving forward.",
+        "4. Stop the research and make the call if opinions stay fixed."
       ],
       "sourceChapter": "Chapter 7"
     }
@@ -791,10 +791,10 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Resulting: The Flawed Mirror",
-      "body": "Judging decision quality strictly by the outcome is the premier error in strategic thinking.\nYou can execute flawlessly under uncertainty and still catch a negative variance storm.\nConversely, sloppy, reckless bets can hit lucky payoffs.\nDecouple execution calculus from stochastic noise.",
+      "headline": "Resulting: The Outcome Trap",
+      "body": "Never judge a choice only by how it turned out.\nGood choices can still end badly because of bad luck.\nFoolish gambles can also succeed just by pure chance.",
       "quote": "The quality of a decision is not determined by its outcome.",
-      "actionItem": "Conduct a post-mortem evaluating only the inputs, information state, and probability distributions known at decision time.",
+      "actionItem": "Review your past choices by looking only at what you knew back then.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -812,10 +812,10 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Hindsight Bias Rewrites History",
-      "body": "Once an outcome occurs, human memory instantly reconstructs the past to make that outcome feel inevitable.\nThis narrative whitewash erases the genuine uncertainty that existed, blinding operators to real systemic risks and preventing meaningful institutional learning.",
+      "headline": "Hindsight Rewrites the Past",
+      "body": "After something happens, we pretend we knew it all along.\nThis trick makes us forget how uncertain things really were.\nAs a result, we fail to learn from real mistakes.",
       "quote": "Hindsight bias makes us think the world is far more predictable than it actually is.",
-      "actionItem": "Log your explicit assumptions and probability distributions in a decision journal prior to pulling any strategic lever.",
+      "actionItem": "Write down your key guesses and reasoning before making a major choice.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -833,10 +833,10 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Decisions Are Portfolio Bets",
-      "body": "Every resource allocation\u2014capital, human attention, time\u2014is an implicit wager against an uncertain future.\nFraming strategic moves as bets forces explicit calculation of upside, downside, probability weightings, and opportunity cost.",
+      "headline": "Every Choice Is a Bet",
+      "body": "Whenever you spend time or money, you are placing a wager.\nThinking this way forces you to weigh the risks honestly.\nYou clearly see what you might win or lose.",
       "quote": "Every decision is a bet on what the future will look like.",
-      "actionItem": "Ask your team before major commitments: 'What is the exact wager here, and what odds are we laying?'",
+      "actionItem": "Ask your team what you are risking and what you expect to win.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -854,10 +854,10 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Run the Premortem Protocol",
-      "body": "Traditional post-mortems happen when capital is already lost.\nA premortem assumes total failure before launch and tasks the room with detailing the forensic cause of death.\nThis legitimizes dissent and flushes out hidden assumptions.",
+      "headline": "Plan for Failure Early",
+      "body": "Imagine your project failed completely before you even start it.\nThen, ask your team to list every reason why it died.\nThis makes it safe for everyone to point out hidden dangers.",
       "quote": "A premortem gives people permission to voice their reservations without looking disloyal.",
-      "actionItem": "Schedule a 45-minute premortem session where team members write down why the project collapsed 12 months out.",
+      "actionItem": "Hold a meeting where everyone explains how this project could crash next year.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -875,10 +875,10 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Multiverse of Outcomes",
-      "body": "A single decision creates multiple potential future branches, each carrying a different probability.\nOnly one branch actually materializes into reality.\nNever mistake the realized branch for the only world that could have existed.",
+      "headline": "Many Possible Futures",
+      "body": "A single choice creates many possible paths forward.\nOnly one path will actually happen in the real world.\nDo not think that one path was the only possible result.",
       "quote": "You are making a decision that will result in one of a set of possible futures.",
-      "actionItem": "Map out at least four distinct outcome scenarios and assign each a probability percentage totaling 100%.",
+      "actionItem": "Write down four different outcomes and assign a percentage chance to each one.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -896,10 +896,10 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Inside View vs. Outside View",
-      "body": "The inside view leans on unique personal optimism, internal narratives, and customized scenarios.\nThe outside view asks what the base rate is for everyone else tackling this exact category of problem.\nAlways ground your models in base rates first.",
+      "headline": "Inside View vs Outside View",
+      "body": "We tend to believe our personal story is uniquely special.\nThe outside view looks at common facts and general averages instead.\nAlways start with how often other people succeed or fail.",
       "quote": "The outside view anchors your thinking in reality before your inside view can distort it.",
-      "actionItem": "Find the industry or historical base rate failure rate before computing your projected timeline or return.",
+      "actionItem": "Check normal failure rates for others before setting your own project goals.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -917,10 +917,10 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Embracing Explicit Uncertainty",
-      "body": "Fake certainty is a dangerous defense mechanism against vulnerability.\nSaying 'I don't know' or 'there is a 40% probability' is not weakness\u2014it is an uncompromising commitment to tactical reality that allows agile recalculation under fire.",
+      "headline": "Admit What You Do Not Know",
+      "body": "Pretending to be fully certain is foolish and dangerous.\nAdmitting you are unsure shows strength, not weakness.\nIt helps you stay alert and adjust your plan quickly.",
       "quote": "Saying 'I am not sure' is an essential step toward making better decisions.",
-      "actionItem": "Banish binary phrases like 'definitely' or 'impossible' from strategic reviews; enforce numeric probability ranges.",
+      "actionItem": "Stop saying words like 'definitely' and start using percentages instead.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -938,10 +938,10 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Define Kill Criteria Upfront",
-      "body": "Sunk cost bias and escalating commitment make it psychologically excruciating to abandon failing initiatives in real time.\nPre-commit to non-negotiable tripwires: if key traction milestones are missed by date X, kill the initiative immediately.",
+      "headline": "Set Quit Rules Upfront",
+      "body": "It is very painful to stop a project once you start spending.\nDecide in advance exactly when you will walk away.\nIf you miss key targets by a set date, quit immediately.",
       "quote": "Kill criteria allow you to make the decision to quit when you are thinking clearly, not when you are in the emotional fog of failure.",
-      "actionItem": "Draft three explicit conditions that will trigger immediate project cancellation before allocating launch budget.",
+      "actionItem": "Name three clear warning signs that will make you shut down the project.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -959,10 +959,10 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Asymmetry of Freerolls",
-      "body": "A freeroll represents a decision scenario with significant upside and negligible or capped downside.\nMaster strategists ruthlessly hunt freerolls while ruthlessly identifying and avoiding negative freerolls\u2014where upside is trivial and catastrophic ruin is lurking.",
+      "headline": "Hunt for Freerolls",
+      "body": "A freeroll is a bet where you cannot lose much.\nIf things go well, you gain a massive reward.\nSmart people seek big upsides while keeping losses very small.",
       "quote": "Look for situations where the downside is zero or minimal and the upside is significant.",
-      "actionItem": "Screen new initiatives for asymmetric payoffs: maximize bets with capped downside and open-ended upside.",
+      "actionItem": "Pick projects where failure costs very little but success brings enormous gains.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -980,10 +980,10 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Menu Strategy for Speed",
-      "body": "High-velocity operators distinguish low-impact decisions from enterprise-defining wagers.\nWhen ordering off a menu, picking option A versus option B carries trivial downside variance.\nExpending excessive cognitive cycles on low-stakes choices drains energy from high-impact bets.",
+      "headline": "The Menu Strategy",
+      "body": "Small daily choices do not deserve heavy stress.\nOrdering chicken instead of fish will not ruin your entire life.\nSave your mental energy for the big choices that matter.",
       "quote": "If the difference between options is small, deciding fast matters far more than deciding right.",
-      "actionItem": "Impose a sixty-second execution window on any low-impact operational decision that can be easily reversed.",
+      "actionItem": "Give yourself just one minute to make tiny choices that are easily reversed.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1001,10 +1001,10 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Range Forecasting Calibration",
-      "body": "Point estimates provide an illusion of precision while multiplying vulnerability.\nBy forcing ranges with explicit upper and lower bounds (e.g., 90% confidence), you uncover true variance corridors and safeguard against capital wipeouts.",
+      "headline": "Use Ranges, Not Single Numbers",
+      "body": "Guessing a single exact number gives you false confidence.\nGiving a high and low range shows the real truth.\nIt prepares you for surprises and protects your plans.",
       "quote": "Giving a range acknowledges the bounds of what you know and what you do not know.",
-      "actionItem": "Replace every financial or timeline single-number target with an explicit 90% confidence interval.",
+      "actionItem": "Replace every single cost or deadline target with a realistic low and high estimate.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1022,10 +1022,10 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Two-Way Doors vs. One-Way Doors",
-      "body": "Reversible decisions (two-way doors) require bias toward speed and immediate empirical data gathering.\nIrreversible decisions (one-way doors) demand exhaustive deliberation, red-teaming, and scenario planning.\nNever treat a two-way door like an irreversible trap.",
+      "headline": "Two-Way and One-Way Doors",
+      "body": "Some choices let you easily walk right back out the door.\nOther choices lock behind you and cannot be undone.\nMove fast on reversible choices, but move slowly on permanent ones.",
       "quote": "When a decision is easily reversible, the cost of being wrong is low, so decide quickly.",
-      "actionItem": "Label every incoming decision item as either 'Reversible' or 'Irreversible' before setting review meetings.",
+      "actionItem": "Label every choice as either reversible or permanent before spending hours discussing it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1043,10 +1043,10 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Luck vs. Skill Attribution",
-      "body": "Self-serving bias tempts leaders to credit their intellect for wins while blaming external randomness for losses.\nThis asymmetric accounting blinds the organization to tactical decay while subsidizing uncalibrated arrogance.",
+      "headline": "Luck Versus Skill",
+      "body": "We love praising our own genius whenever we win.\nYet we blame bad luck the moment things fall apart.\nThis unfair habit stops us from learning what went wrong.",
       "quote": "Taking credit for the good outcomes and blaming bad luck for the bad ones prevents you from learning anything.",
-      "actionItem": "Force a mandatory luck-assessment inquiry for every major internal win before handing out strategic credit.",
+      "actionItem": "Ask how much good luck helped you whenever you celebrate a big win.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1064,10 +1064,10 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Information Value vs. Decision Cost",
-      "body": "There is a mathematical tipping point where gathering additional data costs more in time, capital, and missed window of opportunity than the incremental reduction of uncertainty is worth.\nKnow when you have reached sufficient clarity to pull the trigger.",
+      "headline": "Know When to Stop Searching",
+      "body": "Hunting for more data takes extra time and money.\nAt some point, waiting hurts you more than moving forward.\nMake the call once you know enough to take action.",
       "quote": "Waiting for complete information is just a slow way to make a decision by default.",
-      "actionItem": "Determine the single piece of data that would actually change your mind; if unobtainable, execute immediately.",
+      "actionItem": "Identify the one fact that would change your mind, then act immediately.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1085,10 +1085,10 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Backcasting from Success",
-      "body": "Working backward from a fixed successful future state clarifies the sequential choke points and critical path dependencies required for victory.\nIt forces structural logic into ambitious visions that are otherwise muddied by wishful thinking.",
+      "headline": "Work Backward from Success",
+      "body": "Picture your goal already achieved a few years from today.\nTrace your steps backward to see how you reached that victory.\nThis maps out every crucial step you must take now.",
       "quote": "Backcasting allows you to see the steps that need to happen between now and a successful outcome.",
-      "actionItem": "Assume complete strategic victory 3 years out; list the exact conditions that had to be met at month 24, 12, and 3.",
+      "actionItem": "Imagine total success in three years and list what had to happen each year.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1106,10 +1106,10 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Truth-Seeking Pod Contracts",
-      "body": "Human beings are wired for social cohesion and confirmation bias, not raw truth.\nTo make sound bets, you need a chartered group bound by explicit social contracts to stress-test your thinking, point out omissions, and enforce intellectual discipline.",
+      "headline": "Truth-Seeking Buddies",
+      "body": "Most friends only tell you what you want to hear.\nTo make great choices, find partners who challenge your blind spots.\nReal friends push you to face the honest facts.",
       "quote": "To get better at decision-making, you need people who will hold you accountable to the truth.",
-      "actionItem": "Form an advisory triad of peers tasked explicitly with finding the fatal flaw in your top three bets.",
+      "actionItem": "Ask two smart peers to find the biggest flaws in your plan.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1127,10 +1127,10 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Hedging Against Catastrophic Ruin",
-      "body": "In non-ergodic environments, an outcome of zero ends the game permanently.\nSound decision architecture prioritizes the absolute elimination of tail risk that threatens survival over the marginal maximization of upside returns.",
+      "headline": "Avoid Total Ruin",
+      "body": "If you lose everything, you cannot keep playing the game.\nNo potential reward justifies taking a risk that can wipe you out.\nAlways protect yourself against complete disaster first.",
       "quote": "If an outcome includes ruin, no expected value makes the risk worth taking.",
-      "actionItem": "Identify and permanently cut any strategic exposure where a 1% black swan event could bankrupt the enterprise.",
+      "actionItem": "Remove any risky move that could bankrupt your business if bad luck strikes.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1148,10 +1148,10 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "The Decision Hygiene Checklist",
-      "body": "Eliminate noise and erratic subjective mood swings by routing complex allocations through standard operating hygiene: articulate the bet, map outcome distributions, consult the base rate, run a premortem, and set kill criteria.",
+      "headline": "Use a Decision Checklist",
+      "body": "Our changing moods can wreck good judgment.\nA simple checklist keeps your thinking steady when pressure rises.\nIt ensures you review key facts before spending resources.",
       "quote": "A structured decision process creates consistent discipline when emotions and stakes run high.",
-      "actionItem": "Mandate that no capital expenditure exceeding your team threshold advances without a one-page hygiene brief.",
+      "actionItem": "Use a one-page checklist of basic questions before approving any large project.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1169,10 +1169,10 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Deciding Is an Active Skill",
-      "body": "Mastery is not defined by prescience or clairvoyance; it is the deliberate application of probabilistic reasoning in environments where you will never hold all the cards.\nThe quality of your life is the sum of decision quality plus luck.",
+      "headline": "Decision Is a Skill",
+      "body": "Nobody can predict the future with pure certainty.\nYou cannot control luck, but you can control your own thinking.\nBetter daily choices lead to a much better life over time.",
       "quote": "You can get lucky, and you can get unlucky. What you control is the quality of your decisions.",
-      "actionItem": "Focus 100% of your energy and review cycles on your decision process, never on the unpreventable variance of luck.",
+      "actionItem": "Focus on improving your thinking steps instead of obsessing over random luck.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1190,10 +1190,10 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The 10-10-10 Temporal Prism",
-      "body": "Immediate emotional reactivity distorts risk perception.\nFilter decisions through temporal horizons: How will you evaluate this bet 10 minutes from now?\n10 months from now?\n10 years from now?\nThis flushes out acute pain bias and aligns actions with compounding payoffs.",
+      "headline": "The 10-10-10 Test",
+      "body": "Strong emotions can quickly cloud your common sense.\nAsk how you will feel about this in ten minutes.\nThen ask about ten months and ten years from now.",
       "quote": "Looking at decisions through time scales pulls you out of momentary emotional panic.",
-      "actionItem": "Apply the 10-month and 10-year test before executing contentious interpersonal or organizational restructuring choices.",
+      "actionItem": "Test hard choices by asking how much they will matter in ten years.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1208,56 +1208,61 @@ export const HOW_TO_DECIDE_BOOK: Book = {
   "mindMap": {
     "id": "root",
     "label": "How to Decide",
-    "description": "A tactical playbook for engineering superior judgment under conditions of imperfect information and volatility.\nMaster strategist Annie Duke dismantles the cognitive flaws that cripple executive decision-making, offering actionable frameworks to decouple outcome quality from process quality.",
+    "description": "A guide to making better choices when the future is uncertain.\nLearn how to separate good choices from pure luck.",
     "children": [
       {
         "id": "theme-1",
-        "label": "Core Epistemology: Decoupling Process from Outcome",
-        "description": "High-stakes decisions occur in probabilistic environments governed by incomplete data and luck.\nFlawed post-mortems invariably mistake lucky breaks for brilliance and sound bets for failures.",
+        "label": "Choices vs Outcomes",
+        "description": "Good choices can lead to bad results because of luck.\nNever judge a choice solely by how things turned out.",
         "children": [
           {
             "id": "node-1-1",
-            "label": "Resulting Trap",
-            "description": "Evaluating decision quality solely by its ultimate outcome is an intellectual failure mode.\nA bad bet can succeed through raw chance, while an asymmetrical, high-EV wager can still hit a tail-risk loss.",
+            "label": "The Resulting Trap",
+            "description": "Judging a decision only by its outcome is a big mistake.\nBad moves can get lucky, and smart moves can fail.",
             "children": [
               {
                 "id": "node-1-1-1",
-                "label": "Hindsight Bias Exploitation",
-                "description": "Once an outcome occurs, our brain rewrites history to make the result look inevitable.\nThis illusion destroys an organization's capacity to audit past judgments honestly.",
+                "label": "Hindsight Bias",
+                "description": "After things happen, we falsely pretend we knew it all along.\nThis tricks us into misunderstanding what really happened.",
                 "children": [
                   {
                     "id": "node-1-1-1-1",
-                    "label": "The Monday-Morning Quarterback Fallacy",
-                    "description": "Critiquing decisions with full access to subsequent information rewards survival over strategic rigour.\nIt punishes prudent risk-takers whenever unpredictable downside events materialize."
+                    "label": "Armchair Critics",
+                    "description": "People judge past moves knowing things the decider could not know.\nThis unfairly blames good risk-takers for bad luck.",
+                    "children": []
                   },
                   {
                     "id": "node-1-1-1-2",
-                    "label": "Resulting Field Matrix",
-                    "description": "A diagnostic 2x2 mapping process quality against outcome quality to expose Dumb Luck vs.\nEarned Wins.\nCategorizing results across these axes prevents toxic overconfidence and unearned demoralization."
+                    "label": "Skill vs Luck",
+                    "description": "A simple box comparing good choices with good or bad luck.\nIt stops you from mistaking blind luck for pure genius.",
+                    "children": []
                   }
                 ]
               },
               {
                 "id": "node-1-1-2",
-                "label": "The Illusion of Inevitability",
-                "description": "Treating historical outcomes as deterministic locks operators into rigid, brittle mental models.\nReality is a tree of branching probabilities where only one branch happened to be realized."
+                "label": "False Certainty",
+                "description": "We assume past events were bound to happen that way.\nIn truth, many other outcomes were just as possible.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-1-2",
-            "label": "The Poker vs. Chess Paradigm",
-            "description": "Chess possesses perfect information and zero luck; poker is defined by incomplete information and irreducible variance.\nReal-world business and investing play out on the poker table, not the chessboard.",
+            "label": "Poker Over Chess",
+            "description": "Chess has no hidden secrets and no luck.\nLife is like poker, full of hidden details and luck.",
             "children": [
               {
                 "id": "node-1-2-1",
-                "label": "Incomplete Information",
-                "description": "Operating without access to the opponent's hidden cards or market dynamics is table stakes.\nDemanding total certainty before deploying capital guarantees paralyzed execution."
+                "label": "Missing Facts",
+                "description": "You will never have all the cards or facts.\nWaiting for total certainty will freeze you in place.",
+                "children": []
               },
               {
                 "id": "node-1-2-2",
-                "label": "Irreducible Variance",
-                "description": "Random environmental shocks will disrupt even the most mathematically sound positions.\nTactical resilience requires absorbing bad beats without losing confidence in the underlying edge."
+                "label": "Random Luck",
+                "description": "Surprises and bad luck hit even the smartest plans.\nStay steady and trust your solid process anyway.",
+                "children": []
               }
             ]
           }
@@ -1265,40 +1270,44 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       },
       {
         "id": "theme-2",
-        "label": "Belief Architecture & Information Hygiene",
-        "description": "Unchecked biases contaminate the baseline data informing strategic wagers.\nClean decision hygiene demands treating every working hypothesis as an explicitly calibrated bet.",
+        "label": "Beliefs and Facts",
+        "description": "Our hidden biases often warp the facts we see.\nTreat what you believe as a bet instead of absolute truth.",
         "children": [
           {
             "id": "node-2-1",
-            "label": "Wanna Bet? Calibration",
-            "description": "Challenging an assertion with a direct financial or reputational wager exposes hollow convictions instantly.\nIt compels operators to quantify confidence intervals instead of asserting dogmatic certainty.",
+            "label": "Wanna Bet?",
+            "description": "Asking people to bet money exposes false confidence fast.\nIt forces you to admit how sure you actually are.",
             "children": [
               {
                 "id": "node-2-1-1",
-                "label": "Skin in the Game Filtering",
-                "description": "Opinions untethered to downside penalties degenerate into performance art.\nEnforcing personal or institutional accountability strips away performative posturing from strategic briefings."
+                "label": "Skin in Game",
+                "description": "People talk carelessly when they face no cost for being wrong.\nReal stakes make everyone think more carefully.",
+                "children": []
               },
               {
                 "id": "node-2-1-2",
-                "label": "Probabilistic Calibration Targets",
-                "description": "Converting binary claims into numeric probability bands forces analytical rigor.\nA statement moving from 'definitely' to '65% confidence' reveals hidden exposure and prompts vital hedge planning."
+                "label": "Use Percentages",
+                "description": "Stop saying definitely and start naming actual chances like sixty percent.\nThis helps you plan for things going wrong.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-2-2",
-            "label": "De-biasing Feedback Loops",
-            "description": "Information cascades and echo chambers distort operational reality within leadership teams.\nRigorous decision infrastructure requires protocols that deliberately elicit dissenting data points.",
+            "label": "Honest Feedback",
+            "description": "Groups easily become echo chambers where everyone agrees blindly.\nYou need routines that bring out real disagreement.",
             "children": [
               {
                 "id": "node-2-2-1",
-                "label": "Freezer Blindness Removal",
-                "description": "Pre-decisional polling must isolate team members before collective discussions take place.\nIndependent estimation neutralizes authority bias and anchors before the room reaches consensus."
+                "label": "Silent Voting",
+                "description": "Get individual thoughts from people before opening group talks.\nThis prevents the loudest voice from swaying everyone.",
+                "children": []
               },
               {
                 "id": "node-2-2-2",
-                "label": "Confirming Evidence Audits",
-                "description": "Proactively hunting for data that invalidates the core thesis prevents ideological entrenchment.\nSunk capital must never be defended by filtering out inconvenient market headwinds."
+                "label": "Seek Disproof",
+                "description": "Actively look for evidence that proves your idea wrong.\nDo not ignore warnings just to protect your pride.",
+                "children": []
               }
             ]
           }
@@ -1306,40 +1315,44 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       },
       {
         "id": "theme-3",
-        "label": "Option Generation & Precision Valuation",
-        "description": "Constructing an unfair advantage begins with mapping the full opportunity set and stress-testing pay-offs.\nStrategic decision trees separate trivial bets from asymmetric upside plays.",
+        "label": "Picking Good Bets",
+        "description": "Map out your options and weigh the real costs and payoffs.\nThis shows which bets are truly worth taking.",
         "children": [
           {
             "id": "node-3-1",
-            "label": "Decision Trees & Payoff Matrices",
-            "description": "Diagramming sequential contingencies clarifies how current bets unlock or foreclose future pathways.\nExpected value calculation provides the objective baseline for allocating scarce ammunition.",
+            "label": "Decision Trees",
+            "description": "Draw out future paths to see what each choice brings.\nDoing the math helps you pick bets that pay off over time.",
             "children": [
               {
                 "id": "node-3-1-1",
-                "label": "Expected Value (EV) Calculation",
-                "description": "Weighting payoffs across potential branches isolates positive EV bets from reckless gambles.\nOver a multi-round game, systematically compounding positive EV is the only reliable wealth engine."
+                "label": "Weighing Payoffs",
+                "description": "Multiply payoffs by their real odds to find smart bets.\nTaking good bets repeatedly builds steady long-term wins.",
+                "children": []
               },
               {
                 "id": "node-3-1-2",
-                "label": "Worst-Case Scenario Boundary Testing",
-                "description": "Identifying ruin-level tail events ensures the firm avoids any bet carrying a non-zero probability of terminal liquidation.\nSurvival is the precondition for long-term compounding."
+                "label": "Avoid Ruin",
+                "description": "Check if a worst case could completely wipe you out.\nNever take a gamble that could destroy you.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-3-2",
-            "label": "Counteracting Sunk Costs",
-            "description": "Historical expenditure of time, money, or ego is irrecoverable and irrelevant to forward-looking resource allocation.\nEvery decision must be evaluated purely as an open-market trade from current baseline.",
+            "label": "Letting Go",
+            "description": "Money and time already spent are gone forever.\nMake choices based only on what happens next.",
             "children": [
               {
                 "id": "node-3-2-1",
-                "label": "The Clean Slate Query",
-                "description": "Asking 'If we did not already own this asset or initiate this project, would we buy it today?' cuts through sentimental paralysis.\nIt converts legacy holdings into explicit real-time buy decisions."
+                "label": "Fresh Eyes Test",
+                "description": "Ask if you would pick this project today starting fresh.\nIf not, stop putting more resources into it.",
+                "children": []
               },
               {
                 "id": "node-3-2-2",
-                "label": "Kill Criteria Pre-commitment",
-                "description": "Setting explicit performance failure thresholds prior to capital deployment removes emotion during project shutdowns.\nAutomatic stop-losses protect the firm from lingering zombie initiatives."
+                "label": "Quit Triggers",
+                "description": "Set clear walk-away rules before you even begin.\nThis makes stopping easy before emotions take over.",
+                "children": []
               }
             ]
           }
@@ -1347,52 +1360,57 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       },
       {
         "id": "theme-4",
-        "label": "Time-Horizon Projection & Perspective Taking",
-        "description": "Myopic tactical focus distorts risk perception and induces emotional churn.\nElite strategists employ temporal vantage points to enforce long-term alignment across turbulent cycles.",
+        "label": "Time Travel Thinking",
+        "description": "Short-term feelings cloud your view and cause panic.\nImagine looking back from the future to see clearly.",
         "children": [
           {
             "id": "node-4-1",
-            "label": "Prospective Hindsight (Mental Time Travel)",
-            "description": "Transporting cognitive focus into the future leverages memory mechanisms to forecast vulnerabilities.\nLooking back from an imagined future clarifies operational bottlenecks before they manifest.",
+            "label": "Future Lookback",
+            "description": "Mentally jump to the future to spot hidden dangers now.\nLooking back helps fix weak points early.",
             "children": [
               {
                 "id": "node-4-1-1",
-                "label": "Premortem Strategy",
-                "description": "Assuming the venture has crashed and burned unlocks radical candor within operational ranks.\nIt transforms team members from cheerleaders into proactive structural engineers identifying design flaws.",
+                "label": "The Premortem",
+                "description": "Imagine your project failed before you even launch it.\nThis lets your team speak up about dangers safely.",
                 "children": [
                   {
                     "id": "node-4-1-1-1",
-                    "label": "Failure Factor Cataloging",
-                    "description": "Enumerating every plausible catastrophic catalyst uncovers hidden operational dependencies.\nPrioritizing these vectors establishes an actionable early-warning defensive grid."
+                    "label": "Spotting Hazards",
+                    "description": "List all the ways things could blow up.\nRank the biggest threats so you can watch for them.",
+                    "children": []
                   },
                   {
                     "id": "node-4-1-1-2",
-                    "label": "Preventative Moat Construction",
-                    "description": "Redesigning workflows around identified vulnerabilities neutralizes failure modes proactively.\nFortifying weak structural joints before stress testing keeps downside capped."
+                    "label": "Building Shields",
+                    "description": "Fix weak areas before problems actually show up.\nSmart shields keep bad damage under control.",
+                    "children": []
                   }
                 ]
               },
               {
                 "id": "node-4-1-2",
-                "label": "Backcasting Protocol",
-                "description": "Assuming categorical victory and tracing intermediate milestones backward reveals the leanest operational path.\nThis method exposes non-essential maneuvers and clarifies required critical actions."
+                "label": "Backward Planning",
+                "description": "Imagine total success, then work backward step by step.\nThis reveals the fastest path and cuts useless busywork.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-4-2",
-            "label": "10-10-10 Tactical Horizon Rule",
-            "description": "Assessing consequences across 10 minutes, 10 months, and 10 years silences visceral, short-term panic.\nIt forces immediate pain to be weighed proportionally against decades of strategic compounding.",
+            "label": "The 10-10-10 Rule",
+            "description": "Ask how you will feel in ten minutes, months, and years.\nThis calms panic and keeps your eyes on the future.",
             "children": [
               {
                 "id": "node-4-2-1",
-                "label": "Immediate Emotional Triage",
-                "description": "Discounting the ten-minute discomfort of hard conversations or defensive cuts prevents cowardice.\nLeaders endure transitory friction to secure structural stability."
+                "label": "Handle Short Pain",
+                "description": "Do not dodge uncomfortable talks to avoid short-term pain.\nA few hard minutes can save years of trouble.",
+                "children": []
               },
               {
                 "id": "node-4-2-2",
-                "label": "Decade-Scale Compounding Alignment",
-                "description": "Anchoring focus on ten-year moats filters out fleeting market noise and quarterly distractions.\nHigh-conviction strategy protects long-term positioning against fickle immediate trends."
+                "label": "Long Game Focus",
+                "description": "Keep your focus on what will matter a decade from now.\nIgnore daily noise that does not help your long goal.",
+                "children": []
               }
             ]
           }
@@ -1400,57 +1418,63 @@ export const HOW_TO_DECIDE_BOOK: Book = {
       },
       {
         "id": "theme-5",
-        "label": "Velocity Optimization & Execution Cadence",
-        "description": "Indecision is itself an active decision carrying staggering opportunity costs.\nFast, decisive triage between low-stakes reversibility and high-stakes irreversibility unlocks operational speed.",
+        "label": "Move Fast",
+        "description": "Waiting too long costs time and missed opportunities.\nDecide quickly when stakes are low and move forward.",
         "children": [
           {
             "id": "node-5-1",
-            "label": "Freerolling & Downside Asymmetry",
-            "description": "Exploiting asymmetric wagers where downside risk is capped near zero while upside remains uncapped.\nIn low-downside setups, prolonged deliberation burns scarce enterprise value with zero payoff.",
+            "label": "Free Rolls",
+            "description": "Jump on bets where you have little to lose and plenty to gain.\nStop overthinking moves that carry almost zero downside.",
             "children": [
               {
                 "id": "node-5-1-1",
-                "label": "Negative Freeroll Avoidance",
-                "description": "Exiting scenarios where upside is trivial but tail risk could prove catastrophic.\nPicking up pennies in front of a steamroller represents tactical suicide regardless of win percentage."
+                "label": "Dumb Gambles",
+                "description": "Avoid bets with tiny wins and huge risks.\nDo not risk your neck for tiny pennies.",
+                "children": []
               },
               {
                 "id": "node-5-1-2",
-                "label": "Low-Risk Scouting Bets",
-                "description": "Launching low-cost probe initiatives gathers high-fidelity field data without committing flagship reserves.\nThese micro-wagers discover new terrain while leaving core capacity unencumbered."
+                "label": "Scout Bets",
+                "description": "Run small, cheap tests to learn fast.\nThese quick experiments reveal answers without betting the farm.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-5-2",
-            "label": "Reversibility & Decision Velocity",
-            "description": "Categorizing maneuvers into reversible two-way doors and irreversible one-way doors accelerates organizational cadence.\nReversible bets demand rapid bias-toward-action rather than executive review committees.",
+            "label": "Two-Way Doors",
+            "description": "Sort moves into reversible actions and permanent traps.\nAct fast on things you can easily undo later.",
             "children": [
               {
                 "id": "node-5-2-1",
-                "label": "Two-Way Door Speed Acceleration",
-                "description": "Treating reversible decisions like experiments prevents operational gridlock and organizational sclerosis.\nMove immediately, harvest real-world feedback, and pivot without remorse if metrics falter."
+                "label": "Act Quickly",
+                "description": "Treat undoable moves as quick tests.\nTry them out, learn from results, and change course easily.",
+                "children": []
               },
               {
                 "id": "node-5-2-2",
-                "label": "One-Way Door Deliberation Protocols",
-                "description": "Slowing down execution solely for high-consequence, irreversible commitments protects the enterprise from fatal errors.\nRigorous checklists, red teams, and variance buffers belong exclusively here."
+                "label": "Slow Down",
+                "description": "Take your time on moves you cannot reverse.\nCheck details carefully when there is no going back.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-5-3",
-            "label": "Quitting as an Offensive Weapon",
-            "description": "Persisting in losing positions out of misguided grit destroys capital and strategic momentum.\nTactical abandonment of deteriorating positions frees up bandwidth to exploit emerging asymmetric opportunities.",
+            "label": "Quitting Wisely",
+            "description": "Sticking with a losing path just wastes time and energy.\nQuitting dead ends frees you to try better things.",
             "children": [
               {
                 "id": "node-5-3-1",
-                "label": "Pre-established Turnaround Windows",
-                "description": "Establishing hard time-boxes for turnaround projects eliminates endless resource bleeding.\nIf structural traction fails to emerge within the agreed window, pull the plug automatically."
+                "label": "Set Deadlines",
+                "description": "Give struggling ideas a strict time limit to show progress.\nIf things do not improve in time, pull the plug.",
+                "children": []
               },
               {
                 "id": "node-5-3-2",
-                "label": "Opportunity Cost Reckoning",
-                "description": "Explicitly pricing the alternative bets forfeited by maintaining current asset commitments exposes the hidden drag of inertia.\nCapital held in mediocre trades cannot capture breakout asymmetric returns."
+                "label": "Missed Chances",
+                "description": "Staying stuck on bad projects stops you from finding great ones.\nEvery wasted dollar is a dollar you cannot invest elsewhere.",
+                "children": []
               }
             ]
           }

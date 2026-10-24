@@ -100,7 +100,7 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({
   }
 
   return (
-    <div className="max-w-5xl mx-auto py-6 sm:py-8 space-y-6">
+    <div className="max-w-5xl mx-auto py-6 sm:py-8 space-y-6 w-full max-w-full overflow-hidden">
       
       {/* View Intro Banner */}
       <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-purple-50 to-indigo-50 dark:from-purple-950/20 dark:to-indigo-950/20 border border-purple-200/80 dark:border-purple-900/60 flex flex-wrap items-center justify-between gap-3">
@@ -205,7 +205,7 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({
                 }`}
               >
                 {/* Front of Card */}
-                <div className="absolute inset-0 p-5 flex flex-col justify-between backface-hidden rounded-2xl overflow-hidden">
+                <div className="absolute inset-0 p-5 flex flex-col justify-between backface-hidden rounded-2xl overflow-hidden card-face-clip">
                   {/* Top tags, listen, and stash button */}
                   <div className="flex items-center justify-between gap-2 mb-2 shrink-0">
                     <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-blue-50 dark:bg-blue-950/60 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-900">
@@ -293,20 +293,29 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({
                 </div>
 
                 {/* Back of Card */}
-                <div className="absolute inset-0 p-5 flex flex-col justify-between rotate-y-180 backface-hidden rounded-2xl bg-slate-50 dark:bg-slate-900/95 overflow-hidden">
-                  {/* Top Meta Bar with Audio */}
+                <div className="absolute inset-0 p-5 flex flex-col justify-between rotate-y-180 backface-hidden rounded-2xl bg-slate-50 dark:bg-slate-900/95 overflow-hidden card-face-clip">
+                  {/* Top Meta Bar with Audio & Quick Flip */}
                   <div className="flex items-center justify-between gap-2 mb-2 shrink-0">
                     <span className="text-[10px] font-bold uppercase tracking-wider text-purple-600 dark:text-purple-400">
                       Deep Dive Takeaway
                     </span>
                     
-                    <button
-                      onClick={(e) => handleListenCard(idea, e)}
-                      className="p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-200 dark:hover:bg-slate-800 text-slate-500 hover:text-blue-600 transition cursor-pointer"
-                      title="Listen to takeaway"
-                    >
-                      <Volume2 className="w-3.5 h-3.5" />
-                    </button>
+                    <div className="flex items-center space-x-1">
+                      <button
+                        onClick={(e) => handleListenCard(idea, e)}
+                        className="p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-200 dark:hover:bg-slate-800 text-slate-500 hover:text-blue-600 transition cursor-pointer"
+                        title="Listen to takeaway"
+                      >
+                        <Volume2 className="w-3.5 h-3.5" />
+                      </button>
+                      <button
+                        onClick={() => toggleFlip(idea.id)}
+                        className="p-1.5 rounded-lg border border-purple-200 dark:border-purple-800 hover:bg-purple-100 dark:hover:bg-purple-950 text-purple-600 dark:text-purple-400 transition cursor-pointer"
+                        title="Back to Card"
+                      >
+                        <RotateCw className="w-3.5 h-3.5" />
+                      </button>
+                    </div>
                   </div>
 
                   {/* Scrollable Back Content - Prevents Any Spillover */}

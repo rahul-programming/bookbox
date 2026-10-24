@@ -1,5 +1,5 @@
 // Complexity: A Guided Tour by Melanie Mitchell
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -826,169 +826,169 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
   "actionItems": [
     {
       "id": "complexity-a-guided-tour-act-1",
-      "title": "Map a Hidden Feedback Loop in Your Day",
-      "description": "Complex systems run on feedback loops\u2014where the output of an action loops back as its input. Spotting whether a habit is driven by self-reinforcing (amplifying) or balancing (stabilizing) feedback lets you adjust the underlying engine rather than fighting symptoms.",
+      "title": "Map a Bad Daily Loop",
+      "description": "Your daily actions often trigger reactions that feed right back into the habit. Spotting this cycle helps you fix the root cause instead of fighting symptoms.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Pick a recurring daily frustration or spike in stress (e.g., late-night screen scrolling, rushing before work).",
-        "Sketch two nodes on paper: Node A (your action) and Node B (the immediate emotional or situational effect).",
-        "Draw connecting arrows showing how Node B feeds straight back into triggering Node A.",
-        "Label whether this is an amplifying loop (spiral) or a dampening loop (homeostasis), and identify one single point where you can disrupt the cycle."
+        "Pick one daily frustration like late-night scrolling or rushing in the morning.",
+        "Draw your bad action on the left side of a paper.",
+        "Draw the stressful result on the right side of the paper.",
+        "Add arrows connecting both sides to see where you can break it."
       ],
       "sourceChapter": "Chapter 2: Dynamics, Chaos, and Prediction"
     },
     {
       "id": "complexity-a-guided-tour-act-2",
-      "title": "Practice Local Ant-Foraging in Your Task Queue",
-      "description": "Ant colonies find optimal food paths without any central commander, using simple local rules and positive reinforcement. Apply this by taking small exploratory bites into several tasks and doubling down only on what produces immediate momentum.",
+      "title": "Test Tasks Like Foraging Ants",
+      "description": "Ants find the best food by exploring first and then following easy trails. Test hard tasks with tiny bites and stick with what feels easiest.",
       "category": "daily-routine",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Choose three ambiguous tasks on your backlog that you feel resistance toward.",
-        "Spend exactly five minutes exploring each task with zero pressure to finish\u2014just gather clues, sketch an outline, or write two lines.",
-        "Notice which task drops a 'chemical scent' of clarity, traction, or low friction.",
-        "Commit your next 10-minute focus block exclusively to the path that proved easiest to advance."
+        "Pick three annoying tasks sitting on your to-do list right now.",
+        "Work on each task for five minutes with zero pressure to finish.",
+        "Notice which task gives you the fastest traction and the least friction.",
+        "Spend the next ten minutes working only on that easiest path."
       ],
       "sourceChapter": "Chapter 11: Ant Colonies and Social Insects"
     },
     {
       "id": "complexity-a-guided-tour-act-3",
-      "title": "Tune Your Desk into a Cellular Automata Transition Rule",
-      "description": "In cellular automata like Conway's Game of Life, tiny neighborhood rules dictate whether a cell lives, dies, or flourishes. By curating what sits within arm's reach, you calibrate your local rules so productive actions emerge naturally.",
+      "title": "Clean Desk for Easy Focus",
+      "description": "What sits near your hands shapes what your brain does automatically next. Clear your workspace so good work happens without burning willpower.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Clear your immediate visual desk radius so only the primary instrument of your main goal remains (e.g., keyboard, notebook, sketchbook).",
-        "Introduce one single 'state trigger' cue in plain sight (e.g., an open physical notepad or glass of water).",
-        "Banish high-entropy noise generators (phone, open snack bags, scattered charging cords) outside arm's reach.",
-        "Treat your workstation as a deterministic grid where state zero equals zero friction for deep focus."
+        "Clear your desk so only your main work tool stays in sight.",
+        "Place one helpful reminder right in front of you, like open notes.",
+        "Move your phone, noisy snacks, and messy cables far out of reach.",
+        "Sit down and start working with zero friction in your clean space."
       ],
       "sourceChapter": "Chapter 10: Cellular Automata"
     },
     {
       "id": "complexity-a-guided-tour-act-4",
-      "title": "Audit Your Information Entropy and Signal-to-Noise Ratio",
-      "description": "Claude Shannon's information theory teaches us that surprise and entropy quantify real information. Repetitive feeds and algorithmic churn generate massive noise with negligible surprise, draining mental bandwidth without delivering genuine signal.",
+      "title": "Clear Out Boring Media Feeds",
+      "description": "True information should surprise you and teach you something fresh every day. Repetitive feeds steal your mental energy without teaching you anything useful.",
       "category": "audit",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Audit the last 10 articles, videos, or newsletters you consumed over the past 48 hours.",
-        "Rate each piece from 1 to 5 on 'actual surprise' (did it genuinely change your mental model or just rehash familiar takes?).",
-        "Calculate the fraction of low-surprise items (entropy masquerading as insight).",
-        "Unsubscribe or mute the three loudest sources that score lowest on new conceptual information."
+        "Review the last ten articles, videos, or newsletters you consumed recently.",
+        "Rate each piece from one to five on how much it surprised you.",
+        "Notice how many items simply repeated things you already knew before.",
+        "Unsubscribe from the three loudest feeds that gave you zero fresh insight."
       ],
       "sourceChapter": "Chapter 3: Information, Computation, and Meaning"
     },
     {
       "id": "complexity-a-guided-tour-act-5",
-      "title": "Establish an Evolutionary 'Mutation vs. Selection' Weekly Review",
-      "description": "Genetic algorithms and biological evolution discover ingenious solutions through random exploration (mutation) paired with ruthless filtering (selection). Build a weekly protocol that intentionally experiments with new variations before selecting what works.",
+      "title": "Test New Habits Weekly",
+      "description": "Nature improves living things by trying random changes and keeping what works. Test small new habits each week and drop the ones that fail.",
       "category": "system",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "List 2 to 3 micro-experiments ('mutations') to run in your routines this coming week (e.g., working from a standing desk, voice-to-text drafting, a 15-minute afternoon walk).",
-        "Set an explicit selection metric for each test (e.g., afternoon energy level, draft words completed, sleep latency).",
-        "Test each mutation across the week without judging too early.",
-        "At the end of the week, kill the unsuccessful variants and encode the winning variation into your permanent workflow."
+        "Pick two tiny habit changes to try during the coming work week.",
+        "Decide how you will judge success, like your energy or focus level.",
+        "Try both experiments all week long without quitting on day one.",
+        "Keep the single winning habit and throw away whatever did not help."
       ],
       "sourceChapter": "Chapter 9: Genetic Algorithms"
     },
     {
       "id": "complexity-a-guided-tour-act-6",
-      "title": "Run a 5-Minute Butterfly Effect Trace",
-      "description": "Sensitive dependence on initial conditions shows how minuscule variances in starting state can cascade into dramatically different outcomes. Tracing one recent micro-choice sharpens your eye for catalytic pivot points in your schedule.",
+      "title": "Spot Tiny Day-Changing Choices",
+      "description": "A microscopic morning choice can spin your whole day into calm or chaos. Tracing how a day started helps you design better mornings ahead.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Think back to a moment today that went unexpectedly well or poorly.",
-        "Rewind the tape step-by-step to isolate the microscopic initial condition that nudged the trajectory (e.g., checking email before breakfast, a 30-second delay leaving home).",
-        "Notice the nonlinear compounding: how that tiny shift amplified over subsequent hours.",
-        "Identify one microscopic initial condition for tomorrow morning that you can set intentionally before bed tonight."
+        "Think about one part of today that went very well or poorly.",
+        "Trace your day backward to find the very first tiny trigger.",
+        "Notice how that small choice grew into a much bigger event later.",
+        "Set up one tiny good trigger tonight before you go to sleep."
       ],
       "sourceChapter": "Chapter 2: Dynamics, Chaos, and Prediction"
     },
     {
       "id": "complexity-a-guided-tour-act-7",
-      "title": "Simulate Immune System Pathogen Tagging for Inbound Demands",
-      "description": "Our immune system doesn't predict every virus in advance; it employs distributed antibodies that recognize general patterns and neutralize antigens before they overwhelm the host. Build personal cognitive filters that intercept non-essential commitments on contact.",
+      "title": "Filter Out Useless Demands",
+      "description": "Your body stops sickness quickly by filtering invaders using simple automatic rules. Filter new work requests fast so useless chores do not swamp you.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Whenever a new meeting invite, favors request, or project arrives, run it against three antibody criteria: Does it have a clear agenda? Does it directly advance current priorities? Does it require my unique presence?",
-        "If it fails two or more criteria, immediately tag it as an energetic antigen.",
-        "Deploy a gracious default boundary script to neutralize the demand without drawn-out deliberation.",
-        "Archive or reject the request within 60 seconds to prevent cognitive immune fatigue."
+        "Ask if a new request has a clear agenda and clear goals.",
+        "Check if the task truly requires your unique personal help to finish.",
+        "Say no politely if the request fails two of your three questions.",
+        "Archive the message immediately so your brain stops thinking about it forever."
       ],
       "sourceChapter": "Chapter 12: The Immune System"
     },
     {
       "id": "complexity-a-guided-tour-act-8",
-      "title": "Stage Your Living Space for Emergent Micro-Movements",
-      "description": "Emergence occurs when macroscopic patterns spontaneously organize from microscopic interactions without central direction. Arranging your physical surroundings to lower friction for healthy micro-habits allows productive routines to emerge effortlessly.",
+      "title": "Set Up Rooms for Movement",
+      "description": "Your rooms guide your body along the easiest path without much thinking. Put healthy items right in your way so good habits happen naturally.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Place a pull-up bar, resistance band, or foam roller directly in the doorway or hallway you cross most frequently.",
-        "Place reading books or study materials face-up on the coffee table or kitchen counter, resting right on top of recreational screens.",
-        "Put a filled water carafe directly next to your workspace monitors.",
-        "Observe over the next 24 hours how physical path-of-least-resistance reshapes your default behavior without willpower."
+        "Place a workout band or foam roller directly across a busy doorway.",
+        "Leave a good book sitting on top of your TV remote control.",
+        "Put a large bottle of water right beside your computer screen.",
+        "Watch how often you use these items today without needing extra willpower."
       ],
       "sourceChapter": "Chapter 1: What Is Complexity?"
     },
     {
       "id": "complexity-a-guided-tour-act-9",
-      "title": "Audit Your Personal Social and Knowledge Network for Scale-Free Hubs",
-      "description": "Complex networks aren't random; they often form scale-free structures governed by power laws with heavy-tailed hubs. Auditing where your ideas, opportunities, and advice come from reveals whether your mental inputs are dangerously fragile or resiliently distributed.",
+      "title": "Spread Out Your Advice Sources",
+      "description": "Depending on one single website for your news leaves your thinking fragile. Gathering wisdom from diverse people makes your thinking much more reliable.",
       "category": "audit",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Write down the five primary sources you rely on for professional insights and industry updates.",
-        "Check how many of these sources trace back to the same central hub or influential platform.",
-        "Determine if losing that single central node would collapse your incoming intellectual pipeline.",
-        "Identify two diverse, peripheral nodes (niche blogs, independent practitioners, cross-disciplinary journals) to decentralize your knowledge graph."
+        "List the top five places where you get work ideas and advice.",
+        "Check if most of these five places come from one big platform.",
+        "Ask what would happen if that main source disappeared from the web.",
+        "Find two unusual thinkers outside your field and follow their work instead."
       ],
       "sourceChapter": "Chapter 15: Network Thinking"
     },
     {
       "id": "complexity-a-guided-tour-act-10",
-      "title": "Design a Distributed Decentralized Chore Allocation Board",
-      "description": "In nature, flocks of birds and termite mounds assemble staggering architectures with zero hierarchy using shared environmental markers (stigmergy). Replace nagging or centralized chore assignments at home or work with visual environmental triggers.",
+      "title": "Build a Simple Chore Trigger",
+      "description": "Ants build massive nests without bosses by reacting to simple visual signs. Use visual cues around the room so chores get done without nagging.",
       "category": "system",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Identify 3 to 4 recurring household or team maintenance friction points (e.g., dishwasher emptying, refilling coffee supplies, code review queue).",
-        "Create clear physical or digital cues (e.g., a two-sided magnetic token, kanban tile, or designated staging tray) that signal state change without verbal reminders.",
-        "Agree on one simple local rule: 'Whoever encounters the trigger first executes the two-minute action.'",
-        "Review after one week to ensure the distributed protocol runs smoothly without central enforcement."
+        "Pick three messy chores at home or work that cause daily arguments.",
+        "Create an obvious visual sign that shows when a chore needs attention.",
+        "Agree that whoever sees the signal first does the two-minute job immediately.",
+        "Check in next week to see if chores got done without nagging."
       ],
       "sourceChapter": "Chapter 11: Ant Colonies and Social Insects"
     },
     {
       "id": "complexity-a-guided-tour-act-11",
-      "title": "Execute a Quick 'Edge of Chaos' Calibration Check",
-      "description": "Complex adaptive systems perform optimal computation neither in rigid frozen states nor in turbulent chaotic states, but right at the boundary: the edge of chaos. Diagnose whether your current routine is ossifying into stagnation or fraying into overwhelm.",
+      "title": "Balance Routine and Surprise",
+      "description": "You do your best work when life is neither fully rigid nor chaotic. Check your weekly schedule to keep the right balance of order and fun.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Evaluate your last 3 work days on a simple spectrum: 1 = Rigid/Predictable/Bored, 10 = Pure Chaos/Overwhelmed/Scattered.",
-        "Target the fertile zone between 4 and 6, where structured habits support creative tension and novelty.",
-        "If you scored 1\u20133, deliberately inject one wildcard challenge or unfamiliar technique into your afternoon.",
-        "If you scored 7\u201310, lock down one non-negotiable anchor habit to stabilize the system."
+        "Rate your week from one for boring routine to ten for complete chaos.",
+        "Aim for a middle score between four and six on that scale.",
+        "Add one fun challenge to your day if life feels too boring.",
+        "Drop one optional task today if your schedule feels completely out of control."
       ],
       "sourceChapter": "Chapter 17: The Edge of Chaos"
     },
     {
       "id": "complexity-a-guided-tour-act-12",
-      "title": "Run a Daily Analogy Scan to Decode Unfamiliar Problems",
-      "description": "Cognitive systems grasp novel situations by fluidly mapping patterns across seemingly unrelated domains (analogical reasoning), just like Douglas Hofstadter's Copycat model. Expand your daily problem-solving toolkit by translating tricky challenges into parallel domains.",
+      "title": "Solve Problems Using Everyday Metaphors",
+      "description": "Comparing tricky problems to familiar everyday things unlocks smart new solutions. Turn a messy issue into a simple picture to see the answer clearly.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Write down a stubborn challenge you are currently facing in one crisp sentence.",
-        "Ask: 'If this problem were an ecosystem, a fluid dynamics pipe, or an ant foraging trail, what would the bottleneck be?'",
-        "Map the core relations: identify the flow, the friction, and the incentives in the metaphor.",
-        "Translate the metaphor's resolution back into an actionable tactic for your original real-world challenge."
+        "Write down your toughest current problem in one short, plain sentence.",
+        "Imagine this problem as a clogged water pipe or a traffic jam.",
+        "Find where the flow gets stuck inside that simple mental picture.",
+        "Use that unclogging idea to fix your real problem in the real world."
       ],
       "sourceChapter": "Chapter 13: Computation Writ Large, and Chapter 14: Computer Models of Analogy-Making"
     }
@@ -1165,10 +1165,10 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       "author": "Melanie Mitchell",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Emergence Without a Central Conductor",
-      "body": "Complex adaptive systems produce sophisticated, organized macro-level behaviors from simple agents following local heuristics.\nTermite mounds, bird flocks, and market dynamics arise without central command.",
+      "headline": "Order Without a Boss",
+      "body": "Big groups create order without a leader.\nSimple parts follow easy rules.\nFlocks of birds and ant hills form on their own.",
       "quote": "A complex system is a system in which large networks of components with no central control and simple rules of operation give rise to complex collective behavior, sophisticated information processing, and adaptation via learning or evolution.",
-      "actionItem": "When managing a messy collective challenge, stop trying to control every outcome from above; tweak the underlying local incentives and let decentralized coordination do the heavy lifting.",
+      "actionItem": "Stop trying to micromanage your team.\nSet clear basic rules and let people organize themselves.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1187,9 +1187,9 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       "category": "Psychology",
       "type": "mental-model",
       "headline": "The Edge of Chaos",
-      "body": "Systems achieve optimal computational capacity, creativity, and adaptability at the transition zone between rigid order and volatile disorder.\nToo much order causes stagnation; too much chaos causes dissolution.",
+      "body": "Systems work best between strict order and wild mess.\nToo much control kills new ideas.\nToo much chaos creates pure confusion.",
       "quote": "Life exists at the edge of chaos, where there is enough order to create structure and enough disorder to create novelty.",
-      "actionItem": "Diagnose your projects regularly: inject loose constraints if you are rigid and bureaucratic, or install baseline rituals if you are adrift in unproductive noise.",
+      "actionItem": "Loosen up tight rules if your project feels stuck.\nAdd simple routines if life feels too scattered.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1207,10 +1207,10 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       "author": "Melanie Mitchell",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Computation as Physical Reality",
-      "body": "Information processing is not confined to microchips.\nBiological cells, immune systems, and ant colonies compute solutions to environmental challenges by sensing, encoding, and transforming data dynamically.",
+      "headline": "Nature Can Think",
+      "body": "Computers are not the only things that process facts.\nLiving cells and ant colonies read signals and solve hard problems every day.",
       "quote": "Computation is not just what happens in electronic computers; it is the fundamental way nature processes information to survive and adapt.",
-      "actionItem": "Treat your biological body and daily routines as an active sensory computing network: audit the quality of physical inputs to improve cognitive outputs.",
+      "actionItem": "Treat your body as a smart system.\nFeed it good food and rest to think much clearer.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1228,10 +1228,10 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       "author": "Melanie Mitchell",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Leverage Deterministic Chaos",
-      "body": "In non-linear deterministic systems, tiny deviations in initial conditions rapidly balloon into radically divergent trajectories.\nAbsolute long-range forecasting is fundamentally impossible in complex domains.",
+      "headline": "The Butterfly Effect",
+      "body": "Tiny changes at the start can lead to massive differences later.\nBecause of this, long-term plans often fail completely.",
       "quote": "Sensitive dependence on initial conditions means that even if a system is completely deterministic, its behavior can be completely unpredictable.",
-      "actionItem": "Trade brittle multi-year master plans for rapid-feedback probe-and-respond cycles that calibrate continuously against unfolding reality.",
+      "actionItem": "Ditch rigid five-year plans today.\nTake small steps and change course as new facts arrive.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1249,10 +1249,10 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       "author": "Melanie Mitchell",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Cellular Automata Heuristic",
-      "body": "Astonishing complexity can be simulated through grids governed by elementary neighbor rules.\nYou do not need Byzantine strategies to build intricate, robust creative works.",
+      "headline": "Simple Rules, Huge Results",
+      "body": "Very basic rules can build amazingly rich patterns.\nYou do not need fancy tricks to make something great.",
       "quote": "Extremely simple rules can produce behavior that is immensely complex, unpredictable, and apparently purposeful.",
-      "actionItem": "Distill a complicated workflow down to two non-negotiable daily rules, and let repetitive iteration produce the sophisticated end product.",
+      "actionItem": "Pick two daily rules for your core work.\nRepeat them every day to build great work over time.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1270,10 +1270,10 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       "author": "Melanie Mitchell",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Mystery of Collective Intelligence",
-      "body": "Human consciousness and intelligence arise from trillions of unthinking electrical discharges.\nThe wonder of complexity is the emergence of mind from mindless components.",
+      "headline": "Mind From Simple Parts",
+      "body": "Your brain is made of tiny cells that cannot think alone.\nTogether, these simple cells create human thought and feeling.",
       "quote": "How can it be that a collection of mindless components can give rise to something with a mind?",
-      "actionItem": "Remember that a team's collective genius often transcends the raw intelligence of any single contributor when communication channels remain fluid.",
+      "actionItem": "Trust your team to solve tough puzzles together.\nOpen up talk so shared ideas can spark.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1291,10 +1291,10 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       "author": "Melanie Mitchell",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Scale-Free Network Fragility",
-      "body": "Many real-world networks exhibit power-law distributions with a few super-connected nodes.\nThis structure offers immense resistance to random mistakes but catastrophic vulnerability to hub strikes.",
+      "headline": "Danger of Big Hubs",
+      "body": "Many networks rely heavily on a few giant centers.\nThey can survive random breaks, but losing a main hub breaks everything.",
       "quote": "Scale-free networks are remarkably robust against accidental failures, but they are exceptionally vulnerable to coordinated attacks on their hubs.",
-      "actionItem": "Map your professional life to identify over-concentrated single-point contacts or tools, and actively cross-train backups.",
+      "actionItem": "Find the single person or tool your work depends on most.\nTrain a backup person right away.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1312,10 +1312,10 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       "author": "Melanie Mitchell",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Genetic Algorithm Cycle",
-      "body": "Evolutionary algorithms solve fiendishly difficult problems by breeding populations of candidate solutions through random mutation, cross-pollination, and rigorous fitness testing.",
+      "headline": "Try, Test, and Keep",
+      "body": "Nature finds great answers through trial and error.\nIt tries random ideas, tests them, and keeps what works best.",
       "quote": "Evolution is not a directed designer; it is a blind, relentless search algorithm exploring the immense space of possibilities.",
-      "actionItem": "When stuck on an intractable design problem, generate twenty sloppy variations and cross-pollinate their strongest attributes rather than refining one draft.",
+      "actionItem": "When stuck, write down ten rough ideas quickly.\nCombine the top parts of two or three.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1333,10 +1333,10 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       "author": "Melanie Mitchell",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Harness Positive Feedback Cascades",
-      "body": "Positive feedback loops amplify minor early advantages into unassailable dominance (the Matthew Effect or network effects), while negative feedback loops restore stability and homeostasis.",
+      "headline": "The Snowball Loop",
+      "body": "Success often feeds on itself like a rolling snowball.\nEarly wins grow bigger and faster as momentum builds.",
       "quote": "Feedback loops are the engines of complexity, driving systems to either settle into balanced stability or explode into runaway cascades.",
-      "actionItem": "Engineer an automatic self-reinforcing loop in your habits: ensure every completed task directly fuels the setup of the subsequent one.",
+      "actionItem": "Finish one tiny task first thing in the morning.\nLet that win push you straight into the next.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1354,10 +1354,10 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       "author": "Melanie Mitchell",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Analogy as the Core of Cognition",
-      "body": "True intelligence is the capacity to recognize deep structural similarities between superficial differences.\nFluid analogies allow minds to transfer insights across totally disconnected domains.",
+      "headline": "Thinking Through Comparisons",
+      "body": "Smart thinking means spotting patterns across different fields.\nWe understand new ideas by comparing them to things we already know.",
       "quote": "Analogy-making is the lifeblood of human thought, allowing us to map familiar concepts onto unfamiliar territory.",
-      "actionItem": "When facing a novel career challenge, explicitly ask: 'What does this situation resemble in biology, architecture, or music?' and port the solution over.",
+      "actionItem": "When facing a new problem, ask what it looks like in sports or cooking.\nBorrow the answer from there.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1375,10 +1375,10 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       "author": "Melanie Mitchell",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Self-Organized Criticality",
-      "body": "Like sand dripping onto a pile, systems naturally tune themselves to a critical threshold where a single microscopic grain can trigger an avalanche of any magnitude.",
+      "headline": "The Sandpile Tipping Point",
+      "body": "Drop sand grains on a pile and it grows steep.\nSoon, one tiny extra grain can cause a massive slide.",
       "quote": "Large catastrophic events can occur in complex systems without any large external trigger.",
-      "actionItem": "Do not search for a massive villain when an organization collapses; examine whether the baseline structure was already poised at a fragile critical state.",
+      "actionItem": "When a team blows up, look at underlying stress.\nDo not just blame the last small mistake.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1396,10 +1396,10 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       "author": "Melanie Mitchell",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Resist the Reductionist Trap",
-      "body": "Dissecting a clock helps you understand its parts, but dissecting a living brain or an economy destroys the very emergent interactions that make it functional.",
+      "headline": "See the Whole Picture",
+      "body": "Taking a clock apart helps you see its gears.\nBut cutting up a living frog destroys what keeps it alive.",
       "quote": "You cannot understand the collective dynamics of the whole simply by taking it apart and studying each piece in isolation.",
-      "actionItem": "Evaluate organizational and relational problems by observing living interactions in real time, rather than analyzing isolated resumes and metrics.",
+      "actionItem": "Judge a group by watching how members talk together.\nDo not just read their paper resumes.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1417,10 +1417,10 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       "author": "Melanie Mitchell",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Information Entropy and Meaning",
-      "body": "Shannon entropy measures the degree of surprise or uncertainty in a message.\nMeaningful communication demands a calculated balance between redundant predictability and novel surprise.",
+      "headline": "The Value of Surprise",
+      "body": "A message has high value when it tells us something unexpected.\nBoring cliches carry almost zero fresh meaning.",
       "quote": "Information is that which resolves uncertainty, bridging the gap between what could happen and what actually does.",
-      "actionItem": "Improve your writing and speaking by pruning predictable platitudes and maximizing high-signal, surprising structural observations.",
+      "actionItem": "Cut common filler words from your emails.\nShare one surprising fact or clear lesson instead.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1438,10 +1438,10 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       "author": "Melanie Mitchell",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Nature of Living Wholes",
-      "body": "The core revelation of systems science is that wholeness is not an illusion, but a tangible physical phenomenon generated by networked relationships.",
+      "headline": "More Than Just Parts",
+      "body": "A group is not just a pile of people.\nReal team spirit is a true force born from deep human ties.",
       "quote": "The whole is truly more than the sum of its parts; it is an entirely new phenomenon operating on its own distinctive level.",
-      "actionItem": "Respect emergent team culture as an autonomous force: protect shared rituals and psychological safety just as fiercely as technical infrastructure.",
+      "actionItem": "Protect team trust and friendly culture.\nIt matters just as much as your software tools.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1459,10 +1459,10 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       "author": "Melanie Mitchell",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Small-World Connectivity",
-      "body": "Small-world networks combine high local clustering with a few long-range random shortcuts, creating hyper-efficient transit times across massive populations (six degrees of separation).",
+      "headline": "Power of Weak Ties",
+      "body": "Most people stick close to their daily circle.\nA few outside friends can link you to the whole world fast.",
       "quote": "A few random long-range connections are all it takes to shrink the social or topological distance across an entire network dramatically.",
-      "actionItem": "Build 'weak ties' outside your immediate industry bubble; serendipitous conversations with distant domains yield the most valuable breakthroughs.",
+      "actionItem": "Reach out to one acquaintance outside your work circle.\nCasual chats often bring the best opportunities.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1480,10 +1480,10 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       "author": "Melanie Mitchell",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Scout via Ant Colony Randomness",
-      "body": "Foraging ants do not march in locked symmetry; a percentage roam completely at random.\nThis intentional noise prevents the colony from getting trapped in exhausted food paths.",
+      "headline": "Wander Like an Ant",
+      "body": "Most worker ants follow the path.\nA few ants wander off randomly to find fresh food for the nest.",
       "quote": "Noise and randomness are not bugs in complex adaptive systems; they are essential features for discovering new resources and avoiding local optima.",
-      "actionItem": "Dedicate ten percent of your weekly schedule to random intellectual wandering with zero anticipated commercial utility.",
+      "actionItem": "Spend one hour each week reading random topics.\nCurious wandering sparks your best ideas.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1501,10 +1501,10 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       "author": "Melanie Mitchell",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Fitness Landscapes",
-      "body": "Evolution takes place across rugged multi-dimensional terrains filled with local peaks and valleys.\nFinding a higher summit often requires descending through an uncomfortable valley of lower fitness.",
+      "headline": "Valleys Before Peaks",
+      "body": "Learning a higher skill is not a smooth climb.\nYou often must step down into an awkward phase first.",
       "quote": "To reach a higher peak of performance, an evolving system must often tolerate temporary steps downward into fitness valleys.",
-      "actionItem": "When transitioning into higher-level mastery, accept temporary drops in output speed as the natural cost of crossing a fitness valley.",
+      "actionItem": "Do not quit when a new skill feels clunky.\nExpect an awkward drop before you get much better.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1522,10 +1522,10 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       "author": "Melanie Mitchell",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Search for Universal Laws",
-      "body": "Complexity science dares to seek unifying mathematical principles that bridge genetics, economics, computation, and cosmology under a single coherent umbrella.",
+      "headline": "Shared Rules of Life",
+      "body": "Living systems share basic rules of nature.\nThe same simple patterns show up in markets, bodies, and cities.",
       "quote": "The grand challenge of complexity science is to discover whether common principles govern the behavior of all complex systems.",
-      "actionItem": "Study cross-disciplinary patterns: look for identical self-organizing dynamics inside your immune system, personal finances, and city traffic.",
+      "actionItem": "Look for shared patterns in your life.\nNotice how traffic jams resemble your cluttered email inbox.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1543,10 +1543,10 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       "author": "Melanie Mitchell",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Non-Linear Amplification",
-      "body": "In linear systems, output is strictly proportional to input.\nIn non-linear systems, an input can be dampened to total irrelevance or exponentially magnified into a system-wide revolution.",
+      "headline": "Small Sparks, Huge Fires",
+      "body": "Outputs do not always match inputs.\nA tiny push can either fade away or blow up into a massive shift.",
       "quote": "In a non-linear world, cause and effect are often separated by vast gulfs of time and space, mocking our common-sense intuition.",
-      "actionItem": "Stop assuming that big problems always demand colossal solutions; look for tiny behavioral levers where non-linear amplification works in your favor.",
+      "actionItem": "Do not fight big problems with huge efforts alone.\nSearch for one small habit change that ripples outward.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1564,10 +1564,10 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       "author": "Melanie Mitchell",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Cultivate Complexity Intuition",
-      "body": "Human cognitive architecture evolved for linear savannah environments.\nDeveloping systemic intuition requires deliberately training oneself to look for feedback loops, delays, and emergence.",
+      "headline": "Think in Connected Webs",
+      "body": "Our brains love simple, straight lines.\nReal life works in loops where everything links back to touch other parts.",
       "quote": "Our brains crave simple linear explanations, but reality is woven out of interconnected webs of feedback and adaptation.",
-      "actionItem": "Whenever an unexpected crisis erupts, sketch the underlying systemic feedback loops on a blank page before assigning personal blame.",
+      "actionItem": "When a mistake happens, map the chain of events on paper before pointing a finger.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1582,66 +1582,73 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
   "mindMap": {
     "id": "root",
     "label": "Complexity: A Guided Tour",
-    "description": "Melanie Mitchell's exhilarating journey into how order, intelligence, and life emerge from spontaneous interactions rather than centralized command.\nIt provides a foundational lens for understanding how simple interconnected components produce astonishing collective wisdom across nature, computation, and society.",
+    "description": "Simple parts can work together to create smart systems.\nNo single leader is needed to create order.",
     "children": [
       {
         "id": "background-and-history",
-        "label": "Roots and Foundations of Complexity",
-        "description": "The historical quest to understand phenomena that classical linear physics could not crack.\nIt chronicles the shift from deterministic mechanics to systems where small interactions cascade into unpredictable, rich behavior.",
+        "label": "Roots of Complexity",
+        "description": "Old science treated the world like a simple clock.\nNew science looks at connected parts that act unpredictably.",
         "children": [
           {
             "id": "what-is-complexity",
-            "label": "Defining Complex Systems",
-            "description": "Systems composed of vast networks of simple, decentralized agents without any master controller.\nComplex macroscopic behavior spontaneously bubbles up strictly from localized interactions and feedback loops.",
+            "label": "What Is Complexity",
+            "description": "Large groups of simple things interact without a boss.\nBig, surprising patterns appear on their own.",
             "children": [
               {
                 "id": "defining-features",
-                "label": "Hallmark Characteristics",
-                "description": "Complex systems exhibit distributed control, non-linear dynamics, and active information processing.\nTheir emergent collective behavior is perpetually surprising and cannot be deduced merely by cataloging components."
+                "label": "Key Traits",
+                "description": "Control is shared across many parts.\nThe whole group acts in unexpected ways.",
+                "children": []
               },
               {
                 "id": "santa-fe-institute",
-                "label": "The Santa Fe Crucible",
-                "description": "The pioneering interdisciplinary haven where physicists, biologists, computer scientists, and economists united to study emergence.\nIt broke academic silos to pioneer cross-cutting principles of adaptive systems."
+                "label": "Santa Fe Institute",
+                "description": "Scientists from different fields joined together here.\nThey worked to find universal rules for complex systems.",
+                "children": []
               }
             ]
           },
           {
             "id": "chaos-revolution",
-            "label": "Chaos and Predictability",
-            "description": "The profound revelation that simple, entirely deterministic equations can breed wild, unpredictable outcomes.\nIt shattered the Newtonian dream of a clockwork universe whose future could be solved indefinitely.",
+            "label": "Chaos and Unpredictability",
+            "description": "Simple rules can produce wild, messy results.\nEven exact math can become impossible to predict.",
             "children": [
               {
                 "id": "butterfly-effect",
-                "label": "Sensitive Dependence on Initial Conditions",
-                "description": "Edward Lorenz's breakthrough showing microscopic perturbations exponentially alter long-term trajectories.\nA butterfly flapping its wings in Brazil can fundamentally reorganize storm tracks across Texas."
+                "label": "The Butterfly Effect",
+                "description": "Tiny changes early on cause giant changes later.\nA small flap can lead to a distant storm.",
+                "children": []
               },
               {
                 "id": "strange-attractors",
-                "label": "Strange Attractors & Fractals",
-                "description": "Geometric landscapes that balance chaotic motion within bounded, infinite fractal detail.\nTrajectories never repeat, revealing mesmerizing hidden order nested inside apparent randomness."
+                "label": "Strange Attractors",
+                "description": "Chaotic systems stay within certain boundaries.\nHidden patterns exist inside seeming randomness.",
+                "children": []
               },
               {
                 "id": "logistic-map",
-                "label": "The Logistic Map & Feigenbaum Constant",
-                "description": "A deceptively simple population model that transitions through period-doubling cascades into pure chaos.\nIt revealed universal mathematical constants governing how dynamical systems tip into turbulence."
+                "label": "The Logistic Map",
+                "description": "A simple equation can turn smoothly into chaos.\nAll tipping points follow the same mathematical pattern.",
+                "children": []
               }
             ]
           },
           {
             "id": "information-mechanics",
-            "label": "Information, Matter, and Entropy",
-            "description": "The thermodynamic bridge connecting heat, disorder, and abstract messages.\nComplexity lives in the rich interplay between order, chaos, and the transmission of meaningful information.",
+            "label": "Information and Heat",
+            "description": "Information is tied directly to physical energy.\nSystems balance between total order and pure chaos.",
             "children": [
               {
                 "id": "shannon-information",
-                "label": "Shannon's Information Theory",
-                "description": "A rigorous mathematical framing that quantified information as surprise and uncertainty reduction.\nIt stripped away subjective meaning to calculate how messages survive noise and transmission limits."
+                "label": "Measuring Information",
+                "description": "Information measures how much surprise a message brings.\nIt shows how messages travel clearly through noise.",
+                "children": []
               },
               {
                 "id": "maxwell-demon",
-                "label": "Maxwell's Demon & Landauer's Principle",
-                "description": "The famous thought experiment challenging the Second Law of Thermodynamics with an observant microscopic gatekeeper.\nRolf Landauer proved that erasing information inevitably expels physical thermodynamic heat into the universe."
+                "label": "Maxwell's Demon",
+                "description": "Processing data has a real physical cost.\nErasing digital memory releases actual heat.",
+                "children": []
               }
             ]
           }
@@ -1649,50 +1656,56 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       },
       {
         "id": "computation-and-evolution",
-        "label": "Life and Computation in Nature",
-        "description": "How natural organisms and synthetic algorithms harvest computation and Darwinian evolution to solve intractable problems.\nThis demonstrates that nature computes seamlessly without silicon, programming, or central clock cycles.",
+        "label": "Nature as Computer",
+        "description": "Living things and algorithms solve problems without computer chips.\nNatural evolution acts like a powerful problem solver.",
         "children": [
           {
             "id": "turing-computation",
-            "label": "Universal Computation & Limits",
-            "description": "Alan Turing's blueprint for universal machines and the mathematical boundaries of what can be formally computed.\nIt proved that certain emergent behaviors are mathematically undecidable in advance."
+            "label": "Limits of Computing",
+            "description": "Alan Turing defined how all computers work.\nSome complex questions can never be solved beforehand.",
+            "children": []
           },
           {
             "id": "cellular-automata",
-            "label": "Cellular Automata & Digital Physics",
-            "description": "Grid-based worlds where cells flip states based solely on local neighboring rules.\nThese minimal algorithmic universes demonstrate how simple deterministic rules generate lifelike self-reproduction and universal computing power.",
+            "label": "Grid Worlds",
+            "description": "Grids of cells change color using simple neighborhood rules.\nThese basic grids can create lifelike forms.",
             "children": [
               {
                 "id": "game-of-life",
-                "label": "Conway's Game of Life",
-                "description": "A zero-player grid simulation operating on just three minimalist birth-and-death rules.\nFrom this barren soil emerge gliders, factories, and Turing-complete computational engines."
+                "label": "Game of Life",
+                "description": "A grid uses just three simple survival rules.\nMoving shapes and complex engines emerge on their own.",
+                "children": []
               },
               {
                 "id": "von-neumann-constructors",
-                "label": "Self-Reproducing Automata",
-                "description": "John von Neumann's rigorous logical design showing how machines can duplicate themselves without losing complexity.\nHis conceptual separation of blueprint instructions from functional copy machinery anticipated the discovery of DNA and ribosomes."
+                "label": "Self-Copying Machines",
+                "description": "Machines can carry blueprints to duplicate themselves.\nThis design predicted how DNA and cells work.",
+                "children": []
               },
               {
                 "id": "wolfram-classes",
-                "label": "Wolfram's Rule Classes",
-                "description": "Stephen Wolfram's classification of automata into fixed, periodic, chaotic, and complex regimes.\nClass 4 automata inhabit a dynamic balance capable of sustained computation and message passing."
+                "label": "Four Rule Types",
+                "description": "Simple grid rules fall into four distinct groups.\nThe richest group balances order and chaos.",
+                "children": []
               }
             ]
           },
           {
             "id": "genetic-algorithms",
-            "label": "Genetic Algorithms & Darwinian Search",
-            "description": "John Holland's evolutionary algorithms that evolve solutions through mutation, sexual crossover, and survival of the fittest.\nThey navigate vast, rugged fitness landscapes that leave human designers completely stranded.",
+            "label": "Evolutionary Code",
+            "description": "Computer programs can evolve just like living species.\nThey mix and mutate solutions to find the best answer.",
             "children": [
               {
                 "id": "crossover-mutation",
-                "label": "Genetic Operators",
-                "description": "Digital mechanisms replicating biological recombination and random mutations to explore promising candidate spaces.\nThey balance broad global exploration against local exploitation of proven solutions."
+                "label": "Breeding and Mutating",
+                "description": "Code swaps parts and makes random tweaks.\nThis helps discover fresh, effective ideas quickly.",
+                "children": []
               },
               {
                 "id": "schema-theorem",
-                "label": "Holland's Schema Theorem",
-                "description": "A theoretical rationale explaining how high-performing building blocks exponentially proliferate across evolving generations.\nIt formalized how adaptive evolution rapidly solves hyper-dimensional combinatorial problems."
+                "label": "Building Blocks",
+                "description": "Useful parts of code spread rapidly across generations.\nThis allows algorithms to solve difficult puzzles fast.",
+                "children": []
               }
             ]
           }
@@ -1700,98 +1713,108 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       },
       {
         "id": "computation-in-nature",
-        "label": "Computation in Living Systems",
-        "description": "The astounding ways decentralized biological collectives make decisions, allocate resources, and fend off pathogens.\nNature processes information through stochastic swarms rather than centralized processors.",
+        "label": "Living Collectives",
+        "description": "Groups of cells or insects make smart choices together.\nNature thinks using large swarms rather than single brains.",
         "children": [
           {
             "id": "immune-system",
-            "label": "The Adaptive Immune Network",
-            "description": "A decentralized biological security force capable of recognizing foreign invaders it has never encountered before.\nIt operates without a central headquarters through continuous population turnover, cross-reactivity, and affinity maturation.",
+            "label": "The Immune System",
+            "description": "Our body fights off new germs without a central commander.\nBillions of roving cells identify and eliminate threats.",
             "children": [
               {
                 "id": "clonal-selection",
-                "label": "Clonal Selection & Somatic Hypermutation",
-                "description": "The body's internal evolutionary arms race where successful antibody-producing B-cells multiply and mutate rapidly.\nIt tunes pathogen-neutralizing efficiency in real-time under high selective pressure."
+                "label": "Clonal Selection",
+                "description": "Helpful defense cells copy themselves quickly.\nThey adapt rapidly to destroy new invaders.",
+                "children": []
               },
               {
                 "id": "distributed-detection",
-                "label": "Distributed Pathogen Detection",
-                "description": "A dynamic recognition mesh that balances false alarms against lethal oversights through receptor diversity.\nIt proves how statistical sampling keeps organisms alive in a turbulent, hostile environment."
+                "label": "Shared Detection",
+                "description": "Diverse immune cells patrol the entire body.\nRandom sampling catches dangers without attacking healthy cells.",
+                "children": []
               }
             ]
           },
           {
             "id": "ant-colonies",
-            "label": "Ant Colonies & Swarm Intelligence",
-            "description": "Thousands of virtually brainless insects cooperating to build architecture, farm fungi, and optimize foraging paths.\nThe colony as an entity acts like a unified superorganism with remarkable problem-solving intelligence.",
+            "label": "Ant Swarms",
+            "description": "Tiny insects work together to build huge nests.\nThe entire colony acts like one large, smart organism.",
             "children": [
               {
                 "id": "pheromone-trails",
-                "label": "Pheromone Trails & Positive Feedback",
-                "description": "Chemical breadcrumbs that ants lay down and reinforce as they discover food, creating positive feedback loops.\nEvaporation serves as a negative feedback mechanism that prunes obsolete, inefficient foraging routes."
+                "label": "Scent Trails",
+                "description": "Ants leave scent marks when they find food.\nGood paths get stronger while bad paths fade away.",
+                "children": []
               },
               {
                 "id": "task-allocation",
-                "label": "Decentralized Task Allocation",
-                "description": "Ants seamlessly switch between foraging, nursery tending, and nest patrol based on local antennal encounter frequencies.\nNobody issues assignments, yet the colony maintains perfect labor equilibrium."
+                "label": "Sharing Tasks",
+                "description": "Ants change jobs based on who they bump into.\nWork stays balanced without anyone giving orders.",
+                "children": []
               }
             ]
           },
           {
             "id": "cellular-metabolism",
-            "label": "Cellular and Genetic Regulatory Networks",
-            "description": "Enzymatic pathways and gene expression circuits orchestrating the dance of living cells.\nFeedback loops turn genes on and off like an intricate digital-analog molecular computer."
+            "label": "Cell Networks",
+            "description": "Genes and proteins switch each other on and off.\nThis creates a tiny biochemical computer inside every cell.",
+            "children": []
           }
         ]
       },
       {
         "id": "networks-and-scaling",
-        "label": "Network Architecture and Scaling Laws",
-        "description": "The universal geometric structures and mathematical scaling relations that organize biological bodies, social relationships, and human technological infrastructure into efficient, robust webs.",
+        "label": "Networks and Scaling",
+        "description": "Webs connect bodies, friends, and technology.\nUniversal math rules decide how these webs grow and function.",
         "children": [
           {
             "id": "small-world-networks",
-            "label": "Small-World Networks",
-            "description": "Duncan Watts and Steven Strogatz's discovery of networks possessing high local clustering alongside surprisingly short path lengths.\nA few random long-range shortcuts compress astronomical distances into six degrees of separation.",
+            "label": "Small-World Webs",
+            "description": "Most connections stay local, but a few reach far away.\nThis makes the entire world closely connected.",
             "children": [
               {
                 "id": "six-degrees",
-                "label": "Clustering vs. Short Path Lengths",
-                "description": "The fascinating structural compromise between tightly-knit local cliques and swift global communication.\nIt explains why contagious viruses, gossip, and behavioral trends rip through populations with shocking velocity."
+                "label": "Six Degrees",
+                "description": "Shortcuts link different social circles together.\nNews and viruses spread across the globe in days.",
+                "children": []
               }
             ]
           },
           {
             "id": "scale-free-networks",
-            "label": "Scale-Free Networks & Preferential Attachment",
-            "description": "Albert-L\u00e1szl\u00f3 Barab\u00e1si's revelation of power-law topologies driven by the 'rich-get-richer' mechanism.\nIn scale-free systems, a handful of hyper-connected hubs hold the entire global web together.",
+            "label": "Major Hubs",
+            "description": "A few popular nodes hold most of the links.\nThe rich get richer as networks expand.",
             "children": [
               {
                 "id": "robust-yet-fragile",
-                "label": "The Robust-Yet-Fragile Dilemma",
-                "description": "A defining structural vulnerability: scale-free networks easily shrug off random component failures without losing integrity.\nHowever, coordinated attacks on just a few dominant hubs trigger instantaneous systemic collapse."
+                "label": "Tough Yet Fragile",
+                "description": "Random parts can break without hurting the network.\nTaking out a major hub can destroy the whole system.",
+                "children": []
               },
               {
                 "id": "power-law-distribution",
-                "label": "Power Laws vs. Bell Curves",
-                "description": "Statistical distributions where standard deviations and averages lose predictive power due to massive tail events.\nExtreme phenomena govern outcomes rather than safe, median bell-curve expectations."
+                "label": "Power Laws",
+                "description": "Rare, massive events matter more than average ones.\nA few giant hubs dominate the system.",
+                "children": []
               }
             ]
           },
           {
             "id": "metabolic-scaling",
-            "label": "Universal Metabolic Scaling Laws",
-            "description": "Geoffrey West and James Brown's discovery of 3/4-power allometric scaling across all living organisms.\nFractal, space-filling vascular networks force an elephant's cells to operate far more efficiently than a mouse's.",
+            "label": "Body Scaling Laws",
+            "description": "Larger animals use energy much more efficiently.\nAn elephant's cells burn energy slower than a mouse's.",
             "children": [
               {
                 "id": "kleibers-law",
-                "label": "Kleiber's Law & Fractal Geometries",
-                "description": "The biological principle dictating that doubling an animal's mass increases energy requirements by only 75%.\nFractal distribution branching explains why life slows down its biological pace as bodies grow massive."
+                "label": "Kleiber's Law",
+                "description": "Doubling an animal's size requires only 75% more food.\nBranching blood vessels slow the pace of large bodies.",
+                "children": []
               },
               {
                 "id": "urban-scaling",
-                "label": "Pace of Life in Cities",
-                "description": "The application of scaling physics to human settlements, showing that urban infrastructure scales sublinearly while innovation and crime scale superlinearly.\nAs cities grow, social interaction rates accelerate rather than slowing down."
+                "label": "Pace of Cities",
+                "description": "Bigger cities share roads and pipes efficiently.\nPeople walk faster and invent more as cities grow.",
+                "children": []
               }
             ]
           }
@@ -1799,52 +1822,57 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
       },
       {
         "id": "evolution-and-cognition",
-        "label": "The Frontiers: Evolution, Mind, and Meaning",
-        "description": "The grand challenge of complex systems: unraveling how subjective consciousness, analogy-making, and open-ended evolutionary novelty arise from biological circuits and algorithmic rules.",
+        "label": "Minds and Frontiers",
+        "description": "Understanding how thinking and meaning rise from simple parts.\nScientists explore how biological networks produce conscious thought.",
         "children": [
           {
             "id": "edge-of-chaos",
-            "label": "The Edge of Chaos",
-            "description": "Stuart Kauffman and Chris Langton's influential hypothesis that complex adaptive life thrives at the delicate phase transition between rigid crystal order and turbulent chaos.\nToo much order suffocates adaptation, while too much chaos destroys memory.",
+            "label": "Edge of Chaos",
+            "description": "Life thrives right between rigid order and total randomness.\nThis sweet spot allows systems to change and learn.",
             "children": [
               {
                 "id": "criticality-and-adaptability",
-                "label": "Self-Organized Criticality",
-                "description": "Per Bak's sandpile metaphor demonstrating how distributed systems spontaneously evolve to the precipice of systemic instability.\nIn this poised state, tiny grain drops trigger both minor ripples and system-wide avalanches."
+                "label": "Poised for Change",
+                "description": "Systems naturally build up to a tipping point.\nA single falling grain can spark a huge slide.",
+                "children": []
               }
             ]
           },
           {
             "id": "analogy-and-ai",
-            "label": "Analogy-Making and Conceptual Fluency",
-            "description": "Melanie Mitchell and Douglas Hofstadter's Copycat architecture illustrating that true intelligence requires fluid conceptual slipping.\nGenuine cognition is not brute statistical parsing, but seeing one thing fundamentally as another.",
+            "label": "Making Analogies",
+            "description": "Real intelligence comes from seeing how things are similar.\nThinking requires flexible ideas rather than rigid rules.",
             "children": [
               {
                 "id": "copycat-architecture",
-                "label": "The Copycat Project",
-                "description": "A cognitive program that solves letter analogies through a parallel workspace and a slipnet of flexible concepts.\nIt mirrors biological swarm processing by deploying tiny codelets that scout and build perceptual hypotheses."
+                "label": "The Copycat Program",
+                "description": "A clever program solves analogies by testing loose ideas.\nSmall code scouts cooperate to find good answers.",
+                "children": []
               },
               {
                 "id": "fluid-concepts",
-                "label": "Fluid Concepts & Conceptual Slip",
-                "description": "The cognitive mechanism allowing rigid mental definitions to gently stretch, deform, and match novel real-world situations.\nIt forms the indispensable foundation of human intuition, metaphor, and breakthrough creativity."
+                "label": "Flexible Thinking",
+                "description": "Mental concepts stretch to fit brand-new situations.\nThis flexibility sparks human creativity and intuition.",
+                "children": []
               }
             ]
           },
           {
             "id": "meaning-and-unification",
-            "label": "Toward a Unified Science of Complexity",
-            "description": "The unresolved quest for a universal theoretical framework capable of tying together physics, biology, and computational meaning.\nIt highlights the profound mysteries that remain as we learn to navigate the intricate web of reality.",
+            "label": "Future of Complexity",
+            "description": "Scientists still seek a complete theory of complex systems.\nWe must learn to manage our connected world wisely.",
             "children": [
               {
                 "id": "meaning-in-complexity",
-                "label": "The Mystery of Meaning and Semantics",
-                "description": "The deep explanatory gap between syntactic symbol manipulation and genuine subjective comprehension.\nComplexity theory must still discover how living biological webs convert brute physical forces into subjective meaning."
+                "label": "The Mystery of Meaning",
+                "description": "Computers shuffle symbols without understanding them.\nWe still do not know how biological brains feel meaning.",
+                "children": []
               },
               {
                 "id": "future-horizons",
-                "label": "The Future of Complexity Navigation",
-                "description": "Developing cognitive humility and sophisticated systems tools to manage anthropogenic climate systems, financial networks, and machine intelligence.\nIt urges humanity to respect emergent dynamics rather than attempting clumsy linear interventions."
+                "label": "Guiding Our World",
+                "description": "Complex tools help us manage climate and economies.\nWe must respect how deeply connected everything is.",
+                "children": []
               }
             ]
           }

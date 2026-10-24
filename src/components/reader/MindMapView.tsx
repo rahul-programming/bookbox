@@ -548,7 +548,7 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
   }, [layoutTree]);
 
   return (
-    <div className="max-w-7xl mx-auto py-4 sm:py-6 space-y-4">
+    <div className="max-w-7xl mx-auto py-4 sm:py-6 space-y-4 w-full max-w-full overflow-hidden">
       
       {/* Top Controls Toolbar */}
       <div className="p-3 sm:p-4 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-xs flex flex-wrap items-center justify-between gap-3">

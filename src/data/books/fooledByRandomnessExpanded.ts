@@ -1,5 +1,5 @@
 // Fooled by Randomness by Nassim Nicholas Taleb
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -641,169 +641,169 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
   "actionItems": [
     {
       "id": "fooled-by-randomness-act-1",
-      "title": "Strip Survivorship Bias from Your Role Models",
-      "description": "We study successful icons while completely ignoring the cemetery of thousands who took identical risks and failed. Rewire your pattern recognition by inspecting the silent graveyard.",
+      "title": "Check the Losers Behind Winners",
+      "description": "We only copy winners and ignore all the people who failed. Check how many took the exact same risk and lost everything.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Pick one business guru, trader, or celebrity you admire.",
-        "List 3 specific high-stakes gambles they made that paid off.",
-        "Search or estimate how many peers made identical bets during the same era and went bankrupt.",
-        "Recalibrate your takeaway: separate their actual repeatable process from pure lucky variance."
+        "1. Pick one famous leader or star you look up to.",
+        "2. List three big gambles that helped them win big.",
+        "3. Find others who made identical bets and still failed completely.",
+        "4. Decide if their big win was real skill or just luck."
       ],
       "sourceChapter": "Chapter 6: Skewness and Asymmetry"
     },
     {
       "id": "fooled-by-randomness-act-2",
-      "title": "Establish an Alternative Histories Stress-Test",
-      "description": "True risk is not measured by what happened, but by what could have happened. Gauge decisions using Russian roulette logic: if an outcome carried hidden ruin in 9 alternate timelines, winning in this 1 timeline was foolish luck.",
+      "title": "Test What Could Have Happened",
+      "description": "True danger is not what happened, but what could have happened. A risky choice is still foolish even if you got lucky.",
       "category": "system",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Select a major financial or career decision you plan to execute.",
-        "Write down 5 realistic parallel outcomes that could have occurred under different market conditions.",
-        "Check if any of those 5 alternative branches leads to severe financial or reputational ruin.",
-        "Reject or restructure any plan where surviving depends on dodging invisible bullets."
+        "1. Pick a big choice you plan to make soon.",
+        "2. Write down five realistic ways things could go wrong.",
+        "3. Check if any bad path could totally ruin your life.",
+        "4. Drop any plan where safety depends on sheer dumb luck."
       ],
       "sourceChapter": "Chapter 2: A Bizarre Accounting Method"
     },
     {
       "id": "fooled-by-randomness-act-3",
-      "title": "Install a Financial Information Detox Filter",
-      "description": "High-frequency news is nearly 100% emotional noise, while long-term signal emerges only over months and years. Reduce daily screen checking to dampen your biological overreaction to micro-fluctuations.",
+      "title": "Cut Daily Financial News Noise",
+      "description": "Daily news is mostly worthless noise that makes you panic. Real trends take months and years to show up clearly.",
       "category": "environment",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Delete real-time stock ticker widgets and intraday portfolio tracker apps from your phone's home screen.",
-        "Turn off breaking news and market swing push alerts.",
-        "Move your investment monitoring app into an off-screen folder requiring manual login.",
-        "Replace daily financial scrolling with a single monthly index review session."
+        "1. Delete live market tickers and finance apps from your home screen.",
+        "2. Turn off all breaking news notifications on your phone.",
+        "3. Hide money apps inside a folder that requires a password.",
+        "4. Check your long-term investments only once each month."
       ],
       "sourceChapter": "Chapter 3: A Mathematical Meditation on History"
     },
     {
       "id": "fooled-by-randomness-act-4",
-      "title": "Conduct a Hindsight Bias Decision Post-Mortem",
-      "description": "Our narrative-seeking brain invents neat cause-and-effect explanations after the fact. Trap hindsight bias by logging your raw predictions before events unfold.",
+      "title": "Catch Your Brain Faking Foresight",
+      "description": "Our minds love to pretend we predicted surprises after they occur. Compare your old notes with what actually happened to stay honest.",
       "category": "audit",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Pick a recent surprise outcome in your work or investment portfolio.",
-        "Retrieve notes, emails, or drafts written before the outcome happened.",
-        "Highlight the discrepancies between what you genuinely believed beforehand and the story you tell yourself now.",
-        "Document 2 unpredictable random factors you conveniently erased from your hindsight story."
+        "1. Pick a recent surprise outcome at work or in money.",
+        "2. Read the exact notes you wrote before the event happened.",
+        "3. Spot the gap between your real guess and your memory.",
+        "4. Write down two random events you forgot to consider earlier."
       ],
       "sourceChapter": "Chapter 4: Randomness, Nonsense, and the Scientific Intellectual"
     },
     {
       "id": "fooled-by-randomness-act-5",
-      "title": "Adopt the Monte Carlo Scenario Ritual",
-      "description": "Train your neural circuitry to think in full probability distributions rather than static point projections by running quick mental simulations every morning.",
+      "title": "Picture Three Paths Every Morning",
+      "description": "Do not assume your day will go according to plan. Prepare your mind for weird surprises by imagining three different outcomes.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Identify today's single highest-priority project or interaction.",
-        "Instead of visualizing your ideal outcome, mentally run 3 varied simulations: base case, random disruption, and unexpected curveball.",
-        "Note the one vulnerability that could trigger a cascade failure under the curveball scenario.",
-        "Add a 10-minute buffer or backup step to absorb unexpected friction."
+        "1. Pick your most important task or meeting for today.",
+        "2. Picture normal progress, a mild delay, and a total surprise.",
+        "3. Find the one weak spot that could break your day.",
+        "4. Add ten extra minutes of buffer time to your schedule."
       ],
       "sourceChapter": "Chapter 3: A Mathematical Meditation on History"
     },
     {
       "id": "fooled-by-randomness-act-6",
-      "title": "Audit Asymmetric Payoffs in Your Portfolio",
-      "description": "It does not matter how frequently you are right; what matters is how much you make when right versus how much you lose when wrong. Map your exposure to positive versus negative skewness.",
+      "title": "Spot Deals with Deadly Downside",
+      "description": "Being right often does not matter if one mistake ruins you. Avoid deals that make tiny profits but risk total destruction.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "List your top 5 current financial assets or business ventures.",
-        "For each, write down the worst-case loss and the maximum upside potential.",
-        "Identify any position that offers small steady gains 99% of the time but carries catastrophic blowup risk 1% of the time.",
-        "Trim or exit investments that pick up pennies in front of a steamroller."
+        "1. List your five biggest investments or active business projects.",
+        "2. Write down the worst possible loss for every single item.",
+        "3. Flag any bet that wins pennies but risks huge losses.",
+        "4. Sell or fix any position that could wipe you out."
       ],
       "sourceChapter": "Chapter 6: Skewness and Asymmetry"
     },
     {
       "id": "fooled-by-randomness-act-7",
-      "title": "Build an Ulysses Contract Against Panic Selling",
-      "description": "Biological panic bypasses executive reasoning during sudden volatility. Bind your future emotional self by inserting deliberate institutional friction before making panic adjustments.",
+      "title": "Lock Down Against Panic Selling",
+      "description": "Sudden drops make people panic and sell at the worst time. Set up strict friction rules before fear takes over your mind.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Draft a short, binding ruleset governing when portfolio reallocation is permitted.",
-        "Institute a mandatory 72-hour cooling-off rule between feeling an urge to liquidate and pressing sell.",
-        "Designate an analytical partner or advisor who must sign off on any off-cycle strategy departure.",
-        "Store the contract in your physical notebook or workspace where it is clearly visible."
+        "1. Write down clear rules for when you can sell assets.",
+        "2. Require a three-day waiting period before you make any sale.",
+        "3. Pick a calm friend who must approve sudden selling moves.",
+        "4. Keep this signed rule sheet on your work desk."
       ],
       "sourceChapter": "Chapter 11: Randomness and Our Mind: We Are Probability Blind"
     },
     {
       "id": "fooled-by-randomness-act-8",
-      "title": "Execute a Karl Popper Falsification Test",
-      "description": "Confirming instances do not prove a theory true, because a thousand white swans cannot rule out a black swan. Actively hunt for the single observation that would break your pet thesis.",
+      "title": "Try to Break Your Belief",
+      "description": "Seeing many white swans never proves all swans are white. Always search for the single fact that proves you wrong.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Write down your strongest current career, project, or financial assumption.",
-        "Ask yourself: 'What precise piece of evidence would decisively prove me wrong?'",
-        "Spend 10 minutes deliberately searching for data, case studies, or expert critiques that support the counter-thesis.",
-        "Adjust your conviction level from certainty to a tentative, tested hypothesis."
+        "1. Write down your strongest belief about work or money.",
+        "2. Ask what exact fact would completely prove this belief false.",
+        "3. Spend ten minutes actively looking for proof against your idea.",
+        "4. Lower your certainty and treat your idea as a guess."
       ],
       "sourceChapter": "Chapter 7: The Problem of Induction"
     },
     {
       "id": "fooled-by-randomness-act-9",
-      "title": "Establish an Anti-Fragile Decision Journal",
-      "description": "Keep luck honest by recording rationale, probability assessments, and unknown variables at the moment you decide, cleanly separating decision quality from outcome luck.",
+      "title": "Keep a Simple Choice Log",
+      "description": "Good choices can fail and bad choices can win by chance. Write down your reasons right away so luck cannot fool you.",
       "category": "system",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Create a dedicated ledger called 'Decision Register' in your notes app or notebook.",
-        "Before making any non-reversible decision, log: Rationale, Expected Upside, Plausible Downside, and Key Unknowns.",
-        "Assign a probability confidence rating (e.g., 60% chance of success).",
-        "Review the entry 90 days later to assess whether success was driven by skill or benevolent noise."
+        "1. Open a new blank note called my decision log.",
+        "2. Write your reasons and the big risks before you decide.",
+        "3. Guess your realistic odds of winning as a simple percentage.",
+        "4. Read the note three months later to judge your logic."
       ],
       "sourceChapter": "Chapter 1: If You're So Rich, Why Aren't You So Smart?"
     },
     {
       "id": "fooled-by-randomness-act-10",
-      "title": "Run a Daily Narrative-Fallacy Reflection",
-      "description": "At the close of each day, our minds naturally weave tidy fables around messy events. Practice catching your brain transforming chaotic coincidences into artificial narratives.",
+      "title": "Spot Made-Up Stories at Night",
+      "description": "Our brains love inventing smooth stories to explain messy, random days. Remind yourself that many events happen for no real reason.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "During your evening wind-down, identify one surprising event or interaction from the day.",
-        "Observe the instinctive cause-and-effect story your mind created to explain it.",
-        "Ask: 'Could this simply be a random variance in human mood, timing, or circumstance?'",
-        "Acknowledge the role of pure chance without needing to assign grand meaning or personal intent."
+        "1. Think of one weird event that happened to you today.",
+        "2. Notice the neat story your mind made up about it.",
+        "3. Ask if bad timing or plain coincidence caused it instead.",
+        "4. Accept that random things happen without any deeper hidden meaning."
       ],
       "sourceChapter": "Chapter 4: Randomness, Nonsense, and the Scientific Intellectual"
     },
     {
       "id": "fooled-by-randomness-act-11",
-      "title": "Screen Out Data-Mined Spurious Patterns",
-      "description": "If you torture data long enough, it will confess to anything. Guard yourself against convincing graphs and correlations that are merely artifacts of small sample sizes and coincidental curves.",
+      "title": "Ditch Fake Data Patterns",
+      "description": "If you look hard enough, you can find patterns anywhere. Ignore fancy charts that are just lucky flukes from small data.",
       "category": "audit",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Review a metric, KPI report, or marketing case study you currently trust.",
-        "Check how many variables, timeframes, or subgroups were tested before finding the winning pattern.",
-        "Determine whether the sample size survived multiple distinct market cycles or regimes.",
-        "Discard any optimization that lacks a coherent underlying mechanism and relies solely on backtested fit."
+        "1. Pick a business chart or rule that you trust today.",
+        "2. Ask how many failed attempts happened before finding this chart.",
+        "3. Check if the pattern worked across many tough past years.",
+        "4. Drop any rule that has no sensible reason behind it."
       ],
       "sourceChapter": "Chapter 9: It Is Easier to Buy and Sell Than to Fry an Egg"
     },
     {
       "id": "fooled-by-randomness-act-12",
-      "title": "Cultivate a Stoic Decoupling Ritual",
-      "description": "Like the ancient Stoics, master your physiological response to chaotic volatility by grounding your self-worth in personal dignity and sound judgment rather than external scoreboards.",
+      "title": "Stay Calm Amid Random Swings",
+      "description": "You cannot control luck, but you can control your attitude. Judge yourself on your own actions, not on wild market swings.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Before opening emails or market dashboards, pause for 60 seconds of steady breathing.",
-        "Recite Taleb's Stoic maxim: 'Grace under pressure is the only thing chance cannot take from me.'",
-        "Commit to judging today's effort strictly by procedural rigor, curiosity, and ethics.",
-        "Treat unexpected losses or windfalls with identical equanimity and detachment."
+        "1. Take sixty seconds to breathe before opening any money screens.",
+        "2. Remind yourself that bad luck cannot ruin your personal dignity.",
+        "3. Focus only on honest effort and smart choices for today.",
+        "4. Stay calm through sudden gains and sudden losses alike."
       ],
       "sourceChapter": "Chapter 14: Bacchus Meets the Stoic"
     }
@@ -980,10 +980,10 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Alternative Histories: The Hidden Roulette of Reality",
-      "body": "Judging an event purely by its observed outcome is an optical illusion.\nA complete scientific view accounts for the full distribution of alternative paths that could have unfolded under the identical starting conditions.",
+      "headline": "Alternative Histories",
+      "body": "Do not judge a choice only by how it turned out.\nMany other events could have happened just as easily.\nGood luck can hide a very foolish risk.",
       "quote": "Reality is far more vicious than Russian roulette. First, it delivers the fatal bullet rather infrequently, like a revolver that would have hundreds, even thousands of chambers instead of six.",
-      "actionItem": "Before congratulating yourself on a major win, write down three realistic parallel branches where the identical decision triggered severe failure.",
+      "actionItem": "Write down three bad outcomes that almost happened before you celebrate a big win.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1001,10 +1001,10 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Survivorship Bias and the Silent Graveyard",
-      "body": "We routinely study self-made billionaires and successful enterprises to distill the habits of excellence, completely ignoring the cemetery of vanished peers who possessed identical habits, equal tenacity, and worse luck.",
+      "headline": "The Silent Graveyard",
+      "body": "We only study winners who made it big.\nWe forget the crowd of failures who worked just as hard.\nHard work does not guarantee success without luck.",
       "quote": "Heroes are dead. People who take risks become heroes only if they survive. The rest are in the cemetery.",
-      "actionItem": "Whenever analyzing a business success story, deliberately seek data on the failures that used the exact same playbook.",
+      "actionItem": "Study people who failed while using the same plan as your favorite hero.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1022,10 +1022,10 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Asymmetric Payoffs Over Raw Probabilities",
-      "body": "Probability is not expectation.\nBeing right 99% of the time means nothing if the 1% scenario brings absolute liquidation.\nRational actors optimize for magnitude of payoff multiplied by frequency, never probability alone.",
+      "headline": "Payoff Beats Probability",
+      "body": "Being right most of the time is not enough.\nA rare event can still wipe you out completely.\nAlways focus on how much you lose when things go wrong.",
       "quote": "It is not how likely an event is to happen that matters, it is how much is made when it happens that counts.",
-      "actionItem": "Audit your financial or professional exposures: eliminate any risk that offers steady pennies in exchange for an existential blowup.",
+      "actionItem": "Drop any bet where a tiny mistake could ruin you for good.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1043,10 +1043,10 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Narrative Fallacy: Constructing Fictional Order",
-      "body": "The human brain is an insatiable pattern engine.\nWhen confronted with jagged, noisy, random phenomena, our neural wiring instinctively stitches together clean, linear causes after the fact to satisfy an innate demand for coherence.",
+      "headline": "The Storytelling Trap",
+      "body": "Our brains love simple stories that make sense.\nWe make up neat reasons after things happen.\nIn reality, pure chance caused most of the outcome.",
       "quote": "Past events will always look less random than they were, it is called the hindsight bias.",
-      "actionItem": "Log major decisions in a real-time journal before outcomes emerge, preventing your memory from rewriting history after the fact.",
+      "actionItem": "Write down your thoughts in a journal before making any major life decision.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1064,10 +1064,10 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Starve the High-Frequency Noise Machine",
-      "body": "Obsessively tracking minute-by-minute feedback drowns you in meaningless emotional variance.\nOver short intervals, nearly all variance is random noise; signal reveals itself only across long stretches of time.",
+      "headline": "Ignore Daily Noise",
+      "body": "Checking news or prices every hour drives you crazy.\nDaily ups and downs are just meaningless noise.\nReal trends only show up over months and years.",
       "quote": "Over a short time increment, one observes the variability of the portfolio, not the return.",
-      "actionItem": "Cut the inspection frequency of your investments, analytics, or news feeds to once a month to let mathematical signal rise above daily jitter.",
+      "actionItem": "Check your money and analytics only once a month instead of every day.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1085,10 +1085,10 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Unforgiving Geometry of Probability",
-      "body": "True sophistication lies in discerning where predictable Newtonian cause-and-effect ends and the wild calculus of probability takes the wheel.",
+      "headline": "Accepting Our Ignorance",
+      "body": "Smart people know what they cannot predict.\nLife is not a simple game with fixed rules.\nWe must learn to live with things we cannot know.",
       "quote": "Probability is not a mere computation of odds on the dice or more complicated variants; it is the acceptance of the lack of certainty in our knowledge and the development of methods for dealing with our ignorance.",
-      "actionItem": "Replace declarative statements like this will happen with probabilistic estimates like my confidence interval spans this range.",
+      "actionItem": "Stop saying you are certain and start saying how confident you feel.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1106,10 +1106,10 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Popperian Falsification: Hunting the Black Swan",
-      "body": "No amount of confirmatory observations can prove a scientific theory definitively true, yet a single counterexample instantly shatters it.\nKnowledge advances not by validating hypotheses, but by aggressively seeking their disproof.",
+      "headline": "Prove Yourself Wrong",
+      "body": "Seeing a thousand white swans does not prove all swans are white.\nOne black swan breaks the rule instantly.\nTrue knowledge grows when you search for mistakes.",
       "quote": "No matter how many white swans you may have seen, it does not justify the conclusion that all swans are white.",
-      "actionItem": "Take your strongest working belief and spend one hour researching the sharpest empirical refutation available against it.",
+      "actionItem": "Spend one hour trying to find facts that disprove your biggest belief.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1127,10 +1127,10 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Turkey Illusion: Stability Compounding Fragility",
-      "body": "A butcher feeds a turkey for 1,000 consecutive days.\nWith every sunrise, the turkey's statistical models prove that humans love turkeys.\nOn day 1,001, just before Thanksgiving, the model suffers a catastrophic revision.",
+      "headline": "The Turkey Problem",
+      "body": "A butcher feeds a turkey every single morning.\nThe turkey feels safer every day that passes.\nThen Thanksgiving arrives and brings a terrible shock.",
       "quote": "The turkey will find that the butcher is not what he thought he was, and have to revise its beliefs on Thanksgiving Day.",
-      "actionItem": "Identify any process in your business or lifestyle where uninterrupted comfort has fostered a false sense of absolute safety.",
+      "actionItem": "Find one area of life where long quiet periods feel too safe.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1148,10 +1148,10 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Judge the Logic, Never the Lottery Ticket",
-      "body": "A lucky idiot who takes reckless risks and wins is praised as an intuitive genius, while a disciplined thinker who suffers bad luck is ridiculed.\nDecouple quality of execution from random outcomes.",
+      "headline": "Judge Thinking, Not Luck",
+      "body": "A careless fool can still win the lottery.\nA smart thinker can still lose to bad luck.\nAlways judge a choice by its logic, not its outcome.",
       "quote": "One cannot consider a person's intelligence or judgment merely on the basis of results.",
-      "actionItem": "Reward team members for sound, probabilistically rigorous reasoning, even when the immediate outcome hits a random snag.",
+      "actionItem": "Praise teammates for good choices even when luck works against them.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1169,10 +1169,10 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Ergodicity: The Trap of Group Averages",
-      "body": "An ensemble average is not the same as a time average.\nSix people playing Russian roulette once is vastly different from one person playing Russian roulette six times.\nAbsorbing ruin eliminates you from playing forever.",
+      "headline": "Never Risk Ruin",
+      "body": "Group averages can trick you into taking bad bets.\nIf you play a deadly game long enough, you lose.\nOnce you go broke, you cannot play anymore.",
       "quote": "The idea is that a catastrophic event cannot be handled by the simple computation of expectations.",
-      "actionItem": "Never take an existential risk whose worst-case outcome forces you out of the game permanently.",
+      "actionItem": "Avoid any risk that could knock you out of the game forever.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1190,10 +1190,10 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Infinite Typing Monkeys and Spurious Luck",
-      "body": "If an army of monkeys hammers on typewriters, one of them will produce an error-free Iliad by pure combinatorial chance.\nThat monkey is not Homer, and hiring it to write an epic sequel will yield gibberish.",
+      "headline": "Monkeys on Typewriters",
+      "body": "Enough monkeys typing randomly will eventually spell a real book.\nThat lucky monkey is still not a writer.\nHuge crowds will always produce lucky winners.",
       "quote": "If one puts an infinite number of monkeys in front of typewriters, and lets them clatter away, there is a certainty that one of them will come out with an exact version of the Iliad.",
-      "actionItem": "When evaluating top fund managers or trend predictors, calculate how many contestants were in the pool before attributing their run to skill.",
+      "actionItem": "Check how many people failed before you praise one lucky expert.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1211,10 +1211,10 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Construct Negative Feedback Loops for Ego",
-      "body": "Biology equips us to attribute victories to personal brilliance and blame setbacks on bad luck.\nBreak this self-deceptive cycle by creating external systems that hold your hubris accountable.",
+      "headline": "Check Your Ego",
+      "body": "We blame bad luck when we lose a game.\nWe praise our own genius when we win.\nThis silly habit blinds us to the real world.",
       "quote": "We attribute our successes to our skills and our failures to external factors, namely to chance.",
-      "actionItem": "Establish a peer accountability partner whose explicit job is to point out whenever luck bailed you out of a sloppy decision.",
+      "actionItem": "Ask an honest friend to tell you when luck saved your skin.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1232,10 +1232,10 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Epistemic Arrogance: The Illusion of Foreknowledge",
-      "body": "Our confidence in predictive models consistently outstrips our empirical accuracy.\nComplex adaptive systems routinely generate nonlinear surprises that mock standard bell-curve projections.",
+      "headline": "False Confidence",
+      "body": "People believe they can predict the future with ease.\nOur forecasts are wrong much more often than we think.\nSurprises happen constantly in real life.",
       "quote": "We are demonstrably arrogant about what we think we know. We are excessively confident in our abilities.",
-      "actionItem": "Widen the variance buffer in your schedules and financial budgets by a factor of two to account for unknown unknowns.",
+      "actionItem": "Double your budget and time estimates to protect against unexpected delays.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1253,10 +1253,10 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Stoic Stance Against Volatility",
-      "body": "While we cannot dictate how the dice land, we maintain total sovereignty over our internal composure, our dignity, and our personal conduct when chaos strikes.",
+      "headline": "Calm in Chaos",
+      "body": "You cannot control where the dice will land today.\nYou can still control your own behavior and manners.\nStay calm and keep your head held high.",
       "quote": "The only thing that the gods cannot take away from a person is his dignity.",
-      "actionItem": "When faced with an unavoidable reversal, consciously refuse to complain; channel that energy into executing your recovery with poise.",
+      "actionItem": "Do not complain when bad luck hits.\nFocus on your next move with quiet pride.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1274,10 +1274,10 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Data Mining: Seeing Ghosts in the Static",
-      "body": "If you feed a computer enough random variables, it will inevitably uncover statistically significant correlations that are purely coincidental.\nData torture creates the illusion of prophecy out of thin air.",
+      "headline": "Ghosts in the Data",
+      "body": "Torture numbers long enough and they will confess to anything.\nComputers easily find fake patterns in random piles of facts.\nMost neat trends are just accidents.",
       "quote": "If you look at a large enough collection of data, you are certain to find all kinds of patterns that are merely coincidences.",
-      "actionItem": "Demand strong underlying causal mechanics before accepting a trend derived solely from statistical backtesting.",
+      "actionItem": "Ask for plain common sense before you trust a fancy chart.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1295,10 +1295,10 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Embrace Willingness to Be Proven Wrong",
-      "body": "True scientific thinkers celebrate being disproven because it eliminates false beliefs and refines their worldview.\nClinging to hypotheses to protect your ego guarantees intellectual stagnation.",
+      "headline": "Change Your Mind",
+      "body": "Smart people love to learn that they were wrong.\nDropping false ideas helps you see the world clearly.\nDefending your pride only keeps you stuck.",
       "quote": "George Soros was famously able to change his mind on a dime, without the slightest remorse.",
-      "actionItem": "The moment contradictory evidence emerges against your plan, change course instantly without offering excuses.",
+      "actionItem": "Change your plan immediately the moment you see facts that oppose it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1316,10 +1316,10 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Fat Tails vs. Mild Mediocristan",
-      "body": "Human intuition evolved in Mediocristan, where physical attributes like height and weight follow Gaussian normal curves.\nModern social and financial systems belong to Extremistan, where rare, colossal anomalies dominate everything.",
+      "headline": "Wild Outliers",
+      "body": "Human height stays inside a very narrow range.\nWealth and modern markets do not work that way.\nA single huge shock can change everything overnight.",
       "quote": "A single observation can invalidate thousands of years of confirmation.",
-      "actionItem": "Stress-test your operational plans against extreme, 10-standard-deviation shocks instead of gentle historical averages.",
+      "actionItem": "Test your plans against huge surprises instead of normal daily averages.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1337,10 +1337,10 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Tanning Bed Fallacy: Misreading Cause and Effect",
-      "body": "Observing that professional athletes have lean bodies leads naive observers to conclude that playing those sports creates that body type, confusing the prerequisite selection filter with the end result.",
+      "headline": "Swimmer Body Illusion",
+      "body": "Swimming does not give elite athletes their ideal bodies.\nThey became great swimmers because they already had those bodies.\nDo not confuse the cause with the result.",
       "quote": "Hard work will make you a success only if you have the right genetic material, the right environment, and, above all, the right luck.",
-      "actionItem": "Distinguish between natural selection criteria and genuine causative skills when attempting to learn from masters in any craft.",
+      "actionItem": "Check whether top performers were born lucky before copying their daily routines.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1358,10 +1358,10 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Engineer Robust Convexity into Your Path",
-      "body": "Position yourself so that unforeseen shocks bring vast windfalls while negative surprises inflict only tiny, bounded losses.\nConvex setups let you profit from randomness instead of cowering before it.",
+      "headline": "Win From Surprises",
+      "body": "Set up your life to gain big from lucky breaks.\nKeep your losses tiny whenever things fall apart.\nThat way, random events work in your favor.",
       "quote": "I want to be in a situation where I have little to lose and a lot to gain.",
-      "actionItem": "Cap your downsides strictly with defined exit points, while leaving upside horizons open-ended to capture unpredictable windfalls.",
+      "actionItem": "Cut off your downside risks early while leaving your upside wide open.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1379,10 +1379,10 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Humility of the Skeptic",
-      "body": "Recognizing our profound blindness to the architecture of chance is not cynicism; it is the ultimate foundation of intellectual wonder and rigorous truth-seeking.",
+      "headline": "Humble About Luck",
+      "body": "Admitting the power of chance is not giving up.\nIt keeps us honest, humble, and open to truth.\nLuck plays a role in almost everything we see.",
       "quote": "I am not saying that luck is everything; I am saying that we are too quick to dismiss it.",
-      "actionItem": "End every strategic briefing by asking: what role did unearned serendipity play in bringing us to this juncture?",
+      "actionItem": "Ask how much dumb luck helped you reach your current success.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1397,44 +1397,48 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
   "mindMap": {
     "id": "root",
     "label": "Fooled by Randomness",
-    "description": "Nassim Nicholas Taleb's illuminating investigation into how randomness, luck, and probability disguise themselves as skill and determinism in human affairs.\nBy peeling back the hidden machinery of financial markets and daily life, it reveals why our pattern-seeking minds consistently mistake noise for profound signal.",
+    "description": "We often mistake pure luck for skill in life and markets.\nOur brains see clear patterns where only random noise exists.",
     "children": [
       {
         "id": "theme-1-alternative-histories",
-        "label": "The Hidden Multiverse of Alternative Histories",
-        "description": "True risk cannot be measured merely by what happened in our single timeline, but by the constellation of what could have occurred instead.\nA complete scientific view of reality demands evaluating the unseen parallel paths that fate easily could have chosen.",
+        "label": "Other Possible Paths",
+        "description": "Real risk includes all the bad things that could have happened.\nDo not judge choices only by how things turned out.",
         "children": [
           {
             "id": "sub-1-1-russian-roulette",
-            "label": "Russian Roulette and Invisible Risk",
-            "description": "A player who wins Russian roulette walks away wealthy, yet their strategy is catastrophically foolish across modal universes.\nWhen evaluating success, we must examine the lurking, lethal barrels that never fired rather than celebrating survival as genius.",
+            "label": "Hidden Deadly Risks",
+            "description": "Surviving a dangerous gamble does not make you smart.\nYou were just lucky the gun did not go off.",
             "children": [
               {
                 "id": "node-1-1-1-asymmetric-outcomes",
-                "label": "Asymmetric Payoffs and Hidden Costs",
-                "description": "Catastrophic downfalls often hide behind long streaks of deceptively small, consistent rewards.\nLooking only at the realized past blinds us to outcomes where one unfavorable roll wipes out an entire career."
+                "label": "One Fatal Mistake",
+                "description": "Small steady wins can hide one giant risk.\nA single bad day can wipe out everything you built.",
+                "children": []
               },
               {
                 "id": "node-1-1-2-the-foolish-millionaire",
-                "label": "The Luck-Favored Gambler",
-                "description": "Society routinely showers reverence on individuals who simply walked through a minefield unharmed.\nIf someone gets rich through reckless exposure to ruin, their wealth is a statistical phantom rather than a badge of competence."
+                "label": "Lucky Fool Phenomenon",
+                "description": "Many rich people simply got lucky in a risky game.\nTheir sudden success is not proof of real skill.",
+                "children": []
               }
             ]
           },
           {
             "id": "sub-1-2-monte-carlo-thinking",
-            "label": "Monte Carlo Engine of Reality",
-            "description": "Simulating thousands of possible timelines unveils the true probabilistic structure underlying historical events.\nWhat seems like an extraordinary triumph in one life path is frequently nothing more than a run-of-the-mill statistical outlier across ten thousand parallel runs.",
+            "label": "Testing Parallel Worlds",
+            "description": "Imagine playing your life thousands of times.\nWild wins often happen purely by blind chance.",
             "children": [
               {
                 "id": "node-1-2-1-synthetic-histories",
-                "label": "Synthetic Histories and Sample Paths",
-                "description": "By running thousands of virtual trials on a computer, we witness how wild swings occur entirely by chance without any guiding master plan.\nThis simulation exposes how fragile our observed reality truly is compared to the vast fog of alternate trajectories."
+                "label": "Power of Chance",
+                "description": "Random events create huge swings without any master plan.\nOur current reality is only one of many possibilities.",
+                "children": []
               },
               {
                 "id": "node-1-2-2-denigrating-history",
-                "label": "The Illusion of Inevitability",
-                "description": "Hindsight leads historians to declare that past triumphs followed an orderly, inevitable progression toward a predetermined climax.\nIn truth, historical trajectories are erratic drunken walks heavily influenced by initial conditions and chaotic micro-shocks."
+                "label": "Illusion of Certainty",
+                "description": "Looking back, the past feels neat and predictable.\nIn reality, history wanders around like a drunk.",
+                "children": []
               }
             ]
           }
@@ -1442,40 +1446,44 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       },
       {
         "id": "theme-2-cognitive-quirks",
-        "label": "Cognitive Quirks and Neurological Traps",
-        "description": "Human biology evolved in an ancestral savanna where quick pattern matching was essential for immediate survival, not for processing complex statistical feedback loops.\nIn modern environments, these hardwired heuristics malfunction wildly when bombarded with stochastic financial noise.",
+        "label": "Brain Tricks and Traps",
+        "description": "Our minds evolved to spot quick patterns to survive.\nIn complex modern life, this instinct leads to foolish mistakes.",
         "children": [
           {
             "id": "sub-2-1-narrative-fallacy",
-            "label": "The Compulsion to Weave Narratives",
-            "description": "Our narrative-hungry brains crave tidy causes, inventing dramatic explanations for purely accidental spikes and drops.\nWe abhor the silence of randomness, so we graft elaborate moral tales and strategic motives onto chaotic noise.",
+            "label": "Making Up Stories",
+            "description": "We hate chaos, so we make up neat explanations.\nWe invent reasons for events that happened by accident.",
             "children": [
               {
                 "id": "node-2-1-1-post-hoc-rationalization",
-                "label": "Journalistic Rationalization Engine",
-                "description": "Financial commentators predictably manufacture confident reasons for why the market ticked up or down on any given afternoon.\nThese retrospective bedtime stories provide emotional comfort while possessing zero predictive power."
+                "label": "False Explanations",
+                "description": "Experts invent confident reasons after prices change.\nThese neat stories cannot predict what will happen next.",
+                "children": []
               },
               {
                 "id": "node-2-1-2-causation-from-coincidence",
-                "label": "Spurious Causation",
-                "description": "When two arbitrary variables move in tandem, our eager minds instantly infer a deep, causal partnership between them.\nWe overlook that in large datasets, meaningless coincidences are mathematically guaranteed to surface in abundance."
+                "label": "Random Coincidences",
+                "description": "Just because two things move together does not link them.\nIn big data, meaningless matches happen all the time.",
+                "children": []
               }
             ]
           },
           {
             "id": "sub-2-2-affective-processing",
-            "label": "Emotional Physiology vs. Cold Logic",
-            "description": "Reasoning about probabilities requires exhausting cerebral computation, whereas raw emotion reacts instantaneously to visceral sensations of gain and loss.\nEven the most seasoned traders remain prisoners to their bodily nervous systems and primal surges of neurochemistry.",
+            "label": "Feelings Beat Logic",
+            "description": "Deep thinking is hard work, but emotions react instantly.\nEven smart investors get trapped by fear and greed.",
             "children": [
               {
                 "id": "node-2-2-1-loss-aversion",
-                "label": "The Burning Sting of Losses",
-                "description": "Losing a hundred dollars creates an emotional wound far more painful than the pleasure granted by gaining the exact same sum.\nThis inherent asymmetry distorts rational risk appraisal and frequently paralyses sound decision-making."
+                "label": "Pain of Losing",
+                "description": "Losing money hurts far more than winning feels good.\nThis strong pain pushes us into bad decisions.",
+                "children": []
               },
               {
                 "id": "node-2-2-2-emotional-burnout",
-                "label": "Dopaminergic Whiplash",
-                "description": "Checking daily asset prices exposes our biology to constant micro-doses of emotional torture and euphoria.\nBecause high-frequency data consists mostly of noise, checking portfolio performance hourly induces unnecessary neurochemical exhaustion."
+                "label": "Checking Prices Constantly",
+                "description": "Watching daily price swings exhausts your mind.\nMost short-term movement is totally meaningless noise.",
+                "children": []
               }
             ]
           }
@@ -1483,40 +1491,44 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       },
       {
         "id": "theme-3-survivorship-bias",
-        "label": "Survivorship Bias and the Silent Cemetery",
-        "description": "Whenever we gaze at living winners, our conclusions are systematically warped because the millions of forgotten losers vanish completely from view.\nThis silent graveyard of failed attempts turns blind luck into an optical illusion of reproducible skill.",
+        "label": "The Silent Losers",
+        "description": "We only look at the few winners who succeed.\nWe forget the graveyard of people who tried and failed.",
         "children": [
           {
             "id": "sub-3-1-invisible-cemeteries",
-            "label": "The Graveyard of Failed Competitors",
-            "description": "To understand the true odds of any high-stakes venture, one must tally the buried bodies of those who did everything right yet met catastrophic misfortune.\nIgnoring the silent masses who failed produces a grossly distorted caricature of what success genuinely requires.",
+            "label": "Forgotten Failures",
+            "description": "To know true odds, look at those who failed.\nIgnoring them gives a false picture of how to win.",
             "children": [
               {
                 "id": "node-3-1-1-coin-tossing-monkeys",
-                "label": "The Parable of Coin-Flipping Monkeys",
-                "description": "If thousands of primates enter a coin-tossing tournament, a handful will flip heads twenty times consecutively through raw arithmetic luck.\nObservers will praise the champion monkey as an intuitive visionary, ignoring the thousands discarded in round one."
+                "label": "Lucky Coin Flips",
+                "description": "A monkey can flip heads ten times by pure luck.\nDo not praise the lucky monkey as a genius.",
+                "children": []
               },
               {
                 "id": "node-3-1-2-fund-manager-survival",
-                "label": "Spurious Track Records in Asset Management",
-                "description": "Mutual fund companies launch hundreds of funds simultaneously, quietly terminating the underperformers and heavily advertising the statistical survivors.\nInvestors pour billions into the prevailing anomalies, unaware they are buying past luck rather than durable skill."
+                "label": "Fake Winning Streaks",
+                "description": "Companies shut down losing funds and show off winners.\nInvestors end up buying past luck, not real talent.",
+                "children": []
               }
             ]
           },
           {
             "id": "sub-3-2-data-mining-bias",
-            "label": "Data Snooping and Pattern Hallucination",
-            "description": "Torture historical numbers long enough, and they will confess to whatever grand mathematical pattern you desire.\nWhen analysts test thousands of chart rules against backtested records, striking correlations appear out of nowhere purely as mathematical artifacts.",
+            "label": "Hunting False Patterns",
+            "description": "Look at enough numbers and fake trends will appear.\nFinding a past pattern does not mean it is real.",
             "children": [
               {
                 "id": "node-3-2-1-coincidental-correlations",
-                "label": "The Illusion of Predictive Rules",
-                "description": "An analyst might discover that butter production in Bangladesh flawlessly tracked the S&P 500 for a continuous decade.\nWhile the correlation was historically impeccable, relying on it to predict next month is total financial suicide."
+                "label": "Meaningless Connections",
+                "description": "Two unrelated things can look perfectly matched by chance.\nBetting your hard-earned money on them is foolish.",
+                "children": []
               },
               {
                 "id": "node-3-2-2-overfitting-models",
-                "label": "Overfitting to Past Noise",
-                "description": "Complex econometric formulas often capture historical noise with supreme precision while crumbling upon their very first collision with tomorrow.\nSimpler, robust principles consistently outperform fragile mathematical models burdened with excessive parameters."
+                "label": "Overly Complex Models",
+                "description": "Complicated formulas fit past noise but fail tomorrow.\nSimple, sturdy rules work much better over time.",
+                "children": []
               }
             ]
           }
@@ -1524,40 +1536,44 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       },
       {
         "id": "theme-4-black-swans-induction",
-        "label": "The Problem of Induction and Non-Linear Shocks",
-        "description": "No amount of observations of white swans can logically prove that all swans are white, but a single black swan effortlessly refutes the claim.\nWe inhabit an interconnected, non-linear world where rare, unexpected outliers govern history rather than polite averages.",
+        "label": "Rare Shock Events",
+        "description": "Seeing a thousand white swans proves nothing.\nJust one black swan completely breaks your theory.",
         "children": [
           {
             "id": "sub-4-1-poppers-falsification",
-            "label": "Karl Popper and the Logic of Falsification",
-            "description": "A scientific theory cannot be verified by accumulating favorable evidence; it can only be corroborated by withstanding rigorous attempts to tear it down.\nTrue epistemological humility recognizes that all knowledge is provisional and vulnerable to tomorrow's observation.",
+            "label": "Testing Your Ideas",
+            "description": "You cannot prove an idea is permanently true.\nYou can only prove when an idea is wrong.",
             "children": [
               {
                 "id": "node-4-1-1-the-asymmetry-of-truth",
-                "label": "Asymmetric Knowledge Boundaries",
-                "description": "Finding one million conforming samples does not establish a universal rule, yet a single counterexample shatters it forever.\nIntellectual maturity requires designing systems that thrive under this sharp epistemological asymmetry."
+                "label": "One Fact Destroys",
+                "description": "Millions of facts cannot prove a rule forever.\nA single surprise can shatter it in one second.",
+                "children": []
               },
               {
                 "id": "node-4-1-2-provisional-theories",
-                "label": "Working Hypotheses over Rigid Dogma",
-                "description": "Models should be treated as disposable scaffolding rather than sacred, unassailable scriptures.\nThe moment a predictive structure conflicts with systemic reality, it must be abandoned without personal pride or hesitation."
+                "label": "Stay Flexible",
+                "description": "Treat your beliefs as guesses, not holy truths.\nDrop your theory immediately when the facts prove it wrong.",
+                "children": []
               }
             ]
           },
           {
             "id": "sub-4-2-turkey-problem",
-            "label": "The Parable of the Thanksgiving Turkey",
-            "description": "Every day the butcher feeds the bird, reinforcing its statistical model that humans are benevolent protectors devoted to its welfare.\nIts confidence peaks on the morning before Thanksgiving, right when historical experience becomes lethally wrong.",
+            "label": "The Thanksgiving Turkey",
+            "description": "The turkey gets fed every day and feels safe.\nOn Thanksgiving day, its safe world ends without warning.",
             "children": [
               {
                 "id": "node-4-2-1-false-stability",
-                "label": "The Sedative of Low Volatility",
-                "description": "Prolonged stretches of peaceful calm do not signify structural safety; they often merely conceal compounding vulnerabilities underneath.\nWhen systemic pressures build quietly, the eventual break is explosive, swift, and catastrophic."
+                "label": "Quiet Danger",
+                "description": "Long calm periods do not mean you are safe.\nQuiet waters often hide dangerous storms building beneath.",
+                "children": []
               },
               {
                 "id": "node-4-2-2-rare-event-blindness",
-                "label": "Blowing Up in Tail Risk",
-                "description": "Many Wall Street hedge funds harvest tiny nickels day after day by exposing themselves to a devastating steamroller event once every decade.\nThey feel triumphant until a ten-standard-deviation shock obliterates their capital in forty-eight hours."
+                "label": "Picking Up Pennies",
+                "description": "Do not chase tiny profits in front of steamrollers.\nA rare sudden shock can wipe out your entire life savings.",
+                "children": []
               }
             ]
           }
@@ -1565,40 +1581,44 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
       },
       {
         "id": "theme-5-stoic-skepticism",
-        "label": "Stoic Skepticism and Philosophical Antidotes",
-        "description": "Because our primal brains cannot be rewired to feel comfortable with raw chaos, we must construct external behavioral scaffolds.\nEmbracing a posture of rigorous intellectual modesty, structural resilience, and classical virtue offers the only dependable compass.",
+        "label": "Staying Calm and Humble",
+        "description": "You cannot stop random bad luck from happening.\nYou can only control how you act and prepare.",
         "children": [
           {
             "id": "sub-5-1-solons-admonition",
-            "label": "Solon's Wisdom: Count No Man Happy Until Dead",
-            "description": "The ancient Athenian lawgiver Solon warned King Croesus that a magnificent fortune can be extinguished by random adversity in the final hour.\nTrue quality of life cannot be graded while the roulette wheel of fortune is still spinning.",
+            "label": "Solon's Rule",
+            "description": "Never call someone lucky until their life is over.\nRandom tragedy can strike even the richest person late.",
             "children": [
               {
                 "id": "node-5-1-1-ephemeral-glory",
-                "label": "Transient Triumphs of the Arrogant",
-                "description": "Those who mistake temporary favorable market winds for personal brilliance routinely become victims of tragic hubris.\nTreating status and financial wealth as fragile, temporary loans from Lady Fortune shields the mind from despair."
+                "label": "Pride Before Ruin",
+                "description": "People who brag about luck usually lose it all.\nTreat money and fame as borrowed gifts that can vanish.",
+                "children": []
               },
               {
                 "id": "node-5-1-2-dignity-under-chaos",
-                "label": "Grace and Personal Composure",
-                "description": "When cruel unpredictability strikes down our carefully built enterprises, our interior demeanor remains the only territory under our control.\nHow a person conducts themselves in the face of misfortune reveals their true mettle far more than effortless victory."
+                "label": "Inner Strength",
+                "description": "You cannot always control what happens to you.\nYou can always control your own dignity and courage.",
+                "children": []
               }
             ]
           },
           {
             "id": "sub-5-2-ulysses-contracts",
-            "label": "Ulysses Pacts and Behavioral Architecture",
-            "description": "Knowing he could not resist the seductive song of the Sirens, Ulysses had himself lashed tightly to the mast of his ship.\nBecause human discipline invariably collapses under temptation and panic, we must erect mechanical barriers that protect us from our own biological weaknesses.",
+            "label": "Protecting Yourself",
+            "description": "Willpower fails when fear and panic take over.\nSet up strict safety rules before trouble begins.",
             "children": [
               {
                 "id": "node-5-2-1-noise-filtering-habits",
-                "label": "Radical Information Diets",
-                "description": "Consciously disconnecting from the twenty-four-hour financial news stream purges poisonous low-frequency noise from your mental ecology.\nTuning out trivial fluctuations preserves clarity for grasping the few underlying structural principles that matter."
+                "label": "Ignore Daily News",
+                "description": "Turn off constant business news updates.\nCutting out noisy chatter keeps your mind clear.",
+                "children": []
               },
               {
                 "id": "node-5-2-2-stop-loss-mechanisms",
-                "label": "Automated Structural Boundaries",
-                "description": "Pre-committing to rigid exit gates removes panic and emotional rationalization from the crucible of decision-making.\nBy automating defensive boundaries before the storm arrives, you ensure survival when catastrophic tail shocks shake the world."
+                "label": "Automatic Exit Rules",
+                "description": "Decide when to walk away before you start.\nAutomatic limits save you when panic hits.",
+                "children": []
               }
             ]
           }

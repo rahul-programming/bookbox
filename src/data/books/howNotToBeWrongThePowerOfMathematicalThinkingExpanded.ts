@@ -1,5 +1,5 @@
 // How Not to Be Wrong: The Power of Mathematical Thinking by Jordan Ellenberg
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -775,169 +775,169 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
   "actionItems": [
     {
       "id": "how-not-to-be-wrong-the-power-of-mathematical-thinking-act-1",
-      "title": "Armour the Hidden Survivors",
-      "description": "Stop auditing only visible failures. Inspect what survived without trauma to locate where unseen, lethal vulnerabilities actually lie, mirroring Abraham Wald's World War II aircraft analysis.",
+      "title": "Look for the Missing Clues",
+      "description": "Never look only at the people who stayed or spoke up. You must study who left quietly to fix real flaws.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Take an ongoing project or product and list the 3 most frequent complaints from active users.",
-        "Identify the 'missing data'\u2014the silent churned customers or non-users who never reached out.",
-        "Ask: 'If the survivors are showing armor marks here, where are the fatal hits that destroy the ones we never see?'",
-        "Reallocate your next defensive effort entirely to the unmeasured drop-off point."
+        "1. List the top three complaints from your current active users.",
+        "2. Find users who quit quietly without ever saying a single word.",
+        "3. Ask what hidden problem made those silent people walk away.",
+        "4. Fix that unseen issue instead of only helping vocal users."
       ],
       "sourceChapter": "Introduction: Less Like Sweden"
     },
     {
       "id": "how-not-to-be-wrong-the-power-of-mathematical-thinking-act-2",
-      "title": "Establish the Linearity Tripwire",
-      "description": "Extrapolating current trends in a straight line produces disastrous strategic forecasts. Identify curves that bend or hit diminishing returns before committing capital.",
+      "title": "Spot the Hidden Slowdown Point",
+      "description": "Trends rarely continue in a straight line forever. Find where extra effort stops giving you good results.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Select your primary growth projection or operational metric for the quarter.",
-        "Graph the projection at 2x and 5x scale to spot where physical constraints, market saturation, or costs turn non-linear.",
-        "Determine the exact threshold (the inflection point) where additional investment yields decreasing marginal utility.",
-        "Set an explicit stop-investment tripwire at that inflection point."
+        "1. Pick your main growth goal or sales target this month.",
+        "2. Imagine what happens if sales grow five times bigger soon.",
+        "3. Find the exact point where costs start rising too fast.",
+        "4. Set a clear rule to stop spending past that point."
       ],
       "sourceChapter": "Chapter 1: Less Like Sweden"
     },
     {
       "id": "how-not-to-be-wrong-the-power-of-mathematical-thinking-act-3",
-      "title": "The False Positive Base-Rate Filter",
-      "description": "Calculate posterior probability before reacting to alarming operational alerts. Rare baseline failures generate far more false alarms than genuine crises.",
+      "title": "Filter Out False Alarms",
+      "description": "Rare problems trigger far more false alarms than real disasters. Check how common the problem actually is before panicking.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "When an automated alert, anomaly report, or suspicious test result crosses your desk, do not react immediately.",
-        "Identify the base rate: How frequently does this catastrophic condition actually occur across the whole sample?",
-        "Factor in the test's false positive rate alongside its true positive accuracy.",
-        "Calculate the true Bayesian odds before mobilizing emergency resources or escalating."
+        "1. Pause for two minutes whenever a scary alert pops up.",
+        "2. Ask how often this disaster truly happens in normal life.",
+        "3. Check how often your warning system makes simple mistakes.",
+        "4. React only if the math shows a real emergency exists."
       ],
       "sourceChapter": "Chapter 6: When Am I Going to Use This?"
     },
     {
       "id": "how-not-to-be-wrong-the-power-of-mathematical-thinking-act-4",
-      "title": "Eradicate the P-Hacking Incentive",
-      "description": "When teams test dozens of variations, random noise disguises itself as statistical significance. Require pre-registered hypotheses to kill cherry-picked wins.",
+      "title": "Pick Your Test Goal First",
+      "description": "Testing too many ideas creates fake wins by pure luck. Write down your one goal before starting any new experiment.",
       "category": "system",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "Audit ongoing A/B tests and analytical reporting dashboards across your division.",
-        "Mandate a pre-registration protocol: teams must write down their single primary metric, sample size, and cutoff before running experiments.",
-        "Enforce a rule that post-hoc discoveries are treated strictly as exploratory hypotheses requiring a fresh validation run.",
-        "Add a Bonferroni correction checklist: divide acceptable risk margins by the number of variables explored."
+        "1. Check the experiments and tests your team currently runs.",
+        "2. Force teams to write their main goal before testing starts.",
+        "3. Treat surprise findings as clues that need a brand new test.",
+        "4. Reject any lucky result that nobody planned to test initially."
       ],
       "sourceChapter": "Chapter 10: The Extrapolative Strategy"
     },
     {
       "id": "how-not-to-be-wrong-the-power-of-mathematical-thinking-act-5",
-      "title": "Map Condorcet Voting Paradoxes",
-      "description": "In multi-option strategic decisions, group preferences are often circular and intransitive. Structure voting protocols to prevent agenda-rigging.",
+      "title": "Fix Broken Group Votes",
+      "description": "Group votes can easily get trapped in confusing loops. Use ranked lists so the meeting leader cannot rig choices.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "List the top 3 competing strategic initiatives being debated by your leadership committee.",
-        "Test paired comparisons: Does Option A beat B, B beat C, and C beat A across different sub-factions?",
-        "Identify whether the current meeting leader's voting order artificially dictates the winner.",
-        "Replace open discussion with ranked-choice or approval voting matrices on the decision dashboard."
+        "1. Write down the top three choices your team must pick.",
+        "2. Compare each choice head-to-head in pairs against the others.",
+        "3. Notice if the order of voting changes who wins today.",
+        "4. Have everyone rank all choices from favorite to least favorite."
       ],
       "sourceChapter": "Chapter 18: There Is No Such Thing as Public Opinion"
     },
     {
       "id": "how-not-to-be-wrong-the-power-of-mathematical-thinking-act-6",
-      "title": "Deploy the Expected Value Razor",
-      "description": "Calculate true mathematical expected value instead of chasing improbable windfalls or overpaying to eliminate negligible risks.",
+      "title": "Weigh Chances Before You Bet",
+      "description": "Stop chasing wild jackpots or buying useless protection plans. Multiply real gains by real odds to make smart choices.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Isolate an active contract, insurance policy, warranty, or lottery-like investment opportunity.",
-        "Multiply the realistic net payoff by its actual probability of occurrence.",
-        "Multiply the total cost and downside loss by the probability of failure.",
-        "Subtract expected losses from expected gains; immediately kill negative expected value positions regardless of emotional appeal."
+        "1. Pick a warranty, lottery ticket, or risky new business deal.",
+        "2. Multiply the possible prize by your real chance of winning.",
+        "3. Multiply your total costs by your real chance of losing.",
+        "4. Walk away if your expected loss is bigger than gain."
       ],
       "sourceChapter": "Chapter 4: The Extrapolation of Nothing"
     },
     {
       "id": "how-not-to-be-wrong-the-power-of-mathematical-thinking-act-7",
-      "title": "Unmask Simpson's Paradox in Aggregate Data",
-      "description": "Overall trendlines can point up while every single underlying subgroup is collapsing. Deconstruct aggregate metrics into granular tranches.",
+      "title": "Break Down Giant Total Numbers",
+      "description": "Big total numbers often hide terrible drops underneath. Split your main numbers into smaller groups to see the truth.",
       "category": "audit",
       "timeEstimateMinutes": 40,
       "stepByStep": [
-        "Pull your primary company performance metric that currently shows positive macro growth.",
-        "Segment the underlying cohort data by size, geography, customer acquisition channel, and tenure.",
-        "Check whether conversion or retention is actually dropping within every individual cohort despite higher total aggregate volume.",
-        "Present the segmented reality to your team to correct false confidence in macro numbers."
+        "1. Pick one key company number that looks like good news.",
+        "2. Split that total number by customer age, location, and type.",
+        "3. Check if every small group is actually doing worse now.",
+        "4. Share the real group numbers with your team right away."
       ],
       "sourceChapter": "Chapter 11: International Trade and the Baltimore Stockbroker"
     },
     {
       "id": "how-not-to-be-wrong-the-power-of-mathematical-thinking-act-8",
-      "title": "Audit Baltimore Stockbroker Scams",
-      "description": "Distinguish genuine edge from survivor bias. If thousands of forecasters make predictions, someone will be right ten times in a row purely by chance.",
+      "title": "Spot Lucky Winning Streaks",
+      "description": "If thousands guess, somebody gets lucky ten times in a row. Test whether an expert had real skill or lucky coin-flips.",
       "category": "environment",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Review external vendors, consultants, or trading systems claiming a flawless historical win streak.",
-        "Calculate the denominator: How many parallel actors or trials existed initially before this winner emerged?",
-        "Apply the binomial distribution to determine whether a streak of that length is mathematically expected from pure coin flips.",
-        "Require proof of edge under out-of-sample stress tests before signing agreements."
+        "1. Look at any expert who boasts about an unbroken win streak.",
+        "2. Ask how many total people started making guesses back then.",
+        "3. Check if random luck alone explains their long lucky streak.",
+        "4. Demand proof that their system works on brand new data."
       ],
       "sourceChapter": "Chapter 15: The Baltimore Stockbroker"
     },
     {
       "id": "how-not-to-be-wrong-the-power-of-mathematical-thinking-act-9",
-      "title": "Regress to the Mean Reality Check",
-      "description": "Extreme performances\u2014both stellar wins and terrible quarters\u2014naturally drift back toward the average. Stop inventing causal narratives for statistical gravity.",
+      "title": "Expect Scores to Normalize Soon",
+      "description": "Crazy high or low results soon slide back toward normal. Do not make up dramatic stories for everyday statistical luck.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Review yesterday's biggest outlier event: an extraordinary sales close or a catastrophic blunder.",
-        "Strip away the subjective narrative claiming genius strategy or sudden systemic collapse.",
-        "Estimate the baseline mean performance for that individual or asset class.",
-        "Set today's operational forecast based on natural regression to the mean rather than sustained extreme variance."
+        "1. Look at yesterday's biggest wild win or terrible messy blunder.",
+        "2. Ignore dramatic stories claiming sudden genius or huge system failure.",
+        "3. Find the normal average performance score for that person today.",
+        "4. Plan tomorrow around normal average results instead of wild extremes."
       ],
       "sourceChapter": "Chapter 13: The Golden Goose"
     },
     {
       "id": "how-not-to-be-wrong-the-power-of-mathematical-thinking-act-10",
-      "title": "The Null Hypothesis Demolition",
-      "description": "Absence of evidence is not evidence of absence. Prevent leadership from assuming zero risk simply because a study or audit failed to reject the null.",
+      "title": "Check Small Safety Studies Carefully",
+      "description": "Finding no proof of danger does not mean something is safe. Weak tests with few users miss very dangerous rare problems.",
       "category": "audit",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Inspect an internal audit or research memo that concludes 'no significant risk was detected.'",
-        "Examine the sample size and the statistical power of the test used in the analysis.",
-        "Calculate whether the sample size was even capable of detecting a catastrophic but low-frequency failure.",
-        "Reclassify underpowered 'no risk found' findings as 'insufficient data' rather than proven safety."
+        "1. Grab any report claiming no big danger was ever found.",
+        "2. Look at how few people or items were actually tested.",
+        "3. Ask if the small test could even spot rare disasters.",
+        "4. Label weak tests as missing facts rather than proven safety."
       ],
       "sourceChapter": "Chapter 8: The Standard of Proof"
     },
     {
       "id": "how-not-to-be-wrong-the-power-of-mathematical-thinking-act-11",
-      "title": "Construct an Asymmetric Arbitrage Ledger",
-      "description": "Exploit structural mispricings created by rules designed by institutions that misunderstood expected utility, like the Cash WinFall lottery syndicate.",
+      "title": "Find Math Flaws in Rules",
+      "description": "Companies and games often create clumsy reward rules by mistake. Hunt for rule quirks that offer easy, unfair mathematical advantages.",
       "category": "system",
       "timeEstimateMinutes": 60,
       "stepByStep": [
-        "Scan regulatory rules, incentive schemes, platform pricing tiers, or reward structures in your market.",
-        "Model scenarios where secondary trigger conditions alter the payoff math (e.g., rollover weeks, volume cliffs).",
-        "Calculate whether pool dilution or threshold effects create a transient window of positive expected return.",
-        "Build an execution checklist that deploys capital only when expected value crosses a minimum 15% net threshold."
+        "1. Read the pricing, bonus, or reward rules in your field.",
+        "2. Look for special moments where payout values suddenly jump high.",
+        "3. Calculate if those special times offer guaranteed profit for you.",
+        "4. Spend money only when the math clearly favors your side."
       ],
       "sourceChapter": "Chapter 5: More Like Sweden"
     },
     {
       "id": "how-not-to-be-wrong-the-power-of-mathematical-thinking-act-12",
-      "title": "Enforce Quantified Uncertainty Bounds",
-      "description": "Ban point estimates in strategic planning. Require error margins and confidence intervals on every operational timeline and revenue forecast.",
+      "title": "Give Safe Number Ranges Always",
+      "description": "Single numbers hide big risks and create false certainty. Always demand a high and low range for every project estimate.",
       "category": "daily-routine",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Review any deadline, delivery timeline, or revenue estimate submitted to you today as a single number.",
-        "Refuse to approve the estimate until it is presented as a probability range (e.g., 90% confidence interval).",
-        "Stress-test the distribution tails: Ask what specific conditions blow open the upper and lower 5% limits.",
-        "Make operational resource commitments based on the fat tails rather than the optimistic midpoint."
+        "1. Find any project deadline or sales forecast using one number.",
+        "2. Ask for a realistic best case and worst case range.",
+        "3. Ask what bad events would push numbers past the limits.",
+        "4. Plan your budget and staff around the worst case possibility."
       ],
       "sourceChapter": "Chapter 9: The International Journal of Haruspicy"
     }
@@ -1114,10 +1114,10 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       "author": "Jordan Ellenberg",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Missing Bullet Holes: Survivorship Bias",
-      "body": "Abraham Wald famously recognized that military armor should be placed where returning planes had no bullet holes, because planes hit in those critical zones never returned to be analyzed.\nOptimizing only on visible successes creates catastrophic strategic vulnerabilities.",
+      "headline": "Look for Missing Clues",
+      "body": "Planes with bullet holes made it home safely.\nThe missing planes were shot in other spots and crashed.\nAlways check the silent failures, not just the survivors.",
       "quote": "The armor, said Wald, doesn't go where the bullet holes are. It goes where the bullet holes aren't: on the engines.",
-      "actionItem": "Analyze failed initiatives and departed customers rather than benchmarking solely against current top performers.",
+      "actionItem": "Talk to lost customers to learn why they walked away.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1135,10 +1135,10 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       "author": "Jordan Ellenberg",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Linearity Is an Illusion of Small Distances",
-      "body": "Every curve looks like a straight line when viewed under high magnification.\nLeaders err when they extrapolate early local trajectories into macro forecasts, forgetting that physical, financial, and organizational constraints inevitably bend the curve.",
+      "headline": "Growth Always Slows Down",
+      "body": "Trends look straight when you zoom in close.\nIn real life, progress hits walls and bends.\nNothing keeps growing at the same speed forever.",
       "quote": "Linear reasoning is easy, it's attractive, and it's frequently used by people who know better. But it's almost always wrong.",
-      "actionItem": "Identify where diminishing returns or capacity limits turn your linear growth model into a sigmoid curve.",
+      "actionItem": "Find the limits that will stop your project from growing.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1156,10 +1156,10 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       "author": "Jordan Ellenberg",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Invert Lottery Economics",
-      "body": "Lottery mechanisms thrive by harvesting tiny, uncalculated negative expected values from millions of individuals.\nAs a strategist, never accept negative expected value bets for psychological comfort; seek situations with positive mathematical expectancy even when outcomes are lumpy.",
+      "headline": "Avoid Bad Bets",
+      "body": "Lotteries take tiny amounts of money from millions of hopeful players.\nOver time, players almost always lose their cash.\nSmart thinkers only back bets with good odds.",
       "quote": "A lottery is a tax on people who are bad at math.",
-      "actionItem": "Calculate expected value explicitly on recurring small expenditures and operational hedges.",
+      "actionItem": "Cut out small daily habits that cost money with zero payoff.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1177,10 +1177,10 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       "author": "Jordan Ellenberg",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Regression to the Mean as Operational Reality",
-      "body": "Exceptional performance is usually the intersection of high baseline competence and extreme positive randomness.\nWhen subsequent results soften, management wrongly blames complacency instead of acknowledging natural statistical regression.",
+      "headline": "Things Return to Normal",
+      "body": "Wild streaks of luck rarely last for long.\nAfter an amazing run, scores drop back toward the average.\nThis drop is math at work, not laziness.",
       "quote": "The flight instructor thought praise made pilots worse and screaming made them better. He was being fooled by regression to the mean.",
-      "actionItem": "Decouple skill from luck when evaluating post-record quarter performance before changing strategy.",
+      "actionItem": "Do not panic when great results cool down to normal levels.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1198,10 +1198,10 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       "author": "Jordan Ellenberg",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Law of Small Numbers",
-      "body": "Small sample sizes produce extreme variations, appearing as miraculous breakthroughs or total collapses.\nViewing localized data without adequate sample volume causes leadership whiplash and wasted resources.",
+      "headline": "Small Groups Fool You",
+      "body": "Tiny sample groups swing between wild highs and lows.\nA small test can look like magic by pure luck.\nAlways gather enough facts before making a call.",
       "quote": "Small samples are noisy. When you see extreme outcomes, look first at the denominator.",
-      "actionItem": "Enforce minimum sample sizes before validating operational changes or marketing campaign winners.",
+      "actionItem": "Wait for more user data before changing your core plan.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1219,10 +1219,10 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       "author": "Jordan Ellenberg",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Mathematics Is Common Sense Extended",
-      "body": "Formal mathematics is not a set of arcane rituals; it is the systematic application of disciplined, rigorous reasoning to prevent intuition from misleading you.",
+      "headline": "Math Is Common Sense",
+      "body": "Math is not just about complex formulas on a chalkboard.\nIt simply helps you think clearly about confusing problems.\nIt keeps your gut feelings from tricking you.",
       "quote": "Math is common sense made precise, compressed, and stripped of unnecessary detail.",
-      "actionItem": "Translate intuition-based business theses into explicit mathematical relations and check their logical limits.",
+      "actionItem": "Write down your assumptions with real numbers to test them.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1240,10 +1240,10 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       "author": "Jordan Ellenberg",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Pre-Register Decision Criteria to Ban P-Hacking",
-      "body": "When experiments fail, teams instinctively slice and dice secondary metrics until they find a correlation that appears statistically significant.\nThis creates corporate self-deception and misallocated capital.",
+      "headline": "Pick Your Goal First",
+      "body": "If you check twenty different stats, one will look good by chance.\nPeople pick that lucky stat and declare victory.\nChoose your win condition before you start.",
       "quote": "If you measure twenty variables, one of them will look statistically significant at the 5% level purely by chance.",
-      "actionItem": "Lock the primary metric and success threshold prior to launching any pilot program or A/B test.",
+      "actionItem": "Pick one clear metric before launching any new test.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1261,10 +1261,10 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       "author": "Jordan Ellenberg",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Bayesian Inference: Anchoring on the Prior",
-      "body": "A positive test or startling data point does not mean the underlying hypothesis is true.\nIts real significance depends heavily on the base rate (prior probability) of the event occurring in reality.",
+      "headline": "Check the Baseline First",
+      "body": "A surprising result does not prove a wild claim.\nRare events remain rare, even after a weird signal appears.\nAlways weigh new news against ordinary facts.",
       "quote": "The condition of knowing nothing is not the same as the condition of knowing that all possibilities are equally likely.",
-      "actionItem": "Demand baseline historical frequencies before evaluating any new warning signal or breakthrough claim.",
+      "actionItem": "Check how often an event normally happens before reacting.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1282,10 +1282,10 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       "author": "Jordan Ellenberg",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Null Hypothesis Isn't Proven Innocent",
-      "body": "Failing to reject the null hypothesis simply means the current data lacks the statistical power to expose the effect.\nIt does not establish evidence of absence.\nIn risk management, 'no record of failure' is never proof of security.",
+      "headline": "Silence Is Not Safety",
+      "body": "Not finding a flaw does not mean everything is safe.\nYour tests might just be too weak to catch it.\nA clean record can hide lurking dangers.",
       "quote": "Absence of evidence is not evidence of absence, especially when your detector is broken or your sample is tiny.",
-      "actionItem": "Distinguish between 'verified safe' and 'not yet failed' in your compliance and risk architectures.",
+      "actionItem": "Test your systems hard instead of assuming they are safe.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1303,10 +1303,10 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       "author": "Jordan Ellenberg",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Laffer Curve Paradox of Extrapolations",
-      "body": "Tax rates at 0% yield zero revenue; tax rates at 100% yield zero revenue because economic activity ceases.\nThe optimal rate is somewhere in between.\nEvery policy and business incentive possesses an inverted U-curve.",
+      "headline": "The Sweet Spot Curve",
+      "body": "Zero taxes bring zero cash, but tax rates of one hundred percent also bring zero.\nPushing rules to extreme levels breaks the whole system.\nThe sweet spot always sits in the middle.",
       "quote": "The Laffer curve is a picture of an obvious truth: zero times anything is zero, and extreme incentives distort behavior.",
-      "actionItem": "Map the point of diminishing and negative returns for every incentive or metric you push to its limit.",
+      "actionItem": "Spot where pushing a rule too hard starts backfiring.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1324,10 +1324,10 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       "author": "Jordan Ellenberg",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Exploit Market Inefficiencies by Aggregation",
-      "body": "Ellenberg recounts how MIT students cracked the Massachusetts Cash WinFall lottery when the jackpot rolled down to lower tiers, creating mathematical positive expectancy.\nIdentify structural market rules where aggregate participation yields asymmetric advantage.",
+      "headline": "Find Flaws in Rules",
+      "body": "Students found a game where buying tickets in bulk guaranteed profit.\nThey were not gambling, but exploiting a hidden math loophole.\nLook for system rules that tip the odds in your favor.",
       "quote": "They weren't gambling; they were buying a dollar for eighty cents.",
-      "actionItem": "Search for structural asymmetries where rules inadvertently invert risk-reward ratios in your favor.",
+      "actionItem": "Look for rules in your market that reward doing things in bulk.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1345,10 +1345,10 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       "author": "Jordan Ellenberg",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Doubt Is an Analytical Asset",
-      "body": "True mathematical thinking does not offer absolute certainty; it provides a rigorous method for quantifying and managing uncertainty.\nUnshakable conviction in the boardroom is often an operational hazard.",
+      "headline": "Doubt Is Good",
+      "body": "Clear thinking does not make you fully certain about everything.\nIt gives you tools to handle things you cannot know.\nBeing too sure of yourself is often dangerous.",
       "quote": "One of the most painful things about our time is that those who feel certainty are stupid, and those with any imagination and understanding are filled with doubt and indecision.",
-      "actionItem": "Reward executive skepticism and explicit probabilistic statements over performative confidence.",
+      "actionItem": "Welcome healthy doubt from your team during big planning meetings.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1366,10 +1366,10 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       "author": "Jordan Ellenberg",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Ecological Fallacy in Segmentation",
-      "body": "Deducing individual behavior from aggregate group statistics is a fatal analytical error.\nJust because a territory or demographic skews one way on average does not mean individual prospects within it follow the pattern.",
+      "headline": "Groups Hide Individuals",
+      "body": "You cannot judge one person by their group average.\nA team may lean one way, while individuals lean the other.\nAlways judge people on their own actions.",
       "quote": "What is true of the group is not necessarily true of the individuals who make it up.",
-      "actionItem": "Audit marketing and hiring rubrics to eliminate broad demographic proxies in favor of direct behavioral data.",
+      "actionItem": "Judge team members by real work instead of general labels.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1387,10 +1387,10 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       "author": "Jordan Ellenberg",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Condorcet's Voting Paradox and Agenda Control",
-      "body": "When three or more alternatives exist, majority preferences can become intransitive (A beats B, B beats C, C beats A).\nThe person who sets the order of voting dictates the final outcome, exposing the vulnerability of democratic committee decisions.",
+      "headline": "Voting Order Decides Winners",
+      "body": "When people choose between three options, vote results can go in circles.\nThe person picking the vote order often controls the final choice.\nHow you ask matters as much as who votes.",
       "quote": "The outcome of a vote tells you as much about the agenda setter's power as it does about the voters' desires.",
-      "actionItem": "Design decision agendas consciously; recognize that voting order often predetermines executive decisions.",
+      "actionItem": "Notice who sets the agenda before voting on team choices.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1408,10 +1408,10 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       "author": "Jordan Ellenberg",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Beware of Extrapolating Into Absurdity",
-      "body": "Extrapolation assumes existing trends operate in a vacuum indefinitely.\nWhen analysts project linear growth curves decades out, challenge the physical and regulatory boundaries that must inevitably throttle the curve.",
+      "headline": "Do Not Draw Endless Lines",
+      "body": "Guessing the distant future from short trends leads to silly mistakes.\nThings hit boundaries in the real world.\nNever assume current trends will run forever without stopping.",
       "quote": "If you extrapolate a straight line far enough, you leave the planet entirely.",
-      "actionItem": "Establish explicit upper boundary constraints on all 3-to-5 year financial and customer projections.",
+      "actionItem": "Set realistic ceiling limits on all your sales forecasts.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1429,10 +1429,10 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       "author": "Jordan Ellenberg",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Danger of False Positive Compounding",
-      "body": "When screening for rare events (fraud, top talent, security breaches), even a test with 99% accuracy will produce more false alarms than true detections if the base rate is 1 in 10,000.\nLow base rates overwhelm high test accuracy.",
+      "headline": "The False Alarm Trap",
+      "body": "When searching for rare events, tests trigger many false alarms.\nEven accurate tools cry wolf when real cases are scarce.\nBe careful before acting on early warnings.",
       "quote": "When the base rate is low, almost all positive results are false alarms.",
-      "actionItem": "Incorporate multi-stage verification filters before acting on automated fraud or compliance alerts.",
+      "actionItem": "Run a second check before acting on automated alerts.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1450,10 +1450,10 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       "author": "Jordan Ellenberg",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Buffon's Needle: Structured Randomness as a Solution",
-      "body": "Random processes, when aggregated over sufficient iterations, resolve into precise geometric constants.\nStrategists can harness Monte Carlo simulations and structured trials to solve complex forecasting problems that resist direct analytical solutions.",
+      "headline": "Use Random Trials",
+      "body": "Tossing random needles onto lined paper can help calculate pi.\nRandom steps reveal tidy answers when you repeat them many times.\nYou can use repeated trials to crack messy puzzles.",
       "quote": "Randomness is not chaotic ignorance; properly structured, it is a scalpel for discovering fundamental truths.",
-      "actionItem": "Use Monte Carlo simulations to stress-test financial projections against extreme parameter fluctuations.",
+      "actionItem": "Test your plans against many random worst-case scenarios.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1471,10 +1471,10 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       "author": "Jordan Ellenberg",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Discipline of Asking What Else Could Be True",
-      "body": "Mathematical rigor forces leaders to articulate the counterfactual.\nDecisive leaders do not simply look for confirming evidence; they construct alternatives and attempt to disprove their core thesis.",
+      "headline": "Ask What Else Fits",
+      "body": "Do not search only for facts that agree with you.\nTry hard to prove your own ideas wrong.\nAsking what else could be true protects you from mistakes.",
       "quote": "To do mathematics is to constantly ask oneself: What else might this be? Where am I deceiving myself?",
-      "actionItem": "Mandate a formal red team exercise on major capital allocation decisions to expose blind spots.",
+      "actionItem": "Ask a coworker to poke holes in your plan today.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1492,10 +1492,10 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       "author": "Jordan Ellenberg",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Calculate Asymmetry in Game Theory",
-      "body": "Zero-sum games require defensive minimax strategies, but positive-sum enterprise environments reward players who reshape payoff matrices.\nEnsure you never play games where your counterparty enjoys unlimited upside while your downside is unbounded.",
+      "headline": "Cap Your Downside",
+      "body": "Your moves depend on what other players plan to do.\nNever join deals where others gain while you take all the loss.\nMake sure your risks stay limited.",
       "quote": "The right move depends not just on what is best for you, but on what the other player calculates is best for them.",
-      "actionItem": "Audit contract liability clauses to guarantee downside risk is capped or shared equitably.",
+      "actionItem": "Check contract terms to make sure your worst-case loss is capped.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1513,10 +1513,10 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       "author": "Jordan Ellenberg",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Projective Geometry: Parallel Lines Meet at the Horizon",
-      "body": "In projective geometry, parallel lines intersect at a point at infinity.\nWhat appears irreconcilable in narrow operational silos often converges when leadership elevates the perspective to broad strategic horizons.",
+      "headline": "Change Your Viewpoint",
+      "body": "Lines that seem parallel meet when drawn toward the horizon.\nArguments look impossible when teams stay stuck in tiny corners.\nStepping back shows how different goals actually line up.",
       "quote": "The rules change when you change the geometry of the space you are working in.",
-      "actionItem": "Reflect on conflicting department goals by reframing them within the overarching enterprise outcome.",
+      "actionItem": "Zoom out to solve team fights by focusing on the shared mission.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1530,45 +1530,49 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
   ],
   "mindMap": {
     "id": "root",
-    "label": "How Not to Be Wrong: The Power of Mathematical Thinking",
-    "description": "Mathematics is not mechanical calculation; it is an analytical extension of common sense designed to pierce optical illusions and eliminate self-deception in high-stakes environments.\nMastering mathematical thinking arms leaders with rigorous mental armor against false certainties, uncalibrated risks, and systemic blind spots.",
+    "label": "How Not to Be Wrong",
+    "description": "Math is not just about numbers.\nIt is common sense turned into a tool to avoid bad decisions.",
     "children": [
       {
         "id": "theme-linearity",
-        "label": "The Fallacy of Linear Thinking",
-        "description": "Linear extrapolation is the most common cognitive trap in strategic forecasting, blindly assuming that current trajectories persist indefinitely without friction or inflection points.\nSound decision-makers recognize non-linear dynamics, inflection limits, and local optimizations across complex real-world landscapes.",
+        "label": "Straight Line Traps",
+        "description": "Life rarely moves in a straight line.\nAssuming things keep going the same way leads to huge mistakes.",
         "children": [
           {
             "id": "non-linear-curves",
-            "label": "Non-Linear Curves and Diminishing Returns",
-            "description": "System outputs rarely scale directly with system inputs because friction, resource exhaustion, and saturation introduce severe curvature into real-world phenomena.\nFailing to map the true geometry of a response function leads leadership to misallocate capital and over-commit resources into diminishing return zones.",
+            "label": "Curves and Limits",
+            "description": "More is not always better.\nAt some point, extra effort stops giving you good results.",
             "children": [
               {
                 "id": "laffer-curve-principle",
-                "label": "The Laffer Curve Principle",
-                "description": "Extremes converge toward zero utility while optimal trade-offs hide along non-linear curves in the interior.\nDogmatic strategists fail by assuming monotonic trajectories when policy outcomes inherently invert past critical thresholds."
+                "label": "The Middle Sweet Spot",
+                "description": "Too much or too little of something usually fails.\nThe best choice often sits right in the middle.",
+                "children": []
               },
               {
                 "id": "swedish-cancer-paradox",
-                "label": "Local Slopes vs Global Trajectories",
-                "description": "Observing a short-term trend creates dangerous illusions when leaders project localized linear slopes across wider horizons.\nLocal slopes frequently reverse direction once systemic second-order effects begin exerting structural drag on performance."
+                "label": "Short Clues, Big Mistakes",
+                "description": "A short-term trend can easily fool you.\nZooming out shows where things are really heading.",
+                "children": []
               }
             ]
           },
           {
             "id": "danger-of-extrapolation",
-            "label": "The Hazards of Naked Extrapolation",
-            "description": "Projecting current growth vectors outward without stress-testing boundary conditions produces catastrophic strategic delusions.\nAs Ellenberg cautions, projecting the trend of declining smoking rates or expanding waistlines into the indefinite future yields absurd, mathematically impossible end states.",
+            "label": "Guessing Too Far",
+            "description": "Drawing lines into the future is dangerous.\nThings change, slow down, and hit hard limits.",
             "children": [
               {
                 "id": "extrapolation-limits",
-                "label": "Carrying Capacities and Boundary Constraints",
-                "description": "Physical, economic, and behavioral carrying capacities inevitably enforce ceilings or floors on unchecked compound trajectories.\nStrategic models that fail to incorporate friction and boundary barriers amount to corporate fantasy rather than operational analysis."
+                "label": "Hitting Hard Walls",
+                "description": "Nothing grows forever without stopping.\nReal-world limits always step in to slow things down.",
+                "children": []
               },
               {
                 "id": "spurious-linear-forecasts",
-                "label": "Spurious Linear Forecasts",
-                "description": "Naive regression lines reward short-term optimism by ignoring regime changes, macro cycles, and competitor counteractions.\nLeaders who mistake a temporary linear corridor for an enduring law forfeit their strategic moat to more adaptive adversaries."
+                "label": "Fake Future Trends",
+                "description": "Simple charts make the future look easy.\nThey fail when new surprises show up.",
+                "children": []
               }
             ]
           }
@@ -1576,40 +1580,44 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       },
       {
         "id": "theme-inference-evidence",
-        "label": "Inference, Evidence, and Survivorship",
-        "description": "True analytical advantage comes from examining the invisible data points generated by selection filters rather than obsessing solely over visible winners.\nLeaders must reconstruct the full distribution of trials to isolate structural signals from survivorship artifacts.",
+        "label": "Missing Clues and Evidence",
+        "description": "Looking only at winners hides the full truth.\nYou must look at what is missing to see reality.",
         "children": [
           {
             "id": "survivorship-bias",
-            "label": "Abraham Wald and Survivorship Bias",
-            "description": "In World War II, Abraham Wald recognized that armor should be reinforced where returning bombers had zero bullet holes, because engines hit by flak were at the bottom of the ocean.\nStrategic post-mortems must aggressively audit the graveyard of silenced failures rather than blindly reverse-engineering the survivors.",
+            "label": "The Missing Bullet Holes",
+            "description": "Armor the spots without bullet holes.\nPlanes hit in other spots never made it home.",
             "children": [
               {
                 "id": "silent-graveyard",
-                "label": "The Silent Evidence Filter",
-                "description": "Success metrics systematically oversample survivor traits while filtering out the wreckage of failed ventures that executed identical behaviors.\nEvaluating strategy solely on surviving case studies creates false playbooks that guarantee catastrophic downside exposure."
+                "label": "The Silent Losers",
+                "description": "Success stories leave out the failures.\nCopying only winners gives you a flawed game plan.",
+                "children": []
               },
               {
                 "id": "asymmetrical-armor",
-                "label": "Targeting Invisible Vulnerabilities",
-                "description": "Defensive capital and organizational buffers must protect components whose failure causes fatal termination events rather than superficial damage.\nReinforcing visible scars wastes operational runway while leaving systemic jugulars completely undefended."
+                "label": "Protect What Matters",
+                "description": "Do not fix harmless scratches.\nProtect the weak spots that could end everything.",
+                "children": []
               }
             ]
           },
           {
             "id": "publication-bias-p-hacking",
-            "label": "Statistical Significance and P-Hacking",
-            "description": "Arbitrary statistical thresholds like p < 0.05 incentivize researchers and corporate analytics teams to mine noise until an accidental anomaly looks like a breakthrough.\nConfusing statistical significance with material operational importance burns capital on spurious competitive edges.",
+            "label": "Chasing Lucky Flukes",
+            "description": "If you test enough random data, patterns appear by luck.\nDo not mistake luck for real discovery.",
             "children": [
               {
                 "id": "garden-forking-paths",
-                "label": "The Garden of Forking Paths",
-                "description": "When analysts test numerous data permutations without pre-registration, false discoveries become a mathematical certainty.\nStrategic decision-makers must aggressively demand replication and adjust confidence intervals for multiple testing runs."
+                "label": "Hunting for Flukes",
+                "description": "Testing data over and over creates fake results.\nAlways make sure the discovery happens twice.",
+                "children": []
               },
               {
                 "id": "statistical-vs-practical",
-                "label": "Statistical vs Practical Significance",
-                "description": "A signal can possess high mathematical certainty while yielding utterly negligible economic, strategic, or tactical value in production.\nLeaders must filter data through asymmetric payoff realities rather than academic significance tests."
+                "label": "Real World Value",
+                "description": "A tiny change might pass a math test.\nThat does not mean it matters in real life.",
+                "children": []
               }
             ]
           }
@@ -1617,57 +1625,63 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       },
       {
         "id": "theme-probability-uncertainty",
-        "label": "Probability, Risk, and Expected Value",
-        "description": "Calculated decision-making demands disciplined evaluation of probability distributions, asymmetric payoffs, and calibrated exposure under genuine uncertainty.\nTreating risk as a binary outcome rather than an expected value matrix guarantees eventual organizational ruin.",
+        "label": "Odds and Smart Bets",
+        "description": "Good decisions weigh odds and payoffs.\nTreating risk like a simple yes-or-no bet ruins you.",
         "children": [
           {
             "id": "expected-value-arbitrage",
-            "label": "Expected Value Arbitrage and Mispriced Bets",
-            "description": "When the market misprices probabilities or miscalculates payoffs, mathematical discipline enables asymmetrical, positive-EV positioning.\nEllenberg illustrates this through MIT and Cash WinFall syndicates, which systematically exploited state lotteries when prize pools rolled down into positive expected value.",
+            "label": "Finding Good Bets",
+            "description": "Bet only when the reward beats the risk.\nSmart math finds games where the odds favor you.",
             "children": [
               {
                 "id": "cash-winfall-exploitation",
-                "label": "The Cash Winfall Edge",
-                "description": "By analyzing rollover mechanics, syndicates identified deterministic positive-EV windows where buying tickets en masse shifted the house edge permanently to the players.\nReal-world strategists relentlessly search for mispriced structures where volume converts probability into near-certain edge."
+                "label": "Spotting Unfair Edges",
+                "description": "Lottery rules sometimes flip in your favor.\nPlaying in bulk turns lucky guesses into steady profit.",
+                "children": []
               },
               {
                 "id": "law-of-large-numbers",
-                "label": "Law of Large Numbers and Bankroll Management",
-                "description": "Positive expected value only converts to realized profit if an organization maintains sufficient capitalization to survive the inevitable variance swings.\nWithout disciplined bankroll management and position sizing, negative variance will wipe out positive-EV players before convergence occurs."
+                "label": "Surviving Bad Runs",
+                "description": "Good bets still lose in the short run.\nYou need enough savings to outlast bad streaks.",
+                "children": []
               }
             ]
           },
           {
             "id": "bayesian-updating",
-            "label": "Bayesian Thinking and Prior Probabilities",
-            "description": "New evidence cannot be evaluated in a vacuum; it must rigorously update prior baseline probabilities regarding how the world actually behaves.\nIgnoring low base rates creates massive false-positive panics across medical diagnostics, terrorism screening, and market disruptions.",
+            "label": "Updating Your Views",
+            "description": "Start with common sense base rates.\nShift your beliefs only as new proof comes in.",
             "children": [
               {
                 "id": "base-rate-neglect",
-                "label": "The Base Rate Fallacy",
-                "description": "Even a 99% accurate test will produce more false positives than true positives when screening for an exceedingly rare underlying condition or anomaly.\nOperational leaders must master conditional probability to avoid overreacting to noisy signals in low-incidence environments."
+                "label": "Ignoring Common Odds",
+                "description": "When a disease is rare, test results often lie.\nNever ignore how rare something is from the start.",
+                "children": []
               },
               {
                 "id": "dynamic-belief-calibration",
-                "label": "Dynamic Belief Calibration",
-                "description": "Intellectual integrity requires continuously adjusting the strength of one's convictions in proportion to the rarity and diagnostic weight of incoming data.\nMaster strategists maintain weakly held, rapidly updated priors rather than rigid, ideological doctrines."
+                "label": "Changing Your Mind",
+                "description": "Hold your ideas lightly.\nUpdate what you believe whenever better facts show up.",
+                "children": []
               }
             ]
           },
           {
             "id": "prosecutors-fallacy",
-            "label": "The Prosecutor's Fallacy",
-            "description": "Conflating the probability of observing evidence given innocence with the probability of innocence given the observed evidence corrupts judicial, executive, and intelligence judgments.\nTransposing conditional probabilities transforms innocent coincidences into manufactured guilt and false conclusions.",
+            "label": "Confusing the Odds",
+            "description": "A rare clue is not proof of guilt.\nSwitching the order of questions tricks your brain.",
             "children": [
               {
                 "id": "inversion-of-conditionals",
-                "label": "Inversion of Conditionals",
-                "description": "The likelihood of a DNA match occurring by chance is fundamentally different from the likelihood that a matched individual committed the crime.\nFailing to reverse the conditional equation leads commanders to mistake coincidental correlation for deterministic culpability."
+                "label": "Flipping Question Order",
+                "description": "A DNA match is rare by chance.\nThat does not mean the matched person did it.",
+                "children": []
               },
               {
                 "id": "coincidence-multiplicity",
-                "label": "Coincidence Multiplicity and Large Numbers",
-                "description": "In vast systems with billions of independent interactions, one-in-a-million coincidences occur thousands of times every single day.\nInterpreting rare alignments as deliberate conspiracies or undeniable patterns reveals a profound misunderstanding of combinatorial reality."
+                "label": "Everyday Coincidences",
+                "description": "Out of millions of daily events, weird coincidences must happen.\nDo not look for plots where pure chance rules.",
+                "children": []
               }
             ]
           }
@@ -1675,40 +1689,44 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       },
       {
         "id": "theme-aggregation-voting",
-        "label": "Aggregation, Voting, and Arrow's Impossibility",
-        "description": "Aggregating individual rational preferences into a coherent collective decision is mathematically fraught and inherently vulnerable to structural paradoxes.\nGovernance systems, board decisions, and voting designs determine outcomes far more than the raw preferences of the participants themselves.",
+        "label": "Group Choice Flaws",
+        "description": "Combining many people's votes rarely works perfectly.\nThe rules of the game often decide the winner.",
         "children": [
           {
             "id": "arrows-impossibility",
-            "label": "Arrow's Impossibility Theorem",
-            "description": "Kenneth Arrow proved that no ranked voting system can satisfy four basic, universally desired criteria of fairness without degenerating into a dictatorship or paradoxical cycle.\nStrategic architects recognize that collective choice is fundamentally shaped by voting rules and agenda sequencing rather than pure consensus.",
+            "label": "No Perfect Vote",
+            "description": "Math proves no ranked voting system is 100% fair.\nEvery system has trade-offs or strange quirks.",
             "children": [
               {
                 "id": "agenda-control",
-                "label": "Agenda Sequencing and Power Dynamics",
-                "description": "Because multi-candidate preference aggregation contains non-transitive loops, whoever controls the sequence of votes dictates the final decision.\nIn high-level governance, true tactical power resides in framing the ballot and choosing the elimination order."
+                "label": "Controlling the List",
+                "description": "The person who sets the schedule picks the winner.\nOrder matters more than popular vote.",
+                "children": []
               },
               {
                 "id": "spoiler-dynamics",
-                "label": "Independence of Irrelevant Alternatives",
-                "description": "Introducing an unviable third candidate or tactical distraction can unpredictably flip the winner between the primary contenders.\nAstute strategists actively deploy or neutralize spoiler assets to shift equilibrium payoffs on contested battlegrounds."
+                "label": "The Spoiler Effect",
+                "description": "A weak third choice can ruin the favorite.\nAdding an option unexpectedly flips who wins.",
+                "children": []
               }
             ]
           },
           {
             "id": "condorcet-paradox",
-            "label": "The Condorcet Paradox and Non-Transitive Realities",
-            "description": "Group preferences can be cyclical and intransitive even when every individual voter within the collective maintains perfectly rational, transitive priorities.\nA board may prefer option A to B, B to C, and yet collectively choose C over A, creating paralysis and circular deadlock.",
+            "label": "Circular Group Wishes",
+            "description": "Groups can chase their own tails in circles.\nVoters might like A over B, B over C, and C over A.",
             "children": [
               {
                 "id": "intransitive-preference-loops",
-                "label": "Intransitive Preference Loops",
-                "description": "Assuming collective rationality based on individual competence is a fatal organizational design flaw.\nWhen preference loops emerge, strategic momentum stalls entirely unless clear executive hierarchy breaks the cycle."
+                "label": "Endless Choice Loops",
+                "description": "Smart people together can make silly group choices.\nSomeone must break the loop to move forward.",
+                "children": []
               },
               {
                 "id": "strategic-voting-incentives",
-                "label": "Strategic Voting and Dishonest Signaling",
-                "description": "Rational actors quickly discover that voting honestly according to true preferences leads to inferior personal outcomes under most election mechanics.\nSavvy leaders analyze the tactical incentives of participants rather than taking their surface votes at face value."
+                "label": "Voting Tactically",
+                "description": "People often hide their true favorite to block worse choices.\nVotes do not always show what people really want.",
+                "children": []
               }
             ]
           }
@@ -1716,40 +1734,44 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       },
       {
         "id": "theme-scale-geometry",
-        "label": "Scale, Geometry, and High-Dimensional Space",
-        "description": "Human intuition evolved in a low-dimensional physical world, making human judgment utterly inept when navigating high-dimensional data, network topology, and exponential scale.\nLeaders must deploy formal geometric and mathematical abstractions to comprehend systems where ordinary visual models collapse.",
+        "label": "Shapes and Hidden Spaces",
+        "description": "Our brains struggle with massive numbers and weird spaces.\nMath tools show patterns human eyes miss completely.",
         "children": [
           {
             "id": "curse-of-dimensionality",
-            "label": "The Curse of Dimensionality",
-            "description": "As feature dimensions multiply, data points retreat into the far corners of hypercubes, leaving the interior space almost completely empty.\nHigh-dimensional spaces possess bizarre geometric properties that distort distance metrics and render naive pattern-recognition algorithms unreliable.",
+            "label": "Too Many Details",
+            "description": "Adding too many factors spreads information super thin.\nData gets lonely and creates fake patterns.",
             "children": [
               {
                 "id": "hyper-volume-sparsity",
-                "label": "Hyper-Volume Sparsity and Overfitting",
-                "description": "In dense multi-variable environments, models easily mistake local noise for profound structural correlations due to excessive degrees of freedom.\nStrategic analysts must enforce aggressive dimensionality reduction to prevent catastrophic model overfitting."
+                "label": "Empty Big Spaces",
+                "description": "Too many variables leave lots of empty space.\nComputers easily confuse background noise with real facts.",
+                "children": []
               },
               {
                 "id": "distance-metric-collapse",
-                "label": "Collapse of Intuitive Proximity",
-                "description": "When dimensionality escalates, the ratio of distance between the nearest and farthest data point approaches unity, making points appear equidistant.\nLeaders navigating massive data matrices must avoid simplistic nearest-neighbor assumptions when categorizing risks or customers."
+                "label": "Losing Near and Far",
+                "description": "With too many features, every option looks equally far away.\nSimple comparisons break down fast.",
+                "children": []
               }
             ]
           },
           {
             "id": "buffon-needle-randomness",
-            "label": "Geometric Probability and Buffon's Needle",
-            "description": "Throwing needles onto a lined floor unexpectedly derives the transcendental constant pi from pure geometric randomness.\nEllenberg demonstrates that structured, deterministic physical truths often emerge directly from aggregating seemingly chaotic, random events.",
+            "label": "Order from Chaos",
+            "description": "Dropping needles on a floor reveals the number pi.\nPure random actions can create tidy, reliable truths.",
             "children": [
               {
                 "id": "monte-carlo-foundations",
-                "label": "Monte Carlo Methods and Synthetic Simulation",
-                "description": "Complex, intractable real-world dynamics can be cracked by running millions of randomized simulations to approximate exact mathematical curves.\nWhen deterministic solutions evade leadership, brute-force stochastic sampling yields reliable operational parameters."
+                "label": "Testing by Simulation",
+                "description": "Run millions of random trials on a computer.\nIt solves tough problems when formulas cannot.",
+                "children": []
               },
               {
                 "id": "macro-order-from-micro-chaos",
-                "label": "Macro Order from Micro Chaos",
-                "description": "Individual interactions inside large ecosystems may be hopelessly volatile, yet their macroscopic aggregate follows precise mathematical laws.\nElite commanders focus on governing macro boundary incentives while granting tactical autonomy to localized randomness."
+                "label": "Order in the Crowd",
+                "description": "Individual steps look messy and chaotic.\nSeen together from above, simple clean rules appear.",
+                "children": []
               }
             ]
           }
@@ -1757,40 +1779,44 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
       },
       {
         "id": "theme-strategic-synthesis",
-        "label": "Strategic Synthesis: Execution Under Uncertainty",
-        "description": "The ultimate objective of mathematical thinking is not academic purity, but the ruthless elimination of error in decision-making and asset allocation.\nIntegrating survivorship awareness, Bayesian updating, expected value calibration, and structural paradoxes creates an unshakeable operational playbook.",
+        "label": "Thinking Clearly",
+        "description": "Math is not just theory; it helps you act wisely.\nUsing it well keeps you safe from costly mistakes.",
         "children": [
           {
             "id": "knowing-what-not-to-know",
-            "label": "Epistemic Humility and Known Unknowns",
-            "description": "The most dangerous actor on the battlefield is the executive who possesses absolute mathematical certainty founded on invalid structural assumptions.\nKnowing the exact boundaries where mathematical models break down protects organizations from catastrophic tail risk.",
+            "label": "Knowing Your Limits",
+            "description": "Overconfidence in numbers is dangerous.\nAlways know where your models stop working.",
             "children": [
               {
                 "id": "model-boundary-auditing",
-                "label": "Model Boundary Auditing",
-                "description": "Every quant model rests on hidden baseline assumptions that vaporize during unprecedented black swan stress events.\nStress-testing models against exogenous regime breaks is a fundamental fiduciary duty of strategic leadership."
+                "label": "Checking the Weak Spots",
+                "description": "Math models rely on hidden assumptions.\nThey fail when surprises hit.",
+                "children": []
               },
               {
                 "id": "margin-of-safety",
-                "label": "The Mathematical Margin of Safety",
-                "description": "Because estimations of probability and payoff are inherently noisy approximations, capital allocation must demand massive asymmetry before deployment.\nConstructing redundant buffers ensures survival when empirical reality diverges from theoretical projections."
+                "label": "Leaving Safety Cushions",
+                "description": "Guesses are never exact.\nAlways build a safety buffer so surprises do not sink you.",
+                "children": []
               }
             ]
           },
           {
             "id": "skin-in-the-game-alignment",
-            "label": "Skin in the Game and Incentive Symmetry",
-            "description": "Analytical correctness is meaningless if organizational incentives reward consultants and analysts for upside while shielding them from downside ruin.\nSustainable competitive execution requires tying mathematical models directly to asymmetric skin in the game for all decision-makers.",
+            "label": "True Accountability",
+            "description": "Advice is cheap without personal risk.\nGood systems make decision-makers share the losses.",
             "children": [
               {
                 "id": "asymmetric-accountability",
-                "label": "Asymmetric Risk Accountability",
-                "description": "Agents who operate with agency risk will consistently recommend fragile, high-variance strategies that maximize personal short-term prestige.\nAligning skin in the game eliminates moral hazard and forces intellectual honesty across executive ranks."
+                "label": "Sharing the Pain",
+                "description": "People take silly gambles if they do not pay for mistakes.\nMake leaders face the downside of their choices.",
+                "children": []
               },
               {
                 "id": "execution-as-math",
-                "label": "Mathematical Common Sense in Action",
-                "description": "True mathematical mastery is common sense scaled, disciplined, and hardened against cognitive biases and social flattery.\nApplying these analytical lenses systematically transforms ambiguity into clear strategic options and durable competitive advantage."
+                "label": "Math as Common Sense",
+                "description": "Real math is trained common sense.\nIt clears away fog and helps you see the best move.",
+                "children": []
               }
             ]
           }
