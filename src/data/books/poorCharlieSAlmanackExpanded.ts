@@ -1,5 +1,5 @@
 // Poor Charlie’s Almanack by Charles T. Munger
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -680,169 +680,169 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
   "actionItems": [
     {
       "id": "poor-charlie-s-almanack-act-1",
-      "title": "Run a 10-Minute Pre-Mortem Inversion",
-      "description": "Munger always said to invert, always invert. Instead of asking how your current project or financial move succeeds, figure out exactly how it could completely blow up so you can avoid those failure points early.",
+      "title": "Find Ways to Fail First",
+      "description": "Do not just plan to win. Figure out how things can break so you can avoid trouble.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Pick one major decision, financial allocation, or project you are currently pursuing.",
-        "Set a timer for 5 minutes and write down every plausible way this initiative could turn into a total disaster.",
-        "Highlight the top two vulnerabilities caused by your own impatience, overconfidence, or blind optimism.",
-        "Put concrete operational guardrails in place immediately to eliminate or hedge against those specific failure modes."
+        "Pick one big goal or money move you want to make.",
+        "Set a five-minute timer and write down how this could fail.",
+        "Spot two big risks caused by rushing or being too hopeful.",
+        "Set clear safety rules today so those bad things never happen."
       ],
       "sourceChapter": "Talk Two: A Lesson on Elementary, Worldly Wisdom, Revisited"
     },
     {
       "id": "poor-charlie-s-almanack-act-2",
-      "title": "Kill One Sunk-Cost Attachment",
-      "description": "Human beings cling desperately to bad investments, failed subscriptions, and dead projects just because they have already spent money and ego on them. Cut one today to free up your capital and mental bandwidth.",
+      "title": "Quit One Bad Project Today",
+      "description": "People hold on to bad ideas just because they already spent money. Walk away today to save your time and cash.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Review your current monthly recurring expenses, stagnant investments, or stalled side initiatives.",
-        "Identify one project or asset that you would never buy or start fresh today if you had your cash back in hand.",
-        "Acknowledge the spent money or effort as completely gone and irrelevant to future reality.",
-        "Cancel, liquidate, or shutter it immediately without agonizing over what you initially paid."
+        "Look at your paid subscriptions and slow side projects.",
+        "Pick one thing you would never start fresh today.",
+        "Accept that the money you spent is gone forever.",
+        "Cancel or trash it right now without looking back."
       ],
       "sourceChapter": "Talk Eleven: The Psychology of Human Misjudgment"
     },
     {
       "id": "poor-charlie-s-almanack-act-3",
-      "title": "Daily 60-Minute Deep Reading and Reflection",
-      "description": "Charlie Munger attributed his entire compounding success to being a book with legs. Carve out an uninterrupted hour each day to absorb durable multidisciplinary wisdom rather than ephemeral news noise.",
+      "title": "Read Good Books Every Day",
+      "description": "Charlie Munger grew his fortune by reading every single day. Spend one quiet hour reading real books instead of the news.",
       "category": "daily-routine",
       "timeEstimateMinutes": 60,
       "stepByStep": [
-        "Block out an immovable 60-minute window every morning or evening before opening notifications.",
-        "Select foundational non-fiction across history, biography, psychology, evolutionary biology, or basic accounting.",
-        "Read with a physical pen or notebook, actively distilling key mental models and principles.",
-        "Summarize the single most durable concept from your reading into one actionable takeaway in your journal."
+        "Block one quiet hour each day without any phone alerts.",
+        "Pick a solid book on history, science, or human nature.",
+        "Keep a paper notebook near you to write down strong ideas.",
+        "Write one simple lesson you can use in daily life."
       ],
       "sourceChapter": "Talk One: Harvard School Commencement Speech"
     },
     {
       "id": "poor-charlie-s-almanack-act-4",
-      "title": "Maintain an Emotional Cooling-Off Buffer",
-      "description": "Deprival super-reaction tendency and social proof make people rush into awful financial deals and emotional commitments. Enforce an unconditional mandatory delay on any non-routine commitment or purchase.",
+      "title": "Wait Before You Buy",
+      "description": "Excitement and fear make people buy things they do not need. Wait two full days before making any big commitment.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Set a personal policy requiring a 48-hour delay on any discretionary expenditure or binding agreement over a fixed sum.",
-        "Whenever a pitch or impulse creates artificial urgency or FOMO, log the proposal in a holding file.",
-        "Walk away from the screen or room and sleep on the decision for at least two nights.",
-        "Re-evaluate the proposal with cold, detached eyes once the initial rush of excitement or anxiety has fully evaporated."
+        "Set a rule to wait two days on big purchases.",
+        "Save the item or offer to a simple wait list.",
+        "Step away from your screen and sleep on it twice.",
+        "Check it again once the sudden hype has worn off."
       ],
       "sourceChapter": "Talk Eleven: The Psychology of Human Misjudgment"
     },
     {
       "id": "poor-charlie-s-almanack-act-5",
-      "title": "Strip Out Financial Speculation and Social Proof Noise",
-      "description": "Surrounding yourself with hype merchants, day-trading feeds, and status flexing triggers jealousy and crowd folly. Clean your digital surroundings to preserve emotional balance and objective judgment.",
+      "title": "Mute Online Money Hype",
+      "description": "Watching people brag about fast money ruins your clear thinking. Clean your feeds so you can stay calm and smart.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Open your social media feeds, chat groups, and market news aggregators.",
-        "Mute or unfollow channels that hype get-rich-quick schemes, hot stock tips, or conspicuous luxury displays.",
-        "Disable real-time push alerts for portfolio value fluctuations and volatile asset tickers.",
-        "Replace those noise feeds with curated bookmarks of enduring company filings, shareholder letters, and educational archives."
+        "Open your social media feeds and group chat apps.",
+        "Mute anyone pushing get-rich-quick schemes or hot stock tips.",
+        "Turn off phone alerts that track price jumps all day.",
+        "Bookmark honest company reports and calm lessons instead."
       ],
       "sourceChapter": "Talk Three: A Lesson on Elementary, Worldly Wisdom as It Relates to the Investment Management & Business"
     },
     {
       "id": "poor-charlie-s-almanack-act-6",
-      "title": "Establish an Anti-Chop 'Lollapalooza' Work Zone",
-      "description": "Multitasking and fractured attention combine multiple psychological flaws into an avalanche of mediocre decisions. Build a physical space designed for solitary, undisturbed deliberation.",
+      "title": "Set Up a Quiet Desk",
+      "description": "Distractions make smart people make foolish choices. Build a clean space where you can sit and think alone.",
       "category": "environment",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Select a dedicated desk or quiet corner reserved strictly for deep thinking, financial review, and serious analysis.",
-        "Remove all secondary screens, extraneous tablets, and attention-sapping clutter from arm's reach.",
-        "Keep physical copies of your essential checklists, a clean ledger, and reference books readily accessible.",
-        "Enforce a strict 'device-in-another-room' protocol whenever you enter this zone to perform deep analytical work."
+        "Pick one quiet desk reserved only for serious thinking.",
+        "Remove all extra screens, tablets, and messy desk clutter.",
+        "Keep your best checklists, pens, and reference books handy.",
+        "Leave your phone in another room whenever you work here."
       ],
       "sourceChapter": "Talk Four: Practical Thought About Practical Thought?"
     },
     {
       "id": "poor-charlie-s-almanack-act-7",
-      "title": "Map Your Circle of Competence Boundaries",
-      "description": "Disaster strikes when you confuse what you genuinely understand with what you merely have an opinion on. Systematically delineate your true circle of competence to prevent reckless overreach.",
+      "title": "Know What You Truly Understand",
+      "description": "Big trouble happens when you pretend to know things you do not. Know your limits so you do not gamble foolishly.",
       "category": "audit",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "Divide a sheet of paper into three distinct columns: 'Inside Circle', 'Edge of Circle', and 'Outside Circle'.",
-        "List industries, business models, and asset classes you can genuinely explain down to first principles under 'Inside Circle'.",
-        "Place trendy, opaque, or heavily buzzword-reliant topics into 'Outside Circle' without self-delusion.",
-        "Formulate a non-negotiable rule to immediately decline pitches and opportunities that fall outside your defined perimeter."
+        "Draw three columns: I Know This, Maybe, and I Don't Know.",
+        "List things you can explain easily under I Know This.",
+        "Put trendy buzzwords under I Don't Know without feeling bad.",
+        "Say no to deals that fall outside what you know."
       ],
       "sourceChapter": "Talk Two: A Lesson on Elementary, Worldly Wisdom, Revisited"
     },
     {
       "id": "poor-charlie-s-almanack-act-8",
-      "title": "Perform a Monthly Incentive Distortion Audit",
-      "description": "Never, ever think about something else when you should be thinking about the power of incentives. Audit the real motives of the advisers, salespeople, and partners in your life to spot hidden traps.",
+      "title": "Check How People Get Paid",
+      "description": "People act based on how they get paid, not what is right. Check your helpers' pay so you can avoid hidden traps.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "List your current key professional and financial service providers (brokers, consultants, vendors, bankers).",
-        "Document precisely how each party is compensated: upfront fees, transaction volume, or ongoing assets under management.",
-        "Highlight any area where their financial reward grows while your downside risk increases.",
-        "Realign contracts or transition away from individuals whose incentives encourage reckless activity or fee churning."
+        "List your money advisers, brokers, agents, and sellers.",
+        "Write down exactly how each person earns their money.",
+        "Notice if they get rich when you take big risks.",
+        "Fire anyone who wins while putting your money at risk."
       ],
       "sourceChapter": "Talk Eleven: The Psychology of Human Misjudgment"
     },
     {
       "id": "poor-charlie-s-almanack-act-9",
-      "title": "Compile a 'Too-Hard' Pile and Rejection Journal",
-      "description": "Munger and Buffett filtered 99% of ideas instantly into a 'Too-Hard' box. Establish a structured mechanism to say no quickly so you save energy for obvious, fat-pitch opportunities.",
+      "title": "Make a Too-Hard Box",
+      "description": "Charlie threw almost every hard idea into a skip pile. Say no fast so you save time for easy wins.",
       "category": "system",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Create a dedicated folder or digital binder titled 'Too Hard & Rejected'.",
-        "Define strict, simple immediate-disqualification filters (e.g., integrity issues, unprovable economics, complex legal structures).",
-        "Whenever a pitched opportunity takes more than 15 minutes of contorted logic to understand, file it under 'Too Hard'.",
-        "Log a 2-sentence rationale for the refusal and move on without looking back or second-guessing."
+        "Make a simple list called Too Hard and Skipped.",
+        "Set quick rules to drop shady or confusing offers instantly.",
+        "Put any deal that feels confusing right into this box.",
+        "Write one line explaining why and move on right away."
       ],
       "sourceChapter": "Talk Three: A Lesson on Elementary, Worldly Wisdom as It Relates to the Investment Management & Business"
     },
     {
       "id": "poor-charlie-s-almanack-act-10",
-      "title": "Implement a 25-Bias Psychological Decision Checklist",
-      "description": "Professional pilots use checklists before every flight because human brains forget basic steps under stress. Run major personal or capital commitments through Munger's psychological checklist.",
+      "title": "Use a Simple Brain Checklist",
+      "description": "Pilots use checklists because stress makes brains miss easy steps. Run big choices through a checklist to spot blind spots.",
       "category": "system",
       "timeEstimateMinutes": 40,
       "stepByStep": [
-        "Compile a master checklist of key psychological misjudgments (e.g., social proof, commitment bias, liking bias, envy).",
-        "Before finalizing any major deal, hire, or financial rebalance, review the proposal against every bias on the list.",
-        "Ask explicitly: 'Am I doing this because peers are doing it? Am I defending a public stand? Is someone flattering me?'",
-        "Record written justifications confirming that the decision survives scrutiny on every single bias checkpoint."
+        "Write a list of brain traps like envy and peer pressure.",
+        "Check your plan against each trap before signing anything.",
+        "Ask yourself if you are just copying other people.",
+        "Write down why your choice is still safe and sound."
       ],
       "sourceChapter": "Talk Eleven: The Psychology of Human Misjudgment"
     },
     {
       "id": "poor-charlie-s-almanack-act-11",
-      "title": "Build a Multidisciplinary Mental Model Lattice",
-      "description": "To the man with only a hammer, every problem looks like a nail. Systematize a cross-disciplinary toolkit drawing on core models from microeconomics, physics, biology, and engineering.",
+      "title": "Collect Big Useful Ideas",
+      "description": "A man with only a hammer treats everything like a nail. Learn big ideas from science and math to solve tough problems.",
       "category": "system",
       "timeEstimateMinutes": 60,
       "stepByStep": [
-        "Create a master notebook cataloging 15 core mental models (e.g., compounding, critical mass, margin of safety, feedback loops).",
-        "For each model, write a plain-English definition, a classic historical example, and a common everyday financial application.",
-        "When evaluating a complex problem, force yourself to view the situation through at least three separate disciplines.",
-        "Review and refine your model lattice quarterly based on empirical results and past miscalculations."
+        "Start a notebook with ten big ideas from different fields.",
+        "Write one simple meaning and real-life example for each.",
+        "Look at tough problems using at least two different fields.",
+        "Update your notes every few months with things you learned."
       ],
       "sourceChapter": "Talk Two: A Lesson on Elementary, Worldly Wisdom, Revisited"
     },
     {
       "id": "poor-charlie-s-almanack-act-12",
-      "title": "Conduct a Quarterly Post-Mortem on Your Worst Mistake",
-      "description": "Rub your nose in your own mistakes instead of sweeping them under the rug. Dissecting your own errors of judgment and omission is the single most reliable way to prevent catastrophic repeat blunders.",
+      "title": "Study Your Worst Mistakes",
+      "description": "Never hide your errors under the rug. Look closely at bad choices so you never make them again.",
       "category": "audit",
       "timeEstimateMinutes": 35,
       "stepByStep": [
-        "Select your single worst financial or operational decision\u2014or costly inaction\u2014from the preceding three months.",
-        "Write out the exact assumptions, emotions, and rationalizations you held at the moment the decision was made.",
-        "Trace which specific cognitive bias, incentive blindness, or circle-of-competence breach caused the mistake.",
-        "Add a preventative rule to your ongoing operational checklist to guarantee you never make that exact blunder again."
+        "Pick your biggest flop or costly delay from recent months.",
+        "Write what you were thinking and feeling when it happened.",
+        "Find the exact bad habit or greed that caused it.",
+        "Add one clear rule to your list to stop repeats."
       ],
       "sourceChapter": "Talk Ten: The Architecture of Disasters"
     }
@@ -1019,10 +1019,10 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       "author": "Charles T. Munger",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Inversion: Figure Out Where You Will Die, and Never Go There",
-      "body": "Most people burn out trying to be brilliant.\nThe far more reliable, pragmatic path is consistently avoiding sheer stupidity.\nBy turning any problem upside down and listing every single way an enterprise could fail, you build an ironclad perimeter against catastrophe before chasing gains.",
+      "headline": "Inversion: Think Backwards",
+      "body": "Most people fail by trying too hard to be brilliant.\nA safer path is to avoid making simple, foolish mistakes.\nFigure out how you can fail, and then do not do it.",
       "quote": "Invert, always invert: Turn a situation or problem upside down. Look at it backward. What happens if all our plans go wrong?",
-      "actionItem": "Before signing any contract or launching an initiative, run a pre-mortem listing the five fastest ways this investment can go to zero, then engineer failsafes against each.",
+      "actionItem": "List five ways your project could fail completely.\nTake clear steps today to block every single one.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1040,10 +1040,10 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       "author": "Charles T. Munger",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Lattice of Mental Models: Break Out of Academic Silos",
-      "body": "Reality does not respect university departments.\nRelying on one discipline makes you a blind specialist vulnerable to complex multi-factor disasters.\nTrue street-smart judgment requires mastering the big, foundational ideas from psychology, physics, mathematics, biology, and microeconomics.",
+      "headline": "Latticework of Mental Models",
+      "body": "Real life problems do not fit into just one school subject.\nRelying on only one tool makes you miss big, dangerous traps.\nLearn the main big ideas from science, math, and psychology.",
       "quote": "You've got to have models in your head. And you've got to array your experience\u2014both vicarious and direct\u2014on this latticework of models.",
-      "actionItem": "Study the core 80 to 90 mental models of major disciplines and systematically run key business decisions through a cross-disciplinary mental checklist.",
+      "actionItem": "Learn one major basic idea from physics, biology, or economics every week.\nTest your next big decision against all three models.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1061,10 +1061,10 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       "author": "Charles T. Munger",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Lollapalooza Effect: The Confluence of Multiple Biases",
-      "body": "When psychological tendencies do not act in isolation but gang up in the same direction, human behavior veers into extreme mania or collective hysteria.\nUnchecked social proof combined with commitment bias and scarcity creates financial manias and devastating institutional blind spots.",
+      "headline": "The Lollapalooza Effect",
+      "body": "Human minds get pushed around easily by mental blind spots.\nWhen several mental traps strike at the same exact time, people go crazy.\nThis causes wild market bubbles and painful crashes.",
       "quote": "When three, four, or five of these forces are all operating in the same direction, you get extreme results. You get Lollapalooza effects.",
-      "actionItem": "When evaluating an overheated market or consensus trade, identify how many distinct psychological biases are reinforcing one another before committing capital.",
+      "actionItem": "Before joining any wild crowd trend, stop and pause.\nCheck if hype, peer pressure, and fear of missing out are blinding you.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1082,10 +1082,10 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       "author": "Charles T. Munger",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Circle of Competence: Honor Your Boundary Lines",
-      "body": "The size of your circle of competence is almost irrelevant; what is lethal is not knowing its perimeter accurately.\nTrue professionals possess an unflinching awareness of their ignorance and walk away from pitches they do not understand, leaving ego-driven gamblers to hold the bag.",
+      "headline": "Circle of Competence",
+      "body": "The size of your knowledge area does not matter very much.\nKnowing exactly where your knowledge stops is what keeps you alive.\nSmart people quickly walk away from things they do not understand.",
       "quote": "You have to figure out what your own aptitudes are. If you play games where other people have the aptitudes and you don't, you're going to lose.",
-      "actionItem": "Create an explicit 'Too Hard' folder for opportunities outside your genuine area of mastery, and reject them without hesitation or remorse.",
+      "actionItem": "Make a strict list of areas where you lack real skill.\nSay no right away to every deal in those areas.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1103,10 +1103,10 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       "author": "Charles T. Munger",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Incentive-Caused Bias: The Engine of Human Deception",
-      "body": "If you want to understand why rational people commit disastrous or unethical acts, look directly at how they get paid.\nIncentives operate at a subconscious level; even well-meaning people rationalize egregious behavior when their livelihoods depend on reaching a perverse metric.",
+      "headline": "Incentive-Caused Bias",
+      "body": "People often do foolish or dishonest things for one simple reason.\nThey act that way because of how they get paid.\nEven decent people make bad choices when bad incentives tempt them.",
       "quote": "Never, ever, think about something else when you should be thinking about the power of incentives.",
-      "actionItem": "Audit the compensation systems of your partners, managers, and advisors.\nIf their reward structure does not penalize failure, restructure the contract.",
+      "actionItem": "Look closely at how your advisors and sales reps earn their money.\nDo not trust advice that rewards them while putting you at risk.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1124,10 +1124,10 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       "author": "Charles T. Munger",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "The Art of Non-Action: Cultivate Ruthless Inactivity",
-      "body": "Wall Street and modern corporations demand continuous motion because motion generates management fees.\nReal compounding demands immense patience punctuated by rare, decisive, aggressive action.\nMost fortunes are preserved simply by having the discipline to sit on your hands.",
+      "headline": "The Power of Patient Waiting",
+      "body": "Busy people love fast action because it makes them feel productive.\nReal wealth comes from sitting still and waiting for the right moment.\nMost big fortunes are made by having the patience to do nothing.",
       "quote": "It's waiting that helps you as an investor, and a lot of people just can't stand to wait.",
-      "actionItem": "Review your transaction frequency over the past twelve months.\nStop meddling with sound investments and replace nervous activity with rigorous reading.",
+      "actionItem": "Stop checking your investments every day to prevent panic moves.\nPut down your phone and spend that free time reading a book.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1145,10 +1145,10 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       "author": "Charles T. Munger",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Self-Delusion Is the Prerequisite for Ruin",
-      "body": "The human mind defaults to confirmation bias and self-flattery to soothe discomfort.\nUnvarnished reality will always win against wishful thinking.\nThe single most crucial discipline in finance is tearing down your own favorite ideas before the market forces a liquidation.",
+      "headline": "Do Not Fool Yourself",
+      "body": "The easiest person to lie to is always staring back in the mirror.\nPeople love to believe pleasant lies that make them feel safe.\nReal life will ruthlessly punish you if you ignore hard facts.",
       "quote": "The first rule is that you must not fool yourself and you are the easiest person to fool.",
-      "actionItem": "Once a year, actively identify your top three investment theses and deliberately seek out the smartest skeptics in the field to attack them.",
+      "actionItem": "Take your favorite business idea and write down its biggest weak point.\nAsk a smart friend who disagrees with you to tear it apart.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1166,10 +1166,10 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       "author": "Charles T. Munger",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Deprival-Superreaction: The Pain of Lost Pennies",
-      "body": "Loss aversion causes humans to fight irrational, scorched-earth battles over microscopic losses.\nWhen an asset drops or a privilege is removed, panic takes over, causing otherwise shrewd operators to double down on losing hands rather than taking a clean, calculated haircut.",
+      "headline": "Pain of Small Losses",
+      "body": "People feel deep emotional pain whenever they lose even a little bit.\nThat panic makes people fight wild battles over tiny, meaningless things.\nThey waste good money chasing bad bets just to avoid feeling loss.",
       "quote": "A man ordinarily reacts with irrational intensity even to a small loss, or threatened loss, of that which he possesses.",
-      "actionItem": "Define explicit exit parameters and maximum tolerable capital loss before entering an investment, eliminating emotional bargaining when the thesis breaks.",
+      "actionItem": "Decide on your maximum loss limit before you start any deal.\nWalk away instantly without hesitation when that line gets crossed.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1187,10 +1187,10 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       "author": "Charles T. Munger",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Margin of Safety: Building for Unpredictable Storms",
-      "body": "The future is fundamentally unknowable and volatile.\nSound architecture requires excess capacity not for the average day, but for the once-in-a-generation deluge.\nIn finance, that means staying under-leveraged and holding cash balances that others consider inefficient.",
+      "headline": "Margin of Safety",
+      "body": "No one can predict bad weather or surprise disasters ahead of time.\nBuild extra strength into your plans to survive unexpected dark days.\nKeep enough spare cash ready so sudden bad luck cannot wipe you out.",
       "quote": "You should remember that good ideas are in short supply, and you should preserve a margin of safety against ignorance and unforeseen adversity.",
-      "actionItem": "Stress-test your balance sheet against simultaneous revenue drops, rising borrowing costs, and illiquid markets to verify you cannot be forced into bankruptcy.",
+      "actionItem": "Keep a solid cash cushion in your bank account today.\nMake sure you can survive for months if all income suddenly stops.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1208,10 +1208,10 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       "author": "Charles T. Munger",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Destroy One Cherished Idea Every Year",
-      "body": "Intelligence becomes a liability when it is used to rationalize dogma.\nCharlie Munger adopted Charles Darwin's rule: whenever an observation contradicted his theory, he forced himself to write it down within thirty minutes, knowing the brain would naturally erase uncomfortable truths.",
+      "headline": "Kill Bad Ideas Fast",
+      "body": "Smart people often defend bad opinions just to protect their pride.\nYour brain quickly tries to forget facts that make you look wrong.\nThrow away cherished beliefs whenever fresh facts prove them incorrect.",
       "quote": "We all are learning, modifying, or destroying ideas all the time. Rapid destruction of your ideas when the time is right is one of the most valuable qualities that you can acquire.",
-      "actionItem": "Pick one core assumption underlying your business or worldview this week, assemble contrary data, and deliberately dismantle it.",
+      "actionItem": "Find one strong opinion you hold that might be wrong today.\nSearch for solid proof against it and change your mind with pride.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1229,10 +1229,10 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       "author": "Charles T. Munger",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Social-Proof Bias: The Stampede of Lemmings",
-      "body": "Human evolution wired us to mimic the tribe when uncertain.\nIn modern finance, this instinct translates directly into buying at market tops and panic-selling at bottoms.\nFollowing the crowd provides psychological cover from criticism, but guarantees mediocre returns and catastrophic drawdowns.",
+      "headline": "Social Proof Trap",
+      "body": "Humans copy other people whenever they feel confused or scared.\nIn finance, this causes people to buy high and panic sell low.\nFollowing the loud crowd feels safe, but it leads to terrible losses.",
       "quote": "When you buy things that everyone else is buying, you're buying at prices that reflect that enthusiasm.",
-      "actionItem": "When everyone in your professional network agrees an opportunity cannot miss, view it as a primary signal to examine the downside and trim exposure.",
+      "actionItem": "Notice whenever everyone in your circle wants the same popular investment.\nTreat their excitement as a clear warning sign to step back.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1250,10 +1250,10 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       "author": "Charles T. Munger",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Simplicity Outperforms Brazen Cleverness",
-      "body": "Complex financial models and convoluted business structures frequently serve as masks for excessive risk and high advisory fees.\nReal wealth builders stick to simple, understandable, cash-generating engines that operate reliably without requiring genius management.",
+      "headline": "Keep Things Simple",
+      "body": "Complicated plans usually hide big dangers and expensive fees.\nThe best businesses are straightforward and easy to understand.\nReal success comes from consistently avoiding silly mistakes every single day.",
       "quote": "It is remarkable how much long-term advantage people like us have gotten by trying to be consistently not stupid, instead of trying to be very intelligent.",
-      "actionItem": "Reject financial products or corporate transactions that cannot be clearly explained and calculated on the back of a single envelope.",
+      "actionItem": "Skip any business plan or financial offer that seems too confusing.\nIf you cannot explain it on a napkin, do not buy it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1271,10 +1271,10 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       "author": "Charles T. Munger",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Autopsy of Error: Rub Your Nose in Your Mistakes",
-      "body": "Most people sweep their investment blunders under the rug to shield their self-worth.\nHigh-performance capital allocators treat their blunders as expensive educational tuition, analyzing them with clinical detachment to uncover flawed premises and prevent repeats.",
+      "headline": "Study Your Mistakes",
+      "body": "Most people hide their mistakes because they feel embarrassed.\nWinners study their blunders closely to learn what went wrong.\nAdmitting your bad choices is the best way to avoid repeating them.",
       "quote": "I like people admitting they were complete nuts. You'd be amazed at how much you can learn by just admitting your own stupidity.",
-      "actionItem": "Conduct a formal post-mortem on your worst financial decision of the last three years.\nDocument the exact cognitive flaw that caused it and keep it in your decision checklist.",
+      "actionItem": "Write down your single worst money mistake from the last three years.\nNote the exact reason it happened so you never repeat it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1292,10 +1292,10 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       "author": "Charles T. Munger",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Chauffeur Knowledge: The Illusion of Understanding",
-      "body": "Max Planck\u2019s chauffeur memorized the Nobel laureate\u2019s physics lecture and recited it word-for-word, but was exposed the moment an audience member asked an unscripted question.\nIn business and finance, slick vocabulary and pitch decks often mask zero operational depth.",
+      "headline": "Fake Driver Knowledge",
+      "body": "Some people only memorize fancy words without understanding how things work.\nThey sound very smart until you ask a surprise question.\nAlways look for real, hands-on knowledge instead of slick talkers.",
       "quote": "I frequently tell the story of Max Planck and his chauffeur... There are two kinds of knowledge. One is Planck knowledge, that of the people who really know. The other is chauffeur knowledge.",
-      "actionItem": "Interrogate vendors and advisors with probing, non-scripted second-order questions to determine whether they possess genuine functional knowledge or rehearsed talking points.",
+      "actionItem": "Ask simple, detailed questions before hiring any outside consultant or expert.\nTest if they know real facts or just recited talking points.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1313,10 +1313,10 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       "author": "Charles T. Munger",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Ruthlessly Eliminate Envy from Capital Allocation",
-      "body": "The desire to keep up with peers or match paper gains in speculative assets drives smart people to ruin.\nCompounding is a solitary game played over decades.\nCaring about someone else getting rich faster than you is a guaranteed shortcut to unnecessary leverage and bad bets.",
+      "headline": "Ignore Jealousy and Envy",
+      "body": "Watching other people make quick money can drive you crazy.\nJealousy leads people into taking wild risks they cannot afford.\nFocus on your own goals and do not worry about others.",
       "quote": "The world is not driven by greed; it's driven by envy.",
-      "actionItem": "Tune out social media portfolio updates and peer comparisons; benchmark yourself solely against your personal liability obligations and financial survival targets.",
+      "actionItem": "Stop comparing your savings or wins to people on social media.\nMeasure your progress only against your own personal life goals.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1334,10 +1334,10 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       "author": "Charles T. Munger",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Second-Order Thinking: And Then What?",
-      "body": "First-order thinkers celebrate immediate, obvious outcomes like rapid revenue expansion or quick yields.\nSecond-order thinkers calmly ask: 'And then what happens?' They analyze the hidden long-term liabilities, behavioral distortions, and competitive retaliations that emerge down the line.",
+      "headline": "Second-Order Thinking",
+      "body": "Average thinkers look only at the first, immediate result.\nBetter thinkers look deeper and ask what will happen after that.\nGreat decisions solve problems today without creating worse headaches tomorrow.",
       "quote": "You have to think things through forward and backward... What will happen after the first result, and what happens after that?",
-      "actionItem": "When weighing strategic capital deployment, map out consequences across three horizons: 30 days, 1 year, and 5 years, highlighting deferred hidden costs.",
+      "actionItem": "Ask yourself what happens next before making any big choice.\nTrace the ripple effects out for at least one full year.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1355,10 +1355,10 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       "author": "Charles T. Munger",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Reliability Is the Bedrock of Lasting Advantage",
-      "body": "Genius is erratic, but unwavering reliability is exceedingly rare and massively undervalued in business.\nBeing a person who keeps their word, delivers under pressure, and refuses to cut ethical corners creates an unassailable reputational moat that attracts the highest caliber opportunities.",
+      "headline": "Be Truly Reliable",
+      "body": "Raw brilliance is common, but dependable people are very hard to find.\nKeeping your word builds trust that pays off for decades.\nIf people cannot rely on you, your other talents will not matter.",
       "quote": "If you are unreliable, it doesn't matter what your virtues are. You're going to crater immediately. Doing what you have faithfully engaged to do should be an automatic part of your conduct.",
-      "actionItem": "Make a personal pledge to never over-promise on a milestone or delivery date; under-commit and consistently deliver with immaculate precision.",
+      "actionItem": "Never promise more than you can easily deliver on time.\nPromise a modest goal and finish early with high quality work.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1376,10 +1376,10 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       "author": "Charles T. Munger",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Commitment and Consistency Bias: The Trap of Public Stances",
-      "body": "Once a human being commits to an opinion\u2014especially publicly\u2014the brain constructs impenetrable defenses to justify that choice.\nIn investing, broadcasting your opinions turns a tactical position into an identity, preventing you from selling when facts deteriorate.",
+      "headline": "Consistency Bias Trap",
+      "body": "Once you share an opinion in public, your mind fights to defend it.\nYou want to look consistent even when you are clearly wrong.\nKeep your thoughts flexible so you can adapt to new facts.",
       "quote": "The brain of man conserves programming space by being reluctant to change, which is a form of consistency and commitment tendency.",
-      "actionItem": "Stop discussing your portfolio picks and business predictions publicly or on social media; retain the complete psychological freedom to change your mind without losing face.",
+      "actionItem": "Stop sharing your exact market predictions or portfolio picks online.\nStay free to change your mind whenever new facts appear.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1397,10 +1397,10 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       "author": "Charles T. Munger",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Become a Learning Machine: Read Voraciously Every Day",
-      "body": "Munger attributes his and Warren Buffett's success not to lightning-fast reflexes, but to reading non-fiction for hours every day.\nWealth compounding without intellectual compounding is a fragile fluke.\nConsistent, daily study builds the broad latticework that prevents blind spots.",
+      "headline": "Read Books Every Day",
+      "body": "The smartest leaders spend many quiet hours reading solid non-fiction every day.\nGrowing your knowledge protects you from making foolish mistakes.\nDaily study is the best engine for steady life success.",
       "quote": "In my whole life, I have known no wise people who didn't read all the time\u2014none, zero. You'd be amazed at how much Warren reads\u2014and at how much I read.",
-      "actionItem": "Block off 60 minutes of uninterrupted reading every day for economic histories, biographies, and scientific fundamentals, keeping your phone outside the room.",
+      "actionItem": "Set aside thirty quiet minutes to read good books every day.\nLeave your phone in another room so you can focus.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1418,10 +1418,10 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       "author": "Charles T. Munger",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Checklist Discipline: Taming Complex Environments",
-      "body": "Airline pilots and surgeons rely on checklists because stress and familiarity cause human minds to skip fundamental steps.\nEven the most seasoned investor will overlook critical risks unless forced to run through a rigorous, non-negotiable inspection before pulling the trigger.",
+      "headline": "Use Checklists Faithfully",
+      "body": "Pilots and doctors use simple checklists so they do not miss important steps.\nWhen people get tired or stressed, their brains skip basic facts.\nA clear checklist keeps you disciplined and avoids disaster.",
       "quote": "No wise pilot, no matter how great his talent and experience, fails to use his checklist.",
-      "actionItem": "Construct a two-page investment checklist containing your minimum quantitative criteria, circle-of-competence checks, and psychological bias tests to review before any major allocation.",
+      "actionItem": "Create a short five-point checklist for your major spending decisions.\nReview every point carefully before committing any money.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1435,34 +1435,34 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
   ],
   "mindMap": {
     "id": "root",
-    "label": "Poor Charlie\u2019s Almanack",
-    "description": "Charlie Munger's unvarnished operating manual for navigating capital allocation, human frailty, and long-term survival in an uncertain world.\nThe core philosophy demands emotional discipline, multivariant critical thinking, and relentless pursuit of worldly wisdom over flashy short-term games.",
+    "label": "Poor Charlie's Almanack",
+    "description": "Charlie Munger's simple guide for thinking clearly and living well.\nLearn broad wisdom to avoid big life mistakes.",
     "children": [
       {
         "id": "elementary-worldly-wisdom",
-        "label": "Elementary Worldly Wisdom",
-        "description": "True competence requires synthesizing fundamental mental models across math, physics, biology, and psychology rather than leaning on narrow specializations.\nIf you only have a single framework, reality will punish your blind spots every time market conditions turn hostile.",
+        "label": "Basic Worldly Wisdom",
+        "description": "True smarts come from combining big ideas across many fields.\nUsing only one way of thinking leaves dangerous blind spots.",
         "children": [
           {
             "id": "latticework-mental-models",
-            "label": "Latticework of Mental Models",
-            "description": "Reality doesn't respect corporate or academic silos; big problems cross disciplines.\nYou must anchor 80 to 90 fundamental concepts in your mind and hang all your experience onto this interconnected cognitive grid.",
+            "label": "Web of Mental Models",
+            "description": "Real life does not fit into single school subjects.\nConnect core ideas from many fields to see clearly.",
             "children": [
               {
                 "id": "man-with-a-hammer",
-                "label": "Man with a Hammer Tendency",
-                "description": "To a man with only a hammer, every single problem looks suspiciously like a nail.\nRelying on an isolated professional dogma guarantees you will oversimplify complex economic realities and run straight into catastrophic error.",
+                "label": "The Hammer Trap",
+                "description": "If your only tool is a hammer, everything looks like a nail.\nOne narrow tool makes you oversimplify big problems.",
                 "children": [
                   {
                     "id": "hyper-specialization-trap",
-                    "label": "Hyper-Specialization Blindness",
-                    "description": "Modern professions incentivize hyper-specialists who possess extreme narrow precision alongside breathtaking general stupidity.\nIn the real market, financial survival demands cross-disciplinary breadth over rigid academic tenure.",
+                    "label": "Narrow Focus Blindness",
+                    "description": "Knowing only one tiny topic makes you blind elsewhere.\nSurvival needs wide knowledge, not just narrow focus.",
                     "children": []
                   },
                   {
                     "id": "synthesizing-core-sciences",
-                    "label": "Cross-Disciplinary Literacy",
-                    "description": "Mastering the basic 20% of big ideas from physics, chemistry, engineering, and history gives you 80% of actionable decision-making power.\nIt protects you from being swindled by smooth-talking specialists selling proprietary dogma.",
+                    "label": "Learn Big Core Ideas",
+                    "description": "Learn the biggest basics from physics, math, and history.\nThis gives you huge power to spot bad advice.",
                     "children": []
                   }
                 ]
@@ -1470,18 +1470,18 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
               {
                 "id": "circle-of-competence",
                 "label": "Circle of Competence",
-                "description": "Knowing the precise boundary of your own knowledge is infinitely more valuable than having a massive intellect.\nTrue risk management is refusing to gamble outside that perimeter, no matter how seductive the speculative mania appears.",
+                "description": "Know exactly what you do and do not know.\nNever gamble outside your boundary, no matter the hype.",
                 "children": [
                   {
                     "id": "intellectual-honesty",
-                    "label": "Relentless Intellectual Honesty",
-                    "description": "The first principle of worldly survival is that you must never fool yourself, yet you are the easiest person to fool.\nThe moment ego blurs what you actually grasp from what you merely desire to be true, financial ruin takes root.",
+                    "label": "Honesty With Yourself",
+                    "description": "You are the easiest person to fool.\nNever let pride trick you into faking knowledge.",
                     "children": []
                   },
                   {
                     "id": "chauffeur-vs-real-knowledge",
-                    "label": "Max Planck vs. Chauffeur Knowledge",
-                    "description": "One type of person understands deep causal mechanics; the other merely memorized the vocabulary and mimics authority.\nDistinguishing authentic competence from articulate pretenders prevents fatal bets on empty suits.",
+                    "label": "Real vs Fake Knowledge",
+                    "description": "Some people truly understand; others just memorize the words.\nLearn to tell real experts from smooth talkers.",
                     "children": []
                   }
                 ]
@@ -1490,25 +1490,25 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
           },
           {
             "id": "multidisciplinary-hard-sciences",
-            "label": "Hard Science Foundations",
-            "description": "Soft intuition must be disciplined by immutable mathematical and physical laws.\nIgnoring numerical reality and biological constraints in commerce is like jumping off a skyscraper and expecting gravity to take a break.",
+            "label": "Hard Science Rules",
+            "description": "Anchor your gut feelings in basic math and physics.\nYou cannot break natural laws without getting hurt.",
             "children": [
               {
                 "id": "permutations-probabilities",
-                "label": "Fermat & Pascal's Probabilities",
-                "description": "Life and markets are essentially repetitive exercises in basic odds, expected value, and conditional probability.\nIf you don't calculate downside variance before looking at potential gain, you are merely an emotional gambler.",
+                "label": "Basic Odds and Math",
+                "description": "Life and money run on simple odds.\nAlways check what you can lose before you bet.",
                 "children": []
               },
               {
                 "id": "compound-interest-mechanics",
-                "label": "Compounding & Arithmetic Patience",
-                "description": "Compound interest is the eighth wonder of the world, quietly multiplying capital over decades if left uninterrupted.\nThe cardinal sin of investing is prematurely tampering with a compounding curve out of sheer boredom or vanity.",
+                "label": "The Power of Compounding",
+                "description": "Compounding quietly multiplies your money over long periods.\nNever interrupt growth unless you truly must.",
                 "children": []
               },
               {
                 "id": "breakpoint-critical-mass",
-                "label": "Autocatalysis & Critical Mass",
-                "description": "Borrowed from chemistry and physics, systems often appear inert until hitting an explosive tipping point where growth fuels itself.\nRecognizing true autocatalytic business models allows capital to scale with almost unfair economic efficiency.",
+                "label": "Tipping Points",
+                "description": "Some things build slowly until they suddenly explode into growth.\nSpotting this early lets your results grow fast.",
                 "children": []
               }
             ]
@@ -1517,81 +1517,81 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       },
       {
         "id": "psychology-of-human-misjudgment",
-        "label": "Psychology of Human Misjudgment",
-        "description": "Human cognitive architecture is riddled with evolutionary shortcuts that misfire horribly inside modern capital markets.\nRecognizing these systematic psychological bugs protects your net worth from being systematically drained by predatory actors and your own self-deception.",
+        "label": "How Brains Misjudge",
+        "description": "Our minds have built-in flaws that cause foolish choices.\nKnowing these tricks protects your money and mind.",
         "children": [
           {
             "id": "incentive-super-response",
-            "label": "Incentive-Caused Bias",
-            "description": "Never, ever think about something else when you should be thinking about the power of incentives.\nIf a person's livelihood depends on not understanding a risk, no amount of logic or moral pleading will open their eyes.",
+            "label": "Power of Incentives",
+            "description": "People do whatever pays them the most.\nNever trust advice from someone whose paycheck disagrees.",
             "children": [
               {
                 "id": "agency-costs-in-finance",
-                "label": "Predatory Agency Problems",
-                "description": "Advisors, brokers, and consultants are frequently paid for transaction volume rather than the longevity of your portfolio.\nWhen incentives misalign, fiduciary duty evaporates into sophisticated excuse-making.",
+                "label": "Conflicted Advisors",
+                "description": "Brokers often get paid when you buy, not when you win.\nWatch out when their gain does not match yours.",
                 "children": []
               },
               {
                 "id": "moral-hazard-erosion",
-                "label": "Moral Hazard Drift",
-                "description": "When profits are privatized but systemic losses are socialized, reckless leverage becomes standard operating procedure.\nSurviving requires avoiding counterparties who play Russian roulette with other people's money.",
+                "label": "Other People's Money",
+                "description": "People take silly risks when they do not pay for losses.\nAvoid partners who do not share the downside.",
                 "children": []
               }
             ]
           },
           {
             "id": "consistency-commitment-bias",
-            "label": "Commitment & Consistency Bias",
-            "description": "The human brain fiercely resists changing its public positions or abandoning sunken investments because inconsistency feels like personal defeat.\nPeople will bankrupt their families before admitting their initial thesis was flawed.",
+            "label": "Stubborn Mind Trap",
+            "description": "People hate changing their minds once they take a stance.\nThis pride pushes folks into bad mistakes.",
             "children": [
               {
                 "id": "sunk-cost-trap",
-                "label": "Sunk Cost Escalation",
-                "description": "Pouring good capital after bad just to vindicate your original decision is emotional suicide in the marketplace.\nMarkets have zero memory of your purchase price and owe you nothing for your stubbornness.",
+                "label": "Sunk Cost Trap",
+                "description": "Do not throw good money after bad.\nThe market does not care what you spent yesterday.",
                 "children": []
               },
               {
                 "id": "ideological-blindness",
-                "label": "Ideological & Identity Lock-in",
-                "description": "Becoming an ideologue rots the human mind faster than almost any chemical substance.\nCharlie advises that you aren't fit to hold an opinion until you can argue the other side's case better than they can.",
+                "label": "One-Track Mindset",
+                "description": "Blind beliefs ruin your ability to think straight.\nOnly hold an opinion if you can argue the other side.",
                 "children": []
               }
             ]
           },
           {
             "id": "social-proof-and-deprival",
-            "label": "Crowd Psychology & Deprival Panic",
-            "description": "Herd behavior and fear of missing out create manic asset bubbles, while sudden losses trigger irrational panic.\nMaintaining emotional composure while everyone around you loses their minds is the ultimate competitive advantage.",
+            "label": "Crowds and Loss Panic",
+            "description": "Following crowds causes bubbles; sudden losses trigger blind panic.\nStay calm while others lose their heads.",
             "children": [
               {
                 "id": "social-proof-tendency",
-                "label": "Social-Proof Herding",
-                "description": "Lemmings jump together because copying the majority feels biologically safe even when heading straight over a cliff.\nIn finance, buying what everyone else is currently raving about guarantees paying peak prices for mediocre assets.",
+                "label": "Following the Herd",
+                "description": "Copying everyone else feels safe, even when walking off a cliff.\nBuying popular things usually means paying too much.",
                 "children": []
               },
               {
                 "id": "deprival-super-reaction",
-                "label": "Deprival Super-Reaction Syndrome",
-                "description": "Humans react with disproportionate rage and desperation to having something taken away, whether it is money, territory, or status.\nThis psychological overreaction explains market panic selling at market bottoms and bitter litigation over trivial sums.",
+                "label": "Pain of Losing",
+                "description": "People panic when something is snatched away from them.\nThis pain makes investors sell at the worst time.",
                 "children": []
               }
             ]
           },
           {
             "id": "lollapalooza-effect",
-            "label": "The Lollapalooza Effect",
-            "description": "When multiple psychological biases act concurrently in the exact same direction, rational behavior ceases entirely.\nThe resulting confluence creates monumental historical catastrophes, religious cults, or speculative bubbles like the South Sea Mania.",
+            "label": "The Lollapalooza Trap",
+            "description": "When several brain biases hit together, people act crazy.\nThis creates giant market bubbles and cults.",
             "children": [
               {
                 "id": "bubble-and-bust-dynamics",
-                "label": "Speculative Euphoria Dynamics",
-                "description": "When social proof, greed, authority endorsement, and incentive biases combine, asset prices detach completely from cash generation reality.\nThe savvy allocator watches the circus from the sidelines, keeping powder completely dry.",
+                "label": "Market Mania Cycles",
+                "description": "Greed and crowd pressure push prices far above real value.\nSmart people sit back and keep their cash safe.",
                 "children": []
               },
               {
                 "id": "institutional-corruption",
-                "label": "Subprime & Institutional Delusion",
-                "description": "Entire institutional ecosystems can simultaneously drift into fraudulent delusions when compensation structures reward blindness.\nRecognizing these compound systemic distortions allows you to sidestep contagion before the collapse.",
+                "label": "Group Blindness",
+                "description": "Whole companies can fool themselves when bonuses reward silence.\nSpot these group lies before things crash.",
                 "children": []
               }
             ]
@@ -1600,62 +1600,62 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       },
       {
         "id": "rigorous-critical-thinking",
-        "label": "Rigorous Critical Thinking Tools",
-        "description": "Brilliance is overrated; the secret to elite capital allocation is the relentless, boring avoidance of ordinary stupidity.\nConstructing disciplined inversion protocols and checklists keeps you from shooting yourself in the foot.",
+        "label": "Clear Thinking Tools",
+        "description": "Being smart is mostly about avoiding common stupidity.\nUse simple habits and lists to stay out of trouble.",
         "children": [
           {
             "id": "inversion-principle",
-            "label": "Inversion: Always Invert",
-            "description": "Jacobi's algebraic maxim dictates that many hard problems are best solved backward.\nInstead of asking how to become wealthy, obsess over identifying every single stupid thing that causes bankruptcy and systematically eradicate them.",
+            "label": "Think Backwards First",
+            "description": "Solve hard problems by working from the back.\nFigure out what causes failure, then avoid those things.",
             "children": [
               {
                 "id": "avoiding-ruin-and-death",
-                "label": "Avoidance of Catastrophic Ruin",
-                "description": "All I want to know is where I'm going to die so I'll never go there.\nAvoiding leverage, crooked partners, and catastrophic drawdown matters tenfold more than hitting occasional home-run investments.",
+                "label": "Dodge Total Ruin",
+                "description": "Find out where disaster lives and never go near it.\nAvoiding big loss matters far more than big wins.",
                 "children": []
               },
               {
                 "id": "reverse-engineering-misery",
-                "label": "Prescription for Guaranteed Misery",
-                "description": "Be untrustworthy, nurse bitter resentments, ignore the lessons of history, and refuse to adjust your mind when facts change.\nInverting life's guaranteed failure routes leaves you on the straightforward path to peace and wealth.",
+                "label": "Formula for Misery",
+                "description": "Being unreliable, bitter, and stubborn guarantees a sad life.\nFlip those bad habits to find peace and success.",
                 "children": []
               }
             ]
           },
           {
             "id": "two-track-analysis",
-            "label": "Two-Track Decision Analysis",
-            "description": "Analyze every complex proposal through two completely distinct lenses: first, the objective financial and physical realities; second, the subconscious psychological biases operating in the humans presenting the deal.",
+            "label": "Two-Lens Analysis",
+            "description": "Look at deals through two windows: real math and human motives.\nChecking both keeps you from being tricked.",
             "children": [
               {
                 "id": "objective-economic-reality",
-                "label": "Hard Economic Fundamentals",
-                "description": "Evaluate the unemotional math: unit economics, regulatory boundaries, replacement costs, and true cash flow generation.\nStrip away all storytelling and pitch-deck varnish to see what is physically viable.",
+                "label": "Look at Hard Facts",
+                "description": "Check the real numbers and cash flow directly.\nIgnore sales hype and look at plain facts.",
                 "children": []
               },
               {
                 "id": "subconscious-psychological-distortions",
-                "label": "Psychological Motivation Audit",
-                "description": "Investigate who is incentivized to lie, who is suffering from self-deceiving wishful thinking, and what hidden emotional pressures drive the board.\nHuman dysfunction usually blows up what mathematical models claim is foolproof.",
+                "label": "Check Human Motives",
+                "description": "See who has reasons to lie or fool themselves.\nFlawed people often wreck good math plans.",
                 "children": []
               }
             ]
           },
           {
             "id": "checklist-routines",
-            "label": "Rigid Checklist Execution",
-            "description": "Like an airline pilot checking flight controls before takeoff, serious allocators rely on systematic checklists to bypass ego and momentary fatigue.\nChecklists enforce humility and ensure basic failure modes aren't overlooked.",
+            "label": "Use Simple Checklists",
+            "description": "Like pilots before takeoff, use lists to stay safe.\nChecklists stop simple mistakes when you are tired.",
             "children": [
               {
                 "id": "pre-mortem-discipline",
-                "label": "Pre-Mortem Failure Analysis",
-                "description": "Assume the project has suffered an unmitigated disaster five years into the future, then write the detailed autopsy today.\nThis habit forces team members to vocalize uncomfortable truths that polite corporate culture suppresses.",
+                "label": "Plan for Failure First",
+                "description": "Imagine the project died, then write down what killed it.\nThis uncovers bad risks before you begin.",
                 "children": []
               },
               {
                 "id": "countering-mental-fatigue",
-                "label": "Fatigue & Stress Safeguards",
-                "description": "Under high stakes and extreme stress, the human prefrontal cortex degrades, defaulting to crude biological impulses.\nStandardized checklists act as external guardrails, keeping you from pulling erratic triggers in market crises.",
+                "label": "Guards Against Stress",
+                "description": "Stress makes brains sloppy and impulsive.\nChecklists keep you steady during high-pressure moments.",
                 "children": []
               }
             ]
@@ -1664,62 +1664,62 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       },
       {
         "id": "practical-economic-realities",
-        "label": "Practical Economic Realities & Moats",
-        "description": "Commercial success is governed by harsh, unyielding economic dynamics rather than optimistic management speeches.\nCapital allocation requires understanding durable competitive advantages, pricing power, and the corrosive nature of competitive destruction.",
+        "label": "Real Business Basics",
+        "description": "Business success follows tough economic rules, not happy speeches.\nFind strong companies with power over their prices.",
         "children": [
           {
             "id": "economic-moats",
-            "label": "Durable Competitive Advantages",
-            "description": "A great business is a castle protected by a wide, unfordable moat filled with piranhas and crocodiles.\nWithout structural defense against commoditization, capital returns inevitably get eroded by ruthless competitors.",
+            "label": "Strong Business Moats",
+            "description": "A great business is like a castle protected by a deep moat.\nWithout defense, rivals will steal all your profits.",
             "children": [
               {
                 "id": "pricing-power-metric",
-                "label": "Pricing Power Test",
-                "description": "The ultimate test of an economic moat is whether you can raise prices meaningfully without losing market share to competitors or holding a prayer meeting.\nIf you need a committee meeting to raise prices a penny, you own a commodity.",
+                "label": "Power to Raise Prices",
+                "description": "Can you raise prices without losing buyers to rivals?\nIf not, you sell a plain product with no moat.",
                 "children": []
               },
               {
                 "id": "network-effects-and-scale",
-                "label": "Scale & Network Advantage",
-                "description": "Massive scale creates insurmountable cost advantages and self-reinforcing network loops that starve weaker rivals of oxygen.\nWhen combined with customer lock-in, these enterprises become virtually indestructible cash engines.",
+                "label": "Scale and Networks",
+                "description": "Giant size cuts costs and keeps customers locked in.\nThese firms become cash engines that rivals cannot beat.",
                 "children": []
               }
             ]
           },
           {
             "id": "competitive-destruction",
-            "label": "Creative Destruction & Capital Drain",
-            "description": "Capitalism is brutal; most companies are destined to die as technological disruption and aggressive rivals render old models obsolete.\nInvesting in a low-return business with high reinvestment needs is like running on a treadmill that slowly speeds up.",
+            "label": "Brutal Competition",
+            "description": "Most businesses die as new tech replaces old models.\nAvoid bad industries that constantly chew up cash.",
             "children": [
               {
                 "id": "capital-intensive-textile-curse",
-                "label": "The Textile Mill Paradox",
-                "description": "Buying expensive new machinery just to survive without gaining pricing power returns zero net economic value to shareholders.\nAll the productivity gains flow directly to customers while owners are bled dry by ongoing depreciation.",
+                "label": "Money Pit Trap",
+                "description": "Buying pricey new machines just to stay alive wastes cash.\nCustomers get the gains while owners go broke.",
                 "children": []
               },
               {
                 "id": "competent-management-vs-bad-industry",
-                "label": "Tough Business vs. Star CEO",
-                "description": "When a management team with a reputation for brilliance tackles a business with a reputation for bad economics, it is the reputation of the business that remains intact.\nPick wonderful businesses over heroic managers.",
+                "label": "Great Business First",
+                "description": "Even a star boss cannot fix a terrible business.\nAlways choose great economics over heroic managers.",
                 "children": []
               }
             ]
           },
           {
             "id": "sit-on-your-ass-investing",
-            "label": "Sit-On-Your-Ass Investing",
-            "description": "The big money is not in the buying and the selling, but in the waiting.\nOnce you find a truly great enterprise run by capable, honest stewards, the correct move is almost always radical inactivity for decades.",
+            "label": "Patient Waiting",
+            "description": "The real money is made in waiting, not trading.\nWhen you own great firms, just sit still.",
             "children": [
               {
                 "id": "friction-costs-elimination",
-                "label": "Tax & Friction Annihilation",
-                "description": "Trading back and forth enriches brokers and hands huge chunks of your compounded capital to the tax collector.\nExtreme patience allows gross gains to compound tax-deferred, building an insurmountable mathematical edge.",
+                "label": "Cut Fees and Taxes",
+                "description": "Frequent trading feeds brokers and tax collectors.\nDoing nothing lets your money grow without waste.",
                 "children": []
               },
               {
                 "id": "swinging-at-fat-pitches",
-                "label": "Ted Williams' Fat Pitch Discipline",
-                "description": "In investing, there are no called strikes; you can wait for the exact pitch in your sweet spot before swinging.\nHaving the discipline to pass on hundreds of mediocre opportunities is what separates icons from average participants.",
+                "label": "Wait for Easy Pitches",
+                "description": "You do not have to swing at every ball.\nWait patiently until an easy, great pitch appears.",
                 "children": []
               }
             ]
@@ -1728,62 +1728,62 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
       },
       {
         "id": "character-conduct-worldly-success",
-        "label": "Character, Ethics & Long-Term Freedom",
-        "description": "True wealth is not a trophy collection of material excesses; it is complete autonomy over your time, speech, and associations.\nCharlie emphasizes that uncompromising integrity and reliability are not merely moral choices, but the highest-leverage economic strategies available.",
+        "label": "Character and Ethics",
+        "description": "Real wealth means freedom over your time and words.\nHonesty and reliability are the best ways to succeed.",
         "children": [
           {
             "id": "uncompromising-integrity",
-            "label": "Integrity as a Commercial Weapon",
-            "description": "A reputation for scrupulous honesty lubricates transactions and attracts elite partners while shady dealers spend their lives looking over their shoulders.\nEthical behavior pays massive, compounding financial dividends over a lifetime.",
+            "label": "Honesty as an Edge",
+            "description": "Being honest attracts high-grade partners and deals.\nGood ethics pay huge rewards over a lifetime.",
             "children": [
               {
                 "id": "seamless-web-of-deserved-trust",
-                "label": "Seamless Web of Deserved Trust",
-                "description": "The highest operational efficiency a human institution can achieve is a network of thoroughly trustworthy operators needing minimal oversight.\nBureaucracies, audits, and legal contracts are simply the deadweight tax society pays for widespread dishonesty.",
+                "label": "Web of Trust",
+                "description": "Work runs best when everybody trusts one another.\nRules and audits are costly taxes paid for dishonesty.",
                 "children": []
               },
               {
                 "id": "deserving-what-you-want",
-                "label": "The Golden Rule of Acquisition",
-                "description": "The safest way to get what you want in life is to systematically deserve what you want.\nSociety is not yet entirely stupid; over the long run, it delivers its outsized rewards to the truly reliable, capable, and honest.",
+                "label": "Deserve Your Success",
+                "description": "The surest way to get what you want is to deserve it.\nLife usually rewards those who are reliable and skilled.",
                 "children": []
               }
             ]
           },
           {
             "id": "avoidance-of-sloth-envy",
-            "label": "Eliminating Lethal Toxic Emotions",
-            "description": "Envy, resentment, self-pity, and spite are total dead-ends that offer zero utility while rotting your ability to make prudent financial decisions.\nYou can never get rich enough to satisfy an envious soul, because someone will always be making money faster.",
+            "label": "Ditch Toxic Feelings",
+            "description": "Envy and resentment only hurt your own thinking.\nYou cannot win when you constantly compare yourself to others.",
             "children": [
               {
                 "id": "poison-of-envy",
-                "label": "Envy: The Stupidest Sin",
-                "description": "Of all the seven deadly sins, envy is uniquely idiotic because it doesn't even offer a brief moment of fun or bodily pleasure.\nObsessing over your neighbor's sudden windfall tempts you into excessive leverage and speculative ruin.",
+                "label": "Envy Is Pointless",
+                "description": "Envy brings zero fun and only breeds misery.\nWatching others get rich quick tricks you into bad bets.",
                 "children": []
               },
               {
                 "id": "self-pity-destructive-cycle",
-                "label": "Self-Pity as Mental Cancer",
-                "description": "Whenever you slip into self-pity, you surrender agency and blind yourself to practical remedies.\nCharlie views self-pity as completely unacceptable behavior that paralyzes competence and poisons every relationship.",
+                "label": "Avoid Self-Pity",
+                "description": "Feeling sorry for yourself ruins action and poisons relationships.\nDrop pity and focus on fixing the real problem.",
                 "children": []
               }
             ]
           },
           {
             "id": "lifelong-learning-machine",
-            "label": "Becoming a Learning Machine",
-            "description": "Worldly wisdom is not a static prize captured in your youth; you must go to bed a little wiser each night than when you woke up.\nDeveloping voracious reading habits and a quiet life provides the compounding cognitive capital that sustains authentic independence.",
+            "label": "Never Stop Learning",
+            "description": "Wisdom grows only if you keep learning every day.\nRead constantly and stay curious to stay ahead.",
             "children": [
               {
                 "id": "voracious-reading-habit",
-                "label": "Constant Bibliophilic Curiosity",
-                "description": "Neither Charlie nor Warren ever saw a truly wise person who didn't read all the time\u2014none, zero.\nSitting with books allows you to cross-examine history's greatest dead minds and collect their painful lessons without bleeding yourself.",
+                "label": "Read Constantly",
+                "description": "Wise people read all the time.\nBooks let you learn tough lessons without the pain.",
                 "children": []
               },
               {
                 "id": "rubbing-out-cherished-ideas",
-                "label": "Destroying Your Own Beliefs",
-                "description": "Munger instituted a mental rule to destroy at least one of his most deeply cherished concepts every year.\nIf you don't actively work to discredit your own ideas, the market will gladly do it for you, at maximum financial cost.",
+                "label": "Drop Favorite Ideas",
+                "description": "Practice throwing away your favorite beliefs every year.\nIf you do not test them, the market will.",
                 "children": []
               }
             ]

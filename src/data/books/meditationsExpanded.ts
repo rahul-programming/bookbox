@@ -1,5 +1,5 @@
 // Meditations by Marcus Aurelius
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -567,169 +567,169 @@ export const MEDITATIONS_BOOK: Book = {
   "actionItems": [
     {
       "id": "meditations-act-1",
-      "title": "Pause Before Responding to Irritation",
-      "description": "Disturbances enter through hasty reactions rather than events themselves. By pausing, you create a space of calm judgment.",
+      "title": "Pause Before You React",
+      "description": "Quick anger hurts you more than the event itself. Taking a short pause gives you time to choose calm.",
       "category": "quick-win",
       "timeEstimateMinutes": 2,
       "stepByStep": [
-        "Notice the sudden surge of annoyance or anger in your body.",
-        "Take one slow, deep breath without speaking or typing.",
-        "Silently remind yourself: 'This event cannot harm my character unless I allow it.'",
-        "Respond quietly and simply, or remain silent if words are unnecessary."
+        "1. Notice the quick surge of anger in your body.",
+        "2. Take one slow, deep breath before you speak or type.",
+        "3. Tell yourself: 'This cannot hurt who I am.'",
+        "4. Speak in a quiet voice, or stay silent."
       ],
       "sourceChapter": "Book 4"
     },
     {
       "id": "meditations-act-2",
-      "title": "Morning Preparation for Difficult Encounters",
-      "description": "Begin the day anticipating meddling, ungrateful, and arrogant behavior so that none of it surprises or shakes your serenity.",
+      "title": "Prep for Difficult People",
+      "description": "Expect rude and selfish people before you start your day. That way, their bad behavior will not catch you off guard.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Sit comfortably immediately after waking, before opening notifications.",
-        "Tell yourself: 'Today I will meet meddlesome, ungrateful, arrogant, and dishonest people.'",
-        "Remind yourself that they act out of ignorance of good and evil, while you know what is right.",
-        "Resolve to treat them as fellow citizens of the cosmos without resentment."
+        "1. Sit quietly right after waking up, before checking your phone.",
+        "2. Tell yourself: 'Today I will meet rude and dishonest people.'",
+        "3. Remind yourself that they act this way because they are confused.",
+        "4. Choose to treat them with kindness instead of anger."
       ],
       "sourceChapter": "Book 2"
     },
     {
       "id": "meditations-act-3",
-      "title": "Evening Examination of the Soul",
-      "description": "Close your day with an honest review of your actions, judging yourself with gentleness, clarity, and firm resolve.",
+      "title": "Nightly Check on Your Day",
+      "description": "Review your daily actions with total honesty before sleep. Be kind to yourself, but resolve to do better tomorrow.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Sit in silence before bed with a notebook or quiet thoughts.",
-        "Ask: 'Where did I falter in patience or temper today?'",
-        "Ask: 'What duty did I fulfill well, and where did I waste life's hours?'",
-        "Acknowledge faults plainly without despair, and resolve to begin anew tomorrow."
+        "1. Sit quietly with a notebook right before going to sleep.",
+        "2. Ask: 'Where did I lose my patience or temper today?'",
+        "3. Ask: 'What did I handle well, and what did I waste?'",
+        "4. Forgive your mistakes and decide to start fresh tomorrow."
       ],
       "sourceChapter": "Book 5"
     },
     {
       "id": "meditations-act-4",
-      "title": "Strip Objects Down to Their Bare Nature",
-      "description": "Strip luxury, prestige, and worldly desires of their illusion by describing them in plain, unvarnished physical terms.",
+      "title": "Strip Things Down to Basics",
+      "description": "Fancy items lose their hold on you when seen simply. Describe objects by what they are made of in plain words.",
       "category": "quick-win",
       "timeEstimateMinutes": 3,
       "stepByStep": [
-        "Select an object or status you desire excessively (a luxury item, a title, a rich meal).",
-        "Describe it purely as what it is physically (e.g., 'vintage wine is grape juice; a fine coat is sheep wool dipped in shell blood').",
-        "Observe how the artificial charm and vanity immediately fade.",
-        "Return your focus to inner virtue, which holds genuine substance."
+        "1. Pick a luxury item or status symbol that you really want.",
+        "2. Name its physical parts, like calling fine wine just old grape juice.",
+        "3. Notice how quickly its fake appeal and status disappear.",
+        "4. Turn your attention back to living with honest character."
       ],
       "sourceChapter": "Book 6"
     },
     {
       "id": "meditations-act-5",
-      "title": "Establish an Uncluttered Inner Sanctuary",
-      "description": "Your physical surroundings should invite stillness rather than agitation, mirroring the tranquil fortress within.",
+      "title": "Clear Your Personal Space",
+      "description": "A clean room helps create a calm and steady mind. Keep your daily space simple and free of messy junk.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Choose the surface where you read, reflect, or work.",
-        "Remove every paper, trinket, and distraction that serves no practical or noble purpose.",
-        "Leave only the essential tools and a clean, open space.",
-        "Sit before the clear space and let your thoughts mirror its quiet order."
+        "1. Pick the desk or table where you work and read.",
+        "2. Clear away every random paper and useless object on it.",
+        "3. Keep only the few tools you actually need today.",
+        "4. Sit down and let your mind match this clean space."
       ],
       "sourceChapter": "Book 4"
     },
     {
       "id": "meditations-act-6",
-      "title": "Conduct the View from Above",
-      "description": "Elevate your perspective to look upon yourself, your town, and the entire earth as a tiny speck in an endless sea of time and space.",
+      "title": "Look from Far Above",
+      "description": "Zoom out and picture your whole life from high above. Your biggest worries look tiny from up there.",
       "category": "system",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Close your eyes and visualize yourself sitting in your room.",
-        "Zoom outward to your neighborhood, then your city, then the entire spinning globe.",
-        "Observe the countless generations before you who worried over similar troubles and have vanished.",
-        "Bring this quiet humility back to your immediate problem, seeing its true smallness."
+        "1. Close your eyes and picture yourself sitting in your room.",
+        "2. Picture your whole town, and then the entire round planet.",
+        "3. Think of all the past people whose troubles vanished with time.",
+        "4. Bring this calm feeling back to your small daily problems."
       ],
       "sourceChapter": "Book 9"
     },
     {
       "id": "meditations-act-7",
-      "title": "Audit of the Necessary and Unnecessary",
-      "description": "Eliminate the vast majority of what you say and do, discovering the deep tranquility that comes from doing only what is essential.",
+      "title": "Cut Out Unnecessary Tasks",
+      "description": "Drop most of the busywork you do and say each day. True peace comes from focusing only on what matters.",
       "category": "audit",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Review your calendar and task list from the past week.",
-        "For each recurring activity or conversation, ask: 'Is this truly necessary?'",
-        "Mark the obligations born of vanity, people-pleasing, or idle distraction.",
-        "Strike out at least three non-essential commitments to reclaim your life for duty and peace."
+        "1. Look over your schedule and tasks from the past week.",
+        "2. For each meeting or task, ask: 'Is this truly needed?'",
+        "3. Spot tasks done just to please others or look busy.",
+        "4. Cancel at least three pointless commitments right now."
       ],
       "sourceChapter": "Book 4"
     },
     {
       "id": "meditations-act-8",
-      "title": "The Circle of Control Boundary Audit",
-      "description": "Sort your current anxieties into what is yours to decide and what belongs to the world, surrendering the latter completely.",
+      "title": "Sort What You Control",
+      "description": "Divide all your current worries into two clear piles. Let go of everything that is not up to you.",
       "category": "audit",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Draw two columns on a sheet of paper: 'Within My Will' and 'Beyond My Will'.",
-        "Write down every burden currently weighing upon your mind.",
-        "Place opinions of others, health, past outcomes, and future luck in the second column.",
-        "Consciously let go of the second column, dedicating your full energy to your own thoughts and acts."
+        "1. Draw two columns titled 'What I Control' and 'What I Cannot'.",
+        "2. Write down every single problem on your mind today.",
+        "3. Put other people's opinions, health, and luck in the second column.",
+        "4. Drop the second column and put all effort into your choices."
       ],
       "sourceChapter": "Book 7"
     },
     {
       "id": "meditations-act-9",
-      "title": "Remove Sensational Media and Feeds",
-      "description": "Shield your senses from restless chatter, rumors, and panic that disturb the lake of the mind.",
+      "title": "Mute Loud News and Gossip",
+      "description": "Protect your peace from constant online noise and outrage. Constant gossip and doomscrolling only poison your focus.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Audit the news apps, feeds, and group chats that regularly provoke outrage or anxiety.",
-        "Mute notifications or uninstall apps that trade in gossip and sensationalism.",
-        "Set a single quiet window each day for practical information, avoiding random grazing.",
-        "Notice the preserved mental clarity when external clamor is silenced."
+        "1. Find the apps and chats that make you feel angry or anxious.",
+        "2. Mute their alerts, or delete the worst apps completely.",
+        "3. Pick one short time window each day to check the news.",
+        "4. Enjoy the quiet headspace that comes when the noise stops."
       ],
       "sourceChapter": "Book 3"
     },
     {
       "id": "meditations-act-10",
-      "title": "Contemplate Mortality (Memento Mori)",
-      "description": "Remember that you might leave life right now; let that determine what you do and say and think.",
+      "title": "Remember Life Is Short",
+      "description": "Keep in mind that today could be your last day alive. Let that truth guide how you speak and act.",
       "category": "system",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Before embarking on an important conversation or choice, pause quietly.",
-        "Remind yourself: 'This day, or this very hour, could be my last.'",
-        "Ask whether grudges, petty grievances, or trivial disputes deserve these precious remaining minutes.",
-        "Proceed with gentle kindness, total presence, and undivided honesty."
+        "1. Pause before you make a big choice or start a fight.",
+        "2. Remind yourself: 'This hour could be my last on earth.'",
+        "3. Ask: 'Is this petty drama worth my final moments?'",
+        "4. Act with simple kindness and give your full attention right now."
       ],
       "sourceChapter": "Book 2"
     },
     {
       "id": "meditations-act-11",
-      "title": "Transform an Obstacle into Moral Fuel (Amor Fati)",
-      "description": "Whatever impedes action can advance action; what stands in the way becomes the way to practice patience, courage, and virtue.",
+      "title": "Turn Obstacles into Lessons",
+      "description": "Treat every frustrating roadblock as a chance to practice patience. What blocks your path can teach you the way.",
       "category": "system",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Identify a frustrating delay, blockage, or setback currently facing you.",
-        "Acknowledge the initial disappointment, then breathe and release it.",
-        "Ask: 'What virtue does this obstacle demand of me\u2014patience, ingenuity, or forbearance?'",
-        "Treat the obstacle not as an enemy, but as the very training ground chosen for your growth."
+        "1. Name the annoying delay or problem right in front of you.",
+        "2. Take a breath and let go of the initial annoyance.",
+        "3. Ask: 'What skill does this force me to practice today?'",
+        "4. Treat the roadblock like helpful training for your mind."
       ],
       "sourceChapter": "Book 5"
     },
     {
       "id": "meditations-act-12",
-      "title": "Quiet Gratitude for Benefactors and Teachers",
-      "description": "Cultivate humble gratitude by recalling those whose examples, guidance, and patience helped shape your character.",
+      "title": "Thank Those Who Taught You",
+      "description": "Think of the people who set a good example for you. Remembering their lessons helps you stay humble and grounded.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Recall one mentor, parent, friend, or author who demonstrated true virtue.",
-        "Reflect on a specific lesson or quality you observed in them (e.g., self-restraint, gentle speech, generosity).",
-        "Silently offer thanks for their presence in your life's path.",
-        "Strive to embody that exact virtue in your interactions throughout the day."
+        "1. Think of one mentor, parent, or friend who showed true strength.",
+        "2. Name one good habit or trait you saw in them.",
+        "3. Quietly feel grateful for the example they set for you.",
+        "4. Practice that same good habit in your own actions today."
       ],
       "sourceChapter": "Book 1"
     }
@@ -906,10 +906,10 @@ export const MEDITATIONS_BOOK: Book = {
       "author": "Marcus Aurelius",
       "category": "Philosophy",
       "type": "mental-model",
-      "headline": "The Inner Citadel",
-      "body": "Within the human mind lies a fortress invulnerable to external harm, provided reason guards its walls.\nExternal circumstance cannot force its way into the soul; only our own assent and judgments open the gates to turbulence.",
+      "headline": "The Inner Fortress",
+      "body": "Your mind is a safe place that outside events cannot harm.\nTrouble only enters when you let bad feelings inside.\nProtect your thoughts and stay calm.",
       "quote": "Nowhere can man find a quieter or more untroubled retreat than in his own soul.",
-      "actionItem": "When an external disturbance strikes, close your eyes and retreat inwardly to observe it before reacting.",
+      "actionItem": "When something upsets you, pause and look inside before you react.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -928,9 +928,9 @@ export const MEDITATIONS_BOOK: Book = {
       "category": "Philosophy",
       "type": "mental-model",
       "headline": "The View from Above",
-      "body": "Viewing human affairs from celestial heights shrinks petty squabbles and fleeting anxieties into insignificance.\nBy zooming out to cosmic scales of space and time, the soul regains proportionate calm.",
+      "body": "Look at human life from high up in the sky.\nSmall fights and worries quickly shrink to nothing.\nA big perspective brings peaceful thinking.",
       "quote": "Survey the circling stars, as though you were borne along with them in their courses.",
-      "actionItem": "Visualize your current crisis from orbit, observing the vast Earth and deep time to dissolve panic.",
+      "actionItem": "Picture your current problem from space to make your worry disappear.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -948,10 +948,10 @@ export const MEDITATIONS_BOOK: Book = {
       "author": "Marcus Aurelius",
       "category": "Philosophy",
       "type": "mental-model",
-      "headline": "The Obstacle as the Way",
-      "body": "Adversity does not impede virtue; it provides the raw material for virtue.\nFire consumes whatever falls into it, using the obstruction as fuel to burn brighter and climb higher.",
+      "headline": "The Obstacle as Fuel",
+      "body": "Hard times do not stop your growth.\nLike a fire, you can burn obstacles for fuel.\nEvery difficulty helps you become stronger.",
       "quote": "The impediment to action advances action. What stands in the way becomes the way.",
-      "actionItem": "Identify your greatest roadblock today and treat it as a custom-tailored exercise to train patience and resolve.",
+      "actionItem": "Treat your biggest problem today as a tool to practice patience.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -969,10 +969,10 @@ export const MEDITATIONS_BOOK: Book = {
       "author": "Marcus Aurelius",
       "category": "Philosophy",
       "type": "mental-model",
-      "headline": "Stripping Analysis",
-      "body": "Strip prestigious objects and intimidating figures of their external glamour to see them as they truly are.\nRobbing worldly pomp of its rhetoric reveals its true, humble substance.",
+      "headline": "Strip Away the Hype",
+      "body": "Look past fancy packaging to see things as they really are.\nExpensive items and powerful people are quite simple underneath.\nPlain truth removes false desire.",
       "quote": "Strip things bare, examine their unworthiness, and wash away the legend by which they are glorified.",
-      "actionItem": "Deconstruct an object or status symbol you covet into its raw physical ingredients to quiet desire.",
+      "actionItem": "Break down a luxury item into simple parts to stop craving it.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -990,10 +990,10 @@ export const MEDITATIONS_BOOK: Book = {
       "author": "Marcus Aurelius",
       "category": "Philosophy",
       "type": "mental-model",
-      "headline": "The Dichotomy of Control",
-      "body": "Freedom begins with the sharp division between what lies within our volition and what lies beyond it.\nWhen we agonize over external results, we hand our serenity over to strangers and fortune.",
+      "headline": "Two Kinds of Things",
+      "body": "Some things are in your control, while others are not.\nFocus only on your own choices and actions.\nLetting go of outside results brings peace.",
       "quote": "You have power over your mind, not outside events. Realize this, and you will find strength.",
-      "actionItem": "Draw a line down a page; write your worries on the right, and circle only the direct actions on the left.",
+      "actionItem": "Write down your worries and work only on what you can change.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -1011,10 +1011,10 @@ export const MEDITATIONS_BOOK: Book = {
       "author": "Marcus Aurelius",
       "category": "Philosophy",
       "type": "concept",
-      "headline": "Sympatheia (Universal Interconnectedness)",
-      "body": "All rational beings belong to a single living organism.\nHurting another person is as unnatural and self-destructive as a hand severing a foot from the same body.",
+      "headline": "We Are All Connected",
+      "body": "All people belong together like limbs of one single body.\nWhen you hurt another person, you only hurt yourself.\nWe are built to work with each other.",
       "quote": "We are made for cooperation, like feet, like hands, like the rows of the upper and lower teeth.",
-      "actionItem": "When someone offends you, remember they share your human heritage and choose reconciliation over division.",
+      "actionItem": "When someone is rude, treat them kindly as a fellow human.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -1032,10 +1032,10 @@ export const MEDITATIONS_BOOK: Book = {
       "author": "Marcus Aurelius",
       "category": "Philosophy",
       "type": "concept",
-      "headline": "Amor Fati (Love of Fate)",
-      "body": "True equanimity does not merely tolerate destiny, but embraces it with open arms.\nWhatever the universe assigns to you fits your nature like medicine prescribed by a wise physician.",
+      "headline": "Love What Happens",
+      "body": "Do not fight events that you cannot change.\nWelcome whatever life sends your way with open arms.\nEverything that happens can help you grow.",
       "quote": "Accept the things to which fate binds you, and love the people with whom fate brings you together, but do so with all your heart.",
-      "actionItem": "Replace 'Why did this happen to me?' with 'What does this circumstance ask me to become?'",
+      "actionItem": "Ask yourself how today's unexpected trouble can make you a better person.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -1053,10 +1053,10 @@ export const MEDITATIONS_BOOK: Book = {
       "author": "Marcus Aurelius",
       "category": "Philosophy",
       "type": "concept",
-      "headline": "Memento Mori (Mindfulness of Mortality)",
-      "body": "Death is not an enemy arriving in old age; it is a companion walking beside us at every heartbeat.\nRemembering that you must die strips away false urgency and petty distractions.",
+      "headline": "Remember You Will Die",
+      "body": "Life is short and your time will end one day.\nRemembering this fact makes silly worries vanish.\nIt helps you focus on what really counts.",
       "quote": "You could leave life right now. Let that determine what you do and say and think.",
-      "actionItem": "Pause before starting a non-essential task and ask yourself if it warrants a slice of your finite life.",
+      "actionItem": "Before you waste time today, remember that your days are limited.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -1074,10 +1074,10 @@ export const MEDITATIONS_BOOK: Book = {
       "author": "Marcus Aurelius",
       "category": "Philosophy",
       "type": "concept",
-      "headline": "The Vanity of Posthumous Praise",
-      "body": "Chasing the praise of future generations is as foolish as lamenting that you were not praised by people who lived centuries before you.\nTrue virtue is self-sufficient and requires no applause.",
+      "headline": "Forget About Fame",
+      "body": "Praise from other people does not last long.\nFuture generations will soon forget both you and your deeds.\nDoing good is its own reward.",
       "quote": "A little while and you will have forgotten everything; a little while and everything will have forgotten you.",
-      "actionItem": "Perform a kind or honorable act today completely in secret, seeking no acknowledgment from anyone.",
+      "actionItem": "Do one kind deed today in secret and tell no one.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -1095,10 +1095,10 @@ export const MEDITATIONS_BOOK: Book = {
       "author": "Marcus Aurelius",
       "category": "Philosophy",
       "type": "concept",
-      "headline": "The Hegemonikon (The Ruling Center)",
-      "body": "The governing faculty of the soul is its rational capacity to assess impressions without error.\nNothing outside can stain it, degrade it, or bend it against its will unless it surrenders itself.",
+      "headline": "Your Ruling Mind",
+      "body": "Your reasoning mind is the captain of your life.\nOutside events cannot touch it unless you let them in.\nYou decide how you respond to everything.",
       "quote": "Things do not touch the soul, but stand quiet outside; the vexation comes from within, from our opinion alone.",
-      "actionItem": "When feeling hurt, observe the sensation and state firmly: 'My governing mind remains untouched.'",
+      "actionItem": "When an insult hurts, remind yourself that your mind remains unharmed.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -1116,10 +1116,10 @@ export const MEDITATIONS_BOOK: Book = {
       "author": "Marcus Aurelius",
       "category": "Philosophy",
       "type": "actionable",
-      "headline": "The Morning Preparation",
-      "body": "Arm yourself mentally at dawn against ingratitude, hostility, and deception.\nWhen you anticipate the flaws of human nature in advance, their manifestation cannot take you by surprise or shake your peace.",
+      "headline": "The Morning Prep",
+      "body": "Prepare your mind for difficult people every morning.\nExpect some people to be rude, selfish, or dishonest today.\nSince you expect this, nothing will shock you.",
       "quote": "When you wake up in the morning, tell yourself: The people I deal with today will be meddling, ungrateful, arrogant, dishonest, jealous, and surly.",
-      "actionItem": "Spend three quiet minutes upon waking visualizing potential provocations and your measured response.",
+      "actionItem": "Spend two minutes each morning imagining rude people and staying calm.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -1137,10 +1137,10 @@ export const MEDITATIONS_BOOK: Book = {
       "author": "Marcus Aurelius",
       "category": "Philosophy",
       "type": "actionable",
-      "headline": "Erase False Impressions",
-      "body": "Stop adding secondary narratives to primary sensory data.\nYou were told someone criticized you; that is the fact.\nThat you have been injured by it is a subjective story you invent.",
+      "headline": "Stick to Plain Facts",
+      "body": "Stop adding drama to what happens around you.\nSee facts clearly without making up negative stories.\nThe event happened, but feeling ruined is your choice.",
       "quote": "Wipe out the impression. Retain what is yours. Stop pulling the strings of impulse.",
-      "actionItem": "Strip dramatic adjectives from your thoughts; state events plainly without framing yourself as a victim.",
+      "actionItem": "Describe your problems using simple facts without using dramatic words.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -1158,10 +1158,10 @@ export const MEDITATIONS_BOOK: Book = {
       "author": "Marcus Aurelius",
       "category": "Philosophy",
       "type": "actionable",
-      "headline": "The Prompt Fulfill of Duty",
-      "body": "Do not complain of weary obligations or sluggish mornings.\nA tree bears fruit, a bee builds honey, and a human being must rise to execute the work of human community without reluctance.",
+      "headline": "Do Your Job Gladly",
+      "body": "Do not complain when it is time to work.\nBirds and bees wake up and do their daily duties.\nAs a human, you must do your part too.",
       "quote": "At dawn, when you have trouble getting out of bed, tell yourself: I have to go to work\u2014as a human being.",
-      "actionItem": "When an essential task feels tedious, start it immediately without debating your feelings.",
+      "actionItem": "Start your hardest task right away without arguing with yourself.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -1179,10 +1179,10 @@ export const MEDITATIONS_BOOK: Book = {
       "author": "Marcus Aurelius",
       "category": "Philosophy",
       "type": "actionable",
-      "headline": "Eliminate the Superfluous",
-      "body": "Most of our words and deeds are unnecessary.\nEliminating what is superfluous yields double the tranquility and double the clarity in the hours that remain.",
+      "headline": "Cut the Clutter",
+      "body": "Most of the things we say and do are unnecessary.\nCut away useless tasks to find quiet peace.\nDoing less lets you do what matters well.",
       "quote": "Ask yourself at every moment, 'Is this necessary?'",
-      "actionItem": "Review your daily schedule and cancel one habitual activity that contributes nothing to virtue or purpose.",
+      "actionItem": "Look at your daily list and cancel one totally useless activity.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -1200,10 +1200,10 @@ export const MEDITATIONS_BOOK: Book = {
       "author": "Marcus Aurelius",
       "category": "Philosophy",
       "type": "actionable",
-      "headline": "Stand Upright, Not Kept Upright",
-      "body": "Do not rely on external props, crutches, or constant reassurance from peers to maintain your moral posture.\nVirtue is a self-supporting pillar standing true on its own foundation.",
+      "headline": "Stand on Your Own",
+      "body": "Do not rely on other people to hold you up.\nTrue character stands tall without needing constant praise or excuses.\nTake full responsibility for your life.",
       "quote": "To stand upright, not be kept upright.",
-      "actionItem": "Take complete ownership of a mistake today without offering excuses, deflections, or seeking sympathy.",
+      "actionItem": "Own your mistakes today completely without blaming anyone else.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -1221,10 +1221,10 @@ export const MEDITATIONS_BOOK: Book = {
       "author": "Marcus Aurelius",
       "category": "Philosophy",
       "type": "quote",
-      "headline": "Cease Arguing What Goodness Is",
-      "body": "Philosophical debate without ethical execution is an empty parlor trick.\nThe world does not need another treatise on goodness; it needs men and women who embody it quietly every day.",
+      "headline": "Just Be Good",
+      "body": "Stop arguing about what makes a good person.\nThe world does not need more speeches or debates.\nShow people what goodness looks like by your actions.",
       "quote": "Waste no more time arguing about what a good man should be. Be one.",
-      "actionItem": "Stop discussing your values and let your silent actions demonstrate your principles.",
+      "actionItem": "Stop talking about your morals and let your actions speak instead.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -1242,10 +1242,10 @@ export const MEDITATIONS_BOOK: Book = {
       "author": "Marcus Aurelius",
       "category": "Philosophy",
       "type": "quote",
-      "headline": "The Color of Your Thoughts",
-      "body": "The soul is dyed with the color of its habitual contemplations.\nFill your mind with noble, just, and serene thoughts, and your character will naturally take on that luminous hue.",
+      "headline": "Mind Color",
+      "body": "Your mind takes on the color of your daily thoughts.\nFill your head with calm and honest ideas.\nIf you dwell on junk, you will become bitter.",
       "quote": "The soul becomes dyed with the color of its thoughts.",
-      "actionItem": "Guard your media and sensory diet fiercely today; allow no toxic or trivial gossip to dye your thoughts.",
+      "actionItem": "Avoid toxic gossip today and read something that lifts you up.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -1264,9 +1264,9 @@ export const MEDITATIONS_BOOK: Book = {
       "category": "Philosophy",
       "type": "quote",
       "headline": "The Best Revenge",
-      "body": "Retaliation merely binds you to the moral level of your tormentor.\nThe highest triumph over hostility is to refuse to mirror the ugliness directed at you.",
+      "body": "Getting revenge pulls you down to the level of your enemy.\nThe best response to bad behavior is refusing to act like them.\nStay calm and keep your dignity.",
       "quote": "The best revenge is not to be like that.",
-      "actionItem": "Respond to someone's sharp temper with unflinching courtesy and quiet goodwill.",
+      "actionItem": "Answer an angry person today with quiet kindness and respect.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -1284,10 +1284,10 @@ export const MEDITATIONS_BOOK: Book = {
       "author": "Marcus Aurelius",
       "category": "Philosophy",
       "type": "quote",
-      "headline": "The River of Change",
-      "body": "Time is a violent torrent of passing events.\nNo sooner does a thing appear than it is swept away, and another takes its place, only to be swept away in turn.\nClinging to the transient is madness.",
+      "headline": "The Flow of Time",
+      "body": "Time moves like a fast river that washes everything away.\nMoments arrive and quickly vanish forever.\nDo not cling to things that cannot stay.",
       "quote": "Time is a river, a violent current of events, glimpsed once and already carried past us, and another follows and is gone.",
-      "actionItem": "Release your clinging to a past phase of life and accept the natural transition of all things.",
+      "actionItem": "Let go of an old regret and focus on today.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -1305,10 +1305,10 @@ export const MEDITATIONS_BOOK: Book = {
       "author": "Marcus Aurelius",
       "category": "Philosophy",
       "type": "quote",
-      "headline": "Untouchable Inner Harmony",
-      "body": "When forced by circumstances to be unsettled, return promptly to yourself.\nDo not linger out of rhythm, for by constantly returning to harmony, you master its cadence.",
+      "headline": "Return to Calm",
+      "body": "Life will shake you up from time to time.\nWhen you lose your cool, return quickly to your center.\nPracticing this brings lasting peace of mind.",
       "quote": "When force of circumstance upsets your equanimity, lose no time in recovering your self-control, and do not remain out of tune longer than you can help.",
-      "actionItem": "The moment you notice irritation, pause, breathe deeply, and deliberately reset your demeanor to center.",
+      "actionItem": "When you feel anger rising, take a breath and reset yourself.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -1322,67 +1322,67 @@ export const MEDITATIONS_BOOK: Book = {
   ],
   "mindMap": {
     "id": "root",
-    "label": "Meditations: The Stoic Citadel",
-    "description": "The private spiritual journal of Roman Emperor Marcus Aurelius, written not for an audience, but as a discipline of self-examination and moral vigilance.\nIt stands as an enduring sanctuary of classical Stoic wisdom, guiding the soul toward equanimity amidst the chaotic currents of mortal life.",
+    "label": "Marcus Aurelius Meditations",
+    "description": "This is the private diary of a Roman emperor.\nIt teaches simple rules for finding inner calm.",
     "children": [
       {
         "id": "inner-citadel",
-        "label": "The Inner Citadel",
-        "description": "The unassailable sanctuary of the human mind, untouched by circumstance unless permitted by personal judgment.\nWithin this quiet fortress, the ruling center remains inviolable and serene, independent of external praise, ruin, or turmoil.",
+        "label": "Your Inner Fortress",
+        "description": "Your mind is a safe place.\nOutside events cannot hurt you unless you let them.",
         "children": [
           {
             "id": "ruling-center",
-            "label": "The Ruling Center (Hegemonikon)",
-            "description": "The sovereign intellectual faculty capable of observing its own thoughts, resisting impulses, and governing action through reason.\nWhen you preserve the purity of this inner guide, nothing outside its borders has the power to harm your true self.",
+            "label": "The Thinking Mind",
+            "description": "Your mind chooses how you act.\nKeep your thoughts clear to protect yourself.",
             "children": [
               {
                 "id": "guarding-attention",
-                "label": "Vigilance Over Impressions",
-                "description": "First impressions strike the senses like ripples across water, but reason decides whether to accept or discard them.\nBy withholding immediate assent from fear or longing, the mind preserves its stillness and sovereign poise.",
+                "label": "Watch Your Thoughts",
+                "description": "Do not believe every first thought.\nStop and check if it is true.",
                 "children": []
               },
               {
                 "id": "untainted-essence",
-                "label": "Sanctity of the Rational Soul",
-                "description": "The soul is not stained by the mud of the world unless it surrenders its own integrity through vice and resentment.\nLike a clear mountain stream flowing over stones, pure awareness remains clean no matter what washes past it.",
+                "label": "Keep Mind Clean",
+                "description": "The world cannot dirty your soul.\nOnly bad choices can harm your character.",
                 "children": []
               }
             ]
           },
           {
             "id": "dichotomy-of-control",
-            "label": "Dichotomy of Control",
-            "description": "The foundational boundary dividing all existence into things within our power and things outside our jurisdiction.\nPeace blossoms the exact moment we stop demanding that external reality conform to our private desires.",
+            "label": "Control What You Can",
+            "description": "Some things are up to you, and some are not.\nFocus only on what you can control.",
             "children": [
               {
                 "id": "internal-domain",
-                "label": "What Is Ours: Opinions & Will",
-                "description": "Our thoughts, values, desires, and volitional actions reside exclusively under our ownership.\nHere lies our absolute freedom and the solitary ground where genuine good and evil can ever exist.",
+                "label": "What You Control",
+                "description": "You own your thoughts, choices, and actions.\nYour true power lives right here.",
                 "children": []
               },
               {
                 "id": "external-domain",
-                "label": "What Is Not Ours: Fate & Body",
-                "description": "Reputation, wealth, health, and the whims of other mortals remain forever beyond our command.\nTo tether your happiness to these shifting shadows is to willingly chain your tranquility to a wild beast.",
+                "label": "What You Cannot Control",
+                "description": "You cannot control luck, health, or other people.\nDo not tie your happiness to them.",
                 "children": []
               }
             ]
           },
           {
             "id": "sovereignty-of-perception",
-            "label": "Perception as the True Cause",
-            "description": "Events do not possess the power to injure or grieve the spirit; only your interpretation stamps pain upon the heart.\nStrip away the complaint that you have been hurt, and the injury itself dissolves like mist into the air.",
+            "label": "How You See Things",
+            "description": "Events do not hurt you.\nOnly your opinion about them causes pain.",
             "children": [
               {
                 "id": "clearing-judgment",
-                "label": "Removing Subjective Grief",
-                "description": "Pain is simply an impression in the body, but suffering is an editorial commentary written by an undisciplined mind.\nRefuse to narrate catastrophe, and the soul remains seated in unshakeable quietude.",
+                "label": "Stop Complaining",
+                "description": "Pain is just a body signal.\nStop telling sad stories about it.",
                 "children": []
               },
               {
                 "id": "objective-sight",
-                "label": "Seeing Things As They Are",
-                "description": "Strip luxury and horror of their mythical disguises to see their bare physical composition.\nPurple robes are sheep hair soaked in shellfish blood, and rare vintages are fermented grape juice; behold them without awe.",
+                "label": "See Things Clearly",
+                "description": "Strip away fancy names and hype.\nLook at everything as plain simple parts.",
                 "children": []
               }
             ]
@@ -1391,62 +1391,62 @@ export const MEDITATIONS_BOOK: Book = {
       },
       {
         "id": "universal-nature",
-        "label": "The Cosmos & Universal Nature",
-        "description": "Marcus views the universe not as an accidental heap of dust, but as an interconnected living organism animated by cosmic reason.\nTo align oneself with this greater whole is to welcome all seasons of life with grateful reverence and humility.",
+        "label": "The Whole Universe",
+        "description": "The world is one connected living system.\nWork with nature instead of fighting it.",
         "children": [
           {
             "id": "logos-order",
-            "label": "The All-Pervading Logos",
-            "description": "The rational principle and ordering intelligence that weaves through every atom and celestial orbit.\nTrusting this grand tapestry liberates the mind from the petty grievance that life is unjust or chaotic.",
+            "label": "Order of Nature",
+            "description": "A natural order guides the universe.\nTrust that things happen for a reason.",
             "children": [
               {
                 "id": "providence-vs-atoms",
-                "label": "Providence or Blind Chaos",
-                "description": "Whether the cosmos is guided by benevolent design or colliding atoms, virtue remains our only rational recourse.\nIf gods rule, all is well; if chance governs, you still possess your own upright intellect to guide the vessel.",
+                "label": "Choose Good Always",
+                "description": "Whether life has purpose or is random, be good.\nYour mind can still do the right thing.",
                 "children": []
               },
               {
                 "id": "natural-cooperation",
-                "label": "The Symphony of Parts",
-                "description": "Every creature, branch, and stone exists in intimate communion with the vast living whole.\nWhat does not injure the hive cannot genuinely injure the single bee that works within it.",
+                "label": "All Parts Belong",
+                "description": "Everything in nature works together.\nWhat helps the group helps you too.",
                 "children": []
               }
             ]
           },
           {
             "id": "universal-flux",
-            "label": "The Eternal River of Change",
-            "description": "Time is a torrent of passing events where form shifts endlessly into decay, rebirth, and dissolution.\nGrieving the loss of passing forms is like weeping because autumn follows the golden warmth of summer.",
+            "label": "Constant Change",
+            "description": "Everything changes all the time.\nDo not be sad when things pass away.",
             "children": [
               {
                 "id": "impermanence-cycles",
-                "label": "Transience of All Forms",
-                "description": "Cities turn to dust, emperors sink into memory, and empires dissolve back into the earth.\nEmbracing this truth softens vanity, loosening our desperate grip on things never meant to last.",
+                "label": "Nothing Lasts Forever",
+                "description": "People and empires turn to dust.\nAccept this truth and hold things lightly.",
                 "children": []
               },
               {
                 "id": "substance-recycled",
-                "label": "Recycling of Cosmic Matter",
-                "description": "No element is destroyed in death; matter merely parts ways to weave fresh tapestries elsewhere in nature.\nWe are temporary assemblies of elements, returning gently to the source that lent us breath.",
+                "label": "Nature Recycles Everything",
+                "description": "Death is just nature reusing old pieces.\nNothing is truly lost when it ends.",
                 "children": []
               }
             ]
           },
           {
             "id": "amor-fati",
-            "label": "Love of Fate (Amor Fati)",
-            "description": "The willing and joyful acceptance of whatever allotment the cosmos spins for your personal thread.\nDo not merely endure your circumstances as a chore, but embrace them as the precise medicine prescribed for your soul.",
+            "label": "Love Your Fate",
+            "description": "Welcome whatever happens to you in life.\nTreat hard times as medicine that heals.",
             "children": [
               {
                 "id": "the-obstacle-way",
-                "label": "The Obstacle Becomes the Way",
-                "description": "The impediment to action advances action, converting roadblocks into fuel for character.\nWhat stands in the way becomes the path itself, just as blazing fire consumes whatever is thrown onto it.",
+                "label": "Obstacles Help You Grow",
+                "description": "Roadblocks show you a new way forward.\nUse your problems as fuel to grow.",
                 "children": []
               },
               {
                 "id": "willing-acceptance",
-                "label": "Welcoming Cosmic Medicine",
-                "description": "Just as a physician prescribes difficult journeys or bitter herbs, universal nature assigns our hardships.\nGreet adversity with the quiet realization that it was tailored specifically to strengthen your spiritual marrow.",
+                "label": "Accept Hard Times",
+                "description": "Life gives you bitter pills to make you strong.\nTake them willingly without feeling sorry for yourself.",
                 "children": []
               }
             ]
@@ -1455,62 +1455,62 @@ export const MEDITATIONS_BOOK: Book = {
       },
       {
         "id": "duty-and-fellowship",
-        "label": "Duty, Fellowship, & The Common Good",
-        "description": "Stoicism is not cold detachment, but an active commitment to the welfare of our human brothers and sisters.\nMarcus lived as emperor and servant alike, recognizing that all rational beings are limbs of a single body.",
+        "label": "Helping Other People",
+        "description": "We are made to help one another.\nDo your duty and care for all people.",
         "children": [
           {
             "id": "cosmopolitanism",
-            "label": "The Citizen of the Universe",
-            "description": "The conviction that humanity shares a spark of the divine reason, making us citizens of the world before any city.\nOur highest allegiance belongs not to Roman borders, but to the collective family of humankind.",
+            "label": "Citizens of the World",
+            "description": "All humans share the same thinking spark.\nWe are all part of one big family.",
             "children": [
               {
                 "id": "shared-reason",
-                "label": "Kinship of the Divine Spark",
-                "description": "We are joined to all men not by flesh or blood, but by participation in a common rational mind.\nRecognizing this common spark turns strangers and adversaries into siblings of the same cosmic hearth.",
+                "label": "We Are Kin",
+                "description": "Other people think just like you do.\nSee every stranger as your brother or sister.",
                 "children": []
               },
               {
                 "id": "limb-vs-fragment",
-                "label": "Limbs of One Body",
-                "description": "To sever yourself from fellowship through hatred or selfishness is like an amputated foot refusing to walk.\nHumanity was engineered for mutual support, just like rows of upper and lower teeth.",
+                "label": "Work Like Hands",
+                "description": "We are parts of one body.\nHating others is like fighting your own feet.",
                 "children": []
               }
             ]
           },
           {
             "id": "dealing-with-the-difficult",
-            "label": "Compassion for the Erring",
-            "description": "Marcus reminds himself each morning that he will encounter the ungrateful, arrogant, and deceitful.\nKnowing they act out of ignorance of good and evil allows the heart to respond with patience rather than bitterness.",
+            "label": "Patience with Others",
+            "description": "Expect to meet rude and selfish people today.\nBe kind because they simply do not know better.",
             "children": [
               {
                 "id": "ignorance-not-malice",
-                "label": "Error as Blindness",
-                "description": "No person willingly deprives themselves of truth; they injure others because their moral vision is obscured.\nYou do not rage against a blind traveler for stumbling into your path; treat wrongdoers with the same calm grace.",
+                "label": "They Do Not Know",
+                "description": "People hurt others because they are blind to good.\nDo not get angry at a blind person.",
                 "children": []
               },
               {
                 "id": "refusal-of-retaliation",
-                "label": "The Best Revenge",
-                "description": "The noblest retribution against an unjust enemy is to refuse to resemble him in thought or deed.\nRetaliating with malice surrenders your citadel to the very disease you claim to despise.",
+                "label": "Do Not Strike Back",
+                "description": "The best revenge is not to act like them.\nStay kind and keep your self-respect.",
                 "children": []
               }
             ]
           },
           {
             "id": "selfless-action",
-            "label": "Right Action Without Reward",
-            "description": "Fulfilling one's social duty must be as natural and uncalculating as a vine producing sweet grapes.\nVirtue is its own fulfillment, needing neither applause, monument, nor a debtor's note.",
+            "label": "Help Without Asking",
+            "description": "Do good deeds without asking for a reward.\nHelp others as naturally as a tree grows fruit.",
             "children": [
               {
                 "id": "the-quiet-benefactor",
-                "label": "Giving Without Fanfare",
-                "description": "A horse does not demand praise when it finishes running, nor does a bee boast after storing honey in the comb.\nAct with pure goodness and immediately move forward to the next virtuous deed.",
+                "label": "Give Quietly",
+                "description": "A horse does not brag after a race.\nDo your good deed and move on quietly.",
                 "children": []
               },
               {
                 "id": "present-duty",
-                "label": "Execution of the Task at Hand",
-                "description": "Perform every single duty as though it were the final and defining act of your earthly existence.\nSilence all restless distraction, and execute your obligations with deliberate, dignified precision.",
+                "label": "Do Today's Work",
+                "description": "Treat your current task like your last one.\nFocus fully and do your job well.",
                 "children": []
               }
             ]
@@ -1519,62 +1519,62 @@ export const MEDITATIONS_BOOK: Book = {
       },
       {
         "id": "mortality-and-time",
-        "label": "Memento Mori & The Scythe of Time",
-        "description": "The constant contemplation of death serves not as a source of melancholy, but as a bright lantern illuminating true value.\nBy remembering our fragile mortality, we banish petty grievances and anchor ourselves completely in the present moment.",
+        "label": "Remember Death",
+        "description": "Death comes to everyone soon.\nRemembering this makes you value each day.",
         "children": [
           {
             "id": "brevity-of-life",
-            "label": "The Narrow Span of Mortal Days",
-            "description": "Human existence is a brief flicker suspended between two infinite abysses of past and future eternity.\nRecognizing how swiftly our candle burns extinguishes the foolish desire to squander time on trivia.",
+            "label": "Life Is Short",
+            "description": "Our time on earth is very brief.\nDo not waste hours on silly things.",
             "children": [
               {
                 "id": "the-vanishing-present",
-                "label": "Living Only in the Now",
-                "description": "No person can lose either the past or the future, for no one can be robbed of what they do not possess.\nThe present moment is the only terrain on which life is actually lived and won.",
+                "label": "Live Right Now",
+                "description": "The present moment is all you ever own.\nYou cannot lose the past or the future.",
                 "children": []
               },
               {
                 "id": "equalizer-of-all",
-                "label": "Death the Great Leveler",
-                "description": "Alexander the Great and his mule driver were reduced to the exact same pile of dust upon their demise.\nIn the cold geometry of death, earthly titles and humble toil share the same silent bed.",
+                "label": "Death Makes All Equal",
+                "description": "Kings and workers turn to the same dust.\nTitles mean nothing once life ends.",
                 "children": []
               }
             ]
           },
           {
             "id": "futility-of-fame",
-            "label": "The Emptiness of Posthumous Renown",
-            "description": "Longing for posthumous acclaim is foolishness, for those who remember you will soon be dead themselves.\nEven names carved into stone will one day weather into unrecognizable grit under the wind.",
+            "label": "Fame Means Nothing",
+            "description": "People who praise you will also die soon.\nDo not care about what strangers think.",
             "children": [
               {
                 "id": "echo-in-a-corner",
-                "label": "Echoes in a Narrow Room",
-                "description": "Earth is merely a microscopic point in the vastness of heaven, and your admirers occupy only a corner of it.\nWhy sacrifice the peace of your living soul for the transient gossip of tomorrow?",
+                "label": "Earth Is Tiny",
+                "description": "The earth is just a tiny speck in space.\nDo not worry about small crowd opinions.",
                 "children": []
               },
               {
                 "id": "self-contained-beauty",
-                "label": "Virtue Needs No Spectator",
-                "description": "Does an emerald lose its radiant green hue if no traveler pauses on the road to praise it?\nGenuine virtue is complete in itself, shining with inner brilliance without needing the applause of men.",
+                "label": "Goodness Needs No Praise",
+                "description": "A jewel is shiny even if no one claps.\nGood actions shine all by themselves.",
                 "children": []
               }
             ]
           },
           {
             "id": "peaceful-departure",
-            "label": "Dying with Serene Grace",
-            "description": "Death is not an unnatural curse, but a necessary and harmonious operation of cosmic law.\nStep down from the stage of life with the gentle dignity of a ripe olive falling from the bough.",
+            "label": "Leave in Peace",
+            "description": "Dying is a normal part of life.\nLeave the stage with a gentle smile.",
             "children": [
               {
                 "id": "nature-dismissal",
-                "label": "A Gracious Exit",
-                "description": "You have served as an actor in a play whose length was determined by the playwright, not the player.\nDepart with a serene spirit, smiling kindly upon the power that now gently releases you.",
+                "label": "Leave with Grace",
+                "description": "You did not write the play of life.\nSay thank you and walk off calmly.",
                 "children": []
               },
               {
                 "id": "readiness-of-soul",
-                "label": "The Unflinching Glance",
-                "description": "Keep death daily before your eyes, and your heart will never crave excess or harbor base envy.\nWhen the final summons arrives, let it find your soul upright, calm, and ready to embark.",
+                "label": "Always Be Ready",
+                "description": "Live each day ready for the end.\nA prepared mind has no fear.",
                 "children": []
               }
             ]
@@ -1583,62 +1583,62 @@ export const MEDITATIONS_BOOK: Book = {
       },
       {
         "id": "stoic-praxis",
-        "label": "Daily Discipline & Spiritual Exercises",
-        "description": "Philosophy for Marcus was not an academic theory, but an applied art of daily living and self-correction.\nThrough rigorous mental drills and disciplined habits, the Stoic transforms wisdom into lived, unshakeable character.",
+        "label": "Daily Habits",
+        "description": "Philosophy is a daily practice, not talk.\nTrain your mind every single day.",
         "children": [
           {
             "id": "morning-reflection",
-            "label": "Dawn Preparation & Mindful Awakening",
-            "description": "At dawn, remind yourself that you will meet difficult minds, and arise willingly to perform the labor of a human being.\nThe morning sets the spiritual posture for everything you will endure throughout the daylight hours.",
+            "label": "Start Your Morning",
+            "description": "Set your mind before you leave bed.\nPrepare to face the challenges of the day.",
             "children": [
               {
                 "id": "rising-to-work",
-                "label": "Arising for Human Purpose",
-                "description": "Do not linger under warm blankets complaining of the cold while the birds, ants, and spiders eagerly perform their trades.\nYou were brought into being to labor for the common good, not to luxuriate in sleep.",
+                "label": "Get Out of Bed",
+                "description": "Birds and ants get up to do their work.\nGet up and do your human job.",
                 "children": []
               },
               {
                 "id": "premeditatio-malorum",
-                "label": "Premeditation of Adversity",
-                "description": "Mentally anticipate insults, sudden illness, and unexpected reverses before they cross your threshold.\nForewarning strips circumstance of its power to shock, ensuring reason remains firmly seated upon the throne.",
+                "label": "Expect Bad Luck",
+                "description": "Picture trouble before it actually happens.\nSurprises will not shake your calm.",
                 "children": []
               }
             ]
           },
           {
             "id": "view-from-above",
-            "label": "The View from Above",
-            "description": "Ascend in imagination to the stars and look down upon the swirling human pageant of feasts, wars, funerals, and triumphs.\nFrom this cosmic height, our burning anxieties shrink to microscopic specks of dust.",
+            "label": "View from High Up",
+            "description": "Picture looking down from the sky.\nYour daily worries look tiny from above.",
             "children": [
               {
                 "id": "shrinking-self-importance",
-                "label": "Dissolving Petty Preoccupations",
-                "description": "Survey the countless armies clashing for tiny patches of territory across the wide earth.\nSeeing our smallness cleanses pride and restores a balanced perspective to daily irritations.",
+                "label": "See Your Small Size",
+                "description": "Millions of people fight over tiny lands.\nSeeing this cures your selfish pride.",
                 "children": []
               },
               {
                 "id": "cosmic-perspective",
-                "label": "Harmonizing with the Vast Whole",
-                "description": "View humanity against the vast horizons of centuries and constellations.\nAligning your gaze with the eternal universe dispels solitary loneliness and restores tranquil humility to the heart.",
+                "label": "Look at the Stars",
+                "description": "Feel part of the huge night sky.\nYou will feel peaceful and humble.",
                 "children": []
               }
             ]
           },
           {
             "id": "evening-audit",
-            "label": "Evening Self-Audit & Sincerity",
-            "description": "Before night closes your eyes, hold an unsparing yet gentle court within your own consciousness.\nExamine where you faltered, what duty you neglected, and where your virtue held true under pressure.",
+            "label": "Check Your Day",
+            "description": "Review your actions before you sleep.\nLook at what you did well and poorly.",
             "children": [
               {
                 "id": "honest-accounting",
-                "label": "The Uncompromising Mirror",
-                "description": "Review the day without deceit, withholding neither self-condemnation nor compassionate forgiveness.\nTrue progress is born not from perfection, but from unwavering honesty with one's own shortcomings.",
+                "label": "Be Honest",
+                "description": "Do not lie to yourself about mistakes.\nLearn from them and do better tomorrow.",
                 "children": []
               },
               {
                 "id": "purifying-speech",
-                "label": "Simplicity in Word and Deed",
-                "description": "Speak without guile, discard theatrical pretension, and let your words carry the weight of pure integrity.\nA righteous soul requires no elaborate explanations; its goodness radiates effortlessly in silent action.",
+                "label": "Keep Words Simple",
+                "description": "Speak the plain truth without fancy acting.\nGood people show their worth through deeds.",
                 "children": []
               }
             ]

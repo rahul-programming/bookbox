@@ -167,17 +167,23 @@ export async function exportDatabaseBackup(): Promise<string> {
   const progress = await db.progress.toArray();
   const exercises = await db.exercises.toArray();
   const profile = await db.profile.toArray();
+  const users = await db.users.toArray();
+  const userStashes = await db.userStashes.toArray();
+  const activeUserId = getActiveUserId();
 
   const backupData = {
-    version: 1,
+    version: 2,
     exportedAt: new Date().toISOString(),
+    activeUserId,
     data: {
       books,
       ideas,
       stashes,
       progress,
       exercises,
-      profile
+      profile,
+      users,
+      userStashes
     }
   };
 
@@ -189,14 +195,34 @@ export async function importDatabaseBackup(jsonString: string): Promise<boolean>
     const parsed = JSON.parse(jsonString);
     if (!parsed.data) return false;
 
-    await db.transaction('rw', [db.books, db.ideas, db.stashes, db.progress, db.exercises, db.profile], async () => {
+    await db.transaction('rw', [
+      db.books, 
+      db.ideas, 
+      db.stashes, 
+      db.progress, 
+      db.exercises, 
+      db.profile, 
+      db.users, 
+      db.userStashes
+    ], async () => {
       if (parsed.data.books?.length) await db.books.bulkPut(parsed.data.books);
       if (parsed.data.ideas?.length) await db.ideas.bulkPut(parsed.data.ideas);
       if (parsed.data.stashes?.length) await db.stashes.bulkPut(parsed.data.stashes);
       if (parsed.data.progress?.length) await db.progress.bulkPut(parsed.data.progress);
       if (parsed.data.exercises?.length) await db.exercises.bulkPut(parsed.data.exercises);
       if (parsed.data.profile?.length) await db.profile.bulkPut(parsed.data.profile);
+      if (parsed.data.users?.length) await db.users.bulkPut(parsed.data.users);
+      if (parsed.data.userStashes?.length) await db.userStashes.bulkPut(parsed.data.userStashes);
     });
+
+    if (parsed.activeUserId) {
+      setActiveUserId(parsed.activeUserId);
+    } else if (parsed.data.users?.length) {
+      const sortedUsers = [...parsed.data.users].sort((a, b) => (b.lastLoginAt || 0) - (a.lastLoginAt || 0));
+      if (sortedUsers[0]) {
+        setActiveUserId(sortedUsers[0].id);
+      }
+    }
 
     return true;
   } catch (error) {

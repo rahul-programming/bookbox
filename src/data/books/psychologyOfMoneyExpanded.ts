@@ -1,5 +1,5 @@
 // The Psychology of Money by Morgan Housel
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -859,169 +859,169 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
   "actionItems": [
     {
       "id": "the-psychology-of-money-timeless-lessons-on-wealth-greed-and-act-1",
-      "title": "Define Your Explicit 'Enough' Number",
-      "description": "Greed has no finish line. If you do not decide where your goalpost stops moving, lifestyle creep and comparison will inevitably force you into reckless bets to keep up.",
+      "title": "Pick Your Enough Number",
+      "description": "Greed has no finish line. Decide where your goal stops so you stay safe.",
       "category": "quick-win",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Open a blank note and calculate your actual annual cost of living comfortably without trying to impress anyone.",
-        "Multiply that number by 25 to establish your baseline financial independence goalpost.",
-        "List three luxury purchases or upgrades you will deliberately refuse even if your income doubles this year.",
-        "Pin this number somewhere visible on your desk as a reminder that the ceiling is fixed."
+        "1. Write down your basic annual living costs on paper.",
+        "2. Multiply that yearly cost by 25 to find your freedom goal.",
+        "3. Name three pricey upgrades you will refuse even if your income doubles.",
+        "4. Post this final number where you can see it every day."
       ],
       "sourceChapter": "Chapter 3: Never Enough"
     },
     {
       "id": "the-psychology-of-money-timeless-lessons-on-wealth-greed-and-act-2",
-      "title": "Separate Wealth from Flashy Spending",
-      "description": "Spending money to show people how much money you have is the fastest way to have less money. True wealth is the options and assets you haven't bought yet.",
+      "title": "Stop Flashy Spending Habits",
+      "description": "Spending money to look rich makes you poor. True wealth is money you keep.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Notice the urge whenever you feel tempted to make an unplanned discretionary purchase to look successful or competent.",
-        "Ask yourself candidly: 'Would I still want this item if nobody else could ever see it or know I owned it?'",
-        "If the answer is no, close the browser tab or walk out of the store immediately.",
-        "Transfer that exact amount of saved money into a long-term investment or savings account instead."
+        "1. Catch yourself when you want to buy something just to look cool.",
+        "2. Ask yourself if you would buy it if no one saw it.",
+        "3. Walk away from the store if the answer is no.",
+        "4. Move that saved cash into your bank savings account instead."
       ],
       "sourceChapter": "Chapter 9: Wealth is What You Don't See"
     },
     {
       "id": "the-psychology-of-money-timeless-lessons-on-wealth-greed-and-act-3",
-      "title": "Cleanse Your Social Feed of Status Displays",
-      "description": "Your spending environment dictates your baseline desires. Seeing curated displays of luxury cars, exotic trips, and flashy toys creates artificial financial discontent.",
+      "title": "Mute Flashy Social Accounts",
+      "description": "Watching people show off makes you want to spend. Clean your social feed.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Open your social media feeds (Instagram, LinkedIn, X, TikTok) and scroll through the last 50 posts.",
-        "Unfollow or mute every influencer, acquaintance, or brand promoting ostentatious spending, crypto get-rich-quick bets, or luxury flexes.",
-        "Subscribe to pragmatic, long-term personal finance and index investing resources focused on calm compounding.",
-        "Turn off notifications for retail shopping apps and flash-sale alerts on your phone."
+        "1. Open your social media apps and check the last 50 posts.",
+        "2. Unfollow anyone who brags about luxury goods or fast cash.",
+        "3. Follow simple accounts that teach calm, steady investing habits.",
+        "4. Turn off all phone notifications from retail shopping apps."
       ],
       "sourceChapter": "Chapter 8: Man in the Car Paradox"
     },
     {
       "id": "the-psychology-of-money-timeless-lessons-on-wealth-greed-and-act-4",
-      "title": "Audit Your Ego and 'Show-Off' Spending",
-      "description": "Most discretionary spending isn't about utility; it is an ego tax paid to seek admiration from strangers who are actually only thinking about themselves.",
+      "title": "Cut Show-Off Purchases",
+      "description": "Most flashy buys are ego traps. Strangers look at the car, not you.",
       "category": "audit",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "Download your credit card and bank statements for the last 90 days.",
-        "Highlight every line item purchased primarily for image, brand prestige, or social validation rather than pure utility.",
-        "Sum the highlighted total to see the exact cash price tag of your ego over the last quarter.",
-        "Pick the two largest recurring ego expenses and cancel or downgrade them today."
+        "1. Print your bank and card statements from the last three months.",
+        "2. Highlight every purchase you bought just to impress other people.",
+        "3. Add up the total cost to see what your ego spent.",
+        "4. Cancel or drop the two biggest show-off expenses today."
       ],
       "sourceChapter": "Chapter 8: Man in the Car Paradox"
     },
     {
       "id": "the-psychology-of-money-timeless-lessons-on-wealth-greed-and-act-5",
-      "title": "Automate an Untouchable 'Room for Error' Buffer",
-      "description": "Survival is the single most critical financial skill. Having cash that yields low returns is not inefficient if it keeps you from panic-selling your investments during a crash.",
+      "title": "Build a Safety Cash Cushion",
+      "description": "Having backup cash keeps you calm. It stops you from selling during crashes.",
       "category": "system",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Open a dedicated high-yield savings account at a completely separate bank from your daily checking account.",
-        "Set up an automatic recurring direct deposit each payday into this account until it holds 6 to 12 months of living expenses.",
-        "Label the account 'Survival Cushion \u2014 Zero Speculation' and do not link a debit card to it.",
-        "Formulate a rule: this cash is never touched for market dips, vacations, or bargains, only genuine life crises."
+        "1. Open a new savings account at a separate bank.",
+        "2. Set an automatic monthly deposit into this new account.",
+        "3. Save until you have six months of basic living expenses.",
+        "4. Never spend this cash on sales, trips, or stock deals."
       ],
       "sourceChapter": "Chapter 13: Room for Error"
     },
     {
       "id": "the-psychology-of-money-timeless-lessons-on-wealth-greed-and-act-6",
-      "title": "Calculate Your Financial Independence Runway",
-      "description": "The highest dividend money pays is the ability to control your time. Measuring your net worth in months of freedom rather than luxury goods reframes your entire financial compass.",
+      "title": "Count Your Months of Freedom",
+      "description": "Money is best used to buy back your free time. Measure freedom, not luxury.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Determine your average monthly bare-bones survival budget (rent/mortgage, basic groceries, utilities, insurance).",
-        "Divide your total liquid and semi-liquid savings by that monthly figure.",
-        "Write down the resulting number: 'I currently have [X] months of complete autonomy over my life.'",
-        "Set an annual milestone to extend that runway by an additional 3 months of independence."
+        "1. Calculate your exact monthly bare-bones cost to live.",
+        "2. Divide your total savings by that monthly bill amount.",
+        "3. Write down how many full months you can live without work.",
+        "4. Set a yearly goal to add three more months of freedom."
       ],
       "sourceChapter": "Chapter 7: Freedom"
     },
     {
       "id": "the-psychology-of-money-timeless-lessons-on-wealth-greed-and-act-7",
-      "title": "Conduct the 'Sleeping Well' Stress Test",
-      "description": "The optimal financial decision on a spreadsheet is useless if it keeps you awake at night and causes you to capitulate at the worst possible moment.",
+      "title": "Test Your Sleep Factor",
+      "description": "A clever investment plan is useless if it keeps you awake with worry.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Review your current investment portfolio and calculate what a sudden 40% market crash would do to your balance.",
-        "Ask yourself honestly: 'Would this drop cause me terror, marital tension, or an impulse to sell?'",
-        "If yes, increase your cash allocation or tilt toward broad, defensive low-cost index funds until the panic subsides.",
-        "Write a one-sentence personal investment charter: 'I choose reasonable peace of mind over spreadsheet perfection.'"
+        "1. Picture your total investments falling by forty percent tomorrow.",
+        "2. Ask yourself if that drop would make you panic or sell.",
+        "3. Move more money into safe cash if you feel real panic.",
+        "4. Write down that you choose peace of mind over risky profits."
       ],
       "sourceChapter": "Chapter 11: Reasonable > Rational"
     },
     {
       "id": "the-psychology-of-money-timeless-lessons-on-wealth-greed-and-act-8",
-      "title": "Set Up an Automated Low-Cost Index Compounding Engine",
-      "description": "Compounding relies on uninterrupted endurance, not brilliant timing. Automating your investing eliminates emotional interference and guarantees you capture broad market gains over decades.",
+      "title": "Automate Your Monthly Investing",
+      "description": "Wealth grows from steady time in the market. Automation removes emotional guessing.",
       "category": "system",
       "timeEstimateMinutes": 40,
       "stepByStep": [
-        "Choose a low-cost, broad-market index fund or ETF (such as a total world stock or S&P 500 fund).",
-        "Configure your brokerage account to auto-debit a fixed percentage (minimum 15-20%) of your income the day after each paycheck.",
-        "Enable automatic dividend reinvestment (DRIP) across all holdings.",
-        "Delete the brokerage app from your phone's home screen to eliminate the temptation to trade or check daily ticks."
+        "1. Pick a simple, low-cost broad index fund for your investments.",
+        "2. Set an automatic buy for the day after you get paid.",
+        "3. Turn on automatic reinvesting for all cash dividends you receive.",
+        "4. Delete the investing app from your phone to avoid checking prices."
       ],
       "sourceChapter": "Chapter 4: Confounding Compounding"
     },
     {
       "id": "the-psychology-of-money-timeless-lessons-on-wealth-greed-and-act-9",
-      "title": "Perform an Annual 'End of History' Goal Calibration",
-      "description": "People are poor forecasters of their future desires. The goals you set at 25 may not fit who you are at 35, so avoid extreme, inflexible financial commitments.",
+      "title": "Review Your Life Goals Yearly",
+      "description": "Your desires change as you grow. Check that your old plans still fit.",
       "category": "audit",
       "timeEstimateMinutes": 60,
       "stepByStep": [
-        "Schedule a recurring calendar event every January titled 'Annual Financial Alignment Check'.",
-        "Review your multi-year career and spending plans to see if your values and family priorities have evolved.",
-        "Check whether you are running an extreme strategy (e.g., hyper-frugality that breeds misery or excessive work hours causing burnout).",
-        "Rebalance your lifestyle toward a balanced middle ground that you can sustain for decades without resentment."
+        "1. Set a yearly calendar reminder each January to review money plans.",
+        "2. Ask yourself if your career and life goals have shifted recently.",
+        "3. Spot any extreme habits like working too much or skipping all fun.",
+        "4. Adjust your budget to a balanced middle path you can keep."
       ],
       "sourceChapter": "Chapter 14: You'll Change"
     },
     {
       "id": "the-psychology-of-money-timeless-lessons-on-wealth-greed-and-act-10",
-      "title": "Establish a Mandatory 72-Hour Cooling-Off Protocol",
-      "description": "Impulse spending is an emotional spike disguised as a rational need. Forcing friction into your purchasing process protects your future self from transient moods.",
+      "title": "Use the Three-Day Rule",
+      "description": "Quick spending is usually just an emotional spike. Waiting cools down impulse desires.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Create a dedicated list on your phone titled '30-Day Delay Queue'.",
-        "Whenever you want to buy any non-essential item exceeding $100, add the item, price, and current date to the list.",
-        "Impose a strict rule: wait at least 72 hours (or 30 days for large purchases) before completing the transaction.",
-        "Review the item once the cooling period expires; if the urge has faded, delete it and keep your money."
+        "1. Start a simple list on your phone for wanted items.",
+        "2. Add any item that costs over one hundred dollars to it.",
+        "3. Wait at least three full days before you buy that item.",
+        "4. Remove the item and keep your cash if the urge passes."
       ],
       "sourceChapter": "Chapter 10: Save Money"
     },
     {
       "id": "the-psychology-of-money-timeless-lessons-on-wealth-greed-and-act-11",
-      "title": "Create a Physical Friction Barrier for Risky Assets",
-      "description": "When risky trading is easy, friction-free, and gamified, reckless speculative behavior follows. Adding friction protects compounding from emotional spasms.",
+      "title": "Block Fast Impulse Trades",
+      "description": "When trading is too easy, people make bad bets. Put barriers in place.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Remove autofill credit card details from all online shopping platforms and trading platforms.",
-        "Store the master login credentials for your primary investment accounts in a password manager with complex two-factor authentication.",
-        "Commit to never checking portfolio balances or executing trades from a mobile phone.",
-        "Institute a physical rule: any portfolio adjustment must be written down on paper with rationale 24 hours prior to execution."
+        "1. Remove your saved credit cards from all shopping and trading sites.",
+        "2. Lock your investing account passwords inside a secure password tool.",
+        "3. Stop checking your investment balances on your phone during the day.",
+        "4. Wait twenty-four hours and write down reasons before trading stocks."
       ],
       "sourceChapter": "Chapter 5: Getting Wealthy vs. Staying Wealthy"
     },
     {
       "id": "the-psychology-of-money-timeless-lessons-on-wealth-greed-and-act-12",
-      "title": "Draft Your Personal 'Price of Admission' Bear Market Contract",
-      "description": "Market volatility is not a fine for doing something wrong; it is the price of admission for long-term compounding returns. Mentally pre-paying this fee stops you from fleeing during inevitable downturns.",
+      "title": "Accept Market Price Dips",
+      "description": "Market drops are normal price tickets for high returns. Do not flee downturns.",
       "category": "quick-win",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Write down: 'Market pullbacks of 10% to 30% occur regularly and are the fee required to earn superior compounding returns.'",
-        "Explicitly pledge in writing that when market drops occur, you will neither halt your monthly automated investments nor sell existing shares.",
-        "Sign and date the document alongside your spouse or a trusted financial accountability partner.",
-        "File it directly in your primary financial folder to read whenever scary market headlines dominate the news."
+        "1. Write down that stock drops are normal fees for strong growth.",
+        "2. Promise in writing that you will not sell during market falls.",
+        "3. Sign and date this note with a friend or your partner.",
+        "4. Read this note whenever scary financial news makes you feel nervous."
       ],
       "sourceChapter": "Chapter 15: Nothing's Free"
     }
@@ -1199,9 +1199,9 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       "category": "Finance",
       "type": "mental-model",
       "headline": "No One Is Crazy",
-      "body": "People from different generations, raised by different parents who earned different incomes and held different values in different parts of the world, learn vastly different lessons.\nYour financial choices reflect your personal lived experience rather than analytical superiority.\nWhen someone makes a financial move that looks absurd to you, remember that they are playing a game built on their unique historical vantage point.",
+      "body": "People make money choices based on how they grew up.\nWhat seems foolish to you makes sense to someone else.\nWe all play by different life lessons.",
       "quote": "Your personal experiences with money make up maybe 0.00000001% of what\u2019s happened in the world, but maybe 80% of how you think the world works.",
-      "actionItem": "Before judging another person's financial choices\u2014or your own past missteps\u2014trace back the underlying life experiences that made those decisions feel rational at the time.",
+      "actionItem": "Think about your past life experiences before you judge another person's money moves.",
       "tags": [
         "Finance",
         "Core Insights"
@@ -1219,10 +1219,10 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       "author": "Morgan Housel",
       "category": "Finance",
       "type": "concept",
-      "headline": "Luck and Risk Are Twin Siblings",
-      "body": "Luck and risk are the reality that every outcome in life is guided by forces other than individual effort.\nThey stem from the same root: the world is too complex to allow 100% of your actions to dictate 100% of your outcomes.\nRespect both equally.\nPraise humility in victory and grant grace in failure.",
+      "headline": "Luck and Risk Are Twins",
+      "body": "Hard work does not explain every single win or loss in life.\nRandom luck and sudden risk always shape the final results.\nStay humble during wins and show grace during losses.",
       "quote": "Nothing is as good or as bad as it seems.",
-      "actionItem": "Discount your genius when an investment skyrockets, and avoid total self-flagellation when a well-reasoned bet falls victim to unforecastable macro risk.",
+      "actionItem": "Do not praise yourself for pure luck or blame yourself for bad breaks.",
       "tags": [
         "Finance",
         "Core Insights"
@@ -1240,10 +1240,10 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       "author": "Morgan Housel",
       "category": "Finance",
       "type": "actionable",
-      "headline": "Anchor Your Personal Goalposts",
-      "body": "The most dangerous financial mistake is letting your expectations rise in lockstep with your income.\nIf your lifestyle balloons the moment your compensation grows, you remain trapped on an emotional treadmill regardless of how much capital passes through your hands.\nTrue wealth begins when you refuse to play the comparison game.",
+      "headline": "Keep Your Goalposts Still",
+      "body": "Earning more money fails to help if your spending grows just as fast.\nMoving the goalpost keeps you chasing more and never feeling satisfied.\nReal wealth means knowing when you have enough.",
       "quote": "There is no reason to risk what you have and need for what you don't have and don't need.",
-      "actionItem": "Automate a rule that directs at least 50% of every raise, bonus, or unexpected windfall directly into liquid savings or core investments before updating your lifestyle.",
+      "actionItem": "Save half of every pay raise before you spend any of that money.",
       "tags": [
         "Finance",
         "Core Insights"
@@ -1261,10 +1261,10 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       "author": "Morgan Housel",
       "category": "Finance",
       "type": "mental-model",
-      "headline": "The Snowball of Compounding",
-      "body": "Compounding is counterintuitive because human brains think linearly, while exponential growth compounds geometrically.\nWarren Buffett's skill is investing, but his secret is time.\nMore than nine-tenths of his accumulated fortune was generated in the latter decades of his life.\nGood investing isn't necessarily about chasing the highest annual return; it is about earning pretty good returns that you can repeat uninterrupted for decades.",
+      "headline": "The Snowball of Time",
+      "body": "Small gains grow into huge sums if you leave them alone.\nMost of Warren Buffett's wealth came when he was older.\nGreat investing simply means staying invested for many decades.",
       "quote": "The most powerful factor in compounding is not returns, but time.",
-      "actionItem": "Choose investment vehicles with low friction and sensible tax drag that you can realistically hold through market crashes without panic selling.",
+      "actionItem": "Pick low-cost funds that you can easily hold onto during market drops.",
       "tags": [
         "Finance",
         "Core Insights"
@@ -1282,10 +1282,10 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       "author": "Morgan Housel",
       "category": "Finance",
       "type": "concept",
-      "headline": "Getting Wealthy vs. Staying Wealthy",
-      "body": "Getting money requires optimism, boldness, and leaning into risk.\nStaying wealthy requires the exact opposite: paranoia, humility, and the acute realization that what you made can be stripped away in an instant.\nLongevity is the only metric that guarantees compounding does its magic.",
+      "headline": "Getting vs Staying Rich",
+      "body": "Making money requires taking risks and being bold.\nKeeping money requires staying humble and avoiding big mistakes.\nSurviving over time is the real secret to staying wealthy.",
       "quote": "Having an edge and surviving are two different things: the first requires the second.",
-      "actionItem": "Structure your personal finances so that no single market drawdown, medical crisis, or career dislocation can force you to liquidate your long-term assets.",
+      "actionItem": "Set up your cash so bad times cannot force you to sell investments.",
       "tags": [
         "Finance",
         "Core Insights"
@@ -1303,10 +1303,10 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       "author": "Morgan Housel",
       "category": "Finance",
       "type": "mental-model",
-      "headline": "Tails Drive Everything",
-      "body": "In business, venture capital, and stock market indexes, a microscopic percentage of decisions deliver the overwhelming share of historical returns.\nWalt Disney survived bankruptcy through a single blockbuster film; index funds thrive on a tiny fraction of hyper-performing mega-caps.\nYou do not need to be right on every wager to achieve extraordinary outcomes.",
+      "headline": "Rare Wins Drive Success",
+      "body": "A few rare wins create almost all big financial gains.\nYou can fail on many small bets if your winners are huge.\nYou do not have to be right all the time.",
       "quote": "You can be wrong half the time and still make a fortune.",
-      "actionItem": "Diversify broadly enough across durable assets so that your portfolio will inevitably capture the rare, transformative tail winners of the next generation.",
+      "actionItem": "Spread your money across broad index funds to catch the few massive winners.",
       "tags": [
         "Finance",
         "Core Insights"
@@ -1324,10 +1324,10 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       "author": "Morgan Housel",
       "category": "Finance",
       "type": "quote",
-      "headline": "The Ultimate Currency Is Freedom",
-      "body": "True wealth is not measured in luxury watches, designer labels, or square footage; it is measured in calendar sovereignty.\nThe greatest dividend money pays is the intangible power to dictate your daily schedule, walk away from toxic environments, and spend your finite hours on your own terms.",
+      "headline": "Freedom Is Real Wealth",
+      "body": "True wealth is not fancy cars, big houses, or luxury goods.\nThe best reward money offers is owning your own time.\nYou can work with who you like and live on your terms.",
       "quote": "The highest form of wealth is the ability to wake up every morning and say, 'I can do whatever I want today.'",
-      "actionItem": "Quantify your emergency reserves not in dollar amounts, but in months of life sovereignty bought and paid for.",
+      "actionItem": "Measure your emergency fund by months of free time instead of total dollars.",
       "tags": [
         "Finance",
         "Core Insights"
@@ -1345,10 +1345,10 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       "author": "Morgan Housel",
       "category": "Finance",
       "type": "mental-model",
-      "headline": "The Man in the Car Paradox",
-      "body": "People crave wealth because they believe it commands respect and admiration from peers.\nYet when onlookers see a stunning car or a massive house, they don't admire the owner; they envision themselves possessing the item.\nSpending capital to project high status rarely yields the social respect you are actually seeking.",
+      "headline": "Man in the Car Paradox",
+      "body": "People buy shiny objects so that others will respect them.\nYet onlookers ignore the driver and only imagine themselves in that cool car.\nBuying luxury goods does not win you true respect.",
       "quote": "No one is impressed with your possessions as much as you are.",
-      "actionItem": "When considering an overt luxury purchase, ask yourself: 'Would I still buy this if nobody else could ever see or know that I own it?'",
+      "actionItem": "Ask yourself if you would buy an item if no one else could see it.",
       "tags": [
         "Finance",
         "Core Insights"
@@ -1366,10 +1366,10 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       "author": "Morgan Housel",
       "category": "Finance",
       "type": "concept",
-      "headline": "Wealth Is What You Do Not See",
-      "body": "Someone driving a $100,000 vehicle provides only one concrete piece of financial data: their bank account has $100,000 less than it did before, or they took on a substantial loan.\nRichness is current consumption and outward cash flow.\nWealth consists of unspent financial options, untouched assets, and unexercised flexibility that provides security.",
+      "headline": "Wealth Is What's Unseen",
+      "body": "Spending money on nice things only shows you have less money left.\nBeing rich is what you spend out in the open.\nTrue wealth is the unspent cash giving you freedom and peace.",
       "quote": "Spending money to show people how much money you have is the fastest way to have less money.",
-      "actionItem": "Celebrate your unspent savings as an active acquisition of options and freedom rather than a passive act of deprivation.",
+      "actionItem": "View the money you save as freedom bought rather than things missed.",
       "tags": [
         "Finance",
         "Core Insights"
@@ -1387,10 +1387,10 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       "author": "Morgan Housel",
       "category": "Finance",
       "type": "actionable",
-      "headline": "Save Money Without a Specific Reason",
-      "body": "Most people save for tangible milestones: a down payment, a car, or retirement.\nBut the most vital reason to save is for the unpredictable shocks that cannot be modeled in a spreadsheet.\nSaving simply to possess unallocated capital gives you bargaining power, downside resilience, and the patience to wait for extraordinary opportunities.",
+      "headline": "Save for No Reason",
+      "body": "Most people save for a house, a car, or retirement.\nBut life is full of shocks you cannot predict on paper.\nUnspent savings give you power to handle surprises and jump on opportunities.",
       "quote": "Saving is a hedge against life's inevitable ability to surprise the hell out of you at the worst possible moment.",
-      "actionItem": "Open a dedicated resilience fund that has no assigned spending goal, and treat its balances as untouchable capital preserved solely for optionality.",
+      "actionItem": "Build a savings buffer that has no goal other than giving you peace.",
       "tags": [
         "Finance",
         "Core Insights"
@@ -1408,10 +1408,10 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       "author": "Morgan Housel",
       "category": "Finance",
       "type": "mental-model",
-      "headline": "Reasonable Over Rational",
-      "body": "Spreadsheets optimize for absolute cold mathematical rationality, but humans are emotional creatures prone to panic and sleepless nights.\nAn investment strategy that is mathematically suboptimal but emotionally sustainable will consistently beat a theoretically perfect strategy that causes you to panic during a severe downturn.",
+      "headline": "Reasonable Beats Rational",
+      "body": "Math formulas ignore human fear, greed, and bad sleep.\nAn okay plan you stick with beats a perfect plan you quit in panic.\nPick a plan that lets you rest easy.",
       "quote": "Do not aim to be coldly rational when making financial decisions. Aim to just be pretty reasonable.",
-      "actionItem": "Design an asset allocation that lets you sleep peacefully at night during a 30% market drop, even if it carries a slight cash drag.",
+      "actionItem": "Keep enough cash so you can sleep peacefully when the stock market falls.",
       "tags": [
         "Finance",
         "Core Insights"
@@ -1429,10 +1429,10 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       "author": "Morgan Housel",
       "category": "Finance",
       "type": "concept",
-      "headline": "The Seduction of Pessimism",
-      "body": "Optimism sounds like a sales pitch, while pessimism sounds like someone trying to help you.\nBad news commands our attention because evolution prioritized immediate survival threats over slow, steady progress.\nHowever, history demonstrates that compounding and innovation quietly dismantle most apocalyptic forecasts over long periods.",
+      "headline": "Pessimism Sounds Smarter",
+      "body": "Bad news sounds helpful, while good news sounds like a cheap sales pitch.\nFear grabs our attention fast because humans hate sudden danger.\nYet quiet growth beats bad headlines over time.",
       "quote": "Pessimism just sounds smarter and more plausible than optimism.",
-      "actionItem": "Filter out financial media hysteria and recognize that progress happens on a slow, quiet escalator while catastrophic headlines drop like elevators.",
+      "actionItem": "Ignore scary news headlines and focus on steady progress over the long run.",
       "tags": [
         "Finance",
         "Core Insights"
@@ -1450,10 +1450,10 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       "author": "Morgan Housel",
       "category": "Finance",
       "type": "actionable",
-      "headline": "Pay the Admission Fee of Investing",
-      "body": "Market volatility, uncertainty, self-doubt, and paper drawdowns are not fines for making a mistake; they are the price of admission for capturing superior long-term returns.\nIf you view price drops as penalties to be evaded through market timing, you expose your capital to lethal whipsaws and permanent capital destruction.",
+      "headline": "Pay the Price of Admission",
+      "body": "Market drops and bad days are not fines for making a mistake.\nThey are just the ticket price for earning high returns over time.\nAccept the rocky ride to get the final reward.",
       "quote": "Thinking of market volatility as a fee rather than a fine is an important part of developing the kind of mindset that lets you stick around.",
-      "actionItem": "Reframe a 15% to 20% portfolio dip as an inevitable entrance fee for long-term compounding, rather than a failure of your strategy.",
+      "actionItem": "Treat market drops as normal ticket fees rather than signs you made a mistake.",
       "tags": [
         "Finance",
         "Core Insights"
@@ -1471,10 +1471,10 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       "author": "Morgan Housel",
       "category": "Finance",
       "type": "mental-model",
-      "headline": "The Room for Error (Margin of Safety)",
-      "body": "The most critical part of any plan is planning for the plan not to go according to plan.\nA margin of safety is not a conservative concession for timid investors; it is the cornerstone of survival that protects you from the unknown.\nIf your financial survival depends on everything going right, you are practically guaranteed to fail.",
+      "headline": "Room for Error",
+      "body": "The most important part of any plan is planning for things to go wrong.\nAn extra safety cushion protects you from surprises.\nIf you need everything to go right, you will surely fail.",
       "quote": "The purpose of the margin of safety is to render the forecast unnecessary.",
-      "actionItem": "Stress-test your financial runway by assuming your returns will be 30% lower and your expenses 20% higher than your current baseline projection.",
+      "actionItem": "Plan your monthly budget assuming your income will be lower and costs higher.",
       "tags": [
         "Finance",
         "Core Insights"
@@ -1492,10 +1492,10 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       "author": "Morgan Housel",
       "category": "Finance",
       "type": "concept",
-      "headline": "Beware Taking Cues from Different Games",
-      "body": "Many market dislocations occur because day traders and long-term investors trade the exact same ticker symbols for entirely divergent reasons.\nIf you borrow asset-allocation cues from someone playing a momentum game with a two-hour time horizon, you will torpedo a thirty-year compounding strategy.",
+      "headline": "Play Your Own Game",
+      "body": "Different people buy the same stocks for totally different reasons.\nShort-term traders move fast, while long-term investors hold on for years.\nCopying someone playing a different game will hurt your money.",
       "quote": "Few things matter more with money than understanding your own time horizon and not being persuaded by the actions and behaviors of people playing different games than you are.",
-      "actionItem": "Write down your explicit investing time horizon and ignore all commentary, tips, and signals produced by market participants playing short-term speculative games.",
+      "actionItem": "Write down your time horizon and ignore tips from people trading for today.",
       "tags": [
         "Finance",
         "Core Insights"
@@ -1513,10 +1513,10 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       "author": "Morgan Housel",
       "category": "Finance",
       "type": "quote",
-      "headline": "Compounding Requires Unbroken Continuity",
-      "body": "Earning exceptional returns once or twice is common; maintaining a sensible process that endures across multiple market cycles is exceedingly rare.\nThe greatest threat to long-term wealth is interrupting the compounding cycle because of leverage, greed, or emotional panic.",
+      "headline": "Never Stop the Snowball",
+      "body": "Getting lucky with a fast trade is easy and common.\nSticking to a simple plan for decades is hard and rare.\nDo not break your long-term growth with debt, greed, or panic.",
       "quote": "The first rule of compounding is to never interrupt it unnecessarily.",
-      "actionItem": "Audit your portfolio to eradicate excessive leverage, concentrated positions, and illiquid structures that could force an involuntary sale during a market crisis.",
+      "actionItem": "Avoid high debt and risky bets that could force you to sell early.",
       "tags": [
         "Finance",
         "Core Insights"
@@ -1534,10 +1534,10 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       "author": "Morgan Housel",
       "category": "Finance",
       "type": "mental-model",
-      "headline": "The End of History Illusion",
-      "body": "People readily acknowledge that they have changed dramatically over the previous decade, yet naively assume they will remain virtually the same person over the next ten years.\nDesigning rigid, uncompromising thirty-year plans fails because your future self will likely desire different goals, relationships, and lifestyles.",
+      "headline": "You Will Change Later",
+      "body": "We all know we changed a lot in the past ten years.\nYet we foolishly assume our goals will stay the same forever.\nLeave room in your plans for what your future self will want.",
       "quote": "We are poor predictors of our future selves.",
-      "actionItem": "Avoid financial extremes\u2014such as working grueling 90-hour weeks for future riches or adopting extreme frugality\u2014and adopt a balanced approach that leaves room for evolving priorities.",
+      "actionItem": "Avoid extreme frugality or overworking so you have room to change your mind.",
       "tags": [
         "Finance",
         "Core Insights"
@@ -1555,10 +1555,10 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       "author": "Morgan Housel",
       "category": "Finance",
       "type": "actionable",
-      "headline": "Suppress Ego to Increase Savings",
-      "body": "Your savings rate is the delta between your income and your ego.\nBeyond an essential threshold of comfort and security, personal spending is often a performance aimed at external validation.\nWhen you detach your identity from outward displays of status, your savings rate expands without feeling like self-denial.",
+      "headline": "Lower Ego, Save More",
+      "body": "What you save is simply the gap between your income and your ego.\nMuch of our spending aims to show off to friends and strangers.\nDrop the need to show off and your savings will grow easily.",
       "quote": "Past a certain level of income, what you need is just what sits below your ego.",
-      "actionItem": "Eliminate one prominent recurring expense this month whose sole purpose is projecting a lifestyle image to acquaintances or social media.",
+      "actionItem": "Cancel one regular expense you only keep to impress other people on social media.",
       "tags": [
         "Finance",
         "Core Insights"
@@ -1576,10 +1576,10 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       "author": "Morgan Housel",
       "category": "Finance",
       "type": "concept",
-      "headline": "History Is the Study of Surprises",
-      "body": "The past is an incomplete guide to the future because novel, unprecedented events drive the biggest shifts in economic reality.\nRelying exclusively on historical precedent blinds you to black swans that have never happened before.\nPrepare for conditions that fall outside historical records.",
+      "headline": "History Is Surprises",
+      "body": "The past cannot tell us everything about tomorrow.\nBrand new surprises drive the biggest changes in the world economy.\nYou must prepare for events that have never happened before.",
       "quote": "The world is surprising. But historical precedent is often used as a guide to the future without considering that history is mostly the study of surprises.",
-      "actionItem": "Build a financial cushion capable of absorbing events that have zero precedent in your personal career or the historical data you study.",
+      "actionItem": "Keep extra savings ready to handle totally unexpected life and market shocks.",
       "tags": [
         "Finance",
         "Core Insights"
@@ -1597,10 +1597,10 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       "author": "Morgan Housel",
       "category": "Finance",
       "type": "quote",
-      "headline": "The True Measure of Success",
-      "body": "At the end of your financial journey, success is not determined by whether you outperformed an arbitrary market benchmark or accumulated more toys than your neighbors.\nIt is measured by whether your money gave you independence, peace of mind, and the freedom to spend your time with the people you love.",
+      "headline": "The True Win",
+      "body": "Real success is not beating index numbers or having more toys than neighbors.\nIt is having peace of mind and freedom with people you love.\nThat is the highest goal money can ever buy.",
       "quote": "Independence, to me, doesn't mean you'll stop working. It means you only do the work you like with people you like at the times you want for as long as you want.",
-      "actionItem": "Align your investment roadmap and career choices directly with personal autonomy rather than competitive balance sheet metrics.",
+      "actionItem": "Choose career and money goals that give you daily personal independence.",
       "tags": [
         "Finance",
         "Core Insights"
@@ -1614,45 +1614,49 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
   ],
   "mindMap": {
     "id": "root",
-    "label": "The Psychology of Money",
-    "description": "Doing well with money isn't about what you know; it's entirely about how you behave in the real world.\nFinancial success is a soft skill where emotional discipline, self-awareness, and resilience matter far more than spreadsheet intelligence.",
+    "label": "Psychology of Money",
+    "description": "Doing well with money is about behavior, not math.\nHow you act matters much more than what you know.",
     "children": [
       {
         "id": "theme-1-behavior-over-math",
-        "label": "Behavior Trumps Intelligence",
-        "description": "Investing and wealth accumulation are driven by emotional self-control rather than raw analytical horsepower.\nA genius who loses control of their impulses will easily go broke, while an ordinary person with unshakeable habits can quietly build durable fortunes.",
+        "label": "Behavior Beats Brains",
+        "description": "Controlling your emotions matters more than being smart.\nA genius can go broke without self-control.",
         "children": [
           {
             "id": "node-1-1-no-one-crazy",
-            "label": "No One's Crazy",
-            "description": "Every single financial decision people make makes absolute sense to them based on the specific era, upbringing, and economic conditions they survived.\nYour personal history with money makes up maybe 0.00000001% of how the global economy works, but drives 80% of how you perceive risk.",
+            "label": "No One Is Crazy",
+            "description": "People make money choices based on their own life story.\nWhat seems crazy to you makes sense to them.",
             "children": [
               {
                 "id": "node-1-1-1-generational-scars",
-                "label": "Generational Scars",
-                "description": "Growing up during hyperinflation or a brutal market crash permanently alters your risk appetite compared to someone raised in an uninterrupted bull market.\nThese emotional scars dictate lifelong investing habits that no financial textbook can overturn."
+                "label": "Past Hard Times",
+                "description": "Growing up poor or through a crash changes you forever.\nThose memories shape how you spend money for life.",
+                "children": []
               },
               {
                 "id": "node-1-1-2-lottery-logic",
-                "label": "The Logic of Desperation",
-                "description": "Lower-income households spend disproportionately on lottery tickets not because they are financially illiterate, but because buying a sliver of hope is their only perceived shot at financial mobility.\nWhat looks absurd on a balance sheet often makes tragic emotional sense from the outside."
+                "label": "Buying Hope",
+                "description": "Poor people buy lottery tickets to dream of a better life.\nIt looks silly on paper, but feels like hope.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-1-2-ronald-read-richard-fuscone",
-            "label": "The Janitor vs. The Wall Street Exec",
-            "description": "Ronald Read, an understated rural janitor, quietly compounded eight million dollars by living modestly and holding blue-chip stocks for decades.\nIn contrast, Richard Fuscone, a Harvard-educated Merrill Lynch executive, borrowed lavishly, overextended his lifestyle, and went utterly bankrupt.",
+            "label": "Janitor vs Executive",
+            "description": "A quiet janitor saved millions by being patient.\nA rich executive went broke by borrowing too much.",
             "children": [
               {
                 "id": "node-1-2-1-knowledge-gap",
-                "label": "No Technical Barrier to Outperformance",
-                "description": "Finance is the only field where an untrained amateur can reliably outperform a sophisticated expert purely through temperament.\nYou cannot perform open-heart surgery without years of clinical training, but you can build a massive portfolio simply by doing nothing foolish."
+                "label": "Anyone Can Win",
+                "description": "You do not need a fancy degree to build wealth.\nYou just need to avoid doing foolish things.",
+                "children": []
               },
               {
                 "id": "node-1-2-2-ego-and-leverage",
-                "label": "The Downfall of Financial Hubris",
-                "description": "Fuscone did not lose his fortune due to a lack of financial formulas; he lost it to pride, insatiable social comparison, and debt.\nLeverage is the ultimate accelerator of both genius and sheer foolishness."
+                "label": "Pride and Debt",
+                "description": "Showing off and borrowing too much leads to ruin.\nEgo is the fastest way to lose your wealth.",
+                "children": []
               }
             ]
           }
@@ -1660,71 +1664,70 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       },
       {
         "id": "theme-2-luck-and-risk",
-        "label": "The Twin Forces of Luck & Risk",
-        "description": "Luck and risk are identical realities: the world is far too complex for 100% of your outcomes to be determined by your personal effort alone.\nAcknowledging their massive role keeps you humble in success and compassionate toward failure.",
+        "label": "Luck and Risk",
+        "description": "Outcomes depend on luck and risk, not just your effort.\nRemembering this keeps you humble and kind.",
         "children": [
           {
             "id": "node-2-1-bill-gates-kent-evans",
-            "label": "Bill Gates & Kent Evans",
-            "description": "Bill Gates attended Lakeside School, one of the few high schools on earth with a teletype computer in 1968, representing a one-in-a-million stroke of luck.\nHis brilliant classmate Kent Evans shared the exact same genius and drive, but died in a mountaineering accident before graduation, meeting the cruel twin brother of luck: extreme negative risk.",
+            "label": "Two Paths",
+            "description": "Bill Gates had amazing luck having early computer access.\nHis smart friend Kent Evans faced terrible, unlucky risk.",
             "children": [
               {
                 "id": "node-2-1-1-humility-in-success",
-                "label": "Taming the Halo Effect",
-                "description": "Never attribute your portfolio gains or career breakthroughs entirely to your own brilliance.\nIf you refuse to respect luck when you are winning, risk will ruthlessly educate you when the tide turns."
+                "label": "Stay Humble",
+                "description": "Never think all your success comes from pure skill.\nLuck played a role, so do not get cocky.",
+                "children": []
               },
               {
-                "id": "node-2-1-2-forgiving-failure",
-                "label": "Decoupling Blame from Poor Outcomes",
-                "description": "Not all bad outcomes are the result of poor decision-making, just as not all windfalls stem from calculated genius.\nJudge the quality of your decisions by the underlying process, not merely by the final scorecard."
+                "id": "node-2-2-1-unrepeatable-outliers",
+                "label": "Outlier Trap",
+                "description": "Do not copy extreme billionaires.\nYou cannot easily copy their unique timing or luck.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-2-2-broad-patterns",
-            "label": "Study Broad Patterns, Not Extreme Outliers",
-            "description": "Emulating extraordinary individuals like Warren Buffett, Steve Jobs, or Elon Musk is dangerous because their outcomes were shaped by unrepeatable historical quirks and extreme luck.\nInstead, focus on universal, replicable behavioral patterns like living below your means, patience, and humility.",
-            "children": [
-              {
-                "id": "node-2-2-1-unrepeatable-outliers",
-                "label": "The Outlier Trap",
-                "description": "Obsessing over how a billionaire made their first millions ignores the survivorship bias hiding beneath the graveyard of equally smart people who failed.\nYou cannot easily clone someone else's timing, pedigree, or fortune."
-              }
-            ]
+            "label": "Study Common Patterns",
+            "description": "Focus on everyday habits that anyone can repeat.\nPatience and living below your means always work.",
+            "children": []
           }
         ]
       },
       {
         "id": "theme-3-enough-and-greed",
-        "label": "The Peril of Never Enough",
-        "description": "The most dangerous financial disease is an insatiable appetite for more that moves the goalposts the second you cross the finish line.\nIf you do not define what 'enough' means, you will eventually stake what you have and need for what you don't have and don't need.",
+        "label": "Knowing When Enough",
+        "description": "Always wanting more is dangerous.\nKnow what enough means so you do not risk everything.",
         "children": [
           {
             "id": "node-3-1-moving-goalposts",
-            "label": "Moving the Goalposts",
-            "description": "Modern capitalism is an incredible engine for generating wealth, but it is equally skilled at generating envy.\nIf your expectations rise in lockstep with your income, you will feel just as financially starved earning seven figures as you did earning minimum wage.",
+            "label": "Moving the Goal",
+            "description": "If your wants rise with your income, you stay unhappy.\nYou will never feel satisfied.",
             "children": [
               {
                 "id": "node-3-1-1-social-comparison",
-                "label": "The Ceiling of Social Comparison",
-                "description": "There is always someone richer, flashier, and more reckless in your social feed to make your achievements feel inadequate.\nThe only way to win a comparison game is to refuse to step onto the playing field altogether."
+                "label": "Stop Comparing",
+                "description": "Someone will always seem richer than you.\nThe only way to win is to stop comparing.",
+                "children": []
               },
               {
                 "id": "node-3-1-2-reputation-over-money",
-                "label": "Invaluable Intangibles",
-                "description": "Reputation, freedom, peace of mind, family, and dignity are assets that should never be endangered for an extra percentage point of return.\nNo amount of money is worth trading a single day of your freedom or your self-respect."
+                "label": "Priceless Things",
+                "description": "Your freedom, peace of mind, and family matter most.\nNever risk them for extra money.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-3-2-rajan-gupta-madoff",
-            "label": "Bernie Madoff & Rajat Gupta",
-            "description": "Rajat Gupta was the head of McKinsey and sat on the board of Goldman Sachs, with a net worth over $100 million, yet went to prison for insider trading chasing another tier of wealth.\nBernie Madoff had a wildly legitimate, highly lucrative trading business, but ruined thousands of lives because being extremely rich wasn't enough.",
+            "label": "Danger of Greed",
+            "description": "Rich men ruined their lives wanting even more money.\nGreed blinds people right before they fall.",
             "children": [
               {
                 "id": "node-3-2-1-criminal-overreach",
-                "label": "When Greed Overrules Logic",
-                "description": "Smart, respected people commit catastrophic financial crimes not out of poverty, but out of an addiction to status and prestige.\nGreed is a psychological blindfold that makes the precipice invisible until you are already falling."
+                "label": "Losing Control",
+                "description": "Smart people do foolish crimes out of greed.\nThey risk what they need for what they do not.",
+                "children": []
               }
             ]
           }
@@ -1732,40 +1735,44 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       },
       {
         "id": "theme-4-compounding-and-time",
-        "label": "Compounding, Time & Endurance",
-        "description": "The true engine of colossal wealth is not dizzying investment returns; it is relentless, uninterrupted time.\nCompounding is counterintuitive to the human brain, which naturally thinks linearly instead of exponentially.",
+        "label": "Power of Time",
+        "description": "Huge wealth comes from time, not high returns.\nLetting your money grow slowly works wonders.",
         "children": [
           {
             "id": "node-4-1-confounding-compounding",
-            "label": "The Math of Time",
-            "description": "More than 99% of Warren Buffett's wealth was accumulated after his 50th birthday, and over 95% came after he qualified for Social Security.\nHis real secret is not just picking stocks, but having spent over eight straight decades letting compounding do the heavy lifting.",
+            "label": "Starting Early",
+            "description": "Most of Warren Buffett's wealth came after age fifty.\nHis true secret was simply investing for decades.",
             "children": [
               {
                 "id": "node-4-1-1-longevity-as-edge",
-                "label": "Longevity as an Edge",
-                "description": "An investor who earns an average 10% annual return over fifty uninterrupted years will completely crush a trading superstar who generates 25% returns for a decade and then burns out.\nIn finance, endurance is the ultimate superpower."
+                "label": "Patience Wins",
+                "description": "Staying in the game for decades beats chasing quick wins.\nEndurance is the real superpower in investing.",
+                "children": []
               },
               {
                 "id": "node-4-1-2-ice-ages-analogy",
-                "label": "The Ice Age Effect",
-                "description": "Geologists discovered that ice ages don't start with catastrophic deep freezes, but with slightly cooler summers that fail to melt the previous winter's leftover snow.\nCompounding builds immense momentum from tiny, imperceptible recurring advantages that pile up over long stretches."
+                "label": "Small Snowballs",
+                "description": "Tiny gains pile up over long periods of time.\nSmall habits create huge results eventually.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-4-2-getting-vs-keeping",
-            "label": "Getting Wealthy vs. Staying Wealthy",
-            "description": "Getting wealthy requires taking smart risks, staying relentlessly optimistic, and putting capital on the line.\nStaying wealthy, however, requires the exact opposite trait: an unshakeable sense of paranoia, a defense-first mindset, and the humility to never wipe out.",
+            "label": "Staying Wealthy",
+            "description": "Getting rich requires taking risks.\nStaying rich requires caution and avoiding big losses.",
             "children": [
               {
                 "id": "node-4-2-1-survival-mindset",
-                "label": "The Survival Mindset",
-                "description": "You cannot enjoy the fruits of compounding if you get wiped out during a market downturn or a personal crisis.\nPrioritize survival over optimization so you are never forced to liquidate your portfolio at the worst possible moment."
+                "label": "Survive the Drops",
+                "description": "You cannot grow wealth if you get wiped out.\nFocus on surviving bad times first.",
+                "children": []
               },
               {
                 "id": "node-4-2-2-room-for-error",
-                "label": "Room for Error & Margin of Safety",
-                "description": "The most important part of any financial plan is planning on your plan not going according to plan.\nA healthy cash buffer seems economically suboptimal on paper, but it is the oxygen that prevents panic selling during a financial fire."
+                "label": "Room for Error",
+                "description": "Always keep extra cash for surprises.\nA safety net stops you from panicking during hard times.",
+                "children": []
               }
             ]
           }
@@ -1773,23 +1780,25 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       },
       {
         "id": "theme-5-tails-and-probabilities",
-        "label": "Tails Drive Everything",
-        "description": "In business, investing, and career outcomes, a tiny fraction of outlier events produces the vast majority of total results.\nYou can be dead wrong half the time and still end up extraordinarily wealthy if your winners run long enough.",
+        "label": "Rare Big Wins",
+        "description": "A few rare events drive most financial results.\nYou can be wrong often and still win big.",
         "children": [
           {
             "id": "node-5-1-tail-events",
-            "label": "Outliers Move the World",
-            "description": "The S&P 500's historic returns are driven by a handful of mega-cap winners, while the median corporate stock actually underperforms cash over its lifespan.\nVenture capital, art collecting, and stock market indexes are all games governed entirely by rare tail-end successes.",
+            "label": "Winners Drive Returns",
+            "description": "A few great stocks produce most market gains.\nThe rest usually do just okay or fail.",
             "children": [
               {
                 "id": "node-5-1-1-heinz-berggruen",
-                "label": "The Art Dealer's Secret",
-                "description": "Heinz Berggruen amassed one of the world's most valuable private art collections not by having immaculate taste on every canvas, but by buying massive quantities of art.\nHe knew that if only 1% of his purchases turned out to be Picassos or Matisses, the entire enterprise would be a staggering success."
+                "label": "Art Dealer Strategy",
+                "description": "An art dealer bought hundreds of paintings.\nA few masterpieces made him rich.",
+                "children": []
               },
               {
                 "id": "node-5-1-2-accepting-mistakes",
-                "label": "Accepting Regular Failure",
-                "description": "Great baseball hitters fail seven out of ten times at the plate, and elite investors make bad stock picks constantly.\nEmotional resilience means accepting frequent small losses as the basic admission fee for catching generational tail events."
+                "label": "Accepting Mistakes",
+                "description": "Even top investors fail very often.\nSmall losses are just the cost of catching huge winners.",
+                "children": []
               }
             ]
           }
@@ -1797,47 +1806,51 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       },
       {
         "id": "theme-6-freedom-over-status",
-        "label": "Freedom, Wealth & Invisible Assets",
-        "description": "The highest dividend money pays is the ability to control your own time and wake up doing whatever you want.\nTrue wealth is what you choose not to spend, remaining quietly invisible to the outside world.",
+        "label": "True Freedom",
+        "description": "The best thing money buys is control of your time.\nTrue wealth is what you choose not to spend.",
         "children": [
           {
             "id": "node-6-1-autonomy",
-            "label": "Controlling Your Time",
-            "description": "Having a strong sense of controlling your life is a more dependable predictor of positive feelings of wellbeing than any objective condition of life.\nA high salary means nothing if your calendar is hijacked by toxic bosses and relentless obligations.",
+            "label": "Owning Your Time",
+            "description": "Controlling your day brings more happiness than any paycheck.\nFreedom is the greatest reward money offers.",
             "children": [
               {
                 "id": "node-6-1-1-the-unseen-dividend",
-                "label": "Purchasing Unconditional Freedom",
-                "description": "Every dollar saved is a day of independence you have bought from the future.\nIt gives you the quiet leverage to wait for great job offers, walk away from bad bosses, and take career risks on your own terms."
+                "label": "Buying Independence",
+                "description": "Every saved dollar buys you future freedom.\nIt gives you the power to walk away from bad jobs.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-6-2-rich-vs-wealthy",
-            "label": "Rich vs. Wealthy",
-            "description": "Being rich is about current income; it shows up in expensive cars, designer apparel, and oversized mortgages.\nBeing wealthy is hidden: it is the options unexercised, the cars never leased, and the capital quietly compounding away out of public sight.",
+            "label": "Rich vs Wealthy",
+            "description": "Rich is what you show through cars and clothes.\nWealthy is the money you keep tucked away.",
             "children": [
               {
                 "id": "node-6-2-1-man-in-car-paradox",
-                "label": "The Man in the Car Paradox",
-                "description": "When you see someone driving a Ferrari, you rarely admire the driver; instead, you fantasize about how cool you would look driving it.\nPeople spend money to signal to others that they should be loved and respected, completely blind to the fact that people only care about themselves."
+                "label": "Man in Car",
+                "description": "Nobody cares about the person driving the fancy car.\nThey only imagine themselves inside it.",
+                "children": []
               },
               {
                 "id": "node-6-2-2-the-spending-illusion",
-                "label": "Spending Money to Look Rich",
-                "description": "Spending money to show people how much money you have is the fastest, most reliable way to have less money.\nReal financial resilience is the difference between your ego and your actual income."
+                "label": "Fake Wealth",
+                "description": "Spending money to look rich makes you poorer.\nReal wealth is money you do not spend.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-6-3-saving-money",
-            "label": "Save Without a Specific Goal",
-            "description": "Most people save money for a down payment, a car, or retirement, but the most critical savings are for things you cannot possibly foresee.\nSaving gives you option value and emotional antifragility in a world that routinely delivers nasty surprises.",
+            "label": "Save for Anything",
+            "description": "Save money even without a specific goal in mind.\nSavings give you safety when unexpected surprises hit.",
             "children": [
               {
                 "id": "node-6-3-1-humility-as-savings",
-                "label": "Efficiency vs. Redundancy",
-                "description": "A high savings rate without a specific purchase goal is an insurance policy against life's inevitable curveballs.\nIt trades hyper-optimized investment returns for the priceless gift of unshakeable mental peace."
+                "label": "Peace of Mind",
+                "description": "Having savings helps you handle life's curveballs.\nIt buys you mental peace and security.",
+                "children": []
               }
             ]
           }
@@ -1845,47 +1858,51 @@ export const PSYCHOLOGY_OF_MONEY_BOOK: Book = {
       },
       {
         "id": "theme-7-practical-psychology",
-        "label": "Practical Financial Realism",
-        "description": "Financial planning requires embracing human quirks rather than pretending to be cold, calculating machines.\nBuilding a system that lets you sleep soundly at night is infinitely superior to chasing mathematically optimal portfolios that trigger panic.",
+        "label": "Practical Money Rules",
+        "description": "Choose a money plan that lets you sleep at night.\nBeing reasonable beats trying to be perfect.",
         "children": [
           {
             "id": "node-7-1-reasonable-over-rational",
-            "label": "Reasonable > Purely Rational",
-            "description": "Do not aim to be cold and emotionless; aim to be thoroughly reasonable so you can stick with your plan through bloody bear markets.\nA mathematically sub-optimal portfolio that you can comfortably hold for thirty years blows away a theoretically perfect strategy you abandon in panic.",
+            "label": "Reasonable Over Perfect",
+            "description": "Pick a plan you can stick with during bad times.\nA simple plan you keep beats a complex one you abandon.",
             "children": [
               {
                 "id": "node-7-1-1-sleeping-soundly",
-                "label": "The Sleep Test",
-                "description": "The best investment strategy is the one that allows you to sleep peacefully every single night without checking the markets.\nPeace of mind is an essential input into your long-term compounding formula, not an afterthought."
+                "label": "Sleep Test",
+                "description": "The best strategy helps you sleep peacefully at night.\nPeace of mind matters more than maximum returns.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-7-2-history-and-future",
-            "label": "The Seduction of Pessimism",
-            "description": "Pessimism always sounds smarter, more sophisticated, and more urgent than optimism because threats require immediate biological reaction.\nYet over any multi-decade horizon, quiet progress, compounding innovations, and human problem-solving inevitably win out.",
+            "label": "Optimism and Change",
+            "description": "Bad news sounds smart, but progress usually wins out.\nRemember that your future desires will change over time.",
             "children": [
               {
                 "id": "node-7-2-1-asymmetry-of-news",
-                "label": "Sudden Crashes vs. Quiet Growth",
-                "description": "Destruction happens overnight in dramatic market panics, while growth happens so incrementally that it never makes the front page of the newspaper.\nIf you let sensational headlines govern your asset allocation, you will miss out on the greatest wealth-creation machines in history."
+                "label": "Slow Growth Wins",
+                "description": "Bad crashes make loud headlines overnight.\nReal growth happens quietly and steadily over time.",
+                "children": []
               },
               {
                 "id": "node-7-2-2-end-of-history-illusion",
                 "label": "You Will Change",
-                "description": "People readily admit who they were twenty years ago is very different from who they are today, but stubbornly believe they will remain the same person twenty years into the future.\nAvoid extreme financial commitments and keep your future lifestyle options wide open."
+                "description": "You will be a different person in twenty years.\nKeep your future financial choices flexible.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-7-3-price-of-admission",
-            "label": "Nothing is Free",
-            "description": "Market volatility, fear, regret, and uncertainty are not fines or punishments for doing something wrong; they are simply the ticket price of admission for long-term outsized returns.\nIf you want the rewards of the stock market, you must willingly pay the psychological emotional fee rather than trying to cheat the tollbooth.",
+            "label": "Price of Admission",
+            "description": "Market ups and downs are not a fine or punishment.\nThey are just the price of getting great returns.",
             "children": [
               {
                 "id": "node-7-3-1-fee-vs-fine",
-                "label": "Viewing Volatility as a Fee",
-                "description": "When you view a 20% portfolio drop as an admission fee instead of a punitive fine, you stop desperately trying to time the market.\nYou accept the turbulence as the natural cost of riding a vehicle that builds life-changing wealth."
+                "label": "Fee, Not Fine",
+                "description": "Treat market dips like an entry ticket, not a penalty.\nAccept the bumps to enjoy the ride.",
+                "children": []
               }
             ]
           }

@@ -1,5 +1,5 @@
 // Risk Savvy: How to Make Good Decisions by Gerd Gigerenzer
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -563,169 +563,169 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
   "actionItems": [
     {
       "id": "risk-savvy-how-to-make-good-decisions-act-1",
-      "title": "Establish the Uncertainty Classification Test",
-      "description": "Never use complex probabilistic forecasting when operating under deep uncertainty. Distinguish known risks from unknown territory to choose the correct decision logic immediately.",
+      "title": "Spot What You Cannot Know",
+      "description": "Stop using math formulas for unknown futures. Use simple rules of thumb instead.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Take your current major project or strategic choice and list its core variables.",
-        "Categorize each variable as either 'Known Risk' (calculable probabilities from historical data) or 'True Uncertainty' (novel conditions, human reactions, shifting rules).",
-        "If more than one-third of key variables involve true uncertainty, ban complex optimization algorithms and multi-factor weighted formulas.",
-        "Mandate robust, transparent heuristics (rules of thumb) instead of high-dimensional predictive models."
+        "1. List all parts of your current project.",
+        "2. Mark each part as known facts or wild guesses.",
+        "3. Drop complex formulas if you face high uncertainty.",
+        "4. Pick one simple rule to guide your choice."
       ],
       "sourceChapter": "Chapter 2"
     },
     {
       "id": "risk-savvy-how-to-make-good-decisions-act-2",
-      "title": "Mandate Natural Frequencies Over Percentages",
-      "description": "Convert deceptive percentages and relative risks into absolute natural frequencies to expose baseline realities and stop statistical manipulation.",
+      "title": "Use Real Headcounts Not Percentages",
+      "description": "Percentages confuse people and hide the truth. Real counts show the clear picture.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Identify any key performance metric, medical diagnostic, or risk report currently expressed as a percentage or relative risk reduction.",
-        "Translate the calculation into a standard population base of 1,000 or 10,000 cases.",
-        "Calculate the true false-positive count alongside true positives within that standardized cohort.",
-        "Rewrite the executive summary using the natural frequency format: 'Out of 1,000 cases, X will benefit, and Y will be false alarms.'"
+        "1. Find any report using percentages or relative risk.",
+        "2. Change the math to a group of 1,000 people.",
+        "3. Count how many people get false alarms.",
+        "4. Write: 'Out of 1,000 people, this many benefit.'"
       ],
       "sourceChapter": "Chapter 9"
     },
     {
       "id": "risk-savvy-how-to-make-good-decisions-act-3",
-      "title": "Build a Fast-and-Frugal Triage Tree",
-      "description": "Replace bloated multi-page decision matrices with a fast-and-frugal decision tree to accelerate execution under high pressure.",
+      "title": "Make a Fast Decision Tree",
+      "description": "Large spreadsheets slow you down under pressure. Use a fast yes-or-no checklist instead.",
       "category": "system",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "List all data points currently gathered before making a high-frequency go/no-go operational decision.",
-        "Isolate the single most predictive clue and set an unequivocal cut-off threshold.",
-        "Add an exit branch at this first check: if failed, stop immediately and trigger the default exit action.",
-        "Chain a maximum of two additional sequential conditional checks, ensuring each step offers an immediate decision without calculating trade-offs."
+        "1. Pick the single most important clue you need.",
+        "2. Stop and walk away if that clue fails.",
+        "3. Add only two more quick yes-or-no checks.",
+        "4. Act immediately once an answer pops up."
       ],
       "sourceChapter": "Chapter 10"
     },
     {
       "id": "risk-savvy-how-to-make-good-decisions-act-4",
-      "title": "Run a Defensive Decision-Making Audit",
-      "description": "Audit organizational decisions to eliminate CYA (Cover Your Ass) behavior where managers choose inferior options merely to protect their careers.",
+      "title": "Stop Fear-Driven Decisions",
+      "description": "People often choose bad options just to protect their jobs. Remove these wasteful habits.",
       "category": "audit",
       "timeEstimateMinutes": 60,
       "stepByStep": [
-        "Review the last three decisions that consumed excessive budget or external consulting fees.",
-        "Ask the lead decision-maker: 'If your personal career reputation was 100% safeguarded against failure, would you still execute this specific path?'",
-        "Identify unnecessary defensive documentation, redundant committee approvals, or CYA vendor hires.",
-        "Eliminate the CYA procedures and establish a rule that no initiative requires more than two accountable executive sponsors."
+        "1. Review three recent choices that cost extra money.",
+        "2. Ask if fear of blame drove the choice.",
+        "3. Cut out extra approval meetings and CYA paperwork.",
+        "4. Require no more than two owners per project."
       ],
       "sourceChapter": "Chapter 6"
     },
     {
       "id": "risk-savvy-how-to-make-good-decisions-act-5",
-      "title": "Conduct a Daily Incentive & Skin-in-the-Game Briefing",
-      "description": "Evaluate incoming advice by dissecting the advisor's personal payoff structure before assessing their reasoning or competence.",
+      "title": "Check What Advisors Risk",
+      "description": "Never follow advice from someone who risks nothing if they fail. Check their motives first.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Review recommendations, vendor proposals, or strategic memos received during the morning review.",
-        "Map how the recommender gets paid, promoted, or protected if their advice goes completely wrong.",
-        "Identify asymmetric exposure where the upside accrues to the advisor while the downside impacts your firm.",
-        "Discard advice from any party carrying zero downside penalty for inaccurate recommendations."
+        "1. Read the advice or sales pitch you received.",
+        "2. Check how the advisor gets paid or promoted.",
+        "3. Ask what bad things happen to them if wrong.",
+        "4. Throw out advice when the advisor risks nothing."
       ],
       "sourceChapter": "Chapter 7"
     },
     {
       "id": "risk-savvy-how-to-make-good-decisions-act-6",
-      "title": "Implement the 1/N Heuristic for Capital Allocation",
-      "description": "Avoid overfitting asset allocations through complex mean-variance optimization formulas; deploy robust equal weighting when the future is unpredictable.",
+      "title": "Split Your Money Evenly",
+      "description": "Nobody can predict market changes with certainty. Splitting cash equally protects your funds.",
       "category": "system",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Identify your discretionary investment, exploratory R&D, or internal innovation budget.",
-        "Filter candidates down to 4 to 8 non-correlated opportunities that meet strict baseline quality standards.",
-        "Divide available capital equally across the vetted options (1/N allocation) rather than running speculative multivariate regressions.",
-        "Commit to rebalancing strictly on a fixed calendar schedule (e.g., quarterly) without intraday adjustments."
+        "1. Pick five to eight solid investment choices.",
+        "2. Divide your available money equally across them all.",
+        "3. Skip fancy math models that predict the market.",
+        "4. Rebalance your split on set calendar dates only."
       ],
       "sourceChapter": "Chapter 8"
     },
     {
       "id": "risk-savvy-how-to-make-good-decisions-act-7",
-      "title": "Daily Elimination of the Zero-Risk Delusion",
-      "description": "Identify and remove irrational expenditures dedicated to pursuing zero risk, redirecting capital toward resilience against inevitable failures.",
+      "title": "Drop the Zero-Risk Myth",
+      "description": "Chasing absolute zero risk wastes time and money. Focus on bouncing back from mistakes.",
       "category": "daily-routine",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Inspect daily operating routines and active risk mitigation programs.",
-        "Identify policies built around the false promise of 'zero risk' (e.g., excessive surveillance, redundant checks, paranoid compliance workflows).",
-        "Quantify the direct cost and operational paralysis caused by pursuing the final 1% of illusory safety.",
-        "Cancel the zero-risk protocol and reallocate resources into fast containment and rapid recovery playbooks."
+        "1. Look at your daily safety rules and routines.",
+        "2. Spot tasks that try to avoid every tiny mistake.",
+        "3. Count the wasted hours spent chasing total perfection.",
+        "4. Shift your effort toward fixing problems very quickly."
       ],
       "sourceChapter": "Chapter 3"
     },
     {
       "id": "risk-savvy-how-to-make-good-decisions-act-8",
-      "title": "Establish an Error-Positive Operating Protocol",
-      "description": "Design an organizational environment that separates honest mistakes in execution under uncertainty from negligence, encouraging rapid error reporting.",
+      "title": "Welcome Honest Mistakes",
+      "description": "People hide problems when punishment is certain. Reward honesty to fix errors fast.",
       "category": "environment",
       "timeEstimateMinutes": 40,
       "stepByStep": [
-        "Audit team meetings to determine whether operational anomalies are actively hidden or promptly escalated.",
-        "Publish clear criteria distinguishing systematic carelessness from honest exploratory errors made under uncertainty.",
-        "Institute a physical or digital 'Near-Miss Registry' where operators log failure leads without punitive consequences.",
-        "Review logged near-misses weekly to update heuristics and operational checklists."
+        "1. Check if team members openly report everyday errors.",
+        "2. Separate sloppy work from honest tries under pressure.",
+        "3. Set up a simple log for close calls.",
+        "4. Review the log weekly to improve team rules."
       ],
       "sourceChapter": "Chapter 4"
     },
     {
       "id": "risk-savvy-how-to-make-good-decisions-act-9",
-      "title": "Strip Explanatory Bloat via the 'Take the Best' Filter",
-      "description": "Cleanse team dashboards and strategic decks of extraneous metrics by isolating the single dominant leading indicator.",
+      "title": "Focus on One Main Number",
+      "description": "Too many metrics clutter dashboards and slow action. Track the single best clue instead.",
       "category": "environment",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Take your team's core operational dashboard containing 10+ KPIs.",
-        "Analyze historical performance to determine which single metric consistently out-predicts the rest.",
-        "Archive the subsidiary tracking metrics into a secondary repository inaccessible during active daily triage.",
-        "Format the primary workspace to display solely the top indicator and its corresponding action threshold."
+        "1. Open your dashboard and review all current numbers.",
+        "2. Find the one number that predicts real success.",
+        "3. Hide all the other numbers from daily view.",
+        "4. Make decisions using only that main single indicator."
       ],
       "sourceChapter": "Chapter 5"
     },
     {
       "id": "risk-savvy-how-to-make-good-decisions-act-10",
-      "title": "Conduct an Intuition vs. Reason Post-Mortem",
-      "description": "Audit high-impact historical decisions to evaluate whether gut instincts were genuine unconscious heuristics developed from experience or mere wishful thinking.",
+      "title": "Review Gut Feelings vs Logic",
+      "description": "Real gut feelings come from deep experience. Audit past calls to see what worked.",
       "category": "audit",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "Select three critical wins and three critical failures from the past 12 months.",
-        "Interview the leads to extract whether the initial trigger was conscious analytical calculation or gut instinct.",
-        "Evaluate the operator's track record and domain exposure to check if domain familiarity existed to justify reliable tacit pattern recognition.",
-        "Document validated heuristics into institutional checklists while discarding ungrounded instincts formed in low-feedback environments."
+        "1. Pick three big wins and three big losses.",
+        "2. Ask if leaders used math or gut feelings.",
+        "3. Check if the leader had real years of experience.",
+        "4. Save rules that worked and discard wishful thinking."
       ],
       "sourceChapter": "Chapter 5"
     },
     {
       "id": "risk-savvy-how-to-make-good-decisions-act-11",
-      "title": "Deploy the Recognition Heuristic for Fast Screenings",
-      "description": "Use recognition cues as an efficient competitive filter when evaluating fast-moving market opportunities or partner selection.",
+      "title": "Pick Familiar Options First",
+      "description": "Use name recognition to save time during quick choices. Cut unknown options first.",
       "category": "system",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "When confronted with a large pool of competing options under tight deadlines, assess name and reputation recognition first.",
-        "Eliminate completely unvetted, unreferenced contenders immediately rather than gathering extensive dossier data on all parties.",
-        "Limit comprehensive due diligence to candidates that pass the initial recognition threshold.",
-        "Proceed with the top recognizable contender unless specific negative operational telemetry emerges."
+        "1. Look at all options on your short list.",
+        "2. Cross off any names no one recognizes.",
+        "3. Study only the few names you know well.",
+        "4. Pick the top recognizable name to move ahead."
       ],
       "sourceChapter": "Chapter 1"
     },
     {
       "id": "risk-savvy-how-to-make-good-decisions-act-12",
-      "title": "Quarterly Statistical Literacy & Framing Stress-Test",
-      "description": "Audit internal stakeholder communication to uncover manipulative framing, survivorship bias, and opaque probabilities.",
+      "title": "Catch Misleading Statistics",
+      "description": "People use spin to make bad numbers look good. Find and fix misleading facts.",
       "category": "audit",
       "timeEstimateMinutes": 60,
       "stepByStep": [
-        "Collect pitch decks, vendor proposals, and client presentations prepared during the previous quarter.",
-        "Search for framing biases such as '95% survival rate' vs. '5% mortality rate' or claims of relative percentage improvements without baseline numbers.",
-        "Red-line all unanchored claims (e.g., 'reduces system downtime risk by 50%' when the baseline was 0.02% to 0.01%).",
-        "Issue mandatory revisions enforcing uniform baseline reporting across all departmental performance metrics."
+        "1. Read recent pitch decks and sales slide decks.",
+        "2. Look for claims of big percentage improvements.",
+        "3. Demand to see the raw starting baseline numbers.",
+        "4. Rewrite claims using plain, honest headcounts."
       ],
       "sourceChapter": "Chapter 11"
     }
@@ -902,10 +902,10 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       "author": "Gerd Gigerenzer",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Risk vs. Uncertainty",
-      "body": "In a world of known risk, all probabilities are quantifiable, allowing mathematical optimization to reign supreme.\nIn a world of genuine uncertainty, probabilities and outcomes are unknowable, causing complex statistical models to overfit past noise and fail catastrophically.\nMaster strategists never apply calculated risk formulas to uncertain battlefields.",
+      "headline": "Risk Versus Uncertainty",
+      "body": "Known risk has clear odds, like rolling dice in a casino.\nReal uncertainty means the future is completely open and unknown.\nComplex math works for risk, but simple rules work best for uncertainty.",
       "quote": "In a world of uncertainty, heuristics are indispensable.",
-      "actionItem": "Classify incoming strategic challenges as either known risk or pure uncertainty before selecting your analytical framework.",
+      "actionItem": "Ask if your problem has known math odds or unknown future surprises.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -923,10 +923,10 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       "author": "Gerd Gigerenzer",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Less-Is-More Effect",
-      "body": "When information is abundant and the future is volatile, incorporating more variables into a predictive model degrades accuracy rather than improving it.\nSimple heuristics outcompete complex regressions by ignoring non-essential variance, preventing overfitting, and zeroing in on the few robust signals that truly drive outcomes.",
+      "headline": "Less Is More",
+      "body": "More information does not always lead to a better choice.\nExtra details can confuse you and hide what truly matters.\nSimple rules beat complex plans by focusing on the key facts.",
       "quote": "Less can be more. More information, more computation, and more time are not always better.",
-      "actionItem": "Purge non-essential variables from your decision scorecard; cap your decision criteria at three dominant drivers.",
+      "actionItem": "Pick your top three decision factors and ignore all other extra details.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -944,10 +944,10 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       "author": "Gerd Gigerenzer",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Eradicate Defensive Decision-Making",
-      "body": "Defensive decision-making occurs when an executive selects a second-best option not to serve the organization, but to minimize personal career risk if something goes wrong.\nThis self-preservation instinct drains capital, slows momentum, and breeds bureaucratic paralysis.\nEradicate this behavior by rewarding calculated risks and punishing bureaucratic CYA tactics.",
+      "headline": "Stop Playing Defense",
+      "body": "People often choose safe options just to protect their own jobs.\nThis defensive habit wastes money and slows down every team.\nGood organizations reward smart courage instead of self-protection.",
       "quote": "A defensive decision is made not because it is best for the client or patient, but to protect the decision-maker.",
-      "actionItem": "Audit current committee approvals and eliminate steps that exist purely to diffuse individual executive accountability.",
+      "actionItem": "Cut out committee approval steps that exist only to dodge personal blame.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -965,10 +965,10 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       "author": "Gerd Gigerenzer",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Fast-and-Frugal Trees",
-      "body": "Under extreme time pressure and high cognitive load, linear probabilistic models collapse.\nFast-and-Frugal Trees structure decisions into a small sequence of ordered, binary checkpoints where each question has an exit condition.\nThey empower frontline teams to execute diagnostic and tactical calls instantly with zero ambiguity.",
+      "headline": "Fast Decision Trees",
+      "body": "Under intense pressure, long check-lists fail and confuse workers.\nFast trees ask simple yes-or-no questions in a clear order.\nEach question lets you stop immediately or take quick action.",
       "quote": "A heuristic that is simple and transparent can be understood and executed by everyone.",
-      "actionItem": "Convert your team's most complicated standard operating procedure into a 3-step Fast-and-Frugal binary tree.",
+      "actionItem": "Turn your hardest team process into three simple yes-or-no questions.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -986,10 +986,10 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       "author": "Gerd Gigerenzer",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Natural Frequencies Over Relative Risk",
-      "body": "Relative risk numbers are routinely manipulated to inflate threat perceptions and manufacture urgency, such as framing a risk change from 1 in 10,000 to 2 in 10,000 as a '100% increase'.\nTranslating all statistics into natural frequencies dismantles psychological manipulation and reveals the true baseline impact.",
+      "headline": "Use Real Headcounts",
+      "body": "Percentages can mislead you and make small risks sound terrifying.\nSaying a risk doubled sounds huge, even if it rose slightly.\nCount real people instead, like one person out of a thousand.",
       "quote": "If you want to understand risk, always insist on natural frequencies instead of percentages.",
-      "actionItem": "Mandate that all internal risk and market projections present absolute numbers per 1,000 cases rather than relative percentages.",
+      "actionItem": "State all your business risks as counts per one thousand people.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1007,10 +1007,10 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       "author": "Gerd Gigerenzer",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Mirage of Certainty",
-      "body": "Humans crave certainty, and consultants, algorithms, and experts are eager to sell the illusion of it.\nBelieving in absolute certainty blinds organizations to structural vulnerabilities and paralyzes them when unforeseen crises emerge.\nTrue strategic maturity begins by embracing irremediable uncertainty.",
+      "headline": "The Certainty Trap",
+      "body": "People love feeling safe, so experts sell promises of perfect certainty.\nBelieving these false promises blinds you to very real upcoming dangers.\nTrue wisdom means accepting that no one knows the whole future.",
       "quote": "The illusion of certainty is the belief that something is certain when it is not.",
-      "actionItem": "Flag and challenge any strategy deck or forecast that claims greater than 90% certainty on long-term macro outcomes.",
+      "actionItem": "Question any long-term plan that claims to be completely sure.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1028,10 +1028,10 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       "author": "Gerd Gigerenzer",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Deploy the 1/N Heuristic in Allocations",
-      "body": "When allocating capital across volatile asset classes or unpredictable ventures, complex mean-variance optimization formulas routinely underperform equal allocation (1/N) out of sample.\nOver-optimized weighting relies on historical covariances that rupture during regime changes; simple equal distribution provides resilient diversification.",
+      "headline": "Divide Money Equally",
+      "body": "Fancy formulas for investing money often fail when markets shake up.\nA simple rule is to split your funds equally across choices.\nEqual sharing protects your savings without relying on fragile math models.",
       "quote": "The 1/N rule is a simple heuristic: allocate your resources equally across N alternatives.",
-      "actionItem": "Benchmark complex algorithmic portfolio or capital expenditure models against a simple, equal-weighted 1/N baseline.",
+      "actionItem": "Compare your complex investment model with a simple, equal split baseline.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1049,10 +1049,10 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       "author": "Gerd Gigerenzer",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Ecological Rationality",
-      "body": "No decision strategy is universally superior in a vacuum; rationality is determined by the fit between the heuristic and the environment.\nA tool designed for well-defined risk behaves irrationally when deployed in an unstable, volatile market.\nMatch the architecture of the heuristic to the environmental structure.",
+      "headline": "Fit Rule to World",
+      "body": "No single decision rule works in every single situation.\nA rule built for stable conditions fails in a stormy market.\nMatch your method to the kind of world you face today.",
       "quote": "A heuristic is not good or bad in itself; its success depends on the environment in which it is used.",
-      "actionItem": "Assess your primary decision-making frameworks: do they assume a static historical environment or adapt dynamically to volatility?",
+      "actionItem": "Check if your rules match today's real world or yesterday's calm past.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1070,10 +1070,10 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       "author": "Gerd Gigerenzer",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Intuition as Unconscious Intelligence",
-      "body": "Intuition is neither emotional whim nor supernatural foresight; it is rapid, unconscious cognitive processing built on domain-specific deliberate practice.\nVeteran leaders pick up environmental patterns that spreadsheets cannot capture.\nWhen seasoned intuition conflicts with an analytical model, interrogate the assumptions hidden within the model.",
+      "headline": "Smart Gut Feelings",
+      "body": "Your gut feeling is not magic or a random emotional guess.\nIt is rapid thinking based on years of real-life practice.\nSeasoned instinct spots patterns that spreadsheets often completely miss.",
       "quote": "Gut feelings are neither irrational nor second-best. They are based on rules of thumb that our brain uses unconsciously.",
-      "actionItem": "When your gut instinct opposes analytical model recommendations, map out the unstated environmental cues influencing your intuition.",
+      "actionItem": "Write down the hidden clues your gut noticed when doubting spreadsheet data.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1091,10 +1091,10 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       "author": "Gerd Gigerenzer",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Institute a Positive Error Culture",
-      "body": "When organizations punish failure indiscriminately, employees default to hiding mistakes and protecting turf.\nA positive error culture treats honest tactical errors as vital data points, mandates immediate self-reporting, and focuses retrospectives on system design rather than personal scapegoating.",
+      "headline": "Learn From Mistakes",
+      "body": "Punishing honest slips makes workers hide the truth to protect themselves.\nA healthy culture treats errors as helpful lessons for the whole team.\nFocus on fixing broken systems instead of blaming individual workers.",
       "quote": "A positive error culture means that errors are openly discussed, not concealed, so that we can learn from them.",
-      "actionItem": "Institute blameless post-mortems focused strictly on correcting underlying operational systems rather than assigning individual fault.",
+      "actionItem": "Hold blameless reviews that fix broken systems instead of punishing people.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1112,10 +1112,10 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       "author": "Gerd Gigerenzer",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Take-the-Best Heuristic",
-      "body": "When faced with multiple competitive choices under uncertainty, evaluating every variable causes decision fatigue and false weighting.\nThe Take-the-Best heuristic instructs decision-makers to order criteria by diagnostic power, evaluate options on the single most decisive factor, and execute immediately if one alternative clearly dominates.",
+      "headline": "Take the Best",
+      "body": "Weighing twenty different details exhausts your mind and wastes time.\nPick the single most important factor and compare your options there.\nIf one choice clearly wins on that factor, pick it immediately.",
       "quote": "Take the best cue, ignore the rest.",
-      "actionItem": "Rank evaluation criteria by predictive power for your next vendor or hiring decision; decide on the top criterion alone if one candidate dominates.",
+      "actionItem": "Choose your top hiring factor and hire whoever clearly leads on it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1133,10 +1133,10 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       "author": "Gerd Gigerenzer",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Fallacy of False Precision",
-      "body": "Expressing uncertain estimates to multiple decimal places produces an aura of scientific rigor while disguising catastrophic volatility.\nFalse precision comforts insecure leadership while blinding organizations to genuine systemic risks.\nDemand rough orders of magnitude and clear directional bounds over spurious decimal points.",
+      "headline": "Fake Exactness",
+      "body": "Adding extra decimal points makes wild guesses look like hard science.\nThis false accuracy comforts insecure bosses but hides huge real risks.\nSimple broad ranges are far more honest than fake exact numbers.",
       "quote": "Exact numbers can easily seduce us into believing that something is certain when it is not.",
-      "actionItem": "Eliminate multi-decimal point precision from financial forecasts, replacing them with explicit sensitivity ranges.",
+      "actionItem": "Drop decimal points from sales forecasts and share honest ranges instead.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1154,10 +1154,10 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       "author": "Gerd Gigerenzer",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Real Function of Complex Bureaucracy",
-      "body": "Vast bureaucratic protocols and lengthy risk assessment reports rarely exist to mitigate risk.\nTheir primary function is to distribute accountability so thoroughly that when failure occurs, no single executive can be held legally or professionally responsible.\nStrip away bureaucracy to restore real ownership.",
+      "headline": "Bureaucracy Shields Blame",
+      "body": "Long rulebooks rarely protect a company from real outside danger.\nThey exist to scatter responsibility so no one takes the fall.\nRemoving red tape brings back personal honesty and real pride in work.",
       "quote": "Complex rules and bureaucracy do not eliminate risk; they protect the decision-makers from responsibility.",
-      "actionItem": "Identify and dismantle any approval chain that exceeds three signatures, restoring direct operational ownership to line managers.",
+      "actionItem": "Remove any approval process that requires more than three manager signatures.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1175,10 +1175,10 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       "author": "Gerd Gigerenzer",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Question Expert Skin in the Game",
-      "body": "Never evaluate an expert's forecast without analyzing their personal downside.\nWhen advisers profit from upsides but bear zero costs for failure, their incentives encourage them to recommend excessively conservative defensive actions or over-engineered solutions that shield them from legal jeopardy at your expense.",
+      "headline": "Check Adviser Stakes",
+      "body": "Never trust advice without asking what the adviser could lose.\nWhen experts gain from wins but lose nothing from losses, beware.\nThey will offer timid plans that protect themselves rather than you.",
       "quote": "Always ask: What are the incentives of the person who is giving you advice?",
-      "actionItem": "Structure future advisory and consulting agreements with milestone clawbacks or equity participation to ensure symmetrical downside.",
+      "actionItem": "Tie adviser fees directly to the long-term success of their recommendations.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1196,10 +1196,10 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       "author": "Gerd Gigerenzer",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Gaze Heuristic in Strategy",
-      "body": "An outfielder tracking a fly ball does not compute aerodynamic parabolas; they fix their gaze on the ball, adjust running speed, and keep the angle of gaze constant.\nIn business execution, simplify dynamic navigation: lock onto a central strategic anchor metric and adjust operational cadence continuously to intercept it.",
+      "headline": "Keep Your Eye On It",
+      "body": "A baseball player catches a ball without solving complex math equations.\nThey simply lock their eyes on the ball and adjust their run.\nIn business, track one central target and adjust your speed constantly.",
       "quote": "Heuristics solve complex problems by focusing on what is essential and ignoring everything else.",
-      "actionItem": "Isolate the single operational north star metric that your core product team must keep constant amidst market turbulence.",
+      "actionItem": "Choose the single main goal your team will track every week.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1217,10 +1217,10 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       "author": "Gerd Gigerenzer",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Statistical Literacy as Strategic Defense",
-      "body": "Probabilistic illiteracy leaves executives vulnerable to predatory pitch decks, vendor manipulation, and alarmist media narratives.\nUnderstanding basic concepts like base rates, conditional probabilities, and sample sizes is not an academic chore; it is essential defensive armor against bad capital allocation.",
+      "headline": "Basic Number Sense",
+      "body": "Not understanding numbers leaves you open to bad deals and tricks.\nClever sales pitches use tricky stats to stir up cheap panic.\nLearning simple odds gives you a shield against very poor choices.",
       "quote": "Risk literacy is the ability to deal with uncertainty in an informed, confident way.",
-      "actionItem": "Conduct a mandatory workshop for your product and finance teams on spotting conditional probability fallacies and base rate neglect.",
+      "actionItem": "Train your team to spot misleading claims in sales pitch decks.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1238,10 +1238,10 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       "author": "Gerd Gigerenzer",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Courage as an Engine of Decision-Making",
-      "body": "Effective risk navigation is not just a mathematical skill; it demands psychological courage.\nChoosing simple heuristics over bloated consensus committees requires the fortitude to stand alone and take accountability when defensive bureaucrats retreat into compliance theater.",
+      "headline": "Courage to Decide",
+      "body": "Making good choices requires real guts, not just clever math tricks.\nChoosing a simple path means standing alone when others want committees.\nReal leaders take responsibility instead of hiding behind safe paperwork.",
       "quote": "Being risk savvy requires not only cognitive skills, but also emotional courage.",
-      "actionItem": "Reward leaders who take principled, non-defensive decisions based on parsimonious rules, regardless of noisy short-term outcomes.",
+      "actionItem": "Praise managers who make clear, bold calls instead of hiding behind committees.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1259,10 +1259,10 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       "author": "Gerd Gigerenzer",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Normalize Base Rate Checks",
-      "body": "Optimistic project managers consistently succumb to the planning fallacy by treating their initiative as an exceptional case.\nInquire about the objective base rate: out of 100 similar engineering or corporate expansion projects in your industry, how many delivered on time and within budget?\nAnchor forecasts to historical base rates.",
+      "headline": "Check Past Track Records",
+      "body": "Project teams always assume their own plan is special and immune.\nLook at how many similar past projects actually finished on time.\nBase your plans on real history, not wishful thinking.",
       "quote": "To understand any test or forecast, you must first know the base rate.",
-      "actionItem": "Require every project business case to explicitly benchmark its timeline and ROI against external industry base rates.",
+      "actionItem": "Check industry track records before approving any project deadline or budget.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1280,10 +1280,10 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       "author": "Gerd Gigerenzer",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Defensive Medicine Dynamic in Corporate Strategy",
-      "body": "In defensive medicine, doctors order invasive procedures purely to protect against malpractice suits, harming patient health for personal liability relief.\nCorporate leaders replicate this dynamic by commissioning unnecessary studies and acquiring redundant tools.\nSpot and eliminate corporate defensive maneuvers before they paralyze execution.",
+      "headline": "Defensive Work Traps",
+      "body": "Doctors sometimes order extra scans just to prevent lawsuits, hurting patients.\nCorporate managers do the same by ordering useless reports to stay safe.\nStop doing wasteful work that exists only to create paper trails.",
       "quote": "Defensive medicine wastes billions and harms patients solely to protect doctors from lawsuits.",
-      "actionItem": "Identify projects running solely to build paper trails for compliance or board insulation and terminate them.",
+      "actionItem": "Cancel any company project that exists solely to create a paper trail.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1301,10 +1301,10 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       "author": "Gerd Gigerenzer",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Adaptive Toolbox",
-      "body": "A master strategist does not search for a single universal algorithm.\nThey assemble an adaptive toolbox: a curated suite of specialized heuristics, decision rules, and cognitive shortcuts tuned to distinct operating terrains.\nSurvival and outperformance depend on knowing which rule of thumb fits the specific terrain.",
+      "headline": "The Decision Toolbox",
+      "body": "Smart problem solvers do not rely on one single magic formula.\nThey keep a small box of handy rules for different problems.\nWinning requires knowing which simple rule fits the challenge before you.",
       "quote": "The mind is an adaptive toolbox equipped with various heuristics designed for specific problems.",
-      "actionItem": "Document and codify your leadership team's top three decision heuristics for hiring, capital allocation, and crisis response.",
+      "actionItem": "Write down your team's top three simple rules for handling unexpected crises.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1318,67 +1318,67 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
   ],
   "mindMap": {
     "id": "risk-savvy-root",
-    "label": "Risk Savvy: How to Make Good Decisions",
-    "description": "A tactical blueprint for decision-making under genuine uncertainty where probabilistic optimization fails.\nGerd Gigerenzer demonstrates that in an unpredictable world, simple heuristics and robust rules of thumb systematically outperform complex calculations.",
+    "label": "Risk Savvy",
+    "description": "Life is unpredictable and math cannot solve everything.\nSimple rules of thumb help us make better choices.",
     "children": [
       {
         "id": "known-risk-vs-uncertainty",
-        "label": "The Fundamental Distinction: Risk vs. Uncertainty",
-        "description": "Calculated risk operates where all outcomes and probabilities are measurable, like a roulette wheel or casino game.\nUncertainty governs competitive reality, where the full state space is unknown, surprises happen, and statistical optimization delivers fragile illusions of control.",
+        "label": "Risk Versus Uncertainty",
+        "description": "Known risks have clear odds like rolling dice.\nReal life is uncertain with surprises no formula can predict.",
         "children": [
           {
             "id": "known-risk-world",
-            "label": "The World of Known Risk",
-            "description": "A closed domain governed by stable rules and comprehensive historical distributions.\nUnder these conditions, standard expected utility theory, Bayesian updates, and actuarial models yield sound, optimal decisions.",
+            "label": "Known Risk",
+            "description": "Rules are set and odds never change.\nMath and statistics work perfectly in this closed world.",
             "children": [
               {
                 "id": "roulette-paradigm",
-                "label": "The Roulette Paradigm",
-                "description": "Situations with fixed parameters and deterministic rulebooks where past statistics reliably forecast future states.\nTreating strategic, real-world uncertainty like a game of roulette is a catastrophic category error.",
+                "label": "The Roulette Game",
+                "description": "Past spins help calculate clear future chances.\nReal life is not a tidy casino game.",
                 "children": []
               },
               {
                 "id": "optimization-fallacy",
-                "label": "The Optimization Fallacy",
-                "description": "The naive belief that throwing greater computing power at uncertainty produces better forecasts.\nOptimizing an inherently incomplete model amplifies noise, fitting past data while collapsing on out-of-sample events.",
+                "label": "The Math Trap",
+                "description": "More data does not fix an unknown future.\nComplex math often fails when big surprises happen.",
                 "children": []
               }
             ]
           },
           {
             "id": "world-of-uncertainty",
-            "label": "The World of Pure Uncertainty",
-            "description": "Open systems like markets, geopolitics, and human behavior where probabilities are unknown and unknowable.\nRobust survival here demands fast, frugal heuristics rather than brittle, overparameterized risk models.",
+            "label": "Pure Uncertainty",
+            "description": "The real world has unknown odds and sudden changes.\nSimple habits beat fragile math models here.",
             "children": [
               {
                 "id": "turkey-illusion",
-                "label": "The Turkey Illusion",
-                "description": "A butcher feeds a turkey for a thousand days, reinforcing the bird's statistical confidence that the human loves it.\nOn day 1,001 before Thanksgiving, the model fails fatally; extrapolation without causal structure is lethal.",
+                "label": "The Turkey Story",
+                "description": "A farmer feeds a turkey every day.\nThe turkey feels safe until Thanksgiving arrives.",
                 "children": []
               },
               {
                 "id": "robustness-over-optimality",
-                "label": "Robustness Over Optimality",
-                "description": "An optimal solution is razor-thin and breaks the instant conditions shift outside model assumptions.\nRobust strategies sacrifice theoretical peak performance in exchange for survival across volatile, unpredictable scenarios.",
+                "label": "Stay Flexible",
+                "description": "Perfect plans break when conditions change.\nFlexible habits help you survive unexpected shocks.",
                 "children": []
               }
             ]
           },
           {
             "id": "illusion-of-certainty",
-            "label": "The Illusion of Certainty",
-            "description": "An emotional defense mechanism where leaders and institutions demand definitive guarantees from advisers.\nCharlatans thrive by peddling decimal-point precision to anxious executives terrified of admitting ignorance.",
+            "label": "False Certainty",
+            "description": "People crave 100 percent guarantees.\nPretending danger does not exist creates huge blind spots.",
             "children": [
               {
                 "id": "zero-risk-mirage",
-                "label": "The Zero-Risk Mirage",
-                "description": "The deceptive promise that danger can be totally engineered out of a system without extreme trade-offs.\nChasing absolute zero risk diverts capital from managing major vulnerabilities into extinguishing negligible edge cases.",
+                "label": "Zero-Risk Myth",
+                "description": "Nothing in real life is completely safe.\nChasing zero risk wastes time and money.",
                 "children": []
               },
               {
                 "id": "forecasting-superstition",
-                "label": "Forecasting Superstition",
-                "description": "Treating long-range economic or geopolitical forecasts as scientific truth rather than modern astrology.\nInstitutional forecasters preserve credibility through consensus conformity rather than empirical accuracy.",
+                "label": "Future Predictions",
+                "description": "Long-term economic forecasts are mostly guesses.\nExperts rarely predict true market shocks.",
                 "children": []
               }
             ]
@@ -1387,62 +1387,62 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       },
       {
         "id": "heuristics-decision-engines",
-        "label": "Heuristics: Fast, Frugal Decision Engines",
-        "description": "Heuristics are disciplined rules of thumb that deliberately ignore irrelevant information to isolate decisive signals.\nThey are not cognitive flaws or lazy shortcuts, but evolved, battle-tested algorithms optimized for speed and survival.",
+        "label": "Rules of Thumb",
+        "description": "Simple shortcuts focus on what truly matters.\nThey save time and work better than complex formulas.",
         "children": [
           {
             "id": "less-is-more-effect",
-            "label": "The Less-Is-More Effect",
-            "description": "The empirical reality that ignoring non-critical variables yields superior out-of-sample predictive accuracy.\nComplex models overfit to historical noise; frugal heuristics extract only the structural signal.",
+            "label": "Less Is More",
+            "description": "Ignoring extra details often improves your choices.\nToo much data creates confusing noise.",
             "children": [
               {
                 "id": "1-over-n-rule",
-                "label": "The 1/N Heuristic",
-                "description": "Allocating capital equally across N viable asset classes consistently matches or beats Harry Markowitz's Nobel-winning mean-variance optimization out of sample.\nIt completely eliminates parameter estimation error in noisy market regimes.",
+                "label": "Split It Equally",
+                "description": "Divide money equally across a few good investments.\nThis simple rule often beats fancy financial math.",
                 "children": []
               },
               {
                 "id": "gaze-heuristic",
-                "label": "The Gaze Heuristic",
-                "description": "An interception rule where an outfielder adjusts running speed to keep the visual angle of a fly ball constant.\nIt solves complex parabolic trajectory equations unconsciously without calculating wind speed, air resistance, or gravity.",
+                "label": "Catching The Ball",
+                "description": "Baseball players fix their eyes on the ball.\nThey catch it without calculating wind speed or physics.",
                 "children": []
               }
             ]
           },
           {
             "id": "fast-and-frugal-trees",
-            "label": "Fast-and-Frugal Trees (FFTs)",
-            "description": "Binary decision architectures that evaluate sequential cues and allow immediate exit at each node.\nThey empower high-pressure operators to make life-or-death decisions in seconds without computational bottlenecks.",
+            "label": "Simple Decision Trees",
+            "description": "Ask a few yes-or-no questions in order.\nThey help you make smart choices under pressure.",
             "children": [
               {
                 "id": "emergency-triage-tree",
-                "label": "Emergency Room Cardiac Triage",
-                "description": "A three-question diagnostic tree that routes high-risk heart attack patients to coronary care faster and with fewer false negatives than 50-variable statistical risk scoring packages.\nSimple gatekeepers save lives under pressure.",
+                "label": "Emergency Room Check",
+                "description": "Doctors ask three quick questions for heart attacks.\nThis simple test saves more lives than 50 questions.",
                 "children": []
               },
               {
                 "id": "lexicographic-ordering",
-                "label": "Take-The-Best Rule",
-                "description": "Rank cues strictly by predictive validity and decide exclusively on the first cue that discriminates between options.\nIt sidesteps the paralysis of weighing conflicting secondary factors that cancel each other out.",
+                "label": "Take The Best",
+                "description": "Pick the single most important factor first.\nDecide based on that one clear difference.",
                 "children": []
               }
             ]
           },
           {
             "id": "gut-feelings-as-unconscious-intelligence",
-            "label": "Gut Feelings as Unconscious Computation",
-            "description": "Intuition is neither arbitrary mysticism nor divine insight; it is pattern recognition refined by extensive domain experience.\nTrue intuition executes heuristics beneath conscious awareness in fractions of a second.",
+            "label": "Smart Gut Feelings",
+            "description": "True intuition is brain pattern recognition built over time.\nIt is fast, silent wisdom.",
             "children": [
               {
                 "id": "expertise-threshold",
-                "label": "The Expertise Prerequisite",
-                "description": "Intuitive heuristics only succeed when grounded in thousands of hours of feedback-rich domain practice.\nA beginner's gut feeling is sheer randomness, whereas a master's gut feeling is compressed operational competence.",
+                "label": "Experience Matters",
+                "description": "Gut feelings work best after years of practice.\nA beginner's hunch is just a wild guess.",
                 "children": []
               },
               {
                 "id": "deliberation-paralysis",
-                "label": "The Deliberation Trap",
-                "description": "Forcing experts to rationalize and verbalize automated instincts degrades execution and induces analysis paralysis.\nOverthinking simple, practiced tasks introduces cognitive friction that destroys elite operational performance.",
+                "label": "The Overthinking Trap",
+                "description": "Thinking too much ruins natural skill.\nTrust your training and act without second-guessing.",
                 "children": []
               }
             ]
@@ -1451,62 +1451,62 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       },
       {
         "id": "risk-literacy-and-numerical-deception",
-        "label": "Risk Literacy: Piercing Numerical Smokescreens",
-        "description": "Public institutions, corporate vendors, and medical bodies routinely weaponize statistical framing to manufacture panic or complacence.\nMastering operational numeracy requires converting deceptive metrics into transparent natural frequencies.",
+        "label": "Understanding Numbers",
+        "description": "People get tricked by confusing statistics every day.\nClear numbers help you see the truth.",
         "children": [
           {
             "id": "relative-vs-absolute-risk",
-            "label": "Relative vs. Absolute Risk Deception",
-            "description": "Promoting a 50 percent relative risk reduction sounds miraculous when it merely shifts an absolute occurrence from 2 in 1,000 to 1 in 1,000.\nRelentless public relations engines exploit relative metrics to inflate perceived drug efficacy.",
+            "label": "Relative Versus Absolute",
+            "description": "A 50 percent cut sounds huge in ads.\nIn reality, it might just mean one person fewer.",
             "children": [
               {
                 "id": "third-generation-pill-panic",
-                "label": "The Contraceptive Pill Scare",
-                "description": "A British health warning announced a 100% surge in thrombosis risk, causing thousands of women to abort pregnancies and switch to less reliable methods.\nThe absolute rate had merely ticked up from 1 in 7,000 to 2 in 7,000.",
+                "label": "The Pill Scare",
+                "description": "A warning said risk doubled, causing widespread panic.\nIt only rose from one in 7,000 to two.",
                 "children": []
               },
               {
                 "id": "framing-manipulation",
-                "label": "Calculated Framing Architecture",
-                "description": "Presenting data in relative terms maximizes behavioral compliance, marketing conversion, and bureaucratic budgets.\nDemanding absolute numbers strips away promotional distortion and exposes underlying baseline payoffs.",
+                "label": "Tricky Framing",
+                "description": "Big percentage drops are used to sell drugs.\nAlways ask for the real, raw numbers.",
                 "children": []
               }
             ]
           },
           {
             "id": "natural-frequencies",
-            "label": "The Natural Frequencies Antidote",
-            "description": "Representing risk as raw headcounts (e.g., 10 out of 1,000) rather than conditional percentages and Bayesian probabilities.\nTranslating problems into natural frequencies instantly dissolves computational confusion for experts and laymen alike.",
+            "label": "Simple Headcounts",
+            "description": "Use real counts like 1 out of 100 instead of percentages.\nIt makes risks easy for everyone to see.",
             "children": [
               {
                 "id": "mammography-paradox",
-                "label": "The Screening False-Positive Paradox",
-                "description": "A test with 90% sensitivity and 9% false-positive rate applied to a disease with 1% prevalence yields roughly an 89% false-positive rate for positive screens.\nPhysicians routinely botch this calculation using Bayes' rule but solve it easily with natural counts.",
+                "label": "False Alarms",
+                "description": "Positive medical tests often turn out to be false.\nHeadcounts make this easy for doctors to calculate.",
                 "children": []
               },
               {
                 "id": "dna-and-forensic-confusion",
-                "label": "Forensic Inversion Traps",
-                "description": "Juries regularly conflate the probability of a DNA match given innocence with the probability of innocence given a match.\nNatural frequency trees inoculate legal trials against the prosecutor's fallacy.",
+                "label": "DNA Match Confusion",
+                "description": "A rare DNA match does not guarantee total guilt.\nClear counts stop juries from making huge mistakes.",
                 "children": []
               }
             ]
           },
           {
             "id": "deceptive-metrics",
-            "label": "Deceptive Operational Metrics",
-            "description": "Organizations systematically track surrogate metrics that create cosmetic compliance while masking deteriorating core realities.\nLeaders must audit what is truly measured versus what is merely certified on paper.",
+            "label": "Misleading Goals",
+            "description": "Tracking the wrong target creates a fake sense of safety.\nMeasure real outcomes instead of paper checklists.",
             "children": [
               {
                 "id": "five-year-survival-bias",
-                "label": "Lead-Time Survival Illusion",
-                "description": "Earlier cancer detection inflates 5-year survival statistics without extending the patient's actual lifespan by a single day.\nIncreased screening creates an optical illusion of clinical victory via pure classification shift.",
+                "label": "Early Detection Myth",
+                "description": "Finding an illness earlier extends your diagnosed time.\nIt does not always mean you live longer.",
                 "children": []
               },
               {
                 "id": "confounded-surrogate-endpoints",
-                "label": "Surrogate Endpoint Fallacy",
-                "description": "Lowering intermediate markers like cholesterol does not guarantee reductions in total mortality or cardiovascular death.\nOptimizing proxy metrics produces dangerous interventions that treat the chart while killing the patient.",
+                "label": "Wrong Targets",
+                "description": "Lowering lab numbers looks good on paper.\nIt means nothing if patients do not live longer.",
                 "children": []
               }
             ]
@@ -1515,62 +1515,62 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       },
       {
         "id": "institutional-incentives-defensive-decision-making",
-        "label": "Institutional Pathology: Defensive Decision-Making",
-        "description": "When survival incentives favor self-protection over organizational mission, decision-makers execute choices designed purely to avoid personal liability.\nDefensive decision-making deliberately harms clients and shareholders to protect managerial careers.",
+        "label": "Playing It Safe",
+        "description": "Workers often make choices just to protect their jobs.\nFear of blame harms customers and companies.",
         "children": [
           {
             "id": "cover-your-ass-culture",
-            "label": "CYA Governance Architecture",
-            "description": "Managers select mediocre second-best options that come with audit trails and consulting sign-offs over superior first-best intuitive choices.\nIf a conventional decision fails, no one is blamed; if an unconventional decision fails, careers are destroyed.",
+            "label": "Covering Your Back",
+            "description": "Bosses pick safe, boring options to avoid trouble.\nSafe choices protect careers even if results are worse.",
             "children": [
               {
                 "id": "consultant-shield",
-                "label": "The McKinsey Shield",
-                "description": "Hiring elite consulting firms at massive expense to rubber-stamp executive plans.\nThe primary deliverable is an institutional insurance policy, deflecting personal accountability when projects crater.",
+                "label": "The Consultant Shield",
+                "description": "Managers hire pricey advisors to approve their plans.\nIf plans fail, they can blame the advisors.",
                 "children": []
               },
               {
                 "id": "bureaucratic-paralysis",
-                "label": "Procedural Proliferation",
-                "description": "Creating dense compliance binders and signature chains that diffuse responsibility across endless committees.\nEvery added layer of protective process degrades execution velocity and smothers frontline initiative.",
+                "label": "Endless Red Tape",
+                "description": "Teams add rules and forms to spread blame around.\nWork slows down and nothing gets done.",
                 "children": []
               }
             ]
           },
           {
             "id": "defensive-medicine",
-            "label": "Defensive Medicine Case Study",
-            "description": "Doctors order millions of unnecessary CT scans, biopsies, and invasive procedures purely to establish documented legal defenses against future malpractice suits.\nThe patient absorbs physical risk and radiation so the physician can eliminate legal liability.",
+            "label": "Defensive Medicine",
+            "description": "Doctors order extra scans to prevent future lawsuits.\nPatients face extra risks just to protect doctors legally.",
             "children": [
               {
                 "id": "iatrogenic-exposure",
-                "label": "Iatrogenic Escalation",
-                "description": "Unnecessary testing generates incidental findings that provoke invasive biopsies, infections, and surgical interventions.\nThe legal self-defense of the clinician directly inflicts measurable physiological harm on the patient.",
+                "label": "Harm From Tests",
+                "description": "Extra tests often find harmless spots.\nThis leads to risky surgeries patients never needed.",
                 "children": []
               },
               {
                 "id": "malpractice-insurance-perversion",
-                "label": "Incentive Asymmetry",
-                "description": "A physician is sued for omitting a marginal test, never for ordering an unnecessary test that indirectly harms the patient.\nThe economic payoff matrix rationally commands extreme overtreatment.",
+                "label": "Lawsuit Fear",
+                "description": "Doctors get sued for missing tests, not over-testing.\nThis pushes them to test way too much.",
                 "children": []
               }
             ]
           },
           {
             "id": "error-culture-polarity",
-            "label": "Negative vs. Positive Error Culture",
-            "description": "Organizations either punish every acknowledged mistake, forcing systematic cover-ups, or institutionalize transparent post-mortems to upgrade system heuristics.\nAviation pioneered transparent safety cultures; finance and healthcare remain largely punitive.",
+            "label": "Handling Mistakes",
+            "description": "Good teams talk openly about mistakes to learn.\nBad teams punish mistakes and cause cover-ups.",
             "children": [
               {
                 "id": "aviation-cockpit-model",
-                "label": "Cockpit CRM and Black Boxes",
-                "description": "Crew Resource Management flattens cockpit hierarchy, empowering copilots to correct captains without fear of retribution.\nNear-misses are logged without personal penalty to continuously calibrate fleet-wide operating protocols.",
+                "label": "Airplane Safety",
+                "description": "Pilots report close calls without getting punished.\nFlying becomes safer for everyone as a result.",
                 "children": []
               },
               {
                 "id": "cover-up-death-spiral",
-                "label": "The Concealment Spiral",
-                "description": "When admitting error equals termination, employees hide warning signs until systemic catastrophe strikes.\nRepressive corporate cultures guarantee that localized anomalies compound into enterprise-level disasters.",
+                "label": "Hiding Errors",
+                "description": "Punishing small mistakes forces workers to hide them.\nHidden problems grow until disaster strikes.",
                 "children": []
               }
             ]
@@ -1579,68 +1579,68 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
       },
       {
         "id": "strategic-playbook-skin-in-the-game",
-        "label": "Strategic Playbook: Restoring Skin in the Game",
-        "description": "Real risk savviness demands redesigning systemic payoffs so decision-makers bear direct consequences for bad outcomes.\nRobust governance aligns incentives, flattens decision trees, and enforces personal accountability across leadership.",
+        "label": "Real Accountability",
+        "description": "People make smarter choices when they share the consequences.\nTrue leaders take personal responsibility.",
         "children": [
           {
             "id": "taleb-gigerenzer-alignment",
-            "label": "Symmetric Liability Mandate",
-            "description": "Executives who capture upside while offloading downside to taxpayers or shareholders generate toxic systemic fragility.\nSustainable resilience requires that architects and decision-makers share the physical and financial exposure of failure.",
+            "label": "Skin In The Game",
+            "description": "Leaders should lose when their plans fail.\nTaking rewards while dumping risk is unfair.",
             "children": [
               {
                 "id": "hammurabi-rule",
-                "label": "Hammurabi's Builder Code",
-                "description": "If a builder constructs a house that collapses and kills the owner, the builder is executed.\nForcing builders to have their own skin in the game is the most effective engineering quality control mechanism in history.",
+                "label": "The Builder Rule",
+                "description": "Ancient law punished builders if houses collapsed.\nShared risk guarantees careful, honest work.",
                 "children": []
               },
               {
                 "id": "clawback-governance",
-                "label": "Executive Clawbacks",
-                "description": "Withholding multi-year compensation in escrow until the tail risk of financial trades or strategic decisions has matured.\nEliminating asymmetric upside neutralizes reckless short-term risk extraction.",
+                "label": "Taking Back Bonuses",
+                "description": "Hold executive bonuses until long-term risks are clear.\nThis stops reckless gambles for quick cash.",
                 "children": []
               }
             ]
           },
           {
             "id": "heuristics-for-leadership",
-            "label": "The Executive Heuristic Toolkit",
-            "description": "A tactical checklist of operational rules for leaders navigating acute market and organizational volatility.\nEliminating redundant information and focusing on critical cues produces agile, resilient organizations.",
+            "label": "Rules For Leaders",
+            "description": "Use clear rules to lead through tough times.\nFocus on key clues and ignore unnecessary chatter.",
             "children": [
               {
                 "id": "default-heuristic",
-                "label": "Strategic Default Calibration",
-                "description": "People overwhelmingly stick with preset defaults; architecting choice environments with default opt-outs drives massive institutional alignment without coercive mandates.\nHarness inertia to serve strategic objectives.",
+                "label": "Set Good Defaults",
+                "description": "Most people stick with default choices.\nMake the helpful choice the automatic one.",
                 "children": []
               },
               {
                 "id": "social-heuristic-pruning",
-                "label": "Imitate-The-Best vs. Independent Action",
-                "description": "Copying elite peers is highly adaptive in stable environments, but leads to catastrophic lemming behavior during systemic transitions.\nLeaders must consciously decouple from herd behavior when underlying regimes shift.",
+                "label": "Avoid The Crowd",
+                "description": "Copying others works until the market shifts.\nBe ready to step away from the crowd.",
                 "children": []
               },
               {
                 "id": "one-good-reason-rule",
-                "label": "One-Clearcut-Reason Rule",
-                "description": "When pitching or executing high-stakes strategies, if a decision relies on a list of ten weak rationalizations, it is inherently flawed.\nSound strategic bets rely on one dominant, undeniable asymmetric advantage.",
+                "label": "One Good Reason",
+                "description": "Great choices usually need just one strong reason.\nIf you need ten weak excuses, say no.",
                 "children": []
               }
             ]
           },
           {
             "id": "public-risk-literacy-education",
-            "label": "Inoculating the Next Generation",
-            "description": "Democratizing risk savviness requires teaching statistical self-defense, heuristic thinking, and cognitive sovereignty in early education.\nTrue democracy requires citizens who can interrogate official data rather than deferring blindly to credentialed technocrats.",
+            "label": "Teaching Smart Thinking",
+            "description": "Teach everyday people how to read real numbers.\nUnderstanding risk builds independence and stops fear.",
             "children": [
               {
                 "id": "statistical-self-defense",
-                "label": "Curriculum of Statistical Defense",
-                "description": "Replacing irrelevant abstract calculus with practical data literacy: natural frequencies, conditional probabilities, and detecting commercial framing.\nA literate public cannot be easily manipulated by fear-driven marketing campaigns.",
+                "label": "Math Self-Defense",
+                "description": "Teach students how to spot misleading stats.\nSmart citizens cannot be easily tricked.",
                 "children": []
               },
               {
                 "id": "embracing-uncertainty",
-                "label": "Accepting Unavoidable Uncertainty",
-                "description": "Maturity begins with relinquishing the childish demand for total certainty.\nLeaders and citizens who accept uncertainty cultivate adaptive agility, build antifragile systems, and act with decisive courage.",
+                "label": "Accepting The Unknown",
+                "description": "Stop looking for impossible 100 percent certainty.\nAccepting the unknown brings calm and courage.",
                 "children": []
               }
             ]

@@ -1,5 +1,5 @@
 // Nudge by Richard H. Thaler & Cass R. Sunstein
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -706,169 +706,169 @@ export const NUDGE_BOOK: Book = {
   "actionItems": [
     {
       "id": "nudge-act-1",
-      "title": "Set Default Opt-Outs for Micro-Subscriptions",
-      "description": "Our brains suffer from inertia and status quo bias, meaning whatever state is pre-selected tends to stick. Flip the default on all free trials or renewals immediately upon signing up so cancellation is the baseline outcome rather than the hidden penalty.",
+      "title": "Cancel Free Trials Right Away",
+      "description": "We often forget to cancel free trials before money leaves our account. Turn off auto-renew on day one so you never pay by accident.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Open your phone's App Store or subscription manager right after starting any new trial or recurring subscription.",
-        "Toggle off auto-renew immediately so access ends automatically when the trial period expires.",
-        "Mark your calendar 2 days before the term ends to assess if the service actually delivered tangible value.",
-        "Only opt back in manually if you genuinely missed having access."
+        "1. Open your phone subscription settings right after signing up for a trial.",
+        "2. Turn off auto-renew immediately so your access ends cleanly after the trial.",
+        "3. Set a phone reminder two days before the trial period runs out.",
+        "4. Pay for the service only if you truly missed using it."
       ],
       "sourceChapter": "Chapter 1: Biases and Blunders"
     },
     {
       "id": "nudge-act-2",
-      "title": "Automate an Escalate-Tomorrow Savings Transfer",
-      "description": "Loss aversion makes cutting current spending feel acutely painful, but committing future raises to savings bypasses that psychological friction. Replicate Thaler's 'Save More Tomorrow' formula by linking recurring deposit bumps to future dates.",
+      "title": "Save More Money Next Year",
+      "description": "Saving money feels painful today, but saving future cash feels much easier. Set your bank account to save bigger chunks whenever you get a raise.",
       "category": "system",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Log into your banking portal and locate recurring transfer options.",
-        "Set an automatic transfer of 2% of your monthly income to a high-yield savings account starting this month.",
-        "Schedule an automated calendar alert to increase this rate by an additional 1% every six months or whenever an annual salary bump hits.",
-        "Lock the savings account with two-step approval so funds are mentally earmarked as untouchable reserves."
+        "1. Open your online bank app and find your recurring transfer settings.",
+        "2. Set an automatic monthly transfer of two percent into a savings account.",
+        "3. Add a calendar reminder to boost this amount whenever your pay increases.",
+        "4. Keep this savings account out of daily view so you leave it alone."
       ],
       "sourceChapter": "Chapter 6: Save More Tomorrow"
     },
     {
       "id": "nudge-act-3",
-      "title": "Front-and-Center Cafeteria Redesign for Your Fridge",
-      "description": "School cafeteria experiments proved that placing healthier items at eye level surges consumption while tucking junk away slashes it. Architect your refrigerator shelves so nutritious foods become the effortless first choice.",
+      "title": "Put Healthy Food at Eye Level",
+      "description": "You eat whatever food you see first when opening the fridge door. Put fresh foods front and center to make healthy eating effortless.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Clear the middle eye-level shelf of your refrigerator completely.",
-        "Wash and slice fresh fruits, vegetables, and proteins, storing them in clear glass containers right in that prime zone.",
-        "Relocate high-calorie condiments, desserts, and sodas into the opaque bottom crisper drawers or the very back of lower shelves.",
-        "Place a water pitcher directly in front of the door hinge where your hand instinctively reaches first."
+        "1. Clear out the middle shelf of your fridge completely today.",
+        "2. Wash fresh fruit and vegetables and place them in clear glass boxes.",
+        "3. Put these healthy snack boxes right on that middle eye-level shelf.",
+        "4. Hide sugary drinks and junk foods inside the bottom drawers out of sight."
       ],
       "sourceChapter": "Introduction"
     },
     {
       "id": "nudge-act-4",
-      "title": "Establish an Immediate Visual Feedback Loop for Energy Usage",
-      "description": "People dramatically curb waste when they can observe consumption dynamics in real time rather than deciphering an abstract monthly bill. Install visible feedback cues for utilities and screen time.",
+      "title": "Track Your Power in Real Time",
+      "description": "People waste less energy when they can see their usage right away. Put visible counters and timers where your family can spot them easily.",
       "category": "system",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Enable a persistent screen-time widget on your phone's home screen or workstation desktop.",
-        "Set your smart thermostat to display ambient consumption or switch on eco-leaf indicator lamps.",
-        "Place your physical charging strip in a central, visible spot with a lighted master power toggle switch.",
-        "Notice how real-time numeric and color feedback gently alters your instinct to leave appliances on."
+        "1. Add a screen-time widget directly to your phone main home screen.",
+        "2. Set your smart thermostat to show green leaves during low energy use.",
+        "3. Plug desk electronics into a power strip with a bright glowing switch.",
+        "4. Flip the glowing switch off every evening before heading to bed."
       ],
       "sourceChapter": "Chapter 12: Saving the Planet"
     },
     {
       "id": "nudge-act-5",
-      "title": "Plate Size and Serving Dish Downsizing Audit",
-      "description": "The mindless eating phenomenon shows that people consume significantly more food when given larger bowls or containers, guided by visual cues rather than internal satiety signals. Audit and downsize your daily dishware.",
+      "title": "Use Smaller Dinner Plates",
+      "description": "Large plates make normal portions look tiny, causing you to overeat. Use smaller bowls and plates to feel full on less food.",
       "category": "audit",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Measure the diameter of your everyday dinner plates and snack bowls in the kitchen.",
-        "Swap 12-inch dinner plates for 9- or 10-inch salad plates as the default household dinnerware.",
-        "Never eat snacks directly out of bulk bags or boxes; decant a single serving into a ramekin.",
-        "Store the oversized platters on the highest, hard-to-reach cupboard shelf."
+        "1. Measure the width of your everyday kitchen dinner plates right now.",
+        "2. Swap out big twelve-inch plates for smaller nine-inch salad plates today.",
+        "3. Pour snack chips into a small bowl instead of eating from bags.",
+        "4. Move oversized platters up to the top shelf of your highest cupboard."
       ],
       "sourceChapter": "Chapter 2: Resisting Temptation"
     },
     {
       "id": "nudge-act-6",
-      "title": "Implement a 24-Hour Cooling-Off Rule for Online Checkouts",
-      "description": "In the heat of arousal or excitement (hot states), humans drastically underestimate impulsive desire compared to cold, reflective states. Build a structural speed bump into your digital purchases.",
+      "title": "Wait One Day Before Buying",
+      "description": "Shopping urges feel urgent in the moment but fade quickly with time. Pause for twenty-four hours before buying anything you want online.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "When browsing an e-commerce site, add non-essential desired items to the cart or wishlist without purchasing.",
-        "Close the browser tab and institute a strict 24-hour mandatory waiting window.",
-        "Return to the cart tomorrow in an emotionally neutral 'cold state' and evaluate if the item still feels essential.",
-        "Remove payment cards saved in one-click autofill settings to preserve this intentional friction."
+        "1. Add wanted items to your cart but do not hit checkout today.",
+        "2. Close your shopping browser tab and wait twenty-four full hours.",
+        "3. Open your shopping cart tomorrow and check if you still want it.",
+        "4. Delete your saved credit cards from your browser to slow down impulse buys."
       ],
       "sourceChapter": "Chapter 2: Resisting Temptation"
     },
     {
       "id": "nudge-act-7",
-      "title": "Social Proof Peer Benchmark Comparison",
-      "description": "Normative messaging\u2014telling residents that 90% of their neighbors recycle or conserve electricity\u2014consistently shifts behavior more than moral lectures or cash incentives. Harness social proof to propel your aspirational goals.",
+      "title": "Copy Habits of Successful Friends",
+      "description": "We naturally copy the daily actions of the people around us. Look at positive group benchmarks to build better habits much faster.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Identify a personal skill or habit where progress has stalled (e.g., reading, fitness, code commits).",
-        "Join an accountability group or follow a public community dashboard showcasing average weekly milestones of high performers.",
-        "Display a collective milestone benchmark on your desk or tracker (e.g., 'Median cohort progress: 4 workouts/week').",
-        "Observe how aligning with an active peer norm naturally recalibrates what your brain considers normal effort."
+        "1. Pick one daily habit where you want to make steady progress.",
+        "2. Join a group of friends who practice this habit every single week.",
+        "3. Write the average group goal on a sticky note near your desk.",
+        "4. Check your daily work against the group standard to stay on track."
       ],
       "sourceChapter": "Chapter 3: Following the Herd"
     },
     {
       "id": "nudge-act-8",
-      "title": "Configure Error-Tolerant Forcing Functions",
-      "description": "Humans are inherently error-prone ('Humans', not 'Econs'). Well-designed choice architecture anticipates cognitive slips through post-completion error safeguards, like cars reminding you to grab your key before locking.",
+      "title": "Set Traps to Prevent Mistakes",
+      "description": "Everyone makes simple mistakes when they are tired or in a rush. Set up physical reminders that stop errors before they happen.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Identify your top recurring forgetfulness error (e.g., leaving keys behind, missing email attachments).",
-        "Create a physical interlock: place your car keys directly on top of your work badge or packed lunch overnight.",
-        "Turn on email client attachment detection alerts that warn you if you write 'attached' without an enclosure.",
-        "Set smart door locks to auto-engage 60 seconds after closing so an absent-minded exit never compromises security."
+        "1. List the one daily item you forget most often each morning.",
+        "2. Put your house keys right on top of your work bag tonight.",
+        "3. Turn on email alerts that check for missing files before sending messages.",
+        "4. Set smart doors to lock automatically one minute after closing behind you."
       ],
       "sourceChapter": "Chapter 5: Choice Architecture"
     },
     {
       "id": "nudge-act-9",
-      "title": "Map Difficult Choices to Understandable Experiential Units",
-      "description": "Complex technical specifications (megapixels, kilowatt-hours, annual percentage rates) paralyze decision-makers. Translate abstract metrics into vivid, day-to-day experiential equivalents before choosing.",
+      "title": "Turn Prices into Work Hours",
+      "description": "Big price tags and interest rates can confuse your brain. Convert price tags into work hours to see their real cost clearly.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Take a pending subscription, high-interest financing plan, or luxury expense you are considering.",
-        "Convert the raw financial cost into hours of your personal wage labor required to pay for it.",
-        "Translate abstract utility numbers into everyday equivalents (e.g., '10 kWh saved = 3 days of home lighting').",
-        "Notice how tangible experiential mapping cuts through marketing fog to reveal true value."
+        "1. Pick one expensive item or monthly subscription you want to buy.",
+        "2. Divide the total price tag by your hourly take-home pay.",
+        "3. Ask yourself if that item is worth those hours of hard labor.",
+        "4. Walk away from the purchase if the work trade-off feels too high."
       ],
       "sourceChapter": "Chapter 5: Choice Architecture"
     },
     {
       "id": "nudge-act-10",
-      "title": "Institute a Daily Friction Audit on Unwanted Behaviors",
-      "description": "Channel factors reveal that tiny micro-hurdles can utterly extinguish a behavior, while frictionless pathways make habits automatic. Conduct a 5-minute friction check on your workstation to deter compulsive tab-switching.",
+      "title": "Make Bad Habits Harder to Do",
+      "description": "Tiny hurdles stop bad habits, while simple setups make good habits easier. Add small roadblocks between yourself and mindless digital distractions.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Notice the digital habit you instinctively default to when experiencing momentary cognitive fatigue.",
-        "Log out of social media and news portals at the end of each work session so each visit demands manual login.",
-        "Move distracting phone apps out of your dock into an unlabelled folder on your last screen.",
-        "Place your physical notebook and focused working materials directly in your keyboard's resting zone."
+        "1. Log out of all social media sites before starting your deep work.",
+        "2. Move time-wasting apps into an unlabeled folder on your last phone screen.",
+        "3. Put your phone inside another room while working on important tasks.",
+        "4. Keep a clean paper notebook right next to your keyboard for notes."
       ],
       "sourceChapter": "Chapter 1: Biases and Blunders"
     },
     {
       "id": "nudge-act-11",
-      "title": "Construct an As-If Commitment Device",
-      "description": "To safeguard long-term intentions against present-bias temptations, tie a binding, self-imposed penalty to non-compliance, channeling the legendary Ulysses contract.",
+      "title": "Create a Strict Penalty Bet",
+      "description": "It is easy to break promises when there is no penalty attached. Put real money on the line to force yourself to finish.",
       "category": "system",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Select a high-priority quarterly objective with clear, measurable deadlines.",
-        "Sign up for a commitment platform (or designate a trusted friend as referee) with a financial forfeiture deposit.",
-        "Designate the forfeited money to be sent to an anti-charity (an organization whose cause you actively oppose) if deadlines are missed.",
-        "Publish the contract terms to make the reputational and financial costs of reneging salient."
+        "1. Pick one major project goal with a hard deadline this month.",
+        "2. Hand fifty dollars to an honest friend to hold as your referee.",
+        "3. Tell them to donate that cash to a cause you hate if you quit.",
+        "4. Finish your project on time to win your hard-earned money back."
       ],
       "sourceChapter": "Chapter 2: Resisting Temptation"
     },
     {
       "id": "nudge-act-12",
-      "title": "Preserve Opt-Out Liberty with Forced Active Choice",
-      "description": "When designing choices for family members, teammates, or yourself, avoid coercive mandates while removing default apathy by framing periodic reviews as mandatory active choices.",
+      "title": "Make Everyone Choose an Option",
+      "description": "People stick to default boxes even when better choices exist. Force people to make an active pick instead of pre-checking boxes for them.",
       "category": "audit",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Review a process where your team or household routinely defaults into passive agreement or neglect.",
-        "Remove pre-checked checkboxes on task assignments, meeting schedules, or project tools.",
-        "Require participants to explicitly select Option A or Option B, accompanied by brief rationale fields.",
-        "Ensure the default option requires zero coerced action while compelling mindful deliberation."
+        "1. Find one signup form or team poll that uses pre-checked boxes.",
+        "2. Uncheck every default box so each option starts completely empty.",
+        "3. Ask each person to pick either Option A or Option B intentionally.",
+        "4. Have each person write one short line explaining their chosen pick."
       ],
       "sourceChapter": "Chapter 5: Choice Architecture"
     }
@@ -1045,10 +1045,10 @@ export const NUDGE_BOOK: Book = {
       "author": "Richard H. Thaler & Cass R. Sunstein",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Choice Architecture Is Inescapable",
-      "body": "There is no such thing as a neutral design.\nThe arrangement of cafeteria food, the order of choices on a ballot, or the default checkmark on a form inevitably guides human attention.\nBecause an environment must be organized somehow, its structural layout will exert a gravitational pull on decision-makers whether designed intentionally or carelessly.",
+      "headline": "No Neutral Design",
+      "body": "Every room, form, or menu guides what you pick.\nPlacing fruit at eye level makes people eat healthier food.\nHow things are arranged always shapes your choices.",
       "quote": "There is no such thing as a neutral design.",
-      "actionItem": "Audit the digital and physical layouts you oversee to ensure their default paths reflect intentional, beneficial outcomes.",
+      "actionItem": "Check your room and phone layouts today.\nPlace good habits directly in front of you.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1067,9 +1067,9 @@ export const NUDGE_BOOK: Book = {
       "category": "Psychology",
       "type": "mental-model",
       "headline": "Humans vs. Econs",
-      "body": "Traditional economic textbooks assume society is populated by 'Econs'\u2014hyper-rational beings capable of flawless computation, iron will, and infinite foresight.\nIn reality, the world is populated by 'Humans', whose working memory is limited, whose emotions sway choices, and who routinely stumble over cognitive heuristics.",
+      "body": "Economics textbooks assume people are completely logical geniuses with perfect discipline.\nReal people get tired, emotional, and easily distracted.\nWe need systems made for real life.",
       "quote": "If you look at economics textbooks, you will learn that homo economicus can think like Albert Einstein, store as much memory as IBM's Big Blue, and exercise the willpower of Mahatma Gandhi. But the folks we know are not like that.",
-      "actionItem": "Design products, policies, and workflows for distracted, imperfect humans rather than idealized, perfectly disciplined beings.",
+      "actionItem": "Design your daily plans for tired, busy people rather than an imaginary perfect robot.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1087,10 +1087,10 @@ export const NUDGE_BOOK: Book = {
       "author": "Richard H. Thaler & Cass R. Sunstein",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Libertarian Paternalism",
-      "body": "Libertarian paternalism sounds like an oxymoron, yet it forms the core philosophy of nudging: architects attempt to steer people's choices in directions that improve their lives, while zealously preserving their freedom of choice.\nNo options are banned, and opt-outs remain completely frictionless.",
+      "headline": "Freedom to Choose",
+      "body": "A good nudge guides people toward better lives without taking away freedom.\nNo options are ever banned or punished.\nAnyone can easily walk away or pick another path.",
       "quote": "A nudge is any aspect of the choice architecture that alters people's behavior in a predictable way without forbidding any options or significantly changing their economic incentives.",
-      "actionItem": "When guiding others, make the beneficial path the easiest route while leaving alternative choices completely unimpeded.",
+      "actionItem": "Make the best choice effortless for others while leaving all other options open.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1108,10 +1108,10 @@ export const NUDGE_BOOK: Book = {
       "author": "Richard H. Thaler & Cass R. Sunstein",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Dual-Process Mind: Automatic vs. Reflective",
-      "body": "The brain operates via two distinct engines: the Automatic System (fast, instinctive, unconscious, and visceral) and the Reflective System (slow, deliberate, analytical, and self-aware).\nEveryday blunders occur when our Automatic pilot misapplies coarse heuristics to complex problems requiring Reflective oversight.",
+      "headline": "Two Brain Systems",
+      "body": "Your brain has two gears: fast and slow.\nThe fast gear reacts on gut feelings without thinking.\nMistakes happen when your fast gut handles complicated, slow decisions.",
       "quote": "The Automatic System is rapid and is or feels instinctive, and it does not involve what we usually associate with the word thinking.",
-      "actionItem": "Create visual and auditory speed bumps to force your deliberate Reflective System into gear before major resource commitments.",
+      "actionItem": "Pause for ten deep breaths before making any big, costly decision.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1129,10 +1129,10 @@ export const NUDGE_BOOK: Book = {
       "author": "Richard H. Thaler & Cass R. Sunstein",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Harness the Colossal Power of Defaults",
-      "body": "When faced with choices requiring cognitive effort, humans disproportionately stick with whatever option requires zero action.\nBy shifting default retirement plans from opt-in to automatic enrollment, organizations dramatically raise savings rates without forcing anyone to participate.",
+      "headline": "Power of Defaults",
+      "body": "Most people stick with whatever option requires zero effort.\nSetting retirement savings as the standard option makes almost everyone save more money.\nDefaults silently run our lives.",
       "quote": "If for a given choice there is a default option\u2014an option that will obtain if the chooser does nothing\u2014then we can expect a large number of people to end up with that option.",
-      "actionItem": "Set default automated transfers into savings or index funds on the exact day your salary hits your account.",
+      "actionItem": "Turn on automatic money transfers to your savings on the day you get paid.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1150,10 +1150,10 @@ export const NUDGE_BOOK: Book = {
       "author": "Richard H. Thaler & Cass R. Sunstein",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Asymmetry of Loss Aversion",
-      "body": "Human psychology is wired with profound loss aversion: suffering a loss of one hundred dollars produces roughly twice the psychological agony that gaining one hundred dollars produces in joy.\nFraming options around what someone stands to forfeit motivates action far more intensely than framing them around potential gains.",
+      "headline": "Pain of Loss",
+      "body": "Losing one hundred dollars hurts twice as much as winning one hundred dollars feels good.\nPeople will fight harder to keep things than to get new things.",
       "quote": "Loss aversion helps produce inertia, meaning a strong desire to stick with your current holdings.",
-      "actionItem": "Frame behavior changes around preventing unnecessary losses rather than pursuing theoretical future gains.",
+      "actionItem": "Remind yourself what you will lose if you waste time on useless distractions.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1171,10 +1171,10 @@ export const NUDGE_BOOK: Book = {
       "author": "Richard H. Thaler & Cass R. Sunstein",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Status Quo Bias and Inertia",
-      "body": "The default human mode is cognitive energy conservation.\nWhether holding onto legacy software, obsolete subscriptions, or outdated workplace practices, people stay put unless the activation energy required to switch is lower than their perceived frustration.",
+      "headline": "Habit and Inertia",
+      "body": "People tend to keep doing whatever they are already doing.\nWe keep old software, old plans, and old bills because change takes work.\nDoing nothing is comfortable.",
       "quote": "For lots of reasons, people have a general tendency to stick with their current situation.",
-      "actionItem": "Audit recurring software, bills, and contracts annually by requiring each one to be actively re-justified rather than automatically renewed.",
+      "actionItem": "Review your monthly app subscriptions today and cancel any you do not use.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1192,10 +1192,10 @@ export const NUDGE_BOOK: Book = {
       "author": "Richard H. Thaler & Cass R. Sunstein",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Save More Tomorrow (SMarT)",
-      "body": "People resist saving money today because it registers immediately as a painful cut to current disposable income.\nThe Save More Tomorrow mechanism nudges employees to commit in advance to allocating a portion of their future pay raises toward retirement, bypassing loss aversion entirely.",
+      "headline": "Save More Tomorrow",
+      "body": "Saving money right now feels painful because your paycheck shrinks immediately.\nIf you promise to save from future pay raises, saving feels completely painless.",
       "quote": "If people commit to saving more in the future, they will not see their take-home pay go down.",
-      "actionItem": "Pre-commit your future salary increments or annual bonuses toward long-term investments before the extra cash ever touches your checking account.",
+      "actionItem": "Commit to putting half of your next pay raise straight into long-term savings.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1213,10 +1213,10 @@ export const NUDGE_BOOK: Book = {
       "author": "Richard H. Thaler & Cass R. Sunstein",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Social Proof and Descriptive Norms",
-      "body": "When uncertain, individuals mirror the actions of the majority.\nInforming utility customers that nine out of ten neighbors actively conserve electricity reduces energy consumption far more effectively than lecturing them on environmental morality.",
+      "headline": "Following the Crowd",
+      "body": "When people feel unsure, they copy what everyone else is doing.\nTelling neighbors that most families save power cuts energy use faster than moral speeches.",
       "quote": "If choice architects want to shift behavior and to do so by a nudge, they might simply inform people about what other people are doing.",
-      "actionItem": "When persuading a team to adopt a new protocol, highlight the majority percentage who have already made the switch.",
+      "actionItem": "Tell your team how many people have already adopted the new company tool.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1235,9 +1235,9 @@ export const NUDGE_BOOK: Book = {
       "category": "Psychology",
       "type": "mental-model",
       "headline": "The Spotlight Effect",
-      "body": "People operate under the egocentric illusion that others are scrutinizing their appearance, mistakes, and quirks with intense precision.\nIn reality, everyone else is equally self-absorbed, meaning your social missteps rarely register on anyone else's radar.",
+      "body": "We believe other people notice our every move and every mistake.\nIn truth, other people are busy worrying about themselves.\nAlmost nobody noticed your little slip.",
       "quote": "People are paying much less attention to you than you believe you are receiving.",
-      "actionItem": "Take calculated creative and social risks by reminding yourself that your perceived audience is largely consumed by their own anxieties.",
+      "actionItem": "Speak up in meetings without fear because people rarely notice small mistakes.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1255,10 +1255,10 @@ export const NUDGE_BOOK: Book = {
       "author": "Richard H. Thaler & Cass R. Sunstein",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Availability Heuristic and Salience",
-      "body": "Risks that are easily summoned into memory\u2014like airplane crashes, shark attacks, or recent viral news events\u2014are judged as far more probable than mundane, statistical hazards like strokes or car accidents.\nVivid imagery hijacks probability estimates.",
+      "headline": "Scary Examples Trick Us",
+      "body": "Dramatic events like plane crashes and shark attacks feel very common.\nThat happens because dramatic stories stick in our memories.\nReal daily risks are usually much quieter.",
       "quote": "If people can easily think of relevant examples, they are more likely to be frightened and concerned than if they cannot.",
-      "actionItem": "Base strategic risk assessments on baseline statistical frequencies rather than recent, emotionally charged headlines.",
+      "actionItem": "Look up actual numbers and facts before worrying about sensational news headlines.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1276,10 +1276,10 @@ export const NUDGE_BOOK: Book = {
       "author": "Richard H. Thaler & Cass R. Sunstein",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Shrink Friction via Channel Factors",
-      "body": "Seemingly trivial physical barriers\u2014like requiring an employee to print, sign, and mail a physical form\u2014can cause massive failure rates in high-value programs.\nRemoving tiny friction points clears the channel for desired behaviors to flow freely.",
+      "headline": "Remove Tiny Roadblocks",
+      "body": "Tiny speed bumps stop people from taking action.\nRequiring paper signatures makes people quit useful programs.\nRemoving small hassles helps good actions happen naturally.",
       "quote": "Never underestimate the power of inertia. Second, that power can be harnessed.",
-      "actionItem": "Strip out every non-essential input field and confirmation step from your user onboarding flows to slash abandonment.",
+      "actionItem": "Delete extra form fields so new customers can sign up with two clicks.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1297,10 +1297,10 @@ export const NUDGE_BOOK: Book = {
       "author": "Richard H. Thaler & Cass R. Sunstein",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Hot-Cold Empathy Gap",
-      "body": "When calm and well-rested (a cold state), we dramatically underestimate how intensely primal appetites, stress, and fatigue (hot states) will warp our decision-making.\nWe plan a strict diet while full, only to collapse in front of the pantry when depleted.",
+      "headline": "Hot and Cold States",
+      "body": "When you are calm and full, eating healthy seems easy.\nOnce you feel tired or hungry, self-control disappears fast.\nWe always underestimate how strong urges will be.",
       "quote": "When we are in a cold state, we do not appreciate how much our desires and our behavior will be altered when we are under the influence of arousal.",
-      "actionItem": "Never make major purchase decisions, dietary commitments, or draft sensitive responses when hungry, angry, or exhausted.",
+      "actionItem": "Never go grocery shopping on an empty stomach or angry.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1318,10 +1318,10 @@ export const NUDGE_BOOK: Book = {
       "author": "Richard H. Thaler & Cass R. Sunstein",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Golden Rule of Choice Architecture",
-      "body": "Effective and ethical design boils down to making the best possible choice the simplest possible action.\nWhen positive choices require heroic effort, systems fail; when positive choices are frictionless, systems succeed effortlessly.",
+      "headline": "Make It Easy",
+      "body": "The single best rule for good design is simplicity.\nIf doing the right thing feels hard, people quit.\nWhen the right thing feels effortless, everyone wins.",
       "quote": "Make it easy.",
-      "actionItem": "Locate the single most critical habit for your team and eliminate every barrier until doing it becomes the path of least resistance.",
+      "actionItem": "Find your top team priority and remove every confusing step from it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1339,10 +1339,10 @@ export const NUDGE_BOOK: Book = {
       "author": "Richard H. Thaler & Cass R. Sunstein",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Mapping: Translating Choice into Welfare",
-      "body": "Good choice architecture helps individuals understand the direct relationship between technical product specs and real-world outcomes.\nA camera buyer needs to know how large they can print a photo, not just a raw megapixel count; a phone buyer cares about hours of video playback, not battery milliamp-hours.",
+      "headline": "Translate Into Real Life",
+      "body": "People do not understand raw technical numbers.\nA buyer cares about hours of phone battery life, not technical numbers.\nGood systems explain what choices actually mean.",
       "quote": "A good system of choice architecture helps people improve their ability to map and hence to select options that will make them better off.",
-      "actionItem": "Translate technical specifications and abstract metrics into tangible, lived experiences when communicating value to clients.",
+      "actionItem": "Explain your product using everyday benefits instead of complex technical specifications.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1360,10 +1360,10 @@ export const NUDGE_BOOK: Book = {
       "author": "Richard H. Thaler & Cass R. Sunstein",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Anchoring and Insufficient Adjustment",
-      "body": "When guessing an unknown quantity, our minds latch onto whatever arbitrary numeric cue is presented first, adjusting our final estimate only slightly away from that point.\nFundraisers leverage this by suggesting starting donation tiers of $100, $250, and $500 rather than $10, $25, and $50.",
+      "headline": "First Numbers Stick",
+      "body": "The first number you see sticks in your head.\nWhen charity forms suggest hundred-dollar gifts, people donate much more money.\nYour brain adjusts only slightly from that start.",
       "quote": "You start with some anchor, the number you know, and adjust in the direction you think is appropriate.",
-      "actionItem": "Establish an ambitious, justifiable opening figure in negotiations before the other party anchors the discussion at a lower tier.",
+      "actionItem": "State your price first during negotiations to set a strong baseline.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1381,10 +1381,10 @@ export const NUDGE_BOOK: Book = {
       "author": "Richard H. Thaler & Cass R. Sunstein",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Build Error-Tolerant Systems",
-      "body": "Human error is inevitable.\nResilient architectures anticipate slip-ups and design safety mechanisms: modern ATMs chime and force users to retrieve their debit cards before spitting out cash, eliminating the routine mistake of walking away with the card left in the machine.",
+      "headline": "Expect Human Mistakes",
+      "body": "People will always make simple mistakes.\nSmart systems plan for slips and protect the user.\nModern cash machines beep until you grab your card before giving cash.",
       "quote": "A well-designed system expects its users to err and is as forgiving as possible.",
-      "actionItem": "Introduce undo windows, auto-save states, and confirmation dialogs into your workflows to make human mistakes harmless.",
+      "actionItem": "Add simple undo buttons and auto-save options to your company tools.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1402,10 +1402,10 @@ export const NUDGE_BOOK: Book = {
       "author": "Richard H. Thaler & Cass R. Sunstein",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Real-Time Sensory Feedback",
-      "body": "Learning accelerates when cause and effect are linked by tight, unmistakable sensory signals.\nPlacing an ambient orb in a living room that glows red during peak electricity pricing nudges households to slash energy draw far more effectively than sending an itemized bill thirty days later.",
+      "headline": "Instant Feedback",
+      "body": "We learn fastest when we see immediate results.\nA light that turns red during expensive power hours helps families save energy quickly.\nInstant signals guide better habits.",
       "quote": "The best way to help Humans improve their performance is to provide feedback.",
-      "actionItem": "Shorten the feedback loop between an unproductive habit and its real-world consequence using immediate visual cues.",
+      "actionItem": "Give immediate clear signals when someone makes an error or finishes a task.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1423,10 +1423,10 @@ export const NUDGE_BOOK: Book = {
       "author": "Richard H. Thaler & Cass R. Sunstein",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Reality of Everyday Sludge",
-      "body": "The dark inverse of a nudge is 'sludge'\u2014deliberate friction, administrative burdens, and deceptive designs created to confuse, fatigue, and manipulate people into choices that enrich the architect at the user's expense.",
+      "headline": "Stop Harmful Sludge",
+      "body": "Sludge is bad friction that slows people down on purpose.\nSome companies make cancelling memberships painfully hard to trap your money.\nGood design respects people's time.",
       "quote": "Sludge consists of friction that makes it harder for people to get what they want, or to do what they want to do.",
-      "actionItem": "Conduct a sludge audit on your customer journeys to ruthlessly eliminate deceptive dark patterns and bureaucratic runarounds.",
+      "actionItem": "Make it as easy for customers to cancel as it was to join.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1444,10 +1444,10 @@ export const NUDGE_BOOK: Book = {
       "author": "Richard H. Thaler & Cass R. Sunstein",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Structure Complex Choices",
-      "body": "When faced with a handful of choices, humans examine every detail; when faced with hundreds of choices, cognitive overload triggers panic, leading to poor decisions or paralysis.\nChoice architects must provide intuitive filtering mechanisms and smart defaults to simplify complex landscapes.",
+      "headline": "Simplify Big Menus",
+      "body": "Too many choices overwhelm the brain and cause panic.\nPeople freeze up when looking at hundreds of complicated plans.\nSorting options into clear groups helps people choose calmly.",
       "quote": "As choices become more numerous and more complex, people need better tools to help them decide.",
-      "actionItem": "When presenting expansive menus or product catalogues, group options into intuitive archetypes to avoid overwhelming your audience.",
+      "actionItem": "Group your product options into three simple categories for customers to pick easily.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1461,62 +1461,68 @@ export const NUDGE_BOOK: Book = {
   ],
   "mindMap": {
     "id": "root",
-    "label": "Nudge: Improving Decisions About Health, Wealth, and Happiness",
-    "description": "Explores how human choices are profoundly shaped by subtle environmental cues and default settings.\nBy decoding the hidden mechanics of decision architecture, choice designers can steer people toward flourishing without stripping away personal liberty.",
+    "label": "Nudge",
+    "description": "Small changes in our surroundings steer daily choices.\nGentle tweaks help people live better without taking away freedom.",
     "children": [
       {
         "id": "theme-1-duality",
-        "label": "Cognitive Engines: Humans vs. Econs",
-        "description": "Contrasts theoretical economic actors with flesh-and-blood biological organisms navigating a noisy world.\nRecognizing the wiring differences between cold calculation and instinctive reaction explains why human decisions systematically diverge from textbook rational models.",
+        "label": "Humans vs. Econs",
+        "description": "Real people act on feelings and habits, not textbook logic.\nWe make mistakes because our brains take quick shortcuts.",
         "children": [
           {
             "id": "node-1-automatic-system",
-            "label": "The Automatic System (System 1)",
-            "description": "Fast, uncontrolled, effortless, and deeply instinctual neural pathways honed by millions of years of evolution.\nIt handles smiling at a puppy, ducking flying objects, and driving on an empty highway, operating largely below conscious awareness.",
+            "label": "Automatic Brain",
+            "description": "This fast mental system runs on instinct.\nIt ducks flying objects and reads emotions without conscious effort.",
             "children": [
               {
                 "id": "node-1-gut-reactions",
-                "label": "Gut Instincts & Heuristic Shortcuts",
-                "description": "Rapid rule-of-thumb computations that save precious mental energy when speed matters more than mathematical perfection.\nWhile wonderfully efficient in wild survival scenarios, these snap judgments often backfire inside modern complex institutions."
+                "label": "Gut Instincts",
+                "description": "Fast mental rules help us make rapid decisions.\nThese snap judgments save time but can lead to mistakes.",
+                "children": []
               },
               {
                 "id": "node-1-affective-priming",
-                "label": "Emotional Priming & Visceral Drives",
-                "description": "Subconscious emotional states triggered by atmospheric scents, ambient music, or visual cues that immediately bend our preferences.\nWhen primal drives surge, the rational pilot is easily hijacked by raw appetite and momentary cravings."
+                "label": "Sudden Cravings",
+                "description": "Sounds and smells can trigger strong urges.\nWhen cravings hit, raw feelings easily override clear thinking.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-2-reflective-system",
-            "label": "The Reflective System (System 2)",
-            "description": "Slow, deliberative, deductive, and consciously managed cognitive processing that executes complex mental calculations.\nIt activates when calculating tax deductions or learning foreign syntax, but drains glucose quickly and tires easily.",
+            "label": "Reflective Brain",
+            "description": "This slow mental system thinks through tough problems.\nIt plans budgets and solves puzzles, but tires quickly.",
             "children": [
               {
                 "id": "node-2-mental-fatigue",
-                "label": "Cognitive Depletion & Sluggishness",
-                "description": "Because deep reflection requires substantial effort, the brain routinely conserves metabolic fuel by outsourcing decisions to habit loops.\nWhen stressed, tired, or rushed, individuals default to familiar paths rather than conducting rigorous evaluations."
+                "label": "Brain Tiredness",
+                "description": "Deep thinking burns lots of energy.\nWhen tired, people fall back on easy habits.",
+                "children": []
               },
               {
                 "id": "node-2-formal-deliberation",
-                "label": "Systematic Trade-Off Analysis",
-                "description": "The analytical engine capable of comparing compound interest rates, probability distributions, and long-range medical prognoses.\nIt represents the idealized thinker that classical economics wrongly assumed operates at full capacity twenty-four hours a day."
+                "label": "Deep Thinking",
+                "description": "This mode weighs big trade-offs carefully.\nPeople cannot keep up this level of effort all day.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-3-econs-myth",
-            "label": "The Fallacy of 'Homo Economicus'",
-            "description": "Standard economic textbooks populate the universe with perfectly calculating, omniscient beings possessing superhuman willpower.\nIn contrast, actual humans forget passwords, binge on popcorn, fail to save for pensions, and procrastinate endlessly.",
+            "label": "The Perfect Robot Myth",
+            "description": "Old theories assume people make perfect financial plans.\nIn reality, real people get distracted, snack, and procrastinate.",
             "children": [
               {
                 "id": "node-3-infinite-foresight",
-                "label": "Flawed Assumptions of Perfect Foresight",
-                "description": "Classical models assume every shopper smoothly forecasts future inflation, career trajectories, and lifetime medical bills.\nReal-world decision makers routinely make choices based on incomplete facts, emotional weather, and local convenience."
+                "label": "Blind Future Planning",
+                "description": "We cannot easily predict our future needs.\nMost daily choices are based on convenience, not lifelong forecasts.",
+                "children": []
               },
               {
                 "id": "node-3-willpower-scarcity",
-                "label": "Bounded Self-Control",
-                "description": "Human resolution fluctuates wildly between current cravings and distant long-term goals.\nEven when people know the mathematically optimal path, acute temptation easily overpowers abstract resolutions."
+                "label": "Limited Willpower",
+                "description": "Self-control is easy to lose in the moment.\nNear temptations often crush distant good intentions.",
+                "children": []
               }
             ]
           }
@@ -1524,66 +1530,71 @@ export const NUDGE_BOOK: Book = {
       },
       {
         "id": "theme-2-biases",
-        "label": "Cognitive Quirks & Systematic Blunders",
-        "description": "Examines the repeatable mental illusions and blind spots that mislead everyday human thinking.\nBecause these distortions are predictable rather than random, we can map out the cognitive terrain and anticipate exactly where people stumble.",
+        "label": "Common Mental Traps",
+        "description": "Human brains make the same predictable errors over and over.\nKnowing these patterns helps us fix everyday blunders.",
         "children": [
           {
             "id": "node-4-anchoring",
-            "label": "Anchoring & Insufficient Adjustment",
-            "description": "The psychological habit of latching onto an initial arbitrary reference number and dragging subsequent estimates toward it.\nReal estate valuations, salary negotiations, and charity donation tiers are routinely warped by whichever numeric figure enters the room first.",
+            "label": "First Number Trap",
+            "description": "The first number you hear pulls your final guess toward it.\nStarting prices warp how much money people offer.",
             "children": [
               {
                 "id": "node-4-arbitrary-benchmarks",
-                "label": "First Impressions as Gravity Wells",
-                "description": "Initial figures plant deep mental hooks that pull subsequent guesses toward their orbit regardless of relevance.\nEven completely random numbers spun on a wheel will skew an observer's estimates of historical events or price tags."
+                "label": "Number Anchors",
+                "description": "Even random numbers stick in our heads.\nThey bias our price estimates before we even realize it.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-5-availability",
-            "label": "The Availability Bias",
-            "description": "Gauging the likelihood of an outcome based on how vividly or recently vivid examples flash into memory.\nPlane crashes and shark attacks trigger intense dread because of sensational media coverage, while far deadlier, mundane hazards go ignored.",
+            "label": "Vivid Memory Trap",
+            "description": "We fear things that are easy to picture, like plane crashes.\nQuiet everyday dangers often get ignored instead.",
             "children": [
               {
                 "id": "node-5-salience-distortion",
-                "label": "Vividness Over Probability",
-                "description": "Memories soaked in sensory intensity or trauma crowd out calm statistical realities.\nWhen a neighbor's house floods, entire neighborhoods suddenly buy flood insurance, only to cancel policies years later as the memory fades."
+                "label": "Scary News Effect",
+                "description": "Dramatic news stories make rare events feel very likely.\nPeople buy flood insurance right after watching local storms.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-6-representativeness",
-            "label": "Representativeness & Pattern Matching",
-            "description": "Judging the category or cause of an event by how closely it resembles our internal mental prototypes.\nThis reflex creates illusions of meaning, leading fans to believe in basketball 'hot hands' and investors to see deliberate streaks in pure coin flips.",
+            "label": "False Patterns",
+            "description": "We mistake coincidences for meaningful trends.\nPeople think lucky streaks prove a hidden pattern exists.",
             "children": [
               {
                 "id": "node-6-clustering-illusion",
-                "label": "Inventing Order in Random Noise",
-                "description": "The human brain is an over-eager pattern detector that recoils from true randomness and manufactures ghost patterns in chaos.\nWe weave elaborate deterministic narratives around random sequences of investment wins or sports streaks."
+                "label": "Seeing Ghost Trends",
+                "description": "Our minds hate total randomness.\nWe invent fake stories to explain simple luck.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-7-loss-aversion",
-            "label": "Loss Aversion & Endowment Effect",
-            "description": "The emotional sting of losing something feels approximately twice as intense as the joy of gaining the exact same thing.\nThis asymmetrical pain makes people clutch tightly to existing possessions, job routines, and losing investment portfolios.",
+            "label": "Pain of Losing",
+            "description": "Losing ten dollars hurts twice as much as finding ten dollars feels good.\nThis fear makes us cling tightly to what we already own.",
             "children": [
               {
                 "id": "node-7-status-quo-bias",
-                "label": "Status Quo Inertia & Default Gravitation",
-                "description": "Because changing positions entails an active choice and possible regret, people disproportionately cling to the pre-set arrangement.\nDefault options command overwhelming power simply because inaction requires zero psychic friction."
+                "label": "Default Laziness",
+                "description": "Making a change takes effort and brings worry.\nMost people simply stick with whatever choice comes pre-selected.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-8-optimism-bias",
-            "label": "Unrealistic Optimism & Overconfidence",
-            "description": "A pervasive tendency for people to believe they are immune to common pitfalls and endowed with above-average talent.\nNearly all drivers rate themselves above average, and couples getting married cheerfully ignore pervasive fifty-percent divorce statistics.",
+            "label": "Blind Overconfidence",
+            "description": "Most people assume bad things only happen to other people.\nWe expect great outcomes while ignoring risks.",
             "children": [
               {
                 "id": "node-8-planning-fallacy",
-                "label": "The Planning Fallacy",
-                "description": "The recurrent habit of underestimating the budget, timeline, and complications required to finish complex endeavors.\nBuilders, writers, and software engineers persistently imagine flawless execution while blind to inevitable friction."
+                "label": "Bad Time Estimates",
+                "description": "People constantly underestimate how long tasks will take.\nProjects end up late and over budget.",
+                "children": []
               }
             ]
           }
@@ -1591,42 +1602,45 @@ export const NUDGE_BOOK: Book = {
       },
       {
         "id": "theme-3-social-herding",
-        "label": "Social Contagion & Collective Dynamics",
-        "description": "Reveals how human choices ripple across social networks like flocks of birds wheeling in flight.\nWe look to the actions, whispers, and approvals of our peers to determine what is sensible, safe, and desirable.",
+        "label": "Following the Crowd",
+        "description": "We constantly copy the people around us.\nGroup pressure shapes what we buy, eat, and believe.",
         "children": [
           {
             "id": "node-9-conformity-experiments",
-            "label": "Conformity Pressure & Asch Effects",
-            "description": "Individuals will frequently deny the plain evidence of their own senses just to align with unanimous group pronouncements.\nThe psychological discomfort of standing alone often feels more threatening than adopting an obvious falsehood.",
+            "label": "Fitting In",
+            "description": "People agree with the crowd even when the crowd is clearly wrong.\nStanding alone feels too uncomfortable.",
             "children": [
               {
                 "id": "node-9-pluralistic-ignorance",
-                "label": "Pluralistic Ignorance",
-                "description": "A bizarre dynamic where most members of a group privately reject a norm yet publicly endorse it because they assume everyone else believes it.\nThis collective silence keeps outdated traditions and harmful rituals alive for generations."
+                "label": "Silent Agreement",
+                "description": "Everyone hates a rule, but nobody speaks up.\nPeople falsely assume everyone else actually agrees.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-10-social-proof",
-            "label": "Social Norm Signaling & Descriptive Feedback",
-            "description": "Displaying what the surrounding herd is doing acts as a compass that pulls outlying behavior toward the median.\nTelling residents that nine out of ten neighbors recycle their paper cuts waste far more efficiently than sending stern legal threats.",
+            "label": "Neighbor Signs",
+            "description": "Telling people what their peers do changes their behavior quickly.\nKnowing neighbors recycle makes others recycle too.",
             "children": [
               {
                 "id": "node-10-boomerang-effect",
-                "label": "The Boomerang Effect & Injunctive Symbols",
-                "description": "When people discover they consume less energy than the neighborhood average, they tend to slack off and consume more.\nPairing consumption data with an explicit happy or sad emoticon prevents this regression by supplying moral feedback."
+                "label": "Backfire Risk",
+                "description": "Thrifty users may waste more if they learn they beat the average.\nAdding a smiley face keeps them on track.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-11-spotlight-effect",
-            "label": "The Spotlight Effect",
-            "description": "The self-centered illusion that everyone around us is hyper-focused on our clothes, mistakes, and awkward pauses.\nIn reality, most observers are far too preoccupied with their own internal monologues to notice minor social missteps.",
+            "label": "Spotlight Fear",
+            "description": "We assume everyone is watching our small mistakes.\nIn truth, most people only think about themselves.",
             "children": [
               {
                 "id": "node-11-social-anxiety",
-                "label": "Inhibition & Public Self-Consciousness",
-                "description": "Overestimating public surveillance paralyses people, making them cautious, risk-averse, and defensive.\nRecognizing that the audience is mostly inattentive frees decision makers from conforming purely out of perceived embarrassment."
+                "label": "Worrying About Eyes",
+                "description": "Fearing judgment makes people shy and nervous.\nKnowing others barely notice you brings relief.",
+                "children": []
               }
             ]
           }
@@ -1634,30 +1648,32 @@ export const NUDGE_BOOK: Book = {
       },
       {
         "id": "theme-4-philosophy",
-        "label": "Libertarian Paternalism",
-        "description": "The philosophical foundation of the nudge movement, blending two concepts that appear contradictory at first glance.\nIt insists on preserving unconditional freedom of choice while deliberately structuring choices to make life healthier and longer.",
+        "label": "Help With Freedom",
+        "description": "Design choices to guide people toward better health and savings.\nNever force anyone or ban alternatives.",
         "children": [
           {
             "id": "node-12-libertarian-component",
-            "label": "The Libertarian Core: Preserving Opt-Outs",
-            "description": "Ensures that no options are banned, no mandates are passed, and exit costs remain virtually nonexistent.\nA person remains entirely free to smoke cigarettes, consume jumbo sodas, or neglect their savings if they adamantly insist on doing so.",
+            "label": "Freedom to Say No",
+            "description": "Opting out must always be fast and easy.\nPeople remain totally free to make poor choices.",
             "children": [
               {
                 "id": "node-12-cheap-reversibility",
-                "label": "Frictionless Opt-Out Safeguards",
-                "description": "A legitimate nudge must make changing the default setting as simple as checking a box or clicking a link.\nIf leaving the path requires bureaucratic labyrinths or financial penalties, it ceases to be a nudge and becomes coercion."
+                "label": "One-Click Opt-Out",
+                "description": "Leaving an option should take just one click.\nHard cancellation rules turn helpful nudges into traps.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-13-paternalist-aspect",
-            "label": "The Paternalist Core: Guiding Welfare",
-            "description": "Accepts the duty of architects to shape the choice environment in ways that enhance the well-being of the choosers themselves.\nIt measures success not by bureaucratic whims, but by choices people would make if they had complete information and boundless stamina.",
+            "label": "Helpful Guidance",
+            "description": "Environments must be set up somehow, so make them helpful.\nPut the best choices where people see them first.",
             "children": [
               {
                 "id": "node-13-inevitable-design",
-                "label": "The Inevitability of Choice Architecture",
-                "description": "There is no such thing as a neutral choice environment; something must occupy the first shelf or the default checkbox.\nSince design decisions must be made anyway, constructing them randomly or maliciously is far worse than constructing them to help."
+                "label": "No Neutral Layout",
+                "description": "Something always has to sit on the top shelf.\nIt is better to design on purpose than by accident.",
+                "children": []
               }
             ]
           }
@@ -1665,83 +1681,90 @@ export const NUDGE_BOOK: Book = {
       },
       {
         "id": "theme-5-nudge-toolkit",
-        "label": "The Choice Architect's Toolkit (NUDGES)",
-        "description": "A mnemonic framework outlining the primary levers available to design elegant decision environments.\nThese six principles translate abstract behavioral theories into practical, real-world structural interventions.",
+        "label": "The Nudge Toolbox",
+        "description": "Six simple rules for building better choices.\nThese tools make good actions easy and bad actions obvious.",
         "children": [
           {
             "id": "node-14-incentives",
-            "label": "iNcentives: Aligning True Payoffs",
-            "description": "Making hidden costs, deferred consequences, and pricing trade-offs transparent right at the moment a decision is made.\nWhen true costs are concealed across monthly subscriptions or invisible tax structures, people make disjointed choices.",
+            "label": "Clear Rewards",
+            "description": "Show the true cost right when someone buys.\nHidden fees trick shoppers into bad decisions.",
             "children": [
               {
                 "id": "node-14-salient-pricing",
-                "label": "Cost Visibility & Mental Accounting",
-                "description": "Transforming intangible long-term expenses into immediate, visible feedback.\nInstalling energy meters in living rooms rather than dark basements visibly displays electricity consumption, immediately curbing unnecessary usage."
+                "label": "Visible Costs",
+                "description": "Put energy dials right on the living room wall.\nSeeing costs rise helps people turn off lights.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-15-understand-mappings",
-            "label": "Understand Mappings: Translating Choices to Outcomes",
-            "description": "Bridging the confusing gap between complex technical specifications and actual lived human experiences.\nConsumers struggle to convert camera megapixels or car fuel economies into tangible photos and annual gasoline expenses without clear translation.",
+            "label": "Clear Comparisons",
+            "description": "Turn tech jargon into plain terms.\nTell shoppers how many photos a camera holds, not just megapixels.",
             "children": [
               {
                 "id": "node-15-recap-framework",
-                "label": "RECAP: Record, Evaluate, Compare Alternative Prices",
-                "description": "A regulatory policy requiring companies to supply customers with standardized digital files itemizing all historical fees and usage.\nThis transparent data enables instant comparison apps to calculate the exact cheapest plan for each individual."
+                "label": "Plain Fee Reports",
+                "description": "Require companies to send clear reports of all charges.\nThis helps customers pick the cheapest plan easily.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-16-defaults",
-            "label": "Defaults: The Golden Path of Least Resistance",
-            "description": "The option a person receives automatically if they make no active selection whatsoever.\nBecause people follow the path of minimum effort, default settings represent the single most potent lever in all choice architecture.",
+            "label": "Automatic Defaults",
+            "description": "The pre-picked choice is the most powerful tool of all.\nMost people keep whatever option is selected for them.",
             "children": [
               {
                 "id": "node-16-opt-in-vs-opt-out",
-                "label": "Opt-In vs. Opt-Out Transitions",
-                "description": "Switching organ donation registration from an explicit opt-in checkbox to a presumed-consent opt-out default skyrockets donor pools from fifteen to ninety-nine percent.\nLives are saved purely by shifting who bears the burden of paperwork."
+                "label": "Automatic Sign-Up",
+                "description": "Signing people up automatically saves lives.\nOrgan donation rates jump when staying on the list is the default.",
+                "children": []
               },
               {
                 "id": "node-16-mandated-choice",
-                "label": "Required Active Choice",
-                "description": "Compelling users to make a deliberate decision before proceeding, eliminating default inertia altogether.\nThis strategy works well when preferences vary widely across users and no single default fits every profile safely."
+                "label": "Forced Active Choice",
+                "description": "Sometimes you must ask people to pick for themselves.\nThis works best when one size does not fit all.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-17-give-feedback",
-            "label": "Give Feedback: Immediate Diagnostic Signals",
-            "description": "Providing real-time indicators when human actions succeed, veer off course, or approach danger zones.\nWithout crisp, immediate sensory feedback, users cannot recalibrate their behavior or learn from emerging errors.",
+            "label": "Instant Feedback",
+            "description": "Tell people right away when they make a mistake.\nQuick warnings help drivers steer back safely.",
             "children": [
               {
                 "id": "node-17-warning-signals",
-                "label": "Error-Preventing Auditory & Visual Warnings",
-                "description": "Subtle chimes when car keys remain inside an ignition or digital red lines warning of low camera batteries prevent common blunders.\nGood systems speak to our senses before catastrophic mistakes lock in."
+                "label": "Sound and Light Alerts",
+                "description": "Car chimes warn you before keys get locked inside.\nFriendly alerts stop simple mistakes before they hurt.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-18-expect-error",
-            "label": "Expect Error: Forgiving Human Fallibility",
-            "description": "Designing physical and digital systems under the humble assumption that humans will inevitably get distracted, tired, and confused.\nA robust system accommodates human slips gracefully rather than punishing them with catastrophic failure.",
+            "label": "Forgiving Mistakes",
+            "description": "Assume users will get tired, messy, and distracted.\nGood tools handle human slips safely.",
             "children": [
               {
                 "id": "node-18-forcing-functions",
-                "label": "Forcing Functions & Post-Completion Error Traps",
-                "description": "Mechanisms that block a user from finishing a task until a critical safety step is completed, such as an ATM returning your debit card before spitting out cash.\nThis prevents people from walking away with money while abandoning cards in the machine."
+                "label": "Safety Locks",
+                "description": "Cash machines return your card before giving you cash.\nThis stops customers from leaving cards behind.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-19-structure-complex",
-            "label": "Structure Complex Choices: Organizing Information Spaces",
-            "description": "Simplifying vast search spaces containing hundreds of competing options using smart filtering, categorization, and sorting algorithms.\nWhen overwhelmed by choice, humans freeze up and pick options that happen to be displayed first.",
+            "label": "Simplifying Crowded Choices",
+            "description": "Too many choices overwhelm the human brain.\nSimple filters help people find what they actually need.",
             "children": [
               {
                 "id": "node-19-elimination-aspects",
-                "label": "Elimination by Aspects & Progressive Filtering",
-                "description": "Allowing shoppers to winnow down sprawling catalogs by sequentially ruling out attributes, such as price bands or screen dimensions.\nThis mirrors how the human mind tackles large decision spaces without suffering analysis paralysis."
+                "label": "Step-by-Step Filters",
+                "description": "Filter large stores by price and size one step at a time.\nRuling out bad fits prevents choice freeze.",
+                "children": []
               }
             ]
           }
@@ -1749,64 +1772,70 @@ export const NUDGE_BOOK: Book = {
       },
       {
         "id": "theme-6-real-world-arenas",
-        "label": "Real-World Arenas & Policy Laboratories",
-        "description": "Examines how behavioral nudges transform key public spheres, ranging from retirement security to public health and green stewardship.\nConcrete institutional pilots demonstrate how subtle layout adjustments save millions of dollars and thousands of lives.",
+        "label": "Real-World Uses",
+        "description": "How simple layout changes improve real life.\nNudges help people save cash, eat better, and protect the planet.",
         "children": [
           {
             "id": "node-20-save-more-tomorrow",
-            "label": "Save More Tomorrow (SMarT)",
-            "description": "A retirement savings program that invites workers to commit now to allocating a portion of their future salary raises toward savings.\nThis approach sidesteps current loss aversion because paychecks never drop in absolute terms, multiplying savings rates exponentially.",
+            "label": "Saving Future Raises",
+            "description": "Ask workers to save a slice of their next raise now.\nSavings grow without cutting into current take-home pay.",
             "children": [
               {
                 "id": "node-20-automatic-enrollment",
-                "label": "Automatic 401(k) Enrollment",
-                "description": "Enrolling new hires into corporate retirement plans on their first day while preserving their option to stop at any time.\nThis single administrative flip catapults pension participation rates from thirty percent to well over eighty percent."
+                "label": "Automatic 401(k)",
+                "description": "Enroll workers on day one, letting them opt out anytime.\nPension participation skyrockets almost overnight.",
+                "children": []
               },
               {
                 "id": "node-20-automatic-escalation",
-                "label": "Auto-Escalation Timing",
-                "description": "Coupling future contribution increases directly with regular pay raises to bypass psychological pain points.\nSavers effortlessly climb the savings ladder without ever experiencing an actual drop in their monthly take-home spending cash."
+                "label": "Raise-Linked Savings",
+                "description": "Savings rates rise only when pay raises arrive.\nWorkers build wealth painlessly.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-21-health-cafeteria",
-            "label": "The School Cafeteria & Nutritional Architecture",
-            "description": "Reorganizing lunchroom serving stations to place fresh apples, salads, and water at eye level while shifting sugary desserts to hard-to-reach corners.\nModifying line geometry increases healthy choices by double-digit margins without removing junk food from the building.",
+            "label": "Healthier Lunchrooms",
+            "description": "Put fruits and salads at eye level.\nStudents grab fresh food first, leaving sweets behind.",
             "children": [
               {
                 "id": "node-21-plate-geometry",
-                "label": "Portion Sizes & Plate Dimensions",
-                "description": "People instinctively finish whatever portion sits directly before them, treating dishes as implicit social benchmarks for a normal meal.\nSimply reducing plate diameters and bowl sizes curbs overeating without leaving diners feeling deprived."
+                "label": "Smaller Plates",
+                "description": "People eat whatever portion sits on their plate.\nSmaller plates cut calories without leaving anyone hungry.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-22-prescription-medicare",
-            "label": "Medicare Part D & The Paradox of Choice",
-            "description": "The complex launch of Medicare prescription drug coverage, where elderly citizens were confronted with dozens of confusing plans with minimal guidance.\nDue to cognitive overload, most patients picked suboptimal plans that cost hundreds of dollars more in out-of-pocket fees.",
+            "label": "Drug Plan Help",
+            "description": "Seniors got lost in dozens of complex medicine plans.\nToo many choices led people to overpay.",
             "children": [
               {
                 "id": "node-22-intelligent-assignment",
-                "label": "Intelligent Default Assignment",
-                "description": "Designing digital algorithms that match patients to the cheapest drug plan based on their past prescription claims.\nProviding personalized defaults protects vulnerable seniors from navigating confusing corporate formularies on their own."
+                "label": "Smart Plan Matching",
+                "description": "Use past claims to recommend the cheapest drug plan.\nSmart defaults save vulnerable seniors money.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-23-environmental-nudges",
-            "label": "Environmental Stewardship & Green Architecture",
-            "description": "Employing social comparison feedback and automated green defaults to reduce industrial emissions and household waste.\nMaking pollution visible and green options frictionless achieves environmental conservation without heavy-handed taxes.",
+            "label": "Going Green Gently",
+            "description": "Clean habits work best when they require zero extra effort.\nSmart defaults help clean up the environment.",
             "children": [
               {
                 "id": "node-23-ambient-orb",
-                "label": "The Ambient Orb & Real-Time Feedback",
-                "description": "A small glowing orb that turns deep red when household energy consumption peaks and soft green during off-peak hours.\nThe constant glowing signal prompts families to turn off unnecessary lights, slashing energy use during peak load periods."
+                "label": "Glowing Power Lights",
+                "description": "A small light glows red when power costs peak.\nFamilies quickly turn off extra lights.",
+                "children": []
               },
               {
                 "id": "node-23-green-defaults",
-                "label": "Default Green Energy Tariffs",
-                "description": "Supplying households with renewable wind or hydro energy by default while letting them switch to coal tariffs with a click.\nMost consumers happily remain on green energy, shifting entire utility grids toward decarbonization."
+                "label": "Green Energy Defaults",
+                "description": "Sign homes up for clean wind power automatically.\nMost customers stay on clean energy without complaints.",
+                "children": []
               }
             ]
           }
@@ -1814,42 +1843,45 @@ export const NUDGE_BOOK: Book = {
       },
       {
         "id": "theme-7-critiques-ethics",
-        "label": "Ethical Guardrails & Objections",
-        "description": "Addresses tough philosophical challenges regarding manipulation, corporate exploitation, and paternalistic overreach.\nConstructing ethical criteria ensures nudges serve human dignity rather than degrading into deceptive behavioral traps.",
+        "label": "Ethics and Limits",
+        "description": "Nudges must help people, not trick them.\nClear guardrails prevent unfair manipulation.",
         "children": [
           {
             "id": "node-24-sludge-dark-patterns",
-            "label": "Sludge & Dark Choice Architecture",
-            "description": "The deliberate weaponization of cognitive biases by predatory institutions to confuse users and extract unwarranted fees.\nHidden subscription traps, difficult cancellation hotlines, and convoluted rebates use psychological friction against consumers.",
+            "label": "Bad Nudges (Sludge)",
+            "description": "Shady firms use tricks to trap customers into paying.\nHidden fees and tricky cancellation forms steal money.",
             "children": [
               {
                 "id": "node-24-friction-as-weapon",
-                "label": "Malicious Friction & Cancellation Hurdles",
-                "description": "Signing up takes one smooth click, but canceling a recurring subscription demands mailing physical letters or enduring long customer support calls.\nChoice architects must actively eliminate sludge that leeches time and money from everyday citizens."
+                "label": "Hard Cancellations",
+                "description": "Joining takes one second, but quitting takes endless phone calls.\nGood rules ban these sneaky traps.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-25-slippery-slope",
-            "label": "The Slippery Slope to Coercion",
-            "description": "Critics argue that well-intentioned nudging provides an entry ramp for authoritarian regimes to gradually erode individual autonomy.\nSkeptics worry that state planners will continuously expand their nudges until gentle guidance transforms into outright mandates.",
+            "label": "Risk of Overreach",
+            "description": "Critics worry gentle nudges will turn into strict government rules.\nOver-nudging might make people lazy thinkers.",
             "children": [
               {
                 "id": "node-25-autonomy-atrophy",
-                "label": "Cognitive Muscle Atrophy",
-                "description": "The risk that citizens whose everyday choices are constantly guided by benevolent architects will lose the practice of exercising independent judgment.\nOver-reliance on optimized defaults could leave people unprepared for confusing, unguided environments."
+                "label": "Weak Decision Skills",
+                "description": "If every choice is guided, people stop thinking for themselves.\nPeople need practice making their own choices.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-26-publicity-principle",
-            "label": "The Publicity Principle & Transparency Test",
-            "description": "The golden standard for evaluating nudge ethics, derived from philosopher John Rawls.\nA government or designer should only deploy nudges whose underlying rules and psychological goals they are fully prepared to explain to the public without embarrassment.",
+            "label": "Open and Honest",
+            "description": "Any nudge must be open for everyone to see and discuss.\nSecret manipulation is always wrong.",
             "children": [
               {
                 "id": "node-26-covert-manipulation",
-                "label": "Subliminal Steering vs. Open Architecture",
-                "description": "Nudges must operate openly in the daylight, allowing everyone to see the levers shaping their surroundings.\nCovert manipulation violates the moral compact, whereas open, declared choice architecture empowers people to choose wisely."
+                "label": "Honest Design",
+                "description": "Designers should never hide how choices are laid out.\nOpen rules build trust and help people thrive.",
+                "children": []
               }
             ]
           }

@@ -1,5 +1,5 @@
 // Seeing Systems: Unlocking the Mysteries of Organizational Life by Barry Oshry
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -331,169 +331,169 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
   "actionItems": [
     {
       "id": "seeing-systems-unlocking-the-mysteries-of-organizational-lif-act-1",
-      "title": "Shift from Blame to Spatial Analysis",
-      "description": "When tension spikes, we instinctively scapegoat individuals instead of spotting systemic stress fields. Pause to map whether someone is acting from an overwhelmed Top, squeezed Middle, invisible Bottom, or alienated Customer position.",
+      "title": "Stop Blaming People for Pressures",
+      "description": "People act stressed because their work position is hard. Look at their daily job pressures before you judge them.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Notice when you mentally label a colleague as incompetent, malicious, or defensive.",
-        "Identify their structural position in the organization: Top, Middle, Bottom, or Customer.",
-        "List the predictable spatial pressures that naturally weigh on that specific role.",
-        "Reframe your explanation from 'they are difficult' to 'their systemic context is generating this behavior'."
+        "1. Catch yourself when you think someone is just being difficult.",
+        "2. Check if they are a boss, middle manager, or worker.",
+        "3. List the heavy daily pressures pulling on their specific role.",
+        "4. Remind yourself that their hard job causes their stressed behavior."
       ],
       "sourceChapter": "Chapter 1: The Possibility of Systemic Wisdom"
     },
     {
       "id": "seeing-systems-unlocking-the-mysteries-of-organizational-lif-act-2",
-      "title": "The Daily Tops Peer-Sync Check",
-      "description": "Tops naturally fall into systemic 'turf warfare' and isolation when overloaded. Counteract fragmentation with a brief daily solidarity touchpoint to ensure leadership acts as an integrated whole.",
+      "title": "Daily Quick Chat for Leaders",
+      "description": "Top leaders often feel alone and fight over territory. Talk with a peer leader daily to stay united.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Reach out to an executive or team-lead peer across another department before checking urgent operational issues.",
-        "Exchange one systemic observation about the macro environment that affects both domains.",
-        "Check whether your immediate decisions will place uncoordinated strain on shared lower levels.",
-        "Agree on one unified message to project downward to prevent conflicting signals."
+        "1. Call another team leader before you start your daily tasks.",
+        "2. Share one big work problem that touches both your teams.",
+        "3. Make sure your plans do not overload your shared staff.",
+        "4. Pick one clear, shared message to give to your teams."
       ],
       "sourceChapter": "Chapter 2: The World of Tops"
     },
     {
       "id": "seeing-systems-unlocking-the-mysteries-of-organizational-lif-act-3",
-      "title": "Middle Integration: The 'Stay Out of the Shredder' Protocol",
-      "description": "Middles instinctively get torn apart trying to resolve conflicts between demanding Tops and frustrated Bottoms in isolation. Maintain cohesion by partnering with other Middles rather than absorbing friction alone.",
+      "title": "Save Middles from the Shredder",
+      "description": "Middle managers get crushed trying to please both sides alone. Team up with fellow managers to share the load.",
       "category": "daily-routine",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Spot the classic Middle feeling of being compressed, torn, or pulled in opposing directions.",
-        "Resist the impulse to run up to appease Tops or run down to pacify Bottoms in isolation.",
-        "Connect immediately with a fellow Middle peer to compare shared structural stresses.",
-        "Formulate a collective perspective and present unified options back to Tops and Bottoms together."
+        "1. Notice when you feel pulled apart by bosses and staff.",
+        "2. Stop trying to fix every complaint all by yourself.",
+        "3. Talk right away with another middle manager facing similar pressure.",
+        "4. Work out joint solutions to present to bosses and staff."
       ],
       "sourceChapter": "Chapter 4: The World of Middles"
     },
     {
       "id": "seeing-systems-unlocking-the-mysteries-of-organizational-lif-act-4",
-      "title": "Bottom Solidarity: Elevating Shared Voice",
-      "description": "Bottoms naturally experience collective helplessness, grumbling invisibly in break rooms without offering structured ownership. Channel shared energy into concrete systemic recommendations.",
+      "title": "Turn Team Complaints into Solutions",
+      "description": "Frontline workers often feel powerless and complain in private. Turn those common complaints into clear, helpful ideas.",
       "category": "daily-routine",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Catch the moment team discussions spiral into reactive venting or victim narratives.",
-        "Ask the group: 'What valuable operational signal are we experiencing down here that Tops cannot see?'",
-        "Synthesize common complaints into two concrete root causes and one measurable solution.",
-        "Present the findings upward as a constructive systemic diagnosis rather than a grievance."
+        "1. Pause your team when conversation turns into pure venting.",
+        "2. Ask what hidden problems the team sees that bosses miss.",
+        "3. Turn common complaints into two causes and one clear fix.",
+        "4. Share this useful solution with leaders in a helpful way."
       ],
       "sourceChapter": "Chapter 3: The World of Bottoms"
     },
     {
       "id": "seeing-systems-unlocking-the-mysteries-of-organizational-lif-act-5",
-      "title": "Customer-Delivery Boundary Alignment",
-      "description": "Customers frequently vacillate between feeling neglected or demanding impossible concessions from delivery teams. Build proactive shared spaces where Customers and delivery partners co-create value.",
+      "title": "Work Closer with Your Customers",
+      "description": "Clients get upset when they cannot see what is happening. Build shared project boards so everyone stays aligned.",
       "category": "environment",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Audit touchpoints where external clients or internal service users interact with delivery teams.",
-        "Replace one-way transactional feedback forms with shared collaborative status boards.",
-        "Clarify explicit shared criteria for what constitutes a viable scope and a realistic timeline.",
-        "Establish an ongoing shared working ritual that makes delivery constraints visible without adversarial posturing."
+        "1. Check how your clients and delivery teams talk right now.",
+        "2. Set up a shared digital board to show project progress.",
+        "3. Agree together on what work is realistic and when.",
+        "4. Meet regularly so clients clearly see your team's real limits."
       ],
       "sourceChapter": "Chapter 5: The World of Customers"
     },
     {
       "id": "seeing-systems-unlocking-the-mysteries-of-organizational-lif-act-6",
-      "title": "Physical & Virtual 'De-Siloing' Space Setup",
-      "description": "Physical architecture and digital channels reinforce tribal silos. Shape shared meeting environments and team channels to deliberately cross-pollinate functional disciplines.",
+      "title": "Connect Separate Teams Together",
+      "description": "Separate offices and chat channels keep teams apart. Set up shared spaces where different roles can talk.",
       "category": "environment",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Examine your team's chat channels and conference rooms to identify isolated functional clusters.",
-        "Create shared cross-strata forums dedicated solely to systemic feedback and cross-role visibility.",
-        "Display a simple visualization of end-to-end organizational workflows in common workspaces.",
-        "Establish an open channel where Middles from different business units openly share workflow blockers."
+        "1. Look for chat channels or rooms where groups stay isolated.",
+        "2. Open a shared chat channel for staff and leaders together.",
+        "3. Post a simple visual map showing how all work flows.",
+        "4. Let team leaders freely share project roadblocks with each other."
       ],
       "sourceChapter": "Chapter 6: Spatial Blindness and System Sight"
     },
     {
       "id": "seeing-systems-unlocking-the-mysteries-of-organizational-lif-act-7",
-      "title": "Weekly Spatial Blindness Audit",
-      "description": "Organizations suffer from predictable perceptual traps based on role level. Conduct a regular diagnostic check to catch reflex patterns like Top isolation, Middle tearing, and Bottom helplessness.",
+      "title": "Weekly Team Stress Check",
+      "description": "Every job level falls into standard stress traps. Check each week to see which traps hurt your team.",
       "category": "audit",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Review your past week's interpersonal friction and critical escalation points.",
-        "Score your team across the four classic pathologies: Top alienation, Middle shredding, Bottom victimization, and Customer estrangement.",
-        "Identify which structural relationships lacked lateral integration during stressful deadlines.",
-        "Select one systemic intervention to experiment with during the following week."
+        "1. Review where team arguments flared up over the past week.",
+        "2. Notice if leaders felt lonely or frontline workers felt helpless.",
+        "3. Find which team roles stopped talking during busy rush times.",
+        "4. Pick one simple habit to test out next week instead."
       ],
       "sourceChapter": "Chapter 7: The Dance of Blind Reflex"
     },
     {
       "id": "seeing-systems-unlocking-the-mysteries-of-organizational-lif-act-8",
-      "title": "Systemic 'Whose Problem Is This?' Audit",
-      "description": "Unclear ownership creates feedback black holes where issues are passed upward as complaints or downward as dictates. Map out problem handoffs to diagnose systemic dumping.",
+      "title": "Trace Who Owns the Problem",
+      "description": "Work slows down when problems are tossed around without owners. Map where complaints go to see who fixes them.",
       "category": "audit",
       "timeEstimateMinutes": 35,
       "stepByStep": [
-        "List the top five recurring complaints that crossed your desk over the last month.",
-        "Track the origin point and movement path of each complaint through organizational layers.",
-        "Examine whether Tops are hoarding operational decisions that Bottoms possess the front-line context to resolve.",
-        "Identify where Middles act as mere messengers instead of synthesizers and coaches."
+        "1. Write down the five most common complaints from this month.",
+        "2. Track who started each issue and where it went next.",
+        "3. Check if bosses are holding decisions that staff can make.",
+        "4. Help middle managers guide solutions instead of just passing messages."
       ],
       "sourceChapter": "Chapter 8: Robust and Vulnerable Systems"
     },
     {
       "id": "seeing-systems-unlocking-the-mysteries-of-organizational-lif-act-9",
-      "title": "360\u00b0 Strata Pressure Reset",
-      "description": "When projects derail, individual performance reviews often fail because systemic loads are misdiagnosed. Perform a quick 3-minute check to surface invisible environmental forces before conducting performance reviews.",
+      "title": "Check Role Pressures First",
+      "description": "Bad results often come from role overload, not poor skills. Check job demands before reviewing someone's work.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Select a role currently missing expectations or exhibiting defensive behavior.",
-        "Map the inputs and conflicting demands entering that role from Tops, Peers, Bottoms, and Customers.",
-        "Determine if the person is struggling with individual ability or systemic role overload.",
-        "Reframe upcoming one-on-one coaching to focus on untangling structural bottlenecks."
+        "1. Pick a team member who is struggling or acting defensive.",
+        "2. List all conflicting demands hitting them from bosses and peers.",
+        "3. Decide if they lack skills or just have too much work.",
+        "4. Use your one-on-one talk to clear away their messy roadblocks."
       ],
       "sourceChapter": "Chapter 9: De-Triangulating Human Relationships"
     },
     {
       "id": "seeing-systems-unlocking-the-mysteries-of-organizational-lif-act-10",
-      "title": "Lateral Middle Integration Network (MIN)",
-      "description": "Middles maintain stability only when they function as an interdependent collective rather than isolated conduits. Establish a structured operating rhythm where Middles align horizontally.",
+      "title": "Manager Peer Support Meetup",
+      "description": "Middle managers need to talk to each other regularly. Meet twice a month to solve shared team snags.",
       "category": "system",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "Convene a recurring bi-weekly forum exclusively for cross-functional Middle managers.",
-        "Prohibit upward status-reporting during this meeting, focusing purely on horizontal coordination.",
-        "Map overlapping dependencies, duplicated efforts, and conflicting project directives.",
-        "Produce unified joint proposals for executive leadership to resolve systemic bottlenecks."
+        "1. Gather middle managers from different teams every two weeks.",
+        "2. Focus entirely on helping each other, not reading status updates.",
+        "3. Spot overlapping work, conflicting goals, and confusing team tasks.",
+        "4. Build one joint plan to bring to top executive leaders."
       ],
       "sourceChapter": "Chapter 10: Middle Power and Integration"
     },
     {
       "id": "seeing-systems-unlocking-the-mysteries-of-organizational-lif-act-11",
-      "title": "Bottoms Innovation & Self-Organization Engine",
-      "description": "Convert Bottom-level vulnerability into collective self-determination. Create a formalized system where front-line teams take ownership of systemic problem-solving.",
+      "title": "Empower the Frontline Team",
+      "description": "Frontline workers know how to fix messy everyday routines. Give them the power to improve their own daily tasks.",
       "category": "system",
       "timeEstimateMinutes": 40,
       "stepByStep": [
-        "Establish an ongoing charter granting front-line teams autonomy to modify local process workflows.",
-        "Provide direct access to operational metrics so Bottoms evaluate performance directly without top-down gatekeeping.",
-        "Implement a structured bottom-up review cadence to test and deploy front-line optimizations.",
-        "Recognize and reward bottom-up systemic initiatives that reduce operational strain."
+        "1. Give workers clear permission to fix broken daily work steps.",
+        "2. Share project numbers directly with workers without secret filters.",
+        "3. Run monthly sessions where workers test out fresh new ideas.",
+        "4. Reward team members who make daily work run more smoothly."
       ],
       "sourceChapter": "Chapter 11: Bottoms Stepping into Ownership"
     },
     {
       "id": "seeing-systems-unlocking-the-mysteries-of-organizational-lif-act-12",
-      "title": "Rapid Perspective-Reversal Circuit Breaker",
-      "description": "When deadlock occurs between strata (e.g., Tops vs. Bottoms or Sales vs. Engineering), implement an immediate, structured role-reversal exercise to shatter reflex bias.",
+      "title": "Switch Sides During Arguments",
+      "description": "Arguments happen when people forget what the other side faces. Pause the fight and describe the other side's challenges.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Halt contentious debate immediately when parties begin accusing each other of stubbornness or bad faith.",
-        "Instruct each party to spend 3 minutes articulating the exact pressures and constraints facing the other side.",
-        "Require each party to state one systemic truth or valid constraint embedded in the opposing perspective.",
-        "Resume dialogue by focusing exclusively on co-managing the shared systemic dilemma."
+        "1. Stop the argument the moment people start blaming each other.",
+        "2. Give each person three minutes to explain the other side's pressures.",
+        "3. Have everyone name one fair point the other side made.",
+        "4. Restart the discussion focused on solving the shared problem together."
       ],
       "sourceChapter": "Chapter 12: Creating Systemic Partnership"
     }
@@ -671,9 +671,9 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       "category": "Psychology",
       "type": "concept",
       "headline": "System Blindness",
-      "body": "When organizational friction strikes, humans instinctively personalize the problem, attributing conflict to malice, incompetence, or personality flaws.\nSystem blindness is the inability to perceive how structural positioning, information architecture, and relational geometry dictate human behavior far more powerfully than individual character.",
+      "body": "We blame bad people when work problems happen.\nMost troubles actually come from how jobs are set up.\nYour role shapes how you act more than your personality.",
       "quote": "We do not see systems, and because we do not see them, we misinterpret what is happening in them.",
-      "actionItem": "When friction occurs, pause personal blame and ask: What systemic forces are shaping this person's stance?",
+      "actionItem": "Stop blaming a difficult coworker today.\nAsk what pressure their job puts on them.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -691,10 +691,10 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       "author": "Barry Oshry",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Four Worlds: Tops, Bottoms, Middles, and Customers",
-      "body": "Every complex institution fractures into four distinct experiential territories.\nTops inhabit complexity and overload; Bottoms experience vulnerability and invisibility; Middles navigate tearing cross-pressures; Customers endure unmet expectations.\nMisunderstanding arises because inhabitants assume everyone shares their vantage point.",
+      "headline": "The Four Work Worlds",
+      "body": "Every workplace divides people into four groups.\nBosses feel crushed by big decisions.\nMiddle managers feel pulled apart.\nWorkers feel ignored, and customers feel disappointed.",
       "quote": "Different positions in the system create entirely different realities.",
-      "actionItem": "Map your current project through the lenses of all four worlds before delivering your next proposal.",
+      "actionItem": "Review your plan from the view of bosses, workers, and clients.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -712,10 +712,10 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       "author": "Barry Oshry",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Spatial Conditioning",
-      "body": "Put sane, empathetic people into specific structural slots, and they will reliably produce predictable pathologies.\nPlace someone at the top, and they hoard control.\nPlace someone in the middle, and they become a fragmented conduit.\nPlace someone at the bottom, and they turn defensive.\nThe chair scripts the actor.",
+      "headline": "The Power of Your Seat",
+      "body": "Where you sit shapes how you act.\nGood people act stubborn when put in hard roles.\nThe job changes the person more than we think.",
       "quote": "It is not the person; it is the condition of the space they occupy.",
-      "actionItem": "Audit whether an annoying behavior in a colleague is simply an inevitable byproduct of their seat.",
+      "actionItem": "Notice one annoying habit in a teammate.\nSee if their seat causes it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -733,10 +733,10 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       "author": "Barry Oshry",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Top Reflex: Resist Over-Responsibility",
-      "body": "Leaders naturally absorb systemic ambiguity by shouldering personal accountability for resolving every issue.\nThis reflex infantilizes subordinates and overwhelms leadership.\nBreak the cycle by shifting from being the ultimate problem-solver to becoming the architect of distributed capacity.",
+      "headline": "Stop Fixing Everything",
+      "body": "Leaders often try to solve every single problem alone.\nThis burns out leaders and leaves staff feeling helpless.\nGreat leaders teach others how to find their own answers.",
       "quote": "The trap of Tops is taking on the responsibility for making everything work.",
-      "actionItem": "Decline the next three operational dilemmas brought to your desk; instead, coach the team to resolve them.",
+      "actionItem": "Pass the next problem back to your team.\nHelp them solve it together.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -755,9 +755,9 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       "category": "Psychology",
       "type": "concept",
       "headline": "The Middle Squeeze",
-      "body": "Managers caught in the middle are pulled in opposite directions by the strategic mandates of Tops and the frontline complaints of Bottoms.\nWithout systemic awareness, they act as shock absorbers, diluting messages, absorbing toxicity, and burning out in isolation.",
+      "body": "Middle managers feel trapped in the center.\nBosses push demands down while frontline workers push complaints up.\nCaught between both sides, middle managers quickly burn out.",
       "quote": "Middles live in a torn world, pulled between the demands of Tops and the needs of Bottoms.",
-      "actionItem": "Stop serving as a private buffer; convene Tops and Bottoms directly to confront shared trade-offs.",
+      "actionItem": "Stop hiding bad news.\nBring bosses and workers into the same room.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -775,10 +775,10 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       "author": "Barry Oshry",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Integrating Middles Horizontally",
-      "body": "Middles often operate as isolated competitors defending separate silos.\nTheir power unlocks when they integrate laterally, forming a unified collective intelligence that spots systemic gaps, aligns cross-functional priorities, and coaches both Tops and Bottoms.",
+      "headline": "Managers Must Team Up",
+      "body": "Middle managers often work alone and guard their own turf.\nThey gain real power when they team up across departments.\nTogether, they can fix broken work and guide everyone better.",
       "quote": "When Middles integrate, they transform from weak buffers into the intellectual core of the system.",
-      "actionItem": "Schedule a recurring alignment forum with peer managers focused exclusively on cross-department bottlenecks.",
+      "actionItem": "Set up a weekly chat with peer managers to solve shared roadblocks.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -796,10 +796,10 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       "author": "Barry Oshry",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Bottom Helplessness and Blame",
-      "body": "Frontline workers frequently coalesce around shared vulnerability.\nThis solidarity easily decays into collective cynicism, where members bond over leadership shortcomings while relinquishing their own capacity to effect operational change.",
+      "headline": "The Blame Trap",
+      "body": "Frontline workers often bond by complaining about bad leadership.\nThis habit makes people feel helpless over time.\nComplaining wastes energy that could fix real work problems.",
       "quote": "The danger for Bottoms is falling into collective helplessness and blaming Tops for their condition.",
-      "actionItem": "Transform watercooler gripes into a concrete experiment that your team can run within existing constraints.",
+      "actionItem": "Pick one common complaint today.\nTest a small fix with your team.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -817,10 +817,10 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       "author": "Barry Oshry",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Dance of Blind Reflex",
-      "body": "Organizations collapse into dysfunction through reciprocal, unconscious dances: Tops overload, Middles fragment, Bottoms disengage, and Customers demand the impossible.\nEach group blames the others, unaware that their own defensive maneuvers provoke the very behaviors they despise.",
+      "headline": "The Blame Loop",
+      "body": "Groups in a company fight without knowing why.\nBosses overwork, managers panic, and workers shut down.\nEach group triggers the very bad behavior they hate seeing.",
       "quote": "Each party is blind to the whole, yet each party's reflex triggers the other's pathology.",
-      "actionItem": "Trace how your team's current defensive stance directly provokes the exact executive response you dread.",
+      "actionItem": "Look at how your team acts.\nSee if it triggers bad boss reactions.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -838,10 +838,10 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       "author": "Barry Oshry",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Power of Spatial Sight",
-      "body": "Seeing the system liberates individuals from reactive emotional loops.\nOnce you recognize that organizational friction is primarily geometric rather than personal, compassion replaces resentment and systemic leverage replaces fruitless hostility.",
+      "headline": "Seeing the Big Picture",
+      "body": "Seeing the whole system stops you from taking work fights personally.\nWhen you understand job pressures, anger fades away.\nYou can solve problems with a clear head.",
       "quote": "To see the system is to be liberated from taking its madness personally.",
-      "actionItem": "Write down a source of workplace frustration and annotate three spatial reasons behind it.",
+      "actionItem": "Write down a work frustration.\nList two job pressures causing it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -859,10 +859,10 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       "author": "Barry Oshry",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Bottoms as Co-Creators",
-      "body": "Bottoms possess the granular operational truth that Tops lack.\nWhen Bottoms stop waiting for permission and start proactively delivering structured diagnostic insight upward, the dynamic shifts from subservience to authentic partnership.",
+      "headline": "Frontline Power",
+      "body": "Frontline workers know how the business truly runs daily.\nLeaders need this truth to make smart choices.\nSharing practical facts turns workers into true partners.",
       "quote": "Bottoms hold the key to system vitality when they step into co-responsibility.",
-      "actionItem": "Deliver a concise dashboard to leadership highlighting frontline operational realities with actionable remedies.",
+      "actionItem": "Send leadership a short note showing one frontline fix.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -880,10 +880,10 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       "author": "Barry Oshry",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Customer-Provider Paradox",
-      "body": "Customers demand bespoke attention and speed, while Providers demand standardization and lead time.\nWhen expectations fail, Customers assume Providers are negligent, while Providers view Customers as unreasonable.\nThe real culprit is missing systemic calibration.",
+      "headline": "Customer Clashes",
+      "body": "Clients want fast, custom service right now.\nWorkers need steady rules and plenty of time.\nBoth sides get upset because their natural needs clash.",
       "quote": "The relationship between Customer and Provider is an ongoing dance of mismatched expectations.",
-      "actionItem": "Co-design an explicit mutual-responsibility contract with key clients defining realistic handoffs.",
+      "actionItem": "Set clear delivery limits with your clients before starting any work.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -901,10 +901,10 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       "author": "Barry Oshry",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Differentiation vs. Integration",
-      "body": "Healthy systems require both differentiation (specialized units cultivating distinct capabilities) and integration (unifying bonds holding the enterprise together).\nMost systemic failure occurs when differentiation runs wild into warring tribalism.",
+      "headline": "Special Teams, One Goal",
+      "body": "Companies need specialist teams to do hard work.\nThey also need those teams to talk and stay united.\nWithout strong bonds, separate teams fight each other.",
       "quote": "Systems must differentiate to meet complex challenges, but without integration they tear themselves apart.",
-      "actionItem": "Audit your team's jargon and metrics to ensure they translate cleanly to adjacent business units.",
+      "actionItem": "Cut team slang so other departments easily understand your updates.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -922,10 +922,10 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       "author": "Barry Oshry",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Reframing the Middle: From Messenger to Consultant",
-      "body": "Do not deliver tactical complaints upward or blunt directives downward.\nReframe your identity as an internal systemic consultant: diagnose root causes, frame trade-offs, and facilitate direct problem-solving between levels.",
+      "headline": "Be an Advisor",
+      "body": "Do not just pass messages up and down all day.\nAct like an advisor who spots root issues.\nHelp leaders and workers talk straight to each other.",
       "quote": "The Middle's true role is not to relay messages, but to diagnose and heal systemic disconnects.",
-      "actionItem": "When an executive hands down an unclear mandate, convert it into a structured diagnostic workshop.",
+      "actionItem": "Turn a vague boss request into a group planning session.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -943,10 +943,10 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       "author": "Barry Oshry",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Illusion of Incompetence",
-      "body": "When people fail in systemic environments, observers invariably infer individual shortcomings.\nRecognizing structural constraints reveals that under identical systemic loads, most humans falter identically.",
+      "headline": "Broken Systems, Not People",
+      "body": "When someone fails, we assume they are bad at their job.\nBroken processes usually cause the mistake instead.\nPut in the same spot, most people fail too.",
       "quote": "What looks like human incompetence is almost always systemic failure.",
-      "actionItem": "Before initiating disciplinary review, evaluate whether system bottlenecks make success impossible.",
+      "actionItem": "Check for broken rules before blaming someone for a missed goal.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -964,10 +964,10 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       "author": "Barry Oshry",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Robustness of Systemic Reflexes",
-      "body": "Systemic reflexes operate like biological feedback circuits: immediate, instinctive, and self-reinforcing.\nThey trigger before conscious deliberation occurs.\nMastering systems thinking requires developing the deliberate meta-awareness to observe reflexes without executing them.",
+      "headline": "Fast Work Habits",
+      "body": "Under pressure, people react without thinking.\nThese quick reactions feel natural but usually harm the team.\nWe must slow down to spot our bad habits.",
       "quote": "Our reflexes are fast, defensive, and almost always wrong for systemic health.",
-      "actionItem": "Identify your immediate emotional reflex during crises, and introduce a 15-minute pause before acting.",
+      "actionItem": "Wait fifteen minutes before responding when bad work news hits.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -985,10 +985,10 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       "author": "Barry Oshry",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Wholeness and Systemic Health",
-      "body": "An organization is whole when each part can simultaneously maintain its distinct identity and perceive its interdependence with every other part.\nDysfunction is simply alienation: parts operating in total ignorance of the whole organism.",
+      "headline": "Staying Connected",
+      "body": "A healthy company works like a living body.\nEvery team does its job while helping the whole group.\nWhen teams work in silos, the whole company suffers.",
       "quote": "Systemic health is the realization that no part of the organism can flourish while another suffers.",
-      "actionItem": "Establish cross-pollination meetings where team members shadow counterparts in other divisions.",
+      "actionItem": "Spend an hour learning how another team does their daily work.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1006,10 +1006,10 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       "author": "Barry Oshry",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Stepping Out of the Middle: The Triangle Break",
-      "body": "When a Top complains about a Bottom, or a Bottom complains about a Top, Middles instinctively intermediate.\nBreak the triangular drama by declining to carry the critique and facilitating direct dialogue instead.",
+      "headline": "Break the Triangle",
+      "body": "Do not carry gossip between angry bosses and workers.\nPassing messages keeps people from solving real issues.\nStep aside and let both sides talk directly.",
       "quote": "Do not carry water for others; bring the parties together and let the truth circulate.",
-      "actionItem": "Politely refuse to relay a grievance this week; instead, arrange and mediate a direct conversation.",
+      "actionItem": "Refuse to carry complaints.\nConnect both people for a direct talk.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1027,10 +1027,10 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       "author": "Barry Oshry",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Architecture of Partnership",
-      "body": "Partnership is not an innate feeling of warmth; it is a rigorous, conscious commitment to shared responsibility across structural boundaries, defying instinctive territorial defenses.",
+      "headline": "Real Partnership",
+      "body": "True teamwork is not just being nice to each other.\nIt means sharing responsibility across team borders every single day.\nYou choose to solve problems together.",
       "quote": "Partnership is not a matter of sentiment; it is a systemic discipline.",
-      "actionItem": "Reframe a vendor or client dispute around shared strategic objectives rather than contractual defensiveness.",
+      "actionItem": "Focus on shared goals when sorting out a vendor dispute.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1048,10 +1048,10 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       "author": "Barry Oshry",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Total System Leadership",
-      "body": "Leadership is not an executive rank; it is a posture that can be exerted from any position in the system.\nTops lead by distributing power; Middles lead by integrating across silos; Bottoms lead by contributing operational truth; Customers lead by clarifying real value.",
+      "headline": "Lead from Any Seat",
+      "body": "Leadership is an action, not an executive title.\nAnyone can step up and help from where they sit.\nYou lead by fixing broken work and helping others.",
       "quote": "Leadership is not a position at the top; it is a systemic choice available in every space.",
-      "actionItem": "Demonstrate systemic leadership today by addressing an unowned workflow flaw outside your formal scope.",
+      "actionItem": "Fix one broken workflow today even if it is not your job.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1069,10 +1069,10 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       "author": "Barry Oshry",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Organic vs. Mechanistic Systems",
-      "body": "Mechanistic organizations view people as static parts, expecting top-down commands to flow smoothly.\nLiving, organic systems recognize that real organizations are self-organizing networks of sense-makers whose collective interactions dictate outcomes.",
+      "headline": "Living Organizations",
+      "body": "A company is not a machine with swappable parts.\nIt is a living network of real human beings.\nHow people connect decides if the whole group succeeds.",
       "quote": "We are not cogs in a machine; we are living nodes in an interconnected field of human consciousness.",
-      "actionItem": "Treat your next operational roadblock as an organic adaptation signal rather than a broken mechanical part.",
+      "actionItem": "Look at team friction as a normal sign to adjust.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1086,42 +1086,42 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
   ],
   "mindMap": {
     "id": "root",
-    "label": "Seeing Systems: Unlocking the Mysteries of Organizational Life",
-    "description": "Barry Oshry reveals that our deepest workplace conflicts and frustrations are rarely caused by defective personalities, but by invisible system dynamics and structural positions.\nBy stepping back to perceive the systemic stage on which we act, we can transcend reflexive drama and master the art of organizational sanity and partnership.",
+    "label": "Seeing Systems",
+    "description": "Workplace problems come from hidden system roles, not bad people.\nSeeing the big picture helps us work together in peace.",
     "children": [
       {
         "id": "systemic-blindness",
-        "label": "The Condition of Systemic Blindness",
-        "description": "Organizations are powerful energetic systems, yet participants remain strikingly blind to the structural forces governing their behavior.\nWhen things go wrong, human beings instinctively invent personal blame narratives rather than recognizing the predictable physics of their organizational ecosystem.",
+        "label": "System Blindness",
+        "description": "We rarely notice the hidden rules shaping our daily behavior.\nWhen trouble starts, we blame people instead of broken systems.",
         "children": [
           {
             "id": "personalizing-myth",
-            "label": "The Personalizing Myth",
-            "description": "When friction occurs, our default psychological reflex is to blame individual malice, incompetence, or personality defects.\nIn reality, substituting one person for another in the same systemic space produces virtually identical behavioral pathologies.",
+            "label": "The Blame Game",
+            "description": "We wrongly assume conflicts happen because someone is mean or incompetent.\nReplacing that person usually creates the exact same problem again.",
             "children": [
               {
                 "id": "psychological-scapegoating",
-                "label": "Psychological Scapegoating",
-                "description": "Teams exhaust enormous emotional bandwidth vilifying difficult leaders or uncooperative peers.\nThis misdirection leaves the underlying systemic architecture unexamined, ensuring the exact same drama repeats with future personnel.",
+                "label": "Picking Scapegoats",
+                "description": "Teams waste time attacking difficult leaders or unhelpful coworkers.\nThe real system flaw stays hidden and repeats later.",
                 "children": []
               },
               {
                 "id": "illusory-intentions",
-                "label": "The Illusion of Malicious Intent",
-                "description": "We interpret pressure, distance, or sluggish responses from other tiers as intentional hostility or cold arrogance.\nIn truth, these behaviors are natural stress responses generated by the structural physics of their unique position.",
+                "label": "Imagined Bad Intent",
+                "description": "We think slow replies from other teams mean they don't care.\nIn truth, their role simply puts them under extreme pressure.",
                 "children": []
               }
             ]
           },
           {
             "id": "spatial-amnesia",
-            "label": "Spatial Amnesia and Tunnel Vision",
-            "description": "Each organizational tier becomes so entirely absorbed in its immediate sensory horizon and pressures that it forgets other tiers inhabit radically different environments.\nWe evaluate the entire enterprise purely through the narrow lens of our local geography.",
+            "label": "Tunnel Vision",
+            "description": "Each group only sees its own immediate daily pressures.\nWe forget other teams live in completely different worlds.",
             "children": [
               {
                 "id": "territorial-parochialism",
-                "label": "Territorial Parochialism",
-                "description": "Subunits defend their immediate perimeter and departmental interests as if they were sovereign islands.\nThis fragmentation destroys the collective intelligence necessary for system-wide adaptation and coherent movement.",
+                "label": "Protecting Turf",
+                "description": "Departments defend their own territory like tiny private islands.\nThis walls off teams and ruins company-wide teamwork.",
                 "children": []
               }
             ]
@@ -1130,75 +1130,75 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       },
       {
         "id": "the-four-system-worlds",
-        "label": "The Four System Worlds",
-        "description": "Oshry identifies four distinct spatial territories within any human organization: Tops, Bottoms, Middles, and Customers.\nEach position experiences a fundamentally different energetic reality, which shapes subconscious instincts, perceptual distortions, and predictable traps.",
+        "label": "Four Work Worlds",
+        "description": "Every organization has Tops, Bottoms, Middles, and Customers.\nEach group experiences work differently and faces unique traps.",
         "children": [
           {
             "id": "world-of-tops",
-            "label": "The World of Tops: Complexity and Overload",
-            "description": "Tops inhabit an expansive territory characterized by high stakes, multidirectional complexity, and continuous turbulence.\nTheir default systemic temptation is to shoulder total responsibility, which inevitably leads to exhaustion and isolation.",
+            "label": "World of Tops",
+            "description": "Leaders face constant chaos and messy, high-stakes decisions.\nThey try to carry everything alone and burn out.",
             "children": [
               {
                 "id": "top-overburdening",
-                "label": "Reflexive Over-Burdening",
-                "description": "Tops habitually assume that every systemic problem belongs squarely on their shoulders to solve personally.\nThis heroic impulse deprives the lower tiers of initiative and creates bottlenecked decision-making pipelines across the company.",
+                "label": "Carrying Everything",
+                "description": "Bosses mistakenly try to solve every single problem by themselves.\nThis steals initiative from workers and slows decisions down.",
                 "children": []
               },
               {
                 "id": "top-alienation",
-                "label": "Alienation at the Summit",
-                "description": "When overwhelmed Tops withdraw into executive isolation, subordinates perceive them as detached, uncaring, and arrogant.\nThis emotional gulf breeds suspicion and undermines genuine organizational trust.",
+                "label": "Isolated at Top",
+                "description": "Overworked executives pull away and become hard to reach.\nEmployees then view them as cold, arrogant, and out of touch.",
                 "children": []
               }
             ]
           },
           {
             "id": "world-of-bottoms",
-            "label": "The World of Bottoms: Vulnerability and Invisible Subjugation",
-            "description": "Bottoms reside where concrete work touches daily operational friction, routinely absorbing consequences dictated from above without feeling sovereign agency.\nTheir systemic reflex is to collapse into collective powerlessness and chronic victimhood.",
+            "label": "World of Bottoms",
+            "description": "Frontline workers handle daily tasks without feeling in control.\nThey easily slip into feeling helpless and ignored.",
             "children": [
               {
                 "id": "learned-helplessness",
-                "label": "Collective Learned Helplessness",
-                "description": "Bottoms easily fall into the comfort of blaming management for every daily struggle, surrendering their real power to initiate grassroots solutions.\nComplaining replaces proactive collaboration and active systemic contribution.",
+                "label": "Feeling Helpless",
+                "description": "Workers often blame management instead of fixing local problems.\nComplaining replaces real action and positive change.",
                 "children": []
               },
               {
                 "id": "solidarity-trap",
-                "label": "The Defensive Solidarity Trap",
-                "description": "Bottoms frequently bond through shared resentment against leadership rather than constructive mutual empowerment.\nThis tribal cohesion enforces a culture of cynicism, policing individual members against stepping forward or partnering upward.",
+                "label": "Bonding by Complaining",
+                "description": "Teams often bond over shared anger toward their leaders.\nThis creates cynicism and stops anyone from stepping up.",
                 "children": []
               }
             ]
           },
           {
             "id": "world-of-middles",
-            "label": "The World of Middles: The Compression Chamber",
-            "description": "Middles occupy the most psychologically perilous terrain, situated directly between conflicting demands, conflicting peers, and contradictory tiers.\nAbsent systemic consciousness, Middles disintegrate under multi-sided pulling forces.",
+            "label": "World of Middles",
+            "description": "Middle managers sit caught between bosses, teams, and peers.\nWithout clear focus, they get crushed by competing demands.",
             "children": [
               {
                 "id": "middle-tearing",
-                "label": "Structural Tearing and Fragmentation",
-                "description": "Pulled downward by subordinate grievances and upward by executive mandates, Middles feel individually ripped apart.\nThey mistake this structural shearing force for personal inadequacy, burning out in futile mediation.",
+                "label": "Torn in Two",
+                "description": "Managers feel ripped apart by demands from above and below.\nThey blame themselves instead of seeing the structural trap.",
                 "children": []
               },
               {
                 "id": "middle-isolation",
-                "label": "Peer Alienation and Silos",
-                "description": "Instead of unifying into a cohesive collective intelligence, Middles become isolated ambassadors of their respective silos.\nThey compete with one another for scarce resources and executive approval, magnifying organizational entropy.",
+                "label": "Lonely Middle Silos",
+                "description": "Managers stay isolated inside their own small teams.\nThey fight over resources instead of teaming up.",
                 "children": []
               }
             ]
           },
           {
             "id": "world-of-customers",
-            "label": "The World of Customers: Neglect and Entitlement",
-            "description": "Customers interact with the organization from the perimeter, experiencing fluctuating delivery, ambiguous responsiveness, and varying satisfaction.\nUnaware of the internal pressures inside the delivery engine, they vacillate between passive dependence and explosive outrage.",
+            "label": "World of Customers",
+            "description": "Customers stand outside the company wanting reliable service.\nNot seeing internal struggles, they swing between patience and anger.",
             "children": [
               {
                 "id": "righteous-indignation",
-                "label": "Righteous Indignation Cycle",
-                "description": "When services falter, customers adopt an adversarial posture that treats the delivery team as an unreliable servant.\nThis aggressive posture triggers defensive maneuvers inside the organization, exacerbating service breakdowns.",
+                "label": "Angry Customer Loop",
+                "description": "When service drops, buyers attack staff like bad servants.\nThis forces workers into defense and makes service worse.",
                 "children": []
               }
             ]
@@ -1207,43 +1207,43 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       },
       {
         "id": "core-systemic-processes",
-        "label": "The Four Organic System Processes",
-        "description": "Living human systems sustain life and vitality through four continuous macro-processes: Differentiation, Homogenization, Integration, and Individuation.\nPathologies arise whenever a system over-indexes on one polarity while starving its dialectical counterpart.",
+        "label": "Four Key Forces",
+        "description": "Organizations must balance specialization, shared rules, teamwork, and freedom.\nLeaning too hard to one side damages the team.",
         "children": [
           {
             "id": "differentiation-homogenization",
-            "label": "Differentiation vs. Homogenization",
-            "description": "Systems need specialized parts to handle diverse environmental demands, yet they equally require common shared standards to hold together.\nNavigating this polarity prevents either fractured chaos or suffocating conformity.",
+            "label": "Different vs Same",
+            "description": "Teams need unique skills, but they also need common standards.\nBalancing both prevents total chaos and boring sameness.",
             "children": [
               {
                 "id": "runaway-differentiation",
-                "label": "Runaway Differentiation",
-                "description": "When specialization accelerates unchecked, departments evolve proprietary dialects and incompatible goals.\nThe organization loses the shared identity required to coordinate collective action toward unified strategic objectives.",
+                "label": "Too Different",
+                "description": "Departments create their own jargon and rival goals.\nNobody can align or work toward one main mission.",
                 "children": []
               },
               {
                 "id": "stifling-homogenization",
-                "label": "Stifling Homogenization",
-                "description": "Over-standardization suppresses local adaptation, diverse perspectives, and experimental innovation.\nEnforcing rigid uniformity creates bureaucratic paralysis and renders the system incapable of surviving environmental disruptions.",
+                "label": "Too Uniform",
+                "description": "Too many strict rules crush new ideas and fresh thinking.\nRigid habits make the company unable to adapt.",
                 "children": []
               }
             ]
           },
           {
             "id": "integration-individuation",
-            "label": "Integration vs. Individuation",
-            "description": "Healthy systems honor the sovereign autonomy of the individual while cultivating deep, seamless interconnectedness across the collective.\nDisregarding either pole damages both individual morale and corporate performance.",
+            "label": "Together vs Individual",
+            "description": "Healthy groups support personal freedom while keeping teams tightly connected.\nIgnoring either side ruins both morale and output.",
             "children": [
               {
                 "id": "hyper-individuation",
-                "label": "Hyper-Individuation Pathology",
-                "description": "When members prioritize personal advancement and unfettered autonomy above systemic health, teamwork becomes purely transactional.\nThe commons deteriorates because no one feels obligated to nurture shared organizational infrastructure.",
+                "label": "Selfish Lone Wolves",
+                "description": "People chase solo goals and ignore team needs.\nShared tools and culture fall apart from neglect.",
                 "children": []
               },
               {
                 "id": "subsuming-integration",
-                "label": "Suffocating Collectivism",
-                "description": "When group consensus and collective conformity become tyrannical, individual creative sparks and critical thinking are extinguished.\nPeople self-censor their insights out of fear of disrupting superficial group harmony.",
+                "label": "Forced Group Harmony",
+                "description": "Pressure to agree kills creative spark and honest debate.\nStaff stay quiet just to avoid rocking the boat.",
                 "children": []
               }
             ]
@@ -1252,31 +1252,31 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       },
       {
         "id": "the-dance-of-blind-reflexes",
-        "label": "The Dance of Blind Reflexes",
-        "description": "When structural positions interact without systemic consciousness, they lock into reciprocal, self-reinforcing cycles of drama.\nEach party's defensive reaction validates the other party's worst suspicions, escalating systemic toxicity in an unconscious feedback loop.",
+        "label": "Blind Reaction Loops",
+        "description": "Unaware teams get stuck in toxic, repeating habits.\nOne person's panic triggers the other person's worst behavior.",
         "children": [
           {
             "id": "top-bottom-dance",
-            "label": "The Top-Bottom Dysfunctional Dance",
-            "description": "Tops perceive Bottoms as passive, ungrateful, and resistant, prompting Tops to tighten autocratic control and dictate solutions.\nBottoms feel disempowered and treated like machinery, which drives them further into sullen detachment and cynical defiance.",
+            "label": "Boss vs Worker",
+            "description": "Bosses micromanage because workers seem passive.\nWorkers then check out because they feel controlled.",
             "children": [
               {
                 "id": "burden-abdication-loop",
-                "label": "The Burden-Abdication Feedback Loop",
-                "description": "The more Tops over-function, the more Bottoms under-function.\nThis tragic dynamic tricks both sides into believing that the other party's inherent flaws are the sole cause of the organizational breakdown.",
+                "label": "Overworking and Giving Up",
+                "description": "The more leaders over-manage, the less workers try.\nBoth sides wrongly blame each other for failing.",
                 "children": []
               }
             ]
           },
           {
             "id": "middle-pulverization",
-            "label": "The Middle Pulverization Reflex",
-            "description": "Middles eagerly absorb problems tossed downward from Tops and complaints launched upward from Bottoms, attempting to please everyone individually.\nBy failing to link together as a unified peer group, they are crushed like grain between two heavy millstones.",
+            "label": "Crushed in Middle",
+            "description": "Managers try to please both bosses and staff at once.\nWithout peer support, they get flattened between them.",
             "children": [
               {
                 "id": "disintegrating-buffer",
-                "label": "The Disintegrating Human Cushion",
-                "description": "Unconscious Middles imagine their primary value lies in softening the blows between leadership and front lines.\nIn acting as a human shock absorber, they burn out while insulating the system from confronting its real structural tensions.",
+                "label": "Human Shock Absorber",
+                "description": "Managers try to soften every blow between top and bottom.\nThey burn out while hiding the real problems.",
                 "children": []
               }
             ]
@@ -1285,63 +1285,63 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       },
       {
         "id": "systemic-empowerment-and-partnership",
-        "label": "Systemic Empowerment and Master Partnership",
-        "description": "Transmuting systemic drama into high-order partnership requires conscious intervention tailored to each specific organizational world.\nBy recognizing our structural conditions, we can deliberately choose counter-instinctive, empowering behaviors that heal systemic ruptures.",
+        "label": "Building True Partnership",
+        "description": "We fix work drama by taking smart, conscious action in our roles.\nChoosing partnership over panic heals the organization.",
         "children": [
           {
             "id": "empowering-tops",
-            "label": "Empowering Tops: Creating Arenas of Responsibility",
-            "description": "Conscious Tops stop hoarding problems and cease playing omnipotent savior.\nInstead, they design collaborative arenas where other organizational members are invited, coached, and empowered to co-own strategic challenges.",
+            "label": "Smarter Leadership",
+            "description": "Great leaders stop trying to fix everything alone.\nThey invite everyone to take ownership of big challenges.",
             "children": [
               {
                 "id": "letting-go-control",
-                "label": "Disciplined Distribution of Burden",
-                "description": "Tops learn to tolerate the ambiguity of shared decision-making rather than snapping back into micro-managerial panic.\nThey shift their role from answering every question to curating the systemic questions that matter.",
+                "label": "Sharing the Load",
+                "description": "Leaders share decisions instead of micromanaging out of fear.\nThey ask great questions instead of having every answer.",
                 "children": []
               }
             ]
           },
           {
             "id": "empowering-bottoms",
-            "label": "Empowering Bottoms: Stepping into Co-Responsibility",
-            "description": "Conscious Bottoms consciously reject the narcotic comfort of victimhood and cynical carping.\nThey step forward as active business partners who contribute real-time operational truth and take co-ownership of systemic success.",
+            "label": "Empowering Frontline Staff",
+            "description": "Workers reject the urge to complain or play victim.\nThey act like true owners and help drive company success.",
             "children": [
               {
                 "id": "grassroots-ownership",
-                "label": "Grassroots Problem Ownership",
-                "description": "Rather than waiting for executive permission or complaining at watercoolers, Bottoms self-organize to resolve localized operational bottlenecks.\nThey reframe their identity from hired hands to empowered system stewards.",
+                "label": "Fixing Local Problems",
+                "description": "Staff solve local bottlenecks without waiting for orders.\nThey treat the business as their own shared project.",
                 "children": []
               }
             ]
           },
           {
             "id": "empowering-middles",
-            "label": "Empowering Middles: Integrating into a Unified Force",
-            "description": "The salvation of Middles lies in resisting immediate bilateral pulling and deliberately connecting horizontally with fellow Middles.\nUnited into a cohesive leadership consortium, Middles become the strategic nerve center of the entire organization.",
+            "label": "Uniting Middle Managers",
+            "description": "Middle managers must connect with each other across departments.\nTogether, they turn into the company's strongest guiding force.",
             "children": [
               {
                 "id": "middle-integration-nodes",
-                "label": "Forming Horizontal Integrations",
-                "description": "When Middles meet regularly to synthesize cross-functional realities, they neutralize the systemic tearing force.\nThey transform from weak intermediary conduits into an influential body that shapes strategic policy.",
+                "label": "Joining Peer Forces",
+                "description": "Managers meet across teams to share real daily insights.\nThis stops the tearing feeling and builds real influence.",
                 "children": []
               },
               {
                 "id": "coaching-tiers",
-                "label": "Coaching Above and Below",
-                "description": "Conscious Middles stop taking problems away from others.\nInstead, they coach Tops to share systemic context and guide Bottoms in resolving their own operational disputes directly.",
+                "label": "Coaching Both Sides",
+                "description": "Managers stop solving other people's petty battles.\nThey guide leaders to share context and help workers talk directly.",
                 "children": []
               }
             ]
           },
           {
             "id": "partnering-customers",
-            "label": "Partnering Customers: Co-Creating Shared Value",
-            "description": "Conscious customer relationships evolve from transactional consumerism into shared-destiny alliances.\nBy cultivating mutual visibility into operational complexities, customers and providers solve systemic challenges together.",
+            "label": "Partnering with Customers",
+            "description": "Treat customer relationships as true team partnerships.\nSharing how work gets done builds trust on both sides.",
             "children": [
               {
                 "id": "transparent-delivery-ecosystem",
-                "label": "Transparent Ecosystem Engagement",
-                "description": "Organizations demystify internal delivery constraints, and clients step inside the process as co-designers.\nThis joint alignment transforms adversarial friction into a long-term symbiotic collaboration.",
+                "label": "Working Together Openly",
+                "description": "Companies show clients the real delivery challenges clearly.\nClients become partners instead of critics.",
                 "children": []
               }
             ]
@@ -1350,31 +1350,31 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
       },
       {
         "id": "system-sight-practice",
-        "label": "The Daily Practice of System Sight",
-        "description": "Seeing systems is an ongoing discipline of mindful cognitive reframing rather than an intellectual theory.\nPractitioners develop the habit of stepping out of the emotional drama to ask systemic questions, thereby restoring agency, compassion, and effectiveness to organizational life.",
+        "label": "Daily System Sight",
+        "description": "Seeing systems is a daily habit of stepping back from drama.\nAsking system questions brings calm, empathy, and clear results.",
         "children": [
           {
             "id": "spatial-empathy",
-            "label": "Cultivating Spatial Empathy",
-            "description": "Before judging a colleague's frustrating behavior, systemically conscious individuals ask: 'What structural forces, pressures, and blind spots govern the world they inhabit?' This inquiry replaces moral condemnation with pragmatic insight.",
+            "label": "Understanding Others' Roles",
+            "description": "Ask what pressures other people face before judging them.\nCuriosity replaces anger with helpful insight.",
             "children": [
               {
                 "id": "reframing-conflict",
-                "label": "Reframing Conflict as Systemic Signal",
-                "description": "Interpersonal friction is recognized not as an aberration to be punished, but as valuable diagnostic data highlighting an underlying systemic disconnect.\nThis perspective turns painful discord into an engine for organizational renewal.",
+                "label": "Conflict as Clues",
+                "description": "Treat arguments as useful signs of a broken process.\nThis turns painful fights into fixes that improve work.",
                 "children": []
               }
             ]
           },
           {
             "id": "living-as-system-actor",
-            "label": "Living as a Conscious System Actor",
-            "description": "The ultimate systemic liberation is realizing that you are neither a helpless cog nor an isolated individual hero.\nYou are an energetic node within an interconnected living fabric, possessing the power to introduce sanity and partnership wherever you stand.",
+            "label": "Stepping Up Daily",
+            "description": "You are not a helpless cog in the machine.\nYou have the power to bring calm wherever you stand.",
             "children": [
               {
                 "id": "mindful-disruption",
-                "label": "Mindful Disruption of Broken Dances",
-                "description": "By deliberately refusing to execute our conditioned, reflexive knee-jerk moves, we single-handedly interrupt toxic systemic feedback loops.\nOne conscious actor choosing partnership over panic can transform the entire organizational dynamic.",
+                "label": "Stopping Bad Cycles",
+                "description": "Refusing to react defensively breaks toxic team habits.\nOne calm person can shift the whole company dynamic.",
                 "children": []
               }
             ]

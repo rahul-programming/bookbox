@@ -1,5 +1,5 @@
 // Scale by Geoffrey West
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -499,169 +499,169 @@ export const SCALE_BOOK: Book = {
   "actionItems": [
     {
       "id": "scale-act-1",
-      "title": "Sublinear Pace Calibration",
-      "description": "Biological organisms scale sublinearly: larger animals live slower, calmer lives per unit of mass. Test this metabolic brake on your daily stress by slowing your physical cadence to trigger parasympathetic recovery.",
+      "title": "Slow Your Body Down",
+      "description": "Big animals move slower and stay calmer than small ones. Cut your physical speed today to quickly lower stress.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Pick a routine physical action you are doing right now (walking between rooms, typing an email, or sipping water).",
-        "Consciously downshift your movement speed by exactly 30% for the next 3 minutes.",
-        "Observe your respiratory rhythm and note how rapid physical pacing artificially signals crisis to your nervous system.",
-        "Use this deliberate sublinear pacing whenever you notice systemic stress escalating."
+        "Pick a simple physical task like walking or typing.",
+        "Slow your speed down by about one third.",
+        "Keep moving slowly for the next three minutes straight.",
+        "Notice how your breath relaxes and calms your mind."
       ],
       "sourceChapter": "Chapter 2: The Measure of All Things: An Introduction to Scaling"
     },
     {
       "id": "scale-act-2",
-      "title": "Capillary Bottleneck Clearout",
-      "description": "In fractal distribution networks like the circulatory system, terminal units (capillaries) govern delivery speed. Find the single administrative bottleneck currently choking your flow of creative energy.",
+      "title": "Clear One Tiny Bottleneck",
+      "description": "Tiny blood vessels control how fast blood moves through you. Clearing one tiny block frees up your entire project.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Identify one project where progress feels unnaturally sluggish.",
-        "Trace backwards to find the microscopic pinch point\u2014the tiny unmade decision, unanswered ping, or missing link.",
-        "Directly execute or clear that specific micro-barrier within 10 minutes without over-engineering.",
-        "Observe how fluid circulation immediately resumes across the entire project network."
+        "Pick one project that feels totally stuck right now.",
+        "Find the single unmade decision holding things up.",
+        "Finish that tiny task within ten quick minutes.",
+        "Watch your project start moving forward right away."
       ],
       "sourceChapter": "Chapter 3: The Simplicity, Unity, and Complexity of Life"
     },
     {
       "id": "scale-act-3",
-      "title": "Metabolic Energy Ingestion Log",
-      "description": "Living systems strictly adhere to Kleiber's Law, balancing energy input against structural maintenance. Audit your cognitive energy intake across the day to see where metabolic drag outpaces output.",
+      "title": "Track Your Daily Energy",
+      "description": "Living bodies carefully balance energy input against daily repair costs. Track your energy to see what recharges or drains you.",
       "category": "daily-routine",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "At the end of your workday, list the top 4 activities that consumed your attention.",
-        "Tag each item as either 'Net Generator' (supplied vitality) or 'Metabolic Drag' (consumed energy without regeneration).",
-        "Calculate the approximate ratio between energy investment and productive maintenance.",
-        "Schedule tomorrow's hardest cognitive sprint during your peak metabolic window before drag accumulates."
+        "List the four biggest tasks you tackled today.",
+        "Label each task as an energy giver or drainer.",
+        "Count how many drains took up your workday.",
+        "Schedule tomorrow's hardest work during your best hour."
       ],
       "sourceChapter": "Chapter 4: The Fourth Dimension of Life: Fractal Geometry and Allometric Scaling"
     },
     {
       "id": "scale-act-4",
-      "title": "Superlinear Social Collisions",
-      "description": "Cities scale superlinearly: doubling city size yields roughly 115% in wages, patents, and crime due to human interaction density. Intentionally engineer high-leverage social cross-pollination daily.",
+      "title": "Talk to Someone New",
+      "description": "Cities grow richer when different kinds of people connect. Chatting outside your normal circle sparks brand new ideas.",
       "category": "daily-routine",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Identify one person outside your immediate functional specialty or team.",
-        "Send an unprompted, curiosity-driven note asking what non-obvious problem they are currently untangling.",
-        "Exchange one insight or mental model connecting their domain to yours.",
-        "Track unexpected solutions sparked by this deliberate edge-node collision."
+        "Pick one person outside your normal work team.",
+        "Send a quick note asking what they work on.",
+        "Share one helpful tip from your own field.",
+        "Write down any fresh ideas from that chat."
       ],
       "sourceChapter": "Chapter 7: Toward a Science of Cities"
     },
     {
       "id": "scale-act-5",
-      "title": "Fractal Desktop Architecture",
-      "description": "Natural distribution networks maximize surface contact while minimizing internal transport friction. Redesign your digital workspace around branching hierarchies rather than flat visual chaos.",
+      "title": "Clean Your Computer Desktop",
+      "description": "Tree branches deliver nutrients cleanly without clutter getting in the way. Organize your computer folders in clean simple groups.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Clear every loose file, stray screenshot, and temporary folder from your operating desktop.",
-        "Create 3 hierarchically branched root nodes: 'Active Engines' (live projects), 'Nutrient Archives' (reference material), and 'Output Terminal' (completed work).",
-        "Limit each folder tier to a maximum of 5 sub-branches to maintain clean geometric tree traversal.",
-        "Test navigating to any active asset in 3 clicks or fewer to minimize cognitive transport cost."
+        "Delete or move every stray file on your desktop.",
+        "Make three folders for live work, notes, and finished projects.",
+        "Keep no more than five subfolders inside each group.",
+        "Check that you can find any file in three clicks."
       ],
       "sourceChapter": "Chapter 4: The Fourth Dimension of Life: Fractal Geometry and Allometric Scaling"
     },
     {
       "id": "scale-act-6",
-      "title": "Serendipity Density Workspace Design",
-      "description": "Urban innovation flourishes where pedestrian pathways naturally intersect, sparking unplanned conceptual collisions. Arrange your physical environment to create fertile, incidental crossover points.",
+      "title": "Set Up An Idea Spot",
+      "description": "Great ideas happen where busy walking paths naturally cross each other. Place inspiring tools right where you walk every day.",
       "category": "environment",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Audit the primary traffic vectors in your home office or team space (coffee station, whiteboard, entry door).",
-        "Relocate one provocative input\u2014such as an open sketchbook, physical book, or whiteboard\u2014directly into that transit line.",
-        "Remove visual dividers or acoustic isolation barriers that prevent peripheral sensory awareness.",
-        "Commit to pausing for 60 seconds whenever your path intersects this artifact to record a spontaneous thought."
+        "Find the busiest walking spot in your room or office.",
+        "Place a notebook or whiteboard right in that spot.",
+        "Clear away clutter that blocks your view of it.",
+        "Pause for one minute whenever you walk by to write."
       ],
       "sourceChapter": "Chapter 8: Consequences and Predictions: From Mobility to the Pace of Life"
     },
     {
       "id": "scale-act-7",
-      "title": "Terminal Entropic Wear Audit",
-      "description": "Aging and mortality in complex organisms stem from the inescapable accumulation of molecular and cellular damage. Pinpoint structural wear-and-tear inside your operational workflows before failure strikes.",
+      "title": "Fix Broken Work Habits",
+      "description": "Bodies wear down over time as small damages build up inside. Find messy steps in your daily workflow before everything breaks.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Select your core personal workflow (e.g., how you capture tasks, manage projects, or ship deliverables).",
-        "Map out each step where manual transcription, duplicate record-keeping, or cognitive duct-tape is applied.",
-        "Score each friction point on an 'Entropic Degradation' scale from 1 (minor noise) to 5 (imminent systemic breakdown).",
-        "Flag the highest-scoring step for scheduled preventive repair before operational fatigue causes a total freeze."
+        "Pick the main way you manage your daily tasks.",
+        "Spot where you do annoying, repetitive copy-paste work.",
+        "Rate each messy step from low to high risk.",
+        "Fix the worst step this week to save time."
       ],
       "sourceChapter": "Chapter 5: From the Big Bang to the Big Crunch: Growth and Mortality"
     },
     {
       "id": "scale-act-8",
-      "title": "Corporate Senescence Diagnostic",
-      "description": "Unlike immortal cities, companies scale sublinearly like organisms and inevitably die because bureaucracy suffocates innovation. Audit your organization or projects for early symptoms of corporate ossification.",
+      "title": "Spot Useless Busywork",
+      "description": "Companies die when red tape chokes out fresh creative ideas. Check your schedule to cut down useless upkeep tasks.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Review your team's weekly calendar and categorize meetings into 'Exploration' vs. 'Administrative Maintenance'.",
-        "Calculate what percentage of resources is spent preserving existing protocol versus creating novel value.",
-        "Check if the ratio exceeds 70% maintenance\u2014a proven mathematical indicator of organizational senescence.",
-        "Draft one specific proposal to strip out redundant governance layers or automate compliance."
+        "Review your team meetings over the past full week.",
+        "Split them into new creative work versus routine maintenance.",
+        "Notice if routine meetings take over most of your time.",
+        "Suggest dropping or shortening one pointless recurring meeting."
       ],
       "sourceChapter": "Chapter 9: Toward a Science of Companies: Why Do Companies Die?"
     },
     {
       "id": "scale-act-9",
-      "title": "Finite-Time Singularity Circuit Breaker",
-      "description": "Superlinear growth in human civilizations accelerates the pace of life, demanding ever-faster cycles of innovation to avoid collapse. Build an intentional buffer mechanism to prevent systemic burnout.",
+      "title": "Set A Work Speed Limit",
+      "description": "Rushing faster and faster leads straight to sudden exhaustion and burnout. Put a firm ceiling on your working hours to stay healthy.",
       "category": "system",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Identify any area where your pace has accelerated unsustainably (e.g., reply velocity, release cycles, sprint cadence).",
-        "Establish an inviolable operational speed limit (e.g., zero work pings after 7 PM, mandatory Friday cooldown hour).",
-        "Codify an automated circuit breaker: if backlog surpasses a defined ceiling, freeze incoming commitments automatically.",
-        "Communicate this systemic threshold to collaborators to establish a shared equilibrium boundary."
+        "Pick one area where your pace feels way too fast.",
+        "Set a strict stop time for sending work messages.",
+        "Pause all new tasks when your backlog gets too full.",
+        "Tell your teammates about these clear new boundaries."
       ],
       "sourceChapter": "Chapter 10: The Accelerating Treadmill: From the Industrial Revolution to the Future of Humanity"
     },
     {
       "id": "scale-act-10",
-      "title": "Fractal Information Pruning Protocol",
-      "description": "Biological vascular trees achieve maximum efficiency through self-similar pruning that keeps terminal branches clean. Implement an invariant weekly routine to prune decaying ideas and dead obligations.",
+      "title": "Prune Old Tasks Weekly",
+      "description": "Healthy plants stay strong by shedding dead wood and old leaves. Clear out stale chores that no longer matter to you.",
       "category": "system",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Open your active to-do list, project board, or open browser tabs.",
-        "Apply the self-similar scale test: does this individual task directly serve the primary mission of the macro-organism?",
-        "Ruthlessly archive or delete any item lingering past 21 days without forward velocity.",
-        "Document the deleted nodes in an inactive repository so fear of missing out does not stall the pruning process."
+        "Open your active to-do list and look closely at it.",
+        "Ask if each task still supports your primary goal.",
+        "Delete or archive tasks sitting untouched for three weeks.",
+        "Keep your active task list short and easy to scan."
       ],
       "sourceChapter": "Chapter 4: The Fourth Dimension of Life: Fractal Geometry and Allometric Scaling"
     },
     {
       "id": "scale-act-11",
-      "title": "Pace-of-Life Environmental Sounding",
-      "description": "Geoffrey West proved that average pedestrian walking speed increases predictably with city population. Measure the subtle pacing shifts in your daily habitat to calibrate your nervous system against hyper-acceleration.",
+      "title": "Notice The Crowd's Speed",
+      "description": "People in bigger cities naturally walk and rush much faster. Watch how fast others move so you can guard your own peace.",
       "category": "audit",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Visit a public hub or shared office floor during peak operational hours.",
-        "Pick a fixed 20-meter stretch and unobtrusively observe the traversal tempo and body language of passersby.",
-        "Notice whether people move with fluid economy or rushed, hyper-compressed tension.",
-        "Reflect on how this collective tempo unconsciously hijacks your baseline cortisol levels, and deliberately recalibrate your inner clock."
+        "Sit in a busy hallway, street corner, or coffee shop.",
+        "Watch people walk by for five straight minutes.",
+        "Notice whether people look relaxed or tightly wound.",
+        "Take a slow breath to reset your own calm speed."
       ],
       "sourceChapter": "Chapter 8: Consequences and Predictions: From Mobility to the Pace of Life"
     },
     {
       "id": "scale-act-12",
-      "title": "Cross-Scale Feedback Loop Architecture",
-      "description": "Resilient systems survive by linking micro-level sensory inputs to macro-level governance models through closed feedback loops. Construct an explicit feedback loop connecting daily reality to quarterly strategy.",
+      "title": "Link Daily Steps To Goals",
+      "description": "Strong systems connect small daily clues to big long-term plans. Track one daily habit to steer your larger goals forward.",
       "category": "system",
       "timeEstimateMinutes": 35,
       "stepByStep": [
-        "Define 1 vital micro-metric that reveals ground-level health every day (e.g., deep work hours logged or customer complaints received).",
-        "Build a simple single-page dashboard or paper tracker displaying this metric across rolling 7-day windows.",
-        "Set an explicit macro trigger: if the 7-day rolling average drops below threshold, trigger an immediate strategic retrospective.",
-        "Run the feedback loop for 14 days, verifying that micro-signals actively shape high-level resource distribution."
+        "Pick one daily number that shows if work goes well.",
+        "Write down that number every day on a simple page.",
+        "Check your numbers at the end of every single week.",
+        "Change your big plans if the daily numbers drop low."
       ],
       "sourceChapter": "Chapter 6: The Uniqueness of the Urban Organism: Cities, Sustainability, and the Environment"
     }
@@ -838,10 +838,10 @@ export const SCALE_BOOK: Book = {
       "author": "Geoffrey West",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Kleiber's Law: The Economy of Scale in Biology",
-      "body": "Across the entire mammalian kingdom, metabolic rate does not scale one-to-one with body mass, but to the 3/4 power.\nWhen an organism doubles in size, it requires only 75% more food and energy, making large organisms vastly more energetically efficient per gram of tissue than small ones.",
+      "headline": "Bigger Means More Efficient",
+      "body": "Bigger animals need less food per pound to survive.\nWhen an animal doubles in size, its energy needs only rise seventy-five percent.\nNature saves energy by building bigger bodies.",
       "quote": "A cat does not eat a hundred times more than a mouse, even though it weighs a hundred times more.",
-      "actionItem": "Consolidate fragmented, small-scale operational tasks into unified systems to capture metabolic overhead savings.",
+      "actionItem": "Combine small daily tasks into one bigger batch to save energy.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -859,10 +859,10 @@ export const SCALE_BOOK: Book = {
       "author": "Geoffrey West",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Universal Heartbeat Quota",
-      "body": "Despite extreme disparities in life span, almost all mammals share an approximately invariant lifetime count of roughly 1.5 billion heartbeats.\nA shrew exhausts this biological budget in a frantic two years, while an elephant paces itself gracefully across six decades.",
+      "headline": "The Shared Heartbeat Bank",
+      "body": "Almost every mammal gets about one point five billion heartbeats in a lifetime.\nSmall animals burn through them fast and die young.\nHuge animals beat slowly and live for decades.",
       "quote": "Regardless of whether an animal lives for three years or thirty, the total number of heartbeats per lifetime is roughly the same across all mammals.",
-      "actionItem": "Treat your daily attentional and physiological reserves as finite, unalterable quotas rather than elastic resources.",
+      "actionItem": "Treat your daily energy like a fixed bank account that runs out.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -880,10 +880,10 @@ export const SCALE_BOOK: Book = {
       "author": "Geoffrey West",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Fractal Distribution Networks",
-      "body": "Life overcomes the tyranny of volume-to-surface-area ratios by deploying space-filling, self-similar branching architectures.\nFrom vascular networks to bronchial trees, fractal design maximizes terminal contact area while minimizing the hydrodynamic energy needed to transport nutrients.",
+      "headline": "Tree Branch Networks",
+      "body": "Living bodies use branching networks like trees to feed every single cell.\nBig branches split into smaller twigs without wasting pumping power.\nThis pattern spreads resources everywhere with very little effort.",
       "quote": "Nature has evolved hierarchical fractal networks that effectively add an extra fourth dimension to three-dimensional organisms.",
-      "actionItem": "Design delegation and communication channels in your team like self-similar branches that preserve signal clarity to every edge node.",
+      "actionItem": "Share company updates through clear, branching team leads so no one is missed.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -901,10 +901,10 @@ export const SCALE_BOOK: Book = {
       "author": "Geoffrey West",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Sublinear vs. Superlinear Scaling",
-      "body": "Biological infrastructure scales sublinearly (exponent < 1), exhibiting slowing biological clocks and economies of scale.\nIn contrast, urban social dynamics scale superlinearly (exponent \u2248 1.15), meaning creative output, crime, wealth, and systemic velocity accelerate as density increases.",
+      "headline": "Bodies Slow Down, Cities Speed Up",
+      "body": "Animals slow down their pace as they grow larger.\nCities do the exact opposite as they grow bigger.\nMore people packed together creates more wealth, crime, and rapid change.",
       "quote": "In biology, as things get bigger, they slow down; in cities, as things get bigger, life speeds up.",
-      "actionItem": "Distinguish between operational systems requiring sublinear cost containment and generative networks requiring superlinear interaction.",
+      "actionItem": "Move to busy places when you need fast action and creative sparks.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -922,10 +922,10 @@ export const SCALE_BOOK: Book = {
       "author": "Geoffrey West",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Urban 15% Bonus",
-      "body": "Whenever a city doubles its population size, it systematically delivers a 15% savings on municipal infrastructure (roads, electrical cables, gas stations) alongside a 15% systematic boost in patents, wages, contagions, and creative collaboration.",
+      "headline": "The Fifteen Percent Rule",
+      "body": "Doubling a city's size cuts fifteen percent off its shared pipe costs.\nAt the same time, it adds fifteen percent more wealth and ideas.\nDensity creates massive bonuses for everyone living there.",
       "quote": "Every doubling of a city's size yields an approximate 15 percent bonus across nearly all socioeconomic metrics.",
-      "actionItem": "Position your most ambitious collaborative projects in high-density cultural or digital hubs to harvest the 15% network surplus.",
+      "actionItem": "Launch your new projects inside active communities to gain free momentum.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -943,10 +943,10 @@ export const SCALE_BOOK: Book = {
       "author": "Geoffrey West",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Aging as Entropic Wear and Tear",
-      "body": "Aging is not a programmed self-destruct gene; it is the physical accumulation of unrepaired damage caused by the fluid friction of pumping metabolites through billions of microscopic capillary branches.\nThermodynamics always wins against biological maintenance.",
+      "headline": "Wear and Tear",
+      "body": "Aging is simple wear and tear inside our tiny tubes.\nPumping fluids every second damages blood vessels over time.\nEventually, the body cannot repair all the tiny breaks.",
       "quote": "Aging and mortality are the inevitable collateral damage of the metabolic energy dissipation required to sustain life.",
-      "actionItem": "Identify and systematically buffer chronic, low-grade friction in your daily health and workflow routines to retard systemic wear.",
+      "actionItem": "Cut out chronic daily stress before it damages your body permanently.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -964,10 +964,10 @@ export const SCALE_BOOK: Book = {
       "author": "Geoffrey West",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Why Companies Die While Cities Endure",
-      "body": "Cities almost never die because they function as open-ended, superlinear social reactors that continually welcome diverse entropy.\nCompanies, conversely, morph into monolithic, sublinear organisms optimized solely for operational efficiency, making them fragile and vulnerable to mortality.",
+      "headline": "Why Companies Die",
+      "body": "Cities welcome messy change, so they survive for thousands of years.\nCompanies focus entirely on saving pennies, so they stop trying new ideas.\nThat rigid focus makes them fragile until they collapse.",
       "quote": "Companies are dominated by economies of scale rather than innovation, which is why nearly all of them eventually die.",
-      "actionItem": "Carve out protected zones for experimental, non-hierarchical exploration within your organization to prevent bureaucratic ossification.",
+      "actionItem": "Give your team time to test wild ideas without fear of failure.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -985,10 +985,10 @@ export const SCALE_BOOK: Book = {
       "author": "Geoffrey West",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Finite-Time Singularity Trap",
-      "body": "Superlinear growth is inherently unbounded and mathematically predicts an impossible infinite output within a finite time horizon.\nThe inevitable systemic result is catastrophic collapse unless the underlying growth curve is reset by a paradigm-shifting technological or cultural discovery.",
+      "headline": "The Crash Point",
+      "body": "Fast runaway growth cannot go on forever in real life.\nIf growth never stops, the whole system eventually runs out of room.\nIt will crash hard unless someone invents a new way forward.",
       "quote": "The fatal consequence of superlinear scaling is that it drives systems toward a finite-time singularity where the system must inevitably collapse.",
-      "actionItem": "Anticipate the natural saturation points of your current business model before growth abruptly stalls.",
+      "actionItem": "Spot the limits of your current plan before growth suddenly hits a wall.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1006,10 +1006,10 @@ export const SCALE_BOOK: Book = {
       "author": "Geoffrey West",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Accelerating Treadmill of Innovation",
-      "body": "Because each innovation resets the singularity clock, and because subsequent superlinear cycles must operate faster than their predecessors, the intervals between paradigm shifts (e.g., Stone Age to Bronze Age vs.\nIndustrial to Information Age) shrink at an exponential pace.",
+      "headline": "The Speeding Treadmill",
+      "body": "Major inventions reset our countdown clocks and keep society alive.\nHowever, the gap between big breakthroughs keeps getting shorter every century.\nWe must run faster and faster just to stay in place.",
       "quote": "We are on an accelerating treadmill where the time between successive major innovations must continually decrease to avert collapse.",
-      "actionItem": "Build modular, flexible skills rather than hyper-specialized routines that become obsolete when the cycle resets.",
+      "actionItem": "Learn flexible core skills instead of narrow tools that go out of date.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1027,10 +1027,10 @@ export const SCALE_BOOK: Book = {
       "author": "Geoffrey West",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Tune Your Ambient Pace to Match Your Task",
-      "body": "Pedestrian walking speeds scale superlinearly with city population; larger cities physically force humans to move and process faster.\nFast urban cadences favor rapid transactional execution, while deliberate, slow-cadence environments foster deep reflection and physiological restoration.",
+      "headline": "Match Your Speed",
+      "body": "People walk significantly faster when they live in larger cities.\nFast places help you get daily deals done in record time.\nSlow places give your mind space to rest and think deeply.",
       "quote": "People actually walk faster in bigger cities, driven by the superlinear pace of socioeconomic exchange.",
-      "actionItem": "Schedule high-speed execution tasks during fast urban days, and retreat to low-pace environments for deep strategic synthesis.",
+      "actionItem": "Work in busy spots for fast tasks, but plan strategy in quiet spots.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1048,10 +1048,10 @@ export const SCALE_BOOK: Book = {
       "author": "Geoffrey West",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Architect Low-Friction Information Arteries",
-      "body": "In circulatory networks, pulsating blood slows to a quiet, steady glide at the terminal capillaries to optimize oxygen transfer without rupturing delicate membranes.\nInformation workflows must mirror this: wide, frictionless highways must transition to gentle, low-noise absorption at the individual level.",
+      "headline": "Slow Down The Stream",
+      "body": "Fast-moving blood slows down gently before entering tiny vessels.\nThat slow glide protects fragile tissues from bursting under pressure.\nWork updates should also slow down before reaching busy workers.",
       "quote": "The branching structure systematically decreases the velocity of flow so that metabolic exchange at the capillary level can occur smoothly.",
-      "actionItem": "Batch asynchronous status reports into streamlined summaries to prevent high-velocity communication from overwhelming focused work.",
+      "actionItem": "Send short daily summaries instead of constant pings throughout the workday.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1069,10 +1069,10 @@ export const SCALE_BOOK: Book = {
       "author": "Geoffrey West",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Four-Dimensional Biology Illusion",
-      "body": "Natural selection maximizes effective biological volume by folding space-filling fractal surfaces across internal spaces.\nA human lung packs the surface area of an entire tennis court into a tiny chest cavity, functioning geometrically as if it occupied four spatial dimensions.",
+      "headline": "Hidden Surface Space",
+      "body": "Nature folds vast surfaces into tiny spaces inside living bodies.\nA human lung holds the surface of a whole tennis court.\nTight folds allow massive exchanges to happen inside small chests.",
       "quote": "By using fractal geometry, natural selection has enabled three-dimensional organisms to behave as if they were four-dimensional.",
-      "actionItem": "Organize your knowledge archives with hierarchical, tagged sub-nodes that maximize searchable surface area in a compact footprint.",
+      "actionItem": "Organize your notes into tight folders so they are easy to search later.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1090,10 +1090,10 @@ export const SCALE_BOOK: Book = {
       "author": "Geoffrey West",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Underlying Unity of Living Things",
-      "body": "Underneath the bewildering diversity of life\u2014from cedar trees to blue whales to human beings\u2014lies a rigorous mathematical simplicity governing growth, metabolism, and death via universal scaling laws.",
+      "headline": "Nature's Simple Rules",
+      "body": "All living creatures seem completely different from each other on the surface.\nYet trees, mice, and whales follow the exact same growth numbers.\nSimple math runs the entire living world behind the scenes.",
       "quote": "Beneath the extraordinary diversity of living systems lies an astonishing simplicity, governed by universal mathematical principles that scale across twenty orders of magnitude.",
-      "actionItem": "Look past superficial surface variations to identify the governing mathematical principles in any complex system you analyze.",
+      "actionItem": "Look past surface clutter to find the simple rules driving any problem.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1111,10 +1111,10 @@ export const SCALE_BOOK: Book = {
       "author": "Geoffrey West",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Terminal Units Are Invariant",
-      "body": "Regardless of whether a mammal weighs five grams or five tons, the size and operational parameters of its terminal building blocks\u2014cells, capillaries, and mitochondria\u2014remain fundamentally identical across scales.",
+      "headline": "Standard Building Blocks",
+      "body": "A blue whale is huge, but its cells are not huge.\nIts cells are the exact same size as mouse cells.\nNature grows bigger bodies by adding more standard blocks, not bigger ones.",
       "quote": "The fundamental terminal units of life, like cells and capillaries, are essentially the same size across all mammals, from shrews to whales.",
-      "actionItem": "Standardize your organization's atomic units of work (meeting agendas, bug tickets, sprint logs) regardless of overall project scale.",
+      "actionItem": "Keep your daily meeting notes the same size, no matter how big the project.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1132,10 +1132,10 @@ export const SCALE_BOOK: Book = {
       "author": "Geoffrey West",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Calculate Your Network Maintenance Tax",
-      "body": "As systems expand, the metabolic budget diverted purely to servicing and maintaining the transport network grows disproportionately.\nIf unmonitored, internal administration and coordination costs will consume all available energy, halting productive growth.",
+      "headline": "The Delivery Tax",
+      "body": "As any network grows, running the delivery pipes costs more fuel.\nEventually, caring for the system can eat up all available resources.\nThat leaves zero fuel for new growth or actual work.",
       "quote": "A growing portion of metabolic energy must be allocated to maintaining the distribution network itself.",
-      "actionItem": "Audit project overhead monthly; eliminate coordination layers that consume more cognitive resources than the value they distribute.",
+      "actionItem": "Review your weekly meetings and cut those that waste team time.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1153,10 +1153,10 @@ export const SCALE_BOOK: Book = {
       "author": "Geoffrey West",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Inevitability of Corporate Mortality",
-      "body": "The drive for predictable quarterly margins forces companies to enforce administrative conformity, starving the chaotic exploratory interactions that originally created their market leadership.",
+      "headline": "The Death of Giants",
+      "body": "Companies chase steady profits and punish any messy experiments.\nOver time, strict rules choke out the original spark that built them.\nWithout bold risks, even giant businesses wither and disappear.",
       "quote": "As companies grow, they trade innovation for efficiency, inadvertently sewing the seeds of their own inevitable demise.",
-      "actionItem": "Protect a dedicated percentage of capital and talent explicitly for high-variance, unconstrained experimentation.",
+      "actionItem": "Set aside time each week just to test unusual ideas.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1174,10 +1174,10 @@ export const SCALE_BOOK: Book = {
       "author": "Geoffrey West",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Social Reactor Theory",
-      "body": "A city is not merely a collection of buildings, roads, and sewers; it is an optimized physical crucible designed to maximize human collisions, interactions, and serendipitous idea recombination per unit of space-time.",
+      "headline": "The People Mixer",
+      "body": "A city is not just concrete and asphalt.\nIt is an engine built to smash people and ideas together.\nWhen people run into each other often, new inventions happen naturally.",
       "quote": "Cities are machines for social interaction, physical crucibles that facilitate the exchange of ideas, goods, and energy.",
-      "actionItem": "Configure your physical workspace and team calendar to trigger unscheduled, cross-functional conversations.",
+      "actionItem": "Set up shared coffee spots to spark accidental talks across teams.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1195,10 +1195,10 @@ export const SCALE_BOOK: Book = {
       "author": "Geoffrey West",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Preserve Anti-Fragile Redundancy",
-      "body": "Biological vascular systems maintain redundant bypass capillaries to ensure survival during local trauma.\nOver-optimized, single-path systems may maximize immediate economic yield, but they invite catastrophic failure under unexpected shocks.",
+      "headline": "Keep Backup Paths",
+      "body": "Bodies keep spare vessels ready in case one gets blocked.\nA system with only one path can break down completely during shocks.\nExtra backup routes keep the whole network alive under stress.",
       "quote": "Optimizing a network exclusively for efficiency removes the essential redundancy that protects biological systems from fatal collapse.",
-      "actionItem": "Establish dual operational pathways for critical financial, technical, and supply dependencies to guarantee survival during stress.",
+      "actionItem": "Always prepare a second supplier for your most important business needs.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1216,10 +1216,10 @@ export const SCALE_BOOK: Book = {
       "author": "Geoffrey West",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Thermodynamic Toll of Civilization",
-      "body": "No socio-technical system can sidestep the Second Law of Thermodynamics.\nThe rapid creation of complex urban order and wealth demands an equal or greater export of disordered entropy\u2014waste heat, environmental degradation, and resource depletion\u2014into the biosphere.",
+      "headline": "The Price of Order",
+      "body": "Every clean, wealthy city pushes dirt and heat out into the world.\nYou cannot create new order without creating waste somewhere else.\nEvery step forward in wealth carries a real environmental bill.",
       "quote": "All the wealth and creative brilliance of our civilizations come at the unavoidable thermodynamic price of dissipating entropy into our environment.",
-      "actionItem": "Account for environmental and psychological cleanup costs when assessing the true ROI of aggressive expansion plans.",
+      "actionItem": "Count the hidden waste and cleanup costs before starting a big project.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1237,10 +1237,10 @@ export const SCALE_BOOK: Book = {
       "author": "Geoffrey West",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Decouple Identity from Accelerating Cycles",
-      "body": "Because collective human systems speed up superlinearly, personal equilibrium requires deliberately decoupling internal self-worth from the dizzying tempo of modern social and market updates.",
+      "headline": "Protect Your Pace",
+      "body": "Modern life speeds up every year, but human bodies cannot keep pace.\nChasing every alert burns out your mind and ruins your health.\nYou must deliberately step away from the noise to stay healthy.",
       "quote": "To survive on the accelerating treadmill of modernity, one must recognize that biological life is calibrated for rhythm, not perpetual acceleration.",
-      "actionItem": "Incorporate fixed, non-digital sabbatical windows into your weekly rhythm to recalibrate your internal metabolic pace.",
+      "actionItem": "Turn off all screens for one full day every weekend to recharge.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1254,62 +1254,68 @@ export const SCALE_BOOK: Book = {
   ],
   "mindMap": {
     "id": "scale-root",
-    "label": "Scale: The Universal Laws of Life, Growth, and Death",
-    "description": "Geoffrey West reveals that behind the messy complexity of living organisms, sprawling cities, and multinational corporations lies an astonishing mathematical order.\nBy viewing reality through the lens of scaling laws and network geometry, we discover the universal heartbeat connecting an elephant, a metropolis, and a startup.",
+    "label": "Universal Rules of Scale",
+    "description": "Simple hidden math rules control living bodies, big cities, and businesses.\nThese patterns explain how things grow, live, and die.",
     "children": [
       {
         "id": "theme-foundations",
-        "label": "The Hidden Mathematics of Scaling",
-        "description": "From microbes to blue whales, living systems do not scale in simple, straightforward proportions.\nInstead, physical constraints govern the flow of energy and nutrients through branching networks, giving rise to universal power laws that dictate metabolic rates, lifespans, and anatomical blueprints.",
+        "label": "Math Behind Living Bodies",
+        "description": "Living creatures do not grow in simple ways.\nBranching tubes inside bodies set natural limits on energy and life.",
         "children": [
           {
             "id": "foundations-kleiber",
-            "label": "Kleiber's Law & The 3/4 Power Rule",
-            "description": "Metabolic rate scales with body mass to the 3/4 power rather than the surface-area-based 2/3 power once assumed by classic physics.\nThis means doubling an organism's size only requires about a 75% increase in energy consumption, bestowing tremendous energetic efficiency upon larger creatures.",
+            "label": "The Efficiency Rule",
+            "description": "Bigger animals need less food per pound.\nDoubling body size only takes seventy-five percent more energy.",
             "children": [
               {
                 "id": "kleiber-mouse-elephant",
-                "label": "The Mouse-to-Elephant Curve",
-                "description": "A gram of mouse tissue burns fuel at a ferociously faster pace than a gram of whale or elephant tissue.\nBecause large animals operate at a calmer metabolic burn per cell, their cellular machinery lasts longer while small animals live in an energetic overdrive."
+                "label": "Mice Burn Out Faster",
+                "description": "Mouse cells burn energy very fast.\nElephant cells burn energy slowly, so big animals live longer.",
+                "children": []
               },
               {
                 "id": "kleiber-fractal-origins",
-                "label": "Fractal Branching Architectures",
-                "description": "These universal exponents arise because cardiovascular and respiratory networks must behave like space-filling fractals to feed trillions of cells.\nThe final service units (like capillaries) remain invariant across all species, forcing energy dissipation to scale along 4-dimensional geometric rules."
+                "label": "Branching Body Networks",
+                "description": "Blood vessels branch like trees to feed every single cell.\nTiny blood vessels are the same size across all animals.",
+                "children": []
               }
             ]
           },
           {
             "id": "foundations-quarter-power",
-            "label": "Quarter-Power Allometry Across Biology",
-            "description": "Almost every physiological measurement across the animal kingdom scales as a multiple of 1/4 rather than standard 1/3 Euclidean fractions.\nWhether measuring aorta cross-sections, heart rates, or diffusion times, biology adds a virtual fourth dimension through its fractal distribution systems.",
+            "label": "The Magic Quarter Pattern",
+            "description": "Body sizes and pulse rates scale by fourths.\nBranching networks help 3D bodies act like a fourth dimension.",
             "children": [
               {
                 "id": "quarter-power-circulatory",
-                "label": "Pumping Without Hemodynamic Chaos",
-                "description": "Natural selection tuned the mammalian vascular tree to minimize the heart's pumping work and prevent destructive pulse reflections.\nThe terminal ends of these networks remain uniformly scaled across all mammals so cellular diffusion stays chemically predictable."
+                "label": "Smooth Blood Flow",
+                "description": "Blood vessels are shaped to protect the beating heart.\nThey keep blood moving easily without wasting energy.",
+                "children": []
               },
               {
                 "id": "quarter-power-plant-vascular",
-                "label": "Hydraulic Architecture of Forests",
-                "description": "Trees must lift tons of water hundreds of feet into the sky against gravity using passive vascular xylem tubes.\nThe exact same quarter-power mathematics dictates the taper of tree branches and forest canopy densities across planetary biomes."
+                "label": "How Trees Drink",
+                "description": "Trees pull tons of water up without any mechanical pumps.\nForests and branches follow the exact same pipe rules.",
+                "children": []
               }
             ]
           },
           {
             "id": "foundations-sublinear-growth",
-            "label": "Sublinear Scaling and Growth Saturation",
-            "description": "When an entity's resource collection scales sublinearly (less than 1:1), expansion inevitably encounters an asymptote.\nIn biological organisms, this geometric deceleration forces physical growth to level off, ensuring organisms reach a stable mature size rather than exploding indefinitely.",
+            "label": "Why Growth Stops",
+            "description": "Energy collection slows down as bodies get bigger.\nThis forces animals to stop growing once they reach adulthood.",
             "children": [
               {
                 "id": "growth-saturation-sigmoidal",
-                "label": "Sigmoidal Growth Curves",
-                "description": "Juveniles grow rapidly because their metabolic intake easily exceeds the maintenance overhead of their small cellular mass.\nEventually, cellular maintenance catches up with intake, plateauing physical size into biological adulthood."
+                "label": "Growing Up Quickly",
+                "description": "Young animals grow fast on extra food energy.\nLater, all energy goes toward body upkeep, stopping growth.",
+                "children": []
               },
               {
                 "id": "growth-saturation-longevity",
-                "label": "Cellular Wear, Entropy, and Mortality",
-                "description": "Aging is the unavoidable accumulation of molecular damage caused by free radicals generated during regular aerobic respiration.\nSublinear scaling explains why smaller creatures exhaust their roughly 1.5 billion heartbeats much faster than lumbering giants."
+                "label": "Counting Heartbeats",
+                "description": "Cell damage from breathing causes aging over time.\nSmall animals use up their heartbeats much faster than giants.",
+                "children": []
               }
             ]
           }
@@ -1317,57 +1323,63 @@ export const SCALE_BOOK: Book = {
       },
       {
         "id": "theme-cities",
-        "label": "Cities as Superorganisms",
-        "description": "A city is not merely an agglomeration of concrete and glass; it is a dual network combining physical infrastructure with social connectivity.\nUnlike animals, cities exhibit a fascinating split personality: physical resources scale sublinearly, while human interactions scale superlinearly.",
+        "label": "Cities as Giant Creatures",
+        "description": "Cities mix concrete roads with human connections.\nBigger cities save on materials but speed up social life.",
         "children": [
           {
             "id": "cities-infrastructure",
-            "label": "Sublinear Infrastructure Economies",
-            "description": "Physical networks like roads, power grids, water pipes, and gas stations scale sublinearly with an exponent of roughly 0.85 across every country.\nDoubling a city's population requires only about an 85% expansion of physical infrastructure, yielding a systematic 15% savings in municipal materials.",
+            "label": "Saving on City Pipes",
+            "description": "Big cities need fewer roads and pipes per person.\nDoubling population saves fifteen percent on physical building costs.",
             "children": [
               {
                 "id": "infrastructure-gas-roads",
-                "label": "Road Surfaces & Distribution Grids",
-                "description": "A metropolis of ten million citizens requires significantly fewer lane-miles of asphalt and fewer petrol stations per capita than ten dispersed towns of one million.\nThe geometric densification of networks creates enormous physical savings regardless of national culture or geography."
+                "label": "Fewer Gas Stations",
+                "description": "One big city needs less road space than ten smaller towns.\nPacking close together saves concrete and gas everywhere.",
+                "children": []
               },
               {
                 "id": "infrastructure-transit-density",
-                "label": "Subway & Utility Optimization",
-                "description": "High-density city centers concentrate resource pathways into shared, continuous conduits that maximize volumetric throughput.\nThis shared spatial distribution keeps the cost of providing clean water and power per resident dramatically lower in megacities."
+                "label": "Shared Public Pipes",
+                "description": "Crowded downtowns group pipes and train tracks together.\nDelivering water and power costs less per citizen in megacities.",
+                "children": []
               }
             ]
           },
           {
             "id": "cities-superlinear",
-            "label": "Superlinear Socioeconomic Scaling",
-            "description": "When people pack into urban environments, their opportunities for face-to-face interaction multiply combinatorially rather than linearly.\nConsequently, wages, patents, creative output, infectious diseases, and violent crime all scale superlinearly with an exponent of roughly 1.15.",
+            "label": "Supercharged Human Energy",
+            "description": "Crowded cities multiply face-to-face meetups.\nThis creates more wealth and ideas, but also more crime.",
             "children": [
               {
                 "id": "superlinear-wealth-ideas",
-                "label": "The 15% Urban Dividend",
-                "description": "Every time city population doubles, per-capita metrics like patent creation, average wages, and venture investments jump by 15%.\nCities act as intellectual colliders where diverse brains spark novel recombinations of knowledge at an accelerating pace."
+                "label": "The City Bonus",
+                "description": "Doubling a city boosts wages and patents by fifteen percent.\nMixing diverse minds sparks fresh inventions faster.",
+                "children": []
               },
               {
                 "id": "superlinear-dark-side",
-                "label": "The Pathological Shadow: Crime and Contagion",
-                "description": "The exact same social connectivity that drives artistic triumph also accelerates viral transmission, theft, and psychiatric distress.\nA city cannot easily filter for positive human interactions without simultaneously multiplying the frequency of systemic frictions."
+                "label": "The Bad Side Effects",
+                "description": "Social connections also spread illnesses and crime faster.\nYou cannot speed up great ideas without increasing friction too.",
+                "children": []
               }
             ]
           },
           {
             "id": "cities-pace-of-life",
-            "label": "The Accelerating Treadmill of Urban Time",
-            "description": "In stark contrast to biology\u2014where larger animals exhibit slower heart rates and relaxed movements\u2014larger cities accelerate human behavior.\nPedestrians literally walk faster, conversations compress, and life ticks along at an ever-quickening cadence as density rises.",
+            "label": "Fast Urban Pace",
+            "description": "Unlike large animals, larger cities make life move faster.\nPeople talk faster and hurry more as crowd size grows.",
             "children": [
               {
                 "id": "pace-walking-speed",
-                "label": "Empirical Walking Speed Studies",
-                "description": "Social scientists timing pedestrians across global downtowns observed a predictable logarithmic increase in foot speed as population expands.\nInhabitants unconsciously recalibrate their internal clocks to match the denser rhythm of urban opportunity."
+                "label": "Faster Walking Speeds",
+                "description": "People walk noticeably faster in bigger cities.\nCitizens speed up their daily tempo to catch more opportunities.",
+                "children": []
               },
               {
                 "id": "pace-information-metabolism",
-                "label": "Cognitive Load and Overchoice",
-                "description": "Urban dwellers encounter vastly more social signals per minute than rural residents, demanding defensive psychological triage.\nTo navigate the sensory barrage, humans develop specialized cognitive heuristics and superficial interaction filters."
+                "label": "Brain Overload",
+                "description": "City life bombards the brain with constant signals.\nPeople learn to ignore crowds to protect their attention.",
+                "children": []
               }
             ]
           }
@@ -1375,40 +1387,44 @@ export const SCALE_BOOK: Book = {
       },
       {
         "id": "theme-companies",
-        "label": "Companies, Corporations, and Mortality",
-        "description": "Companies are human organizations, yet their scaling behaviors mimic mortal biological organisms far more than immortal cities.\nAs businesses expand, bureaucratic arteries constrict creative innovation, shifting their energetic balance toward eventual stagnation and extinction.",
+        "label": "Why Companies Die",
+        "description": "Companies age and die like animals instead of surviving like cities.\nAs businesses expand, rules and paperwork strangle fresh creativity.",
         "children": [
           {
             "id": "companies-sublinear-metabolism",
-            "label": "Corporate Sublinear Growth",
-            "description": "Publicly traded corporations exhibit sublinear scaling in revenue and profits as they grow, behaving mathematically like aging mammals.\nThe overhead of administrative coordination and risk management outpaces creative discoveries, causing expansion to slow and flatten.",
+            "label": "Slowing Corporate Growth",
+            "description": "Big companies see revenue growth slow down over time.\nHigh management costs make them act like aging animals.",
             "children": [
               {
                 "id": "sublinear-revenue-employee",
-                "label": "Diminishing Output per Employee",
-                "description": "While a 10-person startup operates with near-frictionless synergy, a 100,000-person enterprise burns massive energetic bandwidth on internal policing and compliance.\nR&D productivity per worker decays systematically as headcount multiplies."
+                "label": "Less Output Per Worker",
+                "description": "Small startups move quickly with high teamwork.\nGiant firms spend too much time policing rules and workers.",
+                "children": []
               },
               {
                 "id": "sublinear-entropy-bureaucracy",
-                "label": "The Calcification of Information Flow",
-                "description": "Hierarchical management layers introduce signal distortion and defensive politics into decision pipelines.\nUnwilling to cannibalize legacy revenue streams, mature corporations sacrifice agility to protect established operating routines."
+                "label": "Clogged Corporate Arteries",
+                "description": "Too many management layers slow down important choices.\nMature companies play safe to protect old profits.",
+                "children": []
               }
             ]
           },
           {
             "id": "companies-mortality-dynamics",
-            "label": "Why Companies Die While Cities Endure",
-            "description": "Almost all companies eventually go bankrupt or get absorbed, exhibiting a half-life of roughly ten years regardless of industry sector.\nMeanwhile, ancient cities survive catastrophic bombings, earthquakes, and plagues because their generative purpose is completely open-ended.",
+            "label": "Fragile vs Forever",
+            "description": "Most businesses die within a decade or get bought out.\nCities survive disasters because anyone can start new things inside them.",
             "children": [
               {
                 "id": "mortality-single-purpose",
-                "label": "Singular Focus vs. Open Diversity",
-                "description": "A corporation exists to produce specific products and maximize returns, rendering it vulnerable to market shifts.\nA city, by contrast, is a neutral platform for endless self-organizing human experiments that can perpetually reinvent itself."
+                "label": "Single Focus Danger",
+                "description": "Companies die when their main product becomes obsolete.\nCities survive because they welcome any new activity or business.",
+                "children": []
               },
               {
                 "id": "mortality-power-law-survival",
-                "label": "Corporate Half-Lives & Risk Curves",
-                "description": "Statistical survival curves show that a firm's chance of dying remains largely constant over its operational lifetime.\nBeing a hundred-year-old titan does not insulate a company from sudden irrelevance when systemic market paradigms flip."
+                "label": "Constant Risk of Death",
+                "description": "Old companies face the same death rate as younger ones.\nPast size cannot protect a business from market shifts.",
+                "children": []
               }
             ]
           }
@@ -1416,57 +1432,63 @@ export const SCALE_BOOK: Book = {
       },
       {
         "id": "theme-collapse-innovation",
-        "label": "The Singularity Trap and Planetary Limits",
-        "description": "Superlinear social expansion generates exponential growth that theoretically surges toward an infinite mathematical singularity in finite time.\nTo avert cataclysmic systemic collapse, humanity must constantly reinvent its foundational paradigms at an ever-accelerating frequency.",
+        "label": "Limits and Fast Inventions",
+        "description": "City growth speeds up until it hits a wall.\nHumanity must invent new tools faster to avoid sudden crashes.",
         "children": [
           {
             "id": "collapse-finite-time-singularity",
-            "label": "Finite-Time Singularities",
-            "description": "Unlike standard compound exponential growth, superlinear dynamics follow a hyperbolic curve where demand surges vertically toward infinity.\nLeft unchecked, resource depletion, social instability, and thermodynamic bottlenecks will trigger a catastrophic crash.",
+            "label": "Hitting the Wall",
+            "description": "Super-fast growth cannot go on forever.\nWithout changes, burning through natural resources causes a painful collapse.",
             "children": [
               {
                 "id": "singularity-malthusian-limits",
-                "label": "Thermodynamic and Material Exhaustion",
-                "description": "Every urban growth cycle consumes natural capital and dissipates massive amounts of low-grade thermal waste into the biosphere.\nEcological sinks inevitably become saturated when planetary extraction rates fail to balance urban throughput."
+                "label": "Running Out of Resources",
+                "description": "Cities consume natural resources and dump out waste heat.\nNature gets overwhelmed when we take more than it replaces.",
+                "children": []
               },
               {
                 "id": "singularity-cliff-edge",
-                "label": "The Crash of the Asymptote",
-                "description": "If a society fails to innovate before reaching the mathematical singularity point, the growth curve suddenly flips into rapid collapse.\nComplex human civilizations throughout history have disintegrated when their socio-metabolic costs exceeded their available energy base."
+                "label": "The Sudden Crash",
+                "description": "Missing the next big breakthrough triggers a sudden fall.\nPast empires fell when they ran out of energy supplies.",
+                "children": []
               }
             ]
           },
           {
             "id": "collapse-innovation-reset",
-            "label": "The Accelerating Innovation Treadmill",
-            "description": "To dodge the singularity cliff, civilizations trigger major paradigm shifts\u2014such as agriculture, steam power, computing, and AI\u2014which reset the growth clock.\nHowever, each successive innovation cycle must arrive faster than the previous one to keep pace with the superlinear curve.",
+            "label": "The Invention Treadmill",
+            "description": "Major shifts like steam, computers, and AI reset the clock.\nEach new breakthrough must happen faster than the last one.",
             "children": [
               {
                 "id": "innovation-compression-intervals",
-                "label": "Compressing Epochs of Discovery",
-                "description": "While the Stone Age spanned millennia and the Industrial Revolution required over a century, the digital and genomic revolutions unfolded in mere decades.\nThe time window available to conceptualize and deploy the next planetary breakthrough is continuously shrinking."
+                "label": "Shrinking Discovery Time",
+                "description": "Ancient eras took thousands of years to change.\nToday, huge tech shifts happen in only a few decades.",
+                "children": []
               },
               {
                 "id": "innovation-cognitive-sustainability",
-                "label": "Human Biological Capacity Limits",
-                "description": "While urban systems demand hyper-accelerated paradigm shifts, individual human biology remains anchored to Paleolithic evolutionary speeds.\nThis widening temporal mismatch fuels widespread societal burnout, anxiety, and institutional paralysis."
+                "label": "Tired Human Minds",
+                "description": "Tech changes at breakneck speed while human bodies evolve slowly.\nThis growing gap causes burnout and stress in daily life.",
+                "children": []
               }
             ]
           },
           {
             "id": "collapse-grand-unification",
-            "label": "Toward a Science of Planetary Sustainability",
-            "description": "Navigating the 21st century demands that policymakers synthesize biological scaling laws with socio-economic dynamics into a cohesive predictive science.\nTrue global sustainability means understanding the fundamental trade-offs between physical efficiency, creative output, and systemic vulnerability.",
+            "label": "A Science for Survival",
+            "description": "We must balance body laws with urban growth.\nReal sustainability means picking safety over raw efficiency.",
             "children": [
               {
                 "id": "unification-interconnected-metabolism",
-                "label": "The Global Socio-Ecological Organism",
-                "description": "Humanity's cities, industrial networks, and supply chains now form a unified planetary metabolic system.\nTreating economic expansion in isolation from thermodynamic feedback loops guarantees systemic disruption on a planetary scale."
+                "label": "One Connected Planet",
+                "description": "Cities and global shipping form one big planetary engine.\nIgnoring nature's limits threatens the entire worldwide system.",
+                "children": []
               },
               {
                 "id": "unification-resilience-vs-efficiency",
-                "label": "Balancing Efficiency with Systemic Resilience",
-                "description": "Hyper-optimized sublinear infrastructure eliminates redundant slack, leaving metropolitan centers hyper-fragile to unexpected shocks.\nFuture complexity navigation requires deliberately engineering redundancy into social networks to buffer against sudden disruptions."
+                "label": "Efficiency vs Safety",
+                "description": "Cutting all spare room leaves cities fragile to surprises.\nWe must build in extra safety margins to handle shocks.",
+                "children": []
               }
             ]
           }

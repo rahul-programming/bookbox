@@ -1,5 +1,5 @@
 // Moonwalking with Einstein by Joshua Foer
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -520,169 +520,169 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
   "actionItems": [
     {
       "id": "moonwalking-with-einstein-act-1",
-      "title": "Map Your Childhood Home Memory Palace",
-      "description": "Your brain didn't evolve to memorize abstract lists; it evolved to remember spatial layouts and predator locations. By anchoring a short grocery or to-do list onto familiar physical locations in your childhood home, you trick your ancient spatial hippocampus into storing arbitrary data effortlessly.",
+      "title": "Build a Childhood Memory Palace",
+      "description": "Your brain easily remembers familiar places. Place items on a mental walking path to remember them fast.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Pick your childhood home or current apartment and trace a strict, fixed 5-stop route (front door, entryway rug, kitchen sink, stove, sofa).",
-        "Take a 5-item shopping list of abstract goods (e.g., milk, eggs, batteries, spinach, apples).",
-        "Place one item at each station, deliberately exaggerating it into a vivid, multi-sensory cartoon (e.g., Niagara Falls of milk flooding the porch, giant eggs cracking over the rug).",
-        "Close your eyes and walk the route backward and forward to verify instant recall."
+        "1. Pick five clear spots along a path through your home.",
+        "2. Grab a short list of five simple grocery items.",
+        "3. Imagine each item doing something silly at each spot.",
+        "4. Walk through the path in your mind to recall them."
       ],
       "sourceChapter": "Chapter 5"
     },
     {
       "id": "moonwalking-with-einstein-act-2",
-      "title": "Build a Baker/baker Paradox Flashcard Test",
-      "description": "When told a person is a baker, you recall them far better than if told their surname is Baker, because the profession connects to smells, aprons, and tastes while the name sits disconnected. Test and experience this associative quirk firsthand.",
+      "title": "Test the Baker Name Trick",
+      "description": "Jobs are easy to recall because they bring clear pictures to mind. Names fade fast because they have no pictures attached.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Take 6 index cards or digital notes and write 3 pairs of identical words that function as both proper names and concrete nouns (Baker/baker, Cook/cook, Carpenter/carpenter).",
-        "Notice how your brain naturally generates sensory associations (yeast smell, heat, sawdust) for the roles but blanks on the names.",
-        "Draw or attach a vivid sensory anchor for each proper name to match the density of the profession.",
-        "Review them after one hour to verify that multi-sensory hooks prevent memory decay."
+        "1. Write three job names on index cards, like baker and cook.",
+        "2. Notice how quickly you picture bread, aprons, and warm smells.",
+        "3. Pair a person's last name with that same strong picture.",
+        "4. Check your cards later to see how well you remember."
       ],
       "sourceChapter": "Chapter 2"
     },
     {
       "id": "moonwalking-with-einstein-act-3",
-      "title": "Encode Daily Numbers with a 0-9 Shape Pegboard",
-      "description": "Abstract numbers slip out of working memory within seconds. By pre-encoding single digits into tangible visual objects based on their silhouettes, you create an instinctive pipeline to memorize PINs, locker codes, and verification codes on the fly.",
+      "title": "Turn Numbers into Picture Pegs",
+      "description": "Plain numbers slip away fast. Turn each digit into a clear shape so you never forget codes.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Adopt a universal visual peg for digits 0 to 9 (0=donut, 1=candle, 2=swan, 3=butterfly, 4=sailboat, 5=hook, 6=golf club, 7=cliff, 8=snowman, 9=balloon on string).",
-        "Each morning, take the day's date or the first phone number you see and mentally convert the digits into an animated scene.",
-        "Have the objects collide violently or humorously (e.g., a swan swallowing a lit candle).",
-        "Replay the mini animation at lunch to confirm the numerical data stayed intact."
+        "1. Link every digit from zero to nine to a simple shape.",
+        "2. Pick today's date and turn its numbers into those pictures.",
+        "3. Make the pictures bump into each other in a funny way.",
+        "4. Picture that mini cartoon at lunch to check your memory."
       ],
       "sourceChapter": "Chapter 7"
     },
     {
       "id": "moonwalking-with-einstein-act-4",
-      "title": "The OK Plateau Deliberate Practice Drill",
-      "description": "Psychologist K. Anders Ericsson discovered that everyday skills freeze once they become autonomous\u2014the 'OK plateau.' To restart neuroplastic growth in typing or reading, you must deliberately push 20% past your comfort speed and isolate exact error points.",
+      "title": "Break Past Your Skill Limit",
+      "description": "Your skills stop growing once you run on autopilot. Push slightly past your comfort zone to keep improving.",
       "category": "daily-routine",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Select a repetitive cognitive task you do automatically, such as typing or reading technical text.",
-        "Set a timer for 10 minutes and force yourself to execute roughly 15-20% faster than your comfortable baseline.",
-        "Keep a scratchpad next to you and make a hashmark every time you stumble or mistype.",
-        "Spend the final 5 minutes exclusively drilling the specific syllable or finger-transition errors that tripped you up."
+        "1. Pick an everyday habit like typing on your computer keyboard.",
+        "2. Set a timer and type much faster than your normal speed.",
+        "3. Make a quick mark on paper whenever you slip up.",
+        "4. Spend five minutes practicing only the keys that tripped you."
       ],
       "sourceChapter": "Chapter 9"
     },
     {
       "id": "moonwalking-with-einstein-act-5",
-      "title": "Strip Visual & Auditory Friction from Your Focus Nook",
-      "description": "Memory athletes like Ed Cooke and Joshua Foer wear earplugs and blacked-out safety goggles with pinholes to choke off sensory competition. While extreme, creating an isolated sensory boundary prevents working-memory dilution during deep study.",
+      "title": "Clear Your Study Space",
+      "description": "Loud sounds and cluttered desks steal your attention. Block out background noise and mess to focus better.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Identify the primary desk or chair where you digest dense books or research papers.",
-        "Clear all items outside your immediate field of vision except your reading material and a single notebook.",
-        "Place industrial high-decibel earplugs or noise-canceling headphones directly on your desk surface as an intentional cue.",
-        "Reposition your desk lamp so light pools tightly onto your reading surface while casting the rest of the room in shadow."
+        "1. Clear everything off your desk except your book and pen.",
+        "2. Put earplugs or quiet headphones right where you sit down.",
+        "3. Point your desk lamp straight down onto your reading page.",
+        "4. Turn off extra room lights to keep your eyes focused."
       ],
       "sourceChapter": "Chapter 1"
     },
     {
       "id": "moonwalking-with-einstein-act-6",
-      "title": "Catalogue 5 Public Loci Routes Across Your Neighborhood",
-      "description": "A single memory palace gets cluttered if reused constantly without resting. You need a stable urban portfolio of spacious, well-lit spatial tracks across your neighborhood to hold distinct intellectual projects without ghosting artifacts.",
+      "title": "Map Neighborhood Walking Routes",
+      "description": "Using one mental room for everything causes mix-ups. Find fresh outdoor walking paths to hold new ideas.",
       "category": "environment",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "Walk a familiar circuit through your local park, library, gym, or favorite street corner.",
-        "Select 10 distinct, non-overlapping checkpoints per route (e.g., bike rack, water fountain, statue, espresso machine, front counter).",
-        "Ensure the path moves logically in one direction without doubling back or crossing itself.",
-        "Log the 10 loci in a notebook diagram so the spatial infrastructure remains permanent in your long-term memory."
+        "1. Take a short walk through your local park or street.",
+        "2. Pick ten distinct landmarks along your forward walking path.",
+        "3. Keep the path moving in one straight direction without looping.",
+        "4. Sketch the ten spots in a notebook so you remember."
       ],
       "sourceChapter": "Chapter 6"
     },
     {
       "id": "moonwalking-with-einstein-act-7",
-      "title": "Audit Working Memory Leaks with a 7-Chunk Tally",
-      "description": "George Miller's classic 7\u00b12 law dictates that human working memory can juggle only a tiny handful of distinct informational tokens before wiping out. Run a personal audit to uncover when your mental buffers drop tasks during multi-step work.",
+      "title": "Spot Your Memory Overload",
+      "description": "Your brain can only hold a few thoughts at once. Find where you drop tasks and group your steps.",
       "category": "audit",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Monitor your workflow across two consecutive complex tasks (e.g., debugging code, organizing an itinerary, reconciling numbers).",
-        "Note every moment you hold more than 4 or 5 disparate items in your head without an external visual note.",
-        "Flag every instance where you forgot a secondary step, lost a tab, or experienced cognitive overload.",
-        "Define chunking strategies (e.g., grouping 9 verification steps into 3 phases) to keep raw token counts under 4."
+        "1. Watch yourself work during your next two big daily tasks.",
+        "2. Catch moments when you juggle too many things at once.",
+        "3. Write down every time you forget a small next step.",
+        "4. Group big lists into small clusters of three items each."
       ],
       "sourceChapter": "Chapter 4"
     },
     {
       "id": "moonwalking-with-einstein-act-8",
-      "title": "Audit Abstract vs. Multisensory Notes",
-      "description": "Evolution never engineered human wetware to retain dry, abstract buzzwords and text bullets. Inspect your recent study or meeting notes to measure how much content is lifeless syntax versus vivid, episodic mental imagery.",
+      "title": "Turn Dull Notes into Pictures",
+      "description": "Boring buzzwords slip out of your head almost immediately. Simple pictures and funny comparisons stay stuck in mind.",
       "category": "audit",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Pull up your last 3 pages of reading or meeting notes.",
-        "Highlight in red every entry that is purely conceptual, abstract, or jargon-heavy (e.g., 'synergistic optimization').",
-        "Highlight in green every item paired with a metaphor, tangible physical mechanism, or visual sketch.",
-        "Calculate the ratio; if red exceeds 30%, translate the dry concepts into exaggerated physical analogies."
+        "1. Open your notes from a recent meeting or reading session.",
+        "2. Circle every boring buzzword or dry idea with a pen.",
+        "3. Draw a tiny picture or real-world comparison beside each one.",
+        "4. Rewrite any stiff phrase into a simple, everyday sentence."
       ],
       "sourceChapter": "Chapter 3"
     },
     {
       "id": "moonwalking-with-einstein-act-9",
-      "title": "Deploy the Person-Action-Object (PAO) Framework",
-      "description": "The PAO system allows competitive mnemonists to compress dense strings of data into composite cinematic scenes. Constructing a basic 2-digit pilot system establishes a scalable cognitive engine for arbitrary sequence retention.",
+      "title": "Build a Simple Memory Team",
+      "description": "Long strings of numbers feel hard to track. Turn numbers into people doing funny things with objects.",
       "category": "system",
       "timeEstimateMinutes": 60,
       "stepByStep": [
-        "Open a spreadsheet and list numbers from 00 to 19 as a starter batch.",
-        "Assign a distinct Person, an unmistakable Action, and a concrete Object to each number (e.g., 15 = Albert Einstein [P] writing on [A] a giant chalkboard [O]).",
-        "Practice combining 6-digit combinations into a single frame: Person from pair 1, Action from pair 2, Object from pair 3.",
-        "Store the master spreadsheet in your reference folder and run 5 random flashcard drills per week to lock it in."
+        "1. List numbers from zero to nineteen in a simple notebook.",
+        "2. Give each number one person, one action, and one item.",
+        "3. Mix them together into one quick scene to recall numbers.",
+        "4. Practice a few random numbers each week to stay sharp."
       ],
       "sourceChapter": "Chapter 8"
     },
     {
       "id": "moonwalking-with-einstein-act-10",
-      "title": "Architect an Associative Index for New Acquired Knowledge",
-      "description": "Memory is associative: every new piece of information needs existing hooks to latch onto, just like grandmaster chess players who chunk boards based on thousands of previously analyzed games. Create an ingestion gateway for every new fact.",
+      "title": "Hook New Facts to Memory",
+      "description": "New facts need an anchor so you do not forget them. Connect every fresh fact to something you already know.",
       "category": "system",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Create a template note named 'Knowledge Ingestion Hook' in your primary note-taking software.",
-        "Include three required fields: 'What familiar memory does this look like?', 'What emotional/sensory twist makes this bizarre?', and 'Which Palace does this live in?'.",
-        "Whenever reading non-fiction, reject any highlight that cannot answer those three questions.",
-        "File every new fact directly into a designated locus of an existing topical palace."
+        "1. Create a quick note template for new things you learn.",
+        "2. Ask yourself what old memory this new fact feels like.",
+        "3. Pick one weird detail that makes the idea stand out.",
+        "4. Place that picture inside one of your mental rooms."
       ],
       "sourceChapter": "Chapter 10"
     },
     {
       "id": "moonwalking-with-einstein-act-11",
-      "title": "The Ribot's Law & Spaced Consolidation Schedule",
-      "description": "Memories do not solidify instantly; synaptic consolidation takes hours and systemic consolidation takes months. Implement a cadence that catches memories right at the biological threshold of decay to force neuroplastic reinforcement.",
+      "title": "Review Memories on a Schedule",
+      "description": "Fresh memories fade fast unless you revisit them on schedule. Quick reviews keep them clear and strong for months.",
       "category": "system",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Establish a fixed consolidation interval for palace journeys: 1 hour after encoding, 24 hours later, 7 days later, and 30 days later.",
-        "Use a recurring calendar notification or spaced repetition software (Anki) tagged with palace coordinates.",
-        "During review, walk the palace solely from memory; do not peek at the source notes until the full route is traversed.",
-        "Inspect any blurry loci, inject fresher sensory contrast (smell, motion, sound), and re-anchor them."
+        "1. Set reminders to review notes tomorrow, next week, and next month.",
+        "2. Walk through your mental path without looking at the page.",
+        "3. Spot any item that feels fuzzy or hard to picture.",
+        "4. Make the fuzzy picture louder, brighter, and easier to see."
       ],
       "sourceChapter": "Chapter 11"
     },
     {
       "id": "moonwalking-with-einstein-act-12",
-      "title": "The 'Moonwalking' Bizarre Imagery Transformation Protocol",
-      "description": "The title of the book comes from Foer's mnemonic image of Michael Jackson moonwalking with Albert Einstein. Standard memories fade because they look ordinary. Construct a systematic rulebook for converting boring data into unforgettable mental grotesque art.",
+      "title": "Make Your Ideas Wildly Bizarre",
+      "description": "Ordinary scenes fade because they look dull. Making your ideas wild and funny helps them stick forever.",
       "category": "system",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Draft a 4-point visual transformation rule: Exaggerate size (giant), inject ridiculous motion (dancing, exploding), invoke tactile emotion (humor, absurdity), and violate physics.",
-        "Whenever an abstract term or person's name enters your radar, run it through the 4 transformation rules immediately.",
-        "Link the transformed entity to an existing landmark using vivid kinetic interaction rather than static placement.",
-        "Audit weekly to ensure your generated mental imagery remains shocking, dynamic, and fun."
+        "1. Take a boring word and make it gigantic in size.",
+        "2. Add crazy motion, like dancing, spinning, or bouncing around.",
+        "3. Connect that moving object directly to a real room feature.",
+        "4. Check weekly to make sure your pictures remain lively and fun."
       ],
       "sourceChapter": "Chapter 12"
     }
@@ -859,10 +859,10 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
       "author": "Joshua Foer",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Method of Loci",
-      "body": "Human evolution heavily prioritized spatial navigation and visual threat detection over remembering lists of abstract symbols.\nThe Method of Loci hijacks this ancient hardware by mapping arbitrary information onto physical rooms, corners, and furniture in an imaginary journey.",
+      "headline": "The Memory Palace",
+      "body": "Our brains easily remember physical spaces and pictures.\nWe struggle to recall plain words or lists.\nPlace items in a familiar room to remember them quickly.",
       "quote": "The secret to memorizing is to take whatever you want to remember and convert it into a vivid, colorful image, and then place that image in a familiar place in your mind's eye.",
-      "actionItem": "Build a starter palace of 10 furniture stops in your living room and mentally deposit your next grocery list across them.",
+      "actionItem": "Pick five spots in your living room.\nPlace one grocery item mentally in each spot.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -880,10 +880,10 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
       "author": "Joshua Foer",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Baker/baker Paradox",
-      "body": "Tell a subject someone is a baker, and they will likely remember it later; tell them his last name is Baker, and it vanishes.\nThe occupation comes pre-packaged with sensory associations\u2014flour, ovens, crusty bread\u2014while the surname is an unmoored semantic tag.",
+      "headline": "The Baker Paradox",
+      "body": "It is easy to remember a person who bakes bread.\nA person whose last name is Baker is easy to forget.\nMeanings stick in our minds much better than plain labels.",
       "quote": "The name Baker doesn't mean anything to you. It is entirely untethered from all of the other memories floating around in your brain.",
-      "actionItem": "When meeting someone new, anchor their surname to a sensory occupation, absurd object, or cartoon caricature immediately.",
+      "actionItem": "When you hear a name, connect it to a funny picture right away.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -902,9 +902,9 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
       "category": "Psychology",
       "type": "concept",
       "headline": "The OK Plateau",
-      "body": "When acquiring any motor or intellectual skill, we quickly achieve acceptable competency, at which point the brain automates the behavior and shifts control to subconscious circuits.\nImprovement halts completely unless deliberate friction is reintroduced to break autonomous comfort.",
+      "body": "Most people stop improving once a skill feels easy.\nThe brain runs on autopilot and stops trying hard.\nYou must push past comfort to keep getting better.",
       "quote": "When you want to get good at something, how you spend your time practicing is far more important than the amount of time you spend.",
-      "actionItem": "Identify a daily automated task like typing or note-taking, speed up the cadence by 20%, and measure error rate to break autopilot.",
+      "actionItem": "Type faster than your normal speed today.\nCount your mistakes to break easy habits.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -922,10 +922,10 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
       "author": "Joshua Foer",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Cognitive Chunking",
-      "body": "Working memory is biologically throttled to roughly seven distinct slots.\nExperts do not possess larger registers; they simply compress sprawling webs of related data into compact, high-density symbolic units, allowing immense information density within the same limited working memory.",
+      "headline": "Chunking Information",
+      "body": "Your short-term memory can hold only seven items at once.\nExperts group small pieces of data into single big ideas.\nThis trick lets you store much more in your head.",
       "quote": "Chunking is the reason why a chess grandmaster can look at a board for five seconds and reconstruct the positions of all thirty-two pieces from memory.",
-      "actionItem": "Synthesize fragmented daily to-do items into three thematic sprints rather than tracking ten isolated bullet points.",
+      "actionItem": "Group your daily tasks into three simple themes instead of ten single items.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -943,10 +943,10 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
       "author": "Joshua Foer",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Injecting Multi-Sensory Absurdity",
-      "body": "The hippocampal filter aggressively prunes ordinary stimuli.\nTo make arbitrary data stick in neural architecture, you must synthesize bizarre, emotionally startling, or humorous imagery that combines multiple senses like smell, weight, texture, and kinetic movement.",
+      "headline": "Make It Weird",
+      "body": "The brain quickly forgets ordinary things.\nWild, funny, and gross pictures grab our attention immediately.\nStrange pictures stick in your mind for a long time.",
       "quote": "Monotony collapses time; novelty unfolds it. If you can make an image bizarre, humorous, or grotesque, it sticks.",
-      "actionItem": "Convert a dry PIN or password into a kinetic scene involving talking animals, pungent odors, and vivid slapstick colors.",
+      "actionItem": "Turn your secret password into a wild cartoon scene with bright colors.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -964,10 +964,10 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
       "author": "Joshua Foer",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Autobiographical Time Dilution",
-      "body": "Our retrospective perception of time is dictated by the density of novel memory markers.\nRoutine and sameness collapse months into single forgettable blips, whereas continuous encounters with fresh environments and unique tasks cause elapsed time to feel richly expanded.",
+      "headline": "Novelty Expands Time",
+      "body": "Repeated daily routines make weeks vanish in a blur.\nTrying new things creates fresh memories that stand out.\nNew experiences make your life feel longer and richer.",
       "quote": "Life seems to speed up as we get older because life becomes more predictable, we encounter less novelty, and we register fewer new memories.",
-      "actionItem": "Take a radical detour on your commute or explore an unfamiliar neighborhood every weekend to implant fresh episodic milestones.",
+      "actionItem": "Walk home using a brand-new route today to build a fresh memory.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -985,10 +985,10 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
       "author": "Joshua Foer",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The PAO System",
-      "body": "Memory athletes translate abstract numerical sequences into a structured Person-Action-Object syntax.\nBy binding a distinct individual, an athletic or absurd movement, and a tangible physical item to specific digits, two-digit pairs combine into self-contained cinematic scenes.",
+      "headline": "Person Action Object",
+      "body": "Numbers are plain and hard to recall on their own.\nTurn every two-digit number into a person, an action, and a thing.\nGrouping them creates a mini-movie that sticks.",
       "quote": "In the PAO system, every two-digit number from 00 to 99 is represented by a single person performing an action on an object.",
-      "actionItem": "Assign three fixed characters, actions, and objects to three key numbers in your life to test combinatorial recall.",
+      "actionItem": "Pick three numbers and give each a person, an action, and an item.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1006,10 +1006,10 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
       "author": "Joshua Foer",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Engineering Targeted Failure",
-      "body": "Passive repetition breeds an illusion of mastery.\nDeliberate practice demands operating precisely at your breakdown threshold, timing errors with a metronome, logging mistakes in an error ledger, and immediately drilling the exact friction point until fluency returns.",
+      "headline": "Practice at Your Limit",
+      "body": "Doing easy tasks again and again does not help you grow.\nReal progress happens right where you begin to make mistakes.\nFix each small slip right away to gain skill.",
       "quote": "Deliberate practice means practicing outside of your comfort zone, constantly stretching yourself beyond your current abilities.",
-      "actionItem": "Set a timer 15% faster than your comfortable reading pace, track where comprehension stutters, and re-read solely that paragraph.",
+      "actionItem": "Read slightly faster than normal.\nNote every sentence you miss and read it again.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1027,10 +1027,10 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
       "author": "Joshua Foer",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Memory as Internal Architecture",
-      "body": "Joshua Foer highlights that external databases store facts, but internal memories shape consciousness, intuition, and character.\nOutsourcing all storage leaves nothing for creative cross-pollination.",
+      "headline": "Internal Knowledge",
+      "body": "Phones hold facts, but facts in your head shape who you are.\nStored knowledge helps you link ideas and invent new things.\nKeeping facts inside your mind fuels creativity.",
       "quote": "Our ability to find humor in the world, to make connections between previously unconnected notions, to create new ideas, to share in a common culture: all these depend on having a vast store of information already in our brains.",
-      "actionItem": "Commit one poem, structural equation, or philosophical theorem to heart this month to enrich internal associational networks.",
+      "actionItem": "Memorize a short poem this week to keep useful words in your mind.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1048,10 +1048,10 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
       "author": "Joshua Foer",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Ephemeral Working Memory Buffer",
-      "body": "Short-term storage is an astonishingly leaky sieve designed for processing transient information rather than permanent archiving.\nWithout deliberate structural encoding, information dissipates from the prefrontal cortex within seconds as newer sensory inputs stream in.",
+      "headline": "The Leaky Buffer",
+      "body": "Short-term memory drops facts very quickly.\nNew sights and sounds wipe away what you just heard.\nYou must store facts actively or they vanish within seconds.",
       "quote": "Our memories are like sieves. We retain only a tiny fraction of what we experience, and that fraction is constantly being altered.",
-      "actionItem": "Whenever someone gives you complex directions or verbal instructions, immediately repeat them aloud with spatial landmarks.",
+      "actionItem": "Say new spoken directions out loud at once so you do not forget them.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1069,10 +1069,10 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
       "author": "Joshua Foer",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Externalization Tradeoff",
-      "body": "The transition from oral tradition to written text sparked philosophical concern: Plato feared the alphabet would plant forgetfulness in men's souls.\nToday, smartphones serve as externalized neural lobes, freeing bandwidth while eroding internal storage capacity.",
+      "headline": "The Offloading Trap",
+      "body": "We store notes, numbers, and maps on our phones today.\nThis saves effort, but our natural recall gets weaker.\nMemory needs regular exercise to stay strong.",
       "quote": "Writing was seen as an external prosthetic for memory, one that might degrade the very capacity it was meant to supplement.",
-      "actionItem": "Spend one full morning navigating without GPS or looking up phone numbers to exercise dormant internal retrieval systems.",
+      "actionItem": "Drive to a store without looking at your map app today.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1090,10 +1090,10 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
       "author": "Joshua Foer",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Building Reusable Architectural Palaces",
-      "body": "To store recurring information sets, mentally construct distinct buildings: a library for technical literature, a childhood school for historical timelines, and a train station for daily priorities.\nKeep transit paths consistent and avoid intersecting routes to prevent cognitive collision.",
+      "headline": "Multiple Mind Palaces",
+      "body": "You can use many real places to store different kinds of knowledge.\nUse your home for tasks and your old school for books.\nWalk the same route each time so nothing gets lost.",
       "quote": "You can have as many memory palaces as you can imagine. Every house you've ever lived in, every school you went to, every street you've walked down.",
-      "actionItem": "Sketch an architectural floor plan of your elementary school and plot an eight-stop clockwise route for future data retention.",
+      "actionItem": "Picture your childhood home.\nPick six spots along a single path through the rooms.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1111,10 +1111,10 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
       "author": "Joshua Foer",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Active Art of Memory",
-      "body": "Memory is not a static recording library, but a creative and interpretive discipline.\nCultivating recall demands imaginative engagement with the world rather than passive receipt.",
+      "headline": "Memory Takes Focus",
+      "body": "Remembering is not passive like taking a photo.\nYou must pay sharp attention to make things stay in your mind.\nFocus turns everyday sights into lasting memories.",
       "quote": "The art of memory is the art of attention. And attention is a finite resource that we must learn to deploy with surgical precision.",
-      "actionItem": "Practice 60 seconds of radical perceptual vigilance on one ordinary object, cataloging every micro-scratch and light gradient.",
+      "actionItem": "Look closely at an apple for one minute.\nNotice every small mark on it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1132,10 +1132,10 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
       "author": "Joshua Foer",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Illusion of Innate Genius",
-      "body": "Mental athletes often appear to have savant-like neurological wiring, but brain scans demonstrate average anatomy.\nTheir performance is driven by systematic technique, disciplined chunking, and obsessive feedback loops rather than rare biological anomalies.",
+      "headline": "Trained, Not Born",
+      "body": "Top memory champions do not have special brains.\nBrain scans show their minds look just like everyone else.\nThey succeed because they practice proven tricks every day.",
       "quote": "Even the most incredible memory feats are the result of training and techniques that anyone can learn, rather than native gifts.",
-      "actionItem": "Demystify a skill that intimidates you by breaking it down into component drills rather than attributing mastery to natural talent.",
+      "actionItem": "Break a hard skill into tiny drills instead of assuming you lack talent.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1153,10 +1153,10 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
       "author": "Joshua Foer",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Encoding Names via Feature Anchoring",
-      "body": "Faces are recognized holistically by the fusiform face area, while names are arbitrary strings.\nTo bridge the gap, isolate one striking physical feature\u2014an eyebrow, nose contour, or chin\u2014and fuse the person's name-imagery directly onto that facial landmark.",
+      "headline": "Anchor Names to Faces",
+      "body": "We recognize faces quickly, but names slip away easily.\nFind one standout feature on a person's face.\nGlue a silly picture of their name onto that feature.",
       "quote": "Find a prominent feature on the person's face, and mentally weld your vivid, ridiculous image to that feature.",
-      "actionItem": "At your next meeting, link each new colleague's name to a distinctive facial feature using a miniature kinetic visual story.",
+      "actionItem": "Spot one clear feature on a new face and link it to their name.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1174,10 +1174,10 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
       "author": "Joshua Foer",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Synaptic Scaffold",
-      "body": "New memories do not float in biological vacuums; they must physically anchor to preexisting neural webs.\nThe more background context and factual density you possess about a subject, the faster and more reliably novel insights can latch on and consolidate.",
+      "headline": "The Knowledge Tree",
+      "body": "New facts need old facts to stick to.\nThe more you know, the easier it is to learn more.\nA strong foundation gives new ideas a place to land.",
       "quote": "The more you know, the easier it is to know more. Memory creates a framework onto which new memories can be hung.",
-      "actionItem": "Before reading a deep technical paper or complex book, spend 10 minutes scanning its table of contents and summaries to erect a cognitive scaffold.",
+      "actionItem": "Scan chapter headings before reading a book to build a quick mental frame.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1195,10 +1195,10 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
       "author": "Joshua Foer",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Seductive Trap of Rereading",
-      "body": "Skimming highlighted passages generates a deceptive feeling of fluency that students mistake for retention.\nTrue consolidation requires active retrieval\u2014forcing the brain to pull data across synaptic paths without visual cues.",
+      "headline": "Test, Do Not Reread",
+      "body": "Rereading text makes you feel like you know it.\nTrue learning happens when you pull facts out of your own head.\nQuiz yourself to make knowledge stick.",
       "quote": "Testing oneself is not just a tool for measuring what you know; it is a powerful technique for making memories stick.",
-      "actionItem": "Close your notebook after reading a chapter and write a three-sentence core distillation completely from memory before checking.",
+      "actionItem": "Close the book and write two main points from memory before looking back.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1216,10 +1216,10 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
       "author": "Joshua Foer",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Metronome Pacing for Habit Disruption",
-      "body": "When practicing mental arithmetic, speed cards, or musical passages, practitioners employ a metronome set slightly faster than their natural limit.\nThe ticking rhythm denies the brain time to deliberate, driving subconscious pattern consolidation under pressure.",
+      "headline": "Beat the Clock",
+      "body": "Practicing with a steady timer stops you from second-guessing.\nFast pacing forces your brain to react without hesitation.\nWorking against time builds quick and steady recall.",
       "quote": "By forcing yourself to operate at a speed where mistakes are inevitable, you reveal the exact bottlenecks holding your performance back.",
-      "actionItem": "Practice your flashcards or review notes against a rhythmic timer, forcing an answer every three seconds to eliminate hesitation.",
+      "actionItem": "Flip through study cards and answer each one within three seconds flat.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1237,10 +1237,10 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
       "author": "Joshua Foer",
       "category": "Psychology",
       "type": "quote",
-      "headline": "How Memory Defines Identity",
-      "body": "Foer reflects on how memory constitutes the foundation of human agency and conscious experience.\nWe are fundamentally the sum of what we retain, synthesize, and can deliberately retrieve.",
+      "headline": "We Are Our Memories",
+      "body": "Your memories shape who you are as a person.\nWhen you forget your past, you lose a piece of yourself.\nPaying close attention protects the story of your life.",
       "quote": "We are the sum of our memories. How much of our lives are we willing to lose by forgetting to pay attention?",
-      "actionItem": "Write down the three pivotal memories that dictate your current ethical framework and reflect on how they guide your choices.",
+      "actionItem": "Write down two key life events that helped form your values today.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1258,10 +1258,10 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
       "author": "Joshua Foer",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Architecture of Forgetting",
-      "body": "Forgetting is not purely a flaw; it is an adaptive optimization.\nThe brain prunes noise to extract high-level heuristics and conceptual models.\nDeliberate memorization techniques are designed to bypass this pruning mechanism for specific, high-leverage data.",
+      "headline": "Why We Forget",
+      "body": "Forgetting is not always a mistake by your brain.\nClearing out small details helps you spot the big picture.\nYou can choose which key facts to hold onto.",
       "quote": "Forgetting is an essential part of remembering. It allows us to generalize, synthesize, and make sense of the world without being buried in noise.",
-      "actionItem": "Decide what low-stakes logistical minutiae you can consciously delegate or forget today to preserve working memory for deep strategic work.",
+      "actionItem": "Drop three minor worries today so you can focus on one big goal.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1276,61 +1276,67 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
   "mindMap": {
     "id": "root",
     "label": "Moonwalking with Einstein",
-    "description": "Joshua Foer's investigative journey from skeptical science journalist to U.S.\nMemory Champion reveals how human memory works not like a computer recording data, but as an associative, spatial web.\nThrough deliberate practice and ancient mnemonics, ordinary minds can hack evolution's visual wiring to achieve seemingly supernatural recall.",
+    "description": "Anyone can build a super memory using simple mental tricks.\nOur brains remember pictures and spaces best.",
     "children": [
       {
         "id": "theme-evolutionary-cognition",
-        "label": "The Evolutionary Architecture of Memory",
-        "description": "Our brains evolved for survival on the savanna rather than memorizing abstract telephone numbers or strings of code.\nUnderstanding our biological biases reveals why spatial landmarks and vivid narratives stick effortlessly while dry text slips away.",
+        "label": "How Brains Evolved",
+        "description": "Our minds evolved to track food and find our way home.\nThey struggle with dry facts and random numbers.",
         "children": [
           {
             "id": "evo-hunter-gatherer-brain",
-            "label": "The Savanna Brain & Spatial Priority",
-            "description": "Evolutionary pressures favored ancestors who remembered where food was located and how to navigate back home over landmarks.\nConsequently, the brain's spatial and visual processing centers are disproportionately powerful compared to regions handling abstract symbolic logic.",
+            "label": "Built for Places",
+            "description": "Early humans needed to map trails and remember safe places.\nVisual memory is much stronger than abstract thinking.",
             "children": [
               {
                 "id": "evo-spatial-supremacy",
-                "label": "Spatial Supremacy over Abstract Symbols",
-                "description": "Abstract words like 'liberty' or random numbers possess no inherent evolutionary significance, leaving neural networks struggling to anchor them.\nWhen transformed into concrete sensory artifacts situated in physical space, our ancient navigation systems effortlessly retain them."
+                "label": "Spaces Beat Words",
+                "description": "Random facts slip away fast.\nTurn them into physical places to remember them.",
+                "children": []
               },
               {
                 "id": "evo-hippocampus-role",
-                "label": "The Hippocampal GPS System",
-                "description": "The hippocampus acts as the internal cartographer of our cognition, weaving place cells and grid cells together.\nMemory champions exploit this navigation hub to tag intellectual concepts onto geographic coordinates."
+                "label": "Inner GPS",
+                "description": "A tiny part of your brain maps physical routes.\nMemory champions use it to park facts on a map.",
+                "children": []
               }
             ]
           },
           {
             "id": "evo-baker-baker-paradox",
-            "label": "The Baker/baker Paradox",
-            "description": "When people are told a man's last name is Baker, they frequently forget it; when told he works as a baker, they easily remember.\nAn occupation ignites sensory cross-talk\u2014flour, white hats, warm ovens\u2014whereas a mere proper noun offers no associative friction.",
+            "label": "The Baker Problem",
+            "description": "You easily forget someone named Baker.\nYou remember if they bake fresh bread.",
             "children": [
               {
                 "id": "baker-semantic-richness",
-                "label": "Semantic Anchors & Cross-Talk",
-                "description": "An occupation links into existing perceptual webs of smell, touch, and cultural meaning, establishing dozens of neural retrieval hooks.\nA surname sits isolated on an island without context, making it extremely vulnerable to cognitive decay."
+                "label": "Jobs Beat Names",
+                "description": "A baker brings up smells, hats, and warm ovens.\nA last name has no picture attached to it.",
+                "children": []
               },
               {
                 "id": "baker-practical-conversion",
-                "label": "Converting Arbitrary Labels to Lived Concepts",
-                "description": "The core trick of mnemonics is converting dead data into living concepts like the occupational baker.\nBy systematically translating cold names and facts into rich sensory experiences, memory champions bypass everyday brain lapses."
+                "label": "Turn Words into Pictures",
+                "description": "The secret is turning plain facts into lively images.\nGive boring words sights, smells, and action.",
+                "children": []
               }
             ]
           },
           {
             "id": "evo-externalization-trap",
-            "label": "Cognitive Offloading & The External Shelf",
-            "description": "From Socrates lamenting the invention of the alphabet to modern smartphone dependency, humans have continually outsourced memory to external media.\nWhile this frees up executive bandwidth, it subtly erodes the rich internal matrix of cross-disciplinary connections that spark genuine creativity.",
+            "label": "Relying on Devices",
+            "description": "We trust phones and notes to store our memories.\nThis habit weakens our ability to think deeply.",
             "children": [
               {
                 "id": "evo-socrates-warning",
-                "label": "The Phaedrus Warning on Literacy",
-                "description": "Socrates feared that writing would plant forgetfulness in students' souls because they would cease to exercise memory directly.\nExternal text provides the illusion of wisdom without demanding the deep internal comprehension that true recollection requires."
+                "label": "Socrates on Writing",
+                "description": "Socrates warned that writing would make people forgetful.\nReading notes can feel like learning without true understanding.",
+                "children": []
               },
               {
                 "id": "evo-digital-amnesia",
-                "label": "Modern Prosthetics & The Google Effect",
-                "description": "When the brain knows information is indexed externally in a digital database, it deliberately chooses not to encode the fact itself, only encoding the retrieval path.\nThis structural outsourcing fundamentally reshapes how synaptic associations are formed across our working lives."
+                "label": "The Google Effect",
+                "description": "Your brain forgets facts it can easily search online.\nIt only remembers where to find the link.",
+                "children": []
               }
             ]
           }
@@ -1338,62 +1344,69 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
       },
       {
         "id": "theme-the-art-of-memory",
-        "label": "Ars Memoriae: Classical Memory Technology",
-        "description": "Born in classical antiquity after Simonides identified crushed banquet victims using their seating arrangements, the Art of Memory turns the mind into an architected gallery.\nIt systematically exploits our spatial apparatus to organize vast stores of information.",
+        "label": "Ancient Memory Tricks",
+        "description": "Greek thinkers treated memory like an imaginary house.\nPlacing ideas in imagined rooms keeps them organized.",
         "children": [
           {
             "id": "ars-method-of-loci",
-            "label": "The Method of Loci & Memory Palaces",
-            "description": "The foundational strategy of memory champions involves constructing an orderly sequence of physical locations within an imagined familiar building.\nBy depositing vivid mental images at sequential landmarks, one can retrieve them perfectly merely by retracing the walk.",
+            "label": "The Memory Palace",
+            "description": "Imagine walking through a familiar building you know well.\nLeave mental pictures at stops along the way.",
             "children": [
               {
                 "id": "loci-spatial-routing",
-                "label": "Topographical Route Architecture",
-                "description": "A well-designed memory palace requires fixed, non-overlapping trajectories such as clockwise tours around a childhood bedroom or city street.\nThis strict directional flow guarantees that information can be reviewed in exact chronological order without collisions."
+                "label": "Follow a Set Path",
+                "description": "Always walk through your palace in one clear order.\nThis keeps every item in the right sequence.",
+                "children": []
               },
               {
                 "id": "loci-infinite-real-estate",
-                "label": "Sourcing Mental Real Estate",
-                "description": "Practitioners repurpose childhood homes, museum corridors, transit stations, and even fun game levels as empty storage racks.\nThe world becomes an inexhaustible library of three-dimensional hard drives awaiting new knowledge uploads."
+                "label": "Endless New Rooms",
+                "description": "You can use your school, street, or childhood home.\nEvery real place can store brand new memories.",
+                "children": []
               }
             ]
           },
           {
             "id": "ars-visuo-emotional-encoding",
-            "label": "Visuo-Emotional Encoding & Novelty",
-            "description": "The human brain immediately prunes away bland, routine sights while burning unusual, grotesque, or humorous occurrences into long-term storage.\nEffective mnemonic imagery deliberately violates taboos and common sense to command biological attention.",
+            "label": "Make It Weird",
+            "description": "Our minds instantly forget boring, everyday sights.\nWild, silly, and shocking images stick forever.",
             "children": [
               {
                 "id": "encoding-vulgar-humor",
-                "label": "The Taboo, Bizarre, and Comedic Filter",
-                "description": "Injecting absurd sexual, violent, or slapstick elements activates the amygdala, dramatically amplifying hippocampal memory consolidation.\nA boring digit combination transformed into a dancing celebrity draped in cottage cheese triggers an alert signal the brain cannot ignore."
+                "label": "Funny and Strange Sights",
+                "description": "Turn plain numbers into crazy, funny cartoon scenes.\nThe brain cannot ignore ridiculous images.",
+                "children": []
               },
               {
                 "id": "encoding-synesthetic-detail",
-                "label": "Multisensory Synthesis",
-                "description": "High-fidelity encoding requires more than just seeing an image; it demands feeling its texture, inhaling its odor, and hearing its sound.\nThe denser the sensory cross-connections within the simulation, the faster and more reliably the node can be retrieved."
+                "label": "Use Every Sense",
+                "description": "Do not just picture the image in your mind.\nFeel its texture, hear it, and smell it.",
+                "children": []
               }
             ]
           },
           {
             "id": "ars-phonetic-systems",
-            "label": "Abstract-to-Concrete Transcoding Engines",
-            "description": "To memorize raw, unstructured items such as numbers, playing cards, or historical dates, mnemonists route them through systematic transcoding algorithms.\nThese engines transform arbitrary symbols into tangible human actors, actions, and objects.",
+            "label": "Decoding Random Numbers",
+            "description": "Code systems turn boring numbers into people and items.\nThis turns cold math into lively stories.",
             "children": [
               {
                 "id": "trans-major-system",
-                "label": "The Major System (Consonant Phonetics)",
-                "description": "This classic technique assigns specific consonant sounds to numbers from 0 to 9, allowing digit sequences to effortlessly assemble into pronounceable words.\nThe number 32, for instance, translates into 'm' and 'n', crystallizing instantly into 'moon' or 'man'."
+                "label": "Letters for Numbers",
+                "description": "Swap each digit from zero to nine for a sound.\nThen build real words out of those sounds.",
+                "children": []
               },
               {
                 "id": "trans-pao-system",
-                "label": "The Person-Action-Object (PAO) Framework",
-                "description": "Every two-digit number or playing card is mapped to a distinct Person performing a unique Action on a characteristic Object.\nBy combining the Person of one card, the Action of a second, and the Object of a third, three distinct pieces of data compress into one kinetic scene."
+                "label": "Person Action Object",
+                "description": "Give each playing card a person, action, and item.\nCombine all three to store cards fast.",
+                "children": []
               },
               {
                 "id": "trans-moonwalking-einstein",
-                "label": "The Titular Mnemonic Collision",
-                "description": "The book's colorful title illustrates the PAO engine in motion: Albert Einstein (a person) moonwalking (an action) on a bed of beer bottles (an object).\nSuch synthetic mental collisions fuse disparate units of information into an unforgettable cognitive jewel."
+                "label": "Dancing Einstein Image",
+                "description": "Imagine Albert Einstein moonwalking on beer bottles.\nCrazy mental movies are impossible to forget.",
+                "children": []
               }
             ]
           }
@@ -1401,149 +1414,165 @@ export const MOONWALKING_WITH_EINSTEIN_BOOK: Book = {
       },
       {
         "id": "theme-neuroplasticity-expertise",
-        "label": "Expertise, Chunking, and Deliberate Practice",
-        "description": "Mental champions are neither anatomical savants nor genetic outliers endowed with photographic minds; their brains have simply been reprogrammed through rigorous practice.\nExpertise emerges when the mind reorganizes how it perceives and chunks perceptual patterns.",
+        "label": "Practice Makes Masters",
+        "description": "Top memory champions are born with normal brains.\nThey get better through hard, targeted training.",
         "children": [
           {
             "id": "exp-chunking-mechanics",
-            "label": "Working Memory & Perceptual Chunking",
-            "description": "Human short-term memory is biologically constrained to roughly seven distinct items, famously formulated by George Miller.\nExperts bypass this hard limit not by expanding raw capacity, but by packing far richer packages of information into each available slot.",
+            "label": "Grouping Small Bits",
+            "description": "Your mind holds only about seven items at once.\nGrouping small facts together lets you remember more.",
             "children": [
               {
                 "id": "chunk-de-groot-chess",
-                "label": "The De Groot Chess Board Experiments",
-                "description": "Grandmasters can reconstruct complex game boards after a five-second glance because they see cohesive strategic formations rather than isolated pieces.\nYet, when pieces are placed randomly, grandmaster recall drops to amateur levels, proving their skill is structured pattern-matching, not photographic memory."
+                "label": "The Chess Test",
+                "description": "Chess masters spot full patterns, not single pieces.\nTheir memory drops when pieces are placed randomly.",
+                "children": []
               },
               {
                 "id": "chunk-long-term-working",
-                "label": "Ericsson's Long-Term Working Memory",
-                "description": "Cognitive psychologist K.\nAnders Ericsson proved that with deliberate practice, working memory can hook directly into structured long-term storage mechanisms.\nThis scaffolding allows retrieval speeds that mimic immediate short-term availability."
+                "label": "Quick Retrieval Paths",
+                "description": "Good practice builds neat mental shelves.\nYou can pull up deep memories in seconds.",
+                "children": []
               }
             ]
           },
           {
             "id": "exp-the-ok-plateau",
-            "label": "Overcoming the OK Plateau",
-            "description": "Most people plateau after attaining an acceptable level of performance in typing, driving, or everyday work, letting automaticity take over.\nBreaking through this autonomous ceiling demands deliberate practice\u2014continually leaning into targeted failure points.",
+            "label": "The OK Plateau",
+            "description": "People stop improving once a skill feels easy.\nYou must push past comfort to keep growing.",
             "children": [
               {
                 "id": "plateau-three-stages",
-                "label": "The Three Stages of Motor Learning",
-                "description": "Skill acquisition journeys across the cognitive, associative, and autonomous phases, where tasks transition from conscious effort to automatic habit.\nWhile automation conserves metabolic energy, it also arrests development, locking performers into stagnant competence."
+                "label": "Three Learning Steps",
+                "description": "You start slow, practice, and then run on autopilot.\nAutopilot saves energy but halts your progress.",
+                "children": []
               },
               {
                 "id": "plateau-deliberate-feedback",
-                "label": "Targeted Friction & Speed Drilling",
-                "description": "To break through his own speed barrier with playing cards, Foer practiced with a metronome at paces far faster than his comfort zone.\nBy analyzing the precise errors provoked by this speed stress, he systematically repaired his cognitive bottlenecks."
+                "label": "Push Past Limits",
+                "description": "Train faster than feels comfortable to spot mistakes.\nFixing errors makes you faster and sharper.",
+                "children": []
               }
             ]
           },
           {
             "id": "exp-fitts-law-automation",
-            "label": "The Irony of Deliberate Attention",
-            "description": "Mastery paradoxically requires conscious de-automation of habits to identify flaws, followed by rapid re-automation during tournament execution.\nMental competitors live in a constant feedback loop of breaking apart and rebuilding their own perceptual reflexes."
+            "label": "Break Bad Habits",
+            "description": "To improve, stop and fix your automatic routines.\nRebuild your habits with full focus.",
+            "children": []
           }
         ]
       },
       {
         "id": "theme-spectrum-of-memory",
-        "label": "The Spectrum: Savants, Amnesiacs, and Normal Minds",
-        "description": "By profiling cognitive outliers\u2014from those who cannot forget anything to those trapped in a momentary present\u2014Foer delineates the boundaries of human identity.\nThese extreme cases reveal that forgetting is not an evolutionary defect, but a vital cognitive filter.",
+        "label": "Memory Extremes",
+        "description": "Looking at memory loss and geniuses teaches us plenty.\nForgetting useless noise is actually very healthy.",
         "children": [
           {
             "id": "spec-patient-hm",
-            "label": "The Anatomy of Forgetting: Patient H.M. and EP",
-            "description": "Patients with dense anterograde amnesia caused by hippocampal damage demonstrate that memory is not a single unified entity.\nEven without episodic recollection, they can acquire unconscious procedural skills, proving our brains host multiple parallel recording systems.",
+            "label": "Famous Amnesia Patients",
+            "description": "Brain injury patients show memory has different parts.\nThey can learn motor skills without remembering lessons.",
             "children": [
               {
                 "id": "hm-declarative-vs-procedural",
-                "label": "Declarative vs. Nondeclarative Split",
-                "description": "Patient H.M.\ncould master mirror-tracing tasks over several consecutive days while swearing each morning he had never seen the apparatus before.\nThis striking dissociation proved that motor memory and autobiographical awareness rely on distinct anatomical circuits."
+                "label": "Facts Versus Habits",
+                "description": "Patient H.M.\nlearned drawing tasks by habit.\nYet he forgot ever practicing them each morning.",
+                "children": []
               },
               {
                 "id": "hm-present-prison",
-                "label": "The Eternal Present of EP",
-                "description": "Foer visits EP, an elderly man whose viral encephalitis stripped his ability to form new memories, leaving him locked in an ongoing ninety-second bubble.\nWithout the bridge of episodic memory, continuity of self vanishes, demonstrating that narrative memory forms the spine of identity."
+                "label": "Trapped in Now",
+                "description": "One patient forgot everything after ninety seconds.\nWithout past memories, you lose your sense of self.",
+                "children": []
               }
             ]
           },
           {
             "id": "spec-savant-syndrome",
-            "label": "Total Recall & The Curse of Savantism",
-            "description": "The legendary Russian mnemonist 'S', studied by A.R.\nLuria, experienced synesthetic sensations so overwhelming that he could rarely grasp abstract metaphors or organize overarching principles.\nHis condition demonstrates that a total inability to forget can be cognitively paralyzing.",
+            "label": "The Total Recall Trap",
+            "description": "Remembering every single detail can overwhelm the brain.\nTotal recall makes it tough to spot big ideas.",
             "children": [
               {
                 "id": "savant-detail-blindness",
-                "label": "Blinded by the Foliage (Luria's 'S')",
-                "description": "Because 'S' remembered every leaf on every tree, he struggled to recognize a face if the person's expression changed slightly or the lighting shifted.\nHis mind drowned in granular literalism, leaving him unable to generalize or read poetry effectively."
+                "label": "Too Many Details",
+                "description": "One man remembered every single tree leaf.\nHe struggled to recognize faces with new expressions.",
+                "children": []
               },
               {
                 "id": "savant-daniel-tammet",
-                "label": "The Daniel Tammet Enigma: Savant or Hacker?",
-                "description": "Foer investigates Daniel Tammet, a high-functioning savant celebrated for reciting pi to 22,514 decimal places.\nThe inquiry probes whether Tammet's prowess stems from innate synesthesia or refined, disguised mnemonic techniques, highlighting the blurry boundary between natural talent and deliberate practice."
+                "label": "Natural or Trained",
+                "description": "One famous savant recited thousands of math digits.\nExperts debate if he is gifted or well-trained.",
+                "children": []
               }
             ]
           },
           {
             "id": "spec-forgetting-as-feature",
-            "label": "Forgetting as an Evolutionary Feature",
-            "description": "Biological forgetting is not a design flaw; it is an active, metabolically expensive mechanism for data abstraction.\nBy discarding trivial sensory noise, the nervous system distills experience into generalized concepts, allowing us to adapt fluidly to novel environments."
+            "label": "Why Forgetting Helps",
+            "description": "Forgetting cleans out tiny, useless daily details.\nIt helps your mind focus on what truly matters.",
+            "children": []
           }
         ]
       },
       {
         "id": "theme-cultural-philosophical-epilogue",
-        "label": "Memory, Culture, and the Human Self",
-        "description": "Memory is far more than an intellectual parlor trick for memorizing shuffled card decks; it is the raw fabric out of which thoughts, values, and original innovations are woven.\nThe book concludes with a poignant examination of what it means to cultivate an educated mind in a hyper-digitized civilization.",
+        "label": "Memory and Identity",
+        "description": "Memory is more than clever party tricks.\nWhat we remember shapes who we are.",
         "children": [
           {
             "id": "cult-internalized-reading",
-            "label": "The Monastic Art of Memory Digestion",
-            "description": "Medieval monks practiced 'ruminatio'\u2014chewing over sacred texts until the words were fully digested into their internal memory palaces.\nTrue reading in the pre-print era was viewed not as passive consumption, but as a moral act of stitching wisdom into one's character.",
+            "label": "Deep Reading Habits",
+            "description": "Old monks digested books slowly to absorb wisdom.\nReading was about shaping inner character.",
             "children": [
               {
                 "id": "cult-gutenberg-shift",
-                "label": "The Gutenberg Shift from Memory to Index",
-                "description": "Before the printing press, having an educated mind meant literally embodying a library within your own skull.\nThe flood of printed books externalized literacy, subtly shifting the definition of intellect from internal possession to knowing where to look things up."
+                "label": "The Printing Press",
+                "description": "Printed books meant people stopped memorizing full texts.\nKnowing facts changed to knowing where to look.",
+                "children": []
               },
               {
                 "id": "cult-creative-cross-pollination",
-                "label": "Memory as the Engine of Creativity",
-                "description": "Creative breakthroughs do not occur in an external search engine; they ignite when two disparate concepts collide unexpectedly within the wetware of a single human brain.\nOutsourcing memory risks suffocating serendipitous innovation before it can even begin."
+                "label": "Sparking New Ideas",
+                "description": "Creativity happens when different stored ideas connect inside.\nSearch bars cannot create those spontaneous sparks.",
+                "children": []
               }
             ]
           },
           {
             "id": "cult-time-perception",
-            "label": "Episodic Density & Subjective Time",
-            "description": "Our subjective perception of time's passage is governed by the volume of novel, vividly encoded memories laid down during any given period.\nMonotonous, unremembered routines accelerate our perception of life's passing, making years feel like they vanish overnight.",
+            "label": "How Time Flies",
+            "description": "New experiences fill memory and make life feel rich.\nBoring routines make months slip away fast.",
             "children": [
               {
                 "id": "time-novelty-stretching",
-                "label": "Stretching Time Through Varied Experience",
-                "description": "Children perceive summers as nearly endless because their brains are constantly recording novel sensory phenomena and charting unfamiliar environments.\nBy purposefully engaging with novel tasks and practicing deep sensory encoding, adults can subjectively lengthen their lives."
+                "label": "Slow Down Time",
+                "description": "Childhood summers felt long because everything was fresh.\nTrying new things makes your life feel longer.",
+                "children": []
               },
               {
                 "id": "time-unremembered-life",
-                "label": "The Unremembered Life",
-                "description": "Foer reflects on how everyday forgetfulness squanders our limited lifespan, leaving behind only faint residue.\nDeliberate attention and mnemonic consciousness serve as a defense against the quiet erosion of lived experience."
+                "label": "Pay Real Attention",
+                "description": "Days you forget are days you lose forever.\nPaying attention preserves your lived life.",
+                "children": []
               }
             ]
           },
           {
             "id": "cult-championship-verdict",
-            "label": "The Championship & The Value of Mind",
-            "description": "Foer's journey culminates in winning the U.S.\nMemory Championship, proving that ancient memory methods can transform anyone's recall.\nYet, standing with his trophy, he still forgets his car keys, driving home the vital distinction between disciplined mnemonic tricks and everyday mindfulness.",
+            "label": "Winning the Trophy",
+            "description": "The author won the championship with practiced tricks.\nYet he still forgot where he parked his car.",
             "children": [
               {
                 "id": "cult-technique-vs-mindfulness",
-                "label": "The Car Keys Paradox",
-                "description": "Despite setting national memory records, Foer forgets that he drove to his celebratory dinner and leaves his car in the parking lot.\nTechnique only activates when consciously applied; absent-mindedness persists unless disciplined attention accompanies everyday life."
+                "label": "Tricks Versus Attention",
+                "description": "Memory tricks only work when you choose to use them.\nEveryday mindfulness still requires real daily focus.",
+                "children": []
               },
               {
                 "id": "cult-reclaiming-human-nature",
-                "label": "Reclaiming Our Internal Architecture",
-                "description": "The ultimate lesson of the art of memory is not about winning competitions, but about learning to inhabit our own minds with deliberate care.\nIn an era dominated by automated algorithms, training our innate biological recall is a profound celebration of what makes us human."
+                "label": "Own Your Mind",
+                "description": "Training memory is about caring for your mind.\nIt keeps us human in a digital world.",
+                "children": []
               }
             ]
           }
