@@ -47,6 +47,23 @@ import { MOONWALKING_WITH_EINSTEIN_BOOK } from './books/moonwalkingWithEinsteinE
 import { MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK } from './books/makeItStickTheScienceOfSuccessfulLearningExpanded';
 import { THE_BRAIN_THAT_CHANGES_ITSELF_BOOK } from './books/theBrainThatChangesItselfExpanded';
 import { A_MIND_FOR_NUMBERS_BOOK } from './books/aMindForNumbersExpanded';
+import { LIMITLESS_BOOK } from './books/limitlessExpanded';
+import { THE_MEMORY_BOOK_BOOK } from './books/theMemoryBookExpanded';
+import { LEARN_LIKE_A_PRO_BOOK } from './books/learnLikeAProExpanded';
+import { SUPER_THINKING_THE_BIG_BOOK_OF_MENTAL_MODELS_BOOK } from './books/superThinkingTheBigBookOfMentalModelsExpanded';
+import { FLOW_THE_PSYCHOLOGY_OF_OPTIMAL_EXPERIENCE_BOOK } from './books/flowThePsychologyOfOptimalExperienceExpanded';
+import { STOLEN_FOCUS_WHY_YOU_CAN_T_PAY_ATTENTION_BOOK } from './books/stolenFocusWhyYouCanTPayAttentionExpanded';
+import { THE_SHALLOWS_WHAT_THE_INTERNET_IS_DOING_TO_OUR_BRAINS_BOOK } from './books/theShallowsWhatTheInternetIsDoingToOurBrainsExpanded';
+import { INDISTRACTABLE_HOW_TO_CONTROL_YOUR_ATTENTION_AND_CHOOSE_YOUR_BOOK } from './books/indistractableHowToControlYourAttentionAndChooseYourExpanded';
+import { ATTENTION_SPAN_BOOK } from './books/attentionSpanExpanded';
+import { REST_WHY_YOU_GET_MORE_DONE_WHEN_YOU_WORK_LESS_BOOK } from './books/restWhyYouGetMoreDoneWhenYouWorkLessExpanded';
+import { THE_DISTRACTED_MIND_ANCIENT_BRAINS_IN_A_HIGH_TECH_WORLD_BOOK } from './books/theDistractedMindAncientBrainsInAHighTechWorldExpanded';
+import { BORED_AND_BRILLIANT_BOOK } from './books/boredAndBrilliantExpanded';
+import { THE_ATTENTION_MERCHANTS_BOOK } from './books/theAttentionMerchantsExpanded';
+import { HOW_TO_READ_A_BOOK_BOOK } from './books/howToReadABookExpanded';
+import { BUILDING_A_SECOND_BRAIN_BOOK } from './books/buildingASecondBrainExpanded';
+import { HOW_TO_TAKE_SMART_NOTES_BOOK } from './books/howToTakeSmartNotesExpanded';
+import { THE_INFORMATION_DIET_BOOK } from './books/theInformationDietExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -94,7 +111,24 @@ export const SEED_BOOKS: Book[] = [
   MOONWALKING_WITH_EINSTEIN_BOOK,
   MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK,
   THE_BRAIN_THAT_CHANGES_ITSELF_BOOK,
-  A_MIND_FOR_NUMBERS_BOOK
+  A_MIND_FOR_NUMBERS_BOOK,
+  LIMITLESS_BOOK,
+  THE_MEMORY_BOOK_BOOK,
+  LEARN_LIKE_A_PRO_BOOK,
+  SUPER_THINKING_THE_BIG_BOOK_OF_MENTAL_MODELS_BOOK,
+  FLOW_THE_PSYCHOLOGY_OF_OPTIMAL_EXPERIENCE_BOOK,
+  STOLEN_FOCUS_WHY_YOU_CAN_T_PAY_ATTENTION_BOOK,
+  THE_SHALLOWS_WHAT_THE_INTERNET_IS_DOING_TO_OUR_BRAINS_BOOK,
+  INDISTRACTABLE_HOW_TO_CONTROL_YOUR_ATTENTION_AND_CHOOSE_YOUR_BOOK,
+  ATTENTION_SPAN_BOOK,
+  REST_WHY_YOU_GET_MORE_DONE_WHEN_YOU_WORK_LESS_BOOK,
+  THE_DISTRACTED_MIND_ANCIENT_BRAINS_IN_A_HIGH_TECH_WORLD_BOOK,
+  BORED_AND_BRILLIANT_BOOK,
+  THE_ATTENTION_MERCHANTS_BOOK,
+  HOW_TO_READ_A_BOOK_BOOK,
+  BUILDING_A_SECOND_BRAIN_BOOK,
+  HOW_TO_TAKE_SMART_NOTES_BOOK,
+  THE_INFORMATION_DIET_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -144,7 +178,24 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(MOONWALKING_WITH_EINSTEIN_BOOK.ideaCards || []),
   ...(MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK.ideaCards || []),
   ...(THE_BRAIN_THAT_CHANGES_ITSELF_BOOK.ideaCards || []),
-  ...(A_MIND_FOR_NUMBERS_BOOK.ideaCards || [])
+  ...(A_MIND_FOR_NUMBERS_BOOK.ideaCards || []),
+  ...(LIMITLESS_BOOK.ideaCards || []),
+  ...(THE_MEMORY_BOOK_BOOK.ideaCards || []),
+  ...(LEARN_LIKE_A_PRO_BOOK.ideaCards || []),
+  ...(SUPER_THINKING_THE_BIG_BOOK_OF_MENTAL_MODELS_BOOK.ideaCards || []),
+  ...(FLOW_THE_PSYCHOLOGY_OF_OPTIMAL_EXPERIENCE_BOOK.ideaCards || []),
+  ...(STOLEN_FOCUS_WHY_YOU_CAN_T_PAY_ATTENTION_BOOK.ideaCards || []),
+  ...(THE_SHALLOWS_WHAT_THE_INTERNET_IS_DOING_TO_OUR_BRAINS_BOOK.ideaCards || []),
+  ...(INDISTRACTABLE_HOW_TO_CONTROL_YOUR_ATTENTION_AND_CHOOSE_YOUR_BOOK.ideaCards || []),
+  ...(ATTENTION_SPAN_BOOK.ideaCards || []),
+  ...(REST_WHY_YOU_GET_MORE_DONE_WHEN_YOU_WORK_LESS_BOOK.ideaCards || []),
+  ...(THE_DISTRACTED_MIND_ANCIENT_BRAINS_IN_A_HIGH_TECH_WORLD_BOOK.ideaCards || []),
+  ...(BORED_AND_BRILLIANT_BOOK.ideaCards || []),
+  ...(THE_ATTENTION_MERCHANTS_BOOK.ideaCards || []),
+  ...(HOW_TO_READ_A_BOOK_BOOK.ideaCards || []),
+  ...(BUILDING_A_SECOND_BRAIN_BOOK.ideaCards || []),
+  ...(HOW_TO_TAKE_SMART_NOTES_BOOK.ideaCards || []),
+  ...(THE_INFORMATION_DIET_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [

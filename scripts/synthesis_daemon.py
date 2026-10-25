@@ -927,7 +927,7 @@ def main():
                 build_res = subprocess.run(["npm", "run", "build"], cwd=WORKSPACE_DIR, capture_output=True, text=True)
                 if build_res.returncode == 0:
                     try:
-                        subprocess.run(["git", "add", "src/data/books/", "src/data/seedBooks.ts", "src/data/synthesis_tracker.json"], cwd=WORKSPACE_DIR, check=True)
+                        subprocess.run(["git", "add", "src/data/books/", "src/data/seedBooks.ts"], cwd=WORKSPACE_DIR, check=True)
                         commit_msg = f"feat(synthesis): batch of {books_since_last_push} books synthesized and added to library"
                         subprocess.run(["git", "commit", "-m", commit_msg], cwd=WORKSPACE_DIR, check=True)
                         push_res = subprocess.run(["git", "push", "origin", "main"], cwd=WORKSPACE_DIR, capture_output=True, text=True)
