@@ -85,7 +85,14 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
   const [isFullscreen, setIsFullscreen] = useState(false);
 
   // Floating Controls Pod Dragging
-  const [podPos, setPodPos] = useState<{ x: number; y: number } | null>(null);
+  interface PodPosition {
+    left?: number;
+    right?: number;
+    top?: number;
+    bottom?: number;
+  }
+
+  const [podPos, setPodPos] = useState<PodPosition | null>(null);
   const podRef = useRef<HTMLDivElement>(null);
   const podDragRef = useRef<{
     isDragging: boolean;
@@ -93,12 +100,16 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
     startY: number;
     initialX: number;
     initialY: number;
+    lastX: number;
+    lastY: number;
   }>({
     isDragging: false,
     startX: 0,
     startY: 0,
     initialX: 0,
-    initialY: 0
+    initialY: 0,
+    lastX: 0,
+    lastY: 0
   });
 
   const handlePodDragStart = (clientX: number, clientY: number, e: React.MouseEvent | React.TouchEvent) => {
@@ -116,7 +127,9 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
       startX: clientX,
       startY: clientY,
       initialX: currentX,
-      initialY: currentY
+      initialY: currentY,
+      lastX: currentX,
+      lastY: currentY
     };
 
     const handlePointerMove = (moveEvent: MouseEvent | TouchEvent) => {
@@ -137,7 +150,11 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
       const nextX = Math.min(Math.max(8, podDragRef.current.initialX + dx), maxX);
       const nextY = Math.min(Math.max(8, podDragRef.current.initialY + dy), maxY);
 
-      setPodPos({ x: nextX, y: nextY });
+      podDragRef.current.lastX = nextX;
+      podDragRef.current.lastY = nextY;
+
+      // While dragging, update live coordinates directly for immediate feedback
+      setPodPos({ left: nextX, top: nextY });
     };
 
     const handlePointerUp = () => {
@@ -147,6 +164,29 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
       window.removeEventListener('touchmove', handlePointerMove);
       window.removeEventListener('touchend', handlePointerUp);
       window.removeEventListener('touchcancel', handlePointerUp);
+
+      // On release, anchor relative to the nearest edge (bottom vs top, right vs left)
+      // This ensures if placed near the bottom, it stays anchored to the bottom when entering/exiting fullscreen!
+      if (containerRef.current && podRef.current) {
+        const cRect = containerRef.current.getBoundingClientRect();
+        const pRect = podRef.current.getBoundingClientRect();
+        const finalX = podDragRef.current.lastX;
+        const finalY = podDragRef.current.lastY;
+
+        const isBottom = finalY > (cRect.height - pRect.height) / 2;
+        const isRight = finalX > (cRect.width - pRect.width) / 2;
+
+        setPodPos({
+          ...(isRight
+            ? { right: Math.max(8, Math.round(cRect.width - finalX - pRect.width)) }
+            : { left: Math.max(8, Math.round(finalX)) }
+          ),
+          ...(isBottom
+            ? { bottom: Math.max(8, Math.round(cRect.height - finalY - pRect.height)) }
+            : { top: Math.max(8, Math.round(finalY)) }
+          )
+        });
+      }
     };
 
     window.addEventListener('mousemove', handlePointerMove, { passive: false });
@@ -164,12 +204,15 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
     const maxX = Math.max(8, cRect.width - pRect.width - 8);
     const maxY = Math.max(8, cRect.height - pRect.height - 8);
 
-    if (podPos.x > maxX || podPos.y > maxY) {
-      setPodPos({
-        x: Math.min(Math.max(8, podPos.x), maxX),
-        y: Math.min(Math.max(8, podPos.y), maxY)
-      });
-    }
+    setPodPos(prev => {
+      if (!prev) return null;
+      const next: PodPosition = {};
+      if (prev.left !== undefined) next.left = Math.min(Math.max(8, prev.left), maxX);
+      if (prev.right !== undefined) next.right = Math.min(Math.max(8, prev.right), maxX);
+      if (prev.top !== undefined) next.top = Math.min(Math.max(8, prev.top), maxY);
+      if (prev.bottom !== undefined) next.bottom = Math.min(Math.max(8, prev.bottom), maxY);
+      return next;
+    });
   }, [isFullscreen]);
 
   // Toggle fullscreen and lock body scroll
@@ -778,7 +821,7 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
       )}
 
       {/* Main Canvas & Inspector Layout */}
-      <div className={`${isFullscreen ? 'w-full h-full flex-1 min-h-0' : 'grid grid-cols-1 lg:grid-cols-4 gap-4'}`}>
+      <div className={`${isFullscreen ? 'w-full h-full flex-1 min-h-0 flex flex-col' : 'grid grid-cols-1 lg:grid-cols-4 gap-4'}`}>
         
         {/* Interactive Infinite SVG Canvas */}
         <div 
@@ -793,7 +836,7 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
           onTouchCancel={handleTouchEnd}
           className={`${
             isFullscreen 
-              ? 'w-full h-full rounded-none border-0' 
+              ? 'w-full h-full flex-1 min-h-0 rounded-none border-0' 
               : 'lg:col-span-3 rounded-2xl border border-slate-200 dark:border-slate-700 h-[600px] sm:h-[680px]'
           } bg-slate-50 dark:bg-[#0b101b] relative overflow-hidden shadow-inner select-none ${
             isDragging ? 'cursor-grabbing' : 'cursor-grab'
@@ -809,7 +852,12 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
             ref={podRef}
             style={
               podPos
-                ? { left: `${podPos.x}px`, top: `${podPos.y}px` }
+                ? {
+                    ...(podPos.left !== undefined ? { left: `${podPos.left}px` } : {}),
+                    ...(podPos.right !== undefined ? { right: `${podPos.right}px` } : {}),
+                    ...(podPos.top !== undefined ? { top: `${podPos.top}px` } : {}),
+                    ...(podPos.bottom !== undefined ? { bottom: `${podPos.bottom}px` } : {})
+                  }
                 : { right: '16px', bottom: '16px' }
             }
             onMouseDown={(e) => e.stopPropagation()}
