@@ -224,10 +224,10 @@ def sanitize_blinks(raw_blinks, book_id, chapters):
     sanitized = []
     seen_chapters = set()
     dict_blinks = []
-    for b in raw_blinks:
+    for i, b in enumerate(raw_blinks):
         if isinstance(b, dict):
-            ch_num = int(b.get("chapterNumber", 0))
-            if ch_num not in seen_chapters and ch_num > 0:
+            ch_num = int(b.get("chapterNumber", i + 1))
+            if ch_num not in seen_chapters:
                 seen_chapters.add(ch_num)
                 dict_blinks.append(b)
 
@@ -386,6 +386,9 @@ Output ONLY valid raw JSON without preamble.
 
     toc_data = draft["toc"]
     chapters = toc_data.get("chapters", [])
+    for idx, c in enumerate(chapters):
+        if c.get("chapterNumber") is None or c.get("chapterNumber") == 0:
+            c["chapterNumber"] = idx + 1
     one_page_summary = sanitize_one_page_summary(toc_data.get("onePageSummary", {}))
     pub_year = toc_data.get("publishedYear", 2020)
 
