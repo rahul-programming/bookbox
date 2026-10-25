@@ -148,6 +148,24 @@ def sanitize_reflections(raw_refs, book_id):
         })
     return sanitized
 
+def sanitize_one_page_summary(s):
+    if not isinstance(s, dict):
+        return {}
+    def flatten_strings(val):
+        if not isinstance(val, list):
+            return []
+        out = []
+        for item in val:
+            if isinstance(item, list):
+                out.extend(flatten_strings(item))
+            elif isinstance(item, str) and item.strip():
+                out.append(clean_quotes(item.strip()))
+        return out
+
+    s["strengths"] = flatten_strings(s.get("strengths", []))
+    s["blindSpotsAndCounterarguments"] = flatten_strings(s.get("blindSpotsAndCounterarguments", []))
+    return s
+
 def sanitize_idea_cards(raw_cards, book_id, book_title, author, app_category):
     valid_types = {'quote', 'concept', 'mental-model', 'actionable'}
     sanitized = []
@@ -155,7 +173,7 @@ def sanitize_idea_cards(raw_cards, book_id, book_title, author, app_category):
         ctype = c.get("type", "concept")
         if ctype not in valid_types:
             ctype = "concept"
-        sanitized.append({
+        card = {
             "id": f"{book_id}-card-{i+1}",
             "bookId": book_id,
             "bookTitle": book_title,
@@ -164,13 +182,16 @@ def sanitize_idea_cards(raw_cards, book_id, book_title, author, app_category):
             "type": ctype,
             "headline": clean_quotes(str(c.get("headline") or c.get("title", f"Core Insight {i+1}"))),
             "body": clean_quotes(str(c.get("body") or c.get("content", ""))),
-            "quote": clean_quotes(c.get("quote")) if c.get("quote") else None,
-            "actionItem": clean_quotes(c.get("actionItem")) if c.get("actionItem") else None,
             "tags": [app_category, "Strategy", "Mental Models"],
             "isStashed": False,
             "stashBoardIds": ["board-models"],
             "createdAt": int(time.time() * 1000) + i * 1000
-        })
+        }
+        if c.get("quote"):
+            card["quote"] = clean_quotes(str(c["quote"]))
+        if c.get("actionItem"):
+            card["actionItem"] = clean_quotes(str(c["actionItem"]))
+        sanitized.append(card)
     return sanitized
 
 def sanitize_mind_map(node, default_label="Mind Map"):
@@ -365,7 +386,7 @@ Output ONLY valid raw JSON without preamble.
 
     toc_data = draft["toc"]
     chapters = toc_data.get("chapters", [])
-    one_page_summary = toc_data.get("onePageSummary", {})
+    one_page_summary = sanitize_one_page_summary(toc_data.get("onePageSummary", {}))
     pub_year = toc_data.get("publishedYear", 2020)
 
     # Step 2: Blinks & Visual Diagrams
