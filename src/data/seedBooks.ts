@@ -64,6 +64,18 @@ import { HOW_TO_READ_A_BOOK_BOOK } from './books/howToReadABookExpanded';
 import { BUILDING_A_SECOND_BRAIN_BOOK } from './books/buildingASecondBrainExpanded';
 import { HOW_TO_TAKE_SMART_NOTES_BOOK } from './books/howToTakeSmartNotesExpanded';
 import { THE_INFORMATION_DIET_BOOK } from './books/theInformationDietExpanded';
+import { BOOK_10_DAYS_TO_FASTER_READING_BOOK } from './books/10DaysToFasterReadingExpanded';
+import { WRITE_ONCE_READ_FOREVER_SYNTOPIC_KNOWLEDGE_BOOK } from './books/writeOnceReadForeverSyntopicKnowledgeExpanded';
+import { THE_ART_OF_NOTE_TAKING_BOOK } from './books/theArtOfNoteTakingExpanded';
+import { CURATION_THE_POWER_OF_SELECTION_IN_A_WORLD_OF_EXCESS_BOOK } from './books/curationThePowerOfSelectionInAWorldOfExcessExpanded';
+import { SHOW_YOUR_WORK_BOOK } from './books/showYourWorkExpanded';
+import { BEING_LOGICAL_A_GUIDE_TO_GOOD_THINKING_BOOK } from './books/beingLogicalAGuideToGoodThinkingExpanded';
+import { A_CONCISE_INTRODUCTION_TO_LOGIC_BOOK } from './books/aConciseIntroductionToLogicExpanded';
+import { INTRODUCTION_TO_LOGIC_BOOK } from './books/introductionToLogicExpanded';
+import { SOCRATIC_LOGIC_BOOK } from './books/socraticLogicExpanded';
+import { LOGIC_A_VERY_SHORT_INTRODUCTION_BOOK } from './books/logicAVeryShortIntroductionExpanded';
+import { THE_USES_OF_ARGUMENT_BOOK } from './books/theUsesOfArgumentExpanded';
+import { AN_INTRODUCTION_TO_REASONING_BOOK } from './books/anIntroductionToReasoningExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -128,7 +140,19 @@ export const SEED_BOOKS: Book[] = [
   HOW_TO_READ_A_BOOK_BOOK,
   BUILDING_A_SECOND_BRAIN_BOOK,
   HOW_TO_TAKE_SMART_NOTES_BOOK,
-  THE_INFORMATION_DIET_BOOK
+  THE_INFORMATION_DIET_BOOK,
+  BOOK_10_DAYS_TO_FASTER_READING_BOOK,
+  WRITE_ONCE_READ_FOREVER_SYNTOPIC_KNOWLEDGE_BOOK,
+  THE_ART_OF_NOTE_TAKING_BOOK,
+  CURATION_THE_POWER_OF_SELECTION_IN_A_WORLD_OF_EXCESS_BOOK,
+  SHOW_YOUR_WORK_BOOK,
+  BEING_LOGICAL_A_GUIDE_TO_GOOD_THINKING_BOOK,
+  A_CONCISE_INTRODUCTION_TO_LOGIC_BOOK,
+  INTRODUCTION_TO_LOGIC_BOOK,
+  SOCRATIC_LOGIC_BOOK,
+  LOGIC_A_VERY_SHORT_INTRODUCTION_BOOK,
+  THE_USES_OF_ARGUMENT_BOOK,
+  AN_INTRODUCTION_TO_REASONING_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -195,7 +219,19 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(HOW_TO_READ_A_BOOK_BOOK.ideaCards || []),
   ...(BUILDING_A_SECOND_BRAIN_BOOK.ideaCards || []),
   ...(HOW_TO_TAKE_SMART_NOTES_BOOK.ideaCards || []),
-  ...(THE_INFORMATION_DIET_BOOK.ideaCards || [])
+  ...(THE_INFORMATION_DIET_BOOK.ideaCards || []),
+  ...(BOOK_10_DAYS_TO_FASTER_READING_BOOK.ideaCards || []),
+  ...(WRITE_ONCE_READ_FOREVER_SYNTOPIC_KNOWLEDGE_BOOK.ideaCards || []),
+  ...(THE_ART_OF_NOTE_TAKING_BOOK.ideaCards || []),
+  ...(CURATION_THE_POWER_OF_SELECTION_IN_A_WORLD_OF_EXCESS_BOOK.ideaCards || []),
+  ...(SHOW_YOUR_WORK_BOOK.ideaCards || []),
+  ...(BEING_LOGICAL_A_GUIDE_TO_GOOD_THINKING_BOOK.ideaCards || []),
+  ...(A_CONCISE_INTRODUCTION_TO_LOGIC_BOOK.ideaCards || []),
+  ...(INTRODUCTION_TO_LOGIC_BOOK.ideaCards || []),
+  ...(SOCRATIC_LOGIC_BOOK.ideaCards || []),
+  ...(LOGIC_A_VERY_SHORT_INTRODUCTION_BOOK.ideaCards || []),
+  ...(THE_USES_OF_ARGUMENT_BOOK.ideaCards || []),
+  ...(AN_INTRODUCTION_TO_REASONING_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
