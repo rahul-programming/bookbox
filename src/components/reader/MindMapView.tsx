@@ -847,7 +847,7 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
             touchAction: 'none'
           }}
         >
-          {/* Floating Controls Inside Map Canvas (Maximize / Minimize, Zoom, Center) - Movable & Defaults to Bottom-Right */}
+          {/* Floating Controls Inside Map Canvas (Maximize / Minimize, Zoom, Center) - Movable & Defaults to Top-Left */}
           <div
             ref={podRef}
             style={
@@ -858,7 +858,7 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
                     ...(podPos.top !== undefined ? { top: `${podPos.top}px` } : {}),
                     ...(podPos.bottom !== undefined ? { bottom: `${podPos.bottom}px` } : {})
                   }
-                : { right: '16px', bottom: '16px' }
+                : { left: '16px', top: '16px' }
             }
             onMouseDown={(e) => e.stopPropagation()}
             onTouchStart={(e) => e.stopPropagation()}
