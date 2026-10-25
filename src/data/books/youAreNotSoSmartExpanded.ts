@@ -1,5 +1,5 @@
 // You Are Not So Smart by David McRaney
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -1949,169 +1949,169 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
   "actionItems": [
     {
       "id": "you-are-not-so-smart-act-1",
-      "title": "Strip Confirmation Bias with Red-Team Search",
-      "description": "Your brain naturally craves evidence that proves you right while ignoring contradictory facts. Running an inverted search forces your thinking out of echo chambers and uncovers hidden blind spots before making an important choice.",
+      "title": "Search for Opposing Views",
+      "description": "Your brain loves proof that you are right. Searching for the opposite view reveals blind spots fast.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Pick a strong belief or purchase decision you are currently defending.",
-        "Open a search engine and write the exact opposite thesis (e.g., query 'why [idea] fails' instead of 'why [idea] works').",
-        "Read two substantive arguments written by knowledgeable critics.",
-        "Note down at least one legitimate vulnerability in your original assumption."
+        "1. Pick a strong opinion or buying choice you hold.",
+        "2. Search online for reasons why that choice might fail.",
+        "3. Read two good articles written by smart critics.",
+        "4. Write down one clear weakness in your original plan."
       ],
       "sourceChapter": "Confirmation Bias"
     },
     {
       "id": "you-are-not-so-smart-act-2",
-      "title": "Spot the Narrative Fallacy in a Past Triumph",
-      "description": "We instinctively weave neat, heroic storylines over chaotic historical events. Deconstructing a personal win helps you identify the invisible role of pure chance and external support rather than pure innate genius.",
+      "title": "Spot Luck in Past Wins",
+      "description": "We turn past wins into tidy hero stories. Spotting pure luck keeps you humble and realistic.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Select a memorable personal success you frequently share with pride.",
-        "List three pure luck events, timing flukes, or help from others that contributed directly to that outcome.",
-        "Rewrite the summary of the event as an interconnected chain of chance rather than pure individual competence.",
-        "Keep this perspective in mind so you don't grow overconfident on your next venture."
+        "1. Pick a proud personal win you love sharing.",
+        "2. List three lucky breaks that helped you win.",
+        "3. Note down the outside help you received then.",
+        "4. Tell the story again as a mix of chance."
       ],
       "sourceChapter": "The Narrative Fallacy"
     },
     {
       "id": "you-are-not-so-smart-act-3",
-      "title": "Conduct an Anchor Calibration Check",
-      "description": "The first number or price introduced into a negotiation anchors your mind and distorts your evaluation of true value. Resetting the baseline lets you evaluate purchases and quotes with clinical clarity.",
+      "title": "Reset the First Price Trap",
+      "description": "The first price you hear traps your mind. Checking true market value protects your wallet.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Notice the first price or estimate suggested in an upcoming purchase or deal.",
-        "Deliberately cover or write down that initial reference number to isolate it.",
-        "Establish an independent objective baseline by looking at manufacturing cost, market alternatives, or utility value.",
-        "Formulate your counteroffer or budget based strictly on utility rather than a discount off the anchor."
+        "1. Notice the first price quoted in any deal.",
+        "2. Hide that first number so it cannot sway you.",
+        "3. Research what similar items actually sell for elsewhere.",
+        "4. Make your offer based only on real value."
       ],
       "sourceChapter": "Anchoring Effect"
     },
     {
       "id": "you-are-not-so-smart-act-4",
-      "title": "Log Confabulation via Morning Decision Post-Mortem",
-      "description": "Your subconscious mind makes snap decisions based on emotional impulses, then your conscious mind invents rational-sounding justifications after the fact. Tracking this loop exposes your real motivations.",
+      "title": "Catch Your Fake Excuses",
+      "description": "We act on raw impulse and invent smart excuses later. Catching these excuses shows your true motives.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Review one impulsive reaction or choice you made yesterday during your morning coffee.",
-        "Ask yourself what physical or emotional state drove the action (fatigue, hunger, ego protection, boredom).",
-        "Identify the tidy intellectual story your brain created right after the act to justify it.",
-        "Write down the genuine biological or situational trigger in one honest sentence."
+        "1. Pick one hasty choice you made yesterday morning.",
+        "2. Ask if hunger, fatigue, or pride drove it.",
+        "3. Notice the neat excuse your brain made up.",
+        "4. Write down the honest, real reason behind it."
       ],
       "sourceChapter": "Introspection Illusion"
     },
     {
       "id": "you-are-not-so-smart-act-5",
-      "title": "Disarm the Fundamental Attribution Error",
-      "description": "When someone cuts us off or slips up, we assume they are deeply flawed; when we make mistakes, we blame circumstantial pressure. Reframing another person's friction keeps your everyday interactions objective and calm.",
+      "title": "Stop Blaming Other People",
+      "description": "We blame bad character when other people slip up. Thinking about their stress keeps you calm.",
       "category": "daily-routine",
       "timeEstimateMinutes": 3,
       "stepByStep": [
-        "Catch the moment you feel irritated by an annoying colleague, driver, or customer service agent.",
-        "Pause and identify the character flaw your brain instinctively labeled them with.",
-        "Construct three plausible high-stress situational factors they might be battling right now (e.g., family emergency, sleep deprivation, confusing instructions).",
-        "Respond strictly to the objective issue rather than attacking their perceived character."
+        "1. Catch yourself getting annoyed by someone else's mistake.",
+        "2. Notice the harsh label you placed on them.",
+        "3. Think of two tough problems they might face.",
+        "4. Focus on fixing the problem without attacking them."
       ],
       "sourceChapter": "The Fundamental Attribution Error"
     },
     {
       "id": "you-are-not-so-smart-act-6",
-      "title": "Engineer Friction to Break Habit Loops",
-      "description": "Willpower is a depleting resource, and your brain defaults to the path of least physical resistance. Altering micro-distances in your immediate physical environment redirects automatic mindless routines.",
+      "title": "Block Bad Habits with Distance",
+      "description": "Your brain always takes the easiest physical path. Adding physical blocks stops bad habits quickly.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Identify an automatic distraction habit you slip into without conscious thought (e.g., compulsive phone checking or snacking).",
-        "Introduce two physical barriers between yourself and that distraction (e.g., leave the phone in another room or store snacks behind a step-stool).",
-        "Place constructive cues directly in your line of sight (e.g., an open book or filled water pitcher on your desk).",
-        "Test the layout for a day and observe how the added physical friction disrupts the automatic autopilot."
+        "1. Pick one mindless habit you want to stop.",
+        "2. Put two physical barriers in front of it.",
+        "3. Place healthy choices right in front of you.",
+        "4. Test this setup for one full day."
       ],
       "sourceChapter": "Ego Depletion"
     },
     {
       "id": "you-are-not-so-smart-act-7",
-      "title": "Curate an Anti-Echo Information Feed",
-      "description": "Digital algorithms exploit our affinity for group cohesion, creating tightly sealed ideological bubbles. Designing balanced physical and digital informational spaces protects you from unexamined tribal bias.",
+      "title": "Read Different Points of View",
+      "description": "Social media feeds trap us in echo chambers. Reading opposing views keeps your mind open.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Audit the sources and commentators you interact with most on your primary news feed.",
-        "Identify two high-quality, reputable publications whose foundational assumptions diverge from your worldview.",
-        "Bookmark or subscribe to them so they sit side by side with your regular reading materials.",
-        "Scan their top analysis twice a week to observe alternative diagnostic frames on the same current events."
+        "1. Look closely at your main daily news feed.",
+        "2. Find two trusted sources that disagree with you.",
+        "3. Bookmark them next to your usual reading list.",
+        "4. Read their top headlines twice each week."
       ],
       "sourceChapter": "Groupthink"
     },
     {
       "id": "you-are-not-so-smart-act-8",
-      "title": "Conduct a Sunk Cost Purge Audit",
-      "description": "We frequently throw good time and money after bad simply because we cannot bear admitting an initial expenditure is gone forever. Auditing lingering obligations frees resources for viable opportunities.",
+      "title": "Drop Dead Weight Projects",
+      "description": "We hate quitting things after wasting time on them. Cutting bad commitments frees up your energy.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "List active projects, subscriptions, half-read books, or business commitments that drain energy with low yield.",
-        "Ask yourself: 'Knowing what I know right now, would I invest fresh cash or hours into starting this today?'",
-        "If the answer is no, acknowledge that the spent capital cannot be recovered whether you continue or quit.",
-        "Formally cancel, shelve, or scrap at least one dead-weight project without guilt."
+        "1. List projects or subscriptions that drain your time.",
+        "2. Ask if you would start them today today.",
+        "3. Accept that past wasted money is gone forever.",
+        "4. Cancel one pointless project today with zero guilt."
       ],
       "sourceChapter": "The Sunk Cost Fallacy"
     },
     {
       "id": "you-are-not-so-smart-act-9",
-      "title": "Run a Self-Serving Bias Calibration Audit",
-      "description": "Our subconscious systematically credits our brilliance for wins while blaming external obstacles for losses. Calibrating this distribution keeps your personal growth grounded in reality.",
+      "title": "Check Your True Blame Split",
+      "description": "We take credit for wins and blame others for losses. Honest reviews keep your growth real.",
       "category": "audit",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Take an inventory of your two biggest successes and two most frustrating setbacks over the last quarter.",
-        "Examine the setbacks and document two specific tactical mistakes or oversights you had direct control over.",
-        "Examine the successes and document two critical contributions made by outside partners or favorable market conditions.",
-        "Compute your revised self-scorecard to ensure your confidence matches measurable reality."
+        "1. Pick your two biggest wins and two setbacks.",
+        "2. Name one real mistake you made during setbacks.",
+        "3. Name outside help that helped your big wins.",
+        "4. Update your score with this honest, balanced view."
       ],
       "sourceChapter": "The Self-Serving Bias"
     },
     {
       "id": "you-are-not-so-smart-act-10",
-      "title": "Build a Bystander Effect Action Trigger",
-      "description": "In ambiguous emergency situations, groups freeze because everyone waits for someone else to act first. Creating explicit, personalized responsibility protocols guarantees immediate, decisive intervention.",
+      "title": "Call Out Specific Help",
+      "description": "Crowds freeze during trouble because nobody takes charge. Naming one person gets fast action.",
       "category": "system",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Create a strict rule for situations where an issue, hazard, or struggling person is noticed in a group setting.",
-        "Commit to being the first voice to break social paralysis rather than scanning the room for permission.",
-        "Instead of shouting generic requests like 'Somebody help,' point directly to a specific person and assign an explicit action ('You in the blue shirt, call 911').",
-        "Teach this protocol to family members or team members so group diffusion never halts emergency responses."
+        "1. Spot a problem or someone needing quick help.",
+        "2. Speak up first instead of waiting for others.",
+        "3. Point directly at one person in the crowd.",
+        "4. Give that person a clear task to do."
       ],
       "sourceChapter": "The Bystander Effect"
     },
     {
       "id": "you-are-not-so-smart-act-11",
-      "title": "Establish an Institutional Premortem Checklist",
-      "description": "Overconfidence and group loyalty cause teams to silence doubts and rush into doomed projects. Institutionalizing an adversarial premortem legalizes critique and systematically hunts down catastrophic flaws.",
+      "title": "Find Flaws Before Launching",
+      "description": "Teams often hide doubts to keep everyone happy. Imagining total failure reveals hidden flaws early.",
       "category": "system",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "Before launching any high-stakes initiative, assemble the key stakeholders for a dedicated 30-minute session.",
-        "State the prompt: 'Imagine we are 12 months in the future, and this project has completely and utterly failed. What caused the disaster?'",
-        "Have each participant spend 5 minutes writing down plausible failure vectors anonymously.",
-        "Group the vulnerabilities into high-risk clusters and build concrete preventative measures into the project roadmap."
+        "1. Gather your project team before the big launch.",
+        "2. Tell everyone to imagine the project failed totally.",
+        "3. Have everyone write down three possible disaster causes.",
+        "4. Add fixes for these risks to your plan."
       ],
       "sourceChapter": "The Overjustification Effect and Optimism Bias"
     },
     {
       "id": "you-are-not-so-smart-act-12",
-      "title": "Implement an Anonymous Devil's Advocate Rotation",
-      "description": "Consensus often reflects conformity rather than genuine agreement because dissent carries high social friction. Rotating formal critique duties safeguards groups against catastrophic collective blindness.",
+      "title": "Pick a Daily Skeptic",
+      "description": "People agree just to avoid awkward conflict. Picking an official critic keeps plans sound.",
       "category": "system",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Designate a rotating 'Chief Skeptic' role for recurring planning and strategy meetings.",
-        "Charge that person with identifying the three weakest underlying assumptions in any approved proposal.",
-        "Provide a secure, anonymous channel where junior team members can flag unaddressed operational risks without social penalty.",
-        "Require every final sign-off document to include an explicit rebuttal to the devil's advocate points."
+        "1. Pick one teammate to play critic each meeting.",
+        "2. Ask them to find three flaws in plans.",
+        "3. Let quiet team members send secret feedback too.",
+        "4. Answer every big concern before you start working."
       ],
       "sourceChapter": "Groupthink"
     }
@@ -2288,10 +2288,10 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       "author": "David McRaney",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Narrative Fabricator in Your Skull",
-      "body": "Your conscious ego is not the pilot flying the jet; it is the PR spokesperson explaining why the plane changed course after the autonomic autopilot already turned the wheel.\nWe make intuitive, split-second moves driven by biology and environment, then invent elegant logical narratives to explain them.",
-      "quote": "You are a confabulator by nature. You are always explaining to yourself why you did what you did, but you are usually wrong.",
-      "actionItem": "When someone asks why you made an instinctive choice, resist inventing an instant logical defense.\nPause and acknowledge your unconscious drivers.",
+      "headline": "Making Up Reasons Later",
+      "body": "You act first based on feelings and hidden impulses.\nThen, your brain makes up neat logical reasons to explain it.\nYou often lie to yourself without even knowing it.",
+      "quote": "You always explain why you did something, but you are usually wrong.",
+      "actionItem": "Notice when you defend a quick choice.\nAdmit that you acted on gut feeling instead of pure logic.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -2309,10 +2309,10 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       "author": "David McRaney",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Confirmation Bias as an Optical Filter",
-      "body": "The brain treats conflicting data as hazardous debris while vacuuming up confirming anecdotes like precious fuel.\nThis heuristic keeps your identity stable, but leaves your perception of reality warped, shielding obsolete conclusions from updated evidence.",
-      "quote": "Your opinions are the result of years of paying attention to information which confirmed what you believed while ignoring information which challenged it.",
-      "actionItem": "Before committing to a strategic thesis, actively hunt for three credible arguments formulated by people who disagree with you.",
+      "headline": "Seeing Only What Agrees",
+      "body": "Your mind loves proof that you are right.\nIt ignores facts that prove you are wrong.\nThis bad habit keeps you feeling safe but blind to truth.",
+      "quote": "You only notice facts that agree with you and ignore the rest.",
+      "actionItem": "Before you decide, find three smart people who disagree with your plan.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -2330,10 +2330,10 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       "author": "David McRaney",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Defeat Hindsight Bias by Timestamping Beliefs",
-      "body": "Because your brain retroactively updates past memories to conform with newly revealed outcomes, you falsely assume you knew it all along.\nThis robs you of genuine feedback loops and breeds dangerous overconfidence in forecasting.",
-      "quote": "You reconstruct the past using what you know now, editing your memories to make your former self seem much wiser than you actually were.",
-      "actionItem": "Write down your explicit predictions and estimated confidence percentages in a decision log before executing uncertain bets.",
+      "headline": "I Knew It All Along",
+      "body": "Once something happens, your brain rewrites your past memory.\nYou trick yourself into believing you saw it coming all along.\nThis makes you foolishly overconfident about the future.",
+      "quote": "You change old memories to look like you knew the answer before.",
+      "actionItem": "Write down your exact guess and confidence level before a big event happens.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -2351,10 +2351,10 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       "author": "David McRaney",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Fragility of Introspection",
-      "body": "We inhabit an inner theatre where our thoughts feel transparent and sovereign.\nYet modern cognitive science proves that most neurological machinery operates behind heavy curtains, keeping consciousness insulated from its own raw calculations.",
-      "quote": "You are a master of self-delusion. You are largely unaware of the true reasons behind your thoughts and behaviors.",
-      "actionItem": "Treat your first mental impulse as a biological signal rather than an infallible, objective truth.",
+      "headline": "Blind to Your Mind",
+      "body": "You think you know why you think and feel things.\nIn truth, most mental work happens deep in the dark.\nYour conscious mind only sees the final result.",
+      "quote": "You do not really know the true reasons behind your own actions.",
+      "actionItem": "Treat your first strong feeling as a quick guess, not as proven fact.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -2372,10 +2372,10 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       "author": "David McRaney",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Sunk Cost Distortion Field",
-      "body": "Resources spent in the past are ghosts that cannot be recovered.\nContinuing to invest energy, money, or attention into a failing trajectory simply to honor past sacrifices ensures future losses compound on top of historical ones.",
-      "quote": "Your decisions are tainted by the emotional investments you accumulate, and the more you invest in something the harder it becomes to abandon it.",
-      "actionItem": "Evaluate struggling projects through a clean zero-base lens: if you were handed this today with no baggage, would you fund it?",
+      "headline": "The Sunk Cost Trap",
+      "body": "Money and time spent in the past are gone forever.\nSticking with a bad idea just because you paid for it hurts you.\nYou only lose more by refusing to walk away.",
+      "quote": "The more you put into something, the harder it is to quit.",
+      "actionItem": "Ask yourself if you would start this project today with clean eyes.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -2393,10 +2393,10 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       "author": "David McRaney",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Fundamental Attribution Asymmetry",
-      "body": "When others stumble, we condemn their innate character, work ethic, or competence.\nWhen we stumble under identical conditions, we readily cite traffic, sleep deprivation, or unclear instructions.\nWe grant ourselves context while denying it to peers.",
-      "quote": "You view other people through the prism of their personality, but you view yourself through the prism of your circumstances.",
-      "actionItem": "When an associate drops the ball, list two environmental factors that might have hindered their execution before assigning blame.",
+      "headline": "Judging Others Too Harshly",
+      "body": "When others fail, we call them lazy, careless, or stupid.\nWhen we fail, we blame bad luck or poor sleep.\nWe give ourselves a pass but judge others unfairly.",
+      "quote": "You blame people for their mistakes, but you blame bad luck for yours.",
+      "actionItem": "When a coworker makes a mistake, find two outside reasons that caused it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -2414,10 +2414,10 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       "author": "David McRaney",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Short-Circuiting the Bystander Effect",
-      "body": "In an ambiguous crisis, groups look to one another for behavioral cues.\nBecause everyone is masking panic to look composed, a crowd creates collective immobility.\nResponsibility dilutes exponentially with every additional observer.",
-      "quote": "The more people who witness a person in distress, the less likely any one person is to help.",
-      "actionItem": "In an emergency, do not shout generally for help.\nPoint directly at a specific individual, name a distinguishing trait, and give one concrete command.",
+      "headline": "The Bystander Trap",
+      "body": "In a sudden crisis, people look around to see what others do.\nBecause everyone acts calm, no one steps up to help.\nThe bigger the crowd, the slower people are to act.",
+      "quote": "The more people watching an emergency, the less likely anyone helps.",
+      "actionItem": "In an emergency, point at one specific person and tell them what to do.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -2435,10 +2435,10 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       "author": "David McRaney",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Availability Cascade",
-      "body": "The human mind judges the likelihood of an event by the ease with which examples spring to mind.\nRare, dramatic disasters receive nonstop broadcast coverage, hijacking our risk assessment and crowding out quieter, statistically lethal threats.",
-      "quote": "You are far more likely to fear what is vivid than what is likely.",
-      "actionItem": "Whenever an alarming headline triggers panic, look up baseline actuarial tables or incidence rates per 100,000 before taking drastic action.",
+      "headline": "Fearing Scary News Stories",
+      "body": "You think things you easily picture happen all the time.\nScary news events stand out and scare you the most.\nCommon everyday risks kill more people, but you ignore them.",
+      "quote": "You fear dramatic stories far more than everyday, real risks.",
+      "actionItem": "Check real data and numbers before panicking over a shocking news headline.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -2456,10 +2456,10 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       "author": "David McRaney",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Illusory Mirror of Memory",
-      "body": "Memory is not an immutable digital file stored in a folder; it is an interpretive performance enacted afresh every time it is summoned.\nEvery recollection alters the underlying neural trace with present biases.",
-      "quote": "Memories are not video recordings. They are stories you tell yourself, and with each retelling, the story changes.",
-      "actionItem": "Never rely purely on unwritten memory for crucial commitments, agreements, or dispute timelines; write them down immediately.",
+      "headline": "Flawed Memory Storage",
+      "body": "Your memory is not a clean video recording of the past.\nEvery time you remember an event, you change the story slightly.\nOver time, your memories drift far from what really happened.",
+      "quote": "Your memories are stories you retell, and they change each time.",
+      "actionItem": "Write down key facts and promises on paper right away instead of trusting memory.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -2477,10 +2477,10 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       "author": "David McRaney",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Dunning-Kruger Competence Mirage",
-      "body": "Ignorance breeds confidence far more reliably than knowledge does.\nInexperienced newcomers lack the very tools required to recognize how little they understand, while true experts underestimate their superiority because mastery feels ordinary to them.",
-      "quote": "The more skilled you are, the more humble you become, because you realize how much there is to know.",
-      "actionItem": "Whenever you enter a new craft or subject, assume your initial surge of effortless understanding is a classic illusion of rookie confidence.",
+      "headline": "Beginner Overconfidence",
+      "body": "Beginners do not know enough to see their own mistakes.\nThis makes them feel super confident about skills they barely have.\nTrue experts know how hard the topic is, so they stay humble.",
+      "quote": "The more skilled you become, the more you see what you do not know.",
+      "actionItem": "When learning something new, expect your early confidence to be a silly trick.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -2498,10 +2498,10 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       "author": "David McRaney",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Shielding Your Mind from Priming Effects",
-      "body": "Subtle sensory inputs\u2014warm beverages, ambient lighting, incidental vocabulary\u2014prime subsequent choices without registering in conscious attention.\nEnvironmental architecture invisibly scripts behavior long before deliberate deliberation begins.",
-      "quote": "You are unaware of the constant nudging you receive from ideas formed in your unconscious mind.",
-      "actionItem": "Curate your physical desk and digital desktop by purging clutter, distracting cues, and open notifications that prime unfocused behavior.",
+      "headline": "Hidden Clues Guide You",
+      "body": "Small sights, smells, and words around you quietly shape your choices.\nYou do not even notice these tiny clues nudging your daily actions.\nYour surroundings steer your behavior all day long.",
+      "quote": "Hidden cues around you guide your actions without your permission.",
+      "actionItem": "Clean up your workspace and silence all screen alerts to stay focused.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -2519,10 +2519,10 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       "author": "David McRaney",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Anchoring and Relative Calibration",
-      "body": "Human cognitive hardware is terrible at computing absolute value.\nWe rely on comparison anchors.\nRetailers exploit this quirk by placing absurdly overpriced decoy items nearby, making standard prices look like astonishing bargains.",
-      "quote": "Your first impression of value sticks in your mind and colors every subsequent estimation.",
-      "actionItem": "In any contract negotiation, state your research-backed anchor number first to establish the baseline perimeter of the dialogue.",
+      "headline": "The First Price Anchor",
+      "body": "Our brains struggle to guess the true cost of things alone.\nWe compare everything to the very first number we hear.\nStores show huge fake prices first so regular prices look like bargains.",
+      "quote": "The first price you see sticks in your head and sets the deal.",
+      "actionItem": "Name your researched price first in any deal to control the conversation.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -2540,10 +2540,10 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       "author": "David McRaney",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Ego Depletion and Cognitive Fatigue",
-      "body": "Willpower behaves like a biological muscle drawing on limited metabolic resources.\nResisting endless petty temptations early in the day drains the executive prefrontal capacity needed for crucial, high-stakes decisions later in the afternoon.",
-      "quote": "Self-control is a finite resource. If you spend it on minor tasks, you will run out when the real tests arrive.",
-      "actionItem": "Automate low-level daily friction\u2014such as morning meals and routine wardrobe choices\u2014to preserve executive bandwidth for creative priorities.",
+      "headline": "Running Out of Willpower",
+      "body": "Willpower acts like a muscle that gets tired with heavy use.\nResisting snacks and small distractions early in the morning burns mental energy.\nLater in the day, you have no strength left for hard choices.",
+      "quote": "Self-control runs out fast if you waste it on tiny choices.",
+      "actionItem": "Eat the same simple breakfast daily to save mental strength for real work.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -2561,10 +2561,10 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       "author": "David McRaney",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Neutralizing the Texas Sharpshooter Fallacy",
-      "body": "We tend to spot clusters of meaning across random noise and draw bullseyes around them after the shots have landed.\nWhether in coincidences or erratic market graphs, the brain cannot stand randomness and will weave patterns where none exist.",
-      "quote": "You naturally notice order in the chaos, and you ignore the randomness that created it.",
-      "actionItem": "Demand pre-registered hypotheses: state what specific pattern must appear in the data before running tests, not after.",
+      "headline": "Inventing Patterns in Noise",
+      "body": "We hate pure randomness, so we see fake patterns everywhere.\nWe draw a target around bullet holes after they hit the wall.\nYou cannot trust connections found after looking at messy data.",
+      "quote": "You notice patterns in messy data and ignore the blind luck.",
+      "actionItem": "Decide what pattern you expect to find before you look at the data.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -2582,10 +2582,10 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       "author": "David McRaney",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Delusion of Solitary Individuality",
-      "body": "We celebrate our perceived independence, believing our consumer habits, tastes, and beliefs were forged in solitary reflection.\nIn reality, we are deeply social primates synchronizing to ambient tribe norms without our awareness.",
-      "quote": "You conform to the expectations and behaviors of others, even when you believe you are marching to the beat of your own drum.",
-      "actionItem": "Audit your core three habits and identify which subculture or peer clique originally modeled that behavior for you.",
+      "headline": "Following the Herd",
+      "body": "We love to believe that our style and tastes are totally unique.\nIn truth, we copy the crowd to fit in and feel safe.\nWe match what our peers do without even thinking about it.",
+      "quote": "You copy other people even when you think you are totally unique.",
+      "actionItem": "Pick three habits you have and see which friend group taught them to you.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -2603,10 +2603,10 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       "author": "David McRaney",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Framing Architecture",
-      "body": "Information is never received in a vacuum; the linguistic packaging dictates emotional reception.\nA treatment that is 90 percent survivable elicits optimism, whereas one with a 10 percent mortality rate induces fear, despite mathematical equivalence.",
-      "quote": "The way information is framed directly determines the emotions you feel and the choices you make.",
-      "actionItem": "When presented with a proposal, invert the frame (e.g., convert percentage success into risk of failure) before deciding.",
+      "headline": "The Power of Word Framing",
+      "body": "How you say something changes how people feel about it.\nA medicine that saves ninety percent sounds great.\nA medicine that kills ten percent sounds terrifying, even if both mean the same.",
+      "quote": "How people word facts shapes how you feel and what you choose.",
+      "actionItem": "Flip the wording on any pitch you hear to see the other side clearly.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -2624,10 +2624,10 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       "author": "David McRaney",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Learned Helplessness Feedback Loops",
-      "body": "When repeated adverse events occur outside an animal's control, the brain adopts a systemic default of helplessness.\nEven when barriers are eventually dismantled and exit paths open, the conditioned subject refuses to attempt escape.",
-      "quote": "If you feel you have no control over your destiny, you give up and accept whatever comes your way.",
-      "actionItem": "Break persistent defeatism by carving out an unambiguous micro-win in an area where your direct effort produces an undeniable result.",
+      "headline": "Giving Up Too Soon",
+      "body": "When bad things keep happening, people start feeling totally powerless.\nSoon, they stop trying to fix problems altogether.\nEven when a door opens, they sit still and suffer.",
+      "quote": "When you feel powerless for too long, you just stop trying to escape.",
+      "actionItem": "Pick one tiny daily task you can easily win to rebuild your drive.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -2645,10 +2645,10 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       "author": "David McRaney",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Dismantling Pluralistic Ignorance",
-      "body": "Groups often tolerate ineffective protocols because everyone secretly hates the rule but assumes everyone else loves it.\nThe illusion survives purely through collective silence and performative politeness.",
-      "quote": "You assume everyone else agrees with the group consensus, while everyone else assumes you do too.",
-      "actionItem": "In your next project retrospective, open anonymous polling on sensitive topics to surface private consensus safely.",
+      "headline": "Silent Group Agreement",
+      "body": "Teams often stick to silly rules that everyone secretly hates.\nPeople stay quiet because they think everyone else likes the rule.\nSilence makes bad rules live on forever.",
+      "quote": "You think others agree with the group, and they think you do too.",
+      "actionItem": "Use private votes in meetings so team members can share honest thoughts safely.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -2666,10 +2666,10 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       "author": "David McRaney",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Post-Purchase Rationalization (Buyer's Stockholm Syndrome)",
-      "body": "Once capital has been transferred, psychological defense mechanisms kick in to protect your self-image as a savvy decision-maker.\nWe vigorously defend the virtues of expensive acquisitions while rationalizing away glaring defects.",
-      "quote": "You rationalize your purchases by convincing yourself that whatever you bought was worth the cost.",
-      "actionItem": "Establish a mandatory 72-hour cooling-off window for any non-essential purchase exceeding one hundred dollars.",
+      "headline": "Defending What You Bought",
+      "body": "After you buy an item, you want to feel smart.\nYou focus on its good points and ignore its obvious flaws.\nYou talk yourself into loving things you should have skipped.",
+      "quote": "You convince yourself your purchase was great just to feel smart.",
+      "actionItem": "Wait three full days before spending money on anything you do not need.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -2687,10 +2687,10 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       "author": "David McRaney",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Humility of the Rational Animal",
-      "body": "Admitting your own cognitive flaws is not a defeatist surrender; it is the fundamental launchpad of genuine critical thinking.\nTrue scientific inquiry begins the moment you stop trusting your uncalibrated intuition.",
-      "quote": "Realizing you are not so smart is the first step toward becoming truly wise.",
-      "actionItem": "Replace the phrase I know with I could be wrong, but here is my current working hypothesis during collaborative debates.",
+      "headline": "Admitting You Are Wrong",
+      "body": "Knowing your brain makes mistakes is not weak.\nIt is the very first step toward clear thinking.\nYou become much wiser the moment you stop trusting every gut feeling.",
+      "quote": "Admitting that you are not so smart is how you become wise.",
+      "actionItem": "Say I might be wrong instead of I know during your next debate.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -2704,72 +2704,80 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
   ],
   "mindMap": {
     "id": "root",
-    "label": "You Are Not So Smart",
-    "description": "David McRaney's revelatory journey through the unconscious quirks, biases, and systematic illusions that drive human cognition.\nFar from being rational calculators, our brains are magnificent story-fabrication engines designed to keep us sane and functional rather than strictly truthful.",
+    "label": "You Are Not Smart",
+    "description": "Your brain constantly lies to you to keep you feeling sane.\nYou are far less rational than you think.",
     "children": [
       {
         "id": "theme-1",
-        "label": "The Illusions of Self & Memory",
-        "description": "Explores how our internal narrative identity is largely a retroactive fiction assembled on the fly.\nThe mind constantly edits personal history and invents reasons for instinctual behaviors to preserve the comforting delusion of conscious control.",
+        "label": "Tricks of Memory",
+        "description": "Your mind makes up stories to feel in control.\nIt constantly rewrites your past and defends your ego.",
         "children": [
           {
             "id": "node-1-1",
-            "label": "Confabulation & Split-Brain Mechanics",
-            "description": "When the conscious mind is deprived of the true cause of an action, it invents a coherent explanation without realizing it is lying.\nLike a spin doctor scrambling for press releases, the ego crafts believable reasons for unconscious neurochemical impulses.",
+            "label": "Making Up Stories",
+            "description": "You do things on impulse and invent reasons later.\nYou do not realize you are just guessing.",
             "children": [
               {
                 "id": "node-1-1-1",
-                "label": "Introspection Illusion",
-                "description": "We assume we have direct, privileged insight into the hidden gears of our motives, desires, and choices.\nIn reality, our conscious justifications are fabricated retroactively after subcortical routines have already made the call."
+                "label": "Guessing Your Motives",
+                "description": "You think you know why you make choices.\nMost of the time, you just make up reasons after.",
+                "children": []
               },
               {
                 "id": "node-1-1-2",
                 "label": "Choice Blindness",
-                "description": "When people are tricked into receiving an option they did not select, they will enthusiastically justify why it was their favorite all along.\nThe brain preserves narrative continuity by defending choices it never actually made."
+                "description": "If someone secretly swaps your choice, you will still defend it.\nYou think you picked it all along.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-1-2",
-            "label": "Malleable & Reconstructive Memory",
-            "description": "Human memory does not work like a faithful video recording stored in a digital vault.\nEvery time an episode is recalled, the brain rebuilds it from scratch, blending present moods, external suggestions, and missing fragments into a revised draft.",
+            "label": "Faulty Recall",
+            "description": "Your memory is not a video recording.\nEvery time you remember an event, your brain rebuilds it.",
             "children": [
               {
                 "id": "node-1-2-1",
                 "label": "Consistency Bias",
-                "description": "We mistakenly believe our past emotional states, political views, and attitudes matched how we feel right now.\nThe brain rewires previous memories to match present identity, creating the comforting illusion of lifelong consistency."
+                "description": "You think you always felt the way you do now.\nYour brain changes old memories to match your present self.",
+                "children": []
               },
               {
                 "id": "node-1-2-2",
                 "label": "Hindsight Bias",
-                "description": "After an unpredictable event occurs, we instantly convince ourselves that we knew it would happen all along.\nThis cognitive sleight of hand deletes past uncertainty and fools us into believing the world is far more predictable than it is."
+                "description": "After things happen, you believe you knew it all along.\nYou forget how clueless you actually were.",
+                "children": []
               },
               {
                 "id": "node-1-2-3",
-                "label": "Misattribution of Memory",
-                "description": "The mind regularly remembers accurate information while completely forgetting where, when, or from whom it was acquired.\nThis quirk allows gossip, rumors, and fabricated dreams to slowly metamorphose into personal eyewitness convictions."
+                "label": "Forgotten Sources",
+                "description": "You easily recall a fact while forgetting who told you.\nRumors can quickly turn into your own memories.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-1-3",
-            "label": "Ego Defense & Self-Perception",
-            "description": "A sophisticated suite of mental dampeners designed to protect fragile self-esteem from harsh empirical feedback.\nThe brain acts as an aggressive defense attorney, shielding self-image from the reality of personal mediocrity and error.",
+            "label": "Protecting Your Ego",
+            "description": "Your brain acts like your personal lawyer.\nIt hides your mistakes to protect your self-esteem.",
             "children": [
               {
                 "id": "node-1-3-1",
-                "label": "Self-Serving Bias",
-                "description": "We credit internal brilliance and talent for personal triumphs while blaming bad luck and cruel circumstances for failures.\nThis psychological immune system protects motivation at the cost of objective self-awareness."
+                "label": "Blaming Bad Luck",
+                "description": "You take credit for your successes.\nWhen you fail, you blame bad luck or other people.",
+                "children": []
               },
               {
                 "id": "node-1-3-2",
-                "label": "The Dunning-Kruger Effect",
-                "description": "Incompetence in a domain inherently robs a person of the metacognitive tools needed to recognize their own incompetence.\nConsequently, novices radiate unwarranted confidence while genuine masters underestimate their superiority."
+                "label": "Overestimating Yourself",
+                "description": "Beginners often feel way too confident.\nTrue experts usually doubt how good they are.",
+                "children": []
               },
               {
                 "id": "node-1-3-3",
                 "label": "Spotlight Effect",
-                "description": "We navigate everyday life feeling as though an invisible stadium spotlight is tracking our every mistake, blemish, and clumsy word.\nIn reality, other people are completely absorbed inside their own self-centered spotlights."
+                "description": "You think everyone is watching your mistakes.\nIn reality, people only care about themselves.",
+                "children": []
               }
             ]
           }
@@ -2777,62 +2785,69 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       },
       {
         "id": "theme-2",
-        "label": "Pattern Seeking & Flawed Heuristics",
-        "description": "Investigates the cognitive shortcuts and optical illusions of probability embedded in our circuitry.\nWhile these mental rules of thumb evolved to keep ancestral primates alive on the savannah, they misfire spectacularly in modern data-rich environments.",
+        "label": "Flawed Thinking",
+        "description": "Your mind takes mental shortcuts to save energy.\nThese quick guesses often lead to false assumptions.",
         "children": [
           {
             "id": "node-2-1",
-            "label": "Apophenia & Hyperactive Agency",
-            "description": "The nervous system is an over-eager pattern detector that prefers spotting danger where none exists rather than missing a camouflaged predator.\nIt sees meaningful faces in wood grains, omens in coincidences, and conscious intention in pure randomness.",
+            "label": "Seeing Fake Patterns",
+            "description": "Your brain tries to find meaning in pure chaos.\nIt sees patterns and faces where none exist.",
             "children": [
               {
                 "id": "node-2-1-1",
-                "label": "Texas Sharpshooter Fallacy",
-                "description": "Drawing a bullseye around a random cluster of bullet holes after shooting at a barn door.\nWe fixate on accidental coincidences and clustered anomalies while ignoring the vast ocean of chaotic non-events surrounding them."
+                "label": "Finding False Clues",
+                "description": "You focus on lucky coincidences and ignore normal events.\nIt is like drawing a bullseye after shooting a wall.",
+                "children": []
               },
               {
                 "id": "node-2-1-2",
-                "label": "Pareidolia",
-                "description": "Our facial recognition architecture is so sensitive that it habitually projects human faces onto clouds, grilled cheese sandwiches, and lunar craters.\nSurvival favored treating rocks like watchful eyes over mistaking eyes for rocks."
+                "label": "Seeing Faces",
+                "description": "Your brain spots human faces in clouds and food.\nIt is wired to notice faces everywhere.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-2-2",
-            "label": "Availability & Perceptual Anchors",
-            "description": "The brain equates the mental ease of recalling an idea with its real-world frequency and objective importance.\nVivid, sensational, and easily imagined images warp our statistical calculus beyond all proportion.",
+            "label": "Mental Shortcuts",
+            "description": "You judge the world by what is easiest to remember.\nDramatic ideas fool your common sense.",
             "children": [
               {
                 "id": "node-2-2-1",
-                "label": "Availability Heuristic",
-                "description": "Judging the likelihood of plane crashes, shark attacks, or lottery wins based on how rapidly dramatic examples spring to mind.\nStatistical odds are sidelined whenever vivid cinematic imagery dominates short-term memory."
+                "label": "Vivid Examples",
+                "description": "You fear plane crashes more because they are on the news.\nDramatic stories feel more common than real facts.",
+                "children": []
               },
               {
                 "id": "node-2-2-2",
-                "label": "Anchoring Effect",
-                "description": "When estimating unknown values, the initial number introduced\u2014even if entirely arbitrary\u2014drags all subsequent evaluations toward it.\nRetail pricing and salary negotiations routinely exploit this gravitational pull of initial numbers."
+                "label": "Starting Numbers",
+                "description": "The first price you hear sets your expectations.\nSellers use high starting prices to fool you.",
+                "children": []
               },
               {
                 "id": "node-2-2-3",
-                "label": "Representativeness Heuristic",
-                "description": "Categorizing unfamiliar items or individuals based on how closely they resemble existing stereotypes rather than consulting base-rate probabilities.\nWe mistake surface prototypes for mathematical likelihoods."
+                "label": "Stereotyping Others",
+                "description": "You judge people by quick stereotypes instead of facts.\nYou mistake appearances for real probabilities.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-2-3",
-            "label": "Confirmation & Information Filtering",
-            "description": "Our perceptual machinery instinctively hungers for validation rather than truth.\nWe treat supportive evidence like prized treasure while unconsciously deflecting or rationalizing contradictory facts.",
+            "label": "Ignoring The Truth",
+            "description": "You want to be right more than you want the truth.\nYou ignore facts that challenge what you believe.",
             "children": [
               {
                 "id": "node-2-3-1",
-                "label": "Confirmation Bias",
-                "description": "The compulsive habit of seeking, remembering, and amplifying evidence that validates current beliefs while aggressively discarding counterexamples.\nIt transforms search engines into custom echo chambers of self-affirmation."
+                "label": "Seeking Agreement",
+                "description": "You look for information that agrees with your opinions.\nYou ignore anything that proves you wrong.",
+                "children": []
               },
               {
                 "id": "node-2-3-2",
                 "label": "The Backfire Effect",
-                "description": "When core ideological convictions are confronted with incontrovertible disconfirming facts, beliefs often harden instead of softening.\nThe brain perceives factual threats to identity as literal physical attacks and doubles down in defiance."
+                "description": "When proven wrong, your beliefs often get even stronger.\nYour brain treats facts like personal attacks.",
+                "children": []
               }
             ]
           }
@@ -2840,62 +2855,69 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       },
       {
         "id": "theme-3",
-        "label": "Social Feedback Loops & Group Dynamics",
-        "description": "Unveils how collective intelligence frequently degrades into shared blindness and conformist paralysis.\nWhen individuals merge into social groups, personal agency diffuses and evolutionary tribe-defense instincts take over.",
+        "label": "Crowd Influence",
+        "description": "Being in groups changes how you think and act.\nYou quickly follow the herd and lose your voice.",
         "children": [
           {
             "id": "node-3-1",
-            "label": "Diffusion of Personal Responsibility",
-            "description": "In dense social gatherings, individual moral obligation does not multiply; it evaporates into the crowd.\nEveryone assumes someone else will intervene, creating collective trances of total inaction during acute crises.",
+            "label": "Passing The Buck",
+            "description": "In large crowds, people feel less personal responsibility.\nEveryone waits for someone else to step in.",
             "children": [
               {
                 "id": "node-3-1-1",
                 "label": "Bystander Effect",
-                "description": "The presence of other silent witnesses drastically decreases the probability that any single individual will step forward to help a victim.\nEach person monitors the room for panic, misreading mutual paralysis as reassuring safety."
+                "description": "The more witnesses there are, the less likely anyone helps.\nEveryone assumes someone else will do it.",
+                "children": []
               },
               {
                 "id": "node-3-1-2",
-                "label": "Social Loafing",
-                "description": "When effort is pooled into an anonymous collective task, individual output drops noticeably compared to working alone.\nPeople unconsciously coast on the group's momentum unless individual accountability is explicitly enforced."
+                "label": "Slacking In Groups",
+                "description": "People work less hard when working on a team.\nYou coast along unless your work is tracked.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-3-2",
-            "label": "Tribalism & Deindividuation",
-            "description": "The human brain is deeply optimized for tribal coalition building, creating fierce in-group loyalty paired with visceral suspicion of outsiders.\nMasked inside crowds, individuals shed moral inhibitions.",
+            "label": "Us Versus Them",
+            "description": "We favor our own tribe and dislike outsiders.\nInside a crowd, people do things they never do alone.",
             "children": [
               {
                 "id": "node-3-2-1",
-                "label": "In-Group / Out-Group Bias",
-                "description": "Instantly dividing the social landscape into 'us' and 'them' along the flimsiest markers, such as coin flips or arbitrary team colors.\nWe grant nuanced charity to our own tribe while reducing outsiders to hostile caricatures."
+                "label": "Tribe Mentality",
+                "description": "You favor your group over silly differences like team colors.\nYou judge outsiders much more harshly.",
+                "children": []
               },
               {
                 "id": "node-3-2-2",
-                "label": "Deindividuation",
-                "description": "Under the cover of night, masks, uniform garments, or internet anonymity, individual conscience dissolves into crowd energy.\nRestraints fall away as people engage in behaviors they would vehemently condemn in daylight."
+                "label": "Hiding In Crowds",
+                "description": "Anonymity makes people lose their morals.\nMasks and crowds make bad behavior feel safe.",
+                "children": []
               },
               {
                 "id": "node-3-2-3",
-                "label": "Conformity & Asch Experiments",
-                "description": "Faced with unanimous peers asserting an obvious sensory falsehood, individuals frequently abandon their own eyes and agree with the crowd.\nSocial belonging often triumphs over empirical reality in neural prioritization."
+                "label": "Following The Crowd",
+                "description": "You will agree with an obvious lie to fit in.\nBelonging feels safer than being correct.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-3-3",
-            "label": "Groupthink & Cultist Consensus",
-            "description": "High-cohesion teams often drift into disastrous policy traps by systematically censoring dissenting viewpoints.\nHarmony and team loyalty become prized above objective problem-solving.",
+            "label": "Group Pressure",
+            "description": "Groups silence doubts just to keep the peace.\nThis leads to terrible choices everyone privately dislikes.",
             "children": [
               {
                 "id": "node-3-3-1",
-                "label": "Illusion of Invulnerability",
-                "description": "Unified groups develop an intoxicating sense of moral and strategic invincibility that blinds them to catastrophic risks.\nDissenting warnings are cast aside as lack of team loyalty."
+                "label": "Feeling Invincible",
+                "description": "Tight teams believe they cannot fail.\nThey ignore clear warnings to stay agreeable.",
+                "children": []
               },
               {
                 "id": "node-3-3-2",
-                "label": "Pluralistic Ignorance",
-                "description": "A paradoxical phenomenon where the majority of group members privately disagree with an idea, yet publicly endorse it because they assume everyone else supports it.\nUniversal compliance is maintained by collective misunderstanding."
+                "label": "Silent Agreement",
+                "description": "Everyone hates an idea, but no one speaks up.\nEach person falsely thinks everyone else likes it.",
+                "children": []
               }
             ]
           }
@@ -2903,62 +2925,69 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       },
       {
         "id": "theme-4",
-        "label": "Behavioral Traps & The Illusion of Willpower",
-        "description": "Dissects the mechanical failures of human self-regulation, economic decision-making, and motivation.\nWe construct elaborate traps out of sunk investments, immediate emotional cravings, and learned surrender.",
+        "label": "Habits and Willpower",
+        "description": "Self-control is weak and easily wears out.\nWe fall into money traps and put off hard work.",
         "children": [
           {
             "id": "node-4-1",
-            "label": "Economic & Valuation Distortions",
-            "description": "Standard economics presumes rational utility maximization, but psychological reality reveals irrational sentimental attachment and fear of loss.\nOur assessments of worth fluctuate wildly based on ownership and arbitrary framing.",
+            "label": "Money Blindspots",
+            "description": "We make emotional choices about money.\nFear of losing hurts far more than winning feels good.",
             "children": [
               {
                 "id": "node-4-1-1",
-                "label": "Sunk Cost Fallacy",
-                "description": "Persisting in failing relationships, terrible movies, or bankrupt business ventures solely because of unrecoverable past investments.\nInstead of looking forward, the mind burns new resources trying to justify past losses."
+                "label": "Wasting More Time",
+                "description": "You finish bad movies because you paid for the ticket.\nYou throw good money after bad.",
+                "children": []
               },
               {
                 "id": "node-4-1-2",
-                "label": "Endowment Effect",
-                "description": "Assigning significantly higher value to objects simply because we own them compared to identical items owned by others.\nPossession instantly infuses mundane artifacts with an emotional premium."
+                "label": "Overvaluing Your Stuff",
+                "description": "You think your things are worth more simply because you own them.\nOwnership adds false emotional value.",
+                "children": []
               },
               {
                 "id": "node-4-1-3",
-                "label": "Loss Aversion",
-                "description": "The acute psychological pain of losing a hundred dollars is roughly twice as intense as the joy of discovering a hundred dollars.\nThis evolutionary asymmetry drives risk-averse preservation of the status quo."
+                "label": "Hating To Lose",
+                "description": "Losing money hurts twice as much as gaining it feels good.\nThis fear stops you from taking smart risks.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-4-2",
-            "label": "Willpower & Temporal Myopia",
-            "description": "The constant biological tug-of-war between present-moment limbic indulgence and abstract prefrontal planning.\nWe consistently overestimate the discipline of our future selves while succumbing to immediate dopamine hits.",
+            "label": "Weak Self Control",
+            "description": "Your brain prefers easy fun right now over future goals.\nWillpower drains quickly during the day.",
             "children": [
               {
                 "id": "node-4-2-1",
-                "label": "Procrastination & Present Bias",
-                "description": "Hyperbolically discounting future payoffs in exchange for immediate trivial pleasures.\nWe treat tomorrow's self as an alien servant capable of superhuman discipline, deferring difficult labor to an imaginary future."
+                "label": "Putting Things Off",
+                "description": "You choose quick fun and leave hard work for tomorrow.\nYou pretend your future self has endless energy.",
+                "children": []
               },
               {
                 "id": "node-4-2-2",
-                "label": "Ego Depletion",
-                "description": "Self-control functions like a metabolically expensive muscle that tires under prolonged restraint and continuous decision fatigue.\nWhen willpower is depleted, primal cravings effortlessly overwhelm executive intentions."
+                "label": "Tired Willpower",
+                "description": "Self-control acts like a tired muscle.\nAfter a long day, you easily give in to bad habits.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-4-3",
-            "label": "Conditioning & Psychological Surrender",
-            "description": "Examines how passive behavioral states are conditioned into the nervous system through repeated environmental cues.\nWhen outcomes feel completely decoupled from effort, the motivational engine shuts down.",
+            "label": "Giving Up",
+            "description": "Repeated failure trains your mind to quit trying.\nYour brain learns to surrender.",
             "children": [
               {
                 "id": "node-4-3-1",
                 "label": "Learned Helplessness",
-                "description": "After experiencing prolonged negative situations where escape appears impossible, individuals stop attempting to break free even when an exit opens.\nPassivity becomes hardwired, extinguishing all proactive problem-solving."
+                "description": "After failing often, you stop trying to escape.\nYou give up even when an easy exit opens.",
+                "children": []
               },
               {
                 "id": "node-4-3-2",
-                "label": "Extinction Burst",
-                "description": "When a previously rewarded behavior suddenly stops yielding results, the brain temporarily intensifies the action in frantic desperation before finally giving up.\nIt is the temper tantrum of an addicted dopamine loop."
+                "label": "The Final Tantrum",
+                "description": "When a habit stops paying off, you try even harder for a moment.\nIt is like pushing a broken button over and over.",
+                "children": []
               }
             ]
           }
@@ -2966,57 +2995,63 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
       },
       {
         "id": "theme-5",
-        "label": "Everyday Cognitive Fabrications",
-        "description": "Explores how culture, consumer artifacts, and physical bodily sensations silently rewrite conscious attitudes without our permission.\nThe mind remains continuously porous to somatic cues and placebo narratives.",
+        "label": "Everyday Illusions",
+        "description": "Your body and beliefs quietly trick your senses.\nExpectations shape how you feel and taste things.",
         "children": [
           {
             "id": "node-5-1",
-            "label": "The Power of Suggestion & Faith",
-            "description": "Expectations alone have the extraordinary power to recalibrate physical biology and neurological pain pathways.\nBelieving a remedy or ritual will work stimulates endogenous healing systems regardless of chemical potency.",
+            "label": "Power of Expectation",
+            "description": "Believing something works can actually heal you.\nHigh expectations make experiences feel better.",
             "children": [
               {
                 "id": "node-5-1-1",
-                "label": "The Placebo Effect",
-                "description": "Sugar pills and fake surgical incisions produce measurable, physiological recovery simply because the patient believes treatment has occurred.\nThe brain releases genuine endorphins in response to theatrical medical symbols."
+                "label": "Fake Medicine",
+                "description": "Sugar pills can make you feel better if you believe in them.\nYour mind tells your body to heal.",
+                "children": []
               },
               {
                 "id": "node-5-1-2",
-                "label": "Brand Expectation Effect",
-                "description": "Wine poured from an expensive bottle or coffee served in a luxury cup activates brain reward centers more intensely than identical cheap drinks.\nCognitive expectation directly alters raw sensory perception."
+                "label": "Fancy Labels",
+                "description": "Wine tastes better when poured from an expensive bottle.\nPrice tags fool your taste buds.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-5-2",
-            "label": "Moral Justifications & Cosmic Order",
-            "description": "Deep-seated narrative fallacies that attempt to impose an intuitive moral symmetry onto an indifferent universe.\nWe crave cosmic justice so intensely that we distort ethical judgments to preserve the myth.",
+            "label": "Craving Fair Justice",
+            "description": "We want to believe life is always fair.\nThis makes us blame innocent victims when bad things happen.",
             "children": [
               {
                 "id": "node-5-2-1",
-                "label": "Just-World Fallacy",
-                "description": "The irrational belief that noble deeds are always rewarded and bad people inevitably suffer their due karma.\nThis cognitive bias insidiously leads observers to blame innocent victims of tragedy to keep the illusion intact."
+                "label": "Blaming The Victim",
+                "description": "You want to believe good things happen to good people.\nThis leads people to unfairly blame victims.",
+                "children": []
               },
               {
                 "id": "node-5-2-2",
-                "label": "Catharsis Myth",
-                "description": "The popular conviction that venting rage by punching pillows or screaming drains aggression like steam from a kettle.\nClinical experiments prove that violent catharsis actually primes the neural pump, escalating hostility."
+                "label": "Venting Anger",
+                "description": "Punching pillows does not calm your anger.\nActing aggressively only makes you madder.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-5-3",
-            "label": "Embodied Cognition & Sensory Feedback",
-            "description": "The conscious mind is deeply anchored in visceral bodily feedback rather than abstract logic.\nPhysical temperature, posture, and motor expressions exert an unseen, bottom-up influence over complex social judgments.",
+            "label": "Body Shapes Mind",
+            "description": "Physical sensations change how you think.\nYour body guides your feelings without your awareness.",
             "children": [
               {
                 "id": "node-5-3-1",
-                "label": "Facial Feedback Hypothesis",
-                "description": "Contracting smiling muscles by holding a pen between one's teeth involuntarily lightens mood and makes cartoons seem funnier.\nThe brain reads muscular cues to deduce how it ought to feel."
+                "label": "Smiling Makes Joy",
+                "description": "Forcing a smile tricks your brain into feeling happier.\nYour mind listens to your face.",
+                "children": []
               },
               {
                 "id": "node-5-3-2",
-                "label": "Somatic Priming",
-                "description": "Holding a warm cup of coffee leads people to rate strangers as having warmer, friendlier personalities compared to holding an iced beverage.\nPhysical sensory metaphors bleed directly into social evaluation."
+                "label": "Warmth Feels Friendly",
+                "description": "Holding a warm drink makes strangers seem nicer.\nPhysical warmth creates social warmth.",
+                "children": []
               }
             ]
           }

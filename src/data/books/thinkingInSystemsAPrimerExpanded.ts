@@ -1,5 +1,5 @@
 // Thinking in Systems: A Primer by Donella H. Meadows
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -380,169 +380,169 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
   "actionItems": [
     {
       "id": "thinking-in-systems-a-primer-act-1",
-      "title": "Bathtub Stock and Flow Mapping",
-      "description": "Every system is powered by 'stocks' (accumulations of things like physical energy, cash, or emotional stress) and 'flows' (inflows that add, outflows that drain). Sketching a problem as a simple bathtub instantly reveals whether your issue is an intake flood or an outflow blockage.",
+      "title": "Draw Your Bathtub Problem",
+      "description": "Problems pile up like water in a tub when inflow beats outflow. Drawing your problem shows whether you need less coming in or more going out.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Pick one nagging personal bottleneck, such as unread emails or mental fatigue.",
-        "Draw a bathtub representing the central 'stock' (e.g., Unprocessed Inbox messages).",
-        "Draw an incoming faucet for inflows (e.g., newsletters, meeting invites) and a drain for outflows (e.g., archiving, replying).",
-        "Identify whether adjusting the inflow or widening the drain provides the easiest immediate relief."
+        "1. Pick a pileup like unread emails or daily chores.",
+        "2. Draw a tub on paper to hold that pile.",
+        "3. Draw a faucet for incoming stuff and a drain for outgoing stuff.",
+        "4. Choose to turn down the faucet or unclog the drain."
       ],
       "sourceChapter": "Chapter 1: The Basics"
     },
     {
       "id": "thinking-in-systems-a-primer-act-2",
-      "title": "Evening Balancing Loop Check-in",
-      "description": "Balancing feedback loops are nature's thermostats\u2014they kick in to keep things stable when reality drifts from your desired state. Taking two minutes every evening to measure your drift stops small imbalances from cascading into major burnout.",
+      "title": "Evening Reset Check-in",
+      "description": "Your body needs daily adjustments just like a home thermostat. Taking two minutes every evening stops small stress from turning into full burnout.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Set a recurring alarm for 8:00 PM titled 'Thermostat Check'.",
-        "Define your target state for energy and mood on a simple 1-to-5 scale.",
-        "Compare your actual current state against that desired target.",
-        "If there is a gap, pick one immediate balancing response (e.g., drink a glass of water, initiate screens-off 30 minutes earlier)."
+        "1. Set an 8:00 PM alarm called Daily Reset.",
+        "2. Rate your energy right now from one to five.",
+        "3. Compare your number to how good you want to feel.",
+        "4. Take one quick action tonight like turning off screens early."
       ],
       "sourceChapter": "Chapter 1: The Basics"
     },
     {
       "id": "thinking-in-systems-a-primer-act-3",
-      "title": "Visualizing Reinforcing Snowballs",
-      "description": "Reinforcing feedback loops compound rapidly\u2014compounding interest, viral gossip, or spiral anxiety. Mapping the spiral shows you precisely which link in the loop needs an emergency dampener before it grows out of control.",
+      "title": "Map Your Stress Snowball",
+      "description": "Small bad habits quickly snowball into giant headaches. Finding the starting point helps you stop the snowball before it grows.",
       "category": "audit",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Choose a recurring cycle where small problems escalate (e.g., poor sleep leading to low focus, leading to late work, leading to worse sleep).",
-        "Draw a circular diagram with 3 to 4 connected arrows illustrating each step feeding into the next.",
-        "Label each connection with a plus sign (+) to highlight how the reaction self-amplifies.",
-        "Circle the single easiest arrow to physically sever or interrupt with an intentional speed bump."
+        "1. Pick a bad cycle like poor sleep causing late work.",
+        "2. Draw four arrows in a circle connecting each bad step.",
+        "3. Notice how each step makes the next step worse.",
+        "4. Pick the easiest arrow to block with a simple rule."
       ],
       "sourceChapter": "Chapter 2: A Brief Visit to the Systems Zoo"
     },
     {
       "id": "thinking-in-systems-a-primer-act-4",
-      "title": "Friction Placement for Environmental Leaks",
-      "description": "Your physical space dictates the speed of your behavioral flows. By redesigning physical friction, you naturally throttle unhealthy inflows (like doomscrolling) while easing positive outflows (like reading or cooking).",
+      "title": "Hide Bad Habits Away",
+      "description": "You do what is easiest to reach in your room. Moving bad distractions far away makes good choices happen without extra willpower.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Identify one environmental inflow you want to restrict (e.g., phone pickups during deep work).",
-        "Move the physical source across the room or into another closed container so grabbing it requires standing up.",
-        "Place a positive alternative stock (e.g., a notebook, a physical book, or a water carafe) directly at arm's length.",
-        "Test the setup for one full morning and observe how physical layout effortlessly guides default behavior."
+        "1. Pick one bad distraction like grabbing your phone while working.",
+        "2. Place your phone in another room or inside a drawer.",
+        "3. Put a good thing like water or a book within reach.",
+        "4. Work for one morning and see how easy focus feels."
       ],
       "sourceChapter": "Chapter 6: Leverage Points: Places to Intervene in a System"
     },
     {
       "id": "thinking-in-systems-a-primer-act-5",
-      "title": "Buffer Capacity Stress-Test",
-      "description": "Systems without shock absorbers are brittle; slight delays cause sudden collapse. Measuring and expanding your buffers\u2014such as calendar whitespace, emergency savings, or inventory\u2014keeps your entire routine resilient against shock.",
+      "title": "Add Daily Breathing Room",
+      "description": "Packed schedules break the moment one little thing goes wrong. Leaving empty space between tasks keeps your day calm and flexible.",
       "category": "system",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Audit your weekly schedule and identify back-to-back commitments running without transit or recovery time.",
-        "Calculate your buffer ratio: total available uncommitted minutes divided by total committed minutes.",
-        "Insert mandatory 15-minute 'system shock absorbers' after high-drain meetings or tasks.",
-        "Protect these buffer blocks against encroaching tasks to prevent schedule domino failures."
+        "1. Look at your calendar for back-to-back meetings.",
+        "2. Find any spot where you have zero rest time.",
+        "3. Add fifteen minutes of open buffer time after hard tasks.",
+        "4. Protect that quiet time from any new work."
       ],
       "sourceChapter": "Chapter 3: Why Systems Work So Well"
     },
     {
       "id": "thinking-in-systems-a-primer-act-6",
-      "title": "The Upstream Information Loop Audit",
-      "description": "Systems frequently fail not because people lack effort, but because missing feedback loops keep key actors blind to downstream consequences. Installing a missing feedback signal immediately reorganizes collective behavior.",
+      "title": "Fix Missing Team Signals",
+      "description": "People drop balls when they cannot see what happens next. Sharing quick updates keeps everyone moving together without confusion.",
       "category": "audit",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Select a recurrent operational friction between yourself and a coworker, roommate, or partner.",
-        "Trace where critical status information currently stops or gets delayed along the pipeline.",
-        "Determine the exact feedback gap: what does the upstream actor need to see in real-time to adjust course?",
-        "Establish a transparent, frictionless feedback metric (e.g., a shared status board or automated ping)."
+        "1. Pick a repeated mix-up with a coworker or partner.",
+        "2. Find where useful news gets stuck or delayed.",
+        "3. Ask what fact the other person needs to see sooner.",
+        "4. Set up one shared list or quick daily text update."
       ],
       "sourceChapter": "Chapter 6: Leverage Points: Places to Intervene in a System"
     },
     {
       "id": "thinking-in-systems-a-primer-act-7",
-      "title": "Morning Feedback Delay Calibration",
-      "description": "Delays in feedback loops cause humans to chronically overreact, just like turning up a sluggish shower valve until the water suddenly scalds. Recognizing response lags in your work prevents frantic, counterproductive overcorrections.",
+      "title": "Wait for Slow Results",
+      "description": "Good results take time to show up after your hard work. Knowing about this delay stops you from panicking and changing plans too soon.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Review your daily priorities and spot tasks whose outcomes lag behind your actions by days or weeks (e.g., outreach, marketing, exercise).",
-        "Write down the expected delay duration next to each item before reviewing current results.",
-        "Commit to evaluating performance only on inputs delivered today rather than lagging lagging outputs.",
-        "Breathe and hold steady on existing levers instead of aggressively tweaking settings prematurely."
+        "1. Pick slow-payoff tasks like daily workouts or marketing outreach.",
+        "2. Write down how many weeks results normally take to appear.",
+        "3. Judge today only by your effort, not by instant results.",
+        "4. Stick to your current plan without making sudden panic changes."
       ],
       "sourceChapter": "Chapter 4: Why Systems Surprise Us"
     },
     {
       "id": "thinking-in-systems-a-primer-act-8",
-      "title": "Rule-of-the-System Reframing",
-      "description": "The rules of a system\u2014laws, incentives, scoreboards, and penalties\u2014define how players maneuver. Changing the rules provides enormous leverage because you reshape behavior without needing to micro-manage individual actions.",
+      "title": "Rewrite the Hidden Rules",
+      "description": "People act based on the rewards and punishments around them. Changing the rules fixes bad behavior faster than nagging ever will.",
       "category": "system",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Identify an ongoing group conflict or uncooperative dynamic at work or home.",
-        "Write down the explicit and unwritten rules that currently reward or penalize participants.",
-        "Ask: 'If I were purely optimizing for this rule, how would I behave?' (Notice how the current flaw makes rational sense).",
-        "Draft one rule revision that realigns personal incentives with the collective good."
+        "1. Pick an annoying conflict that keeps happening at work.",
+        "2. Write down what behavior gets rewarded right now.",
+        "3. Notice why people act this way under current incentives.",
+        "4. Propose one new rule that rewards helpful team actions."
       ],
       "sourceChapter": "Chapter 6: Leverage Points: Places to Intervene in a System"
     },
     {
       "id": "thinking-in-systems-a-primer-act-9",
-      "title": "Erosion of Goals Circuit Breaker",
-      "description": "'Erosion of goals' or boiled-frog syndrome occurs when standards slide downward imperceptibly because current performance becomes the new baseline. Establishing rigid, objective floors protects you from gradual decay.",
+      "title": "Set a Hard Floor",
+      "description": "Standards slowly drop when you accept tiny slips every day. Setting one firm bottom line keeps your habits strong over time.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Spot an area where standards have subtly degraded over the last six months (e.g., code test coverage, dietary choices, meeting punctuality).",
-        "Note the original standard compared to the current rationalized compromise.",
-        "Define an unambiguous, non-negotiable floor that cannot be altered regardless of mood or circumstance.",
-        "Post this floor in plain view on your desk, monitor edge, or refrigerator door."
+        "1. Pick a habit where your effort has slowly slipped.",
+        "2. Write down your old standard versus what you do now.",
+        "3. Set one simple bottom rule you will never break.",
+        "4. Stick this rule on your desk or fridge door."
       ],
       "sourceChapter": "Chapter 5: System Traps... and Opportunities"
     },
     {
       "id": "thinking-in-systems-a-primer-act-10",
-      "title": "Subsystem Boundary Mapping",
-      "description": "Sub-optimization happens when individual departments or habits maximize their own narrow metric at the expense of the overall organism. Mapping system boundaries ensures your daily routines serve whole-system vitality.",
+      "title": "Balance Your Life Buckets",
+      "description": "Spending all your energy on work starves your health and home. Checking your life balance keeps one area from ruining the others.",
       "category": "audit",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "List 3 distinct areas of your life (e.g., career milestones, physical health, family relationships).",
-        "Identify whether any single domain is aggressively accumulating stock at the direct expense of draining another.",
-        "Draw overlapping circles illustrating shared resource drains (primarily time, attention, and rest).",
-        "Reallocate at least one hour this week from the bloated subsystem back to the starving one."
+        "1. List three main areas like work, health, and family.",
+        "2. Check if work is eating up all your time.",
+        "3. Spot where lack of rest hurts your other goals.",
+        "4. Move one hour this week from work into family time."
       ],
       "sourceChapter": "Chapter 3: Why Systems Work So Well"
     },
     {
       "id": "thinking-in-systems-a-primer-act-11",
-      "title": "Desktop Sensory Dashboard Setup",
-      "description": "Human brains respond to immediate sensory signals rather than abstract numbers. Making crucial system flows physically visible transforms subtle trends into unavoidable feedback loops.",
+      "title": "Make Daily Goals Visible",
+      "description": "You pay more attention to things you can see right in front of you. Keeping real objects on your desk makes healthy habits automatic.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Select one intangible health or work metric you tend to overlook until it is in crisis (e.g., daily hydration or hours spent deep working).",
-        "Procure an analog physical marker: a marked 2-liter water flask, a set of tally marbles, or an hourglass.",
-        "Place this indicator directly in your primary eyeline beside your computer monitor.",
-        "Move or adjust the marker every time a flow occurs, letting immediate physical feedback nudge your decisions."
+        "1. Pick one simple habit you keep forgetting to do.",
+        "2. Grab a visible tool like a big water bottle.",
+        "3. Place this item right next to your computer screen.",
+        "4. Move or drink from it throughout your workday."
       ],
       "sourceChapter": "Chapter 6: Leverage Points: Places to Intervene in a System"
     },
     {
       "id": "thinking-in-systems-a-primer-act-12",
-      "title": "Transcending Paradigms Reflection",
-      "description": "The ultimate leverage point is the power to transcend paradigms\u2014recognizing that mental models are useful lenses rather than immutable truths. Cultivating humility around models keeps your thinking agile and resilient.",
+      "title": "Question Your Own Opinion",
+      "description": "Your viewpoint is just one lens, not the whole truth. Practicing this shift makes you a much wiser thinker.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Pick one belief or assumption you held with 100% certainty during a debate or decision today.",
-        "Ask yourself: 'Under what specific conditions or perspective would the exact opposite of this belief be true?'",
-        "Identify which unstated assumptions were holding your original conclusion in place.",
-        "Log one alternative interpretation in your journal to practice unhooking your identity from any single mental framework."
+        "1. Pick one strong opinion you had in a chat today.",
+        "2. Ask yourself how the opposite view could also be right.",
+        "3. Find the hidden assumptions behind your first thought.",
+        "4. Write down the other viewpoint in your notebook."
       ],
       "sourceChapter": "Chapter 7: Living in a World of Systems"
     }
@@ -719,10 +719,10 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       "author": "Donella H. Meadows",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Stocks Form the Tangible Memory of Systems",
-      "body": "Stocks are the accumulations of material, information, or energy built up over time.\nBecause stocks change slowly through inflows and outflows, they act as stabilizing shock absorbers and physical memories of past dynamics.",
-      "quote": "A stock is the memory of the history of changing flows within the system.",
-      "actionItem": "Measure the tangible reservoir underlying your issue rather than obsessing solely over momentary fluctuating rates.",
+      "headline": "Stocks Are System Memory",
+      "body": "A stock is any store of things built up over time.\nIt can be water, money, or even trust.\nStocks change slowly and keep things steady during sudden shocks.",
+      "quote": "A stock stores the history of past flows within the system.",
+      "actionItem": "Measure the actual reservoir of resources you have right now.\nDo not just look at day-to-day changes.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -740,10 +740,10 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       "author": "Donella H. Meadows",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Dynamic Bathtub",
-      "body": "A bathtub level stays stable only when the faucet inflow exactly matches the drain outflow.\nIf the water level is rising dangerously, you can either throttle back the faucet or bore a wider drain.",
-      "quote": "If you understand the dynamics of stocks and flows\u2014their feedback loops and delays\u2014you understand a good deal about the behavior of complex systems.",
-      "actionItem": "Diagram your current bottleneck as a bathtub, mapping out every active faucet and drain pipe feeding it.",
+      "headline": "The Bathtub Model",
+      "body": "Think of any problem like water in a bathtub.\nWater enters through the tap and leaves down the drain.\nTo lower the level, close the tap or open the drain wider.",
+      "quote": "Understand how things fill and drain, and you will understand complex systems.",
+      "actionItem": "Draw your main problem as a bathtub.\nList every source filling it and every drain emptying it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -761,10 +761,10 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       "author": "Donella H. Meadows",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Feedback Loops Dictate Destiny",
-      "body": "When a stock's current level influences its own future inflows or outflows, a feedback loop is formed.\nThe structural architecture of these loops shapes the system's persistent behavioral destiny over time.",
-      "quote": "A feedback loop is a closed chain of causal connections from a stock, through a set of decisions or rules or physical laws, and back again to adjust the stock.",
-      "actionItem": "Identify whether the key variables in your project are linked in a closed cause-and-effect ring or an open linear chain.",
+      "headline": "Feedback Loops Rule Everything",
+      "body": "A feedback loop forms when an action circles back to affect itself.\nIt works like a chain reaction that never stops.\nThese circular patterns shape how every system behaves.",
+      "quote": "A feedback loop is a closed chain of cause and effect.",
+      "actionItem": "Find one circle where your daily actions feed directly back into your results.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -782,10 +782,10 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       "author": "Donella H. Meadows",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Balancing Loops Seek Equilibrated Peace",
-      "body": "Balancing feedback loops operate like biological homeostasis or mechanical thermostats.\nWhenever the stock strays from the target state, the balancing loop triggers corrective action to pull it straight back into equilibrium.",
-      "quote": "Balancing feedback loops are goal-seeking or stability-seeking mechanisms, each trying to keep a stock at a given value or within a range of values.",
-      "actionItem": "Determine the hidden equilibrium goal that causes your stubborn organizational processes to snap back whenever disturbed.",
+      "headline": "Balancing Loops Keep Balance",
+      "body": "Balancing loops work just like a home thermostat.\nWhen the temperature gets too high or low, it kicks in to fix it.\nThey fight hard to keep things steady.",
+      "quote": "Balancing loops try to keep things at a steady target level.",
+      "actionItem": "Spot the hidden habit that pulls your team back whenever you try to change.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -803,10 +803,10 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       "author": "Donella H. Meadows",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Reinforcing Loops Power Compounding Engines",
-      "body": "Reinforcing loops generate explosive growth or devastating collapses.\nBecause the system's output feeds directly back into its own growth mechanism, small nudges rapidly escalate into overwhelming momentum.",
-      "quote": "Reinforcing feedback loops are engines of growth, amplification, and runaway behavior.",
-      "actionItem": "Isolate the core self-multiplying gear in your product or learning routine and strip away friction choking its loop.",
+      "headline": "Reinforcing Loops Compound",
+      "body": "Reinforcing loops create snowball effects.\nGrowth creates more growth, or loss triggers bigger losses.\nA tiny push quickly turns into massive momentum.",
+      "quote": "Reinforcing feedback loops are engines that drive rapid growth or sudden collapse.",
+      "actionItem": "Find the one habit that naturally builds on itself every week.\nProtect it from interruptions.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -824,10 +824,10 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       "author": "Donella H. Meadows",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Delays Breed Chaos and Wild Oscillation",
-      "body": "Information delays and physical transit lags blind decision-makers to reality.\nWhen actors react forcefully to obsolete stock indicators, they inevitably overcorrect, sending the entire architecture into turbulent boom-and-bust oscillations.",
-      "quote": "Delays in feedback loops are a frequent cause of oscillations. If you are trying to adjust a system state to a goal, but you only receive delayed information, you will over- or undershoot.",
-      "actionItem": "Calculate the precise turnaround lag in your feedback loops before executing a second wave of corrective measures.",
+      "headline": "Delays Cause Overreaction",
+      "body": "Most systems take time to show the impact of an action.\nWhen people see old news, they push too hard to fix things.\nThis overcorrection causes wild swings between extremes.",
+      "quote": "When information is delayed, you will always react too late and push too hard.",
+      "actionItem": "Wait before you make a second fix.\nGive your first change time to show results.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -845,10 +845,10 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       "author": "Donella H. Meadows",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Audit What the System Actually Delivers",
-      "body": "Disregard polished rhetoric, mission statements, and aspirational roadmaps.\nTo decipher a system's true operational intent, inspect its empirical throughput, resource allocation, and sustained functional outputs.",
-      "quote": "Purposes are deduced from behavior, not from rhetoric or stated goals.",
-      "actionItem": "Evaluate an underperforming department entirely by what it consistently ships rather than what leadership promises.",
+      "headline": "Judge by Real Results",
+      "body": "Ignore what leaders claim in fancy speeches.\nLook only at where time and money actually flow.\nWhat a group repeatedly does shows its true purpose.",
+      "quote": "You learn what a system wants from what it does, not what it claims.",
+      "actionItem": "Judge a struggling team by what it ships each week.\nIgnore promises and slide decks.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -866,10 +866,10 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       "author": "Donella H. Meadows",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Resilience Outranks Brittle Static Efficiency",
-      "body": "Resilience is the measure of a system's ability to survive shocks and restore operational integrity across turbulent environments.\nOptimizing purely for narrow short-term efficiency systematically strips out the redundancy vital for survival.",
-      "quote": "Resilience is not the same thing as being static or constant. It is the ability to bounce back, to absorb shocks, to repair, to create, to adapt.",
-      "actionItem": "Reintroduce deliberate slack, spare buffers, and alternative routing into systems that are hyper-optimized to the edge of failure.",
+      "headline": "Flexibility Beats Raw Speed",
+      "body": "A strong system must survive surprises and bounce back from damage.\nRunning at one hundred percent capacity leaves no room for errors.\nSpare buffers protect you from collapse.",
+      "quote": "Being resilient means having the room to take hits, heal, and adapt quickly.",
+      "actionItem": "Add extra buffer time and backup plans to projects that have zero margin for error.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -887,10 +887,10 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       "author": "Donella H. Meadows",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Hierarchical Modular Architecture",
-      "body": "Complex surviving systems arrange themselves into nested modular hierarchies.\nSubsystems maintain local autonomy while serving the overarching purpose, protecting the whole from single-point collapse.",
-      "quote": "Hierarchical systems evolve from the bottom up. The purpose of the upper layers of the hierarchy is to serve the purposes of the lower layers.",
-      "actionItem": "Delegate self-sufficient operational authority to local front-line units rather than funneling routine decisions upward.",
+      "headline": "Build Strong Small Parts",
+      "body": "Healthy systems are made of smaller, self-sufficient parts.\nEach small part handles its own work without asking permission for every detail.\nThis setup keeps the whole system safe from total failure.",
+      "quote": "Good systems grow from the bottom up to help their smaller parts thrive.",
+      "actionItem": "Give front-line team members full power to solve routine issues on their own.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -908,10 +908,10 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       "author": "Donella H. Meadows",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Bounded Rationality Blinds Sub-Units",
-      "body": "People make decisions that appear completely logical from their narrow vantage point and immediate informational incentives, yet these individually rational decisions frequently combine to produce collective systemic insanity.",
-      "quote": "Bounded rationality means that people make quite reasonable decisions based on the information they have, but they don't have perfect information.",
-      "actionItem": "Trace the local incentives and blind spots shaping someone's bizarre behavior before labeling them malicious or foolish.",
+      "headline": "Limited Views Cause Blunders",
+      "body": "People make sensible choices based on the few facts they can see.\nBut when everyone acts for themselves, the whole group can fail.\nGood intentions can still create a huge mess.",
+      "quote": "People make reasonable choices with what they know, but they never know everything.",
+      "actionItem": "Check what limited facts and incentives drive bad behavior before calling someone foolish.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -929,10 +929,10 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       "author": "Donella H. Meadows",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "System Trap: Policy Resistance",
-      "body": "When disparate actors pull a shared stock toward conflicting goals, they jam the system.\nCranking up enforcement or funding triggers an equal and opposite defensive reaction, wasting massive energy while keeping the needle locked in place.",
-      "quote": "When various actors try to pull a system state toward various goals, the result can be policy resistance. Any new policy just pulls the system harder against opposing forces.",
-      "actionItem": "Bring opposing stakeholders together to align on an encompassing mutual goal rather than escalating your unilateral policy push.",
+      "headline": "System Trap: Policy Pushback",
+      "body": "When groups pull in opposite directions, the whole system grinds to a halt.\nForcing a new rule just makes the other side push back harder.\nHuge effort gets spent while nothing moves.",
+      "quote": "Pushing harder against a stuck system just makes the opposing side fight back harder.",
+      "actionItem": "Get fighting teams in one room to agree on one shared, simple goal.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -950,10 +950,10 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       "author": "Donella H. Meadows",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "System Trap: Shifting the Burden to the Intervenor",
-      "body": "When an external crutch steps in to soothe systemic symptoms, the host's innate balancing mechanisms atrophy.\nThe system becomes utterly dependent on the intervention, demanding escalating doses just to stay upright.",
-      "quote": "Shifting the burden arises when a solution to a systemic problem only fixes symptoms, thereby diverting attention from the underlying cause and eroding native capacity.",
-      "actionItem": "Design an explicit timeline to withdraw temporary intervention crutches and rebuild the native capability of the team.",
+      "headline": "System Trap: Helper Addiction",
+      "body": "Using a quick fix hides the real problem.\nOver time, the system loses its own power to cope and heal.\nSoon, it cannot survive without constant outside help.",
+      "quote": "Fixing only surface symptoms weakens the system and makes it dependent on outside help.",
+      "actionItem": "Set a clear date to remove quick crutches and train your team to stand alone.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -971,10 +971,10 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       "author": "Donella H. Meadows",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "System Trap: Success to the Successful",
-      "body": "Winners in competitive arenas convert initial modest victories into outsized structural advantages.\nThis reinforcing loop concentrates rewards, starves competitors, and ultimately threatens the systemic diversity necessary for long-term health.",
-      "quote": "If the winners of a competition are systematically rewarded with the means to win again, a reinforcing feedback loop is created by which the winners eventually take all.",
-      "actionItem": "Institute periodic handicapping or equalizing feedback rules to keep internal competition dynamic, inventive, and fair.",
+      "headline": "System Trap: Winner Takes All",
+      "body": "Early winners get extra perks that make them win even more.\nMeanwhile, everyone else runs out of fuel and drops out.\nSoon, healthy competition dies out completely.",
+      "quote": "When winners get all the tools to win again, they eventually take everything.",
+      "actionItem": "Give small teams real resources and fair odds so the biggest player cannot dominate.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -992,10 +992,10 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       "author": "Donella H. Meadows",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "System Trap: Drift to Low Performance",
-      "body": "When expectations are anchored dynamically to eroded past performance rather than an objective standard, standards slide downward in an imperceptible spiral of continuous, normalized degradation.",
-      "quote": "Allowing performance standards to be influenced by past performance lets problems be normalized, turning a downward slide into an accepted reality.",
-      "actionItem": "Anchor your quality and reliability metrics to absolute external benchmarks instead of rolling recent averages.",
+      "headline": "System Trap: Creeping Mediocrity",
+      "body": "Standards slip when you compare today only to poor recent results.\nBad habits start to feel normal over time.\nStep by step, excellence fades away without anyone noticing.",
+      "quote": "Judging yourself by poor past work turns failure into your new normal.",
+      "actionItem": "Tie your standards to hard, absolute goals instead of recent average scores.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1013,10 +1013,10 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       "author": "Donella H. Meadows",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Restore Dormant Information Loops",
-      "body": "Systems malfunction when key decision-makers are insulated from the immediate consequences of their own actions.\nConnecting missing feedback links and restoring transparency transforms behavior faster than regulatory enforcement.",
-      "quote": "Missing feedback is one of the most common causes of system malfunction. Adding or restoring information can be a powerful intervention.",
-      "actionItem": "Directly expose upstream developers, executives, or designers to unfiltered, daily operational friction experienced by end-users.",
+      "headline": "Share The Real Facts",
+      "body": "Systems break when bosses never feel the pain of their choices.\nShowing everyone the raw truth fixes bad habits quickly.\nHonest information works better than harsh rules.",
+      "quote": "Restoring missing information is often the fastest way to fix a broken system.",
+      "actionItem": "Have leaders sit with front-line workers and experience real customer headaches this week.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1034,10 +1034,10 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       "author": "Donella H. Meadows",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Rewrite the Rules of the Game",
-      "body": "Rules specify incentives, constraints, penalties, and degrees of freedom.\nModifying the governing charter or structural payoff matrix exerts vastly higher leverage than cajoling participants to work harder under flawed rules.",
-      "quote": "The rules of the system define its scope, its boundaries, its degrees of freedom. If you want to understand the deepest malfunctions of systems, pay attention to the rules.",
-      "actionItem": "Alter a dysfunctional workflow by restructuring compensation or deadlines rather than lecturing employees to improve motivation.",
+      "headline": "Change The Rules",
+      "body": "Rules decide who gets rewarded and who gets punished.\nChanging the core rules changes how people act overnight.\nIt works far better than telling people to try harder.",
+      "quote": "If you want to fix broken systems, look closely at their rules.",
+      "actionItem": "Fix broken teamwork by changing pay incentives, not by giving motivational pep talks.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1055,10 +1055,10 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       "author": "Donella H. Meadows",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Self-Organization Breeds Evolutionary Vitality",
-      "body": "The ultimate systemic superpower is self-organization\u2014the capacity to learn, diversify, invent novel structures, and evolve complexity in response to shifting ecological realities without top-down command.",
-      "quote": "Self-organization means changing any aspect of a system lower on the leverage list: adding completely new physical structures, novel feedback loops, or altered rules.",
-      "actionItem": "Carve out self-directed sandbox environments where teams can trial unconventional, unapproved experiments without oversight.",
+      "headline": "Let Groups Self-Organize",
+      "body": "Great systems do not need a manager running every single step.\nThey learn, test ideas, and adapt on their own.\nFreedom to experiment keeps groups strong and creative.",
+      "quote": "Self-organization lets a system create new rules and structures to survive changes.",
+      "actionItem": "Give your team a safe space to run cheap, wild tests without manager approval.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1076,10 +1076,10 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       "author": "Donella H. Meadows",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Transcendence of Paradigms",
-      "body": "Paradigms are the unstated foundational mindsets and shared societal worldviews from which all rules, goals, and organizational structures germinate.\nShifting a paradigm shifts the whole system in an instant.",
-      "quote": "The shared idea in the minds of society, the great unstated assumptions, constitute that society's deepest set of beliefs\u2014its paradigm.",
-      "actionItem": "Challenge the unexamined core assumption underpinning your industry's operating model to discover radical new opportunities.",
+      "headline": "Mindsets Drive Everything",
+      "body": "A mindset is the basic shared belief behind all rules and goals.\nWhen you change how people view the world, everything else changes too.\nA fresh view solves old problems instantly.",
+      "quote": "The shared beliefs held in people's minds shape how the whole world works.",
+      "actionItem": "Question the single biggest unspoken rule in your business.\nAsk what happens if it is wrong.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1097,10 +1097,10 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       "author": "Donella H. Meadows",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Transcend the Trap of Certainty",
-      "body": "Even the most profound systemic paradigm remains an incomplete caricature of an infinite, interconnected universe.\nTrue systems mastery demands staying flexible, curious, and humble in the presence of systemic mystery.",
-      "quote": "There is yet one leverage point that is even higher than changing a paradigm. That is to keep unattached in the realm of paradigms, to stay flexible, to realize that no paradigm is 'true'.",
-      "actionItem": "List three cherished professional beliefs you hold dear, and write a reasoned paragraph exploring the upside if they are incorrect.",
+      "headline": "Stay Open and Humble",
+      "body": "No mental model can explain the whole world perfectly.\nHolding on to rigid opinions makes you blind to change.\nStay humble, curious, and willing to learn every day.",
+      "quote": "Real wisdom means staying flexible and knowing that no single view is completely true.",
+      "actionItem": "Pick your favorite work belief.\nWrite down two big ways you could be wrong.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1118,10 +1118,10 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       "author": "Donella H. Meadows",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Learn to Dance with Complex Systems",
-      "body": "Living systems defy blunt deterministic engineering.\nWe cannot control them with rigid mechanistic formulas; we must observe their intrinsic rhythms, honor their limits, and dance alongside their emergent unfolding.",
-      "quote": "We can't control systems or figure them out. But we can dance with them!",
-      "actionItem": "Conduct a low-stakes probe into a complex team bottleneck, pause to observe how the system responds, and adjust iteratively.",
+      "headline": "Dance With The System",
+      "body": "You cannot control complex systems like simple machines.\nTrying to force them creates resistance and surprise failures.\nWatch how they move, respect their limits, and work with them.",
+      "quote": "We cannot fully control complex systems, but we can learn to dance with them.",
+      "actionItem": "Try a tiny change first.\nWatch how people react before taking your next step.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1135,62 +1135,68 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
   ],
   "mindMap": {
     "id": "root",
-    "label": "Thinking in Systems: A Primer",
-    "description": "Donella Meadows reveals the invisible scaffolding governing everything from bathroom thermostats to global economies.\nBy shifting our gaze from isolated objects to relational networks, we uncover how feedback loops, stocks, and delays choreograph the behavior of our world.",
+    "label": "Thinking in Systems",
+    "description": "The world is made of connected webs.\nLearning how they work helps us fix big problems.",
     "children": [
       {
         "id": "node-1",
-        "label": "Foundational Anatomy of Systems",
-        "description": "Before decoding systemic quirks, we must peer inside the machine to examine its core physiological components.\nEvery system, regardless of complexity, is built from humble reservoirs, moving currents, and overarching purposes.",
+        "label": "Parts of a System",
+        "description": "Every system has three basic pieces.\nThey include stored stuff, movement, and a purpose.",
         "children": [
           {
             "id": "node-1-1",
-            "label": "Stocks (Reservoirs)",
-            "description": "Stocks are measurable accumulations of physical material or intangible information preserved over time, such as water in a bathtub or trust in a friendship.\nThey serve as historical anchors and shock absorbers, granting systems resilience against sudden shocks.",
+            "label": "Stocks (Stored Stuff)",
+            "description": "A stock is anything you can count or store over time.\nThink of water sitting in a bathtub.",
             "children": [
               {
                 "id": "node-1-1-1",
-                "label": "Memory and Buffers",
-                "description": "Stocks embody a system's physical memory, holding the consequences of past events and inflows long after the original inputs cease.\nThey soften shocks by soaking up volatility, preventing immediate collapse when surroundings fluctuate violently."
+                "label": "Buffers and Memory",
+                "description": "Stored supplies act like a cushion during hard times.\nThey remember what happened in the past.",
+                "children": []
               },
               {
                 "id": "node-1-1-2",
-                "label": "Physical Inflows & Outflows",
-                "description": "The exact level of any stock is driven entirely by the algebraic dance between inflows filling it and outflows draining it.\nYou cannot change a stock's height without altering these flows, just as you cannot drain a sink while leaving the faucet wide open."
+                "label": "Filling and Draining",
+                "description": "Stocks only change when things flow in or out.\nYou cannot change the level without changing the tap.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-1-2",
-            "label": "Flows (Dynamics of Change)",
-            "description": "Flows are dynamic rates of entry and departure that steadily alter stock balances across time spans.\nWhether manifesting as heartbeats, births, cash burn, or carbon emissions, flows represent the visible verbs of reality.",
+            "label": "Flows (Movement)",
+            "description": "Flows are things moving in or out over time.\nExamples include money spent or water entering a pipe.",
             "children": [
               {
                 "id": "node-1-2-1",
-                "label": "Flow Rate Discrepancies",
-                "description": "Whenever inflow and outflow rates drift out of sync, dynamic imbalance alters the underlying stock.\nA subtle, unnoticed disparity sustained over prolonged epochs generates monumental, shocking structural transformations."
+                "label": "Unequal Rates",
+                "description": "If more comes in than goes out, the pile grows.\nSmall daily differences add up to huge changes.",
+                "children": []
               },
               {
                 "id": "node-1-2-2",
-                "label": "Measurement Lags",
-                "description": "Because human observers frequently misread current flow velocities for total stored volume, policy decisions often arrive fatally mistimed.\nDistinguishing speed of movement from accumulated mass is essential to avoiding systemic whiplash."
+                "label": "Confusing Speed and Amount",
+                "description": "People often confuse how fast things move with total amounts.\nWatching the wrong number leads to bad choices.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-1-3",
-            "label": "Interconnections & Function",
-            "description": "A system is far more than an arbitrary pile of pieces; it is defined by the connective tissue and systemic goal orchestrating those parts.\nChanging individual components rarely transforms systemic behavior, whereas altering goals or communication rules redesigns everything.",
+            "label": "Connections and Goals",
+            "description": "The rules and connections matter more than the individual parts.\nChanging how parts talk changes the whole system.",
             "children": [
               {
                 "id": "node-1-3-1",
                 "label": "Information Links",
-                "description": "Information links transmit real-time signals regarding stock levels to controlling valves and decision-makers.\nWhen these signaling channels become degraded, noisy, or corrupt, the system flies blind and acts erratically."
+                "description": "Signals tell parts of the system when to react.\nWhen signals break, bad choices follow quickly.",
+                "children": []
               },
               {
                 "id": "node-1-3-2",
-                "label": "Systemic Purpose vs. Stated Goals",
-                "description": "A system's true purpose is deduced from its operational outcomes, not from official mission statements or noble intentions.\nIf an institution consistently generates red tape and gridlock, preserving that friction is its functional objective."
+                "label": "Real Purpose",
+                "description": "A system's real goal is what it actually does.\nIgnore words and watch the results.",
+                "children": []
               }
             ]
           }
@@ -1198,57 +1204,63 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       },
       {
         "id": "node-2",
-        "label": "Feedback Loops & System Mechanics",
-        "description": "Systems achieve self-governance and perpetual motion through circular chains of cause-and-effect called feedback loops.\nThese structural feedback engines generate both stability and explosive transformation across the natural world.",
+        "label": "Feedback Loops",
+        "description": "Actions circle back to affect their own causes.\nThese circular loops either steady things or make them grow.",
         "children": [
           {
             "id": "node-2-1",
-            "label": "Balancing Loops (Negative Feedback)",
-            "description": "Balancing loops operate as homeostatic guardians, constantly working to close the gap between current reality and an internal goal.\nThey act like internal thermostats, countering disturbances to maintain equilibrium and preserve systemic integrity.",
+            "label": "Balancing Loops",
+            "description": "These loops keep things steady and close to a target.\nThey work just like a home thermostat.",
             "children": [
               {
                 "id": "node-2-1-1",
-                "label": "Goal-Seeking Homeostasis",
-                "description": "These loops ceaselessly pull wandering systems back toward steady baselines, stabilizing body temperature, blood sugar, and planetary temperatures.\nWithout balancing loops, even the smallest perturbation would cascade into total systemic disintegration."
+                "label": "Seeking Balance",
+                "description": "They pull drifting systems back to a safe zone.\nYour body uses them to control temperature.",
+                "children": []
               },
               {
                 "id": "node-2-1-2",
-                "label": "Sluggish Loop Fatigue",
-                "description": "When balancing loops grow worn out or lack authority, they fail to arrest runaway momentum.\nUnderstanding where balancing capacity wears thin reveals where catastrophic breakdown lurks."
+                "label": "Weak Loops",
+                "description": "If a stabilizing loop gets too weak, control is lost.\nThings then break down fast.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-2-2",
-            "label": "Reinforcing Loops (Positive Feedback)",
-            "description": "Reinforcing loops generate exponential growth or vicious spirals by feeding an effect directly back into its own cause.\nThey act as self-multiplying compounders, fueling viral epidemics, financial booms, ecological explosions, and panic runs.",
+            "label": "Growth Loops",
+            "description": "These loops make small changes multiply quickly.\nThey create fast booms or rapid crashes.",
             "children": [
               {
                 "id": "node-2-2-1",
-                "label": "Exponential Explosions",
-                "description": "Small initial advantages compound geometrically, unleashing stunningly rapid expansions that defy linear human intuition.\nUnchecked reinforcing loops inevitably hit rigid physical boundaries, triggering violent corrections."
+                "label": "Explosive Growth",
+                "description": "Growth feeds on itself and gets faster every round.\nEventually, it must hit a hard wall.",
+                "children": []
               },
               {
                 "id": "node-2-2-2",
-                "label": "Vicious Spirals",
-                "description": "When compounding loops reverse direction, they erode stocks at an accelerating pace.\nErosion of municipal tax bases or collapse of bank liquidity demonstrate reinforcing decay in tragic detail."
+                "label": "Downward Spirals",
+                "description": "When growth loops turn negative, collapse speeds up.\nOne bad event triggers another.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-2-3",
-            "label": "Delays and Oscillations",
-            "description": "Delays represent pauses in the transmission of information, physical processing, or policy response times.\nWhen feedback encounters significant lag, human pilots systematically oversteer, sparking violent and unpredictable oscillations.",
+            "label": "Delays and Swings",
+            "description": "Waiting for information or results creates lag.\nDelays make people overreact and swing back and forth.",
             "children": [
               {
                 "id": "node-2-3-1",
-                "label": "Perception and Response Lags",
-                "description": "Delays occur both when recognizing emerging shifts and when deploying corrective interventions.\nTaking a hot shower with cold pipes causes scalded skin precisely because human patience cannot accommodate systemic transit lag."
+                "label": "Slow Reactions",
+                "description": "Waiting to feel hot water in a shower leads to burns.\nDelays cause people to steer too hard.",
+                "children": []
               },
               {
                 "id": "node-2-3-2",
-                "label": "Oscillatory Waves",
-                "description": "When slow corrective responses chase fast-moving targets, systems swing between scarcity and surplus like drunk pendulums.\nCommodity boom-and-bust cycles are pure products of feedback delays."
+                "label": "Boom and Bust",
+                "description": "Slow answers make supplies swing between too much and too little.\nPrices bounce up and down like a yo-yo.",
+                "children": []
               }
             ]
           }
@@ -1256,57 +1268,63 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       },
       {
         "id": "node-3",
-        "label": "Complex Systemic Behaviors",
-        "description": "When diverse stocks, loops, and delays intertwine, systems manifest lifelike characteristics that puzzle linear minds.\nThey demonstrate surprising resilience, spontaneous organization, and layered structural architectures.",
+        "label": "Complex Behavior",
+        "description": "Combined loops create surprising and lifelike actions.\nThey can heal, adapt, and build new forms.",
         "children": [
           {
             "id": "node-3-1",
-            "label": "Resilience and Shock Absorption",
-            "description": "Resilience is a system's capacity to absorb heavy disruptions, heal internal injuries, and retain fundamental operations.\nIt relies on deep redundancy and flexible response networks rather than brittle, hyper-optimized perfection.",
+            "label": "Bouncing Back",
+            "description": "Tough systems take hits without falling apart.\nThey use backup options to stay alive.",
             "children": [
               {
                 "id": "node-3-1-1",
-                "label": "Redundancy vs Efficiency",
-                "description": "Obsessive optimization strips out safety margins and backup pathways in pursuit of short-term cost savings.\nHyper-efficient systems trade away resilience, turning slight disruptions into existential crises."
+                "label": "Extra Backups",
+                "description": "Stripping away backups to save money creates danger.\nA tiny shock can ruin a brittle system.",
+                "children": []
               },
               {
                 "id": "node-3-1-2",
-                "label": "Dynamic Elasticity",
-                "description": "Elastic systems bend without shattering because their internal feedback loops adapt spontaneously to incoming stresses.\nPreserving adaptive slack is the single greatest insurance policy against catastrophe."
+                "label": "Staying Flexible",
+                "description": "Systems that bend will not snap under stress.\nFlexibility is the best protection against surprise.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-3-2",
-            "label": "Self-Organization & Emergence",
-            "description": "Self-organization is the breathtaking ability of a system to learn, innovate, diversify, and evolve entirely new architectures.\nFrom simple local interaction rules emerge intricate collective masterpieces like flocks of birds or market webs.",
+            "label": "Self-Building Order",
+            "description": "Complex patterns grow naturally without a boss.\nSimple local rules make great things happen.",
             "children": [
               {
                 "id": "node-3-2-1",
-                "label": "Evolutionary Experimentation",
-                "description": "Complex adaptability requires mutation and playful trial-and-error to discover robust survival strategies.\nStifling local variance suffocates long-term evolutionary vigor."
+                "label": "Trial and Error",
+                "description": "Trying new things helps systems find better ways to survive.\nKilling mistakes also stops new ideas.",
+                "children": []
               },
               {
                 "id": "node-3-2-2",
-                "label": "Spontaneous Complexity",
-                "description": "Macro-level order emerges organically without centralized puppet masters pulling strings.\nRecognizing spontaneous generation frees managers from the exhausting illusion of micro-control."
+                "label": "Natural Teamwork",
+                "description": "Flocks of birds fly together without any single leader.\nOrder can happen on its own.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-3-3",
-            "label": "Hierarchy & Subsystems",
-            "description": "Nature coordinates staggering complexity by organizing systems into nested, semi-autonomous hierarchies.\nCells form organs, organs form bodies, and bodies form ecologies, with each layer attending to its own immediate maintenance.",
+            "label": "Layered Teams",
+            "description": "Large systems work by grouping smaller parts together.\nEach piece handles its own small job.",
             "children": [
               {
                 "id": "node-3-3-1",
-                "label": "Subsystem Autonomy",
-                "description": "Healthy hierarchies grant subsystems enough freedom to manage internal operations without central oversight.\nMicro-managing central nodes drown in data and paralyze downstream responses."
+                "label": "Local Freedom",
+                "description": "Small units need freedom to do daily work.\nControlling every detail from the top causes jams.",
+                "children": []
               },
               {
                 "id": "node-3-3-2",
-                "label": "Sub-optimization Breakdown",
-                "description": "When a selfish subsystem prioritizes its individual goals above the health of the broader meta-system, ruin ensues.\nCancer tumors and rogue corporate fiefdoms exemplify lethal sub-optimization."
+                "label": "Selfish Parts",
+                "description": "When one part helps itself by hurting the group, everyone suffers.\nCancer is an example of a selfish part.",
+                "children": []
               }
             ]
           }
@@ -1314,57 +1332,63 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       },
       {
         "id": "node-4",
-        "label": "Why Systems Surprise Us",
-        "description": "Human brains evolved to track linear causes, clear culprits, and immediate visual feedback within localized environments.\nWhen confronted with non-linear feedback webs, cognitive illusions cause well-meaning actors to exacerbate the very problems they strive to cure.",
+        "label": "Why Systems Surprise",
+        "description": "Human brains expect straight lines and simple blame.\nReal webs trick our common sense.",
         "children": [
           {
             "id": "node-4-1",
-            "label": "Bounded Rationality",
-            "description": "Actors make rational choices based on the localized, imperfect information they possess, unaware of broader ripples.\nBecause no single entity sees the whole tapestry, rational individual moves produce collective catastrophe.",
+            "label": "Limited Vision",
+            "description": "People make sensible choices using only what they can see.\nMissing the big picture causes huge mistakes.",
             "children": [
               {
                 "id": "node-4-1-1",
-                "label": "Horizon Blindness",
-                "description": "Human attention truncates abruptly across geographic space and future calendar quarters.\nWe ignore downstream fallout simply because feedback loops loop beyond our sensory horizons."
+                "label": "Short-Sighted Focus",
+                "description": "We easily ignore what happens far away or later on.\nThis creates problems we cannot see yet.",
+                "children": []
               },
               {
                 "id": "node-4-1-2",
-                "label": "Information Asymmetry",
-                "description": "Disjointed information silos prevent decision-makers from synchronizing actions with shared reality.\nRestoring open, high-fidelity signals dissolves systemic stupidity faster than lecturing individuals."
+                "label": "Hidden Information",
+                "description": "When groups keep secrets, nobody knows the full truth.\nSharing facts clearly fixes problems fast.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-4-2",
-            "label": "Non-Linear Relationships",
-            "description": "In non-linear realms, output is not proportional to input; a tiny nudge can trigger an avalanche, while massive interventions can vanish without a trace.\nThese disproportionate tipping points upend conventional cost-benefit projections.",
+            "label": "Uneven Results",
+            "description": "Small pushes can cause huge explosions.\nOther times, giant efforts produce zero change.",
             "children": [
               {
                 "id": "node-4-2-1",
-                "label": "Tipping Points (Regime Shifts)",
-                "description": "Complex systems absorb incremental abuse silently until a threshold is crossed, triggering sudden, irreversible structural realignment.\nA lake absorbs agricultural runoff for decades before collapsing into algae overnight."
+                "label": "Tipping Points",
+                "description": "Stress builds quietly until one tiny drop spills everything.\nThings can change forever in an instant.",
+                "children": []
               },
               {
                 "id": "node-4-2-2",
-                "label": "Disproportionate Returns",
-                "description": "Doubling effort does not guarantee double the yield when limiting factors throttle throughput.\nFinding the exact binding constraint unlocks massive gains with modest expenditure."
+                "label": "Hidden Bottlenecks",
+                "description": "Working twice as hard will not help if one part is stuck.\nFix the bottleneck to get real progress.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-4-3",
-            "label": "Deceptive Boundaries",
-            "description": "Boundaries do not exist in nature; they are mental simplifications humans draw to make analysis manageable.\nDrawing artificial frontiers blinds us to externalized waste and toxic feedback loops leaking across borders.",
+            "label": "Drawn Borders",
+            "description": "Borders are lines we draw in our own minds.\nNature ignores our tidy human boxes.",
             "children": [
               {
                 "id": "node-4-3-1",
-                "label": "Arbitrary Perimeters",
-                "description": "Where we draw mental circles determines what counts as value and what is dismissed as an externality.\nRedrawing conceptual borders reveals costs previously swept into hidden corners."
+                "label": "Fake Lines",
+                "description": "Where we draw the boundary decides what we care about.\nChanging lines changes what matters.",
+                "children": []
               },
               {
                 "id": "node-4-3-2",
-                "label": "Externalized Costs",
-                "description": "Entities dump pollution and misery outside their official accounting ledgers to artificially inflate quarterly profits.\nThese unaccounted debts accumulate in public commons until reality forces repayment."
+                "label": "Dumping Costs",
+                "description": "People often dump trash outside their fence to save money.\nSomeone else always ends up paying the bill.",
+                "children": []
               }
             ]
           }
@@ -1372,76 +1396,83 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       },
       {
         "id": "node-5",
-        "label": "System Traps and Archetypes",
-        "description": "Certain recurring structural flaws trap systems in chronic pathologies regardless of participants' virtue or talent.\nBy identifying these systemic traps, we can dismantle perverse incentives instead of fruitlessly scapegoating participants.",
+        "label": "Common System Traps",
+        "description": "Certain bad patterns trap good people over and over.\nFixing the setup works better than blaming people.",
         "children": [
           {
             "id": "node-5-1",
-            "label": "Policy Resistance",
-            "description": "When multiple stubborn actors pull a common stock toward contradictory goals, the system locks into tense gridlock.\nHeavy policy pushes trigger equal and opposite pushback, burning colossal energy while remaining stuck.",
+            "label": "Fighting Back",
+            "description": "When groups pull in opposite directions, nothing moves.\nPushing harder only causes more pushback.",
             "children": [
               {
                 "id": "node-5-1-1",
-                "label": "Fixes that Fail",
-                "description": "Quick regulatory patches treat surface symptoms while strengthening underlying pushback dynamics.\nTrue breakthroughs require unifying conflicting goals into an overarching shared purpose."
+                "label": "Failed Fixes",
+                "description": "Quick patches make the core problem worse over time.\nPeople must agree on a single shared goal.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-5-2",
-            "label": "Tragedy of the Commons",
-            "description": "When users reap direct personal gain from exploiting a shared resource while distributing the costs across everyone, overexploitation is mathematically guaranteed.\nWithout mutual boundaries, collective assets inevitably get plundered.",
+            "label": "Ruined Shared Goods",
+            "description": "When everyone shares a pasture, each person takes too much.\nThe shared resource ends up destroyed.",
             "children": [
               {
                 "id": "node-5-2-1",
-                "label": "Common Pool Depletion",
-                "description": "Individual users rationally decide to graze one extra sheep or catch one extra fish, accelerating the total collapse of pasture and fishery alike.\nUnfettered individual logic produces universal bankruptcy."
+                "label": "Overusing Resources",
+                "description": "Taking one extra fish seems harmless to each fisher.\nTogether, they empty the entire lake.",
+                "children": []
               },
               {
                 "id": "node-5-2-2",
-                "label": "Mutual Coercion Solutions",
-                "description": "Escaping the tragedy requires either privatizing the commons or designing communal regulations backed by peer enforcement.\nSocial agreements protect resources from individual shortsightedness."
+                "label": "Shared Rules",
+                "description": "Protect shared goods by making clear rules for everyone.\nEnforcing fair limits saves the resource.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-5-3",
-            "label": "Drift to Low Performance",
-            "description": "When perceived historical reality sets future benchmarks, failing standards normalize gradual decay.\nUnconsciously anchoring on declining baselines blinds communities to generational deterioration.",
+            "label": "Falling Standards",
+            "description": "Accepting worse results slowly makes bad service feel normal.\nPeople forget how good things used to be.",
             "children": [
               {
                 "id": "node-5-3-1",
-                "label": "Eroding Baselines",
-                "description": "Each generation mistakes today's compromised status quo for the pristine historical baseline, quietly accepting downward drift.\nThis cognitive ratchet makes decay feel normal."
+                "label": "Creeping Decay",
+                "description": "Each step down feels too tiny to notice.\nOver time, quality slowly rots away.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-5-4",
-            "label": "Escalation & Addiction",
-            "description": "Escalation pits rivals in reinforcing races toward mutual destruction, while addiction hooks systems on symptomatic fixes that sap internal capability.\nBoth traps sacrifice tomorrow's survival for fleeting security today.",
+            "label": "Escalation and Habits",
+            "description": "Rivals trap each other in expensive fights.\nQuick fixes also turn into addictive habits.",
             "children": [
               {
                 "id": "node-5-4-1",
-                "label": "Arms Races",
-                "description": "Each competitor views their defensive buildup as a justified reaction to their rival's maneuvers, driving an accelerating spiral of militarization or advertising spend.\nBreaking the cycle requires unilateral de-escalation."
+                "label": "Copycat Fights",
+                "description": "Each side buys more weapons because the other side did.\nThe only way out is to stop matching moves.",
+                "children": []
               },
               {
                 "id": "node-5-4-2",
-                "label": "Shifting the Burden",
-                "description": "Relying on external crutches\u2014like crop fertilizers or easy credit\u2014atrophies organic problem-solving vitality.\nWeaning off the quick fix requires tolerating short-term pain to rebuild foundational strength."
+                "label": "Addiction to Crutches",
+                "description": "Leaning on quick band-aids weakens your own real strength.\nYou must bear short-term pain to heal.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-5-5",
-            "label": "Success to the Successful",
-            "description": "Winners of competitive contests secure larger shares of resources, tilting playing fields to make future victories effortless.\nWithout deliberate leveling mechanisms, reinforcing wealth cascades concentrate everything into fewer hands.",
+            "label": "Winner Takes All",
+            "description": "Early winners get more tools to win the next round.\nLeft alone, one person ends up with everything.",
             "children": [
               {
                 "id": "node-5-5-1",
-                "label": "Monopolistic Accumulation",
-                "description": "Early arbitrary advantages compound across time, transforming competitive playing fields into monopolistic dynasties.\nInterventions like antitrust rules or progressive taxation are essential to restart the board."
+                "label": "Growing Monopolies",
+                "description": "Small head starts turn into unbeatable leads over time.\nRules must reset the board to keep games fair.",
+                "children": []
               }
             ]
           }
@@ -1449,69 +1480,76 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       },
       {
         "id": "node-6",
-        "label": "Leverage Points: Places to Intervene",
-        "description": "Leverage points are strategic junctures within a system where a tiny shift produces sweeping, enduring transformations.\nMeadows ranks these leverage points in ascending order of transformative potency, urging reformers to look beyond surface parameters.",
+        "label": "Points of Power",
+        "description": "Small tweaks in the right spot create giant changes.\nLook for deep spots instead of surface numbers.",
         "children": [
           {
             "id": "node-6-1",
-            "label": "Low Leverage: Parameters & Numbers",
-            "description": "Adjusting taxes, subsidies, standards, and physical metrics consumes 99% of public attention yet rarely changes underlying systemic trajectory.\nTinkering with dials on a broken machine cannot fix its fundamental malfunction.",
+            "label": "Numbers and Dials",
+            "description": "Changing taxes or speed limits rarely fixes broken designs.\nTwisting dials is easy but rarely changes much.",
             "children": [
               {
                 "id": "node-6-1-1",
-                "label": "Dial Twisting",
-                "description": "Tweaking interest rates or sentencing lengths yields ephemeral surface relief while systemic loops continue churning untouched.\nIt is the most seductive yet least impactful place to intervene."
+                "label": "Surface Tweaks",
+                "description": "Adjusting minor numbers wastes energy without solving anything.\nIt offers quick relief while basic problems remain.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-6-2",
-            "label": "Medium Leverage: Structure & Information",
-            "description": "Altering buffer capacities, loop delays, and information flows reshapes how systems respond to stresses.\nEnsuring transparency and placing missing feedback loops right where decisions get made cures systemic myopia.",
+            "label": "Structure and Facts",
+            "description": "Changing where facts go changes how people act.\nClear signals stop dumb mistakes.",
             "children": [
               {
                 "id": "node-6-2-1",
-                "label": "Information Feedback Restoration",
-                "description": "Restoring missing feedback loops gives agents immediate, unvarnished visibility into the consequences of their actions.\nMaking electric meters prominent in hallways slashes power usage without passing a single law."
+                "label": "Better Feedback",
+                "description": "Put electric meters in front hallways to cut power use.\nShowing people facts changes their habits immediately.",
+                "children": []
               },
               {
                 "id": "node-6-2-2",
-                "label": "Buffer Optimization",
-                "description": "Expanding the holding capacity of critical buffers dampens volatility and insulates fragile systems from unpredictable supply shocks.\nProperly calibrated buffers prevent panics before they ignite."
+                "label": "Better Buffers",
+                "description": "Keeping extra storage absorbs sudden drops in supply.\nA good buffer stops panic before it starts.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-6-3",
-            "label": "High Leverage: Rules & Goals",
-            "description": "Systemic rules, incentives, and structural punishments dictate what actions are legally and socially possible.\nReorienting a system's core goal rearranges every subordinate component, flow, and feedback loop beneath it.",
+            "label": "Rules and Goals",
+            "description": "The rules decide what is allowed and rewarded.\nChanging the ultimate goal transforms everything underneath.",
             "children": [
               {
                 "id": "node-6-3-1",
-                "label": "Rule Rewriting",
-                "description": "Rules define constraints, incentives, and penalties, determining how resources flow across social architectures.\nWhen rules reward short-term extraction, no moral plea can halt environmental strip-mining."
+                "label": "New Rules",
+                "description": "Rules tell people how to win the game.\nChange the reward rules to change people's behavior.",
+                "children": []
               },
               {
                 "id": "node-6-3-2",
-                "label": "Goal Reorientation",
-                "description": "Shifting an economy's goal from endless GDP expansion to genuine human flourishing flips every feedback loop in the entire enterprise.\nThe overarching goal is the silent orchestrator of all system dynamics."
+                "label": "New Goals",
+                "description": "Switching the target from fast profits to human health changes everything.\nThe main goal silently directs all actions.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-6-4",
-            "label": "Supreme Leverage: Paradigms & Transcendence",
-            "description": "Paradigms are the unstated cultural assumptions, worldviews, and belief architectures out of which social systems naturally precipitate.\nShifting a paradigm rewrites civilizations, while transcending paradigms unlocks radical intellectual freedom.",
+            "label": "Mindsets and Beliefs",
+            "description": "Our deepest beliefs create our social worlds.\nShifting a mindset rewrites how people live together.",
             "children": [
               {
                 "id": "node-6-4-1",
-                "label": "Paradigm Shifts",
-                "description": "A paradigm shift fundamentally alters shared assumptions about how reality operates, just as the Copernican revolution moved Earth from the center of the cosmos.\nChange the underlying worldview, and all structures transform in tandem."
+                "label": "Shifting Views",
+                "description": "Change the worldview, and every rule changes with it.\nNew ideas rebuild societies from scratch.",
+                "children": []
               },
               {
                 "id": "node-6-4-2",
-                "label": "Transcending Paradigms",
-                "description": "The ultimate mastery lies in recognizing that no single mental model or paradigm holds the monopoly on absolute truth.\nHolding paradigms lightly allows practitioners to pick whatever framework brings healing, clarity, and harmony."
+                "label": "Staying Open",
+                "description": "No single model has all the right answers.\nHold your ideas lightly and stay humble.",
+                "children": []
               }
             ]
           }
@@ -1519,59 +1557,64 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
       },
       {
         "id": "node-7",
-        "label": "Living in a World of Systems",
-        "description": "We cannot fully tame, control, or compute messy, interconnected systems into robotic obedience.\nInstead, Meadows invites us to cultivate wisdom, humility, and agility, learning to dance with systemic complexity rather than dominate it.",
+        "label": "Living with Systems",
+        "description": "We cannot fully control a complicated world.\nWe must learn to dance with it instead.",
         "children": [
           {
             "id": "node-7-1",
-            "label": "Get the Beat of the System",
-            "description": "Before proposing grand interventions, immerse yourself in the system's operational history, rhythms, and real-world behavior over time.\nPay close attention to how it dances before trying to correct its steps.",
+            "label": "Learn the Rhythm",
+            "description": "Watch how things work before trying to fix them.\nStudy the past to understand the present.",
             "children": [
               {
                 "id": "node-7-1-1",
-                "label": "Historical Observation",
-                "description": "Trace historical rhythms and seasonal tides rather than jumping to conclusions based on current snapshots.\nUnderstanding how the system weathered past crises reveals where its authentic strengths lie."
+                "label": "Watching History",
+                "description": "Notice repeating waves and old habits over time.\nPast survival reveals real inner strengths.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-7-2",
-            "label": "Expose Mental Models",
-            "description": "Lay your underlying assumptions, simplifications, and internal theories out in the sunlight for collaborative inspection and testing.\nHumility demands acknowledging that every human model is a stylized map, never the full territory.",
+            "label": "Share Your Thoughts",
+            "description": "Show your assumptions openly so others can test them.\nRemember that our mental maps are not reality.",
             "children": [
               {
                 "id": "node-7-2-1",
-                "label": "Rigorous Self-Inquiry",
-                "description": "Invite critics to scrutinize your core hypotheses and stress-test systemic assumptions against real-world evidence.\nRuthless intellectual honesty preserves mental agility in changing landscapes."
+                "label": "Testing Beliefs",
+                "description": "Welcome criticism to spot flaws in your own thinking.\nBeing honest keeps your mind sharp.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-7-3",
-            "label": "Honor Information & Non-Quantifiables",
-            "description": "Refuse to prioritize easily measured metrics like revenue or headcounts over vital intangibles like trust, dignity, beauty, and biodiversity.\nWhat cannot be counted often matters far more than what can.",
+            "label": "Value Hidden Things",
+            "description": "Do not ignore trust or happiness just because numbers cannot count them.\nUncountable things matter the most.",
             "children": [
               {
                 "id": "node-7-3-1",
-                "label": "Valuing Intangibles",
-                "description": "Discarding crucial qualitative values simply because they resist neat spreadsheet quantification corrupts systemic stewardship.\nProtecting the sacred requires courage against technocratic reductionism."
+                "label": "Cherishing Quality",
+                "description": "Leaving out feelings because they do not fit spreadsheets ruins decisions.\nProtect what truly matters.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-7-4",
-            "label": "Dancing with Systems",
-            "description": "Real systemic stewardship is an art form rooted in keen curiosity, experimental feedback, and respectful partnership.\nAbandoning dreams of omnipotent control opens the door to dancing gracefully with reality's unfolding complexity.",
+            "label": "Dance with Change",
+            "description": "Treat life as a dance of curiosity and feedback.\nStop trying to control everything like a machine.",
             "children": [
               {
                 "id": "node-7-4-1",
-                "label": "Embracing Error as Information",
-                "description": "Treat missteps and unintended consequences as urgent, informative feedback loops rather than causes for personal despair or cover-ups.\nRapid learning loops convert inevitable friction into continuous systemic wisdom."
+                "label": "Learning from Errors",
+                "description": "Treat mistakes as helpful clues rather than failures.\nFast lessons turn slip-ups into real wisdom.",
+                "children": []
               },
               {
                 "id": "node-7-4-2",
-                "label": "Expanding Horizons of Care",
-                "description": "Widen your circle of compassion to encompass distant generations, foreign lands, and the broader web of life on Earth.\nExpanding moral boundaries aligns human incentives with the enduring well-being of the living biosphere."
+                "label": "Caring for All",
+                "description": "Care for future children, distant neighbors, and the Earth.\nCaring widely keeps the whole world healthy.",
+                "children": []
               }
             ]
           }

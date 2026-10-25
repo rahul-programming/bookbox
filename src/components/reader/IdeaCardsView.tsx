@@ -248,27 +248,26 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({
                     </div>
                   </div>
 
-                  {/* Scrollable Front Content */}
-                  <div className="flex-1 min-h-0 overflow-y-auto pr-1 my-1 space-y-2.5 break-words">
+                  {/* Scrollable Front Content: Headline + Quote only */}
+                  <div className="flex-1 min-h-0 overflow-y-auto pr-1 my-1 space-y-3 break-words">
                     <h4 className="font-bold text-base text-slate-900 dark:text-slate-100 leading-snug break-words">
                       {idea.headline}
                     </h4>
 
-                    {/* Always show the clear plain-English Takeaway on the front */}
-                    <div className={`text-slate-700 dark:text-slate-300 space-y-1.5 break-words ${fontSizeClass}`}>
-                      {(idea.body.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (
-                        <p key={idx} className="leading-relaxed break-words">
-                          {sentence}
+                    {idea.quote ? (
+                      <div className="p-3 sm:p-4 rounded-xl bg-slate-50 dark:bg-slate-900/80 border-l-3 border-blue-500 break-words">
+                        <Quote className="w-4 h-4 text-blue-500 mb-1.5" />
+                        <p className={`italic text-slate-800 dark:text-slate-200 break-words leading-relaxed ${fontSizeClass}`}>
+                          "{idea.quote.replace(/^["']|["']$/g, '')}"
                         </p>
-                      ))}
-                    </div>
-
-                    {idea.quote && (
-                      <div className="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-900/80 border-l-2 border-blue-500 break-words mt-1">
-                        <Quote className="w-3 h-3 text-blue-500 mb-0.5 inline-block mr-1.5 align-middle" />
-                        <span className="text-xs italic text-slate-600 dark:text-slate-400 break-words">
-                          "{idea.quote}"
-                        </span>
+                      </div>
+                    ) : (
+                      <div className={`text-slate-700 dark:text-slate-300 space-y-1.5 break-words ${fontSizeClass}`}>
+                        {(idea.body.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (
+                          <p key={idx} className="leading-relaxed break-words">
+                            {sentence}
+                          </p>
+                        ))}
                       </div>
                     )}
                   </div>

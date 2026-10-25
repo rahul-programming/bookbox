@@ -1,5 +1,5 @@
 // Ultralearning by Scott H. Young
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -633,169 +633,169 @@ export const ULTRALEARNING_BOOK: Book = {
   "actionItems": [
     {
       "id": "ultralearning-act-1",
-      "title": "Perform the 10% Metalearning Prep",
-      "description": "Before diving blindly into any subject, spend 10% of your total target learning time mapping out how the field works to prevent wasted effort.",
+      "title": "Map Out Your Learning Plan",
+      "description": "Spend the first ten percent of your study time planning your roadmap. Good planning saves you weeks of wasted work later.",
       "category": "audit",
       "timeEstimateMinutes": 60,
       "stepByStep": [
-        "Pick the skill or subject you want to master and decide on a total study budget (e.g., 20 hours).",
-        "Set a timer for 10% of that budget (e.g., 2 hours) dedicated purely to research.",
-        "List 3 expert curricula, top syllabi, or benchmark textbooks used by elite practitioners.",
-        "Categorize what you must learn into Concepts (what to understand), Facts (what to memorize), and Procedures (what to practice)."
+        "1. Choose the single skill you want to learn.",
+        "2. Decide your total study hours for this project.",
+        "3. Find three good courses, books, or top guides.",
+        "4. List the key ideas, facts, and daily actions."
       ],
       "sourceChapter": "Chapter 4"
     },
     {
       "id": "ultralearning-act-2",
-      "title": "Set Up an Ultra-Direct Practice Session",
-      "description": "Eliminate comfortable learning illusions by practicing the skill directly in the real environment where you want to perform it.",
+      "title": "Practice in the Real World",
+      "description": "Do the real task instead of easy fake exercises. True practice builds real skill much faster.",
       "category": "quick-win",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Identify the exact real-world scenario you want to master (e.g., speaking Spanish, building a web app).",
-        "Strip away indirect proxies like grammar apps or multiple-choice quizzes.",
-        "Engage directly in the target context for 20 minutes (e.g., start a live language exchange call or code a bare-bones feature).",
-        "Log the exact sticking points where you felt awkward or unprepared."
+        "1. Pick the exact real-world skill you want.",
+        "2. Skip fake test apps and easy multiple-choice quizzes.",
+        "3. Practice the real thing directly for twenty minutes.",
+        "4. Write down every spot where you struggled."
       ],
       "sourceChapter": "Chapter 6"
     },
     {
       "id": "ultralearning-act-3",
-      "title": "Run a Daily 5-Minute Retrieval Blank-Page Test",
-      "description": "Ditch passive re-reading and trigger active recall immediately after studying to supercharge neuroplastic retention.",
+      "title": "Test Yourself on Blank Paper",
+      "description": "Stop reading notes again and again. Test your memory on paper right after studying.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Close your book, laptop, or notes immediately after finishing a study block.",
-        "Take a blank sheet of paper or an empty digital note.",
-        "Spend 5 minutes writing down every single key concept, formula, or idea you can remember from memory.",
-        "Reopen your material to check what you missed, focusing your next review on those gaps."
+        "1. Close your book and laptop right after studying.",
+        "2. Grab an empty sheet of paper.",
+        "3. Write down every idea you remember from memory.",
+        "4. Check your notes to see what you missed."
       ],
       "sourceChapter": "Chapter 8"
     },
     {
       "id": "ultralearning-act-4",
-      "title": "Isolate Your Bottleneck with Drill Chunking",
-      "description": "Break down a complex skill into its single weakest component and practice that sub-skill in isolation until smooth.",
+      "title": "Drill Your Weakest Spot",
+      "description": "Find the one hard step that slows you down. Practice that piece by itself until it feels easy.",
       "category": "system",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Review your recent direct practice and spot the step that slows you down the most.",
-        "Isolate that single component (e.g., chord transitions on guitar, pronunciation of difficult vowels, SQL joins).",
-        "Design a 20-minute drill targeting only that isolated movement or concept.",
-        "Reintegrate the drilled component back into the full skill to test for speed and confidence."
+        "1. Spot the single move that slows you down.",
+        "2. Pull that one step out from the rest.",
+        "3. Practice only that tiny step for twenty minutes.",
+        "4. Put it back into the whole skill again."
       ],
       "sourceChapter": "Chapter 7"
     },
     {
       "id": "ultralearning-act-5",
-      "title": "Clear Cognitive Friction and Distractions",
-      "description": "Engineer your physical and digital space to make starting deep work totally frictionless while making distraction painful.",
+      "title": "Remove Every Study Distraction",
+      "description": "Set up your room so you can start working instantly. Clear distractions so you stay focused.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Move your phone into another room or lock it in a drawer before your learning block.",
-        "Close every browser tab except the single document or tool required for today's study.",
-        "Place your notebook, pen, and textbook ready on your desk the night before.",
-        "Put on noise-cancelling headphones or start a dedicated focus sound track to cue flow."
+        "1. Put your phone in another room right now.",
+        "2. Close every computer tab except your main lesson.",
+        "3. Lay out your notebook and pen beforehand.",
+        "4. Put on quiet headphones to block background noise."
       ],
       "sourceChapter": "Chapter 5"
     },
     {
       "id": "ultralearning-act-6",
-      "title": "Execute the 5-Minute Procrastination Antidote",
-      "description": "Defeat mental resistance by making a deal with yourself to work for just five minutes before deciding to quit.",
+      "title": "Use the Five Minute Rule",
+      "description": "Beat laziness by starting for just five quick minutes. Once you start, you will usually keep going.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Notice the emotional friction holding you back from starting your study session.",
-        "Set a physical timer for exactly 5 minutes.",
-        "Commit to opening the material and working with full presence only until the timer rings.",
-        "Give yourself permission to stop when it rings; in 90% of cases, your inertia will be broken and you will keep going."
+        "1. Notice the bad feeling holding you back today.",
+        "2. Set a timer for just five short minutes.",
+        "3. Open your book and work until it rings.",
+        "4. Stop if you want, or simply keep going."
       ],
       "sourceChapter": "Chapter 5"
     },
     {
       "id": "ultralearning-act-7",
-      "title": "Schedule a High-Intensity Feedback Audit",
-      "description": "Audit your feedback channels to replace polite, slow praise with immediate, objective critique.",
+      "title": "Get Honest Fast Feedback",
+      "description": "Trade slow, fake praise for fast and honest truth. Clear feedback helps you fix mistakes right away.",
       "category": "audit",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Review how you currently evaluate your progress in your target skill.",
-        "Identify where you are receiving delayed or ego-massaging feedback.",
-        "Set up an immediate feedback mechanism: a compiler, an answer key, or a blunt mentor review.",
-        "Schedule one weekly review where you extract corrective insights without taking errors personally."
+        "1. Check how you currently measure your own work.",
+        "2. Stop trusting slow or overly polite opinions.",
+        "3. Use direct tests, answer keys, or blunt teachers.",
+        "4. Review your mistakes weekly without feeling bad."
       ],
       "sourceChapter": "Chapter 9"
     },
     {
       "id": "ultralearning-act-8",
-      "title": "Teach It to a Child with the Feynman Technique",
-      "description": "Expose cognitive illusions and deepen comprehension by explaining complex concepts in ultra-simple language.",
+      "title": "Explain It Like a Teacher",
+      "description": "Explain hard topics in super simple everyday words. This proves whether you truly understand the lesson.",
       "category": "daily-routine",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Choose an elusive concept or principle you struggled with today.",
-        "Write the concept's name at the top of a fresh page.",
-        "Explain it out loud or in writing as if teaching an intelligent ten-year-old, with zero jargon.",
-        "Whenever you get stuck or resort to buzzwords, revisit your primary source to clarify the concept until simple."
+        "1. Pick a hard idea you struggled with today.",
+        "2. Write the topic name on blank paper.",
+        "3. Explain it simply like teaching a young child.",
+        "4. Read your book again if you get stuck."
       ],
       "sourceChapter": "Chapter 11"
     },
     {
       "id": "ultralearning-act-9",
-      "title": "Build a Spaced Repetition SRS Deck",
-      "description": "Set up a lightweight automated system to systematically review core facts before they fade from memory.",
+      "title": "Make Quick Daily Flashcards",
+      "description": "Use flashcards to review core facts before you forget them. A few minutes each day protects your memory.",
       "category": "system",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Download a spaced repetition app (e.g., Anki) or create a physical Leitner flashcard box.",
-        "Formulate cards testing fundamental facts, key definitions, or core formulas using atomic prompts.",
-        "Write cards using recall questions rather than recognition hints.",
-        "Commit to reviewing due cards for 10 minutes every morning during breakfast or your commute."
+        "1. Download a free flashcard app on your phone.",
+        "2. Write short cards for key facts and terms.",
+        "3. Write clear questions instead of simple hints.",
+        "4. Review your cards for ten minutes every morning."
       ],
       "sourceChapter": "Chapter 10"
     },
     {
       "id": "ultralearning-act-10",
-      "title": "Establish a Public Stakes Commitment Anchor",
-      "description": "Shape your social environment so accountability pulls you forward when willpower wavers.",
+      "title": "Set a Public Deadline",
+      "description": "Tell others about your goal so you do not quit. Social accountability keeps you working hard.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Define an unambiguous deliverable and completion date for your ultralearning milestone.",
-        "Share your milestone publicly on social media or with a strict accountability partner.",
-        "Attach a tangible consequence to missing the deadline (e.g., a monetary stake or public demo).",
-        "Send your partner weekly proof of completed hours or artifacts every Sunday evening."
+        "1. Pick a clear goal and exact finish date.",
+        "2. Share your goal with a trusted friend today.",
+        "3. Add a penalty if you miss the deadline.",
+        "4. Send your friend weekly proof of your work."
       ],
       "sourceChapter": "Chapter 12"
     },
     {
       "id": "ultralearning-act-11",
-      "title": "Conduct an Experimentation Routine",
-      "description": "Push past your learning plateau by stepping outside your comfort zone to test unexpected techniques or styles.",
+      "title": "Try a New Method",
+      "description": "Break through your learning wall by trying fresh habits. Unusual rules help you learn in new ways.",
       "category": "daily-routine",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Identify an area in your skill where your progress has flattened out.",
-        "Select an unorthodox method, extreme constraint, or novel tool to try for one session.",
-        "Apply the constraint strictly (e.g., write an essay without adjectives, code using only pure functions).",
-        "Reflect on what the constraint revealed about your habits and integrate any breakthroughs."
+        "1. Find where your learning has slowed down.",
+        "2. Pick an unusual tool or a strict rule.",
+        "3. Follow that rule for one full practice session.",
+        "4. Keep the useful tricks that helped you improve."
       ],
       "sourceChapter": "Chapter 12"
     },
     {
       "id": "ultralearning-act-12",
-      "title": "Draft a Post-Project Maintenance Blueprint",
-      "description": "Construct an ongoing maintenance routine to preserve hard-won mastery and prevent skill decay over time.",
+      "title": "Keep Your Skill Fresh",
+      "description": "Create an easy plan so you do not lose your skill. Light practice keeps your knowledge sharp forever.",
       "category": "system",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Identify the core competencies you built during your ultralearning project.",
-        "Choose your post-project path: Maintenance, Relearning plan, or Mastery progression.",
-        "Schedule a recurrent recurring calendar block (e.g., 2 hours every other Saturday) for real-world application.",
-        "Archive your best drills and reference notes so you can rapidly refresh the skill when needed."
+        "1. List the key skills you just learned.",
+        "2. Choose whether to maintain or build more skill.",
+        "3. Block two hours every two weeks to practice.",
+        "4. Save your best notes for a quick review."
       ],
       "sourceChapter": "Chapter 13"
     }
@@ -972,10 +972,10 @@ export const ULTRALEARNING_BOOK: Book = {
       "author": "Scott H. Young",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Metalearning Map",
-      "body": "Before touching study materials, map the territory by dissecting the target domain into Concepts, Facts, and Procedures.\nConcepts require deep intuitive models, facts demand memory retention, and procedures require deliberate physical or cognitive repetitions.\nAllocating 10% of total project time to this diagnostic map compresses the remaining 90% into rapid, frictionless skill acquisition.",
-      "quote": "Metalearning forms the map, showing you how to reach your destination without getting lost along the way.",
-      "actionItem": "Dedicate the first three hours of any new project strictly to interviewing experts, deconstructing syllabi, and sorting your curriculum into concepts, facts, and procedures.",
+      "headline": "The Learning Map",
+      "body": "Before studying, break your topic into three simple buckets.\nSeparate what to understand, what to memorize, and what to practice.\nMaking this quick plan saves huge amounts of wasted time.",
+      "quote": "A good learning map shows you how to reach your goal without getting lost.",
+      "actionItem": "Spend your first hour listing the core facts and practice tasks you need.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -993,10 +993,10 @@ export const ULTRALEARNING_BOOK: Book = {
       "author": "Scott H. Young",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "The 10% Rule for Project Scoping",
-      "body": "Unstructured ambition causes cognitive overload and project abandonment.\nAllocate exactly 10% of your total projected learning campaign hours to preliminary metalearning research before beginning execution.\nIf your sprint is forty hours, spend four hours sourcing primary texts, isolating master practitioners, and stripping out non-essential curriculum fluff.",
-      "quote": "Spend roughly 10 percent of your expected learning time doing research before you jump in.",
-      "actionItem": "Set a timer for 10% of your planned campaign hours and research top curricula, benchmark tests, and practice strategies before writing a single note.",
+      "headline": "The Ten Percent Rule",
+      "body": "Starting without a plan leads to stress and quick burnout.\nSpend the first tenth of your total study time on research.\nFind the best guides and cut out all useless material early.",
+      "quote": "Spend roughly ten percent of your total learning time researching before you jump in.",
+      "actionItem": "For a ten-hour project, spend the first hour gathering the best study guides.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1014,10 +1014,10 @@ export const ULTRALEARNING_BOOK: Book = {
       "author": "Scott H. Young",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Principle of Directness",
-      "body": "Learning happens best when practiced in the exact environment and medium where performance will eventually be judged.\nClassroom simulations, flashcard games, and passive tutorials rarely transfer to messy real-world demands.\nDirectness eliminates proxy activities and forces immediate exposure to authentic problems, conversational fluency, or functional coding environments.",
-      "quote": "Directness is the hallmark of most ultralearning projects. When you want to learn something, you go directly to the source.",
-      "actionItem": "Audit your current study plan to eliminate every passive proxy app; start performing the target skill directly in its real environment today.",
+      "headline": "Direct Practice",
+      "body": "You learn fastest by practicing in the real world environment.\nClassroom drills and quiz games rarely prepare you for real life.\nPractice the actual skill you want to master right away.",
+      "quote": "When you want to learn something, go directly to the real source.",
+      "actionItem": "Stop playing practice games and use your target skill in real situations today.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1035,10 +1035,10 @@ export const ULTRALEARNING_BOOK: Book = {
       "author": "Scott H. Young",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Project-Based Learning Architecture",
-      "body": "Construct your entire learning curriculum around building an ambitious, tangible artifact rather than finishing abstract modules.\nWhen learning to code, build a functioning web application; when learning a language, deliver a fifteen-minute speech to native speakers.\nThe demands of the tangible artifact dictate exactly what sub-skills you must master next.",
-      "quote": "If you want to learn to make fun sports, you should make fun sports, not just study computer science.",
-      "actionItem": "Define an explicit public deliverable or working prototype that will serve as the sole capstone and benchmark of your learning sprint.",
+      "headline": "Learn by Building",
+      "body": "Build a real project instead of just reading textbooks.\nIf you study code, build an app from scratch.\nCreating a real item shows you exactly what to learn next.",
+      "quote": "If you want to build video games, make games instead of just studying theory.",
+      "actionItem": "Pick one clear project to build while learning your new skill.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1056,10 +1056,10 @@ export const ULTRALEARNING_BOOK: Book = {
       "author": "Scott H. Young",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "The Direct Immersion Method",
-      "body": "Create an environment where using your target skill is non-negotiable for survival and daily function.\nTotal linguistic immersion forces your brain into hyper-adaptive neuroplasticity by turning passive interest into immediate communicative necessity.\nRemove comfortable fallbacks to force spontaneous recall under real operational stakes.",
-      "quote": "Immersion forces you to face the chaos of the full environment rather than a comfortable, artificial slice.",
-      "actionItem": "Institute a zero-fallback rule for your practice sessions by removing English subtitles, disabling auto-complete, or communicating exclusively in your target skill medium.",
+      "headline": "Total Immersion",
+      "body": "Surround yourself with the skill so using it is required.\nTotal immersion pushes your brain to adapt much faster than casual practice.\nRemove easy shortcuts so your brain has to work.",
+      "quote": "Immersion forces you to face the real world instead of safe practice drills.",
+      "actionItem": "Turn off subtitles and practice speaking without switching back to your native language.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1077,10 +1077,10 @@ export const ULTRALEARNING_BOOK: Book = {
       "author": "Scott H. Young",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Drill-Down Bottleneck Isolation",
-      "body": "Complex mastery stagnates when an entire performance is practiced as a monolithic routine.\nIdentify the rate-limiting step within your workflow\u2014whether it is jazz chord transitions, thesis articulation, or algorithmic recursion\u2014and isolate it ruthlessly.\nDrill that singular micro-skill until it runs automatically, then reintegrate it into the larger performance cycle.",
-      "quote": "By identifying a rate-limiting step in your performance, you can isolate it, work on it specifically, and improve your overall ability faster.",
-      "actionItem": "Deconstruct your overall performance to find the single step causing the most cognitive drag, and run thirty minutes of pure, isolated reps on it.",
+      "headline": "Fix Weak Links",
+      "body": "Progress slows down when you repeat parts you already know.\nFind the single hardest step that trips you up most often.\nPractice that one piece alone until it feels easy.",
+      "quote": "Find your weakest step, fix it in isolation, and your overall skill jumps.",
+      "actionItem": "Pick the one step you struggle with and practice it for thirty minutes.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1098,10 +1098,10 @@ export const ULTRALEARNING_BOOK: Book = {
       "author": "Scott H. Young",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "The Five-Minute Rule for Procrastination",
-      "body": "Inertia is the biggest enemy of rapid skill acquisition.\nProcrastination is driven by acute emotional aversion to the anticipated friction of deep focus.\nConvince your brain to start by committing to just five minutes of focused work with permission to stop immediately if friction persists.\nIn over 90% of sessions, crossing the threshold of momentum sustains deep flow.",
-      "quote": "The hardest part is often the first few minutes, where the desire to do something else is strongest.",
-      "actionItem": "Whenever you feel resistance toward a study block, set a kitchen timer for five minutes and promise yourself you can stop right after.",
+      "headline": "The Five-Minute Rule",
+      "body": "Starting work is always harder than doing the actual task.\nTell yourself you only have to work for five quick minutes.\nOnce you begin moving, staying focused becomes much easier.",
+      "quote": "The hardest part is the first few minutes when you want to quit.",
+      "actionItem": "Set a timer for five minutes and promise yourself you can stop afterward.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1119,10 +1119,10 @@ export const ULTRALEARNING_BOOK: Book = {
       "author": "Scott H. Young",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Retrieval Testing Effect",
-      "body": "Retrieval practice builds durable neural pathways far more effectively than passive review.\nWhen you struggle to pull an answer from memory without reference materials, you trigger memory consolidation and structural neuroplastic adaptations.\nHighlighting and re-reading generate fluency illusions that shatter during unassisted real-world application.",
-      "quote": "Testing is not simply a way of measuring knowledge; it actually builds knowledge.",
-      "actionItem": "Close your book immediately after reading a chapter and write down every major framework, formula, and nuance purely from memory.",
+      "headline": "Test Yourself Often",
+      "body": "Pulling facts out of memory builds far stronger recall.\nRe-reading pages tricks you into thinking you know the material.\nQuizzing yourself proves what you actually remember.",
+      "quote": "Testing does not just measure what you know; testing actually builds knowledge.",
+      "actionItem": "Close your book right now and write down the key ideas from memory.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1140,10 +1140,10 @@ export const ULTRALEARNING_BOOK: Book = {
       "author": "Scott H. Young",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Free Recall Synthesis Sessions",
-      "body": "Replace passive note-taking with immediate, blank-slate free recall at the conclusion of every study block.\nTaking notes during reading creates cognitive crutches that bypass your brain's deep synthesis engine.\nForcing unassisted summarization immediately uncovers ambiguous reasoning and seals critical conceptual structures.",
-      "quote": "Giving yourself a test after you learn something forces you to retrieve the information, which makes it stick far better.",
-      "actionItem": "Take a clean blank sheet of paper after every reading sprint and spend ten minutes drafting the core models without checking the source once.",
+      "headline": "Blank Page Recall",
+      "body": "Stop taking notes while reading your books or watching lessons.\nInstead, close the book and summarize everything from pure memory.\nThis simple habit quickly shows what you missed.",
+      "quote": "Testing yourself right after learning forces you to remember, making ideas stick.",
+      "actionItem": "Grab a blank sheet of paper and sketch out the main lessons unassisted.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1161,10 +1161,10 @@ export const ULTRALEARNING_BOOK: Book = {
       "author": "Scott H. Young",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Triple-Tier Feedback Loop",
-      "body": "Feedback is only useful when categorized correctly: Outcome feedback tells you if you succeeded or failed; Informational feedback indicates what specific errors occurred; Corrective feedback reveals precisely how to fix the flaw.\nElite learners deliberately construct environments that bypass polite praise to deliver high-velocity corrective feedback directly from masters or automated testing suites.",
-      "quote": "Feedback is one of the most powerful catalysts for learning, but only when you know what to listen to and what to filter out.",
-      "actionItem": "Find an evaluator or automated benchmark tool that provides immediate corrective feedback on your work rather than gentle encouragement.",
+      "headline": "Three Kinds of Feedback",
+      "body": "Feedback tells you if you won, what failed, or how to improve.\nThe best kind explains the exact fix for your mistake.\nSeek out clear coaching that points out your direct errors.",
+      "quote": "Feedback powers fast learning when you know what advice to follow.",
+      "actionItem": "Ask an expert to point out your specific errors rather than give compliments.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1182,10 +1182,10 @@ export const ULTRALEARNING_BOOK: Book = {
       "author": "Scott H. Young",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Harsh Feedback Calibration",
-      "body": "Comfortable practice produces mediocre plateaus.\nDeliberately construct scenarios where failures are immediate, clear, and unbuffered by social politeness.\nWhether submitting your code to brutal open-source code reviews or speaking a foreign language without polite companions, rapid ego-check cycles accelerate mastery.",
-      "quote": "Pay attention to the negative feedback because it tells you what you need to fix, even if it stings.",
-      "actionItem": "Publish your next work-in-progress to a critical community and explicitly ask them to identify your three worst technical mistakes.",
+      "headline": "Welcome Honest Criticism",
+      "body": "Staying comfortable keeps your skills stuck at an average level.\nLook for places where people point out your mistakes bluntly.\nHearing where you messed up speeds up your growth.",
+      "quote": "Listen closely to harsh feedback because it shows what needs fixing most.",
+      "actionItem": "Share your rough draft online and ask reviewers for three direct critiques.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1203,10 +1203,10 @@ export const ULTRALEARNING_BOOK: Book = {
       "author": "Scott H. Young",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Strategic Spacing Systems",
-      "body": "Cramming builds brittle, temporary memories that vanish once the exam or milestone concludes.\nSpaced repetition exploits the forgetting curve: retrieving an idea right before it fades forces the brain to strengthen its synaptic connections.\nSpreading thirty hours of learning across six weeks produces dramatically superior retention compared to a single thirty-hour cram sprint.",
-      "quote": "Memories fade quickly at first, then more slowly over time. Spacing out your reviews beats cramming every single time.",
-      "actionItem": "Import the foundational facts, definitions, and code syntax of your skill into an algorithmic spaced repetition flashcard tool like Anki.",
+      "headline": "Space Your Reviews",
+      "body": "Cramming information all at once makes you forget it quickly.\nReviewing facts just as you start forgetting them builds lasting memory.\nSpread your study hours across several weeks.",
+      "quote": "Spacing your study reviews across weeks beats cramming in one night every time.",
+      "actionItem": "Put key facts and rules into a digital flashcard app like Anki.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1224,10 +1224,10 @@ export const ULTRALEARNING_BOOK: Book = {
       "author": "Scott H. Young",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Feynman Technique",
-      "body": "True understanding is simple, intuitive, and devoid of jargon.\nTo execute this technique: choose a concept, explain it aloud or on paper as if teaching a twelve-year-old child, pinpoint exact locations where your explanation relies on vague vocabulary or gaps in logic, and return to the primary literature to refine your mental model into an effortless, relatable metaphor.",
-      "quote": "If you cannot explain something simply, you do not understand it well enough.",
-      "actionItem": "Select the hardest concept in your study module and record a three-minute audio explanation explaining it using zero technical jargon.",
+      "headline": "The Feynman Method",
+      "body": "You understand an idea best when you can explain it simply.\nTeach the concept out loud as if talking to a child.\nSpot where you get stuck, then re-read the simple facts.",
+      "quote": "If you cannot explain an idea simply, you do not understand it well.",
+      "actionItem": "Explain your hardest lesson out loud using everyday words in three minutes.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1245,10 +1245,10 @@ export const ULTRALEARNING_BOOK: Book = {
       "author": "Scott H. Young",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Overlearning Defense Protocols",
-      "body": "Practice does not stop when you get it right; it stops when you can no longer get it wrong under immense pressure.\nOverlearning pushes deliberate practice well past the threshold of initial competence.\nBy drilling the foundational mechanics beyond baseline fluency, you bulletproof high-stress recall and free up working memory for creative improvisation.",
-      "quote": "Overlearning is practice beyond the point of mastery. It makes core skills automatic so your mind can tackle harder problems.",
-      "actionItem": "Identify the foundational core protocol of your craft and run twenty additional flawless repetitions even after you feel completely confident.",
+      "headline": "Practice Beyond Mastery",
+      "body": "Do not stop practicing the moment you get a problem right.\nKeep repeating it until you cannot get it wrong anymore.\nExtra practice keeps basic skills sharp under pressure.",
+      "quote": "Practicing past basic success makes core skills automatic and easy to recall.",
+      "actionItem": "Perform ten more perfect practice runs after you think you know it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1266,10 +1266,10 @@ export const ULTRALEARNING_BOOK: Book = {
       "author": "Scott H. Young",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Deep Intuition Engineering",
-      "body": "Expert intuition is not mystical talent; it is the compressed accumulation of thousands of hours spent wrestling with concrete problems.\nBuild genuine intuition by refusing to surrender to difficult challenges prematurely.\nPlay with core variables, create visual dynamic sketches, and reconstruct proofs from scratch instead of relying on memorized procedures.",
-      "quote": "Intuition comes from processing a large volume of concrete examples until you can see the deeper principles beneath them.",
-      "actionItem": "Spend an uninterrupted sixty minutes attempting to solve a difficult domain challenge yourself before looking at the solution manual.",
+      "headline": "Build Real Intuition",
+      "body": "Strong intuition comes from solving many hard problems on your own.\nDo not look at answers too quickly when you get stuck.\nWrestling with tough problems helps you see underlying patterns.",
+      "quote": "Deep intuition comes from working through many real examples on your own.",
+      "actionItem": "Wrestle with a hard problem for thirty minutes before checking the answer key.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1287,10 +1287,10 @@ export const ULTRALEARNING_BOOK: Book = {
       "author": "Scott H. Young",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Self-Directed Imperative",
-      "body": "True empowerment begins when you abandon reliance on traditional educational gatekeepers and take full ownership of your cognitive expansion.\nCurating your own curriculum, building your own feedback systems, and holding yourself to high standards builds intellectual autonomy and adaptive confidence in an ever-shifting economic landscape.",
-      "quote": "Ultralearning is a strategy for acquiring skills and knowledge that is both self-directed and intense.",
-      "actionItem": "Design your own custom, self-directed curriculum for your next career skill instead of enrolling in a generic pre-packaged course.",
+      "headline": "Take Full Ownership",
+      "body": "Real learning happens when you take charge of your own education.\nDo not wait for a school or teacher to guide you.\nChoosing your own goals builds deep confidence and freedom.",
+      "quote": "Ultralearning means taking full charge of your own intense learning path.",
+      "actionItem": "Design your own weekly study schedule instead of buying a pre-made course.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1308,10 +1308,10 @@ export const ULTRALEARNING_BOOK: Book = {
       "author": "Scott H. Young",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Method Experimentation Sprints",
-      "body": "When linear progress plateaus, standard practice methods have exhausted their utility.\nOvercome the plateau by experimenting aggressively with new learning variables: change your study environment, employ alternative mental models, adopt novel physical tools, or model an eccentric master.\nExploration shatters rigid habits and sparks unexpected breakthroughs.",
-      "quote": "Exploration is the final stage of mastery. You have to step outside the standard paths to discover your own style.",
-      "actionItem": "Pick an unorthodox learning method that contradicts conventional advice in your field and test it exclusively across a two-week sprint.",
+      "headline": "Test New Methods",
+      "body": "When your improvement stalls, your current routine has stopped working well.\nTry changing how you study, where you sit, or what tools you use.\nTrying fresh approaches sparks new breakthroughs.",
+      "quote": "Try new methods outside the normal path to discover your own style.",
+      "actionItem": "Pick one unusual study method and test it for two straight weeks.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1329,10 +1329,10 @@ export const ULTRALEARNING_BOOK: Book = {
       "author": "Scott H. Young",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Cognitive Load Deconstruction",
-      "body": "Working memory is severely constrained.\nWhen tackling complex skills, learners often drown in excessive cognitive load.\nPrevent system crashes by stripping down the environment: silence notifications, isolate single variables, solve sub-components in isolation, and offload intermediate calculations onto external scratchpads.",
-      "quote": "When cognitive load is too high, learning grinds to a halt. You must break the problem apart into bite-sized pieces.",
-      "actionItem": "Eliminate every secondary variable during your next practice session so you can focus entirely on one narrow, demanding task.",
+      "headline": "Reduce Brain Overload",
+      "body": "Your brain can only hold a few details at one time.\nWhen tasks get too complex, learning grinds to a halt.\nTurn off phone alerts and work on one tiny step.",
+      "quote": "When your brain is overloaded, break big problems into bite-sized pieces.",
+      "actionItem": "Silence your phone notifications and focus on a single piece of the problem.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1350,10 +1350,10 @@ export const ULTRALEARNING_BOOK: Book = {
       "author": "Scott H. Young",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Courage in the Friction Zone",
-      "body": "The primary barrier to rapid skill acquisition is emotional cowardice rather than intellectual limitation.\nStepping directly into the zone of intense cognitive friction, awkward stumbling, and public imperfection requires raw personal agency.\nOnce you reframe cognitive strain as the physical sensation of neuroplastic growth, your learning speed explodes.",
-      "quote": "The biggest barrier to ultralearning is not mental capability, but emotional willingness to endure frustration.",
-      "actionItem": "Lean into your current feeling of confusion; treat the intense discomfort as tangible proof that your brain is building new neural connections.",
+      "headline": "Embrace the Struggle",
+      "body": "The main obstacle to fast learning is fear, not low intelligence.\nFeeling clumsy or confused is a natural part of the learning process.\nTreat that mental struggle as proof you are growing.",
+      "quote": "The biggest hurdle to learning is feeling uncomfortable, not lack of brainpower.",
+      "actionItem": "Keep going when you feel confused; your brain is building new skills.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1371,10 +1371,10 @@ export const ULTRALEARNING_BOOK: Book = {
       "author": "Scott H. Young",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "The Relentless Learning Habit",
-      "body": "Ultralearning should not be a rare stunt; it must become your baseline operating system.\nConverting aggressive skill sprints into recurring lifestyle habits guarantees lifelong career resilience.\nProtect recurring, non-negotiable ninety-minute deep work blocks across your weekly calendar to continually expand your cognitive capital.",
-      "quote": "The ultimate goal is not just one project, but building a lifelong capacity to master whatever you choose.",
-      "actionItem": "Block out three ninety-minute deep learning appointments in your calendar for this week and treat them with the same priority as client meetings.",
+      "headline": "The Lifelong Habit",
+      "body": "Do not treat focused learning as a one-time stunt.\nTurn focused learning into a regular habit you keep every week.\nMaking time to learn keeps your mind sharp for life.",
+      "quote": "The real goal is building a lifelong ability to learn whatever you choose.",
+      "actionItem": "Schedule three one-hour blocks for focused learning on your calendar this week.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1388,45 +1388,49 @@ export const ULTRALEARNING_BOOK: Book = {
   ],
   "mindMap": {
     "id": "ultralearning-root",
-    "label": "Ultralearning (Scott H. Young)",
-    "description": "A high-intensity, self-directed strategy for rapidly acquiring hard skills and deep knowledge.\nBy taking personal agency over your curriculum and ruthlessly eliminating friction, you unlock exponential growth and career resilience.",
+    "label": "Ultralearning",
+    "description": "Learn hard skills fast by directing your own study.\nPush yourself with deep focus to grow quickly.",
     "children": [
       {
         "id": "foundation-core",
-        "label": "The Ultralearning Philosophy",
-        "description": "Ultralearning is not an academic chore; it is an empowering lifestyle choice to take radical ownership of your growth.\nIt bridges the gap between passive wishful thinking and aggressive, high-leverage skill mastery.",
+        "label": "Core Mindset",
+        "description": "Take full charge of your own growth.\nChoose intense practice over slow, passive study.",
         "children": [
           {
             "id": "core-self-directed",
-            "label": "Self-Directed Agency",
-            "description": "You sit firmly in the driver's seat instead of waiting for a syllabus or permission.\nDesigning your own learning path ensures you only train what directly moves the needle on your goals.",
+            "label": "Take Control",
+            "description": "Decide what you want to learn.\nPick skills that directly help your goals.",
             "children": [
               {
                 "id": "agency-ownership",
-                "label": "Radical Ownership",
-                "description": "Take full responsibility for your results, pace, and curriculum.\nWhen obstacles surface, treat them as design problems to solve rather than excuses to pause."
+                "label": "Total Ownership",
+                "description": "Own your choices and your results.\nTreat every setback as a puzzle to solve.",
+                "children": []
               },
               {
                 "id": "agency-customization",
-                "label": "Bespoke Curriculum",
-                "description": "Ditch bloated standard courses and curate resources tailored strictly to your skill gaps.\nCustomizing your material creates momentum and cuts months of wasted effort."
+                "label": "Custom Plan",
+                "description": "Skip bloated courses.\nPick only the materials you actually need.",
+                "children": []
               }
             ]
           },
           {
             "id": "core-high-intensity",
-            "label": "Intensity & Focus Over Duration",
-            "description": "Dense, concentrated bursts of deep effort beat hundreds of hours of casual, unfocused dabbling.\nCompressing your learning timeline keeps energy high and builds immediate practical momentum.",
+            "label": "Intense Focus",
+            "description": "Short bursts of effort beat hours of distracted study.\nWorking hard in short blocks builds fast momentum.",
             "children": [
               {
                 "id": "intensity-compaction",
-                "label": "Time Compaction",
-                "description": "Short, immersive sprints produce rapid feedback loops that keep motivation peaking.\nPacking practice into dense windows prevents the skill decay that plagues drawn-out study."
+                "label": "Short Sprints",
+                "description": "Pack study into tight time frames.\nQuick results keep you excited and engaged.",
+                "children": []
               },
               {
                 "id": "intensity-frictionless-state",
-                "label": "Flow & Momentum",
-                "description": "High engagement sweeps away self-doubt and mental drag.\nImmersion transforms hard tasks into exhilarating daily wins that propel you forward effortlessly."
+                "label": "Find Flow",
+                "description": "Deep work clears away self-doubt.\nDaily wins make hard study feel exciting.",
+                "children": []
               }
             ]
           }
@@ -1434,45 +1438,50 @@ export const ULTRALEARNING_BOOK: Book = {
       },
       {
         "id": "p1-metalearning",
-        "label": "Principle 1: Metalearning (Draw Your Map)",
-        "description": "Before you sprint, determine the exact terrain you are conquering.\nSpending time understanding how a subject works cuts out dead ends and accelerates your path to competency.",
+        "label": "Map the Subject",
+        "description": "Figure out how the topic works before you start.\nA clear map saves you from wasted effort.",
         "children": [
           {
             "id": "meta-triad",
-            "label": "The Concepts, Facts & Procedures Triad",
-            "description": "Deconstruct your target skill into what must be understood, memorized, and physically or tactically practiced.\nCategorizing components turns an intimidating mountain into structured daily action items.",
+            "label": "The Three Parts",
+            "description": "Break any skill into ideas, facts, and actions.\nThis makes a hard subject easy to manage.",
             "children": [
               {
                 "id": "triad-concepts",
-                "label": "Core Concepts",
-                "description": "Identify foundational mental models that govern how the discipline operates.\nMaster these core ideas first to unlock effortless comprehension of complex downstream topics."
+                "label": "Core Ideas",
+                "description": "Understand the main concepts first.\nThey help you make sense of everything else.",
+                "children": []
               },
               {
                 "id": "triad-facts",
-                "label": "Essential Facts",
-                "description": "Pinpoint the precise terminology, syntax, or figures that require memorization.\nIsolating facts prevents them from cluttering conceptual understanding and enables targeted drilling."
+                "label": "Key Facts",
+                "description": "Spot the terms and rules you must memorize.\nLearn them quickly with simple drills.",
+                "children": []
               },
               {
                 "id": "triad-procedures",
-                "label": "Actionable Procedures",
-                "description": "Map out the mechanical execution steps and routines you need to perform instinctively.\nConverting knowledge into muscle memory and repeatable habits guarantees field readiness."
+                "label": "Action Steps",
+                "description": "Practice the physical or mental steps you must take.\nRepeat them until they feel automatic.",
+                "children": []
               }
             ]
           },
           {
             "id": "meta-interviewing",
-            "label": "Benchmark Expert Pathways",
-            "description": "Investigate how the best performers in your field acquired their edge.\nReverse-engineer their study regimens and resource stacks to skip years of trial and error.",
+            "label": "Copy the Experts",
+            "description": "Look at how the best people learned their craft.\nFollow their path to skip beginner mistakes.",
             "children": [
               {
                 "id": "benchmark-interviews",
-                "label": "Expert Extraction",
-                "description": "Reach out to seasoned practitioners to ask what they would do differently if starting today.\nA single conversation can highlight gold-standard methods and obsolete traps."
+                "label": "Ask Pros",
+                "description": "Talk to people who already master the skill.\nAsk them which resources helped them most.",
+                "children": []
               },
               {
                 "id": "benchmark-rule-of-ten",
-                "label": "The 10% Research Rule",
-                "description": "Dedicate approximately 10 percent of your total estimated project time to upfront recon.\nThis tight constraint keeps you moving forward without falling into endless prep paralysis."
+                "label": "The Ten Percent Rule",
+                "description": "Spend ten percent of your total time planning.\nStop planning and start practicing right after.",
+                "children": []
               }
             ]
           }
@@ -1480,40 +1489,44 @@ export const ULTRALEARNING_BOOK: Book = {
       },
       {
         "id": "p2-focus",
-        "label": "Principle 2: Focus (Sharpen Your Dagger)",
-        "description": "Carve out sacred blocks of undisturbed concentration to tackle high-friction tasks.\nWhen you tame internal resistance and eliminate environmental interruptions, rapid mastery becomes inevitable.",
+        "label": "Sharpen Focus",
+        "description": "Set aside quiet time with zero interruptions.\nDeep concentration makes hard topics easy to grasp.",
         "children": [
           {
             "id": "focus-procrastination",
-            "label": "Defeating Procrastination",
-            "description": "Recognize that the urge to procrastinate is a temporary physiological discomfort, not a personal flaw.\nOvercoming the first five minutes of friction unlocks seamless sustained action.",
+            "label": "Beat Delay",
+            "description": "Starting is always the hardest part.\nPush past early discomfort to get into the zone.",
             "children": [
               {
                 "id": "procrast-5min-rule",
-                "label": "The Five-Minute Gateway",
-                "description": "Commit to engaging with your target task for just five minutes before deciding to stop.\nAlmost every time, crossing this tiny threshold dissolves your initial dread."
+                "label": "Five Minute Rule",
+                "description": "Promise to work for just five minutes.\nOnce you start, it is easy to keep going.",
+                "children": []
               },
               {
                 "id": "procrast-friction-reduction",
-                "label": "Environment Priming",
-                "description": "Set up your tools, tabs, and workspace the evening before your practice session.\nEliminating startup friction makes launching into deep work as automatic as breathing."
+                "label": "Prep Your Space",
+                "description": "Set up your workspace the night before.\nStarting becomes effortless when everything is ready.",
+                "children": []
               }
             ]
           },
           {
             "id": "focus-quality",
-            "label": "Optimizing Focus Quality",
-            "description": "Align your study challenges with your current arousal and cognitive energy levels.\nMatch complex analytical work to your peak morning clarity and mechanical drills to lighter hours.",
+            "label": "Better Attention",
+            "description": "Match hard tasks to your best hours.\nDo simple drills when you feel tired.",
             "children": [
               {
                 "id": "quality-distraction-shields",
-                "label": "Distraction Shielding",
-                "description": "Ruthlessly block notifications, noisy open tabs, and interruptions during your focus sprint.\nCreating an impenetrable bubble turns thirty minutes of study into two hours of progress."
+                "label": "Block Noise",
+                "description": "Silence your phone and close extra tabs.\nA quiet space helps you learn faster.",
+                "children": []
               },
               {
                 "id": "quality-arousal-management",
-                "label": "Cognitive Arousal Calibration",
-                "description": "Calibrate your environment according to task demands\u2014quiet focus for creative synthesis, upbeat energy for repetitive drills.\nManaging energy rather than just time guarantees peak performance."
+                "label": "Manage Energy",
+                "description": "Stay calm for hard thinking tasks.\nUse upbeat energy for quick, repetitive drills.",
+                "children": []
               }
             ]
           }
@@ -1521,35 +1534,38 @@ export const ULTRALEARNING_BOOK: Book = {
       },
       {
         "id": "p3-directness",
-        "label": "Principle 3: Directness (Go Straight Ahead)",
-        "description": "Learn by directly doing the thing you actually want to become good at.\nAvoiding comfortable educational proxies and passive videos produces instant, real-world capability.",
+        "label": "Learn by Doing",
+        "description": "Practice the exact skill you want to master.\nDo not hide behind passive videos or easy books.",
         "children": [
           {
             "id": "direct-project-immersion",
-            "label": "Project-Based Learning",
-            "description": "Anchor your entire learning campaign around creating a tangible product, like an app, speech, or portfolio piece.\nProjects demand multifaceted integration and expose genuine skill deficiencies instantly.",
+            "label": "Build Projects",
+            "description": "Center your study on making real things.\nMaking an app or writing essays builds true skill.",
             "children": [
               {
                 "id": "immersion-real-projects",
-                "label": "Artifact Creation",
-                "description": "Build real things that must function under actual real-world conditions.\nPublishing code, speaking on camera, or writing essays creates accountability that synthetic tests cannot match."
+                "label": "Real Work",
+                "description": "Create items people can actually use.\nMaking real things shows you what you still need to learn.",
+                "children": []
               },
               {
                 "id": "immersion-environment-fidelity",
-                "label": "High-Fidelity Contexts",
-                "description": "Replicate the exact pressure, tools, and social settings where you must ultimately deliver results.\nTraining in your target context completely eliminates the dreaded transfer problem."
+                "label": "Real Settings",
+                "description": "Practice with the same tools you will use later.\nThis prepares you for real situations.",
+                "children": []
               }
             ]
           },
           {
             "id": "direct-overcoming-transfer",
-            "label": "Eliminating Transfer Failure",
-            "description": "Traditional schooling falsely assumes generalized study easily transfers to specific professional problems.\nDirect practice attacks the exact target context, giving you usable power on day one.",
+            "label": "Direct Practice",
+            "description": "Skills do not transfer well from theory to reality.\nTrain in the exact place where you need the skill.",
             "children": [
               {
                 "id": "transfer-simulation",
-                "label": "Cognitive Simulation",
-                "description": "Create practice scenarios that simulate the rapid decision-making constraints of real combat.\nWhen practice mirrors reality, your instincts remain rock-solid under actual pressure."
+                "label": "Simulate Pressure",
+                "description": "Test yourself under real-world time limits.\nYour reactions will stay calm when real pressure arrives.",
+                "children": []
               }
             ]
           }
@@ -1557,40 +1573,44 @@ export const ULTRALEARNING_BOOK: Book = {
       },
       {
         "id": "p4-drill",
-        "label": "Principle 4: Drill (Attack Your Weakest Link)",
-        "description": "Isolate the single rate-limiting bottleneck in your performance and drill it mercilessly until it disappears.\nOnce the bottleneck is cleared, integrate it back into the whole system for rapid speedup.",
+        "label": "Target Weaknesses",
+        "description": "Find the one thing slowing you down.\nPractice that weak spot until it becomes easy.",
         "children": [
           {
             "id": "drill-rate-limiting",
-            "label": "Identify Rate-Limiting Steps",
-            "description": "A complex skill is only as strong as its weakest sub-component.\nPinpointing what slows your entire workflow turns overwhelming tasks into focused, conquerable sub-battles.",
+            "label": "Find Bottlenecks",
+            "description": "Spot where you get stuck or make errors.\nFixing that single step speeds up the whole skill.",
             "children": [
               {
                 "id": "rate-diagnostics",
-                "label": "Diagnostic Testing",
-                "description": "Observe where you stumble, hesitate, or make recurring errors under direct pressure.\nThese micro-hesitations highlight the exact sub-skills begging for dedicated drill time."
+                "label": "Spot Errors",
+                "description": "Notice where you pause or make mistakes.\nThese points tell you what to drill next.",
+                "children": []
               },
               {
                 "id": "rate-deconstruction",
-                "label": "Component Isolation",
-                "description": "Strip away the full complexity of your project to practice one specific motion in total isolation.\nIsolating elements lets you accumulate hundred-fold repetitions in minutes."
+                "label": "Isolate Steps",
+                "description": "Pull out one hard step to practice alone.\nRepeat it dozens of times until it feels easy.",
+                "children": []
               }
             ]
           },
           {
             "id": "drill-tactics",
-            "label": "Tactical Drill Protocols",
-            "description": "Use targeted strategies such as time-slicing, copycatting, and chaining to master difficult fragments.\nSystematic repetition rewires your nervous system for effortless execution.",
+            "label": "Drill Tactics",
+            "description": "Use smart practice methods to master hard parts.\nFocused drills turn awkward moves into natural habits.",
             "children": [
               {
                 "id": "tactics-time-slicing",
-                "label": "Time-Slice Drilling",
-                "description": "Isolate the first ten seconds or crucial crux phase of a performance to practice repeatedly.\nNailing the entry point establishes unstoppable confidence for the remainder of the task."
+                "label": "Practice Starts",
+                "description": "Practice the first few seconds of a task repeatedly.\nA strong start builds confidence for the rest.",
+                "children": []
               },
               {
                 "id": "tactics-copycat",
-                "label": "The Copycat Method",
-                "description": "Deconstruct and meticulously emulate the work of top masters down to the finest detail.\nCopying exceptional models builds intuitive understanding of advanced structural techniques."
+                "label": "Copy Masters",
+                "description": "Copy great work piece by piece.\nThis helps you see how experts solve problems.",
+                "children": []
               }
             ]
           }
@@ -1598,35 +1618,38 @@ export const ULTRALEARNING_BOOK: Book = {
       },
       {
         "id": "p5-retrieval",
-        "label": "Principle 5: Retrieval (Test to Learn)",
-        "description": "Stop passively reviewing notes and start forcing your brain to recall information from scratch.\nThe physical effort of pulling memories forward cements them deep into neural circuitry.",
+        "label": "Test Your Memory",
+        "description": "Pull answers out of your head instead of re-reading.\nThe struggle to remember locks ideas in your mind.",
         "children": [
           {
             "id": "retrieval-testing-effect",
-            "label": "The Testing Effect",
-            "description": "Testing is not an evaluation of past learning; it is the most potent engine of learning itself.\nForcing active retrieval signals to your brain that this information is vital for survival.",
+            "label": "Self Testing",
+            "description": "Testing yourself is the best way to study.\nIt shows your brain that the information matters.",
             "children": [
               {
                 "id": "testing-free-recall",
-                "label": "Free Recall Practice",
-                "description": "Close the book and write down everything you remember on a blank sheet of paper.\nConfronting a blank slate exposes illusions of competence and locks in genuine knowledge."
+                "label": "Blank Page Test",
+                "description": "Close the book and write down everything you remember.\nThis reveals what you actually know.",
+                "children": []
               },
               {
                 "id": "testing-flashcards-srs",
-                "label": "Spaced Retrieval Protocols",
-                "description": "Leverage spaced repetition software to recall crucial facts right as they begin to fade.\nExpanding intervals between reviews converts short-term memory into permanent cognitive capital."
+                "label": "Spaced Flashcards",
+                "description": "Review cards right before you forget them.\nSpaced reviews turn short-term facts into lifelong memory.",
+                "children": []
               }
             ]
           },
           {
             "id": "retrieval-forward-testing",
-            "label": "Pre-Testing & Forward Retrieval",
-            "description": "Test yourself on problems before you even study the material.\nStruggling to solve unknown challenges primes your mental model to rapidly absorb answers when they appear.",
+            "label": "Pre-Test Yourself",
+            "description": "Try solving questions before you read the answers.\nStruggling first makes your mind absorb the lessons faster.",
             "children": [
               {
                 "id": "forward-priming",
-                "label": "Mental Priming",
-                "description": "Attempting early tests makes subsequent study feel like finding missing puzzle pieces.\nYour brain snaps up key facts with heightened urgency because it felt the gap first."
+                "label": "Prime Your Brain",
+                "description": "Failing early tests makes your brain curious.\nYou spot the right answers quickly when studying.",
+                "children": []
               }
             ]
           }
@@ -1634,40 +1657,44 @@ export const ULTRALEARNING_BOOK: Book = {
       },
       {
         "id": "p6-feedback",
-        "label": "Principle 6: Feedback (Don't Dodge the Punches)",
-        "description": "Actively solicit fast, unfiltered critique instead of basking in comfortable validation.\nHarsh, immediate data removes blind spots and speeds up your learning loop tenfold.",
+        "label": "Seek Feedback",
+        "description": "Ask for quick and honest critique.\nFacing the truth helps you fix mistakes fast.",
         "children": [
           {
             "id": "feedback-types",
-            "label": "The Three Feedback Dimensions",
-            "description": "Distinguish between raw outcome metrics, informational critique, and actionable corrective coaching.\nFiltering signal from noise keeps your emotional state stable and focused on mechanics.",
+            "label": "Three Feedback Types",
+            "description": "Learn from pass-fail results, error notes, and coaching tips.\nUse clear data to improve your technique.",
             "children": [
               {
                 "id": "types-outcome",
-                "label": "Outcome Feedback",
-                "description": "Binary indicators that simply tell you whether you passed, failed, sold, or missed.\nUse outcome signals as a high-level reality check on your overall project trajectory."
+                "label": "Result Signals",
+                "description": "Simple scores that say if you passed or failed.\nUse them to see if you are on the right track.",
+                "children": []
               },
               {
                 "id": "types-informational",
-                "label": "Informational Feedback",
-                "description": "Specific error notifications pointing out precisely what went wrong without giving the fix.\nThis reveals diagnostic clues that prompt you to troubleshoot your own technique."
+                "label": "Error Signals",
+                "description": "Notes that show exactly what went wrong.\nUse them as clues to fix your own work.",
+                "children": []
               },
               {
                 "id": "types-corrective",
-                "label": "Corrective Coaching",
-                "description": "High-value guidance from masters showing you not only the error but the exact corrective motion.\nActing on corrective feedback instantly powers up your baseline performance."
+                "label": "Coaching Tips",
+                "description": "Guidance from experts on how to fix errors.\nApply their advice to level up right away.",
+                "children": []
               }
             ]
           },
           {
             "id": "feedback-rapid-loops",
-            "label": "Engineering Rapid Loops",
-            "description": "Shorten the delay between your execution and the arrival of performance data.\nFast-turnaround feedback keeps you alert and prevents incorrect habits from cementing into memory.",
+            "label": "Fast Feedback",
+            "description": "Get advice right after you try.\nQuick feedback stops bad habits before they take root.",
             "children": [
               {
                 "id": "rapid-defensive-shielding",
-                "label": "Ego Decoupling",
-                "description": "Treat harsh critique as objective data points rather than attacks on your self-worth.\nDecoupling your ego keeps your mindset resilient, curious, and hungry for iterations."
+                "label": "Drop Your Ego",
+                "description": "Do not take critique personally.\nTreat feedback as helpful data to improve your skills.",
+                "children": []
               }
             ]
           }
@@ -1675,35 +1702,38 @@ export const ULTRALEARNING_BOOK: Book = {
       },
       {
         "id": "p7-retention",
-        "label": "Principle 7: Retention (Don't Fill a Leaky Bucket)",
-        "description": "Proactively fortify your knowledge so your hard-won gains remain rock-solid over decades.\nImplement systematic spacing, proceduralization, and overlearning to make decay impossible.",
+        "label": "Remember Long-Term",
+        "description": "Protect your knowledge so you do not forget it.\nReview ideas over time so they stick forever.",
         "children": [
           {
             "id": "retention-combat-forgetting",
-            "label": "Defeating the Forgetting Curve",
-            "description": "Memory decay is aggressive right after study, but deliberate maintenance turns the curve flat.\nPeriodic touches keep high-value competencies accessible at a moment's notice.",
+            "label": "Beat Forgetting",
+            "description": "Your brain forgets new things fast.\nQuick refreshers keep memories fresh and clear.",
             "children": [
               {
                 "id": "combat-spacing",
-                "label": "Spaced Maintenance Cycles",
-                "description": "Distribute refresher sessions across expanding weeks and months rather than cramming all at once.\nSpaced intervals force memory reconstruction, creating durable long-term storage."
+                "label": "Spaced Reviews",
+                "description": "Spread reviews over weeks and months.\nThis locks facts deep into your brain.",
+                "children": []
               },
               {
                 "id": "combat-overlearning",
-                "label": "Overlearning & Fluency",
-                "description": "Practice core competencies well beyond the baseline threshold of flawless execution.\nOverlearning makes high-stakes execution automatic, immune to stress, exhaustion, and cognitive load."
+                "label": "Extra Practice",
+                "description": "Practice past the point of getting it right.\nOverlearning makes skills work under stress.",
+                "children": []
               }
             ]
           },
           {
             "id": "retention-proceduralization",
-            "label": "Procedural Conversion",
-            "description": "Transform explicit, rules-based knowledge into reflexive, procedural habits.\nSkills wired into muscle memory rarely degrade, ensuring lifetime retention with minimal maintenance.",
+            "label": "Build Habits",
+            "description": "Turn rules into automatic habits.\nHabits stay with you just like riding a bike.",
             "children": [
               {
                 "id": "procedural-automation",
-                "label": "Habitual Automation",
-                "description": "Repeated physical and mental execution burns neural pathways until actions require zero conscious bandwidth.\nOnce proceduralized, complex skills feel as natural as riding a bicycle."
+                "label": "Make It Reflex",
+                "description": "Repeat an action until it requires no thinking.\nAutomatic skills stay with you for life.",
+                "children": []
               }
             ]
           }
@@ -1711,35 +1741,38 @@ export const ULTRALEARNING_BOOK: Book = {
       },
       {
         "id": "p8-intuition",
-        "label": "Principle 8: Intuition (Dig Deep Before Building Up)",
-        "description": "Develop deep mechanical understanding instead of relying on cheap memorization tricks.\nDeep play, curiosity, and wrestling with difficult problems build durable gut instincts.",
+        "label": "Build Deep Intuition",
+        "description": "Understand how things work instead of just memorizing.\nWrestling with problems builds a strong gut sense.",
         "children": [
           {
             "id": "intuition-feynman",
-            "label": "The Feynman Technique",
-            "description": "Explain complex ideas using simple, vivid language as if teaching a ten-year-old child.\nThe instant you hit a gap or rely on jargon, you identify the exact spot requiring deeper study.",
+            "label": "Feynman Technique",
+            "description": "Explain an idea in words a child could grasp.\nGetting stuck shows you where you need to study more.",
             "children": [
               {
                 "id": "feynman-simplification",
-                "label": "Jargon Elimination",
-                "description": "Strip away fancy terminology to explain concepts using clear, down-to-earth analogies.\nIf you cannot explain it simply, you do not truly own the principle."
+                "label": "Use Simple Words",
+                "description": "Drop fancy jargon and use clear examples.\nIf you cannot explain it simply, you do not know it.",
+                "children": []
               },
               {
                 "id": "feynman-gap-closing",
-                "label": "Illusion Busting",
-                "description": "Track the moments where your explanation breaks down or turns vague.\nReturning to the source material to patch these exact leaks creates bulletproof intuition."
+                "label": "Fix Blind Spots",
+                "description": "Notice where your explanation gets confusing.\nGo back to the source to fill that gap.",
+                "children": []
               }
             ]
           },
           {
             "id": "intuition-struggle",
-            "label": "The 10-Minute Struggle Protocol",
-            "description": "Never look up the solution the moment you feel stuck on a difficult obstacle.\nForcing your brain to wrestle with the problem builds tenacious problem-solving stamina.",
+            "label": "Ten Minute Rule",
+            "description": "Do not look up answers the moment you get stuck.\nWrestle with the problem for ten minutes first.",
             "children": [
               {
                 "id": "struggle-grit",
-                "label": "Productive Frustration",
-                "description": "Embrace the burn of confusion as the literal feeling of new neural connections forming.\nEmbracing this tension turns difficult obstacles into thrilling mental workouts."
+                "label": "Embrace the Struggle",
+                "description": "Feeling stuck means your brain is learning.\nTreat mental struggle as a healthy workout.",
+                "children": []
               }
             ]
           }
@@ -1747,35 +1780,38 @@ export const ULTRALEARNING_BOOK: Book = {
       },
       {
         "id": "p9-experimentation",
-        "label": "Principle 9: Experimentation (Explore Outside Your Comfort Zone)",
-        "description": "As you advance from novice to master, standardized roadmaps stop working.\nTrue mastery requires audacious personal experimentation with novel methods, styles, and edge boundaries.",
+        "label": "Try New Things",
+        "description": "Standard guides will only take you so far.\nTest new methods to build your own unique style.",
         "children": [
           {
             "id": "experiment-dimensions",
-            "label": "The Three Vectors of Experimentation",
-            "description": "Systematically vary your learning resources, your execution style, and your target medium.\nTesting contrasting techniques keeps you adaptable and unearths your unique competitive edge.",
+            "label": "Three Ways to Test",
+            "description": "Try different resources, styles, and tools.\nTesting new ways helps you find what works best.",
             "children": [
               {
                 "id": "vectors-materials",
-                "label": "Resource Diversification",
-                "description": "Switch up textbooks, mentors, tools, and environments to gain multifaceted perspectives on the same discipline.\nVaried inputs spark creative connections that single courses miss."
+                "label": "Mix Resources",
+                "description": "Use different books, tools, and teachers.\nNew sources give you fresh ways to solve problems.",
+                "children": []
               },
               {
                 "id": "vectors-style",
-                "label": "Stylistic Exploration",
-                "description": "Deliberately adopt contrasting methodologies and aesthetics used by rival schools of thought.\nSynthesizing opposing approaches unlocks your distinctive, authentic signature style."
+                "label": "Test New Styles",
+                "description": "Try out styles from different experts.\nBlending styles helps you create your own voice.",
+                "children": []
               }
             ]
           },
           {
             "id": "experiment-extremes",
-            "label": "Pushing Boundary Extremes",
-            "description": "Impose absurd creative constraints or tackle extreme challenges outside your comfort zone.\nStress-testing your skills at the edges reveals hidden capabilities and ignites breakthrough insights.",
+            "label": "Push Your Limits",
+            "description": "Step outside your comfort zone with bold challenges.\nExtreme practice reveals what you can truly do.",
             "children": [
               {
                 "id": "extremes-constraints",
-                "label": "Radical Constraints",
-                "description": "Strip away standard tools, time, or resources to force radically creative problem solving.\nConstraints shatter complacency and reveal streamlined paths to extraordinary output."
+                "label": "Set Hard Limits",
+                "description": "Limit your time or tools on purpose.\nConstraints force you to find creative shortcuts.",
+                "children": []
               }
             ]
           }
