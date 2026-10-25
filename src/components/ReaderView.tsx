@@ -37,6 +37,10 @@ interface ReaderViewProps {
   onOpenStashModal: (idea: IdeaCard) => void;
   onBookCompleted: () => void;
   fontSizeIndex?: number;
+  initialViewMode?: ReaderViewMode;
+  initialBlinkIndex?: number;
+  onViewModeChange?: (mode: ReaderViewMode) => void;
+  onBlinkIndexChange?: (index: number) => void;
 }
 
 export const ReaderView: React.FC<ReaderViewProps> = ({
@@ -44,10 +48,14 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
   onBack,
   onOpenStashModal,
   onBookCompleted,
-  fontSizeIndex = 1
+  fontSizeIndex = 1,
+  initialViewMode = 'blinks',
+  initialBlinkIndex = 0,
+  onViewModeChange,
+  onBlinkIndexChange
 }) => {
-  const [viewMode, setViewMode] = useState<ReaderViewMode>('blinks');
-  const [currentBlinkIndex, setCurrentBlinkIndex] = useState(0);
+  const [viewMode, setViewMode] = useState<ReaderViewMode>(initialViewMode);
+  const [currentBlinkIndex, setCurrentBlinkIndex] = useState(initialBlinkIndex);
   const [completedActionIds, setCompletedActionIds] = useState<string[]>([]);
   const [isFavorite, setIsFavorite] = useState(false);
   const [isCurrentlyReading, setIsCurrentlyReading] = useState(true);
@@ -65,6 +73,18 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
     'text-xl leading-loose'
   ];
 
+  const handleSetViewMode = (mode: ReaderViewMode) => {
+    setViewMode(mode);
+    onViewModeChange?.(mode);
+  };
+
+  // Sync viewMode if prop changes (e.g. from parent restore)
+  useEffect(() => {
+    if (initialViewMode) {
+      setViewMode(initialViewMode);
+    }
+  }, [book.id, initialViewMode]);
+
   // Load or initialize progress
   useEffect(() => {
     const loadProgress = async () => {
@@ -72,14 +92,22 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
       const pMap = await getUserProgressMap(uid);
       const existing = pMap[book.id];
       if (existing) {
-        setCurrentBlinkIndex(Math.min(existing.currentBlinkIndex, Math.max(0, book.blinks.length - 1)));
+        const targetIndex = (initialBlinkIndex !== undefined && initialBlinkIndex > 0)
+          ? initialBlinkIndex
+          : (existing.currentBlinkIndex ?? 0);
+        const boundedIndex = Math.min(targetIndex, Math.max(0, book.blinks.length - 1));
+        setCurrentBlinkIndex(boundedIndex);
+        onBlinkIndexChange?.(boundedIndex);
         setCompletedActionIds(existing.completedActionIds || []);
         setIsFavorite(!!existing.isFavorite);
         setIsCurrentlyReading(existing.isCurrentlyReading ?? true);
       } else {
+        const boundedIndex = Math.min(initialBlinkIndex || 0, Math.max(0, book.blinks.length - 1));
+        setCurrentBlinkIndex(boundedIndex);
+        onBlinkIndexChange?.(boundedIndex);
         await saveUserProgress(book.id, {
           completedBlinkIds: [],
-          currentBlinkIndex: 0,
+          currentBlinkIndex: boundedIndex,
           isCompleted: false,
           lastReadTimestamp: Date.now(),
           totalTimeSpentSeconds: 0,
@@ -139,6 +167,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
   const handleBlinkChange = async (newIndex: number) => {
     if (newIndex >= 0 && newIndex < book.blinks.length) {
       setCurrentBlinkIndex(newIndex);
+      onBlinkIndexChange?.(newIndex);
       window.scrollTo({ top: 0, behavior: 'instant' });
       document.documentElement.scrollTop = 0;
       document.body.scrollTop = 0;
@@ -247,7 +276,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
           <div className="flex items-center p-1 rounded-xl bg-slate-100 dark:bg-slate-800 text-xs font-semibold">
             
             <button
-              onClick={() => setViewMode('blinks')}
+              onClick={() => handleSetViewMode('blinks')}
               className={`flex items-center space-x-1.5 px-3 py-1.5 rounded-lg transition ${
                 viewMode === 'blinks'
                   ? 'bg-white dark:bg-slate-900 text-blue-600 dark:text-blue-400 shadow-xs'
@@ -260,7 +289,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
             </button>
 
             <button
-              onClick={() => setViewMode('deepdive')}
+              onClick={() => handleSetViewMode('deepdive')}
               className={`flex items-center space-x-1.5 px-3 py-1.5 rounded-lg transition ${
                 viewMode === 'deepdive'
                   ? 'bg-white dark:bg-slate-900 text-blue-600 dark:text-blue-400 shadow-xs'
@@ -273,7 +302,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
             </button>
 
             <button
-              onClick={() => setViewMode('actionable')}
+              onClick={() => handleSetViewMode('actionable')}
               className={`flex items-center space-x-1.5 px-3 py-1.5 rounded-lg transition ${
                 viewMode === 'actionable'
                   ? 'bg-white dark:bg-slate-900 text-blue-600 dark:text-blue-400 shadow-xs'
@@ -286,7 +315,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
             </button>
 
             <button
-              onClick={() => setViewMode('cards')}
+              onClick={() => handleSetViewMode('cards')}
               className={`flex items-center space-x-1.5 px-3 py-1.5 rounded-lg transition ${
                 viewMode === 'cards'
                   ? 'bg-white dark:bg-slate-900 text-blue-600 dark:text-blue-400 shadow-xs'
@@ -299,7 +328,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
             </button>
 
             <button
-              onClick={() => setViewMode('mindmap')}
+              onClick={() => handleSetViewMode('mindmap')}
               className={`flex items-center space-x-1.5 px-3 py-1.5 rounded-lg transition ${
                 viewMode === 'mindmap'
                   ? 'bg-white dark:bg-slate-900 text-blue-600 dark:text-blue-400 shadow-xs'

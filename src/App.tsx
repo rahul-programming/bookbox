@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Book, UserProgress, UserHabitProfile, ThemeMode, IdeaCard, UserAccount } from './types';
+import { Book, UserProgress, UserHabitProfile, ThemeMode, IdeaCard, UserAccount, ReaderViewMode } from './types';
 import { 
   db, 
   initDatabase, 
@@ -24,6 +24,24 @@ import { StashModal } from './components/StashModal';
 import { ImportExportModal } from './components/ImportExportModal';
 import { AuthModal } from './components/AuthModal';
 
+interface LastViewState {
+  view: 'book' | 'tab';
+  bookId?: string;
+  viewMode?: ReaderViewMode;
+  blinkIndex?: number;
+  tab?: MainTab;
+}
+
+const LAST_VIEW_KEY = 'bookbox_last_view_state';
+
+const saveLastViewState = (state: LastViewState) => {
+  try {
+    localStorage.setItem(LAST_VIEW_KEY, JSON.stringify(state));
+  } catch (err) {
+    console.warn('Failed to save last view state to localStorage', err);
+  }
+};
+
 export function App() {
   const [isReady, setIsReady] = useState(false);
   const [currentUser, setCurrentUser] = useState<UserAccount | null>(() => getActiveUserSession());
@@ -31,6 +49,8 @@ export function App() {
   const [authInitialMode, setAuthInitialMode] = useState<'login' | 'signup'>('login');
   const [activeTab, setActiveTab] = useState<MainTab>('library');
   const [selectedBook, setSelectedBook] = useState<Book | null>(null);
+  const [initialReaderViewMode, setInitialReaderViewMode] = useState<ReaderViewMode>('blinks');
+  const [initialReaderBlinkIndex, setInitialReaderBlinkIndex] = useState<number>(0);
   const [books, setBooks] = useState<Book[]>([]);
   const [progressMap, setProgressMap] = useState<Record<string, UserProgress>>({});
   const [profile, setProfile] = useState<UserHabitProfile | null>(null);
@@ -46,13 +66,15 @@ export function App() {
   const [activeStashIdea, setActiveStashIdea] = useState<IdeaCard | null>(null);
   const [homeResetTrigger, setHomeResetTrigger] = useState(0);
 
-  // Sync refs to avoid stale closures in window popstate event listener
+  // Sync refs to avoid stale closures in window popstate & unload event listeners
   const selectedBookRef = useRef(selectedBook);
   const activeTabRef = useRef(activeTab);
   const isAuthOpenRef = useRef(isAuthOpen);
   const isBackupOpenRef = useRef(isBackupOpen);
   const activeStashIdeaRef = useRef(activeStashIdea);
   const booksRef = useRef(books);
+  const initialReaderViewModeRef = useRef(initialReaderViewMode);
+  const currentReaderBlinkIndexRef = useRef(initialReaderBlinkIndex);
 
   useEffect(() => { selectedBookRef.current = selectedBook; }, [selectedBook]);
   useEffect(() => { activeTabRef.current = activeTab; }, [activeTab]);
@@ -60,14 +82,44 @@ export function App() {
   useEffect(() => { isBackupOpenRef.current = isBackupOpen; }, [isBackupOpen]);
   useEffect(() => { activeStashIdeaRef.current = activeStashIdea; }, [activeStashIdea]);
   useEffect(() => { booksRef.current = books; }, [books]);
+  useEffect(() => { initialReaderViewModeRef.current = initialReaderViewMode; }, [initialReaderViewMode]);
+  useEffect(() => { currentReaderBlinkIndexRef.current = initialReaderBlinkIndex; }, [initialReaderBlinkIndex]);
+
+  // Save state on tab hidden / unload
+  useEffect(() => {
+    const handleSaveCurrentState = () => {
+      if (selectedBookRef.current) {
+        saveLastViewState({
+          view: 'book',
+          bookId: selectedBookRef.current.id,
+          viewMode: initialReaderViewModeRef.current,
+          blinkIndex: currentReaderBlinkIndexRef.current,
+          tab: activeTabRef.current
+        });
+      } else {
+        saveLastViewState({
+          view: 'tab',
+          tab: activeTabRef.current
+        });
+      }
+    };
+
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'hidden') {
+        handleSaveCurrentState();
+      }
+    };
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    window.addEventListener('beforeunload', handleSaveCurrentState);
+    return () => {
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+      window.removeEventListener('beforeunload', handleSaveCurrentState);
+    };
+  }, []);
 
   // Mobile Hardware / Gesture Back Button & History Stack Management
   useEffect(() => {
-    // Ensure initial entry has a known state
-    if (!window.history.state) {
-      window.history.replaceState({ view: 'home', tab: 'library' }, '');
-    }
-
     const handlePopState = (event: PopStateEvent) => {
       const state = event.state;
 
@@ -91,16 +143,27 @@ export function App() {
         if (state?.view === 'book' || state?.view === 'mindmap-fullscreen' || state?.modal === 'voice') {
           if (state?.bookId && state.bookId !== selectedBookRef.current.id) {
             const nextBook = booksRef.current.find(b => b.id === state.bookId);
-            if (nextBook) setSelectedBook(nextBook);
+            if (nextBook) {
+              setSelectedBook(nextBook);
+              saveLastViewState({
+                view: 'book',
+                bookId: nextBook.id,
+                viewMode: 'blinks',
+                tab: state?.tab || activeTabRef.current
+              });
+            }
           }
           return;
         }
 
         // Otherwise, we popped back out of the book to the previous tab screen!
         setSelectedBook(null);
-        if (state?.tab) {
-          setActiveTab(state.tab);
-        }
+        const targetTab = state?.tab || 'library';
+        setActiveTab(targetTab);
+        saveLastViewState({
+          view: 'tab',
+          tab: targetTab
+        });
         refreshData();
         return;
       }
@@ -108,9 +171,17 @@ export function App() {
       // 3. If on a secondary tab and popped back
       if (state?.view === 'tab' && state.tab) {
         setActiveTab(state.tab);
+        saveLastViewState({
+          view: 'tab',
+          tab: state.tab
+        });
         return;
       } else if (state?.view === 'home' || !state) {
         setActiveTab('library');
+        saveLastViewState({
+          view: 'tab',
+          tab: 'library'
+        });
         return;
       }
     };
@@ -119,13 +190,53 @@ export function App() {
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
 
-  const handleSelectBook = (book: Book) => {
+  const handleSelectBook = (book: Book, initialMode: ReaderViewMode = 'blinks') => {
     window.history.pushState({ view: 'book', bookId: book.id, tab: activeTabRef.current }, '');
+    setInitialReaderViewMode(initialMode);
     setSelectedBook(book);
+    saveLastViewState({
+      view: 'book',
+      bookId: book.id,
+      viewMode: initialMode,
+      blinkIndex: progressMap[book.id]?.currentBlinkIndex ?? 0,
+      tab: activeTabRef.current
+    });
     window.scrollTo({ top: 0, behavior: 'instant' });
   };
 
+  const handleReaderViewModeChange = (mode: ReaderViewMode) => {
+    setInitialReaderViewMode(mode);
+    initialReaderViewModeRef.current = mode;
+    if (selectedBookRef.current) {
+      saveLastViewState({
+        view: 'book',
+        bookId: selectedBookRef.current.id,
+        viewMode: mode,
+        blinkIndex: currentReaderBlinkIndexRef.current,
+        tab: activeTabRef.current
+      });
+    }
+  };
+
+  const handleReaderBlinkIndexChange = (index: number) => {
+    setInitialReaderBlinkIndex(index);
+    currentReaderBlinkIndexRef.current = index;
+    if (selectedBookRef.current) {
+      saveLastViewState({
+        view: 'book',
+        bookId: selectedBookRef.current.id,
+        viewMode: initialReaderViewModeRef.current,
+        blinkIndex: index,
+        tab: activeTabRef.current
+      });
+    }
+  };
+
   const handleBackFromBook = () => {
+    saveLastViewState({
+      view: 'tab',
+      tab: activeTabRef.current
+    });
     if (window.history.state?.view === 'book') {
       window.history.back();
     } else {
@@ -138,6 +249,10 @@ export function App() {
     if (tab === activeTabRef.current) return;
     window.history.pushState({ view: 'tab', tab }, '');
     setActiveTab(tab);
+    saveLastViewState({
+      view: 'tab',
+      tab
+    });
     window.scrollTo({ top: 0, behavior: 'instant' });
     document.documentElement.scrollTop = 0;
     document.body.scrollTop = 0;
@@ -193,6 +308,10 @@ export function App() {
     setActiveStashIdea(null);
     setIsAuthOpen(false);
     setHomeResetTrigger(prev => prev + 1);
+    saveLastViewState({
+      view: 'tab',
+      tab: 'library'
+    });
     window.scrollTo({ top: 0, behavior: 'smooth' });
     refreshData();
   };
@@ -221,7 +340,66 @@ export function App() {
 
     const init = async () => {
       await initDatabase();
-      await refreshData();
+      const dedupedBooks = await refreshData();
+
+      // Check for saved session state so user resumes exactly where they left off
+      let restored = false;
+      const savedRaw = localStorage.getItem(LAST_VIEW_KEY);
+      if (savedRaw) {
+        try {
+          const saved: LastViewState = JSON.parse(savedRaw);
+          if (saved.view === 'book' && saved.bookId) {
+            const foundBook = dedupedBooks.find(b => b.id === saved.bookId);
+            if (foundBook) {
+              const tab = saved.tab || 'library';
+              const mode = saved.viewMode || 'blinks';
+              const bIndex = typeof saved.blinkIndex === 'number' ? saved.blinkIndex : 0;
+
+              setActiveTab(tab);
+              setInitialReaderViewMode(mode);
+              setInitialReaderBlinkIndex(bIndex);
+              setSelectedBook(foundBook);
+
+              window.history.replaceState({ view: 'home', tab }, '');
+              window.history.pushState({ view: 'book', bookId: foundBook.id, tab }, '');
+              restored = true;
+            }
+          } else if (saved.view === 'tab' && saved.tab) {
+            setActiveTab(saved.tab);
+            window.history.replaceState({ view: 'tab', tab: saved.tab }, '');
+            restored = true;
+          }
+        } catch (e) {
+          console.warn('Failed to parse last view state', e);
+        }
+      }
+
+      // Fallback: If no explicit saved view state, check if there is an active uncompleted book in progress
+      if (!restored) {
+        const user = await getActiveUser();
+        const pMap = await getUserProgressMap(user ? user.id : null);
+        const progressEntries = Object.values(pMap).filter(p => p && p.lastReadTimestamp);
+        if (progressEntries.length > 0) {
+          progressEntries.sort((a, b) => (b.lastReadTimestamp || 0) - (a.lastReadTimestamp || 0));
+          const latest = progressEntries[0];
+          const foundBook = dedupedBooks.find(b => b.id === latest.bookId || b.id === latest.actualBookId);
+          if (foundBook && !latest.isCompleted) {
+            setActiveTab('reading');
+            setInitialReaderViewMode('blinks');
+            setInitialReaderBlinkIndex(latest.currentBlinkIndex ?? 0);
+            setSelectedBook(foundBook);
+
+            window.history.replaceState({ view: 'home', tab: 'reading' }, '');
+            window.history.pushState({ view: 'book', bookId: foundBook.id, tab: 'reading' }, '');
+            restored = true;
+          }
+        }
+      }
+
+      if (!restored && !window.history.state) {
+        window.history.replaceState({ view: 'home', tab: 'library' }, '');
+      }
+
       setIsReady(true);
     };
     init();
@@ -240,7 +418,7 @@ export function App() {
     applyThemeClass(newTheme);
   };
 
-  const refreshData = async () => {
+  const refreshData = async (): Promise<Book[]> => {
     const allBooks = await db.books.toArray();
     // Deduplicate books by normalized title & author (keeping the one with the most content)
     const dedupedBooksMap = new Map<string, Book>();
@@ -251,7 +429,8 @@ export function App() {
         dedupedBooksMap.set(key, b);
       }
     }
-    setBooks(Array.from(dedupedBooksMap.values()));
+    const deduped = Array.from(dedupedBooksMap.values());
+    setBooks(deduped);
 
     const user = await getActiveUser();
     setCurrentUser(user);
@@ -264,11 +443,17 @@ export function App() {
 
     const stashedIdeas = await db.ideas.where('isStashed').equals(1).count();
     setStashedCount(stashedIdeas);
+
+    return deduped;
   };
 
   const handleLogout = async () => {
     await logout();
     setCurrentUser(null);
+    saveLastViewState({
+      view: 'tab',
+      tab: 'library'
+    });
     await refreshData();
   };
 
@@ -337,6 +522,10 @@ export function App() {
           onOpenStashModal={handleOpenStashModal}
           onBookCompleted={() => refreshData()}
           fontSizeIndex={fontSizeIndex}
+          initialViewMode={initialReaderViewMode}
+          initialBlinkIndex={initialReaderBlinkIndex}
+          onViewModeChange={handleReaderViewModeChange}
+          onBlinkIndexChange={handleReaderBlinkIndexChange}
         />
       ) : (
         <>
