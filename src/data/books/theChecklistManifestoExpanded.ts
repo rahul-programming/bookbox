@@ -1,5 +1,5 @@
 // The Checklist Manifesto by Atul Gawande
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -433,169 +433,169 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
   "actionItems": [
     {
       "id": "the-checklist-manifesto-act-1",
-      "title": "Build a 60-Second Morning Launch Checklist",
-      "description": "Stop relying on sheer willpower to kick off your morning without forgetting keys, chargers, or your daily priorities. A short, lightning-fast launch sequence guarantees you leave the house or sit at your desk calm and fully prepared.",
+      "title": "Build a Morning Launch Checklist",
+      "description": "Stop forgetting your keys, wallet, or phone each morning. A short list helps you leave home calm and fully ready.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Jot down the 4 to 6 critical physical items and mental checks you need before stepping out or starting work.",
-        "Format them as a strict 'READ-DO' list so you simply verify each item without second-guessing.",
-        "Tape the index card right next to your front door handle or workspace monitor.",
-        "Run the list once tomorrow morning and time how effortless it feels."
+        "1. Write down five essential items you need each morning.",
+        "2. Keep every item simple so you can check it fast.",
+        "3. Tape the card right beside your front door handle.",
+        "4. Read the card tomorrow morning before you step out."
       ],
       "sourceChapter": "Chapter 2: The Checklist"
     },
     {
       "id": "the-checklist-manifesto-act-2",
-      "title": "Establish a Frictionless 'Shutdown Routine' Checklist",
-      "description": "End every workday with zero cognitive residue by standardizing your final 10 minutes. A reliable closing protocol tells your brain the day is officially closed, protecting your evenings from nagging work thoughts.",
+      "title": "Set Up a Workday Shutdown List",
+      "description": "End your workday cleanly without worrying about unfinished tasks all night. A fast wrap-up helps your brain truly rest.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Pick a dedicated cutoff trigger, like a set alarm 15 minutes before your workday ends.",
-        "Open a dedicated 5-bullet checklist: clear inbox triage, close inactive tabs, review tomorrow's top priority, backup active work, log off.",
-        "Execute each step methodically without starting any new open-ended tasks.",
-        "Physically close your laptop or tidy your desk as the final confirmation ritual."
+        "1. Set a daily alarm fifteen minutes before work ends.",
+        "2. Open a short five-point list for your final wrap-up.",
+        "3. Close extra tabs, clear urgent mail, and pick tomorrow's top task.",
+        "4. Shut your laptop lid to mark the day as done."
       ],
       "sourceChapter": "Chapter 6: The Checklist Factory"
     },
     {
       "id": "the-checklist-manifesto-act-3",
-      "title": "Conduct a Routine Failure Point Audit",
-      "description": "Discover where avoidable human error sneaks into your life by auditing recent slips, missed steps, or near-misses. Gawande emphasizes that mistakes aren't usually due to ignorance, but ineptitude\u2014failing to properly apply what you already know.",
+      "title": "Find Your Common Daily Mistakes",
+      "description": "Most mistakes happen when people rush, not because they lack skill. Spotting repeat slips helps you fix them quickly.",
       "category": "audit",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Grab a blank sheet and list 3 common, frustrating blunders from the past month (e.g., missed deadlines, omitted email attachments, forgotten groceries).",
-        "Label whether each slip occurred during high stress, distraction, or fatigue.",
-        "Identify the precise moment a simple physical pause point would have caught the error.",
-        "Highlight the single recurring blunder that will become your first candidate for a permanent checklist."
+        "1. Write down three frustrating mistakes from this past month.",
+        "2. Note if you were tired, stressed, or rushed during each slip.",
+        "3. Find the exact second a quick pause would have helped.",
+        "4. Circle the one repeat blunder you want to stop today."
       ],
       "sourceChapter": "Chapter 1: The Problem of Extreme Complexity"
     },
     {
       "id": "the-checklist-manifesto-act-4",
-      "title": "Mount Visible 'Pause Point' Triggers in Your Physical Space",
-      "description": "Design your environment to prompt pause points automatically so you don't skip critical safety or preparation steps. Physical affordances remove the mental effort of remembering when to verify your setup.",
+      "title": "Place Visual Pause Cues Nearby",
+      "description": "Put reminders in visible spots so you do not skip key steps. Seeing them removes the mental strain of remembering.",
       "category": "environment",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Identify the primary transition threshold where mistakes happen (e.g., entryway, kitchen counter, computer dock).",
-        "Create high-contrast visual cues\u2014like a distinct neon sticker or card holder\u2014at eye level on that threshold.",
-        "Position necessary tools (pens, badges, keys) directly beneath the cue so compliance requires zero physical friction.",
-        "Test walking past the trigger to confirm it naturally catches your attention before moving forward."
+        "1. Pick the exact doorway or desk spot where mistakes happen.",
+        "2. Put a bright sticker or card right at eye level.",
+        "3. Place your keys, badge, or tools directly beneath the sign.",
+        "4. Walk past the cue once to test if you notice it."
       ],
       "sourceChapter": "Chapter 5: The First Trial"
     },
     {
       "id": "the-checklist-manifesto-act-5",
-      "title": "Construct a Dual-Track 'READ-DO' vs 'DO-CONFIRM' Protocol",
-      "description": "Transform messy projects by distinguishing between step-by-step sequential actions and post-execution safety nets. Selecting the right checklist model eliminates robotic micro-management while maintaining airtight quality.",
+      "title": "Create a Two-Way Checklist",
+      "description": "Some tasks need step-by-step reading, while others need quick review at the end. Picking the right format keeps work smooth.",
       "category": "system",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Select a frequent complex process you manage (e.g., publishing an article, client onboarding, deployment).",
-        "Decide if it requires a 'READ-DO' recipe (execute line-by-line) or a 'DO-CONFIRM' safety check (work from memory, then verify critical thresholds).",
-        "Draft the 5 to 9 non-negotiable killer items, omitting common-sense basics to keep it lean.",
-        "Store the template directly in your team wiki or task runner where the process begins."
+        "1. Pick one recurring task that has too many moving parts.",
+        "2. Decide to read while doing, or do first and check after.",
+        "3. Write down only five to nine critical danger points.",
+        "4. Save the simple list right where you start the work."
       ],
       "sourceChapter": "Chapter 6: The Checklist Factory"
     },
     {
       "id": "the-checklist-manifesto-act-6",
-      "title": "Execute a 5-Minute 'Between-Task' Reset Routine",
-      "description": "Combat decision fatigue and attention splintering between big focus blocks. Running a snappy micro-reset cleanses your workspace and re-centers your attention before tackling the next heavy lift.",
+      "title": "Take a Five-Minute Task Reset",
+      "description": "Clear your head before switching to your next big project. A brief pause keeps your energy high throughout the day.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Stand up immediately after completing a focus session and take 3 deep, grounding breaths.",
-        "Close all browser windows and application documents related to the completed task.",
-        "Drink a full glass of water and stretch your neck and shoulders.",
-        "Check your single next action from your master list before opening any new digital tool."
+        "1. Stand up from your desk and take three deep breaths.",
+        "2. Close all apps and tabs from the task you finished.",
+        "3. Drink one full glass of cold water and stretch.",
+        "4. Look at your master list for your next single action."
       ],
       "sourceChapter": "Chapter 2: The Checklist"
     },
     {
       "id": "the-checklist-manifesto-act-7",
-      "title": "Run a Digital Clutter and Notification Scrub",
-      "description": "Audit the high-noise triggers that cause cognitive overload and disrupt procedural focus. A streamlined digital workstation acts like a sterile operating room, allowing deep focus on what matters.",
+      "title": "Clean Up Digital Noise Today",
+      "description": "Constant buzzes and alerts break your train of thought. A quiet screen helps you focus like a doctor in surgery.",
       "category": "audit",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Open your device notification preferences and mute non-human notification alerts across all apps.",
-        "Archive or delete unused desktop files and icons into a single 'Archive' folder.",
-        "Inspect browser extensions and tabs, bookmarking only active project dashboards.",
-        "Check off each distraction source systematically to re-establish an uninterrupted focus field."
+        "1. Turn off notifications for all non-essential apps on your phone.",
+        "2. Move scattered files on your screen into one archive folder.",
+        "3. Close all open browser tabs that you do not need today.",
+        "4. Mute extra group chats so you can work in peace."
       ],
       "sourceChapter": "Chapter 4: The Idea"
     },
     {
       "id": "the-checklist-manifesto-act-8",
-      "title": "Establish a Pre-Meeting 'Huddle' Check-in Protocol",
-      "description": "Break down social friction and hierarchy barriers on your team by instituting a mandatory 60-second verbal alignment at the start of collaborative projects, mirroring Gawande's surgical team briefing.",
+      "title": "Run a Fast Team Huddle",
+      "description": "Short team talks stop silent confusion before projects begin. When people speak early, they feel safe to point out errors.",
       "category": "system",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Open every project kickoff or standup by having every team member state their name, primary role, and biggest potential blocker.",
-        "Explicitly invite everyone in the room\u2014regardless of rank\u2014to speak up instantly if they spot an issue.",
-        "Review the single primary goal and definition of done for the session.",
-        "Confirm mutual agreement with a clear verbal 'Ready' from all participants before diving into the work."
+        "1. Ask every person to state their name and main role.",
+        "2. Invite anyone to speak up if they spot a problem.",
+        "3. State the main goal and finish line for the session.",
+        "4. Get a clear yes from everyone before starting the work."
       ],
       "sourceChapter": "Chapter 3: The End of the Master Builder"
     },
     {
       "id": "the-checklist-manifesto-act-9",
-      "title": "Draft a Bulletproof 'Emergency Pack & Travel' Template",
-      "description": "Eliminate travel stress and the panic of forgotten essentials by building a reusable travel verification card. A quick, dedicated packing checklist guarantees zero forgotten adapters, medications, or passports.",
+      "title": "Draft a Simple Packing Card",
+      "description": "Never leave essential items behind when packing for a trip. A quick check stops last-minute panic at the airport.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Create a dedicated digital note or laminated index card titled 'Pack & Go'.",
-        "Categorize essentials into 3 clear blocks: Vital Documents, Electronics & Chargers, Health & Care.",
-        "Limit each block strictly to vital, high-consequence items that cannot be easily replaced on the fly.",
-        "Run the list before zipping your bag, checking off physical possession of each item."
+        "1. Write 'Pack and Go' on a single paper index card.",
+        "2. Group items into papers, chargers, and daily medicines.",
+        "3. List only items you cannot easily buy at your destination.",
+        "4. Check off each physical item before you close your bag."
       ],
       "sourceChapter": "Chapter 2: The Checklist"
     },
     {
       "id": "the-checklist-manifesto-act-10",
-      "title": "Design a 'Sterile Cockpit' Focus Station",
-      "description": "Engineer your physical workspace to enforce zero interruptions during critical, error-sensitive work. Adopting aviation's sterile cockpit rule prevents costly mistakes caused by casual drop-ins and chatter.",
+      "title": "Create a Quiet Work Zone",
+      "description": "Protect your focus during difficult tasks by blocking out distractions. Planes use strict quiet rules during takeoff to prevent crashes.",
       "category": "environment",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Define your dedicated 'sterile hours' during your peak morning energy window.",
-        "Place a clear physical signal (e.g., over-ear headphones, a subtle desk sign, or closed office door) indicating a focus zone.",
-        "Turn smartphone screen face-down out of arm's reach or place it in a drawer.",
-        "Inform family members or coworkers of your quiet protocol so expectations are aligned and respected."
+        "1. Pick one quiet hour during your best morning time slot.",
+        "2. Put on headphones or close the door to signal focus.",
+        "3. Put your phone face-down inside a closed desk drawer.",
+        "4. Tell others you are doing focused work for one hour."
       ],
       "sourceChapter": "Chapter 7: The Test"
     },
     {
       "id": "the-checklist-manifesto-act-11",
-      "title": "Conduct a Monthly Checklist Brevity & Friction Review",
-      "description": "Prevent checklists from becoming bloated, bureaucratic monsters that everyone ignores. Regularly trim your checklists so they remain snappy, sharp, and easy to run in the heat of real-life execution.",
+      "title": "Trim Down Your Checklists Monthly",
+      "description": "Long, crowded checklists get ignored when you are in a rush. Keeping them short makes sure they stay truly useful.",
       "category": "audit",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Review all active personal and professional checklists you've created over the past month.",
-        "Strike out any line item that has become pure second nature or provides zero safety margin.",
-        "Verify that every checklist remains strictly between 5 and 9 concise items.",
-        "Re-test reading speed: ensure the entire checklist can be executed or confirmed in under 90 seconds."
+        "1. Read through every active checklist you use this month.",
+        "2. Delete obvious steps that you never forget to do.",
+        "3. Keep each list between five and nine items only.",
+        "4. Time yourself to confirm the list takes under ninety seconds."
       ],
       "sourceChapter": "Chapter 6: The Checklist Factory"
     },
     {
       "id": "the-checklist-manifesto-act-12",
-      "title": "Create a Crisis 'Avionics Failure' Emergency Protocol",
-      "description": "Prepare for high-stress emergencies by documenting an objective, non-emotional protocol for unexpected crises. When unexpected problems strike, clear checklists prevent panic and guide systematic problem-solving.",
+      "title": "Build an Emergency Action Plan",
+      "description": "Tough problems cause panic if you do not have a plan. Having simple steps ready keeps you calm during major emergencies.",
       "category": "system",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Select a likely high-stakes crunch scenario (e.g., website outage, client conflict, severe data loss, financial surprise).",
-        "Write out the first 4 objective steps to take before reacting impulsively (e.g., stop further changes, isolate the issue, notify stakeholders, pull backups).",
-        "List key escalation contacts and resources in direct plain text with phone numbers.",
-        "Save this guide offline on your primary device so it's instantly accessible when networks go down."
+        "1. Pick one bad problem that could happen at work.",
+        "2. Write four calm steps to take before reacting in panic.",
+        "3. Add phone numbers for people who can help right away.",
+        "4. Save a paper copy where you can reach it offline."
       ],
       "sourceChapter": "Chapter 8: The Hero in the Age of Checklists"
     }
@@ -772,10 +772,10 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       "author": "Atul Gawande",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Ignorance vs. Ineptitude Divide",
-      "body": "Modern failure rarely happens because science or technical expertise lacks the solution (ignorance).\nIt happens because we fail to consistently and correctly apply the knowledge we already possess (ineptitude).\nBridging the gap requires mechanical aids, not harder effort.",
-      "quote": "Failure in the modern world is largely due not to ignorance, but to ineptitude.",
-      "actionItem": "Diagnose your last major project slip-up: Was it an unknown variable, or a failure to execute known basic steps?\nBuild a 3-step guardrail for the latter.",
+      "headline": "Knowing vs Doing",
+      "body": "Most mistakes do not happen from a lack of knowledge.\nThey happen because we forget to apply what we already know.\nSimple checklists bridge this gap and stop preventable errors.",
+      "quote": "Most modern failures happen not from ignorance, but from failing to apply what we know.",
+      "actionItem": "Find where you slipped up recently on a basic task.\nWrite down a three-step checklist to prevent it next time.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -793,10 +793,10 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       "author": "Atul Gawande",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Triad of Problem Archetypes",
-      "body": "Problems exist on three tiers: Simple (baking a cake; standardized recipes succeed), Complicated (sending a rocket to the moon; requires multidisciplinary teams and coordinated modules), and Complex (raising a child; every situation is unique and outcomes cannot be guaranteed).",
-      "quote": "Simple problems have known solutions. Complicated problems can be broken down. Complex problems have unique, unpredictable outcomes.",
-      "actionItem": "Categorize your daily task pipeline into simple, complicated, and complex tiers so you stop treating unique problems like rigid algorithms.",
+      "headline": "Three Kinds of Problems",
+      "body": "Simple problems need a basic recipe.\nComplicated problems need specialist teams and careful planning.\nComplex problems are totally unique and cannot be solved with rigid rules.",
+      "quote": "Simple tasks need recipes, complicated ones need teams, and complex ones bring surprises.",
+      "actionItem": "Sort your current projects into simple, complicated, or complex buckets.\nStop using rigid checklists for unpredictable problems.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -814,10 +814,10 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       "author": "Atul Gawande",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Establish Non-Negotiable Pause Points",
-      "body": "A checklist is worthless if you do not know precisely when to execute it.\nHigh-reliability fields designate definite Pause Points\u2014such as 'Before induction of anesthesia' or 'Before engine pushback'\u2014to halt momentum before irreversible commitments.",
-      "quote": "Checklists establish a pause point where everyone stops to catch their breath and make sure the critical items are done.",
-      "actionItem": "Set one strict Pause Point today: before hitting 'Send' on a client deliverable, close all tabs and run a 45-second verification sweep.",
+      "headline": "Set Pause Points",
+      "body": "Checklists only work if you know when to stop.\nPick a clear pause point before starting any risky step.\nTaking thirty seconds to double-check prevents huge messes later.",
+      "quote": "A checklist creates a brief pause to make sure key steps are done.",
+      "actionItem": "Pick one big task today.\nStop and run a thirty-second check right before you hit send.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -835,10 +835,10 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       "author": "Atul Gawande",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Cognitive Cognitive Offload",
-      "body": "Human working memory falters under cognitive overload, exhaustion, and distraction.\nChecklists provide an external cognitive exoskeleton that tracks mundane baseline mechanics, freeing high-powered conscious bandwidth for nuanced problem-solving.",
-      "quote": "They remind us of the minimum necessary steps and make them explicit. They offer a cognitive net against memory flaws.",
-      "actionItem": "Identify 3 recurring routine items you manually memorize each morning.\nOffload them onto an automated or printed one-page cheat sheet.",
+      "headline": "Free Up Your Brain",
+      "body": "Your brain gets tired and drops details when you are stressed.\nA checklist carries routine steps for you.\nThis frees your full attention for harder creative choices.",
+      "quote": "Checklists catch basic human memory slips and protect us from silly mistakes.",
+      "actionItem": "Write down three routine tasks you try to keep in your head.\nPut them on a short desk cheat sheet.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -856,10 +856,10 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       "author": "Atul Gawande",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Killer-Item Discipline",
-      "body": "A practical checklist is not an exhaustive manual of everything you could do.\nIt is a lean index of 'killer items'\u2014the critical, high-risk friction steps that are easily skipped under stress but carry catastrophic downside if omitted.",
-      "quote": "Good checklists are precise, efficient, to the point, and easy to use even in the most difficult situations.",
-      "actionItem": "Review an existing workflow document.\nDelete every obvious or explanatory line until only 5-7 fatal failure points remain.",
+      "headline": "Focus on Fatal Steps",
+      "body": "A good checklist is never a long manual.\nIt lists only the critical steps that people easily miss.\nFocus on steps that cause disaster if skipped.",
+      "quote": "Good checklists are short, clear, and easy to use in tough spots.",
+      "actionItem": "Take one of your current process lists.\nCut out the obvious steps until only five critical checks remain.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -877,10 +877,10 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       "author": "Atul Gawande",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Run the 60-Second Efficiency Filter",
-      "body": "Checklists that take longer than sixty to ninety seconds get abandoned in the heat of execution.\nBuild your routine verification so it is fast, unambiguous, and finishes before impatience sets in.",
-      "quote": "A rule of thumb for checklist design is to keep it between five and nine items, taking under a minute to complete.",
-      "actionItem": "Time yourself running your morning prep checklist tomorrow.\nIf it takes longer than 60 seconds, cut three non-essential lines.",
+      "headline": "Keep It Under Sixty Seconds",
+      "body": "People skip checklists that take too long to read.\nKeep every list between five and nine essential items.\nMake sure anyone can finish it in under a minute.",
+      "quote": "Keep checklists to five to nine items and finish them within a minute.",
+      "actionItem": "Time your daily startup checklist tomorrow.\nTrim any item that pushes you past sixty seconds.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -898,10 +898,10 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       "author": "Atul Gawande",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "READ-DO vs. DO-CONFIRM",
-      "body": "Choose the right interaction architecture.\nA READ-DO checklist works like a recipe: read the step, execute it, check it off.\nA DO-CONFIRM checklist allows fluid expert execution from muscle memory, followed by a dedicated pause to confirm key steps were completed.",
-      "quote": "With a DO-CONFIRM checklist, team members perform their jobs from memory and experience, then stop to verify.",
-      "actionItem": "Convert your creative or technical work from step-by-step handholding (READ-DO) into an end-of-session verification pulse (DO-CONFIRM).",
+      "headline": "Read-Do vs Do-Confirm",
+      "body": "With Read-Do, you read each step first and then do it.\nWith Do-Confirm, you work from skill and memory first.\nThen you pause to check off what you did.",
+      "quote": "Do your job from experience first, then stop and confirm you did it.",
+      "actionItem": "Stop looking at checklists while you work.\nDo the job first, then verify your work at the end.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -919,10 +919,10 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       "author": "Atul Gawande",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Decentralization Over Top-Down Command",
-      "body": "In fast-moving, complex environments, central command cannot process information quickly enough to steer every variable.\nChecklists conquer complexity by distributing decision-making authority outward to front-line operators while mandating open communication links.",
-      "quote": "The philosophy is to push the power of decision-making out to the periphery and bring the knowledge of people into the loop.",
-      "actionItem": "Empower your teammates or partners to make unilateral operational calls within defined boundaries without waiting for your sign-off.",
+      "headline": "Trust the Front Line",
+      "body": "One boss cannot manage every fast-moving problem.\nGood checklists give frontline workers the power to make quick calls.\nThey build safety through open communication instead of top-down control.",
+      "quote": "Push decision-making out to the people doing the work on the ground.",
+      "actionItem": "Give a team member clear permission to make a key choice today without asking you first.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -940,10 +940,10 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       "author": "Atul Gawande",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Discipline Trumps Talent Alone",
-      "body": "Expertise, genius, and sheer willpower are unreliable foundations when environments turn chaotic.\nSystematic, unglamorous procedural discipline is what separates sustained world-class performers from volatile hopefuls.",
-      "quote": "We are obsessed in medicine with having great surgeons and not with having great systems.",
-      "actionItem": "Stop relying on sheer motivation to execute clean work tomorrow.\nBuild one physical environmental barrier that prevents skipping steps.",
+      "headline": "Systems Beat Raw Talent",
+      "body": "Natural talent and strong willpower fail when things get messy.\nReal pros rely on simple daily habits and clear checks.\nGood systems protect you when you feel tired.",
+      "quote": "We focus too much on great talent and not enough on great systems.",
+      "actionItem": "Do not count on willpower today.\nSet up one clear physical rule so you cannot skip basic steps.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -961,10 +961,10 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       "author": "Atul Gawande",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Deploy the Social Activation Pause",
-      "body": "Research shows that when professionals speak their name and role aloud before starting a high-stakes team operation, their likelihood of speaking up about safety hazards or creative discrepancies increases exponentially.",
-      "quote": "Just getting people to introduce themselves by name in the operating room cuts complications and death rates by a third.",
-      "actionItem": "Kick off your next team sprint or meeting by having every participant explicitly state their name, primary deliverable, and one potential risk.",
+      "headline": "Start With Names",
+      "body": "People rarely speak up when they do not know each other.\nIntroducing every team member aloud builds trust fast.\nAnyone will voice a safety risk once they feel seen.",
+      "quote": "Having people introduce themselves by name cuts big mistakes by a third.",
+      "actionItem": "Start your next meeting by having everyone say their name and one worry they have.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -982,10 +982,10 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       "author": "Atul Gawande",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Master-Builder Myth",
-      "body": "In pre-modern times, a single master builder designed, engineered, and constructed an entire cathedral alone.\nIn the modern knowledge economy, the volume and complexity of data make the solo master obsolete; mastery now lives in collective coordination systems.",
-      "quote": "We have outgrown the era of the individual Master Builder. We are in an era of multi-specialist collaboration.",
-      "actionItem": "Map out who holds secondary validation roles in your workflow.\nStop playing the single bottleneck hero for complex tasks.",
+      "headline": "No More Lone Geniuses",
+      "body": "Modern work is too big for any single expert to master.\nWe must rely on teams that share knowledge smoothly.\nSuccess comes from team coordination, not one hero doing it all.",
+      "quote": "No single expert can know everything today. We must work together in teams.",
+      "actionItem": "Pick a project where you are the bottleneck.\nAssign another person to double-check and sign off on tasks.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1003,10 +1003,10 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       "author": "Atul Gawande",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Culture of Sub-Item Compliance",
-      "body": "A checklist is not an administrative checkbox to be scribbled through retroactively.\nIts power rests in cultural integrity: holding the line that skipping a verification step is as serious an error as botching the execution itself.",
-      "quote": "It is not enough to have a checklist. You have to have a culture of teamwork, discipline, and systematic verification.",
-      "actionItem": "Commit to zero 'pencil-whipping' for 48 hours: never mark a task, ticket, or check completed unless verified with your own eyes.",
+      "headline": "Check It For Real",
+      "body": "A checklist is useless if you just tick boxes mindlessly.\nYou must actually look and verify each step.\nSkipping a check is just as bad as making the mistake.",
+      "quote": "A checklist works only when your team cares about doing every check honestly.",
+      "actionItem": "Never tick a box today without looking at the real result first.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1024,10 +1024,10 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       "author": "Atul Gawande",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "The Five-Line Morning Protocol",
-      "body": "Start your workday with clarity rather than reactive email triage.\nA quick five-point sequence removes morning inertia and guarantees that essential momentum begins instantly on your highest-value objective.",
-      "quote": "Checklists do not replace judgment; they protect judgment from fatigue and trivial omissions.",
-      "actionItem": "Write a 5-item index card for tomorrow morning: 1.\nHydrate, 2.\nReview top goal, 3.\nSilence alerts, 4.\nSet timer for 60m, 5.\nExecute Core Task.",
+      "headline": "Five-Step Morning Plan",
+      "body": "Do not start your morning by reacting to random messages.\nRun a tiny five-point routine to clear your head.\nThis builds instant momentum on your most important work.",
+      "quote": "Checklists do not replace judgment. They protect your mind from tired slips.",
+      "actionItem": "Write a five-step note for tomorrow: drink water, review one goal, silence phone, and start working.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1045,10 +1045,10 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       "author": "Atul Gawande",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Humility of Checklists",
-      "body": "Embracing a checklist requires the humble acknowledgment that human memory, energy, and perception are flawed and variable.\nSystems provide grace and armor against our inherent biological limitations.",
-      "quote": "Checklists seem to provide a kind of cognitive net. They catch mental flaws in inherent human memory and attention.",
-      "actionItem": "Replace self-criticism over a forgotten errand with structural improvement: what frictionless check will guarantee you remember next time?",
+      "headline": "Accept Human Flaws",
+      "body": "Using a checklist means admitting your memory is not perfect.\nEveryone gets tired, distracted, and rushed.\nSimple systems give you a safety net when your brain slips.",
+      "quote": "Checklists catch mental slips caused by natural human memory limits.",
+      "actionItem": "Stop beating yourself up for forgetting an errand.\nPut a simple reminder right by the front door.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1066,10 +1066,10 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       "author": "Atul Gawande",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Checklist as an Enabler of Art",
-      "body": "Standardization does not destroy artistry or freedom; it creates the floor upon which artistry thrives.\nBy placing predictable mechanical actions on autopilot, your mind preserves maximum emotional and creative vitality for inventive work.",
-      "quote": "Discipline frees the mind to concentrate on the unexpected nuances and challenges of the craft.",
-      "actionItem": "Standardize your mundane admin routines into a 15-minute sweep so your peak cognitive energy remains 100% reserved for creative deep work.",
+      "headline": "Checklists Help Art",
+      "body": "Clear routines do not kill creativity.\nThey put boring daily steps on autopilot so your head stays clear.\nThat leaves all your energy for fresh and exciting ideas.",
+      "quote": "Discipline frees your mind to focus on creative craft and harder problems.",
+      "actionItem": "Bundle routine chores into a quick fifteen-minute sweep.\nSave your freshest energy for creative tasks.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1087,10 +1087,10 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       "author": "Atul Gawande",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Communication Checklist",
-      "body": "Checklists are not merely procedural item verifications; the most potent checklists specify communication channels.\nThey force cross-functional specialists to talk, align assumptions, and build collective resilience before disaster strikes.",
-      "quote": "In the face of complexity, the most effective tool is not top-down control, but structured communication among peers.",
-      "actionItem": "Add a dedicated communication trigger to your project dashboard: specify exactly who must be notified when milestone deadlines slip by 24 hours.",
+      "headline": "Talk to Each Other",
+      "body": "Good checklists do more than check off items.\nThey tell people who needs to talk to whom.\nClear conversations fix misunderstandings before they cause serious trouble.",
+      "quote": "In complex work, talking to your team works better than top-down control.",
+      "actionItem": "Add a simple note to your project board stating who gets alerted if dates slip.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1108,10 +1108,10 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       "author": "Atul Gawande",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Run the Pre-Mortem Checklist",
-      "body": "Before embarking on an ambitious campaign or initiative, assemble your key collaborators and assume the project has failed completely 6 months into the future.\nChecklist every vulnerability that contributed to the demise.",
-      "quote": "Checklists force us to confront the reality that things can and do go wrong unless explicitly safeguarded against.",
-      "actionItem": "Dedicate 10 minutes today to write down the top 3 ways your current main project could implode, and build a checklist countermeasure for each.",
+      "headline": "Find Failures Early",
+      "body": "Imagine your new project has totally failed six months from now.\nAsk your team what went wrong.\nUse that list of risks to build safety checks today.",
+      "quote": "Checklists force us to face what could go wrong before things fail.",
+      "actionItem": "Write down the three biggest ways your project could fail.\nAdd one check to block each one.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1129,10 +1129,10 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       "author": "Atul Gawande",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Subtlety of Great Systems",
-      "body": "Remarkable improvements in performance do not require complex, flashy overhauls.\nOften, the most profound breakthroughs emerge from stringently standardizing the simplest common denominators of operational hygiene.",
-      "quote": "The volume and complexity of what we know has exceeded our individual ability to deliver its benefits correctly, safely, or reliably.",
-      "actionItem": "Look for the simplest high-impact leverage point in your daily output\u2014such as sleep timing or inbox batching\u2014and systematize it today.",
+      "headline": "Small Steps Win",
+      "body": "Big wins rarely come from giant overhauls.\nReal progress comes from getting the basics right every single day.\nSimple checks protect you from silly, costly mistakes.",
+      "quote": "Today we know too much to handle everything safely without simple systems.",
+      "actionItem": "Pick one basic routine like your sleep time or inbox check.\nStandardize it into a daily rule today.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1150,10 +1150,10 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       "author": "Atul Gawande",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Iterative Protocol Evolution",
-      "body": "A checklist is not a static religious text.\nIt is a living, evolving operational hypothesis.\nTest it in the rough currents of daily work, identify where friction occurs, trim unhelpful steps, and update it relentlessly based on field evidence.",
-      "quote": "You need to test your checklist in the real world and modify it until it works seamlessly with the team's natural workflow.",
-      "actionItem": "Audit a standard operating procedure or habit tracker you created over a month ago.\nStrike out at least two outdated items immediately.",
+      "headline": "Keep Lists Fresh",
+      "body": "A checklist is not carved in stone.\nTest it during everyday work to see where it slows you down.\nCut useless steps and update it whenever real work changes.",
+      "quote": "Test your checklist in real life and change it until it fits your work.",
+      "actionItem": "Review a checklist you made weeks ago.\nDelete at least two lines you no longer need.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1171,10 +1171,10 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       "author": "Atul Gawande",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "The End-of-Day Shutdown Ritual",
-      "body": "Leaving work without a clear closure protocol leaves cognitive threads open, sabotaging rest and sleep through the Zeigarnik effect.\nImplement a concise shutdown checklist to safely park loose ends and reset tomorrow's launching pad.",
-      "quote": "A checklist protects against the simple errors that easily occur when people are distracted or fatigued.",
-      "actionItem": "Execute a 3-step closure routine tonight: 1.\nClear desktop clutter, 2.\nLog tomorrow's primary task, 3.\nClose the laptop lid with intention.",
+      "headline": "End-of-Day Shutdown",
+      "body": "Leaving work without closing out leaves tasks buzzing in your mind.\nA short shutdown routine parks loose ends safely.\nYou get better rest and start fresh tomorrow.",
+      "quote": "Checklists protect against the easy mistakes people make when tired.",
+      "actionItem": "Run a quick shutdown routine tonight: clean your desk, write tomorrow's top task, and close your laptop.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1189,44 +1189,48 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
   "mindMap": {
     "id": "root",
     "label": "The Checklist Manifesto",
-    "description": "Transform overwhelming complexity into bulletproof daily execution using simple, disciplined checklists.\nAtul Gawande reveals how systematic routines free up cognitive bandwidth, eliminate preventable errors, and empower teams to achieve peak performance under pressure.",
+    "description": "Simple checklists help you stop silly mistakes.\nThey free your mind so you can handle tough tasks.",
     "children": [
       {
         "id": "node-1",
-        "label": "The Modern Problem of Extreme Complexity",
-        "description": "In the modern world, failure rarely stems from ignorance or lack of skill; it happens because knowledge is too voluminous to manage in real time.\nWe need structural guardrails that support human memory and keep our highest priorities on track.",
+        "label": "Too Much Information",
+        "description": "Modern work has too many moving parts.\nNo one can remember everything without help.",
         "children": [
           {
             "id": "node-1-1",
-            "label": "Ignorance vs. Ineptitude",
-            "description": "Failures of ignorance occur when science hasn't yet found the answer, whereas failures of ineptitude happen when the knowledge exists but we fail to apply it correctly.\nChecklists directly tackle ineptitude by ensuring we consistently execute what we already know works.",
+            "label": "Knowing vs Doing",
+            "description": "We often know the right thing to do.\nYet we still forget to do it.",
             "children": [
               {
                 "id": "node-1-1-1",
-                "label": "The Trap of Knowledge Overload",
-                "description": "Specialists are inundated with thousands of critical data points, making mental lapses virtually inevitable without external prompts.\nOffloading routine verification to physical protocols preserves mental stamina for strategic judgment."
+                "label": "Brain Overload",
+                "description": "Too much data makes us miss simple steps.\nA list remembers things for you.",
+                "children": []
               },
               {
                 "id": "node-1-1-2",
-                "label": "Eliminating Preventable Flaws",
-                "description": "True champions do not rely on raw heroics or luck to navigate high-stakes moments.\nThey install reliable safety nets that catch basic oversights before they spiral into disastrous outcomes."
+                "label": "Stop Easy Mistakes",
+                "description": "Smart people make basic errors when rushed.\nChecklists catch small oversights early.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-1-2",
-            "label": "The Myth of Individual Brilliance",
-            "description": "Relying purely on personal memory and expert intuition leaves you vulnerable to fatigue, stress, and distraction.\nHumility is the ultimate competitive advantage, allowing you to build structures that outperform willpower alone.",
+            "label": "Ditch the Ego",
+            "description": "Never rely only on memory or willpower.\nTrue experts use tools to stay safe.",
             "children": [
               {
                 "id": "node-1-2-1",
-                "label": "Ego as an Operating Bottleneck",
-                "description": "Believing that checklists are only for beginners blinds experts to their own cognitive vulnerabilities.\nHigh performers embrace procedural discipline because it guarantees consistency regardless of emotional state."
+                "label": "Pride Causes Errors",
+                "description": "Thinking you are too smart for lists is dangerous.\nTop pros stick to proven routines.",
+                "children": []
               },
               {
                 "id": "node-1-2-2",
-                "label": "Cognitive Bandwidth Protection",
-                "description": "Your brain is designed to solve novel challenges, not store repetitive operational details.\nFreeing up your working memory allows you to stay fully present and responsive in demanding situations."
+                "label": "Free Your Brain",
+                "description": "Save your mind for hard thinking.\nLet paper remember the routine steps.",
+                "children": []
               }
             ]
           }
@@ -1234,62 +1238,69 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       },
       {
         "id": "node-2",
-        "label": "The Architecture of Effective Checklists",
-        "description": "A powerful checklist is not an exhaustive manual; it is a quick, crisp cognitive trigger for vital behaviors.\nDesigning high-impact checklists requires ruthless clarity, brevity, and focus on high-leverage inflection points.",
+        "label": "Make Great Lists",
+        "description": "Good checklists are short, clear, and quick.\nThey remind you of key steps without slowing you down.",
         "children": [
           {
             "id": "node-2-1",
-            "label": "Check-Do vs. Do-Confirm Operational Flow",
-            "description": "Selecting the right operating rhythm dictates how smoothly your system integrates into real-time workflow.\nMatch the checklist mode directly to the speed and stakes of the task at hand.",
+            "label": "Two List Styles",
+            "description": "You can follow steps as you go.\nOr finish the job first and double-check after.",
             "children": [
               {
                 "id": "node-2-1-1",
-                "label": "Check-Do Discipline",
-                "description": "Operate like a step-by-step recipe where you read each item and immediately execute it before moving forward.\nThis setup is ideal for procedural tasks where order of operations is completely non-negotiable."
+                "label": "Check As You Go",
+                "description": "Read each step and do it right away.\nThis works best for strict orders like recipes.",
+                "children": []
               },
               {
                 "id": "node-2-1-2",
-                "label": "Do-Confirm Agility",
-                "description": "Perform your core tasks from internalized mastery, then pause at an intentional milestone to verify completion against the checklist.\nThis maintains rapid momentum while creating an unshakeable quality filter."
+                "label": "Do Then Confirm",
+                "description": "Do your work from memory.\nThen pause to review your list and catch misses.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-2-2",
-            "label": "Lean Design Principles",
-            "description": "Clutter kills adoption, while razor-sharp conciseness drives daily habit formation.\nKeep your checklists tight, legible, and focused purely on the 'killer items' that determine success.",
+            "label": "Keep It Short",
+            "description": "Long, messy lists get ignored.\nKeep them short and focus on what matters.",
             "children": [
               {
                 "id": "node-2-2-1",
-                "label": "The Rule of 5 to 9 Items",
-                "description": "Limit checklist segments to five to nine mission-critical checkpoints to avoid cognitive fatigue and friction.\nIf a list takes more than a minute to complete, edit it down to the essential pivot points."
+                "label": "Five to Nine Items",
+                "description": "Keep each checklist under nine items.\nIt should take less than a minute to run.",
+                "children": []
               },
               {
                 "id": "node-2-2-2",
-                "label": "Focus on the 'Killer Steps'",
-                "description": "Omit obvious everyday common sense and target the easy-to-miss details that produce catastrophic errors when skipped.\nHigh-leverage checklists safeguard against the most insidious failure modes."
+                "label": "Focus on Killers",
+                "description": "Skip obvious everyday things.\nList only the easy-to-miss steps that cause disasters.",
+                "children": []
               },
               {
                 "id": "node-2-2-3",
-                "label": "Visual Simplicity and Clarity",
-                "description": "Use crisp typography, clear triggers, and unambiguous language that can be parsed instantly in a crisis.\nWhen instructions are clear and frictionless, execution becomes automatic."
+                "label": "Clear and Simple",
+                "description": "Use big text and simple words.\nYou should understand it in a single glance.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-2-3",
-            "label": "Defined Pause Points",
-            "description": "Every checklist must possess a designated trigger event that tells everyone exactly when to halt and align.\nWithout established pause points, fast-moving teams inevitably blow past vital precautions.",
+            "label": "Pick Pause Points",
+            "description": "Pick an exact moment to stop and check.\nWithout a clear trigger, people skip the list.",
             "children": [
               {
                 "id": "node-2-3-1",
-                "label": "Identifying Natural Intersections",
-                "description": "Anchor your checklist to unavoidable transitions, such as before starting an engine or entering an operating room.\nThese natural friction points provide the perfect window for systematic review."
+                "label": "Natural Break Points",
+                "description": "Attach lists to real moments, like before takeoff.\nThese natural pauses make checking easy.",
+                "children": []
               },
               {
                 "id": "node-2-3-2",
-                "label": "The Power of the Intentional Breather",
-                "description": "Taking a ten-second tactical timeout resets nervous system arousal and sharpens situational awareness.\nThis brief micro-pause prevents rushed, tunnel-visioned mistakes."
+                "label": "Take a Breather",
+                "description": "A quick pause calms your nerves.\nIt stops people from rushing into errors.",
+                "children": []
               }
             ]
           }
@@ -1297,57 +1308,63 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       },
       {
         "id": "node-3",
-        "label": "Field-Tested Models of Systemic Mastery",
-        "description": "From cockpit emergencies to skyscraper construction, high-risk industries prove that standardized checklists unlock unprecedented safety and scale.\nStudying these arenas shows how routine rigor elevates everyday work into world-class craftsmanship.",
+        "label": "Real World Proof",
+        "description": "Pilots, builders, and doctors use checklists.\nThese simple lists save money and human lives.",
         "children": [
           {
             "id": "node-3-1",
-            "label": "Aviation: The B-17 Flying Fortress Breakthrough",
-            "description": "When the complex Model 299 crashed because test pilots forgot to disengage elevator locks, checklists were born to make complex flight viable.\nAviation turned flying from a death-defying gamble into the safest transportation method on earth.",
+            "label": "Aviation Safety",
+            "description": "Airplanes became super safe using checklists.\nPilots review lists before every single flight.",
             "children": [
               {
                 "id": "node-3-1-1",
-                "label": "The Sub-Routine Protocol",
-                "description": "Pilots utilize dedicated checklists for taxi, takeoff, cruise, approach, and landing to segment high cognitive loads.\nBreaking complex missions into distinct phases makes perfection repeatable."
+                "label": "Step by Step",
+                "description": "Pilots use separate lists for takeoff, flight, and landing.\nBreaking trips into parts keeps things simple.",
+                "children": []
               },
               {
                 "id": "node-3-1-2",
-                "label": "Emergency Flow Readouts",
-                "description": "When engines fail or systems glitch, aviation checklists bypass panic by delivering immediate, battle-tested sequences.\nClear procedures anchor your composure when instinct wants to freeze."
+                "label": "Handle Emergencies",
+                "description": "When alarms ring, checklists stop panic.\nThey tell you the exact fix immediately.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-3-2",
-            "label": "Construction: Decentralized Communication Schedules",
-            "description": "Modern skyscrapers are built without central micromanagement by using checklists that dictate when autonomous trades must talk to one another.\nCoordination checklists turn chaos into synchronized choreography.",
+            "label": "Building Big Towers",
+            "description": "Builders use checklists to talk to each other.\nThis keeps giant projects on track without chaos.",
             "children": [
               {
                 "id": "node-3-2-1",
-                "label": "The Communication Schedule",
-                "description": "Rather than prescribing every bolt, structural engineers mandate exact checkpoints where specialists must resolve unexpected site conflicts.\nTrust the people on the front lines by giving them a protocol for collaboration."
+                "label": "Talk at Checkpoints",
+                "description": "Lists force teams to talk before big builds.\nThey fix problems together on site.",
+                "children": []
               },
               {
                 "id": "node-3-2-2",
-                "label": "Empowering Decentralized Judgment",
-                "description": "Rigid top-down orders fail in fast-changing environments, while clear notification triggers empower frontline adaptability.\nChecklists create the shared truth needed for autonomous problem-solving."
+                "label": "Trust the Workers",
+                "description": "Checklists give frontline workers the power to choose.\nPeople fix issues faster without waiting for bosses.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-3-3",
-            "label": "Medicine: The WHO Surgical Safety Checklist",
-            "description": "A 19-item, two-minute checklist implemented in eight hospitals worldwide reduced major post-surgical complications by 36% and deaths by 47%.\nSimple, disciplined habits produce jaw-dropping clinical breakthroughs.",
+            "label": "Safer Surgery",
+            "description": "A tiny two-minute hospital checklist saved thousands.\nIt cut surgical deaths by almost half worldwide.",
             "children": [
               {
                 "id": "node-3-3-1",
-                "label": "The Three-Phase Safety Net",
-                "description": "By splitting reviews into 'Sign In' before anesthesia, 'Time Out' before incision, and 'Sign Out' before departure, surgical teams protect every phase of care.\nStructured milestones ensure nothing slips through the cracks."
+                "label": "Three Safe Checks",
+                "description": "Doctors pause before sleep, before cutting, and after.\nThese stops make sure nothing is missed.",
+                "children": []
               },
               {
                 "id": "node-3-3-2",
-                "label": "Infection and Equipment Verification",
-                "description": "Verifying sterile drape placement and antibiotic timing takes seconds, yet saves thousands of lives from systemic sepsis.\nRoutine precision at the baseline prevents massive downstream suffering."
+                "label": "Basic Cleanliness Checks",
+                "description": "Checking for clean tools takes only seconds.\nIt stops dangerous infections before they start.",
+                "children": []
               }
             ]
           }
@@ -1355,40 +1372,44 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       },
       {
         "id": "node-4",
-        "label": "Culture, Team Dynamics, and Human Agency",
-        "description": "Checklists are social technologies that dismantle toxic hierarchies and activate universal accountability across teams.\nWhen everyone possesses a voice and a shared ritual, collective intelligence rises exponentially.",
+        "label": "Teamwork and Trust",
+        "description": "Checklists help teams talk and work together.\nThey give everyone a voice to prevent errors.",
         "children": [
           {
             "id": "node-4-1",
-            "label": "Flattening Hierarchical Friction",
-            "description": "Traditional top-down authority discourages junior team members from speaking up when an error is unfolding right before their eyes.\nChecklists establish psychological safety by making verification an objective, universal duty.",
+            "label": "Speak Up Freely",
+            "description": "Anyone should be able to point out mistakes.\nChecklists make speaking up normal and safe.",
             "children": [
               {
                 "id": "node-4-1-1",
-                "label": "The Introduction Ritual",
-                "description": "Requiring every operating room member to state their name and role before an incision dramatically increases subsequent communication.\nWhen people feel seen and heard, they proactively flag hazards."
+                "label": "Say Hello First",
+                "description": "Team members say their names before starting work.\nKnowing each other makes it easier to speak up.",
+                "children": []
               },
               {
                 "id": "node-4-1-2",
-                "label": "Distributed Authority to Halt",
-                "description": "Granting every single person on the team explicit authority to stop the line when a step is missed prevents catastrophic momentum.\nShared vigilance turns individual team members into an invincible defense."
+                "label": "Power to Stop",
+                "description": "Anyone can halt work if a step is skipped.\nAll team members guard each other.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-4-2",
-            "label": "Cultivating Procedural Pride",
-            "description": "True professionals take profound pride in meticulous preparation and disciplined adherence to fundamentals.\nShifting cultural norms from reckless improvisation to relentless reliability elevates entire organizations.",
+            "label": "Pride in Discipline",
+            "description": "Real pros are proud to use checklists.\nBeing steady and prepared beats reckless guessing.",
             "children": [
               {
                 "id": "node-4-2-1",
-                "label": "Overcoming Skepticism and Cynicism",
-                "description": "Initial resistance to checklists evaporates as soon as teams experience tangible reductions in stress and mistakes.\nTangible wins turn skeptics into lifelong ambassadors of deliberate practice."
+                "label": "Seeing Is Believing",
+                "description": "People doubt checklists until they try them.\nFewer mistakes quickly win over doubters.",
+                "children": []
               },
               {
                 "id": "node-4-2-2",
-                "label": "Discipline as Freedom",
-                "description": "Rigor in routine operations unlocks extraordinary freedom for creative intuition and calm leadership.\nSystematizing the predictable parts of your craft leaves you fully energized for the unpredictable."
+                "label": "Rules Give Freedom",
+                "description": "Handling routine steps brings calm.\nYou get more time to solve hard problems.",
+                "children": []
               }
             ]
           }
@@ -1396,40 +1417,44 @@ export const THE_CHECKLIST_MANIFESTO_BOOK: Book = {
       },
       {
         "id": "node-5",
-        "label": "Continuous Evolution and Personal Mastery",
-        "description": "A checklist is a living, breathing instrument that must adapt to real-world feedback and changing conditions.\nIntegrating systematic checklists into personal growth turns everyday routines into scalable engines of excellence.",
+        "label": "Improve Over Time",
+        "description": "Keep testing and fixing your checklists.\nUse them in daily life to build great habits.",
         "children": [
           {
             "id": "node-5-1",
-            "label": "Iterative Testing and Revision",
-            "description": "No checklist emerges perfect on the first draft; it requires rigorous field testing and continuous tuning against live performance data.\nTreat your systems like software that updates through constant reflection.",
+            "label": "Test and Tweak",
+            "description": "No checklist starts out perfect.\nUpdate your list whenever things change.",
             "children": [
               {
                 "id": "node-5-1-1",
-                "label": "Trimming Operational Friction",
-                "description": "If an item creates confusion or unnecessary drag during daily use, revise the wording or delete it altogether.\nLean, intuitive workflows protect long-term engagement and consistency."
+                "label": "Remove Useless Steps",
+                "description": "Cut out any step that causes confusion.\nA lean list is easy to follow every day.",
+                "children": []
               },
               {
                 "id": "node-5-1-2",
-                "label": "Post-Mortem Upgrades",
-                "description": "Whenever an unforeseen glitch occurs, update the checklist to ensure that specific failure mode can never repeat.\nContinuous iteration turns past missteps into permanent institutional armor."
+                "label": "Learn From Errors",
+                "description": "When something goes wrong, add a quick reminder.\nStop the same mistake from happening twice.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-5-2",
-            "label": "Personal Productivity and Habit Stacking",
-            "description": "Apply checklist principles to your personal routines to crush morning inertia, streamline deep work setups, and guarantee high-energy living.\nClear, bite-sized protocols eliminate decision fatigue and build unstoppable daily momentum.",
+            "label": "Daily Habits",
+            "description": "Use simple lists in your own life.\nThey save energy and keep daily routines smooth.",
             "children": [
               {
                 "id": "node-5-2-1",
-                "label": "Daily Launch and Shutdown Sequences",
-                "description": "Install tight morning and evening checklists that cleanly frame your working day and eliminate startup friction.\nBeginning and ending each day with structured clarity guarantees restorative boundaries and compounding output."
+                "label": "Morning and Night",
+                "description": "Start and end your day with clear steps.\nThis stops stress and clears your mind.",
+                "children": []
               },
               {
                 "id": "node-5-2-2",
-                "label": "Stress-Proof High-Stakes Protocols",
-                "description": "Build quick go-to checklists for presentations, high-friction conversations, and travel packing to ensure flawless prep every time.\nHaving battle-tested checklists ready keeps you confident, centered, and unstoppable under pressure."
+                "label": "High-Stress Tasks",
+                "description": "Use quick lists for packing or big talks.\nYou will stay calm when the pressure is high.",
+                "children": []
               }
             ]
           }

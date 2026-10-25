@@ -218,7 +218,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
     <div className="flex-1 pb-32 w-full max-w-full overflow-x-hidden">
       
       {/* Sticky Reader Sub-Header */}
-      <div className="sticky top-16 z-30 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 backdrop-blur-md transition-colors w-full max-w-full overflow-hidden">
+      <div className="sticky top-16 z-30 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 shadow-xs backdrop-blur-md transition-colors w-full max-w-full overflow-hidden">
         <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 h-14 flex items-center justify-between gap-2 sm:gap-4 w-full min-w-0 overflow-x-auto no-scrollbar">
           
           {/* Back button & Book Info */}
@@ -366,7 +366,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
       </div>
 
       {/* Main View Container with generous top breathing room */}
-      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 w-full max-w-full min-w-0 pt-6 sm:pt-8">
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 w-full max-w-full min-w-0 pt-8 sm:pt-10 lg:pt-12">
         {viewMode === 'blinks' && (
           <KeyInsightsView
             book={book}

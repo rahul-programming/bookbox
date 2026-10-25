@@ -1,5 +1,5 @@
 // The Brain That Changes Itself by Norman Doidge
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -532,169 +532,169 @@ export const THE_BRAIN_THAT_CHANGES_ITSELF_BOOK: Book = {
   "actionItems": [
     {
       "id": "the-brain-that-changes-itself-act-1",
-      "title": "Non-Dominant Hand Everyday Challenge",
-      "description": "Neurons that fire together wire together, but familiar circuits run on autopilot. Swapping hands forces your motor cortex to recruit dormant neural pathways, stimulating immediate dendritic branching through unexpected tactile feedback.",
+      "title": "Use Your Other Hand",
+      "description": "Daily habits run on autopilot. Using your opposite hand forces your brain to wake up and build fresh connections.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Pick a routine manual task you perform daily without thinking, such as brushing your teeth or stirring tea.",
-        "Deliberately switch the object to your non-dominant hand.",
-        "Slow down your movement to half-speed and focus on the micro-sensations in your fingertips and forearm.",
-        "Notice the awkwardness without judgment; that exact sensation is your brain building new synaptotagmin connections."
+        "1. Pick a simple daily task like brushing your teeth.",
+        "2. Put the brush into your other hand.",
+        "3. Move slowly and pay close attention to each movement.",
+        "4. Notice the clumsy feeling as your brain learns something new."
       ],
       "sourceChapter": "Chapter 1: A Woman Perpetually Falling"
     },
     {
       "id": "the-brain-that-changes-itself-act-2",
-      "title": "Backward Route Navigation",
-      "description": "GPS reliance atrophies the hippocampus, the brain's internal cartographer. Navigating a familiar neighborhood using landmarks and mental triangulation reactivates spatial mapping networks discovered by neuroplasticity researchers.",
+      "title": "Walk Without Digital Maps",
+      "description": "GPS makes your natural sense of direction weak. Navigating on your own exercises the parts of your brain that remember spaces.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Select a short local walk or commute you typically do while glancing at digital maps.",
-        "Keep your smartphone inside your pocket on silent mode.",
-        "Identify three distinctive physical landmarks along your path (a clock tower, a brick facade, an unusual tree).",
-        "Mentally trace the bird's-eye view of your route as you move, actively sensing your spatial orientation."
+        "1. Pick a short walk you normally take with your phone.",
+        "2. Put your phone in your pocket on silent.",
+        "3. Spot three clear landmarks along your path as you walk.",
+        "4. Picture the map of your path inside your head."
       ],
       "sourceChapter": "Chapter 3: Redesigning the Brain"
     },
     {
       "id": "the-brain-that-changes-itself-act-3",
-      "title": "Constraint-Induced Task Sprint",
-      "description": "Edward Taub showed that restricting a functional limb forces an injured brain to recruit alternate cortex real estate. By temporarily restricting your easiest shortcut, you overcome learned cognitive non-use and strengthen weaker problem-solving circuits.",
+      "title": "Hide Your Easy Shortcut",
+      "description": "Blocking your favorite shortcut forces you to think differently. This helps your brain solve problems in brand new ways.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Choose an active desk task like drafting an email or organizing notes.",
-        "Introduce a sharp physical or software constraint, such as disconnecting your mouse to navigate solely with keyboard shortcuts.",
-        "Resist reaching for the mouse even when brief friction occurs.",
-        "Complete the 10-minute task to reinforce secondary motor and conceptual control loops."
+        "1. Choose a quick task like writing a short email.",
+        "2. Unplug your computer mouse so you only use the keyboard.",
+        "3. Keep your hands off the mouse even if it feels slow.",
+        "4. Finish the task using only keys to build new habits."
       ],
       "sourceChapter": "Chapter 5: Midnight Resurrections"
     },
     {
       "id": "the-brain-that-changes-itself-act-4",
-      "title": "Mental Motor Rehearsal Protocol",
-      "description": "Alvaro Pascual-Leone demonstrated that mentally visualizing physical finger movements activates and expands the motor cortex almost as effectively as physical practice. Systematic mental imagery primes your cortical maps before physical execution.",
+      "title": "Practice Moves in Your Mind",
+      "description": "Picturing a physical move trains your brain almost like real practice. Mentally rehearsing sharpens your skills before you start.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Sit comfortably in a quiet room and close your eyes before practicing a physical skill (an instrument, a typing drill, or a sports movement).",
-        "Visualize executing the movement with flawless technique, feeling the phantom muscle tension and finger angles in vivid detail.",
-        "Replay the sequence five times at standard speed and five times in hyper-slow motion.",
-        "Immediately follow the mental rehearsal with two minutes of physical execution to anchor the neural blueprint."
+        "1. Sit quietly and close your eyes before starting your practice.",
+        "2. Picture yourself doing the physical move with perfect form.",
+        "3. Run the move slowly in your mind five times.",
+        "4. Do the real move right away to lock it in."
       ],
       "sourceChapter": "Chapter 8: Brain Maps and Mental Imagery"
     },
     {
       "id": "the-brain-that-changes-itself-act-5",
-      "title": "Micro-Acuity Phoneme Listening Drill",
-      "description": "Michael Merzenich discovered that neuroplastic change requires sharp, focused attention on sensory differences. Tuning your ears to micro-differences in pitch, syllables, or accents sharpens fuzzy temporal processing maps in the auditory cortex.",
+      "title": "Listen for Tiny Sounds",
+      "description": "Your brain grows when you listen closely to unfamiliar sounds. Training your ears sharpens how you process speech.",
       "category": "daily-routine",
       "timeEstimateMinutes": 12,
       "stepByStep": [
-        "Play a podcast or speech recorded in an unfamiliar foreign accent or an audio lesson in a new language.",
-        "Close your eyes and focus intently on detecting subtle consonant sounds and vowel inflections.",
-        "Pause after distinct sentences and repeat the exact acoustic cadence and phonetics out loud.",
-        "Track your clarity over time as the auditory cortex recalibrates its frequency sorting maps."
+        "1. Play an audio clip featuring a strong foreign accent.",
+        "2. Close your eyes and focus on how the words sound.",
+        "3. Pause the audio after one sentence and repeat it aloud.",
+        "4. Listen to see if your own pronunciation matches their rhythm."
       ],
       "sourceChapter": "Chapter 3: Redesigning the Brain"
     },
     {
       "id": "the-brain-that-changes-itself-act-6",
-      "title": "Progressive Novelty Reading Sprints",
-      "description": "Plasticity is shut down by routine and switched on by high-stakes novelty and focused attention. Engaging deeply with challenging, unfamiliar literature floods the nucleus basalis with acetylcholine, reopening critical windows for synaptic restructuring.",
+      "title": "Read About Unfamiliar Topics",
+      "description": "Routine puts your brain to sleep. Reading hard topics you know nothing about sparks rapid mental growth.",
       "category": "daily-routine",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Select a book on a subject completely alien to your background (such as quantum mechanics, molecular gastronomy, or legal philosophy).",
-        "Set a countdown timer for 20 minutes and eliminate all ambient distractions.",
-        "Read actively by summarizing the core argument of each page in a single margin sentence using your own vocabulary.",
-        "Close the book and speak aloud one surprising causal mechanism you learned to lock in hippocampal encoding."
+        "1. Pick a book on a subject you know nothing about.",
+        "2. Set a timer for twenty minutes and turn off alerts.",
+        "3. Write one simple summary sentence after each page you finish.",
+        "4. Say one interesting fact out loud when you are done."
       ],
       "sourceChapter": "Chapter 2: Building Herself a Better Brain"
     },
     {
       "id": "the-brain-that-changes-itself-act-7",
-      "title": "Multisensory Workspace Enrichment Station",
-      "description": "Sterile, monotonous environments induce dendritic pruning, while sensory-rich spaces drive neurogenesis in the dentate gyrus. Structuring distinct tactile, visual, and auditory zones in your workspace stimulates continuous sensory differentiation.",
+      "title": "Add Variety to Your Desk",
+      "description": "Boring rooms make your senses dull. Adding new textures and scents keeps your brain alert and active all day.",
       "category": "environment",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Remove repetitive visual clutter and set up two contrasting sensory cues (such as a textured wooden block for tactile touch and an energizing citrus aroma).",
-        "Place reference materials on an analog stand at eye level to encourage varied visual depth and eye saccades.",
-        "Introduce natural ambient acoustic elements (like wind rustle or water flow) rather than static white noise.",
-        "Rotate one artwork or desktop object weekly to provoke the novelty receptors in your visual processing pathways."
+        "1. Clear away messy trash and paperwork from your desktop.",
+        "2. Add two sensory items like a rough stone and citrus.",
+        "3. Play calm sounds of moving water or light wind.",
+        "4. Swap one desk picture every week to introduce fresh novelty."
       ],
       "sourceChapter": "Chapter 4: Acquiring Tastes and Loves"
     },
     {
       "id": "the-brain-that-changes-itself-act-8",
-      "title": "Vestibular Balance Alignment Corner",
-      "description": "Paul Bach-y-Rita showed that sensory substitution works because the brain interprets data regardless of the input channel. Training vestibular balance directly strengthens the proprioceptive apparatus, stabilizing spatial coherence across the cerebral cortex.",
+      "title": "Set Up a Balance Spot",
+      "description": "Practicing your balance strengthens how your body reads movement. Training without your eyes pushes your balance system further.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Clear a six-foot strip along an empty wall or sturdy doorway for stability support.",
-        "Place a balance board, foam pad, or simple yoga mat in this designated space.",
-        "Stand on one foot with eyes fixed forward for 60 seconds, noting your foot's micro-adjustments.",
-        "Close your eyes for the final 15 seconds to force your brain to rely on inner ear and somatic signals rather than vision."
+        "1. Clear a small space on the floor near a wall.",
+        "2. Lay down a simple exercise mat or foam pad.",
+        "3. Stand on one foot for sixty seconds while looking ahead.",
+        "4. Close your eyes during the last fifteen seconds for balance."
       ],
       "sourceChapter": "Chapter 1: A Woman Perpetually Falling"
     },
     {
       "id": "the-brain-that-changes-itself-act-9",
-      "title": "Cognitive Automaticity & Rut Audit",
-      "description": "The plastic paradox states that the very adaptability of the brain can cement rigid, dysfunctional habits if unexamined. Auditing automated daily behaviors helps you spot petrified neural ruts before they harden into permanent default patterns.",
+      "title": "Spot Your Daily Autopilot Ruts",
+      "description": "Repeated actions turn into deep mental grooves. Catching mindless routines early helps you break bad patterns before they stick.",
       "category": "audit",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Take a notebook and log your exact physical actions during the first 90 minutes of waking.",
-        "Highlight activities executed on total autopilot (e.g., reaching for your phone in bed, reflexive social feeds, auto-selecting clothes).",
-        "Rate each behavior on a scale from 1 (deep neural rut) to 5 (active intentional choice).",
-        "Choose the most entrenched rut and design a deliberate friction point (like storing the phone across the room) to dismantle the loop."
+        "1. Write down everything you do during your first waking hour.",
+        "2. Mark the habits you do without thinking, like checking messages.",
+        "3. Rate each marked habit from one to five for automaticity.",
+        "4. Move your phone across the room to break that habit."
       ],
       "sourceChapter": "Chapter 9: The Plastic Paradox"
     },
     {
       "id": "the-brain-that-changes-itself-act-10",
-      "title": "Sensory Substitution Reflection Audit",
-      "description": "When one sensory pathway is muted, cortical regions reallocate processing capacity to sharpen remaining signals. Assessing your sensory reliance reveals blind spots and highlights underused sensory modalities waiting to be reclaimed.",
+      "title": "Check Your Sense Variety",
+      "description": "Staring at screens all day weakens your other senses. Taking quick breaks to touch and taste things sharpens your mind.",
       "category": "audit",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Spend 15 minutes reviewing how much of your daily work relies exclusively on 2D visual glass screens.",
-        "Conduct a blindfolded five-minute tasting and tactile exploration session with three distinct pantry items.",
-        "Record the subtlety of textures, temperatures, and notes your taste and touch nerves detected when vision was suppressed.",
-        "Identify two daily tasks where tactile or auditory feedback can replace visual oversight."
+        "1. Estimate how many hours you spend staring at flat screens.",
+        "2. Put on a blindfold and taste three different kitchen snacks.",
+        "3. Notice the exact textures and smells without using your eyes.",
+        "4. Pick two tasks where touch or sound can replace screens."
       ],
       "sourceChapter": "Chapter 1: A Woman Perpetually Falling"
     },
     {
       "id": "the-brain-that-changes-itself-act-11",
-      "title": "Error-Driven Skill Feedback Loop",
-      "description": "Brain maps reorganize most rapidly during the precise boundary between incompetence and mastery. A deliberate feedback system ensures tasks stay within the Goldilocks zone of difficulty, maximizing acetylcholine and dopamine release.",
+      "title": "Track Your Daily Practice Mistakes",
+      "description": "You learn fastest when a task is just hard enough. Tracking small mistakes gives your brain the feedback it needs to grow.",
       "category": "system",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "Select a skill you want to develop (touch typing, conversational Spanish, or chess tactics).",
-        "Establish an instant error-tracking system: log every mistake immediately in a dedicated two-column ledger (Error vs. Correction).",
-        "Calibrate task difficulty so your error rate sits steadily around 15\u201320% (if error-free, increase speed or complexity).",
-        "Review errors at the end of each session to present the brain with clear correction patterns before sleep consolidation."
+        "1. Pick a clear skill you want to get better at.",
+        "2. Write down every mistake in a simple two-column notebook.",
+        "3. Make the drills faster if you are not making mistakes.",
+        "4. Review your list of mistakes right before you go to bed."
       ],
       "sourceChapter": "Chapter 3: Redesigning the Brain"
     },
     {
       "id": "the-brain-that-changes-itself-act-12",
-      "title": "Neuroplastic Unlearning & Extinction Architecture",
-      "description": "Jeffrey Schwartz demonstrated with OCD patients that unwanted neural pathways atrophy only when redirected toward constructive behaviors during moments of craving. This system rewires compulsive loops through recognition, reattribution, and immediate redirection.",
+      "title": "Break an Unwanted Habit Loop",
+      "description": "Bad habits only fade when you swap them for better choices. Moving your focus away from urges weakens the old routine.",
       "category": "system",
       "timeEstimateMinutes": 40,
       "stepByStep": [
-        "Pinpoint an automatic compulsive pattern you want to dissolve (e.g., compulsive email checking or stress-induced snacking).",
-        "Step 1: Relabel \u2014 When the urge strikes, label it aloud: 'This is not a real need; this is an overactive neural circuit.'",
-        "Step 2: Reattribute \u2014 State the biological reality: 'My caudate nucleus is misfiring and sending a false alarm.'",
-        "Step 3: Refocus \u2014 Immediately pivot to a pre-chosen, rewarding alternative behavior for at least 15 uninterrupted minutes to starve the old circuit."
+        "1. Pick one bad habit you keep repeating each day.",
+        "2. Say aloud: This urge is just an old habit firing.",
+        "3. Switch immediately to a healthy activity for fifteen solid minutes.",
+        "4. Stay focused on the new task until the urge fades."
       ],
       "sourceChapter": "Chapter 6: Brain Lock Unlocked"
     }
@@ -871,10 +871,10 @@ export const THE_BRAIN_THAT_CHANGES_ITSELF_BOOK: Book = {
       "author": "Norman Doidge",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Cortical Real Estate Competition",
-      "body": "Your brain does not possess a permanent territorial map.\nSynaptic space is governed by strict free-market dynamics: whatever faculties you actively exercise claim more cortical territory, while the circuits you neglect are rapidly colonized by adjacent, busier networks.",
-      "quote": "The brain is not an inanimate vessel that we fill; rather, it is more like a living creature with a tremendous appetite that grows as it feeds.",
-      "actionItem": "Defend high-order cognitive faculties by scheduling uninterrupted 45-minute deep focus blocks daily to prevent low-friction digital habits from invading your attention network.",
+      "headline": "Brain Space Battle",
+      "body": "Your brain space is limited and constantly up for grabs.\nSkills you use grow bigger areas in your head.\nUnused skills quickly lose their space to busy daily habits.",
+      "quote": "The brain acts like a hungry creature that grows as it feeds.",
+      "actionItem": "Block forty-five minutes of quiet focus today so random phone scrolling does not take over.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -892,10 +892,10 @@ export const THE_BRAIN_THAT_CHANGES_ITSELF_BOOK: Book = {
       "author": "Norman Doidge",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Hebb's Law and Associative Wiring",
-      "body": "When two neurons fire in close temporal proximity, the chemical efficiency of their mutual connection multiplies.\nThis fundamental biological rule explains why emotional reactions, physical environments, and bad habits become welded together into reflexive, automatic packages.",
-      "quote": "Neurons that fire together, wire together.",
-      "actionItem": "Decouple toxic associations by deliberately changing your physical workstation whenever you need to break a recurring pattern of avoidance or anxiety.",
+      "headline": "Connected Brain Wires",
+      "body": "Brain cells that fire at the same time quickly link together.\nThat is why places and feelings lock into automatic habits.\nDoing two things together glues them inside your head.",
+      "quote": "Brain cells that fire together wire together into one solid path.",
+      "actionItem": "Move your desk to another room today to break an old loop of worry.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -913,10 +913,10 @@ export const THE_BRAIN_THAT_CHANGES_ITSELF_BOOK: Book = {
       "author": "Norman Doidge",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Plastic Paradox",
-      "body": "The exact structural pliability that enables rapid learning is the exact mechanism that cements dogmatism, addiction, and neuroses.\nOnce a plastic change takes root, it creates a physical groove of least resistance that becomes progressively harder to extinguish.",
-      "quote": "The plastic paradox is that the same neuroplastic properties that allow us to change our brains and rewire them also allow us to become stuck.",
-      "actionItem": "Audit one daily automation that started as a convenience but has calcified into an inflexible crutch, and disrupt it today.",
+      "headline": "The Change Trap",
+      "body": "Your brain learns new tricks fast by building deep grooves.\nBut those same deep grooves make bad habits stick hard.\nOnce a habit locks in, escaping it takes huge effort.",
+      "quote": "The same brain power that helps us learn can also trap us.",
+      "actionItem": "Spot one lazy shortcut you use daily and do it by hand today.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -934,10 +934,10 @@ export const THE_BRAIN_THAT_CHANGES_ITSELF_BOOK: Book = {
       "author": "Norman Doidge",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Constraint-Induced Therapy for Mind and Skill",
-      "body": "True neuroplastic reorganization occurs only when compensatory shortcuts are strictly outlawed.\nBy physically or mentally restraining the dominant faculty, you compel the weakened, underutilized circuit to adapt, reorganize, and take on the workload.",
-      "quote": "Use it or lose it would be more accurately phrased: use it and improve it, or neglect it and surrender it to a neighbor.",
-      "actionItem": "Identify a dominant shortcut you rely on at work (e.g., auto-suggest or pre-made templates) and ban yourself from using it for 72 hours.",
+      "headline": "Forced Growth Practice",
+      "body": "The brain only grows when you block your easiest shortcuts.\nIf you hold back your strongest hand, the weak one wakes up.\nStopping easy options forces tired parts of your brain to work.",
+      "quote": "Use a skill and grow it, or ignore it and lose it.",
+      "actionItem": "Pick one auto-complete tool at work and turn it off for three days.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -955,10 +955,10 @@ export const THE_BRAIN_THAT_CHANGES_ITSELF_BOOK: Book = {
       "author": "Norman Doidge",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Sensory Substitution and Sensory Transduction",
-      "body": "The brain does not see with the eyes or hear with the ears; it interprets electrical pulse streams delivered through nerve fibers.\nIf tactile sensors on the tongue or skin send patterned electrical signals, the visual cortex will decode them into three-dimensional sight.",
-      "quote": "We see with the brain, not with the eyes.",
-      "actionItem": "Expand your learning channels by converting text-only material into audio, tactile diagrams, or kinetic drills to stimulate alternative sensory maps.",
+      "headline": "Trading Your Senses",
+      "body": "Your eyes do not see; your brain reads electric pulses.\nIf tongue sensors send touch signals, the brain sees shapes.\nThe brain can turn any steady signal into clear pictures.",
+      "quote": "We see with the brain, not with our open eyes.",
+      "actionItem": "Turn a written work guide into audio and listen while walking outside today.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -976,10 +976,10 @@ export const THE_BRAIN_THAT_CHANGES_ITSELF_BOOK: Book = {
       "author": "Norman Doidge",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Mirror Box Mechanism",
-      "body": "Phantom limb pain often stems from learned motor paralysis: the motor cortex fires a command, receives no sensory verification, and registers agonizing feedback.\nVisual trickery can provide the missing visual feedback loop, tricking the brain into instantly relaxing the ghost limb.",
-      "quote": "The brain can be fooled by the visual system into unlearning pain it thought was permanent.",
-      "actionItem": "When stuck in rumination over an unresolved conflict, create a symbolic physical closure ritual to provide your cognitive circuits with the missing feedback signal.",
+      "headline": "The Mirror Trick",
+      "body": "A missing arm can hurt if the brain expects feelings back.\nA simple mirror shows a good arm moving freely instead.\nSeeing that trick lets the brain relax and end the pain.",
+      "quote": "Simple eye tricks can fool the brain into letting go of pain.",
+      "actionItem": "Write down an unresolved argument on paper and tear it up for closure.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -997,10 +997,10 @@ export const THE_BRAIN_THAT_CHANGES_ITSELF_BOOK: Book = {
       "author": "Norman Doidge",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Active Mental Rehearsal as Physical Architecture",
-      "body": "Rigorous, focused visualization stimulates identical cortical regions as physical execution.\nImagining playing musical notes on a keyboard produces measurable physical expansion of the finger-motor representation in the cortex comparable to real-world practice.",
-      "quote": "Mental practice can produce real changes in physical performance and in the physical structure of the brain.",
-      "actionItem": "Spend 10 minutes performing eyes-closed, slow-motion mental simulations of an upcoming public speaking or high-stakes presentation before practicing live.",
+      "headline": "Brain Practice Works",
+      "body": "Picturing an action lights up the exact same brain paths.\nImagining piano playing changes brain shape just like real keys do.\nMental practice builds real muscle control inside your head.",
+      "quote": "Imagining an action changes the physical shape of your brain.",
+      "actionItem": "Close your eyes and mentally practice your next big talk for ten minutes.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1018,10 +1018,10 @@ export const THE_BRAIN_THAT_CHANGES_ITSELF_BOOK: Book = {
       "author": "Norman Doidge",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Epigenetic Neurogenesis via Environmental Enrichment",
-      "body": "The adult hippocampus contains self-renewing neural stem cells that generate thousands of brand-new neurons every single day.\nHowever, without intense physical movement, continuous problem-solving, and sensory novelty, these nascent cells die within days.",
-      "quote": "New neurons are born daily, but only those challenged by new learning survive and integrate into the thinking fabric.",
-      "actionItem": "Pair an intense aerobic workout with 30 minutes of studying a completely unfamiliar subject to ensure newborn hippocampal neurons integrate.",
+      "headline": "Growing New Brains",
+      "body": "Your brain makes fresh new cells every single morning.\nBut these newborn cells die fast if you sit still.\nMoving your body and learning new things keeps them alive.",
+      "quote": "New brain cells are born daily, but only challenged cells survive.",
+      "actionItem": "Go for a brisk run today, then spend thirty minutes reading something totally new.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1039,10 +1039,10 @@ export const THE_BRAIN_THAT_CHANGES_ITSELF_BOOK: Book = {
       "author": "Norman Doidge",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "The Four-Step Neuroplastic Pivot",
-      "body": "When compulsive urges strike, patients conquer them by executing Jeffrey Schwartz's four protocol steps: Relabel the feeling as a false glitch, Reattribute it to a faulty circuit, Refocus attention onto an enjoyable physical activity, and Revalue the impulse as meaningless noise.",
-      "quote": "You are not your brain; you are the user who can rewire it by changing what you choose to attend to.",
-      "actionItem": "When an irrational anxiety spikes, verbally state 'That is not me, that is my amygdala glitching,' and immediately switch to a demanding manual task for 15 minutes.",
+      "headline": "Four-Step Brain Reset",
+      "body": "Stop bad urges by calling them simple brain glitches.\nShift your focus to a fun physical task right away.\nDoing this teaches your head to ignore the false alarm.",
+      "quote": "You are not your brain; you control where your attention goes.",
+      "actionItem": "When panic hits, say 'my brain is glitching' and wash dishes right away.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1060,10 +1060,10 @@ export const THE_BRAIN_THAT_CHANGES_ITSELF_BOOK: Book = {
       "author": "Norman Doidge",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Plasticity of Experience",
-      "body": "Every waking thought, habitual posture, and micro-behavior is an active architectural event.\nWe are not static statues enduring time, but kinetic riverbeds whose banks are continuously reshaped by the currents of our own deliberate attention.",
-      "quote": "Because the brain is plastic, it is constantly changing in response to everything we do, think, and feel.",
-      "actionItem": "Treat your mental media diet as physical nutrition; discard one hyper-stimulating, low-substance feed to protect your baseline attention networks.",
+      "headline": "Shaped by Daily Life",
+      "body": "Every single thought and action reshapes your physical brain.\nYou are like a riverbed carved by running water.\nWhat you choose to watch and do shapes your mind.",
+      "quote": "The brain changes every day based on what we do and feel.",
+      "actionItem": "Unfollow one loud social media feed today to protect your daily calm.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1081,10 +1081,10 @@ export const THE_BRAIN_THAT_CHANGES_ITSELF_BOOK: Book = {
       "author": "Norman Doidge",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Map Smearing and Focal Dystonia",
-      "body": "When complex physical activities are repeated with immense speed and high tension without sufficient sensory precision, the discrete boundaries separating individual finger maps fuse together into a blurred clump, rendering controlled movement impossible.",
-      "quote": "When neurons fire simultaneously without differentiation, the brain's internal maps can blur together into dysfunction.",
-      "actionItem": "When practicing any delicate technical skill (typing, coding syntax, playing music), drastically slow your cadence to reinforce razor-sharp boundary maps.",
+      "headline": "Blurry Brain Maps",
+      "body": "Rushing through tense, fast hand movements can blur brain signals.\nIndividual finger controls blend into one messy lump inside your head.\nWhen that happens, fine control stops working completely.",
+      "quote": "Moving too fast without care can make your brain maps blur together.",
+      "actionItem": "Slow down your typing or music practice to half speed for ten minutes.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1102,10 +1102,10 @@ export const THE_BRAIN_THAT_CHANGES_ITSELF_BOOK: Book = {
       "author": "Norman Doidge",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Acetylcholine and the Critical Period Gate",
-      "body": "During infancy, the brain is perpetually plastic.\nIn adulthood, neuroplastic changes require a molecular gatekeeper: acetylcholine.\nThis neuromodulator is released only when we apply laser-focused, conscious attention and experience surprise or genuine novelty.",
-      "quote": "Attention must be paid. Effortless repetition changes almost nothing in the adult brain; it is focused effort that turns the plastic switch on.",
-      "actionItem": "Eliminate multitasking during study sessions; turn off second screens so acetylcholine floods your cortex and permits physical map remodeling.",
+      "headline": "The Focus Switch",
+      "body": "Adult brains need deep focus to unlock new changes.\nMindless repetition changes almost nothing in your head.\nSurprises and intense focus flip the learning switch on.",
+      "quote": "Lazy repetition does nothing; full focus flips the brain switch on.",
+      "actionItem": "Put your phone in another room today while studying to lock in focus.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1123,10 +1123,10 @@ export const THE_BRAIN_THAT_CHANGES_ITSELF_BOOK: Book = {
       "author": "Norman Doidge",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Unlearning Learned Nonuse",
-      "body": "When an injury or trauma makes an action clumsy, patients instinctively stop trying and rely on easy workarounds.\nThis creates 'learned nonuse'\u2014the functional brain map for that capability shrivels away out of voluntary abandonment rather than physical destruction.",
-      "quote": "Learned nonuse is often more disabling than the initial injury itself.",
-      "actionItem": "Locate an activity you gave up because you felt 'naturally terrible' at it; re-engage it with a beginner's patience for 15 minutes three times a week.",
+      "headline": "Dropping Bad Giving Up",
+      "body": "When a skill feels hard after an injury, people quit trying.\nGiving up causes the brain map for that skill to fade.\nThe loss comes from quitting, not just the original wound.",
+      "quote": "Giving up on a skill hurts more than the original injury.",
+      "actionItem": "Pick a task you quit because it felt hard and try it for fifteen minutes.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1144,10 +1144,10 @@ export const THE_BRAIN_THAT_CHANGES_ITSELF_BOOK: Book = {
       "author": "Norman Doidge",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Cognitive Reserve Architecture",
-      "body": "Autopsy studies show individuals whose brains were riddled with Alzheimer's pathology who nevertheless showed zero clinical signs of dementia in life.\nTheir secret was a vast cognitive reserve: redundant, highly interconnected pathways built through decades of vigorous mental challenge.",
-      "quote": "Those who build rich, complex cognitive reserves can lose large numbers of neurons without ever displaying the symptoms of decline.",
-      "actionItem": "Begin learning an intrinsically difficult skill unrelated to your profession\u2014such as chess tactics, a tonal language, or formal logic\u2014to build structural redundancy.",
+      "headline": "Backup Brain Paths",
+      "body": "People who challenge their minds build extra pathways in their heads.\nWhen old pathways get hurt, backup routes take over smoothly.\nActive lifelong learners stay sharp even in old age.",
+      "quote": "People with rich mental reserves can lose brain cells without losing sharpness.",
+      "actionItem": "Download a chess app or language tool today and play one short lesson.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1165,10 +1165,10 @@ export const THE_BRAIN_THAT_CHANGES_ITSELF_BOOK: Book = {
       "author": "Norman Doidge",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Dynamic Soul of the Machine",
-      "body": "The 300-year-old metaphor comparing the human brain to a mechanical clockwork or hard-wired computer is biologically obsolete.\nThe brain is not hardwired hardware running fixed software; it is living tissue that rewires its own hardware in response to the software running through it.",
-      "quote": "The brain is a far more open system than we ever imagined, and nature has gone to great lengths to help us adapt to the world by giving us a brain that adapts to itself.",
-      "actionItem": "Discard self-limiting narratives framed as 'I am just wired this way' and reframe traits as dynamic patterns subject to continuous synaptic update.",
+      "headline": "Not Fixed Machines",
+      "body": "Your brain is not a hardwired computer box.\nIt is living tissue that reshapes itself all the time.\nEverything you experience changes how the brain builds itself.",
+      "quote": "Nature gave us a living brain that can constantly rebuild itself.",
+      "actionItem": "Stop saying 'I was born this way' when facing a tough new challenge.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1186,10 +1186,10 @@ export const THE_BRAIN_THAT_CHANGES_ITSELF_BOOK: Book = {
       "author": "Norman Doidge",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "The Auditory Discrimination Reboot",
-      "body": "Michael Merzenich demonstrated that reading difficulties and cognitive fog in aging often stem from a degraded auditory processing clock: the brain smears fast speech sounds together.\nRetraining your auditory timing with high-speed phoneme distinction exercises restores crystal-clear comprehension.",
-      "quote": "By training the brain to process faster and finer sensory signals, we can sharpen its operating speed and memory capacity across the board.",
-      "actionItem": "Listen to educational audiobooks at 1.5x to 2x speed for 20 minutes while following the written text with your eyes to force temporal resolution sharpening.",
+      "headline": "Sharpen Your Hearing",
+      "body": "Slow listening speeds can make words blur together in aging brains.\nPracticing with quick, clear speech sounds sharpens your hearing clock.\nCleaning up sound signals brings back fast mental clarity.",
+      "quote": "Training your senses sharpens your speed and memory across the board.",
+      "actionItem": "Play an audiobook at fast speed while reading the text with your eyes.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1207,10 +1207,10 @@ export const THE_BRAIN_THAT_CHANGES_ITSELF_BOOK: Book = {
       "author": "Norman Doidge",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Unmasking Latent Pathways",
-      "body": "When a primary neural highway is suddenly severed by trauma or stroke, adjacent silent circuits\u2014normally suppressed by lateral inhibition\u2014are instantly released.\nWith targeted exercise, these dormant backup pathways can be unmasked and amplified to take over full functional responsibility.",
-      "quote": "In every human brain there are redundant, silent pathways waiting in reserve for the call to step forward.",
-      "actionItem": "When your primary strategy for completing a recurring project fails, forbid yourself from forcing it; deliberately activate a dormant, secondary method.",
+      "headline": "Hidden Backup Wires",
+      "body": "When a main brain path gets cut, quiet backup paths wake up.\nThese silent routes usually wait until the main highway stops working.\nWith steady practice, backup wires take over the whole job.",
+      "quote": "Every brain has silent backup paths waiting for the call to help.",
+      "actionItem": "When your usual work plan stalls, try an unfamiliar backup method right away.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1228,10 +1228,10 @@ export const THE_BRAIN_THAT_CHANGES_ITSELF_BOOK: Book = {
       "author": "Norman Doidge",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Plasticity of Pain",
-      "body": "Chronic pain is frequently a disease of neuroplasticity: constant firing turns up the gain on pain transmission pathways in the spinal cord and thalamus.\nOver time, the brain becomes hyper-efficient at generating pain sensations even after the physical injury has completely healed.",
-      "quote": "Pain, like any other sensory signal, can become an entrenched habit of the nervous system.",
-      "actionItem": "Counter chronic discomfort or tension by practicing mindful desensitization: reframe the raw sensation as neutral electrical warmth rather than imminent physical danger.",
+      "headline": "Pain Can Stick",
+      "body": "Long-term pain often turns into a stuck brain habit.\nThe nervous system gets too good at sending alarm screams.\nThe alarm keeps ringing even after the real body injury heals.",
+      "quote": "Pain can become an entrenched habit inside the nervous system.",
+      "actionItem": "Notice body tension and tell yourself it is just safe, neutral energy.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1249,10 +1249,10 @@ export const THE_BRAIN_THAT_CHANGES_ITSELF_BOOK: Book = {
       "author": "Norman Doidge",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Architecture of Perpetual Becoming",
-      "body": "Every experience leaves an enduring physical imprint on the structural geometry of our brains.\nBy directing what we read, practice, and experience, we act as both the conscious resident and the active master architect of our own neural landscape.",
-      "quote": "We are born with an unfinished brain, and our task in living is to finish it.",
-      "actionItem": "Take five minutes every evening to reflect on one new concept you explored that day, deliberately imprinting its core meaning into long-term memory.",
+      "headline": "Building Your Mind",
+      "body": "Every single thing you do leaves a mark inside your head.\nYou are the architect building your own brain pathways every day.\nChoosing good habits shapes who you become tomorrow.",
+      "quote": "We are born unfinished, and living is our chance to build ourselves.",
+      "actionItem": "Take five quiet minutes tonight to think over one useful thing you learned.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1270,10 +1270,10 @@ export const THE_BRAIN_THAT_CHANGES_ITSELF_BOOK: Book = {
       "author": "Norman Doidge",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Transneuronal Degeneration vs. Sprouting",
-      "body": "When a neuron dies, its neighboring downstream targets risk atrophy due to sudden sensory starvation (transneuronal degeneration).\nConversely, vigorous environmental stimulation prompts surviving cells to sprout new dendritic branches, filling the vacuum with fresh synaptic bridges.",
-      "quote": "The living brain abhors a vacuum; empty circuits wither, but active circuits branch and flourish.",
-      "actionItem": "Protect vulnerable cognitive nodes after periods of illness, burnout, or grief by engaging in sensory-rich outdoor movement and complex puzzles.",
+      "headline": "Sprout New Branches",
+      "body": "When brain cells die, nearby cells can shrivel from lack of action.\nBut active mental exercise makes surviving cells sprout new branches.\nStaying engaged quickly bridges the empty gaps.",
+      "quote": "Quiet circuits wither away, but active brain circuits branch and grow.",
+      "actionItem": "Take an outdoor walk and solve a fun puzzle after a tiring week.",
       "tags": [
         "Psychology",
         "Core Insights"

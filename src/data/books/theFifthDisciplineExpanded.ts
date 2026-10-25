@@ -1,5 +1,5 @@
 // The Fifth Discipline by Peter M. Senge
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -934,169 +934,169 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
   "actionItems": [
     {
       "id": "the-fifth-discipline-act-1",
-      "title": "Map a Hidden Feedback Loop",
-      "description": "Notice how everyday problems feed on your own quick fixes. Instead of viewing a setback as a straight line from cause to effect, trace how your response might actually be fueling the issue down the road.",
+      "title": "Map a Problem Loop",
+      "description": "Notice how your quick fixes feed your daily problems. You will see how your actions keep the issue alive.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Pick an annoying recurring problem at work or home, like chronic email overload or sudden fire-drills.",
-        "Draw a circle on paper with two opposing poles: your 'current symptom' and your 'standard quick fix'.",
-        "Add arrows showing how applying that quick fix provides immediate relief but triggers a delayed side effect.",
-        "Highlight the loop back to the original symptom so you can see the cycle sustaining itself."
+        "1. Pick a pesky problem that keeps happening at work or home.",
+        "2. Draw two circles on paper for the problem and your quick fix.",
+        "3. Draw arrows showing how that quick fix brings new trouble later.",
+        "4. Trace the full circle to see the loop repeat itself."
       ],
       "sourceChapter": "Chapter 4: The Laws of the Fifth Discipline"
     },
     {
       "id": "the-fifth-discipline-act-2",
-      "title": "Run the 'Left-Hand Column' Journaling Exercise",
-      "description": "Uncover the silent mental filters steering your daily meetings. By writing out what you actually thought versus what you felt safe enough to say out loud, you spot the defensive routines keeping genuine teamwork stuck.",
+      "title": "Try Two-Column Journaling",
+      "description": "See the hidden thoughts driving your hard conversations. Spotting these silent thoughts helps you speak up with less fear.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Take a blank sheet of paper and draw a vertical line straight down the center.",
-        "In the right-hand column, write down the dialogue of a recent tense or unproductive conversation as it actually happened.",
-        "In the left-hand column, jot down what you were honestly thinking and feeling at each moment but kept to yourself.",
-        "Ask yourself: 'What underlying belief or fear kept me from voicing those observations constructively?'"
+        "1. Draw a line down the middle of a blank sheet of paper.",
+        "2. Write words said during a tense chat on the right side.",
+        "3. Write what you truly thought and felt on the left side.",
+        "4. Ask yourself why you were afraid to say those thoughts aloud."
       ],
       "sourceChapter": "Chapter 9: Mental Models"
     },
     {
       "id": "the-fifth-discipline-act-3",
-      "title": "Audit Compensating Feedback",
-      "description": "Investigate where pushing harder on a project is mysteriously producing more resistance. Systems often fight back against forced interventions when the underlying balancing mechanism hasn't been relieved.",
+      "title": "Spot What Pushes Back",
+      "description": "Notice when pushing harder on a project makes things worse. Systems fight back when we force changes on them.",
       "category": "audit",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Identify a project, habit, or team initiative where effort has doubled but results remain stubbornly flat.",
-        "Catalogue every aggressive push you've made over the last 30 days (e.g., overtime, nagging, emergency patches).",
-        "List the subtle counter-pressures that arose in response, such as fatigue, passive resistance, or quality drops.",
-        "Locate the balancing point: what implicit limit or unspoken fear is pushing back against your momentum?"
+        "1. Pick a task where extra hard work brings no good results.",
+        "2. List all the force you used, like overtime or nagging.",
+        "3. Note new problems that popped up, like burnout or bad moods.",
+        "4. Ask what hidden worry or limit is fighting your hard push."
       ],
       "sourceChapter": "Chapter 4: The Laws of the Fifth Discipline"
     },
     {
       "id": "the-fifth-discipline-act-4",
-      "title": "Erect a 'System Archetype' Visual Wall",
-      "description": "Shape your physical or digital team workspace so everyone sees systemic patterns rather than blaming individuals. Putting fundamental archetypes into view trains collective attention on shared structure.",
+      "title": "Post Problem Pattern Posters",
+      "description": "Put simple diagrams on your wall to show repeating patterns. This stops blame games and helps teams fix bad habits together.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Sketch or print two classic system archetypes: 'Fixes that Fail' and 'Shifting the Burden'.",
-        "Mount them beside your project whiteboard or pin them directly to your virtual team workspace.",
-        "Label the generic loops with active workplace examples so team members recognize familiar patterns.",
-        "Add sticky notes around the loops whenever a current project hits an unexplained roadblock."
+        "1. Print simple sketches for 'Quick Fixes Fail' and 'Shifting Burden'.",
+        "2. Hang them on your wall or in your online team room.",
+        "3. Write everyday examples on the sketches so the team understands them.",
+        "4. Stick notes on the sketches when a project gets stuck."
       ],
       "sourceChapter": "Chapter 6: Nature's Templates: Identifying the Patterns That Control Events"
     },
     {
       "id": "the-fifth-discipline-act-5",
-      "title": "Install a Weekly Dialogue Check-in",
-      "description": "Build an operating rhythm where dialogue replaces debate. Rather than arguing to win points, the team meets to suspend assumptions, observe collective thinking, and explore shared meaning.",
+      "title": "Hold a Weekly Honest Chat",
+      "description": "Set aside time to talk without arguing or defending turf. You learn to listen well and think together as a team.",
       "category": "system",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "Schedule a recurring 45-minute reflection block with zero status updates, slide decks, or tactical votes.",
-        "Establish ground rules: every participant treats each other as a colleague and openly suspends their assumptions.",
-        "Invite one member to state a thorny challenge without offering an immediate solution.",
-        "Take turns asking clarifying questions that probe underlying reasoning rather than defending turf."
+        "1. Book a 45-minute team chat with no slides or status reports.",
+        "2. Agree to drop assumptions and treat everyone as an equal friend.",
+        "3. Have one person share a tough problem without offering an answer.",
+        "4. Ask gentle questions to learn how others see the issue."
       ],
       "sourceChapter": "Chapter 12: Team Learning"
     },
     {
       "id": "the-fifth-discipline-act-6",
-      "title": "Calibrate Your Structural Tension",
-      "description": "Harness the natural creative energy between where you truly want to be and where things stand right now. Clarifying both poles generates sustainable motivation without needing artificial crises.",
+      "title": "Pull Toward Your Goal",
+      "description": "Use the gap between your dream and today to fuel action. This gap creates natural energy that pulls you forward.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Write down a vivid, uncompromising statement of your desired outcome for a major project.",
-        "Directly below it, describe the unvarnished current reality with complete honesty, omitting spin or wishful thinking.",
-        "Visualize a stretched rubber band connecting the two, feeling the pulling tension between vision and reality.",
-        "Identify one concrete step today that resolves that tension toward the vision rather than lowering your goal."
+        "1. Write down your dream goal clearly on top of a page.",
+        "2. Write the honest truth about where you stand right below it.",
+        "3. Picture a rubber band pulling the truth toward your goal.",
+        "4. Take one small step today toward that goal without giving up."
       ],
       "sourceChapter": "Chapter 8: Personal Mastery"
     },
     {
       "id": "the-fifth-discipline-act-7",
-      "title": "Perform an 'Inquiry vs. Advocacy' Balance Check",
-      "description": "Observe your conversational balance throughout the day. Chronic problem-solvers tend to over-advocate their own positions while forgetting to inquire into the reasoning and perspectives of others.",
+      "title": "Track Talking Versus Asking",
+      "description": "Watch how often you give orders versus asking good questions. Asking more questions helps you understand other people much better.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Keep a pocket notepad or note widget handy during your daily meetings and calls.",
-        "Make a tally mark in Column A whenever you state your opinion or tell someone what to do.",
-        "Make a tally mark in Column B whenever you ask an open-ended question to learn another person's rationale.",
-        "At day's end, calculate your ratio and commit to opening tomorrow's meetings with deliberate inquiry."
+        "1. Keep a small notepad with you during all your work calls.",
+        "2. Make a mark each time you share your own strong opinion.",
+        "3. Make another mark each time you ask someone a question.",
+        "4. Check your count and ask more questions during tomorrow's calls."
       ],
       "sourceChapter": "Chapter 9: Mental Models"
     },
     {
       "id": "the-fifth-discipline-act-8",
-      "title": "Audit the 'Boiling Frog' Creep",
-      "description": "Inspect your environment for slow, incremental declines that escape notice because they happen in tiny, gradual steps rather than dramatic emergencies.",
+      "title": "Catch Slow Bad Changes",
+      "description": "Watch for small drops in quality before they become big crises. Tiny bad changes add up when nobody pays close attention.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Pick three vital health metrics: physical stamina, relationship quality, or team craftsmanship.",
-        "Compare today's baseline directly against where you were twelve to eighteen months ago, skipping recent weeks.",
-        "Spot any slow erosion that was normalized simply because the day-to-day shift was imperceptible.",
-        "Define an unambiguous 'tripwire threshold' that triggers immediate corrective action whenever reached."
+        "1. Pick three key areas like energy, team spirit, or work quality.",
+        "2. Compare today's reality to where things were over one year ago.",
+        "3. Look for slow drops in quality that you got used to.",
+        "4. Set a clear warning line that forces you to fix things."
       ],
       "sourceChapter": "Chapter 2: Does Your Organization Have a Learning Disability?"
     },
     {
       "id": "the-fifth-discipline-act-9",
-      "title": "Establish an Assumptions-Testing Sandbox",
-      "description": "Transform team syncs by introducing a shared sandbox board where hypotheses are openly dissected before launching costly initiatives.",
+      "title": "Test Your Big Guesses",
+      "description": "Create a shared place to test guesses before starting big projects. You will save time and money by checking facts early.",
       "category": "environment",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Create a dedicated column on your shared board labeled 'Unverified Assumptions'.",
-        "Require every major proposal to explicitly list the top three beliefs that must be true for it to work.",
-        "Design a low-risk mini-experiment for each assumption before assigning development or budget resources.",
-        "Review test outcomes collaboratively to update the team's shared mental models."
+        "1. Make a column on your task board called 'Unchecked Guesses'.",
+        "2. Write down three guesses that must come true for success.",
+        "3. Run a cheap, fast test for each guess right away.",
+        "4. Check the results as a team before spending more money."
       ],
       "sourceChapter": "Chapter 10: Mental Models in Action"
     },
     {
       "id": "the-fifth-discipline-act-10",
-      "title": "Locate High-Leverage Intervention Points",
-      "description": "Discover where tiny, focused adjustments can yield enduring, systemic improvements. Stop applying blunt force to loud symptoms and zero in on the quiet constraint holding the system in place.",
+      "title": "Find the Sweet Spot",
+      "description": "Find small spots where a tiny change solves a big mess. Stop using brute force and fix the real hidden cause.",
       "category": "system",
       "timeEstimateMinutes": 40,
       "stepByStep": [
-        "Map the chain of events causing a chronic breakdown across your team or personal routine.",
-        "Identify the 'delay' in the system where actions take time to produce visible consequences.",
-        "Search for the non-obvious lever: often located where the system resists change or where rules are set.",
-        "Implement a slight, highly targeted change at that pivot point and observe without intervening for two weeks."
+        "1. Map out all the steps in a problem that keeps happening.",
+        "2. Spot where slow delays make people wait or guess wrong.",
+        "3. Look for one small rule or step that controls everything else.",
+        "4. Change that one small step and watch what happens for weeks."
       ],
       "sourceChapter": "Chapter 5: A Shift of Mind"
     },
     {
       "id": "the-fifth-discipline-act-11",
-      "title": "The 'I Am My Position' Lens Shift",
-      "description": "Dissolve the cognitive illusion that your responsibility ends at your job title. Looking past your role boundaries reveals how your daily handoffs unintentionally complicate life for adjacent teams.",
+      "title": "Fix Your Work Handoffs",
+      "description": "Look past your job title to see how your handoffs land. Helping the next person makes the whole team run much faster.",
       "category": "quick-win",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Select a task you regularly finish and pass along to a colleague or another department.",
-        "Walk over or jump on a call to ask them: 'What extra work or guesswork does my handoff create for you?'",
-        "Listen without defending your existing workflow or explaining company constraints.",
-        "Make one adjustment to your preparation so your output seamlessly plugs into their input."
+        "1. Pick a task you finish and hand off to someone else.",
+        "2. Ask that person how your handoff causes them extra hard work.",
+        "3. Listen to their answers without arguing or defending your old ways.",
+        "4. Change one step so your handoff is super clean and easy."
       ],
       "sourceChapter": "Chapter 2: Does Your Organization Have a Learning Disability?"
     },
     {
       "id": "the-fifth-discipline-act-12",
-      "title": "Conduct a Shared Vision Alignment Audit",
-      "description": "Audit whether team goals represent compliance or genuine commitment. True enrollment comes from tapping into what people genuinely care about rather than commanding adherence.",
+      "title": "Check True Team Buy-In",
+      "description": "Find out if people truly care or just follow along quietly. Real drive happens when work matches what people care about deeply.",
       "category": "audit",
       "timeEstimateMinutes": 35,
       "stepByStep": [
-        "Review your organization's or family unit's core mission statement or quarterly objective.",
-        "Interview three key participants one-on-one, asking what this goal personally means for their own aspirations.",
-        "Score each response honestly across Senge's scale: Committed, Enrolled, Compliant, or Grudgingly Compliant.",
-        "Revise the shared narrative so it weaves individual callings into the larger collective purpose."
+        "1. Read your team's main goal or shared project mission again.",
+        "2. Ask three teammates one-on-one what this goal means to them.",
+        "3. Rate if each person is truly excited or just following rules.",
+        "4. Update the goal so it connects directly to their personal hopes."
       ],
       "sourceChapter": "Chapter 11: Shared Vision"
     }
@@ -1273,10 +1273,10 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       "author": "Peter M. Senge",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Feedback Loops Beat Linear Causality",
-      "body": "Human brains naturally arrange events in straight arrows: A causes B, which causes C.\nSystems, however, loop back on themselves in circular feedback webs.\nAn action you take changes the environment, which feeds back to alter your future choices, often subverting your original intent.",
-      "quote": "Reality is made up of circles, but we see straight lines. Herein lies the first step toward systems thinking.",
-      "actionItem": "When diagnosing a recurring team issue, sketch closed loops of influence rather than a linear sequence of blame.",
+      "headline": "Feedback Loops Beat Lines",
+      "body": "We usually think in straight lines: A causes B.\nReal life actually works in circular loops.\nYour action changes the room, and that change circles back to you.",
+      "quote": "Life moves in circles, but we only notice straight lines.",
+      "actionItem": "When a team problem keeps returning, draw the issue as a circle.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1294,10 +1294,10 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       "author": "Peter M. Senge",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Illusion of 'The Enemy Out There'",
-      "body": "When things go wrong, human organizations reflexively blame external scapegoats: rivals, market trends, or other departments.\nSystems thinking reveals that you and your 'opponent' are parts of a single overarching system; your moves frequently provoke the exact external reactions you dread.",
-      "quote": "There is no outside; you and the cause of your problems are part of a single system.",
-      "actionItem": "Ask how your team's defensive maneuvers might be creating the very competitor or partner aggression you complain about.",
+      "headline": "No Outside Enemy",
+      "body": "When plans fail, we often blame someone else.\nIn truth, you and your rival share the same system.\nYour own actions often trigger the exact attacks you hate.",
+      "quote": "You and your biggest problems belong to the exact same system.",
+      "actionItem": "Ask how your team's defense pushed your rival to attack.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1315,10 +1315,10 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       "author": "Peter M. Senge",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Principle of Dynamic Complexity",
-      "body": "Dynamic complexity emerges when cause and effect are far apart in time and space, defying intuitive common sense.\nPushing harder on an obvious lever delivers immediate soothing relief, but unleashes devastating, delayed ripples across distant nodes of the system.",
-      "quote": "Cause and effect are not closely related in time and space.",
-      "actionItem": "Map out potential second- and third-order consequences six months downstream before greenlighting any emergency policy.",
+      "headline": "Delayed Cause and Effect",
+      "body": "Causes and their results often happen far apart in time.\nQuick fixes feel great today but cause huge pain months later.\nLong delays fool our brains into repeating bad moves.",
+      "quote": "Causes and effects rarely happen at the same time and place.",
+      "actionItem": "List the hidden side effects of a fix six months out.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1336,10 +1336,10 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       "author": "Peter M. Senge",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Parable of the Boiled Frog",
-      "body": "Living organisms and human institutions are exquisitely tuned to sudden shocks, yet dangerously blind to gradual, incremental degradation.\nThreats that unfold through small, compounding percentages slip beneath perceptual thresholds until survival capacity is fully spent.",
-      "quote": "To see slow, gradual processes requires slowing down our frantic pace and paying attention to the subtle as well as the dramatic.",
-      "actionItem": "Track baseline metric trends over multiple quarters to spot silent, creeping decay hidden by daily firefighting.",
+      "headline": "The Boiled Frog",
+      "body": "People spot sudden, loud disasters very quickly.\nYet we miss slow, tiny drops in quality.\nBy the time we notice danger, it is often too late.",
+      "quote": "To see slow danger, slow down and watch small everyday shifts.",
+      "actionItem": "Review your key numbers across an entire year to spot slow decay.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1357,10 +1357,10 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       "author": "Peter M. Senge",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Structure Dictates Behavior",
-      "body": "When high-performing individuals placed inside a dysfunctional system produce dismal results, managers mistakenly attack individual competence.\nIn reality, invisible structural pressures, incentive flows, and delayed feedbacks govern human output far more than personal willpower.",
-      "quote": "Structure in human systems includes the 'operating policies' of the decision makers in the system.",
-      "actionItem": "Before penalizing an underperforming role, audit the contradictory organizational incentives and communication barriers boxing them in.",
+      "headline": "Rules Drive Behavior",
+      "body": "Good workers fail when you put them inside bad setups.\nBosses often blame lazy staff instead of broken rules.\nHidden incentives shape daily work far more than raw willpower.",
+      "quote": "A system's unwritten rules guide how people actually make choices.",
+      "actionItem": "Fix the mixed incentives tripping up a struggling employee today.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1378,10 +1378,10 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       "author": "Peter M. Senge",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Limits to Growth Archetype",
-      "body": "A reinforcing loop initially drives rapid, exhilarating expansion.\nSoon, however, the system encounters an unseen balancing constraint\u2014such as customer support burnout or infrastructure limits.\nDoubling down on the growth driver simply accelerates collision with the ceiling.",
-      "quote": "Do not push growth; remove the factors limiting growth.",
-      "actionItem": "Identify the hidden operational bottleneck capping your next phase of scale instead of pouring more budget into top-of-funnel acquisition.",
+      "headline": "Hidden Limits to Growth",
+      "body": "Fast growth feels fantastic at the start.\nSoon, your team hits a hidden wall like staff burnout.\nPushing harder on sales only makes the crash much worse.",
+      "quote": "Do not push harder; remove whatever blocks your natural growth.",
+      "actionItem": "Find and fix the bottleneck that blocks your next team goal.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1399,10 +1399,10 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       "author": "Peter M. Senge",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Shifting the Burden Archetype",
-      "body": "Applying an expedient symptomatic solution relieves immediate crisis pain without solving the fundamental disorder.\nOver time, the system grows hooked on the symptomatic fix while native, organic capabilities to solve the core defect atrophy away completely.",
-      "quote": "An underlying problem generates symptoms that demand attention. But the underlying problem is difficult for people to address.",
-      "actionItem": "Pair every temporary workaround with a budgeted, irrevocable plan to rebuild internal fundamental capabilities.",
+      "headline": "Shifting the Burden",
+      "body": "A quick band-aid calms the pain without curing the illness.\nSoon, you rely on the quick fix every single day.\nYour team loses the ability to solve the real problem.",
+      "quote": "Easy fixes hide real problems that are tough to face.",
+      "actionItem": "Attach a permanent cure to any quick fix you launch today.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1420,10 +1420,10 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       "author": "Peter M. Senge",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Fulcrum of High Leverage",
-      "body": "In complex systems, the most obvious solutions rarely work; they merely shift burdens.\nHigh-leverage interventions are frequently non-obvious, subtle, and require remarkably little brute-force effort, acting like a tiny rudder trim tab that turns an entire supertanker.",
-      "quote": "The most effective systems change often comes through small, focused actions, if they are in the right place.",
-      "actionItem": "Stop pushing harder on stalled initiatives; hunt for the single restrictive assumption or policy that, once unhinged, lets momentum flow naturally.",
+      "headline": "High Leverage Spots",
+      "body": "The most obvious solutions rarely bring lasting relief.\nReal power comes from small, quiet adjustments in the right spot.\nA tiny rudder shift turns a massive ship with ease.",
+      "quote": "Big changes happen from small moves applied in the right place.",
+      "actionItem": "Find the one restrictive rule whose removal frees everyone up.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1441,10 +1441,10 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       "author": "Peter M. Senge",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Creative Tension vs. Emotional Tension",
-      "body": "The gap between an inspiring vision and honest current reality creates creative tension\u2014the fundamental thermodynamic fuel for organizational growth.\nWhen that gap causes anxiety, teams often succumb to emotional tension and surrender by compromising their vision.",
-      "quote": "The gap between vision and current reality is a source of energy. If there were no gap, there would be no need for any action to move towards the vision.",
-      "actionItem": "Hold current reality and your ultimate vision simultaneously in view without lowering targets just to soothe team discomfort.",
+      "headline": "Creative Versus Emotional Tension",
+      "body": "The distance between your dream and today's reality creates energy.\nThat gap can feel scary, so teams often lower their goals.\nKeeping your goal high pulls you forward into real growth.",
+      "quote": "The gap between vision and reality gives you the energy to move.",
+      "actionItem": "Keep your high goal even when today's slow progress feels uncomfortable.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1462,10 +1462,10 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       "author": "Peter M. Senge",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Mastering the Ladder of Inference",
-      "body": "Human minds effortlessly climb a mental ladder: they take raw observable data, select details, layer cultural meanings, jump to interpretations, adopt beliefs, and take hostile or defensive actions.\nLearning organizations train teams to step down the ladder back to shared raw data.",
-      "quote": "We adopt beliefs without testing them. We act as if our beliefs were the only valid interpretation.",
-      "actionItem": "In tense debates, state explicitly: 'Here is the raw data I noticed, and here is the ladder of assumptions I built upon it.\nHow do you see it?'",
+      "headline": "Ladder of Inference",
+      "body": "People see basic facts, make assumptions, and jump to rash conclusions.\nWe then treat those quick guesses as solid truths.\nGreat teams pause and step back down to plain facts.",
+      "quote": "We believe our assumptions without ever testing if they are true.",
+      "actionItem": "Share the simple facts you saw before explaining your personal conclusion.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1483,10 +1483,10 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       "author": "Peter M. Senge",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Balancing Inquiry with Advocacy",
-      "body": "Standard corporate interactions feature aggressive advocacy: pitching, debating, and defending a pre-packaged stance.\nTransformative organizational learning balances strong advocacy with radical inquiry\u2014genuinely exposing your internal logic to external cross-examination.",
-      "quote": "When advocacy and inquiry are balanced, collaborative learning takes place.",
-      "actionItem": "Conclude your pitch with: 'What blind spots or unexamined assumptions might render my line of reasoning invalid?'",
+      "headline": "Pitching Versus Asking",
+      "body": "Most meetings are full of people arguing for their own ideas.\nReal team learning happens when you invite others to test your thoughts.\nState your view, then ask others to poke holes in it.",
+      "quote": "Teams learn fastest when they balance selling ideas with asking honest questions.",
+      "actionItem": "End your proposal by asking the team to point out your blind spots.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1504,10 +1504,10 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       "author": "Peter M. Senge",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Suspension of Assumptions in Dialogue",
-      "body": "Derived from physicist David Bohm, true dialogue requires participants to 'hang their assumptions before them, as if on a string.' Rather than defending thoughts as identities, the group watches thoughts float by collectively, discovering emergent collective intelligence.",
-      "quote": "In dialogue, people become observers of their own thinking.",
-      "actionItem": "Begin complex brainstorms by writing unspoken tribal assumptions on a public whiteboard as neutral hypotheses to test.",
+      "headline": "Holding Assumptions Lightly",
+      "body": "True group conversation requires you to set your beliefs aside.\nDo not treat your opinions as your personal identity.\nLook at your views together as simple ideas to test.",
+      "quote": "In deep dialogue, people step back and study their own thoughts.",
+      "actionItem": "Write your basic assumptions on a board for everyone to question openly.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1525,10 +1525,10 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       "author": "Peter M. Senge",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Core of Systemic Vulnerability",
-      "body": "True systems mastery requires relinquishing the illusion of an omniscient leader directing passive subordinates.\nIt asks individuals to view themselves as humble participants nested inside feedback architectures larger than their individual control.",
-      "quote": "People with high levels of personal mastery are continually expanding their ability to create the results in life they truly seek.",
-      "actionItem": "Shift executive language from 'I fixed this outcome' to 'We adjusted the structural conditions that allowed this result to emerge.'",
+      "headline": "Humble Leadership",
+      "body": "No single leader has all the answers anymore.\nGreat leaders see themselves as parts of a much larger web.\nThey shape the room so the team can succeed together.",
+      "quote": "True masters keep growing their power to build the life they want.",
+      "actionItem": "Say we improved the setup instead of claiming you fixed it alone.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1546,10 +1546,10 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       "author": "Peter M. Senge",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Beer Game & Information Delay",
-      "body": "In supply chains with communication delays, minuscule tremors in retail customer demand generate wild, destructive earthquakes of over-ordering upstream at the factory.\nThe culprit is not erratic human greed, but lack of shared real-time feedback across system boundaries.",
-      "quote": "Real-world systems have time delays between taking action and the consequence of that action.",
-      "actionItem": "Share unvarnished end-user demand metrics directly with upstream internal teams instead of filtering through layered management tiers.",
+      "headline": "The Beer Game",
+      "body": "When communication is slow, tiny changes in buyer demand cause panic upstream.\nFactories end up making far too many goods.\nThe problem is a lack of fast, shared information.",
+      "quote": "Delays between your action and the result create chaos in systems.",
+      "actionItem": "Share live customer feedback with makers instead of hiding it in reports.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1567,10 +1567,10 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       "author": "Peter M. Senge",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Genuine Enrollment Over Polite Compliance",
-      "body": "You cannot mandate a shared vision from the executive suite.\nCommand-and-control generates compliance\u2014ranging from grudging obedience to enthusiastic conformity.\nA genuine shared vision only sparks when individuals enroll freely because it mirrors their own personal visions.",
-      "quote": "Compliance produces little beyond average effort; enrollment unleashes enormous energy and passion.",
-      "actionItem": "Stop 'rolling out' corporate visions top-down; host listening forums where team members discover how corporate goals intersect with their life ambitions.",
+      "headline": "Buy-In Beats Obedience",
+      "body": "You cannot force a real shared vision onto people.\nGiving strict orders only gets you basic rule-following.\nPeople give full energy only when company goals match their personal dreams.",
+      "quote": "Obedience gives average work, but true buy-in sparks deep energy and passion.",
+      "actionItem": "Ask your team how company goals can help them reach personal dreams.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1588,10 +1588,10 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       "author": "Peter M. Senge",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Yesterday's Solutions Create Today's Problems",
-      "body": "When remedies are applied without systemic understanding, the relief is fleeting and the subsequent rebound is severe.\nThe problems organizations spend enormous budgets battling today are almost always the uncalculated aftermath of their own past 'triumphs.'",
-      "quote": "Today's problems come from yesterday's solutions.",
-      "actionItem": "Perform a retrospective on last year's top strategic initiatives to catalog what friction points they inadvertently seeded.",
+      "headline": "Yesterday's Solutions, Today's Problems",
+      "body": "Quick fixes often backfire down the road.\nThe messy crisis you fight today was likely your prize fix yesterday.\nAlways check what future troubles your new cure might create.",
+      "quote": "Today's tough problems usually come from yesterday's quick solutions.",
+      "actionItem": "Check your team's past wins to see what new troubles they created.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1609,10 +1609,10 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       "author": "Peter M. Senge",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Discipline of Personal Mastery",
-      "body": "Personal mastery goes far beyond competence or skills; it is a life-long stance of learning, purpose, and commitment to truth.\nAn organization's collective learning capacity can never surpass the personal development threshold of its individual members.",
-      "quote": "Organizations learn only through individuals who learn. Individual learning does not guarantee organizational learning, but without it no organizational learning occurs.",
-      "actionItem": "Allocate protected weekly hours for self-directed technical and conceptual exploration untethered from immediate deliverables.",
+      "headline": "Personal Mastery",
+      "body": "Personal mastery means choosing a life of continuous learning and honesty.\nA company cannot learn any faster than its individual people do.\nHelping staff grow personally helps the whole company thrive.",
+      "quote": "Organizations learn only when the individual people inside them learn.",
+      "actionItem": "Block two hours this week to learn a new skill just for yourself.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1630,10 +1630,10 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       "author": "Peter M. Senge",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Surfacing Defensive Routines",
-      "body": "Organizations design elaborate, unspoken defense mechanisms to prevent embarrassment or conflict, simultaneously burying real learning.\nTo unlock breakthrough progress, teams must normalize discussing undiscussable dilemmas without triggering institutional panic.",
-      "quote": "Defensive routines are entrenchments of habit that we use to protect ourselves from the embarrassment and threat that come with exposing our thinking.",
-      "actionItem": "Run a 'safe-to-fail' audit meeting dedicated exclusively to naming taboos and policies everyone knows are broken.",
+      "headline": "Naming the Elephant",
+      "body": "Teams often stay quiet to avoid hurt feelings or awkward debates.\nHiding awkward truths stops everyone from learning.\nBreakthroughs happen when you can safely talk about real issues.",
+      "quote": "We hide behind habits so we never look silly or feel threatened.",
+      "actionItem": "Hold a meeting where staff can name broken policies without getting blamed.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1651,10 +1651,10 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       "author": "Peter M. Senge",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Integrative Fifth Discipline",
-      "body": "Systems thinking is named the fifth discipline because it is the conceptual cornerstone that fuses Personal Mastery, Mental Models, Shared Vision, and Team Learning into a coherent whole.\nWithout systems thinking, the other disciplines remain fragmented, fragile tools.",
-      "quote": "Systems thinking is the discipline that integrates the disciplines, fusing them into a coherent body of theory and practice.",
-      "actionItem": "Evaluate leadership development programs to ensure behavioral, psychological, and systemic feedback principles are taught simultaneously.",
+      "headline": "The Fifth Discipline",
+      "body": "Systems thinking is the glue holding every other learning tool together.\nWithout it, vision and teamwork stay scattered and weak.\nSeeing the big picture helps every other skill work properly.",
+      "quote": "Systems thinking ties all the other practices into one powerful whole.",
+      "actionItem": "Teach teams how their daily choices affect neighboring groups across the company.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1672,10 +1672,10 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       "author": "Peter M. Senge",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "The Left-Hand Column Technique",
-      "body": "To see how personal mental models sabotage collaboration, fold a sheet of paper into two columns.\nOn the right, record what was actually spoken in a difficult conversation.\nOn the left, write what you thought and felt but hid.\nExamining the left column reveals the unspoken dynamics driving gridlock.",
-      "quote": "Seeing our left-hand column helps us see how our mental models operate in particular situations.",
-      "actionItem": "Draft a left-hand column analysis after your next high-stakes disagreement to pinpoint where your unvoiced assumptions distorted the outcome.",
+      "headline": "The Two-Column Page",
+      "body": "Divide a piece of paper into two side-by-side columns.\nOn the right, write what was spoken aloud during an argument.\nOn the left, write what you really thought but hid.",
+      "quote": "Reading your hidden thoughts shows how your mind traps you in arguments.",
+      "actionItem": "Write down your hidden thoughts after an argument to see what caused friction.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1690,75 +1690,81 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
   "mindMap": {
     "id": "root",
     "label": "The Fifth Discipline",
-    "description": "Peter Senge's foundational framework reveals that organizations are living, interconnected ecosystems rather than mechanical hierarchies.\nBy mastering five core learning disciplines, teams decode hidden systemic forces to continuously reinvent their collective capacity and thrive amid complexity.",
+    "description": "Organizations are living networks where everything connects.\nTeams grow by learning how whole systems work together.",
     "children": [
       {
         "id": "core-learning-disabilities",
-        "label": "Organizational Learning Disabilities",
-        "description": "Before organizations can build systemic awareness, they must diagnose the cognitive blind spots that trap them in reactive firefighting.\nThese pervasive mental blinders prevent collective intelligence by severing causes from their delayed, non-local consequences.",
+        "label": "Learning Blind Spots",
+        "description": "Hidden habits stop teams from learning.\nPeople react to problems instead of fixing deep causes.",
         "children": [
           {
             "id": "i-am-my-position",
-            "label": "I Am My Position",
-            "description": "Individuals identify solely with their immediate departmental tasks, blinding them to how their actions ripple across the broader ecosystem.\nWhen outcomes turn sour, people naturally deflect blame because they genuinely cannot see how their local routines contributed to the global failure.",
+            "label": "Just My Job",
+            "description": "People only care about their own tasks.\nThey miss how their actions affect others.",
             "children": [
               {
                 "id": "silo-mentality",
-                "label": "Siloed Myopia",
-                "description": "Teams optimize their isolated metrics while inadvertently strangling neighboring functions and sabotaging corporate-wide health.\nThis narrow focus turns organizations into warring kingdoms rather than collaborative problem-solving webs."
+                "label": "Working in Silos",
+                "description": "Teams protect their own small turf.\nThis hurts the rest of the company.",
+                "children": []
               },
               {
                 "id": "responsibility-erasure",
-                "label": "Dilution of Systemic Responsibility",
-                "description": "When everyone is merely carrying out their narrow job description, nobody owns the end-to-end outcome.\nSystemic crises escalate silently because no individual perceives an mandate to intervene across boundaries."
+                "label": "Nobody Owns It",
+                "description": "Everyone sticks to their own role.\nNo one steps up to fix big problems.",
+                "children": []
               }
             ]
           },
           {
             "id": "the-enemy-is-out-there",
-            "label": "The Enemy Is Out There",
-            "description": "A psychological compulsion to attribute internal operational friction to external villains, competitors, market shifts, or other divisions.\nSystems thinking reveals that the external predator is almost always an unexamined rebound of our own historical policies.",
+            "label": "Blaming Others",
+            "description": "We blame rivals or bad luck for our problems.\nMost troubles actually start from our own choices.",
             "children": [
               {
                 "id": "externalized-blame-loop",
-                "label": "Externalized Blame Cycles",
-                "description": "Pointing fingers outside prevents the uncomfortable introspection required to uncover self-inflicted wounds.\nOrganizations expend massive energy fortifying external defenses while their internal foundations quietly rot away."
+                "label": "Finger Pointing",
+                "description": "Blaming outside forces stops honest self-reflection.\nTeams ignore real flaws inside the group.",
+                "children": []
               }
             ]
           },
           {
             "id": "illusion-of-taking-charge",
-            "label": "Illusion of Taking Charge",
-            "description": "Aggressive, pro-active posturing often masquerades as decisive leadership while merely being emotional reactivity in disguise.\nTrue proactivity stems from investigating the root dynamic structure, not from frantically punching back at every emergent symptom.",
+            "label": "Fake Proactivity",
+            "description": "Rushing into action looks brave.\nOften it is just panicked firefighting in disguise.",
             "children": [
               {
                 "id": "reactive-firefighting",
-                "label": "Addictive Firefighting",
-                "description": "Cultures reward heroic emergency interventions while ignoring the quiet, preventative redesign of underlying structures.\nThis perversely incentivizes managers to let small structural cracks erupt into full-blown crises so they can play the hero."
+                "label": "Playing the Hero",
+                "description": "Companies praise people who fix emergencies.\nThey ignore those who prevent crises quietly.",
+                "children": []
               }
             ]
           },
           {
             "id": "boiled-frog-syndrome",
-            "label": "The Boiled Frog Syndrome",
-            "description": "Human sensory systems are calibrated to detect abrupt, dramatic environmental shocks while remaining totally blind to slow, gradual degradations.\nOrganizations routinely collapse because they fail to register the steady accumulation of subtle decay until catastrophe strikes.",
+            "label": "Boiled Frog Effect",
+            "description": "We notice sudden shocks but miss slow threats.\nGradual decline can quietly destroy a team.",
             "children": [
               {
                 "id": "creeping-baseline-distortion",
-                "label": "Distorted Baselines",
-                "description": "Teams gradually normalize substandard performance, dropping standards step-by-step without noticing the cumulative decline.\nWhat would have shocked leadership five years ago becomes quietly accepted as standard operating procedure."
+                "label": "Lowering Standards",
+                "description": "Teams slowly accept lower quality over time.\nBad work soon becomes the new normal.",
+                "children": []
               }
             ]
           },
           {
             "id": "delusion-of-learning-from-experience",
-            "label": "Delusion of Direct Experience",
-            "description": "While direct trial-and-error works brilliantly for instant feedback, it catastrophically fails when the consequences of key decisions unfold months, years, or continents away.\nWhen feedback loops stretch past our cognitive horizon, we lose the capacity to learn directly from our own choices.",
+            "label": "Delayed Results",
+            "description": "We cannot learn from experience if results take years.\nThe link between cause and effect gets lost.",
             "children": [
               {
                 "id": "temporal-spatial-delay",
-                "label": "Temporal & Spatial Decoupling",
-                "description": "The architects of disruptive corporate strategies have long been promoted or departed before the disastrous second-order effects arrive.\nThe successors misdiagnose the resulting crisis as a fresh external mystery rather than an inherited echo."
+                "label": "Passing the Blame",
+                "description": "Leaders make bad calls and leave.\nNew leaders inherit problems without knowing the cause.",
+                "children": []
               }
             ]
           }
@@ -1766,47 +1772,50 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       },
       {
         "id": "the-fifth-discipline-systems-thinking",
-        "label": "Systems Thinking (The Cornerstone)",
-        "description": "The foundational lens that binds the other four disciplines into a cohesive whole, transforming our worldview from disconnected snapshots into living webs of causality.\nIt trains the human mind to perceive circles of reciprocal influence, nonlinear feedback loops, and high-leverage intervention nodes.",
+        "label": "Systems Thinking",
+        "description": "See the whole picture instead of isolated events.\nLearn how actions loop back to affect everything.",
         "children": [
           {
             "id": "feedback-loops",
-            "label": "Anatomy of Feedback Loops",
-            "description": "Every systemic structure consists of circular interdependencies where an action triggers an outcome that loops back to reshape the initial action.\nLinear thinking conceives causality as a straight arrow, while systems intelligence recognizes continuous, self-referential cycles.",
+            "label": "Feedback Loops",
+            "description": "Cause and effect run in continuous circles.\nEvery action returns to shape future results.",
             "children": [
               {
                 "id": "reinforcing-feedback",
-                "label": "Reinforcing Loops (Engines of Growth & Ruin)",
-                "description": "Vicious and virtuous cycles where small changes compound exponentially into staggering breakthroughs or runaway collapses.\nRecognizing compounding momentum helps leaders anticipate runaway snowballs before momentum overpowers institutional control.",
+                "label": "Snowball Effects",
+                "description": "Small changes build on themselves quickly.\nThey can trigger massive growth or sudden collapse.",
                 "children": [
                   {
                     "id": "word-of-mouth-amplification",
-                    "label": "Self-Catalyzing Momentum",
-                    "description": "A classic reinforcing cycle where satisfied users draw in new adherents, accelerating growth and resource abundance.\nUnmanaged, this same dynamic reverses instantly into a death spiral of defection and brand erosion."
+                    "label": "Viral Momentum",
+                    "description": "Happy customers attract more buyers.\nIf quality drops, the cycle quickly turns negative.",
+                    "children": []
                   }
                 ]
               },
               {
                 "id": "balancing-feedback",
-                "label": "Balancing Loops (Stabilizers & Resistance)",
-                "description": "Nature's homeostatic thermostat mechanisms that push systems back toward implicit or explicit equilibrium targets.\nWhenever organizational change initiatives meet stubborn, invisible resistance, a powerful hidden balancing loop is silently defending the status quo.",
+                "label": "Balancing Forces",
+                "description": "Hidden forces resist change and restore balance.\nThey push systems back to old habits.",
                 "children": [
                   {
                     "id": "implicit-cultural-norms",
-                    "label": "Subterranean Norms",
-                    "description": "Unwritten cultural rules act as rigid balancing mechanisms that snap rogue, innovative behaviors back into line.\nLasting change requires uncovering and recalibrating these subconscious goalposts rather than overpowering them with sheer force."
+                    "label": "Hidden Rules",
+                    "description": "Unwritten habits pull people back into line.\nReal change requires shifting these quiet beliefs.",
+                    "children": []
                   }
                 ]
               },
               {
                 "id": "temporal-delays",
-                "label": "System Delays & Oscillations",
-                "description": "Lags between actions and visible system responses trick impatience into aggressive over-correction, sparking wild boom-and-bust swings.\nMastering systemic delays means cultivating the patience to let changes ripple through before intervening again.",
+                "label": "Time Delays",
+                "description": "Actions take time to show clear results.\nImpatience leads to overreacting and chaotic swings.",
                 "children": [
                   {
                     "id": "the-beer-game-dynamics",
-                    "label": "The Beer Distribution Game",
-                    "description": "A celebrated simulation demonstrating how small consumer demand twitches cascade into colossal supply swings due to laggy communication.\nThe experiment conclusively proves that flawed system architecture systematically crushes good human intentions."
+                    "label": "Supply Swings",
+                    "description": "Tiny changes in customer orders trigger chaos upstream.\nSlow communication causes massive overreactions.",
+                    "children": []
                   }
                 ]
               }
@@ -1814,54 +1823,58 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
           },
           {
             "id": "system-archetypes",
-            "label": "Universal System Archetypes",
-            "description": "Recurrent structural motifs found across ecology, corporate strategy, personal health, and international geopolitics.\nMastering these diagnostic templates grants leaders an intuitive roadmap to unmask the hidden traps behind seemingly unique operational headaches.",
+            "label": "Common System Traps",
+            "description": "Familiar patterns happen across all organizations.\nSpotting them helps you solve repeating problems.",
             "children": [
               {
                 "id": "limits-to-growth",
-                "label": "Limits to Growth",
-                "description": "A rapid reinforcing growth engine eventually slams headfirst into an overlooked resource bottleneck or cultural barrier.\nPushing the accelerator harder in this state only strengthens the balancing resistance; sustainable success demands dismantling the limiting factor.",
+                "label": "Growth Limits",
+                "description": "Fast growth eventually hits an unseen wall.\nPushing harder only makes things worse.",
                 "children": [
                   {
                     "id": "removing-the-constraint",
-                    "label": "De-bottlenecking Leverage",
-                    "description": "Effective leaders do not whip the growth engine to go faster; they carefully inspect the boundary conditions.\nRelieving the invisible brake unlocks sustainable evolutionary expansion without triggering a sudden structural crash."
+                    "label": "Clearing Bottlenecks",
+                    "description": "Do not just push harder.\nFind and remove the hidden bottleneck instead.",
+                    "children": []
                   }
                 ]
               },
               {
                 "id": "shifting-the-burden",
-                "label": "Shifting the Burden",
-                "description": "Deploying quick-fix symptomatic bandages creates an addictive dependency while allowing foundational root-cause capabilities to atrophy.\nAs the short-term relief wears off, the underlying rot deepens, requiring ever larger doses of the band-aid.",
+                "label": "Quick Fix Trap",
+                "description": "Quick fixes solve the pain today.\nThey weaken your ability to solve root causes.",
                 "children": [
                   {
                     "id": "addiction-dynamics",
-                    "label": "Erosion of In-House Competence",
-                    "description": "Relying on external consultants or emergency borrowing relieves urgent anxiety while gutting internal problem-solving muscles.\nOver time, the organization loses its native ability to heal itself, locked into chronic vulnerability."
+                    "label": "Losing Core Skills",
+                    "description": "Relying on quick band-aids becomes an addiction.\nThe team loses its own problem-solving power.",
+                    "children": []
                   }
                 ]
               },
               {
                 "id": "tragedy-of-the-commons",
-                "label": "Tragedy of the Commons",
-                "description": "Individual actors rationally maximize their local harvest from a shared resource pool until the collective baseline collapses.\nMutual ruin ensues unless participants establish self-binding governance frameworks or mutual accountability mechanisms.",
+                "label": "Draining Shared Goods",
+                "description": "People overuse shared resources for quick gain.\nEventually, the shared resource runs out for everyone.",
                 "children": [
                   {
                     "id": "shared-infrastructure-burnout",
-                    "label": "Depletion of Collective Capital",
-                    "description": "Departments aggressively monopolize shared engineering talent, customer patience, or brand trust without replenishing the base.\nWithout systemic gatekeeping, the commons burns out, leaving every party worse off."
+                    "label": "Team Burnout",
+                    "description": "Teams fight over shared staff and tools.\nWithout clear rules, shared resources burn out.",
+                    "children": []
                   }
                 ]
               },
               {
                 "id": "eroding-goals",
-                "label": "Eroding Goals",
-                "description": "Faced with persistent shortfalls, organizations quietly lower their standards to reduce cognitive dissonance and mask failure.\nThis insidious drift transforms excellence into mediocrity through a series of almost imperceptible compromises.",
+                "label": "Dropping the Bar",
+                "description": "When goals are missed, people lower their targets.\nSlow compromises turn great work into mediocrity.",
                 "children": [
                   {
                     "id": "sliding-scale-degradation",
-                    "label": "Normalization of Mediocrity",
-                    "description": "When targets are repeatedly adjusted downward to match declining results, people convince themselves they are still succeeding.\nThe only cure is holding immovable, north-star standards backed by fundamental operational upgrades."
+                    "label": "Accepting Mediocrity",
+                    "description": "Lowering goals lets teams pretend they are winning.\nHold strong standards and fix core operations.",
+                    "children": []
                   }
                 ]
               }
@@ -1869,13 +1882,14 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
           },
           {
             "id": "principle-of-leverage",
-            "label": "The Principle of Systemic Leverage",
-            "description": "Finding the sweet spot where small, well-focused actions produce significant, enduring improvements across the entire ecosystem.\nHigh leverage is profoundly counterintuitive; it almost never lies in the obvious pressure point where symptoms cry loudest.",
+            "label": "Finding Leverage",
+            "description": "Small, focused tweaks can create huge lasting change.\nReal leverage is rarely where symptoms look worst.",
             "children": [
               {
                 "id": "counterintuitive-interventions",
-                "label": "Counterintuitive Leverage Points",
-                "description": "Tackling symptoms directly usually invites aggressive systemic blowback that consumes massive capital for zero durable progress.\nHigh leverage demands stepping back to alter the rules, feedback flows, or underlying mental frameworks."
+                "label": "Smart Leverage Points",
+                "description": "Attacking symptoms head-on wastes time and energy.\nChange the basic rules and thinking instead.",
+                "children": []
               }
             ]
           }
@@ -1883,71 +1897,76 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       },
       {
         "id": "the-human-disciplines",
-        "label": "The Human & Relational Disciplines",
-        "description": "Systems thinking cannot operate in an emotional vacuum; it requires personal and interpersonal disciplines to bring clarity to human interaction.\nThese complementary practices upgrade human consciousness, turning defensive individuals into an authentic, learning community.",
+        "label": "People and Relationships",
+        "description": "Systems thinking needs human heart to work.\nThese personal tools turn groups into learning teams.",
         "children": [
           {
             "id": "personal-mastery",
             "label": "Personal Mastery",
-            "description": "The discipline of continually clarifying what truly matters to us while developing an unflinching commitment to facing current reality as it is.\nIt reframes life not as a string of reactive problems to extinguish, but as a deliberate creative journey.",
+            "description": "Be honest about your current reality.\nStay clear on the future you want.",
             "children": [
               {
                 "id": "creative-tension",
-                "label": "Creative Tension vs. Emotional Tension",
-                "description": "The energizing gap between an inspiring future vision and an honest assessment of current reality acts like an elastic band pulling the present forward.\nWhen individuals cannot tolerate the discomfort of this gap, they ease the tension by downsizing their vision.",
+                "label": "Creative Tension",
+                "description": "The gap between today and tomorrow pulls you forward.\nNever lower your dreams just to feel comfortable.",
                 "children": [
                   {
                     "id": "structural-conflict-resolution",
-                    "label": "Overcoming Structural Conflict",
-                    "description": "Deep-seated beliefs in our own unworthiness generate unconscious counter-forces that sabotage our breakthroughs just as success draws near.\nTranscending this trap requires telling the truth about reality without succumbing to cynicism or self-deception."
+                    "label": "Beating Self-Doubt",
+                    "description": "Hidden doubts make us sabotage our own progress.\nFace reality honestly without giving in to fear.",
+                    "children": []
                   }
                 ]
               },
               {
                 "id": "subconscious-integration",
-                "label": "Tapping the Subconscious Mind",
-                "description": "Achieving personal mastery aligns conscious intentions with the automatic pattern-recognition power of the subconscious mind.\nBy repeatedly focusing on core purposes, leaders cultivate razor-sharp systemic intuition."
+                "label": "Trusting Intuition",
+                "description": "Focus clearly on your deepest goals.\nYour mind will spot useful patterns automatically.",
+                "children": []
               }
             ]
           },
           {
             "id": "mental-models",
             "label": "Mental Models",
-            "description": "Deeply ingrained assumptions, generalizations, and inner pictures that dictate how we interpret the world and take action.\nBecause we mistake our mental lenses for objective reality, we must learn to bring these hidden scripts to light, test them, and redesign them.",
+            "description": "Our assumptions shape how we see the world.\nWe must test and update these beliefs often.",
             "children": [
               {
                 "id": "ladder-of-inference",
-                "label": "The Ladder of Inference",
-                "description": "A cognitive pathway where humans observe raw data, select specific slices, attach meanings, make assumptions, and leap to rigid conclusions in milliseconds.\nBecoming conscious of our climb up the ladder lets us descend back to observable data and reconsider our biases.",
+                "label": "Ladder of Inference",
+                "description": "We jump from facts to quick judgments.\nStep back down to the real facts.",
                 "children": [
                   {
                     "id": "data-grounding",
-                    "label": "Unpacking Inferences",
-                    "description": "By verbalizing the exact observational evidence behind our judgments, we invite collaborative problem-solving instead of defensive posturing.\nThis transparent exposure strips away the toxic finality of dogma."
+                    "label": "Sharing the Facts",
+                    "description": "Explain the facts behind your opinions.\nThis opens up healthy conversations.",
+                    "children": []
                   }
                 ]
               },
               {
                 "id": "left-hand-column",
-                "label": "Left-Hand Column Exercises",
-                "description": "A diagnostic tool where managers transcribe an actual dialogue on the right side of a page while revealing their unspoken thoughts and anxieties on the left.\nInspecting this private script reveals how our hidden fears actively manufacture the very stalemates we complain about.",
+                "label": "Unspoken Thoughts",
+                "description": "Write what you say versus what you think.\nSeeing hidden fears helps resolve bad arguments.",
                 "children": [
                   {
                     "id": "dissolving-defensive-routines",
-                    "label": "Neutralizing Defensive Routines",
-                    "description": "Habitual communication habits designed to spare embarrassment end up barricading the organization against vital feedback.\nVoicing our left-hand column with care and tact transforms defensive landmines into collaborative breakthroughs."
+                    "label": "Speaking Up Gently",
+                    "description": "Hiding thoughts to avoid discomfort blocks real progress.\nSpeak your true mind with care and respect.",
+                    "children": []
                   }
                 ]
               },
               {
                 "id": "balancing-inquiry-advocacy",
-                "label": "Balancing Inquiry and Advocacy",
-                "description": "Replacing aggressive debates where participants relentlessly bludgeon others with their viewpoint with a spirit of mutual, open exploration.\nTruly skilled leaders state their perspective clearly while genuinely begging others to identify the flaws in their reasoning.",
+                "label": "Asking and Stating",
+                "description": "State your view and ask for honest feedback.\nDo not try to win every debate.",
                 "children": [
                   {
                     "id": "joint-discovery-protocols",
-                    "label": "Joint Discovery Mindset",
-                    "description": "Treating disagreements not as personal duels to win, but as puzzle pieces revealing an unobserved slice of the larger system.\nThis synthesis leads to emergent insights far superior to any single person's initial stance."
+                    "label": "Learning Together",
+                    "description": "Treat arguments like puzzle pieces to put together.\nTeams find better answers when they explore together.",
+                    "children": []
                   }
                 ]
               }
@@ -1955,49 +1974,53 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
           },
           {
             "id": "shared-vision",
-            "label": "Building Shared Vision",
-            "description": "The practice of unearthing shared pictures of the future that foster genuine commitment and enrollment rather than mere transactional compliance.\nWhen a vision is authentic, people pull together not because they were ordered to, but because they desperately want to realize that reality.",
+            "label": "Shared Vision",
+            "description": "Build a shared picture of the future.\nPeople work hard when they truly care.",
             "children": [
               {
                 "id": "enrollment-vs-compliance",
-                "label": "Enrollment vs. Compliance Spectrum",
-                "description": "Compliance obeys the letter of the law while hoarding discretionary passion; genuine enrollment invests wholehearted human ingenuity.\nGenuine enrollment cannot be coerced through executive mandates; it spreads through personal invitation, resonance, and integrity.",
+                "label": "Commitment Over Compliance",
+                "description": "Obeying orders only produces minimum effort.\nTrue passion comes from personal choice.",
                 "children": [
                   {
                     "id": "personal-to-shared-bridge",
-                    "label": "Co-Creating Collective Purpose",
-                    "description": "A shared vision is not an executive decree chiseled in stone, but a living tapestry woven from the personal visions of individual members.\nThis shared ownership sparks immense resilience when execution hits unforeseen turbulent obstacles."
+                    "label": "Building Common Goals",
+                    "description": "Combine everyone's personal dreams into one goal.\nShared ownership keeps teams strong during hard times.",
+                    "children": []
                   }
                 ]
               },
               {
                 "id": "anchor-for-risk",
-                "label": "Shared Vision as an Anchor for Risk",
-                "description": "Ambitious systemic redesign carries unavoidable experimental failures and scary ambiguity.\nA profound shared vision provides the psychological safety required for individuals to stick their necks out and venture into unknown territory."
+                "label": "Safe to Risk",
+                "description": "Big changes require taking bold chances.\nA shared vision gives people courage to fail.",
+                "children": []
               }
             ]
           },
           {
             "id": "team-learning",
             "label": "Team Learning",
-            "description": "The discipline of aligning and developing the capacity of a group to create results that members could never achieve alone.\nWhen teams truly learn, they perform as a unified, resonant organism where individual brilliance amplifies the collective intelligence.",
+            "description": "Groups think and learn together as one.\nTogether they achieve what no one could alone.",
             "children": [
               {
                 "id": "dialogue-vs-discussion",
-                "label": "Dialogue vs. Discussion",
-                "description": "Discussion is a ping-pong match where opposing ideas collide and fragment; dialogue is a free-flowing river of meaning where ideas emerge organically.\nTrue dialogue requires all members to suspend their assumptions, listen deeply, and treat one another as true colleagues.",
+                "label": "Open Dialogue",
+                "description": "Do not just argue points to win.\nListen deeply to discover new ideas together.",
                 "children": [
                   {
                     "id": "suspending-assumptions",
-                    "label": "Holding Assumptions Suspended",
-                    "description": "Suspending assumptions means hanging our convictions up before the group like specimens under a microscope for collaborative examination.\nDetaching our self-worth from our hypotheses allows teams to discard obsolete views without emotional trauma."
+                    "label": "Pausing Opinions",
+                    "description": "Set aside your personal biases during team talks.\nExamine ideas together without taking things personally.",
+                    "children": []
                   }
                 ]
               },
               {
                 "id": "alignment-and-resonance",
-                "label": "Systemic Team Alignment",
-                "description": "A team of brilliant individual players often functions like an incoherent scatter of conflicting energies, canceling each other out.\nAlignment focuses those scattered rays into a laser beam of collaborative execution and collective flow."
+                "label": "Team Alignment",
+                "description": "Scattered efforts cancel each other out.\nShared goals turn team energy into focused power.",
+                "children": []
               }
             ]
           }
@@ -2005,45 +2028,50 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
       },
       {
         "id": "prototypes-and-leadership",
-        "label": "The Learning Organization in Practice",
-        "description": "Putting these systemic disciplines to work demands reinventing the role of leadership and designing ongoing learning environments.\nOrganizations evolve into adaptive architectures that continually outthink volatility and nurture the human spirit.",
+        "label": "Leadership in Practice",
+        "description": "Leaders must build environments where learning thrives.\nOrganizations become flexible and ready for change.",
         "children": [
           {
             "id": "leader-new-roles",
-            "label": "The Leader's New Roles",
-            "description": "Dethroning the traditional authoritarian general or all-knowing guru in favor of nuanced, stewardship-driven leadership postures.\nLeaders become behind-the-scenes systems designers, inspiring teachers, and humble stewards of the organization's evolutionary purpose.",
+            "label": "New Leadership Roles",
+            "description": "Leaders are not all-knowing bosses.\nThey act as designers, teachers, and guides.",
             "children": [
               {
                 "id": "leader-as-designer",
                 "label": "Leader as Designer",
-                "description": "Designing the organizational ship's structural keel, feedback channels, and learning governance so the team navigates stormy waters without constant crisis management.\nThe designer's invisible touch shapes long-term capability far more than theatrical cheerleading."
+                "description": "Build good systems and clear feedback paths.\nA well-designed team runs smoothly on its own.",
+                "children": []
               },
               {
                 "id": "leader-as-teacher",
                 "label": "Leader as Teacher",
-                "description": "Helping people across the enterprise peer beneath the chaos of daily events to decode the underlying systemic archetypes and feedback loops.\nBy teaching mental model hygiene, leaders build institutional resilience and self-reliance."
+                "description": "Help people see the big picture.\nTeach teams how to solve systemic problems.",
+                "children": []
               },
               {
                 "id": "leader-as-steward",
                 "label": "Leader as Steward",
-                "description": "Serving a vision larger than oneself and tending to the welfare of both the team and the broader sociotechnical ecosystem.\nThis deep stewardship infuses everyday commercial work with profound existential purpose and ethical vitality."
+                "description": "Serve the team and a higher purpose.\nCaring for people gives work deep meaning.",
+                "children": []
               }
             ]
           },
           {
             "id": "microworlds-and-learning-labs",
-            "label": "Microworlds and Organizational Playgrounds",
-            "description": "Safe, simulated environments where leaders can experiment, compress space and time, and witness the delayed consequences of bold decisions.\nJust as pilots hone their instincts in flight simulators, management teams discover counterintuitive system dynamics through hands-on play.",
+            "label": "Practice Sandboxes",
+            "description": "Practice bold decisions in safe simulations.\nSee long-term results without risking real money.",
             "children": [
               {
                 "id": "compression-of-time-space",
-                "label": "Virtual Feedback Acceleration",
-                "description": "By running multi-year scenarios in minutes, management labs dissolve the perceptual delays that normally cripple human learning.\nTeams directly observe the delayed rebound of aggressive pricing, budget cuts, or quality compromises in real time."
+                "label": "Fast Simulations",
+                "description": "Run years of business choices in minutes.\nSee the delayed effects of your choices right away.",
+                "children": []
               },
               {
                 "id": "frictionless-experimentation",
-                "label": "Low-Risk Behavioral Sandboxes",
-                "description": "Testing radical systemic redesigns in a sandbox reveals blind spots without risking real capital, employee livelihoods, or corporate survival.\nSafe failure inside the microworld nurtures confident, bold decisions in the real world."
+                "label": "Safe Experimenting",
+                "description": "Test wild ideas without fear of failure.\nSafe practice builds bold choices in real life.",
+                "children": []
               }
             ]
           }
