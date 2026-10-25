@@ -1,5 +1,5 @@
 // The Forty Rules of Love by Elif Shafak
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -3678,169 +3678,169 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
   "actionItems": [
     {
       "id": "the-forty-rules-of-love-act-1",
-      "title": "The Unspoken Forgiveness Note",
-      "description": "Like Ella letting go of decades of quiet domestic resentment, write a private release to someone who hurt you, dissolving the silent wall between your souls without needing them to reply.",
+      "title": "Write a Private Forgiveness Note",
+      "description": "Write a silent letter to let go of old hurt. You do not need to send it.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Take a blank piece of paper and write down the name of someone you carry quiet bitterness toward.",
-        "Acknowledge the wound openly: 'You hurt me when this happened, and I carried the sorrow.'",
-        "Write one sincere line of release: 'I surrender the grievance so my heart may stay soft and open.'",
-        "Burn, tear, or discard the paper into running water as an act of personal release."
+        "1. Write down the name of someone who hurt you.",
+        "2. State clearly on paper what caused you pain.",
+        "3. Add one sentence choosing to let the anger go.",
+        "4. Safely tear up or throw away the paper."
       ],
       "sourceChapter": "Sweet Blasphemy: Ella's Autumn"
     },
     {
       "id": "the-forty-rules-of-love-act-2",
-      "title": "Meeting the Outcast with Open Eyes",
-      "description": "Shams befriended Desert Rose the harlot and Suleiman the drunk when pious society cast them out. Break through your unspoken social shields and offer pure dignity to someone invisible.",
+      "title": "Acknowledge an Invisible Person",
+      "description": "Notice someone people usually ignore. Treat them with warm, genuine respect.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Look into the eyes of a street cleaner, door attendant, or stranger you normally bypass.",
-        "Offer a warm, unhurried smile and a genuine, respectful greeting.",
-        "Notice any instinctive discomfort or judgment arising in your chest.",
-        "Silently remind yourself: 'The divine mirror is clean in every soul.'"
+        "1. Make kind eye contact with a quiet worker nearby.",
+        "2. Give them a warm smile and say hello.",
+        "3. Notice any inner discomfort without judging yourself.",
+        "4. Remember that every person shares the same basic worth."
       ],
       "sourceChapter": "The Rule of the Mirror"
     },
     {
       "id": "the-forty-rules-of-love-act-3",
-      "title": "Dawn Breath of Pure Stillness",
-      "description": "Rumi found that God hides in silence, not in theological disputations. Greet the day in total hush before the world's demands crowd your spirit.",
+      "title": "Sit in Quiet Morning Silence",
+      "description": "Start your day in complete silence before checking your phone. Give your mind peace.",
       "category": "daily-routine",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Wake before sunrise and sit near an open window or in a calm corner without checking your phone.",
-        "Place one hand on your heart and breathe softly, listening only to the early morning birds and wind.",
-        "Whenever your mind rushes to chores, repeat quietly: 'Whatever happens in your life, do not surrender to despair.'",
-        "Spend the final two minutes in gratitude for the beating of your heart."
+        "1. Sit quietly in a calm spot without your phone.",
+        "2. Take slow, steady breaths and listen to outside sounds.",
+        "3. Remind yourself that today does not need to feel rushed.",
+        "4. Spend the last two minutes feeling thankful for life."
       ],
       "sourceChapter": "The Silence of Konya"
     },
     {
       "id": "the-forty-rules-of-love-act-4",
-      "title": "The Compassionate Mirror Pause",
-      "description": "When irritation rises against a spouse, family member, or friend, remember that whatever you see in others is an echo of what lies unhealed within yourself.",
+      "title": "Pause Before Reacting in Anger",
+      "description": "Notice when irritation begins to flare up inside you. Take a breath first.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "The moment someone frustrates you today, do not speak or defend yourself immediately.",
-        "Take three slow breaths and silently ask: 'What hidden fragility in me does this encounter prick?'",
-        "Look at the other person not as an opponent, but as a wounded soul carrying unseen burdens.",
-        "Respond with gentle clarity rather than stinging reproach."
+        "1. Stop speaking the moment someone annoys you today.",
+        "2. Take three deep breaths to calm your body down.",
+        "3. Ask yourself why this upset you so quickly.",
+        "4. Answer back with a calm, gentle tone."
       ],
       "sourceChapter": "The Rule of Reflection"
     },
     {
       "id": "the-forty-rules-of-love-act-5",
-      "title": "The Sanctuary of the Hearth",
-      "description": "Ella's Boston home was pristine yet emotionally cold. Infuse your primary living space with soulful warmth, natural life, and soft beauty that welcomes vulnerability.",
+      "title": "Create a Cozy Quiet Corner",
+      "description": "Make a warm, clutter-free space in your home. Use it only for quiet rest.",
       "category": "environment",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Clear away sterile clutter, harsh fluorescent glare, and distracting devices from your evening sitting area.",
-        "Introduce living greens, an unpretentious clay pot, or fresh wildflowers that remind you of impermanence.",
-        "Light a single beeswax candle or natural incense in the twilight.",
-        "Dedicate this corner solely to heart-to-heart conversations, contemplative reading, or quiet reflection."
+        "1. Clear away messy items and screens from one chair.",
+        "2. Add a green plant or a warm, soft blanket.",
+        "3. Turn on a small warm lamp in the evening.",
+        "4. Use this corner only for reading or quiet rest."
       ],
       "sourceChapter": "Autumn Leaves in Northampton"
     },
     {
       "id": "the-forty-rules-of-love-act-6",
-      "title": "Clearing the Threshold of Judgment",
-      "description": "Shams entered Rumi\u2019s library and questioned whether parchment books were blocking living wisdom. Remove objects from your desk that symbolize pride or intellectual vanity.",
+      "title": "Clear Ego Clutter from Desk",
+      "description": "Remove trophies or items meant to impress visitors. Keep your desk simple and humble.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Survey your study or workspace and identify artifacts kept purely to impress visitors or feed ego.",
-        "Box up trophies, decorative accolades, or neglected credentials that no longer speak truth.",
-        "Place one tactile keepsake\u2014a smooth river stone, a lover's handwritten letter, or a dried leaf\u2014beside your pen.",
-        "Let the open desk invite honest, humble craft over self-importance."
+        "1. Check your desk for items kept just to show off.",
+        "2. Put away old awards or certificates you no longer need.",
+        "3. Set out one simple item like a smooth stone.",
+        "4. Work with an open and humble mind today."
       ],
       "sourceChapter": "The Drowning of the Books"
     },
     {
       "id": "the-forty-rules-of-love-act-7",
-      "title": "Inventory of Your Fortified Walls",
-      "description": "Rumi observed that your task is not to seek love, but to seek and find all the barriers within yourself that you have built against it. Examine where you guard your heart out of fear.",
+      "title": "Map Your Emotional Defenses",
+      "description": "Find the ways you protect yourself from getting hurt. Face the fear underneath.",
       "category": "audit",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "Open a personal notebook and draw four vertical columns: Relationship, The Armor, The Fear, The Longing.",
-        "List the people closest to you and record how you protect yourself from them (e.g., sarcasm, cold silence, busyness).",
-        "Name the raw fear beneath each defense: fear of abandonment, humiliation, or unworthiness.",
-        "Identify one self-protective armor you are ready to dismantle this week."
+        "1. List three close people you sometimes keep at distance.",
+        "2. Note how you push them away, like using silence.",
+        "3. Write down what you are truly afraid of losing.",
+        "4. Choose one defensive habit to drop this week."
       ],
       "sourceChapter": "The Fortress of the Heart"
     },
     {
       "id": "the-forty-rules-of-love-act-8",
-      "title": "The Judgment and Righteousness Ledger",
-      "description": "The religious zealots of Konya judged Shams because his ways unsettled their dogmas. Uncover the subtle ways you cast moral judgment on those living differently than you.",
+      "title": "Check Your Harsh Judgments",
+      "description": "Notice when you judge someone else's life choices. Replace that judgment with quiet understanding.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Recall three recent occasions where you felt superior or silently condemned another person's lifestyle or choices.",
-        "Write down the exact thought you had: 'They are undisciplined, shallow, or misguided.'",
-        "Ask yourself honestly: 'How does condemning them make me feel falsely secure about my own life?'",
-        "Reframe each judgment into a prayer for their peace and your own humility."
+        "1. Write down three times you looked down on someone.",
+        "2. Note the exact harsh thought that came to mind.",
+        "3. Ask yourself why judging them made you feel superior.",
+        "4. Wish them peace and focus on your own growth."
       ],
       "sourceChapter": "The Zealot\u2019s Shadow"
     },
     {
       "id": "the-forty-rules-of-love-act-9",
-      "title": "The Weekly Letter of Vulnerability",
-      "description": "Ella and Aziz transformed each other across oceans through letters stripped of artifice. Create a ritual of writing unfiltered emotional truth to deepen an intimate bond.",
+      "title": "Send a Weekly Honest Note",
+      "description": "Write a deeply honest message to someone you love. Skip ordinary small talk.",
       "category": "system",
       "timeEstimateMinutes": 40,
       "stepByStep": [
-        "Choose one evening each Sunday to write an honest, heartfelt letter to a loved one or deep friend.",
-        "Speak without masks: share a recent sorrow, an awakening, or a tender gratitude you rarely utter aloud.",
-        "Refrain from discussing logistics, errands, grievances, or practical family business.",
-        "Send it without expecting an elaborate answer, offering it merely as a gift of authentic presence."
+        "1. Pick a close friend or family member to write.",
+        "2. Share one true feeling or story from your heart.",
+        "3. Skip daily chores, work gossip, or small complaints.",
+        "4. Send it without expecting any special reply back."
       ],
       "sourceChapter": "Letters Across Continents"
     },
     {
       "id": "the-forty-rules-of-love-act-10",
-      "title": "The Whirling Dervish Walk of Surrender",
-      "description": "Sufis surrender control through sacred movement, accepting life's changes without bitterness. Build a weekly solitary walk where you mentally hand over your worries to the flow of life.",
+      "title": "Take a Silent Surrender Walk",
+      "description": "Walk outside without your headphones or phone. Let go of trying to control everything.",
       "category": "system",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "Set aside a designated hour on the weekend to walk through an unpaved park or quiet trail without headphones.",
-        "As your feet strike the earth, release the frantic need to orchestrate the outcome of current life dilemmas.",
-        "With each exhalation, whisper: 'I flow with life; what is taken away makes room for what is arriving.'",
-        "Return home holding an attitude of willing trust toward the unknown."
+        "1. Walk along a quiet park trail without your phone.",
+        "2. Notice your steps and stop planning the upcoming week.",
+        "3. Breathe out and tell yourself things will work out.",
+        "4. Head home feeling lighter and more trusting."
       ],
       "sourceChapter": "The Dance of Surrender"
     },
     {
       "id": "the-forty-rules-of-love-act-11",
-      "title": "The Radical Hospitality Circle",
-      "description": "A dervish lodge opens its doors to saints and scoundrels alike without demanding pedigree. Establish a monthly table tradition where all pretenses and social standing are discarded.",
+      "title": "Host a Simple Shared Meal",
+      "description": "Invite friends over for a basic dinner. Forget status and talk about real life.",
       "category": "system",
       "timeEstimateMinutes": 90,
       "stepByStep": [
-        "Host an unpretentious, home-cooked meal once a month with simple soup, warm bread, and tea.",
-        "Invite a diverse blend of people\u2014someone lonely, an old friend, or a young seeker navigating change.",
-        "Set an explicit circle rule: no talk of professional titles, wealth, or political rivalry.",
-        "Prompt the table with a question of the soul: 'What unexpected sorrow taught you the most about love?'"
+        "1. Cook a basic meal like warm soup and bread.",
+        "2. Invite a mix of close and quieter friends over.",
+        "3. Ask everyone to avoid talking about jobs or politics.",
+        "4. Ask a question about what difficult times taught them."
       ],
       "sourceChapter": "The Feast at the Dervish Lodge"
     },
     {
       "id": "the-forty-rules-of-love-act-12",
-      "title": "The Midday Kindness to an Unseen Wound",
-      "description": "Every person you meet is fighting a quiet, desperate battle. Anchor a daily habit of offering an unexpected kindness that softens another's invisible weariness.",
+      "title": "Offer an Unexpected Small Favor",
+      "description": "Give quiet help to someone having a hard time. Do it without seeking attention.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Around noon, pause and think of someone in your immediate orbit who seems burdened or subdued.",
-        "Perform one quiet act of comfort: bring them a cup of tea, send a note affirming their courage, or take over a small chore.",
-        "Do not draw attention to your benevolence or seek praise.",
-        "Allow the warmth of having relieved someone's pain to soften your own afternoon tensions."
+        "1. Think of someone around you who seems very tired.",
+        "2. Bring them a hot drink or handle one chore.",
+        "3. Do this quietly without asking for thanks.",
+        "4. Notice how helping them eases your own stress."
       ],
       "sourceChapter": "The Rule of Compassion"
     }
@@ -4017,10 +4017,10 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       "author": "Elif Shafak",
       "category": "Philosophy",
       "type": "mental-model",
-      "headline": "The Inner Mirror of God",
-      "body": "Your understanding of the sacred is an exact silhouette of your own inner landscape.\nWhen a person sees God as vengeful and cruel, they reveal their own bottled anger.\nWhen someone meets the world with boundless compassion, they reveal a heart that has made peace with grace.",
-      "quote": "How we see God is a direct reflection of how we see ourselves. If God brings to mind mostly fear and blame, it means there is too much fear and blame welled up inside us. If we see God as full of love and compassion, so are we.",
-      "actionItem": "When you catch yourself judging the universe or another person harshly, pause and ask what unhealed resentment within you is dictating that verdict.",
+      "headline": "The Inner Mirror",
+      "body": "How you see the world reflects what is inside you.\nAn angry person expects cruelty everywhere.\nA loving person finds kindness all around them.",
+      "quote": "If we see the world as cruel, we carry cruelty inside ourselves.",
+      "actionItem": "When you judge someone harshly today, ask what pain you carry inside.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -4038,10 +4038,10 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       "author": "Elif Shafak",
       "category": "Philosophy",
       "type": "concept",
-      "headline": "The Dot Beneath the Letter",
-      "body": "The entire universe, Sufis teach, is contained within the holy book, the book within its first chapter, and the chapter within its very first letter, the 'Ba'.\nAt the root of that letter lies a solitary dot.\nLove is that single dot: the primal essence from which all words, destinies, and connections bloom.",
-      "quote": "The universe is an ocean, but we are looking at a single drop. Look beneath the surface of the letter and seek the unifying dot.",
-      "actionItem": "Look past the complex layers of an ongoing conflict and seek the simple human vulnerability resting quietly at its center.",
+      "headline": "The Hidden Center",
+      "body": "Life looks big and complicated on the surface.\nBeneath all the noise lies one simple truth.\nPure love connects every living thing together.",
+      "quote": "Look beneath all the complex details to find the simple core of love.",
+      "actionItem": "Look past an argument today and find the simple fear beneath it.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -4059,10 +4059,10 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       "author": "Elif Shafak",
       "category": "Philosophy",
       "type": "actionable",
-      "headline": "Surrender to the Current",
-      "body": "Suffering comes from resisting change and clutching desperately to an illusory sense of control.\nLife does not bend to our stubborn architecture.\nWhen chaos knocks on your door, do not dig in your heels; allow the current to rearrange your banks.",
-      "quote": "Do not worry that your life is turning upside down. How do you know that the side you are used to is better than the one to come?",
-      "actionItem": "Identify one outcome you are obsessively trying to force today, and consciously choose to let it unfold without your interference.",
+      "headline": "Flow With Change",
+      "body": "We suffer when we fight against sudden change.\nLife does not follow our rigid personal plans.\nLet go and let life move you forward.",
+      "quote": "Do not fear sudden change. Better things may arrive in your life.",
+      "actionItem": "Pick one thing you cannot control today and stop forcing it.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -4080,10 +4080,10 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       "author": "Elif Shafak",
       "category": "Philosophy",
       "type": "quote",
-      "headline": "The Silent Language of the Heart",
-      "body": "Intellect communicates with structured syllables and clever arguments, always measuring safety and advantage.\nThe heart speaks in a language that needs no alphabet, communicating directly through presence, vulnerability, and silent devotion.",
-      "quote": "The path to the truth is a labor of the heart, not of the head. Make your heart your primary guide! Not your mind.",
-      "actionItem": "Before entering a sensitive conversation, silence your internal rehearsed speeches and listen with uninterrupted presence.",
+      "headline": "Follow Your Heart",
+      "body": "The brain likes clever arguments and safe choices.\nThe heart understands deep truth without using words.\nTrust your feelings over cold logic.",
+      "quote": "Make your heart your guide, because truth lives inside the heart.",
+      "actionItem": "Stop planning your next words and listen closely to the other person.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -4101,10 +4101,10 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       "author": "Elif Shafak",
       "category": "Philosophy",
       "type": "mental-model",
-      "headline": "The Mirror Companion",
-      "body": "A true spiritual companion is not a flatterer who coddles your illusions, but a crystalline mirror who shows you your hidden depths, blind spots, and genuine nobility.\nGrowth demands standing before someone whose honesty shatters your carefully curated masks.",
-      "quote": "A friend is one who is a mirror to you, not a veil that hides your face.",
-      "actionItem": "Seek counsel from a friend who loves you enough to tell you uncomfortable truths, and thank them for not feeding your ego.",
+      "headline": "The True Mirror Friend",
+      "body": "A real friend does not merely flatter your ego.\nThey act like a clear mirror for your flaws.\nTheir honest words help you become better.",
+      "quote": "A true friend is a mirror who shows your real self.",
+      "actionItem": "Ask an honest friend for real feedback and thank them for it.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -4122,10 +4122,10 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       "author": "Elif Shafak",
       "category": "Philosophy",
       "type": "concept",
-      "headline": "The Alchemy of the Broken Vessel",
-      "body": "We strive to present flawless exteriors to the world, yet grace only penetrates through fractures.\nA heart that has never been broken remains rigid and small; sorrow breaks the vessel wide open so that it can hold the joys and pains of humanity.",
-      "quote": "The wound is the place where the Light enters you.",
-      "actionItem": "Reframe your deepest emotional scar not as a badge of victimhood, but as the doorway through which your empathy was born.",
+      "headline": "Growth Through Pain",
+      "body": "People try hard to appear strong and perfect.\nHard times crack open our hard shells.\nPain teaches us how to care for others.",
+      "quote": "Your deepest wounds let new light and wisdom enter your soul.",
+      "actionItem": "See an old emotional hurt as a gift that taught you kindness.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -4143,10 +4143,10 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       "author": "Elif Shafak",
       "category": "Philosophy",
       "type": "actionable",
-      "headline": "Cleanse the Tongue of Gossip",
-      "body": "Speaking ill of others is an unconscious poison that darkens the speaker far more than the subject.\nWhen you degrade another soul, you soil the mirror of your own spirit and bind yourself to pettiness.",
-      "quote": "The dirt that matters is inside. It is easy to wash off external grime, but inner stains require a lifetime of sincere repentance and love.",
-      "actionItem": "Practice a complete fast from gossip and criticism for forty-eight hours; when prompted to speak ill, respond with compassionate silence.",
+      "headline": "Drop the Gossip",
+      "body": "Talking bad about people hurts you the most.\nIt fills your own mind with dark thoughts.\nKeep your speech clean and kind.",
+      "quote": "Real dirt lives inside our hearts, not on our clean clothes.",
+      "actionItem": "Stay completely quiet today whenever people start gossiping around you.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -4164,10 +4164,10 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       "author": "Elif Shafak",
       "category": "Philosophy",
       "type": "quote",
-      "headline": "Beyond the Bounds of Right and Wrong",
-      "body": "Dogma builds tall walls to divide the pure from the stained, the righteous from the sinful.\nYet the divine lives out beyond human categories, in the wild meadow where all souls stand stripped of their worldly titles and moral posturing.",
-      "quote": "Out beyond ideas of wrongdoing and rightdoing there is a field. I'll meet you there.",
-      "actionItem": "Suspend your moral evaluation of someone you disagree with, and view them simply as a struggling human heart.",
+      "headline": "Beyond Good and Bad",
+      "body": "People love to divide everyone into saints and sinners.\nTruth lives far beyond our rigid labels.\nEvery person is simply trying their best.",
+      "quote": "Beyond ideas of right and wrong, there is a peaceful field.",
+      "actionItem": "Stop judging someone who disagrees with you and show them gentle patience.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -4185,10 +4185,10 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       "author": "Elif Shafak",
       "category": "Philosophy",
       "type": "mental-model",
-      "headline": "The Law of Spiritual Echoes",
-      "body": "The universe is a mountain valley: whatever word you utter\u2014whether a curse or a blessing\u2014will echo back to you intensified.\nYou cannot sow bitterness and harvest sweetness.\nIf you want peace, your breath must become peaceful first.",
-      "quote": "The universe is an echo chamber. Cast a pebble of hatred into the water and watch the rings return to your own shore.",
-      "actionItem": "Whenever you receive unprovoked hostility, refuse to echo it back; consciously return a calm, neutralizing blessing.",
+      "headline": "The Echo Rule",
+      "body": "Whatever energy you put out returns to you.\nIf you send hate, you will receive hostility.\nSend out warmth to get warmth back.",
+      "quote": "Life is an echo that sends your own words back to you.",
+      "actionItem": "Reply with a gentle voice when someone speaks angrily to you today.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -4206,10 +4206,10 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       "author": "Elif Shafak",
       "category": "Philosophy",
       "type": "concept",
-      "headline": "Sweet Blasphemy",
-      "body": "To the orthodox mind obsessed with rites, genuine passionate love looks dangerous and unhinged.\nYet rigid piety without tenderness is spiritual death.\nTrue devotion often requires breaking societal expectations to honor the living pulse of truth.",
-      "quote": "Love has no rules, no dogmas, no categories. Love is simply love, untethered and free.",
-      "actionItem": "Examine a rule or tradition you obey purely out of habit, and ask whether it softens your heart or merely keeps you comfortable.",
+      "headline": "Love Over Rules",
+      "body": "Blindly following rules can make your heart cold.\nReal kindness matters much more than strict traditions.\nAlways choose love over rigid dogma.",
+      "quote": "Love has no rigid rules. Love is free and open to everyone.",
+      "actionItem": "Notice one habit you follow blindly and choose kindness instead today.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -4227,10 +4227,10 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       "author": "Elif Shafak",
       "category": "Philosophy",
       "type": "actionable",
-      "headline": "Walk Toward the Outcast",
-      "body": "Piety that hides in holy sanctuaries is cheap.\nTrue spiritual awakening tests itself by seeking beauty in the discarded, the destitute, and the despised.\nShams did not seek kings; he sought the leper, the drunkard, and the prostitute.",
-      "quote": "If you want to change the ways others treat you, you should first change the way you treat yourself. Unless you learn to love yourself, fully and completely, there is no way you can be loved.",
-      "actionItem": "Reach out to or sit beside someone your immediate social circle typically overlooks or dismisses.",
+      "headline": "Include the Left Out",
+      "body": "It is easy to love popular, successful people.\nTrue spiritual maturity means helping lonely outsiders.\nReach out to those whom society ignores.",
+      "quote": "Love yourself first, then share that warm love with everyone around you.",
+      "actionItem": "Smile and say hello to someone people usually ignore at work.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -4248,10 +4248,10 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       "author": "Elif Shafak",
       "category": "Philosophy",
       "type": "quote",
-      "headline": "The Illusion of Past and Future",
-      "body": "Eternity is not an endless string of calendar days; it is the sheer depth of the present moment.\nObsessing over past regrets or future security blinds you to the miraculous sacred theater unfolding right now.",
-      "quote": "Past is an interpretation. The future is an illusion. The world does not move through time as if it were a straight line, proceeding from the past to the future. Instead time moves through and within us, in endless spirals.",
-      "actionItem": "When an old regret grips your throat today, ground your senses in the room and whisper: 'That story is gone; life is only here.'",
+      "headline": "Live Right Now",
+      "body": "Yesterday is gone and tomorrow has not happened yet.\nWorrying about either ruins your peace today.\nLife only happens in this present moment.",
+      "quote": "The past is gone and the future is only a thought.",
+      "actionItem": "Take one deep breath and notice what is right in front of you.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -4269,10 +4269,10 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       "author": "Elif Shafak",
       "category": "Philosophy",
       "type": "mental-model",
-      "headline": "The Whirling Dervish Pivot",
-      "body": "In the Sufi whirl, one hand opens upward to receive heaven's grace while the other turns downward to bestow it upon the earth.\nThe dancer remains motionless at the center while spinning wildly.\nTrue equanimity is finding that quiet stillness while life whirls around you.",
-      "quote": "In the midst of the movement, find the center that never moves.",
-      "actionItem": "During your most chaotic moment today, stand still, breathe deeply, and locate the silent axis inside you that nothing can shake.",
+      "headline": "Calm in the Storm",
+      "body": "A spinning dancer stays balanced by focusing on one point.\nLife will always spin fast around you.\nKeep your mind quiet inside the storm.",
+      "quote": "Find the quiet center inside you that never moves or shakes.",
+      "actionItem": "Pause for ten seconds during a busy rush and relax your shoulders.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -4290,10 +4290,10 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       "author": "Elif Shafak",
       "category": "Philosophy",
       "type": "concept",
-      "headline": "The Annihilation of Ego (Fana)",
-      "body": "Before one can be filled with divine light, the false architecture of the ego must dissolve.\nAs long as you are preoccupied with defending your pride, status, and vanity, there is no room for boundless love to dwell within your chest.",
-      "quote": "When the drop reaches the ocean, it becomes the ocean. Do not mourn the loss of the drop.",
-      "actionItem": "Notice when your pride feels wounded today; instead of firing back a defense, smile quietly and let the ego die a small, liberating death.",
+      "headline": "Drop Your Ego",
+      "body": "Defending your pride takes too much energy.\nTrue peace comes when you let go of status.\nA quiet ego leaves room for love.",
+      "quote": "A drop that enters the sea becomes the vast sea itself.",
+      "actionItem": "Do not argue back today when someone tries to insult your pride.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -4312,9 +4312,9 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       "category": "Philosophy",
       "type": "actionable",
       "headline": "Leave the Safe Shore",
-      "body": "Ella lived forty years wrapped in the safe wool of domestic predictability, mistaking emotional comfort for life.\nWhen spiritual awakening arrives, it often demands the bravery to set sail onto unmapped waters and risk heartbreak.",
-      "quote": "A life without love is of no account. Don't ask yourself what kind of love you should seek, spiritual or material, divine or mundane... love has no labels, no definitions.",
-      "actionItem": "Take one small creative, emotional, or personal risk today that your safe, cautious self has been postponing out of fear.",
+      "body": "Playing it safe makes life boring and numb.\nGrowth requires stepping into unfamiliar waters.\nTake a brave chance on something new.",
+      "quote": "A life lived without love does not count for very much.",
+      "actionItem": "Take one small personal risk today that fear made you delay.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -4332,10 +4332,10 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       "author": "Elif Shafak",
       "category": "Philosophy",
       "type": "quote",
-      "headline": "The Fire that Purifies",
-      "body": "Love is not a gentle stroll through pleasant gardens; it is an untamed fire that burns away every scrap of falsehood, hypocrisy, and comfortable self-deception until only pure gold remains.",
-      "quote": "If you want to be born anew, you must first be willing to die. You cannot enter love without letting go of who you were.",
-      "actionItem": "Write down an old identity or title you cling to for validation, and contemplate who you would be if it vanished tomorrow.",
+      "headline": "The Burning Fire",
+      "body": "Real love is not always quiet and easy.\nIt burns away our fake habits and lies.\nOnly genuine truth remains in the end.",
+      "quote": "You must let go of your old self to live fully.",
+      "actionItem": "Admit one small lie you tell people to look good.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -4353,10 +4353,10 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       "author": "Elif Shafak",
       "category": "Philosophy",
       "type": "mental-model",
-      "headline": "The Geometry of Acceptance",
-      "body": "A stone in a rushing brook does not fight the water; it allows the current to smooth its sharp edges until it becomes round and polished.\nPain is life's chisel; those who resist grow bitter, while those who yield become works of grace.",
-      "quote": "Patience does not mean to passively endure. It means to be farsighted enough to trust the end result of a process.",
-      "actionItem": "When met with a frustrating delay or obstruction today, consciously see it as a stone polishing your patience rather than an enemy.",
+      "headline": "The River Stone",
+      "body": "A stone in a river does not stop the water.\nThe gentle current polishes its sharp edges over time.\nPatience turns hard trials into wisdom.",
+      "quote": "True patience means trusting that good results will come in time.",
+      "actionItem": "Treat an annoying delay today as practice for building patience.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -4374,10 +4374,10 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       "author": "Elif Shafak",
       "category": "Philosophy",
       "type": "concept",
-      "headline": "The Sacredness of Solitude",
-      "body": "Loneliness is the desperate craving for company to escape yourself; solitude is the rich, quiet communion with your own depths.\nYou cannot genuinely meet another human soul until you have learned to dwell peacefully within your own silence.",
-      "quote": "Loneliness and solitude are two different things. When you are lonely, it is easy to delude yourself into believing that you are on the right path. Solitude is better for us, as it means being alone without feeling lonely.",
-      "actionItem": "Spend twenty uninterrupted minutes tonight sitting without phones, books, or screens, simply resting in your own breathing presence.",
+      "headline": "Quiet Alone Time",
+      "body": "Feeling lonely means feeling empty inside.\nQuiet solitude means enjoying your own company.\nLearn to sit peacefully with yourself.",
+      "quote": "Being alone in peace is very different from feeling lonely.",
+      "actionItem": "Sit alone in silence for ten minutes without looking at your phone.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -4395,10 +4395,10 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       "author": "Elif Shafak",
       "category": "Philosophy",
       "type": "actionable",
-      "headline": "Choose Forgiveness Over Vengeance",
-      "body": "To nurse a grievance is to drink poison and expect your adversary to perish.\nThe Sufi way meets malice with sweetness, knowing that hate cannot extinguish hate; only boundless love can swallow the dark without being swallowed itself.",
-      "quote": "Whatever happens in your life, no matter how troubling things might seem, do not enter the neighborhood of despair. Even when all doors remain closed, God will open a new path only for you.",
-      "actionItem": "Silently release a debt or slight held against someone who never apologized, unburdening your own spirit from their mistake.",
+      "headline": "Choose Forgiveness",
+      "body": "Holding anger hurts you, not the other person.\nRevenge only creates more pain in the world.\nLet go of grudges to free your heart.",
+      "quote": "Even when every door shuts, a brand new path will open.",
+      "actionItem": "Silently forgive someone today who never said sorry to you.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -4416,10 +4416,10 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       "author": "Elif Shafak",
       "category": "Philosophy",
       "type": "quote",
-      "headline": "The Eternal Symphony of Love",
-      "body": "Bodies pass away, eras crumble into dust, and empires dissolve into desert winds, but love remains the unbroken thread running through the fabric of creation.\nIn the end, only the love we dared to give and receive endures.",
-      "quote": "Love is the water of life. And a lover is a soul of fire! The universe turns differently when fire loves water.",
-      "actionItem": "Express genuine, unmeasured love or gratitude to someone close to you today without expecting anything in return.",
+      "headline": "Enduring Love",
+      "body": "Bodies grow old and empires crumble to dust.\nLove stays alive through all of time.\nThe love you share is what truly lasts.",
+      "quote": "Love gives real life to our minds, hearts, and souls.",
+      "actionItem": "Tell a loved one today why you are thankful for them.",
       "tags": [
         "Philosophy",
         "Core Insights"
@@ -4433,34 +4433,34 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
   ],
   "mindMap": {
     "id": "root",
-    "label": "The Forty Rules of Love",
-    "description": "Elif Shafak's dual-narrative masterpiece bridges thirteenth-century Anatolia with contemporary Boston, exploring how divine affection and mystical friendship dissolve worldly illusions.\nThrough the interwoven journeys of Rumi, Shams of Tabriz, and suburban homemaker Ella Rubinstein, the narrative reveals that love is not a passive sentiment but an alchemical fire meant to undo and recreate the soul.",
+    "label": "Forty Rules of Love",
+    "description": "Two love stories show how true love can change your whole life.\nIt connects an ancient poet with a modern woman.",
     "children": [
       {
         "id": "twin-mirrors",
-        "label": "The Parallel Mirrors of Awakening",
-        "description": "Spiritual awakening echoes across eight centuries, proving that human longing and emotional isolation transcend historical eras.\nJust as Shams disturbs Rumi's safe theological respectability, the enigmatic novelist Aziz Zahara penetrates Ella's comfortable, emotionally stagnant marriage.",
+        "label": "Two Parallel Stories",
+        "description": "People across different times look for the same deep connection.\nBoth stories show how a stranger can wake up your heart.",
         "children": [
           {
             "id": "ella-domestic-cage",
-            "label": "Ella Rubinstein and the Stagnant Life",
-            "description": "Living in an affluent Massachusetts suburb, Ella manages domestic routines with culinary precision while silently suffocating inside a hollow marriage.\nHer unexamined existence illustrates how safety and emotional numbness often disguise themselves as maturity, keeping the heart shielded from transformative sorrow.",
+            "label": "Ella's Quiet Life",
+            "description": "Ella seems happy on the outside but feels empty inside.\nShe chooses safety instead of real feelings.",
             "children": [
               {
                 "id": "sweet-blasphemy-manuscript",
-                "label": "The 'Sweet Blasphemy' Catalyst",
-                "description": "Reading Aziz Zahara's manuscript about Rumi and Shams shatters Ella's protective veneer of cynicism.\nThe words do not merely entertain her intellect; they awaken buried longings, compelling her to question whether an unlived life is worth protecting at the expense of her spirit.",
+                "label": "The Life-Changing Book",
+                "description": "Ella reads a book about Rumi and Shams.\nIt wakes up feelings she forgot she had.",
                 "children": [
                   {
                     "id": "epistolary-intimacy",
-                    "label": "Epistolary Confessions Across Continents",
-                    "description": "Through emails with Aziz, Ella articulates vulnerabilities she has never shared with family or friends.\nThese fragile electronic letters become sacred confessionals where two wandering souls recognize each other before ever touching.",
+                    "label": "Heartfelt Secret Emails",
+                    "description": "Ella writes honest emails to the author, Aziz.\nThey share deep secrets and become close friends.",
                     "children": []
                   },
                   {
                     "id": "leaving-the-sheltered-harbor",
-                    "label": "The Courage of Abandoning False Security",
-                    "description": "Walking away from twenty years of domestic routine, Ella chooses the uncertainty of love over the slow death of complacency.\nHer departure is not an act of selfish abandonment, but an imperative reclamation of her essential humanity.",
+                    "label": "Choosing Real Love",
+                    "description": "Ella leaves her safe home behind.\nShe risks everything to feel alive again.",
                     "children": []
                   }
                 ]
@@ -4469,19 +4469,19 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
           },
           {
             "id": "rumi-orthodox-cleric",
-            "label": "Mawlana Rumi: The Scholar in Need of a Heart",
-            "description": "Before meeting Shams, Rumi is a venerated Islamic jurist whose vast intellect commands admiration throughout Konya, yet remains untamed by wild, divine ecstasy.\nHis life exemplifies how scholarly piety and societal prestige can inadvertently trap an enlightened mind within the prison of dogmatic certainty.",
+            "label": "Rumi Before Love",
+            "description": "Rumi is a respected teacher who knows books well.\nStill, his heart misses true spiritual passion.",
             "children": [
               {
                 "id": "the-books-in-the-well",
-                "label": "Drowning the Pedant's Books",
-                "description": "When Shams casts Rumi's precious manuscripts into water, he forces the scholar to discard theoretical theology in favor of living, breath-by-breath revelation.\nTrue wisdom cannot be memorized from parchment; it must be burned directly into the marrow through direct mystical experience.",
+                "label": "Dropping the Books",
+                "description": "Shams throws Rumi's books into the water.\nHe shows him that wisdom comes from living, not reading.",
                 "children": []
               },
               {
                 "id": "birth-of-the-mystic-poet",
-                "label": "Transmuting Grief into Ecstatic Verse",
-                "description": "Following Shams's disappearance, Rumi's shattered soul overflows with the immortal verses of the Mathnawi.\nGrief becomes the whetstone of his art, transforming an orthodox preacher into the eternal poet of universal divine longing.",
+                "label": "Poet of Love",
+                "description": "Losing Shams breaks Rumi's heart wide open.\nHis deep sadness turns into beautiful, timeless poetry.",
                 "children": []
               }
             ]
@@ -4490,29 +4490,29 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       },
       {
         "id": "wandering-dervish",
-        "label": "Shams of Tabriz: The Holy Iconoclast",
-        "description": "Shams moves through the medieval world like a storm, completely indifferent to social custom, fear, and institutional hierarchies.\nHe seeks a spiritual companion capable of holding the full radiance of divine presence without shrinking back into fearful orthodox conventions.",
+        "label": "Shams the Wanderer",
+        "description": "Shams travels around without caring about social rules.\nHe looks for a true soulmate who understands him.",
         "children": [
           {
             "id": "shams-mirror-nature",
-            "label": "The Mirror That Refuses to Flatter",
-            "description": "Shams functions as a pure, unclouded mirror, reflecting people's deepest hypocrisies, shadows, and divine potentials without distortion.\nThose whose pride cannot endure what they see react with venomous hatred, while those ready for truth find liberation in his gaze.",
+            "label": "The Honest Mirror",
+            "description": "Shams shows people who they really are inside.\nProud people hate him, but honest people find peace.",
             "children": [
               {
                 "id": "embracing-the-outcasts",
-                "label": "Reverence for the Spurned and Despised",
-                "description": "Rather than seeking courtly favors or visiting scholarly circles, Shams spends his days in the company of harlots, lepers, drunkards, and beggars.\nHe reveals that divine mercy blossoms brightest where society has pronounced its harshest judgments.",
+                "label": "Befriending the Outcasts",
+                "description": "Shams spends his time with beggars and drunkards.\nHe proves that God loves everyone without judgment.",
                 "children": [
                   {
                     "id": "desert-rose-harlot",
-                    "label": "Desert Rose and Restored Dignity",
-                    "description": "When Shams protects the prostitute Desert Rose from an angry, self-righteous mob, he recognizes her sacred inner jewel untouched by external shame.\nHis presence invites her to step out of degradation and claim her inherent holiness.",
+                    "label": "Helping Desert Rose",
+                    "description": "Shams protects an outcast woman from an angry crowd.\nHe shows her that her soul is pure and worthy.",
                     "children": []
                   },
                   {
                     "id": "suleiman-the-drunkard",
-                    "label": "Suleiman and the Heart Beneath Intoxication",
-                    "description": "In the town drunkard, Shams identifies a desperate seeker whose thirst for wine is merely a misplaced yearning for transcendent ecstasy.\nHe sees that God is often closer to an honest sinner than to a proud, rigid zealot.",
+                    "label": "Kindness for Suleiman",
+                    "description": "Shams sees goodness inside the town drunkard.\nHe knows an honest sinner is close to God.",
                     "children": []
                   }
                 ]
@@ -4521,25 +4521,25 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
           },
           {
             "id": "forty-rules-architecture",
-            "label": "The Forty Rules: Path of the Mystic",
-            "description": "Scattered across Shams's travels and conversations, the forty rules form an inner architecture for surrendering ego and encountering God directly.\nThey do not dictate moralistic codes of conduct, but invite the seeker into a radical vulnerability that welcomes both joy and heartbreak.",
+            "label": "The Forty Rules",
+            "description": "These rules teach how to let go of ego.\nThey invite you to open your heart to love.",
             "children": [
               {
                 "id": "rule-of-divine-reflection",
-                "label": "Rule of Divine Reflection: How We Conceive God",
-                "description": "How we perceive God is a direct reflection of how we perceive ourselves; if God brings to mind fear and blame, it means fear and blame abound within us.\nConversely, seeing God through infinite compassion and beauty reveals a heart softened by forgiveness.",
+                "label": "How We See God",
+                "description": "How you view God reflects how you view yourself.\nIf you feel love inside, you will see God as loving.",
                 "children": []
               },
               {
                 "id": "rule-of-the-void",
-                "label": "Rule of Emptying: The Broken Vessel",
-                "description": "Just as a vessel must be hollowed out before it can hold water, the seeker's ego must be broken down to receive divine light.\nTrue spiritual richness begins at the exact moment one accepts absolute inner poverty and helplessness.",
+                "label": "Emptying the Cup",
+                "description": "A cup must be empty before it can hold water.\nDrop your pride so divine light can fill you.",
                 "children": []
               },
               {
                 "id": "rule-of-acceptance-change",
-                "label": "Rule of Flow: Embracing Upheaval",
-                "description": "Do not resist changes that come your way; instead, let life live through you without anxiety.\nHow do you know that the side you are accustomed to is better than the side that is to come?",
+                "label": "Welcoming Big Changes",
+                "description": "Do not fight unexpected changes in life.\nThe new path might be better than the old one.",
                 "children": []
               }
             ]
@@ -4548,37 +4548,37 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       },
       {
         "id": "shadow-of-orthodoxy",
-        "label": "The Shadow of Orthodoxy and Moral Hypocrisy",
-        "description": "The novel portrays the perpetual clash between rigid institutional religion and the anarchic purity of spiritual love.\nThose invested in societal rank and moral superiority perceive the radical freedom of love as dangerous blasphemy that must be silenced.",
+        "label": "Rules Versus Love",
+        "description": "Strict religious leaders clash with open-hearted love.\nPeople afraid of change try to crush free spirits.",
         "children": [
           {
             "id": "zealotry-and-fear",
-            "label": "Religious Rigidity as Emotional Defense",
-            "description": "The town elders and clerics of Konya cling tightly to scriptural literalism to mask their inner terror of ambiguity and genuine passion.\nTheir piety is characterized by suspicion, exclusion, and a desperate drive to control the spiritual lives of others.",
+            "label": "Fear of the Unknown",
+            "description": "Strict town leaders judge others to hide their own fears.\nThey use harsh rules to control everyone around them.",
             "children": [
               {
                 "id": "the-murderous-conspiracy",
-                "label": "The Anatomy of Religious Violence",
-                "description": "When fear curdles into ideological hatred, the self-proclaimed defenders of public virtue collude to murder the mystic.\nThe tragic plot against Shams unmasks how righteous mobs will gladly extinguish real divinity in order to protect their hollow institutions.",
+                "label": "Plotting Against Shams",
+                "description": "Angry men secretly plan to kill Shams.\nFear makes them destroy the goodness they cannot understand.",
                 "children": []
               }
             ]
           },
           {
             "id": "household-tensions-konya",
-            "label": "Domestic Rupture Inside Rumi's House",
-            "description": "Shams's unbroken forty-day retreat with Rumi ignites bitter resentment within the household, fracturing delicate family bonds.\nThe master's total absorption in mystical communion leaves his family feeling abandoned, bewildered, and dangerously envious.",
+            "label": "Trouble at Home",
+            "description": "Rumi spends all his time with Shams.\nHis family feels left out, confused, and jealous.",
             "children": [
               {
                 "id": "alaeddin-filial-bitterness",
-                "label": "Alaeddin's Jealousy and Vengeance",
-                "description": "Rumi's proud younger son cannot bear to witness his father kneeling humbly before an eccentric nomad.\nSwallowed by hurt pride and societal embarrassment, Alaeddin aligns himself with the conspirators, illustrating how unhealed filial grief festers into violence.",
+                "label": "Alaeddin's Bitter Jealousy",
+                "description": "Rumi's proud son hates seeing his father follow Shams.\nHis wounded pride soon turns into dangerous anger.",
                 "children": []
               },
               {
                 "id": "kimiya-tragic-longing",
-                "label": "Kimiya's Unrequited Crucible",
-                "description": "Rumi's adopted daughter Kimiya loves Shams with a tender, mortal devotion that cannot be reconciled with his ascetic detachments.\nHer rapid decline and untimely death underscore the heartbreaking human cost of loving someone whose soul belongs entirely to the infinite.",
+                "label": "Kimiya's Broken Heart",
+                "description": "Kimiya loves Shams with all her heart.\nShe suffers because Shams belongs only to God.",
                 "children": []
               }
             ]
@@ -4587,37 +4587,37 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       },
       {
         "id": "sufi-alchemy-of-love",
-        "label": "The Sufi Alchemy of Love and Surrender",
-        "description": "At its philosophical core, the book articulates the ancient Sufi tradition of 'Fana'\u2014the conscious annihilation of the self in the ocean of divine love.\nThis path does not promise a life free of sorrow, but offers a sweetness so profound that even suffering becomes an altar of awakening.",
+        "label": "Power of Surrender",
+        "description": "True peace comes from letting go of your ego.\nEven deep pain can help you grow.",
         "children": [
           {
             "id": "whirling-dervish-cosmology",
-            "label": "Sama: The Sacred Whirling Dance",
-            "description": "The ecstatic whirling dance represents the soul spinning in harmony with the cosmos, simultaneously rooted to the earth and open to the heavens.\nOne hand turns upward to receive divine grace, while the other turns downward to bestow that blessing upon all creation.",
+            "label": "The Whirling Dance",
+            "description": "Dancers spin around to connect with the universe.\nOne hand takes blessings from above, the other shares them.",
             "children": [
               {
                 "id": "the-center-that-holds",
-                "label": "Stillness at the Heart of the Hurricane",
-                "description": "In the ecstatic dizzying movement of the dervish, there exists an unwavering inner axis of quiet stillness.\nBy centering oneself entirely on the divine, the seeker remains unshakable amidst the turbulent storms of worldly misfortune.",
+                "label": "Calm in the Middle",
+                "description": "Even while spinning fast, the dancer stays calm inside.\nFocusing on love keeps you steady during hard times.",
                 "children": []
               }
             ]
           },
           {
             "id": "love-without-possessiveness",
-            "label": "Ishq: Love Beyond Clinging and Grasping",
-            "description": "Mystical love rejects commercial barter, emotional dependency, and domestic possessiveness, seeking only the beloved's ultimate spiritual freedom.\nIt endures separation without diminishing, proving that physical distance cannot sever souls that have merged into unity.",
+            "label": "Love Without Grasping",
+            "description": "Real love sets the other person free.\nIt does not fade even when lovers are far apart.",
             "children": [
               {
                 "id": "aziz-terminal-grace",
-                "label": "Aziz Zahara's Dignified Dying",
-                "description": "Diagnosed with terminal cancer, Aziz lives without panic, savoring each remaining sunrise with quiet serenity and gentle humor.\nHis dying teaches Ella that mortality is not love's cruel defeat, but the tender frame that gives every fleeting moment its sacred weight.",
+                "label": "Aziz Faces Death",
+                "description": "Aziz knows he is sick, but stays calm and kind.\nHe shows Ella that short moments are precious.",
                 "children": []
               },
               {
                 "id": "resurrection-through-sorrow",
-                "label": "The Everlasting Communion of Spirits",
-                "description": "Though Shams is taken by darkness and Aziz slips away into the earth, their love leaves their partners permanently transfigured.\nThe wound where the beloved was lost becomes the doorway through which the divine light pours into the rest of the world.",
+                "label": "Light from Grief",
+                "description": "Even after lovers pass away, their love stays alive.\nHeartbreak opens the door to greater compassion.",
                 "children": []
               }
             ]
@@ -4626,43 +4626,43 @@ export const THE_FORTY_RULES_OF_LOVE_BOOK: Book = {
       },
       {
         "id": "transformative-destiny",
-        "label": "Destiny, Meaning, and the Soul's True Compass",
-        "description": "The novel dissolves the illusion of accidental encounters, revealing that every soul we meet is a deliberate messenger dispatched to awaken our slumbering potential.\nLife is revealed not as a random series of days, but as a deliberate pilgrimage toward spiritual authenticity and deep emotional connection.",
+        "label": "Life Has Meaning",
+        "description": "No meeting in life happens by pure accident.\nEvery person you meet teaches your soul something new.",
         "children": [
           {
             "id": "the-art-of-becoming",
-            "label": "The Midwife of the True Self",
-            "description": "Just as a midwife assists during agonizing labor, intense sorrow and profound companionship act as the midwives of the authentic soul.\nSpiritual birth demands the painful tearing open of our old identities so that who we are truly meant to become can finally breathe.",
+            "label": "Growing Your Soul",
+            "description": "Growing into your true self can be painful.\nTough times help you discover who you really are.",
             "children": [
               {
                 "id": "the-broken-shell",
-                "label": "Cracking the Hard Nut of Identity",
-                "description": "Ego builds thick, defensive ramparts of social prestige, professional roles, and moral superiority to safeguard its brittle self-image.\nDivine grace must crack this hard outer shell like a seed husk, allowing the hidden sprout of authentic compassion to reach for the sun.",
+                "label": "Breaking the Shell",
+                "description": "We hide behind pride and social titles.\nLife must crack that shell so kindness can grow.",
                 "children": []
               },
               {
                 "id": "unconditional-hospitality",
-                "label": "Hospitality Toward the Uninvited Guest",
-                "description": "Rumi and Shams urge the seeker to welcome all unexpected visitors\u2014grief, shame, and sudden solitude\u2014with open arms and unconditional warmth.\nEach sorrow cleanses the inner chamber of the heart, preparing space for a far grander joy to take root.",
+                "label": "Welcoming Every Feeling",
+                "description": "Welcome hard feelings like sadness or grief.\nThey clear your heart so joy can enter later.",
                 "children": []
               }
             ]
           },
           {
             "id": "unity-of-existence",
-            "label": "Wahdat al-Wujud: The Universal Web of Being",
-            "description": "Beneath superficial divisions of creed, race, and time lies a single seamless tapestry of existence where no life is truly separate from another.\nHarming another soul inevitably diminishes oneself, while every quiet act of love sends luminous ripples across eternity.",
+            "label": "All Is One",
+            "description": "We are all connected like threads in one cloth.\nBeing kind to someone else is being kind to yourself.",
             "children": [
               {
                 "id": "the-point-under-the-ba",
-                "label": "The Dot Beneath the Letter Ba",
-                "description": "In mystical calligraphy, the entire cosmos is concentrated within the singular dot beneath the Arabic letter 'Ba'.\nTo understand love is to see that the vast expanse of the universe is mirrored entirely within the quiet chambers of the human chest.",
+                "label": "Universe Inside You",
+                "description": "A single dot can hold the whole world.\nEverything in the vast universe also lives inside your heart.",
                 "children": []
               },
               {
                 "id": "living-in-the-present-breath",
-                "label": "Ibn al-Waqt: The Child of the Present Moment",
-                "description": "The authentic mystic resides neither in guilty memories of the past nor in anxious projections of tomorrow, but lives vibrantly as a child of the present moment.\nIn that luminous, unburdened 'now', all fear dissolves, leaving only the endless ocean of divine presence.",
+                "label": "Living Right Now",
+                "description": "Do not worry about yesterday or tomorrow.\nPeace is found only in this current moment.",
                 "children": []
               }
             ]

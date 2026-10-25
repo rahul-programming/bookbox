@@ -100,10 +100,10 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({
   }
 
   return (
-    <div className="max-w-5xl mx-auto pt-4 sm:pt-6 pb-20 space-y-6 w-full max-w-full overflow-x-hidden">
+    <div className="max-w-5xl mx-auto pt-2 sm:pt-3 pb-16 space-y-4 w-full max-w-full overflow-x-hidden">
       
       {/* View Intro Banner */}
-      <div className="scroll-mt-44 p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-purple-50 to-indigo-50 dark:from-purple-950/20 dark:to-indigo-950/20 border border-purple-200/80 dark:border-purple-900/60 flex flex-wrap items-center justify-between gap-3 mt-3 sm:mt-4">
+      <div className="scroll-mt-36 p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-purple-50 to-indigo-50 dark:from-purple-950/20 dark:to-indigo-950/20 border border-purple-200/80 dark:border-purple-900/60 flex flex-wrap items-center justify-between gap-3">
         <div>
           <h3 className="font-bold text-sm sm:text-base text-purple-950 dark:text-purple-200">
             Idea Cards · {book.title}
