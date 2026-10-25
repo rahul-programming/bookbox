@@ -119,10 +119,10 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
   };
 
   // Dimensions
-  const ROOT_WIDTH = nodeViewMode === 'detailed' ? 320 : 250;
-  const NODE_WIDTH = nodeViewMode === 'detailed' ? 300 : 210;
-  const H_GAP = nodeViewMode === 'detailed' ? 95 : 85;
-  const V_GAP = nodeViewMode === 'detailed' ? 24 : 20;
+  const ROOT_WIDTH = nodeViewMode === 'detailed' ? 340 : 260;
+  const NODE_WIDTH = nodeViewMode === 'detailed' ? 320 : 220;
+  const H_GAP = nodeViewMode === 'detailed' ? 100 : 90;
+  const V_GAP = nodeViewMode === 'detailed' ? 26 : 22;
 
   // Calculate dynamic height for any node to accommodate its full content in place
   const getNodeHeight = (node: MindMapNode, isRoot = false): number => {
@@ -130,27 +130,27 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
     const sentences = rawDesc.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean);
     let descLines = 0;
     for (const s of sentences) {
-      descLines += Math.max(1, Math.ceil(s.length / (isRoot ? 38 : 42)));
+      descLines += Math.max(1, Math.ceil(s.length / (isRoot ? 36 : 38)));
     }
 
     if (isRoot) {
-      if (nodeViewMode === 'compact') return 70;
+      if (nodeViewMode === 'compact') return 76;
       const sentenceBreaks = Math.max(0, sentences.length - 1);
-      return Math.max(90, 64 + descLines * 18 + sentenceBreaks * 4);
+      return Math.max(96, 68 + descLines * 20 + sentenceBreaks * 4);
     }
 
-    if (nodeViewMode === 'compact') return 52;
+    if (nodeViewMode === 'compact') return 58;
 
     const labelLen = node.label.length;
-    const labelLines = Math.max(1, Math.ceil(labelLen / 30));
+    const labelLines = Math.max(1, Math.ceil(labelLen / 28));
 
-    // Padding (py-3 = 24px) + badge/header row (18px) + label text + description spacing and lines
-    let height = 24 + 18 + (labelLines * 17);
+    // Padding (py-3 = 24px) + badge/header row (20px) + label text + description spacing and lines
+    let height = 24 + 20 + (labelLines * 19);
     if (descLines > 0) {
       const sentenceBreaks = Math.max(0, sentences.length - 1);
-      height += 6 + (descLines * 16) + (sentenceBreaks * 4);
+      height += 8 + (descLines * 18) + (sentenceBreaks * 4);
     }
-    return Math.max(76, height);
+    return Math.max(82, height);
   };
 
   // Calculate layout coordinates recursively
@@ -558,13 +558,13 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
 
   const activeNode = findNodeById(book.mindMap, selectedNodeId) || book.mindMap;
 
-  // Dynamic font sizing based on global app font scaler
+  // Dynamic font sizing based on global app font scaler (+2pt boost)
   const nodeFontSizes = [
-    { title: 'text-xs', desc: 'text-[10px]' },
-    { title: 'text-xs sm:text-sm', desc: 'text-[11px]' },
-    { title: 'text-sm sm:text-base', desc: 'text-xs' },
-    { title: 'text-base sm:text-lg', desc: 'text-sm' },
-  ][fontSizeIndex] || { title: 'text-xs sm:text-sm', desc: 'text-[11px]' };
+    { title: 'text-sm font-bold', desc: 'text-xs' },
+    { title: 'text-sm sm:text-base font-bold', desc: 'text-xs sm:text-sm' },
+    { title: 'text-base sm:text-lg font-bold', desc: 'text-sm sm:text-base' },
+    { title: 'text-lg sm:text-xl font-bold', desc: 'text-base sm:text-lg' },
+  ][fontSizeIndex] || { title: 'text-sm sm:text-base font-bold', desc: 'text-xs sm:text-sm' };
 
   // Flatten layout tree for rendering HTML nodes
   const allLayoutNodes = useMemo(() => {
@@ -987,7 +987,7 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
                 </p>
               </div>
 
-              <div className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200/80 dark:border-slate-800 text-xs text-slate-700 dark:text-slate-300 leading-relaxed font-serif">
+              <div className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200/80 dark:border-slate-800 text-sm text-slate-700 dark:text-slate-300 leading-relaxed font-serif">
                 {activeNode.description ? (
                   <div className="space-y-1.5">
                     {(activeNode.description.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (
