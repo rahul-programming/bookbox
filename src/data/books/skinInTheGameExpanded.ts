@@ -1,5 +1,5 @@
 // Skin in the Game by Nassim Nicholas Taleb
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -810,169 +810,169 @@ export const SKIN_IN_THE_GAME_BOOK: Book = {
   "actionItems": [
     {
       "id": "skin-in-the-game-act-1",
-      "title": "Establish the 'Silver Rule' Advice Filter",
-      "description": "Never give advice to others that transfers downside risk onto them while you capture only upside or face zero consequences. Reframe your guidance around what you would never do.",
+      "title": "Filter Advice You Give Others",
+      "description": "Never give advice if you do not share the risk when things fail. Warn people what to avoid instead of telling them what risky moves to make.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Review your recent recommendations given to team members, clients, or friends.",
-        "Identify any scenario where they bear all the risk if the recommendation fails.",
-        "Disqualify advice where you lack shared downside; state only what you personally do or avoid.",
-        "Commit to the negative heuristic: tell people what to avoid, not speculative actions to take."
+        "1. Review recent advice you gave to friends, clients, or team members.",
+        "2. Check if they take all the pain if your advice goes wrong.",
+        "3. Drop recommendations where you face zero personal cost or downside risk.",
+        "4. Tell them what mistakes to avoid rather than giving speculative guesses."
       ],
       "sourceChapter": "Chapter 1"
     },
     {
       "id": "skin-in-the-game-act-2",
-      "title": "Strip Conflict of Interest in P&L Allocations",
-      "description": "Eliminate the agency problem by tying any performance-based reward to retrospective clawbacks or symmetrical long-term holding periods.",
+      "title": "Stop Rewarding Bad Risks",
+      "description": "Do not pay bonuses for short-term gains that can cause huge losses later. Make people keep skin in the game for the long run.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Audit existing incentive contracts, bonus structures, or freelance milestones.",
-        "Locate bonuses paid on short-term milestones that could fail catastrophically later.",
-        "Introduce a multi-year escrow or clawback condition for future incentive plans.",
-        "Require partners or team leads to co-invest a meaningful portion of their own capital or time."
+        "1. Check bonus deals and freelance agreements for fast payouts.",
+        "2. Spot bonuses paid before long-term safety is fully proven.",
+        "3. Hold back bonus money until projects prove safe over time.",
+        "4. Require team leads to invest their own money or real effort."
       ],
       "sourceChapter": "Chapter 2"
     },
     {
       "id": "skin-in-the-game-act-3",
-      "title": "The Daily Portfolio & Opinion Alignment Check",
-      "description": "Ensure your spoken convictions match your exposure. Never express an opinion on an asset, project, or hire unless you hold direct symmetrical exposure to its outcome.",
+      "title": "Match Words with Real Actions",
+      "description": "Do not share opinions on deals unless you have real skin in the game. Keep quiet if being wrong costs you nothing at all.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "List every public opinion, forecast, or prediction you plan to voice today.",
-        "Check whether you have direct exposure or measurable cost if the assertion proves false.",
-        "If you bear zero cost for being wrong, discard the opinion from meetings and public commentary.",
-        "Only publish or advocate for bets where your own reputation or resources are visibly exposed."
+        "1. List every prediction you plan to share publicly today.",
+        "2. Check if being wrong hurts your wallet or your good name.",
+        "3. Drop opinions from talks if you risk nothing when you fail.",
+        "4. Share only ideas where your own resources are openly on the line."
       ],
       "sourceChapter": "Chapter 7"
     },
     {
       "id": "skin-in-the-game-act-4",
-      "title": "Real-World Stress Testing Habit",
-      "description": "Discard academic simulations and replace them with friction against reality. Survival under live stress is the sole reliable arbiter of truth.",
+      "title": "Test Ideas in Real Life",
+      "description": "Paper theories often fail when they meet real world friction. Real survival is the only test of truth that truly matters.",
       "category": "daily-routine",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Select one operational assumption or strategy you developed on paper.",
-        "Expose it immediately to an unscripted, adversarial test in the real market.",
-        "Observe where the theoretical model breaks against operational friction.",
-        "Iterate solely based on survival metrics (what didn't blow up) rather than elegant logic."
+        "1. Pick one paper plan or strategy you built recently.",
+        "2. Test it right away with real customers under tough conditions.",
+        "3. Find where your paper plan breaks down in daily practice.",
+        "4. Keep only the simple parts that survive real pressure tests."
       ],
       "sourceChapter": "Chapter 3"
     },
     {
       "id": "skin-in-the-game-act-5",
-      "title": "Purge Untested Intellectuals from Critical Decision Loops",
-      "description": "Remove advisors, vendors, and internal strategists who produce recommendations without carrying liability for erroneous outcomes (the IYI: Intellectual Yet Idiot).",
+      "title": "Remove Zero-Risk Advisors",
+      "description": "Cut out consultants who give advice without facing any penalties for mistakes. Give decision power only to people who take the blame.",
       "category": "environment",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Map everyone who has formal input into your key operational and financial choices.",
-        "Flag members who do not lose revenue, standing, or capital when their advice fails.",
-        "Reassign them to non-binding informational roles rather than decision gates.",
-        "Replace committee sign-offs with a single accountable operator holding sole downside."
+        "1. List everyone who advises your major business choices.",
+        "2. Spot advisors who lose zero money or status when wrong.",
+        "3. Shift those people into minor feedback roles without voting power.",
+        "4. Give full final say to one operator who takes total blame."
       ],
       "sourceChapter": "Chapter 5"
     },
     {
       "id": "skin-in-the-game-act-6",
-      "title": "Set Up an Anti-Fragile Peer Accountability Council",
-      "description": "Surround yourself exclusively with operators who have scar tissue and proven survival track records over prolonged cycles.",
+      "title": "Build a Tough Peer Group",
+      "description": "Spend time only with operators who risk their own cash and neck. Honest peers keep you from making foolish mistakes with your life.",
       "category": "environment",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "Identify 3 to 4 peers who run businesses or portfolios with their own primary capital.",
-        "Establish a recurring operating rule: members review each other's catastrophic tail risks.",
-        "Enforce strict brutal honesty: critique only unhedged downside and hidden fragility.",
-        "Bar any participant who makes a living solely on commentary, consulting, or fees."
+        "1. Pick three trusted friends who run businesses with their own money.",
+        "2. Meet monthly to review worst-case threats in each other's work.",
+        "3. Challenge hidden traps and weak spots with complete blunt honesty.",
+        "4. Keep talkers and pure consultants out of this inner circle."
       ],
       "sourceChapter": "Chapter 13"
     },
     {
       "id": "skin-in-the-game-act-7",
-      "title": "The Bob Rubin Risk-Transfer Audit",
-      "description": "Uncover hidden asymmetries where an executive or vendor harvests immediate fees while transferring catastrophic tail risk to you or your organization.",
+      "title": "Check Contracts for Hidden Traps",
+      "description": "Never let vendors pocket fast profits while passing huge disasters to you. Make sure their penalty matches the damage if things go wrong.",
       "category": "audit",
       "timeEstimateMinutes": 40,
       "stepByStep": [
-        "Analyze external software licenses, consultancies, financial managers, and contracts.",
-        "Determine what happens if their software, strategy, or infrastructure collapses tomorrow.",
-        "Calculate whether their maximum penalty matches the scale of your potential loss.",
-        "Renegotiate agreements to require skin in the game, insurance bonds, or liability parity."
+        "1. Review contracts with outside tech vendors, consultants, and money managers.",
+        "2. Ask what happens if their system crashes down tomorrow morning.",
+        "3. Compare their small penalty to your total potential company loss.",
+        "4. Rewrite contracts so they pay heavy costs if their systems fail."
       ],
       "sourceChapter": "Chapter 2"
     },
     {
       "id": "skin-in-the-game-act-8",
-      "title": "The Lindy Effect Heuristic Audit",
-      "description": "Screen your tech stack, workflows, and reading material for fragile novelties by prioritizing things that have already survived for decades.",
+      "title": "Choose Old, Proven Tools",
+      "description": "Old tools that lasted decades beat shiny new gadgets every time. Drop fragile trends and stick to methods that have survived long tests.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Catalog tools, frameworks, and operating principles adopted within the last 18 months.",
-        "Evaluate which ones solve durable problems versus which merely ride marketing fads.",
-        "Compare their durability against foundational, Lindy-tested alternatives (e.g., SQL vs ephemeral databases).",
-        "Deprecate fragile novelties in favor of robust, time-tested systems."
+        "1. List all software and methods you started using this past year.",
+        "2. Ask if they fix real problems or just follow trendy hype.",
+        "3. Compare each tool against older systems that lasted for decades.",
+        "4. Drop weak new trends and keep the proven classics instead."
       ],
       "sourceChapter": "Chapter 14"
     },
     {
       "id": "skin-in-the-game-act-9",
-      "title": "Ergodicity and Ruin Exposure Audit",
-      "description": "Verify that no single experiment, trade, or operational mistake carries absorbing barriers\u2014points of permanent ruin that wipe out survival.",
+      "title": "Eliminate All Total Ruin",
+      "description": "Never take a risk that could wipe out your entire business. Survival must come first before chasing any big future payoff.",
       "category": "audit",
       "timeEstimateMinutes": 60,
       "stepByStep": [
-        "Enumerate all existential dependencies: single customers, bank covenants, legal vulnerabilities.",
-        "Test for non-ergodic risks: scenarios where average expectation is positive but risk of zero exists.",
-        "Eliminate any strategy where the probability of irreversible ruin is greater than zero.",
-        "Install non-negotiable stop-losses and liquidity reserves to guarantee perpetual survival."
+        "1. List single points of failure like one client or big debt.",
+        "2. Find any bad gamble that could cause total bankruptcy.",
+        "3. Kill any project that carries even a tiny chance of ruin.",
+        "4. Keep emergency cash reserves so you can survive every bad shock."
       ],
       "sourceChapter": "Chapter 19"
     },
     {
       "id": "skin-in-the-game-act-10",
-      "title": "Minority Rule Asymmetry Defense System",
-      "description": "Structure your supply chain, team policies, and product standards around the most stubborn, intolerant uncompromising minority preferences.",
+      "title": "Follow Strict Core Standards",
+      "description": "Design your products to please your most demanding, uncompromising users. Making one strict standard for everyone saves money and prevents errors.",
       "category": "system",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "Identify non-negotiable requirements among key minority stakeholders (safety, ethics, compliance).",
-        "Normalize company-wide baselines to satisfy the uncompromising constraint universally.",
-        "Eliminate dual tracks or bifurcated inventories to reduce operational overhead.",
-        "Ensure your offerings automatically comply with the most rigid standard to protect market share."
+        "1. Find the strictest safety and quality rules your picky users demand.",
+        "2. Make that single strict standard the basic rule for all products.",
+        "3. Stop offering split options to keep your operations clean and cheap.",
+        "4. Sell products that meet every strict rule right out of the box."
       ],
       "sourceChapter": "Chapter 4"
     },
     {
       "id": "skin-in-the-game-act-11",
-      "title": "The Soul in the Game Craftsmanship Protocol",
-      "description": "Construct an operational operating system that links personal pride, uncompromising ownership, and artistic risk into your finished output.",
+      "title": "Take Deep Personal Pride",
+      "description": "Put your personal name on everything you build and deliver. True pride in your craft creates work that stands the test.",
       "category": "system",
       "timeEstimateMinutes": 60,
       "stepByStep": [
-        "Audit outputs to find work delegated anonymously to detached corporate silos.",
-        "Attach individual creator signatures and personal responsibility directly to ship dates and code releases.",
-        "Empower builders to veto subpar releases without bureaucratic countermanding.",
-        "Reward the courage to reject compromise over superficial metric-pleasing compliance."
+        "1. Check work tasks that are currently hidden behind vague team names.",
+        "2. Put the real builder's name clearly on every product release.",
+        "3. Let makers stop a launch if the quality is not good enough.",
+        "4. Praise team members who refuse to ship cheap, rushed work."
       ],
       "sourceChapter": "Chapter 18"
     },
     {
       "id": "skin-in-the-game-act-12",
-      "title": "Barbell Asymmetry Decision Matrix",
-      "description": "Implement an institutional protocol that pairs hyper-conservative protection against catastrophic downside with speculative, high-upside asymmetric bets.",
+      "title": "Play It Ultra Safe",
+      "description": "Keep most assets completely safe while risking tiny bits on big wins. Avoid lukewarm risks that offer low returns and hidden danger.",
       "category": "system",
       "timeEstimateMinutes": 50,
       "stepByStep": [
-        "Categorize all capital and operational allocations into conservative, medium, or high-risk buckets.",
-        "Eliminate middle-ground investments that carry hidden downside with mediocre upside.",
-        "Allocate 85-90% of resources to indestructible, zero-ruin assets and core activities.",
-        "Deploy the remaining 10-15% into high-conviction, open-ended asymmetric opportunities with strictly capped downside."
+        "1. Sort all your money and projects into safe or risky buckets.",
+        "2. Cut out middle bets that bring high risk with boring returns.",
+        "3. Keep ninety percent of resources in completely safe, bulletproof places.",
+        "4. Put the remaining ten percent into small bets with huge potential."
       ],
       "sourceChapter": "Chapter 19"
     }
@@ -1149,10 +1149,10 @@ export const SKIN_IN_THE_GAME_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Symmetry of Downside",
-      "body": "No system survives without symmetry: those who reap the rewards of an action must inevitably bear a proportional share of its adverse consequences.\nStripping downside from decision-makers creates moral hazard, generates systemic rot, and destabilizes institutions.",
-      "quote": "If you have the reward, you also get some of the penalty.",
-      "actionItem": "Tie executive compensation and strategic bonuses to mandatory long-term clawback mechanisms that trigger upon downside realization.",
+      "headline": "Share the Risk",
+      "body": "People who get the rewards must also share the pain.\nWhen leaders risk nothing, they make careless choices that hurt everyone else.\nFairness requires facing real consequences for bad results.",
+      "quote": "If you get the reward, you must also take some of the penalty.",
+      "actionItem": "Tie leadership bonuses to long-term results so bad choices cancel past pay.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1170,10 +1170,10 @@ export const SKIN_IN_THE_GAME_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Minority Rule",
-      "body": "Markets and societies do not conform to average consensus.\nAn intransigent, uncompromising minority that consumes strictly one option forces a flexible majority to adopt its standard whenever the cost of compliance is trivial to the rest.",
-      "quote": "An intransigent minority can control and drive the majority.",
-      "actionItem": "Design products to satisfy the strict requirements of your most stubborn, uncompromising user segment without alienating the indifferent core.",
+      "headline": "The Stubborn Minority Rule",
+      "body": "A small, stubborn group often sets the rules for everyone else.\nIf this group refuses to compromise, the flexible crowd simply gives in.\nBig changes usually start with an inflexible few.",
+      "quote": "A small and stubborn group can force its rules on the majority.",
+      "actionItem": "Design products that satisfy your pickiest buyers without bothering the rest.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1191,10 +1191,10 @@ export const SKIN_IN_THE_GAME_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Bob Rubin Trade",
-      "body": "When actors extract immediate upside during boom years while offloading catastrophic tail-risk onto the public, taxpayers, or future management, they exploit the Rubin trade: privatizing profits while socializing losses.",
-      "quote": "He collected 120 million dollars in bonuses from Citibank... When the bank collapsed, he did not pay back.",
-      "actionItem": "Audit partner and contractor contracts to ensure no counterparty earns upfront fees on risks whose failure horizon exceeds their contractual tenure.",
+      "headline": "Keep Profits, Pass Losses",
+      "body": "Some people pocket huge profits during good times.\nWhen disaster strikes, they force regular taxpayers to pay the bill.\nThat is an unfair game with zero personal risk.",
+      "quote": "He took huge cash bonuses, but paid back nothing when the bank collapsed.",
+      "actionItem": "Stop paying early bonuses to partners on deals that could fail later.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1212,10 +1212,10 @@ export const SKIN_IN_THE_GAME_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Lindy Effect",
-      "body": "For non-perishable entities\u2014ideas, technologies, books, institutions\u2014future life expectancy is proportional to current age.\nWhat has survived for a century will likely survive for another; ephemeral trends collapse under evolutionary contact.",
-      "quote": "If a book has been in print for forty years, I can expect it to be in print for another forty years.",
-      "actionItem": "Build strategic core architectures around time-tested standards rather than adopting newly hyped, unhardened frameworks.",
+      "headline": "Old Ideas Last Longer",
+      "body": "Books and ideas age in a very special way.\nThe longer an idea survives, the longer it will likely stay alive.\nOld wisdom beats fresh hype almost every single time.",
+      "quote": "A book printed for forty years will likely stay in print forty more.",
+      "actionItem": "Build your core business tools on old, proven tech rather than new hype.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1233,10 +1233,10 @@ export const SKIN_IN_THE_GAME_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Ergodicity and the Absorbing Barrier",
-      "body": "Ensemble averages do not match time averages when ruin is possible.\nIf an action carries even a 1% risk of total termination, running that risk repeatedly guarantees eventual liquidation regardless of theoretical expected return.",
-      "quote": "Avoid ruin at all costs. Nothing else matters if you do not survive.",
-      "actionItem": "Eliminate any leverage, regulatory grey area, or operational concentration that possesses even a remote probability of total enterprise ruin.",
+      "headline": "Avoid Total Ruin",
+      "body": "Never play a game where you can lose everything.\nIf you repeat a tiny deadly risk, disaster will catch you eventually.\nSurvival is always step number one.",
+      "quote": "Avoid total ruin first, because nothing else matters if you do not survive.",
+      "actionItem": "Cut out any debt or risky gamble that could wipe you out completely.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1254,10 +1254,10 @@ export const SKIN_IN_THE_GAME_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Never Ask Advice, Ask What They Own",
-      "body": "Disregard market commentary, prognostications, and macroeconomic theories from forecasters who pay no penalty for inaccuracy.\nFilter every recommendation through the investor's personal allocation and demonstrable skin in the game.",
-      "quote": "Don't tell me what you think, tell me what you have in your portfolio.",
-      "actionItem": "Before executing counsel from any advisor, demand verification of their own skin in the game regarding the proposed instrument or decision.",
+      "headline": "Watch Actions, Not Advice",
+      "body": "Do not listen to experts who risk nothing when they are wrong.\nTalk is cheap, and opinions cost nothing.\nAlways look at what people actually do with their own money.",
+      "quote": "Do not tell me what you think, show me what you actually own.",
+      "actionItem": "Ask your financial advisor if they invest their own cash in their recommendations.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1275,10 +1275,10 @@ export const SKIN_IN_THE_GAME_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Intellectual Yet Idiot (IYI)",
-      "body": "The IYI pathologizes practitioners, mistaking credentialism for competence.\nCharacterized by high formal literacy, zero contact with physical downside, and reliance on stylized models, they prescribe interventions whose catastrophic costs are paid by others.",
-      "quote": "The Intellectual Yet Idiot is a production of modernity, hence has been accelerating.",
-      "actionItem": "Replace abstract policy committees with field-hardened operators who directly inherit operational responsibility for the rules they draft.",
+      "headline": "Educated But Clueless",
+      "body": "Some people have fancy degrees but zero common sense.\nThey create theories from safe offices and never pay for their mistakes.\nOther people end up paying the price for their foolish ideas.",
+      "quote": "Educated fools look smart on paper, but know nothing about real life.",
+      "actionItem": "Hire practical workers who actually run daily operations, not theorists who write rules.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1296,10 +1296,10 @@ export const SKIN_IN_THE_GAME_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Surviving Is Learning",
-      "body": "Theoretical understanding is downstream of survival.\nEvolution, biology, and markets filter mechanisms via survival under pressure, not via cerebral intellectualizing.\nReality is the ultimate stress test.",
-      "quote": "Survival comes first, truth and understanding later.",
-      "actionItem": "Prioritize operational longevity and balance-sheet liquidity over theoretical efficiency when evaluating competitive strategy.",
+      "headline": "Survive to Learn",
+      "body": "Nature teaches us lessons through direct survival, not through school textbooks.\nYou can only learn what works by facing real-world pressure.\nReality tests everything ruthlessly.",
+      "quote": "Survival always comes first, and deep understanding only follows after.",
+      "actionItem": "Keep extra cash in the bank instead of chasing fast, risky growth.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1317,10 +1317,10 @@ export const SKIN_IN_THE_GAME_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Domesticated Employee",
-      "body": "An employee is conditioned to accept stability over sovereignty.\nPredictable salaries, corporate rituals, and social validation tame instincts, making individuals obedient agents whose primary incentive is enterprise preservation rather than aggressive truth-telling.",
-      "quote": "An employee is by definition more valuable to the firm than to the market.",
-      "actionItem": "Incentivize key talent with equity upside and project-level downside rather than fixed bureaucratic allowances that promote compliance over courage.",
+      "headline": "The Tamed Worker",
+      "body": "A steady paycheck trains people to stay quiet and obey.\nRegular salaries make workers protect their company instead of speaking tough truths.\nComfort easily buys obedience.",
+      "quote": "A regular employee values job security far more than speaking the truth.",
+      "actionItem": "Reward team members with ownership stakes so they act like daring business owners.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1338,10 +1338,10 @@ export const SKIN_IN_THE_GAME_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Apply the Silver Rule",
-      "body": "The Golden Rule encourages meddling by imposing what you think is good for others.\nThe Silver Rule is robust, protective, and non-invasive: do not inflict on others what you would not wish to endure yourself.",
-      "quote": "Do not treat others in ways you would not have them treat you.",
-      "actionItem": "Review your sales and operational disclosures to ensure you never package products containing liabilities you would reject as a buyer.",
+      "headline": "The Silver Rule",
+      "body": "Do not force your own ideas of good onto other people.\nSimply avoid doing things to others that you would hate yourself.\nThat is the safest rule for honest living.",
+      "quote": "Do not treat other people in ways you would hate to be treated.",
+      "actionItem": "Check your products today and remove anything you would not buy yourself.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1359,10 +1359,10 @@ export const SKIN_IN_THE_GAME_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Skin in the Game as Error Filter",
-      "body": "Skin in the game acts as an evolutionary filter: operators who commit fatal errors are removed from the system.\nWhen actors are insulated from consequences, systemic error accumulation accelerates exponentially.",
-      "quote": "Skin in the game keeps human hubris in check.",
-      "actionItem": "Deconstruct decision-making layers that shelter project leads from the immediate consumer and operational consequences of their releases.",
+      "headline": "Filter Out Incompetence",
+      "body": "Real consequences weed out bad decision-makers fast.\nWhen bad drivers crash, they lose their cars and stop driving.\nProtecting bad leaders from pain just breeds more mistakes.",
+      "quote": "Facing personal risk is what keeps foolish human arrogance in check.",
+      "actionItem": "Make project managers face customers directly when their software breaks down.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1381,9 +1381,9 @@ export const SKIN_IN_THE_GAME_BOOK: Book = {
       "category": "Psychology",
       "type": "concept",
       "headline": "Soul in the Game",
-      "body": "Skin in the game is the baseline for ethical transactions; soul in the game is an uncompromising commitment where one takes on asymmetrical personal risk for craft, team, or civilizational honor without transactional compensation.",
-      "quote": "Skin in the game means you bear your share of the risk. Soul in the game means you take more risk than your share.",
-      "actionItem": "Identify your core domain where you are willing to accept personal costs and commercial sacrifice to uphold an uncompromising standard of craft.",
+      "body": "Sharing risk is just basic fairness in any deal.\nHaving soul means taking extra pain to protect your team or craft.\nTrue heroes risk themselves to protect others.",
+      "quote": "Soul in the game means you take far more risk than your share.",
+      "actionItem": "Stand up for quality work today even when it costs you extra time.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1401,10 +1401,10 @@ export const SKIN_IN_THE_GAME_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Cost of Free Speech",
-      "body": "Dissent that carries zero personal exposure, social sanction, or economic cost is purely decorative.\nTrue courage demands bearing the consequences of independent thought.",
-      "quote": "You can define a free person precisely as someone who can be what he is without fear of losing his livelihood.",
-      "actionItem": "Build a financial runway independent of institutional patronage to ensure your strategic opinions remain immune to economic coercion.",
+      "headline": "The Cost of Freedom",
+      "body": "Speaking your mind only counts when it costs you something.\nAnyone can boast when there is no danger.\nReal freedom means telling the truth without fearing ruin.",
+      "quote": "A truly free person speaks their mind without fearing for their paycheck.",
+      "actionItem": "Save enough emergency cash so you can speak honestly without fearing your boss.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1422,10 +1422,10 @@ export const SKIN_IN_THE_GAME_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Hammurabi Mandate",
-      "body": "Hammurabi's code established that if a builder erects a house that collapses and causes the owner's death, the builder must be put to death.\nAccountability must mirror the severity of the damage inflicted by the provider.",
-      "quote": "Hammurabi's code was built on the principle of symmetry.",
-      "actionItem": "Construct warranty and service agreements where your business absorbs meaningful financial penalties when core deliverables fail clients.",
+      "headline": "Pay for Your Mistakes",
+      "body": "Ancient law stated that bad builders paid with their lives for collapses.\nWhen you build something, you must guarantee it stays standing.\nThe penalty must always match the damage caused.",
+      "quote": "Ancient law worked because the maker paid deeply when their work failed.",
+      "actionItem": "Offer full refunds and pay penalties if your service fails to deliver.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1443,10 +1443,10 @@ export const SKIN_IN_THE_GAME_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "The Unbuttoned Surgeon Heuristic",
-      "body": "When forced to select between two professionals of equal track record\u2014one who looks polished and central-casting, and one who appears unorthodox and unrefined\u2014select the latter.\nThey had to overcome superficial prejudice solely through superior competence.",
-      "quote": "If forced to choose between two surgeons of equal rank, choose the one who does not look like a surgeon.",
-      "actionItem": "Hire candidates whose resumes violate standard credentialist packaging but whose past systems have survived real-world stress.",
+      "headline": "Looks Can Deceive",
+      "body": "Do not judge skill by fancy clothes or slick words.\nIf an untidy professional succeeds, they must be exceptionally good at their job.\nReal skill always trumps fancy appearances.",
+      "quote": "Between two equal surgeons, pick the one who does not look like one.",
+      "actionItem": "Hire candidates with messy resumes who have built real, working systems.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1464,10 +1464,10 @@ export const SKIN_IN_THE_GAME_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Beliefs Require Exposure",
-      "body": "Verbal assent to an ideology or market stance is noise.\nGenuine belief is demonstrated exclusively through willingness to incur cost, stake reputational capital, and accept quantifiable downside.",
-      "quote": "How much you believe in something can only be manifested in what you are willing to risk for it.",
-      "actionItem": "Discard qualitative internal consensus polls; mandate that project sponsors allocate their own department capital to back speculative projects.",
+      "headline": "Risk Shows Belief",
+      "body": "Saying you believe in an idea means nothing on its own.\nTrue belief only shows when you put real skin in the game.\nPut your own money on the line.",
+      "quote": "Your belief is only real if you put your own skin on the line.",
+      "actionItem": "Require managers to spend their own team budget before approving a wild idea.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1485,10 +1485,10 @@ export const SKIN_IN_THE_GAME_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Decouple From Peer-Reviewed Noise",
-      "body": "Systems evaluated exclusively by internal peers devolve into circle-referencing cartels that reward conformity rather than contact with dynamic reality.\nSurvival against the market is the sole valid arbiter.",
-      "quote": "Academic work is often judged by other academics, which leads to intellectual self-referencing.",
-      "actionItem": "Measure operational initiatives against real market conversion and revenue metrics rather than praise from cross-functional committees.",
+      "headline": "Trust Real Results",
+      "body": "People inside closed circles love praising their friends.\nThat creates clubs that ignore the real world entirely.\nThe only opinion that matters is real-world success.",
+      "quote": "Insiders who judge each other end up praising useless ideas that never work.",
+      "actionItem": "Measure your projects by actual sales instead of praise from internal committees.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1506,10 +1506,10 @@ export const SKIN_IN_THE_GAME_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Asymmetry of Bureaucratic Intervention",
-      "body": "Interventionists invariably produce negative externalities because they bear zero costs of failure while capturing administrative prestige for action.\nRestraint and non-intervention frequently provide the superior, antifragile path.",
-      "quote": "Intervention with skin in the game is rare; intervention without skin in the game is pervasive.",
-      "actionItem": "Before introducing new internal regulatory friction, mandate that the proposing manager document the specific costs they absorb if velocity degrades.",
+      "headline": "Meddling Without Risk",
+      "body": "Bureaucrats love making new rules because they never pay for failures.\nThey look busy, but their rules hurt ordinary people on the ground.\nLeaving things alone is often much wiser.",
+      "quote": "People love to interfere when they do not have to pay for mistakes.",
+      "actionItem": "Make rule-makers pay a fine if their new rules slow down the team.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1527,10 +1527,10 @@ export const SKIN_IN_THE_GAME_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Complexity as Concealment",
-      "body": "Excessive complexity is routinely engineered to conceal the absence of skin in the game, obscure true risk distribution, and extract advisory fees.\nRobust mechanics are direct, austere, and easily stress-tested.",
-      "quote": "Simplicity is a sign of skin in the game; complexity is an evasion.",
-      "actionItem": "Audit operational policies; ruthlessly collapse multi-tier processes into unambiguous, simple operational heuristics.",
+      "headline": "Keep It Simple",
+      "body": "People make things complicated when they want to hide bad risks.\nJargon and tricky rules are used to fool normal people.\nHonest work is always simple and crystal clear.",
+      "quote": "Simplicity shows real confidence, while tricky words hide a lack of risk.",
+      "actionItem": "Rewrite your complicated company policies into three simple, plain English rules.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1548,10 +1548,10 @@ export const SKIN_IN_THE_GAME_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Eliminate the Agency Problem",
-      "body": "The principal-agent rift widens whenever agents possess information asymmetries and divergent risk profiles from principals.\nForce total convergence by mandating identical skin in the game.",
-      "quote": "Never engage in a transaction where the other party benefits from your loss.",
-      "actionItem": "Restructure revenue-sharing deals so service providers only capture margin once the enterprise hits defined net profitability thresholds.",
+      "headline": "Align Your Goals",
+      "body": "Trouble starts when your helper gets paid even if you lose.\nNever hire someone who wins while you take all the loss.\nMake sure everyone shares the exact same outcome.",
+      "quote": "Never do business with someone who wins when you lose.",
+      "actionItem": "Pay your marketing team only after your business makes a clean profit.",
       "tags": [
         "Psychology",
         "Core Insights"

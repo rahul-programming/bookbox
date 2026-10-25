@@ -365,8 +365,8 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
         </div>
       </div>
 
-      {/* Main View Container */}
-      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 w-full max-w-full min-w-0 pt-2 sm:pt-4">
+      {/* Main View Container with generous top breathing room */}
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 w-full max-w-full min-w-0 pt-6 sm:pt-8">
         {viewMode === 'blinks' && (
           <KeyInsightsView
             book={book}
