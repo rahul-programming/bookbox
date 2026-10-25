@@ -215,30 +215,48 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
     });
   }, [isFullscreen]);
 
-  // Toggle fullscreen and lock body scroll
+  // Toggle fullscreen, lock body scroll, and push history state for mobile back
   const toggleFullscreen = () => {
     setIsFullscreen(prev => {
       const next = !prev;
       if (next) {
         document.body.style.overflow = 'hidden';
+        window.history.pushState({ view: 'mindmap-fullscreen' }, '');
       } else {
         document.body.style.overflow = '';
+        if (window.history.state?.view === 'mindmap-fullscreen') {
+          window.history.back();
+        }
       }
       return next;
     });
   };
 
-  // Escape key exits fullscreen
+  // Escape key or browser/mobile back exits fullscreen
   useEffect(() => {
     if (!isFullscreen) return;
     const handleKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
-        setIsFullscreen(false);
-        document.body.style.overflow = '';
+        if (window.history.state?.view === 'mindmap-fullscreen') {
+          window.history.back();
+        } else {
+          setIsFullscreen(false);
+          document.body.style.overflow = '';
+        }
       }
     };
+
+    const handlePopState = () => {
+      setIsFullscreen(false);
+      document.body.style.overflow = '';
+    };
+
     window.addEventListener('keydown', handleKey);
-    return () => window.removeEventListener('keydown', handleKey);
+    window.addEventListener('popstate', handlePopState);
+    return () => {
+      window.removeEventListener('keydown', handleKey);
+      window.removeEventListener('popstate', handlePopState);
+    };
   }, [isFullscreen]);
 
   // Toggle Collapse/Expand

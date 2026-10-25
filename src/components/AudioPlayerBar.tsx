@@ -42,6 +42,29 @@ export const AudioPlayerBar: React.FC<AudioPlayerBarProps> = ({
   const [sentenceInfo, setSentenceInfo] = useState({ current: 1, total: 1 });
   const [selectedVoiceId, setSelectedVoiceId] = useState<string>('');
 
+  const handleOpenVoiceModal = () => {
+    window.history.pushState({ modal: 'voice' }, '');
+    setShowVoiceModal(true);
+  };
+
+  const handleCloseVoiceModal = () => {
+    if (window.history.state?.modal === 'voice') {
+      window.history.back();
+    } else {
+      setShowVoiceModal(false);
+    }
+  };
+
+  // Mobile Back Button Support for Voice Settings Modal
+  useEffect(() => {
+    if (!showVoiceModal) return;
+    const handlePopState = () => {
+      setShowVoiceModal(false);
+    };
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, [showVoiceModal]);
+
   // Load and continuously sync voices for Android asynchronous discovery
   useEffect(() => {
     const updateVoiceList = () => {
@@ -302,7 +325,7 @@ export const AudioPlayerBar: React.FC<AudioPlayerBarProps> = ({
 
             {/* Dedicated TTSReader Voice Modal Trigger */}
             <button
-              onClick={() => setShowVoiceModal(true)}
+              onClick={handleOpenVoiceModal}
               className="flex items-center space-x-1.5 px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs transition border border-slate-700 cursor-pointer"
               title="Open TTSReader Voice Settings"
             >
@@ -356,7 +379,7 @@ export const AudioPlayerBar: React.FC<AudioPlayerBarProps> = ({
       {showVoiceModal && (
         <div 
           className="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto"
-          onClick={() => setShowVoiceModal(false)}
+          onClick={handleCloseVoiceModal}
         >
           <div 
             className="bg-slate-900 border border-slate-700 rounded-3xl max-w-lg w-full p-5 sm:p-6 shadow-2xl space-y-5 text-white text-left"
@@ -382,7 +405,7 @@ export const AudioPlayerBar: React.FC<AudioPlayerBarProps> = ({
               </div>
 
               <button
-                onClick={() => setShowVoiceModal(false)}
+                onClick={handleCloseVoiceModal}
                 className="p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition cursor-pointer"
               >
                 <X className="w-5 h-5" />
@@ -546,7 +569,7 @@ export const AudioPlayerBar: React.FC<AudioPlayerBarProps> = ({
               </div>
 
               <button
-                onClick={() => setShowVoiceModal(false)}
+                onClick={handleCloseVoiceModal}
                 className="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs transition transform hover:scale-105 active:scale-95 cursor-pointer"
               >
                 Done
