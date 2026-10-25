@@ -261,9 +261,11 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
                         {pillar.description}
                       </p>
                       {pillar.actionableTakeaway && (
-                        <div className="ml-0 sm:ml-9 p-3 sm:p-4 rounded-xl bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-900/50 text-sm sm:text-base text-emerald-950 dark:text-emerald-200 font-medium flex items-start space-x-3 shadow-xs min-w-0 break-words">
+                        <div className={`ml-0 sm:ml-9 border-l-3 sm:border-l-4 border-emerald-500 pl-3.5 py-1 text-slate-800 dark:text-slate-200 font-medium flex items-start space-x-2.5 min-w-0 break-words ${fontSizeClass}`}>
                           <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-600 dark:text-emerald-400 shrink-0 mt-0.5" />
-                          <span className="leading-relaxed break-words"><strong className="font-bold text-emerald-800 dark:text-emerald-300">Key Action:</strong> {pillar.actionableTakeaway}</span>
+                          <span className="leading-relaxed break-words">
+                            <strong className="font-bold text-emerald-800 dark:text-emerald-300">Key Action:</strong> {pillar.actionableTakeaway}
+                          </span>
                         </div>
                       )}
                     </div>
@@ -294,21 +296,21 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
                   {book.onePageSummary.frameworkSteps.map((step) => (
                     <div 
                       key={step.step}
-                      className="p-4 rounded-xl bg-indigo-50/40 dark:bg-indigo-950/20 border border-indigo-100 dark:border-indigo-900/40 space-y-2"
+                      className="p-4 rounded-xl bg-indigo-50/40 dark:bg-indigo-950/20 border border-indigo-100 dark:border-indigo-900/40 space-y-2.5 min-w-0 break-words"
                     >
                       <div className="flex items-center space-x-2">
                         <span className="w-6 h-6 rounded-lg bg-indigo-600 text-white flex items-center justify-center font-bold text-xs shrink-0">
                           {step.step}
                         </span>
-                        <h4 className="font-bold text-sm text-slate-900 dark:text-slate-100">
+                        <h4 className="font-bold text-sm sm:text-base text-slate-900 dark:text-slate-100 break-words">
                           {step.name}
                         </h4>
                       </div>
-                      <p className="text-xs text-slate-700 dark:text-slate-300 leading-relaxed">
+                      <p className={`text-slate-700 dark:text-slate-300 leading-relaxed break-words ${fontSizeClass}`}>
                         {step.summary}
                       </p>
-                      <div className="pt-1 text-[11px] text-indigo-900 dark:text-indigo-300 font-medium bg-white/70 dark:bg-slate-800/70 p-2 rounded-lg border border-indigo-200/60 dark:border-indigo-800/40">
-                        ⚡ <strong>Tip:</strong> {step.executionTip}
+                      <div className={`pt-1 border-l-3 border-indigo-500 pl-3 py-0.5 text-slate-800 dark:text-slate-200 ${fontSizeClass} leading-relaxed break-words`}>
+                        <strong className="font-bold text-indigo-700 dark:text-indigo-400">⚡ Tip:</strong> {step.executionTip}
                       </div>
                     </div>
                   ))}
@@ -460,8 +462,8 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
                       )}
 
                       {/* Editorial Context Callout */}
-                      <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/80 border-l-4 border-blue-500 text-xs sm:text-sm text-slate-600 dark:text-slate-300">
-                        <strong className="text-slate-900 dark:text-slate-100">Editorial Synthesis: </strong>
+                      <div className={`border-l-3 sm:border-l-4 border-blue-500 pl-3.5 sm:pl-4 py-1 text-slate-700 dark:text-slate-300 ${fontSizeClass}`}>
+                        <strong className="text-slate-900 dark:text-slate-100 font-semibold">Editorial Synthesis: </strong>
                         {blink.keyTakeaway}
                       </div>
                     </div>

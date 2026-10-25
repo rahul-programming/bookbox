@@ -317,14 +317,14 @@ export const KeyInsightsView: React.FC<KeyInsightsViewProps> = ({
                     {blink.headline}
                   </h2>
 
-                  {/* Key Takeaway Callout Box (Positioned at the Top) */}
+                  {/* Key Takeaway Callout (Integrated, No Nested Box, Same Font as Parent) */}
                   {blink.keyTakeaway && (
-                    <div className="p-3.5 sm:p-5 rounded-2xl bg-amber-50/90 dark:bg-amber-950/40 border border-amber-200/80 dark:border-amber-900/60 shadow-xs min-w-0 break-words">
-                      <div className="flex items-center space-x-2 text-amber-800 dark:text-amber-400 font-bold text-xs uppercase tracking-wider mb-1.5">
+                    <div className="border-l-3 sm:border-l-4 border-amber-500 pl-3.5 sm:pl-4 py-1 space-y-1 min-w-0 break-words">
+                      <div className="flex items-center space-x-2 text-amber-600 dark:text-amber-400 font-bold text-xs uppercase tracking-wider">
                         <Lightbulb className="w-4 h-4 text-amber-500 fill-amber-500 shrink-0" />
                         <span>Key Takeaway</span>
                       </div>
-                      <p className="text-xs sm:text-sm md:text-base font-medium text-amber-950 dark:text-amber-200 leading-relaxed break-words">
+                      <p className={`font-medium text-slate-900 dark:text-slate-100 leading-relaxed break-words ${fontSizeClass}`}>
                         {blink.keyTakeaway}
                       </p>
                     </div>

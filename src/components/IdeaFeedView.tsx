@@ -203,16 +203,16 @@ export const IdeaFeedView: React.FC<IdeaFeedViewProps> = ({ onSelectBook, onOpen
                       </h3>
 
                       {idea.quote ? (
-                        <div className="p-3 rounded-xl bg-slate-50 dark:bg-slate-900/80 border-l-3 border-blue-500">
+                        <div className="border-l-3 border-blue-500 pl-3 py-1 break-words">
                           <Quote className="w-3.5 h-3.5 text-blue-500 mb-1" />
-                          <p className="text-xs italic text-slate-800 dark:text-slate-200 leading-relaxed">
+                          <p className="text-sm italic text-slate-800 dark:text-slate-200 leading-relaxed break-words">
                             "{idea.quote.replace(/^["']|["']$/g, '')}"
                           </p>
                         </div>
                       ) : (
-                        <div className="space-y-1.5 text-xs text-slate-700 dark:text-slate-300">
+                        <div className="space-y-1.5 text-sm text-slate-700 dark:text-slate-300 break-words">
                           {(idea.body.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (
-                            <p key={idx} className="leading-relaxed">
+                            <p key={idx} className="leading-relaxed break-words">
                               {sentence}
                             </p>
                           ))}
@@ -258,22 +258,22 @@ export const IdeaFeedView: React.FC<IdeaFeedViewProps> = ({ onSelectBook, onOpen
 
                     {/* Scrollable Back Content */}
                     <div className="flex-1 min-h-0 overflow-y-auto pr-1 my-1 space-y-3">
-                      <div className="space-y-1.5 text-xs text-slate-700 dark:text-slate-300">
+                      <div className="space-y-1.5 text-sm text-slate-700 dark:text-slate-300 break-words">
                         {(idea.body.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (
-                          <p key={idx} className="leading-relaxed">
+                          <p key={idx} className="leading-relaxed break-words">
                             {sentence}
                           </p>
                         ))}
                       </div>
 
                       {idea.actionItem && (
-                        <div className="p-3 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900/60">
-                          <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-800 dark:text-emerald-400">
+                        <div className="border-l-3 border-emerald-500 pl-3 py-1 text-slate-800 dark:text-slate-200 break-words">
+                          <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-700 dark:text-emerald-400 block mb-0.5">
                             Apply this:
                           </span>
-                          <div className="mt-0.5 space-y-1 text-xs font-medium text-emerald-950 dark:text-emerald-200">
+                          <div className="space-y-1 text-sm font-medium leading-relaxed break-words">
                             {(idea.actionItem.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (
-                              <p key={idx} className="leading-relaxed">
+                              <p key={idx} className="leading-relaxed break-words">
                                 {sentence}
                               </p>
                             ))}

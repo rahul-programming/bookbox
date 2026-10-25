@@ -255,7 +255,7 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({
                     </h4>
 
                     {idea.quote ? (
-                      <div className="p-3 sm:p-4 rounded-xl bg-slate-50 dark:bg-slate-900/80 border-l-3 border-blue-500 break-words">
+                      <div className="border-l-3 sm:border-l-4 border-blue-500 pl-3.5 py-1 break-words">
                         <Quote className="w-4 h-4 text-blue-500 mb-1.5" />
                         <p className={`italic text-slate-800 dark:text-slate-200 break-words leading-relaxed ${fontSizeClass}`}>
                           "{idea.quote.replace(/^["']|["']$/g, '')}"
@@ -329,8 +329,8 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({
                     </div>
 
                     {idea.actionItem && (
-                      <div className={`p-3 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900/60 text-emerald-900 dark:text-emerald-200 break-words ${fontSizeClass}`}>
-                        <strong className="block mb-1 font-semibold text-emerald-800 dark:text-emerald-300 break-words">
+                      <div className={`border-l-3 sm:border-l-4 border-emerald-500 pl-3.5 py-1 text-slate-800 dark:text-slate-200 break-words ${fontSizeClass}`}>
+                        <strong className="block mb-1 font-semibold text-emerald-700 dark:text-emerald-400 break-words">
                           Action Step:
                         </strong>
                         <div className="space-y-1 break-words">
