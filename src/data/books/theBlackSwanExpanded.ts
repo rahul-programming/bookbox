@@ -1,5 +1,5 @@
 // The Black Swan by Nassim Nicholas Taleb
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -810,169 +810,169 @@ export const THE_BLACK_SWAN_BOOK: Book = {
   "actionItems": [
     {
       "id": "the-black-swan-act-1",
-      "title": "Establish Your Asymmetric Barbell Portfolio",
-      "description": "Protect against catastrophic downside by keeping 85-90% of assets hyper-safe, while allocating 10-15% into speculative, high-upside opportunities.",
+      "title": "Build a Barbell Money Plan",
+      "description": "Keep most money super safe to avoid disaster. Put a tiny bit into wild bets with massive upside.",
       "category": "system",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "Audit your entire financial allocation across liquid cash, debt, equities, and alternative holdings.",
-        "Isolate and lock down 85% to 90% into ultra-safe instruments (e.g., short-term government treasury bills or cash equivalents) to ensure survival.",
-        "Direct the remaining 10% to 15% into highly speculative bets with unlimited upside and strictly capped maximum loss.",
-        "Eliminate middle-risk investments that offer limited gains paired with hidden, catastrophic tail risk."
+        "1. Check all your cash, savings, and investments today.",
+        "2. Put ninety percent into ultra-safe places like cash or government bonds.",
+        "3. Put ten percent into bold bets that could grow huge.",
+        "4. Sell mediocre investments that hide big risks for tiny gains."
       ],
       "sourceChapter": "Chapter 13"
     },
     {
       "id": "the-black-swan-act-2",
-      "title": "Purge False Certainty from Forecasts",
-      "description": "Strip predictive models and quarterly targets of misleading precision by enforcing explicit wide error boundaries.",
+      "title": "Stop Believing Exact Forecasts",
+      "description": "Exact predictions are usually wrong. Give your targets a wide range instead.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Select the next revenue, project completion, or budget estimate prepared by your team.",
-        "Locate any single-point estimate or precise percentage prediction presented as baseline fact.",
-        "Replace the single figure with an explicit worst-case, baseline, and explosive upside range.",
-        "Attach a formal note stating the structural uncertainty and historical forecasting error rate for that domain."
+        "1. Pick the next project timeline or budget estimate you review.",
+        "2. Spot any single number shown as a certain fact.",
+        "3. Replace that number with worst-case and best-case ranges.",
+        "4. Remind your team that past forecasts are often far off."
       ],
       "sourceChapter": "Chapter 10"
     },
     {
       "id": "the-black-swan-act-3",
-      "title": "Run a Daily Narrative Fallacy Filter",
-      "description": "Stop retrofitting clean storylines onto random market occurrences and messy daily developments.",
+      "title": "Check Your Daily Storytelling Habit",
+      "description": "We invent tidy stories for messy events. Notice how often random luck is the real cause.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Identify the primary business win or setback that occurred during the day.",
-        "Write down the causal story your mind instinctively invents to justify why it happened.",
-        "List three alternative explanations driven purely by luck, timing, or unobserved external variance.",
-        "Classify the event as an outcome of probability rather than individual strategic genius or error."
+        "1. Pick your biggest win or loss from today.",
+        "2. Write down the neat story you told yourself about it.",
+        "3. List three ways pure luck or timing caused it instead.",
+        "4. Accept the result as chance rather than pure skill."
       ],
       "sourceChapter": "Chapter 6"
     },
     {
       "id": "the-black-swan-act-4",
-      "title": "Conduct a Mediocristan vs. Extremistan Classification Audit",
-      "description": "Determine whether your projects, revenue streams, and career bets scale linearly or fall under extreme winner-take-all power laws.",
+      "title": "Sort Normal Work from Scalable Work",
+      "description": "Some jobs have strict limits on pay. Other bets can win big or lose everything.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "List all your current active projects, products, and operational commitments.",
-        "Tag each item as either Mediocristan (linear, bounded, non-scalable) or Extremistan (non-linear, power-law, scalable).",
-        "Verify whether any activity tagged as Mediocristan contains catastrophic hidden dependencies or uncapped liabilities.",
-        "Rebalance your schedule to ensure exposure to positive Extremistan upside while shielding yourself from negative Extremistan ruin."
+        "1. List all your current projects, products, and jobs.",
+        "2. Label each project as either limited income or limitless scale.",
+        "3. Check if your steady jobs hide any dangerous hidden traps.",
+        "4. Shift more time toward bets with huge, unlimited upside."
       ],
       "sourceChapter": "Chapter 3"
     },
     {
       "id": "the-black-swan-act-5",
-      "title": "Curate an Anti-Library Workspace",
-      "description": "Surround yourself with unread material to keep your focus locked onto what you do not know rather than what you know.",
+      "title": "Build an Unread Book Pile",
+      "description": "Keep unread books in sight to stay humble. They remind you of what you do not know yet.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Assemble books, research papers, and technical manuals in your field that challenge your operating assumptions and remain unread.",
-        "Place them in direct line of sight within your primary workspace or reading zone.",
-        "Remove trophies, certificates, and books you have already mastered to avoid cognitive complacency.",
-        "Treat the volume of unread titles as an active metric of intellectual humility and unexplored territory."
+        "1. Collect hard books and papers you have not read yet.",
+        "2. Place them right on your desk where you look daily.",
+        "3. Put away old awards and books you already mastered.",
+        "4. Use this unread pile to stay curious and open-minded."
       ],
       "sourceChapter": "Chapter 1"
     },
     {
       "id": "the-black-swan-act-6",
-      "title": "Execute a Negative Proof (Via Negativa) Decision Check",
-      "description": "Formulate strategic clarity through aggressive elimination of bad habits, toxic clients, and fragile dependencies.",
+      "title": "Remove One Fragile Commitment",
+      "description": "Improve your life by cutting out bad things. Deleting risks works better than adding fixes.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Identify the top three vulnerabilities, time sinks, or fragile commitments currently on your radar.",
-        "Select the single commitment that introduces disproportionate downside or severe operational friction.",
-        "Terminate, cancel, or formally divest from this vulnerability immediately.",
-        "Record the baseline risk reduced rather than seeking new additions to patch the problem."
+        "1. List your top three worst headaches and fragile projects.",
+        "2. Pick the single thing that brings the biggest downside risk.",
+        "3. Cancel, drop, or walk away from this commitment today.",
+        "4. Enjoy the peace of mind without adding new tasks."
       ],
       "sourceChapter": "Chapter 14"
     },
     {
       "id": "the-black-swan-act-7",
-      "title": "Run a Daily Silent Evidence Interrogation",
-      "description": "Counteract survivorship bias by actively reviewing failures that left no public trace.",
+      "title": "Look for Silent Failures",
+      "description": "Winners talk loudly while losers disappear. Never copy success without studying the people who failed.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Examine any industry success story, case study, or best practice proposed during the day.",
-        "Ask: 'How many people executed this identical strategy and quietly went bankrupt or failed?'",
-        "Search for the graveyard of invisible peers who shared the exact same initial conditions and traits.",
-        "Disregard the advice if the outcome depended primarily on survivorship rather than a repeatable, robust moat."
+        "1. Pick a popular success story you heard about today.",
+        "2. Ask how many people copied this plan and went broke.",
+        "3. Research the forgotten losers who tried the exact same tactic.",
+        "4. Ignore the advice if the winner just got very lucky."
       ],
       "sourceChapter": "Chapter 8"
     },
     {
       "id": "the-black-swan-act-8",
-      "title": "Audit Skin in the Game and Incentive Alignment",
-      "description": "Verify that advisors, partners, and decision-makers absorb direct financial or reputational consequences when their recommendations fail.",
+      "title": "Check Who Pays for Mistakes",
+      "description": "Only trust people who share your risks. Drop advisors who win while you take all the losses.",
       "category": "audit",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "List your top external advisors, consultants, portfolio managers, or key project contractors.",
-        "Determine the personal downside each person faces if their strategic advice or forecast is catastrophically wrong.",
-        "Flag any party that extracts fees or upside while externalizing downside risk onto you.",
-        "Restructure contracts to tie compensation to downside risk exposure or terminate relationships with zero-skin actors."
+        "1. List your main consultants, managers, and paid advisors.",
+        "2. Ask what money each person loses if their advice fails.",
+        "3. Flag anyone who takes high fees with zero personal risk.",
+        "4. Fire them or change agreements so they share your downside."
       ],
       "sourceChapter": "Chapter 15"
     },
     {
       "id": "the-black-swan-act-9",
-      "title": "Construct an Epistemic Friction Reading Environment",
-      "description": "Eliminate superficial information streams and algorithmic echo chambers that reinforce dogmatic beliefs.",
+      "title": "Mute Daily Breaking News",
+      "description": "Daily headlines are noisy distractions that trigger panic. Read timeless books and deep data instead.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Unsubscribe from daily sensationalist financial, political, and industry news summaries.",
-        "Block reactive micro-commentary feeds on social platforms during high-focus working windows.",
-        "Subscribe to foundational, long-form journals, primary data sources, and historical treatises.",
-        "Set a rigid policy to never base major capital or strategic decisions on daily breaking news commentary."
+        "1. Unsubscribe from sensational daily news alerts and market gossip.",
+        "2. Block fast social media feeds during your focused work hours.",
+        "3. Read classic history books and long research papers instead.",
+        "4. Refuse to make big life choices based on daily news."
       ],
       "sourceChapter": "Chapter 5"
     },
     {
       "id": "the-black-swan-act-10",
-      "title": "Implement a 'Turkey Problem' Vulnerability Protocol",
-      "description": "Stress-test systems against scenarios where continuous historical stability creates an illusion of complete safety.",
+      "title": "Test for Hidden Traps",
+      "description": "A system can look safe until it crashes suddenly. Find your single point of total failure now.",
       "category": "system",
       "timeEstimateMinutes": 40,
       "stepByStep": [
-        "Pinpoint the process, cash-flow channel, or supplier in your business that has functioned smoothly without disruption for years.",
-        "Construct a concrete failure scenario: assume this single pillar collapses entirely overnight.",
-        "Map out whether your organization survives or enters an immediate liquidity or operational spiral.",
-        "Install redundant backups, secondary vendor contracts, or emergency liquidity reserves to survive that exact rupture."
+        "1. Identify the key client or supplier you depend on completely.",
+        "2. Pretend this single partner disappears without warning tomorrow morning.",
+        "3. Check whether your business survives or goes bankrupt immediately.",
+        "4. Set up backup suppliers and cash reserves to stay alive."
       ],
       "sourceChapter": "Chapter 4"
     },
     {
       "id": "the-black-swan-act-11",
-      "title": "Perform a Bell-Curve Assumption Audit",
-      "description": "Scrutinize operational risk calculations to eradicate reliance on standard deviation and Gaussian models in fat-tailed domains.",
+      "title": "Prepare for Giant Shocks",
+      "description": "Standard math models ignore giant rare disasters. Plan your business to survive wild, unexpected shocks.",
       "category": "audit",
       "timeEstimateMinutes": 35,
       "stepByStep": [
-        "Inspect internal risk assessments, delivery schedules, and portfolio Value-at-Risk (VaR) projections.",
-        "Identify where standard deviation, bell curves, or normal distributions are used to define 99% confidence intervals.",
-        "Re-evaluate outcomes by assuming a fat-tailed distribution where a 10-sigma shock occurs with meaningful frequency.",
-        "Recalibrate capital requirements and buffer zones to withstand multi-sigma outlier shocks."
+        "1. Review how you calculate risk for budgets and deadlines.",
+        "2. Find any plan that assumes extreme events cannot happen.",
+        "3. Recheck your plans assuming a giant, unprecedented shock hits.",
+        "4. Add extra cash and flexible timelines to survive the hit."
       ],
       "sourceChapter": "Chapter 17"
     },
     {
       "id": "the-black-swan-act-12",
-      "title": "Schedule a Serendipity and Optionality Protocol",
-      "description": "Protect your calendar from total over-optimization to preserve bandwidth for seizing unpredicted high-upside encounters.",
+      "title": "Leave Room for Good Luck",
+      "description": "An overpacked schedule blocks serendipity. Leave open time to grab unexpected lucky breaks.",
       "category": "system",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Audit your weekly schedule and identify over-scheduled administrative blocks with zero potential upside.",
-        "Permanently block out 20% of your weekly calendar as uncommitted, unstructured operational slack.",
-        "Use this slack to pursue speculative experiments, exploratory technical research, or high-variance strategic dialogues.",
-        "Retain the contractual and personal flexibility to aggressively pivot resources whenever an asymmetric opportunity appears."
+        "1. Check your calendar for useless meetings with zero upside.",
+        "2. Clear twenty percent of your weekly schedule completely open.",
+        "3. Spend this open time exploring new ideas and meeting people.",
+        "4. Keep freedom to jump fast when great opportunities show up."
       ],
       "sourceChapter": "Chapter 13"
     }
@@ -1150,9 +1150,9 @@ export const THE_BLACK_SWAN_BOOK: Book = {
       "category": "Psychology",
       "type": "mental-model",
       "headline": "The Turkey Problem",
-      "body": "Every feeding convinces the butcher's turkey that humans exist to protect it, with confidence peaking the afternoon before Thanksgiving.\nHistorical data without structural understanding is an engine of catastrophic miscalculation.\nA track record of zero failures often signals impending fragility rather than enduring stability.",
+      "body": "A farmer feeds a turkey every day for a thousand days.\nThe turkey thinks the farmer is its best friend.\nOn Thanksgiving, the farmer kills the turkey instead.",
       "quote": "The turkey will feel that the butcher loves turkeys, and that every day is Thanksgiving Day until the butcher shows up with a knife.",
-      "actionItem": "Isolate systems relying on unbroken historical stability and pressure-test them against a catastrophic regime shift.",
+      "actionItem": "Find parts of your life that seem safe only because nothing bad happened yet.\nTest how well you can handle a sudden shock.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1170,10 +1170,10 @@ export const THE_BLACK_SWAN_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Extremistan vs. Mediocristan",
-      "body": "In Mediocristan, physical constraints cap variance; no single person's weight or height moves the collective average.\nIn Extremistan, digital networks, financial markets, and scalable technology create power laws where one outlier dictates the entire distribution.\nTreating scalable systems as if they behave like Mediocristan guarantees ruin.",
+      "headline": "Two Types of Worlds",
+      "body": "Some things have clear limits, like human height or weight.\nOther things have no limits, like wealth, book sales, or social media views.\nIn unlimited worlds, a single giant winner changes everything.",
       "quote": "In Extremistan, inequalities are such that one single observation can disproportionately impact the aggregate, or the total.",
-      "actionItem": "Classify every business unit by its scalability limit to avoid managing power-law dynamics with linear tools.",
+      "actionItem": "Check whether your business has strict limits or unlimited reach.\nDo not use simple averages for things that can grow without limits.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1191,10 +1191,10 @@ export const THE_BLACK_SWAN_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Construct a Barbell Strategy",
-      "body": "Reject the compromise of moderate risk, which leaves you vulnerable to hidden systemic crashes without meaningful upside.\nPlace 85-90% of your capital or operational capacity into hyper-conservative, bulletproof reserves with zero ruin probability.\nAllocate the remaining 10-15% into hyper-aggressive, high-optionality bets with capped downside.",
+      "headline": "The Barbell Strategy",
+      "body": "Avoid middle ground risks that give you small gains and huge hidden danger.\nKeep most of your money in ultra-safe places that cannot break.\nPut a small slice into bold bets with massive upside.",
       "quote": "If you know that you are vulnerable to prediction errors, and if you accept that most 'risk measures' are flawed, then your strategy is to be as hyperconservative and hyperaggressive as you can be.",
-      "actionItem": "Audit capital allocation: eliminate moderate-risk holdings and bifurcate assets into ultra-safe reserves and high-upside options.",
+      "actionItem": "Keep ninety percent of your assets in rock-solid cash or safe bonds.\nUse the rest for small, high-reward experiments.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1212,10 +1212,10 @@ export const THE_BLACK_SWAN_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Asymmetry of Action",
-      "body": "Precise forecasting is impossible under high uncertainty, but understanding vulnerability to a shock is straightforward.\nRobust decision-makers never stake enterprise survival on their ability to predict the timing of the storm; they calibrate balance sheets and operating leverage to withstand whichever storm arrives.",
+      "headline": "Focus on the Damage",
+      "body": "You cannot predict when a bad storm will strike your town.\nYou can still buy a sturdy roof to keep your family dry.\nPrepare for the damage instead of guessing the timing.",
       "quote": "I find it much more helpful to know how much I will be hurt by an event than to know how likely it is.",
-      "actionItem": "Shift monthly operational reviews from debating outcome probabilities to measuring impact thresholds under acute stress.",
+      "actionItem": "Stop trying to guess the odds of bad events.\nMeasure the worst damage they could cause and protect against it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1233,10 +1233,10 @@ export const THE_BLACK_SWAN_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Narrative Fallacy",
-      "body": "Humans compress complex, noisy reality into coherent chronological stories after the fact to manufacture a false sense of control.\nThese tidy causal explanations flatter executive competence while systematically editing out the raw randomness and unrepeatable luck that determined the winning trajectory.",
+      "headline": "The Storytelling Trap",
+      "body": "People love to invent clean stories after an event happens.\nThese stories make the past look simple and predictable.\nIn truth, random luck played a much bigger role than anyone admits.",
       "quote": "The narrative fallacy addresses our limited ability to look at sequences of facts without weaving an explanation into them.",
-      "actionItem": "Require strategic post-mortems to document three alternative causal narratives for any major corporate win.",
+      "actionItem": "When a project succeeds, write down three different ways pure luck helped you win.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1254,10 +1254,10 @@ export const THE_BLACK_SWAN_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Silent Evidence (The Cemetery of Failure)",
-      "body": "Analysis based exclusively on survivors creates devastating survivorship bias.\nThe strategic advice handed down by winning CEOs and celebrated venture bets excludes the thousands of bankrupt entities that applied the exact same methods, work ethic, and vision but met quiet liquidation.",
+      "headline": "The Graveyard of Losers",
+      "body": "We only hear advice from winners who wrote best-selling books.\nThousands of other people worked just as hard and still failed completely.\nDead projects leave behind no warnings because nobody listens to losers.",
       "quote": "The cemetery of failed endeavors is rarely visited, yet it contains the most vital strategic information.",
-      "actionItem": "Study discontinued competitors before adopting an industry standard, mapping their fatal inflection points.",
+      "actionItem": "Study businesses that went bankrupt in your field before copying a popular success habit.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1275,10 +1275,10 @@ export const THE_BLACK_SWAN_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Harness Via Negativa",
-      "body": "Subtractive intervention is more durable than additive expansion.\nSolving vulnerabilities by adding complex layers often multiplies hidden failure modes.\nYou achieve resilience by identifying and systematically eliminating fragile elements, excess leverage, and overextended commitments.",
+      "headline": "Improve by Removing",
+      "body": "It is easier to know what hurts you than what helps you.\nAdding more rules and tools usually creates extra mess and confusion.\nYou grow stronger by cutting away bad habits, debt, and weak parts.",
       "quote": "We know a lot more about what is wrong than what is right... The negative knowledge is more robust.",
-      "actionItem": "Institute a quarterly subtraction checklist to kill vulnerable software dependencies, debt covenants, and operational bottlenecks.",
+      "actionItem": "List three bad habits, useless meetings, or risky debts today.\nCut at least one of them immediately.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1296,10 +1296,10 @@ export const THE_BLACK_SWAN_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Ludic Fallacy",
-      "body": "Academic risk management confuses structured games of chance (casinos, coin tosses, board games) with real-world uncertainty.\nReal-world hazards do not arrive with known dice faces, fixed rules, or transparent probability cards.\nBlind faith in quantitative standard deviation models leaves organizations blind to rogue tail risks.",
+      "headline": "Real Life Is Not Dice",
+      "body": "Casino games have clean rules, known odds, and fixed sides on dice.\nReal life is wild, messy, and full of hidden surprises.\nTreating the real world like a board game leads to disaster.",
       "quote": "The ludic fallacy is the misuse of games to model real-life situations.",
-      "actionItem": "Discard quantitative risk models that assume Gaussian distributions across supply chains and macroeconomic conditions.",
+      "actionItem": "Do not trust textbook math formulas to predict real world surprises.\nLeave room for strange shocks.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1317,10 +1317,10 @@ export const THE_BLACK_SWAN_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Triplet of Opacity",
-      "body": "Humanity's inability to navigate history stems from three cognitive blind spots: the illusion of understanding a chaotic world, the retrospective distortion of events through narrative, and the chronic overvaluation of factual data collected by specialized experts.",
+      "headline": "Why We Are Blind",
+      "body": "Humans struggle to read history because of three big mental traps.\nWe think we understand the world better than we actually do.\nWe make up neat stories after events happen and overrate expert opinions.",
       "quote": "History is opaque. You see what comes out, not the script that produces events.",
-      "actionItem": "Establish red-team reviews that challenge the consensus forecasts of technical domain specialists.",
+      "actionItem": "Ask an outsider to challenge the plans your team feels most certain about.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1338,10 +1338,10 @@ export const THE_BLACK_SWAN_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Power of Optionality",
-      "body": "When you possess an asymmetric option, you do not need to be right about the future.\nYou only need the freedom to exploit positive outcomes while shedding downside liabilities.\nOptionality transforms volatility from an existential predator into an engine of continuous compounding.",
+      "headline": "Keep Your Options Open",
+      "body": "You do not need to guess what tomorrow brings.\nYou only need the freedom to grab good luck when it appears.\nKeep your losses tiny and let your upside run wild.",
       "quote": "Optionality is the property of asymmetric upside (preferably with unlimited rewards) with capped downside.",
-      "actionItem": "Structure contracts with small termination penalties to preserve the freedom to pivot when market conditions change.",
+      "actionItem": "Sign agreements that let you walk away cheaply if things go wrong.\nKeep your choices open.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1359,10 +1359,10 @@ export const THE_BLACK_SWAN_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Build an Antilibrary",
-      "body": "Umberto Eco's library prioritized unread books as reminders of what he did not know.\nCultivate an antilibrary of institutional ignorance: document every boundary of your company's operational competence and force executives to operate from what remains unmastered rather than resting on past accomplishments.",
+      "headline": "The Antilibrary",
+      "body": "A room full of unread books shows how much you still must learn.\nSmart people do not show off what they know.\nThey stay curious by looking at what remains a mystery.",
       "quote": "Read books are far less valuable than unread ones. The library should contain as much of what you do not know as your financial means allow.",
-      "actionItem": "Create an institutional unknown ledger documenting unmapped competitive threats and regulatory vectors.",
+      "actionItem": "Write down five big questions about your market that nobody on your team can answer.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1380,10 +1380,10 @@ export const THE_BLACK_SWAN_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Platonic Fold & Over-Optimization",
-      "body": "When theory simplifies messy reality into neat, clean geometric models, the boundary where the model breaks is the Platonic fold.\nPushing operational efficiency to its absolute limit strips all margins and slack from the system, converting a lean machine into an explosive liability under volatile conditions.",
+      "headline": "Leave Some Breathing Room",
+      "body": "Squeezing every drop of speed out of a system removes all spare room.\nWhen a tight system faces a shock, it breaks instantly.\nHaving extra time, extra cash, and spare parts keeps you alive.",
       "quote": "The Platonic fold is the explosive boundary where the Platonic mindset enters in contact with messy reality.",
-      "actionItem": "Add a 15% slack buffer to critical supply lines and working capital reserves to absorb sudden supply chain shocks.",
+      "actionItem": "Add a fifteen percent safety buffer to your project deadlines and cash reserves this week.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1401,10 +1401,10 @@ export const THE_BLACK_SWAN_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Epistemic Arrogance",
-      "body": "The gap between what people actually know and what they think they know is structurally asymmetric: humans systematically overestimate their domain mastery.\nHigh credentials and sophisticated tooling reliably inflate confidence without delivering a corresponding increase in forecasting precision.",
+      "headline": "Expert Arrogance",
+      "body": "People think they know much more than they actually know.\nFancy degrees and complex tools give people false confidence.\nExperts often make terrible guesses while speaking with absolute authority.",
       "quote": "We are demonstrably arrogant about what we think we know. We certainly know a lot, but we have a built-in tendency to think that we know a little bit more than we actually do.",
-      "actionItem": "Widen your financial and timeline buffers by doubling expected project variance across all enterprise forecasts.",
+      "actionItem": "Take your expert forecast and double the expected margin of error on costs and delivery dates.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1422,10 +1422,10 @@ export const THE_BLACK_SWAN_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Protecting Against Ruin",
-      "body": "The mathematics of survival are unforgiving: an infinite sequence of small operational gains is completely negated by a single fatal drawdown.\nWhen the downside involves systemic collapse, no calculated probability of success justifies taking the risk.",
+      "headline": "Never Risk Total Ruin",
+      "body": "A thousand small wins mean nothing if one bad loss wipes you out.\nIf you take a bet that can kill you, you will eventually die.\nNever risk your entire game on one play.",
       "quote": "If a mechanism starts with a zero probability of survival in the long run, it will fail, regardless of its short-term performance.",
-      "actionItem": "Establish strict organizational stop-losses that automatically trigger long before capital reserves reach critical thresholds.",
+      "actionItem": "Set hard exit rules that cut your losses long before your savings hit empty.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1443,10 +1443,10 @@ export const THE_BLACK_SWAN_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Hunt for Convex Payoffs",
-      "body": "Seek environments where small investments expose you to exponential payoffs while strictly capping losses to the entry ticket.\nIn high-volatility ecosystems, profits come not from the frequency of correct calls, but from the magnitude of wins when an outlier surfaces.",
+      "headline": "Hunt for Giant Upside",
+      "body": "Pick bets where you can only lose a little, but can win big.\nYou do not need to win every single time.\nOne massive hit pays for hundreds of small failures.",
       "quote": "Put yourself in situations where favorable consequences are much larger than unfavorable ones.",
-      "actionItem": "Launch small pilot projects designed to fail cheaply within thirty days while preserving uncapped upside.",
+      "actionItem": "Launch tiny pilot tests that cost very little money to test bold new ideas.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1464,10 +1464,10 @@ export const THE_BLACK_SWAN_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Confirmation Bias in the Wild",
-      "body": "A million white swans never establish the universal claim that all swans are white, yet finding a single black swan refutes it immediately.\nSearching for data that validates your strategic thesis is a waste of capital; rigorous leaders search relentlessly for the single counter-indicator that breaks the thesis.",
+      "headline": "The Single Black Swan",
+      "body": "Seeing a million white swans does not prove all swans are white.\nSeeing one black swan proves that rule wrong immediately.\nStop seeking proof you are right and start looking for what proves you wrong.",
       "quote": "No amount of observations of white swans can allow the inference that all swans are white, but the observation of a single black swan is sufficient to refute that conclusion.",
-      "actionItem": "Direct strategic analysts to draft disconfirmation memos listing facts that would disprove your primary thesis.",
+      "actionItem": "Ask your team to write down one piece of news that would kill your plan completely.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1485,10 +1485,10 @@ export const THE_BLACK_SWAN_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Scalability Trap",
-      "body": "Non-scalable professions (lawyers, surgeons, dentists) demand labor for every unit of revenue, locking practitioners into Mediocristan.\nScalable professions (authors, software creators, asset managers) divorce effort from output, creating winner-take-all dynamics that reward a tiny fraction of actors while exposing everyone to cutthroat variance.",
+      "headline": "Work That Scales",
+      "body": "Doctors and dentists trade hours for money, which limits their earnings.\nAuthors and coders make something once and sell it to millions.\nScalable jobs offer massive rewards, but only a few people win.",
       "quote": "A scalable profession is good only if you are successful; they are more competitive, produce monstrous inequalities, and are far more random.",
-      "actionItem": "Decouple your organizational revenue from physical hours by engineering repeatable intellectual property assets.",
+      "actionItem": "Build products that people can buy while you sleep instead of trading your hours for cash.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1506,10 +1506,10 @@ export const THE_BLACK_SWAN_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Freedom from Platonic Traps",
-      "body": "True strategic independence is earned by refusing to conform to the sanitized models of institutional experts.\nWhen you embrace the true messiness of reality, volatility shifts from an unbearable threat into a competitive weapon against rigid competitors.",
+      "headline": "Preventing Bad Trouble",
+      "body": "People praise the hero who fixes a big fire.\nNobody thanks the quiet person who prevented the fire in the first place.\nAvoiding giant traps is the smartest way to stay ahead.",
       "quote": "It is much easier to sell 'Look what I did for you' than 'Look what I avoided for you.'",
-      "actionItem": "Restructure executive incentives to reward proactive disaster avoidance alongside standard revenue generation.",
+      "actionItem": "Reward teammates who spot and defuse major risks early before any trouble starts.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1527,10 +1527,10 @@ export const THE_BLACK_SWAN_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Bell Curve Fraud",
-      "body": "The Gaussian Bell Curve assumes extreme deviations are exponentially improbable, treating tail events as statistical anomalies.\nWhen deployed in socioeconomic realms, it functions as an intellectual trap that conceals massive systemic fragility beneath smooth mathematical curves.",
+      "headline": "The Bell Curve Myth",
+      "body": "Old math charts tell us extreme events almost never happen.\nIn business and markets, wild shocks happen all the time.\nTrusting smooth curve charts blinds you to massive real dangers.",
       "quote": "The bell curve is the great intellectual fraud of our times, smoothing away the jagged edges of real-world risk.",
-      "actionItem": "Replace Gaussian assumptions in balance sheet stress-testing with Mandelbrotian power-law fat-tail distributions.",
+      "actionItem": "Stop assuming extreme events will not happen.\nTest your plans against rare and violent shocks.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1548,10 +1548,10 @@ export const THE_BLACK_SWAN_BOOK: Book = {
       "author": "Nassim Nicholas Taleb",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Exploit Negative Asymmetry",
-      "body": "Never tolerate configurations where you capture small, steady gains in exchange for exposing yourself to explosive, uncapped downside.\nStrategies that pick up pennies in front of steamrollers look profitable for years before vanishing in a single day.",
+      "headline": "Avoid Bad Deals",
+      "body": "Never chase tiny profits that expose you to total collapse.\nSome deals look great for years before wiping you out in one second.\nDo not pick up small coins in front of a rolling train.",
       "quote": "Beware the strategy that yields steady, predictable returns while hiding catastrophic, unbounded ruin in its tails.",
-      "actionItem": "Eliminate low-margin operations that expose your balance sheet to unlimited legal, physical, or financial liability.",
+      "actionItem": "Shut down low-profit tasks that expose your company to massive lawsuits or huge hidden costs.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1565,67 +1565,74 @@ export const THE_BLACK_SWAN_BOOK: Book = {
   ],
   "mindMap": {
     "id": "black-swan-root",
-    "label": "The Black Swan: Strategic Epistemology & Asymmetrical Risk",
-    "description": "A tactical doctrine on operating, surviving, and capitalizing within a world governed by extreme, unpredictable, high-impact anomalies.\nIt rejects standard Gaussian forecasting in favor of antifragile posture, strategic asymmetry, and aggressive downside containment.",
+    "label": "The Black Swan",
+    "description": "Rare, unexpected events shape our world more than anything else.\nSurviving them requires preparing for surprises rather than predicting the future.",
     "children": [
       {
         "id": "triad-anatomy",
-        "label": "The Triad of the Black Swan Event",
-        "description": "Strategic anomalies define historical trajectories, market distributions, and geopolitical power structures.\nMastering this domain requires recognizing that rare, disproportionately impactful events drive the entire system.",
+        "label": "Three Core Traits",
+        "description": "Black Swans share three basic features.\nThey rule history, business, and daily life.",
         "children": [
           {
             "id": "rarity-outlier",
-            "label": "Extreme Outlier Rarity",
-            "description": "The event sits completely outside the realm of regular expectations because nothing in the past pointed convincingly to its possibility.\nStrategists must accept that absence of evidence is not evidence of absence in high-variance environments."
+            "label": "Completely Unexpected",
+            "description": "No one sees it coming.\nNothing in past experience pointed to it happening.",
+            "children": []
           },
           {
             "id": "extreme-impact",
-            "label": "Disproportionate Systemic Impact",
-            "description": "A single outlier carries catastrophic or transformational consequences that wipe out decades of accumulated linear gains.\nIn real-world competition, capital allocation and survival are dictated entirely by how well you absorb these shocks."
+            "label": "Massive Impact",
+            "description": "One single event changes everything.\nIt can wipe out decades of steady progress.",
+            "children": []
           },
           {
             "id": "retrospective-distortion",
-            "label": "Retrospective Predictability",
-            "description": "Human cognitive architecture immediately constructs a tidy explanation after the fact to fabricate an illusion of order and foresight.\nThis retrospective rationalization blinds leaders, making them vulnerable to the exact same structural blindness in the next cycle."
+            "label": "Explained After Fact",
+            "description": "People invent tidy stories after it happens.\nWe fool ourselves into thinking we knew it all along.",
+            "children": []
           }
         ]
       },
       {
         "id": "two-realms",
-        "label": "The Dual Operating Domains: Mediocristan vs. Extremistan",
-        "description": "The fatal error of modern risk modeling is mapping scalable, power-law phenomena onto non-scalable, physical frameworks.\nSound strategic leadership demands categorizing every metric into its proper domain before deploying resources.",
+        "label": "Two Different Worlds",
+        "description": "The world divides into two distinct realms.\nConfusing them leads to terrible mistakes.",
         "children": [
           {
             "id": "mediocristan-domain",
-            "label": "Mediocristan: The Linear Domain",
-            "description": "Governed by physical constraints, finite capacity, and mild Gaussian bell curves where no single observation can drastically alter the aggregate total.\nExamples include human height, physical labor output, and traditional manufacturing margins where variance is naturally bounded.",
+            "label": "Mediocristan: Normal World",
+            "description": "A world of physical limits and averages.\nNo single person or event can swing the total.",
             "children": [
               {
                 "id": "mediocristan-tyranny-average",
-                "label": "The Tyranny of the Collective Average",
-                "description": "Individual sample points exert virtually zero control over the macro outcome as sample sizes scale upward.\nStandard deviations and central limit theorems function reliably here without exposing the operator to catastrophic ruin."
+                "label": "Power of Averages",
+                "description": "Individual differences stay small here.\nLike human height, standard bell curves work fine.",
+                "children": []
               },
               {
                 "id": "mediocristan-safe-forecasting",
-                "label": "Bounded Forecast Feasibility",
-                "description": "Historical extrapolation holds utility because physical limitations prevent exponential runaway effects.\nLeaders can safely optimize for baseline efficiency without baking in existential ruin scenarios."
+                "label": "Safe Predictions",
+                "description": "The past reliably predicts the future.\nYou can safely plan without fearing total ruin.",
+                "children": []
               }
             ]
           },
           {
             "id": "extremistan-domain",
-            "label": "Extremistan: The Scalable Domain",
-            "description": "Characterized by digital scalability, winner-take-all mechanics, and heavy-tailed power-law distributions.\nA single data point, transaction, or market rupture can effortlessly dominate the sum of all prior history.",
+            "label": "Extremistan: Wild World",
+            "description": "A world ruled by giant extremes.\nA single giant event can dwarf everything else.",
             "children": [
               {
                 "id": "extremistan-winner-take-all",
-                "label": "Winner-Take-All Market Dynamics",
-                "description": "Network effects and zero-marginal-cost scaling concentrate rewards into a tiny fraction of participants.\nIn Extremistan, optimizing for standard market share metrics is useless compared to securing top-tier asymmetric leverage."
+                "label": "Winner Take All",
+                "description": "A few winners grab nearly all rewards.\nThink of viral hits, wealth, or book sales.",
+                "children": []
               },
               {
                 "id": "extremistan-gaussian-breakdown",
-                "label": "Complete Breakdown of Standard Metrics",
-                "description": "Conventional variance, Value-at-Risk (VaR), and regression models offer pure pseudo-scientific comfort while hiding catastrophic tail exposure.\nBetting institutional capital on Gaussian math in Extremistan is tantamount to systemic suicide."
+                "label": "Normal Math Fails",
+                "description": "Standard charts and formulas become useless here.\nThey hide massive risks that can destroy you.",
+                "children": []
               }
             ]
           }
@@ -1633,74 +1640,82 @@ export const THE_BLACK_SWAN_BOOK: Book = {
       },
       {
         "id": "epistemic-biases",
-        "label": "Cognitive Biases & Epistemic Arrogance",
-        "description": "Decision-makers operate under an acute illusion of knowledge, mistaking precise spreadsheets for actual predictive control.\nDecisive leadership starts by dismantling internal cognitive vulnerabilities before competitors exploit them.",
+        "label": "Human Mind Traps",
+        "description": "Our brains trick us into feeling safe.\nWe think we know far more than we do.",
         "children": [
           {
             "id": "turkey-fallacy",
-            "label": "The Turkey Problem (Inductive Blindness)",
-            "description": "Every day of feeding increases the butcher's apparent benevolence in the eyes of the turkey right up until slaughter day.\nIncreased historical stability without structural protection merely concentrates risk until the fatal rupture arrives.",
+            "label": "The Turkey Problem",
+            "description": "A butcher feeds a turkey every day.\nThe bird feels safest right before Thanksgiving.",
             "children": [
               {
                 "id": "turkey-illusion-safety",
-                "label": "Equating Stability with Safety",
-                "description": "Artificial calm suppresses small adjustments and builds hidden systemic fragilities under the surface.\nSavvy operators welcome periodic micro-volatility to prevent massive, unannounced organizational collapses."
+                "label": "False Calm",
+                "description": "Long periods of quiet hide growing danger.\nA peaceful surface does not mean you are safe.",
+                "children": []
               },
               {
                 "id": "turkey-temporal-trap",
-                "label": "The Temporal Horizon Trap",
-                "description": "Relying on trailing 3-year or 5-year track records ignores non-linear tail events that strike on multi-decade horizons.\nHistorical backtests without severe stress-testing create hollow confidence."
+                "label": "Short-Term Trap",
+                "description": "Looking only at recent years fools you.\nDisasters strike across decades, not months.",
+                "children": []
               }
             ]
           },
           {
             "id": "narrative-fallacy",
-            "label": "The Narrative Fallacy",
-            "description": "The biological impulse to weave messy facts into compelling, causal linear narratives to reduce mental strain.\nCompelling storylines distort strategic retrospectives and mask the massive role dumb luck played in initial victories.",
+            "label": "Storytelling Trap",
+            "description": "We love turning messy facts into neat stories.\nThis blinds us to how much luck mattered.",
             "children": [
               {
                 "id": "narrative-compression",
-                "label": "Lossy Data Compression",
-                "description": "Extracting clean tactical case studies strips out noisy, vital outlier variables that actually decided survival.\nLeaders following narrative playbooks replicate the external form while missing the critical tail conditions."
+                "label": "Ignoring Key Details",
+                "description": "Simple success stories leave out messy truths.\nFollowing someone else's playbook often fails.",
+                "children": []
               },
               {
                 "id": "narrative-post-hoc",
-                "label": "Post-Hoc Rationalization",
-                "description": "Assigning structured intentionality and genius to moves that were carried by macroeconomic tailwinds.\nMaster strategists evaluate decisions strictly on process and risk profiles at execution, not narrative outcomes."
+                "label": "Hindsight Genius",
+                "description": "People praise lucky moves as brilliant plans.\nGood outcomes do not prove wise choices.",
+                "children": []
               }
             ]
           },
           {
             "id": "silent-evidence",
-            "label": "The Cemetery of Silent Evidence",
-            "description": "Survival bias systematically hides the thousands of liquidated competitors who used identical strategies and drowned.\nStudying only surviving winners yields totally inverted rules for capital preservation and tactical expansion.",
+            "label": "Hidden Failures",
+            "description": "We only hear from surviving winners.\nThousands who tried the exact same thing failed quietly.",
             "children": [
               {
                 "id": "silent-cemetery-graveyard",
-                "label": "The Invisible Graveyard Effect",
-                "description": "Drowned risk-takers do not publish memoirs or give keynote lectures on failed balance sheet management.\nStrategic models built exclusively on surviving market leaders bake fatal survivorship errors directly into the execution playbook."
+                "label": "Invisible Graveyard",
+                "description": "Losers do not write popular business books.\nCopying survivors gives you false advice.",
+                "children": []
               },
               {
                 "id": "silent-cemetery-confirmation",
-                "label": "False Confirmation Loops",
-                "description": "Attributing longevity to intrinsic competitive moats when raw systemic survival variance was the governing factor.\nClear-eyed operators actively seek out failure forensics before allocating balance sheet reserves."
+                "label": "Mistaking Luck for Skill",
+                "description": "Staying alive often comes down to pure chance.\nStudy why others died before betting everything.",
+                "children": []
               }
             ]
           },
           {
             "id": "ludic-fallacy",
-            "label": "The Ludic Fallacy (Casino Tunnel Vision)",
-            "description": "Confining risk assessments to neat, sterile models with clear rule sets like dice, casinos, or academic board games.\nThe real world's greatest threats emerge from unmodeled variables and asymmetric adversaries outside the framework.",
+            "label": "Casino Trap",
+            "description": "Real life is not a game of dice.\nClean textbook rules fail in the messy real world.",
             "children": [
               {
                 "id": "ludic-clean-rules",
-                "label": "The Illusion of Game Rules",
-                "description": "Real combat and ruthless market competition do not have fixed probabilities, clean rulebooks, or ethical boundaries.\nModeling systemic risk as a coin toss ensures you are blindsided by unknown unknowns."
+                "label": "No Rulebooks",
+                "description": "Real life has no fixed odds or boundaries.\nThe biggest threats come from outside the box.",
+                "children": []
               },
               {
                 "id": "ludic-academic-blindspot",
-                "label": "Academic & Bureaucratic Blindspots",
-                "description": "Over-reliance on credentialed quantitative experts who maximize local mathematical elegance at the cost of global catastrophic vulnerability.\nA strategist must always prioritize street-level survivability over textbook precision."
+                "label": "Overconfident Experts",
+                "description": "Math models look neat but fail during crises.\nStreet smarts beat pretty formulas every time.",
+                "children": []
               }
             ]
           }
@@ -1708,84 +1723,95 @@ export const THE_BLACK_SWAN_BOOK: Book = {
       },
       {
         "id": "anti-knowledge-framework",
-        "label": "The Anti-Knowledge Framework: Unlearning & Humility",
-        "description": "True competitive advantage stems from knowing the perimeter of your ignorance rather than expanding hollow expertise.\nLeaders must structure operations to thrive on the vast territory of what remains unmapped.",
+        "label": "Embracing Ignorance",
+        "description": "Knowing what you do not know is true power.\nHumility protects you from disastrous mistakes.",
         "children": [
           {
             "id": "antilibrary-concept",
-            "label": "Eco's Antilibrary & Unread Knowledge",
-            "description": "Unread books are far more valuable than read ones because they remind the practitioner of everything they do not know.\nA pristine strategic dashboard should focus heavily on unmonitored blind spots and structural dependencies."
+            "label": "The Unread Library",
+            "description": "Unread books matter more than books you read.\nThey keep you humble about your blind spots.",
+            "children": []
           },
           {
             "id": "empty-suit-problem",
-            "label": "The Expert Problem ('Empty Suits')",
-            "description": "Specialists whose professions lack direct skin in the game generate forecasts no better than random noise yet face zero penalty for failure.\nWise decision-makers reject advisory opinions from actors insulated from operational downside."
+            "label": "The Fake Experts",
+            "description": "Many talking heads risk nothing when wrong.\nIgnore advice from people who pay no price.",
+            "children": []
           },
           {
             "id": "epistemic-arrogance-node",
-            "label": "Epistemic Arrogance vs. Negative Empirical Skepticism",
-            "description": "Overestimating predictive power leads to aggressive, over-leveraged commitments that shatter under stress.\nNegative empiricism focuses on systematically identifying and pruning what is provably false or fragile."
+            "label": "Pruning False Beliefs",
+            "description": "Overconfidence leads to painful crashes.\nFocus on spotting and cutting out bad ideas.",
+            "children": []
           }
         ]
       },
       {
         "id": "strategic-asymmetry",
-        "label": "Tactical Asymmetry: The Barbell Strategy & Convexity",
-        "description": "Do not attempt to predict the unpredictable; position assets so that negative surprises cause negligible harm while positive surprises yield explosive upside.\nExecution must be hyper-conservative on downside and hyper-aggressive on tail opportunities.",
+        "label": "The Barbell Strategy",
+        "description": "Do not try to predict crazy events.\nPosition yourself so surprises only help you.",
         "children": [
           {
             "id": "barbell-allocation",
-            "label": "The Strategic Barbell Architecture",
-            "description": "Avoid the mediocre middle of moderate risk, which harbors hidden explosive fragilities.\nPair extreme, paranoid conservatism on 85-90% of assets with hyper-aggressive, diversified micro-bets on the remaining 10-15%.",
+            "label": "Two Extreme Sides",
+            "description": "Avoid medium risks that can blow up.\nStay hyper-safe on most things, bold on a few.",
             "children": [
               {
                 "id": "barbell-extreme-defense",
-                "label": "Paranoid Hyper-Defense (Cash & Moats)",
-                "description": "Maintain pristine liquidity, low debt, and ultra-safe reserves immune to liquidity freezes or systemic contagion.\nSurviving when all competitors run out of oxygen gives you predatory pricing power during market panics."
+                "label": "Ironclad Defense",
+                "description": "Keep cash, low debt, and safe reserves.\nStaying alive during a crash lets you win.",
+                "children": []
               },
               {
                 "id": "barbell-hyper-speculation",
-                "label": "Convex Tail Speculation",
-                "description": "Disperse numerous small, asymmetric speculative options with capped loss and unlimited upside potential.\nWhen an Extremistan breakout hits, it pays for thousands of failed trial runs many times over."
+                "label": "Small Bold Bets",
+                "description": "Make many tiny bets with huge possible wins.\nOne hit pays for all small losses.",
+                "children": []
               }
             ]
           },
           {
             "id": "convexity-bias",
-            "label": "Convex Payoffs & Positive Asymmetry",
-            "description": "Structure contracts, partnerships, and product launches such that you gain far more from volatility than you lose.\nIf upside exceeds downside under turbulence, you are antifragile and benefit directly from chaos."
+            "label": "Gaining from Chaos",
+            "description": "Set things up so trouble helps you grow.\nYou want limited downside and unlimited upside.",
+            "children": []
           },
           {
             "id": "poppers-falsification",
-            "label": "Aggressive Popperian Falsification",
-            "description": "A million white swans cannot prove a universal rule, but a single black swan obliterates it instantly.\nRelentlessly stress-test operational assumptions by attempting to disprove them rather than collecting comforting confirmations."
+            "label": "Testing Your Assumptions",
+            "description": "One single black swan disproves a million white ones.\nTry hard to prove your own ideas wrong.",
+            "children": []
           }
         ]
       },
       {
         "id": "operational-execution",
-        "label": "Operational Execution Under Radical Uncertainty",
-        "description": "Transforming philosophical insights into uncompromising institutional standard operating procedures.\nReal power lies in structuring teams, capital, and incentives to outlast systemic shocks.",
+        "label": "Surviving the Unknown",
+        "description": "Turn these ideas into daily habits.\nBuild systems strong enough to survive shocks.",
         "children": [
           {
             "id": "skin-in-the-game",
-            "label": "Skin in the Game (SITG) Alignment",
-            "description": "Never allow an individual to reap the upside of a strategic bet while dumping catastrophic tail risk onto the organization or public.\nAligning personal liability directly with downside outcomes is the only true shield against reckless leadership."
+            "label": "Skin in the Game",
+            "description": "Never let leaders profit while passing risk to others.\nPeople must personally share the downside of their choices.",
+            "children": []
           },
           {
             "id": "redundancy-over-efficiency",
-            "label": "Operational Redundancy over Hyper-Efficiency",
-            "description": "Eliminating all organizational slack and buffer cash creates fragile systems that collapse on the slightest logistical disruption.\nStrategic redundancy is not wasteful overhead; it is mandatory insurance for long-term survival."
+            "label": "Keep Extra Cushions",
+            "description": "Hyper-efficient systems break at the first bump.\nExtra backup buffers are essential for survival.",
+            "children": []
           },
           {
             "id": "negative-way",
-            "label": "Via Negativa (Addition by Subtraction)",
-            "description": "Real strength and resilience are achieved by removing structural vulnerabilities, toxic incentives, and unhedged exposures rather than adding complex controls.\nThe cleanest path to survival is ruthlessly eliminating points of catastrophic failure."
+            "label": "Subtractive Living",
+            "description": "Get stronger by removing weak spots.\nCutting out dangers beats adding complicated solutions.",
+            "children": []
           },
           {
             "id": "seizing-serendipity",
-            "label": "Seizing Asymmetric Serendipity",
-            "description": "Maximize exposure to unscripted, high-upside interactions, proprietary deal flows, and emergent network effects.\nWhen positive Black Swans emerge, aggressive operators execute immediately without waiting for bureaucratic consensus."
+            "label": "Grab Lucky Breaks",
+            "description": "Put yourself in path of good surprises.\nWhen great luck knocks, jump on it fast.",
+            "children": []
           }
         ]
       }

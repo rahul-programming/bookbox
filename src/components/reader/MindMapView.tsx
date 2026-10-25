@@ -5,6 +5,7 @@ import {
   ZoomIn, 
   ZoomOut, 
   Maximize2, 
+  Minimize2,
   RotateCcw, 
   Search, 
   Download, 
@@ -79,6 +80,35 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
 
   // Branch Collapse/Expand State
   const [expandedMap, setExpandedMap] = useState<Record<string, boolean>>({});
+
+  // Fullscreen State
+  const [isFullscreen, setIsFullscreen] = useState(false);
+
+  // Toggle fullscreen and lock body scroll
+  const toggleFullscreen = () => {
+    setIsFullscreen(prev => {
+      const next = !prev;
+      if (next) {
+        document.body.style.overflow = 'hidden';
+      } else {
+        document.body.style.overflow = '';
+      }
+      return next;
+    });
+  };
+
+  // Escape key exits fullscreen
+  useEffect(() => {
+    if (!isFullscreen) return;
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setIsFullscreen(false);
+        document.body.style.overflow = '';
+      }
+    };
+    window.addEventListener('keydown', handleKey);
+    return () => window.removeEventListener('keydown', handleKey);
+  }, [isFullscreen]);
 
   // Toggle Collapse/Expand
   const toggleNodeExpand = (nodeId: string, e: React.MouseEvent) => {
@@ -548,10 +578,14 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
   }, [layoutTree]);
 
   return (
-    <div className="max-w-7xl mx-auto py-4 sm:py-6 space-y-4 w-full max-w-full overflow-hidden">
+    <div className={`${
+      isFullscreen 
+        ? 'fixed inset-0 z-50 bg-white dark:bg-slate-900 flex flex-col p-3 sm:p-4' 
+        : 'max-w-7xl mx-auto py-4 sm:py-6 space-y-4 w-full max-w-full overflow-x-hidden'
+    }`}>
       
       {/* Top Controls Toolbar */}
-      <div className="p-3 sm:p-4 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-xs flex flex-wrap items-center justify-between gap-3">
+      <div className={`p-3 sm:p-4 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-xs flex flex-wrap items-center justify-between gap-3 ${isFullscreen ? 'shrink-0' : ''}`}>
         
         {/* Left: Title & Mode Toggle */}
         <div className="flex items-center space-x-3">
@@ -693,13 +727,27 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
               <Volume2 className="w-3.5 h-3.5" />
               <span className="text-xs font-semibold hidden sm:inline">Listen Map</span>
             </button>
+            <button
+              onClick={toggleFullscreen}
+              className="p-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition border border-slate-200/80 dark:border-slate-700 flex items-center space-x-1"
+              title={isFullscreen ? 'Exit Fullscreen (Esc)' : 'Fullscreen Mind Map'}
+            >
+              {isFullscreen ? (
+                <Minimize2 className="w-3.5 h-3.5" />
+              ) : (
+                <Maximize2 className="w-3.5 h-3.5" />
+              )}
+              <span className="text-xs font-semibold hidden sm:inline">
+                {isFullscreen ? 'Exit' : 'Fullscreen'}
+              </span>
+            </button>
           </div>
 
         </div>
       </div>
 
       {/* Main Canvas & Inspector Layout */}
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
+      <div className={`grid grid-cols-1 lg:grid-cols-4 gap-4 ${isFullscreen ? 'flex-1 min-h-0' : ''}`}>
         
         {/* Interactive Infinite SVG Canvas */}
         <div 
@@ -712,7 +760,9 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
           onTouchMove={handleTouchMove}
           onTouchEnd={handleTouchEnd}
           onTouchCancel={handleTouchEnd}
-          className={`lg:col-span-3 h-[600px] sm:h-[680px] rounded-2xl border border-slate-200 dark:border-slate-700 bg-slate-50/60 dark:bg-[#0b101b] relative overflow-hidden shadow-inner select-none ${
+          className={`lg:col-span-3 rounded-2xl border border-slate-200 dark:border-slate-700 bg-slate-50/60 dark:bg-[#0b101b] relative overflow-hidden shadow-inner select-none ${
+            isFullscreen ? 'h-full' : 'h-[600px] sm:h-[680px]'
+          } ${
             isDragging ? 'cursor-grabbing' : 'cursor-grab'
           }`}
           style={{

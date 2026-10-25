@@ -100,7 +100,7 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({
   }
 
   return (
-    <div className="max-w-5xl mx-auto py-6 sm:py-8 space-y-6 w-full max-w-full overflow-hidden">
+    <div className="max-w-5xl mx-auto py-6 sm:py-8 space-y-6 w-full max-w-full overflow-x-hidden">
       
       {/* View Intro Banner */}
       <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-purple-50 to-indigo-50 dark:from-purple-950/20 dark:to-indigo-950/20 border border-purple-200/80 dark:border-purple-900/60 flex flex-wrap items-center justify-between gap-3">

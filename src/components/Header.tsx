@@ -55,7 +55,7 @@ export const Header: React.FC<HeaderProps> = ({
   const goalPercent = Math.min(100, Math.round((todayMinutes / dailyGoal) * 100));
 
   return (
-    <header className="sticky top-0 z-40 border-b border-slate-200/80 dark:border-slate-800/80 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md transition-colors w-full max-w-full overflow-hidden">
+    <header className="sticky top-0 z-40 border-b border-slate-200/80 dark:border-slate-800/80 bg-white dark:bg-slate-900 backdrop-blur-md transition-colors w-full max-w-full overflow-hidden">
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 h-16 flex items-center justify-between w-full min-w-0">
         
         {/* Logo Branding - Clickable to return to Home from any page */}

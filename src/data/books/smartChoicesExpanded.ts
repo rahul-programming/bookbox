@@ -1,5 +1,5 @@
 // Smart Choices by John S. Hammond, Ralph L. Keeney, Howard Raiffa
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -550,169 +550,169 @@ export const SMART_CHOICES_BOOK: Book = {
   "actionItems": [
     {
       "id": "smart-choices-act-1",
-      "title": "Trigger an Assumption Pivot (Reframing Trigger)",
-      "description": "Our brains love jumping straight to solutions before clearly diagnosing the puzzle. In ten minutes, rewrite the problem statement using three entirely different vantage points to expose cognitive blind spots and re-anchor your perspective.",
+      "title": "Flip Your Problem View",
+      "description": "We often rush to answers before we understand the real problem. Rewrite your problem from three fresh angles to see better choices.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Jot down your current decision on an index card starting with 'How should I choose between...'",
-        "Ask yourself: 'What underlying barrier actually caused this crossroad to appear right now?'",
-        "Rewrite the prompt as a creative opportunity statement starting with 'In what ways might I...'",
-        "Circle the rephrased version that opens up the highest number of fresh directions."
+        "1. Write down your main problem on a note card.",
+        "2. Ask yourself what hidden issue caused this choice to pop up.",
+        "3. Rewrite the line to start with: How might I solve this?",
+        "4. Pick the version that gives you the best new options."
       ],
       "sourceChapter": "Chapter 1: Making Smart Choices"
     },
     {
       "id": "smart-choices-act-2",
-      "title": "Unpack Hidden Drivers via the 'Why' Ladder",
-      "description": "We frequently mistake temporary means for fundamental ends. Climbing down the ladder of intent using iterative 'Why' questions reveals your core human values versus mere transitional stepping stones.",
+      "title": "Find Your Real Goal",
+      "description": "We often confuse quick steps with what we truly want in life. Ask yourself why you want something to uncover your deepest goals.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "List your top current goal or desire regarding an upcoming decision on a blank page.",
-        "Ask 'Why is this specific outcome vital to me?' and write the immediate answer beneath it.",
-        "Repeat this 'Why' interrogation three more times on each successive response until you hit a non-negotiable core value.",
-        "Tag the final baseline statement as your Fundamental Objective and treat earlier answers as flexible Means."
+        "1. Write your current goal clearly on a blank page.",
+        "2. Ask why this outcome matters to you and write the answer.",
+        "3. Ask why three more times until you find your deepest value.",
+        "4. Circle that final answer as your true, must-have goal."
       ],
       "sourceChapter": "Chapter 3: Objectives"
     },
     {
       "id": "smart-choices-act-3",
-      "title": "The Morning PrOACT Micro-Check",
-      "description": "Every dawn brings minor forks in the road that drain mental bandwidth. Dedicate five minutes with your morning tea to clarify the Problem, Objective, and Alternatives for your primary task before inertia takes over.",
+      "title": "Morning Five-Minute Choice Check",
+      "description": "Daily choices can easily drain your energy before lunch arrives. Take five quiet minutes each morning to plan your main task clearly.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Identify the single highest-friction decision awaiting you today.",
-        "Check that your objective isn't merely finishing the task, but the deeper payoff you want from it.",
-        "Sketch at least two distinct paths to reach that payoff rather than settling for default autopilot.",
-        "Select the path with the cleanest trade-off profile and schedule its execution slot."
+        "1. Pick the hardest choice you must make today.",
+        "2. State clearly what you actually want to gain from it.",
+        "3. List two different paths you can take to get there.",
+        "4. Choose the simplest path and block time to do it."
       ],
       "sourceChapter": "Chapter 2: Problem"
     },
     {
       "id": "smart-choices-act-4",
-      "title": "Evening Choice Journaling & Bias Spotting",
-      "description": "Feedback loops are the secret engine of intuition. A brief nightly reflection calibrates your mental compass by isolating sound decision mechanics from erratic external luck.",
+      "title": "Nightly Choice Review",
+      "description": "A bad outcome does not always mean you made a bad choice. Review one choice each night to separate good thinking from pure luck.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Open a dedicated logbook and record one decision you made during the workday.",
-        "Note whether you were anchored by an initial suggestion, an arbitrary number, or sunken time.",
-        "Separate the quality of your reasoning from the eventual outcome so random chance doesn't skew your self-assessment.",
-        "Write a one-sentence reminder on how to structure a similar choice better next time."
+        "1. Write down one choice you made during your workday.",
+        "2. Notice if old habits or rushed feelings pushed your move.",
+        "3. Rate your thinking process apart from whether you got lucky.",
+        "4. Write one simple tip to help you choose better tomorrow."
       ],
       "sourceChapter": "Chapter 10: Psychological Traps"
     },
     {
       "id": "smart-choices-act-5",
-      "title": "The Wall-Mounted Consequence Matrix",
-      "description": "Working memory holds only about four chunks of information at once, leading to overwhelmed choices. Externalize your cognitive load by setting up a visual consequences grid on a physical whiteboard or desk pinboard.",
+      "title": "Build a Simple Choice Board",
+      "description": "Your brain can only hold a few details at one time. Put your choices on a wall grid so you can see everything clearly.",
       "category": "environment",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Clear a dedicated section on a whiteboard, corkboard, or large wall-mounted flip chart.",
-        "Draw a grid listing your mutually exclusive Alternatives across the top horizontal columns.",
-        "Write your Fundamental Objectives down the left vertical axis in consistent qualitative units.",
-        "Fill each intersecting cell with concise, evidence-based descriptive impacts rather than vague scores."
+        "1. Draw a large grid on your whiteboard or big paper.",
+        "2. Put your options across the top row of your chart.",
+        "3. Write your key goals down the left column.",
+        "4. Fill each box with simple notes about what will happen."
       ],
       "sourceChapter": "Chapter 5: Consequences"
     },
     {
       "id": "smart-choices-act-6",
-      "title": "The Anti-Default Friction Architecture",
-      "description": "Our evolutionary psychology defaults to path-of-least-resistance options (status quo bias). Build physical boundaries that demand explicit, conscious intent before critical actions can be executed.",
+      "title": "Block the Easy Path",
+      "description": "People usually pick the easiest option without thinking about it first. Put simple speed bumps in place so you pause before choosing.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Identify three recurring scenarios where you automatically choose the default or lazy fallback.",
-        "Add an intentional speed bump (such as an envelope-sealed checklist or a 24-hour waiting prompt).",
-        "Place blank PrOACT flashcards beside your keyboard to intercept reflexive, rushed agreements.",
-        "Tape an explicit 'Status Quo Breaker' sticky note on your workstation monitor: 'If I were not already doing this, would I start it today?'"
+        "1. Spot three choices you make on lazy autopilot each week.",
+        "2. Add a pause rule, like waiting one full day before agreeing.",
+        "3. Keep a blank notepad on your desk to catch rushed moves.",
+        "4. Stick a reminder note on your screen asking: Would I restart this today?"
       ],
       "sourceChapter": "Chapter 10: Psychological Traps"
     },
     {
       "id": "smart-choices-act-7",
-      "title": "The Sunk Cost Balance Sheet Audit",
-      "description": "Human brains fall prey to the sunk-cost trap by confusing historic investments with future upside. Systematically audit your lingering projects to prune zombie commitments.",
+      "title": "Drop Dead Projects",
+      "description": "Do not waste tomorrow just because you spent time on it yesterday. Review stalled projects and let go of lost time and money.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Compile an inventory of open projects, subscriptions, or habits that consume your energy but feel stagnant.",
-        "Calculate the total time, capital, and emotional effort you have poured into each item to date.",
-        "Mentally zero out those past outlays\u2014acknowledge they are gone forever and cannot be recovered.",
-        "Ask: 'Looking solely at tomorrow's incremental costs versus gains, would I invest fresh cash or time into this right now?'"
+        "1. List stuck projects that eat up your time and energy.",
+        "2. Note how much time and money you already spent on them.",
+        "3. Accept that past investments are gone and cannot come back.",
+        "4. Ask yourself if you would start this project fresh today."
       ],
       "sourceChapter": "Chapter 10: Psychological Traps"
     },
     {
       "id": "smart-choices-act-8",
-      "title": "Quarterly Linked-Decision Ecosystem Review",
-      "description": "Decisions are never isolated islands; they form branching causal networks. Inspect upcoming choices to see which near-term moves preserve optionality for tomorrow's horizons.",
+      "title": "Map Your Next Moves",
+      "description": "Today's choices always shape what you can or cannot do tomorrow. Check your options so you do not lock yourself in too soon.",
       "category": "audit",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "Sketch out major commitments looming on your personal or professional horizon over the next 6 to 12 months.",
-        "Trace lines backwards to identify which immediate fork in the road locks in or shuts down future branches.",
-        "Tag each option as either an 'Information-Gathering Move' or an 'Irreversible Direction'.",
-        "Select the immediate alternative that purchases maximum high-value learning without premature lock-in."
+        "1. Write down your big plans for the next six months.",
+        "2. Check which today-choice locks you into one single path.",
+        "3. Mark each option as either an easy test or permanent step.",
+        "4. Pick the move that teaches you the most right now."
       ],
       "sourceChapter": "Chapter 9: Linked Decisions"
     },
     {
       "id": "smart-choices-act-9",
-      "title": "The 'Even Swaps' Trade-off Engine",
-      "description": "Comparing apples to oranges paralyzes judgment. The Even Swap method systematically adjusts one objective's value to balance another, allowing you to neutralize and eliminate competing criteria mathematically.",
+      "title": "Trade-Off Swap Trick",
+      "description": "Comparing totally different options can leave you feeling stuck and confused. Balance gains against losses until one choice clearly beats the rest.",
       "category": "system",
       "timeEstimateMinutes": 35,
       "stepByStep": [
-        "Take your visual Consequences Table and scan across rows to identify dominated alternatives.",
-        "Cross out any option that is clearly inferior to another across every single objective.",
-        "For remaining choices, determine what boost in Objective A would fully compensate for a drop in Objective B.",
-        "Modify the table values evenly until an entire objective column becomes identical across options, then cross it off."
+        "1. Look at your choice chart and find any weak options.",
+        "2. Cross off any option that loses on every single goal.",
+        "3. Decide how much of one perk equals losing another perk.",
+        "4. Adjust your chart until matching goals cancel out completely."
       ],
       "sourceChapter": "Chapter 6: Trade-Offs"
     },
     {
       "id": "smart-choices-act-10",
-      "title": "Uncertainty Tree & Risk-Tolerance Calibration",
-      "description": "Human intuition notoriously botches probability and fears ambiguity. Construct a formal decision tree with explicit risk profiles to tame chaotic outcomes into measurable pathways.",
+      "title": "Map Your Big Risks",
+      "description": "Gut feelings often make rare bad events feel much scarier than they are. Draw a simple risk map to see real odds before you jump.",
       "category": "system",
       "timeEstimateMinutes": 40,
       "stepByStep": [
-        "Draw a branching decision node (a square) representing your immediate action alternatives.",
-        "Sprout chance nodes (circles) showing the realistic events that could unfold outside your direct control.",
-        "Assign realistic percentage chances to each branch, ensuring all mutually exclusive probabilities sum to 100%.",
-        "Assess the worst-case consequence of each branch against your genuine financial and psychological pain threshold."
+        "1. Draw boxes for each choice you can make today.",
+        "2. Add lines for outside events you cannot fully control.",
+        "3. Guess honest percentage chances for each possible event path.",
+        "4. Check if you can truly survive the worst possible outcome."
       ],
       "sourceChapter": "Chapter 7: Uncertainty"
     },
     {
       "id": "smart-choices-act-11",
-      "title": "The Fresh-Alternative Generation Lab",
-      "description": "Most dilemmas are artificially constrained to binary 'either/or' traps. Run an expansive creative divergence session to craft bespoke alternatives that bypass zero-sum thinking.",
+      "title": "Create Better Options",
+      "description": "Do not get trapped choosing between only two bad paths. Take time to brainstorm brand-new ways around your current problem.",
       "category": "system",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "State your current dilemma and impose a temporary artificial constraint: 'Neither of the existing options is permitted.'",
-        "Brainstorm at least four unorthodox paths: an extreme low-cost probe, an all-in play, a hybrid blend, and an outsourced delegation.",
-        "Consult an outside peer who has zero stake in the outcome to contribute two candidate paths you haven't considered.",
-        "Package the best raw ideas into three distinct, actionable candidate proposals ready for evaluation."
+        "1. Tell yourself that both of your current options are banned.",
+        "2. Brainstorm four new paths, including cheap tests and combined ideas.",
+        "3. Ask an outside friend for two fresh ideas you missed.",
+        "4. Pick the top three ideas to test and score next."
       ],
       "sourceChapter": "Chapter 4: Alternatives"
     },
     {
       "id": "smart-choices-act-12",
-      "title": "Pre-Mortem Traps & Devil's Advocate Firewall",
-      "description": "Anchoring, confirming evidence, and overconfidence quietly hijack our brains right before execution. Run an adversarial stress-test protocol to identify systemic failure modes before launching your choice.",
+      "title": "Spot Flaws Before Launch",
+      "description": "Overconfidence often hides danger until it is too late to fix. Pretend your plan failed so you can patch holes right now.",
       "category": "system",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Assume the decision you are about to finalize failed catastrophically six months into the future.",
-        "Write a realistic post-mortem narrative describing the exact chain of blind spots, biases, and overlooked risks that wrecked it.",
-        "Search deliberately for two disconfirming data points or critical viewpoints that contradict your favorite option.",
-        "Install a proactive safeguard, trigger metric, or exit threshold directly into your implementation plan."
+        "1. Pretend your plan totally failed six months from now.",
+        "2. Write down three exact reasons why that failure happened.",
+        "3. Find two facts that disagree with your favorite plan.",
+        "4. Add one backup safety rule to your final plan today."
       ],
       "sourceChapter": "Chapter 10: Psychological Traps"
     }
@@ -889,10 +889,10 @@ export const SMART_CHOICES_BOOK: Book = {
       "author": "John S. Hammond, Ralph L. Keeney, Howard Raiffa",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The PrOACT Framework",
-      "body": "Complex decisions paralyze us when treated as monolithic burdens.\nThe PrOACT architecture deconstructs every high-stakes choice into five fundamental mechanical gears: Problem, Objectives, Alternatives, Consequences, and Trade-offs.\nDisassembling the machine lets you inspect each part in crisp isolation.",
+      "headline": "The PrOACT Steps",
+      "body": "Big decisions feel scary when you view them as one giant lump.\nThe PrOACT method breaks any hard choice into five basic parts.\nYou examine the problem, goals, choices, results, and trade-offs one by one.",
       "quote": "A good decision doesn't guarantee a good outcome, just as a bad decision doesn't guarantee a bad outcome. But a disciplined approach systematically tilts the odds in your favor.",
-      "actionItem": "Deconstruct your current dilemma into five separate columns: Problem, Objectives, Alternatives, Consequences, and Trade-offs before taking action.",
+      "actionItem": "Write your decision across five columns: Problem, Goals, Choices, Results, and Trade-offs.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -910,10 +910,10 @@ export const SMART_CHOICES_BOOK: Book = {
       "author": "John S. Hammond, Ralph L. Keeney, Howard Raiffa",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Means vs. Fundamental Objectives",
-      "body": "We routinely mistake the bridge for the destination.\nA means objective is merely a stepping stone, while a fundamental objective defines what truly matters.\nAsking 'Why do I want this?' strips away operational trivia until you uncover the irreducible core human value.",
+      "headline": "Means Versus Core Goals",
+      "body": "People often confuse the path with the real finish line.\nA means goal is just a step to get something else.\nA core goal tells you what truly matters to your life.",
       "quote": "Fundamental objectives are the essence of your decision problem; they represent the things that really matter to you.",
-      "actionItem": "Apply the 'Why is that important?' test five consecutive times to your primary goal to isolate the fundamental objective from the means.",
+      "actionItem": "Ask yourself why you want this goal five times in a row.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -931,10 +931,10 @@ export const SMART_CHOICES_BOOK: Book = {
       "author": "John S. Hammond, Ralph L. Keeney, Howard Raiffa",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "The Even Swap Method",
-      "body": "When comparing multi-attribute options, cognitive overload stalls judgment.\nThe Even Swap method forces you to adjust the value of one alternative along a specific objective while making a compensatory adjustment on another, systematically neutralizing dimensions until one option cleanly dominates.",
+      "headline": "The Even Swap",
+      "body": "Comparing complex options can easily freeze your thinking.\nThe even swap method works like trading cards between two choices.\nYou balance out strengths until one clear winner stands in front.",
       "quote": "The even swap method is a form of barter: it forces you to state the value of a trade-off in terms of a specific quantity of an objective.",
-      "actionItem": "Take two top candidates and cancel out conflicting strengths by adjusting scores until one option clearly dominates across all remaining categories.",
+      "actionItem": "Compare two options by trading off one plus for one minus.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -952,10 +952,10 @@ export const SMART_CHOICES_BOOK: Book = {
       "author": "John S. Hammond, Ralph L. Keeney, Howard Raiffa",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Decision Framing Trap",
-      "body": "The way a question is windowed predetermines the answers that can exist.\nAccepting default frames handed down by bosses, peers, or panic confines your vision to narrow corridors.\nRe-architecting the frame expands the perimeter of reality, turning zero-sum fights into creative abundance.",
+      "headline": "The Framing Trap",
+      "body": "How you ask a question limits the answers you can see.\nIf you accept someone else's narrow view, you miss great ideas.\nChanging how you frame the problem unlocks brand new paths.",
       "quote": "The way you state your problem frames your decision. It determines the alternatives you consider and the way you evaluate them.",
-      "actionItem": "Write down your core problem in three radically different ways: from the perspective of an auditor, a competitor, and an artist.",
+      "actionItem": "Rewrite your central problem statement in three totally fresh ways today.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -973,10 +973,10 @@ export const SMART_CHOICES_BOOK: Book = {
       "author": "John S. Hammond, Ralph L. Keeney, Howard Raiffa",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Dominance Filtering",
-      "body": "Before agonizing over nuanced trade-offs, run a clean dominance sweep across your option pool.\nIf Alternative A is equal to or better than Alternative B across every single objective, Alternative B is strictly dominated and must be ruthlessly discarded to protect cognitive bandwidth.",
+      "headline": "Cut Inferior Options",
+      "body": "Do not waste time agonizing over bad options.\nIf option A beats option B in every single category, drop B.\nRemoving losing choices keeps your mind fresh for the real fight.",
       "quote": "Before you begin agonizing over difficult trade-offs, look for alternatives that are clearly inferior to others and eliminate them.",
-      "actionItem": "Build a consequence matrix and draw a red line through any option outperformed on every criterion by at least one competing alternative.",
+      "actionItem": "Cross out any option that loses to a competitor on every point.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -994,10 +994,10 @@ export const SMART_CHOICES_BOOK: Book = {
       "author": "John S. Hammond, Ralph L. Keeney, Howard Raiffa",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Objective-Driven Ideation",
-      "body": "Most people brainstorm alternatives first and rationalize their criteria later.\nFlip the causal chain: inventory your fundamental objectives first, then deliberately engineer bespoke alternatives tailored specifically to maximize those exact parameters.",
+      "headline": "Goal-Driven Ideas",
+      "body": "Most people list choices first and figure out their goals later.\nFlip this habit by listing your real goals before brainstorming.\nThen invent fresh choices designed directly to hit those exact marks.",
       "quote": "Your alternatives can be no better than the best of the options you have identified.",
-      "actionItem": "Look at each fundamental objective individually and brainstorm two non-traditional actions specifically designed to max out that single criterion.",
+      "actionItem": "Pick your top goal and invent two fresh paths to achieve it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1015,10 +1015,10 @@ export const SMART_CHOICES_BOOK: Book = {
       "author": "John S. Hammond, Ralph L. Keeney, Howard Raiffa",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Sunk-Cost Anchor",
-      "body": "The human brain abhors acknowledging waste, driving us to throw good time and capital after bad.\nSunk costs are irreversible historical anomalies; they belong strictly in past balance sheets.\nReal decision engineering looks forward only, evaluating choices solely on future differential returns.",
+      "headline": "The Sunk Cost Trap",
+      "body": "Nobody likes wasting time or money that was already spent.\nBut past spending is gone forever and cannot be brought back.\nGood choices look only at what happens from today onward.",
       "quote": "Your past decisions are history. They are irreversible. Only the future can be affected by your choices.",
-      "actionItem": "Review your stagnating projects: if you inherited this scenario today with zero historical skin in the game, would you invest today's dollar into it?",
+      "actionItem": "Ask if you would start this struggling project today from scratch.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1036,10 +1036,10 @@ export const SMART_CHOICES_BOOK: Book = {
       "author": "John S. Hammond, Ralph L. Keeney, Howard Raiffa",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Consequence Description Precision",
-      "body": "Vague qualitative adjectives like 'good culture' or 'reasonable cost' obscure fatal trade-offs.\nTransforming qualitative intuitions into clear scales, measurable ranges, or narrative micro-scenarios exposes false safety and brings hidden hazards into razor-sharp contrast.",
+      "headline": "Clear Outcome Descriptions",
+      "body": "Vague words like good or cheap hide serious risks from view.\nUse clear numbers, ranges, or exact stories to describe each result.\nClear descriptions make tough trade-offs easy to see and judge.",
       "quote": "Be accurate, not necessarily precise. It is better to be roughly right than precisely wrong.",
-      "actionItem": "Replace every vague adjective in your decision matrix with a specific operational range or observable threshold metric.",
+      "actionItem": "Replace fuzzy words in your notes with real numbers and clear facts.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1057,10 +1057,10 @@ export const SMART_CHOICES_BOOK: Book = {
       "author": "John S. Hammond, Ralph L. Keeney, Howard Raiffa",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Power of Clear Alternatives",
-      "body": "You cannot select a path you have not mapped.\nA brilliant decision-maker working with mediocre options will consistently yield inferior results compared to an average thinker who created an exceptional menu of possibilities.",
+      "headline": "Create Better Options",
+      "body": "You cannot pick an option that you never thought of first.\nA great thinker picking between poor choices will always lose.\nBetter decisions start with building a richer list of possibilities.",
       "quote": "You can never choose an alternative you haven't considered, and a decision can be no better than the best alternative.",
-      "actionItem": "Never make a significant commitment when holding only one or two options; force yourself to discover or synthesize a third distinct avenue.",
+      "actionItem": "Never settle for two choices; always push yourself to find a third.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1078,10 +1078,10 @@ export const SMART_CHOICES_BOOK: Book = {
       "author": "John S. Hammond, Ralph L. Keeney, Howard Raiffa",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Decision Trees Under Uncertainty",
-      "body": "Uncertainty is not an impenetrable fog; it is a branching probabilistic tree.\nDeconstruct the unknown into decision nodes (what you control) and chance nodes (what nature decides), assigning subjective probabilities to expose expected utility and the true price of hedging.",
+      "headline": "Decision Trees",
+      "body": "The unknown does not have to feel like thick fog.\nA decision tree maps out what might happen along every road.\nIt clearly splits what you control from what luck decides.",
       "quote": "A decision tree allows you to dissect a complex decision problem into manageable, chronological components.",
-      "actionItem": "Sketch a quick branch diagram for your pending gamble, separating choices you command from coin flips governed by market reality.",
+      "actionItem": "Draw a simple tree separating your actions from unpredictable outside events.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1099,10 +1099,10 @@ export const SMART_CHOICES_BOOK: Book = {
       "author": "John S. Hammond, Ralph L. Keeney, Howard Raiffa",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Risk Profile Quantification",
-      "body": "Risk is not a single ominous monolith; it is an intricate distribution curve.\nA true risk profile reveals not just the catastrophic downside, but the full spread of possible outcomes, their respective probabilities, and the shape of variance across the timeline.",
+      "headline": "Mapping Real Risk",
+      "body": "Risk is not just one bad thing that might happen.\nA real risk profile shows all the possible outcomes together.\nSeeing the full picture helps you prepare for every twist.",
       "quote": "Creating a risk profile gives you a complete picture of the uncertainties associated with an alternative.",
-      "actionItem": "List the best, worst, and most probable outcome for your top alternative, assigning estimated odds to each scenario.",
+      "actionItem": "Write down the best, worst, and most likely outcome for your plan.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1120,10 +1120,10 @@ export const SMART_CHOICES_BOOK: Book = {
       "author": "John S. Hammond, Ralph L. Keeney, Howard Raiffa",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "The Information Buying Test",
-      "body": "Before spending time or money gathering extra data, calculate whether the new information has the mechanical leverage to change your ultimate choice.\nIf your course of action remains identical under both positive and negative findings, the intelligence gathering is pure vanity.",
+      "headline": "The Information Test",
+      "body": "Extra data is only useful if it can change your mind.\nIf you will do the same thing either way, stop collecting.\nGathering useless data wastes both your time and your cash.",
       "quote": "Information is useful only if it has the potential to affect your decision.",
-      "actionItem": "Ask yourself: 'If this market survey comes back negative, will I genuinely abandon this path?' If the answer is no, stop buying the data.",
+      "actionItem": "Ask if bad test results would truly stop your current project.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1141,10 +1141,10 @@ export const SMART_CHOICES_BOOK: Book = {
       "author": "John S. Hammond, Ralph L. Keeney, Howard Raiffa",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Linked Decisions and Optionality",
-      "body": "Life rarely presents isolated crossroads; it presents branching dynamic sequences.\nAn enlightened first move is not necessarily the one with the immediate prize, but the one that preserves maximum downstream optionality while collecting diagnostic feedback.",
+      "headline": "Connected Decisions",
+      "body": "Life rarely presents one isolated choice at a time.\nThe choice you make today opens or closes tomorrow's doors.\nPick paths that keep your future options wide and flexible.",
       "quote": "What you decide today determines what choices will be open to you tomorrow.",
-      "actionItem": "Select the alternative that buys the greatest future flexibility rather than locking your resources into a rigid, irreversible trajectory.",
+      "actionItem": "Choose the option that leaves the most doors open for tomorrow.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1162,10 +1162,10 @@ export const SMART_CHOICES_BOOK: Book = {
       "author": "John S. Hammond, Ralph L. Keeney, Howard Raiffa",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Status Quo Bias Trap",
-      "body": "The human nervous system interprets staying put as safe and movement as hazardous.\nIn truth, the status quo is an active, aggressive choice with its own steep opportunity costs, compounding hidden decay, and accumulating vulnerabilities.",
+      "headline": "The Default Trap",
+      "body": "Staying where you are often feels like the safest move.\nBut doing nothing is still a choice with its own price.\nThe world moves fast, and staying still can slowly harm you.",
       "quote": "The status quo has an enormous magnetic pull. Remaining where you are seems safe, but it often carries immense unseen hazards.",
-      "actionItem": "Treat your current baseline as a completely new candidate proposal that must compete on equal terms for funding and attention.",
+      "actionItem": "Judge your current setup as if it were a brand new proposal.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1183,10 +1183,10 @@ export const SMART_CHOICES_BOOK: Book = {
       "author": "John S. Hammond, Ralph L. Keeney, Howard Raiffa",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Confirming Evidence Antidote",
-      "body": "Our minds act as lawyers rather than judges, instinctively gathering facts to defend our subconscious favorites.\nNeutralize this bias by appointing a ruthless devil's advocate, or force yourself to build an ironclad courtroom indictment against your pet choice.",
+      "headline": "Spot Your Own Bias",
+      "body": "Our minds love collecting facts that prove our favorite ideas right.\nThis habit blinds us to real risks and costly mistakes.\nFight back by looking hard for reasons your plan might fail.",
       "quote": "We tend to seek out information that supports our existing point of view and avoid information that contradicts it.",
-      "actionItem": "Spend twenty minutes writing the strongest possible intellectual case explaining why your favorite alternative is a catastrophic trap.",
+      "actionItem": "Write down three solid reasons why your favorite idea could totally fail.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1204,10 +1204,10 @@ export const SMART_CHOICES_BOOK: Book = {
       "author": "John S. Hammond, Ralph L. Keeney, Howard Raiffa",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Mechanics of Uncertainty",
-      "body": "You cannot eliminate the stochastic dance of the universe; you can only navigate it with clear eyes.\nMature decision-makers make peace with uncertainty by structuring probability rather than praying for certainty.",
+      "headline": "Facing the Unknown",
+      "body": "You cannot make all uncertainty go away from your life.\nBut you can handle surprises by preparing for them calmly.\nSmart planners study risks instead of wishing them away.",
       "quote": "You cannot manage uncertainty by pretending it doesn't exist; you manage it by analyzing it systematically.",
-      "actionItem": "Identify the primary source of volatility in your plan and build a concrete contingency protocol for that specific trigger.",
+      "actionItem": "Pick the biggest risk in your plan and build a backup step.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1225,10 +1225,10 @@ export const SMART_CHOICES_BOOK: Book = {
       "author": "John S. Hammond, Ralph L. Keeney, Howard Raiffa",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Anchoring Calibration",
-      "body": "Initial numbers, estimates, or impressions act as psychological gravity wells, skewing all subsequent evaluations toward that arbitrary datum.\nDeliberately clear the board by seeking estimates from completely isolated third parties who have never seen the anchor.",
+      "headline": "The Starting Number Trap",
+      "body": "The first number you hear sticks tightly inside your brain.\nIt pulls all later estimates toward that initial guess by mistake.\nBreak this hold by getting fresh estimates from independent people.",
       "quote": "The mind gives disproportionate weight to the first information it receives.",
-      "actionItem": "Ask an external colleague to estimate project completion costs from scratch without sharing your initial projections or timeline expectations.",
+      "actionItem": "Ask an outside friend to estimate project costs without sharing your numbers.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1246,10 +1246,10 @@ export const SMART_CHOICES_BOOK: Book = {
       "author": "John S. Hammond, Ralph L. Keeney, Howard Raiffa",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Recallability Distortion",
-      "body": "Events that carry dramatic emotional baggage, intense media coverage, or recent personal trauma are weighted far higher in our mental probability engines than quiet, systemic risks.\nStatistical base rates must always override narrative vividness.",
+      "headline": "Dramatic Memory Bias",
+      "body": "Scary stories and shocking news stick in memory very easily.\nThis makes rare disasters feel much more common than they are.\nAlways trust quiet historical facts over loud, scary headlines.",
       "quote": "We are prone to overestimate the probability of events that are easy to recall because of dramatic personal impact.",
-      "actionItem": "Check industry historical base rates before letting a vivid headline or catastrophic anecdote influence your risk posture.",
+      "actionItem": "Check real past data before reacting to a scary news story.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1267,10 +1267,10 @@ export const SMART_CHOICES_BOOK: Book = {
       "author": "John S. Hammond, Ralph L. Keeney, Howard Raiffa",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Trade-Off Balancing Matrix",
-      "body": "When values collide, intuitive gut feelings produce erratic outcomes.\nConstruct an explicit trade-off matrix listing objectives down the left and alternatives across the top, forcing every compromise into bright daylight where it can be directly scrutinized.",
+      "headline": "The Trade-Off Grid",
+      "body": "Gut feelings often get messy when several good things clash.\nPut your choices and goals side by side in a grid.\nThis layout makes every tough trade-off completely obvious to see.",
       "quote": "Trade-offs are among the most difficult elements of decision making. The more objectives you have, the more trade-offs you have to make.",
-      "actionItem": "Draft a single grid displaying your top three choices against your top four objectives to pinpoint where the real compromise lies.",
+      "actionItem": "Draw a grid comparing your choices against your top four goals.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1288,10 +1288,10 @@ export const SMART_CHOICES_BOOK: Book = {
       "author": "John S. Hammond, Ralph L. Keeney, Howard Raiffa",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Essence of Systematic Agency",
-      "body": "The quality of your life is the cumulative arithmetic of the decisions you make under radical uncertainty.\nBy mastering the engineering of choice, you claim active command over your trajectory rather than drifting along external currents.",
+      "headline": "Owning Your Path",
+      "body": "Your life is shaped by the decisions you make every day.\nYou cannot control luck, but you can control your method.\nA steady process puts you in charge of your own journey.",
       "quote": "Smart choices lead to smart outcomes. While luck always plays a role, a methodical process is the only lever you control.",
-      "actionItem": "Establish a consistent, written decision checklist for every major capital, strategic, or career commitment you evaluate this year.",
+      "actionItem": "Use a clear checklist whenever you face a big life choice.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1305,116 +1305,116 @@ export const SMART_CHOICES_BOOK: Book = {
   ],
   "mindMap": {
     "id": "smart-choices-root",
-    "label": "Smart Choices: PrOACT Decision Architecture",
-    "description": "A systematic, scientifically grounded framework designed by decision scientists to dismantle overwhelming complexity and cognitive distortion into modular, manageable components.\nBy externalizing intuitive hunches into transparent structural steps, it transforms agonizing life and business choices into clear, rational discoveries.",
+    "label": "Making Smart Choices",
+    "description": "A clear, simple system to help you make tough life choices.\nIt breaks big decisions down into easy steps so you never feel stuck.",
     "children": [
       {
         "id": "proact-core-engine",
-        "label": "The Core PrOACT Elements",
-        "description": "The foundational five-element engine that drives high-stakes, rational decision engineering.\nThese linked phases dismantle messy situations into distinct, measurable cognitive variables.",
+        "label": "Five Core Steps",
+        "description": "The five essential building blocks for making any smart choice.\nThey turn messy dilemmas into clear, orderly action steps.",
         "children": [
           {
             "id": "problem-formulation",
-            "label": "Problem Definition & Framing",
-            "description": "How a dilemma is initially framed covertly dictates every subsequent conclusion and emotional response.\nRedefining your underlying challenge punctures default assumptions and reveals vastly better hidden pathways.",
+            "label": "Define the Problem",
+            "description": "The way you state a problem shapes your entire answer.\nFinding the real issue opens up better options right away.",
             "children": [
               {
                 "id": "trigger-interrogation",
-                "label": "Deconstructing the Trigger Event",
-                "description": "Investigate what sparked the urgent need to make a choice, differentiating genuine underlying needs from superficial catalytic flare-ups.\nA sudden emergency often disguises a recurring systemic failure that requires an entirely different structural resolution."
+                "label": "Find the Trigger",
+                "description": "Ask yourself why you must choose right now.\nA sudden emergency often hides a deeper root problem."
               },
               {
                 "id": "assumption-testing",
-                "label": "Challenging Perceived Constraints",
-                "description": "Identify invisible psychological boundaries, false dichotomies, and unexamined rules you have accidentally inherited.\nLiberating yourself from bogus limits immediately expands your problem perimeter and unveils unconsidered solutions."
+                "label": "Test Your Limits",
+                "description": "Notice imaginary boundaries you placed on yourself.\nDropping fake rules reveals brand-new ways forward."
               },
               {
                 "id": "framing-experiments",
-                "label": "Reframing via Counterfactual Perspectives",
-                "description": "Intentionally recast your central problem through distinct psychological lenses, such as zooming out from a defensive preservation posture into an opportunistic offensive posture.\nEach novel frame acts as a prism, bending cognitive light to illuminate unseen avenues."
+                "label": "Change Your Angle",
+                "description": "Look at your challenge from different viewpoints.\nSeeing a problem as an opportunity uncovers fresh answers."
               }
             ]
           },
           {
             "id": "objectives-architecture",
-            "label": "Objectives as Directional Guides",
-            "description": "Objectives serve as navigational compasses and diagnostic yardsticks that articulate what truly matters to you in a choice.\nClarifying your genuine long-term motivations guards against getting seduced by attractive but irrelevant distractions.",
+            "label": "Clarify Your Goals",
+            "description": "Figure out what you really care about before choosing.\nKnowing your goals keeps you focused on what matters most.",
             "children": [
               {
                 "id": "wishlist-brainstorming",
-                "label": "Uncensored Hopes & Fears Inventory",
-                "description": "Catalogue every latent hope, anxiety, constraint, and value without immediate analytical judgment or self-censorship.\nUnfiltered extraction unearths raw behavioral values before analytical sorting begins."
+                "label": "List Your Hopes",
+                "description": "Write down every single hope and worry without editing.\nThis gets all your true thoughts out in the open."
               },
               {
                 "id": "means-vs-fundamental",
-                "label": "Separating Means from Fundamental Ends",
-                "description": "Repeatedly apply the 'Why is that important?' interrogation to distinguish instrumental stepping stones from ultimate core values.\nMeans objectives are mere delivery mechanisms, whereas fundamental objectives represent the actual destination."
+                "label": "Separate Core Needs",
+                "description": "Keep asking why something is important to you.\nDistinguish stepping stones from your final destination."
               },
               {
                 "id": "measurable-criteria",
-                "label": "Operationalizing Core Values",
-                "description": "Translate abstract, fluffy ambitions into concrete, trackable scales and diagnostic indicators.\nIf you cannot describe how you will evaluate an objective in reality, it remains an ambiguous wish rather than an operational standard."
+                "label": "Make Goals Measurable",
+                "description": "Turn vague wishes into concrete, checkable points.\nThis helps you test whether an option truly delivers."
               }
             ]
           },
           {
             "id": "alternatives-generation",
-            "label": "Inventive Alternative Generation",
-            "description": "Alternatives represent your real behavioral levers; your final decision can never be superior to the best alternative under consideration.\nActive synthesis of creative possibilities breaks the paralyzing trap of binary yes-or-no traps.",
+            "label": "Create Great Options",
+            "description": "Your choice is only as good as your best option.\nBrainstorming new paths keeps you from simple yes-or-no traps.",
             "children": [
               {
                 "id": "status-quo-inversion",
-                "label": "Overcoming Status Quo Inertia",
-                "description": "Deliberately disable your default tendency to repeat past routines by simulating the immediate destruction of your current state.\nForcing a greenfield rebuild exposes lazy legacy choices masquerading as comfortable options."
+                "label": "Break Daily Routine",
+                "description": "Pretend doing nothing is completely off the table.\nStarting from scratch reveals lazy habits disguised as choices."
               },
               {
                 "id": "combinatorial-brainstorming",
-                "label": "Hybrid Alternative Synthesis",
-                "description": "Splice together conflicting elements from competing proposals to construct superior win-win hybrid solutions.\nCross-pollinating distinct strategies often neutralizes the weaknesses present when each idea stands alone."
+                "label": "Mix and Match",
+                "description": "Combine the best parts of competing ideas together.\nA hybrid approach often fixes individual flaws."
               },
               {
                 "id": "third-party-benchmarking",
-                "label": "Outsider Perspective Harvesting",
-                "description": "Ask what an unencumbered outsider, a respected competitor, or a future successor would boldly execute in your exact shoes.\nStripping away personal sunk costs and social embarrassment uncovers bold, high-leverage alternatives."
+                "label": "Ask an Outsider",
+                "description": "Imagine what a bold outsider would do in your place.\nThis removes personal fear and sparks bold ideas."
               }
             ]
           },
           {
             "id": "consequences-mapping",
-            "label": "Objective Consequences Mapping",
-            "description": "Forecasting the tangible downstream impacts of each potential alternative measured against every established objective.\nVisualizing these multi-dimensional outcomes eliminates blind spots and grounds decisions in empirical reality.",
+            "label": "Map Out Results",
+            "description": "Predict what each choice actually brings you.\nSeeing future outcomes clearly prevents nasty surprises.",
             "children": [
               {
                 "id": "consequences-matrix",
-                "label": "The Decision Table Matrix",
-                "description": "Construct a two-dimensional grid plotting each competing alternative directly against all fundamental objectives.\nThis structural canvas externalizes mental clutter, allowing side-by-side performance pattern recognition."
+                "label": "Build a Table",
+                "description": "Put options and goals side by side in a simple chart.\nThis makes comparing outcomes effortless and transparent."
               },
               {
                 "id": "descriptive-scales",
-                "label": "Constructed Scales for Intangibles",
-                "description": "Design custom calibrated scoring scales to grade elusive qualities like company culture, creative fulfillment, or personal stress levels.\nStandardizing subjective feelings into disciplined categories allows rigorous comparison without losing subtle nuances."
+                "label": "Score Fuzzy Feelings",
+                "description": "Rate hard-to-measure things like stress or happiness.\nSimple scales make personal feelings easy to compare."
               },
               {
                 "id": "dominance-elimination",
-                "label": "Dominance Analysis & Option Culling",
-                "description": "Identify and ruthlessly discard alternatives that are equal or inferior to a competing alternative across every measured objective.\nWeeding out strictly dominated candidates slashes cognitive load before granular trade-offs begin."
+                "label": "Cut Weak Options",
+                "description": "Instantly drop any option that is clearly worse than another.\nPruning weak picks clears away mental clutter fast."
               }
             ]
           },
           {
             "id": "tradeoffs-engine",
-            "label": "Trade-offs & Value Balancing",
-            "description": "Because ideal, costless alternatives almost never exist, mastering trade-offs is the ultimate hallmark of mature judgment.\nSystematically pricing what you sacrifice for what you gain resolves competing priorities with surgical precision.",
+            "label": "Make Fair Trade-offs",
+            "description": "No choice is ever perfect.\nDecide clearly what you will give up to get what you want.",
             "children": [
               {
                 "id": "even-swap-method",
-                "label": "The Even-Swap Technique",
-                "description": "Adjust the consequence of one alternative on an objective while making an equivalent compensatory modification on another objective.\nThis bartering process neutralizes an objective across candidates, cleanly eliminating it from further calculation."
+                "label": "Use Even Swaps",
+                "description": "Balance gains in one area with losses in another.\nEqualizing differences lets you cross out shared factors easily."
               },
               {
                 "id": "marginal-value-analysis",
-                "label": "Marginal Utility & Value Exchange",
-                "description": "Examine the incremental gain of a choice rather than its gross total benefit, pinpointing where diminishing returns set in.\nThis microscopic focus reveals whether a marginal improvement in one area genuinely justifies a steep sacrifice elsewhere."
+                "label": "Weigh Extra Value",
+                "description": "Look at the small added gain of an option.\nCheck if that tiny bonus is worth a steep price."
               }
             ]
           }
@@ -1422,74 +1422,74 @@ export const SMART_CHOICES_BOOK: Book = {
       },
       {
         "id": "uncertainty-and-risk",
-        "label": "Navigating Uncertainty, Risk & Tolerance",
-        "description": "The advanced PrOACT elements designed to calculate the fluid mechanics of real-world volatility and psychological exposure.\nThis phase equips decision-makers to separate sound analytical processes from unpredictable random outcomes.",
+        "label": "Handling Uncertainty",
+        "description": "Tools to manage the unknown and make peace with risk.\nThey help you plan smartly when you cannot predict the future.",
         "children": [
           {
             "id": "uncertainty-structuring",
-            "label": "Characterizing Environmental Uncertainty",
-            "description": "Deconstruct fuzzy ambiguous futures into distinct, identifiable scenarios with assigned subjective likelihoods.\nTransforming formless anxiety into explicit probabilistic branches allows systematic tactical planning.",
+            "label": "Name the Unknowns",
+            "description": "Turn fuzzy worries into clear possibilities.\nAssigning realistic odds turns vague fear into a working plan.",
             "children": [
               {
                 "id": "key-uncertainties-isolation",
-                "label": "Isolating Pivotal External Variables",
-                "description": "Identify the rare critical unknowns whose eventual resolution will genuinely dictate your ultimate success or failure.\nFocusing analytical energy strictly on pivotal uncertainties prevents cognitive exhaustion over trivial random fluctuations."
+                "label": "Spot Big Unknowns",
+                "description": "Pick the few surprises that can truly make or break you.\nIgnore tiny distractions and focus on major hurdles."
               },
               {
                 "id": "probability-estimation",
-                "label": "Calibrated Probability Assessment",
-                "description": "Quantify plausible outcomes into explicit probability brackets rather than relying on murky linguistic hedges like 'maybe' or 'unlikely.' Assigning numerical odds forces disciplined calibration and exposes unconscious biases."
+                "label": "Assign Clear Odds",
+                "description": "Use real numbers instead of vague words like maybe.\nPutting percentages on events sharpens your thinking."
               }
             ]
           },
           {
             "id": "decision-trees",
-            "label": "Decision Trees & Sequence Mapping",
-            "description": "Visual branching diagrams that alternate between deliberate choices and probabilistic chance events across an evolving chronological horizon.\nThis architecture maps out dynamic contingency chains long before the first move is committed.",
+            "label": "Draw Decision Trees",
+            "description": "Sketch visual maps connecting your moves to chance events.\nThis reveals future twists before you take a single step.",
             "children": [
               {
                 "id": "nodes-and-branches",
-                "label": "Decision vs. Chance Nodes",
-                "description": "Delineate square decision junctures under your direct authority from circular chance intersections dictated by outer reality.\nVisualizing this boundary prevents the futile impulse of attempting to manage the uncontrollable while neglecting real levers."
+                "label": "Separate Your Control",
+                "description": "Know what you control versus what luck decides.\nStop worrying about chance and focus on your actions."
               },
               {
                 "id": "rollback-analysis",
-                "label": "Backward Induction (Rollback Technique)",
-                "description": "Calculate expected values from the furthest future endpoints back toward the present root of the tree.\nResolving downstream scenarios backwards reveals the mathematically optimal immediate move to execute right now."
+                "label": "Work Backwards",
+                "description": "Start at future outcomes and calculate backwards to today.\nThis points directly to the smartest first step to take."
               }
             ]
           },
           {
             "id": "risk-tolerance-profiling",
-            "label": "Risk Tolerance & Utility Curves",
-            "description": "A scientific audit of how much financial, professional, or emotional volatility you can endure without behavioral panic.\nAligning your strategic actions with genuine utility curves prevents catastrophic overextension or paralyzing cowardice.",
+            "label": "Know Your Appetite",
+            "description": "Understand how much risk you can take without panicking.\nThis keeps you from making reckless bets or freezing in fear.",
             "children": [
               {
                 "id": "desirability-vs-probability",
-                "label": "Balancing Stakes Against Probabilities",
-                "description": "Examine how human emotion disproportionately fixates on worst-case scenarios irrespective of their mathematical rarity.\nRational risk evaluation demands weighting the severity of consequences directly by their genuine likelihood."
+                "label": "Balance Fear and Odds",
+                "description": "Do not let rare worst-case horror stories terrify you.\nAlways weigh the impact of an event by how likely it is."
               },
               {
                 "id": "risk-profile-curves",
-                "label": "Mapping Risk Profiles & Certainty Equivalents",
-                "description": "Determine your certainty equivalent\u2014the guaranteed payoff you would gladly accept in lieu of an uncertain gamble.\nDiscovering this inflection point unmasks your true personal risk posture and eliminates self-deception."
+                "label": "Find Your Comfort",
+                "description": "Decide what sure bet you would accept over a gamble.\nFinding this trade-off shows your real comfort zone."
               }
             ]
           },
           {
             "id": "linked-decisions",
-            "label": "Interconnected & Linked Decisions",
-            "description": "Recognizing that contemporary choices cast long shadows that constrain or unlock options in future decision nodes.\nManaging this ripple effect prevents early short-term victories from creating downstream strategic stalemates.",
+            "label": "Connect Future Steps",
+            "description": "Today's choices unlock or shut down tomorrow's moves.\nPlan ahead so one choice does not trap you later.",
             "children": [
               {
                 "id": "information-buying",
-                "label": "Purchasing Information Before Acting",
-                "description": "Delay irreversible execution whenever the cost of collecting preliminary diagnostic data is substantially lower than its predictive value.\nInvesting in cheap research transforms massive gambles into calculated, low-risk maneuvers."
+                "label": "Gather Quick Facts",
+                "description": "Pause to learn more before making irreversible moves.\nCheap research saves you from making giant mistakes."
               },
               {
                 "id": "flexible-positioning",
-                "label": "Preserving Strategic Optionality",
-                "description": "Prioritize paths that leave multiple favorable exit ramps open over high-return choices that irreversibly trap resources.\nPreserving downstream agility provides vital resilience when volatile environments deviate from initial forecasts."
+                "label": "Keep Options Open",
+                "description": "Pick paths that leave easy exit doors open.\nStaying flexible protects you when life changes suddenly."
               }
             ]
           }
@@ -1497,67 +1497,67 @@ export const SMART_CHOICES_BOOK: Book = {
       },
       {
         "id": "psychological-traps",
-        "label": "Psychological Traps & Cognitive Defense",
-        "description": "The diagnostic taxonomy of evolutionary cognitive biases and mental shortcuts that subvert rational judgment.\nRecognizing these universal cognitive distortions acts as an internal immunizing agent during high-stress decision moments.",
+        "label": "Avoid Mental Traps",
+        "description": "Common brain biases that secretly ruin good judgment.\nSpotting these flaws keeps your thinking clear under stress.",
         "children": [
           {
             "id": "anchoring-and-status-quo",
-            "label": "Anchoring & Familiarity Traps",
-            "description": "The mind's automatic instinct to tether subsequent estimates to initial arbitrary stimuli or cling to current arrangements out of fear of loss.\nThese inertial reflexes skew balanced calculation and distort value perception.",
+            "label": "Habit and First Impressions",
+            "description": "The trap of clinging to first numbers or sticking to routines.\nThese habits trick you into bad, outdated choices.",
             "children": [
               {
                 "id": "anchoring-trap",
-                "label": "The Anchoring Trap",
-                "description": "Fixating disproportionately on the initial piece of data encountered, such as an opening bid or a historical statistic.\nThis sticky mental benchmark warps all subsequent adjustments, locking reasoning into an artificial frame."
+                "label": "The Anchor Trap",
+                "description": "Fixating on the first price or fact you hear.\nThis early number pulls all your later thoughts off course."
               },
               {
                 "id": "status-quo-trap",
-                "label": "The Status-Quo Trap",
-                "description": "The deep-seated cognitive bias favoring the current default condition because taking action triggers greater anticipated regret than passive inaction.\nMaintaining current systems feels deceptively safe while silent systemic decay accumulates."
+                "label": "The Comfort Trap",
+                "description": "Staying where you are just because it feels safe.\nDoing nothing carries hidden costs that hurt you over time."
               },
               {
                 "id": "sunk-cost-trap",
                 "label": "The Sunk-Cost Trap",
-                "description": "Throwing fresh time, money, and emotional capital after doomed initiatives solely to justify irrecoverable past expenditures.\nRational decisions must focus entirely on forward-looking marginal costs and prospective future yields."
+                "description": "Pouring good money and time into failing projects.\nPast losses are gone forever, so focus only on the future."
               }
             ]
           },
           {
             "id": "perception-biases",
-            "label": "Distorted Perception & Confirmation Traps",
-            "description": "Cognitive filters that systematically manipulate how information is gathered, interpreted, and retained to protect fragile egos.\nThese blinders confirm pre-existing beliefs while ignoring inconvenient, disconfirming empirical evidence.",
+            "label": "Biased Seeing",
+            "description": "How our minds twist facts to protect our pride.\nWe often see only what agrees with what we already believe.",
             "children": [
               {
                 "id": "confirming-evidence",
-                "label": "The Confirming-Evidence Trap",
-                "description": "Selectively seeking out supportive data and flattering testimonials while reflexively ignoring or discrediting opposing signals.\nThis subconscious filter generates false intellectual security while fatal organizational vulnerabilities grow unaddressed."
+                "label": "The Confirmation Trap",
+                "description": "Hunting for praise while ignoring warning signs.\nListen to critics so blind spots do not ruin your plan."
               },
               {
                 "id": "framing-trap",
-                "label": "The Framing Distortion Trap",
-                "description": "Reacting radically differently to identical outcomes based purely on whether options are presented as potential gains versus potential losses.\nThis visceral quirk causes erratic swings between desperate risk-seeking and hyper-conservative timidity."
+                "label": "The Framing Trap",
+                "description": "Changing your mind just because words sound good or bad.\nLook at real numbers, not just whether words say gain or loss."
               }
             ]
           },
           {
             "id": "estimation-biases",
-            "label": "Forecasting & Memory Heuristics",
-            "description": "Systematic flaws in how human intuition predicts probabilities, projects futures, and retrieves memories under uncertainty.\nThese distortions produce inflated confidence and blind spots regarding potential volatility.",
+            "label": "Flawed Guessing",
+            "description": "Mental shortcuts that warp how we guess the future.\nThey make us overly confident and blind to big surprises.",
             "children": [
               {
                 "id": "overconfidence-trap",
                 "label": "The Overconfidence Trap",
-                "description": "Setting excessively narrow forecasting ranges based on exaggerated faith in one's personal knowledge and predictive prowess.\nOverconfident projections blind planners to plausible black swan excursions beyond comfortable boundaries."
+                "description": "Believing your predictions are far more accurate than they are.\nAlways allow room for unexpected surprises."
               },
               {
                 "id": "prudence-trap",
-                "label": "The Prudence & Worst-Case Trap",
-                "description": "Compounding excessive worst-case safety buffers at every layer of a project until the final plan becomes paralyzed by hyper-conservative costs.\nPiling safety margin upon safety margin chokes off viable, calculated opportunities."
+                "label": "The Overcautious Trap",
+                "description": "Adding too much safety buffer to every single step.\nExcess caution makes good projects too expensive to run."
               },
               {
                 "id": "recallability-trap",
-                "label": "The Recallability (Availability) Trap",
-                "description": "Overestimating the likelihood of dramatic, emotionally vivid catastrophes like plane crashes or viral scandals simply because they are easily recalled.\nDramatic anecdotes hijack objective probabilistic judgment, distorting resource allocation."
+                "label": "The Memory Trap",
+                "description": "Fearing dramatic events just because they are easy to remember.\nVivid news stories distort how likely things really are."
               }
             ]
           }
@@ -1565,40 +1565,40 @@ export const SMART_CHOICES_BOOK: Book = {
       },
       {
         "id": "meta-decision-craft",
-        "label": "Meta-Decision Craft & Implementation",
-        "description": "The overarching discipline of managing the decision-making process itself, from timing and emotional state to review mechanisms.\nTreating decision architecture as an iterative craft elevates individual competence into reliable, long-term mastery.",
+        "label": "Master the Process",
+        "description": "How to practice and improve your decision-making habit.\nGood habits turn lucky choices into lasting lifetime skills.",
         "children": [
           {
             "id": "process-vs-outcome",
-            "label": "Separating Process from Outcome",
-            "description": "Evaluating the caliber of a decision by the rigor of its analytical framework rather than purely by its unpredictable final outcome.\nIn an uncertain universe, excellent processes occasionally encounter bad luck, while careless gambles sometimes stumble into temporary windfalls.",
+            "label": "Judge the Process",
+            "description": "Judge decisions by good thinking, not just luck.\nSmart moves can hit bad luck, while foolish bets sometimes win.",
             "children": [
               {
                 "id": "luck-vs-skill",
-                "label": "Disentangling Luck from Strategic Rigor",
-                "description": "Resist the siren song of outcome bias by auditing the information base and analytical trade-offs made at the time of choice.\nConsistent commitment to sound decision architecture guarantees long-term expected value across a lifetime of play."
+                "label": "Spot Real Skill",
+                "description": "Separate pure luck from careful planning.\nSolid thinking wins out over time, even with occasional bad breaks."
               },
               {
                 "id": "post-mortem-audits",
-                "label": "Post-Decision Audits & Feedback Loops",
-                "description": "Conduct structural debriefs after choices unfold to compare projected consequence models against real empirical feedback.\nContinuous calibration of personal forecasting blind spots sharpens cognitive accuracy for future dilemmas."
+                "label": "Review Past Choices",
+                "description": "Look back at old choices to see what really happened.\nLearning from past steps makes your next choice much easier."
               }
             ]
           },
           {
             "id": "decision-hygiene",
-            "label": "Cognitive Hygiene & Collaborative Governance",
-            "description": "Implementing procedural safeguards to prevent team politics, groupthink, and emotional fatigue from degrading high-stakes decisions.\nClear structural protocols protect analytical clarity in both individual and group settings.",
+            "label": "Clean Up Thinking",
+            "description": "Rules to stop group pressure and tired minds from ruining plans.\nClear habits keep teams honest and focused.",
             "children": [
               {
                 "id": "devils-advocacy",
-                "label": "Institutionalized Dissent (Red Teaming)",
-                "description": "Assign dedicated contrarians whose explicit mission is to locate vulnerabilities and puncture shared organizational delusions.\nInstitutionalizing dissent makes critical skepticism socially safe and intellectually rigorous."
+                "label": "Invite Honest Dissent",
+                "description": "Ask someone to poke holes in your favorite idea.\nFriendly pushback saves you from costly blind spots."
               },
               {
                 "id": "temporal-distancing",
-                "label": "Temporal Distancing & Affect Regulation",
-                "description": "Institute mandatory cooling-off intervals and project your mindset into a ten-year retrospective vantage point before sealing major commitments.\nDistancing dampens fleeting emotional turbulence, restoring balanced, holistic perspective."
+                "label": "Take Time Out",
+                "description": "Cool off before saying yes to a giant commitment.\nAsk how you will feel about this choice in ten years."
               }
             ]
           }

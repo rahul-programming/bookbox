@@ -1,5 +1,5 @@
 // Sync: How Order Emerges from Chaos by Steven Strogatz
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -487,169 +487,169 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
   "actionItems": [
     {
       "id": "sync-how-order-emerges-from-chaos-act-1",
-      "title": "Establish an Unconscious Ambient Cue for Team Transition",
-      "description": "Like fireflies adjusting their flashes to match nearby peers without a central conductor, groups naturally synchronize through subtle environmental cues. Use a consistent ambient sensory trigger to align focus effortlessly.",
+      "title": "Use Sound to Start Meetings",
+      "description": "Groups focus faster when they share a simple sensory cue. Play a gentle sound so everyone settles down together.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Pick a distinct, non-intrusive sound or lighting shift (such as a 2-minute instrumental track or dimming overhead lights) to mark the start of meetings or focus blocks.",
-        "Announce once that this cue indicates the shift to quiet, focused collaboration.",
-        "Play the sound or adjust lighting at the exact transition point without issuing verbal demands.",
-        "Observe how team chatter naturally dampens and aligns to collective focus within 60 seconds."
+        "1. Pick a soft chime or short song to start work sessions.",
+        "2. Tell your team this sound means quiet focus time begins.",
+        "3. Play the audio cue right when the meeting starts.",
+        "4. Watch how quickly the room quiets down without nagging."
       ],
       "sourceChapter": "Chapter 1: Fireflies and the Inevitability of Sync"
     },
     {
       "id": "sync-how-order-emerges-from-chaos-act-2",
-      "title": "Perform an Entrainment Morning Light Exposure",
-      "description": "Your suprachiasmatic nucleus acts as a biological pacemaker, easily drifting into chaos unless entrained by external zeitgebers (time-givers). Locking in morning photon exposure anchors your circadian oscillator.",
+      "title": "Get Morning Sunlight Daily",
+      "description": "Your internal body clock needs bright light each morning. Direct sunlight keeps your sleep rhythm steady every day.",
       "category": "daily-routine",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Step outside within 30 minutes of waking up without sunglasses.",
-        "Face toward the morning sunlight for 10 to 15 minutes, allowing natural light to hit your retinas.",
-        "If skies are overcast, extend the outdoor exposure to 20 minutes or sit near a 10,000-lux lamp.",
-        "Keep this timing consistent across weekdays and weekends to prevent phase drift."
+        "1. Walk outside within thirty minutes after waking up today.",
+        "2. Look toward the sun without sunglasses for fifteen minutes.",
+        "3. Stay outside ten minutes longer if the sky is cloudy.",
+        "4. Repeat this daily habit even on your lazy weekends."
       ],
       "sourceChapter": "Chapter 3: Sleep and the Rhythms of Life"
     },
     {
       "id": "sync-how-order-emerges-from-chaos-act-3",
-      "title": "Audit Your Digital Feedback Phase Delays",
-      "description": "Oscillators spiral into turbulence when signals face uncalibrated feedback loops. Measure where delay between action and reaction in your workflow triggers unnecessary anxiety or frantic double-checking.",
+      "title": "Fix Slow Reply Bottlenecks",
+      "description": "Waiting too long for replies causes stress and stalls progress. Set clear time limits so work keeps moving forward.",
       "category": "audit",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "List your top 5 recurring communication bottlenecks (e.g., waiting for code review, async approvals, customer replies).",
-        "Track the average latency in hours between your output and their response over the past week.",
-        "Identify tasks where latency causes emotional thrashing or premature re-pinging.",
-        "Define explicit timeout thresholds (e.g., 'If no response in 4 hours, proceed autonomously') to prevent resonance lockups."
+        "1. List five tasks where waiting on others slows you down.",
+        "2. Note how many hours each person takes to reply.",
+        "3. Spot delays that make you send anxious reminder messages.",
+        "4. Agree on deadlines so you can proceed without waiting."
       ],
       "sourceChapter": "Chapter 4: The Human Body's Web of Clocks"
     },
     {
       "id": "sync-how-order-emerges-from-chaos-act-4",
-      "title": "Dampen Acoustic Resonances in Your Workspace",
-      "description": "Just as the Millennium Bridge swayed violently when pedestrians unconsciously synchronized footfalls to bridge wobbles, open workspaces amplify acoustic cross-talk into destructive cognitive interference.",
+      "title": "Quiet Down Your Desk Space",
+      "description": "Loud background chatter shatters focus like ripples on water. Add soft barriers and steady sounds to block noise.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Identify hard reflective surfaces around your desk that bounce ambient noise directly into your ears.",
-        "Position dense acoustic absorbers (felt pads, book stacks, heavy curtains, or desk dividers) between your seat and open walkways.",
-        "Introduce constant, non-patterned background masking noise (pink or brown noise) to break sudden phonetic spikes.",
-        "Test voice clarity and distraction levels by working for one hour, noting reductions in startle reflex."
+        "1. Find hard walls near your desk that echo room chatter.",
+        "2. Place soft cushions or books between you and the hallway.",
+        "3. Turn on brown noise to smooth out sudden loud sounds.",
+        "4. Work for one hour and notice your calmer focus."
       ],
       "sourceChapter": "Chapter 6: Bridges, Lasers, and the Millennium Bridge Panic"
     },
     {
       "id": "sync-how-order-emerges-from-chaos-act-5",
-      "title": "Build a Small-World Information Network Bridge",
-      "description": "Information gets trapped in hyper-clustered cliques until a single long-range shortcut dramatically shrinks the degrees of separation across the entire system. Build one intentional cross-domain connection.",
+      "title": "Meet Someone Outside Your Team",
+      "description": "Teams get stuck when they talk only to each other. Connect with an outsider to discover fresh new perspectives.",
       "category": "system",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Map your primary weekly communication circle and note the department or field most foreign to yours.",
-        "Identify one person working in that completely different cluster with whom you have zero direct overlap.",
-        "Schedule a low-stakes 15-minute coffee chat asking what counter-intuitive problem they are currently solving.",
-        "Maintain this node with a quarterly touchpoint, turning a distant cluster into an instantaneous shortcut for novel insight."
+        "1. Find a coworker who works in a totally different department.",
+        "2. Invite them to a quick fifteen-minute coffee break chat.",
+        "3. Ask about the hardest problem they are solving right now.",
+        "4. Catch up once every few months to share fresh ideas."
       ],
       "sourceChapter": "Chapter 9: Small-World Networks"
     },
     {
       "id": "sync-how-order-emerges-from-chaos-act-6",
-      "title": "Break Destructive Groupthink with a Phase-Shift Provocation",
-      "description": "When groups fall into premature consensus, members act like coupled pendulums locking into the loudest frequency. Introducing an intentional phase offset shocks the system back into exploratory chaos.",
+      "title": "Question Easy Group Agreement",
+      "description": "Groups often agree too quickly to avoid uncomfortable friction. Pause the discussion to uncover hidden project flaws.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Notice when a meeting reaches rapid, superficial agreement where nobody is voicing objections.",
-        "Interject with a structured phase perturbation: 'Let's assume our current best option completely fails within six months\u2014what caused the disaster?'",
-        "Enforce 3 minutes of silent written brainstorming of failure modes before allowing anyone to speak.",
-        "Synthesize the hidden risks that emerged, breaking homogenous coupling."
+        "1. Notice when a group agrees without raising any concerns.",
+        "2. Ask everyone why this idea might fail within six months.",
+        "3. Give everyone three quiet minutes to write down major risks.",
+        "4. Discuss these hidden flaws openly before making a final choice."
       ],
       "sourceChapter": "Chapter 2: The Kuramoto Model and Spontaneous Order"
     },
     {
       "id": "sync-how-order-emerges-from-chaos-act-7",
-      "title": "Synchronize Cognitive Peaks with a Ultradian Rhythm Tracker",
-      "description": "Human alertness oscillates naturally in 90-to-120-minute ultradian cycles. Forcing continuous output across these troughs induces mental friction; syncing focus bursts to natural crests restores flow.",
+      "title": "Work in Ninety-Minute Bursts",
+      "description": "Your brain naturally runs out of steam after ninety minutes. Work in focused waves and take real breaks between them.",
       "category": "daily-routine",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Set a silent timer for 90 minutes at the start of your primary morning cognitive task.",
-        "Work with single-pointed focus until the alarm rings or when you first notice involuntary eye-fatigue and sighing.",
-        "Step away immediately for a strict 15-minute cognitive reset: walk without screens, hydrate, and soften your gaze.",
-        "Repeat for a maximum of three ultradian waves per workday to protect biological resonance."
+        "1. Set a kitchen timer for ninety minutes of deep work.",
+        "2. Focus entirely on one task until the timer goes off.",
+        "3. Step away from screens for a full fifteen-minute walk.",
+        "4. Repeat this simple cycle at most three times per day."
       ],
       "sourceChapter": "Chapter 3: Sleep and the Rhythms of Life"
     },
     {
       "id": "sync-how-order-emerges-from-chaos-act-8",
-      "title": "Audit Shared Calendar Clustering and Fragmentation",
-      "description": "Scattered 30-minute meetings fragment focus into chaotic, turbulent noise, destroying the continuous phase-space required for deep synthesis. Audit your calendar topology.",
+      "title": "Group Your Meetings Together",
+      "description": "Tiny gaps between meetings make real thinking impossible. Group your calls into one block to save open time.",
       "category": "audit",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Review your calendar over the past 14 days and highlight every isolated gap under 45 minutes.",
-        "Calculate the percentage of fragmented 'dead zones' where sustained flow was mathematically impossible.",
-        "Identify meetings that can be shifted to compress all appointments into contiguous afternoon blocks.",
-        "Propose batch-clustered meeting days to collaborators, reclaiming long unbroken temporal spans."
+        "1. Open your calendar and highlight every short gap between meetings.",
+        "2. Count the useless half-hour blocks that waste your time.",
+        "3. Move scattered calls into single afternoon blocks this week.",
+        "4. Keep your mornings open for long stretches of quiet focus."
       ],
       "sourceChapter": "Chapter 10: From Chaos to Synchrony"
     },
     {
       "id": "sync-how-order-emerges-from-chaos-act-9",
-      "title": "Structure a Coupled Oscillators Co-Working Ritual",
-      "description": "Two pendulum clocks mounted on a common wall synchronize through minuscule vibrations transmitted via wood. Co-working with an accountability partner leverages physical co-presence to lock into shared focus.",
+      "title": "Work Silently with a Partner",
+      "description": "Sitting next to someone working helps you stay on track. Share goals and work silently side by side to build focus.",
       "category": "system",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "Pair with a colleague or study partner for a dedicated 45-minute sprint.",
-        "Spend 2 minutes stating clearly aloud the single deliverable you will produce by the end of the sprint.",
-        "Mute mics or sit quietly side-by-side with screens visible, feeling the shared momentum of sustained effort.",
-        "Regroup for 3 minutes at the end to show the finished work and mark task completion."
+        "1. Pick a partner for a forty-five-minute silent work session.",
+        "2. State the exact task you will finish out loud first.",
+        "3. Mute your microphones and focus together until the time ends.",
+        "4. Show each other your finished work when the sprint ends."
       ],
       "sourceChapter": "Chapter 5: Coupled Clocks and Pendulums"
     },
     {
       "id": "sync-how-order-emerges-from-chaos-act-10",
-      "title": "Engineer Physical Traffic Pathways to Facilitate Random Collisions",
-      "description": "Small-world networks thrive on spontaneous weak-tie interactions. Arranging your environment to force cross-path intersections turns static isolation into dynamic serendipity.",
+      "title": "Change Your Daily Walking Route",
+      "description": "Taking the same path isolates you from other people. Walk through busy common areas to run into different colleagues.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Analyze your default physical walking route to coffee, water, or the restroom at work or home.",
-        "Identify where paths converge with people outside your immediate discipline or inner circle.",
-        "Relocate a high-frequency resource (water bottle refill, printer, snack station) to a shared intersection zone.",
-        "Take the alternate route daily and initiate brief greetings to kindle cross-pollinating weak ties."
+        "1. Notice the usual hallway you walk through every single day.",
+        "2. Pick a new route through a busy shared common area.",
+        "3. Place your water bottle near people you rarely see at work.",
+        "4. Say hello to someone new while walking that path daily."
       ],
       "sourceChapter": "Chapter 9: Small-World Networks"
     },
     {
       "id": "sync-how-order-emerges-from-chaos-act-11",
-      "title": "Implement an Asynchronous Metronome for Collaborative Work",
-      "description": "When distributed team members pulse updates at arbitrary times, constant notification pings generate continuous micro-disruptions. Establish a shared heartbeat rhythm for status reporting.",
+      "title": "Set a Daily Update Time",
+      "description": "Random message alerts interrupt flow all day long. Share team updates at one set hour to protect focus.",
       "category": "system",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Replace real-time status check-in messages with a single standardized daily check-in window (e.g., 4:30 PM).",
-        "Create a three-bullet format: Completed Today, Stuck On, Next Up.",
-        "Instruct team members to batch their notifications and read status posts during this designated phase window.",
-        "Review asynchronous progress collectively without scheduling verbal sync meetings."
+        "1. Pick one specific afternoon time for daily team written updates.",
+        "2. Share three bullets covering completed work, blockers, and next steps.",
+        "3. Read all teammate posts during that single designated time window.",
+        "4. Stop checking status messages outside that shared daily check-in hour."
       ],
       "sourceChapter": "Chapter 8: The Global Symphony of Lasers and Power Grids"
     },
     {
       "id": "sync-how-order-emerges-from-chaos-act-12",
-      "title": "Map Cascade Vulnerabilities in Your Digital Toolchain",
-      "description": "Large interconnected networks\u2014from power grids to social feeds\u2014suffer sudden cascading blackouts when single-node failures propagate across tightly coupled dependencies. Uncover your hidden systemic fragilities.",
+      "title": "Find Single Points of Failure",
+      "description": "When one key tool breaks, entire operations can shut down. Find your weakest link and make a backup plan today.",
       "category": "audit",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Diagram the primary software tools and services you depend on to complete and deliver work daily.",
-        "Draw directional arrows showing data flows and authentication couplings (e.g., single sign-on reliance).",
-        "Simulate the sudden offline failure of the most central node (e.g., your password manager or primary cloud drive).",
-        "Implement one decoupling failsafe immediately (such as an offline local backup or redundant two-factor access method)."
+        "1. List all software apps you need to do your daily work.",
+        "2. Spot the single tool that would halt everything if broken.",
+        "3. Imagine that central tool went completely dark for one day.",
+        "4. Set up an offline backup file before an emergency happens."
       ],
       "sourceChapter": "Chapter 11: Complex Systems and Cascading Failures"
     }
@@ -826,10 +826,10 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       "author": "Steven Strogatz",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Coupled Oscillators",
-      "body": "Any two entities with repeating cycles that exchange even a whisper of energy will eventually adjust their beats toward synchrony.\nPendulum clocks on a shared beam synchronize through micro-vibrations, fireflies lock flash intervals through sight, and coworkers align energy through proximity.\nInfluence does not require intention; mutual coupling naturally drives alignment.",
+      "headline": "Coupled Cycles",
+      "body": "Things with repeating rhythms naturally pull each other into step.\nClocks on the same wall slowly match their ticks.\nFireflies and teammates also match pace when they stay close.",
       "quote": "The tendency to synchronize is one of the most pervasive drives in the universe, extending from subatomic particles to the largest galaxies.",
-      "actionItem": "Identify two daily habits that currently clash, then physically or temporally couple them so the momentum of one reliably pulls the other into rhythm.",
+      "actionItem": "Pair a new daily habit with an old routine.\nThe easy habit will pull the new one along.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -847,10 +847,10 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       "author": "Steven Strogatz",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Critical Coupling Threshold",
-      "body": "Systems do not drift into harmony gradually.\nIf coupling between diverse elements is weak, total disorder reigns.\nAs coupling strength incrementally ticks upward, nothing appears to change until it reaches a sharp mathematical boundary: the Kuramoto threshold.\nInstantly, a giant synchronized cluster crystallizes out of pure chaos.",
+      "headline": "The Tipping Point",
+      "body": "Groups do not fall into order one step at a time.\nWeak ties keep everyone scattered and messy.\nOnce connections pass a magic number, total harmony clicks instantly.",
       "quote": "Order does not assemble piece by piece; once the connection between nodes exceeds a critical value, coherence explodes across the system.",
-      "actionItem": "When introducing a team process, do not adopt it half-heartedly; apply high initial cadence to cross the critical threshold where adoption becomes self-sustaining.",
+      "actionItem": "Launch new team habits with daily focus.\nStrong early pushes help the habit lock in.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -868,10 +868,10 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       "author": "Steven Strogatz",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Engineer Small-World Shortcuts",
-      "body": "Watts-Strogatz networks show that replacing just a handful of local links with random long-range connections dramatically shrinks the degrees of separation across an entire network without destroying local cohesion.\nYou do not need to rewire your entire social life to gain global perspective\u2014you just need a few cross-domain bridges.",
+      "headline": "Small-World Bridges",
+      "body": "You do not need many contacts to reach across a large network.\nA few random bridges shrink the whole world fast.\nStrange new links carry fresh ideas into tight groups.",
       "quote": "A tiny fraction of random connections is enough to collapse the vast diameter of a localized cluster into a small world.",
-      "actionItem": "Schedule a monthly 20-minute coffee chat with someone two tiers removed from your field or department to introduce high-leverage cognitive shortcuts.",
+      "actionItem": "Grab coffee each month with someone outside your field.\nFresh contacts unlock fast shortcuts.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -889,10 +889,10 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       "author": "Steven Strogatz",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Spontaneous Self-Organization",
-      "body": "Human intuition insists that orderly spectacles require a conductor, general, or CEO.\nStrogatz shows nature achieves grand coordination through pure bottom-up mathematics.\nFireflies on the banks of Southeast Asian rivers flash in unison not because an alpha insect commands them, but because each individual obeys simple local resetting rules.",
+      "headline": "Leaderless Order",
+      "body": "Order does not require a boss in charge.\nFireflies flash together by copying only their nearest neighbors.\nSimple local rules create huge patterns across whole crowds.",
       "quote": "No single firefly is in charge; the spectacle is an emergent phenomenon produced by thousands of individuals listening only to their immediate neighbors.",
-      "actionItem": "Replace top-down micro-management with clear, localized operating heuristics that allow team members to self-adjust based on immediate feedback.",
+      "actionItem": "Give your team clear basic rules instead of micromanaging.\nLet them adjust on their own.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -910,10 +910,10 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       "author": "Steven Strogatz",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Heartbeat of Matter",
-      "body": "Linear physics broke nature into manageable, isolated components, convincing us the universe was a clockwork machine.\nNon-linear science reveals an active, breathing tapestry where things continually talk, synchronize, and dynamically reorganize themselves across scales.",
+      "headline": "Connected Systems",
+      "body": "Taking machines apart does not explain how they work together.\nNature is an active web where separate parts talk constantly.\nReal magic happens in the connections between things.",
       "quote": "For three centuries, science has been obsessed with breaking things down into their constituent parts. But understanding the components tells us nothing about how they assemble into collective rhythm.",
-      "actionItem": "Study the communication pathways between the parts of your organization rather than trying to fix individual people in isolation.",
+      "actionItem": "Fix broken team communication lines before trying to fix single people.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -931,10 +931,10 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       "author": "Steven Strogatz",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Phase-Resetting Curves",
-      "body": "When an oscillator receives a stimulus, whether it speeds up or slows down depends entirely on where it sits along its internal cycle.\nA bright pulse early in a firefly's cycle delays its next flash; a pulse late in the cycle hastens it.\nTiming is contextual: the exact same input produces opposite reactions depending on the phase of arrival.",
+      "headline": "Timing Is Everything",
+      "body": "How something responds to a push depends on timing.\nA nudge at the start of a cycle delays the next beat.\nThe same nudge near the end speeds it up.",
       "quote": "An identical pulse can push an oscillator forward or jerk it backward, depending entirely on the precise instant it is delivered.",
-      "actionItem": "Map your circadian focus curve; deliver analytical inputs when your mental phase is peaking and administrative stimuli during trough phases.",
+      "actionItem": "Tackle hard creative work during your natural energy peak.\nSave easy email for energy slumps.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -952,10 +952,10 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       "author": "Steven Strogatz",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Millennium Bridge Dynamic",
-      "body": "Positive feedback loops can transform benign adjustments into catastrophic instability.\nWhen London's Millennium Bridge swayed slightly on opening day, pedestrians widened their stance and matched their strides to the bridge's sway to stay upright.\nThis synchronized lateral stepping exponentially amplified the sway, forcing immediate closure.",
+      "headline": "The Wobble Loop",
+      "body": "Small fixes can make a problem much worse.\nLondon's Millennium Bridge swayed, so walkers adjusted their stride to stay upright.\nMatching their steps amplified the wobble into wild shaking.",
       "quote": "The pedestrians were not trying to make the bridge wobble; in trying to keep their balance, they created the very instability they were trying to counteract.",
-      "actionItem": "Audit reactive habits in your workflow to verify whether a defensive workaround is secretly intensifying the underlying operational instability.",
+      "actionItem": "Check your daily quick fixes.\nMake sure your band-aids are not worsening the real problem.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -973,10 +973,10 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       "author": "Steven Strogatz",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Entrain Your Circadian Master Clock",
-      "body": "The suprachiasmatic nucleus (SCN) in your brain coordinates trillions of cellular clocks across your body.\nIt relies on external time-givers (zeitgebers) to calibrate its roughly 24.2-hour natural cycle to the planet's exact 24-hour day.\nWithout crisp external signals, internal rhythms drift into asynchronous exhaustion.",
+      "headline": "Reset Body Clocks",
+      "body": "Your brain controls trillions of tiny clocks in your body.\nLeft alone, our internal clocks run slightly slower than twenty-four hours.\nMorning light resets them so you stay energetic.",
       "quote": "Without the daily reset of morning sunlight, our internal clocks drift away from reality, floating through an ever-shifting subjective timezone.",
-      "actionItem": "Expose your eyes to direct natural outdoor sunlight within 30 minutes of waking to sharply synchronize your suprachiasmatic master clock.",
+      "actionItem": "Step outside into bright natural sunlight within thirty minutes of waking up.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -994,10 +994,10 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       "author": "Steven Strogatz",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Josephson Junctions and Collective Power",
-      "body": "A single Josephson junction yields a faint quantum microwave signal.\nBut when thousands are coupled through an electrical cavity, they synchronize their quantum wave functions, locking into an identical phase.\nTheir power output does not merely add up; it scales with the square of the number of junctions, yielding an enormous coherent beam.",
+      "headline": "Shared Power",
+      "body": "One tiny electric signal barely makes a mark.\nWhen thousands link into step, their strength multiplies dramatically.\nGroup energy grows far faster than simple addition.",
       "quote": "When individual quantum oscillators lock phase, their power grows not arithmetically, but exponentially with the square of their population.",
-      "actionItem": "Stop distributing strategic resources across twenty dispersed priorities; concentrate effort on three coupled initiatives where collective momentum squares impact.",
+      "actionItem": "Stop splitting effort across twenty weak goals.\nFocus all energy on two aligned projects.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1015,10 +1015,10 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       "author": "Steven Strogatz",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Inevitability of Spontaneous Order",
-      "body": "We are conditioned by the second law of thermodynamics to expect universal decay into entropy.\nYet nature counters this with an equal and opposite hunger for coherence: wherever energy flows through interacting nodes, spontaneous synchronization emerges as a fundamental cosmic imperative.",
+      "headline": "Natural Harmony",
+      "body": "We expect things to break down into messy chaos over time.\nYet nature constantly pulls connected pieces back into shared rhythms.\nOrder is a basic law everywhere in the universe.",
       "quote": "Nature uses every trick in the book to generate synchrony. It is not an anomaly; it is an inescapable pull woven into the fabric of space and time.",
-      "actionItem": "Look for the natural self-organizing currents already forming inside your market or group, and build with them rather than forcing artificial rules.",
+      "actionItem": "Watch for routines already forming in your team, and support them directly.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1036,10 +1036,10 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       "author": "Steven Strogatz",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Kuramoto Model",
-      "body": "Yoshiki Kuramoto formulated the definitive mathematical framework for how a population of oscillators with naturally diverse innate frequencies reaches consensus.\nSynchrony depends entirely on two variables: the diversity of individual frequencies versus the strength of their coupling.\nIf diversity is too wide or coupling too weak, disorder wins.",
+      "headline": "Differences Versus Pull",
+      "body": "Order is a simple tug-of-war between two forces.\nPeople have natural differences, but strong bonds pull them together.\nIf connections are strong enough, everyone falls into rhythm.",
       "quote": "Kuramoto's elegant math proved that order is a tug-of-war between the internal diversity of individual frequencies and the mutual pull that binds them together.",
-      "actionItem": "To align an eclectic cross-functional team, do not try to erase personality differences; simply intensify the frequency and fidelity of their shared information loops.",
+      "actionItem": "Do not force people to act identical.\nJust build strong communication loops between them.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1057,10 +1057,10 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       "author": "Steven Strogatz",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Cardiac Synchrony and Chaotic Fibrillation",
-      "body": "Your heart beats because millions of pacemaking myocytes pass electrical impulses across gap junctions.\nHowever, if an electrical wave fractures around scarred tissue, it devolves into rotating spiral waves.\nThis loss of phase synchrony is ventricular fibrillation: the heart quivers chaotically, blood halts, and death ensues within minutes unless reset by a high-voltage defibrillator.",
+      "headline": "System Resets",
+      "body": "Your heart pumps because millions of cells fire together.\nIf signals get tangled, the rhythm breaks into chaotic twitches.\nWithout a quick electric shock, the whole system halts.",
       "quote": "Fibrillation is not the absence of electrical activity; it is rhythm corrupted into turbulence, a lethal whirlpool of desynchronized muscle fibers.",
-      "actionItem": "Design definitive 'circuit-breakers' or emergency reset protocols into your critical systems to halt runaway operational panic before it turns chaotic.",
+      "actionItem": "Create emergency stop buttons for key projects to halt panics before they spread.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1078,10 +1078,10 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       "author": "Steven Strogatz",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Break Pathological Groupthink Cascades",
-      "body": "In dense networks with high coupling, synchronization can become pathological.\nFinancial panics, social media witch-hunts, and corporate groupthink occur when every node mirrors adjacent nodes without verifying external truth.\nTo preserve system sanity, high-density networks need intentional phase-breakers.",
+      "headline": "Stop Groupthink Panics",
+      "body": "Too much closeness can turn groups dangerous.\nPanics happen when everyone copies neighbors without checking facts.\nHealthy crowds need people who question popular trends.",
       "quote": "Hyper-connectivity carries a dark side: it allows bad ideas and runaway manias to synchronize an entire network in milliseconds.",
-      "actionItem": "Appoint an official rotating 'devil's advocate' whose explicit responsibility is to inject asynchronous contrarian perspectives into executive meetings.",
+      "actionItem": "Pick a teammate in each meeting to question popular ideas and challenge assumptions.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1099,10 +1099,10 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       "author": "Steven Strogatz",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Hidden Geometry of Networks",
-      "body": "Humanity is neither an orderly crystalline lattice where everyone interacts only with immediate neighbors, nor a chaotic soup of random encounters.\nWe inhabit the subtle middle ground of small-world networks: tightly clustered local neighborhoods tied together by fragile, magical long-distance threads.",
+      "headline": "Clustered Networks",
+      "body": "Human society is neither an isolated grid nor total chaos.\nWe live in tight friend circles linked by distant bridges.\nA few outside friendships connect our small towns globally.",
       "quote": "We live in a world that is simultaneously cliquish and small, where local intimacy coexists with sudden global reach.",
-      "actionItem": "Cultivate connections outside your immediate professional tribe; distant ties are the primary conduits for non-redundant breakthroughs.",
+      "actionItem": "Build ties outside your regular peer group.\nDistant friends bring the best new opportunities.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1120,10 +1120,10 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       "author": "Steven Strogatz",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Clapping Waves and Social Phase Locking",
-      "body": "In European concert halls, audiences frequently transition from chaotic applause into spontaneous rhythmic clapping.\nPeople unconsciously double their clapping period and synchronize with those nearby to feel a communal heartbeat, sacrificing acoustic volume for collective coherence.",
+      "headline": "Crowd Clapping",
+      "body": "Concert audiences quickly shift from noisy clapping into steady rhythms.\nPeople slow down their claps to match neighbors around them.\nWe naturally trade loud noise for shared connection.",
       "quote": "The sudden transition from chaotic applause to synchronized rhythm is the collective organism asserting its unified identity.",
-      "actionItem": "Observe how quickly you subconsciously mimic speech cadence, posture, or jargon in social groups, and consciously decouple when independent thought is required.",
+      "actionItem": "Notice when you copy team slang.\nStep back when you need to think independently.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1141,10 +1141,10 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       "author": "Steven Strogatz",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Bose-Einstein Condensation",
-      "body": "At temperatures nearing absolute zero, the distinct identities of individual atoms melt away.\nTheir de Broglie wavelengths expand until they overlap completely, collapsing into a single, unified quantum super-atom where millions of particles behave as one indistinguishable macro-wave.",
+      "headline": "Unified Action",
+      "body": "Under extreme cold, separate atoms lose their private identity.\nThey blend together and move as one giant super-atom.\nA unified purpose can blend messy groups into one.",
       "quote": "In a Bose-Einstein condensate, trillions of individual atoms lose their private identity and sing the exact same quantum note in unison.",
-      "actionItem": "Define a crisp, unassailable mission statement that acts as a unifying frequency, aligning disparate departments into a unified operational identity.",
+      "actionItem": "Define one clear goal for the quarter to unite different teams behind one priority.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1162,10 +1162,10 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       "author": "Steven Strogatz",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Harness Asynchronous Productive Work",
-      "body": "Forced real-time synchrony (excessive meetings, immediate chat expectations) destroys deep cognitive work by continuously fragmenting individual phase cycles.\nHigh-functioning modern teams optimize for asynchronous autonomy: individuals run at their own natural frequency and sync only at defined interface gates.",
+      "headline": "Work Apart Together",
+      "body": "Back-to-back meetings ruin deep focus.\nPeople work best when running at their own natural speed.\nGreat teams work alone and meet only at planned checkpoints.",
       "quote": "Constant forced coupling produces friction; the highest systems balance autonomous local rhythm with periodic, deliberate synchronization.",
-      "actionItem": "Designate a mandatory company-wide 'Deep Work Wednesday' with zero real-time meetings or synchronous Slack expectations.",
+      "actionItem": "Set aside one day each week with zero calls or instant chats.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1183,10 +1183,10 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       "author": "Steven Strogatz",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Chua's Circuit and Chaotic Synchronization",
-      "body": "Until the 1990s, scientists believed chaotic systems\u2014infinitely sensitive to initial conditions\u2014could never synchronize.\nBut by coupling two identical chaotic electronic circuits via a linking wire, researchers discovered they lock into lockstep chaos.\nThey are unpredictable to outside observers, but totally synchronized with each other.",
+      "headline": "Tied in the Storm",
+      "body": "Scientists once thought wild, unpredictable systems could never sync.\nConnecting two chaotic circuits with a wire makes them move together.\nThey remain wild to outsiders, but match each other perfectly.",
       "quote": "Even chaos itself, long considered the ultimate antithesis of order, can be subdued into perfect synchronization.",
-      "actionItem": "When dealing with turbulent environments, partner with an agile ally; shared telemetry allows you to navigate turbulent chaos in synchronized lockstep.",
+      "actionItem": "Pair up with a trusted partner when projects get messy.\nSharing quick updates keeps you aligned.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1204,10 +1204,10 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       "author": "Steven Strogatz",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Secret Dance of the Cosmos",
-      "body": "From the quantum coherence of supercooled helium to the tidal locking of our Moon showing only one face to Earth, the universe continuously solves the problem of isolation by inventing elegant, self-organizing feedback loops.",
+      "headline": "The Cosmic Dance",
+      "body": "The universe always finds ways to connect separate pieces together.\nThe Moon always shows the same face to Earth because gravity locked it in place.\nRhythm is nature's real answer to chaos.",
       "quote": "Sync is not a mechanical accident. It is the universe's solution to chaos, the persistent cosmic melody playing beneath the noise of reality.",
-      "actionItem": "Notice that friction in your relationships or systems usually signals poor coupling rather than bad intentions; adjust the feedback channel first.",
+      "actionItem": "When relationships feel strained, check how often you talk before assuming bad intent.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1225,10 +1225,10 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       "author": "Steven Strogatz",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Calibrate Your System's Pacemaker",
-      "body": "A system's resilience relies on having a stable primary rhythm that does not waiver under transient noise.\nWhether it is an athlete's resting pulse, a company's weekly sprint demo, or a personal morning journaling routine, an unshakeable pacemaker provides the baseline against which all other dynamic adjustments can safely occur.",
+      "headline": "Set Your Anchor",
+      "body": "Strong systems need one steady beat that never wavers.\nA morning walk or a weekly team review gives you a solid anchor.\nOther moving parts adjust around this calm core.",
       "quote": "Without a steady pacemaker anchor, complex networks quickly surrender their coherence to the ambient noise of their surroundings.",
-      "actionItem": "Establish one inviolable daily keystone habit that you execute at the identical hour, serving as the steady pacemaker for your entire cognitive life.",
+      "actionItem": "Pick one core habit to do at the exact same hour every day.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1242,115 +1242,115 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
   ],
   "mindMap": {
     "id": "root",
-    "label": "Sync: How Order Emerges from Chaos",
-    "description": "At every scale of the universe, spontaneous order erupts out of chaotic noise without any central conductor orchestrating the dance.\nMathematician Steven Strogatz reveals how coupled oscillators\u2014from flashing fireflies to cardiac cells\u2014lock into lockstep harmony through the elegant laws of non-linear dynamics.",
+    "label": "The Power of Sync",
+    "description": "Things in nature naturally fall into rhythm together.\nOrder appears on its own without anyone in charge.",
     "children": [
       {
         "id": "living-sync",
-        "label": "Living Sync: Biological Rhythms and Coordination",
-        "description": "Nature solves enormous coordination problems not through top-down mandates, but through bottom-up peer interactions.\nBiological systems harness the physics of collective synchronization to keep hearts pumping, insects communicating, and bodies attuned to cosmic cycles.",
+        "label": "Sync in Living Things",
+        "description": "Living creatures sync up by copying their neighbors.\nThis keeps hearts beating and bodies running on time.",
         "children": [
           {
             "id": "firefly-phenomenon",
-            "label": "The Southeast Asian Firefly Mystery",
-            "description": "Along the riverbanks of Malaysia and Thailand, thousands of male fireflies gather on mangrove trees and flash together in jaw-dropping, millisecond precision.\nFor centuries, Western naturalists assumed this was an optical illusion or guided by a maestro leader, but it is purely self-organized phase locking.",
+            "label": "Flashing Fireflies",
+            "description": "Thousands of fireflies flash at the exact same moment.\nThey match each other without any leader.",
             "children": [
               {
                 "id": "firefly-optical-illusion",
-                "label": "The Illusion of Central Leadership",
-                "description": "Early European explorers refused to believe mindless beetles could achieve unison without an elite leader directing the flashing tempo.\nThis cognitive bias highlights our stubborn human habit of over-attributing decentralized emergent coordination to centralized authority figures."
+                "label": "No Leader Needed",
+                "description": "People used to think a boss bug led the flashing.\nIn truth, tiny individual changes create the group rhythm."
               },
               {
                 "id": "firefly-reset-mechanism",
-                "label": "Integrate-and-Fire Dynamics",
-                "description": "Each firefly harbors an internal biochemical pacemaker that charges voltage towards a firing threshold.\nWhen a neighbor flashes, an observing beetle nudges its internal clock slightly forward, triggering a mathematical cascade that collapses independent cycles into unified flashes."
+                "label": "Adjusting the Clock",
+                "description": "Each bug has an internal timer.\nSeeing a neighbor flash nudges its own timer forward."
               }
             ]
           },
           {
             "id": "heart-pacemakers",
-            "label": "The Cardiac Conductor: The Sinus Node",
-            "description": "Your heart relies on approximately ten thousand specialized pacemaker cells nestled inside the sinoatrial node to beat as one cohesive pump.\nIf these microscopic electrical oscillators fell out of sync, your heart would degenerate into chaotic ventricular fibrillation and instant cardiac arrest.",
+            "label": "Heart Pacemaker Cells",
+            "description": "Thousands of heart cells beat as one unit.\nIf they lose their shared beat, the heart stops working.",
             "children": [
               {
                 "id": "cardiac-gap-junctions",
-                "label": "Gap Junction Current Sharing",
-                "description": "Heart cells are wired together via tiny microscopic ionic bridges known as gap junctions that physically share electrical charge.\nThis intimate coupling allows faster cells to pull slower neighbors forward, forging a collective consensus pulse out of noisy individual rhythms."
+                "label": "Cell-to-Cell Bridges",
+                "description": "Heart cells pass electric signals directly to their neighbors.\nFaster cells pull slower cells along with them."
               },
               {
                 "id": "peskin-model",
-                "label": "Charles Peskin's Leaky Oscillator Model",
-                "description": "Biomathematician Charles Peskin formulated a rigorous mathematical proof showing that identical leaky integrate-and-fire pacemakers inevitably lock into perfect synchrony.\nThe slight leakiness of charge between firing thresholds acts as the dissipative glue pulling their cycles together."
+                "label": "Peskin's Heart Math",
+                "description": "A math model showed how leaking signals force sync.\nSmall electrical leaks naturally pull heart cells together."
               }
             ]
           },
           {
             "id": "circadian-clocks",
-            "label": "Circadian Rhythms and the Master Clock",
-            "description": "Inside the mammalian brain sits the suprachiasmatic nucleus (SCN), an organic cluster of roughly twenty thousand autonomous cellular clocks.\nThese internal pacemakers tick on an inherent roughly 24.2-hour period, requiring daily solar recalibration to stop our internal schedules from drifting into perpetual disorientation.",
+            "label": "Our Daily Clock",
+            "description": "A cluster of brain cells sets our daily schedule.\nIt needs morning sunlight to stay on a 24-hour cycle.",
             "children": [
               {
                 "id": "cave-isolation-experiments",
-                "label": "Free-Running Isolation in Deep Caves",
-                "description": "When human volunteers spent months living in underground subterranean bunkers completely cut off from daylight and wristwatches, their natural sleep-wake cycles drifted to roughly twenty-five hours.\nThis proved conclusively that human circadian architecture is an endogenous, physical biological oscillator rather than a learned habit."
+                "label": "Living in Caves",
+                "description": "People living in dark caves developed 25-hour days.\nThis proved our bodies have a built-in timer."
               },
               {
                 "id": "light-entrainment",
-                "label": "Photic Entrainment and Phase Resetting",
-                "description": "Morning sunlight entering specialized retinal ganglion cells delivers a sharp electrical kick to the SCN clock neurons.\nThis reset compresses or expands the ongoing molecular cycle, entraining our fragile internal biochemistry to the celestial rotation of the Earth."
+                "label": "Sunlight Reset",
+                "description": "Morning light hits our eyes and restarts our brain clock.\nThis aligns our body with the turning Earth."
               }
             ]
           },
           {
             "id": "cellular-clocks",
-            "label": "The Menstrual Synchrony Puzzle",
-            "description": "Research sparked by Martha McClintock in 1971 suggested that women living in close dorm proximity synchronized their monthly cycles over time.\nWhile modern statistical replications debate its universal prevalence, the underlying hypothesis illuminated how airborne pheromones might silently entrain neuroendocrine feedback loops."
+            "label": "Shared Monthly Cycles",
+            "description": "Women living together were once thought to match cycles.\nChemical signals in the air might link these rhythms."
           }
         ]
       },
       {
         "id": "inanimate-sync",
-        "label": "Inanimate Sync: Clocks, Lasers, and Superconductors",
-        "description": "Synchronization is not an exclusive privilege of living organisms; inanimate matter obeys the exact same non-linear coupling rules.\nFrom pendulum clocks mounted on wooden beams to subatomic electrons tunneling through quantum barriers, inert systems spontaneously orchestrate collective motion.",
+        "label": "Sync in Objects",
+        "description": "Non-living things can also fall into rhythm together.\nClocks, lasers, and wires follow the same rules.",
         "children": [
           {
             "id": "huygens-clocks",
-            "label": "Christiaan Huygens and Sympathetic Pendulums",
-            "description": "In 1665, while bedridden with illness, Dutch physicist Christiaan Huygens noticed that two pendulum clocks hanging from the same wall beam swung in exact anti-phase synchrony.\nHe deduced that imperceptible vibrations traveling across the supporting wood created a subtle mechanical conversation between the two weights.",
+            "label": "Swinging Pendulum Clocks",
+            "description": "Two clocks hung on one beam swung in exact harmony.\nVibrations in the wood connected their swings.",
             "children": [
               {
                 "id": "imperceptible-coupling",
-                "label": "Mechanical Feedback Channels",
-                "description": "Even a microscopically rigid wooden board yields ever so slightly to the tug of a swinging pendulum bob.\nThis minute mechanical back-and-forth drains energy from dissonant frequencies and locks the system into the lowest energy, symmetric configuration."
+                "label": "Tiny Wood Vibrations",
+                "description": "The swinging weights slightly bent the wooden wall.\nThese small nudges slowly pulled the clocks together."
               }
             ]
           },
           {
             "id": "lasers-and-photons",
-            "label": "Laser Physics: Atomic In-Phase Coherence",
-            "description": "Standard incandescent light bulbs scatter photons in an incoherent, multicolored jumble of random wave packets.\nA laser achieves its piercing power when trillions of excited atoms are coaxed into stimulated emission, marching in lockstep to broadcast a single, perfectly focused electromagnetic wave.",
+            "label": "How Lasers Work",
+            "description": "Regular bulbs scatter light in every direction.\nLasers line up trillions of light waves in lockstep.",
             "children": [
               {
                 "id": "stimulated-emission",
-                "label": "Stimulated Emission Cascades",
-                "description": "When a passing photon encounters an excited electron, it stimulates the electron to drop a quantum energy level and release an exact duplicate photon.\nThis identical clone shares the original's frequency, phase, and direction, setting off an exponential avalanche of laser coherence."
+                "label": "Copycat Light Waves",
+                "description": "One light particle prompts an atom to make a twin.\nThese matching twins trigger an avalanche of pure light."
               }
             ]
           },
           {
             "id": "superconductivity-josephson",
-            "label": "Superconductors and Josephson Junctions",
-            "description": "Near absolute zero, quantum physics takes macroscopic center stage as electrons bind into paired teams called Cooper pairs.\nWhen millions of these pairs tunnel across a thin insulating barrier, they establish a macroscopic quantum phase that beats with astonishingly stable radio frequencies.",
+            "label": "Superconductors and Quantum Sync",
+            "description": "Extreme cold pairs electrons up so they move together.\nElectricity flows smoothly without losing any heat or energy.",
             "children": [
               {
                 "id": "quantum-phase-locking",
-                "label": "Macroscopic Quantum Coherence",
-                "description": "Instead of colliding with atomic lattices like normal resistive currents, Cooper pairs condense into a single collective wave function spanning the entire material.\nThis immense synchrony wipes out electrical friction, enabling electricity to flow eternally without shedding a single watt of heat."
+                "label": "Frictionless Flow",
+                "description": "Paired electrons march like one giant wave.\nThey glide past atoms without crashing or slowing down."
               },
               {
                 "id": "josephson-arrays",
-                "label": "Coupled Josephson Junction Arrays",
-                "description": "Arrays composed of thousands of microfabricated Josephson junctions act like microscopic superconducting versions of firefly populations.\nPhysicists utilize their mutual synchronization to generate precise voltage standards and investigate high-dimensional non-linear dynamical systems."
+                "label": "Chip Arrays",
+                "description": "Thousands of microscopic junctions tick together like fireflies.\nScientists use them to measure voltage with extreme accuracy."
               }
             ]
           }
@@ -1358,47 +1358,47 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       },
       {
         "id": "mathematical-foundations",
-        "label": "The Mathematical Architecture: Non-Linear Dynamics",
-        "description": "The language of sync was forged by pioneering mathematicians who dared to abandon comfortable linear approximations.\nBy modeling systems on multidimensional toruses and phase spaces, they revealed the universal bifurcation thresholds where order crystallizes out of chaos.",
+        "label": "The Math of Sync",
+        "description": "Mathematicians built equations to explain sudden order.\nThey showed how simple rules trigger sudden group harmony.",
         "children": [
           {
             "id": "wiener-conjecture",
-            "label": "Norbert Wiener and Brainwave Sync",
-            "description": "Cybernetics pioneer Norbert Wiener suspected in the 1950s that alpha brainwaves were the signature of billions of firing neurons synchronizing like musical instruments.\nAlthough his mathematical toolset was too linear to crack the problem, his intuitive vision laid the theoretical tracks for modern network neuroscience.",
+            "label": "Tracking Brain Waves",
+            "description": "Norbert Wiener believed brain waves come from firing neurons.\nHis ideas inspired modern brain and network science.",
             "children": [
               {
                 "id": "limit-cycles",
-                "label": "Limit Cycles and Non-Linear Oscillators",
-                "description": "Unlike frictionless mathematical pendulums whose swings depend on their initial push, real-world biological oscillators rely on self-sustaining limit cycles.\nThey possess an internal engine that pulls them back to a fixed rhythm and amplitude, shaking off external disturbances with robust resilience."
+                "label": "Self-Correcting Rhythms",
+                "description": "Living rhythms have built-in stability.\nIf bumped off track, they quickly return to their pace."
               }
             ]
           },
           {
             "id": "kuramoto-model",
-            "label": "Yoshiki Kuramoto\u2019s Master Equation",
-            "description": "In 1975, Japanese physicist Yoshiki Kuramoto synthesized centuries of intuition into an elegant, solvable mathematical equation of coupled phase oscillators.\nHe proved that when the coupling strength between oscillators exceeds a critical mathematical threshold, a sudden phase transition erupts from disorder into global sync.",
+            "label": "The Kuramoto Formula",
+            "description": "Yoshiki Kuramoto wrote an equation for matching rhythms.\nHe showed how order suddenly appears once connections strengthen.",
             "children": [
               {
                 "id": "critical-coupling-threshold",
-                "label": "The Critical Coupling Threshold (K_c)",
-                "description": "Below a distinct coupling strength, diversity wins: oscillators march to their own idiosyncratic, natural frequencies in scattered disharmony.\nOnce the interaction strength crosses the critical point K_c, mutual pulling overpowers individual differences, causing macroscopic order to spontaneously ignite."
+                "label": "The Tipping Point",
+                "description": "Weak ties let things wander in their own rhythms.\nPast a critical strength, the whole group snaps together."
               },
               {
                 "id": "order-parameter",
-                "label": "The Complex Order Parameter",
-                "description": "Kuramoto represented collective synchronization using a rotating complex vector that sums up every oscillator's position on the unit circle.\nIts magnitude scales from zero for total chaotic randomness to one for complete, unison coherence, mirroring order parameters found in thermodynamic phase transitions."
+                "label": "Measuring Group Harmony",
+                "description": "A single number measures how aligned a system is.\nZero means total chaos, while one means perfect unison."
               }
             ]
           },
           {
             "id": "winfree-phase-models",
-            "label": "Arthur Winfree\u2019s Geometric Insights",
-            "description": "Biologist Arthur Winfree revolutionized theoretical biology by visualizing oscillators as geometric rings distorted in high-dimensional phase space.\nHe discovered that every biological pacemaker possesses a vulnerable phase where even a tiny perturbation can completely erase its rhythm.",
+            "label": "Winfree's Geometric Shapes",
+            "description": "Arthur Winfree used circular shapes to map rhythms.\nHe found weak spots where a rhythm can stop completely.",
             "children": [
               {
                 "id": "phase-singularity",
-                "label": "Phase Singularities and Black Holes",
-                "description": "Winfree demonstrated that inside the heart of every rhythmic system lies an inescapable topological singularity\u2014a state of zero amplitude where phase becomes undefined.\nNudging an oscillator into this singular point abolishes its rhythm, a mathematical reality underlying sudden cardiac death."
+                "label": "The Rhythm Black Hole",
+                "description": "Every cycle has a dead center where timing vanishes.\nA shock at this moment can stop a beating heart."
               }
             ]
           }
@@ -1406,47 +1406,47 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       },
       {
         "id": "human-network-sync",
-        "label": "Human and Societal Sync: The Dance of Crowds",
-        "description": "Human beings are intensely social oscillators whose footsteps, applause, and market decisions constantly tune into one another.\nWhen environmental architectures inadvertently channel collective feedback, astonishing emergent behaviors\u2014both wondrous and catastrophic\u2014take over the stage.",
+        "label": "Sync in Human Crowds",
+        "description": "People constantly copy the rhythms of others.\nOur steps, claps, and choices easily fall into lockstep.",
         "children": [
           {
             "id": "millennium-bridge",
-            "label": "The Millennium Bridge Wobble",
-            "description": "On opening day in London in June 2000, the high-tech Millennium footbridge began swaying violently from side to side under pedestrian traffic.\nUnbeknownst to engineers, the crowd had accidentally fallen into a positive feedback loop: to stay upright on the swaying deck, walkers adjusted their strides in unison, amplifying the sway exponentially.",
+            "label": "The Wobbling Bridge",
+            "description": "A London footbridge began swaying heavily on opening day.\nPedestrians accidentally matched their steps to the bridge's sway.",
             "children": [
               {
                 "id": "lateral-footfall-feedback",
-                "label": "Lateral Footfall Coupling",
-                "description": "Human walking exerts a natural lateral force at roughly one hertz, perfectly matching the bridge's subtle foundational wobble mode.\nThe bridge acted as a mechanical coupling medium, forcing hundreds of strangers into unintentional lockstep sync within minutes."
+                "label": "Matching Footsteps",
+                "description": "Walkers stepped wider to stay upright on the moving deck.\nThis made the bridge shake even harder."
               },
               {
                 "id": "retrofitting-dampers",
-                "label": "Viscous Dampers and De-Synchronization",
-                "description": "Engineers cured the terrifying wobble not by stiffening the structure, but by installing fluid viscous dampers that absorbed energy at specific frequencies.\nBy dissipating the mechanical conversation before it could couple walkers together, they permanently broke the bridge's emergent lockstep loop."
+                "label": "Shock Absorbers",
+                "description": "Engineers installed shock absorbers under the deck.\nThis soaked up the motion and broke the feedback loop."
               }
             ]
           },
           {
             "id": "rhythmic-applause",
-            "label": "Rhythmic Applause in Concert Halls",
-            "description": "Audiences at European classical concerts frequently shift back and forth between thunderous, chaotic clapping and slow, synchronized unison clapping.\nThis cultural ritual demonstrates how human groups balance emotional enthusiasm with an innate subconscious pull toward acoustic synchronization.",
+            "label": "Clapping in Unison",
+            "description": "Concert crowds drift between wild clapping and slow unison.\nPeople naturally try to match the beat around them.",
             "children": [
               {
                 "id": "tempo-doubling-tradeoff",
-                "label": "The Enthusiasm vs. Coherence Tradeoff",
-                "description": "To achieve synchronization, individuals must slow their clapping frequency down by half to reduce timing variability and track their neighbors' beats.\nWhen enthusiasm peaks, people speed back up, destroying collective acoustic sync in favor of high-energy individual noise."
+                "label": "Speed Versus Harmony",
+                "description": "To clap together, people must slow down their hands.\nFast, excited clapping quickly breaks the shared rhythm."
               }
             ]
           },
           {
             "id": "power-grid-sync",
-            "label": "Continental Power Grid Stability",
-            "description": "Continental electrical power grids represent the largest interconnected machines ever constructed, linking thousands of gigantic spinning turbine generators across thousands of miles.\nEvery single generator must spin in absolute phase lockstep at fifty or sixty hertz, because even a minor phase divergence can trigger catastrophic cascaded blackouts.",
+            "label": "Giant Power Grids",
+            "description": "Huge power turbines across whole continents must spin together.\nA small slip in timing can cause massive blackouts.",
             "children": [
               {
                 "id": "grid-phase-lag",
-                "label": "Load Surges and Phase Drift",
-                "description": "When an entire city turns on air conditioning units simultaneously, local power generators slow down under the immense mechanical drag.\nNeighboring generators attempt to pump surplus current into the breach, risking overload and cascading trip-wire shutdowns if phase margins are exceeded."
+                "label": "Sudden Power Drains",
+                "description": "When air conditioners switch on, spinning generators drag.\nNeighboring plants can overload trying to carry the load."
               }
             ]
           }
@@ -1454,52 +1454,52 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
       },
       {
         "id": "complex-frontiers",
-        "label": "Complex Networks and the Frontiers of Chaos",
-        "description": "In the modern era, sync theory expanded into the intricate topologies of small-world networks, quantum entanglement, and the edge of chaos.\nSynchrony is no longer just about identical pacemakers in a soup\u2014it is the governing dynamic of complex systems that balance flexibility with cohesion.",
+        "label": "Frontiers of Chaos",
+        "description": "New science looks at sync across networks and chaos.\nIt explains how complex systems stay connected yet flexible.",
         "children": [
           {
             "id": "small-world-networks",
-            "label": "Watts-Strogatz Small-World Networks",
-            "description": "Duncan Watts and Steven Strogatz discovered that rewiring a tiny fraction of local connections into long-range shortcuts creates a 'small-world' architecture.\nThese networks exhibit high local clustering yet surprisingly short path lengths, dramatically lowering the threshold required for global synchronization.",
+            "label": "Small World Networks",
+            "description": "A few long-distance connections link distant local groups.\nThis makes information and rhythms spread across the world fast.",
             "children": [
               {
                 "id": "six-degrees-coupling",
-                "label": "Shortcuts and Super-Spreaders",
-                "description": "Just a handful of random cross-cutting highway links allow local clusters of oscillators to talk across vast topological distances.\nThis topological leap explains how rumors, viral pathogens, and electrical oscillations cascade across the globe with terrifying velocity."
+                "label": "Shortcuts Between Hubs",
+                "description": "Shortcuts let separate clusters talk to each other.\nThis explains how news and viruses spread so quickly."
               },
               {
                 "id": "brain-network-efficiency",
-                "label": "Modular Small Worlds in the Human Brain",
-                "description": "The human cortex strikes an exquisite structural compromise by organizing into densely linked local modules woven together by long-range white matter tracts.\nThis small-world architecture enables specialized regional computation while facilitating lightning-fast global synchronization during conscious thought."
+                "label": "Brain Wiring Design",
+                "description": "The brain links local patches with fast express highways.\nThis lets distant brain regions sync up during thought."
               }
             ]
           },
           {
             "id": "chaos-synchronization",
-            "label": "Synchronizing Chaotic Systems",
-            "description": "Chaos was traditionally celebrated for its extreme sensitivity to initial conditions\u2014the famous butterfly effect where even identical trajectories diverge exponentially.\nIn the early 1990s, physicists Pecora and Carroll shocked the scientific community by demonstrating that two chaotic systems could be tied together to fluctuate in identical chaos.",
+            "label": "Syncing Chaotic Systems",
+            "description": "Chaotic systems are notoriously wild and unpredictable.\nYet two chaotic systems can be linked to act identical.",
             "children": [
               {
                 "id": "strange-attractor-tracking",
-                "label": "Strange Attractor Phase Tracking",
-                "description": "When a signal from a master chaotic system drives a twin slave system, the slave's trajectory collapses onto the identical strange attractor.\nEven though their trajectory is mathematically erratic and fundamentally unpredictable, both systems dance across the strange attractor in eerie, mirrored unison."
+                "label": "Matching Wild Paths",
+                "description": "A leader signal forces a follower into the same path.\nBoth move unpredictably, but they match each other exactly."
               },
               {
                 "id": "secure-communications",
-                "label": "Chaos Masking for Cryptography",
-                "description": "Engineers harness synchronized chaos to conceal secret communications by burying faint signals within broad-spectrum chaotic electrical static.\nAn unauthorized eavesdropper hears only meaningless broadband noise, but a receiver running an identical synchronized chaotic circuit can cleanly subtract the chaos and extract the message."
+                "label": "Hiding Secret Messages",
+                "description": "Engineers hide private data inside chaotic electronic noise.\nThe matching receiver easily cancels the noise to read it."
               }
             ]
           },
           {
             "id": "quantum-sync",
-            "label": "Quantum Sync: Bose-Einstein Condensation",
-            "description": "At the sub-nanokelvin threshold, millions of individual gas atoms shed their private identities and coalesce into a single super-atom known as a Bose-Einstein Condensate.\nThis state represents the ultimate microscopic victory of synchrony, where matter waves overlap into a singular, macroscopic quantum entity.",
+            "label": "Quantum Super Atoms",
+            "description": "Deeply chilled atoms blend into one giant super-atom.\nAll the separate particles act as a single wave.",
             "children": [
               {
                 "id": "cosmic-order-emergence",
-                "label": "The Universal Drive Toward Coherence",
-                "description": "From subatomic Cooper pairs to the synchronous rotation of moons locking their faces toward parent planets, nature exhibits an unquenchable drive toward coherence.\nSynchronization is not an anomaly carved out of universal entropy, but the spontaneous signature of an intensely interconnected cosmos."
+                "label": "Nature's Pull Together",
+                "description": "From atoms to orbiting moons, the universe leans toward order.\nSync is how our connected world naturally behaves."
               }
             ]
           }

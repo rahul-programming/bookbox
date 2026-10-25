@@ -70,7 +70,7 @@ export const StashBoardsView: React.FC<StashBoardsViewProps> = ({ onOpenStashMod
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-6 w-full max-w-full overflow-hidden">
+    <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-6 w-full max-w-full overflow-x-hidden">
       
       {/* Detail View of a specific board */}
       {selectedBoard ? (

@@ -1,5 +1,5 @@
 // Sources of Power by Gary Klein
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -758,169 +758,169 @@ export const SOURCES_OF_POWER_BOOK: Book = {
   "actionItems": [
     {
       "id": "sources-of-power-act-1",
-      "title": "First-Workable-Option Smoke Test",
-      "description": "Stop stalling behind exhaustive option comparisons. Under operational time pressure, evaluate the single most obvious action against real-world friction. If it does not fail catastrophically, execute immediately.",
+      "title": "Pick First Working Idea",
+      "description": "Stop comparing endless choices when under pressure. Test your first good idea quickly, then act.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Isolate the single most immediate viable course of action that comes to mind.",
-        "Mentally simulate the execution: identify the fatal failure point in step one.",
-        "If no fatal friction appears, approve the option without reviewing alternatives.",
-        "Initiate implementation immediately to preserve decision momentum."
+        "1. Pick the first sensible idea that comes to mind.",
+        "2. Picture how you will carry out the first step.",
+        "3. Check for any obvious showstopper that could ruin it.",
+        "4. Start right away if you spot no major trouble."
       ],
       "sourceChapter": "Chapter 3"
     },
     {
       "id": "sources-of-power-act-2",
-      "title": "The 10-Minute Pre-Mortem Strike",
-      "description": "Expose systemic blind spots before committing capital or reputation. Assume total operational collapse has already occurred and work backward to isolate the fatal vulnerability.",
+      "title": "Ten-Minute Failure Drill",
+      "description": "Spot hidden traps before you launch your project. Pretend the plan failed completely, then find the cause.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Assemble the core project owners and declare: 'It is six months from now, and the project has suffered absolute disaster.'",
-        "Set a 3-minute silent timer: every participant writes down distinct mechanisms that caused the death spiral.",
-        "Go around the table and collect every failure cause without debate or defensive rationalization.",
-        "Identify the top two structural risks and assign immediate hardening countermeasures."
+        "1. Gather your team and say the project failed badly.",
+        "2. Take three quiet minutes to write failure reasons down.",
+        "3. Collect every reason on a board without arguing.",
+        "4. Fix the two biggest danger spots right away."
       ],
       "sourceChapter": "Chapter 6"
     },
     {
       "id": "sources-of-power-act-3",
-      "title": "Daily Critical Cue Calibration",
-      "description": "Sharpen perceptual recognition of subtle operational shifts before they compound into obvious crises. Build the habit of noticing what is deviating from baseline conditions.",
+      "title": "Spot Daily Warning Signs",
+      "description": "Catch tiny warning signs before they turn into huge emergencies. Notice small changes that feel slightly off.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Review key work streams each morning and establish the expected baseline patterns for the day.",
-        "Record 1 to 2 weak signals or anomalies observed in today's metrics, team latency, or vendor friction.",
-        "Assess whether the variance matches a known emerging operational pattern.",
-        "Adjust today's tactical posture before the anomaly turns into an explicit disruption."
+        "1. Check your work priorities each morning before starting tasks.",
+        "2. Note one odd delay or strange number today.",
+        "3. Ask yourself if this matches an old problem.",
+        "4. Fix the small issue before it blows up."
       ],
       "sourceChapter": "Chapter 4"
     },
     {
       "id": "sources-of-power-act-4",
-      "title": "Mental Simulation Friction Run",
-      "description": "Test planned moves against operational reality before deployment. Replace static checklists with dynamic mental simulations that pressure-test sequence, timing, and dependencies.",
+      "title": "Mental Plan Walkthrough",
+      "description": "Run through your plan in your head first. Spot bottlenecks before they happen in real life.",
       "category": "daily-routine",
       "timeEstimateMinutes": 12,
       "stepByStep": [
-        "Select your high-stakes operational decision or deployment planned for today.",
-        "Step through execution frame by frame: personnel, handover points, third-party dependencies, and latency.",
-        "Spot where human error, handoff lag, or system limits will distort the plan.",
-        "Modify the plan to engineer out the single most fragile dependency."
+        "1. Pick one big task planned for later today.",
+        "2. Picture each step and person involved in order.",
+        "3. Look for where handoffs or people might lag.",
+        "4. Tweak your plan to protect that weak spot."
       ],
       "sourceChapter": "Chapter 5"
     },
     {
       "id": "sources-of-power-act-5",
-      "title": "Intent-Centered Briefing Protocol",
-      "description": "Eliminate micromanagement bottlenecks by communicating the commander's intent. Give teams the bounded autonomy to adapt tactics dynamically when friction destroys the static plan.",
+      "title": "Explain The Real Goal",
+      "description": "Tell your team the main goal clearly. Give them freedom to adapt if plans break.",
       "category": "daily-routine",
       "timeEstimateMinutes": 8,
       "stepByStep": [
-        "State the non-negotiable end-state goal in a single, unambiguous sentence.",
-        "Detail the why behind the objective, explicitly defining what success looks like.",
-        "Define operational constraints and hard boundaries that must not be breached.",
-        "Instruct operators: if the initial plan breaks on contact, modify tactics freely to secure the end state."
+        "1. State the final goal in one simple sentence.",
+        "2. Explain why this specific goal matters to everyone.",
+        "3. Share clear boundaries that no one should cross.",
+        "4. Let people change tactics to hit the goal."
       ],
       "sourceChapter": "Chapter 14"
     },
     {
       "id": "sources-of-power-act-6",
-      "title": "Ambient Information Streamline",
-      "description": "Strip out telemetry noise that masks critical operational cues. High-stress environments demand low-friction dashboards that reveal anomalies instantly rather than burying operators in vanity metrics.",
+      "title": "Clean Up Your Screen",
+      "description": "Remove noisy alerts that hide critical details. Keep your workspace focused on vital signs only.",
       "category": "environment",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Audit every dashboard, ping channel, and monitor in your active workspace.",
-        "Remove secondary reporting metrics that provide zero real-time diagnostic value.",
-        "Position the primary canary metrics directly into the central line of sight.",
-        "Establish unambiguous threshold alerts that trigger immediate investigation without manual polling."
+        "1. Check every notification and chart on your screen.",
+        "2. Turn off vanity metrics that help no decisions.",
+        "3. Put key warning indicators right in front.",
+        "4. Set loud alerts for only the biggest issues."
       ],
       "sourceChapter": "Chapter 12"
     },
     {
       "id": "sources-of-power-act-7",
-      "title": "The 'Missing Cue' Physical Check",
-      "description": "Engineer a physical workspace check to detect what is NOT happening. Expert recognition depends equally on detecting conspicuous absences that signal hidden danger.",
+      "title": "Spot What Is Missing",
+      "description": "Train yourself to spot what did not happen. Missing sounds or steps often mean trouble ahead.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Post a physical cue card at your station: 'What expected noise, latency, or friction is missing?'",
-        "At midpoint checkpoints, scan the operation for eerie silences or absent verification steps.",
-        "Treat missing customary friction as a red flag that downstream steps are being skipped or suppressed.",
-        "Verify underlying execution before authorizing further progression."
+        "1. Put a sticky note asking what is missing.",
+        "2. Pause halfway through work to look for silence.",
+        "3. Check if someone skipped a step by mistake.",
+        "4. Confirm the basic work before moving forward."
       ],
       "sourceChapter": "Chapter 7"
     },
     {
       "id": "sources-of-power-act-8",
-      "title": "Critical Decision Method (CDM) Retrospective",
-      "description": "Deconstruct recent operational choices to build genuine institutional memory. Replace vague blame sessions with forensic cognitive audits of critical turning points.",
+      "title": "Past Decision Review",
+      "description": "Review a recent tough call to learn lessons. Find out what people actually saw and thought.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Pick a recent unexpected failure, high-stakes save, or anomalous project outcome.",
-        "Construct an objective timeline identifying key pivot points where an active decision was made.",
-        "Audit the decision-maker's mental state at each pivot: what cues were visible, what expectations failed, and what options were evaluated?",
-        "Extract the tacit knowledge rule and add it to your team's tactical playbook."
+        "1. Pick a surprise mistake or a close call.",
+        "2. Draw a timeline of every key choice made.",
+        "3. Ask what clues the leader noticed back then.",
+        "4. Write down the main lesson for future work."
       ],
       "sourceChapter": "Chapter 11"
     },
     {
       "id": "sources-of-power-act-9",
-      "title": "Expert vs. Novice Cue Gap Audit",
-      "description": "Expose the delta between how top performers perceive operational reality versus how standard procedures dictate it. Discover uncodified perceptual advantages.",
+      "title": "Shadow The Senior Expert",
+      "description": "Learn hidden tricks that top performers use daily. See how masters work faster than written rules.",
       "category": "audit",
       "timeEstimateMinutes": 40,
       "stepByStep": [
-        "Select a critical workflow currently reliant on formal SOPs or junior execution.",
-        "Shadow a master operator and document the exact cues, sounds, and rhythms they rely on to anticipate trouble.",
-        "Compare those informal cues against the formal written documentation.",
-        "Codify the top 3 unwritten perceptual rules into immediate training drills."
+        "1. Pick a hard task beginners struggle with often.",
+        "2. Watch an expert work and write down clues.",
+        "3. Compare their habits against the official guide.",
+        "4. Share their top three tricks with the team."
       ],
       "sourceChapter": "Chapter 10"
     },
     {
       "id": "sources-of-power-act-10",
-      "title": "Recognition-Primed Decision (RPD) Escalation Ladder",
-      "description": "Build an organizational filter that prevents analysis paralysis on routine calls while preserving deep cognitive capacity for genuine novel anomalies.",
+      "title": "Split Decisions In Two",
+      "description": "Sort easy choices from tricky ones quickly. Decide simple things fast and save deep thinking.",
       "category": "system",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "Categorize recurring operational decisions into Tier 1 (Pattern-Matched) and Tier 2 (Novel Ambiguity).",
-        "Mandate the Singular Evaluation protocol for Tier 1: act on the first viable plan without comparative bake-offs.",
-        "Establish an automatic tripwire for Tier 2: when anomalies contradict baseline expectations, halt execution for deep scenario simulation.",
-        "Enforce clear decision ownership so consensus-seeking never delays time-critical moves."
+        "1. Mark repeated choices as simple and new ones as rare.",
+        "2. Take the first working idea on simple tasks.",
+        "3. Pause to think deeply only on rare problems.",
+        "4. Name one owner so choices move forward fast."
       ],
       "sourceChapter": "Chapter 2"
     },
     {
       "id": "sources-of-power-act-11",
-      "title": "Tactical Decision Games (TDG) Training Loop",
-      "description": "Inoculate your team against crisis paralysis by building an experiential library through rapid, high-friction scenario simulations under tight time constraints.",
+      "title": "Run Fast Crisis Games",
+      "description": "Practice fast decisions using short fake emergencies. Build team confidence without risking real mistakes.",
       "category": "system",
       "timeEstimateMinutes": 35,
       "stepByStep": [
-        "Draft a 1-page realistic crisis scenario with incomplete information and conflicting signals.",
-        "Give the designated decision-maker 3 minutes to read and commit to a tactical order.",
-        "Force the operator to articulate the rationale: critical cues spotted, mental simulation run, and intent.",
-        "Run an immediate 10-minute critique on the cognitive process, not the outcome."
+        "1. Write a short story about a surprise problem.",
+        "2. Give one teammate three minutes to choose action.",
+        "3. Ask them why they picked that specific path.",
+        "4. Talk about their thinking rather than the outcome."
       ],
       "sourceChapter": "Chapter 13"
     },
     {
       "id": "sources-of-power-act-12",
-      "title": "Team Mind Representation Matrix",
-      "description": "Construct shared mental models across cross-functional units so operators can accurately predict teammates' moves without continuous communication overhead.",
+      "title": "Align The Team Mindset",
+      "description": "Help teammates understand how other roles think. Good teams know what others need without asking.",
       "category": "system",
       "timeEstimateMinutes": 50,
       "stepByStep": [
-        "Map key interdependencies across your operational teams during high-stress deployments.",
-        "Define explicit cross-functional expectations: what each role must anticipate from adjacent roles.",
-        "Implement non-verbal signaling protocols and standardized status pulses for fast synchronization.",
-        "Stress-test the system quarterly by cutting standard communications to measure coordination resilience."
+        "1. List who depends on whom during busy times.",
+        "2. Clarify what each person expects from their neighbor.",
+        "3. Use quick shared signals for routine project updates.",
+        "4. Practice a quiet drill without usual chat channels."
       ],
       "sourceChapter": "Chapter 15"
     }
@@ -1097,10 +1097,10 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       "author": "Gary Klein",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Recognition-Primed Decision (RPD)",
-      "body": "Experts rarely compare options.\nUnder pressure, they recognize a situation as typical, recall a workable operational response, and mentally simulate its execution before taking action.\nSatisficing beats optimizing when speed and volatility dominate.",
+      "headline": "Quick Pattern Decisions",
+      "body": "Experts rarely compare long lists of choices.\nInstead, they quickly spot a familiar pattern.\nThey picture the first good idea working in their mind.",
       "quote": "The paradox is that developing a large repertoire of experiences enables people to make rapid decisions without having to choose among alternatives.",
-      "actionItem": "Eliminate multi-option decision matrices for experienced operators in familiar domains; empower them to execute their first viable model.",
+      "actionItem": "Stop making experienced workers fill out long comparison charts.\nTrust them to run with their first workable idea.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1118,10 +1118,10 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       "author": "Gary Klein",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Mental Simulation as Flight Simulator",
-      "body": "Before enacting a plan, veteran strategists play the script forward in their mind, probing for friction, mechanical bottlenecks, and adversarial responses.\nIf it snags, they modify it; if it breaks entirely, they discard it for the next prototype.",
+      "headline": "Mental Flight Simulator",
+      "body": "Good leaders play out a plan in their mind first.\nThey look for hidden traps before taking action.\nIf a step breaks, they fix it right away.",
       "quote": "Mental simulation is the ability to imagine people and objects consciously and to transform those people and objects through several transitions.",
-      "actionItem": "Run a dynamic mental walkthrough of your strategy's operational steps; locate the single step where friction exceeds capacity.",
+      "actionItem": "Walk through your plan step-by-step in your head.\nFind the one step most likely to cause trouble.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1139,10 +1139,10 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       "author": "Gary Klein",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Seeing the Invisible: Perceptual Cues",
-      "body": "True domain mastery is perceptual, not analytical.\nExperts detect subtle affordances, missing signals, and impending trajectory shifts that leave zero footprint on analytical spreadsheets and dashboards.",
+      "headline": "Spotting What Is Missing",
+      "body": "True skill is about noticing what others miss.\nExperts spot subtle clues and quiet warnings.\nCharts and spreadsheets often miss these tiny signs completely.",
       "quote": "Experts see what is not there. They notice absences, anomalies, and expectancies that fail to materialize.",
-      "actionItem": "Catalog the dog-that-didn't-bark signals in your industry: what routine patterns failing to happen should trigger an alarm?",
+      "actionItem": "List the normal events that should happen every week.\nAsk what it means if one fails to occur.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1160,10 +1160,10 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       "author": "Gary Klein",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "The Pre-Mortem Exercise",
-      "body": "Overcome collective optimism bias by legitimizing dissent upfront.\nTell the team: Imagine we are five years into the future and this plan has collapsed in total disaster.\nSpend ten minutes writing the definitive autopsy.",
+      "headline": "The Pre-Mortem Test",
+      "body": "People often hide their real doubts to be polite.\nPretend your project has already failed five years from now.\nHave the team write down what went wrong.",
       "quote": "The Pre-Mortem technique gives team members permission to voice doubts that had been suppressed by social cohesion and optimism.",
-      "actionItem": "Convene project stakeholders today, declare the initiative dead in six months, and compel every lead to submit two hidden kill-factors.",
+      "actionItem": "Gather your team and pretend your project died today.\nAsk everyone to write down two big hidden risks.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1181,10 +1181,10 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       "author": "Gary Klein",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Leverage Points Over Force",
-      "body": "Brute force wastefully consumes reserves.\nTactical intuition searches for unexploited leverage points: small, non-obvious intervention points within an impasse that alter structural mechanics in your favor.",
+      "headline": "Find the Leverage Point",
+      "body": "Pushing harder against a wall just wastes energy.\nInstead, look for small spots that make a big difference.\nOne tiny change can unlock the whole problem.",
       "quote": "A leverage point is an opportunity to transform the situation. It is the beginning of a novel approach.",
-      "actionItem": "Cease scaling headcount or budget against a stagnant obstacle; audit system dependencies to locate the operational fulcrum instead.",
+      "actionItem": "Stop throwing more money and people at stuck projects.\nLook for the one small bottleneck holding everything back.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1202,10 +1202,10 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       "author": "Gary Klein",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Fallacy of Formal Optimization",
-      "body": "Rational-choice theory posits that decision makers evaluate all alternatives across weighted parameters.\nIn dynamic, high-stakes operational environments, this method induces paralysis and guarantees fatal obsolescence.",
+      "headline": "Analysis Can Paralyze You",
+      "body": "Comparing every single choice takes too long in emergencies.\nFast-moving problems change before you finish your math.\nWaiting for perfect data leads to failure.",
       "quote": "The formal analytical approach works only when the problem is well structured, time is plentiful, and the operational variables are static.",
-      "actionItem": "Restrict multi-attribute scoring matrices to static, low-velocity procurement decisions where variables do not fluctuate dynamically.",
+      "actionItem": "Use complex comparison sheets only for slow, simple purchases.\nWhen things move fast, pick a solid option quickly.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1223,10 +1223,10 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       "author": "Gary Klein",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Distill Commander's Intent",
-      "body": "Micromanaging actions breeds operational brittle failure under chaos.\nLeaders must articulate core intent: why the mission matters, critical objectives, boundaries of acceptable risk, and the definition of victory.",
+      "headline": "State the Main Goal",
+      "body": "Telling people every little step makes them freeze in chaos.\nGreat leaders explain why the goal matters instead.\nTeams need clear freedom to solve problems on their own.",
       "quote": "To reduce confusion in ambiguous environments, commanders must convey intent rather than prescribe detailed procedural steps.",
-      "actionItem": "Condense your current directive into three lines: Strategic Objective, Unacceptable Risks, and Autonomous Boundaries.",
+      "actionItem": "Write down the main goal in two plain sentences.\nGive your team room to pick the best path.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1244,10 +1244,10 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       "author": "Gary Klein",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Intuition Is Compressed Experience",
-      "body": "Intuition is not supernatural prescience; it is the instantaneous perception of complex patterns forged through thousands of cycles of high-stakes exposure, feedback, and consequence.",
+      "headline": "Intuition Is Stored Experience",
+      "body": "Gut feelings are not magic or lucky guesses.\nThey come from seeing the same problems many times.\nPractice turns past lessons into quick real-world judgment.",
       "quote": "Intuition is not mystical. It is the translation of experience into judgment and decisive action.",
-      "actionItem": "Accelerate operator development by running intensive decision-making scenarios (DMS) rather than lecturing on abstract theory.",
+      "actionItem": "Train your team with rapid real-world scenarios.\nHands-on drills teach faster than abstract slide decks.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1265,10 +1265,10 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       "author": "Gary Klein",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Constructing Common Ground",
-      "body": "Operational friction spikes when teammates believe they share assumptions but operate from divergent mental models.\nTrue coordination demands continuous cross-checking of critical expectations and reference frames.",
+      "headline": "Building Common Ground",
+      "body": "Teams fail when people assume they agree on the facts.\nSmall misunderstandings grow into huge mistakes under pressure.\nGreat teammates talk often to stay on the same page.",
       "quote": "Team coordination breaks down not because members fail to perform tasks, but because they lose common ground regarding the operating situation.",
-      "actionItem": "Before high-risk execution, test alignment by asking two cross-functional leads to articulate the current threat in their own words.",
+      "actionItem": "Ask two teammates to describe today's main problem.\nCheck whether their stories match before moving ahead.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1286,10 +1286,10 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       "author": "Gary Klein",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Satisficing Over Maximizing",
-      "body": "In non-ergodic environments, searching for the theoretically optimal answer wastes scarce time and increases vulnerability.\nIdentifying the first workable option that clears tactical thresholds yields asymmetric competitive advantage.",
+      "headline": "First Good Option Wins",
+      "body": "Searching for the absolute best choice wastes precious time.\nIn fast situations, pick the first workable plan instead.\nA good move today beats a perfect move tomorrow.",
       "quote": "The decision maker selects the first workable option, not necessarily the best option, because the search for the optimal choice carries fatal overhead.",
-      "actionItem": "Define explicit satisfactory criteria for your current blocker, select the first course of action meeting them, and execute immediately.",
+      "actionItem": "Decide what a good enough solution looks like today.\nTake the first option that meets your basic checklist.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1307,10 +1307,10 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       "author": "Gary Klein",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Extract Tacit Knowledge Via Critical Incidents",
-      "body": "Abstract interviews fail to capture how veterans actually navigate crises.\nUse the Critical Decision Method: walk through an actual critical event in chronological sweeps, probing cues, uncertainties, and alternative paths considered.",
+      "headline": "Learn From Tough Calls",
+      "body": "General questions rarely show how experts think.\nAsk them to walk through one hard crisis step-by-step.\nReal stories reveal the tiny clues that saved the day.",
       "quote": "To elicit expertise, do not ask people how they generally make decisions; ask them about specific, difficult cases that pushed their skills to the limit.",
-      "actionItem": "Debrief your top performer on their hardest operational save last quarter; document the exact sensory indicators that signaled the turning point.",
+      "actionItem": "Interview a top worker about their toughest save.\nAsk what small clue told them trouble was coming.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1328,10 +1328,10 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       "author": "Gary Klein",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Problem Framing Precedes Problem Solving",
-      "body": "Amateurs jump straight to tactical remedies.\nSeasoned leaders realize that the way a problem is framed dictates which mental models are retrieved.\nIf your diagnostic frame is warped, flawless execution simply accelerates failure.",
+      "headline": "Name the Right Problem",
+      "body": "Beginners rush to fix symptoms without thinking.\nIf you define the problem wrong, your fix will fail.\nSpend time understanding what is really going on first.",
       "quote": "When people are working on ill-defined problems, solving the problem means clarifying what the problem actually is.",
-      "actionItem": "Write down three competing diagnostic frames for your team's current impasse before approving any capital allocation.",
+      "actionItem": "Write down three different ways to describe your biggest blocker.\nPick the root cause before spending money.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1349,10 +1349,10 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       "author": "Gary Klein",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Fragility of Prescriptive Rules",
-      "body": "Checklists and Standard Operating Procedures provide a baseline of competence, but they cannot govern chaotic or unprecedented conditions.\nUnthinking adherence to procedure blinds teams to emerging structural shifts.",
+      "headline": "Rules Can Trap You",
+      "body": "Checklists help beginners avoid basic mistakes.\nBut strict rules fail when strange surprises happen.\nPeople must be allowed to use common sense in emergencies.",
       "quote": "Procedures are crutches for novices; for experts facing genuine anomalies, rigid procedures become straightjackets.",
-      "actionItem": "Audit corporate standard operating procedures to identify where adherence to compliance protocols forbids operators from executing sensible judgment.",
+      "actionItem": "Review your company rulebook this week.\nFind one rigid rule that stops staff from using good judgment.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1370,10 +1370,10 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       "author": "Gary Klein",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Expectancy Violation as Early Warning",
-      "body": "Seasoned intuition continually monitors background operations for violations of expectancy.\nWhen a parameter deviates even slightly from the anticipated sequence, it is an urgent diagnostic signal that the mental model is flawed.",
+      "headline": "Surprise Is a Warning",
+      "body": "Pay close attention whenever something feels off.\nA small surprise means your picture of the world is wrong.\nPause and rethink before small slips become big disasters.",
       "quote": "Surprise is an invaluable cue. It warns us that our mental model is failing to track reality and demands immediate revision.",
-      "actionItem": "Establish a low-threshold reporting protocol for team members to flag operational surprises, regardless of whether the initial result was positive or negative.",
+      "actionItem": "Encourage teammates to speak up whenever anything unexpected happens.\nTreat every surprise as an early warning.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1391,10 +1391,10 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       "author": "Gary Klein",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Design Decision-Making Games (DMGs)",
-      "body": "You cannot build intuition through passive slide decks.\nForce accelerated pattern recognition by presenting teams with incomplete, ambiguous scenarios, imposing extreme time constraints, and demanding an immediate, decisive operational call.",
+      "headline": "Run Decision Drills",
+      "body": "Slides cannot teach people how to think on their feet.\nGive your team tricky, realistic problems with tight time limits.\nRapid practice builds real confidence and skill.",
       "quote": "We can accelerate the acquisition of experience by putting people in demanding, scenario-based exercises that compress years of learning into days.",
-      "actionItem": "Replace your next hour-long strategy review with a 20-minute, time-pressured scenario drill simulating sudden supply chain or liquidity shock.",
+      "actionItem": "Replace your next meeting with a 15-minute emergency drill.\nGive the team limited facts and demand a quick choice.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1412,10 +1412,10 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       "author": "Gary Klein",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Adaptive Expertise vs. Routine Expertise",
-      "body": "Routine expertise excels at executing standard protocols in predictable environments.\nAdaptive expertise invents novel solutions when foundational conditions morph.\nSurvival in volatile competitive markets belongs exclusively to adaptive operators.",
+      "headline": "Adapting Beats Routine",
+      "body": "Basic skills work fine when things stay calm.\nBut messy situations need people who can invent new answers.\nThe best teams adapt quickly when the rules change.",
       "quote": "The challenge is not simply to develop expertise, but to cultivate adaptive expertise that can improvise when routine methods fail.",
-      "actionItem": "Test your leadership bench by intentionally disabling a primary operating tool during a scheduled execution cycle.",
+      "actionItem": "Test your team by turning off one key tool today.\nSee how well they solve problems without it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1433,10 +1433,10 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       "author": "Gary Klein",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Metacognitive Rigor Under Threat",
-      "body": "Master strategists maintain continuous self-monitoring.\nThey track their own cognitive load, challenge their prevailing hypotheses, and know precisely when fatigue or emotional bias is distorting tactical clarity.",
+      "headline": "Watch Your Own Thinking",
+      "body": "Great thinkers notice when stress clouds their mind.\nThey stop pushing ahead when they feel tired or angry.\nTaking a short pause brings back clear judgment.",
       "quote": "Skilled decision makers monitor their own thinking. They detect when they are grasping at straws and consciously step back to re-evaluate.",
-      "actionItem": "Establish an operational rule: if a key executive exhibits signs of tunnel vision or defensive rationalization, trigger an automatic tactical timeout.",
+      "actionItem": "Call a quick five-minute timeout during stressful debates.\nLet everyone reset before making a final call.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1454,10 +1454,10 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       "author": "Gary Klein",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Progressive Deepening",
-      "body": "Faced with complex, ambiguous systems, experts do not attempt to map every layer simultaneously.\nThey selectively drill down into high-risk nodes, run a precise simulation, verify baseline viability, and ascend back to broad situational awareness.",
+      "headline": "Zoom In on Risks",
+      "body": "Do not try to solve every detail at once.\nFocus closely on the single most dangerous part of the plan.\nOnce that piece works, zoom back out to the big picture.",
       "quote": "Progressive deepening allows an operator to isolate critical vulnerabilities without losing sight of the broader competitive board.",
-      "actionItem": "Isolate the single highest-volatility assumption in your quarter roadmap; stress-test its mechanics three degrees deep while ignoring peripheral noise.",
+      "actionItem": "Pick the riskiest guess in your current project.\nTest that single part today before worrying about anything else.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1475,10 +1475,10 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       "author": "Gary Klein",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Codify Organizational Stories as Cognitive Maps",
-      "body": "Abstract directives fade; visceral narratives detailing how the organization survived catastrophe or exploited operational openings crystallize institutional memory.\nCurate detailed case accounts of real past operational rescues and failures.",
+      "headline": "Share War Stories",
+      "body": "People quickly forget dry policy rules and handbooks.\nBut they remember real stories of past close calls and wins.\nGood stories teach teams what to watch out for.",
       "quote": "Stories are powerful cognitive engines. They communicate causal linkages, context, and cues that abstract manuals cannot touch.",
-      "actionItem": "Document your firm's most painful operational disaster as an unvarnished post-mortem narrative, highlighting the exact sensory cues ignored.",
+      "actionItem": "Write a short story about your team's worst past mistake.\nShare the exact early warning signs that were missed.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1496,10 +1496,10 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       "author": "Gary Klein",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Vulnerability of Analytical Tunneling",
-      "body": "Fixation on formal data tables blinds teams to operational reality on the ground.\nWhen models diverge from physical observation, amateur analysts question the observation; seasoned commanders immediately discard the model.",
+      "headline": "Look Beyond the Screen",
+      "body": "Tidy charts can easily hide messy real-world facts.\nWhat happens on the ground matters more than what looks neat on paper.\nWhen data clashes with real life, trust real life.",
       "quote": "Data is an abstraction. The danger occurs when decision makers mistake the tidy summary on their screens for the messy reality on the ground.",
-      "actionItem": "Force desk-bound analysts to spend 48 continuous hours observing live execution on the factory floor, frontline ops, or customer desk.",
+      "actionItem": "Leave your desk and watch the frontline work today.\nSee what real friction never shows up on your dashboard.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1514,44 +1514,48 @@ export const SOURCES_OF_POWER_BOOK: Book = {
   "mindMap": {
     "id": "sources-of-power",
     "label": "Sources of Power",
-    "description": "Gary Klein's foundational masterwork dismantling formal, analytical decision models in favor of Naturalistic Decision Making (NDM).\nIt reveals how operational commanders and seasoned field experts leverage tacit knowledge, pattern recognition, and rapid mental simulation to execute decisively under extreme time pressure and asymmetric risk.",
+    "description": "How real experts make tough decisions under pressure.\nThey rely on experience, intuition, and mental shortcuts instead of lists.",
     "children": [
       {
         "id": "naturalistic-decision-making",
-        "label": "Naturalistic Decision Making (NDM)",
-        "description": "The empirical operational framework built on observing high-stakes practitioners in real-world environments like firegrounds, cockpits, and military command posts.\nIt discards exhaustive matrix comparisons, proving that survival and competitive advantage belong to those who act effectively before complete information is available.",
+        "label": "Real-World Decisions",
+        "description": "How people decide during fast, dangerous moments.\nIt shows that taking quick, good-enough action beats slow analysis.",
         "children": [
           {
             "id": "analytical-vs-naturalistic",
-            "label": "Analytical vs. Naturalistic Split",
-            "description": "Classical decision theory dictates optimizing across weighted multi-attribute decision matrices, which collapses into fatal paralysis during operational turbulence.\nNaturalistic decision making focuses on satisficing the first viable action, prioritizing immediate kinetic momentum over theoretical perfection.",
+            "label": "Analysis vs Action",
+            "description": "Comparing every option takes too long in an emergency.\nExperts pick the first workable plan to keep moving forward.",
             "children": [
               {
                 "id": "fallacy-of-rational-choice",
-                "label": "Fallacy of Rational Choice",
-                "description": "Exhaustive option comparison requires static environments, infinite time horizons, and low information entropy.\nIn contested operational arenas, this fallacy drains cognitive bandwidth and surrenders initiative to adversaries who move while you compute."
+                "label": "The Analysis Trap",
+                "description": "Weighing every choice only works when you have plenty of time.\nIn a fast crisis, overthinking wastes precious seconds.",
+                "children": []
               },
               {
                 "id": "bounded-operational-reality",
-                "label": "Bounded Operational Reality",
-                "description": "Commanders operate amidst fog, evolving friction, ill-defined boundaries, and high personal exposure.\nThe primary objective is surviving dynamic shocks, which renders textbook linear optimization functionally useless."
+                "label": "Messy Realities",
+                "description": "Real life is full of confusion, surprise, and danger.\nTextbook step-by-step methods fall apart under stress.",
+                "children": []
               }
             ]
           },
           {
             "id": "primacy-of-domain-experience",
-            "label": "Primacy of Domain Experience",
-            "description": "Expertise is not stored as abstract propositional logic, but as indexed repertoires of perceptual prototypes and causal dynamics.\nExperienced leaders bypass explicit deliberative steps because their mental apparatus immediately classifies current conditions into operational playbooks.",
+            "label": "Power of Experience",
+            "description": "Real experience builds a mental library of past events.\nThis helps veterans spot what is happening right away.",
             "children": [
               {
                 "id": "perceptual-prowess",
-                "label": "Perceptual Prowess",
-                "description": "Seasoned operators perceive what is absent just as readily as what is present, detecting anomalies that novices overlook entirely.\nThis acute sensitivity acts as an early warning tripwire against cascading systemic failures."
+                "label": "Spotting the Unusual",
+                "description": "Experts notice what is missing as well as what is there.\nThis helps them catch early warning signs others miss completely.",
+                "children": []
               },
               {
                 "id": "tacit-knowledge-leverage",
-                "label": "Tacit Knowledge Leverage",
-                "description": "Unarticulated instincts and physical pattern sensitivity form a durable competitive moat that cannot be reduced to simple standard operating manuals.\nIt enables tactical leaders to exploit fleeting windows of asymmetric opportunity."
+                "label": "Hands-On Instinct",
+                "description": "Some skills come from gut feeling and hands-on practice.\nYou cannot learn these subtle instincts from a manual alone.",
+                "children": []
               }
             ]
           }
@@ -1559,57 +1563,63 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       },
       {
         "id": "recognition-primed-decision-model",
-        "label": "Recognition-Primed Decision (RPD) Model",
-        "description": "The operational cornerstone of the book showing that experts fuse intuitive pattern matching with progressive evaluation.\nInstead of pitting multiple alternative plans against one another, practitioners recognize standard signatures and simulate a single trajectory forward to confirm feasibility.",
+        "label": "Pattern-Match Decisions",
+        "description": "The main model showing how experts act fast.\nThey recognize familiar patterns and mentally test one plan at a time.",
         "children": [
           {
             "id": "level-1-simple-match",
-            "label": "Level 1: Simple Match",
-            "description": "When incoming operational cues map cleanly to familiar archetypes, decision-making occurs almost instantaneously.\nThe commander recognizes the prototype and deploys the corresponding response script without hesitation.",
+            "label": "Simple Match",
+            "description": "The situation looks familiar right away.\nThe expert knows exactly what to do and acts instantly.",
             "children": [
               {
                 "id": "prototypic-plausibility",
-                "label": "Prototypic Plausibility",
-                "description": "The situation triggers immediate expectations about operational tempo, expected casualty vectors, and mechanical limits.\nIf reality confirms these indicators, execution continues at maximum speed."
+                "label": "Expected Clues",
+                "description": "The situation matches what you expect to see.\nIf everything looks normal, you keep moving ahead at full speed.",
+                "children": []
               },
               {
                 "id": "action-script-deployment",
-                "label": "Action-Script Deployment",
-                "description": "Pre-compiled tactical responses are executed instantly to secure tactical high ground.\nSpeed of execution starves the crisis of oxygen before complexity compounds out of control."
+                "label": "Ready-Made Responses",
+                "description": "You run a practiced routine without stopping to think.\nActing fast stops the problem before it gets out of hand.",
+                "children": []
               }
             ]
           },
           {
             "id": "level-2-diagnose-situation",
-            "label": "Level 2: Diagnostic Evaluation",
-            "description": "When anomalies disrupt standard pattern matching, the expert halts blind action to diagnose underlying system anomalies.\nThey construct retrospective stories to uncover hidden mechanical failures or deceptive tactics.",
+            "label": "Diagnosing Surprises",
+            "description": "Things do not make sense at first glance.\nThe expert pauses to figure out what is really going on.",
             "children": [
               {
                 "id": "story-building-diagnostics",
-                "label": "Story-Building Diagnostics",
-                "description": "Constructing coherent causal sequences backward in time explains anomalous sensor readouts or unexpected battlefield silence.\nThis diagnostic narrative repairs the mental model before a fatal tactical error is committed."
+                "label": "Building a Story",
+                "description": "You piece together recent events like a detective story.\nThis helps explain odd clues and prevents costly mistakes.",
+                "children": []
               },
               {
                 "id": "feature-matching-verification",
-                "label": "Feature-Matching Verification",
-                "description": "Practitioners actively cross-examine environmental cues against competing situational hypotheses.\nThey refuse to commit heavy resources until conflicting observations are resolved into a coherent operational picture."
+                "label": "Testing Clues",
+                "description": "You check what you see against different explanations.\nYou hold off on big moves until the picture makes sense.",
+                "children": []
               }
             ]
           },
           {
             "id": "level-3-mental-simulation",
-            "label": "Level 3: Mental Simulation",
-            "description": "When confronting novel or high-stakes interventions, commanders project an option forward in internal mental simulations.\nIf a friction point emerges, they adapt the maneuver; only if it breaks completely do they discard it and test the next candidate.",
+            "label": "Mental Rehearsal",
+            "description": "You imagine running your plan in your head first.\nIf you spot a snag, you tweak it before trying.",
             "children": [
               {
                 "id": "singular-evaluation",
-                "label": "Singular Sequential Evaluation",
-                "description": "Options are interrogated one by one in order of intuitive plausibility rather than stacked in concurrent horse races.\nThis conserves critical mental stamina and sharply accelerates decision tempo."
+                "label": "One Plan First",
+                "description": "You test your best idea first instead of comparing many.\nThis saves mental energy and speeds up your response.",
+                "children": []
               },
               {
                 "id": "preemptive-course-correction",
-                "label": "Preemptive Course Correction",
-                "description": "Simulated dynamic tests expose hidden failure vectors, enabling operators to patch flaws in the plan before deployment.\nThis iterative tailoring converts high-risk maneuvers into calculated operational moves."
+                "label": "Fixing Snags Early",
+                "description": "Imagining the steps reveals hidden traps ahead of time.\nYou fix the weak spots before putting the plan into action.",
+                "children": []
               }
             ]
           }
@@ -1617,74 +1627,82 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       },
       {
         "id": "cognitive-sources-of-power",
-        "label": "Cognitive Sources of Power",
-        "description": "The human cognitive faculties that provide real-world leverage when quantitative algorithms and bureaucratic protocols fail.\nThese organic competencies convert ambiguous sensory inputs into actionable tactical advantages under extreme environmental stress.",
+        "label": "Mind Powers",
+        "description": "Natural human thinking skills that help when rules fail.\nThey help people stay sharp and make sense of messy situations.",
         "children": [
           {
             "id": "power-of-intuition",
-            "label": "The Power of Intuition",
-            "description": "Intuition is demystified as rapid, unconscious pattern recognition forged through extensive real-world exposure and hard-earned feedback loops.\nIt functions as an automated inference engine that translates sensory signatures into immediate tactical clarity.",
+            "label": "Gut Intuition",
+            "description": "Intuition is fast pattern recognition built from years of practice.\nIt turns subtle clues into instant clarity without slow thinking.",
             "children": [
               {
                 "id": "rapid-cue-extraction",
-                "label": "Rapid Cue Extraction",
-                "description": "The ability to distill critical tactical signal from overwhelming operational noise in fraction-of-a-second intervals.\nLeaders identify pivotal leverage points while novice observers are blinded by raw data chaos."
+                "label": "Filtering the Noise",
+                "description": "Finding the most important signal in a crowded mess.\nExperts zero in on what matters while beginners get overwhelmed.",
+                "children": []
               },
               {
                 "id": "subconscious-drift-detection",
-                "label": "Subconscious Drift Detection",
-                "description": "Visceral physical warnings\u2014often felt as unease before being articulated\u2014alert commanders to structural instability or imminent enemy ambushes.\nThese somatic alerts represent rapid synthesis of unindexed micro-cues."
+                "label": "Early Bad Feelings",
+                "description": "A gut feeling that something is off before you know why.\nYour body senses tiny warning signs your mind hasn't named yet.",
+                "children": []
               }
             ]
           },
           {
             "id": "power-of-mental-simulation",
-            "label": "The Power of Mental Simulation",
-            "description": "The cognitive capability to construct dynamic, causal operational models within working memory.\nExperts run scenario mockups forward to preview execution snags and backward to trace unexplained anomalies to their roots.",
+            "label": "Mind Movies",
+            "description": "Playing out events in your head before they happen.\nIt helps you preview troubles ahead and trace past mistakes.",
             "children": [
               {
                 "id": "six-step-simulation-boundary",
-                "label": "Cognitive Limiters & Boundaries",
-                "description": "Effective mental simulations rarely exceed three moving components and six sequential transitions due to working memory limits.\nOver-complicated mental engines collapse under their own weight, yielding fragile tactical assumptions."
+                "label": "Keep It Simple",
+                "description": "Mental movies only work with a few moving parts.\nIf you make them too complex, your memory gets overloaded.",
+                "children": []
               },
               {
                 "id": "identifying-unforeseen-hazards",
-                "label": "Identification of Unforeseen Hazards",
-                "description": "Dynamic dry runs reveal invisible operational frictions such as fuel bottlenecks, communication lag, and terrain mismatches.\nCatching these frictions in cognition eliminates catastrophic losses in the theater of operations."
+                "label": "Finding Hidden Hazards",
+                "description": "Mental dry runs reveal snags you might easily overlook.\nCatching them in your head prevents real-world disasters.",
+                "children": []
               }
             ]
           },
           {
             "id": "power-of-metaphor-and-stories",
-            "label": "The Power of Metaphors & Stories",
-            "description": "Narratives and operational parables serve as dense transmission vehicles for tradecraft, organizational doctrine, and systemic memory.\nThey consolidate complex lessons into portable cognitive maps that teams deploy during chaos.",
+            "label": "Stories and Metaphors",
+            "description": "Stories pass on practical wisdom and lessons quickly.\nThey give teams clear mental maps to follow during confusion.",
             "children": [
               {
                 "id": "analogical-transfer",
-                "label": "Analogical Tactical Transfer",
-                "description": "Borrowing solutions from disparate historical campaigns to crack unfamiliar operational deadlocks.\nMetaphors project established principles onto unprecedented threats, breaking strategic impasses."
+                "label": "Borrowing Past Lessons",
+                "description": "Using an old solution to solve a brand new puzzle.\nA good comparison helps you tackle unfamiliar problems with confidence.",
+                "children": []
               },
               {
                 "id": "war-stories-as-playbooks",
-                "label": "Stories as Operational Playbooks",
-                "description": "Debriefs distilled into narrative form preserve critical context that sterile metrics strip away.\nThey equip junior personnel with surrogate experience, accelerating their pattern recognition engines without blood sacrifice."
+                "label": "War Stories as Guides",
+                "description": "Real stories teach beginners what rules cannot capture.\nThey let new people learn from other people's close calls.",
+                "children": []
               }
             ]
           },
           {
             "id": "power-of-the-read-mind",
-            "label": "The Power to Read Minds",
-            "description": "The tactical capability to accurately predict the intentions, blind spots, and reactions of both adversaries and coalition partners.\nIt enables commanders to synchronize decentralized teams and exploit opposing vulnerabilities.",
+            "label": "Reading Others",
+            "description": "Sensing what teammates or opponents are about to do.\nIt keeps teams in sync without needing constant talk.",
             "children": [
               {
                 "id": "intent-vector-inference",
-                "label": "Intent Vector Inference",
-                "description": "Deducing what the opponent values and fears based on their resource allocations and tactical formations.\nAnticipating their trajectory allows commanders to set fatal asymmetric traps."
+                "label": "Guessing Intentions",
+                "description": "Figuring out what the other side wants and fears.\nKnowing their goal helps you stay one step ahead.",
+                "children": []
               },
               {
                 "id": "mutual-predictability",
-                "label": "Mutual Predictability in Teams",
-                "description": "Shared mental models enable frontline units to execute synchronized maneuvers without spending time on radio chatter.\nImplicit coordination delivers devastating tempo advantages in compressed operational timelines."
+                "label": "Team Rhythm",
+                "description": "Good teammates predict each other's moves without asking.\nSilent teamwork keeps everyone moving together at top speed.",
+                "children": []
               }
             ]
           }
@@ -1692,40 +1710,44 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       },
       {
         "id": "expertise-development-and-traps",
-        "label": "Expertise Architecture & Cognitive Traps",
-        "description": "How high-grade operational capability is acquired, sharpened, and vulnerable to specific operational failure modes.\nExpertise is fragile if uncalibrated; true resilience requires deliberate exposure to reality and rigorous feedback mechanisms.",
+        "label": "Mastery and Traps",
+        "description": "How real expertise grows and the blind spots that threaten it.\nDeep experience needs regular reality checks to stay sharp.",
         "children": [
           {
             "id": "anatomy-of-expertise",
-            "label": "The Anatomy of Domain Expertise",
-            "description": "True mastery consists of perceptual fine-tuning, rich causal mental models, and an extensive catalog of edge cases.\nMasters see what did not happen, detect subtle trends, and intuitively calibrate margin of safety.",
+            "label": "Inside Expertise",
+            "description": "True mastery means seeing details others miss completely.\nExperts know what normal feels like and spot tiny warning signs.",
             "children": [
               {
                 "id": "distinguishing-typicality",
-                "label": "Sensitivity to Typicality",
-                "description": "Knowing what normal operational rhythm feels like allows anomalies to emerge instantly against baseline noise.\nThis sensitivity prevents small system leaks from compounding into uncontainable disasters."
+                "label": "Knowing What's Normal",
+                "description": "Knowing what normal looks like makes odd things jump out.\nThis helps catch small problems before they blow up.",
+                "children": []
               },
               {
                 "id": "fine-grained-discrimination",
-                "label": "Fine-Grained Cue Discrimination",
-                "description": "Reading faint variations in sound, vibration, pressure, or body posture that signal imminent structural failure or systemic revolt.\nThese micro-signatures dictate optimal tactical timing."
+                "label": "Noticing Tiny Shifts",
+                "description": "Hearing tiny sounds or feeling small vibrations that signal trouble.\nThese tiny clues tell you the exact right moment to act.",
+                "children": []
               }
             ]
           },
           {
             "id": "cognitive-failure-modes",
-            "label": "Cognitive Failure Modes & Traps",
-            "description": "Pathologies that blind experienced leaders when operational dynamics deviate from familiar prototypes.\nRigid mental models and confirmation traps can convert deep experience into a fatal liability.",
+            "label": "Mental Traps",
+            "description": "Blind spots that trip up even seasoned professionals.\nSticking rigidly to old habits can lead straight into trouble.",
             "children": [
               {
                 "id": "tunneling-and-de-biasing-failures",
-                "label": "Cognitive Tunneling",
-                "description": "Clinging stubbornly to an initial situational diagnosis despite conflicting field telemetry.\nOperators explain away critical anomalies to preserve an invalid mental picture until disaster strikes."
+                "label": "Tunnel Vision",
+                "description": "Clinging to your first guess even when facts disprove it.\nPeople make excuses for odd clues until it is too late.",
+                "children": []
               },
               {
                 "id": "over-reliance-on-shallow-heuristics",
-                "label": "Shallow Heuristic Exploitation",
-                "description": "Deploying standard tactics in deceptive environments where adversaries deliberately spoof surface cues.\nWithout rigorous second-order verification, automated pattern matching walks straight into ambushes."
+                "label": "Lazy Shortcuts",
+                "description": "Using basic habits when the situation is actually tricky.\nAssuming things are normal without double-checking can cause traps.",
+                "children": []
               }
             ]
           }
@@ -1733,57 +1755,63 @@ export const SOURCES_OF_POWER_BOOK: Book = {
       },
       {
         "id": "operational-execution-and-team-command",
-        "label": "Operational Execution & Team Command",
-        "description": "Translating naturalistic decision mechanics into distributed team leadership, organizational resilience, and mission success.\nWhen uncertainty dominates the environment, centralized control fails; doctrine must shift to decentralized execution anchored by clear commander's intent.",
+        "label": "Team Leadership",
+        "description": "Leading teams when conditions keep changing fast.\nClear goals and flexible freedom work far better than micromanagement.",
         "children": [
           {
             "id": "commanders-intent-clarity",
-            "label": "Commander's Intent Calibration",
-            "description": "Articulating the core operational objective and desired end state while explicitly delegating tactical pathways to frontline operators.\nThis empowers tactical adaptation when original plans inevitably collapse on contact.",
+            "label": "Leader's Intent",
+            "description": "Explaining the goal clearly while letting your team choose the steps.\nThis lets frontline people adapt when plans change.",
             "children": [
               {
                 "id": "subordinate-initiative-latitude",
-                "label": "Subordinate Initiative Latitude",
-                "description": "Frontline units exploit emergent opportunities and sidestep immediate threats without requesting permission from distant command posts.\nThis preserves operational speed and breaks adversarial decision loops."
+                "label": "Freedom to Act",
+                "description": "Letting workers seize good chances without waiting for permission.\nThis keeps things moving fast without slowing down for approvals.",
+                "children": []
               },
               {
                 "id": "why-over-how-doctrine",
-                "label": "Prioritizing Why Over How",
-                "description": "Dictating execution mechanics paralyzes units when conditions shift; communicating underlying strategic purpose preserves alignment during chaos.\nSubordinates adjust mechanics dynamically while keeping strategic objectives intact."
+                "label": "Explain Why First",
+                "description": "Sharing the purpose behind a task rather than strict instructions.\nTeams can change how they work while keeping the goal.",
+                "children": []
               }
             ]
           },
           {
             "id": "premortem-risk-mitigation",
-            "label": "The Pre-Mortem Protocol",
-            "description": "A proactive risk engineering technique that requires planners to assume a project has failed completely before launch.\nTeam members work backward to unearth systemic vulnerabilities that optimism and hierarchy conceal.",
+            "label": "The Pre-Mortem",
+            "description": "A team exercise that imagines a project has already failed.\nPeople work backward to spot blind spots before work starts.",
             "children": [
               {
                 "id": "prospective-hindsight-activation",
-                "label": "Prospective Hindsight Activation",
-                "description": "Shifting cognition from 'might it fail?' to 'it is dead, explain why' strips away false consensus and social pressure.\nIt uncovers catastrophic operational edge cases that conventional risk assessments gloss over."
+                "label": "Imagine Total Failure",
+                "description": "Pretend the plan failed completely and explain what went wrong.\nThis makes it safe for everyone to speak up honestly.",
+                "children": []
               },
               {
                 "id": "legitimized-dissent-channel",
-                "label": "Legitimized Dissent Engineering",
-                "description": "Empowering junior personnel to identify operational flaws without appearing disloyal or defeatist.\nSurfacing unhedged risks early safeguards capital and personnel against executive overconfidence."
+                "label": "Welcoming Doubts",
+                "description": "Giving everyone permission to point out flaws without feeling awkward.\nCatching risks early keeps teams from overconfident mistakes.",
+                "children": []
               }
             ]
           },
           {
             "id": "decision-centered-systems-design",
-            "label": "Decision-Centered Systems Design",
-            "description": "Engineering human-machine interfaces, military software, and decision support tools that augment organic human pattern recognition rather than forcing artificial mathematical workflows.",
+            "label": "Better Tools",
+            "description": "Designing tools that support human judgment instead of replacing it.\nGood screens show trends clearly rather than burying users in numbers.",
             "children": [
               {
                 "id": "context-rich-displays",
-                "label": "Context-Rich Tactical Displays",
-                "description": "Presenting operational data in perceptual configurations that directly feed human pattern recognition.\nAbstract numerical tables are replaced by visual causal flows that reveal emerging system trends."
+                "label": "Clear Visuals",
+                "description": "Showing information as clear visual trends instead of messy tables.\nClean layouts help people spot patterns naturally.",
+                "children": []
               },
               {
                 "id": "preserving-human-agency",
-                "label": "Preserving Human Judgement Moats",
-                "description": "Refusing to automate complex high-leverage decisions where environmental volatility and edge cases dominate.\nAutomation handles routine data normalization while ultimate tactical authority stays with operators with skin in the game."
+                "label": "Keep Humans in Charge",
+                "description": "Letting computers handle simple tasks while people make tough calls.\nHumans adapt best when surprises and high stakes arise.",
+                "children": []
               }
             ]
           }

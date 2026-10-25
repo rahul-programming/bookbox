@@ -99,7 +99,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
   const dailyPick = books[0] || null;
 
   return (
-    <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-8 w-full max-w-full overflow-hidden">
+    <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-8 w-full max-w-full overflow-x-hidden">
       
       {/* Daily Pick Hero Banner */}
       {dailyPick && searchQuery.trim() === '' && selectedCategory === 'All' && (

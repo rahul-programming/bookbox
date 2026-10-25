@@ -1,5 +1,5 @@
 // Superforecasting: The Art and Science of Prediction by Philip E. Tetlock & Dan Gardner
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -571,169 +571,169 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
   "actionItems": [
     {
       "id": "superforecasting-the-art-and-science-of-prediction-act-1",
-      "title": "Establish an Outside-View Base Rate Anchor",
-      "description": "Never forecast from personal gut instinct alone. Anchor your probability estimate to historical statistical frequency before factoring in case-specific details.",
+      "title": "Start With Average Past Rates",
+      "description": "Never guess from gut feelings alone. Always check how often this thing usually happens first.",
       "category": "quick-win",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Define the exact event category you need to predict (e.g., enterprise contract closing within 60 days).",
-        "Search internal data or industry benchmarks to find the historical success rate for this class of event.",
-        "Set that historical baseline percentage as your non-negotiable starting anchor.",
-        "Adjust your probability up or down only when validated, idiosyncratic evidence warrants a deviation."
+        "1. Write down the exact event you want to predict.",
+        "2. Find out how often similar events succeeded in the past.",
+        "3. Use that past rate as your starting percentage number.",
+        "4. Move your number only when you find clear new facts."
       ],
       "sourceChapter": "Chapter 6: Superquants?"
     },
     {
       "id": "superforecasting-the-art-and-science-of-prediction-act-2",
-      "title": "Perform Fermi Decomposition on Hard Forecasts",
-      "description": "Break an intimidating, seemingly impossible projection into independent, knowable sub-questions to isolate uncertainty.",
+      "title": "Break Big Problems Into Pieces",
+      "description": "Do not tackle huge questions all at once. Split tough problems into smaller parts that you can solve.",
       "category": "quick-win",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "State the core strategic question clearly with an unambiguous metric and deadline.",
-        "Deconstruct the problem into 3 to 5 discrete, measurable arithmetic drivers (e.g., market size, qualification rate, conversion rate).",
-        "Estimate bounds and median values for each individual component separately.",
-        "Multiply the individual drivers back together to arrive at a structurally sound, defensible target probability."
+        "1. State your big question with a clear date and goal.",
+        "2. Break the question down into three smaller pieces.",
+        "3. Make a simple guess for each separate small piece.",
+        "4. Combine the numbers to get your final realistic forecast."
       ],
       "sourceChapter": "Chapter 5: Ball-Break"
     },
     {
       "id": "superforecasting-the-art-and-science-of-prediction-act-3",
-      "title": "Run a Daily Morning Epistemic Calibration Log",
-      "description": "Assign explicit numerical probabilities to daily micro-outcomes to eliminate vague verbal hedging and train calibrated confidence.",
+      "title": "Log Daily Morning Forecasts",
+      "description": "Guess short-term outcomes every morning using exact numbers. This trains your brain to judge odds much better.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Pick 3 near-term operational events maturing in the next 24 to 72 hours.",
-        "Assign a precise percentage probability to each (e.g., 65%, 80%, not 'likely' or 'maybe').",
-        "Document one primary counter-indicator that could invalidate each forecast.",
-        "Log the predictions in your tracking sheet before checking email or Slack."
+        "1. Pick three simple events happening in the next three days.",
+        "2. Give each event a clear chance percentage like seventy percent.",
+        "3. Note one clear reason why your guess might fail.",
+        "4. Save these numbers in a sheet before checking morning messages."
       ],
       "sourceChapter": "Chapter 4: Superforecasters"
     },
     {
       "id": "superforecasting-the-art-and-science-of-prediction-act-4",
-      "title": "Execute Granular Bayesian Belief Updating",
-      "description": "Update your probability assessments in measured, incremental steps as new intelligence emerges, avoiding sudden knee-jerk overreactions.",
+      "title": "Tweak Guesses In Small Steps",
+      "description": "Update your views slowly when fresh information arrives. Avoid making wild jumps based on one single piece of news.",
       "category": "daily-routine",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Review key active projections whenever new market or project data lands.",
-        "Determine if the incoming signal is genuine information or merely random market noise.",
-        "Adjust existing probabilities incrementally (e.g., from 60% to 68%, rather than leaping to 90%).",
-        "Record the exact evidence trigger that drove the quantitative revision."
+        "1. Check your open forecasts when you get fresh facts.",
+        "2. Ask if the update is real signal or just distraction.",
+        "3. Shift your prediction by small amounts like a few percent.",
+        "4. Jot down the exact new fact that changed your mind."
       ],
       "sourceChapter": "Chapter 8: Perpetual Beta"
     },
     {
       "id": "superforecasting-the-art-and-science-of-prediction-act-5",
-      "title": "Strip Vague Language from Decision Dashboards",
-      "description": "Purge ambiguous terms like 'probable', 'soon', and 'high risk' from communications, replacing them with quantified ranges.",
+      "title": "Ban Fuzzy Guessing Words",
+      "description": "Stop using vague terms like maybe, likely, or soon. Replace blurry words with clear percentages and exact calendar dates.",
       "category": "environment",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Audit team status reports, roadmap trackers, and risk matrices for terms like 'maybe', 'likely', or 'unlikely'.",
-        "Publish a mandatory communication standard requiring numerical probabilities and exact resolution dates.",
-        "Configure project management fields to force numerical percentage entries for delivery confidence.",
-        "Flag and reject any executive summary that hides behind qualitative ambiguity."
+        "1. Scan team updates for foggy words like maybe or likely.",
+        "2. Ask everyone to write exact numbers instead of vague words.",
+        "3. Add a percentage field inside your project task boards.",
+        "4. Reject any report that refuses to give clear probability numbers."
       ],
       "sourceChapter": "Chapter 3: Keeping Score"
     },
     {
       "id": "superforecasting-the-art-and-science-of-prediction-act-6",
-      "title": "Curate an Opposing-View Information Feeder",
-      "description": "Construct an information environment that automatically surfaces high-grade disconfirming perspectives to neutralize echo chambers.",
+      "title": "Read People Who Disagree",
+      "description": "Set up alerts from people who challenge your views. Seeing both sides stops you from fooling yourself.",
       "category": "environment",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Identify your top three core business or investment theses for the upcoming quarter.",
-        "Locate credible domain experts, newsletters, or data sources that actively argue against your theses.",
-        "Subscribe to their research feeds and pin their analytical briefs alongside your primary tracking dashboards.",
-        "Mandate that weekly briefing packets include at least one credible bear-case argument."
+        "1. Pick your top three biggest plans for this quarter.",
+        "2. Find smart writers who think your ideas will fail.",
+        "3. Save their articles right next to your project dashboard.",
+        "4. Read at least one opposing view before making big decisions."
       ],
       "sourceChapter": "Chapter 7: Dragonfly Forecasting"
     },
     {
       "id": "superforecasting-the-art-and-science-of-prediction-act-7",
-      "title": "Calculate Your Quarterly Brier Score",
-      "description": "Measure your forecasting accuracy mathematically over resolved forecasts to evaluate calibration without hindsight bias.",
+      "title": "Score Your Prediction Accuracy",
+      "description": "Grade your old forecasts at the end of each quarter. See if you were too bold or too cautious.",
       "category": "audit",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "Collect all forecasts that reached their resolution date during the preceding quarter.",
-        "Assign outcome values: 1 for events that occurred, 0 for events that did not.",
-        "Calculate the mean squared error across all forecasts: (forecast_probability - actual_outcome)^2.",
-        "Analyze whether errors stemmed from systematic overconfidence (skewed high) or underconfidence (clustering at 50%)."
+        "1. Pull up all predictions that finished during the quarter.",
+        "2. Mark true events with one and false ones with zero.",
+        "3. Calculate the difference between your guessed chances and real results.",
+        "4. Check whether you were too confident or played it too safe."
       ],
       "sourceChapter": "Chapter 3: Keeping Score"
     },
     {
       "id": "superforecasting-the-art-and-science-of-prediction-act-8",
-      "title": "Audit Post-Mortems for Hindsight and Outcome Bias",
-      "description": "Disentangle the quality of your decision-making process from the eventual outcome to stop rewarding lucky mistakes and penalizing sound bets.",
+      "title": "Separate Skill From Pure Luck",
+      "description": "Look back at past projects without falling for hindsight bias. Good choices can still lose, and bad bets can get lucky.",
       "category": "audit",
       "timeEstimateMinutes": 40,
       "stepByStep": [
-        "Select two recent major outcomes: one major success and one high-profile failure.",
-        "Retrieve the written probability assessments and risk evaluations logged prior to the outcome.",
-        "Assess whether the win was driven by genuine probabilistic advantage or fortunate low-probability variance.",
-        "Update standard operating playbooks to penalize poor risk structures regardless of whether they yielded a temporary win."
+        "1. Pick one big project win and one big project loss.",
+        "2. Check the written odds you wrote down before starting out.",
+        "3. Decide whether the win came from skill or pure luck.",
+        "4. Fix team rules so careless risks are never rewarded again."
       ],
       "sourceChapter": "Chapter 9: Superteams"
     },
     {
       "id": "superforecasting-the-art-and-science-of-prediction-act-9",
-      "title": "Deploy Red Team Adversarial Peer Reviews",
-      "description": "Subject critical business initiatives to structured adversarial stress-testing before capital deployment.",
+      "title": "Ask Opponents To Find Flaws",
+      "description": "Have teammates attack your plan before you spend money. Finding blind spots early keeps you from making costly mistakes.",
       "category": "system",
       "timeEstimateMinutes": 60,
       "stepByStep": [
-        "Assign a designated 2-person red team to attack your primary strategic initiative.",
-        "Grant the red team full access to your assumptions, models, and execution plans.",
-        "Have the red team construct a formal 'pre-mortem' showing how and why the project collapsed 12 months out.",
-        "Recalculate your baseline probability of project success incorporating their failure paths before committing capital."
+        "1. Ask two teammates to try to break your big idea.",
+        "2. Share all your notes, data, and assumptions with them openly.",
+        "3. Have them explain how the project will collapse next year.",
+        "4. Lower your success odds if their warnings reveal true dangers."
       ],
       "sourceChapter": "Chapter 9: Superteams"
     },
     {
       "id": "superforecasting-the-art-and-science-of-prediction-act-10",
-      "title": "Build a Central Strategic Prediction Ledger",
-      "description": "Establish a centralized, tamper-evident repository for all high-stakes organizational predictions.",
+      "title": "Keep A Central Prediction Tracker",
+      "description": "Record all important team predictions in one shared log. This keeps everyone honest and prevents people from rewriting history.",
       "category": "system",
       "timeEstimateMinutes": 90,
       "stepByStep": [
-        "Create a database schema containing: Predictor ID, Proposition, Precise Metric, Numerical Probability, Deadline, Base Rate, and Rationale.",
-        "Mandate that all capital expenditure proposals above threshold register their quantified expected outcomes.",
-        "Lock prediction entries against post-hoc edits once submitted.",
-        "Schedule automatic monthly resolution notifications that trigger public score updates across the leadership team."
+        "1. Make a shared list for names, predictions, dates, and percentages.",
+        "2. Require teammates to record odds before starting major spending projects.",
+        "3. Lock the list entries so nobody changes their guesses later.",
+        "4. Share the real accuracy scores once outcomes happen each month."
       ],
       "sourceChapter": "Chapter 11: Are They Really So Super?"
     },
     {
       "id": "superforecasting-the-art-and-science-of-prediction-act-11",
-      "title": "Calibrate Subject-Matter Experts via Weighted Ensembles",
-      "description": "Aggregate diverse individual perspectives into an algorithmic ensemble forecast that outperforms any single specialist.",
+      "title": "Combine Guesses From Many People",
+      "description": "Mix predictions from several people to beat single expert opinions. Groups with varied views usually make much better calls.",
       "category": "system",
       "timeEstimateMinutes": 50,
       "stepByStep": [
-        "Gather independent, blind numerical forecasts from 5 to 7 cross-functional team members on a key strategic milestone.",
-        "Prevent participants from discussing estimates beforehand to avoid social anchoring and cascades.",
-        "Weight individual forecasts by their historical Brier score accuracy.",
-        "Calculate the extremized aggregate forecast: shift the combined consensus slightly away from 50% to correct for conservative averaging."
+        "1. Ask five teammates to send secret probability guesses individually.",
+        "2. Do not let them talk beforehand to stop groupthink.",
+        "3. Give more weight to teammates who scored better in past tests.",
+        "4. Average the predictions together to get your final team forecast."
       ],
       "sourceChapter": "Chapter 10: The Leader's Dilemma"
     },
     {
       "id": "superforecasting-the-art-and-science-of-prediction-act-12",
-      "title": "Conduct a Cognitive Bias Scavenger Hunt",
-      "description": "Audit high-conviction strategic initiatives for overconfidence, confirmation bias, and scope insensitivity before final approval.",
+      "title": "Hunt For Overconfidence Traps",
+      "description": "Test plans that feel too certain before you greenlight them. Teams often get overly excited and ignore obvious risks.",
       "category": "audit",
       "timeEstimateMinutes": 35,
       "stepByStep": [
-        "Take any strategic initiative where the internal project team assigns greater than 90% confidence.",
-        "Evaluate whether the team is substituting an easy question ('Do we love this plan?') for the hard question ('Will market mechanics allow this to succeed?').",
-        "Test for scope sensitivity by varying the time window or resource constraints to see if the probability changes accordingly.",
-        "Force an explicit markdown of the probability if zero direct empirical tests have been conducted in production conditions."
+        "1. Find any team plan that claims over ninety percent confidence.",
+        "2. Ask if the team loves the plan or studied facts.",
+        "3. See if changing deadlines or budgets changes their confidence score.",
+        "4. Lower your target number if the idea lacks real tests."
       ],
       "sourceChapter": "Chapter 2: The Illusions of Knowledge"
     }
@@ -910,10 +910,10 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       "author": "Philip E. Tetlock & Dan Gardner",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Outside View Precedes the Inside View",
-      "body": "Amateurs begin by analyzing the unique details, team capabilities, and distinct virtues of their initiative\u2014the inside view.\nSuperforecasters anchor first in the outside view: unvarnished statistical base rates of the broader reference class.\nOnly after establishing the historical failure or success baseline do they adjust upward or downward based on project-specific idiosyncratic nuances.",
+      "headline": "Check Outside Base Rates First",
+      "body": "Most people focus only on their own special project details.\nGood forecasters check how often similar projects succeed in general.\nThen they adjust their guess using specific project facts.",
       "quote": "Start with the outside view. How often do things of this sort happen in situations of this kind?",
-      "actionItem": "Before evaluating any project proposal, force the owner to present the historical base rate of identical projects across the industry before hearing a single custom detail.",
+      "actionItem": "Find the average success rate of similar past projects before planning your next step.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -931,10 +931,10 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       "author": "Philip E. Tetlock & Dan Gardner",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Foxes Dominate Hedgehogs in Volatile Terrain",
-      "body": "Borrowing from Archilochus and Isaiah Berlin, Tetlock shows that \"Hedgehogs\" know one big idea and bend reality to fit their grand ideological theory.\n\"Foxes\" know many small things, aggregate disparate viewpoints, and remain self-critical.\nIn complex, dynamic environments, ideological hedgehogs make disastrous forecasters; pragmatic foxes constantly outperform them.",
+      "headline": "Think Like a Fox",
+      "body": "Hedgehogs view the whole world through one big pet theory.\nFoxes use many small ideas and listen to different viewpoints.\nIn changing worlds, flexible foxes make far better predictions.",
       "quote": "The fox knows many things, but the hedgehog knows one big thing.",
-      "actionItem": "Purge mono-causal narratives from executive strategy documents; require proposals to integrate at least three contrasting analytical frameworks.",
+      "actionItem": "Ask people with opposing viewpoints to review your plan before you commit.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -952,10 +952,10 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       "author": "Philip E. Tetlock & Dan Gardner",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Ban Fuzzy Verbiage; Demand Calibrated Percentages",
-      "body": "Terms like \"real possibility\", \"significant downside\", and \"likely\" are corporate cloaks designed to escape accountability.\nIf an event occurs, the forecaster claims they warned you; if it does not, they claim it was only a risk.\nForce every critical strategic bet to be expressed as an exact numerical probability with an explicit expiration date.",
+      "headline": "Use Numbers, Not Vague Words",
+      "body": "Words like likely or possible let people dodge responsibility when things fail.\nReal forecasters attach clear percentage chances to every major prediction.\nNumbers force honesty and make learning from mistakes possible.",
       "quote": "Without numbers, you cannot hold people accountable. Without numbers, learning is impossible.",
-      "actionItem": "Replace words like \"probable\", \"unlikely\", or \"imminent\" in all strategic reports with specific numerical odds (e.g., 65%, 15%).",
+      "actionItem": "Replace words like probably or maybe with exact percentages in your next report.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -973,10 +973,10 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       "author": "Philip E. Tetlock & Dan Gardner",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Bayesian Updating as an Operational Engine",
-      "body": "Beliefs are not immutable loyalties; they are working hypotheses awaiting incoming data.\nSuperforecasters continuously update their probabilities in small, iterative increments as new evidence materializes.\nThey neither freeze their priors out of stubborn pride nor overreact to sensational daily headlines, calculating adjustments proportional to the diagnosticity of the signal.",
+      "headline": "Update Beliefs in Small Steps",
+      "body": "Beliefs are working guesses, not permanent rules.\nGood forecasters update their odds in small steps when fresh facts arrive.\nThey do not cling to old ideas or panic over loud headlines.",
       "quote": "The best forecasters update their beliefs frequently, in small increments, in response to new evidence.",
-      "actionItem": "Establish a bi-weekly metric review specifically to tweak existing probabilities upward or downward by 2-5% based on newly verified data.",
+      "actionItem": "Review your key assumptions each week and adjust your odds slightly as facts arrive.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -994,10 +994,10 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       "author": "Philip E. Tetlock & Dan Gardner",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Brier Score: Quantifying Epistemic Rigor",
-      "body": "You cannot manage what you do not calibrate.\nThe Brier score measures the accuracy of probabilistic predictions by calculating the squared distance between forecasted probability and the actual binary outcome (0 or 1).\nA lower score indicates superior calibration, separating true predictive skill from lucky posturing and selective memory.",
+      "headline": "Score Your Prediction Accuracy",
+      "body": "The Brier score measures how close your predictions come to what actually happened.\nA lower score shows steady skill rather than pure good luck.\nKeeping score helps you see if you are truly improving.",
       "quote": "The Brier score is the definitive ruler of forecasting accuracy, ruthless in its math and blind to reputation.",
-      "actionItem": "Implement an internal forecasting ledger tracking operational predictions to calculate objective Brier scores for executive decision-makers annually.",
+      "actionItem": "Track your predictions in a simple sheet and score them once results arrive.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1015,10 +1015,10 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       "author": "Philip E. Tetlock & Dan Gardner",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Deconstruct Intractable Problems via Fermi Decomposition",
-      "body": "When faced with an apparently unknowable macro question, do not guess blindly.\nDecompose the mystery into smaller, tractable sub-questions (the Enrico Fermi method).\nSeparate what is completely unknown from what can be calculated or bounded by physical, regulatory, or historical constraints.",
+      "headline": "Break Big Problems into Parts",
+      "body": "Never make a blind guess on a massive, confusing question.\nBreak the giant puzzle down into smaller, bite-sized pieces you can solve.\nSolve the easy parts first to find clear answers.",
       "quote": "Tackle puzzle-like sub-questions you can solve before throwing your hands up at the grand mystery.",
-      "actionItem": "When confronting a complex strategic unknown, break the problem into an equation of 4 distinct testable variables before forming an estimate.",
+      "actionItem": "Split a complex problem into three simple questions before trying to estimate the answer.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1036,10 +1036,10 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       "author": "Philip E. Tetlock & Dan Gardner",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Dragonfly Forecasting: The Power of Multi-Perspective Synthesis",
-      "body": "A dragonfly's compound eye contains tens of thousands of lenses, synthesizing thousands of distinct light angles into a cohesive visual model.\nSuperforecasters aggregate conflicting models\u2014economic incentives, technological limits, psychological biases, historical analogies\u2014synthesizing them into a single, high-fidelity composite forecast.",
+      "headline": "Dragonfly Eye Thinking",
+      "body": "A dragonfly has thousands of lenses that build one clear picture.\nStrong forecasters combine many angles like history, math, and human habits.\nBlending different views creates a much clearer prediction.",
       "quote": "Dragonfly forecasting requires looking at a problem through multiple lenses simultaneously, integrating contradictory views.",
-      "actionItem": "Mandate that major strategy decks present the target scenario viewed through three distinct stakeholder lenses: the regulator, the competitor, and the cynical consumer.",
+      "actionItem": "Look at your project through the eyes of a customer, a rival, and a critic.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1057,10 +1057,10 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       "author": "Philip E. Tetlock & Dan Gardner",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Doubt Is an Active Skill, Not a Defect",
-      "body": "In leadership cultures that worship unwavering certainty, doubt is treated as weakness.\nIn high-stakes reality, unwavering conviction is epistemic suicide.\nSuperforecasters treat doubt not as paralysis, but as an active diagnostic instrument that drives relentless fact-checking and calibration.",
+      "headline": "Doubt Is a Useful Tool",
+      "body": "Many leaders mistake total confidence for real strength.\nIn the real world, blind certainty leads to costly errors.\nSuperforecasters use healthy doubt to test facts and uncover blind spots.",
       "quote": "Uncertainty is a permanent condition of life. Acknowledging it is not a sign of weakness; it is the first step toward getting things right.",
-      "actionItem": "Publicly reward team members who identify fatal structural uncertainties in approved plans before execution begins.",
+      "actionItem": "Praise team members who point out hidden risks before a project begins.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1078,10 +1078,10 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       "author": "Philip E. Tetlock & Dan Gardner",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Granularity as a Marker of Mastery",
-      "body": "Average thinkers deal in coarse chunks: 50/50, 70/30, or certain.\nSuperforecasters operate with high resolution, distinguishing between a 62% likelihood and a 68% likelihood.\nThis granular calibration indicates nuanced cognitive processing, reflecting that they weigh marginal evidence with exceptional sensitivity.",
+      "headline": "Use Precise Odds",
+      "body": "Most people guess in rough chunks like fifty-fifty or almost certain.\nTop forecasters make finer calls, separating sixty percent from sixty-five percent.\nFine numbers show you are weighing tiny clues carefully.",
       "quote": "The more finely calibrated your scale, the better your ability to detect genuine signals amid noise.",
-      "actionItem": "Train your team to abandon 5% and 10% roundings; force analysts to defend why an outcome is a 63% probability rather than 60% or 65%.",
+      "actionItem": "Stop rounding estimates to the nearest ten percent and give exact figures instead.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1099,10 +1099,10 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       "author": "Philip E. Tetlock & Dan Gardner",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Conduct Post-Mortems on Success as Aggressively as Failure",
-      "body": "Organizations conduct autopsies on failed initiatives but celebrate successes unconditionally.\nA positive outcome can be produced by terrible process backed by dumb luck.\nTo build enduring competitive moats, conduct rigorous post-mortems on winning initiatives to determine whether you were right for the right reasons.",
+      "headline": "Audit Your Wins",
+      "body": "Teams study failures closely but celebrate wins without asking questions.\nA great outcome often comes from dumb luck and bad choices.\nCheck your wins to confirm your original reasoning was actually right.",
       "quote": "If you win for the wrong reasons, you are simply setting yourself up for a catastrophe downstream.",
-      "actionItem": "Schedule a process audit for your most recent operational victory to verify whether reality matched your original probabilistic model or if random variance saved you.",
+      "actionItem": "Review your latest win to see if good choices or plain luck caused it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1120,10 +1120,10 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       "author": "Philip E. Tetlock & Dan Gardner",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Active Open-Mindedness as Competitive Edge",
-      "body": "Psychologist Jonathan Baron's concept of Active Open-Mindedness (AOM) is the single strongest psychological predictor of superforecasting ability.\nIt is the habitual disposition to treat one's own core beliefs as candidates for refutation, aggressively hunting for disconfirming evidence rather than comforting validation.",
+      "headline": "Practice Active Open-Mindedness",
+      "body": "This habit is the best predictor of accurate predictions.\nIt means treating your own beliefs as guesses that might be wrong.\nGreat thinkers actively search for proof that challenges their views.",
       "quote": "Superforecasters see their own ideas as hypotheses to be tested, not treasures to be protected.",
-      "actionItem": "Assign a dedicated \"Devil's Advocate\" in executive reviews tasked strictly with identifying data points that refute the governing consensus.",
+      "actionItem": "Pick one strong personal belief today and find two facts that contradict it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1141,10 +1141,10 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       "author": "Philip E. Tetlock & Dan Gardner",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Beware the Pundit Paradox",
-      "body": "Tetlock's landmark 20-year study proved that the most famous media pundits\u2014the most charismatic, ideological, and quotable\u2014were routinely the worst forecasters, barely outperforming dart-throwing chimps.\nFame and media incentives reward bombastic certainty, whereas accurate prediction demands quiet, humble, and boring complexity.",
+      "headline": "The Pundit Trap",
+      "body": "Famous TV experts are often the worst at predicting the future.\nMedia networks reward loud voices, dramatic stories, and total certainty.\nReal accuracy requires quiet patience, modesty, and careful balance.",
       "quote": "There is an inverse relationship between being a great pundit on television and being an accurate forecaster of reality.",
-      "actionItem": "Discount external macroeconomic commentary that relies on compelling, hyper-confident narratives unsupported by transparent calibration ledgers.",
+      "actionItem": "Ignore confident predictions from famous speakers unless they show a verified track record.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1162,10 +1162,10 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       "author": "Philip E. Tetlock & Dan Gardner",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Calibrate Teams to Prevent Groupthink and Social Cascades",
-      "body": "Putting experts in a room together frequently degrades forecast accuracy due to deference to seniority, halo effects, and collective confirmation bias.\nTo capture real collective intelligence, aggregate independent, blind forecasts across diverse individuals before convening any collaborative debate.",
+      "headline": "Gather Independent Estimates First",
+      "body": "Putting experts in a room often leads to copycat opinions.\nPeople stay silent or simply agree with the boss.\nCollect private guesses from everyone before holding any group discussion.",
       "quote": "Diversity of thought combined with independence of judgment is the recipe for superforecasting teams.",
-      "actionItem": "Require all committee members to submit written, independent probability estimates privately before opening group discussion on strategic resource allocation.",
+      "actionItem": "Have team members write down their estimates privately before discussing them in meetings.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1183,10 +1183,10 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       "author": "Philip E. Tetlock & Dan Gardner",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Distinguish Epistemic Humility from Paralyzing Timidity",
-      "body": "Epistemic humility is not the refusal to make bold moves; it is the clarity of knowing what you do not know.\nLeaders with genuine epistemic humility place aggressive, asymmetrical bets when odds are favorable, but they continuously verify assumptions and preserve operational agility to cut losses instantly when reality shifts.",
+      "headline": "Intellectual Humility Enables Boldness",
+      "body": "Knowing what you do not know is not cowardice.\nHumble leaders make bold bets when the odds favor them.\nThey stay ready to admit mistakes and cut losses quickly.",
       "quote": "Intellectual humility is not weakness. It is the recognition that the world is immensely complex and our lenses are imperfect.",
-      "actionItem": "Attach clear \"kill triggers\" (objective metrics that mandate project termination) to every major strategic venture before capital is deployed.",
+      "actionItem": "Set clear warning limits to cancel a project if key targets fail.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1204,10 +1204,10 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       "author": "Philip E. Tetlock & Dan Gardner",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Falsifiability Is the Bedrock of Strategic Mastery",
-      "body": "Predictions that cannot be decisively proven wrong provide zero operational value.\nIf an executive cannot define what specific event or data point would prove their hypothesis incorrect, their strategy is a theological dogma, not an analytical plan.",
+      "headline": "Make Testable Predictions",
+      "body": "Predictions that cannot be proven wrong are useless.\nA good plan must clearly state what outcome would prove it incorrect.\nWithout testable milestones, you are dealing with wishful thinking, not strategy.",
       "quote": "If a prediction cannot be scored, it is not a forecast\u2014it is an exercise in public relations.",
-      "actionItem": "Enforce a mandatory rule: every strategic initiative must document at least two measurable conditions that would unambiguously disprove the underlying thesis.",
+      "actionItem": "Write down two specific results that would prove your current plan has failed.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1225,10 +1225,10 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       "author": "Philip E. Tetlock & Dan Gardner",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Balance Between Underreacting and Overreacting",
-      "body": "Belief updating faces two lethal traps: anchoring obstinately to your original position (ignoring genuine trend shifts) or knee-jerk overreacting to every noisy data blip.\nSuperforecasters maintain equilibrium by calculating the diagnostic weight of new information relative to the existing base of evidence.",
+      "headline": "Avoid Overreacting and Underreacting",
+      "body": "Changing your mind has two major traps.\nYou might ignore real changes, or panic over minor daily noise.\nSuperforecasters react only to how strong the new evidence really is.",
       "quote": "The trick is to update neither too little nor too much, adjusting only by the true evidentiary weight of the signal.",
-      "actionItem": "When a surprising market signal arrives, explicitly categorize it as noise, incremental evidence, or a structural paradigm shift before altering your budget.",
+      "actionItem": "Label unexpected news as random noise or a real shift before taking action.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1246,10 +1246,10 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       "author": "Philip E. Tetlock & Dan Gardner",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Leverage Adversarial Collaboration to Break Deadlocks",
-      "body": "When senior executives reach an impasse over conflicting forecasts, they usually default to political maneuvering or status wars.\nInstead, initiate an adversarial collaboration: design an empirical test whose future outcome both parties agree in advance will determine who was correct.",
+      "headline": "Settle Arguments with Evidence",
+      "body": "When team leaders disagree on forecasts, arguments turn into power struggles.\nStop arguing and design a fair test both sides accept.\nAgree in advance on what future outcome proves who was right.",
       "quote": "Adversarial collaboration turns ideological combat into an empirical tournament.",
-      "actionItem": "Resolve team disagreements by writing a binding agreement specifying what upcoming data point will settle the debate and determine the winner.",
+      "actionItem": "Write a short agreement stating which metric will decide your team disagreement.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1267,10 +1267,10 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       "author": "Philip E. Tetlock & Dan Gardner",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Perpetual Beta: The Relentless Iteration of Mental Models",
-      "body": "Superforecasters operate in a psychological state of perpetual beta.\nThey view their intellectual frameworks as living software code requiring continuous debugging, refactoring, and patching.\nThe moment a leader believes their understanding of the competitive chessboard is finished, their obsolescence begins.",
+      "headline": "Stay in Perpetual Beta",
+      "body": "Superforecasters view their thinking like computer code that needs constant bug fixes.\nThey never assume their mental map is finished.\nThinking you know everything is where dangerous mistakes begin.",
       "quote": "Superforecasting is not a rare genius; it is a disposition to remain in perpetual beta.",
-      "actionItem": "Conduct a quarterly audit of your foundational business assumptions; identify and discard one operational principle that is no longer supported by current data.",
+      "actionItem": "Review your core work habits each quarter and drop one that no longer works.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1288,10 +1288,10 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       "author": "Philip E. Tetlock & Dan Gardner",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Skin in the Game Drives Epistemic Honesty",
-      "body": "Forecasters who bear no cost for inaccurate judgments naturally optimize for status, attention, and theatrical bravado rather than truth.\nReal accuracy requires skin in the game\u2014reputational, capital, or operational consequences tied directly to verifiable calibration outcomes over time.",
+      "headline": "Real Stakes Demand Accuracy",
+      "body": "People make reckless predictions when bad calls cost them nothing.\nTrue accuracy requires having real skin in the game.\nWhen your own reputation or money is on the line, you pay closer attention.",
       "quote": "Accountability without measurement is an illusion, and prediction without consequences breeds reckless certainty.",
-      "actionItem": "Tie internal capital allocation or resource discretionary budgets partly to a manager's track record of verified forecasting calibration.",
+      "actionItem": "Make public predictions with clear deadlines so your record stays visible to everyone.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1309,10 +1309,10 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       "author": "Philip E. Tetlock & Dan Gardner",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Construct Explicit Time Horizons to Prevent Retrospective Distortion",
-      "body": "Hindsight bias is a cognitive parasite: once an outcome occurs, humans rewrite their memories to believe they \"knew it all along.\" To eradicate this self-deception, every forecast must be anchored with a precise expiration date and frozen in a verifiable archive.",
+      "headline": "Record Predictions with Deadlines",
+      "body": "After things happen, people falsely believe they knew the result all along.\nThis trick of the mind stops you from learning from past mistakes.\nRecord your predictions with firm dates to keep yourself completely honest.",
       "quote": "Hindsight bias rewrites the past to make us look wiser than we were, blinding us to the mistakes we need to correct.",
-      "actionItem": "Log every quarterly projection into a locked, timestamped document with firm resolution deadlines to conduct unvarnished retrospective scoring.",
+      "actionItem": "Log your predictions in a dated document so you can check them later.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1326,48 +1326,48 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
   ],
   "mindMap": {
     "id": "root",
-    "label": "Superforecasting: The Art and Science of Prediction",
-    "description": "Mastering judgment under deep uncertainty demands rigorous calibration, active open-mindedness, and constant Bayesian updating rather than dogmatic grand theories.\nElite prediction is not an innate gift of prophecy, but a systematic, trainable discipline of disaggregating complex risks and learning ruthlessly from granular reality.",
+    "label": "Superforecasting Guide",
+    "description": "Good forecasting is a skill you can learn.\nIt takes open minds, real numbers, and steady practice.",
     "children": [
       {
         "id": "epistemic-foundations",
-        "label": "Epistemic Foundations: Foxes vs. Hedgehogs",
-        "description": "Decision-makers diverge into two fundamental cognitive species when assessing competitive landscapes.\nStrategy collapses when leaders prioritize narrative purity and single-cause models over fragmented, evolving ground truth.",
+        "label": "Foxes Versus Hedgehogs",
+        "description": "Thinkers tackle problems in two different ways.\nUsing many viewpoints beats relying on one big idea.",
         "children": [
           {
             "id": "the-hedgehog-trap",
-            "label": "The Hedgehog Trap (Grand Unified Theories)",
-            "description": "Hedgehogs view the entire strategic theater through a solitary, all-encompassing ideological framework.\nThey become fragile over time because they force contrary data into a predetermined narrative, mistaking rhetorical certainty for competitive edge.",
+            "label": "The Hedgehog Trap",
+            "description": "Hedgehogs force every fact into one pet theory.\nThey ignore real evidence just to stay confident.",
             "children": [
               {
                 "id": "pundit-incentive-misalignment",
-                "label": "Pundit Incentive Misalignment",
-                "description": "Media platforms and echo chambers reward bold, provocative claims regardless of accuracy.\nPundits face zero downside for catastrophic forecast misses because they operate with no skin in the game.",
+                "label": "TV Pundit Trap",
+                "description": "Media rewards loud and extreme claims.\nTV experts face no penalty for being wrong.",
                 "children": []
               },
               {
                 "id": "retrospective-rationalization",
-                "label": "Retrospective Rationalization",
-                "description": "When an ideological forecast fails, hedgehogs deploy immunizing rationalizations such as claims that their timing was merely off or that unprecedented exogenous shocks interfered.\nThey protect their overarching ego and dogma at the expense of capital and survival.",
+                "label": "Making Cheap Excuses",
+                "description": "Bad forecasters blame bad luck when wrong.\nThey protect their egos instead of learning.",
                 "children": []
               }
             ]
           },
           {
             "id": "the-fox-advantage",
-            "label": "The Fox Advantage (Eclectic Pragmatism)",
-            "description": "Foxes harness diverse mental models, distinct methodologies, and competing data streams without falling in love with any single paradigm.\nTheir competitive advantage stems from cognitive flexibility and an unsentimental willingness to pivot upon contact with new evidence.",
+            "label": "The Fox Advantage",
+            "description": "Foxes use many ideas and stay flexible.\nThey quickly change their minds as facts change.",
             "children": [
               {
                 "id": "multidisciplinary-triangulation",
-                "label": "Multidisciplinary Triangulation",
-                "description": "Foxes view problems simultaneously through lenses of economics, history, operational friction, and organizational psychology.\nCross-verifying signals across unrelated disciplines cancels out the blind spots inherent in single-discipline models.",
+                "label": "Mixing Many Views",
+                "description": "Look at problems from multiple angles.\nDifferent perspectives reveal hidden blind spots.",
                 "children": []
               },
               {
                 "id": "tolerating-ambiguity",
-                "label": "Tolerating Ambiguity & Dissonance",
-                "description": "Elite operators resist the instinct to force immediate narrative closure onto incomplete facts.\nThey hold opposing tactical hypotheses in suspension until genuine empirical clarity emerges.",
+                "label": "Accepting Uncertainty",
+                "description": "Do not rush to simple answers.\nWait patiently until real facts become clear.",
                 "children": []
               }
             ]
@@ -1376,43 +1376,43 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       },
       {
         "id": "fermi-disaggregation",
-        "label": "Tactical Disaggregation: The Fermi Discipline",
-        "description": "Complex, opaque questions must be systematically broken down into distinct, measurable component drivers.\nTreating an ambiguous crisis as an undifferentiated monolith leads directly to paralysis or wild guesswork.",
+        "label": "Breaking Problems Down",
+        "description": "Big hard questions feel impossible at first.\nBreak them into small knowable pieces to solve them.",
         "children": [
           {
             "id": "fermi-questioning",
-            "label": "Fermi Problem Decomposition",
-            "description": "Tackle impossible-looking macro questions by isolating knowable boundary conditions and sub-probabilities.\nBy bounding intermediate variables, you convert speculative fog into structured quantitative ranges.",
+            "label": "Fermi Style Questions",
+            "description": "Split giant riddles into smaller chunks.\nThis turns wild guesses into clear estimates.",
             "children": [
               {
                 "id": "isolating-knowables",
-                "label": "Isolating Knowables vs. Unknowables",
-                "description": "A strategist divides any strategic inquiry into verifiable baseline data and residual uncertainty.\nEnergy is focused exclusively on narrowing the band of the high-leverage unknowables.",
+                "label": "Sorting What's Known",
+                "description": "Separate known facts from total unknowns.\nFocus your work only on the missing facts.",
                 "children": []
               },
               {
                 "id": "chaining-sub-probabilities",
-                "label": "Chaining Sub-Probabilities",
-                "description": "Calculate aggregate outcomes by compounding independent step-level failure and success rates.\nThis prevents the common executive fallacy of treating a five-stage interdependent operation as a high-confidence bet.",
+                "label": "Multiplying Step Odds",
+                "description": "Check the odds of each step first.\nMultistep plans fail much faster than you think.",
                 "children": []
               }
             ]
           },
           {
             "id": "causal-vs-coincidental-drivers",
-            "label": "Identifying True Causal Levers",
-            "description": "Separate operational noise and correlational artifacts from the decisive structural levers dictating systemic outcomes.\nAllocating tactical resources to secondary variables wastes capital and leaves core flanks exposed.",
+            "label": "Finding True Drivers",
+            "description": "Spot what really moves the needle.\nDo not get fooled by noisy coincidences.",
             "children": [
               {
                 "id": "incentive-architecture-analysis",
-                "label": "Incentive Architecture Analysis",
-                "description": "Map the direct personal, institutional, and economic payoff structures governing key actors.\nAgents reliably behave in accordance with their survival incentives rather than their stated press releases.",
+                "label": "Checking Real Incentives",
+                "description": "Watch what people gain or lose.\nPeople follow rewards, not their public speeches.",
                 "children": []
               },
               {
                 "id": "friction-and-chokepoint-mapping",
-                "label": "Friction & Chokepoint Mapping",
-                "description": "Locate supply chain, regulatory, or physical bottlenecks that inevitably constrain theoretical execution.\nReality is governed by logistical throughput rather than strategic optimism.",
+                "label": "Spotting Real Bottlenecks",
+                "description": "Find real-world limits like time and money.\nPhysical limits always beat wishful thinking.",
                 "children": []
               }
             ]
@@ -1421,43 +1421,43 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       },
       {
         "id": "dual-perspective-calibration",
-        "label": "The Inside vs. Outside View Discipline",
-        "description": "Human operators are wired to obsess over unique tactical details while ignoring baseline historical frequencies.\nSuperforecasters aggressively anchor on base rates before evaluating idiosyncratic case data.",
+        "label": "Outside Versus Inside",
+        "description": "People focus too much on special details.\nAlways start with normal historical averages first.",
         "children": [
           {
             "id": "outside-view-primacy",
-            "label": "Establishing the Outside View (Base Rates)",
-            "description": "Before analyzing the specifics of a target asset or geopolitical crisis, determine the historical frequency of similar occurrences within a broad reference class.\nThe base rate serves as an objective gravitational anchor that counteracts strategic hubris.",
+            "label": "The Outside View",
+            "description": "Check how often this usually happens to others.\nHistory provides your best baseline anchor.",
             "children": [
               {
                 "id": "reference-class-selection",
-                "label": "Rigorous Reference Class Selection",
-                "description": "Identify the historical peer group that most accurately reflects the structural dynamics of the situation.\nSelecting an overly narrow or flattering reference class destroys baseline objectivity.",
+                "label": "Picking Right Comparisons",
+                "description": "Find past cases that match your situation.\nA fair comparison prevents wishful thinking.",
                 "children": []
               },
               {
                 "id": "regression-to-the-mean",
-                "label": "Accounting for Mean Reversion",
-                "description": "Extreme runs of operational performance or macro disruptions routinely regress toward historical averages over extended horizons.\nFactoring in mean reversion protects decision-makers from extrapolating temporary anomalies into permanent paradigms.",
+                "label": "Returning to Average",
+                "description": "Extreme runs usually fade over time.\nNever assume freak results will last forever.",
                 "children": []
               }
             ]
           },
           {
             "id": "inside-view-adjustment",
-            "label": "Calibrating the Inside View",
-            "description": "Examine the specific, unique features of the current tactical situation only after anchoring firmly on the historical base rate.\nAdjust probabilities upward or downward conservatively based purely on decisive, idiosyncratic evidence.",
+            "label": "The Inside View",
+            "description": "Look at specific details only after checking averages.\nTweak your odds slightly for unique facts.",
             "children": [
               {
                 "id": "uniqueness-bias-suppression",
-                "label": "Suppressing the Uniqueness Fallacy",
-                "description": "Leaders routinely claim their venture or regime faces completely unprecedented conditions that invalidate historical precedent.\nDisciplined forecasters demand extraordinary proof before overriding established base-rate physics.",
+                "label": "You're Not Special",
+                "description": "People love to claim their case is unique.\nDemand strong proof before ignoring history.",
                 "children": []
               },
               {
                 "id": "delta-weighting",
-                "label": "Asymmetric Delta Weighting",
-                "description": "Evaluate how strongly a specific technological or organizational difference actually alters base-rate probability.\nMost unique advantages alter probabilities by single-digit margins rather than orders of magnitude.",
+                "label": "Small Odds Adjustments",
+                "description": "Special traits usually only shift odds a bit.\nDo not jump to extreme conclusions.",
                 "children": []
               }
             ]
@@ -1466,43 +1466,43 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       },
       {
         "id": "bayesian-epistemology",
-        "label": "Bayesian Updating: Incremental Precision",
-        "description": "Accurate prediction requires dynamic, real-time recalibration as tactical reality shifts.\nBeliefs are not static ideological commitments; they are working hypotheses weighted by accumulated evidence.",
+        "label": "Updating Your Beliefs",
+        "description": "Change your odds as new clues arrive.\nTreat beliefs as guesses waiting for fresh facts.",
         "children": [
           {
             "id": "belief-as-probabilistic-state",
-            "label": "Beliefs as Probability Distributions",
-            "description": "Reject the lazy, binary illusion that events either definitely happen or definitely fail.\nEvery outcome exists across a nuanced continuum, demanding precision that exposes false comfort.",
+            "label": "Thinking in Percentages",
+            "description": "Stop thinking in black and white terms.\nRate chances with clear numbers instead.",
             "children": [
               {
                 "id": "death-of-maybe",
-                "label": "Eradicating Vague Verbiage ('Maybe' & 'Likely')",
-                "description": "Ambiguous operational terminology like 'significant risk' or 'probable outcome' shields poor analysts from accountability.\nElite teams demand explicit numerical odds (e.g., 65%, not 'likely') to force rigor and enable post-mortem verification.",
+                "label": "Drop Vague Words",
+                "description": "Say sixty percent instead of maybe.\nExact numbers make your track record clear.",
                 "children": []
               },
               {
                 "id": "granular-calibration",
-                "label": "Granular Calibration (The 60/40 vs. 70/30 Edge)",
-                "description": "Mastery resides in the subtle graduation between 60% and 70% confidence intervals.\nSuperforecasters continuously hone their internal instruments until their confidence ratings align exactly with historical frequencies.",
+                "label": "Fine Tuning Confidence",
+                "description": "Learn the difference between sixty and seventy percent.\nSmall edge adjustments add up to big wins.",
                 "children": []
               }
             ]
           },
           {
             "id": "micro-updating-mechanics",
-            "label": "Micro-Updating vs. Under/Overreaction",
-            "description": "Adjust probabilities incrementally in response to genuine signals while filtering out headline noise.\nMost decision-makers either obstinately anchor on initial forecasts or overreact violently to sensational developments.",
+            "label": "Making Small Updates",
+            "description": "Nudge your numbers gently when news breaks.\nNever ignore data, but do not overreact.",
             "children": [
               {
                 "id": "the-sin-of-belief-preservation",
-                "label": "Overcoming Belief Preservation",
-                "description": "When public reputation or capital is tied to an initial thesis, operators resist cutting exposure despite catastrophic contra-signals.\nBayesian discipline demands instant, unemotional recalibration the millisecond evidence breaks.",
+                "label": "Letting Go Fast",
+                "description": "Do not cling to your first guess.\nChange your mind the moment facts turn.",
                 "children": []
               },
               {
                 "id": "noise-filtering",
-                "label": "Signal Isolation in Fast News Cycles",
-                "description": "High-velocity media environments manufacture sensational pseudo-events designed to provoke panic and consumption.\nTrue forecasters ignore cosmetic rhetoric and adjust position sizing only for structural changes.",
+                "label": "Ignoring Daily Hype",
+                "description": "Most daily news is just loud noise.\nOnly update for changes that actually matter.",
                 "children": []
               }
             ]
@@ -1511,43 +1511,43 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       },
       {
         "id": "measurement-and-feedback",
-        "label": "Measurement, Feedback & Keeping Score",
-        "description": "You cannot improve what you refuse to measure objectively against hard empirical outcomes.\nWithout a verifiable scorecard, forecasting degenerates into political self-promotion and post-hoc narrative spinning.",
+        "label": "Keeping Clear Score",
+        "description": "You cannot improve without tracking results.\nClear scores expose luck and reveal true skill.",
         "children": [
           {
             "id": "brier-score-mechanics",
-            "label": "Brier Scores: The Objective Yardstick",
-            "description": "The Brier score measures the mean squared difference between forecasted probabilities and actual binary outcomes.\nIt provides an unsparing mathematical baseline that rewards calibrated certainty and brutally punishes arrogant overconfidence.",
+            "label": "The Brier Score",
+            "description": "This math score grades your forecast accuracy.\nIt rewards being right and punishes overconfidence.",
             "children": [
               {
                 "id": "calibration-vs-resolution",
-                "label": "Balancing Calibration and Resolution",
-                "description": "Calibration ensures that events assigned an 80% probability happen 80% of the time, while resolution measures how decisively the forecaster deviates from a useless 50/50 hedge.\nElite strategists maximize both simultaneously.",
+                "label": "Accuracy and Boldness",
+                "description": "Make sure eighty percent guesses happen eighty percent.\nTake clear stances instead of sitting on fifty-fifty.",
                 "children": []
               },
               {
                 "id": "skin-in-the-game-auditing",
-                "label": "Auditing Accountability Over Time",
-                "description": "A long-run Brier score separates structural skill from transient luck across volatile macro regimes.\nTracking scores strips away executive charisma and reveals who actually reads market realities correctly.",
+                "label": "Tracking Long Records",
+                "description": "Keep score over months and years.\nTime shows who has skill and who got lucky.",
                 "children": []
               }
             ]
           },
           {
             "id": "post-mortem-autopsies",
-            "label": "Surgical Post-Mortem Autopsies",
-            "description": "Conduct thorough intellectual debriefs on both catastrophic failures and unexpected triumphs.\nDeconstructing the precise reasoning chain behind an error is the only reliable engine for compounding epistemic capital.",
+            "label": "Reviewing Past Guesses",
+            "description": "Study your big wins and bad misses.\nFixing your thinking mistakes makes you sharper.",
             "children": [
               {
                 "id": "hindsight-bias-mitigation",
-                "label": "Hindsight Bias Mitigation",
-                "description": "Once an event occurs, human minds rewrite memory to convince themselves they knew the outcome all along.\nMaintaining time-stamped prediction logs stops this retrospective distortion and forces confrontation with blind spots.",
+                "label": "Fighting False Memory",
+                "description": "Write down predictions before events happen.\nThis stops you from pretending you knew all along.",
                 "children": []
               },
               {
                 "id": "distinguishing-luck-from-process",
-                "label": "Separating Process from Outcome",
-                "description": "A sound probabilistic decision can yield a catastrophic outcome due to bad variance, just as reckless gambles occasionally pay off.\nReview boards must audit the quality of the ex-ante decision architecture rather than judging purely by ex-post results.",
+                "label": "Luck Versus Skill",
+                "description": "Good bets can still lose to bad luck.\nJudge the thinking process, not just the outcome.",
                 "children": []
               }
             ]
@@ -1556,43 +1556,43 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
       },
       {
         "id": "team-dynamics-and-wisdom",
-        "label": "Collective Intelligence & Red-Teaming",
-        "description": "Assembling high-performing cognitive teams generates an epistemic edge that surpasses isolated individual forecasters.\nGroup intelligence functions only when structural safeguards prevent groupthink, social deference, and herd behavior.",
+        "label": "Teaming Up Wisely",
+        "description": "Smart groups beat lone forecasters.\nTeams need open debate and zero groupthink to win.",
         "children": [
           {
             "id": "extremizing-collective-signals",
-            "label": "Aggregating & Extremizing Independent Estimates",
-            "description": "Averaging diverse, independent forecasts eliminates individual errors, but superforecaster aggregates require systematic algorithmic extremizing.\nPushing unhedged, shared consensus toward absolute boundaries captures hidden informational overlap.",
+            "label": "Combining Group Guesses",
+            "description": "Blend independent forecasts to wash out errors.\nPush consensus outward when smart clues agree.",
             "children": [
               {
                 "id": "diversity-prediction-theorem",
-                "label": "The Cognitive Diversity Imperative",
-                "description": "Collective error decreases when contributors possess completely disparate knowledge bases and perspectives.\nHomogeneous teams\u2014no matter how credentialed\u2014merely amplify each other's systematic biases.",
+                "label": "Valuing Diverse Views",
+                "description": "Pick people with different skills and backgrounds.\nSimilar thinkers copy each other's mistakes.",
                 "children": []
               },
               {
                 "id": "extremizing-algorithms",
-                "label": "Information-Weighted Extremizing",
-                "description": "When multiple independent analysts reach the same conclusion through divergent sources, the collective probability should exceed the simple average.\nExtremizing extracts the hidden weight of shared, unexpressed evidence.",
+                "label": "Boosting Shared Signals",
+                "description": "When separate minds agree, raise the odds.\nIndependent agreement shows high certainty.",
                 "children": []
               }
             ]
           },
           {
             "id": "super-team-culture",
-            "label": "Super-Team Culture & Adversarial Collaboration",
-            "description": "High-velocity forecast units cultivate intellectual friction while eliminating defensive emotional posturing.\nDisagreement is treated as operational reconnaissance that uncovers vulnerabilities before capital is deployed.",
+            "label": "Building Safe Debate",
+            "description": "Encourage friendly debate and question everything.\nTreat honest disagreement as a helpful tool.",
             "children": [
               {
                 "id": "pre-mortem-red-teaming",
-                "label": "Institutionalized Pre-Mortems",
-                "description": "Teams assume their primary plan has already failed disastrously and construct plausible historical causal paths explaining the collapse.\nThis technique bypasses social pressure to conform and surfaces unaddressed structural vulnerabilities.",
+                "label": "Running Pre-Mortems",
+                "description": "Assume your plan has already failed.\nAsk why it failed to catch flaws early.",
                 "children": []
               },
               {
                 "id": "non-hierarchical-dissent",
-                "label": "Leveling Hierarchy for Truth-Seeking",
-                "description": "Forecasting accuracy collapses when junior analysts defer to senior rank or political authority.\nElite prediction teams aggressively decouple idea merit from corporate title to guarantee unfiltered transmission of dissent.",
+                "label": "Ignoring Boss Titles",
+                "description": "Do not agree just because a boss spoke.\nThe best idea wins no matter who said it.",
                 "children": []
               }
             ]
