@@ -152,7 +152,7 @@ export const ActionItemsView: React.FC<ActionItemsViewProps> = ({
   };
 
   return (
-    <div className="max-w-4xl mx-auto pt-4 sm:pt-4 pb-16 space-y-4 w-full max-w-full overflow-x-hidden">
+    <div className="max-w-4xl mx-auto pt-6 sm:pt-8 pb-16 space-y-4 w-full max-w-full overflow-x-hidden">
       
       {/* Top Banner & Progress Header */}
       <div className="rounded-3xl bg-gradient-to-r from-emerald-600 via-teal-600 to-blue-700 p-6 sm:p-8 text-white shadow-xl space-y-5">

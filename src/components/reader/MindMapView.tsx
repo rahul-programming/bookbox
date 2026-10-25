@@ -580,11 +580,11 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
     <div className={`${
       isFullscreen 
         ? 'fixed inset-0 z-50 bg-white dark:bg-slate-900 flex flex-col p-3 sm:p-4' 
-        : 'max-w-7xl mx-auto pt-4 sm:pt-4 pb-16 space-y-4 w-full max-w-full overflow-x-hidden'
+        : 'max-w-7xl mx-auto pt-6 sm:pt-8 pb-16 space-y-4 w-full max-w-full overflow-x-hidden'
     }`}>
       
       {/* Top Controls Toolbar - Compact & Left-Aligned */}
-      <div className={`scroll-mt-36 p-2 sm:p-2.5 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-xs flex flex-wrap items-center justify-start gap-2 sm:gap-3 ${isFullscreen ? 'shrink-0' : ''}`}>
+      <div className={`scroll-mt-44 p-2 sm:p-2.5 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-xs flex flex-wrap items-center justify-start gap-2 sm:gap-3 mt-3 sm:mt-4 ${isFullscreen ? 'shrink-0' : ''}`}>
         
         {/* Search in map */}
         <div className="relative">

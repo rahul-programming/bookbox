@@ -93,12 +93,12 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
     loadProgress();
   }, [book.id, book.blinks.length]);
 
-  // Instantly reset scroll to top whenever changing view mode or active book
+  // Instantly reset scroll to top whenever changing view mode, active book, or chapter/blink
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
     document.documentElement.scrollTop = 0;
     document.body.scrollTop = 0;
-  }, [viewMode, book.id]);
+  }, [viewMode, book.id, currentBlinkIndex]);
 
   const handleToggleFavorite = async () => {
     const next = await toggleFavorite(book.id);
@@ -139,6 +139,9 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
   const handleBlinkChange = async (newIndex: number) => {
     if (newIndex >= 0 && newIndex < book.blinks.length) {
       setCurrentBlinkIndex(newIndex);
+      window.scrollTo({ top: 0, behavior: 'instant' });
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
       const targetBlink = book.blinks[newIndex];
       
       // If audio is actively playing, automatically update audio to the next blink
@@ -365,8 +368,8 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
         </div>
       </div>
 
-      {/* Main View Container with balanced top spacing */}
-      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 w-full max-w-full min-w-0 pt-6 sm:pt-8">
+      {/* Main View Container with generous top breathing room */}
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 w-full max-w-full min-w-0 pt-10 sm:pt-12">
         {viewMode === 'blinks' && (
           <KeyInsightsView
             book={book}

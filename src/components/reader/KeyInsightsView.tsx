@@ -188,10 +188,10 @@ export const KeyInsightsView: React.FC<KeyInsightsViewProps> = ({
   if (!currentBlink) return null;
 
   return (
-    <div className="max-w-3xl mx-auto pt-4 sm:pt-4 pb-16 w-full max-w-full overflow-x-hidden">
+    <div className="max-w-3xl mx-auto pt-6 sm:pt-8 pb-16 w-full max-w-full overflow-x-hidden">
       
       {/* Top Insight Stepper, Top Prev/Next & Audio Trigger (Stationary Header) */}
-      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-200/80 dark:border-slate-800 pb-4 mb-6">
+      <div className="scroll-mt-44 flex flex-wrap items-center justify-between gap-3 border-b border-slate-200/80 dark:border-slate-800 pb-4 mb-6 mt-3 sm:mt-4">
         <div className="flex items-center space-x-2">
           <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/60 px-3 py-1 rounded-full border border-blue-200 dark:border-blue-900">
             Insight {currentBlinkIndex + 1} of {total}

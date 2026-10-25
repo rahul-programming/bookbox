@@ -1,5 +1,5 @@
 // The Scout Mindset by Julia Galef
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -675,169 +675,169 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
   "actionItems": [
     {
       "id": "the-scout-mindset-act-1",
-      "title": "Perform the Double-Standard Litmus Test",
-      "description": "Notice when irritation or defensive pride arises regarding someone else's opinion. Quietly ask if you would judge a trusted ally or yourself with the same harshness, stripping away tribal bias to see the bare truth.",
+      "title": "Use the Double Standard Test",
+      "description": "Notice when another person's view upsets you. Ask if you would judge a close friend just as harshly.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Identify an opposing viewpoint or criticism that provoked defensiveness in you today.",
-        "Imagine your closest mentor or dear friend spoke those exact words instead.",
-        "Reflect on whether your emotional reaction softens when the messenger changes.",
-        "Acknowledge the partial truth hidden within the criticism, releasing the impulse to defend your ego."
+        "1. Pick an opinion that made you feel defensive today.",
+        "2. Imagine your best friend said those exact same words.",
+        "3. Notice if your anger fades when the speaker changes.",
+        "4. Find the honest point hidden inside their criticism."
       ],
       "sourceChapter": "Chapter 3: Signs of a Scout Mindset"
     },
     {
       "id": "the-scout-mindset-act-2",
-      "title": "State Your Subjective Odds Aloud",
-      "description": "Replace rigid claims of absolute certainty with calibrated percentages. Speaking your confidence as odds trains the mind to hold beliefs lightly and welcome new evidence without shame.",
+      "title": "Say Your Odds Out Loud",
+      "description": "Stop saying you are completely sure about things. State your confidence as a percentage instead.",
       "category": "quick-win",
       "timeEstimateMinutes": 3,
       "stepByStep": [
-        "Catch yourself asserting a prediction or judgment with dogmatic certainty.",
-        "Pause and ask yourself: 'Am I 99% certain, or realistically 70% certain of this outcome?'",
-        "State your calibrated estimate plainly: 'I lean toward this at about 75% confidence.'",
-        "Observe the quiet relief of no longer needing to defend an absolute certainty."
+        "1. Catch yourself sounding totally certain about a future outcome.",
+        "2. Ask yourself if you are truly 100 percent sure.",
+        "3. State your actual odds, like seventy percent likely.",
+        "4. Enjoy the freedom of not defending absolute certainty."
       ],
       "sourceChapter": "Chapter 6: Calibrating Your Judgment"
     },
     {
       "id": "the-scout-mindset-act-3",
-      "title": "The Thought Experiment of the Impartial Successor",
-      "description": "When burdened by sunk costs or stubborn commitments, imagine stepping aside and allowing an unburdened successor to take your seat. Act as they would, free from past pride.",
+      "title": "Ask Your Replacement's Move",
+      "description": "Pretend someone new takes over your seat right now. Do what that fresh leader would do today.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Select a struggling project, debate, or habit you are reluctant to abandon.",
-        "Ask yourself: 'If I were replaced right now, what decision would my clear-eyed successor make immediately?'",
-        "Acknowledge the path they would choose without guilt or nostalgia.",
-        "Grant yourself permission to adopt that very choice starting this moment."
+        "1. Pick a failing project you hate to give up.",
+        "2. Ask what a brand new replacement would do today.",
+        "3. Name the best next move without any personal guilt.",
+        "4. Take that exact step yourself without looking back."
       ],
       "sourceChapter": "Chapter 11: Changing Your Mind"
     },
     {
       "id": "the-scout-mindset-act-4",
-      "title": "Evening Epistemic Examen",
-      "description": "At twilight, conduct a serene review of your internal terrain. Inspect where you defended yourself like a soldier and where you surveyed the world like an impartial scout.",
+      "title": "Do an Evening Honesty Check",
+      "description": "Review your daily thoughts before you sleep tonight. Spot where you defended pride instead of truth.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Sit in quiet stillness with your evening journal before the day closes.",
-        "Review key interactions: Where did pride or fear dictate your reasoning today?",
-        "Identify at least one instance where you noticed new information that unsettled an existing assumption.",
-        "Silently offer gratitude for the correction, recognizing that discovering an error brings you closer to reality."
+        "1. Sit quietly with your notebook before going to bed.",
+        "2. Ask where your pride took over conversations today.",
+        "3. Note one fact that changed your mind today.",
+        "4. Be glad you learned the truth sooner rather than later."
       ],
       "sourceChapter": "Chapter 2: What the Soldier Mindset Does for Us"
     },
     {
       "id": "the-scout-mindset-act-5",
-      "title": "Daily Intellectual Steelmanning",
-      "description": "Before disputing a differing viewpoint, articulate it so faithfully that its originator would nod in gratitude. This cultivates profound understanding and banishes cheap caricatures.",
+      "title": "Make the Other Case Strong",
+      "description": "State the opposing side as clearly as you can. Make sure your opponent would happily agree with you.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Encounter an opinion during your morning readings or conversations that contradicts your perspective.",
-        "Refrain from crafting a hasty rebuttal or dismissive retort.",
-        "Write down the two strongest, most benevolent arguments that support that opposing stance.",
-        "Hold those arguments in calm contemplative awareness before forming your considered conclusion."
+        "1. Pick a view that clashes with your own today.",
+        "2. Hold back your urge to attack it right away.",
+        "3. Write down two strong points supporting their side.",
+        "4. Think over their strongest points before answering."
       ],
       "sourceChapter": "Chapter 10: Listening to Others"
     },
     {
       "id": "the-scout-mindset-act-6",
-      "title": "Curate an Ideological Dissident Sanctum",
-      "description": "Cleanse your digital environment of echo chambers. Deliberately introduce thoughtful, articulate voices whose fundamental worldviews gently challenge your assumptions.",
+      "title": "Follow Smart Opposing Thinkers",
+      "description": "Clean up your daily social media feeds. Follow thoughtful thinkers who challenge what you believe.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Survey your primary reading channels, subscriptions, and social feeds for conformity.",
-        "Unsubscribe from commentators who traffic in outrage, mockery, and defensive tribalism.",
-        "Subscribe to three principled thinkers who disagree with your worldview with poise and rigor.",
-        "Create a dedicated reading folder to visit their perspectives in an unhurried state of mind."
+        "1. Check your reading feeds for one-sided opinions.",
+        "2. Unfollow creators who post angry rants and easy insults.",
+        "3. Follow three calm writers who disagree with your views.",
+        "4. Read their articles with an open, relaxed mind."
       ],
       "sourceChapter": "Chapter 9: Engaging with Other Perspectives"
     },
     {
       "id": "the-scout-mindset-act-7",
-      "title": "Create a Sanctuary of Low-Stakes Curiosity",
-      "description": "Design physical and digital working spaces where tentative ideas are labeled as exploratory sketches rather than definitive decrees, lowering the emotional cost of being mistaken.",
+      "title": "Build an Idea Play Space",
+      "description": "Keep a notebook area meant only for rough guesses. Testing ideas early makes being wrong feel safe.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Label a dedicated section of your workspace notebook or digital board as 'Scout Drafts: Open Inquiries'.",
-        "Place prompts in view such as: 'What is actually true here?' and 'What could I be overlooking?'",
-        "Treat notes placed in this area as tentative hypotheses rather than sacred commitments.",
-        "Review these notes without attachment, allowing outdated theories to dissolve naturally."
+        "1. Create a workspace section called Rough Draft Questions.",
+        "2. Write a prompt asking what you might be missing.",
+        "3. Treat every note there as an early test guess.",
+        "4. Cross out old guesses as soon as facts change."
       ],
       "sourceChapter": "Chapter 12: Making It Easy to Change Your Mind"
     },
     {
       "id": "the-scout-mindset-act-8",
-      "title": "Monthly Ego and Sunk-Cost Audit",
-      "description": "Conduct a measured inspection of endeavors you sustain merely because you have invested time, resources, or public reputation into them. Step back and assess them with clear equanimity.",
+      "title": "Check Your Sunk Costs",
+      "description": "Review ongoing projects that burn your energy. Stop working on tasks saved only by your pride.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "List your top five major ongoing projects, personal commitments, or entrenched viewpoints.",
-        "For each item, ask: 'If I had not invested a single hour into this, would I choose to begin it today?'",
-        "Identify which commitments persist purely to avoid the appearance of retreat or failure.",
-        "Calmly plan an honorable departure or course correction for any path sustained solely by pride."
+        "1. List your five biggest ongoing tasks and pet projects.",
+        "2. Ask if you would start each task from scratch today.",
+        "3. Spot the projects kept alive only to save face.",
+        "4. Quit or change paths without feeling bad about it."
       ],
       "sourceChapter": "Chapter 7: Sunk Costs and Ego"
     },
     {
       "id": "the-scout-mindset-act-9",
-      "title": "The Leap-of-Faith Reality Audit",
-      "description": "Examine cherished convictions that bring emotional comfort. Trace whether you believe them because objective reality supports them, or because believing them shields you from sorrow.",
+      "title": "Test Your Pet Beliefs",
+      "description": "Look at comforting stories you tell yourself. See if real facts support them or just wishful feelings.",
       "category": "audit",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Select a deeply comforting narrative you tell yourself regarding your career, relationships, or destiny.",
-        "Pose the pivotal inquiry: 'If this narrative were false, what concrete evidence would I expect to observe?'",
-        "Look into your present life to see if that contradictory evidence quietly exists.",
-        "Cultivate the inner strength to confront reality as it is, finding peace in truth rather than illusion."
+        "1. Choose a comforting story you tell yourself often.",
+        "2. Ask what signs would prove this story false.",
+        "3. Look around for signs that show you are wrong.",
+        "4. Accept the real situation instead of holding fake comfort."
       ],
       "sourceChapter": "Chapter 4: The Comforts of the Soldier Mindset"
     },
     {
       "id": "the-scout-mindset-act-10",
-      "title": "The Living Mistake Ledger",
-      "description": "Maintain a quiet journal dedicated exclusively to your misjudgments. Viewing errors as valuable landmarks shifts self-worth from infallibility to the steady pursuit of wisdom.",
+      "title": "Keep a Mistake Journal",
+      "description": "Write down times your past guesses were wrong. Seeing errors helps you see the world more clearly.",
       "category": "system",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Open a dedicated ledger titled 'Revisions of Mind and Charted Errors'.",
-        "Whenever reality disproves an expectation, record the original belief and the newly discovered fact.",
-        "Note the psychological blind spot or assumption that steered you off course.",
-        "Conclude each entry with an affirmation of equanimity: 'My map is clearer now than it was yesterday.'"
+        "1. Open a blank page titled My Past Mistakes.",
+        "2. Write down an old guess and what actually happened.",
+        "3. Note the simple blind spot that fooled you.",
+        "4. Remind yourself that catching mistakes makes you smarter."
       ],
       "sourceChapter": "Chapter 8: Learning from Errors"
     },
     {
       "id": "the-scout-mindset-act-11",
-      "title": "Establish an Identity Decoupling Practice",
-      "description": "Disentangle your core sense of self from specific ideological stances, job titles, or factions. True nobility resides in continuous seeking, not in guarding an intellectual fortress.",
+      "title": "Drop Rigid Identity Labels",
+      "description": "Separate your personal worth from specific beliefs. Changing your mind becomes much easier without labels.",
       "category": "system",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Write down the labels and tribes you frequently invoke to define yourself (e.g., political, ideological, professional).",
-        "Rewrite each assertion to emphasize process over dogma: replace 'I am an X' with 'I currently find value in X concepts.'",
-        "Reflect on how shedding rigid identity labels makes updating your mind natural and painless.",
-        "Anchor your identity instead in virtues of patience, curiosity, and steadfast reverence for truth."
+        "1. List the big group labels you use for yourself.",
+        "2. Say you explore ideas rather than wear rigid badges.",
+        "3. Notice how dropping labels makes changing views painless.",
+        "4. Base your self-worth on curiosity rather than fixed tribes."
       ],
       "sourceChapter": "Chapter 13: Identity and Belonging"
     },
     {
       "id": "the-scout-mindset-act-12",
-      "title": "The Epistemic Council Protocol",
-      "description": "Establish a covenant with two or three trusted companions who value truth above flattery. Meet periodically to examine each other's reasoning with gentleness and unvarnished honesty.",
+      "title": "Build a Truth Circle",
+      "description": "Pick two friends who value honesty over flattery. Meet often to check each other's blind spots.",
       "category": "system",
       "timeEstimateMinutes": 45,
       "stepByStep": [
-        "Invite two discerning, humble peers to form a mutual advisory circle.",
-        "Agree to the ground rule: absolute candor delivered with kindness, free from personal offense.",
-        "Present a complex dilemma or assumption you hold, asking explicitly: 'Where is my reasoning flawed?'",
-        "Listen to their observations in serene silence, absorbing their feedback as a traveler welcoming a better map."
+        "1. Invite two honest friends for a monthly chat.",
+        "2. Agree to give kind, blunt feedback without getting upset.",
+        "3. Share a tough problem and ask where you went wrong.",
+        "4. Listen quietly and thank them for showing the truth."
       ],
       "sourceChapter": "Chapter 14: Culture and Community"
     }
@@ -1015,9 +1015,9 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       "category": "Psychology",
       "type": "mental-model",
       "headline": "Soldier vs. Scout",
-      "body": "The soldier's posture is defensive: incoming facts are allies to welcome or enemies to shoot down.\nThe scout walks ahead into uncharted territory without attachment, aiming only to chart an accurate map of what is truly there.",
-      "quote": "A scout's goal isn't to make one idea win or another lose, but to see what's really there as accurately as you can.",
-      "actionItem": "When entering an argument, ask yourself: 'Am I defending a trench or surveying the landscape?'",
+      "body": "A soldier fights to defend ideas like territory.\nA scout explores territory to see what is really there.\nScouts want an accurate map of reality, not a fight.",
+      "quote": "A scout wants to see what is really there, not make one side win.",
+      "actionItem": "In your next disagreement, ask yourself if you are attacking or just exploring.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1035,10 +1035,10 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       "author": "Julia Galef",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Directional Motivated Reasoning",
-      "body": "When we desire a specific outcome, our mind operates as a defense lawyer rather than an impartial judge.\nWe ask 'Can I believe this?' for comforting thoughts and 'Must I believe this?' for inconvenient truths.",
-      "quote": "Our judgment is strongly influenced, unconsciously, by which side we want to win.",
-      "actionItem": "Catch yourself when demanding impossibly high standards of proof for facts you dislike.",
+      "headline": "Defending What You Want",
+      "body": "We often act like defense lawyers instead of fair judges.\nWe accept easy ideas quickly and demand harsh proof for facts we dislike.\nOur feelings quietly shape what we choose to believe.",
+      "quote": "We let our desire for an outcome secretly decide what we believe.",
+      "actionItem": "Catch yourself when you demand endless proof for facts you do not like.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1057,9 +1057,9 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       "category": "Psychology",
       "type": "actionable",
       "headline": "The Outsider Test",
-      "body": "We carry immense emotional baggage regarding our past choices and investments.\nClear this fog by asking what an intelligent newcomer, free of historical bias, would do if handed your situation today.",
-      "quote": "Imagine someone took over your role tomorrow. What would they do without your attachments?",
-      "actionItem": "Look at an unresolved project and ask: 'If I inherited this 5 minutes ago, would I continue it?'",
+      "body": "Old choices and sunken costs cloud our daily thinking.\nPicture a smart stranger taking over your seat right now.\nThey can make fresh moves without any emotional baggage.",
+      "quote": "Ask what a newcomer would do if they took your place right now.",
+      "actionItem": "Look at a stalled project and ask if you would start it today.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1078,9 +1078,9 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       "category": "Psychology",
       "type": "mental-model",
       "headline": "The Conformity Test",
-      "body": "Our views often mirror the tribe we depend upon for safety and esteem.\nTo test whether an opinion is genuinely yours, imagine your peers suddenly disowning it.\nWould you still hold it in solitude?",
-      "quote": "Ask yourself: If other people in my group started disagreeing with this, would I still believe it?",
-      "actionItem": "Isolate one belief and evaluate its truth stripped entirely of social applause.",
+      "body": "We copy views from our social group to fit in safely.\nTest your thoughts by picturing your friends dropping this view tomorrow.\nWould you still keep the belief all by yourself?",
+      "quote": "If your circle suddenly rejected this idea, would you still stand by it?",
+      "actionItem": "Pick one core belief and test if you hold it just for applause.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1098,10 +1098,10 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       "author": "Julia Galef",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Epistemic Confidence vs. Social Confidence",
-      "body": "Social confidence is the calm assurance in your character and capability to act.\nEpistemic confidence is the claim to absolute certainty about facts.\nTrue wisdom separates the two: project calm resolve while acknowledging factual uncertainty.",
-      "quote": "You can be completely confident in yourself without claiming to know things you don't.",
-      "actionItem": "Express decisive resolve in action while openly noting what remains uncertain.",
+      "headline": "Two Types of Confidence",
+      "body": "Social confidence means trusting yourself to act with courage.\nIntellectual confidence means falsely claiming you know every single fact.\nTrue strength projects calm action while admitting what you do not know.",
+      "quote": "You can believe in yourself without pretending to know everything.",
+      "actionItem": "Take bold action today while openly admitting what you still do not know.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1119,10 +1119,10 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       "author": "Julia Galef",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Discovering an Error is an Upgrade",
-      "body": "When reality disproves your belief, nothing has been taken from you.\nAn illusion has dissolved, leaving your mental map more reliable and closer to the terrain.",
-      "quote": "Being wrong means your map just got updated to match the territory.",
-      "actionItem": "Replace 'I made a humiliating mistake' with 'My map of reality just became sharper.'",
+      "headline": "Being Wrong Is an Upgrade",
+      "body": "Finding a flaw in your thinking is never a loss.\nA false idea fades away and reality becomes much clearer.\nYour inner map of the world just got an upgrade.",
+      "quote": "Being wrong just means your map of reality got a clean upgrade.",
+      "actionItem": "When proven wrong, say out loud that your mental map just got better.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1141,9 +1141,9 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       "category": "Psychology",
       "type": "actionable",
       "headline": "The Selective Skeptic Test",
-      "body": "When presented with a study or headline that aligns with your priors, apply the same rigorous doubt you would turn on an opponent's evidence.\nEpistemic equanimity requires equal scrutiny.",
-      "quote": "If this exact study supported the opposite conclusion, would I still find its methodology sound?",
-      "actionItem": "Before sharing news you love, examine its flaws as if an intellectual rival had posted it.",
+      "body": "We easily trust news that matches our favorite opinions.\nQuestion friendly news with the same rigor you give to rival views.\nTreat every claim with the exact same standard of proof.",
+      "quote": "Would you trust this evidence if it proved the side you dislike?",
+      "actionItem": "Before you share pleasing news online, check its claims for hidden weak spots.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1161,10 +1161,10 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       "author": "Julia Galef",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Betting as Calibration",
-      "body": "Putting metaphorical or literal stakes behind an opinion cuts through rhetorical posturing.\nAsking 'Would I bet money on this?' forces the mind to trade defensive pride for sober probabilistic assessment.",
-      "quote": "A bet is a tax on bullshit.",
-      "actionItem": "Whenever you make an assertion, ask yourself what odds and wager you would truly risk on it.",
+      "headline": "Betting Tests Your Honesty",
+      "body": "Talk is cheap when pride is on the line.\nAsking if you would bet real cash cuts through empty boasting.\nReal stakes force your brain to make an honest assessment.",
+      "quote": "Placing a bet quickly shows how much you truly believe your words.",
+      "actionItem": "Whenever you make a strong claim, ask how much money you would bet.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1182,10 +1182,10 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       "author": "Julia Galef",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Identity Holding Lightly",
-      "body": "The more labels you fuse to your identity\u2014political, philosophical, or lifestyle\u2014the more ideas you must protect as personal territory.\nHold convictions as tools rather than talismans of self-worth.",
-      "quote": "Keep your identity small so you can see clearly without threat.",
-      "actionItem": "Describe what you believe in terms of current evidence, not in terms of who you are.",
+      "headline": "Hold Your Identity Lightly",
+      "body": "Heavy labels make you defend beliefs as if defending yourself.\nView your views as practical tools instead of sacred badges.\nWhen beliefs are just tools, changing them never hurts your pride.",
+      "quote": "Keep your identity small so new facts do not feel like personal threats.",
+      "actionItem": "Describe your beliefs with plain facts instead of using tribal political labels.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1203,10 +1203,10 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       "author": "Julia Galef",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Steel-Manning the Opposition",
-      "body": "Dismantling a caricature of an opponent's argument feeds cheap ego-gratification.\nA true scout strengthens the rival position until its legitimate insights and premises cannot be ignored.",
-      "quote": "You don't truly understand an idea until you can argue against yourself better than your opponent can.",
-      "actionItem": "Summarize someone's opposing view so generously that they thank you for clarifying it.",
+      "headline": "Build the Strongest Counterargument",
+      "body": "Knocking down a silly version of an opposing view feels easy.\nA true scout rebuilds the other side to be as strong as possible.\nYou only master an idea when you grasp its best points.",
+      "quote": "You only understand an idea when you can argue it better than rivals.",
+      "actionItem": "State an opponent's point so clearly that they agree with your summary.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1224,10 +1224,10 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       "author": "Julia Galef",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Truth Over Tranquility",
-      "body": "Comfort founded on self-deception is fragile, easily shattered by circumstance.\nTranquility grounded in reality remains unshakeable because it hides nothing from itself.",
-      "quote": "Accuracy is better than delusion, even when delusion feels safe.",
-      "actionItem": "Trade the momentary warmth of a comforting illusion for the quiet stability of the truth.",
+      "headline": "Truth Over Comfort",
+      "body": "False comfort breaks the moment real life shows up.\nFacing the facts brings solid peace that never cracks under pressure.\nHonest clarity always beats a pleasant daydream.",
+      "quote": "Seeing the truth is always better than living in a safe lie.",
+      "actionItem": "Choose a hard truth today over a pleasant story that slows you down.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1245,10 +1245,10 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       "author": "Julia Galef",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Status Quo Bias Test",
-      "body": "We confuse inertia with virtue, remaining in decaying arrangements simply because they already exist.\nReframe the situation by imagining the current reality vanished and evaluating if you would rebuild it.",
-      "quote": "If you woke up tomorrow and this option didn't exist, would you go out of your way to invent it?",
-      "actionItem": "Ask whether you are preserving an ongoing commitment out of purpose or sheer dread of change.",
+      "headline": "The Blank Slate Test",
+      "body": "We often stick with bad routines simply because they are familiar.\nPicture your current setup disappearing completely overnight.\nAsk if you would spend time and effort rebuilding it from scratch.",
+      "quote": "If this setup vanished overnight, would you rebuild it from scratch today?",
+      "actionItem": "Check one lingering habit and ask if you would choose it today.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1266,10 +1266,10 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       "author": "Julia Galef",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Bayesian Epistemic Humility",
-      "body": "Belief is not an on/off switch between certainty and ignorance; it is a spectrum of calibrated probabilities.\nEach new observation shifts your probability upward or downward like ripples smoothing across still water.",
-      "quote": "Update your beliefs in increments rather than waiting for an emotional crisis to change your mind.",
-      "actionItem": "Shift your perspective from 'Is this true?' to 'How much does this observation shift my estimate?'",
+      "headline": "Shift Beliefs in Steps",
+      "body": "Thinking is not an on or off light switch.\nTreat beliefs like dials that turn up or down with new facts.\nSmall clues should slightly shift how sure you feel.",
+      "quote": "Update your thinking in small steps instead of waiting for a shock.",
+      "actionItem": "Ask yourself how much this one fact moves your guess up or down.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1287,10 +1287,10 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       "author": "Julia Galef",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Rewarding the Whistleblower Within",
-      "body": "When a part of your mind whispers an uncomfortable observation that threatens your preferred narrative, do not silence it.\nGreet the observation with the serenity of a host opening the door to an unexpected guest.",
-      "quote": "Notice when you feel a flinch of resistance to a thought, and lean into it.",
-      "actionItem": "Pay attention to the slight emotional flinch before dismissing an argument; explore that exact spot.",
+      "headline": "Listen to the Inner Flinch",
+      "body": "Notice when your brain flinches at a fact that upsets your plans.\nDo not push that annoying thought away or pretend it does not matter.\nThat awkward spot is often where the truth is hiding.",
+      "quote": "When your gut flinches from a thought, stop and look closer.",
+      "actionItem": "Notice the quick sting before you reject an argument, and explore that spot.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1308,10 +1308,10 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       "author": "Julia Galef",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Counterfactual Thought Experiment",
-      "body": "To see if your moral or factual evaluation is distorted by who did the act, swap the protagonist with a despised rival.\nIf your verdict shifts, you are judging the tribe rather than the deed.",
-      "quote": "Would you judge this behavior the same way if it was done by someone you disliked?",
-      "actionItem": "Mentally replace a political or personal ally with an adversary before praising their actions.",
+      "headline": "Swap the Player",
+      "body": "We judge actions by whether we like the person who did them.\nSwap your favorite leader with someone you strongly dislike.\nIf your judgment flips, you care about the person, not the action.",
+      "quote": "Would you judge this choice the same way if a rival made it?",
+      "actionItem": "Before praising a friend, imagine a political rival doing the exact same thing.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1329,10 +1329,10 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       "author": "Julia Galef",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Quiet Strength of Epistemic Grace",
-      "body": "Yielding to evidence is not surrender; it is alignment with the natural order.\nTrue strength does not resist the mountain; it walks along its contours.",
-      "quote": "Changing your mind isn't a sign of weakness; it's a sign of learning.",
-      "actionItem": "Publicly acknowledge a revision in your point of view without excuse or defensive framing.",
+      "headline": "Changing Your Mind",
+      "body": "Admitting you were wrong is never a sign of defeat.\nIt means you paid attention and learned something real.\nSmart people adapt to facts instead of fighting reality.",
+      "quote": "Changing your mind is not weak; it shows you are still learning.",
+      "actionItem": "Tell someone today that you changed your mind after seeing fresh facts.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1350,10 +1350,10 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       "author": "Julia Galef",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Social vs. Truth Incentives",
-      "body": "Society routinely rewards tribal solidarity, ideological passion, and false confidence over calm neutrality.\nThe scout recognizes this distortion and deliberately cultivates inner incentives for truth.",
-      "quote": "The incentives of our social world are often aligned against seeing things clearly.",
-      "actionItem": "Surround yourself with at least one interlocutor who praises you for acknowledging doubt.",
+      "headline": "Social Pressure vs. Truth",
+      "body": "Groups often reward blind loyalty and loud certainty over honest doubt.\nScouts notice this trap and choose truth over cheers.\nFind peers who value accuracy more than fitting in.",
+      "quote": "Our social world often rewards blind loyalty over honest clear thinking.",
+      "actionItem": "Talk with a friend who respects you for saying, 'I am not sure.'",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1371,10 +1371,10 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       "author": "Julia Galef",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Track Your Calibration",
-      "body": "Make your predictions explicit with recorded dates and numerical confidences.\nReview them quarterly without judgment.\nSelf-knowledge begins when you confront how often your 90% certainties fall flat.",
-      "quote": "Keeping score is the only way to find out if your internal compass actually points north.",
-      "actionItem": "Record three specific predictions with percentage confidences in a notebook today.",
+      "headline": "Track Your Track Record",
+      "body": "Write down exact predictions with dates and simple percentage scores.\nCheck your notes later without making excuses for mistakes.\nYou learn quickly when you see how often your sure bets fail.",
+      "quote": "Writing down your predictions is how you learn if you are truly accurate.",
+      "actionItem": "Write down three clear predictions today and mark how sure you are.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1392,10 +1392,10 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       "author": "Julia Galef",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Darwinian Note-Taking Principle",
-      "body": "Charles Darwin noted that facts contradicting his theories slipped from memory far faster than agreeable ones.\nHe made it a strict discipline to write down disconfirming observations immediately.",
-      "quote": "Write down evidence against your theories right away, because that is what your mind will forget first.",
-      "actionItem": "Keep a dedicated scratchpad for facts, data, or remarks that irritate or contradict your hypotheses.",
+      "headline": "The Darwin Note Rule",
+      "body": "Charles Darwin noticed he quickly forgot facts that opposed his theories.\nHe made a strict habit of writing down awkward facts immediately.\nDo not trust your memory to keep facts you dislike.",
+      "quote": "Write down opposing facts immediately, because your memory forgets them first.",
+      "actionItem": "Start a small note file for facts and data that annoy your views.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1413,10 +1413,10 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       "author": "Julia Galef",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Clarity as an Act of Equanimity",
-      "body": "The quest for truth is not an intellectual combat to be won, but an interior stillness where reality is allowed to present itself without distortion or fear.",
-      "quote": "The scout mindset is not an ability, but an emotional posture of openness to the world as it is.",
-      "actionItem": "Sit quietly before resolving a thorny dispute, releasing your desire for a particular truth to prevail.",
+      "headline": "Stay Calm and Open",
+      "body": "Seeking truth is not a war to win with fancy words.\nIt is an honest willingness to see things as they really are.\nLet reality speak without forcing your wishful thinking onto it.",
+      "quote": "A scout mindset is just an honest choice to see the world clearly.",
+      "actionItem": "Pause for ten seconds before arguing, and let go of needing to win.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1431,41 +1431,41 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
   "mindMap": {
     "id": "root",
     "label": "The Scout Mindset",
-    "description": "The art of seeing reality as it truly is, unclouded by self-flattery, tribal loyalty, or wishful illusions.\nLike a quiet observer by still waters, the scout seeks only a clear map of the landscape, placing fidelity to truth above the comfort of defending an unearned certainty.",
+    "description": "See things as they really are, not how you want them to be.\nFocus on facts instead of defending your ego.",
     "children": [
       {
         "id": "soldier-vs-scout",
-        "label": "The Dual Stances: Soldier and Scout",
-        "description": "Within every mind dwell two archetypes: the defensive warrior seeking victory for preconceived beliefs, and the quiet surveyor longing to know the true terrain.\nCultivating awareness of which master we currently serve is the first step toward genuine inner freedom.",
+        "label": "Soldier vs. Scout",
+        "description": "Soldiers fight to defend their opinions.\nScouts explore to map the actual territory.",
         "children": [
           {
             "id": "soldier-mindset",
             "label": "The Soldier Stance",
-            "description": "The soldier views ideas as territory to be defended and opposing facts as hostile incursions.\nDriven by instinctual dread of error, this posture reflexively justifies existing dogmas, confusing self-preservation with the defense of truth.",
+            "description": "Treating new ideas like enemies attacking you.\nYou defend what you already think at all costs.",
             "children": [
               {
                 "id": "directional-motivated-reasoning",
-                "label": "Directional Reasoning",
-                "description": "The intellect acts as a hired barrister, seeking evidence that flatters a chosen conclusion while actively dismissing dissonant signals.\nIt feels like rational thought from within, yet its destination is decided before the journey begins.",
+                "label": "Biased Thinking",
+                "description": "Searching only for proof that supports your side.\nYou ignore any facts that disagree.",
                 "children": [
                   {
                     "id": "can-i-believe-it",
-                    "label": "The 'Can I Believe This?' Test",
-                    "description": "When an observation comforts us, we require only the flimsiest threshold of plausibility to welcome it inside.\nWe ask merely if it is permitted to believe, ignoring how fragile the underlying foundation remains.",
+                    "label": "Can I Believe This?",
+                    "description": "Accepting pleasant ideas way too easily.\nYou believe good news without checking the proof.",
                     "children": []
                   },
                   {
                     "id": "must-i-believe-it",
-                    "label": "The 'Must I Believe This?' Test",
-                    "description": "When an unwelcome truth threatens our ego, we erect an impassable wall of skepticism demanding absolute proof.\nWe refuse to yield until forced, mistaking stubborn resistance for rigorous intellectual discipline.",
+                    "label": "Must I Believe This?",
+                    "description": "Rejecting unpleasant ideas unless you are forced to accept them.\nYou demand impossible proof for bad news.",
                     "children": []
                   }
                 ]
               },
               {
                 "id": "ego-preservation",
-                "label": "Ego-Defensive Armor",
-                "description": "The fragile sense of self clings to beliefs as if they were vital limbs that cannot be severed without tragedy.\nIn this besieged state, any admission of flaw or ignorance is perceived as existential defeat rather than liberation.",
+                "label": "Protecting Your Ego",
+                "description": "Fearing that being wrong makes you look weak.\nYou defend pride instead of learning the truth.",
                 "children": []
               }
             ]
@@ -1473,18 +1473,18 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
           {
             "id": "scout-mindset",
             "label": "The Scout Stance",
-            "description": "The scout departs from the stronghold with serene detachment, seeking neither victory nor defeat, but simply an accurate rendering of the world.\nTruth is held as a sacred compass that guides rightful action through life's unpredictable terrain.",
+            "description": "Looking at the world with honest curiosity.\nYou want an accurate picture, good or bad.",
             "children": [
               {
                 "id": "accuracy-drive",
-                "label": "The Pure Drive for Accuracy",
-                "description": "A quiet longing to understand what is genuine, independent of whether the reality pleases or wounds our pride.\nThis stance treats every observation as an unvarnished pebble retrieved from the river of experience.",
+                "label": "Aiming for Truth",
+                "description": "Wanting to know what is actually real.\nYou put truth above feeling good.",
                 "children": []
               },
               {
                 "id": "open-curiosity",
-                "label": "Curiosity Over Conquest",
-                "description": "Approaching anomaly not with irritation or defensiveness, but with the calm intrigue of a naturalist observing an unfamiliar creature.\nSurprise is greeted as a gift that reveals a fissure in one's previous understanding.",
+                "label": "Curiosity Over Winning",
+                "description": "Getting excited when facts surprise you.\nSurprises show you where your knowledge was wrong.",
                 "children": []
               }
             ]
@@ -1493,37 +1493,37 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       },
       {
         "id": "unconscious-motives",
-        "label": "The Hidden Costs of Self-Deception",
-        "description": "We deceive ourselves not out of malice, but because false beliefs grant temporary emotional refuge and social cohesion.\nYet like borrowing peace on margin, every delusion eventually extracts a severe tax when the hard rocks of reality intervene.",
+        "label": "Hidden Costs of Lies",
+        "description": "Lying to yourself feels good right now.\nIt always costs you heavily later.",
         "children": [
           {
             "id": "comfort-and-morale",
-            "label": "The Illusion of Comfort",
-            "description": "We often fabricate optimistic fables to soothe immediate anxiety or bolster a fragile sense of hope.\nYet tranquil equanimity cannot be sustained on falsehoods; real peace arises only from standing upon bedrock.",
+            "label": "Fake Comfort",
+            "description": "Making up stories to hide fear and worry.\nReal strength comes from facing the facts.",
             "children": [
               {
                 "id": "fragile-confidence",
-                "label": "Fragile vs. Grounded Confidence",
-                "description": "Fragile confidence is a porcelain mask constructed from inflated self-assurances that shatters upon contact with adversity.\nGrounded confidence is quiet resilience born from knowing that one can endure whatever facts reveal themselves.",
+                "label": "Real vs Fake Confidence",
+                "description": "Fake confidence breaks when troubles hit.\nReal confidence knows you can handle the truth.",
                 "children": []
               }
             ]
           },
           {
             "id": "social-belonging",
-            "label": "The Pull of Tribal Belonging",
-            "description": "Humans are deeply social beings whose ancient survival depended upon harmony with the clan.\nTo proclaim an uncomfortable truth often risks exile, tempting the soul to trade clear vision for the warm embrace of the tribe.",
+            "label": "Tribal Fitting In",
+            "description": "Agreeing with your group just to belong.\nStanding up for truth can feel lonely.",
             "children": [
               {
                 "id": "social-signaling",
-                "label": "Belief as Uniform",
-                "description": "Convictions are frequently worn like heraldic banners to signal loyalty and virtue to our companions.\nWhen ideas become badges of allegiance, revising them feels perilously close to treason.",
+                "label": "Beliefs as Badges",
+                "description": "Wearing opinions to prove loyalty to friends.\nChanging your mind feels like betraying your group.",
                 "children": []
               },
               {
                 "id": "epistemic-courage",
-                "label": "Epistemic Courage",
-                "description": "The rare virtue of enduring social solitude rather than endorsing an emperor's invisible attire.\nIt requires serene steadfastness to accept friction with one's peers in honorable devotion to clarity.",
+                "label": "Bravery to Disagree",
+                "description": "Speaking the truth even when others disagree.\nYou choose honesty over peer pressure.",
                 "children": []
               }
             ]
@@ -1532,37 +1532,37 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       },
       {
         "id": "scout-virtues",
-        "label": "Virtues of Epistemic Humility",
-        "description": "The scout's path is not merely an intellectual discipline, but a profound spiritual temperance.\nIt mirrors the stoic ideal of aligning one's internal judgments with nature, practicing moderation of certainty and gentle detachment from pride.",
+        "label": "Scout Habits",
+        "description": "Staying humble and keeping your mind open.\nYou care more about learning than looking smart.",
         "children": [
           {
             "id": "intellectual-honesty",
-            "label": "Introspective Sincerity",
-            "description": "The relentless willingness to acknowledge one's secret preferences and unspoken prejudices before they corrupt observation.\nIt demands inspecting one's internal scale for hidden weights before weighing the world's claims.",
+            "label": "Honest Self-Check",
+            "description": "Spotting your own biases before they trick you.\nAdmitting what you secretly want to be true.",
             "children": []
           },
           {
             "id": "joy-of-being-wrong",
-            "label": "Equanimity in Being Wrong",
-            "description": "Finding serene satisfaction when a cherished premise is disproven, for the mind has traded an illusion for reality.\nEach corrected mistake is not an injury to the self, but an expansion of the map.",
+            "label": "Joy in Mistakes",
+            "description": "Feeling glad when you catch a mistake.\nYou just replaced a lie with truth.",
             "children": [
               {
                 "id": "updating-as-growth",
-                "label": "Updating as Metamorphosis",
-                "description": "Recognizing that shedding old convictions is as natural and vital as a snake discarding outgrown skin.\nThe thinker who never recants has ceased to learn, mistaking petrified thoughts for enduring strength.",
+                "label": "Changing Your Mind",
+                "description": "Letting go of old ideas as you learn.\nUpdating your view is normal and healthy.",
                 "children": []
               }
             ]
           },
           {
             "id": "decoupling-identity",
-            "label": "Decoupling Identity from Belief",
-            "description": "Refusing to allow passing conclusions to define the essence of who you are.\nWhen beliefs are held lightly as temporary instruments rather than identity pillars, their revision causes neither panic nor grief.",
+            "label": "You Are Not Beliefs",
+            "description": "Refusing to wrap your self-worth in opinions.\nChanging an opinion does not harm who you are.",
             "children": [
               {
                 "id": "identifying-as-scout",
-                "label": "The Identity of the Seeker",
-                "description": "Anchoring one's dignity not in being permanently correct, but in being an attentive, honest observer of truth.\nOne takes pride not in the static fortress of knowledge, but in the faithful practice of looking clearly.",
+                "label": "Being a Learner",
+                "description": "Taking pride in being an honest observer.\nYou care about looking clearly, not always being right.",
                 "children": []
               }
             ]
@@ -1571,55 +1571,55 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       },
       {
         "id": "scout-methods",
-        "label": "Practices for Discerning Truth",
-        "description": "Wisdom requires practical contemplative exercises to pierce the veil of cognitive bias.\nBy applying calibrated thought experiments, the scout cultivates deliberate stillness and reveals hidden motives.",
+        "label": "Tools for Truth",
+        "description": "Simple mental tricks to catch your own bias.\nThey help you see past wishful thinking.",
         "children": [
           {
             "id": "thought-experiments",
-            "label": "Tests of Impartiality",
-            "description": "Mental shifts designed to expose our unconscious biases by altering the frame of reference.\nLike stepping behind an opposing battlement, these tests let us view our own fortifications with honest detachment.",
+            "label": "Fairness Tests",
+            "description": "Quick thought games that reveal hidden blind spots.\nThey show you if you are being unfair.",
             "children": [
               {
                 "id": "outsider-test",
                 "label": "The Outsider Test",
-                "description": "Asking what a wise, disinterested stranger would choose if they inherited your exact situation without your past attachments.\nBy shedding personal history, the optimal path appears unencumbered by sunk costs.",
+                "description": "Asking what a fresh outsider would do.\nThis removes personal baggage and stubborn habits.",
                 "children": []
               },
               {
                 "id": "conformity-test",
                 "label": "The Conformity Test",
-                "description": "Imagining whether you would still champion a belief if your closest social circle suddenly condemned it.\nThis quiet reflection reveals whether an opinion is born of deep conviction or merely the desire to conform.",
+                "description": "Asking if you would agree if friends disagreed.\nThis shows if you only want to fit in.",
                 "children": []
               },
               {
                 "id": "selective-skeptic-test",
-                "label": "The Selective Skeptic Test",
-                "description": "Checking whether you would accept an opposing argument if it happened to support your favored side.\nApplying identical scrutiny to all evidence brings equilibrium to the scales of judgment.",
+                "label": "Selective Skeptic Test",
+                "description": "Checking if you would believe this if the roles flipped.\nJudge all sides with the same rules.",
                 "children": []
               },
               {
                 "id": "status-quo-bias-test",
                 "label": "The Status Quo Test",
-                "description": "Asking whether you would actively adopt your current condition if you were not already immersed in it.\nThis clears the passive inertia that leads souls to endure unnecessary suffering simply because it is familiar.",
+                "description": "Asking if you would choose your current situation today.\nDo not stay stuck just because it feels familiar.",
                 "children": []
               }
             ]
           },
           {
             "id": "calibrated-uncertainty",
-            "label": "Probabilistic Stillness",
-            "description": "Abandoning crude absolutes of total certainty or total disbelief in favor of nuanced degrees of confidence.\nThe mind becomes like a quiet mountain lake, rippling precisely in proportion to the weight of each falling pebble.",
+            "label": "Shades of Certainty",
+            "description": "Thinking in chances rather than 100% yes or no.\nGive each idea the confidence it actually earns.",
             "children": [
               {
                 "id": "betting-heuristic",
-                "label": "The Betting Heuristic",
-                "description": "Asking what tangible stake you would wager on the validity of your statement to sober careless rhetoric.\nFinancial or moral wagers dissolve theatrical posturing, laying bare your genuine inner probability.",
+                "label": "The Betting Test",
+                "description": "Asking how much real money you would bet on this.\nReal stakes quickly expose false confidence.",
                 "children": []
               },
               {
                 "id": "epistemic-calibration",
-                "label": "Calibrating the Inner Scale",
-                "description": "Training the intellect so that when you declare eighty percent confidence, the event occurs precisely four times out of five.\nSuch harmony between conviction and reality is the hallmark of a mature philosopher.",
+                "label": "Calibrating Guesses",
+                "description": "Learning to match confidence with real odds.\nSaying 80% should mean you are right 8 times in 10.",
                 "children": []
               }
             ]
@@ -1628,37 +1628,37 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
       },
       {
         "id": "living-the-scout-mindset",
-        "label": "Living with Epistemic Grace",
-        "description": "Embodying the scout mindset in daily conduct transforms human relationships, leadership, and personal peace.\nWhen we cease warring over perceptions, conversation becomes joint inquiry, and life unfolds with quiet dignity.",
+        "label": "Living as a Scout",
+        "description": "Using honesty in daily life, work, and chats.\nDiscussions become teamwork instead of fights.",
         "children": [
           {
             "id": "scout-communication",
-            "label": "Dialectic Without Aggression",
-            "description": "Engaging in dialogue not to vanquish an opponent, but to cooperatively unveil a hidden truth.\nBy listening with patient presence, one turns what might have been a hostile duel into a shared walk toward wisdom.",
+            "label": "Talking Without Fighting",
+            "description": "Talking with people to uncover truth together.\nYou listen instead of trying to crush opponents.",
             "children": [
               {
                 "id": "steelmanning",
-                "label": "The Principle of Charity and Steelmanning",
-                "description": "Articulating your adversary's viewpoint in its most luminous and compelling form before offering your own perspective.\nThis practice honors the other soul, purifies your discernment, and dissolves shallow disputes.",
+                "label": "Steelmanning",
+                "description": "Explaining the other person's side at its very best.\nIt shows respect and clears up misunderstandings.",
                 "children": []
               },
               {
                 "id": "graceful-admissions",
-                "label": "Quiet Concession",
-                "description": "Readily murmuring 'I had not considered that' without feeling an ounce of diminishment.\nTrue stature belongs to the thinker who bows to reason without hesitation, viewing truth as the only sovereign.",
+                "label": "Admitting Mistakes",
+                "description": "Easily saying 'I was wrong' without shame.\nAdmitting errors proves you care about truth.",
                 "children": []
               }
             ]
           },
           {
             "id": "inner-equanimity",
-            "label": "The Serenity of Radical Acceptance",
-            "description": "Resting in profound peace by relinquishing the desperate compulsion to control reality through wishful thinking.\nIn accepting the world exactly as it is, one discovers the enduring freedom of an unclouded mind.",
+            "label": "Accepting Reality",
+            "description": "Finding peace by accepting how things actually are.\nStop wasting energy wishing facts were different.",
             "children": [
               {
                 "id": "clear-sighted-action",
-                "label": "Virtuous Action from Clear Vision",
-                "description": "Acting with decisive vigor not from blind fanaticism, but from an accurate perception of circumstance and consequence.\nThe scout acts effectively precisely because their feet are planted firmly on solid earth.",
+                "label": "Clear-Eyed Action",
+                "description": "Making better choices based on real facts.\nYou succeed because you see things clearly.",
                 "children": []
               }
             ]

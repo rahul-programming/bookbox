@@ -1,5 +1,5 @@
 // The Paradox of Choice by Barry Schwartz
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -523,28 +523,28 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
   "actionItems": [
     {
       "id": "the-paradox-of-choice-act-1",
-      "title": "Establish 'Satisficing' Thresholds for Everyday Purchases",
-      "description": "Maximizing turns routine shopping into an exhausting cognitive tax. By defining minimal acceptable criteria beforehand, you stop an endless search once an option crosses the 'good enough' threshold, preserving dopamine and mental stamina.",
+      "title": "Pick The First Good Option",
+      "description": "Searching for the absolute best choice drains your energy fast. Set basic standards early and stop looking once you find a match.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Pick one recurring consumer item you frequently overthink (e.g., olive oil, running shoes, headphones).",
-        "List 2 or 3 non-negotiable criteria (e.g., under $40, cold-pressed, 4+ star reviews).",
-        "Commit to buying the very first item that matches all criteria without browsing further.",
-        "Notice and immediately dismiss the urge to look at remaining alternatives."
+        "1. Pick one simple item you always overthink while shopping.",
+        "2. Write down two or three must-have features before you look.",
+        "3. Buy the very first item that meets those basic standards.",
+        "4. Close all extra browser tabs right away without checking more."
       ],
       "sourceChapter": "Chapter 4: When Only the Best Will Do"
     },
     {
       "id": "the-paradox-of-choice-act-2",
-      "title": "Adopt a Two-Option Breakfast or Wardrobe Uniform",
-      "description": "Decision fatigue drains prefrontal cortex capacity early in the morning. Automating baseline decisions turns active deliberation into passive background routine, insulating your willpower for high-leverage choices.",
+      "title": "Cut Down Your Morning Choices",
+      "description": "Making too many choices early in the day makes you tired. Simplify your morning routine so you save energy for bigger tasks.",
       "category": "daily-routine",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Identify friction point",
-        "Apply the protocol",
-        "Review progress"
+        "1. Pick just two easy breakfast meals or outfits this week.",
+        "2. Switch between those two options every morning without debating.",
+        "3. Notice how much calmer your morning feels each day."
       ],
       "sourceChapter": "Key Concept"
     }
@@ -721,10 +721,10 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       "author": "Barry Schwartz",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Official Dogma of Western Freedom",
-      "body": "Modern industrial culture operates on a foundational axiom: to maximize individual welfare, we must maximize individual freedom, and the only path to maximizing freedom is maximizing choice.\nYet cognitive reality breaks this equation.\nBeyond an optimal inflection point, an explosion of alternatives shifts the psychological experience from liberation to systemic paralysis.",
-      "quote": "The official dogma of all Western industrial societies runs like this: If we are interested in maximizing the welfare of our citizens, the way to do that is to maximize individual freedom.",
-      "actionItem": "Identify one area where you have collected excessive choices and intentionally prune the selection pool by half.",
+      "headline": "The Illusion of Choice",
+      "body": "We believe more choices always bring more freedom.\nBut having too many options makes us feel stuck and unhappy.\nPast a small limit, extra choices make life harder.",
+      "quote": "Western society teaches that more choices will always make people freer and happier.",
+      "actionItem": "Pick one cluttered area of your life.\nCut your options there directly in half.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -742,10 +742,10 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       "author": "Barry Schwartz",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Choice Paralysis at the Display Table",
-      "body": "When shoppers encountered an upscale tasting booth with 24 gourmet jams, 60 percent paused to browse, but only 3 percent actually purchased.\nWhen the display shrank to just 6 varieties, only 40 percent stopped, but a staggering 30 percent completed a transaction.\nAbundant variety attracts the senses, but it freezes the executive functioning required to select.",
-      "quote": "When people are presented with too many options, they hesitate, they delay, and often, they simply walk away without choosing at all.",
-      "actionItem": "When presenting options to clients, colleagues, or yourself, strictly cap the active alternatives to three to five items.",
+      "headline": "The Jam Study",
+      "body": "Shoppers saw a display table with twenty-four gourmet jams.\nMost people stopped to look, but almost nobody bought one.\nWith only six jams, far more shoppers bought a jar.",
+      "quote": "When people face too many choices, they pause and often buy nothing.",
+      "actionItem": "When offering options to others or yourself, limit them to three to five.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -763,10 +763,10 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       "author": "Barry Schwartz",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Maximizer Archetype",
-      "body": "Maximizers operate on an exhaustive search heuristic: they cannot rest until they verify that their selection represents the absolute pinnacle of available value.\nBecause the modern informational landscape offers near-infinite inventory, the maximizer's search can never truly conclude, turning every mundane purchase into an anxious, exhausting research campaign.",
-      "quote": "To maximize is to demand the absolute best. But when the world contains endless alternatives, seeking the best requires an impossible amount of scrutiny.",
-      "actionItem": "Notice when you are opening dozens of browser tabs for a minor purchase and immediately execute a choice from the first three tabs.",
+      "headline": "The Maximizer Trap",
+      "body": "Maximizers need to find the absolute best option every single time.\nEndless choices make this impossible.\nBecause of this, even simple shopping trips leave them exhausted and anxious.",
+      "quote": "Always demanding the best in an endless world requires an impossible search.",
+      "actionItem": "When shopping online, open just three tabs and choose one right away.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -784,10 +784,10 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       "author": "Barry Schwartz",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Satisficer Equilibrium",
-      "body": "Satisficers adopt a pre-determined internal standard of adequacy: they define what qualities an option must possess, scan until they encounter the first candidate meeting those exact criteria, and stop searching immediately.\nWhile maximizers may occasionally harvest marginally superior outcomes, satisficers consistently harvest dramatically superior psychological well-being.",
-      "quote": "To satisfice is to settle for something that is good enough and not worry about the possibility that there might be something better.",
-      "actionItem": "Before browsing any marketplace, write down three non-negotiable criteria, and purchase the very first option that satisfies them.",
+      "headline": "Good Enough Wins",
+      "body": "Satisficers know what they need before they start looking.\nThey pick the first item that meets their simple standards.\nThen they stop searching, saving time and staying happy.",
+      "quote": "Pick what is good enough, and do not worry about better options.",
+      "actionItem": "Write down three simple requirements, then buy the first item that fits them.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -805,10 +805,10 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       "author": "Barry Schwartz",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Opportunity Cost Subtraction",
-      "body": "Every choice carries an invisible tax: the foregone attributes of every alternative you declined.\nWhen evaluating a vacation, a consumer mentally weaves the best features of ten distinct destinations into an impossible composite phantom.\nMeasured against this non-existent utopian hybrid, the selected real-world option inevitably feels deficient.",
-      "quote": "The cost of any choice includes the opportunities forgone by making it. As the number of options increases, the cumulative attractiveness of what we pass up can surpass the value of what we choose.",
-      "actionItem": "Cease researching competing options the exact second a decision is finalized to prevent phantom comparisons.",
+      "headline": "Hidden Trade-Offs",
+      "body": "Every choice forces you to give up other good options.\nWe often imagine one perfect thing made from all the rejected choices.\nNext to this fake ideal, our real choice feels disappointing.",
+      "quote": "When options multiply, we dwell on all the good things we gave up.",
+      "actionItem": "Stop reading reviews the exact moment you pay for your item.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -826,10 +826,10 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       "author": "Barry Schwartz",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Anticipated and Post-Decision Regret",
-      "body": "When options multiply, regret bifurcates.\nAnticipated regret paralyzes us before the decision ('what if I pick the wrong one?'), while post-decision regret undermines our peace afterward.\nThe more alternatives that existed, the easier it becomes to construct a counterfactual scenario where an unchosen option would have performed flawlessly.",
-      "quote": "Both anticipated regret and postdecision regret can turn what should be a satisfying triumph into an agonizing exercise in self-recrimination.",
-      "actionItem": "When regret surfaces, mentally remind yourself that you chose based on the information available in the moment, not omniscient hindsight.",
+      "headline": "Fear of Regret",
+      "body": "Having lots of choices makes us worry before and after picking.\nWe fear making a mistake, so we hesitate.\nLater, we easily imagine how another option might have worked better.",
+      "quote": "Worrying about regret can ruin what should have been a good decision.",
+      "actionItem": "Remind yourself that you made the best choice possible with what you knew.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -847,10 +847,10 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       "author": "Barry Schwartz",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Escalation of Expectations",
-      "body": "When there is only one style of jeans on the shelf and it fits poorly, the manufacturer is to blame; when there are fifty styles and your purchase is imperfect, you are to blame.\nVariety inexorably ratchets expectations toward perfection.\nAs options multiply, the possibility of a delightful pleasant surprise vanishes, replaced entirely by vulnerability to disappointment.",
-      "quote": "The secret to happiness is low expectations. When alternatives abound, expectations skyrocket, making disappointment virtually inevitable.",
-      "actionItem": "Deliberately set your expectations for routine experiences to 'adequately acceptable' rather than 'transcendent'.",
+      "headline": "Rising Expectations",
+      "body": "When there is only one option, you do not expect perfection.\nWhen there are dozens, you expect a flawless match.\nBecause your hopes are so high, you usually end up disappointed.",
+      "quote": "Lower expectations bring more happiness, because endless choices set your hopes too high.",
+      "actionItem": "Aim for ordinary satisfaction on daily tasks instead of chasing perfection.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -868,10 +868,10 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       "author": "Barry Schwartz",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Hedonic Adaptation Mechanism",
-      "body": "Human beings possess remarkable neurochemical adaptation systems.\nWhether we acquire an exotic sports car or a luxury apartment, the initial surge of dopamine fades as sensory systems adjust to the new stimulus, recalibrating our emotional baseline back to zero.\nBecause we routinely fail to anticipate this adaptation, we over-invest resources in pursuit of transitory spikes.",
-      "quote": "We buy things because we think they will make us happy, but our ability to adjust to novelty ensures that the happiness will be short-lived.",
-      "actionItem": "Implement a 72-hour cooling-off rule on high-end upgrades to let emotional spikes subside before deciding.",
+      "headline": "Fading Excitement",
+      "body": "A shiny new purchase feels amazing on the first day.\nSoon, you get used to it, and the special feeling fades away.\nPeople forget this and spend too much chasing brief thrills.",
+      "quote": "New things quickly lose their sparkle, and our happiness soon returns to normal.",
+      "actionItem": "Wait three days before buying an expensive upgrade to let your excitement cool.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -889,10 +889,10 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       "author": "Barry Schwartz",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Internalization of Culpability",
-      "body": "Under constrained environments, a disappointing outcome can be attributed to the world's limitations.\nBut in hyper-abundant environments, the burden of failure shifts entirely inward.\nIf you cannot find a pristine partner, an immaculate career, or an ideal product among millions of possibilities, the psychological architecture demands you accept total personal failure.",
-      "quote": "When there are thousands of possibilities and you fail to achieve perfection, you have no one to blame but yourself.",
-      "actionItem": "Reframe sub-optimal outcomes as statistical inevitable variance rather than personal diagnostic failure.",
+      "headline": "Self-Blame",
+      "body": "When choices are few, you can blame a bad store for poor results.\nWhen choices are endless, you only blame yourself.\nYou feel like a failure for not finding the perfect answer.",
+      "quote": "With endless options available, you blame yourself whenever something turns out poorly.",
+      "actionItem": "Treat bad results as normal bad luck, not a personal flaw.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -910,10 +910,10 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       "author": "Barry Schwartz",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Perils of Social Comparison",
-      "body": "We calibrate the worth of our possessions and standing not against absolute utility, but relative to our peer group.\nMaximizers are hypersensitive to social comparisons, constantly scanning their horizon to verify whether a neighbor secured a superior arrangement.\nSatisficers, anchored to internal benchmarks, remain largely immune to competitive lifestyle inflation.",
-      "quote": "We assess the quality of our experiences by comparing ourselves to others. This social comparison can turn satisfaction into acute misery.",
-      "actionItem": "Curate your digital feeds to eliminate accounts that trigger reflexive status comparisons and envy loops.",
+      "headline": "Social Comparison",
+      "body": "We often judge our own lives by looking at other people.\nComparing yourself to friends makes you feel behind and unhappy.\nPeople who focus on their own standards feel much more peaceful.",
+      "quote": "Comparing yourself to others quickly turns everyday satisfaction into bitter misery.",
+      "actionItem": "Unfollow social media accounts that make you feel jealous of other lifestyles.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -931,10 +931,10 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       "author": "Barry Schwartz",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Choose When to Choose",
-      "body": "Conscious choice is an exhaustible cognitive asset.\nSpending energy agonizing over mundane micro-decisions\u2014cereal flavors, airline seating rows, mobile phone covers\u2014depletes the willpower required for existential dilemmas.\nPractice strategic indifference by deciding in advance which categories of life deserve your analytical attention.",
-      "quote": "To manage the problem of excessive choice, we must decide which choices in our lives really matter and focus our energies there.",
-      "actionItem": "Select three recurring consumer categories (e.g., groceries, socks, rental cars) and declare them permanent satisficing zones.",
+      "headline": "Pick Your Battles",
+      "body": "Making choices takes real energy every single day.\nAgonizing over tiny purchases leaves you tired for the decisions that matter.\nChoose in advance which small things you will ignore.",
+      "quote": "We must decide which choices actually matter and focus our energy there.",
+      "actionItem": "Pick three small items, like socks or coffee, and never compare prices.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -952,10 +952,10 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       "author": "Barry Schwartz",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Erect Voluntary Self-Constraints",
-      "body": "Unbounded freedom leads to anhedonia and cognitive fatigue.\nJust as sonnets require meter and sports require court boundaries, human creativity and tranquility thrive within rigorous structures.\nEstablishing rigid personal rules, routines, and policies insulates the nervous system from perpetual reconsideration.",
-      "quote": "Rules, presets, and habits free us from the burden of constantly deciding what to do next.",
-      "actionItem": "Establish an inflexible daily routine for your morning sequence (clothing, breakfast, workout) to eliminate early decision fatigue.",
+      "headline": "Set Personal Rules",
+      "body": "Complete freedom without borders makes us tired and bored.\nStrict personal rules protect your mind from constant debate.\nSimple daily routines make your life calmer and much easier.",
+      "quote": "Simple rules and habits free us from deciding what to do next.",
+      "actionItem": "Wear the same simple outfit pattern each morning to avoid early decision fatigue.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -973,10 +973,10 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       "author": "Barry Schwartz",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Make Decisions Irreversible",
-      "body": "Psychological immune systems activate only when an exit door is welded shut.\nWhen college students were offered an option to change their mind about an art print, their satisfaction cratered compared to those told the choice was final.\nThe reversible group spent days evaluating alternatives; the irreversible group rationalized and grew fond of their chosen print.",
-      "quote": "Agonizing over whether you made the right choice is much more likely when you know you can undo it.",
-      "actionItem": "When entering a commitment or project, burn the bridge of second-guessing by declaring a 90-day moratorium on reassessment.",
+      "headline": "Make Decisions Final",
+      "body": "We only learn to love our choices once return doors close.\nPeople who can undo choices keep second-guessing themselves for days.\nPeople who make permanent choices feel content much faster.",
+      "quote": "Second-guessing your choice is much more likely when you can change it.",
+      "actionItem": "When you pick a project, promise not to rethink it for three months.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -994,10 +994,10 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       "author": "Barry Schwartz",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Practice Fishbowl Discipline",
-      "body": "A fishbowl restricts the fish, but without the bowl, the fish perishes.\nTrue autonomy is not the total absence of walls, but the deliberate curation of boundaries that protect what matters.\nWelcoming constraints is not a concession to defeat; it is an intelligent adaptation to our finite biological processing capacity.",
-      "quote": "The fishbowl may limit freedom, but it creates the conditions under which life can actually flourish.",
-      "actionItem": "Set hard limits on your workspace tools (e.g., maximum 3 open browser tabs, single-monitor focus) to establish a cognitive fishbowl.",
+      "headline": "The Fishbowl Rule",
+      "body": "A fishbowl limits the fish, but it keeps the fish alive.\nTrue freedom requires healthy walls to keep life simple and safe.\nSetting clear boundaries helps you focus on what counts.",
+      "quote": "The fishbowl limits freedom, but it creates the conditions for life to flourish.",
+      "actionItem": "Keep only three tabs open on your computer screen while working.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1015,10 +1015,10 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       "author": "Barry Schwartz",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Curvilinear Curve of Liberty",
-      "body": "Economics long assumed freedom of choice exhibits a monotonic positive trajectory: more is always superior.\nCognitive psychology reveals a curvilinear dynamic.\nInitial choices lift us out of autocracy and deprivation, but past a moderate threshold, additional increments degrade clarity, confidence, and peace.",
-      "quote": "Choice is what enables us to tell the world who we are and what we care about. But as the number of choices increases, the negatives begin to mount until choice becomes a tyranny.",
-      "actionItem": "Audit your tools and subscriptions; cancel anything that offers marginal utility at the expense of regular management overhead.",
+      "headline": "The Choice Curve",
+      "body": "A few choices help us escape poverty and control our lives.\nBut adding too many options slowly steals away our peace of mind.\nEventually, endless variety feels like a heavy burden.",
+      "quote": "Choice gives us freedom, but too many choices turn into a trap.",
+      "actionItem": "Review your paid apps and cancel any tool you rarely use.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1036,10 +1036,10 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       "author": "Barry Schwartz",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Anatomy of Disappointment",
-      "body": "When alternatives are rare, consumers forgive minor flaws and celebrate good fortune.\nWhen alternatives are endless, our benchmark shifts to an imagined ideal.\nThe objective reality might be magnificent, but subjective satisfaction remains anchored to the difference between actual delivery and hyper-inflated anticipations.",
-      "quote": "When you have no choice, life is almost unbearable. But as the number of choices grows, expectations rise, and the possibility of being pleasantly surprised disappears.",
-      "actionItem": "Go into new movies, books, or restaurants without checking aggregate review scores to preserve the element of discovery.",
+      "headline": "Lost Surprises",
+      "body": "With few choices, people accept small flaws and enjoy good surprises.\nEndless choices make us imagine a perfect dream world instead.\nReal life can never match those sky-high hopes.",
+      "quote": "Having no choice hurts, but endless choices destroy pleasant surprises.",
+      "actionItem": "Watch a movie or read a book without checking star ratings first.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1057,10 +1057,10 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       "author": "Barry Schwartz",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Solitary Burden of Autonomy",
-      "body": "Unlimited choice uncouples individuals from communal scripts, placing the burden of self-definition squarely on private shoulders.\nWhile celebrated as sovereign liberty, it creates existential vertigo.\nEvery consumer choice, dietary preference, and lifestyle fork transforms into a high-stakes referendum on personal identity.",
-      "quote": "We are free to be whatever we want, but having to invent ourselves from scratch, choice by choice, can be terrifyingly lonely and exhausting.",
-      "actionItem": "Adopt a traditional or community-tested protocol for a mundane aspect of life rather than designing your own from scratch.",
+      "headline": "The Burden of Identity",
+      "body": "Today we must define who we are through every purchase.\nEvery small choice feels like a test of your personal identity.\nHaving to build yourself from scratch feels very lonely.",
+      "quote": "Inventing ourselves from scratch with every single choice is exhausting and lonely.",
+      "actionItem": "Follow a simple family tradition instead of creating a brand new routine.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1078,10 +1078,10 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       "author": "Barry Schwartz",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Sunk Cost Amplification Loop",
-      "body": "Maximizers invest disproportionate cognitive and emotional capital into every decision process.\nThis heavy upfront cognitive investment activates the sunk cost fallacy with ferocious intensity: having spent forty hours researching a laptop, the user demands life-altering performance to justify the search costs.",
-      "quote": "The more time and effort we pour into deciding, the more we need the outcome to be extraordinary to justify the expenditure.",
-      "actionItem": "Enforce a strict 15-minute timebox on product research to prevent your sunk cognitive investment from demanding perfection.",
+      "headline": "Wasted Effort Trap",
+      "body": "Spending days searching for an item makes you demand perfection.\nYou need the item to change your life to justify the time.\nIn the end, the purchase cannot match your huge effort.",
+      "quote": "The more time we spend deciding, the more we demand perfection.",
+      "actionItem": "Give yourself just fifteen minutes to research any product online.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1099,10 +1099,10 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       "author": "Barry Schwartz",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Second-Order Decisions",
-      "body": "Second-order decisions are meta-choices: decisions about how we make decisions.\nRather than evaluating whether to exercise each morning, you adopt a blanket rule ('I run at 7:00 AM every Tuesday and Thursday').\nMeta-rules circumvent the energy-hungry deliberative machinery of the prefrontal cortex.",
-      "quote": "By using rules, standards, and routines, we eliminate the need to deliberate repeatedly over decisions that do not warrant our continuous attention.",
-      "actionItem": "Establish a single default menu for weekday lunches to eliminate 250 unnecessary deliberations per year.",
+      "headline": "Automatic Habits",
+      "body": "You do not need to make new decisions every single morning.\nInstead, build clear rules that choose for you ahead of time.\nThis protects your energy for big challenges.",
+      "quote": "Daily routines eliminate the need to debate small things again and again.",
+      "actionItem": "Eat the exact same healthy lunch every workday to save your energy.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1120,10 +1120,10 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       "author": "Barry Schwartz",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "The Gratitude Antidote",
-      "body": "The brain's adaptation machinery and comparison heuristics systematically direct attention toward defects and unchosen paths.\nDeliberately practicing gratitude reverses this attention drift, shifting mental focal points from what could have been better to what is already remarkably functional.",
-      "quote": "Gratitude forces our focus onto what is good in our lives, reducing the urge to constantly compare and seek improvements.",
-      "actionItem": "End each day by noting three everyday tools, interactions, or outcomes that performed their function smoothly without needing improvement.",
+      "headline": "The Gratitude Habit",
+      "body": "Our minds naturally look for flaws and missed chances.\nSaying thank you turns your attention back to what already works well.\nThis practice stops you from constantly hunting for better things.",
+      "quote": "Gratitude keeps our focus on good things and reduces endless comparisons.",
+      "actionItem": "Name three simple tools that worked well for you today before bed.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1138,44 +1138,48 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
   "mindMap": {
     "id": "root",
     "label": "The Paradox of Choice",
-    "description": "Barry Schwartz unveils the profound psychological illusion of modern freedom: how an overabundance of options systematically paralyzes judgment and erodes life satisfaction.\nInstead of liberating human potential, unchecked choice triggers cognitive fatigue, spiraling expectations, and self-blame.",
+    "description": "Having too many options makes us unhappy.\nInstead of setting us free, too much choice causes stress and regret.",
     "children": [
       {
         "id": "node-1",
-        "label": "The Explosion of Choice",
-        "description": "Modern society treats infinite optionality as the ultimate measure of personal liberty and individual autonomy.\nHowever, the daily environment has evolved faster than our cognitive hardware, overwhelming decision circuits with trivial variations.",
+        "label": "Too Many Options",
+        "description": "Modern life gives us endless choices everywhere.\nOur brains cannot easily handle this flood of daily decisions.",
         "children": [
           {
             "id": "node-1-1",
-            "label": "Consumer Hyper-Proliferation",
-            "description": "Supermarket aisles and digital storefronts confront shoppers with dozens of indistinguishable iterations of basic commodities.\nEvaluating minute differences consumes finite mental stamina, turning routine errands into taxing research projects.",
+            "label": "Endless Everyday Products",
+            "description": "Stores and websites offer dozens of nearly identical items.\nComparing tiny differences tires us out before we even buy.",
             "children": [
               {
                 "id": "node-1-1-1",
-                "label": "The Illusion of Meaningful Variety",
-                "description": "Most commercial proliferation consists of surface-level cosmetic differences rather than substantive functional distinctions.\nConsumers waste vital attentional bandwidth attempting to decode tiny brand permutations with negligible impact on their well-being."
+                "label": "Fake Differences",
+                "description": "Most products only look different on the outside.\nWe waste time comparing things that work the same way.",
+                "children": []
               },
               {
                 "id": "node-1-1-2",
-                "label": "Information Overload Dynamics",
-                "description": "When technical specifications and consumer reviews flood consciousness, our analytical capacity collapses under the data deluge.\nThe brain defaults to defensive mental shortcuts or freezes entirely when inputs exceed working memory thresholds."
+                "label": "Brain Overload",
+                "description": "Too many reviews and details confuse our minds.\nWe end up guessing or freezing up completely.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-1-2",
-            "label": "Critical Life Arenas Deregulated",
-            "description": "Choice proliferation has aggressively expanded beyond consumer retail into existential domains such as healthcare, retirement planning, and higher education.\nCrucial decisions once steered by institutional defaults are now offloaded entirely onto untrained individual shoulders.",
+            "label": "Heavy Life Decisions",
+            "description": "Big choices like healthcare and careers now fall entirely on us.\nHandling complex choices alone causes huge anxiety.",
             "children": [
               {
                 "id": "node-1-2-1",
-                "label": "Patient Autonomy Burden",
-                "description": "Modern medicine frequently shifts the agonizing burden of complex clinical treatment options from trained physicians onto vulnerable patients.\nNavigating life-altering therapeutic tradeoffs during illness creates severe emotional distress rather than genuine empowerment."
+                "label": "Medical Choices Burden",
+                "description": "Doctors now ask sick patients to choose their own treatments.\nDeciding between scary medical options adds painful stress.",
+                "children": []
               },
               {
                 "id": "node-1-2-2",
-                "label": "Customized Identity Architecture",
-                "description": "Social affiliations, career trajectories, and lifestyle philosophies are no longer inherited from cohesive communities or cultural traditions.\nIdentity has transformed into a high-stakes DIY construction project where every path demands perpetual re-evaluation."
+                "label": "Making Your Identity",
+                "description": "We must invent who we are all by ourselves.\nConstantly questioning our life paths feels exhausting.",
+                "children": []
               }
             ]
           }
@@ -1183,40 +1187,44 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       },
       {
         "id": "node-2",
-        "label": "Cognitive Mechanics of Decision-Making",
-        "description": "Human cognitive architecture relies on heuristic shortcuts and emotional anchors to navigate an inherently complex world.\nWhen forced to navigate hyper-abundant possibility spaces, these evolutionary adaptations misfire and generate systematic analytical errors.",
+        "label": "How We Choose",
+        "description": "Our minds use simple rules to pick things.\nWhen options explode, our usual decision tricks start failing.",
         "children": [
           {
             "id": "node-2-1",
-            "label": "Maximizers vs. Satisficers",
-            "description": "Individuals fall along a psychological spectrum defining how they evaluate and select available options.\nMaximizers hunt relentlessly for the single best outcome, while Satisficers settle happily once a predetermined threshold of acceptability is met.",
+            "label": "Two Decision Styles",
+            "description": "People pick things in two main ways.\nSome demand the best, while others settle for good enough.",
             "children": [
               {
                 "id": "node-2-1-1",
-                "label": "The Maximizer Exhaustion Loop",
-                "description": "Maximizers cannot disengage until every alternative has been systematically scrutinized, quantified, and ranked.\nThis compulsive search consumes vast temporal resources and triggers chronic vulnerability to retrospective second-guessing."
+                "label": "The Best Searchers",
+                "description": "Maximizers must check every option to find the absolute best.\nThis wastes time and always leads to second-guessing.",
+                "children": []
               },
               {
                 "id": "node-2-1-2",
-                "label": "The Satisficer Threshold Strategy",
-                "description": "Satisficers construct clear internal criteria of what constitutes 'good enough' and instantly terminate their search upon finding a match.\nThis pragmatic stopping rule frees up cognitive capacity and immunizes the decider against phantom comparisons."
+                "label": "Good Enough Pickers",
+                "description": "Satisficers stop looking as soon as an option meets their standard.\nThis saves energy and keeps them happy.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-2-2",
-            "label": "Evaluation Biases and Heuristics",
-            "description": "When evaluating broad option sets, our neural circuitry relies heavily on relative context rather than absolute objective utility.\nFraming effects, vivid recollections, and local reference points warp perceived value in unpredictable directions.",
+            "label": "Mental Blind Spots",
+            "description": "We judge options by comparing them, not by true value.\nSmart packaging and prices can easily trick our brains.",
             "children": [
               {
                 "id": "node-2-2-1",
-                "label": "Availability and Salience Distortion",
-                "description": "Dramatic anecdotes and recent vivid experiences heavily skew rational risk assessment and option valuation.\nWe disproportionately weight salient horror stories or hyper-visible success cases when judging probability distributions."
+                "label": "Scary Story Trap",
+                "description": "We remember dramatic stories more than real facts.\nOne bad review makes us fear a safe choice.",
+                "children": []
               },
               {
                 "id": "node-2-2-2",
-                "label": "Anchoring and Contrast Traps",
-                "description": "The initial price tag or primary feature encountered anchors the mental scale against which all subsequent options are judged.\nRetailers exploit this quirk through decoy pricing structures that make expensive choices appear deceptively reasonable."
+                "label": "The Price Anchor",
+                "description": "The first price we see sets our mental standard.\nStores show overpriced items to make other prices look cheap.",
+                "children": []
               }
             ]
           }
@@ -1224,57 +1232,63 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       },
       {
         "id": "node-3",
-        "label": "The Psychological Costs of Choice",
-        "description": "The subjective experience of decision quality does not scale linearly with the objective quality of the chosen item.\nA wider selection pool systematically increases the mental penalty of choosing, depleting net emotional satisfaction.",
+        "label": "The Hidden Costs",
+        "description": "More options do not make us feel happier.\nEach extra option makes choosing feel more painful.",
         "children": [
           {
             "id": "node-3-1",
-            "label": "Opportunity Cost Salience",
-            "description": "Selecting one pathway inevitably demands the conscious sacrifice of the unique virtues found across all rejected alternatives.\nWhen options multiply, the cumulative imagined value of forfeited benefits easily eclipses the pleasure of the chosen item.",
+            "label": "What We Lose",
+            "description": "Picking one thing means giving up the perks of everything else.\nThinking about what we missed ruins what we picked.",
             "children": [
               {
                 "id": "node-3-1-1",
-                "label": "Subtractive Quality Accounting",
-                "description": "Every visible option possesses at least one standout feature superior to our selected choice.\nMentally piecing together an imaginary hybrid ideal makes our real-world purchase feel compromised and inadequate by comparison."
+                "label": "Imaginary Perfect Mix",
+                "description": "We combine the best parts of rejected items in our minds.\nOur real purchase always looks worse by comparison.",
+                "children": []
               },
               {
                 "id": "node-3-1-2",
-                "label": "Trade-off Aversion Paralysis",
-                "description": "Confronting direct trade-offs between conflicting virtues\u2014such as safety versus price\u2014triggers acute psychological discomfort.\nRather than resolving painful value clashes, people frequently postpone action or abandon the decision entirely."
+                "label": "Fear of Trade-offs",
+                "description": "Choosing between price and quality feels stressful.\nPeople often freeze and make no choice at all.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-3-2",
-            "label": "Regret Dynamics and Second-Guessing",
-            "description": "Choice amplification activates both anticipated regret prior to acting and post-decision regret once an outcome materializes.\nCounterfactual thinking relentlessly manufactures alternate realities where a different option yielded superior bliss.",
+            "label": "Regret and Doubts",
+            "description": "Extra choices make us dread picking wrong.\nAfter buying, we wonder if another choice was better.",
             "children": [
               {
                 "id": "node-3-2-1",
-                "label": "Anticipated Regret Inertia",
-                "description": "The anticipatory dread of making an inferior selection discourages decisive commitment.\nFear of future remorse causes decision-makers to delay critical choices or freeze in prolonged states of procrastination."
+                "label": "Fear of Mistakes",
+                "description": "Worrying about future regret stops us from acting.\nWe keep putting off choices because we fear mistakes.",
+                "children": []
               },
               {
                 "id": "node-3-2-2",
-                "label": "Counterfactual 'What-If' Rumination",
-                "description": "Easy access to nearby counterfactual scenarios makes mental undoing effortless and common.\nWhen dozens of alternatives existed, it is distressingly simple to imagine that a marginally different selection would have delivered flawless results."
+                "label": "The What-If Trap",
+                "description": "With many choices, it is easy to imagine a better pick.\nWe torture ourselves with thoughts of what could have been.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-3-3",
-            "label": "Adaptation and the Hedonic Treadmill",
-            "description": "Humans rapidly habituate to positive enhancements in their physical, social, and material circumstances.\nNovel luxuries quickly recede into baseline expectations, erasing transient pleasure spikes and renewing insatiable appetite for more options.",
+            "label": "Fading Excitement",
+            "description": "We quickly get used to nice things.\nThe thrill wears off fast, leaving us wanting more.",
             "children": [
               {
                 "id": "node-3-3-1",
-                "label": "Hedonic Habituation Decay",
-                "description": "The sensory and emotional kick delivered by even the most meticulously researched purchase inevitably decays over time.\nDeciders mistake initial dopamine rushes for permanent upgrades, ensuring inevitable post-purchase deflation."
+                "label": "Happiness Wears Off",
+                "description": "The joy from a new item fades quickly.\nWe soon return to feeling completely normal again.",
+                "children": []
               },
               {
                 "id": "node-3-3-2",
-                "label": "Expectation Calibration Inflation",
-                "description": "Abundant options inflate subjective expectations toward flawless perfection.\nWhen selections are perceived as unlimited, anything short of complete nirvana registers as an intolerable defect."
+                "label": "Unrealistic High Hopes",
+                "description": "Endless choices make us expect total perfection.\nWhen results fall short of perfection, we feel let down.",
+                "children": []
               }
             ]
           }
@@ -1282,40 +1296,44 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       },
       {
         "id": "node-4",
-        "label": "Social Comparison and Identity Pathology",
-        "description": "Possessions and lifestyle choices act as visible signals within relative status hierarchies.\nUnbounded optionality transforms decision-making into an arena of anxious comparative benchmark tests against peer groups.",
+        "label": "Comparison and Blame",
+        "description": "We use our choices to show off status.\nInfinite choices turn buying into an anxious contest.",
         "children": [
           {
             "id": "node-4-1",
-            "label": "Positional Goods and Envy Spirals",
-            "description": "The utility derived from positional goods depends primarily on how they rank relative to the possessions of nearby social peers.\nExpanding lifestyle selections intensifies status competition, generating zero-sum consumption rat races.",
+            "label": "Keeping Up Appearances",
+            "description": "We judge what we have by looking at our neighbors.\nMore choices make us compete harder for status.",
             "children": [
               {
                 "id": "node-4-1-1",
-                "label": "Upward Social Comparison",
-                "description": "Social media and ubiquitous advertising continuously benchmark our ordinary lives against curated highlight reels of the privileged elite.\nThis constant upward contrast breeds enduring subjective deficiency regardless of objective abundance."
+                "label": "Social Media Envy",
+                "description": "Online feeds show everyone else's best moments.\nComparing ourselves to others makes us feel poor and behind.",
+                "children": []
               },
               {
                 "id": "node-4-1-2",
-                "label": "Status Anxiety Escalation",
-                "description": "When choice is framed as total personal expression, taste displays become definitive measures of competence and status.\nEvery miscalculated outfit or subpar vacation choice threatens one's perceived social rank."
+                "label": "Worrying About Rank",
+                "description": "Every purchase feels like a test of our taste.\nWe worry that picking poorly makes us look bad.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-4-2",
-            "label": "The Internalization of Failure",
-            "description": "When options are scarce, disappointing outcomes can be blamed on systemic constraints and an unaccommodating world.\nBut when options are limitless, any suboptimal result points squarely to individual stupidity and personal fault.",
+            "label": "Blaming Ourselves",
+            "description": "When few options exist, we can blame the world.\nWhen options are endless, any mistake is our own fault.",
             "children": [
               {
                 "id": "node-4-2-1",
-                "label": "Self-Blame Attribution Architecture",
-                "description": "With infinite choices available, personal failure becomes impossible to externalize.\nThe decider absorbs full psychological liability for disappointing outcomes, fostering corrosive shame and clinical helplessness."
+                "label": "Total Self-Blame",
+                "description": "With infinite choices, you have no excuses for bad picks.\nThis creates painful guilt and shame.",
+                "children": []
               },
               {
                 "id": "node-4-2-2",
-                "label": "The Modern Depression Vector",
-                "description": "Schwartz connects the explosion of individual choice directly to escalating modern clinical depression rates.\nThe toxic collision of inflated expectations and acute self-blame creates a dangerous breeding ground for chronic despair."
+                "label": "Path to Sadness",
+                "description": "Too much choice can feed depression.\nSky-high expectations and self-blame lead straight to misery.",
+                "children": []
               }
             ]
           }
@@ -1323,57 +1341,63 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
       },
       {
         "id": "node-5",
-        "label": "Remedies and Choice Architecture",
-        "description": "Liberation from the tyranny of excessive options requires deliberate behavioral guardrails and mindful structural constraints.\nBy establishing self-imposed boundaries and cultivating disciplined contentment, individuals reclaim psychological agency.",
+        "label": "How to Fix It",
+        "description": "We need personal rules to escape choice overload.\nSetting limits protects our peace of mind.",
         "children": [
           {
             "id": "node-5-1",
-            "label": "Cultivating the Satisficing Habit",
-            "description": "Consciously choosing to satisfice rather than maximize serves as a potent psychological circuit-breaker.\nLearning to embrace 'good enough' preserves enormous cognitive capital for relationships, creative pursuits, and deep work.",
+            "label": "Aim for Good Enough",
+            "description": "Choose to settle for good enough instead of perfect.\nThis frees up mental energy for things that matter.",
             "children": [
               {
                 "id": "node-5-1-1",
-                "label": "Selective Maximization Protocols",
-                "description": "Individuals must consciously triage choices into high-impact life domains versus low-stakes operational noise.\nHigh-intensity optimization should be reserved exclusively for genuine core passions, ruthlessly satisficing everything else."
+                "label": "Pick Your Battles",
+                "description": "Save deep research for only a few big passions.\nAccept good enough for everyday routine stuff.",
+                "children": []
               },
               {
                 "id": "node-5-1-2",
-                "label": "Pre-Determined Stopping Rules",
-                "description": "Setting explicit boundary criteria prior to initiating any search prevents open-ended evaluation rabbit holes.\nThe instant an item meets the stated criteria, transaction execution must be immediate and search tabs closed."
+                "label": "Set a Stop Sign",
+                "description": "Decide what you need before you start looking.\nBuy the first item that fits, then stop searching.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-5-2",
-            "label": "Strategic Voluntary Constraints",
-            "description": "Counterintuitively, authentic freedom flourishes behind structured, non-negotiable rules and personal self-restraints.\nAutomating daily habits and voluntarily narrowing option fields shields the psyche from relentless decision fatigue.",
+            "label": "Set Simple Limits",
+            "description": "Putting limits on yourself gives you true freedom.\nHabits and routines stop decision burnout before it starts.",
             "children": [
               {
                 "id": "node-5-2-1",
-                "label": "Rule-Based Decision Automation",
-                "description": "Adopting strict personal heuristics\u2014such as buying the same staple brand or maintaining a minimalist wardrobe\u2014eliminates recurring low-level deliberations.\nRigid rules convert active choices into zero-effort routines."
+                "label": "Use Simple Rules",
+                "description": "Stick to the same brands or a simple wardrobe.\nFixed rules turn tricky choices into zero-effort habits.",
+                "children": []
               },
               {
                 "id": "node-5-2-2",
-                "label": "Irrevocable Commitment Contracts",
-                "description": "Reversible commitments invite perpetual second-guessing and cognitive buyer's remorse.\nBurning behavioral retreat bridges and embracing irreversible choices paradoxically activates psychological defense mechanisms that amplify authentic happiness."
+                "label": "Make Choices Final",
+                "description": "Keep decisions permanent so you cannot change your mind.\nFinal choices stop second-guessing and boost happiness.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-5-3",
-            "label": "Cognitive Reframing Practices",
-            "description": "Restructuring subjective mental orientation toward gratitude and baseline acceptance neutralizes hedonic decay.\nActively modulating comparative yardsticks protects emotional well-being from societal hyper-competitiveness.",
+            "label": "Shift Your Mindset",
+            "description": "Focus on gratitude and realistic expectations.\nChanging how you look at choices keeps you content.",
             "children": [
               {
                 "id": "node-5-3-1",
-                "label": "Gratitude as Hedonic Counterweight",
-                "description": "Deliberate, daily gratitude practice redirects conscious focus away from what was sacrificed toward what was gained.\nActively celebrating current blessings prevents habituation from normalizing extraordinary comforts into invisible baselines."
+                "label": "Practice Daily Gratitude",
+                "description": "Notice what you gained instead of what you missed.\nBeing grateful keeps everyday joys feeling special.",
+                "children": []
               },
               {
                 "id": "node-5-3-2",
-                "label": "Downward Counterfactual Anchoring",
-                "description": "Training the mind to imagine how situations could easily have turned out worse neutralizes toxic upward social envy.\nAnchoring against less fortunate scenarios restores realistic perspective and deepens authentic contentment."
+                "label": "See the Bright Side",
+                "description": "Remind yourself how things could have been worse.\nThis keeps envy away and makes you appreciate your life.",
+                "children": []
               }
             ]
           }
