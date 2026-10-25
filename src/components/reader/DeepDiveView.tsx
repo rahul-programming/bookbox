@@ -326,14 +326,14 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-3.5">
                   {book.onePageSummary.readingRoadmap.map((item, idx) => (
-                    <div key={idx} className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-900/50 border border-slate-200/80 dark:border-slate-700/60 space-y-1.5">
-                      <span className="text-[11px] font-bold text-blue-600 dark:text-blue-400 uppercase tracking-wider block">
+                    <div key={idx} className="p-4 sm:p-5 rounded-2xl bg-slate-50/80 dark:bg-slate-900/60 border border-slate-200/90 dark:border-slate-700/80 space-y-2">
+                      <span className="text-xs font-bold text-blue-600 dark:text-blue-400 uppercase tracking-wider block">
                         {item.goalOrAudience}
                       </span>
-                      <p className="text-xs font-semibold text-slate-900 dark:text-slate-100">
+                      <p className={`font-bold text-slate-900 dark:text-slate-100 ${fontSizeClass}`}>
                         Focus: {item.recommendedChapters}
                       </p>
-                      <p className="text-[11px] text-slate-600 dark:text-slate-400 leading-relaxed">
+                      <p className={`text-slate-700 dark:text-slate-300 leading-relaxed ${fontSizeClass}`}>
                         {item.rationale}
                       </p>
                     </div>
@@ -346,12 +346,12 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               
               {/* Strengths */}
-              <div className="p-5 rounded-2xl bg-emerald-50/70 dark:bg-emerald-950/20 border border-emerald-200 dark:border-emerald-900/60">
-                <div className="flex items-center space-x-2 text-emerald-800 dark:text-emerald-400 font-bold text-sm mb-3">
-                  <CheckCircle className="w-4 h-4 text-emerald-600" />
+              <div className="p-5 sm:p-6 rounded-2xl bg-emerald-50/70 dark:bg-emerald-950/20 border border-emerald-200 dark:border-emerald-900/60">
+                <div className="flex items-center space-x-2 text-emerald-800 dark:text-emerald-400 font-bold text-base sm:text-lg mb-3">
+                  <CheckCircle className="w-5 h-5 text-emerald-600" />
                   <span>Key Strengths & Superpowers</span>
                 </div>
-                <ul className="space-y-2.5 text-xs sm:text-sm text-emerald-950 dark:text-emerald-200">
+                <ul className={`space-y-3 text-emerald-950 dark:text-emerald-100 leading-relaxed ${fontSizeClass}`}>
                   {book.onePageSummary.strengths.map((s, idx) => (
                     <li key={idx} className="flex items-start space-x-2">
                       <span className="text-emerald-600 font-bold">•</span>
@@ -362,12 +362,12 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
               </div>
 
               {/* Counterarguments & Blind Spots */}
-              <div className="p-5 rounded-2xl bg-amber-50/70 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-900/60">
-                <div className="flex items-center space-x-2 text-amber-800 dark:text-amber-400 font-bold text-sm mb-3">
-                  <AlertTriangle className="w-4 h-4 text-amber-600" />
+              <div className="p-5 sm:p-6 rounded-2xl bg-amber-50/70 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-900/60">
+                <div className="flex items-center space-x-2 text-amber-800 dark:text-amber-400 font-bold text-base sm:text-lg mb-3">
+                  <AlertTriangle className="w-5 h-5 text-amber-600" />
                   <span>Blind Spots & Critical Counterarguments</span>
                 </div>
-                <ul className="space-y-2.5 text-xs sm:text-sm text-amber-950 dark:text-amber-200">
+                <ul className={`space-y-3 text-amber-950 dark:text-amber-100 leading-relaxed ${fontSizeClass}`}>
                   {book.onePageSummary.blindSpotsAndCounterarguments.map((b, idx) => (
                     <li key={idx} className="flex items-start space-x-2">
                       <span className="text-amber-600 font-bold">•</span>
@@ -547,8 +547,8 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
                         paragraphClassName="mb-3"
                       />
 
-                      <div className="p-4 rounded-xl bg-amber-50 dark:bg-amber-950/30 border border-amber-200/80 dark:border-amber-900/60 text-xs sm:text-sm text-amber-900 dark:text-amber-200">
-                        <strong className="text-amber-950 dark:text-amber-100">Core Behavioral Lesson: </strong>
+                      <div className={`border-l-3 sm:border-l-4 border-amber-500 pl-3.5 sm:pl-4 py-1 text-slate-800 dark:text-slate-200 ${fontSizeClass} leading-relaxed`}>
+                        <strong className="text-amber-800 dark:text-amber-400 font-bold">Core Behavioral Lesson: </strong>
                         {story.coreLesson}
                       </div>
                     </div>
