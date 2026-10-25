@@ -629,9 +629,9 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
                   ? 'bg-white dark:bg-slate-800 text-blue-600 dark:text-blue-400 shadow-xs font-semibold'
                   : 'text-slate-600 dark:text-slate-400'
               }`}
-              title="Mind Web View"
+              title="Butterfly View"
             >
-              Mind Web
+              Butterfly
             </button>
             <button
               onClick={() => setLayoutMode('horizontal')}
@@ -640,9 +640,9 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
                   ? 'bg-white dark:bg-slate-800 text-blue-600 dark:text-blue-400 shadow-xs font-semibold'
                   : 'text-slate-600 dark:text-slate-400'
               }`}
-              title="Logic Flow Chart"
+              title="Right Align Chart"
             >
-              Logic Flow
+              Right Align
             </button>
           </div>
 
@@ -682,7 +682,7 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
             title="Listen to Mind Map Overview"
           >
             <Volume2 className="w-3.5 h-3.5" />
-            <span className="text-xs font-semibold hidden sm:inline">Audio Tour</span>
+            <span className="text-xs font-semibold hidden sm:inline">Listen</span>
           </button>
 
         </div>
