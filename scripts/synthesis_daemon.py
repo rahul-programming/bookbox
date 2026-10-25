@@ -42,9 +42,6 @@ def log(msg):
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     formatted = f"[{ts}] {msg}"
     print(formatted, flush=True)
-    os.makedirs(os.path.dirname(LOG_PATH), exist_ok=True)
-    with open(LOG_PATH, "a") as f:
-        f.write(formatted + "\n")
 
 def query_agy(prompt, timeout=360, effort="low"):
     cmd = [
@@ -697,26 +694,6 @@ export const {screaming_name}: Book = {json.dumps(book_obj, indent=2)};
 
     log("Build verified successfully!")
 
-    # Build singlefile distribution and copy to targets
-    log("Building standalone singlefile (npm run build:singlefile)...")
-    sf_res = subprocess.run(["npm", "run", "build:singlefile"], cwd=WORKSPACE_DIR, capture_output=True, text=True)
-    if sf_res.returncode == 0:
-        import shutil
-        src_html = os.path.join(WORKSPACE_DIR, "dist-singlefile/BookBox.html")
-        for dst in [
-            os.path.join(WORKSPACE_DIR, "BookBox.html"),
-            os.path.join(WORKSPACE_DIR, "dist/BookBox.html"),
-            os.path.join(WORKSPACE_DIR, "dist-singlefile/index.html"),
-            os.path.join(WORKSPACE_DIR, "dist/index.html")
-        ]:
-            try:
-                shutil.copyfile(src_html, dst)
-            except Exception as e:
-                log(f"Warning copying to {dst}: {e}")
-        log("Standalone singlefile updated at BookBox.html!")
-    else:
-        log(f"Warning: Singlefile build failed: {sf_res.stderr}")
-
     if os.path.exists(draft_file):
         try:
             os.remove(draft_file)
@@ -863,6 +840,7 @@ def main():
         sys.exit(1)
 
     update_progress_tracker()
+    books_since_last_push = 0
 
     while RUNNING:
         with open(TRACKER_PATH, "r") as f:
@@ -915,8 +893,30 @@ def main():
                 "completedAt": datetime.now(timezone.utc).isoformat()
             })
             update_progress_tracker()
+            books_since_last_push += 1
 
-            log(f"✅ Successfully completed '{current['title']}'. Resting 5 seconds before next...")
+            log(f"✅ Successfully completed '{current['title']}' ({books_since_last_push}/10 in current git batch). Resting 5 seconds before next...")
+
+            # Push to git only after 10 books have been synthesized
+            if books_since_last_push >= 10:
+                log(f"📦 Batch milestone reached: {books_since_last_push} books synthesized! Verifying build and pushing to git...")
+                build_res = subprocess.run(["npm", "run", "build"], cwd=WORKSPACE_DIR, capture_output=True, text=True)
+                if build_res.returncode == 0:
+                    try:
+                        subprocess.run(["git", "add", "src/data/books/", "src/data/seedBooks.ts", "src/data/synthesis_tracker.json"], cwd=WORKSPACE_DIR, check=True)
+                        commit_msg = f"feat(synthesis): batch of {books_since_last_push} books synthesized and added to library"
+                        subprocess.run(["git", "commit", "-m", commit_msg], cwd=WORKSPACE_DIR, check=True)
+                        push_res = subprocess.run(["git", "push", "origin", "main"], cwd=WORKSPACE_DIR, capture_output=True, text=True)
+                        if push_res.returncode == 0:
+                            log(f"🚀 Successfully pushed batch of {books_since_last_push} books to git origin main!")
+                            books_since_last_push = 0
+                        else:
+                            log(f"⚠️ Git push failed: {push_res.stderr or push_res.stdout}")
+                    except Exception as ge:
+                        log(f"⚠️ Git commit/push error: {ge}")
+                else:
+                    log(f"⚠️ Build check failed before git push: {build_res.stderr or build_res.stdout}")
+
             time.sleep(5)
 
         except Exception as e:
