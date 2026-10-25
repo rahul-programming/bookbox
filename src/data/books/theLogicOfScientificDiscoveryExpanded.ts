@@ -1,5 +1,5 @@
 // The Logic of Scientific Discovery by Karl Popper
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -485,169 +485,169 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
   "actionItems": [
     {
       "id": "the-logic-of-scientific-discovery-act-1",
-      "title": "Spot the Black Swan",
-      "description": "Notice when your brain looks only for confirming evidence and deliberately ask what single observation would prove your favorite hunch wrong.",
+      "title": "Spot Your Blind Spot",
+      "description": "Stop hunting only for good news. Find one fact that proves your idea wrong.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Pick a strong opinion or assumption you formed today.",
-        "Notice the pattern: list 2 pieces of data you collected that confirmed it.",
-        "Ask the Popperian question: 'What specific observation would prove this completely false?'",
-        "Write down that potential dealbreaker so you stay alert to disconfirming evidence."
+        "1. Pick one strong opinion you shared today.",
+        "2. List two clues that seemed to support it.",
+        "3. Ask what single fact would make it totally wrong.",
+        "4. Write down that dealbreaker so you stay honest."
       ],
       "sourceChapter": "Chapter 1: A Survey of Some Fundamental Problems"
     },
     {
       "id": "the-logic-of-scientific-discovery-act-2",
-      "title": "Define the Dealbreaker Metric",
-      "description": "Convert vague self-improvement goals into risky, falsifiable hypotheses with explicit failure thresholds before starting.",
+      "title": "Set a Failure Rule",
+      "description": "Turn vague self-help goals into clear bets. Pick an exact point where you admit failure.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Choose a new habit or work process you want to test this week.",
-        "State it as a bold claim (e.g., 'Walking 15 minutes before lunch boosts afternoon output by 20%').",
-        "Set an exact, unambiguous condition for failure (e.g., 'If focus score drops below 7/10 for 3 days, hypothesis rejected').",
-        "Log the start date and commit to ditching or tweaking the habit if it fails the condition."
+        "1. Pick a new habit you want to test this week.",
+        "2. State a clear claim about what results it will bring.",
+        "3. Choose a strict score that clearly marks a fail.",
+        "4. Drop or change the habit if it fails that test."
       ],
       "sourceChapter": "Chapter 4: Falsifiability"
     },
     {
       "id": "the-logic-of-scientific-discovery-act-3",
-      "title": "The Evening Disconfirmation Log",
-      "description": "End each day examining what surprised you or contradicted your mental models, celebrating errors as genuine discoveries.",
+      "title": "Daily Surprise Check",
+      "description": "Review what caught you off guard today. Treat your mistakes as helpful lessons.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Open your journal or notes app before shutting down for the night.",
-        "Identify one moment today where reality did not match your expectation.",
-        "Reflect on what mental model was challenged rather than brushing it off as an anomaly.",
-        "Record the updated rule or hypothesis for tomorrow."
+        "1. Open your notes app before heading to bed tonight.",
+        "2. Find one thing that did not go as planned.",
+        "3. Ask which faulty belief caused that surprise result.",
+        "4. Write down a better rule to use tomorrow."
       ],
       "sourceChapter": "Chapter 10: Corroboration, or How a Theory Stands Up to Tests"
     },
     {
       "id": "the-logic-of-scientific-discovery-act-4",
-      "title": "Morning Bold Conjecture Staking",
-      "description": "Kick off the morning by staking out one daring prediction about the day's projects instead of safe, obvious guesses.",
+      "title": "Make a Bold Morning Guess",
+      "description": "Start your day with one daring prediction. Avoid safe guesses that cannot fail.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Review your top priority for the day.",
-        "Formulate a precise conjecture: 'If I execute action X first, consequence Y will occur by 3 PM.'",
-        "Ensure the conjecture is specific enough to easily fail.",
-        "Check reality at the end of the day to see whether it survived the test."
+        "1. Check your top task for the day.",
+        "2. Write a clear guess about what it will achieve.",
+        "3. Make sure your guess can easily be proven wrong.",
+        "4. Check tonight if your bold guess survived the day."
       ],
       "sourceChapter": "Chapter 3: Theories"
     },
     {
       "id": "the-logic-of-scientific-discovery-act-5",
-      "title": "Falsification Trigger Post-It",
-      "description": "Place a prominent visual trigger in your workspace that snaps your mind out of confirmation bias during key decisions.",
+      "title": "Reality Check Sticky Note",
+      "description": "Put a reminder on your desk. Keep yourself from defending bad ideas.",
       "category": "environment",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Grab an index card or bright sticky note.",
-        "Write: 'What testable fact would show that I am wrong right now?'",
-        "Place it directly beneath your primary monitor or inside your notebook cover.",
-        "Glance at it whenever you find yourself defending an argument or proposal passionately."
+        "1. Grab a bright sticky note and a pen.",
+        "2. Write: 'What fact would prove me wrong right now?'",
+        "3. Stick it right below your computer screen.",
+        "4. Read it whenever you argue too hard for something."
       ],
       "sourceChapter": "Chapter 4: Falsifiability"
     },
     {
       "id": "the-logic-of-scientific-discovery-act-6",
-      "title": "Setup an 'Anomaly Inbox'",
-      "description": "Create a friction-free capture basket for data points, user feedback, or metrics that contradict your prevailing team narrative.",
+      "title": "Collect Surprising Feedback",
+      "description": "Save odd results in one folder. Stop brushing away weird clues as random flukes.",
       "category": "environment",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Create a dedicated folder or tag in your digital tool called 'Unexplained Anomalies'.",
-        "Add a quick-entry bookmark to your browser bar or desktop.",
-        "Save customer complaints, outlier results, and unexpected metrics here instead of filing them under 'edge cases'.",
-        "Keep the folder visible on your sidebar as a reminder of nature's surprises."
+        "1. Make a folder called 'Surprises and Complaints'.",
+        "2. Put a quick shortcut to it on your desktop.",
+        "3. Save odd metrics and weird user feedback inside it.",
+        "4. Check this folder weekly to spot hidden truths."
       ],
       "sourceChapter": "Chapter 9: Quantum Theory"
     },
     {
       "id": "the-logic-of-scientific-discovery-act-7",
-      "title": "Inventory of 'Immunizing Stratagems'",
-      "description": "Audit how you defend your cherished opinions against critique by spotting ad-hoc excuses and moving goalposts.",
+      "title": "Catch Your Excuses",
+      "description": "Check how you defend your favorite views. Notice when you make cheap excuses.",
       "category": "audit",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Pick a recurring debate or stalled project in your life.",
-        "List the last 3 times an unexpected negative outcome occurred.",
-        "Check how you explained each failure: Did you blame external flukes or qualify the original belief?",
-        "Highlight any excuse that made the original belief impossible to test or refute."
+        "1. Pick a project that is stuck or going poorly.",
+        "2. List three times things went bad recently.",
+        "3. Notice if you blamed bad luck instead of bad plans.",
+        "4. Circle any excuse you used to protect your pride."
       ],
       "sourceChapter": "Chapter 4: Falsifiability"
     },
     {
       "id": "the-logic-of-scientific-discovery-act-8",
-      "title": "Clarity & Simplicity Code Audit",
-      "description": "Review a piece of writing, policy, or code logic to maximize its empirical content and clarity.",
+      "title": "Cut the Vague Words",
+      "description": "Clean up your plans and notes. Swap fuzzy words for hard, clear numbers.",
       "category": "audit",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Select a recent plan, strategy memo, or system specification.",
-        "Locate vague, unfalsifiable qualifiers like 'sufficiently', 'optimal', or 'as appropriate'.",
-        "Replace each vague modifier with crisp, measurable bounds.",
-        "Verify that a teammate could independently test whether each statement holds true."
+        "1. Open a recent plan or work memo you wrote.",
+        "2. Hunt for fuzzy words like 'better', 'faster', or 'optimal'.",
+        "3. Replace every fuzzy word with a real number.",
+        "4. Ask a coworker if the goal is clear to test."
       ],
       "sourceChapter": "Chapter 7: Simplicity"
     },
     {
       "id": "the-logic-of-scientific-discovery-act-9",
-      "title": "Quarterly Assumption Stress-Test",
-      "description": "Audit the underlying foundational assumptions of your business, relationship, or health protocols.",
+      "title": "Test Your Core Beliefs",
+      "description": "Review the basic ideas behind your daily routine. Put your main rule on trial.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Write out the 3 core assumptions behind your current daily workflow.",
-        "For each assumption, trace its origin: Is it based on repeated past habits (induction) or rigorous survival under testing?",
-        "Design one low-stakes trial to actively challenge the highest-risk assumption.",
-        "Schedule the trial into your calendar for the coming month."
+        "1. Write down three main rules guiding your daily work.",
+        "2. Ask if each rule has ever truly been tested.",
+        "3. Design a small, safe test to challenge one rule.",
+        "4. Put the test on your calendar for this month."
       ],
       "sourceChapter": "Chapter 1: A Survey of Some Fundamental Problems"
     },
     {
       "id": "the-logic-of-scientific-discovery-act-10",
-      "title": "The 'Corroboration Ladder' Decision Matrix",
-      "description": "Build an operating system rule where beliefs gain confidence only by surviving severe elimination tests, not by accumulating praise.",
+      "title": "Build a Tough Test Rule",
+      "description": "Trust ideas only after they survive hard tests. Stop relying on praise alone.",
       "category": "system",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Create a template table with columns: 'Hypothesis', 'Severe Test Applied', 'Refutation Risk', 'Status'.",
-        "Define a strict rule: An idea cannot be promoted to 'Standard Practice' unless it has survived at least two active attempts to break it.",
-        "Run your next product feature or lifestyle change through this filter.",
-        "Grade the idea's fitness based on the severity of tests survived."
+        "1. Make a simple chart listing ideas and tough tests.",
+        "2. Require every new idea to survive two real tests.",
+        "3. Try to break your next big plan on purpose.",
+        "4. Keep the idea only if it passes both tests."
       ],
       "sourceChapter": "Chapter 10: Corroboration, or How a Theory Stands Up to Tests"
     },
     {
       "id": "the-logic-of-scientific-discovery-act-11",
-      "title": "Pre-Mortem 'Red Teaming' Protocol",
-      "description": "Institute a structured, psychologically safe ritual for systematically seeking disproof before launching any initiative.",
+      "title": "Try to Break the Plan",
+      "description": "Meet with your team before launch. Work together to find how the plan could fail.",
       "category": "system",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Before kicking off a project, assemble your team or collaborator.",
-        "State the rule: 'Our goal today is not to prove this will work, but to discover how nature can falsify it.'",
-        "Give everyone 10 minutes to brainstorm all realistic failure mechanisms and counter-evidence.",
-        "Select the strongest counter-argument and redesign the project plan to withstand it."
+        "1. Gather your team before you launch the project.",
+        "2. Tell everyone to search for ways this will fail.",
+        "3. Spend ten minutes writing down every possible weak spot.",
+        "4. Fix the worst flaw before you launch the work."
       ],
       "sourceChapter": "Chapter 2: On the Problem of a Theory of Scientific Method"
     },
     {
       "id": "the-logic-of-scientific-discovery-act-12",
-      "title": "Feedback Loop Calibration Cycle",
-      "description": "Establish a recurring weekly feedback mechanism that contrasts your predictions against actual objective measurements.",
+      "title": "Weekly Score Check",
+      "description": "Review your weekly predictions every Friday. Compare your guesses with what actually happened.",
       "category": "system",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Set a recurring calendar alarm every Friday afternoon.",
-        "Pull up your predictions and conjectures recorded throughout the week.",
-        "Calculate your 'survival rate': how many hypotheses withstood empirical reality without post-hoc rationalization?",
-        "Adjust next week's predictions to be either more daring or calibrated with sharper boundary conditions."
+        "1. Set a recurring reminder for every Friday afternoon.",
+        "2. Open the guesses you wrote down earlier this week.",
+        "3. Count how many of your guesses came true.",
+        "4. Use the results to make sharper guesses next week."
       ],
       "sourceChapter": "Chapter 5: The Problem of the Empirical Basis"
     }
@@ -824,10 +824,10 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       "author": "Karl Popper",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Asymmetry of Proof",
-      "body": "No matter how many white swans you observe, you can never establish the universal claim that all swans are white.\nYet a single sighting of a black swan shatters it instantly.\nVerification is impossible; falsification is definitive.",
-      "quote": "No matter how many instances of white swans we may have observed, this does not justify the conclusion that all swans are white.",
-      "actionItem": "Stop hunting for supporting evidence.\nSearch for the single negative case that would disprove your operating model.",
+      "headline": "The Black Swan Rule",
+      "body": "Seeing a million white swans cannot prove all swans are white.\nOne black swan proves that rule wrong instantly.\nFinding mistakes teaches us much more than finding proof.",
+      "quote": "Seeing many white swans does not prove that every swan is white.",
+      "actionItem": "Stop hunting for agreement.\nLook for the one fact that proves your idea wrong.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -845,10 +845,10 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       "author": "Karl Popper",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Demarcation Criterion",
-      "body": "What separates empirical science from myth and pseudoscience is not verification, but refutability.\nA system is scientific if and only if it makes risky predictions that could clash with observable reality.",
-      "quote": "It must be possible for an empirical scientific system to be refuted by experience.",
-      "actionItem": "Define the exact observation or metric that would prove your current hypothesis dead wrong.",
+      "headline": "The Test of Real Science",
+      "body": "Real science must risk being wrong.\nIf no test can ever disprove an idea, it is just storytelling.\nGood theories make clear bets that real events can test.",
+      "quote": "A scientific idea must be able to clash with real life.",
+      "actionItem": "Write down one clear outcome that would prove your main guess wrong.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -866,10 +866,10 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       "author": "Karl Popper",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Shield of Unfalsifiability",
-      "body": "When a theory claims to explain every possible outcome, it actually explains nothing at all.\nGenuine explanatory power requires staking out territory where the theory could fail.",
+      "headline": "The Danger of Easy Answers",
+      "body": "An idea that explains every possible outcome explains nothing at all.\nUseful ideas take risks and draw clear lines.\nThey tell you what cannot happen.",
       "quote": "A theory that explains everything explains nothing.",
-      "actionItem": "Identify where your reasoning explains away failures as 'part of the plan' and eliminate those circular loopholes.",
+      "actionItem": "Catch yourself when you make excuses for a mistake, and admit the error.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -887,10 +887,10 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       "author": "Karl Popper",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Conjecture and Refutation",
-      "body": "Knowledge does not advance by slowly accumulating passive observations.\nIt surges forward through bold guesses (conjectures) subjected to relentless, unforgiving criticism (refutations).",
-      "quote": "Science must begin with myths, and with the criticism of myths.",
-      "actionItem": "Frame your next initiative not as a sacred master plan, but as a bold conjecture ready for a trial by fire.",
+      "headline": "Guess and Test",
+      "body": "We do not learn by just sitting back and watching.\nWe learn by making bold guesses.\nThen we test those guesses hard to find their flaws.",
+      "quote": "Learning starts with bold ideas and strong tests of those ideas.",
+      "actionItem": "Treat your next work plan as a simple guess waiting for a test.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -908,10 +908,10 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       "author": "Karl Popper",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Conduct a Red-Team Stress Test",
-      "body": "Treat your assumptions like structural pillars.\nInstead of painting them with validation, hit them with a sledgehammer to see if they hold under tension.",
-      "quote": "The game of science is, in principle, without end. He who decides one day that scientific statements do not call for any further test, and that they can be regarded as finally verified, retires from the game.",
-      "actionItem": "Schedule a 30-minute session dedicated exclusively to attacking your team's most beloved project assumption.",
+      "headline": "Stress Test Your Ideas",
+      "body": "Do not treat your pet ideas like fragile glass.\nHit them with tough questions to see if they hold up.\nStrong ideas survive hard tests.",
+      "quote": "Science never stops testing, and no answer is ever final.",
+      "actionItem": "Spend twenty minutes trying to poke holes in your favorite project plan.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -929,10 +929,10 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       "author": "Karl Popper",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Corroboration Over Proof",
-      "body": "We never prove a theory true; we only corroborate it.\nCorroboration is a fitness report showing that a hypothesis has faced fierce attempts at destruction and survived to fight another day.",
-      "quote": "So long as a theory withstands detailed and severe tests and is not superseded by another theory in the course of progress, we may say that it has 'proved its mettle' or that it is 'corroborated'.",
-      "actionItem": "Label validated concepts as 'corroborated so far' rather than 'settled fact' to stay vigilant against shifts in the environment.",
+      "headline": "Passed For Now",
+      "body": "We can never declare an idea completely proven forever.\nWe can only say it survived our toughest tests so far.\nStay open to new facts tomorrow.",
+      "quote": "A good idea is simply one that has survived hard tests so far.",
+      "actionItem": "Call your best plans 'tested so far' instead of calling them permanent truth.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -950,10 +950,10 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       "author": "Karl Popper",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Searchlight Theory of Mind",
-      "body": "The mind is not an empty bucket collecting passive sensory data.\nIt is a searchlight.\nWe project expectations, questions, and hypotheses onto the world, and reality only reflects light back where we choose to illuminate.",
-      "quote": "Observation is always selective. It needs a chosen object, a definite task, an interest, a point of view, a problem.",
-      "actionItem": "Before reviewing raw data, write down the specific question and bias directing your attention.",
+      "headline": "The Mind Searchlight",
+      "body": "Your mind is not an empty bucket catching facts.\nIt is a searchlight that shines where you point it.\nWhat you notice depends on the questions you ask.",
+      "quote": "You only see what your questions lead you to look for.",
+      "actionItem": "Before looking at data, write down the exact question you want answered.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -971,10 +971,10 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       "author": "Karl Popper",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Degrees of Testability",
-      "body": "The more a theory forbids, the more informative it is.\nA theory asserting 'it will rain somewhere on Earth this month' forbids almost nothing and tells us very little.\nA theory asserting 'it will rain precisely at 3:15 PM over this coordinate' is vastly richer because it risks everything.",
-      "quote": "The amount of empirical information conveyed by a theory, or its empirical content, increases with its degree of falsifiability.",
-      "actionItem": "Sharpen vague predictions into high-resolution forecasts that forbid specific outcomes.",
+      "headline": "Make Bold Predictions",
+      "body": "Vague claims are useless because they rule out nothing.\nSaying it will rain somewhere tells us very little.\nSaying it will rain at noon takes a real risk.",
+      "quote": "The more an idea risks being wrong, the more useful it is.",
+      "actionItem": "Turn vague project forecasts into exact numbers and deadlines.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -992,10 +992,10 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       "author": "Karl Popper",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Ban Immunizing Stratagems",
-      "body": "When experiments disappoint, the instinct is to introduce ad-hoc excuses to preserve our ego and ideas.\nPopper called these 'conventionalist twists'.\nResist the urge to patch a failing theory with convenient caveats.",
-      "quote": "Whenever a system is threatened with being refuted, a rescue maneuver is undertaken.",
-      "actionItem": "When an experiment fails, reject the rationalization that 'the sample wasn't ideal' and inspect the underlying premise directly.",
+      "headline": "Stop Making Excuses",
+      "body": "When plans fail, people love to make quick excuses to protect their pride.\nMaking excuses stops you from learning the truth.\nFace bad results directly.",
+      "quote": "People often invent cheap excuses when their pet ideas fail.",
+      "actionItem": "When a test fails, fix your core idea instead of blaming bad luck.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1013,10 +1013,10 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       "author": "Karl Popper",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Fallibility of Foundations",
-      "body": "Science does not rest on solid bedrock.\nThe bold structure of theories rises above a swamp, supported by driven piles that hold only as long as they carry the weight, never reaching an absolute final ground.",
-      "quote": "The bold structure of its theories rises, as it were, above a swamp. It is like a building erected on piles.",
-      "actionItem": "Acknowledge the tentative foundation of your current strategic roadmap to remain adaptable.",
+      "headline": "Building on Swamp Land",
+      "body": "Knowledge does not rest on solid rock.\nIt is like a house built on wooden posts in a swamp.\nThe posts go down deep, but they never reach bottom.",
+      "quote": "Our best ideas are like buildings raised on piles above a swamp.",
+      "actionItem": "Stay humble about your best plans because any foundation can shift.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1034,10 +1034,10 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       "author": "Karl Popper",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Problem of Induction",
-      "body": "Past regularity does not logically guarantee future behavior.\nMoving from singular observations to universal truths is an unjustifiable leap of faith.\nBase your decisions on robust deduction and severe error-checking instead.",
-      "quote": "It is far from obvious, from a logical point of view, that we are justified in inferring universal statements from singular ones, no matter how numerous.",
-      "actionItem": "Audit historical performance charts; highlight what external regime change could invalidate past patterns.",
+      "headline": "The Past Guarantee Trap",
+      "body": "Just because something happened yesterday does not mean it will happen tomorrow.\nPast habits cannot guarantee future results.\nAlways test your claims instead of relying on past patterns.",
+      "quote": "Past events do not prove that the future will behave the same way.",
+      "actionItem": "Check your daily routine and ask what sudden change would break it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1055,10 +1055,10 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       "author": "Karl Popper",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Spark of Discovery",
-      "body": "There is no logical formula or methodical recipe for generating a brilliant new idea.\nThe birth of an innovative hypothesis is an intuitive, creative, even irrational leap.\nThe rigorous logic enters only during testing.",
-      "quote": "There is no such thing as a logical method of having new ideas, or a logical reconstruction of this process.",
-      "actionItem": "Separate the messy, unconstrained brainstorming phase from the icy, rigorous analytical testing phase.",
+      "headline": "The Creative Spark",
+      "body": "There is no step-by-step recipe for coming up with great ideas.\nFresh breakthroughs come from wild imagination and sudden leaps.\nLogic only steps in later to test them.",
+      "quote": "No simple formula exists for inventing a brand new idea.",
+      "actionItem": "Brainstorm wild ideas without judging them, then test the best ones later.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1076,10 +1076,10 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       "author": "Karl Popper",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Celebrate Refuted Hypotheses",
-      "body": "Finding out your idea was incorrect is not a loss; it is an informational windfall.\nIt illuminates the boundary of reality and eliminates an erroneous path from your cognitive map.",
-      "quote": "Our knowledge can only be finite, while our ignorance must necessarily be infinite.",
-      "actionItem": "Write a post-mortem for a recent mistake that focuses exclusively on what the failure ruled out for future efforts.",
+      "headline": "Learn From Dead Ends",
+      "body": "Finding out your idea was wrong is good news.\nIt shows you a dead end so you can stop wasting time.\nEvery mistake crossed off brings you closer to what works.",
+      "quote": "What we know is tiny, but what we do not know is endless.",
+      "actionItem": "Review a recent mistake and write down one path to avoid forever.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1097,10 +1097,10 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       "author": "Karl Popper",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Inter-Subjective Testability",
-      "body": "Personal conviction and subjective feeling can never justify a claim.\nA statement becomes objectively meaningful only when its experiments can be repeated, audited, and tested by any skeptical observer.",
-      "quote": "The objectivity of scientific statements lies in the fact that they can be inter-subjectively tested.",
-      "actionItem": "Document your processes so clearly that a complete outsider could run your workflow and obtain identical results.",
+      "headline": "The Repeatable Check",
+      "body": "Your gut feeling cannot prove that an idea is right.\nAn idea is only dependable if others can run the test themselves.\nClear results must be open for anyone to check.",
+      "quote": "Real knowledge must be open to tests that anyone can repeat.",
+      "actionItem": "Write down your work steps so clearly that a teammate can copy them.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1118,10 +1118,10 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       "author": "Karl Popper",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Simplicity as Testability",
-      "body": "Why do we prefer simpler explanations over convoluted ones?\nNot because nature is inherently aesthetic, but because simple theories forbid more, make fewer excuses, and are far easier to put to the test.",
-      "quote": "Simple statements, if knowledge is our object, are to be prized more highly than less simple ones, because they tell us more; because their empirical content is greater; and because they are better testable.",
-      "actionItem": "Strip unnecessary variables and conditions from your project pitch to make it lean and easily assessable.",
+      "headline": "Keep It Simple",
+      "body": "Simple explanations are better because they are easier to test.\nComplex ideas hide behind extra words and sneaky loopholes.\nKeep your ideas lean so flaws show up fast.",
+      "quote": "Simple statements are best because they tell us more and are easier to test.",
+      "actionItem": "Cut out extra details from your next proposal to make it easy to judge.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1139,10 +1139,10 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       "author": "Karl Popper",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Seek the Hardest Disconfirmation",
-      "body": "When designing a trial, do not set up an easy hurdle that guarantees a win.\nSet the threshold where failure is most probable.\nTrue strength is demonstrated only when overcoming the most threatening obstacle.",
-      "quote": "Tests are not worth their salt if they do not consist of genuine attempts at refutation.",
-      "actionItem": "Identify the strongest competitor or harshest critique of your product and test your prototype against that specific challenge.",
+      "headline": "Pick the Hardest Test",
+      "body": "Do not build an easy test just to make yourself look good.\nPut your idea through the hardest trial you can find.\nAn idea only proves its worth against strong rivals.",
+      "quote": "Tests are worthless unless they are real attempts to prove an idea wrong.",
+      "actionItem": "Ask your harshest critic to review your draft before you share it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1160,10 +1160,10 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       "author": "Karl Popper",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Infinite Frontier of Ignorance",
-      "body": "Every answer uncovers a wider horizon of deeper questions.\nTrue discovery is an endless voyage of uncovering the vastness of what we have yet to understand.",
-      "quote": "The more we learn about the world, and the deeper our learning, the more conscious, specific, and articulate will be our knowledge of what we do not know.",
-      "actionItem": "Conclude your next meeting by listing the three most critical unknowns exposed by this week's progress.",
+      "headline": "The Growing Unknown",
+      "body": "Every good answer reveals ten new questions you never thought to ask.\nLearning does not end our curiosity.\nReal learning teaches us how much we still have to explore.",
+      "quote": "The more we learn, the more clearly we see what we do not know.",
+      "actionItem": "End your next project meeting by asking what big questions remain unanswered.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1181,10 +1181,10 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       "author": "Karl Popper",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Evolutionary Epistemology",
-      "body": "The growth of knowledge mimics natural selection.\nIdeas mutate freely through imaginative conjecture, but they survive only if they endure selective environmental pressure through relentless empirical testing.",
-      "quote": "We choose the theory which best holds its own in competition with other theories; the one which, by natural selection, proves itself the fittest to survive.",
-      "actionItem": "Generate five competing variations of a strategy and pit them against each other in low-cost micro-tests.",
+      "headline": "Survival of the Fittest Idea",
+      "body": "Ideas grow like living creatures in the wild.\nMany new ideas pop up, but only the toughest survive real-world challenges.\nLet poor ideas die so better ideas can thrive.",
+      "quote": "We keep the idea that best survives competition and tough tests.",
+      "actionItem": "Try three small variations of a plan and keep only the clear winner.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1202,10 +1202,10 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       "author": "Karl Popper",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Basic Statements as Probes",
-      "body": "Basic statements are singular assertions about physical events occurring in specific regions of space and time.\nThey serve as the tangible probes connecting high-flying theory to the physical soil of the cosmos.",
-      "quote": "Basic statements have the form of singular existential statements.",
-      "actionItem": "Translate abstract team values or goals into concrete, physical actions observable in real time.",
+      "headline": "Touch the Real World",
+      "body": "Big theories must connect to physical reality.\nThey must point to things you can see, hear, or measure right now.\nConcrete observations keep high ideas grounded in the real world.",
+      "quote": "Basic statements describe real things happening at a specific time and place.",
+      "actionItem": "Turn a broad team goal into one action you can see happening today.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1223,10 +1223,10 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       "author": "Karl Popper",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Adopt Critical Rationalism",
-      "body": "Hold your principles firmly enough to act with clarity, but lightly enough to abandon them the moment reality provides refuting evidence.\nIntellectual integrity is the willingness to be corrected by the universe.",
-      "quote": "I may be wrong and you may be right, and by an effort, we may get nearer to the truth.",
-      "actionItem": "In your next disagreement, state your opponent's strongest argument back to them until they confirm you understand it completely.",
+      "headline": "Stay Open to Correction",
+      "body": "Stand behind your beliefs, but be ready to drop them when facts change.\nTrue honesty means letting the world correct your mistakes.\nYou learn faster when you welcome corrections.",
+      "quote": "I may be wrong, you may be right, and together we find truth.",
+      "actionItem": "In your next debate, repeat the other person's point until they agree you got it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1240,45 +1240,48 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
   ],
   "mindMap": {
     "id": "root",
-    "label": "The Logic of Scientific Discovery",
-    "description": "Karl Popper's revolutionary investigation into how human knowledge actually expands through relentless trial and error.\nInstead of proving our pet theories right, genuine science thrives by ruthlessly hunting for hidden errors, breaking our assumptions, and learning from glorious failure.",
+    "label": "How Science Learns",
+    "description": "Science grows by trial and error.\nWe learn by finding mistakes, not by proving we are right.",
     "children": [
       {
         "id": "node-induction-crisis",
-        "label": "The Fallacy of Induction",
-        "description": "A profound look into why observing countless white swans can never logically guarantee that all swans are white.\nOur human minds crave neat patterns, but stacking repetitive observations together never creates universal certainty.",
+        "label": "The Pattern Trap",
+        "description": "Seeing many white swans does not prove all swans are white.\nRepeating events never guarantees what will happen next.",
         "children": [
           {
             "id": "node-swans-paradox",
-            "label": "The Black Swan Problem",
-            "description": "No matter how many times a positive instance repeats, a single contrary observation instantly shatters the entire rule.\nIt exposes our cognitive vulnerability to confirmation bias and mistaking habit for absolute logical truth.",
+            "label": "The Black Swan",
+            "description": "Seeing just one black swan breaks the old rule instantly.\nOne single surprise can ruin our neat patterns.",
             "children": [
               {
                 "id": "node-humes-critique",
-                "label": "Hume's Psychological Trap",
-                "description": "David Hume exposed that expecting tomorrow to mimic yesterday is an instinctive biological habit rather than rational logic.\nPopper builds on this insight, proving that inductive generalizations lack any rigorous foundation in deductive mathematics.",
+                "label": "Habit Versus Logic",
+                "description": "We expect tomorrow to match yesterday out of simple habit.\nThis mental habit feels natural, but it is not strict proof.",
                 "children": [
                   {
                     "id": "node-habit-vs-reason",
-                    "label": "Habitual Expectation",
-                    "description": "Living organisms are wired to project past regularities into future survival instincts.\nWhile evolutionarily handy, treating these subconscious expectations as scientific proof blinds us to sudden systemic shifts."
+                    "label": "Expecting the Usual",
+                    "description": "Animals expect regular patterns to survive.\nTrusting past patterns too much blinds us to sudden changes.",
+                    "children": []
                   },
                   {
                     "id": "node-infinite-regress",
-                    "label": "Infinite Regress of Induction",
-                    "description": "If we try to justify induction by claiming it has usually worked in the past, we use induction to justify induction.\nThis circular trap collapses into an endless rabbit hole of unfounded assumptions."
+                    "label": "The Circular Trap",
+                    "description": "Using past success to prove patterns always work is circular.\nIt traps us in an endless loop of assumptions.",
+                    "children": []
                   }
                 ]
               },
               {
                 "id": "node-rejection-inductive-logic",
-                "label": "Dismantling Inductive Logic",
-                "description": "Popper discards inductive logic entirely, declaring that empirical science doesn't climb upward from raw facts to theories.\nInstead, human minds boldly leap forward with imaginative theoretical guesses that nature either tolerates or slaps down.",
+                "label": "Bold Guesses First",
+                "description": "Science does not begin with raw facts.\nWe make bold guesses first, then nature tests them.",
                 "children": [
                   {
                     "id": "node-myth-clean-slate",
-                    "label": "The Myth of the Blank Slate",
-                    "description": "Observation is never neutral or innocent; it is always saturated with background theories and expectations.\nWe never simply 'look'; we look *for* something that confirms or disrupts an internal mental model."
+                    "label": "No Blank Slate",
+                    "description": "Nobody looks at the world with completely fresh eyes.\nWe always search using our existing ideas and expectations.",
+                    "children": []
                   }
                 ]
               }
@@ -1288,47 +1291,51 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       },
       {
         "id": "node-demarcation",
-        "label": "The Demarcation Criterion",
-        "description": "The golden dividing line separating genuine empirical science from seductive pseudo-science, metaphysics, and dogma.\nScience does not claim immunity to error; it earns its stripes precisely by placing its head on the chopping block.",
+        "label": "Real Science Test",
+        "description": "Real science risks being wrong.\nFake science always makes excuses to protect itself.",
         "children": [
           {
             "id": "node-falsifiability-rule",
-            "label": "Falsifiability over Verification",
-            "description": "A statement is scientifically meaningful only if it is possible to conceive of an empirical observation that could prove it false.\nIf an explanation explains every conceivable outcome, it actually explains nothing at all.",
+            "label": "Testing for Errors",
+            "description": "An idea is scientific only if a test could prove it wrong.\nAn idea that explains everything explains nothing.",
             "children": [
               {
                 "id": "node-asymmetry-truth",
-                "label": "Logical Asymmetry",
-                "description": "Verification and falsification operate on fundamentally unbalanced logical scales.\nMillions of confirming observations can never prove a universal claim true, yet one verified counter-instance completely refutes it."
+                "label": "One Test Wins",
+                "description": "A million successes cannot prove an idea true forever.\nYet a single failed test can bring it down.",
+                "children": []
               },
               {
                 "id": "node-pseudo-science-trap",
-                "label": "The Seduction of Dogma",
-                "description": "Systems like astrology or rigid dogmatic theories reframe every conflicting piece of evidence as further secret confirmation.\nThis psychological defense mechanism creates an intellectual fortress immune to reality checks."
+                "label": "The Excuse Trap",
+                "description": "Beliefs like astrology twist bad news into secret proof.\nThis bad habit shields weak ideas from honest tests.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-empirical-content",
-            "label": "Empirical Content and Risk",
-            "description": "The true intellectual value of a theory is measured by how much risky reality it forbids from happening.\nA theory that bravely sticks its neck out and prohibits specific phenomena carries immense informative power.",
+            "label": "Taking Big Risks",
+            "description": "Great ideas rule out specific outcomes.\nA theory has value when it boldly risks failure.",
             "children": [
               {
                 "id": "node-prohibitive-power",
-                "label": "The Power of Prohibition",
-                "description": "The more a theory rules out, the more it tells us about how our universe actually operates.\nLaws of nature are essentially massive 'No Trespassing' signs posted against chaotic possibilities.",
+                "label": "Ruling Things Out",
+                "description": "A strong rule clearly states what cannot happen.\nIt draws clear lines about how our world works.",
                 "children": [
                   {
                     "id": "node-tautology-warning",
-                    "label": "The Empty Trap of Tautologies",
-                    "description": "Safe, hedge-laden statements like 'it may or may not rain tomorrow' can never be proven wrong, yet they offer zero empirical information.\nReal scientific insight demands high-stakes precision that risks immediate refutation."
+                    "label": "Empty Safe Guesses",
+                    "description": "Saying it might rain tomorrow is never wrong, but useless.\nReal science makes exact claims that risk being wrong.",
+                    "children": []
                   }
                 ]
               },
               {
                 "id": "node-bold-conjectures",
-                "label": "Audacious Conjectures",
-                "description": "Progress demands wild, speculative leaps of theoretical imagination that dare to propose unseen mechanisms.\nTimid hypotheses preserve current comfort, while bold conjectures unlock unexplored landscapes of nature."
+                "label": "Wild Smart Guesses",
+                "description": "Knowledge leaps ahead when people make daring guesses.\nTimid ideas keep us comfortable, but bold ideas bring breakthroughs.",
+                "children": []
               }
             ]
           }
@@ -1336,50 +1343,55 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       },
       {
         "id": "node-deductive-testing",
-        "label": "The Mechanics of Deductive Testing",
-        "description": "How scientific theories actually face reality in a disciplined, step-by-step cross-examination.\nWe deduce testable predictions from abstract concepts, set experimental traps, and see if our guesses survive.",
+        "label": "Testing the Guesses",
+        "description": "We test theories through step-by-step checks.\nWe turn abstract ideas into real experiments.",
         "children": [
           {
             "id": "node-testing-phases",
-            "label": "The Four Paths of Critical Scrutiny",
-            "description": "Popper breaks critical theory evaluation into four distinct investigative lenses.\nTogether, they test an idea's internal consistency, logical form, comparative superiority, and real-world resilience.",
+            "label": "Four Strict Checks",
+            "description": "Popper suggested four ways to examine an idea.\nWe test its logic, clarity, usefulness, and real-world results.",
             "children": [
               {
                 "id": "node-internal-consistency",
-                "label": "Internal Logical Coherence",
-                "description": "Checking whether the theory's mathematical and conceptual machinery contradicts itself from within.\nA system riddled with self-contradictions falls apart before an experiment is even launched."
+                "label": "Checking for Contradictions",
+                "description": "An idea must make sense with itself.\nIf two parts disagree, the whole theory falls apart.",
+                "children": []
               },
               {
                 "id": "node-comparative-advantage",
-                "label": "Comparative Novelty",
-                "description": "Determining whether a newcomer offers richer explanatory power and testable implications than reigning models.\nScience doesn't switch paradigms for fun; the new idea must conquer fresh intellectual ground."
+                "label": "Beating Older Ideas",
+                "description": "A new theory must explain more than old ones.\nScience only trades ideas when the new one works better.",
+                "children": []
               },
               {
                 "id": "node-experimental-trial",
-                "label": "Empirical Interrogation",
-                "description": "Deriving razor-sharp singular predictions that pit the hypothesis against rigorous physical experiments.\nIt is the dramatic climax where human speculation meets nature's unvarnished verdict."
+                "label": "Real World Tests",
+                "description": "We predict an exact outcome and run an experiment.\nThis is where ideas face nature's honest verdict.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-basic-statements",
-            "label": "The Enigma of Basic Statements",
-            "description": "The empirical foundation of science consists of singular, intersubjective observation reports called basic statements.\nThey act as the objective court records detailing what occurred at a specific time and place.",
+            "label": "Agreeing on Facts",
+            "description": "Science relies on clear reports of what happened.\nThese simple records show where and when things occurred.",
             "children": [
               {
                 "id": "node-trilemma-fries",
-                "label": "Fries's Trilemma Resolved",
-                "description": "How do we justify the observations underlying our science without falling into dogmatism, infinite regress, or raw psychologism?\nPopper demonstrates that we treat foundational observations not as sacred truths, but as pragmatic pacts.",
+                "label": "Agreeing on Truth",
+                "description": "Facts are not unquestionable truths carved in stone.\nThey are practical agreements scientists use for now.",
                 "children": [
                   {
                     "id": "node-jury-analogy",
-                    "label": "The Scientific Jury Verdict",
-                    "description": "Accepting an observation report is like a jury reaching a collective verdict based on established rules.\nIt is a shared convention accepted for now, yet always open to reopening if fresh doubt arises."
+                    "label": "The Jury Decision",
+                    "description": "Accepting a fact is like a jury reaching an agreement.\nWe trust it today, but we can reopen the case later.",
+                    "children": []
                   },
                   {
                     "id": "node-swamp-metaphor",
-                    "label": "Piles in the Swamp",
-                    "description": "Science does not rest on solid bedrock; it is like a grand structure raised on piles driven down into a swamp.\nWe drive the piles deep enough to support the structure, not because we hit bedrock, but because they hold for now."
+                    "label": "Pillars in Mud",
+                    "description": "Science is built on soft ground, not solid rock.\nWe push pillars down just deep enough to hold for now.",
+                    "children": []
                   }
                 ]
               }
@@ -1389,42 +1401,45 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       },
       {
         "id": "node-methodological-rules",
-        "label": "Methodological Rules of Engagement",
-        "description": "Science is not merely a collection of logical formulas; it is a game played by strict anti-dogmatic rules.\nWithout an unyielding commitment to honest refereeing, even the most rigorous mathematics can be corrupted by self-serving bias.",
+        "label": "Rules of the Game",
+        "description": "Science is a game with strict, honest rules.\nWithout fair rules, our biases ruin the truth.",
         "children": [
           {
             "id": "node-conventionalist-defense",
-            "label": "Resisting Immunizing Strategems",
-            "description": "When an experiment clashes with a beloved theory, defensive scientists often invent excuses to protect it.\nPopper calls these 'conventionalist twists'\u2014subtle maneuvers that rescue an ego while assassinating scientific progress.",
+            "label": "Stop Making Excuses",
+            "description": "When an experiment fails, do not invent cheap excuses.\nExcuses protect human pride but stop real progress.",
             "children": [
               {
                 "id": "node-ad-hoc-hypotheses",
-                "label": "The Menace of Ad Hoc Fixes",
-                "description": "Tacking on arbitrary clauses to rescue a failing hypothesis drastically reduces its testability and falsifiability.\nLegitimate modifications must increase the theory's empirical reach, not serve as convenient escape hatches.",
+                "label": "No Quick Patches",
+                "description": "Adding random excuses to save a weak idea ruins it.\nChanges must invite new tests, not hide mistakes.",
                 "children": [
                   {
                     "id": "node-auxiliary-criterion",
-                    "label": "The Rule for Auxiliary Hypotheses",
-                    "description": "Auxiliary assumptions are permitted solely if they generate new, independently testable predictions.\nThey must raise the degree of system risk rather than dampening the shockwave of a failed test."
+                    "label": "The Rule for Fixes",
+                    "description": "New tweaks are allowed only if they create fresh tests.\nThey must add more risk, not soften the blow.",
+                    "children": []
                   }
                 ]
               },
               {
                 "id": "node-reproducibility-imperative",
-                "label": "Intersubjective Reproducibility",
-                "description": "No solitary, miraculous observation can ever overthrow or establish a scientific principle.\nEffects must be reliably repeatable by any independent investigator following standard public procedures."
+                "label": "Repeatable by Anyone",
+                "description": "A single lucky result does not prove a rule.\nAnyone following the same steps must get the same outcome.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-simplicity-criterion",
-            "label": "Simplicity as High Falsifiability",
-            "description": "We naturally prefer simpler theories, not because nature is intrinsically tidy, but because simpler formulas are far easier to test and falsify.\nSimplicity is a rigorous methodological weapon rather than a mere aesthetic choice.",
+            "label": "Simple Ideas Win",
+            "description": "We like simple ideas because they are easier to test.\nSimple ideas have fewer places to hide errors.",
             "children": [
               {
                 "id": "node-geometric-dimension",
-                "label": "Degrees of Freedom and Shapes",
-                "description": "A straight line is simpler than a parabolic curve because it requires fewer data points to completely refute it.\nSimpler theories restrict the data far more severely, leaving fewer hiding spots for error."
+                "label": "Fewer Data Points",
+                "description": "A straight line needs fewer points to test than a curve.\nSimpler rules leave far less room for mistakes.",
+                "children": []
               }
             ]
           }
@@ -1432,40 +1447,44 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       },
       {
         "id": "node-corroboration-truth",
-        "label": "Corroboration, Probability, and Truth",
-        "description": "If we can never decisively prove a theory, what does success look like?\nPopper presents 'corroboration'\u2014a performance appraisal showing how brilliantly an idea has repelled relentless attempts at intellectual assassination.",
+        "label": "Passing Hard Tests",
+        "description": "We cannot prove an idea true forever.\nWe can only show that it survived brutal tests.",
         "children": [
           {
             "id": "node-corroboration-concept",
-            "label": "Corroboration: Battle Scars of Theory",
-            "description": "Corroboration is not a mathematical certificate of future truth, but a historical report card of past survival.\nA theory that withstands ferocious, severe attacks earns our provisional, battle-tested respect.",
+            "label": "Surviving the Battle",
+            "description": "Survival shows an idea has beaten hard challenges in the past.\nIt earns respect, but not a forever guarantee.",
             "children": [
               {
                 "id": "node-severity-of-tests",
-                "label": "Test Severity Matters",
-                "description": "Surviving trivial or predictable tests yields almost zero corroboration.\nTrue credibility is earned exclusively when an idea survives an experimental ambush designed specifically to destroy it."
+                "label": "Tough Tests Count",
+                "description": "Passing easy checks proves very little.\nReal trust comes from surviving tests meant to break the idea.",
+                "children": []
               },
               {
                 "id": "node-no-future-warranty",
-                "label": "No Guarantee for Tomorrow",
-                "description": "A pristine corroboration rating offers zero insurance that the theory will survive tomorrow's novel test.\nScientific humility keeps the inquiry perpetual, ensuring no theory ever becomes an untouchable sacred cow."
+                "label": "No Forever Guarantee",
+                "description": "Passing past tests does not mean it will pass tomorrow.\nStaying humble keeps us testing without stopping.",
+                "children": []
               }
             ]
           },
           {
             "id": "node-probability-fallacy",
-            "label": "The Probability Paradox",
-            "description": "Many believe good science aims for hypotheses with the highest mathematical probability.\nPopper completely flips this intuition: high probability means low information, while great science pursues improbable, bold truths.",
+            "label": "The Odds Paradox",
+            "description": "Good science does not aim for the safest guess.\nSafe guesses carry little news, while bold ideas teach us more.",
             "children": [
               {
                 "id": "node-content-vs-probability",
-                "label": "Information versus Safety",
-                "description": "A trivial statement like 'objects move' has near 100% probability but near-zero informative value.\nNewton's laws were radically improbable when proposed, carrying staggering informational content because they dared so much."
+                "label": "Value Over Safety",
+                "description": "Saying things happen is safe, but tells us nothing.\nDaring claims tell us much more because they risk everything.",
+                "children": []
               },
               {
                 "id": "node-objective-probabilities",
-                "label": "Objective Frequency and Propensity",
-                "description": "Popper attacks subjective interpretations that reduce quantum probability to human ignorance or mental states.\nHe treats probabilities as objective statistical physical tendencies woven directly into the fabric of reality."
+                "label": "Real World Odds",
+                "description": "Popper saw chance as real traits of the physical world.\nOdds are not just gaps in human understanding.",
+                "children": []
               }
             ]
           }
@@ -1473,23 +1492,25 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
       },
       {
         "id": "node-evolutionary-epistemology",
-        "label": "The Evolutionary Engine of Knowledge",
-        "description": "Science mirrors biological evolution: bold hypotheses emerge like genetic mutations, while rigorous experimentation acts as ruthless natural selection.\nWe let our theories die in our place so that we may survive and thrive.",
+        "label": "Evolution of Ideas",
+        "description": "Ideas grow much like living things in nature.\nOur weak ideas die so we do not have to.",
         "children": [
           {
             "id": "node-error-elimination",
-            "label": "Trial and Error Elimination",
-            "description": "The fundamental rhythm of growth moves from an initial problem, to imaginative tentative solutions, to severe error elimination, birthing deeper problems.\nMistakes are the essential fuel that powers cognitive evolution.",
+            "label": "Spotting Our Mistakes",
+            "description": "We spot a problem, make a guess, and remove errors.\nMistakes are the fuel that helps our thinking grow.",
             "children": [
               {
                 "id": "node-problem-regeneration",
-                "label": "The Cycle of Deepening Problems",
-                "description": "Science never reaches an ultimate finish line or paradise of total answers; it merely advances to more profound and fascinating questions.\nThe brilliance of a discovery is gauged by the depth of the mysteries it awakens."
+                "label": "Better Questions Emerge",
+                "description": "Science never hits an end point of all answers.\nEvery good answer leads to deeper, more interesting questions.",
+                "children": []
               },
               {
                 "id": "node-fallibilist-optimism",
-                "label": "The Freedom of Fallibilism",
-                "description": "Admitting that our deepest convictions might be flat wrong is not despair; it is the ultimate engine of intellectual liberation.\nBy embracing our fallibility, we smash authoritarian dogma and invite perpetual discovery."
+                "label": "Accepting Being Wrong",
+                "description": "Admitting we might be wrong is not weakness.\nAccepting our mistakes frees us to learn and discover forever.",
+                "children": []
               }
             ]
           }

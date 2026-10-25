@@ -1,5 +1,5 @@
 // The Great Mental Models (Vol 1 & 2) by Shane Parrish
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -636,169 +636,169 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
   "actionItems": [
     {
       "id": "the-great-mental-models-vol-1-2-act-1",
-      "title": "Run the 'And Then What?' 3-Level Probe",
-      "description": "Immediate relief from short-sighted decisions by peering through second and third-order ripple effects before pulling any trigger.",
+      "title": "Ask What Happens Next",
+      "description": "Stop bad choices before you make them. Think ahead to see future problems early.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Jot down your proposed decision or immediate action at the top of an index card.",
-        "Ask 'And then what happens immediately in hour 1 to day 1?' and record the direct result.",
-        "Ask 'And then what happens across week 1 to month 1?' to map the counter-reactions of other people and systems.",
-        "Ask 'And then what happens 1 year out?' to catch hidden downstream costs or unintended consequences."
+        "1. Write down your main choice at the top of a page.",
+        "2. Ask what happens right away today and write it down.",
+        "3. Ask how people will react over the next month.",
+        "4. Ask what unseen costs will show up one year later."
       ],
       "sourceChapter": "Second-Order Thinking (Volume 1)"
     },
     {
       "id": "the-great-mental-models-vol-1-2-act-2",
-      "title": "Conduct a 5-Minute Inversion Pre-Mortem",
-      "description": "Flip your perspective upside down to identify silent failure modes that optimism systematically blinds you to.",
+      "title": "Spot Hidden Failure Points",
+      "description": "Look at your plan backwards to find weak spots. Catch silly mistakes early.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Pick a pending project and boldly state: 'It is 6 months from now and this failed catastrophically.'",
-        "Brainstorm a rapid list of the 3 most stupid, careless, or overlooked blunders that guaranteed this disaster.",
-        "Review your current plan and check if you are actively sleepwalking toward any of those 3 traps.",
-        "Set one immediate tripwire or safeguard to rule out the single most preventable failure."
+        "1. Imagine your project failed completely six months from today.",
+        "2. List the three biggest mistakes that caused this disaster.",
+        "3. Check your current plan for those three exact traps.",
+        "4. Add one simple rule to block the easiest mistake."
       ],
       "sourceChapter": "Inversion (Volume 1)"
     },
     {
       "id": "the-great-mental-models-vol-1-2-act-3",
-      "title": "Start a Daily 3-Sentence Decision Journal",
-      "description": "Log everyday choices in real time to neutralize hindsight bias and expose how your mind actually predicts reality.",
+      "title": "Track Daily Key Decisions",
+      "description": "Write down your choices as you make them. See how well you predict events.",
       "category": "daily-routine",
       "timeEstimateMinutes": 7,
       "stepByStep": [
-        "Keep a dedicated pocket notebook open on your desk during your morning planning block.",
-        "Whenever a choice arises, record: (1) The context and options considered, (2) The choice made and your core rationale, (3) The specific outcome you expect within 14 days.",
-        "Rate your confidence level from 50% to 100% next to the entry.",
-        "File the note and let time run without revising your original stated logic."
+        "1. Keep a small notebook open on your desk each morning.",
+        "2. Write the choice you made and why you chose it.",
+        "3. Note the exact result you expect in two weeks.",
+        "4. Leave the note alone and do not change your words."
       ],
       "sourceChapter": "The Map Is Not the Territory (Volume 1)"
     },
     {
       "id": "the-great-mental-models-vol-1-2-act-4",
-      "title": "Perform an Evening Feynman Simplification Check",
-      "description": "Test whether you truly grasp your domain's moving parts or are merely coasting on borrowed jargon and chauffeur knowledge.",
+      "title": "Explain It Like A Child",
+      "description": "Check if you truly understand an idea. Explain it using simple words.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Identify one core concept, tool, or metric you relied on during your workday.",
-        "Explain how that mechanism works on a blank sheet of paper using only vocabulary an 8-year-old understands.",
-        "Circle any moment you hide behind industry buzzwords, acronyms, or circular definitions.",
-        "Go back to the source manual or foundational texts to repair the knowledge gap you just exposed."
+        "1. Pick one key idea you used at work today.",
+        "2. Explain it on paper so an eight-year-old understands.",
+        "3. Circle any confusing jargon or fancy buzzwords you used.",
+        "4. Read the basics again to fix the gaps you found."
       ],
       "sourceChapter": "Circle of Competence (Volume 1)"
     },
     {
       "id": "the-great-mental-models-vol-1-2-act-5",
-      "title": "Deploy Visual Feedback Loop Trackers",
-      "description": "Embed visible environmental telemetry to make invisible compounding delays and feedback cycles tactile in your physical space.",
+      "title": "Track Habits In Plain Sight",
+      "description": "Put simple counters in your room to see daily progress. Small steps compound fast.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Identify a critical habit or business process where the reward is delayed by days or weeks.",
-        "Place a high-contrast physical tracker (such as a two-jar marble counter or dry-erase pipeline) directly in your line of sight.",
-        "Move a counter unit every time the foundational input action is executed, regardless of immediate results.",
-        "Place the visual artifact directly adjacent to the trigger cue (e.g., monitor edge or kettle)."
+        "1. Pick a key habit that takes weeks to show rewards.",
+        "2. Place two jars with marbles right on your desk.",
+        "3. Move one marble every time you do the work.",
+        "4. Keep the jars in plain sight so you remember."
       ],
       "sourceChapter": "Feedback Loops (Volume 2)"
     },
     {
       "id": "the-great-mental-models-vol-1-2-act-6",
-      "title": "Establish an Hanlon's Razor Friction-Free Board",
-      "description": "Construct an objective collaboration environment that strips emotional malice assumptions out of workplace friction.",
+      "title": "Build A Clear Blame-Free Board",
+      "description": "Assume people make honest mistakes instead of being mean. Fix broken team steps.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Set up an open, shared digital or whiteboard backlog titled 'System Bottlenecks & Clarity Gaps'.",
-        "Establish an explicit team rule: any missed deadline or broken handoff is logged as ambiguous process or cognitive overload, never bad intent.",
-        "Include three required fields for every logged issue: (1) Missing context, (2) Conflicting incentives, (3) Unclear boundary conditions.",
-        "Keep the board visible to team members to replace defensive email chains with structural diagnosis."
+        "1. Create a shared board named Process Gaps for your team.",
+        "2. Treat every missed task as bad clarity, not bad intent.",
+        "3. Write down what missing info caused each team mix-up.",
+        "4. Use the board to fix steps instead of sending angry emails."
       ],
       "sourceChapter": "Hanlon's Razor (Volume 1)"
     },
     {
       "id": "the-great-mental-models-vol-1-2-act-7",
-      "title": "Conduct an Assumption-to-First-Principles Audit",
-      "description": "Deconstruct legacy habits and inherited procedures into foundational physical and mathematical truths.",
+      "title": "Strip Work To The Basics",
+      "description": "Break old routines down to facts. Rebuild them without useless extra steps.",
       "category": "audit",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Select an expensive, recurring routine or project that your team does 'because that's how it's always been done.'",
-        "List every standard assumption underpinning the process (e.g., 'This report requires 4 approval stages').",
-        "Cross-examine each premise by asking: 'Is this a law of physics/code, or merely an inherited convention?'",
-        "Rebuild the entire workflow from scratch using only the non-negotiable first principles, discarding legacy steps."
+        "1. Pick a slow task your team does out of habit.",
+        "2. List every rule people think this task must follow.",
+        "3. Ask if each rule is real or just an old tradition.",
+        "4. Rebuild the task using only the steps that truly matter."
       ],
       "sourceChapter": "First Principles Thinking (Volume 1)"
     },
     {
       "id": "the-great-mental-models-vol-1-2-act-8",
-      "title": "Run a Critical Mass & Bottleneck Workflow Audit",
-      "description": "Inspect your operational pipeline to locate the single governing constraint throttling total throughput.",
+      "title": "Clear Your Work Traffic Jams",
+      "description": "Find the slowest spot in your pipeline. Clear it so everything moves faster.",
       "category": "audit",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Map out each station a typical task travels through from raw idea to final completion.",
-        "Measure the inventory backlog or queue wait time at every single transition gate.",
-        "Locate the narrowest chokepoint where tasks pile up the longest while downstream steps sit starved.",
-        "Strip away non-essential tasks from that specific station to exploit and elevate the governing constraint."
+        "1. Map every step a task takes from start to finish.",
+        "2. Track how long tasks sit waiting at each step.",
+        "3. Find the exact spot where work piles up the longest.",
+        "4. Remove extra work from that spot so tasks move quickly."
       ],
       "sourceChapter": "Critical Mass (Volume 2)"
     },
     {
       "id": "the-great-mental-models-vol-1-2-act-9",
-      "title": "Perform a Quarterly Boundary-of-Competence Calibration",
-      "description": "Delineate the sharp perimeter where your actual predictive ability ends and dangerous overconfidence begins.",
+      "title": "Map Your Real Skill Limits",
+      "description": "Know what you do well and where you lack skill. Avoid costly overconfidence.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "List your top 5 professional domains and write down your 3 strongest beliefs or operating strategies in each.",
-        "Gather objective metrics, historical outputs, and independent third-party assessments from the past 90 days.",
-        "Label each domain as either 'Core Mastery' (reproducible results), 'Emerging Competence' (needs mentorship), or 'Ignorance Danger Zone' (outsourced execution required).",
-        "Enact a personal veto policy prohibiting unreviewed decisions inside your Ignorance Danger Zone."
+        "1. List your five main work skills on a clean page.",
+        "2. Check your real work results over the last three months.",
+        "3. Mark skills as either strong, still learning, or weak.",
+        "4. Never make solo choices in areas marked as weak."
       ],
       "sourceChapter": "Circle of Competence (Volume 1)"
     },
     {
       "id": "the-great-mental-models-vol-1-2-act-10",
-      "title": "Build a Redundancy & Margin of Safety Buffer Protocol",
-      "description": "Architect systemic shock absorbers into critical schedules and budgets to ensure unexpected volatility cannot break you.",
+      "title": "Add Extra Safety Buffers",
+      "description": "Add extra time and cash to your plans. Surprises will not crush you.",
       "category": "system",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Audit upcoming critical delivery deadlines, cash flow models, or capacity allocations.",
-        "Apply an automatic 30% structural buffer to all duration and expense forecasts to account for statistical variance.",
-        "Establish an explicit operational backup for every single point of failure (primary server, solo vendor, key-person risk).",
-        "Document an automated fallback rule specifying exactly when the secondary system activates without waiting for executive debate."
+        "1. Check your key deadlines and budgets for coming projects.",
+        "2. Add thirty percent more time and money to each plan.",
+        "3. Pick a clear backup for every single key tool or vendor.",
+        "4. Write down when the backup steps in without any debate."
       ],
       "sourceChapter": "Margin of Safety (Volume 2)"
     },
     {
       "id": "the-great-mental-models-vol-1-2-act-11",
-      "title": "Install a 30-Day Decision Journal Review Cadence",
-      "description": "A self-correcting feedback mechanism that compares past predictions with reality to recalibrate internal mental models.",
+      "title": "Review Old Decisions Monthly",
+      "description": "Compare old predictions with real results. Learn from past errors to get smarter.",
       "category": "system",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Block a recurring 30-minute calendar window on the last Friday of every month.",
-        "Pull all Decision Journal entries logged 30 to 90 days prior whose outcomes are now observable.",
-        "Score each outcome strictly against your original written expectations, ignoring retroactive justifications.",
-        "Tag cognitive patterns: note whether errors stemmed from faulty base maps, hidden incentives, or emotional blindspots, and update your decision checklists."
+        "1. Block thirty minutes on your calendar every month.",
+        "2. Open choices you made one to three months ago.",
+        "3. Compare the real results against your original written notes.",
+        "4. Note any bad assumptions and update your decision rules."
       ],
       "sourceChapter": "The Map Is Not the Territory (Volume 1)"
     },
     {
       "id": "the-great-mental-models-vol-1-2-act-12",
-      "title": "Architect an Incentive & Equilibrium Diagnostic Matrix",
-      "description": "A repeatable analytical framework to diagnose human behavior by charting underlying economic and social payoff structures.",
+      "title": "Fix Broken Team Rewards",
+      "description": "People do what you reward them to do. Change rewards to change actions.",
       "category": "system",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Identify an ongoing systemic conflict, chronic underperformance, or stubborn stalemate between parties.",
-        "Map the explicit rewards, hidden penalties, and status payoffs governing each participant's actions.",
-        "Analyze the system's Nash equilibrium: verify why current undesirable behavior is perfectly rational given existing incentives.",
-        "Redesign the structural rules so that individual self-interest naturally aligns with collective optimal output."
+        "1. Pick a team problem that keeps happening over and over.",
+        "2. List what each person gains or loses right now.",
+        "3. Notice how current rules make bad habits seem sensible.",
+        "4. Change the rules so doing good work pays off most."
       ],
       "sourceChapter": "Incentives (Volume 2)"
     }
@@ -975,10 +975,10 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
       "author": "Shane Parrish",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Map Is Not the Territory",
-      "body": "Every model, metric, and spreadsheet is a reductionist sketch of reality designed for navigation, not substitution.\nWhen the terrain changes and the map disagrees with the ground beneath your feet, trusting the representation over physical feedback leads directly into the ravine.",
-      "quote": "A map is useful precisely because it simplifies information, but never mistake the model for reality itself.",
-      "actionItem": "Cross-examine your top operating metric against frontline customer feedback to spot where your dashboard obscures ground truth.",
+      "headline": "Map Is Not Territory",
+      "body": "A map is just a simple picture of the real world.\nReal ground changes faster than any paper drawing or chart.\nNever trust a simple chart over what you see right now.",
+      "quote": "A map helps you travel, but do not mistake it for the real ground.",
+      "actionItem": "Talk to real customers today instead of just reading your sales charts.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -996,10 +996,10 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
       "author": "Shane Parrish",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Circle of Competence",
-      "body": "True competence is defined not by how expansive your knowledge is, but by how sharply you draw its perimeter.\nOperating just millimeters outside your boundary while believing you are still inside is where catastrophic blunders breed.",
-      "quote": "Knowing what you don't know is vastly more useful than being brilliant.",
-      "actionItem": "Draft an explicit 'Do Not Touch' list of technical domains and market bets where you lack first-hand intuitive depth.",
+      "headline": "Circle of Competence",
+      "body": "True skill is knowing where your real knowledge ends.\nBig mistakes happen when you pretend to know things you do not.\nStay inside what you understand well to avoid bad traps.",
+      "quote": "Knowing what you do not know helps you far more than acting smart.",
+      "actionItem": "List three areas you do not understand well and avoid guessing about them.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1017,10 +1017,10 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
       "author": "Shane Parrish",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "First-Principles Deconstruction",
-      "body": "Analogy lets you iterate within consensus; first principles let you escape it.\nBreak a complex challenge down to basic physical and logical axioms that cannot be deduced any further, then build an entirely original mechanism upward.",
-      "quote": "First-principles thinking forces you to dig beneath the surface of convention until you strike bedrock truth.",
-      "actionItem": "Take your largest operational cost and calculate the raw material price of its atomic components to uncover artificial markups.",
+      "headline": "First-Principles Thinking",
+      "body": "Do not copy what other people do every day.\nBreak hard problems down to the basic facts you know are true.\nBuild brand new answers up from those simple facts.",
+      "quote": "Dig down past popular opinions until you find simple, solid truths.",
+      "actionItem": "Break your biggest expense into basic raw parts to see the true cost.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1039,9 +1039,9 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
       "category": "Psychology",
       "type": "mental-model",
       "headline": "Second-Order Thinking",
-      "body": "Immediate effects are obvious, easy to foresee, and seductive.\nSecond- and third-order effects govern long-term reality.\nSolving a problem with an intervention that spawns two harder problems down the line is the hallmark of superficial cognition.",
-      "quote": "Failing to consider second- and third-order consequences is the primary engine of regret.",
-      "actionItem": "Before signing off on any policy change, hold an 'And Then What?' session projecting downstream ripple effects 12 months out.",
+      "body": "First results are easy to spot and hard to ignore.\nGood choices look ahead to what happens after that first result.\nQuick fixes often create worse headaches down the road.",
+      "quote": "Ignoring the next ripple of your choices always leads straight to deep regret.",
+      "actionItem": "Before you change a rule, ask what new problems it creates next year.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1059,10 +1059,10 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
       "author": "Shane Parrish",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Inversion: Avoid the Catastrophe",
-      "body": "Brilliance is rare, but systematic stupidity is preventable.\nWhen solving difficult dilemmas, turn the board upside down: instead of asking how to win, define every guaranteed way to fail and build rigorous tripwires around them.",
-      "quote": "Invert, always invert: turn a situation on its head and focus on avoiding the rocks rather than finding the channel.",
-      "actionItem": "Run a pre-mortem on your upcoming launch by writing a press release describing its total, humiliating collapse and working backward.",
+      "headline": "Invert the Problem",
+      "body": "Smart moves are hard, but dodging dumb traps is easy.\nTurn your big goal upside down before you take action.\nList all the ways you could fail, then avoid them.",
+      "quote": "Turn problems backwards and focus on dodging danger rather than finding fast wins.",
+      "actionItem": "List three ways your project could fail completely, then block each one today.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1080,10 +1080,10 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
       "author": "Shane Parrish",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Occam's Razor and Model Parsimony",
-      "body": "When competing explanations account for the observed facts, favor the one demanding the fewest unsupported assumptions.\nComplexity is seductive because it flatters our intellect, but nature is radically economical.",
-      "quote": "Simpler explanations are more likely to be true because they offer fewer points of catastrophic failure.",
-      "actionItem": "Strip out the two most convoluted explanatory steps from your current root-cause analysis and test the simpler hypothesis.",
+      "headline": "Occam's Razor",
+      "body": "When two answers fit the facts, choose the simpler one.\nComplex ideas look fancy, but they break down much faster.\nThe simplest answer is usually the one that works.",
+      "quote": "Simple answers are usually right because they require far fewer wild guesses.",
+      "actionItem": "Drop two complicated guesses and test the simplest reason for your bug today.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1102,9 +1102,9 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
       "category": "Psychology",
       "type": "quote",
       "headline": "Hanlon's Razor",
-      "body": "Assuming malice turns misunderstandings into permanent blood feuds.\nMost institutional blunders, missed deadlines, and dropped balls stem from fatigue, ambiguous communication, and cognitive overload\u2014not calculated villainy.",
-      "quote": "Never attribute to malice that which is adequately explained by carelessness or incompetence.",
-      "actionItem": "Replace your defensive rebuttal to a difficult email with an inquiry clarifying the sender's underlying structural constraints.",
+      "body": "Thinking people hate you makes small mistakes into big fights.\nMost missed deadlines come from bad sleep, rushing, or poor notes.\nAlmost nobody is actively trying to ruin your day.",
+      "quote": "Do not blame bad intentions for things that simple mistakes can explain.",
+      "actionItem": "Before you send an angry reply, ask if they just misunderstood your note.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1122,10 +1122,10 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
       "author": "Shane Parrish",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Feedback Loops and Non-Linearity",
-      "body": "Systems rarely operate in straight lines.\nReinforcing loops trigger explosive compounding or catastrophic death spirals, while balancing loops constantly fight to drag anomalies back toward an equilibrium setpoint.",
-      "quote": "You cannot understand a complex system by studying its parts in isolation; you must map the circular dance of its feedback.",
-      "actionItem": "Diagram the primary feedback loop of your core habit: identify the cue, the amplifying reward, and where friction can dampen it.",
+      "headline": "Feedback Loops",
+      "body": "Life does not run in a straight, tidy path.\nActions loop back to feed themselves and make things grow fast.\nBad loops drag you down, while good loops build wins.",
+      "quote": "To fix a system, watch how its actions loop back to affect itself.",
+      "actionItem": "Find what small trigger starts your worst habit and remove it right away.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1143,10 +1143,10 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
       "author": "Shane Parrish",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Equilibrium and Le Chatelier's Drift",
-      "body": "Complex social and natural systems resist outside intervention.\nWhen you apply forceful external pressure to shift a metric, the system spontaneously generates counteracting internal friction to restore its original resting equilibrium.",
-      "quote": "Any system nudged out of balance will instinctively mobilize countervailing forces to return home.",
-      "actionItem": "When introducing a team workflow change, design incentives that harmonize with existing cultural equilibria rather than bulldozing them.",
+      "headline": "Natural Balance",
+      "body": "Groups and systems hate sudden, pushy changes from outside forces.\nWhen you push hard on a team, people push back naturally.\nWork with their natural balance instead of forcing rapid change.",
+      "quote": "When pushed off balance, any system will fight hard to snap back home.",
+      "actionItem": "Work with your team's usual routines instead of forcing strict, sudden changes today.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1165,9 +1165,9 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
       "category": "Psychology",
       "type": "mental-model",
       "headline": "Margin of Safety",
-      "body": "Engineers do not build bridges designed to hold only the exact weight of an average truck; they overbuild by multiples to absorb wind shear, metal fatigue, and freak storms.\nYour life and balance sheet require identical structural shock absorbers.",
-      "quote": "The margin of safety is the bridge between the arrogance of human prediction and the ruthless randomness of reality.",
-      "actionItem": "Add a mandatory 30% buffer to all project deadlines and budget estimates to absorb unpredictable black swan frictions.",
+      "body": "Bridges are built much stronger than the heaviest truck requires.\nExtra strength keeps the bridge standing during big, sudden storms.\nGive your life extra space so sudden shocks do not ruin you.",
+      "quote": "A safety cushion protects you from surprises when your plans go totally wrong.",
+      "actionItem": "Add extra time and money buffers to your next big project plan.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1185,10 +1185,10 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
       "author": "Shane Parrish",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Locating the Bottleneck",
-      "body": "In any interconnected flow, throughput is dictated strictly by the capacity of the narrowest choke point.\nPouring resources, hustle, and optimization into non-bottleneck stations produces only inventory glut, stress, and zero extra throughput.",
-      "quote": "An hour saved at a non-bottleneck is a complete mirage.",
-      "actionItem": "Map your work cycle, isolate the single slowest stage where requests queue up, and refuse to optimize any other stage until it clears.",
+      "headline": "Find the Bottleneck",
+      "body": "Work moves only as fast as its narrowest choke point.\nSpeeding up easy steps just creates big piles of messy clutter.\nFix the one spot where work stops moving forward.",
+      "quote": "Speeding up work outside the slowest spot is just a waste of time.",
+      "actionItem": "Find the single slowest step in your work and fix that first today.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1206,10 +1206,10 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
       "author": "Shane Parrish",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Critical Mass and Phase Transitions",
-      "body": "Water heats from 1 degree to 99 degrees with minimal visible drama; at 100 degrees, it abruptly converts to steam.\nSystems absorb energetic inputs quietly until crossing an invisible threshold that triggers radical, irreversible structural change.",
-      "quote": "Change often appears nonexistent right until the precise moment it becomes unstoppable.",
-      "actionItem": "Sustain consistent daily practice during the flat plateau phase by tracking inputs rather than expecting premature phase shifts.",
+      "headline": "The Tipping Point",
+      "body": "Water warms up quietly until it hits boiling heat and turns to steam.\nDaily progress often looks completely silent right before a huge breakthrough happens.\nKeep putting in daily work even when nothing seems to move.",
+      "quote": "Big change looks totally invisible right until the second it happens all at once.",
+      "actionItem": "Track your daily work hours instead of waiting for quick, magic results.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1227,10 +1227,10 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
       "author": "Shane Parrish",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Velocity vs. Speed",
-      "body": "Speed is scalar: a frantic measure of distance covered per unit of time.\nVelocity is a vector: speed paired with immutable direction.\nRunning at blinding speed in the wrong direction accelerates your arrival at ruin.",
-      "quote": "Movement without vector alignment is simply organized exhaustion.",
-      "actionItem": "Review your weekly calendar: cancel two high-effort, fast-paced tasks that fail to move you along your primary strategic vector.",
+      "headline": "Direction Over Speed",
+      "body": "Moving fast means nothing if you run toward the wrong spot.\nSpeed just tracks how quickly your legs carry you along.\nHeading in the right direction matters far more than rushing around blindly.",
+      "quote": "Running fast in the wrong direction just gets you lost much quicker.",
+      "actionItem": "Drop two busy tasks from your calendar that do not help your primary goal.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1248,10 +1248,10 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
       "author": "Shane Parrish",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Lattice of Mental Models",
-      "body": "No single discipline holds a monopoly on clarity.\nIf you view reality through only psychology, economics, or biology, you develop dangerous cognitive blind spots.\nYou need a latticework of foundational models to triangulate truth.",
-      "quote": "To the man with only a hammer, every problem looks like a nail.",
-      "actionItem": "Analyze your current business challenge through the biological lens of evolutionary niche adaptation rather than simple marketing.",
+      "headline": "Latticework of Models",
+      "body": "No single field of study holds all the answers you need.\nUsing only one tool blinds you to obvious facts and truths.\nLearn simple concepts across many fields to see the full picture clearly.",
+      "quote": "To a person with only a hammer, every problem looks like a nail.",
+      "actionItem": "Look at your current team problem through simple lessons from nature instead.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1269,10 +1269,10 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
       "author": "Shane Parrish",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Hysteresis and Path Dependency",
-      "body": "Physical and social systems retain a memory of past stresses.\nWhen an intense shock reshapes a material or an organization, removing the shock does not return the system to its initial baseline; historical paths fundamentally constrain future options.",
-      "quote": "Systems carry their scars; you cannot simply reset history to zero without paying the structural toll.",
-      "actionItem": "Account for past organizational traumas and failed reorganizations before proposing your next structural transformation.",
+      "headline": "History Leaves Scars",
+      "body": "People and teams remember bad shocks from the past.\nRemoving old pressure does not snap things back to how they were.\nPast events always shape the choices you can make right now.",
+      "quote": "Old wounds leave marks, and you cannot simply reset past history to zero.",
+      "actionItem": "Check past team failures before you launch a new plan this week.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1290,10 +1290,10 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
       "author": "Shane Parrish",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Leverage and Mechanical Advantage",
-      "body": "A small force applied at the correct fulcrum can hoist massive weights.\nIn cognitive and economic arenas, code, media, capital, and mental models serve as levers, decoupling your output from linear physical exertion.",
-      "quote": "Give me a lever long enough and a prop strong enough, and I can single-handedly move the world.",
-      "actionItem": "Identify one recurring manual task and spend three hours automating or documenting it into a permanent execution asset.",
+      "headline": "Power of Leverage",
+      "body": "A long stick lets you lift huge rocks with little effort.\nSmart tools, clear checklists, and good helpers multiply your daily work.\nStop relying solely on long hours and brute force alone.",
+      "quote": "With a long enough lever, one person can move the whole world.",
+      "actionItem": "Write a clear checklist for a daily task so others can run it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1311,10 +1311,10 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
       "author": "Shane Parrish",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Pruning Friction Points",
-      "body": "Human behavior resembles fluid dynamics: energy takes the path of least resistance.\nInstead of attempting to overcome inertia through sheer willpower and motivational hype, systematically lubricate the desired path and place massive friction in front of bad habits.",
-      "quote": "Do not push harder against resistance; redesign the channel so the current flows naturally.",
-      "actionItem": "Remove two friction steps from your creative workflow and add a mandatory password or distance barrier to your worst distraction.",
+      "headline": "Remove the Friction",
+      "body": "People always pick the easiest road available to them.\nForcing hard work with pure willpower never lasts very long.\nMake good habits super easy and make bad habits very painful.",
+      "quote": "Do not fight heavy resistance; clear the path so progress flows on its own.",
+      "actionItem": "Put your phone in another room while you work on your main project.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1332,10 +1332,10 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
       "author": "Shane Parrish",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Catalysts and Reaction Acceleration",
-      "body": "In chemistry, a catalyst lowers the activation energy required for a transformation without being consumed by the reaction.\nIn culture and teams, certain rituals, clarity anchors, or individuals act as catalysts, sparking massive momentum at negligible personal cost.",
-      "quote": "The right catalyst does not supply energy; it clears the energetic barrier so the reaction ignites itself.",
-      "actionItem": "Act as a catalyst in your next meeting by clearly synthesizing ambiguous points into an obvious, low-friction decision fork.",
+      "headline": "Be the Spark",
+      "body": "A small spark starts a fire without doing all the burning.\nIn teams, one clear question can instantly unlock stalled work.\nYou can kick off huge action with very little effort.",
+      "quote": "A good spark does not push; it removes roadblocks so things move on their own.",
+      "actionItem": "Help your team decide by offering two clear options in your next meeting.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1353,10 +1353,10 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
       "author": "Shane Parrish",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Reality of Redundancy",
-      "body": "Engineers design jet engines and power grids with deliberate duplication: backup hydraulic lines, secondary fuel valves, failover servers.\nEliminating all slack in pursuit of 'pure hyper-efficiency' turns an efficient system into a fragile bomb.",
-      "quote": "Efficiency is the enemy of resilience when unexpected stress fractures the single line of supply.",
-      "actionItem": "Audit your core operational dependencies to ensure no single individual holds exclusive access to essential credentials or knowledge.",
+      "headline": "Keep Extra Backups",
+      "body": "Planes have backup engines in case the main one stops working.\nCutting all extra parts just to save cash creates massive danger.\nA little extra slack keeps your whole business alive and safe.",
+      "quote": "Cutting all slack makes your business fragile when sudden trouble hits unexpectedly.",
+      "actionItem": "Train a backup teammate to handle your vital duties if you fall ill.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1374,10 +1374,10 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
       "author": "Shane Parrish",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Relativity and Frame of Reference",
-      "body": "Observations depend entirely on the vantage point and velocity of the observer.\nClashing viewpoints inside organizations are rarely debates over raw data; they are collisions between differing frames of reference, each experiencing a mathematically valid slice of reality.",
-      "quote": "Before you condemn someone's conclusion, step into the coordinate plane that generated it.",
-      "actionItem": "Restate your rival's argument so accurately and charitably that they would endorse your summary before formulating your rebuttal.",
+      "headline": "Point of View",
+      "body": "What you notice depends completely on where you stand today.\nFights at work usually come from two different points of view.\nBoth people can see real facts while still disagreeing sharply.",
+      "quote": "Before you criticize another person, stand where they stand to see their view.",
+      "actionItem": "Repeat your coworker's point of view to them before arguing your own side.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1391,243 +1391,243 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
   ],
   "mindMap": {
     "id": "root",
-    "label": "The Great Mental Models (Vol 1 & 2)",
-    "description": "A master toolkit of foundational cognitive lenses synthesized by Shane Parrish and Rhiannon Beaubien to pierce through superficial noise.\nBy borrowing high-leverage principles across core sciences, general reasoning, and physics, it transforms how we decode complex realities and dismantle recurring cognitive illusions.",
+    "label": "Great Mental Models",
+    "description": "These core mental tools help you cut through confusion.\nThey give you clear ways to make better everyday decisions.",
     "children": [
       {
         "id": "vol1-general-thinking",
-        "label": "Volume 1: General Thinking Concepts",
-        "description": "The foundational reasoning toolkit for cutting through common human blind spots, ego distortions, and narrative traps.\nThese core frameworks equip the mind to see the world as it genuinely exists rather than as wishful thinking envisions it.",
+        "label": "General Thinking Tools",
+        "description": "Basic habits of mind that protect you from common thinking traps.\nThey help you see life as it truly is.",
         "children": [
           {
             "id": "map-territory",
-            "label": "The Map is Not the Territory",
-            "description": "Every mental model, spreadsheet, or diagram is merely a compressed abstraction of an immensely chaotic reality.\nWhen we mistake the simplified representation for reality itself, we become blind to emergent shifts and off-canvas risks that our charts fail to capture.",
+            "label": "Map vs Reality",
+            "description": "A guide or chart is never the real thing.\nDo not confuse a simple diagram with messy reality.",
             "children": [
               {
                 "id": "abstraction-limits",
-                "label": "Limits of Abstraction",
-                "description": "Simplification is necessary to act without analysis paralysis, but every compression discards vital nuances.\nRecognizing what your specific map omits reveals where your strategy is most brittle.",
+                "label": "Limits of Models",
+                "description": "Simplifying ideas helps us act quickly.\nJust remember that every simple model leaves out important details.",
                 "children": [
                   {
                     "id": "cartographic-bias",
-                    "label": "Cartographic Bias",
-                    "description": "Humans tend to fall in love with their personal representations because clean equations feel neat and orderly.\nThis cognitive vanity causes leaders to dismiss real-world signals when reality dares to disobey their favorite frameworks."
+                    "label": "Trusting Models Blindly",
+                    "description": "People often fall in love with their neat theories.\nThey ignore facts whenever real life breaks their rules."
                   },
                   {
                     "id": "updating-the-map",
-                    "label": "Dynamic Recalibration",
-                    "description": "Terrain shifts constantly through natural evolution, competition, and cultural drift.\nWise thinkers continually cross-reference their guiding assumptions with fresh ground truth to discard stale dogmas."
+                    "label": "Updating Your View",
+                    "description": "The world changes all the time.\nCheck your assumptions regularly against real facts to stay sharp."
                   }
                 ]
               },
               {
                 "id": "tragedy-of-faith",
-                "label": "The Tragedy of Representation",
-                "description": "Disasters frequently occur when operators trust the digital dashboard over direct physical sensory feedback.\nTrue situational mastery demands stepping away from the monitors to verify conditions on the ground."
+                "label": "Dangers of Dashboards",
+                "description": "Bad mistakes happen when you trust numbers over real sight.\nAlways go see what is happening with your own eyes."
               }
             ]
           },
           {
             "id": "circle-of-competence",
             "label": "Circle of Competence",
-            "description": "Genuine mastery lies not in having vast, shallow knowledge across every domain, but in maintaining crystalline clarity about where your reliable knowledge abruptly ends.\nOperating within your authentic perimeter confers immense advantages, while stepping outside without humble caution invites catastrophic errors.",
+            "description": "Know clearly what you truly understand and what you do not.\nStay inside your comfort zone or proceed very carefully.",
             "children": [
               {
                 "id": "perimeter-definition",
-                "label": "Defining the Perimeter",
-                "description": "Knowing the precise boundary requires rigorous self-honesty honed through scars and documented feedback loops.\nA boundary you cannot articulate is merely an illusion of safety waiting to collapse under pressure.",
+                "label": "Finding Your Limits",
+                "description": "Be honest about where your true skills stop.\nIf you cannot define your limits, you will make huge mistakes.",
                 "children": [
                   {
                     "id": "skin-in-the-game-learning",
-                    "label": "Experiential Calibration",
-                    "description": "Real competence is forged through direct contact with consequences and trial-and-error exposure.\nArmchair theory creates fragile arrogance, while empirical testing carves durable, authentic insight."
+                    "label": "Real-World Experience",
+                    "description": "True skill comes from direct practice and real mistakes.\nBook theory alone gives false confidence."
                   },
                   {
                     "id": "competence-boundaries",
-                    "label": "Boundary Detection",
-                    "description": "Recognizing the subtle shift from proven expertise to speculative amateurism is a life-saving meta-skill.\nThe smartest practitioners readily admit ignorance the split-second the discussion drifts past their verified perimeter."
+                    "label": "Spotting Your Edge",
+                    "description": "Notice the exact point where your experience runs out.\nSmart people quickly admit when they do not know something."
                   }
                 ]
               },
               {
                 "id": "expanding-the-circle",
-                "label": "Strategic Circle Expansion",
-                "description": "Enlarging your competence circle requires deliberate, slow study and apprenticeship at the fringes of your current capabilities.\nTrying to expand too rapidly across disparate disciplines dilutes rigor and creates dangerous blind spots."
+                "label": "Growing Your Skills",
+                "description": "Widen your knowledge slowly through patience and steady study.\nRushing into unfamiliar areas creates dangerous blind spots."
               }
             ]
           },
           {
             "id": "first-principles-thinking",
-            "label": "First Principles Thinking",
-            "description": "The practice of relentlessly boiling a problem down to its most fundamental, indisputable physical truths and building an original solution up from there.\nThis allows you to break free from analogy-driven reasoning, industry herd mentalities, and inherited conventions.",
+            "label": "First Principles",
+            "description": "Break problems down to basic truths that cannot be doubted.\nThen build up fresh solutions from the ground up.",
             "children": [
               {
                 "id": "cartesian-doubt",
-                "label": "Systematic Deconstruction",
-                "description": "Questioning every inherited assumption until you hit rock-bottom undeniable axioms.\nOnce baseline constraints are established, creative possibilities emerge that were masked by conventional dogma.",
+                "label": "Questioning Assumptions",
+                "description": "Strip away all old beliefs until only solid facts remain.\nThis reveals fresh answers that others miss.",
                 "children": [
                   {
                     "id": "socratic-questioning",
-                    "label": "Socratic Interrogation",
-                    "description": "Puncturing polite consensus through disciplined, probing queries regarding underlying causation.\nThis methodical unpeeling reveals whether an established procedure is logically necessary or merely an unexamined ritual."
+                    "label": "Asking Deep Questions",
+                    "description": "Ask simple, probing questions about why things work.\nThis exposes whether habits are necessary or just traditions."
                   },
                   {
                     "id": "elemental-breakdown",
-                    "label": "Elemental Breakdown",
-                    "description": "Deconstructing an artifact, cost structure, or procedure into its raw constituent materials and energies.\nRebuilding from raw ingredients routinely produces ten-fold efficiency leaps over iterative benchmarking."
+                    "label": "Breaking Parts Down",
+                    "description": "Split a problem into its most basic parts and costs.\nRebuilding from scratch often creates much better results."
                   }
                 ]
               },
               {
                 "id": "reasoning-by-analogy",
-                "label": "Escaping Analogy Traps",
-                "description": "Most societal decisions copy what others do with minor incremental tweaks, inheriting unseen structural flaws in the process.\nFirst-principles analysis rejects imitation, ensuring solutions match the exact underlying physics of the situation."
+                "label": "Avoiding Copycat Thinking",
+                "description": "Most people just copy what others do without thinking.\nThink for yourself instead of blindly following the crowd."
               }
             ]
           },
           {
             "id": "second-order-thinking",
             "label": "Second-Order Thinking",
-            "description": "Examining not just immediate, obvious reactions, but systematically asking the crucial question: 'And then what?' This mental lens maps ripple effects, systemic feedback loops, and delayed downstream consequences that often invert short-term gains into long-term catastrophes.",
+            "description": "Always ask yourself: what happens next?\nThink beyond quick fixes to spot future ripple effects.",
             "children": [
               {
                 "id": "unintended-consequences",
-                "label": "Unintended Consequences",
-                "description": "Interventions in complex adaptive environments rarely produce linear outcomes due to hidden interdependencies.\nTouting a solution based purely on first-order success frequently breeds worse second-order crises.",
+                "label": "Surprise Side Effects",
+                "description": "Fixing one problem often creates new, hidden troubles.\nA quick win today can easily backfire tomorrow.",
                 "children": [
                   {
                     "id": "cobra-effect",
-                    "label": "Perverse Incentives & Cobra Effects",
-                    "description": "Well-meaning bounties and rewards often incentivize actors to manufacture the very problem they were designed to eradicate.\nSystem participants instinctively optimize around rewards, warping the intended ecosystem dynamic."
+                    "label": "Bad Incentives",
+                    "description": "Rewarding a fix can accidentally cause people to make more trouble.\nPeople always chase the reward, not your good intentions."
                   },
                   {
                     "id": "downstream-cascades",
-                    "label": "Temporal Cascades",
-                    "description": "Immediate relief frequently extracts a heavy interest payment in deferred downstream friction.\nTrue strategic depth prioritizes actions that may feel neutral today but compound into exponential resilience years later."
+                    "label": "Future Ripples",
+                    "description": "Easy choices now often bring painful bills later.\nChoose actions that feel tough today but help you for years."
                   }
                 ]
               },
               {
                 "id": "friction-and-delays",
-                "label": "Temporal Latency",
-                "description": "Complex ecosystems disguise their true responses behind long lag phases and latent feedback loops.\nJudging policy or strategy purely on day-one metrics blinds decision-makers to seismic systemic shifts underway beneath the surface."
+                "label": "Delayed Reactions",
+                "description": "Big systems take a long time to show full results.\nDo not judge a plan only by day-one feedback."
               }
             ]
           },
           {
             "id": "probabilistic-thinking",
-            "label": "Probabilistic Thinking",
-            "description": "Reframing binary, black-and-white certainties into dynamic probability distributions and likelihood curves.\nIt trains the mind to weigh fat tails, calculate expected value, and update beliefs rationally as novel empirical evidence emerges.",
+            "label": "Thinking in Odds",
+            "description": "Stop thinking in black and white.\nView the future as chances and likelihoods, not guarantees.",
             "children": [
               {
                 "id": "bayesian-updating",
-                "label": "Bayesian Updating",
-                "description": "Continually adjusting the confidence of your beliefs as new, reliable evidence lands in real time.\nHolding beliefs proportionally to empirical evidence protects against ideological entrenchment and stubborn denial.",
+                "label": "Updating Your Mind",
+                "description": "Change your opinion whenever new evidence shows up.\nHolding your beliefs loosely keeps you flexible and honest.",
                 "children": [
                   {
                     "id": "prior-probabilities",
-                    "label": "Anchoring on Base Rates",
-                    "description": "Grounding your forecasts in objective historical base rates rather than the dramatic details of a single fresh anecdote.\nIgnoring base rates is the primary reason forecasts veer into wishful fantasy."
+                    "label": "Checking Past Odds",
+                    "description": "Look at historical averages before guessing future odds.\nIgnoring past patterns leads to wishful thinking."
                   },
                   {
                     "id": "evidence-weighting",
-                    "label": "Conditional Likelihood Calibration",
-                    "description": "Assessing how surprising new data truly is before overreacting or upending an entire strategy.\nHigh-noise environments require strict evidentiary thresholds to prevent chaotic over-steering."
+                    "label": "Weighing New Proof",
+                    "description": "Make sure new data is reliable before changing your whole plan.\nDo not overreact to random noise."
                   }
                 ]
               },
               {
                 "id": "fat-tailed-distributions",
-                "label": "Fat Tails & Asymmetric Risks",
-                "description": "Real-world socio-economic phenomena follow power laws rather than gentle bell curves, meaning extreme outlier events drive total outcomes.\nPreparing for severe non-linear shocks is essential to avoid total ruin."
+                "label": "Rare Big Shocks",
+                "description": "Surprise events happen more often than you expect.\nPrepare for wild swings so one bad day does not ruin you."
               }
             ]
           },
           {
             "id": "inversion",
-            "label": "Inversion",
-            "description": "Approaching complex dilemmas backwards by defining what catastrophic failure looks like and systematically eliminating those pathways.\nAs Carl Jacobi and Charlie Munger popularized, avoiding stupidity is vastly easier and more reliable than attempting brilliant heroics.",
+            "label": "Thinking Backwards",
+            "description": "Look at problems in reverse.\nFigure out how to avoid disaster instead of aiming for perfection.",
             "children": [
               {
                 "id": "pre-mortem-strategy",
-                "label": "The Pre-Mortem Protocol",
-                "description": "Assuming a future project has already failed catastrophically, then working backwards to identify the hidden vulnerabilities that triggered the collapse.\nThis psychological trick overcomes groupthink and optimism bias.",
+                "label": "The Pre-Mortem",
+                "description": "Imagine your project failed before you even start.\nWork backwards to spot every leak and stop it early.",
                 "children": [
                   {
                     "id": "failure-mode-mapping",
-                    "label": "Failure Mode Identification",
-                    "description": "Listing every conceivable way an initiative could collapse before launching a single line of code or capital dollar.\nEliminating obvious traps produces robust, antifragile operations almost automatically."
+                    "label": "Listing Failure Traps",
+                    "description": "Write down every single way your plan could go wrong.\nDodging obvious traps brings easy success."
                   },
                   {
                     "id": "negative-visualization",
-                    "label": "Anti-Goal Formulation",
-                    "description": "Clarifying precisely what you want to avoid\u2014such as burnout, misery, or insolvency\u2014to make positive goals clearer.\nSteering clear of known landmines keeps you on the board long enough to win."
+                    "label": "What to Avoid",
+                    "description": "Get clear on the exact outcomes you want to prevent.\nStaying out of trouble keeps you in the game."
                   }
                 ]
               },
               {
                 "id": "backwards-problem-solving",
-                "label": "Retrograde Analysis",
-                "description": "Starting from the envisioned final finish line and establishing the exact prerequisites necessary for that state to hold true.\nThis structural reversal reveals simpler, non-obvious pathways forward."
+                "label": "Working from Finish",
+                "description": "Start at your end goal and trace the steps backward.\nThis reveals simpler paths that you would otherwise miss."
               }
             ]
           },
           {
             "id": "occams-razor",
-            "label": "Occam's Razor",
-            "description": "When confronted with competing hypotheses that explain empirical observations equally well, select the one requiring the fewest unproven assumptions.\nComplexity creates fragile chains of speculative dependencies that increase error rates.",
+            "label": "Keep It Simple",
+            "description": "Pick the explanation that requires the fewest wild guesses.\nSimple answers are usually right.",
             "children": [
               {
                 "id": "parsimony-principle",
-                "label": "Principle of Parsimony",
-                "description": "Unnecessary theoretical baggage multiplies points of failure without adding genuine predictive power.\nMinimalist explanations keep models nimble, testable, and robust against overfitting.",
+                "label": "Cutting the Extra",
+                "description": "Extra assumptions just add extra chances to fail.\nKeep your ideas lean and easy to test.",
                 "children": [
                   {
                     "id": "avoiding-epicycles",
-                    "label": "Pruning Just-So Stories",
-                    "description": "Resisting the urge to append elaborate ad-hoc justifications to salvage a dying theory.\nWhen an explanation demands gymnastics of logic, nature is signaling that the fundamental premise is flawed."
+                    "label": "Dropping Bad Excuses",
+                    "description": "Do not invent crazy excuses to save a broken theory.\nIf it needs endless explanations, the idea is wrong."
                   },
                   {
                     "id": "minimal-viable-explanation",
-                    "label": "Minimal Viable Hypothesis",
-                    "description": "Focusing on the simplest mechanism that accounts for observed variances.\nSimple models generalize far better across changing environments than bespoke, fragile constructions."
+                    "label": "The Simplest Answer",
+                    "description": "Rely on the cleanest idea that fits the facts.\nSimple plans survive change much better than complex ones."
                   }
                 ]
               },
               {
                 "id": "overfitting-resistance",
-                "label": "Overfitting & Narrative Clutter",
-                "description": "The human brain manufactures elaborate fictional plots to rationalize pure random noise.\nApplying Occam's filter cuts through sensationalist story-weaving to expose plain, unvarnished physical facts."
+                "label": "Ignoring False Stories",
+                "description": "Our brains love to make up stories out of random noise.\nStick to plain facts and drop the drama."
               }
             ]
           },
           {
             "id": "hanlons-razor",
-            "label": "Hanlon's Razor",
-            "description": "Never attribute to malice that which is adequately explained by carelessness, misunderstanding, or structural incompetence.\nDefaulting to assuming bad intent breeds paranoia, toxic relationships, and wasted emotional energy.",
+            "label": "Assume Good Faith",
+            "description": "Never blame bad intentions for things caused by simple mistakes.\nMost people are just distracted or careless, not evil.",
             "children": [
               {
                 "id": "cognitive-conservation",
-                "label": "Conserving Cognitive Bandwidth",
-                "description": "Assuming conspiracy or personal hostility requires constructing complex social friction scenarios that poison cooperation.\nAssuming human fallibility de-escalates conflict and resolves operational glitches faster.",
+                "label": "Saving Mental Energy",
+                "description": "Assuming people want to harm you wastes energy and creates stress.\nAssuming simple mistakes keeps things calm and peaceful.",
                 "children": [
                   {
                     "id": "generous-interpretation",
-                    "label": "Constructive Attribution",
-                    "description": "Viewing an associate's blunder as poor training, fatigue, or confusing tooling rather than active sabotage.\nThis mindset shifts team culture from vindictive blame games to objective system debugging."
+                    "label": "Giving Grace",
+                    "description": "Treat errors as poor training or tiredness rather than attacks.\nThis fixes problems without starting blame games."
                   },
                   {
                     "id": "frictionless-cooperation",
-                    "label": "De-escalation Dynamics",
-                    "description": "Responding to apparent slights with clarifying queries rather than defensive retaliation.\nIt prevents destructive tit-for-tat escalation spirals across interpersonal and international relations."
+                    "label": "Stopping Fights Early",
+                    "description": "Ask simple questions before getting angry or defensive.\nThis stops small misunderstandings from turning into giant feuds."
                   }
                 ]
               },
               {
                 "id": "systemic-blunder-appreciation",
-                "label": "Systemic Incompetence Literacy",
-                "description": "Organizations are composed of fallible people navigating poor communication interfaces and mismatched incentives.\nRecognizing operational entropy prevents you from hallucinating shadowy puppet masters behind everyday blunders."
+                "label": "Everyday Human Error",
+                "description": "People make mistakes every day due to confusing rules and stress.\nDo not look for villains behind simple confusion."
               }
             ]
           }
@@ -1635,238 +1635,238 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
       },
       {
         "id": "vol2-physics-chemistry-biology",
-        "label": "Volume 2: Physics, Chemistry & Biology",
-        "description": "Hard-science mental models that borrow immutable principles from thermodynamics, chemical reactions, mechanics, and biological evolution.\nThese models govern how physical resources move, balance, self-organize, and adapt under relentless selective pressure.",
+        "label": "Science Mental Models",
+        "description": "Rules borrowed from nature, chemistry, and physics.\nThey explain how real things grow, push, and balance.",
         "children": [
           {
             "id": "thermodynamics-entropy",
-            "label": "Thermodynamics & Entropy",
-            "description": "The unyielding physical reality that isolated systems inevitably degrade from order into chaos unless external energy is continuously invested.\nLeft unattended, systems decay into disorganization, making maintenance a non-negotiable imperative.",
+            "label": "Fighting Messiness",
+            "description": "Things naturally fall into mess and chaos over time.\nYou must put in daily energy to keep order.",
             "children": [
               {
                 "id": "second-law-governance",
-                "label": "The Second Law in Human Systems",
-                "description": "Without deliberate energy input, relationships rot, codebase architecture degenerates, and team clarity dissolves into bureaucratic confusion.\nOrder is an artificial, expensive state that must be continuously defended.",
+                "label": "Decay in Life",
+                "description": "Work, tools, and teams get sloppy if ignored.\nOrder takes steady effort to protect.",
                 "children": [
                   {
                     "id": "continuous-refactoring",
-                    "label": "Active Counter-Entropy",
-                    "description": "Scheduling routine pruning, maintenance, and refactoring to clean up accumulated systemic clutter.\nTreating maintenance as an ongoing rhythm preserves structural integrity before catastrophic failure strikes."
+                    "label": "Regular Cleanups",
+                    "description": "Clean up small messes before they pile up.\nSteady maintenance prevents giant breakdowns."
                   },
                   {
                     "id": "energy-dissipation",
-                    "label": "Energy Dissipation Dynamics",
-                    "description": "Understanding that every conversion of resource into work inevitably generates friction, heat, and waste.\nMaximizing thermodynamic throughput requires streamlining internal conduits to minimize parasitic drag."
+                    "label": "Wasted Effort",
+                    "description": "Every activity burns up energy as waste and heat.\nKeep steps simple to stop wasting effort."
                   }
                 ]
               },
               {
                 "id": "structural-decay",
-                "label": "Natural Degradation Paths",
-                "description": "Complex edifices collapse along their weakest stress lines when energy subsidies taper off.\nRecognizing this trajectory enables leaders to reinforce critical structural points before decay cascades."
+                "label": "Weakest Links",
+                "description": "Things snap at their weakest spots when energy runs dry.\nFix weak points early to avoid collapse."
               }
             ]
           },
           {
             "id": "friction-and-inertia",
-            "label": "Friction & Inertia",
-            "description": "Newtonian principles governing momentum: bodies at rest resist motion, while bodies in motion resist redirection, all impeded by ambient drag.\nScaling any venture requires understanding how physical and psychological friction bleeds kinetic momentum.",
+            "label": "Inertia and Drag",
+            "description": "Still things stay still, and moving things keep rolling.\nDrag and resistance slow everything down.",
             "children": [
               {
                 "id": "inertia-in-institutions",
-                "label": "Organizational Momentum",
-                "description": "Entrenched corporate cultures and habits possess immense psychological mass that resists changes in strategic direction.\nShifting trajectory requires sustained force applied consistently over extended periods.",
+                "label": "Company Habits",
+                "description": "Old groups hate changing their ways.\nYou need strong, steady pressure to turn a team around.",
                 "children": [
                   {
                     "id": "static-vs-dynamic-friction",
-                    "label": "Static vs. Kinetic Friction",
-                    "description": "The force required to initiate an enterprise from a dead stop is vastly higher than the force needed to maintain velocity once rolling.\nOvercoming initial inertia demands front-loaded energy investment."
+                    "label": "Starting vs Moving",
+                    "description": "Starting from zero takes way more effort than keeping going.\nExpect to push hard at the very start."
                   },
                   {
                     "id": "streamlining-resistance",
-                    "label": "Eliminating Drag Surfaces",
-                    "description": "Removing bureaucratic approval gates and interface friction accelerates velocity far more efficiently than simply pushing harder on tired teams.\nRemoving friction unlocks organic acceleration."
+                    "label": "Cutting Hassle",
+                    "description": "Cut red tape to speed up work naturally.\nRemoving drag works better than yelling at tired workers."
                   }
                 ]
               },
               {
                 "id": "momentum-preservation",
-                "label": "Kinetic Flywheels",
-                "description": "Building momentum into self-reinforcing flywheels protects operations against temporary dry spells.\nOnce heavy industrial and cultural flywheels are spinning, their intrinsic inertia helps carry them through storms."
+                "label": "Building Momentum",
+                "description": "Build habits that keep rolling on their own.\nStrong momentum carries you through tough patches."
               }
             ]
           },
           {
             "id": "leverage-mechanics",
-            "label": "Mechanics & Leverage",
-            "description": "The principle of multiplying input force through levers, pulleys, and mechanical advantage to produce outsized real-world impact.\nSmall strategic investments placed at optimal fulcrums effortlessly lift burdens that brute force cannot budge.",
+            "label": "Using Leverage",
+            "description": "Use tools and levers to turn small efforts into huge results.\nWork smarter, not just harder.",
             "children": [
               {
                 "id": "fulcrum-placement",
-                "label": "Strategic Fulcrum Identification",
-                "description": "The secret to leverage is not sheer effort, but positioning the pivot point where minimal input yields maximum displacement.\nShifting the fulcrum transforms an impossible obstacle into an effortless motion.",
+                "label": "Finding the Fulcrum",
+                "description": "Place your tool at the exact right spot.\nThe right pivot makes heavy work feel light.",
                 "children": [
                   {
                     "id": "asymmetric-force-multipliers",
                     "label": "Force Multipliers",
-                    "description": "Deploying zero-marginal-cost tools\u2014such as software, media, and automated infrastructure\u2014to decouple productivity from linear hours.\nThis provides asymmetric returns without proportional resource strain."
+                    "description": "Use software and automation to do more work in less time.\nThis gives you big output without burning out."
                   },
                   {
                     "id": "fragility-of-overleverage",
-                    "label": "The Hazard of Over-Extension",
-                    "description": "Mechanical advantage amplifies downside risks just as aggressively as upside gains.\nExcessive leverage strips out buffers, turning minor structural wobbles into sudden catastrophic snaps."
+                    "label": "Risk of Overborrowing",
+                    "description": "Too much leverage multiplies your risks along with your gains.\nLeave safety room so one small slip does not ruin you."
                   }
                 ]
               },
               {
                 "id": "mechanical-advantage",
-                "label": "Mechanical Amplification",
-                "description": "Understanding how tools and structural networks re-route physical vectors to relieve human strain.\nMastery of mechanical concepts enables lean teams to out-execute well-funded competitors."
+                "label": "Smart Amplification",
+                "description": "Use proper tools to redirect force and reduce strain.\nSmart setups let small teams beat giant rivals."
               }
             ]
           },
           {
             "id": "activation-energy-catalysts",
-            "label": "Activation Energy & Catalysts",
-            "description": "Chemical reactions require an initial threshold energy input to overcome electron repulsion and break existing bonds before self-sustaining.\nCatalysts fundamentally alter the reaction pathway, dramatically lowering this initial energy barrier.",
+            "label": "Activation Energy",
+            "description": "Starting a reaction requires a spark of extra energy.\nCatalysts lower the barrier so things happen faster.",
             "children": [
               {
                 "id": "overcoming-activation-energy",
-                "label": "Breaking Initial Resistance",
-                "description": "Major innovations frequently stall because organizations fail to muster the critical upfront spark needed to ignite the reaction.\nRecognizing this threshold prevents initiatives from dying in premature infancy.",
+                "label": "The First Spark",
+                "description": "New habits fail when you lack the spark to start them.\nPlan for extra upfront effort so projects get off the ground.",
                 "children": [
                   {
                     "id": "catalytic-intervention",
-                    "label": "Deploying Social & Technical Catalysts",
-                    "description": "Introducing key agents\u2014such as charismatic champions, micro-incentives, or frictionless workflows\u2014that lower the activation energy barrier.\nCatalysts unlock massive transformations without being consumed by the process."
+                    "label": "Using Catalysts",
+                    "description": "Add simple nudges and easy steps to make starting painless.\nCatalysts unlock quick progress without extra fuss."
                   },
                   {
                     "id": "autocatalytic-reactions",
-                    "label": "Autocatalysis & Compounding",
-                    "description": "Processes where the output product serves as a catalyst for subsequent reaction cycles, creating explosive exponential expansion.\nEngineering autocatalytic feedback loops produces runaway virality and self-reinforcing network effects."
+                    "label": "Self-Feeding Loops",
+                    "description": "Set up processes where each win fuels the next win.\nThis builds fast growth and powerful viral loops."
                   }
                 ]
               },
               {
                 "id": "metastable-equilibria",
-                "label": "Metastable Traps",
-                "description": "Systems often sit locked in suboptimal states because they lack the modest jolt required to slide into a lower-energy, higher-utility configuration.\nA targeted injection of energy frees the system to settle into a superior equilibrium."
+                "label": "Getting Unstuck",
+                "description": "Systems often get trapped in lazy, poor states.\nA small kick is often all it takes to reach a better spot."
               }
             ]
           },
           {
             "id": "equilibrium-le-chatelier",
-            "label": "Equilibrium & Le Chatelier's Principle",
-            "description": "Dynamic chemical systems naturally balance opposing forces; when perturbed by an external shock, they adjust to counteract and neutralize the change.\nComplex environments fight back against disruptions to restore internal homeostasis.",
+            "label": "Balance and Pushback",
+            "description": "When you push a system, it naturally pushes back to keep balance.\nNature always seeks equilibrium.",
             "children": [
               {
                 "id": "counteracting-forces",
-                "label": "Homeostatic Pushback",
-                "description": "Imposing top-down changes on complex human ecosystems invariably activates counteracting forces that push back against the mandate.\nIgnoring homeostatic compensation ensures that well-intentioned reforms quietly wash out.",
+                "label": "System Pushback",
+                "description": "Forcing change on people creates resistance and workarounds.\nRespect natural pushback or your rules will fail.",
                 "children": [
                   {
                     "id": "systemic-adaptation",
-                    "label": "Dynamic Counter-Adjustment",
-                    "description": "When pressure is applied to one sector of an economy or organization, resources flow toward release valves that neutralize the stress.\nAnticipating these dynamic offsets helps leaders avoid ineffective policies."
+                    "label": "Natural Adjustments",
+                    "description": "Pressure in one spot pushes energy toward another outlet.\nPlan for these shifts before changing things."
                   },
                   {
                     "id": "dynamic-homeostasis",
-                    "label": "Dynamic Balance Maintenance",
-                    "description": "Equilibrium in living systems is not static stillness, but a furious dance of opposing adjustments working in concert.\nMaintaining stability requires continuous, micro-calibrated regulatory adaptations."
+                    "label": "Staying in Balance",
+                    "description": "True stability requires constant small adjustments.\nYou must keep balancing to stay steady."
                   }
                 ]
               },
               {
                 "id": "stressor-compensation",
-                "label": "Compensatory Shifting",
-                "description": "Shifting environmental conditions force internal components to rearrange their functional geometry to survive.\nMastering this principle enables designers to channel system adjustments along desired trajectories."
+                "label": "Adapting to Stress",
+                "description": "Shifts in the environment force systems to rearrange.\nGuide these shifts in healthy directions to survive."
               }
             ]
           },
           {
             "id": "natural-selection-evolution",
-            "label": "Natural Selection & Evolution",
-            "description": "Variation, heredity, and differential reproductive survival continuously sculpt organisms to match the harsh demands of their local ecological niches.\nWhat endures across deep time is not the strongest entity, but the one best attuned to environmental feedback.",
+            "label": "Evolution and Adaptation",
+            "description": "Those who adapt best to their surroundings survive and win.\nFlexibility matters more than raw strength.",
             "children": [
               {
                 "id": "variation-and-mutation",
-                "label": "Variation as Insurance",
-                "description": "Homogeneity breeds fragile monocultures that collapse when environmental conditions shift.\nMaintaining internal genetic and behavioral diversity provides an arsenal of adaptations ready to seize new opportunities.",
+                "label": "Valuing Variety",
+                "description": "Having many different ideas keeps you safe when things change.\nSameness is fragile and easily wiped out.",
                 "children": [
                   {
                     "id": "selective-pressure-filters",
-                    "label": "Selective Pressure Calibration",
-                    "description": "Without real selective pressure, organizational bloat accumulates unchecked, crippling overall fitness.\nControlled environmental stressors strip away waste and keep operational instincts razor sharp."
+                    "label": "Healthy Challenges",
+                    "description": "Mild challenges keep teams fit and quick on their feet.\nWithout challenges, waste and laziness creep in."
                   },
                   {
                     "id": "niche-differentiation",
-                    "label": "Niche Specialization",
-                    "description": "Direct competition along identical axes results in mutually destructive price wars and exhaustion.\nCarving out distinct specialized niches allows organisms and businesses to thrive without head-on conflict."
+                    "label": "Finding Your Spot",
+                    "description": "Pick your own unique niche instead of fighting everyone head-on.\nDistinct paths let you win peacefully."
                   }
                 ]
               },
               {
                 "id": "survival-of-the-fitting",
-                "label": "Attunement Over Brute Power",
-                "description": "Evolution favors optimal environmental fit rather than absolute raw power or scale.\nGiant predators perish when food webs unravel, while humble, highly adaptable generalists endure through extinction events."
+                "label": "Fitting Your World",
+                "description": "Success goes to what fits best, not what looks biggest.\nSmall, flexible players outlast clumsy giants."
               }
             ]
           },
           {
             "id": "red-queen-effect",
-            "label": "The Red Queen Effect",
-            "description": "In co-evolving competitive ecosystems, an organism must continually run, adapt, and evolve just to maintain its relative standing against rivals.\nStagnation is fatal, because the environment and competing entities are continuously advancing.",
+            "label": "The Red Queen",
+            "description": "You must keep running just to stay in the same place.\nStanding still means falling behind.",
             "children": [
               {
                 "id": "coevolutionary-arms-races",
-                "label": "Co-Evolutionary Dynamics",
-                "description": "Advancements engineered by predators prompt defensive counter-adaptations in prey, generating an unending cycle of reciprocal innovation.\nSurviving in high-velocity industries requires constant evolutionary pacing.",
+                "label": "Competition Races",
+                "description": "When rivals improve, you must step up too.\nStaying competitive requires steady, daily upgrades.",
                 "children": [
                   {
                     "id": "relative-vs-absolute-pace",
-                    "label": "Relative vs. Absolute Velocity",
-                    "description": "Accelerating your output means nothing if your competitive ecosystem is advancing twice as quickly.\nSuccess is dictated strictly by differential speed relative to the moving frontier."
+                    "label": "Speed vs Rivals",
+                    "description": "Moving fast is useless if your competition is twice as fast.\nYour progress only counts compared to rivals."
                   },
                   {
                     "id": "ceaseless-innovation-cycle",
-                    "label": "Perpetual Adaptation Imperative",
-                    "description": "Today's groundbreaking competitive moat becomes tomorrow's basic table stakes.\nOrganizations that rest on past glories are quickly overtaken by hungry contenders riding the next wave."
+                    "label": "Never Stop Learning",
+                    "description": "Today's great trick becomes tomorrow's basic expectation.\nNever rest on old wins."
                   }
                 ]
               },
               {
                 "id": "coadaptation-traps",
-                "label": "Symbiotic Vulnerabilities",
-                "description": "Tight co-evolution can lock entities into codependent spirals that collapse if one partner falters.\nBalancing competitive racing with autonomous resilience prevents your fate from becoming hostage to external rivals."
+                "label": "Codependency Traps",
+                "description": "Relying too much on partners makes you fragile.\nKeep your own strength so others cannot pull you down."
               }
             ]
           },
           {
             "id": "ecosystems-carrying-capacity",
-            "label": "Ecosystems & Carrying Capacity",
-            "description": "Interconnected webs of organisms bound by finite resource thresholds that dictate maximum sustainable population densities.\nBreaching the carrying capacity of an environment triggers sudden collapses, resource exhaustion, and population die-offs.",
+            "label": "Carrying Limits",
+            "description": "Every system has a hard limit on what it can support.\nPushing past these limits triggers quick collapse.",
             "children": [
               {
                 "id": "limiting-factors-liebig",
-                "label": "Liebig's Law of the Minimum",
-                "description": "Systemic throughput is constrained not by the total pool of resources available, but by the single scarcest critical input factor.\nPouring capital into non-bottlenecks creates zero incremental growth while burning valuable energy.",
+                "label": "The Bottleneck",
+                "description": "Growth is stopped by the single scarcest resource.\nFix the main bottleneck before spending money elsewhere.",
                 "children": [
                   {
                     "id": "overshoot-and-collapse",
-                    "label": "Overshoot & Systemic Rupture",
-                    "description": "Exploding past ecological thresholds temporarily masks danger before the substrate gives way, sparking sharp corrections.\nPreserving ample safety margins below carrying capacity ensures generational longevity."
+                    "label": "Overusing Resources",
+                    "description": "Growing too fast burns up your base and leads to a crash.\nKeep safe buffers to survive long term."
                   },
                   {
                     "id": "symbiosis-and-recycling",
-                    "label": "Symbiotic Circularity",
-                    "description": "Durable ecosystems achieve near-zero waste by routing the exhaust outputs of one process into the vital inputs of another.\nClosing operational loops yields resilient networks that thrive on internal recycling."
+                    "label": "Reusing Resources",
+                    "description": "Turn waste from one task into fuel for another.\nRecycling energy makes operations resilient."
                   }
                 ]
               },
               {
                 "id": "trophic-cascades",
-                "label": "Trophic Cascades & Keystone Effects",
-                "description": "Removing or introducing a single keystone species or variable reverberates across the entire ecological pyramid, fundamentally reshaping the landscape.\nRecognizing systemic interconnectedness prevents unintended catastrophic collapse."
+                "label": "Domino Effects",
+                "description": "Changing one key piece can shake up the whole system.\nWatch how one tweak ripples through everything."
               }
             ]
           }

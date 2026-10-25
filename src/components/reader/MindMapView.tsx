@@ -581,7 +581,7 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
     <div className={`${
       isFullscreen 
         ? 'fixed inset-0 z-50 bg-white dark:bg-slate-900 flex flex-col p-3 sm:p-4' 
-        : 'max-w-7xl mx-auto pt-2 sm:pt-3 pb-16 space-y-4 w-full max-w-full overflow-x-hidden'
+        : 'max-w-7xl mx-auto pt-4 sm:pt-4 pb-16 space-y-4 w-full max-w-full overflow-x-hidden'
     }`}>
       
       {/* Top Controls Toolbar */}

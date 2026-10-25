@@ -91,7 +91,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
   };
 
   return (
-    <div className="max-w-5xl mx-auto pt-2 sm:pt-3 pb-20 grid grid-cols-1 lg:grid-cols-4 gap-8 w-full max-w-full overflow-x-hidden">
+    <div className="max-w-5xl mx-auto pt-4 sm:pt-4 pb-20 grid grid-cols-1 lg:grid-cols-4 gap-8 w-full max-w-full overflow-x-hidden">
       
       {/* Sidebar Table of Contents */}
       <aside className="lg:col-span-1 space-y-4">
