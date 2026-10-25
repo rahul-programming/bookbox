@@ -14,7 +14,8 @@ import {
   Sparkles,
   Info,
   Volume2,
-  X
+  X,
+  GripVertical
 } from 'lucide-react';
 
 interface MindMapViewProps {
@@ -82,6 +83,94 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
 
   // Fullscreen State
   const [isFullscreen, setIsFullscreen] = useState(false);
+
+  // Floating Controls Pod Dragging
+  const [podPos, setPodPos] = useState<{ x: number; y: number } | null>(null);
+  const podRef = useRef<HTMLDivElement>(null);
+  const podDragRef = useRef<{
+    isDragging: boolean;
+    startX: number;
+    startY: number;
+    initialX: number;
+    initialY: number;
+  }>({
+    isDragging: false,
+    startX: 0,
+    startY: 0,
+    initialX: 0,
+    initialY: 0
+  });
+
+  const handlePodDragStart = (clientX: number, clientY: number, e: React.MouseEvent | React.TouchEvent) => {
+    e.stopPropagation();
+    if (!containerRef.current || !podRef.current) return;
+
+    const containerRect = containerRef.current.getBoundingClientRect();
+    const podRect = podRef.current.getBoundingClientRect();
+
+    const currentX = podRect.left - containerRect.left;
+    const currentY = podRect.top - containerRect.top;
+
+    podDragRef.current = {
+      isDragging: true,
+      startX: clientX,
+      startY: clientY,
+      initialX: currentX,
+      initialY: currentY
+    };
+
+    const handlePointerMove = (moveEvent: MouseEvent | TouchEvent) => {
+      if (!podDragRef.current.isDragging || !containerRef.current || !podRef.current) return;
+      
+      const currentClientX = 'touches' in moveEvent ? moveEvent.touches[0].clientX : moveEvent.clientX;
+      const currentClientY = 'touches' in moveEvent ? moveEvent.touches[0].clientY : moveEvent.clientY;
+
+      const dx = currentClientX - podDragRef.current.startX;
+      const dy = currentClientY - podDragRef.current.startY;
+
+      const cRect = containerRef.current.getBoundingClientRect();
+      const pRect = podRef.current.getBoundingClientRect();
+
+      const maxX = Math.max(8, cRect.width - pRect.width - 8);
+      const maxY = Math.max(8, cRect.height - pRect.height - 8);
+
+      const nextX = Math.min(Math.max(8, podDragRef.current.initialX + dx), maxX);
+      const nextY = Math.min(Math.max(8, podDragRef.current.initialY + dy), maxY);
+
+      setPodPos({ x: nextX, y: nextY });
+    };
+
+    const handlePointerUp = () => {
+      podDragRef.current.isDragging = false;
+      window.removeEventListener('mousemove', handlePointerMove);
+      window.removeEventListener('mouseup', handlePointerUp);
+      window.removeEventListener('touchmove', handlePointerMove);
+      window.removeEventListener('touchend', handlePointerUp);
+      window.removeEventListener('touchcancel', handlePointerUp);
+    };
+
+    window.addEventListener('mousemove', handlePointerMove, { passive: false });
+    window.addEventListener('mouseup', handlePointerUp);
+    window.addEventListener('touchmove', handlePointerMove, { passive: false });
+    window.addEventListener('touchend', handlePointerUp);
+    window.addEventListener('touchcancel', handlePointerUp);
+  };
+
+  // Clamp pod position within canvas bounds on resize or fullscreen toggle
+  useEffect(() => {
+    if (!podPos || !containerRef.current || !podRef.current) return;
+    const cRect = containerRef.current.getBoundingClientRect();
+    const pRect = podRef.current.getBoundingClientRect();
+    const maxX = Math.max(8, cRect.width - pRect.width - 8);
+    const maxY = Math.max(8, cRect.height - pRect.height - 8);
+
+    if (podPos.x > maxX || podPos.y > maxY) {
+      setPodPos({
+        x: Math.min(Math.max(8, podPos.x), maxX),
+        y: Math.min(Math.max(8, podPos.y), maxY)
+      });
+    }
+  }, [isFullscreen]);
 
   // Toggle fullscreen and lock body scroll
   const toggleFullscreen = () => {
@@ -715,8 +804,33 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
             touchAction: 'none'
           }}
         >
-          {/* Floating Controls Inside Map Canvas (Maximize / Minimize, Zoom, Center) */}
-          <div className="absolute top-3 right-3 z-30 flex items-center space-x-1 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md p-1 sm:p-1.5 rounded-xl border border-slate-200/80 dark:border-slate-700/80 shadow-md">
+          {/* Floating Controls Inside Map Canvas (Maximize / Minimize, Zoom, Center) - Movable & Defaults to Bottom-Right */}
+          <div
+            ref={podRef}
+            style={
+              podPos
+                ? { left: `${podPos.x}px`, top: `${podPos.y}px` }
+                : { right: '16px', bottom: '16px' }
+            }
+            onMouseDown={(e) => e.stopPropagation()}
+            onTouchStart={(e) => e.stopPropagation()}
+            className="absolute z-30 flex items-center space-x-1 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md p-1 sm:p-1.5 rounded-xl border border-slate-200/90 dark:border-slate-700/90 shadow-lg select-none"
+          >
+            {/* Movable Drag Grip Handle */}
+            <div
+              onMouseDown={(e) => handlePodDragStart(e.clientX, e.clientY, e)}
+              onTouchStart={(e) => {
+                if (e.touches.length > 0) {
+                  handlePodDragStart(e.touches[0].clientX, e.touches[0].clientY, e);
+                }
+              }}
+              className="p-1 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 cursor-grab active:cursor-grabbing touch-none flex items-center justify-center shrink-0"
+              title="Drag controls anywhere on map"
+              aria-label="Drag controls"
+            >
+              <GripVertical className="w-3.5 h-3.5" />
+            </div>
+
             <button
               onClick={() => handleZoom(-0.15)}
               className="p-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition cursor-pointer"
