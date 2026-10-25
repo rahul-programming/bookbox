@@ -1,5 +1,5 @@
 // Thinking in Bets by Annie Duke
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -335,170 +335,169 @@ export const THINKING_IN_BETS_BOOK: Book = {
   "actionItems": [
     {
       "id": "thinking-in-bets-act-1",
-      "title": "Replace 'I'm Sure' with Confidence Percentages",
-      "description": "Our brains crave neat certainty, but the real world behaves like poker, not chess. Calibrate your mental radar by stating how confident you feel (from 50% to 100%) whenever you make a claim.",
+      "title": "Use Percentages Instead of Total Certainty",
+      "description": "Life is rarely black and white. Share your exact level of certainty instead of pretending to know everything.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Notice the next time you reflexively declare 'Definitely', 'Always', or 'Never' during a discussion.",
-        "Pause and ask yourself: 'If I had to put money on this, what percentage odds would I assign?'",
-        "Say the number out loud (e.g., 'I think we'll finish on Friday, but I am roughly 70% confident').",
-        "Observe how stating an explicit probability instantly lowers emotional defense mechanisms and invites better data."
+        "1. Catch yourself saying words like definitely, always, or never.",
+        "2. Ask yourself what chance you would actually bet on this.",
+        "3. Say your honest number out loud to the other person.",
+        "4. Notice how this opens the door for better new facts."
       ],
       "sourceChapter": "Chapter 1"
     },
     {
       "id": "thinking-in-bets-act-2",
-      "title": "Conduct an Evening 'Resulting' Decoupler",
-      "description": "We suffer from 'resulting'\u2014judging decision quality purely by whether the outcome was good or bad. Inspect one daily result through a microscope to separate lucky breaks from sound thinking.",
+      "title": "Separate Your Choices From Pure Luck",
+      "description": "Good choices can bring bad results. Take time each evening to separate your thinking from random luck.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Select one outcome from today: either a surprising win or an unexpected flop.",
-        "Draw two columns labeled 'Decision Quality (What I controlled)' and 'Luck / Hidden Factors (What I couldn't control)'.",
-        "List your reasoning, gathered facts, and blind spots present at the moment you decided.",
-        "Remind yourself that good choices can yield bad breaks, and sloppy gambles can win by sheer chance."
+        "1. Pick one clear win or loss from your day today.",
+        "2. Write down what you could actually control about that choice.",
+        "3. List the outside factors and luck that you could not control.",
+        "4. Remind yourself that lucky breaks do not prove smart thinking."
       ],
       "sourceChapter": "Chapter 1"
     },
     {
       "id": "thinking-in-bets-act-3",
-      "title": "Establish the 'Wanna Bet?' Mental Interrupter",
-      "description": "Whenever someone challenges us with 'Wanna bet?', our brain snaps out of belief-preservation mode and audits the facts. Train yourself to whisper this challenge whenever an unverified belief forms.",
+      "title": "Ask Yourself If You Would Bet",
+      "description": "We believe rumors too fast. Challenge your own bold opinions by pretending real cash is at stake.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Catch yourself absorbing a snappy headline, hot take, or strong opinion.",
-        "Quietly challenge yourself: 'Wanna bet $500 on this being accurate right now?'",
-        "Inventory the concrete evidence you personally hold versus what you merely heard echoed.",
-        "Adjust your confidence dial down until primary verification occurs."
+        "1. Notice when you quickly accept a strong opinion as plain fact.",
+        "2. Ask yourself if you would bet real money on it.",
+        "3. Check what proof you own versus what you simply heard.",
+        "4. Lower your confidence until you check the facts yourself first."
       ],
       "sourceChapter": "Chapter 2"
     },
     {
       "id": "thinking-in-bets-act-4",
-      "title": "Erect a 'Red Team' Truth-Seeking Buddy Contract",
-      "description": "Individual cognitive biases are hard to catch alone. Build a social environment where peers agree to poke holes in each other's rationalizations without taking offense.",
+      "title": "Find a Honest Truth Seeking Buddy",
+      "description": "We cannot easily spot our own mistakes. Partner with a trusted friend who will challenge your ideas kindly.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Invite a curious friend or trusted colleague to form a two-person truth-seeking pod.",
-        "Set ground rules based on exploratory inquiry: agree that admitting error is rewarded, not penalized.",
-        "Grant explicit permission to ask: 'What would have to be true for the opposite of your opinion to work?'",
-        "Schedule bi-weekly 15-minute syncs strictly to test beliefs and stress-test assumptions."
+        "1. Invite a thoughtful friend to trade honest feedback with you.",
+        "2. Agree that admitting simple mistakes is a great, brave thing.",
+        "3. Let them ask what facts would prove your view completely wrong.",
+        "4. Meet every two weeks to test each other's biggest assumptions."
       ],
       "sourceChapter": "Chapter 4"
     },
     {
       "id": "thinking-in-bets-act-5",
-      "title": "Create an Outcome-Blind Discussion Protocol",
-      "description": "When asking colleagues or advisors for feedback on a past choice, outcome knowledge contaminates their judgment. Design a shared communication rule that conceals final results.",
+      "title": "Hide the Final Outcome From Feedback",
+      "description": "Knowing the ending spoils good advice. Hide the final result when asking friends for their honest opinion.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Draft a template for asking feedback on team decisions or personal choices.",
-        "Present only the inputs, constraints, alternatives, and information known at decision time.",
-        "Explicitly omit whether the endeavor succeeded or failed.",
-        "Collect their independent assessment of your rationale before revealing what actually happened."
+        "1. Pick a recent decision you want to get fresh feedback on.",
+        "2. Share only the facts you knew when you made the choice.",
+        "3. Do not tell them whether the choice succeeded or totally failed.",
+        "4. Ask for their true take before sharing what actually happened."
       ],
       "sourceChapter": "Chapter 5"
     },
     {
       "id": "thinking-in-bets-act-6",
-      "title": "Map Your Personal 'CUDOS' Norms Check",
-      "description": "Inspired by sociologist Robert Merton's scientific ethos, audit how open and objective your environment is when processing uncomfortable facts.",
+      "title": "Test Your Habits For Real Fairness",
+      "description": "Personal pride makes us unfair. Check regularly to see if you judge all ideas with equal fairness.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Write out the four principles on an index card: Communalism (share all data), Universalism (same rules for friend or foe), Disinterestedness (hunt for truth over being right), and Organized Skepticism.",
-        "Pin the card near your workspace or paste it into your meeting notes template.",
-        "Scan discussions against these standards: did you dismiss an idea just because of who said it?",
-        "Use universal scrutiny on both your favorite wins and your painful setbacks."
+        "1. Write a reminder note to judge ideas, not the people speaking.",
+        "2. Keep this reminder on your desk during daily team meetings.",
+        "3. Notice if you reject an idea just because you dislike someone.",
+        "4. Question your biggest wins as closely as your painful losses."
       ],
       "sourceChapter": "Chapter 5"
     },
     {
       "id": "thinking-in-bets-act-7",
-      "title": "Perform a 'Self-Serving Bias' Decision Audit",
-      "description": "Human psychology reflexively attributes victories to personal skill and defeats to bad luck. Systematically audit your last three major choices to restore scientific balance.",
+      "title": "Review Your Past Wins and Losses",
+      "description": "We blame bad luck for losses and praise ourselves for wins. Review past choices to see the whole truth.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Review your last three completed projects or bets (e.g., career moves, investments, or habits).",
-        "For each win, uncover at least two external tailwinds or strokes of fortune that helped you cross the finish line.",
-        "For each setback, identify at least one miscalculated risk or faulty premise you held going in.",
-        "Document these discovered variables into your personal lessons file to calibrate future forecasts."
+        "1. Pick three big choices you made in the past few months.",
+        "2. Find two lucky outside events that helped each big win succeed.",
+        "3. Find one mistake you made during each of your painful losses.",
+        "4. Save these practical lessons so you can decide better next time."
       ],
       "sourceChapter": "Chapter 3"
     },
     {
       "id": "thinking-in-bets-act-8",
-      "title": "Audit Emotional Highjacking with the 10-10-10 Rule",
-      "description": "When immediate friction triggers impulsive reactivity, our temporal perspective shrinks. Audit your emotional state using prospective hindsight before responding.",
+      "title": "Pause With the Ten Rule",
+      "description": "Strong moods make us act too quickly. Look far ahead to keep small daily problems in clear perspective.",
       "category": "audit",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Recognize sudden emotional spikes (irritation, impatience, fear of missing out).",
-        "Ask: 'How will I feel about this choice 10 minutes from now?'",
-        "Ask: 'How will I feel about this choice 10 months from now?'",
-        "Ask: 'How will I feel about this choice 10 years from now?'",
-        "Let the long-term perspective dilute short-term emotional noise before you take action."
+        "1. Notice when anger or panic starts to take over your body.",
+        "2. Ask how you will feel about this choice in ten minutes.",
+        "3. Ask how you will feel about it in ten whole months.",
+        "4. Ask how much it will matter in ten full years."
       ],
       "sourceChapter": "Chapter 6"
     },
     {
       "id": "thinking-in-bets-act-9",
-      "title": "Install a 'Premortem' Failure Simulation",
-      "description": "Rather than hoping for the best, engage your investigative mind to work backward from catastrophic failure before launching any major effort.",
+      "title": "Picture Your Plan Failing First",
+      "description": "Hope is never a solid plan. Imagine total failure early so you can fix weak spots right now.",
       "category": "system",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Fast-forward into the future: assume the project or goal has completely crashed and burned.",
-        "Brainstorm every hidden crack, dynamic, and fragile assumption that caused the collapse.",
-        "Rank these hypothetical failure pathways by probability and severity.",
-        "Build early warning tripwires and preventive safeguards into your project blueprint."
+        "1. Pretend your new goal has already failed very badly in public.",
+        "2. Write down every single problem that could have caused the crash.",
+        "3. Spot which of these bad problems are most likely to happen.",
+        "4. Build clear backup steps into your plan before you even begin."
       ],
       "sourceChapter": "Chapter 6"
     },
     {
       "id": "thinking-in-bets-act-10",
-      "title": "Design a 'Backcasting' Milestone Pipeline",
-      "description": "Complement your premortem by imagining positive goal fulfillment, then charting the exact chain of cause-and-effect steps required to reach it.",
+      "title": "Work Backward From Your Big Goal",
+      "description": "Big goals feel overwhelming from the start. Start from the finish line and walk back to your very first step.",
       "category": "system",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Picture your project six months from now as a total, unambiguous triumph.",
-        "Ask: 'What had to happen right before this win to make it possible?'",
-        "Work backward step by step until you arrive at the exact action needed this week.",
-        "Contrast this ideal pipeline with your premortem threats to form a realistic probability tree."
+        "1. Picture your goal already done with huge success six months ahead.",
+        "2. Ask what had to happen right before that final big win.",
+        "3. Step backward until you find the exact task needed this week.",
+        "4. Start working on that single small step right away today."
       ],
       "sourceChapter": "Chapter 6"
     },
     {
       "id": "thinking-in-bets-act-11",
-      "title": "Set Up Ulysses Contracts and Decision Tripwires",
-      "description": "When cognitive fatigue strikes, rational thinking dissolves. Build automated boundaries that lock in your intended bets before temptation or panic overrides reason.",
+      "title": "Lock In Your Choices in Advance",
+      "description": "Tired brains make sloppy choices. Set clear rules ahead of time so panic cannot take over the wheel.",
       "category": "system",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Identify vulnerable moments where you abandon rational strategy (e.g., revenge trading, late-night doomscrolling).",
-        "Define an unambiguous 'if-then' trigger (e.g., 'If asset price falls 8%, liquidate immediately without debate').",
-        "Automate the trigger or hand execution control to a designated counterpart.",
-        "Review triggers quarterly to adapt to changing environmental realities."
+        "1. Notice when fatigue usually pushes you into bad impulsive habits.",
+        "2. Create a simple if-then rule to stop the bad behavior early.",
+        "3. Use automatic apps or a partner to enforce that strict rule.",
+        "4. Check every few months to see if your rule needs tweaking."
       ],
       "sourceChapter": "Chapter 6"
     },
     {
       "id": "thinking-in-bets-act-12",
-      "title": "Deploy the 'Night Walk' Perspective Swap",
-      "description": "Curiosity dissolves defensive ego. When stuck in bitter disagreement, run a lightning perspective simulation to explore the underlying logic of the other side.",
+      "title": "See the Other Person's Side",
+      "description": "Fierce arguments blind our thinking. Step into your opponent's shoes to learn what you might be missing.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Identify an opinion held by an adversary or competitor that seems baffling or wrong.",
-        "Assume for five minutes that they are intelligent, observant, and acting on valid clues.",
-        "Formulate three hidden incentives, life experiences, or datasets that would make their stance entirely rational.",
-        "Refine your own bet using the newly unmasked blind spots you just uncovered."
+        "1. Think of one strong opinion you find very silly or annoying.",
+        "2. Assume the person sharing it is smart, honest, and well-meaning.",
+        "3. Write down three good reasons why they could actually be right.",
+        "4. Update your own thinking using the blind spots you just found."
       ],
       "sourceChapter": "Chapter 4"
     }
@@ -675,10 +674,10 @@ export const THINKING_IN_BETS_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Resulting: The Fatal Mirage of Outcome Bias",
-      "body": "Human brains are wired to equate decision quality directly with outcome quality.\nIf a CEO greenlights a risky, poorly analyzed initiative and stumbles into lucky profits, we crown them a genius; if a mathematically sound play hits a 2% bad-luck wall, we punish the planner.\nJudging a bet solely by its payoff blinds us to the underlying probability engine.",
-      "quote": "Resulting is a routine that distorts our ability to learn from results.",
-      "actionItem": "When reviewing past projects, evaluate the decision process and assumptions strictly before looking at the final balance sheet.",
+      "headline": "Judging by Results Alone",
+      "body": "People wrongly judge choices only by how things turn out.\nA terrible choice can get lucky and still look good.\nA smart choice can hit bad luck and look bad.",
+      "quote": "Judging a choice only by its outcome stops us from learning.",
+      "actionItem": "Review decisions by checking your logic before you look at the final outcome.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -696,10 +695,10 @@ export const THINKING_IN_BETS_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Life as Poker, Not Chess",
-      "body": "Chess is a game of complete information where chance plays zero role and every piece is visible on the board.\nLife, markets, and human relationships are poker: games of incomplete information, hidden intentions, and shifting probabilities where brilliant plays can lose and terrible blunders can win.",
-      "quote": "Chess, for all its strategic complexity, isn't a great model for real-world decision-making because the pieces are all there for both people to see.",
-      "actionItem": "Accept that uncertainty and hidden variables exist in every decision; prioritize managing risk distributions over chasing illusory guarantees.",
+      "headline": "Life Is Poker Not Chess",
+      "body": "Chess has zero luck because all pieces are in plain sight.\nReal life is like poker with hidden cards and unpredictable events.\nGood choices sometimes lose and bad choices sometimes win.",
+      "quote": "Real life is like poker, where luck and hidden information always matter.",
+      "actionItem": "Stop looking for total certainty and plan for things you cannot see.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -717,10 +716,10 @@ export const THINKING_IN_BETS_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The 'Wanna Bet?' Calibration Lens",
-      "body": "The moment you mentally append 'wanna bet?' to an assertion, your cognitive posture transforms from defensive righteousness to investigative curiosity.\nThe sudden introduction of risk exposes hidden assumptions, forcing you to audit how thoroughly you have validated your sources and logic.",
-      "quote": "Offering a bet moves an assertion from the realm of opinion and certainty into the realm of calibration.",
-      "actionItem": "Whenever you catch yourself declaring a dogmatic opinion, ask: 'Would I wager $500 on this at 3-to-1 odds?'",
+      "headline": "The Wanna Bet Test",
+      "body": "Asking wanna bet makes you stop and check your facts.\nReal risk pushes you to admit what you do not know.\nYou quickly become curious instead of stubborn.",
+      "quote": "Asking if you want to bet quickly reveals how sure you really are.",
+      "actionItem": "When you sound too certain, ask yourself if you would risk real money.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -738,10 +737,10 @@ export const THINKING_IN_BETS_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Express Beliefs in Percentages",
-      "body": "Binary thinking categorizes beliefs into 'true' or 'false', creating cognitive fragility and ego attachment.\nBy stating your conviction as a percentage\u2014such as 'I am 70% confident in this client signing'\u2014you leave calibrated space for incoming data without feeling like an error threatens your identity.",
-      "quote": "Incorporating 'I'm not sure' into our thinking is a huge step in improving our decisions.",
-      "actionItem": "Replace absolute statements like 'This project will succeed' with probabilistic estimates like 'I assign an 80% likelihood of hitting our target by Q3.'",
+      "headline": "Use Percentages Not Absolutes",
+      "body": "Do not label things as simply true or false.\nState how sure you are with a clear percentage.\nThis leaves room to learn new facts without feeling defensive.",
+      "quote": "Admitting you are not fully sure helps you make much better choices.",
+      "actionItem": "Say I am eighty percent sure instead of saying this will definitely happen.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -759,10 +758,10 @@ export const THINKING_IN_BETS_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Belief Formation: Believe First, Verify Later",
-      "body": "Evolutionary psychology reveals that humans hear information, instantly accept it as true, and only later deploy critical scrutiny if motivated to do so.\nIn an environment flooded with rapid-fire inputs, unvetted information quietly settles into core memory as established fact before verification ever occurs.",
-      "quote": "We form beliefs in a haphazard way, believe all sorts of things, and then stubbornly defend those beliefs once they are formed.",
-      "actionItem": "Treat initial impressions as provisional hypotheses; deliberately run a 60-second counter-search before acting on new claims.",
+      "headline": "Believe First Check Later",
+      "body": "We naturally believe new things right away without much thought.\nWe only stop to check the facts when forced to do so.\nUntested rumors can easily become beliefs you defend for years.",
+      "quote": "We accept ideas too fast and then stubbornly defend them as facts.",
+      "actionItem": "Take one minute to search for opposing facts before accepting a bold claim.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -780,10 +779,10 @@ export const THINKING_IN_BETS_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Two Knobs: Skill vs. Luck",
-      "body": "Every observable outcome is the product of two independent variables: the skill of the decision-maker and the roll of the environmental dice.\nIf you fail to separate these levers during post-project analyses, you inevitably reinforce terrible habits that happened to get lucky and discard brilliant processes hit by variance.",
-      "quote": "Every outcome has a component of skill and a component of luck.",
-      "actionItem": "Categorize every project review into two explicit columns: 'What we controlled (Skill)' versus 'What the market rolled (Luck)'.",
+      "headline": "Skill Versus Luck",
+      "body": "Every result comes from your skill combined with random luck.\nIf you ignore luck, you will copy bad moves that got lucky.\nYou might also drop good moves that just ran into bad luck.",
+      "quote": "Every result is partly your skill and partly pure luck.",
+      "actionItem": "Split your post-project review into what you controlled and what was pure chance.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -801,10 +800,10 @@ export const THINKING_IN_BETS_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Self-Serving Bias Machine",
-      "body": "Our narrative engine automatically chalks victories up to personal brilliance and attributes defeats to catastrophic luck.\nWhile this protects immediate self-esteem, it sabotages the feedback loops required for compounding mastery, ensuring we never learn from our true missteps or dissect lucky windfalls.",
-      "quote": "Blaming bad luck for our bad outcomes is an obstacle to learning from those outcomes.",
-      "actionItem": "After any major success, write down three external lucky factors that tilted the odds in your favor.",
+      "headline": "The Ego Trap",
+      "body": "We love to credit our own brains whenever we win.\nWhen we lose, we quickly blame bad luck instead.\nThis bad habit protects our feelings but stops us from growing.",
+      "quote": "Blaming bad luck for every failure keeps us from learning our lesson.",
+      "actionItem": "After every win, write down two lucky breaks that helped you succeed.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -822,10 +821,10 @@ export const THINKING_IN_BETS_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Forming a Truth-Seeking Charter",
-      "body": "Lone thinkers struggle to overcome cognitive blind spots because self-deception is frictionless.\nCultivating an intentional truth-seeking group\u2014where members explicitly agree to celebrate calibrated doubt, challenge sloppy causal leaps, and reward honesty\u2014creates an intellectual cleanroom for decision-making.",
-      "quote": "A truth-seeking group can help us see the world more accurately and think more probabilistically.",
-      "actionItem": "Form an agreement with two colleagues: give each other blanket permission to question assumptions without social friction.",
+      "headline": "Truth Seeking Groups",
+      "body": "It is easy to fool yourself when thinking completely alone.\nA good group helps you spot errors and question weak assumptions.\nHonest friends keep your decisions grounded in reality.",
+      "quote": "A good group helps you see the truth and think more clearly.",
+      "actionItem": "Ask two trusted friends to challenge your ideas without fear of offending you.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -843,10 +842,10 @@ export const THINKING_IN_BETS_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Epistemic Humility of Being Wrong",
-      "body": "Admitting an error feels painful only when identity is tethered to infallibility.\nWhen you reframe identity around being an objective scientist of your own choices, discovering you were wrong becomes an exhilarating upgrade to your internal predictive model.",
-      "quote": "You can be wrong more often and be better off for it.",
-      "actionItem": "Track the frequency with which you update your viewpoints; aim to find at least one assumption you were mistaken about each week.",
+      "headline": "Joy of Being Wrong",
+      "body": "Being wrong only hurts when you tie your pride to being right.\nCatching a mistake is actually a free upgrade to your knowledge.\nSmart thinkers welcome corrections because they improve future choices.",
+      "quote": "Finding out you were wrong makes your future choices much stronger.",
+      "actionItem": "Find one mistaken belief you held this week and gladly update your mind.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -864,10 +863,10 @@ export const THINKING_IN_BETS_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The CUDOS Framework for Objective Inquiry",
-      "body": "Adapted from sociologist Robert K.\nMerton, scientific norms govern truth-seeking: Communalism (share all data), Universalism (apply uniform standards regardless of who presents the claim), Disinterestedness (neutrality toward outcomes), and Organized Skepticism (systematic questioning).",
-      "quote": "Universalism means that ideas and information should be evaluated based on their merit, not on who presented them.",
-      "actionItem": "Anonymize proposal reviews or critique ideas as if they came from your fiercest competitor before revealing the author.",
+      "headline": "Objective Idea Testing",
+      "body": "Judge an idea by its facts rather than who said it.\nShare all data openly and welcome honest questions from everyone.\nStaying neutral helps you find the truth faster.",
+      "quote": "Judge an idea by the facts, not by who said it.",
+      "actionItem": "Remove names from proposals so your team judges the ideas on merit alone.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -885,10 +884,10 @@ export const THINKING_IN_BETS_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Premortem: Anticipating Failure Before Launch",
-      "body": "While post-mortems analyze corpses after disaster strikes, a premortem investigates the project's simulated death before taking the first step.\nBy asking 'It is one year from now and this project failed miserably\u2014what happened?', you liberate team members from cheerleading conformity.",
-      "quote": "A premortem is an investigation into why a project failed before it even started.",
-      "actionItem": "Before signing off on any launch, spend 15 minutes drafting the 'obituary' of the project to identify hidden vulnerabilities.",
+      "headline": "The Failure Autopsy First",
+      "body": "Imagine your project failed before you even launch it.\nAsk what went wrong and trace the path to disaster.\nThis helps your team fix hidden dangers before they happen.",
+      "quote": "Imagine a project failed before starting so you can fix the flaws early.",
+      "actionItem": "Spend ten minutes writing down how your new plan could fail completely.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -906,10 +905,10 @@ export const THINKING_IN_BETS_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Backcasting: Engineering the Positive Path",
-      "body": "Backcasting complements the premortem by starting at a triumphant future and engineering the required timeline in reverse.\nInstead of looking forward into open-ended fog, stepping backward from guaranteed success illuminates the critical milestone dependencies that must occur.",
-      "quote": "Working backward from a goal makes the path to getting there clearer.",
-      "actionItem": "Map out a 6-month goal by detailing the state at month 6, month 5, month 3, and week 1 in precise reverse sequence.",
+      "headline": "Working Backward from Success",
+      "body": "Picture your goal already achieved in the distant future.\nWalk backward step by step to see how you reached it.\nThis reveals the exact milestones you need to hit today.",
+      "quote": "Working backward from a goal makes the path much easier to see.",
+      "actionItem": "Plan your six-month goal by writing the required steps in reverse order.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -927,10 +926,10 @@ export const THINKING_IN_BETS_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Ulysses Contracts: Binding Your Impulsive Future Self",
-      "body": "Ulysses had his crew tie him to the mast to survive the Sirens' deadly song.\nA Ulysses contract is a present-day agreement that handcuffs your future self when primal emotions, exhaustion, or cognitive panic threaten to override rational discipline.",
-      "quote": "Precommitting to a course of action helps our rational, long-term self hold sway over our impulsive, emotional self.",
-      "actionItem": "Establish an automated circuit breaker: write down mandatory stop-loss conditions or pause rules before entering volatile negotiations.",
+      "headline": "Binding Your Future Self",
+      "body": "Strong emotions often make you break your best rules.\nLock in strict decisions today to protect against future panic.\nA pre-set agreement keeps your cool head in control.",
+      "quote": "Deciding rules ahead of time protects you from your own emotional moments.",
+      "actionItem": "Set an automatic stop rule before you trade or enter a tough negotiation.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -948,10 +947,10 @@ export const THINKING_IN_BETS_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The 10-10-10 Temporal Zoom",
-      "body": "Intense emotions operate on immediate horizons, hijacking perspective.\nSuzy Welch's 10-10-10 rule restores cognitive equilibrium by asking: how will this decision look in 10 minutes, 10 months, and 10 years?\nExpanding the timeframe flattens short-term panic into systemic context.",
-      "quote": "Thinking in 10-minute, 10-month, and 10-year increments helps bring our future self into the room.",
-      "actionItem": "When paralyzed by a decision or embarrassment, journal the scenario from the vantage point of your self 10 months from now.",
+      "headline": "The Ten Ten Ten Rule",
+      "body": "Sudden panic makes problems look much bigger than they are.\nAsk how this choice feels in ten minutes, months, and years.\nStepping back in time calms your mind instantly.",
+      "quote": "Looking ahead to next year brings calm and clarity to your current choices.",
+      "actionItem": "When stressed over a choice, ask if it will matter in ten months.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -969,10 +968,10 @@ export const THINKING_IN_BETS_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Redefining Confidence as Calibration",
-      "body": "Traditional culture mistakes rigid certainty for leadership strength.\nTrue intellectual power lies in calibration\u2014accurately matching your subjective confidence to the objective strength of the available evidence.\nGenuine experts embrace nuance rather than false binary declarations.",
-      "quote": "What makes someone a good bettor is not knowing the future; it's being calibrated in the uncertainty.",
-      "actionItem": "Celebrate team members who say 'I don't know yet, but here is how we can quantify the odds' rather than rewarding hollow swagger.",
+      "headline": "Real Confidence Means Accuracy",
+      "body": "Loud confidence is not the same as being right.\nReal confidence matches your certainty to the actual facts you hold.\nTrue experts openly talk about what remains uncertain.",
+      "quote": "Great decision makers understand uncertainty instead of pretending to know the future.",
+      "actionItem": "Praise teammates who admit what they do not know instead of faking certainty.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -990,10 +989,10 @@ export const THINKING_IN_BETS_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Night-Vision Goggles of Ambiguity",
-      "body": "The world is fundamentally probabilistic, messy, and veiled in fog.\nPretending certainty exists is like stumbling through pitch blackness without assistance; learning to calculate expected values and think in bets acts as night-vision goggles, letting you navigate murky landscapes clearly.",
-      "quote": "The more we recognize that the world is uncertain, the better our decisions will be.",
-      "actionItem": "List three unprovable assumptions your current quarterly strategy depends upon, and design an experiment to test each.",
+      "headline": "Seeing Through the Fog",
+      "body": "The real world is messy and never offers guarantees.\nPretending life is certain is like walking blindfolded in the dark.\nThinking in bets helps you navigate tough risks with open eyes.",
+      "quote": "Accepting that life is uncertain helps you make much better choices.",
+      "actionItem": "Pick two assumptions in your plan and run quick tests to check them.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1011,10 +1010,10 @@ export const THINKING_IN_BETS_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Deploying Reconnaissance Bets",
-      "body": "When facing profound ambiguity, betting everything on a grand master plan invites ruin.\nInstead, deploy small, cheap exploratory bets to probe the feedback landscape, acquire actionable data, and reveal latent conditions before committing substantial capital or reputation.",
-      "quote": "Treating decisions as bets forces us to be honest about what we know and what we don't know.",
-      "actionItem": "Break high-stakes commitments into small test experiments that provide cheap real-world signals within seven days.",
+      "headline": "Small Test Bets",
+      "body": "Betting everything on one giant guess can ruin you.\nPlace small, cheap bets first to test the waters safely.\nLearn from quick feedback before committing all your time or cash.",
+      "quote": "Small bets help us test our ideas before risking big money or time.",
+      "actionItem": "Break your large risky project into a simple test you finish this week.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1032,10 +1031,10 @@ export const THINKING_IN_BETS_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Tilt: The Cascade of Emotional Derailment",
-      "body": "In poker terminology, 'tilt' occurs when an unlucky beat or frustration pushes a player into irrational aggression and compounding mistakes.\nIn business and daily life, tilt triggers cognitive tunnel vision, causing decision-makers to double down on failing bets simply to erase short-term psychological pain.",
-      "quote": "Being on tilt is when an emotional reaction causes us to make bad decisions.",
-      "actionItem": "Define your physiological signs of tilt (tight shoulders, accelerated pulse), and enforce a mandatory 30-minute cooldown rule before responding.",
+      "headline": "Spotting Emotional Tilt",
+      "body": "In poker, tilt happens when bad luck makes a player furious.\nFrustrated people make reckless choices to win back their losses fast.\nRecognizing your anger stops you from making costly blunders.",
+      "quote": "Strong emotions push us to make rushed and foolish decisions.",
+      "actionItem": "Notice when your body tenses up and take a mandatory thirty-minute walk.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1053,10 +1052,10 @@ export const THINKING_IN_BETS_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Dignity of Process Over Payoff",
-      "body": "In an uncertain universe, the highest standard of excellence is not a spotless streak of wins, but an unyielding commitment to disciplined, probabilistic process.\nWhen process reigns supreme, luck cannot break your spirit, nor can fluke victories lure you into complacency.",
-      "quote": "A great decision is the result of a good process, and that process must include an attempt to accurately represent the world.",
-      "actionItem": "Grade your team's weekly performance based on adherence to rigorous decision frameworks rather than short-term scorecard fluctuations.",
+      "headline": "Trust the Decision Process",
+      "body": "Focus on making sound choices rather than just chasing quick wins.\nBad luck can hurt a great choice, but disciplined habits win long-term.\nStay calm and stick to your clear rules.",
+      "quote": "A great decision comes from a careful process, not just a lucky result.",
+      "actionItem": "Reward your team for following sound logic even when bad luck hits.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1074,10 +1073,10 @@ export const THINKING_IN_BETS_BOOK: Book = {
       "author": "Annie Duke",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Scenario Tree Mapping",
-      "body": "A single forecasted future is an illusion.\nThinking in bets requires branching reality into a tree of potential futures, assigning estimated probabilities and consequences to each pathway.\nThis transforms strategy from passive hope into systemic preparation across all realistic branches.",
-      "quote": "We make better decisions when we think about the future as a tree with many branches.",
-      "actionItem": "Map out your next strategic move by drawing three distinct branches: expected case (60%), upside explosion (15%), and downside shock (25%).",
+      "headline": "Branching Future Paths",
+      "body": "The future is never a single straight road ahead.\nPicture the future as a tree branching into several possible paths.\nAssigning rough odds to each branch keeps you prepared for anything.",
+      "quote": "We make better choices when we see the future as many possible branches.",
+      "actionItem": "Draw three possible outcomes for your next move: good, normal, and worst case.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1091,45 +1090,49 @@ export const THINKING_IN_BETS_BOOK: Book = {
   ],
   "mindMap": {
     "id": "root",
-    "label": "Thinking in Bets: Making Smarter Decisions Under Uncertainty",
-    "description": "Life is poker, not chess: our world is governed by incomplete information and hidden probabilities rather than orderly rules.\nBy embracing uncertainty as a fundamental law of reality, we can untangle decision quality from pure luck and navigate the future with scientific clarity.",
+    "label": "Thinking in Bets",
+    "description": "Life is like poker, not chess.\nGood decisions can still have bad results due to luck.",
     "children": [
       {
         "id": "life-as-poker",
-        "label": "Life as Poker: The Mechanics of Uncertainty",
-        "description": "Most human decisions unfold under conditions of partial blindness, where unseen variables and chaotic chance shape outcomes.\nViewing life through the lens of poker reveals that certainty is an illusion engineered by our narrative-craving minds.",
+        "label": "Life as Poker",
+        "description": "We never have all the facts when making choices.\nLuck and hidden details always affect what happens.",
         "children": [
           {
             "id": "chess-vs-poker",
-            "label": "Chess vs. Poker Paradigm",
-            "description": "Chess contains perfect information where every piece is visible and deterministic skill guarantees victory if calculated correctly.\nPoker mirrors actual existence, blending hidden cards, shifting odds, and unpredictable randomness that can punish brilliant decisions or reward blunders.",
+            "label": "Chess Versus Poker",
+            "description": "Chess has no hidden pieces and no luck.\nPoker has hidden cards and random chance, just like real life.",
             "children": [
               {
                 "id": "perfect-information-myth",
-                "label": "The Perfect Information Fallacy",
-                "description": "We instinctively pretend we operate on a deterministic chessboard with full visibility of every rule and outcome.\nPeeling back this cognitive illusion reveals that real-world problems are riddled with fog, stochastic drift, and concealed variables."
+                "label": "The Perfect Info Myth",
+                "description": "You can never know everything before you decide.\nSurprises and missing facts are always part of life.",
+                "children": []
               },
               {
                 "id": "role-of-luck",
-                "label": "The Hidden Variable of Luck",
-                "description": "Luck is the chaotic wedge inserted between your decision and its final outcome that no amount of analysis can completely neutralize.\nRecognizing luck frees us from unwarranted arrogance when events swing our way and needless despair when they collapse."
+                "label": "The Role of Luck",
+                "description": "Luck sits between your choice and your result.\nA great move can still lose if luck is against you.",
+                "children": []
               }
             ]
           },
           {
             "id": "all-decisions-are-bets",
-            "label": "Decisions as Financial & Existential Bets",
-            "description": "Every choice to act, pause, invest, or choose a partner is an explicit wager of scarce resources against multiple alternate futures.\nWhenever we commit time or capital, we are betting against all the unchosen paths we leave behind.",
+            "label": "Decisions Are Bets",
+            "description": "Every choice is a bet on a possible future.\nYou risk time, money, or effort whenever you choose.",
             "children": [
               {
                 "id": "opportunity-cost-wagers",
-                "label": "Opportunity Cost as Table Stakes",
-                "description": "Every choice demands a stake paid in time, money, mental bandwidth, and discarded alternative lives.\nBy quantifying what we forgo, we see the hidden price tag attached to passive hesitation and active choices alike."
+                "label": "The Hidden Costs",
+                "description": "Picking one thing means giving up other good options.\nEven doing nothing is a costly bet.",
+                "children": []
               },
               {
                 "id": "probabilistic-futures",
-                "label": "The Multiverse of Branching Futures",
-                "description": "The future is never a single preordained track, but a probabilistic tree of potential branches waiting to collapse into history.\nA bet is a calculated stake placed on the most promising branches of this quantum-like decision tree."
+                "label": "Many Possible Futures",
+                "description": "The future can unfold in many different ways.\nA good bet backs the path with the best odds.",
+                "children": []
               }
             ]
           }
@@ -1137,40 +1140,44 @@ export const THINKING_IN_BETS_BOOK: Book = {
       },
       {
         "id": "resulting-and-hindsight",
-        "label": "Resulting: The Toxic Mirage of Hindsight",
-        "description": "Our brains are wired as sense-making pattern engines that desperately connect outcomes backward to decision quality.\nThis cognitive shortcut blinds us to probability, making us mistake fortunate gambles for genius and sound strategies for failure.",
+        "label": "Resulting and Hindsight",
+        "description": "We wrongly judge a choice only by its outcome.\nA bad result does not always mean a bad decision.",
         "children": [
           {
             "id": "definition-of-resulting",
-            "label": "The Mechanics of 'Resulting'",
-            "description": "Resulting occurs when we grade the wisdom of a decision solely by whether the immediate outcome was favorable or catastrophic.\nIt is the mental trap of treating a single roll of the dice as an indictment of the player's underlying arithmetic.",
+            "label": "The Resulting Trap",
+            "description": "Resulting means judging a choice only by what happened.\nIt mistakes good luck for smart thinking.",
             "children": [
               {
                 "id": "pete-carroll-superbowl",
-                "label": "The Super Bowl XLIX Anatomy",
-                "description": "When Pete Carroll called a goal-line pass that resulted in an interception, commentators overwhelmingly branded it the worst play-call in football history.\nA rigorous analysis shows the statistical interception rate was under two percent, exposing how a rare fluke hijacked the evaluation of sound game theory."
+                "label": "The Super Bowl Pass",
+                "description": "A coach called a smart pass play that was intercepted.\nPeople called it stupid just because it ended badly.",
+                "children": []
               },
               {
                 "id": "drunk-driver-paradox",
-                "label": "The Drunk Driver Thought Experiment",
-                "description": "A driver who navigates home completely intoxicated without hitting a pedestrian did not make a brilliant driving decision.\nCelebrating survival as validation confuses reckless variance with repeatable process, poisoning our feedback loops."
+                "label": "The Drunk Driver",
+                "description": "A drunk driver who gets home safely is still foolish.\nSurviving does not make a reckless choice smart.",
+                "children": []
               }
             ]
           },
           {
             "id": "hindsight-bias-engine",
-            "label": "Hindsight Bias & Inevitability Creep",
-            "description": "Once an event materializes, our memory rewires itself to convince us that the outcome was inevitable and predictable all along.\nThis historical smoothing erases the cloud of genuine possibilities that existed right before the coin was tossed.",
+            "label": "Hindsight Bias",
+            "description": "After things happen, we pretend we knew it all along.\nThis makes the past look far more predictable than it was.",
             "children": [
               {
                 "id": "rewriting-the-tape",
-                "label": "Retroactive Narrative Construction",
-                "description": "The brain behaves like an overzealous historian, retroactively stitching disconnected clues into a tidy, causal plotline.\nIn doing so, it strips out the terrifying, messy role that random turbulence played in the final outcome."
+                "label": "Rewriting the Past",
+                "description": "Our brains make up neat stories to explain what happened.\nThis hides the big role random chance played.",
+                "children": []
               },
               {
                 "id": "outcome-overfitting",
-                "label": "Overfitting to Outliers",
-                "description": "Adjusting our entire life strategy in panic after a single bad outcome is the intellectual equivalent of mistaking weather for climate.\nOverfitting to recent anomalies destroys the long-term compounding power of robust probabilistic systems."
+                "label": "Overreacting to Bad Luck",
+                "description": "Do not ditch a good plan after one bad result.\nOne unlucky day does not mean the system is broken.",
+                "children": []
               }
             ]
           }
@@ -1178,40 +1185,44 @@ export const THINKING_IN_BETS_BOOK: Book = {
       },
       {
         "id": "belief-formation",
-        "label": "Belief Architecture: The Bugs in Human Perception",
-        "description": "We imagine ourselves as objective data processors who weigh evidence before forming sacred opinions, but evolutionary biology reveals the exact opposite.\nWe believe first on visceral impulse, then deploy our powerful intellect merely to defend those reflexive instincts.",
+        "label": "How We Form Beliefs",
+        "description": "We believe things quickly without checking the facts.\nThen we use our brains to defend those quick beliefs.",
         "children": [
           {
             "id": "evolutionary-belief-wiring",
-            "label": "The Flawed 3-Step Belief Assembly",
-            "description": "Humans naturally hear information, instantly believe it to be gospel, and only much later\u2014if forced by friction\u2014audit its factual validity.\nThis survival adaptation favored swift reaction over philosophical doubt when rustling bushes could signify an ambush.",
+            "label": "Fast Belief Wiring",
+            "description": "We naturally believe what we hear right away.\nWe only check if it is true if we are forced to.",
             "children": [
               {
                 "id": "rustle-in-grass",
-                "label": "The Paleolithic False Positive Trap",
-                "description": "Assuming every sound in the savanna is a hungry predator keeps an early human alive, whereas pausing to run statistical verification leads to death.\nWe inherited brains heavily biased toward credulous belief rather than cautious, empirical suspension of judgment."
+                "label": "The Safety Trap",
+                "description": "Early humans survived by assuming every noise was danger.\nWe are wired to jump to conclusions for safety.",
+                "children": []
               },
               {
                 "id": "truth-default",
-                "label": "The Automatic Truth-Default Reflex",
-                "description": "Cognitive science demonstrates that comprehending an idea and believing it occur simultaneously in brain architecture.\nDisbelieving requires a secondary, calorically demanding metabolic step that our lazy cognitive hardware constantly tries to skip."
+                "label": "Believing by Default",
+                "description": "To understand an idea, your brain first accepts it as true.\nDoubting takes extra effort and mental energy.",
+                "children": []
               }
             ]
           },
           {
             "id": "motivated-reasoning",
-            "label": "Motivated Reasoning & Smartness as a Shield",
-            "description": "Higher intelligence does not cure bias; surprisingly, it often arms the mind with sophisticated rhetoric to rationalize pre-existing prejudices.\nWe weaponize analytical agility to protect our delicate identity from inconvenient, recalcitrant truths.",
+            "label": "Defending Our Views",
+            "description": "Being smart does not stop bias.\nSmart people just find clever ways to defend their own opinions.",
             "children": [
               {
                 "id": "iq-blindspot",
-                "label": "The Intelligence Paradox",
-                "description": "Smarts make people remarkably adept at spotting cognitive fallacies in others while remaining blind to their own systemic errors.\nHighly analytical thinkers build more intricate, unassailable fortresses around their personal ideological delusions."
+                "label": "The Smartness Blindspot",
+                "description": "Smart people spot mistakes in others but miss their own.\nThey build clever excuses for their own blind spots.",
+                "children": []
               },
               {
                 "id": "disconfirmation-bias",
-                "label": "Asymmetric Scrutiny & Disconfirmation",
-                "description": "We subject conflicting observations to brutal microscopic interrogation while greeting confirmatory evidence with open, uncritical arms.\nThis asymmetric filter systematically warps our internal map of objective territory over time."
+                "label": "Unfair Proof Checking",
+                "description": "We attack facts that disagree with our views.\nMeanwhile, we accept ideas we like without checking.",
+                "children": []
               }
             ]
           }
@@ -1219,40 +1230,44 @@ export const THINKING_IN_BETS_BOOK: Book = {
       },
       {
         "id": "wanna-bet",
-        "label": "'Wanna Bet?': The Power of Probabilistic Calibration",
-        "description": "The sudden challenge of a monetary wager violently halts unexamined bluster and forces instant epistemic accountability.\nQuantifying our convictions as probabilities transforms rigid, ideological warfare into collaborative, scientific truth-seeking.",
+        "label": "Wanna Bet?",
+        "description": "Asking 'wanna bet?' makes people check their facts.\nIt turns loud arguments into honest, careful thinking.",
         "children": [
           {
             "id": "skin-in-the-game",
-            "label": "Stakes as Epistemic Truth Serum",
-            "description": "Uttering 'Wanna bet?' immediately activates metabolic consequence, shifting thinking from loose opinion-signaling to objective auditing.\nRisking reputational or financial chips forces us to scrutinize the hidden evidentiary foundations of our bold claims.",
+            "label": "Skin in the Game",
+            "description": "Putting money on an opinion makes you rethink it quickly.\nRisking a loss forces you to seek the real truth.",
             "children": [
               {
                 "id": "risk-recalibration",
-                "label": "The Friction of Tangible Loss",
-                "description": "When an intellectual loss carries a concrete cost, intellectual vanity yields to dispassionate calculation.\nWe suddenly demand to inspect the pedigree of our facts before declaring them immutable universal truths."
+                "label": "The Cost of Being Wrong",
+                "description": "When being wrong hurts, we stop bragging.\nWe check our facts before making bold claims.",
+                "children": []
               },
               {
                 "id": "social-bluster-taming",
-                "label": "Neutralizing Conversational Dogma",
-                "description": "Unfounded assertions dissolve when the speaker is invited to back up their certitude with skin in the game.\nIt acts as an instant conversational circuit breaker against dogmatic noise and bluster."
+                "label": "Stopping Loud Claims",
+                "description": "People quiet down when asked to back words with money.\nIt quickly stops stubborn boasting.",
+                "children": []
               }
             ]
           },
           {
             "id": "calibrated-confidence",
-            "label": "Replacing Binary Certainty with Grayscale Percentages",
-            "description": "Replacing declarative statements of absolute truth with confidence percentages\u2014such as 'I'm sixty-five percent sure'\u2014aligns thinking with reality.\nCommunicating in explicit degrees of confidence preserves credibility when an outcome defies the favorite odds.",
+            "label": "Using Percentages",
+            "description": "Stop saying you are 100% sure.\nShare a percentage instead, like being sixty percent sure.",
             "children": [
               {
                 "id": "grayscale-thinking",
-                "label": "Living in the Grayscale Spectrum",
-                "description": "Reality operates on continuous, shifting gradients rather than crisp black-and-white switches.\nViewing propositions as confidence intervals between zero and one hundred percent protects against binary overconfidence."
+                "label": "Shades of Gray",
+                "description": "Life is rarely just black and white.\nThink in degrees of confidence, not total certainty.",
+                "children": []
               },
               {
                 "id": "updating-vs-losing",
-                "label": "Updating Priors vs. Being Proven Wrong",
-                "description": "In a binary world, changing your mind feels like humiliating public defeat and personal failure.\nIn a Bayesian world, updating your probability estimate in response to fresh telemetry is the ultimate hallmark of intellectual integrity."
+                "label": "Updating Your Mind",
+                "description": "Changing your mind with new facts is not losing.\nIt is the smartest way to learn and grow.",
+                "children": []
               }
             ]
           }
@@ -1260,40 +1275,44 @@ export const THINKING_IN_BETS_BOOK: Book = {
       },
       {
         "id": "learning-feedback",
-        "label": "Deconstructing the Outcome: The Learning Engine",
-        "description": "Experience alone does not produce wisdom; only deliberate, unbiased post-mortem deconstruction converts raw time into expertise.\nTo learn efficiently, we must accurately untangle which share of an outcome belongs to our choices versus random variance.",
+        "label": "Learning from Outcomes",
+        "description": "Living through events does not make you wise.\nYou must honestly separate your skill from pure luck.",
         "children": [
           {
             "id": "self-serving-bias",
-            "label": "Dismantling the Self-Serving Attribution Trap",
-            "description": "The default human ego reflex takes full credit for glorious successes while blaming external bad luck for bitter failures.\nThis self-serving shield shields self-esteem in the short run while systematically stunting learning and adaptive growth.",
+            "label": "The Ego Trap",
+            "description": "We take credit when good things happen.\nWe blame bad luck whenever things go wrong.",
             "children": [
               {
                 "id": "ego-credit-allocation",
-                "label": "Asymmetric Attribution Mechanics",
-                "description": "We mentally assign our victories to internal genius and foresight while attributing our rivals' triumphs to lucky breaks and favorable tailwinds.\nBreaking this habit requires adopting an emotionally neutral, experimental posture toward our own lives."
+                "label": "Credit and Blame",
+                "description": "We call our wins smart and rivals' wins lucky.\nBe honest about both to actually learn.",
+                "children": []
               },
               {
                 "id": "schadenfreude-auditing",
-                "label": "The Zero-Sum Ego Trap",
-                "description": "Gloating over competitors' missteps while defensively explaining away our own blunders is an intellectual dead end.\nEscaping this dynamic requires deriving self-worth from process accuracy rather than shallow scoreboard comparisons."
+                "label": "Judging Others Unfairly",
+                "description": "Cheering at others' mistakes hurts your own growth.\nFocus on your own decision process instead.",
+                "children": []
               }
             ]
           },
           {
             "id": "truthseeking-pods",
-            "label": "The Architecture of Truth-Seeking Charters",
-            "description": "Solo self-interrogation is difficult because our blind spots are hidden behind our own cognitive eyes.\nBuilding a dedicated accountability group governed by strict norms of radical candor and scientific skepticism transforms decision hygiene.",
+            "label": "Truth-Seeking Buddies",
+            "description": "You cannot easily see your own blind spots.\nA trusted group helps you stay honest and clear-headed.",
             "children": [
               {
                 "id": "mertonian-norms",
-                "label": "CUDOS: Mertonian Scientific Norms",
-                "description": "Borrowing sociologist Robert Merton's scientific principles\u2014Communalism, Universalism, Disinterestedness, and Organized Skepticism\u2014keeps groups focused on objective reality.\nThese foundational rules insulate collaborative thinking from political sycophancy."
+                "label": "Rules for Truth",
+                "description": "Good groups value facts over hurt feelings.\nThey share data openly and question all claims.",
+                "children": []
               },
               {
                 "id": "red-teaming-dissent",
-                "label": "Institutionalized Red Teaming & Dissent",
-                "description": "Assigning designated contrarians to dismantle our favorite theses prevents consensual groupthink from masquerading as alignment.\nWelcoming dissenting scrutiny before placing our bets saves catastrophic capital down the road."
+                "label": "Encouraging Dissent",
+                "description": "Ask someone to challenge your favorite ideas.\nFinding flaws early saves you from big failures.",
+                "children": []
               }
             ]
           }
@@ -1301,45 +1320,50 @@ export const THINKING_IN_BETS_BOOK: Book = {
       },
       {
         "id": "temporal-mental-time-travel",
-        "label": "Temporal Engineering: Mental Time Travel & Regret Inoculation",
-        "description": "Our present-moment brain is frequently hijacked by emotional reactivity, short-term hedonism, and irrational panic.\nEnlisting our past and future selves through calculated mental time travel restores strategic balance and dampens knee-jerk impulses.",
+        "label": "Mental Time Travel",
+        "description": "Strong emotions make us make short-sighted choices.\nPicture your future self to make calmer decisions.",
         "children": [
           {
             "id": "10-10-10-rule",
-            "label": "The 10-10-10 Temporal Zoom-Out",
-            "description": "Pausing during acute stress to evaluate how a choice will make you feel in ten minutes, ten months, and ten years breaks the grip of instant panic.\nThis temporal zoom-out shrinks immediate discomfort down to its proper historical insignificance.",
+            "label": "The 10-10-10 Rule",
+            "description": "Ask how you will feel in ten minutes, months, and years.\nThis quickly calms down present panic.",
             "children": [
               {
                 "id": "emotional-tilt-interruption",
-                "label": "Interrupting Emotional Tilt",
-                "description": "In high-stakes arenas, experiencing bad beats often triggers 'tilt'\u2014an erratic, emotionally deregulated operational state that multiplies mistakes.\nProjecting forward into the distant horizon resets our nervous system before we burn down our bankroll."
+                "label": "Cooling Down Tilt",
+                "description": "Bad luck can make you angry and reckless.\nTake a breath and step back before making bad bets.",
+                "children": []
               },
               {
                 "id": "night-guy-morning-guy",
-                "label": "Reconciling the Internal Avatars",
-                "description": "Present-You frequently leaves toxic debt and messy cleanup for Future-You to suffer through, treating that later self like an unrelated stranger.\nBuilding empathic bridges between current and future incarnations breeds discipline and responsible stewardship."
+                "label": "Helping Future You",
+                "description": "Do not leave hard messes for future you to clean up.\nTreat your future self like a good friend.",
+                "children": []
               }
             ]
           },
           {
             "id": "probabilistic-forecasting-tools",
-            "label": "Backcasting, Pre-Mortems, and Tripwires",
-            "description": "Instead of waiting for reality to crush us, we can preemptively imagine catastrophe and plan backward from the wreckage.\nVisualizing potential shipwrecks before departing port lets us identify hidden leaks, reinforce bulkheads, and lay down safety tripwires.",
+            "label": "Planning for Trouble",
+            "description": "Do not wait for disaster to hit you.\nImagine problems now so you can prevent them.",
             "children": [
               {
                 "id": "backcasting-success",
-                "label": "Backcasting from the Positive Horizon",
-                "description": "Start by assuming complete, spectacular success has already occurred, then reconstruct each necessary milestone backward to the present day.\nThis inverted visualization reveals the mandatory sequential dependencies needed to reach the desired state."
+                "label": "Working Backward",
+                "description": "Picture your goal as already achieved.\nThen map each step backward to where you are today.",
+                "children": []
               },
               {
                 "id": "pre-mortem-recon",
-                "label": "The Pre-Mortem: Visualizing Failure",
-                "description": "Assume your project has collapsed into utter ruin six months from now, and challenge your team to explain exactly what killed it.\nGiving social permission to voice uncomfortable vulnerabilities uncovers critical fatal flaws before resources are spent."
+                "label": "The Pre-Mortem",
+                "description": "Imagine your project failed completely six months from now.\nAsk what went wrong so you can fix it today.",
+                "children": []
               },
               {
                 "id": "tripwires-and-ulysses-contracts",
-                "label": "Decision Tripwires & Ulysses Contracts",
-                "description": "Pre-commit to concrete, objective boundary lines\u2014like automatic stop-loss orders\u2014that trigger decisions without emotional debate.\nThese automated tripwires bind our hands like Ulysses to the mast, protecting us from irrational panics when storms strike."
+                "label": "Setting Tripwires",
+                "description": "Set clear warning rules before trouble starts.\nThese rules stop you from panicking in the heat of the moment.",
+                "children": []
               }
             ]
           }

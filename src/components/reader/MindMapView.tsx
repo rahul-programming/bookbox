@@ -427,8 +427,11 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
   };
 
   useEffect(() => {
-    centerView();
-  }, [layoutMode]);
+    const timer = setTimeout(() => {
+      centerView();
+    }, 60);
+    return () => clearTimeout(timer);
+  }, [layoutMode, isFullscreen]);
 
   // Mouse Pan Handlers
   const handleMouseDown = (e: React.MouseEvent) => {
@@ -579,42 +582,43 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
   return (
     <div className={`${
       isFullscreen 
-        ? 'fixed inset-0 z-50 bg-white dark:bg-slate-900 flex flex-col p-3 sm:p-4' 
+        ? 'fixed inset-0 z-50 bg-[#0b101b] w-full h-[100dvh] flex flex-col p-0 m-0 overflow-hidden select-none' 
         : 'max-w-7xl mx-auto pt-6 sm:pt-8 pb-16 space-y-4 w-full max-w-full overflow-x-hidden'
     }`}>
       
-      {/* Top Controls Toolbar - Compact & Left-Aligned */}
-      <div className={`scroll-mt-44 p-2 sm:p-2.5 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-xs flex flex-wrap items-center justify-start gap-2 sm:gap-3 mt-3 sm:mt-4 ${isFullscreen ? 'shrink-0' : ''}`}>
-        
-        {/* Search in map */}
-        <div className="relative">
-          <Search className="w-3.5 h-3.5 text-slate-400 absolute left-2.5 top-2.5 pointer-events-none" />
-          <input
-            type="text"
-            placeholder="Search concepts..."
-            value={searchQuery}
-            onChange={e => setSearchQuery(e.target.value)}
-            onKeyDown={(e) => {
-              if (e.key === 'Escape') setSearchQuery('');
-            }}
-            className="pl-8 pr-8 py-1.5 text-xs rounded-xl bg-slate-100 dark:bg-slate-700/60 border border-transparent focus:border-blue-500 focus:bg-white dark:focus:bg-slate-800 text-slate-800 dark:text-slate-200 outline-none transition w-36 sm:w-44"
-          />
-          {searchQuery && (
-            <button
-              type="button"
-              onMouseDown={(e) => {
-                e.preventDefault();
-                setSearchQuery('');
+      {/* Top Controls Toolbar - Hidden completely in Fullscreen Mode */}
+      {!isFullscreen && (
+        <div className="scroll-mt-44 p-2 sm:p-2.5 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-xs flex flex-wrap items-center justify-start gap-2 sm:gap-3 mt-3 sm:mt-4">
+          
+          {/* Search in map */}
+          <div className="relative">
+            <Search className="w-3.5 h-3.5 text-slate-400 absolute left-2.5 top-2.5 pointer-events-none" />
+            <input
+              type="text"
+              placeholder="Search concepts..."
+              value={searchQuery}
+              onChange={e => setSearchQuery(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === 'Escape') setSearchQuery('');
               }}
-              onClick={() => setSearchQuery('')}
-              className="absolute right-1.5 top-1/2 -translate-y-1/2 w-4.5 h-4.5 flex items-center justify-center rounded-full bg-slate-200/90 hover:bg-slate-300 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-600 dark:text-slate-200 hover:text-slate-900 dark:hover:text-white shadow-xs transition-all cursor-pointer z-10"
-              title="Clear search"
-              aria-label="Clear search"
-            >
-              <X className="w-2.5 h-2.5 stroke-[2.5]" />
-            </button>
-          )}
-        </div>
+              className="pl-8 pr-8 py-1.5 text-xs rounded-xl bg-slate-100 dark:bg-slate-700/60 border border-transparent focus:border-blue-500 focus:bg-white dark:focus:bg-slate-800 text-slate-800 dark:text-slate-200 outline-none transition w-36 sm:w-44"
+            />
+            {searchQuery && (
+              <button
+                type="button"
+                onMouseDown={(e) => {
+                  e.preventDefault();
+                  setSearchQuery('');
+                }}
+                onClick={() => setSearchQuery('')}
+                className="absolute right-1.5 top-1/2 -translate-y-1/2 w-4.5 h-4.5 flex items-center justify-center rounded-full bg-slate-200/90 hover:bg-slate-300 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-600 dark:text-slate-200 hover:text-slate-900 dark:hover:text-white shadow-xs transition-all cursor-pointer z-10"
+                title="Clear search"
+                aria-label="Clear search"
+              >
+                <X className="w-2.5 h-2.5 stroke-[2.5]" />
+              </button>
+            )}
+          </div>
 
           {/* Layout Mode Switcher */}
           <div className="flex items-center p-0.5 rounded-xl bg-slate-100 dark:bg-slate-700/60 text-xs font-medium">
@@ -668,63 +672,24 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
             </button>
           </div>
 
-          {/* Zoom Buttons */}
-          <div className="flex items-center space-x-1 border-l border-slate-200 dark:border-slate-700 pl-2">
-            <button
-              onClick={() => handleZoom(-0.15)}
-              className="p-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition"
-              title="Zoom Out"
-            >
-              <ZoomOut className="w-4 h-4" />
-            </button>
-            <span className="text-xs font-mono font-medium text-slate-500 w-11 text-center">
-              {Math.round(zoom * 100)}%
-            </span>
-            <button
-              onClick={() => handleZoom(0.15)}
-              className="p-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition"
-              title="Zoom In"
-            >
-              <ZoomIn className="w-4 h-4" />
-            </button>
-            <button
-              onClick={centerView}
-              className="p-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition"
-              title="Center Mind Map"
-            >
-              <RotateCcw className="w-3.5 h-3.5" />
-            </button>
-            <button
-              onClick={() => {
-                const branches = book.mindMap.children ? book.mindMap.children.map(c => c.label).join(', ') : '';
-                onStartAudio(`${book.title} Concept Map`, `${book.title} concept architecture. ${book.mindMap.description || ''}. Primary branches: ${branches}.`);
-              }}
-              className="p-1.5 rounded-lg text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-950/60 transition flex items-center space-x-1 border border-blue-200/80 dark:border-blue-900/60"
-              title="Listen to Mind Map Overview"
-            >
-              <Volume2 className="w-3.5 h-3.5" />
-              <span className="text-xs font-semibold hidden sm:inline">Listen Map</span>
-            </button>
-            <button
-              onClick={toggleFullscreen}
-              className="p-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition border border-slate-200/80 dark:border-slate-700 flex items-center space-x-1"
-              title={isFullscreen ? 'Exit Fullscreen (Esc)' : 'Fullscreen Mind Map'}
-            >
-              {isFullscreen ? (
-                <Minimize2 className="w-3.5 h-3.5" />
-              ) : (
-                <Maximize2 className="w-3.5 h-3.5" />
-              )}
-              <span className="text-xs font-semibold hidden sm:inline">
-                {isFullscreen ? 'Exit' : 'Fullscreen'}
-              </span>
-            </button>
-          </div>
+          {/* Audio Overview Trigger */}
+          <button
+            onClick={() => {
+              const branches = book.mindMap.children ? book.mindMap.children.map(c => c.label).join(', ') : '';
+              onStartAudio(`${book.title} Concept Map`, `${book.title} concept architecture. ${book.mindMap.description || ''}. Primary branches: ${branches}.`);
+            }}
+            className="p-1.5 rounded-lg text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-950/60 transition flex items-center space-x-1 border border-blue-200/80 dark:border-blue-900/60"
+            title="Listen to Mind Map Overview"
+          >
+            <Volume2 className="w-3.5 h-3.5" />
+            <span className="text-xs font-semibold hidden sm:inline">Listen Map</span>
+          </button>
 
-      </div>
+        </div>
+      )}
 
       {/* Main Canvas & Inspector Layout */}
-      <div className={`grid grid-cols-1 lg:grid-cols-4 gap-4 ${isFullscreen ? 'flex-1 min-h-0' : ''}`}>
+      <div className={`${isFullscreen ? 'w-full h-full flex-1 min-h-0' : 'grid grid-cols-1 lg:grid-cols-4 gap-4'}`}>
         
         {/* Interactive Infinite SVG Canvas */}
         <div 
@@ -737,9 +702,11 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
           onTouchMove={handleTouchMove}
           onTouchEnd={handleTouchEnd}
           onTouchCancel={handleTouchEnd}
-          className={`lg:col-span-3 rounded-2xl border border-slate-200 dark:border-slate-700 bg-slate-50/60 dark:bg-[#0b101b] relative overflow-hidden shadow-inner select-none ${
-            isFullscreen ? 'h-full' : 'h-[600px] sm:h-[680px]'
-          } ${
+          className={`${
+            isFullscreen 
+              ? 'w-full h-full rounded-none border-0' 
+              : 'lg:col-span-3 rounded-2xl border border-slate-200 dark:border-slate-700 h-[600px] sm:h-[680px]'
+          } bg-slate-50/60 dark:bg-[#0b101b] relative overflow-hidden shadow-inner select-none ${
             isDragging ? 'cursor-grabbing' : 'cursor-grab'
           }`}
           style={{
@@ -748,7 +715,55 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
             touchAction: 'none'
           }}
         >
-          {/* Draggable & Scalable World Container */}
+          {/* Floating Controls Inside Map Canvas (Maximize / Minimize, Zoom, Center) */}
+          <div className="absolute top-3 right-3 z-30 flex items-center space-x-1 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md p-1 sm:p-1.5 rounded-xl border border-slate-200/80 dark:border-slate-700/80 shadow-md">
+            <button
+              onClick={() => handleZoom(-0.15)}
+              className="p-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition cursor-pointer"
+              title="Zoom Out"
+              aria-label="Zoom Out"
+            >
+              <ZoomOut className="w-4 h-4" />
+            </button>
+            <span className="text-[11px] font-mono font-medium text-slate-500 w-9 text-center hidden sm:inline-block">
+              {Math.round(zoom * 100)}%
+            </span>
+            <button
+              onClick={centerView}
+              className="p-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition cursor-pointer"
+              title="Reset / Center View"
+              aria-label="Reset View"
+            >
+              <RotateCcw className="w-3.5 h-3.5" />
+            </button>
+            <button
+              onClick={() => handleZoom(0.15)}
+              className="p-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition cursor-pointer"
+              title="Zoom In"
+              aria-label="Zoom In"
+            >
+              <ZoomIn className="w-4 h-4" />
+            </button>
+            <button
+              onClick={toggleFullscreen}
+              className={`p-1.5 rounded-lg transition shadow-2xs flex items-center space-x-1 cursor-pointer ${
+                isFullscreen
+                  ? 'bg-amber-500 hover:bg-amber-600 text-white'
+                  : 'bg-blue-600 hover:bg-blue-500 text-white'
+              }`}
+              title={isFullscreen ? 'Exit Fullscreen (Esc)' : 'Fullscreen Mind Map'}
+              aria-label={isFullscreen ? 'Exit Fullscreen' : 'Fullscreen Mind Map'}
+            >
+              {isFullscreen ? (
+                <Minimize2 className="w-4 h-4" />
+              ) : (
+                <Maximize2 className="w-4 h-4" />
+              )}
+              <span className="text-xs font-semibold px-0.5">
+                {isFullscreen ? 'Exit' : 'Full'}
+              </span>
+            </button>
+          </div>
           <div
             className="absolute origin-center transition-transform duration-75"
             style={{
@@ -948,108 +963,110 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
 
         </div>
 
-        {/* Selected Node Detailed Inspector */}
-        <div className="lg:col-span-1">
-          <div className="sticky top-20 p-5 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-xs space-y-4">
-            
-            <div className="flex items-center justify-between pb-3 border-b border-slate-100 dark:border-slate-700/60">
-              <div className="flex items-center space-x-2 text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
-                <Info className="w-4 h-4" />
-                <span>Concept Inspector</span>
-              </div>
-              <span className="text-[10px] px-2 py-0.5 rounded-full bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 font-semibold">
-                {activeNode.id === book.mindMap.id ? 'Root' : 'Concept'}
-              </span>
-            </div>
-
-            <div>
-              <h4 className="text-lg font-bold text-slate-900 dark:text-slate-100 leading-snug">
-                {activeNode.label}
-              </h4>
-              <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
-                From {book.title} by {book.author}
-              </p>
-            </div>
-
-            <div className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200/80 dark:border-slate-800 text-xs text-slate-700 dark:text-slate-300 leading-relaxed font-serif">
-              {activeNode.description ? (
-                <div className="space-y-1.5">
-                  {(activeNode.description.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (
-                    <span key={idx} className="block leading-relaxed">
-                      {sentence}
-                    </span>
-                  ))}
+        {/* Selected Node Detailed Inspector - Hidden in Fullscreen */}
+        {!isFullscreen && (
+          <div className="lg:col-span-1">
+            <div className="sticky top-20 p-5 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-xs space-y-4">
+              
+              <div className="flex items-center justify-between pb-3 border-b border-slate-100 dark:border-slate-700/60">
+                <div className="flex items-center space-x-2 text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
+                  <Info className="w-4 h-4" />
+                  <span>Concept Inspector</span>
                 </div>
-              ) : (
-                <span className="italic text-slate-400">
-                  Core architectural branch in the book's conceptual framework.
+                <span className="text-[10px] px-2 py-0.5 rounded-full bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 font-semibold">
+                  {activeNode.id === book.mindMap.id ? 'Root' : 'Concept'}
                 </span>
-              )}
-            </div>
-
-            {/* Sub-branches list */}
-            {activeNode.children && activeNode.children.length > 0 && (
-              <div className="space-y-2 pt-2">
-                <div className="flex items-center justify-between">
-                  <span className="text-xs font-semibold text-slate-500 dark:text-slate-400">
-                    Connected Concepts ({activeNode.children.length}):
-                  </span>
-                  <button
-                    onClick={(e) => toggleNodeExpand(activeNode.id, e)}
-                    className="text-[11px] text-blue-600 dark:text-blue-400 hover:underline font-medium"
-                  >
-                    {expandedMap[activeNode.id] === false ? 'Expand All' : 'Collapse All'}
-                  </button>
-                </div>
-
-                <div className="flex flex-col space-y-1.5 max-h-48 overflow-y-auto pr-1">
-                  {activeNode.children.map(c => (
-                    <button
-                      key={c.id}
-                      onClick={() => setSelectedNodeId(c.id)}
-                      className={`text-left text-xs px-2.5 py-1.5 rounded-lg border transition flex items-center justify-between ${
-                        selectedNodeId === c.id
-                          ? 'bg-blue-50 dark:bg-blue-950/40 border-blue-400 text-blue-700 dark:text-blue-300 font-semibold'
-                          : 'bg-white dark:bg-slate-700/60 border-slate-200 dark:border-slate-600 text-slate-700 dark:text-slate-200 hover:bg-slate-50'
-                      }`}
-                    >
-                      <span className="truncate">{c.label}</span>
-                      <ChevronRight className="w-3.5 h-3.5 text-slate-400 shrink-0 ml-1" />
-                    </button>
-                  ))}
-                </div>
               </div>
-            )}
 
-            {/* Quick Action Footer */}
-            <div className="pt-3 border-t border-slate-100 dark:border-slate-700/60 space-y-2">
-              <button
-                onClick={() => {
-                  const sub = activeNode.children && activeNode.children.length > 0 
-                    ? `. Connected concepts: ${activeNode.children.map(c => c.label).join(', ')}` 
-                    : '';
-                  onStartAudio(activeNode.label, `${activeNode.label}. ${activeNode.description || 'Core concept.'}${sub}`);
-                }}
-                className="w-full py-2 rounded-xl bg-blue-50 hover:bg-blue-100 dark:bg-blue-950/60 dark:hover:bg-blue-900/60 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-900 text-xs font-semibold transition flex items-center justify-center space-x-1.5"
-                title="Listen to this concept"
-              >
-                <Volume2 className="w-3.5 h-3.5 text-blue-600 dark:text-blue-400 animate-pulse" />
-                <span>Listen to Concept</span>
-              </button>
+              <div>
+                <h4 className="text-lg font-bold text-slate-900 dark:text-slate-100 leading-snug">
+                  {activeNode.label}
+                </h4>
+                <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
+                  From {book.title} by {book.author}
+                </p>
+              </div>
 
-              <button
-                onClick={() => {
-                  navigator.clipboard.writeText(`${activeNode.label}: ${activeNode.description || ''}`);
-                }}
-                className="w-full py-2 rounded-xl bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 text-slate-700 dark:text-slate-200 text-xs font-semibold transition flex items-center justify-center space-x-1.5"
-              >
-                <Sparkles className="w-3.5 h-3.5 text-amber-500" />
-                <span>Copy Concept Note</span>
-              </button>
+              <div className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200/80 dark:border-slate-800 text-xs text-slate-700 dark:text-slate-300 leading-relaxed font-serif">
+                {activeNode.description ? (
+                  <div className="space-y-1.5">
+                    {(activeNode.description.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (
+                      <span key={idx} className="block leading-relaxed">
+                        {sentence}
+                      </span>
+                    ))}
+                  </div>
+                ) : (
+                  <span className="italic text-slate-400">
+                    Core architectural branch in the book's conceptual framework.
+                  </span>
+                )}
+              </div>
+
+              {/* Sub-branches list */}
+              {activeNode.children && activeNode.children.length > 0 && (
+                <div className="space-y-2 pt-2">
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs font-semibold text-slate-500 dark:text-slate-400">
+                      Connected Concepts ({activeNode.children.length}):
+                    </span>
+                    <button
+                      onClick={(e) => toggleNodeExpand(activeNode.id, e)}
+                      className="text-[11px] text-blue-600 dark:text-blue-400 hover:underline font-medium"
+                    >
+                      {expandedMap[activeNode.id] === false ? 'Expand All' : 'Collapse All'}
+                    </button>
+                  </div>
+
+                  <div className="flex flex-col space-y-1.5 max-h-48 overflow-y-auto pr-1">
+                    {activeNode.children.map(c => (
+                      <button
+                        key={c.id}
+                        onClick={() => setSelectedNodeId(c.id)}
+                        className={`text-left text-xs px-2.5 py-1.5 rounded-lg border transition flex items-center justify-between ${
+                          selectedNodeId === c.id
+                            ? 'bg-blue-50 dark:bg-blue-950/40 border-blue-400 text-blue-700 dark:text-blue-300 font-semibold'
+                            : 'bg-white dark:bg-slate-700/60 border-slate-200 dark:border-slate-600 text-slate-700 dark:text-slate-200 hover:bg-slate-50'
+                        }`}
+                      >
+                        <span className="truncate">{c.label}</span>
+                        <ChevronRight className="w-3.5 h-3.5 text-slate-400 shrink-0 ml-1" />
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Quick Action Footer */}
+              <div className="pt-3 border-t border-slate-100 dark:border-slate-700/60 space-y-2">
+                <button
+                  onClick={() => {
+                    const sub = activeNode.children && activeNode.children.length > 0 
+                      ? `. Connected concepts: ${activeNode.children.map(c => c.label).join(', ')}` 
+                      : '';
+                    onStartAudio(activeNode.label, `${activeNode.label}. ${activeNode.description || 'Core concept.'}${sub}`);
+                  }}
+                  className="w-full py-2 rounded-xl bg-blue-50 hover:bg-blue-100 dark:bg-blue-950/60 dark:hover:bg-blue-900/60 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-900 text-xs font-semibold transition flex items-center justify-center space-x-1.5"
+                  title="Listen to this concept"
+                >
+                  <Volume2 className="w-3.5 h-3.5 text-blue-600 dark:text-blue-400 animate-pulse" />
+                  <span>Listen to Concept</span>
+                </button>
+
+                <button
+                  onClick={() => {
+                    navigator.clipboard.writeText(`${activeNode.label}: ${activeNode.description || ''}`);
+                  }}
+                  className="w-full py-2 rounded-xl bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 text-slate-700 dark:text-slate-200 text-xs font-semibold transition flex items-center justify-center space-x-1.5"
+                >
+                  <Sparkles className="w-3.5 h-3.5 text-amber-500" />
+                  <span>Copy Concept Note</span>
+                </button>
+              </div>
+
             </div>
-
           </div>
-        </div>
+        )}
 
       </div>
 

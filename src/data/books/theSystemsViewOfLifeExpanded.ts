@@ -1,5 +1,5 @@
 // The Systems View of Life by Fritjof Capra & Pier Luigi Luisi
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -794,169 +794,169 @@ export const THE_SYSTEMS_VIEW_OF_LIFE_BOOK: Book = {
   "actionItems": [
     {
       "id": "the-systems-view-of-life-act-1",
-      "title": "Spot the Invisible Feedback Loop",
-      "description": "Notice how an everyday frustration is not an isolated one-way event, but part of a circular loop that feeds back into itself.",
+      "title": "Break the Hidden Loop",
+      "description": "Notice how daily habits feed back into themselves. Small changes can break the cycle.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Pick a minor recurring frustration from your day, such as late-afternoon grogginess or an irritable exchange.",
-        "Draw two boxes on paper: one for your reaction, and one for the external event or state.",
-        "Draw an arrow from your reaction back to the trigger to see how your behavior reinforces the original problem.",
-        "Identify one tiny point in that circle where you can alter your response to break the reinforcement loop."
+        "1. Pick a daily problem that keeps happening to you.",
+        "2. Draw two boxes: one for your reaction, one for the trigger.",
+        "3. Draw arrows between them to see the circular loop.",
+        "4. Pick one small reaction to change today."
       ],
       "sourceChapter": "Chapter 4: The Systems View of Life: Summary of Key Concepts"
     },
     {
       "id": "the-systems-view-of-life-act-2",
-      "title": "Notice Emergent Mood States",
-      "description": "Recognize that your daily energy and emotional states are emergent properties arising from interconnected factors, not a single broken component.",
+      "title": "Check Your Body Inputs",
+      "description": "Your mood comes from many physical factors working together. Change your inputs to feel better.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "When feeling suddenly restless, sluggish, or irritable, pause before assigning blame to one event.",
-        "Check your biological baseline: hydration, sleep latency, screen exposure, and posture over the past three hours.",
-        "View your current mood as an emergent outcome of these layered bodily inputs working together.",
-        "Adjust two physical inputs immediately (drink water, take a 5-minute walk) and observe how the whole state shifts."
+        "1. Notice when you suddenly feel tired, tense, or cranky.",
+        "2. Check your recent water intake, sleep, and screen time.",
+        "3. Drink a full glass of cool water right now.",
+        "4. Walk around for five minutes and recheck your energy."
       ],
       "sourceChapter": "Chapter 12: Mind and Consciousness"
     },
     {
       "id": "the-systems-view-of-life-act-3",
-      "title": "Establish an Autopoietic Morning Reset",
-      "description": "Kickstart your self-renewing biological cycle each morning through light, hydration, and rhythmic motion.",
+      "title": "Start a Fresh Morning",
+      "description": "Wake up your body with sunlight, water, and easy movement. This resets your energy for the day.",
       "category": "daily-routine",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Drink a tall glass of water immediately upon waking to re-establish cellular hydration.",
-        "Step outside or look out an open window for 5 minutes of natural daylight to set your circadian clock.",
-        "Engage in 5 minutes of light, rhythmic physical stretching to stimulate lymph and blood circulation.",
-        "Take three deep diaphragmatic breaths to bring your nervous system into active homeostasis."
+        "1. Drink a large glass of water after waking up.",
+        "2. Step outside into natural daylight for five minutes.",
+        "3. Stretch your arms and legs to get blood moving.",
+        "4. Take three slow, deep breaths to feel calm."
       ],
       "sourceChapter": "Chapter 7: What Is Life?"
     },
     {
       "id": "the-systems-view-of-life-act-4",
-      "title": "Create a Cognitive Boundary Sanctuary",
-      "description": "Design an intentional semi-permeable boundary in your workspace to protect focused thinking while allowing necessary signals through.",
+      "title": "Clear Your Focus Space",
+      "description": "Block out noise and clutter around your work area. This keeps your mind clear and calm.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Audit the sensory inputs reaching your primary desk: notifications, visual clutter, and background chatter.",
-        "Establish a clear physical perimeter by clearing all unrelated objects outside a 2-foot radius of your keyboard.",
-        "Configure 'Do Not Disturb' rules to allow only critical emergency contacts through during focused blocks.",
-        "Position a visual anchor, like a desk lamp or a specific coaster, that marks when you are inside your focus cocoon."
+        "1. Look for noise, clutter, and alerts around your desk.",
+        "2. Clear everything off the space right around your keyboard.",
+        "3. Turn off phone notifications during your work block.",
+        "4. Turn on a desk lamp to signal focus time."
       ],
       "sourceChapter": "Chapter 6: From the Parts to the Whole"
     },
     {
       "id": "the-systems-view-of-life-act-5",
-      "title": "Map Your Nutrient and Information Diet",
-      "description": "Examine the flows of matter and information you absorb daily to see how open your personal living system is to its environment.",
+      "title": "Check What You Take In",
+      "description": "Track the food, news, and messages you take in each day. Cut out whatever leaves you drained.",
       "category": "audit",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Open a fresh note and create two columns: Physical Inflows and Information Inflows.",
-        "List everything you consumed over the last 24 hours, from meals and caffeine to news feeds and group chats.",
-        "Mark each input as either regenerative (restores vitality and clarity) or entropy-inducing (spikes anxiety or fatigue).",
-        "Select one toxic or draining inflow to filter out entirely for the next 48 hours."
+        "1. Make two columns: Physical Inputs and Information Inputs.",
+        "2. List everything you ate, read, and watched today.",
+        "3. Mark each item as either energizing or draining.",
+        "4. Cut out one draining input for two full days."
       ],
       "sourceChapter": "Chapter 14: The Systems View of Health"
     },
     {
       "id": "the-systems-view-of-life-act-6",
-      "title": "Identify Non-Linear Trigger Points",
-      "description": "Track moments where a disproportionate emotional reaction occurred to discover the underlying cumulative tension in your system.",
+      "title": "Find Hidden Stress Points",
+      "description": "Overreactions often come from built-up stress over several days. Spot the real reason behind your reaction.",
       "category": "audit",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Recall an instance this week where a minor inconvenience triggered an unexpectedly sharp reaction.",
-        "Trace the preceding 48 hours of hidden stresses, sleep deficits, or unresolved conversations that loaded the system.",
-        "Identify the underlying threshold that was crossed rather than blaming the immediate tiny catalyst.",
-        "Write down an early warning sign that indicates your system is approaching critical threshold capacity."
+        "1. Think of a time you got mad over nothing.",
+        "2. List poor sleep or busy days from before that moment.",
+        "3. Spot the built-up pressure that caused you to snap.",
+        "4. Write down one warning sign that you need rest."
       ],
       "sourceChapter": "Chapter 5: Order and Chaos in Dynamical Systems"
     },
     {
       "id": "the-systems-view-of-life-act-7",
-      "title": "Design a Decentralized Task Network",
-      "description": "Reorganize your weekly priorities into a living, interconnected web rather than a rigid top-down linear checklist.",
+      "title": "Connect Your Main Tasks",
+      "description": "Connect your tasks on paper to see how they help each other. Complete the most helpful task first.",
       "category": "system",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Write down your 6 core responsibilities or active projects on individual index cards or sticky notes.",
-        "Draw lines connecting items that share resources, mutual dependencies, or overlapping knowledge.",
-        "Identify the central hub task whose completion automatically accelerates or simplifies 2 or more other projects.",
-        "Schedule your focused energy blocks around this high-leverage nexus rather than tackling tasks by due-date alone."
+        "1. Write your top six tasks on separate sticky notes.",
+        "2. Draw lines between tasks that share steps or information.",
+        "3. Find the one task that makes other tasks easier.",
+        "4. Schedule time to finish that key task first."
       ],
       "sourceChapter": "Chapter 15: A Systemic Approach to Education"
     },
     {
       "id": "the-systems-view-of-life-act-8",
-      "title": "Trace Your Daily Metabolic Cycle",
-      "description": "Audit your natural energy ebbs and surges to align demanding cognitive work with your body's thermodynamic rhythm.",
+      "title": "Track Your Energy Highs",
+      "description": "Find your peak energy hours during the day. Do your hardest work when your mind is sharpest.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Set three gentle phone alerts throughout the day: mid-morning, mid-afternoon, and early evening.",
-        "When the chime rings, rate your cognitive focus and physical energy on a scale from 1 to 5.",
-        "Log the results over three days to reveal your system's natural energetic peak and trough periods.",
-        "Shift your deepest creative or analytical work directly into your identified peak window."
+        "1. Set phone alarms for morning, afternoon, and evening.",
+        "2. Rate your energy from one to five at each chime.",
+        "3. Track your numbers for three days to see patterns.",
+        "4. Move your hardest tasks into your highest energy window."
       ],
       "sourceChapter": "Chapter 8: The Systemic Nature of Biological Processes"
     },
     {
       "id": "the-systems-view-of-life-act-9",
-      "title": "Audit the Secondary Repercussions of a Decision",
-      "description": "Uncover hidden side effects of a habit or decision by mapping out second- and third-order ripple effects.",
+      "title": "Check the Ripple Effects",
+      "description": "Think through what happens next before making a choice. Look for hidden impacts on your time.",
       "category": "audit",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Take a major pending decision, like buying a new device, changing diets, or committing to a side project.",
-        "Write down the immediate primary benefit you anticipate.",
-        "Ask: 'And then what happens?' to surface the secondary demands on your time, attention, and storage space.",
-        "Map the third-order consequences on your family, evening rest, and weekly stress before committing."
+        "1. Pick a big choice you need to make soon.",
+        "2. Write down the first good result you expect.",
+        "3. Ask what new problems or chores might follow next.",
+        "4. Check if this choice hurts your rest or free time."
       ],
       "sourceChapter": "Chapter 17: Connecting the Dots: Systemic Thinking for Global Solutions"
     },
     {
       "id": "the-systems-view-of-life-act-10",
-      "title": "Curate an Ecological Workspace Microclimate",
-      "description": "Enhance your mental clarity and air quality by incorporating living biological elements into your immediate work habitat.",
+      "title": "Bring Nature to Work",
+      "description": "Add fresh air and plants to your workspace. Fresh air keeps your head clear and alert.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Evaluate the living quality of your main workspace: lighting, airflow, humidity, and green foliage.",
-        "Place at least one low-maintenance living plant, such as a pothos or snake plant, within direct eyesight.",
-        "Set up a small desktop water carafe to maintain ambient humidity and prompt regular hydration.",
-        "Open a window twice daily for 5 minutes to flush stale indoor carbon dioxide and bring in fresh outdoor air."
+        "1. Check the light and air quality at your desk.",
+        "2. Place an easy green plant right where you see it.",
+        "3. Keep a water bottle at your desk every day.",
+        "4. Open a window for five minutes to get fresh air."
       ],
       "sourceChapter": "Chapter 16: Ecological Literacy and Sustainable Design"
     },
     {
       "id": "the-systems-view-of-life-act-11",
-      "title": "Perform a Shift-of-Perspective Drill",
-      "description": "Break out of analytical tunnel vision by viewing a stubborn relational or work challenge from the level of the whole community.",
+      "title": "See the Bigger Picture",
+      "description": "Step back during an argument to see the whole situation. Most fights stem from shared pressures.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Write down an ongoing dispute or friction point you have with a coworker, partner, or friend.",
-        "Zoom out one tier: Describe the organizational or household system both of you are currently embedded in.",
-        "Identify the shared systemic constraints (tight deadlines, lack of clear roles, financial pressure) influencing both sides.",
-        "Reframe the problem from 'You vs. Me' to 'Both of Us navigating an imperfect systemic structure.'"
+        "1. Write down an argument you had with someone recently.",
+        "2. Step back and look at the shared environment around you.",
+        "3. List pressures affecting both sides, like deadlines or tight money.",
+        "4. Treat the situation as a shared problem to solve together."
       ],
       "sourceChapter": "Chapter 1: The Mechanistic Worldview"
     },
     {
       "id": "the-systems-view-of-life-act-12",
-      "title": "Build a Resilient Margin Buffer System",
-      "description": "Incorporate slack and redundant capacity into your weekly calendar so unexpected disruptions self-correct without crisis.",
+      "title": "Leave Gaps in Time",
+      "description": "Keep open slots on your calendar every week. These quiet buffers handle surprises without any stress.",
       "category": "system",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Examine your schedule for the upcoming week to identify back-to-back commitments with zero gaps.",
-        "Block out a dedicated 45-minute 'Systemic Buffer' on Tuesday and Thursday afternoons with no assigned agenda.",
-        "Use this unscheduled slack to absorb inevitable overruns, unexpected urgent inquiries, or mental fatigue.",
-        "If no crisis emerges, dedicate the open buffer block to reflective integration, walking, or restorative reading."
+        "1. Look for days with back-to-back meetings on your calendar.",
+        "2. Block out forty-five minutes of empty time two days weekly.",
+        "3. Use this open time for surprise tasks or catching up.",
+        "4. Take a walk if no urgent tasks come up."
       ],
       "sourceChapter": "Chapter 18: Sustaining the Web of Life"
     }
@@ -1549,113 +1549,113 @@ export const THE_SYSTEMS_VIEW_OF_LIFE_BOOK: Book = {
   ],
   "mindMap": {
     "id": "root",
-    "label": "The Systems View of Life",
-    "description": "A grand, unifying synthesis by Fritjof Capra and Pier Luigi Luisi that bridges physics, biology, cognition, and society.\nIt reveals that life is not an engineered machine made of isolated parts, but an interconnected, self-generating web of relationships that creates its own reality.",
+    "label": "Web of Life",
+    "description": "Life is not a machine made of loose parts.\nIt is an interconnected web where everything creates and shapes itself.",
     "children": [
       {
         "id": "mechanistic-to-systemic",
-        "label": "The Paradigm Shift: From Clockwork to Web",
-        "description": "Modern science long treated the universe as a mechanical clockwork device that could be understood by taking it apart screw by screw.\nThe systems revolution reveals that when you break a living organism into isolated fragments, life itself evaporates, because life resides entirely in relational patterns.",
+        "label": "Clocks to Webs",
+        "description": "Old science treated the world like a giant clock you could take apart.\nNew science shows that life only exists when parts stay connected.",
         "children": [
           {
             "id": "cartesian-newtonian-roots",
-            "label": "Cartesian-Newtonian Mechanism",
-            "description": "Ren\u00e9 Descartes split mind from matter, while Isaac Newton framed reality as solid billiard balls colliding in absolute space and time.\nThis powerful reductionist worldview fueled the industrial age, yet it left science utterly blind to emergent self-organization, organic development, and ecological stability.",
+            "label": "The Machine View",
+            "description": "Early thinkers treated reality like hitting billiard balls.\nThis built our factories but missed how living things grow and balance.",
             "children": [
               {
                 "id": "reductionism-limits",
-                "label": "The Limits of Reductionism",
-                "description": "Reductionism works brilliantly for inert machinery like steam engines, but crumbles when faced with living cells or ecosystems.\nYou can sequence every nucleotide in an organism's DNA, yet still know nothing about how embryonic morphogenesis or conscious awareness actually happens."
+                "label": "Limits of Parts",
+                "description": "Taking things apart works for machines, but fails for life.\nYou cannot understand living cells just by reading DNA letters."
               },
               {
                 "id": "body-as-machine-fallacy",
-                "label": "The Body as Machine Fallacy",
-                "description": "Treating human physiology as an engine and doctors as mechanics has crippled healthcare with symptom-masking drugs and compartmentalized specialties.\nLiving tissues do not suffer isolated part failures; they experience systemic disequilibrium throughout their entire physiological network."
+                "label": "Body as Engine",
+                "description": "Treating people like broken cars harms medicine.\nOur bodies do not have isolated part failures, but whole-body imbalances."
               }
             ]
           },
           {
             "id": "quantum-relativity-upheaval",
-            "label": "The 20th-Century Physics Upheaval",
-            "description": "Subatomic physics shattered the illusion of hard, fundamental building blocks by demonstrating that matter is composed of fleeting probability waves and energetic relationships.\nQuantum mechanics forced science to accept that the observer cannot be separated from the observed, revealing nature as an unbroken dynamic tapestry."
+            "label": "Physics Breaks Down",
+            "description": "Modern physics proved solid matter does not truly exist.\nEverything is made of energy waves and changing relationships."
           },
           {
             "id": "shift-parts-to-wholes",
-            "label": "From Parts to Relationships",
-            "description": "Systemic thinking demands that we switch focus from isolated material objects to the intangible web of relationships connecting them.\nProperties of the whole arise from dynamic interactions, meaning you can never predict the behavior of a living storm or a coral reef solely from its constituent atoms."
+            "label": "Focus on Connections",
+            "description": "We must look at relationships instead of single objects.\nYou cannot predict a storm just by looking at water drops."
           }
         ]
       },
       {
         "id": "four-dimensions-life",
-        "label": "The Four Interlocking Dimensions of Life",
-        "description": "To overcome centuries of fragmentation, Capra and Luisi unify biology through four inseparable perspectives: Pattern, Structure, Process, and Meaning.\nEvery living phenomenon\u2014from a single bacterium to human civilization\u2014simultaneously expresses all four interconnected dimensions.",
+        "label": "Four Faces of Life",
+        "description": "Life has four key parts: pattern, structure, process, and meaning.\nEvery living thing needs all four to exist.",
         "children": [
           {
             "id": "pattern-organization",
-            "label": "Pattern: The Architecture of Autopoiesis",
-            "description": "Pattern refers to the intangible configuration of relationships that determines a system's essential identity and boundary conditions.\nIn living systems, this pattern is autopoietic\u2014a circular, self-manufacturing network where every component participates in the production or transformation of every other component.",
+            "label": "Pattern: Self-Making",
+            "description": "A living pattern is a circular network.\nEvery piece helps build and fix every other piece.",
             "children": [
               {
                 "id": "autopoiesis-concept",
-                "label": "Autopoiesis (Self-Making)",
-                "description": "Coined by Humberto Maturana and Francisco Varela, autopoiesis literally translates to 'self-creation.' Unlike a factory that manufactures external cars, a living cell continually manufactures its own cellular machinery, proteins, and enclosure from the inside out."
+                "label": "Making Oneself",
+                "description": "Factories build things outside themselves, like cars.\nA living cell builds and repairs its own body from within."
               },
               {
                 "id": "organizational-closure",
-                "label": "Organizational Closure & Open Boundaries",
-                "description": "A living network is organizationally closed: its cascade of internal biochemical reactions constantly circles back to sustain its own continuity.\nSimultaneously, it remains thermodynamically open to matter and energy, constantly taking in food and expelling entropy to preserve its intact structural envelope."
+                "label": "Closed yet Open",
+                "description": "A cell constantly recycles its internal life loops.\nYet it still takes in food and energy from outside."
               }
             ]
           },
           {
             "id": "structure-matter",
-            "label": "Structure: Physical Dissipative Manifestation",
-            "description": "Structure is the physical embodiment of the living pattern into concrete matter, molecules, and chemical bonds.\nBecause matter in a cell is in non-stop turnover, physical structure is not a rigid sculpture, but a standing wave or swirling vortex that stays stable only while continuously burning energy.",
+            "label": "Structure: Flowing Matter",
+            "description": "Physical bodies are not frozen statues.\nThey are more like whirlpools that stay shaped only by flowing energy.",
             "children": [
               {
                 "id": "dissipative-structures",
-                "label": "Prigogine's Dissipative Structures",
-                "description": "Nobel laureate Ilya Prigogine proved that non-equilibrium systems maintain organized, complex forms by dissipating energy and entropy outward.\nFar from thermodynamic equilibrium, disorder can spontaneously transform into breathtaking crystalline, fluid, or biological order."
+                "label": "Order Through Flow",
+                "description": "Living systems stay neat by releasing heat and waste.\nConstant energy flow creates beautiful natural order."
               },
               {
                 "id": "bifurcation-points",
-                "label": "Bifurcation Points & Emergence",
-                "description": "When a living system is driven far from equilibrium by environmental stress, it encounters a critical bifurcation fork.\nAt this knife-edge threshold, chaotic instability forces the system to either collapse entirely or spontaneously leap into a completely novel, higher-order state of self-organization."
+                "label": "Fork in the Road",
+                "description": "Under high stress, a system hits a sudden tipping point.\nIt either breaks down or leaps into a smarter new form."
               }
             ]
           },
           {
             "id": "process-cognition",
-            "label": "Process: Continual Cognitive Embodying",
-            "description": "Process represents the ceaseless activity of living\u2014the real-time metabolic and behavioral dynamics that bridge abstract patterns to physical substance.\nCrucially, the systems view equates the life process directly with cognition, framing perception and action as the very rhythm of survival.",
+            "label": "Process: Active Living",
+            "description": "Living is an active process of knowing and adjusting.\nTo live is to constantly sense and adapt to your world.",
             "children": [
               {
                 "id": "santiago-theory",
-                "label": "The Santiago Theory of Cognition",
-                "description": "Maturana and Varela radically redefined cognition: knowing is not storing mental snapshots, but maintaining life through active perception and adaptation.\nCognition is the real-time cognitive process of living, operating without needing a brain\u2014meaning even an amoeba navigating a sugar gradient is actively engaged in cognition."
+                "label": "Knowing Without Brains",
+                "description": "Knowing is not keeping facts in a head.\nEven a tiny amoeba knows how to find sugar."
               },
               {
                 "id": "structural-coupling",
-                "label": "Structural Coupling & Co-Determination",
-                "description": "An organism and its environment dance in mutual resonance: external perturbations trigger internal structural changes dictated solely by the organism's own internal logic.\nA living creature does not simply react mechanically to environmental cues; it actively brings forth its own lived world through its sensory-motor physiology."
+                "label": "Dancing with Surroundings",
+                "description": "Organisms and their homes shape each other over time.\nCreatures do not just react; they create their own daily world."
               }
             ]
           },
           {
             "id": "meaning-consciousness",
-            "label": "Meaning: Inner Experience & Culture",
-            "description": "In human systems, the cognitive dimension expands to encompass reflective awareness, linguistic communication, ethical choice, and symbolic culture.\nMeaning introduces purposeful values and shared conceptual narratives, allowing human societies to construct imaginary futures that reshape the physical biosphere.",
+            "label": "Meaning: Inner Mind",
+            "description": "Humans add thinking, talking, and culture to the mix.\nOur shared ideas and values shape how we treat Earth.",
             "children": [
               {
                 "id": "reflective-consciousness",
-                "label": "Reflective Self-Consciousness",
-                "description": "While simple organisms experience primary consciousness of immediate sensory fields, humans possess the recursive capacity to be conscious of being conscious.\nLanguage allows us to generate a stable sense of personal selfhood, transforming instinctual biological existence into deliberate, existential autobiography."
+                "label": "Knowing You Know",
+                "description": "Animals simply feel their surroundings.\nHumans use words to tell stories about who they are."
               },
               {
                 "id": "symbolic-social-networks",
-                "label": "Symbolic Networks & Social Institutions",
-                "description": "Human societies mirror biological networks, yet their nodes communicate not through chemical fluxes, but through shared symbols, currencies, and cultural narratives.\nThese cultural feedback loops can either harmonize with planetary ecologies or propagate dangerous illusions of infinite growth."
+                "label": "Shared Human Stories",
+                "description": "Society runs on shared ideas, words, and money.\nThese stories can either protect nature or blindly harm it."
               }
             ]
           }
@@ -1663,137 +1663,137 @@ export const THE_SYSTEMS_VIEW_OF_LIFE_BOOK: Book = {
       },
       {
         "id": "non-linear-dynamics",
-        "label": "The Hidden Mathematics of Complexity",
-        "description": "Classic mathematics relied on linear equations where small inputs yield predictable, proportional outputs, hiding the wild creativity of nature.\nThe systems view harnesses non-linear dynamics, chaos theory, and fractal geometry to illuminate how nature sculpts unpredictability into robust, life-sustaining stability.",
+        "label": "Nature's Math",
+        "description": "Nature does not move in straight, boring lines.\nIt uses feedback loops and surprising patterns to stay stable.",
         "children": [
           {
             "id": "feedback-loops",
-            "label": "Self-Regulating & Amplifying Loops",
-            "description": "Living systems rely on circular feedback loops where effects loop back to alter their causes.\nNegative (balancing) loops sustain homeostasis by dampening runaway fluctuations, while positive (amplifying) loops drive evolutionary explosions, rapid innovation, or catastrophic systemic collapse.",
+            "label": "Looping Cause and Effect",
+            "description": "In nature, an action loops back to change its starting point.\nSome loops calm things down, while other loops speed changes up.",
             "children": [
               {
                 "id": "negative-feedback-homeostasis",
-                "label": "Negative Balancing Loops",
-                "description": "Balancing loops keep vital variables\u2014like internal temperature, blood pH, and predator-prey ratios\u2014hovering around dynamic equilibrium setpoints.\nThey act like nature's thermostats, constantly detecting deviations and triggering counteracting metabolic corrections."
+                "label": "Balancing Loops",
+                "description": "Balancing loops keep your body temperature steady.\nThey work just like a thermostat keeping a room warm."
               },
               {
                 "id": "positive-feedback-tipping",
-                "label": "Positive Amplifying Loops",
-                "description": "Reinforcing loops compound small signals into exponential transformations, powering rapid cellular division, hormonal surges, or viral cultural trends.\nLeft unchecked by balancing mechanisms, runaway positive feedback inevitably triggers systemic overheating and ecological tipping points."
+                "label": "Speeding Loops",
+                "description": "Speeding loops multiply small changes very fast.\nIf unchecked, they can cause systems to overheat and crash."
               }
             ]
           },
           {
             "id": "deterministic-chaos",
-            "label": "Deterministic Chaos & Strange Attractors",
-            "description": "Chaotic systems obey strict deterministic physical laws, yet their paths are fundamentally unpredictable due to extreme sensitivity to initial conditions.\nTheir long-term trajectories never repeat, yet they remain tightly bound within bounded multidimensional geometric spaces known as strange attractors."
+            "label": "Organized Chaos",
+            "description": "Tiny changes can make natural paths hard to guess.\nYet patterns still stay within hidden, steady limits."
           },
           {
             "id": "fractal-geometry",
-            "label": "Fractal Geometry: Nature's Repetitive Code",
-            "description": "Euclidean shapes like spheres and straight lines are rare in biology; living organisms favor self-similar fractal geometry.\nThe branching networks of human lungs, capillary vascular beds, and towering forest canopies maximize contact surface area within compact volumes using recursive developmental algorithms."
+            "label": "Repeating Branching Shapes",
+            "description": "Nature loves repeating shapes instead of straight lines.\nTree branches, lung airways, and riverbeds all follow this plan."
           }
         ]
       },
       {
         "id": "web-of-life-ecology",
-        "label": "Evolutionary Ecology: The Living Earth",
-        "description": "Life did not arrive upon a dead planetary stage to conquer it through merciless competition; life co-evolved with Earth to create a self-regulating biosphere.\nEvolution is fundamentally an epic saga of symbiosis, collaborative co-evolution, and regenerative ecological reciprocity.",
+        "label": "The Living Earth",
+        "description": "Life did not fight Earth to survive.\nLife and the planet grew together as helpful partners.",
         "children": [
           {
             "id": "origin-cellular-life",
-            "label": "Protocells & The Chemical Cauldron",
-            "description": "Capra and Luisi explore how prebiotic chemistry transitioned into genuine biology through self-assembling lipid vesicles containing primitive autocatalytic networks.\nLife emerged the moment a fatty membrane sealed an internal metabolic feedback loop, establishing an enduring cellular 'inside' distinct from the abiotic 'outside.'",
+            "label": "First Tiny Bubbles",
+            "description": "Life began when oily bubbles wrapped around tiny chemical loops.\nThis created an inside world separate from the outside.",
             "children": [
               {
                 "id": "membrane-primacy",
-                "label": "The Primacy of the Lipid Membrane",
-                "description": "Without a semi-permeable boundary, metabolic enzymes diffuse uselessly into the vast ocean; the lipid bilayer boundary creates an essential micro-niche.\nThe cell membrane is not an inert bag, but an active, communicative organ that filters signals, generates chemical gradients, and dictates identity."
+                "label": "Protective Outer Skin",
+                "description": "Without an outer skin, life would wash away into the sea.\nThe cell skin decides what comes in and what stays out."
               },
               {
                 "id": "prebiotic-autocatalysis",
-                "label": "Prebiotic Autocatalytic Sets",
-                "description": "Before DNA took center stage, collective networks of simple organic molecules catalyzed each other's synthesis in hydrothermal vents and mineral matrices.\nLife began not as a single selfish master-molecule, but as an orchestral web of collaborative chemical reactions."
+                "label": "Helpful Chemicals",
+                "description": "Before DNA existed, simple chemicals helped each other multiply.\nLife started as a team effort, not a single molecule."
               }
             ]
           },
           {
             "id": "symbiosis-evolution",
-            "label": "Symbiogenesis: The Evolutionary Engine",
-            "description": "Lynn Margulis revolutionized biology by proving that major evolutionary leaps did not stem from random mutations, but from the merger of different organisms.\nMitochondria and chloroplasts were once free-living bacteria that permanently took up residence inside ancient microbes to birth the complex eukaryotic cell.",
+            "label": "Evolving Together",
+            "description": "Big steps in evolution came from organisms merging together.\nAncient microbes moved inside one another to build complex cells.",
             "children": [
               {
                 "id": "cooperation-over-competition",
-                "label": "Cooperative Interdependence",
-                "description": "Darwin's Victorian followers distorted evolution into a hyper-individualistic gladiatorial arena of red-in-tooth-and-claw battle.\nIn reality, the biosphere's long-term endurance relies far more on mutualistic symbiosis, shared genetic libraries, and microbial cooperation than cutthroat zero-sum rivalry."
+                "label": "Teamwork Over Fighting",
+                "description": "Life thrives far more on teamwork than brutal battles.\nSharing tools and shelter keeps the planet healthy."
               },
               {
                 "id": "horizontal-gene-transfer",
-                "label": "The Global Bacterial Web",
-                "description": "Bacteria freely swap genetic code across species boundaries via planetary horizontal gene transfer, operating like an interconnected superorganism.\nThis ancient, continuous genetic network has shielded the biosphere from cosmic shocks and chemical toxins for billions of years."
+                "label": "Shared Gene Library",
+                "description": "Bacteria easily trade survival tricks across species.\nThis shared web has protected life on Earth for billions of years."
               }
             ]
           },
           {
             "id": "gaia-hypothesis",
-            "label": "Gaia Theory: Earth as a Living System",
-            "description": "James Lovelock and Lynn Margulis demonstrated that Earth's atmosphere, oceans, soils, and biota form a single self-regulating homeostatic organism named Gaia.\nBiological activity actively regulates surface temperatures, oceanic salinity, and atmospheric gas balances to preserve optimal conditions for ongoing life."
+            "label": "Earth as One",
+            "description": "Air, oceans, soil, and living creatures form one giant body.\nLife actively balances world temperatures and air so we can breathe."
           }
         ]
       },
       {
         "id": "systemic-crises-solutions",
-        "label": "The Systemic Crisis & Ecological Literacy",
-        "description": "Humanity's escalating crises\u2014climate breakdown, grotesque economic inequality, biodiversity collapse, and widespread alienation\u2014are not isolated problems to be solved piecemeal.\nThey are different symptoms of a single crisis of perception rooted in an obsolete, mechanistic illusion of endless linear extraction.",
+        "label": "Fixing Big Crises",
+        "description": "Climate change and pollution are not separate problems.\nThey happen because humans treat a finite planet like an endless factory.",
         "children": [
           {
             "id": "crisis-of-perception",
-            "label": "The Illusion of Infinite Growth",
-            "description": "Our global economic paradigm presumes that finite planetary ecosystems can endlessly sustain exponential material extraction, industrial waste, and compounding capital accumulation.\nThis profound cognitive dissonance treats nature as an infinite resource pit and dumping ground, threatening widespread biospheric collapse.",
+            "label": "The Endless Growth Trap",
+            "description": "Our economy pretends Earth has infinite stuff to take and dump.\nThis false view is driving nature toward breakdown.",
             "children": [
               {
                 "id": "linear-vs-cyclical",
-                "label": "Linear Extraction vs. Cyclical Ecology",
-                "description": "Human industry relies on an unnatural 'take-make-waste' conveyor belt that leaves mountains of toxic rubbish in its wake.\nIn wild nature, there is no such concept as waste: every output of one living organism becomes the vital nutrient input for another organism in an unending closed loop."
+                "label": "Take-Waste vs Cycles",
+                "description": "Human factories make trash that piles up forever.\nIn wild nature, one creature's waste is always food for another."
               },
               {
                 "id": "economic-externalities",
-                "label": "The Pathology of Externalities",
-                "description": "Traditional corporate balance sheets externalize true ecological and social costs, recording the destruction of topsoil, clean rivers, and atmospheric stability as short-term profit.\nThis structural blindness rewards degenerative destruction while starving real ecological stewardship."
+                "label": "Hidden Nature Costs",
+                "description": "Businesses often count destroyed soil and polluted rivers as profit.\nThis rewards damage while punishing care for the land."
               }
             ]
           },
           {
             "id": "ecodesign-principles",
-            "label": "Ecoliteracy & Nature's Design Principles",
-            "description": "Ecological literacy means studying nature's battle-tested 3.8-billion-year operating manual to redesign human civilization sustainably.\nBy mimicking biological resilience, diversity, energetic frugality, and closed-loop cycling, human technologies can reintegrate harmoniously into the biosphere.",
+            "label": "Copying Nature's Design",
+            "description": "We must learn from nature's billions of years of experience.\nDesigning zero-waste tools helps us live gently on Earth.",
             "children": [
               {
                 "id": "biomimetic-redesign",
-                "label": "Biomimicry & Circular Metabolism",
-                "description": "Engineers and urban planners can mirror natural ecosystems by constructing industrial parks where one factory's thermal effluent or chemical byproduct powers its neighboring facility.\nCircular economies replace planned obsolescence with non-toxic, infinitely recyclable materials."
+                "label": "Zero Waste Cities",
+                "description": "Factories can reuse each other's heat and leftovers.\nProducts should be safe to recycle again and again."
               },
               {
                 "id": "agroecology-regenerative-food",
-                "label": "Agroecology & Soil Regeneration",
-                "description": "Industrial agriculture treats farmland like a synthetic chemical reactor, obliterating soil microbiomes and poisoning aquifers with synthetic fertilizers.\nAgroecology works with living soil food webs, polycultures, and mycorrhizal networks to produce abundant nutrition while drawing gigatons of carbon back underground."
+                "label": "Farming with Soil",
+                "description": "Chemical farming poisons soil and water supplies.\nNatural farming works with soil bugs to grow healthy, abundant food."
               }
             ]
           },
           {
             "id": "systemic-health-care",
-            "label": "Integrative Health & Biophilic Flourishing",
-            "description": "A systems perspective transforms medicine from late-stage crisis management into the cultivation of systemic resilience and holistic vitality.\nPersonal human health is inherently linked to social connection, psychological coherence, microbiome biodiversity, and the health of the surrounding ecosystem.",
+            "label": "Whole-Body Health",
+            "description": "Real health is about building strength, not just taking pills.\nPersonal well-being depends on clean food, community, and nature.",
             "children": [
               {
                 "id": "psychoneuroimmunology",
-                "label": "Psychoneuroimmunology: Mind-Body Unity",
-                "description": "Modern immunology has proven that nervous, endocrine, and immune cells share identical molecular receptors, forming an integrated cognitive network throughout the entire body.\nMental emotions, toxic stress, and joyous connection directly alter cellular inflammation and immune competence in real time."
+                "label": "Mind-Body Bond",
+                "description": "Your brain and immune defenses talk using the same signals.\nStress lowers defenses, while joy and love help you heal."
               },
               {
                 "id": "communal-resilience",
-                "label": "Community as Living Network",
-                "description": "Just as an ecosystem derives robust resilience from rich biodiversity rather than monoculture, human communities thrive on diverse perspectives, egalitarian trust, and shared decision-making.\nResilient societies cultivate self-organizing social networks capable of adapting swiftly to global ecological and economic disruptions."
+                "label": "Strong Communities",
+                "description": "Diverse ecosystems handle storms much better.\nHuman towns thrive when neighbors trust, support, and help each other."
               }
             ]
           }
