@@ -269,7 +269,7 @@ export const IdeaFeedView: React.FC<IdeaFeedViewProps> = ({ onSelectBook, onOpen
                       {idea.actionItem && (
                         <div className="border-l-3 border-emerald-500 pl-3 py-1 text-slate-800 dark:text-slate-200 break-words">
                           <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-700 dark:text-emerald-400 block mb-0.5">
-                            Apply this:
+                            Power Move:
                           </span>
                           <div className="space-y-1 text-sm font-medium leading-relaxed break-words">
                             {(idea.actionItem.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (

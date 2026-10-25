@@ -31,10 +31,10 @@ interface ActionItemsViewProps {
 
 const CATEGORY_LABELS: Record<ActionCategory, { label: string; badge: string; icon: string }> = {
   'quick-win': { label: 'Quick Wins (< 5 min)', badge: 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300 border-emerald-300 dark:border-emerald-800', icon: '⚡' },
-  'daily-routine': { label: 'Daily Routines', badge: 'bg-blue-100 text-blue-800 dark:bg-blue-950 dark:text-blue-300 border-blue-300 dark:border-blue-800', icon: '🔄' },
-  'environment': { label: 'Environment Setup', badge: 'bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300 border-amber-300 dark:border-amber-800', icon: '🏡' },
-  'audit': { label: 'Audits & Scorecards', badge: 'bg-purple-100 text-purple-800 dark:bg-purple-950 dark:text-purple-300 border-purple-300 dark:border-purple-800', icon: '📊' },
-  'system': { label: 'System Overhauls', badge: 'bg-rose-100 text-rose-800 dark:bg-rose-950 dark:text-rose-300 border-rose-300 dark:border-rose-800', icon: '⚙️' }
+  'daily-routine': { label: 'Daily Rituals', badge: 'bg-blue-100 text-blue-800 dark:bg-blue-950 dark:text-blue-300 border-blue-300 dark:border-blue-800', icon: '🔄' },
+  'environment': { label: 'Space & Setup', badge: 'bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300 border-amber-300 dark:border-amber-800', icon: '🏡' },
+  'audit': { label: 'Truth Audits', badge: 'bg-purple-100 text-purple-800 dark:bg-purple-950 dark:text-purple-300 border-purple-300 dark:border-purple-800', icon: '📊' },
+  'system': { label: 'Game Changers', badge: 'bg-rose-100 text-rose-800 dark:bg-rose-950 dark:text-rose-300 border-rose-300 dark:border-rose-800', icon: '⚙️' }
 };
 
 export const ActionItemsView: React.FC<ActionItemsViewProps> = ({
@@ -131,12 +131,12 @@ export const ActionItemsView: React.FC<ActionItemsViewProps> = ({
       `Action ${i + 1}: ${a.title}. ${a.description}. Steps: ${a.stepByStep.join(', ')}.`
     ).join(' Next action. ');
 
-    onStartAudio(`Tactical Action Plan · ${book.title}`, fullScript);
+    onStartAudio(`Tactical Game Plan · ${book.title}`, fullScript);
   };
 
   const handleCopyMarkdown = () => {
     const mdLines = [
-      `# Tactical Action Plan: ${book.title} by ${book.author}`,
+      `# Master Game Plan: ${book.title} by ${book.author}`,
       `Generated from BookBox (100% Local Offline Synthesizer)\n`,
       ...actions.map(a => {
         const isDone = completedActionIds.includes(a.id);
@@ -160,13 +160,13 @@ export const ActionItemsView: React.FC<ActionItemsViewProps> = ({
           <div className="space-y-1">
             <div className="flex items-center space-x-2 text-xs font-bold uppercase tracking-wider text-emerald-200">
               <Zap className="w-4 h-4 text-emerald-300" />
-              <span>Tactical Implementation Playbook</span>
+              <span>Your Action Playbook</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
-              Action Plan · {book.title}
+              Game Plan · {book.title}
             </h2>
             <p className="text-xs sm:text-sm text-emerald-100 max-w-xl leading-relaxed">
-              Knowledge without execution is meaningless. Turn the core mental models and stories of this book into concrete, trackable steps.
+              Ideas are cheap, execution is everything. Put this book to work with quick wins, daily rituals, and power moves.
             </p>
           </div>
 
@@ -174,7 +174,7 @@ export const ActionItemsView: React.FC<ActionItemsViewProps> = ({
             <button
               onClick={handleListenAllActions}
               className="flex items-center space-x-1.5 px-3.5 py-2 rounded-xl bg-white/20 hover:bg-white/30 text-white font-semibold text-xs border border-white/30 backdrop-blur-md transition cursor-pointer"
-              title="Listen to full action plan"
+              title="Listen to full game plan"
             >
               <Volume2 className="w-4 h-4 animate-pulse" />
               <span>Listen Plan</span>
@@ -351,7 +351,7 @@ export const ActionItemsView: React.FC<ActionItemsViewProps> = ({
                     <div className="mt-3 pt-3 border-t border-slate-100 dark:border-slate-700/60 space-y-2 animate-fade-in">
                       <h4 className="text-xs font-bold uppercase tracking-wider text-slate-400 flex items-center space-x-1.5">
                         <ListOrdered className="w-3.5 h-3.5 text-blue-500" />
-                        <span>Implementation Protocol</span>
+                        <span>Power Moves</span>
                       </h4>
                       <ol className="space-y-1.5 pl-1">
                         {item.stepByStep.map((step, sIdx) => (

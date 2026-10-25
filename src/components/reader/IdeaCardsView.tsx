@@ -109,7 +109,7 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({
             Idea Cards · {book.title}
           </h3>
           <p className="text-xs text-purple-800 dark:text-purple-300">
-            Atomic mental models, tactical frameworks, and quotes. Tap card to flip or save to stash.
+            Bite-sized mental models, brain sparks, and power quotes. Tap to flip or stash!
           </p>
         </div>
 
@@ -331,7 +331,7 @@ export const IdeaCardsView: React.FC<IdeaCardsViewProps> = ({
                     {idea.actionItem && (
                       <div className={`border-l-3 sm:border-l-4 border-emerald-500 pl-3.5 py-1 text-slate-800 dark:text-slate-200 break-words ${fontSizeClass}`}>
                         <strong className="block mb-1 font-semibold text-emerald-700 dark:text-emerald-400 break-words">
-                          Action Step:
+                          Power Move:
                         </strong>
                         <div className="space-y-1 break-words">
                           {(idea.actionItem.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (

@@ -95,7 +95,7 @@ export const ChapterDiagramViewer: React.FC<ChapterDiagramViewerProps> = ({
         <div className={`border-l-3 sm:border-l-4 border-blue-500 pl-3.5 py-1.5 text-slate-800 dark:text-slate-200 flex items-start space-x-2.5 ${fontSizeClass}`}>
           <RotateCw className="w-4 h-4 text-blue-500 shrink-0 mt-1 animate-spin" style={{ animationDuration: '6s' }} />
           <span className="leading-relaxed break-words">
-            <strong className="font-bold text-blue-700 dark:text-blue-400">Continuous Feedback Loop:</strong> Each repetition reinforces the habit and compounds results.
+            <strong className="font-bold text-blue-700 dark:text-blue-400">The Infinite Flywheel:</strong> Each repetition builds momentum and makes the next round easier.
           </span>
         </div>
       </div>
@@ -282,7 +282,7 @@ export const ChapterDiagramViewer: React.FC<ChapterDiagramViewerProps> = ({
         </div>
 
         <span className="text-xs font-semibold px-2.5 py-1 rounded-lg bg-blue-50 dark:bg-blue-950/60 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-900 shrink-0 whitespace-nowrap">
-          Visual Model
+          Brain Blueprint
         </span>
       </div>
 

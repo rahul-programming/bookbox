@@ -98,7 +98,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
         <div className="sticky top-24 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 p-4 shadow-xs">
           <div className="flex items-center space-x-2 text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-3">
             <ListOrdered className="w-4 h-4 text-blue-500" />
-            <span>Guide Outline</span>
+            <span>Field Guide</span>
           </div>
 
           <nav className="space-y-1">
@@ -111,7 +111,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
               }`}
             >
               <FileText className="w-4 h-4 shrink-0" />
-              <span>1-Page Summary</span>
+              <span>1-Page Fast Track</span>
             </button>
 
             <button
@@ -135,7 +135,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
               }`}
             >
               <Sparkles className="w-4 h-4 shrink-0 text-amber-500" />
-              <span>Stories & Anecdotes ({book.stories?.length || 0})</span>
+              <span>Real-World Stories ({book.stories?.length || 0})</span>
             </button>
 
             <button
@@ -147,7 +147,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
               }`}
             >
               <PenTool className="w-4 h-4 shrink-0" />
-              <span>Interactive Exercises ({book.reflectionExercises.length})</span>
+              <span>Action Lab ({book.reflectionExercises.length})</span>
             </button>
           </nav>
         </div>
@@ -164,7 +164,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
             <div className="p-4 sm:p-6 lg:p-7 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-sm space-y-4 min-w-0 break-words">
               <div className="flex items-center justify-between">
                 <span className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
-                  Comprehensive 1-Page Summary
+                  The 1-Page Fast Track
                 </span>
                 
                 <button
@@ -173,7 +173,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
                   title="Listen to 1-Page Summary with natural female voice"
                 >
                   <Volume2 className="w-3.5 h-3.5 text-blue-600 dark:text-blue-400 animate-pulse" />
-                  <span>Listen 1-Page Summary</span>
+                  <span>Listen Fast Track</span>
                 </button>
               </div>
 
@@ -214,7 +214,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
             {/* Central Thesis */}
             <div className="p-4 sm:p-6 rounded-2xl bg-gradient-to-r from-blue-500/10 via-indigo-500/10 to-purple-500/10 dark:from-blue-950/40 dark:to-indigo-950/40 border border-blue-200 dark:border-blue-800/80 min-w-0 break-words">
               <span className="text-xs font-bold uppercase tracking-wider text-blue-700 dark:text-blue-300 block mb-1">
-                Foundational Thesis
+                The Big Idea
               </span>
               <p className={`font-bold text-slate-900 dark:text-slate-100 break-words ${fontSizeClass}`}>
                 "{book.onePageSummary.coreThesis}"
@@ -225,10 +225,10 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
             <div className="p-4 sm:p-6 lg:p-7 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-sm space-y-5 min-w-0 break-words">
               <div>
                 <h3 className="text-lg font-bold text-slate-900 dark:text-slate-100">
-                  Core Conceptual Pillars
+                  The Power Pillars
                 </h3>
                 <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
-                  The primary intellectual engines and structural building blocks of the book.
+                  The intellectual engines and unfair advantages inside this book.
                 </p>
               </div>
 
@@ -280,10 +280,10 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
                 <div>
                   <div className="flex items-center space-x-2 text-xs font-bold uppercase tracking-wider text-indigo-600 dark:text-indigo-400 mb-1">
                     <Sparkles className="w-3.5 h-3.5" />
-                    <span>Signature Operating Model</span>
+                    <span>Signature Playbook</span>
                   </div>
                   <h3 className="text-lg font-bold text-slate-900 dark:text-slate-100">
-                    {book.onePageSummary.frameworkName || 'The Core Implementation Framework'}
+                    {book.onePageSummary.frameworkName || 'The Core Playbook'}
                   </h3>
                   {book.onePageSummary.frameworkSummary && (
                     <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
@@ -310,7 +310,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
                         {step.summary}
                       </p>
                       <div className={`pt-1 border-l-3 border-indigo-500 pl-3 py-0.5 text-slate-800 dark:text-slate-200 ${fontSizeClass} leading-relaxed break-words`}>
-                        <strong className="font-bold text-indigo-700 dark:text-indigo-400">⚡ Tip:</strong> {step.executionTip}
+                        <strong className="font-bold text-indigo-700 dark:text-indigo-400">⚡ Pro Tip:</strong> {step.executionTip}
                       </div>
                     </div>
                   ))}
@@ -322,7 +322,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
             {book.onePageSummary.readingRoadmap && book.onePageSummary.readingRoadmap.length > 0 && (
               <div className="p-6 sm:p-7 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-sm space-y-4">
                 <h3 className="text-base sm:text-lg font-bold text-slate-900 dark:text-slate-100">
-                  Target Audience & Reading Roadmap
+                  Who This Is For & Fast Paths
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-3.5">
                   {book.onePageSummary.readingRoadmap.map((item, idx) => (
@@ -463,7 +463,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
 
                       {/* Editorial Context Callout */}
                       <div className={`border-l-3 sm:border-l-4 border-blue-500 pl-3.5 sm:pl-4 py-1 text-slate-700 dark:text-slate-300 ${fontSizeClass}`}>
-                        <strong className="text-slate-900 dark:text-slate-100 font-semibold">Editorial Synthesis: </strong>
+                        <strong className="text-slate-900 dark:text-slate-100 font-semibold">The Bottom Line: </strong>
                         {blink.keyTakeaway}
                       </div>
                     </div>
@@ -548,7 +548,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
                       />
 
                       <div className={`border-l-3 sm:border-l-4 border-amber-500 pl-3.5 sm:pl-4 py-1 text-slate-800 dark:text-slate-200 ${fontSizeClass} leading-relaxed`}>
-                        <strong className="text-amber-800 dark:text-amber-400 font-bold">Core Behavioral Lesson: </strong>
+                        <strong className="text-amber-800 dark:text-amber-400 font-bold">The Moral of the Story: </strong>
                         {story.coreLesson}
                       </div>
                     </div>
@@ -565,10 +565,10 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
             <div className="p-5 rounded-2xl bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-900/60 flex items-center justify-between">
               <div>
                 <h3 className="font-bold text-amber-900 dark:text-amber-200 text-sm sm:text-base">
-                  Interactive Action Worksheets
+                  The Action Lab
                 </h3>
                 <p className="text-xs text-amber-800 dark:text-amber-300 mt-0.5">
-                  Type your reflection responses. Work is automatically saved locally to your device.
+                  Hands-on self-reflection prompts. Responses are automatically saved to your device.
                 </p>
               </div>
             </div>

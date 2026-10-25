@@ -279,10 +279,10 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
                   ? 'bg-white dark:bg-slate-900 text-blue-600 dark:text-blue-400 shadow-xs'
                   : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
               }`}
-              title="Action Items: Concrete implementation checklist and protocols"
+              title="Game Plan: Tactical habits, quick wins, and power moves"
             >
               <ListChecks className="w-3.5 h-3.5" />
-              <span className="hidden sm:inline">Action Plan</span>
+              <span className="hidden sm:inline">Game Plan</span>
             </button>
 
             <button
