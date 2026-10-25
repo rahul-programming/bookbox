@@ -55,7 +55,7 @@ export const Header: React.FC<HeaderProps> = ({
   const goalPercent = Math.min(100, Math.round((todayMinutes / dailyGoal) * 100));
 
   return (
-    <header className="sticky top-0 z-40 border-b border-slate-200/80 dark:border-slate-800/80 bg-white dark:bg-slate-900 backdrop-blur-md transition-colors w-full max-w-full overflow-hidden">
+    <header className="sticky top-0 z-50 border-b border-slate-200/80 dark:border-slate-800/80 bg-white dark:bg-slate-900 backdrop-blur-md transition-colors w-full max-w-full">
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 h-16 flex items-center justify-between w-full min-w-0">
         
         {/* Logo Branding - Clickable to return to Home from any page */}
@@ -180,7 +180,7 @@ export const Header: React.FC<HeaderProps> = ({
 
           {/* User Account / Auth Section */}
           {currentUser ? (
-            <div className="relative" ref={userMenuRef}>
+            <div className="relative z-50" ref={userMenuRef}>
               <button
                 type="button"
                 onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}
@@ -195,7 +195,7 @@ export const Header: React.FC<HeaderProps> = ({
               </button>
 
               {isUserMenuOpen && (
-                <div className="absolute right-0 mt-2 w-64 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-xl p-4 z-50 space-y-3 animate-fade-in">
+                <div className="absolute right-0 mt-2 w-64 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-2xl p-4 z-50 space-y-3 animate-fade-in">
                   <div className="flex items-center space-x-3 pb-3 border-b border-slate-100 dark:border-slate-700">
                     <span className="text-3xl">{currentUser.avatarEmoji || '🦉'}</span>
                     <div className="truncate">

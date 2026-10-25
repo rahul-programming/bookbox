@@ -221,7 +221,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
     <div className="flex-1 pb-32 w-full max-w-full overflow-x-hidden">
       
       {/* Sticky Reader Sub-Header */}
-      <div className="sticky top-16 z-30 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 shadow-xs backdrop-blur-md transition-colors w-full max-w-full overflow-hidden">
+      <div className="sticky top-16 z-30 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 shadow-xs backdrop-blur-md transition-colors w-full max-w-full">
         <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 h-14 flex items-center justify-between gap-2 sm:gap-4 w-full min-w-0 overflow-x-auto no-scrollbar">
           
           {/* Back button & Book Info */}
