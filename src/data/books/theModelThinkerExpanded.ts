@@ -1,5 +1,5 @@
 // The Model Thinker by Scott E. Page
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -1019,169 +1019,169 @@ export const THE_MODEL_THINKER_BOOK: Book = {
   "actionItems": [
     {
       "id": "the-model-thinker-act-1",
-      "title": "Run a Many-Model Sanity Check",
-      "description": "Never trust a single perspective to explain a messy situation. By putting on three distinct explanatory hats before deciding, you spot blind spots and avoid being tricked by one tidy narrative.",
+      "title": "Test Three Different Angles",
+      "description": "Never trust just one story when facing a tricky situation. Looking through three fresh lenses helps you catch hidden blind spots.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Pick a tricky dilemma currently sitting on your desk or mind.",
-        "Explain it using an incentive model (what payoffs drive each person?).",
-        "Explain it using a network model (who influences whom across the social web?).",
-        "Identify the shared blind spot that all three views reveal together."
+        "1. Pick one tough problem currently on your mind.",
+        "2. Ask what rewards or penalties drive each person involved.",
+        "3. Map out who talks to whom and holds influence.",
+        "4. Spot the common blind spot that all angles reveal."
       ],
       "sourceChapter": "Chapter 1: Why Model?"
     },
     {
       "id": "the-model-thinker-act-2",
-      "title": "Map Your Daily Feedback Loops",
-      "description": "Notice the hidden spirals shaping your energy and mood. Positive feedback loops amplify behavior into burnout or flow, while negative feedback loops stabilize your equilibrium.",
+      "title": "Track Daily Mood Spirals",
+      "description": "Notice the hidden patterns that shape your energy each day. Good habits can snowball into flow, while bad loops cause burnout.",
       "category": "daily-routine",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "At the end of your workday, write down your highest and lowest energy moments.",
-        "Trace the trigger backwards: did an initial cue trigger a reinforcing spiral or a self-dampening check?",
-        "Label each cycle as either reinforcing (accelerating snowball) or balancing (restoring equilibrium).",
-        "Add one conscious circuit breaker to interrupt any destructive accelerating spiral tomorrow."
+        "1. Write down your best and worst energy moments today.",
+        "2. Trace back to the exact trigger that started each moment.",
+        "3. Ask if that trigger started a growing snowball effect.",
+        "4. Pick one simple action to break bad cycles tomorrow."
       ],
       "sourceChapter": "Chapter 7: Feedback Loops"
     },
     {
       "id": "the-model-thinker-act-3",
-      "title": "Engineer Spatial Clustering for Serendipity",
-      "description": "Physical arrangements govern interaction probabilities. By strategically arranging your immediate physical space, you spark cross-pollination between disparate ideas and people.",
+      "title": "Rearrange Space to Meet People",
+      "description": "Your physical space shapes how often you chat with other people. Moving shared items creates easy chances to share new ideas.",
       "category": "environment",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Observe the foot traffic paths and default seating clusters in your work environment.",
-        "Identify the isolated corners where cross-discipline exchange currently fails to occur.",
-        "Relocate shared resources like water, print stations, or whiteboards to shared transit intersections.",
-        "Place reading material or exploratory artifacts outside your personal domain into shared gathering zones."
+        "1. Watch where people walk and sit during the workday.",
+        "2. Find quiet corners where people rarely talk to each other.",
+        "3. Move the water cooler or snacks to busy hallways.",
+        "4. Leave interesting books or magazines on shared tables."
       ],
       "sourceChapter": "Chapter 11: Spatial Models"
     },
     {
       "id": "the-model-thinker-act-4",
-      "title": "Perform an Aggregation and Diversity Audit",
-      "description": "Measure whether your advisory team provides genuine cognitive diversity or merely echoes the same predictive errors, applying the Wisdom of Crowds mathematical identity.",
+      "title": "Check Your Team's Thinking",
+      "description": "Teams make better choices when members think in different ways. Check if your group brings fresh views or just agrees.",
       "category": "audit",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "List the last five high-stakes forecasts or decisions you made with your group.",
-        "Record each member's individual prediction prior to team deliberation.",
-        "Calculate the diversity bonus: evaluate whether errors canceled out or correlated across members.",
-        "Flag areas where background homogeneity caused collective blind spots."
+        "1. Pick five big choices your team made recently.",
+        "2. Collect each person's private guess before the group talked.",
+        "3. Check if individual errors canceled out or grouped together.",
+        "4. Spot areas where similar thinking created shared blind spots."
       ],
       "sourceChapter": "Chapter 3: The Diversity Prediction Theorem"
     },
     {
       "id": "the-model-thinker-act-5",
-      "title": "Construct a Granovetter Threshold Protocol",
-      "description": "Social contagion depends on individual peer-pressure thresholds. Build a systemic adoption plan by sequencing adopters from low-threshold rebels to high-threshold traditionalists.",
+      "title": "Start a Peer Domino Effect",
+      "description": "People adopt new habits at very different speeds. Start with eager early adopters to build natural momentum for others.",
       "category": "system",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Select a new habit, initiative, or cultural change you want your group to embrace.",
-        "Estimate the peer adoption count needed by each person before they will join.",
-        "Map the activation cascade starting strictly with low-threshold instigators.",
-        "Remove threshold gaps so the domino chain reaction never stalls out midway."
+        "1. Choose one new habit you want your group to adopt.",
+        "2. Note how many peers each person needs before joining.",
+        "3. Pitch the idea to eager friends who join first.",
+        "4. Use their early wins to invite more hesitant members."
       ],
       "sourceChapter": "Chapter 13: Collective Action and Thresholds"
     },
     {
       "id": "the-model-thinker-act-6",
-      "title": "Deconstruct Peak Performance via Rugged Landscapes",
-      "description": "Visualize your problem-solving efforts as navigation on a rugged fitness terrain, learning when to make incremental climbs and when to take exploratory leaps.",
+      "title": "Break Through a Work Plateau",
+      "description": "Small tweaks will not fix a stalled project. Trying a bold, clumsy experiment can reveal a much better path.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Identify a process where your optimization improvements have plateaued.",
-        "Determine if you are trapped on a local peak where minor tweaks cannot yield further progress.",
-        "Brainstorm two intentionally radical variations that temporarily lower efficiency to explore new peaks.",
-        "Schedule an isolated test run for one radical variant to discover higher ground."
+        "1. Pick a task where progress has completely flattened out.",
+        "2. Admit that small tweaks cannot make it any better.",
+        "3. Brainstorm two wild ideas that work completely differently.",
+        "4. Run a fast, low-risk test with one wild idea."
       ],
       "sourceChapter": "Chapter 10: Rugged Landscapes"
     },
     {
       "id": "the-model-thinker-act-7",
-      "title": "Conduct an Evening Markov Transition Check",
-      "description": "Habitual life operates like a Markov process where transition probabilities dictate long-term steady states, independent of momentary willpower.",
+      "title": "Fix Your Evening Wind Down",
+      "description": "Evening rest depends on clear cues rather than sheer willpower. Removing one small distraction helps you relax without guilt.",
       "category": "daily-routine",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Note the primary state transition that occurred when transitioning from work to evening leisure.",
-        "Identify the exact environmental cue that triggered shifting into distraction or rest.",
-        "Calculate the daily probability of shifting into an intentional focus state given that specific cue.",
-        "Adjust one small friction point to increase the transition odds toward restorative recovery."
+        "1. Notice how you switch from work mode to rest mode.",
+        "2. Find the exact cue that pulls you toward mindless screens.",
+        "3. Count how often that cue ruins your quiet evening time.",
+        "4. Remove that cue so resting becomes your easiest choice."
       ],
       "sourceChapter": "Chapter 6: Markov Processes"
     },
     {
       "id": "the-model-thinker-act-8",
-      "title": "Calibrate Your Choice Architecture Basin",
-      "description": "Design an ambient habitat that acts as an attraction basin, pulling automatic decision-making effortlessly toward productive default paths.",
+      "title": "Clean Up Your Work Triggers",
+      "description": "Your work area secretly shapes your daily choices. Keep good tools visible and hide bad distractions out of sight.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Examine the countertop, digital home screen, or desk surface where decisions happen.",
-        "Identify the gravity wells: visual temptations that pull focus without conscious consent.",
-        "Insert physical friction to weaken bad attraction basins (such as placing distractions behind doors).",
-        "Position high-value tools in the line of sight as the lowest-resistance default choice."
+        "1. Look at your desk and phone home screen right now.",
+        "2. Spot shiny distractions that steal attention without your permission.",
+        "3. Move tempting apps and snacks behind closed doors or folders.",
+        "4. Place your most important work tools right in front."
       ],
       "sourceChapter": "Chapter 17: Path Dependence and Basins of Attraction"
     },
     {
       "id": "the-model-thinker-act-9",
-      "title": "Audit Power Laws and Outlier Exposures",
-      "description": "Differentiate between normal-distribution risks and fat-tailed power-law hazards across your personal finances, projects, and systems.",
+      "title": "Spot Rare Danger Zones",
+      "description": "Most days feel normal, but rare shocks can ruin everything. Setting hard safety limits protects your money, health, and work.",
       "category": "audit",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "List your core life and work domains across health, wealth, and operations.",
-        "Identify which domains exhibit bell-curve behavior versus winner-take-all power-law distributions.",
-        "Inspect whether your safety margins rely on thin-tailed averages that ignore extreme catastrophic shocks.",
-        "Install non-negotiable downside caps to buffer against rare, high-impact tail events."
+        "1. List key areas across your health, money, and work.",
+        "2. Spot which areas could collapse from one surprise event.",
+        "3. Check if your safety savings rely on false normal averages.",
+        "4. Set strict stop-loss rules to block total disaster."
       ],
       "sourceChapter": "Chapter 9: Power Law Distributions"
     },
     {
       "id": "the-model-thinker-act-10",
-      "title": "Deploy a Prisoner's Dilemma Tit-for-Tat Rule",
-      "description": "Eliminate second-guessing in collaborative partnerships by establishing a transparent, forgiving, yet reciprocal cooperation policy.",
+      "title": "Use Fair Partnership Rules",
+      "description": "Working with others works best when rules stay simple and clear. Start friendly, defend boundaries firmly, and forgive quickly.",
       "category": "system",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Select an ongoing professional relationship requiring repeated mutual collaboration.",
-        "Commit to initiating every new interaction cycle with clear, enthusiastic cooperation.",
-        "Establish an immediate, polite boundary if defected on or exploited, showing instant reciprocity.",
-        "Offer instant forgiveness and restore full cooperation the moment the counterparty re-engages."
+        "1. Pick a key coworker or partner you deal with daily.",
+        "2. Start every new task by offering friendly, honest help.",
+        "3. Push back calmly if the other person acts selfishly.",
+        "4. Return to full teamwork as soon as they cooperate again."
       ],
       "sourceChapter": "Chapter 15: Game Theory and Cooperation"
     },
     {
       "id": "the-model-thinker-act-11",
-      "title": "Calibrate Signal vs. Noise via Base Rate Updating",
-      "description": "Prevent cognitive overreactions to striking single data points by anchoring your judgment to the underlying statistical base rate.",
+      "title": "Calm Down Over Sudden News",
+      "description": "Do not panic over single dramatic headlines or strange spikes. Checking normal background odds keeps your thinking calm and grounded.",
       "category": "quick-win",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Select a dramatic piece of news or sudden metric spike received today.",
-        "Look up or estimate the baseline historical rate of this phenomenon occurring.",
-        "Apply Bayes' rule conceptually: ask how likely that signal is to occur given false alarms.",
-        "Adjust your operational stance by updating incrementally rather than sounding a false crisis alarm."
+        "1. Pick one alarming news item or sudden metric jump.",
+        "2. Look up how often this event normally happens anyway.",
+        "3. Ask how likely this alarm is just random noise.",
+        "4. Update your plans gently instead of ringing false alarms."
       ],
       "sourceChapter": "Chapter 4: Statistical Distributions and Bayes' Rule"
     },
     {
       "id": "the-model-thinker-act-12",
-      "title": "Build a Dual-Regime Contingency Matrix",
-      "description": "Construct systemic guardrails recognizing that environments abruptly flip between calm equilibrium regimes and volatile non-linear cascades.",
+      "title": "Plan for Sudden Crises",
+      "description": "Calm conditions can suddenly flip into chaotic trouble. Having clear backup rules ready saves time when trouble starts.",
       "category": "system",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Define the operational parameters of your current normal operating regime.",
-        "Identify the tipping point threshold that signals a phase change into crisis mode.",
-        "Draft a pre-committed switch rule detailing what processes pause when the threshold trips.",
-        "Run an emergency tabletop drill to verify smooth handover between routine and crisis operations."
+        "1. List how your team works during normal, calm days.",
+        "2. Name the red flag that marks a true emergency.",
+        "3. Write down which tasks stop immediately when trouble hits.",
+        "4. Practice this emergency plan once with your team."
       ],
       "sourceChapter": "Chapter 12: Tipping Points and Regime Shifts"
     }
@@ -1358,10 +1358,10 @@ export const THE_MODEL_THINKER_BOOK: Book = {
       "author": "Scott E. Page",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Many-Model Thinker Surpasses the Singular Genius",
-      "body": "No single model can capture the full complexity of social and economic reality.\nWhen we rely on just one analytical framework, its implicit assumptions blind us to critical feedback dynamics and regime shifts.\nBy layering multiple distinct models\u2014economic, biological, physical, and psychological\u2014we triangulate truth through diverse analytical lenses.",
-      "quote": "To become a many-model thinker requires learning a diverse collection of models and knowing when and how to apply them.",
-      "actionItem": "Whenever you formulate an initial hypothesis for a complex problem, force yourself to write down two competing explanations derived from entirely different fields of study.",
+      "headline": "Use Many Models",
+      "body": "One tool cannot explain our complex world.\nUsing only one lens blinds you to big surprises.\nCombining ideas from many fields reveals the whole truth.",
+      "quote": "Smart thinkers master many models and know when to use each one.",
+      "actionItem": "When solving a hard problem, write down two answers from different fields.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1379,10 +1379,10 @@ export const THE_MODEL_THINKER_BOOK: Book = {
       "author": "Scott E. Page",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Diversity Prediction Theorem",
-      "body": "A mathematical certainty governs group forecasts: Collective Error = Average Individual Error - Prediction Diversity.\nThis theorem proves that cognitive diversity among predictors is just as mathematically vital as individual ability in reducing total forecasting error.\nA group of moderately skilled individuals with varied perspectives consistently beats a uniform group of brilliant specialists.",
-      "quote": "Collective error equals average individual error minus prediction diversity. Diversity matters just as much as ability.",
-      "actionItem": "When assembling an evaluation committee or advisory board, measure cognitive distance: intentionally recruit contributors whose thinking tools differ radically from the existing group.",
+      "headline": "Diverse Minds Beat Geniuses",
+      "body": "People make mistakes in different directions.\nWhen you mix different views, their errors cancel out.\nA varied group beats a team of identical experts.",
+      "quote": "Different ways of thinking matter just as much as raw skill.",
+      "actionItem": "Build teams with people who see problems from completely different angles.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1400,10 +1400,10 @@ export const THE_MODEL_THINKER_BOOK: Book = {
       "author": "Scott E. Page",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Granovetter Thresholds and the Illusion of Spontaneous Revolutions",
-      "body": "Mass behavioral cascades rarely erupt from a sudden collective shift in morality or belief.\nInstead, they depend on the distribution of individual thresholds\u2014the exact number of peers someone needs to see acting before joining.\nA single individual with a threshold of two can bridge the gap between early agitators and a cautious majority, igniting an explosive contagion.",
-      "quote": "A crowd might look unified in purpose once moving, but its mobilization depends on an invisible sequence of individual thresholds.",
-      "actionItem": "To introduce a controversial or novel initiative at work, sequence buy-in methodically: persuade zero- and low-threshold early adopters first so mid-threshold colleagues feel safe following.",
+      "headline": "The Tipping Point Rule",
+      "body": "Big group changes happen step by step.\nEach person waits for a specific number of peers before joining.\nOne brave person can start a huge chain reaction.",
+      "quote": "Crowds move only when each person sees enough people move first.",
+      "actionItem": "Convince eager early adopters first so cautious teammates feel safe to follow.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1421,10 +1421,10 @@ export const THE_MODEL_THINKER_BOOK: Book = {
       "author": "Scott E. Page",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Schelling Sorting: Micro-Motives Yield Unintended Macro-Outcomes",
-      "body": "Thomas Schelling's spatial segregation model reveals a counterintuitive disconnect between individual intent and collective organization.\nEven when every resident prefers a fully integrated neighborhood and merely desires not to be an extreme minority (for instance, asking for just 30 percent similar neighbors), the dynamic sorting process inexorably cascades into stark, segregated communities.",
-      "quote": "Micro-motives do not aggregate into macro-behavior in a straightforward way. Tolerant individuals can produce an intolerant system.",
-      "actionItem": "Do not infer individual prejudice or values purely from macro-level group sorting; inspect the small systemic incentives and tipping points guiding relocation.",
+      "headline": "Small Preferences Divide Groups",
+      "body": "People often want just a few neighbors like them.\nEven this tiny preference splits towns into separate camps.\nFriendly individual choices can still build divided worlds.",
+      "quote": "Tolerant people can still accidentally create a completely divided system.",
+      "actionItem": "Look at hidden incentives rather than blaming bad intentions for divided groups.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1442,10 +1442,10 @@ export const THE_MODEL_THINKER_BOOK: Book = {
       "author": "Scott E. Page",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Exploiting the Condorcet Jury Theorem for Smarter Voting",
-      "body": "If individual voters hold an independent accuracy rate above fifty percent, adding more voters drives the probability of a correct majority vote asymptotically toward one hundred percent.\nHowever, if individual judgment drops below fifty percent due to bias, misinformation, or mutual influence, enlarging the group guarantees collective failure.",
-      "quote": "The Condorcet Jury Theorem shows that democracy works miracles under independent competence, but collapses under shared delusion.",
-      "actionItem": "Before conducting a high-stakes group vote, ban open round-table discussion to eliminate social conformity; collect independent written assessments first.",
+      "headline": "The Power of Votes",
+      "body": "Larger groups make better choices when voters think for themselves.\nBut if voters share bad information, larger groups fail faster.\nGroup wisdom requires truly independent minds.",
+      "quote": "Crowds make great choices only when each person thinks independently.",
+      "actionItem": "Collect private written votes before team meetings to prevent people from copying.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1463,10 +1463,10 @@ export const THE_MODEL_THINKER_BOOK: Book = {
       "author": "Scott E. Page",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Markov Chains and the Fallacy of History in Equilibrium",
-      "body": "In a pure Markov process with stable transition probabilities, the long-run stationary distribution depends entirely on transition rules, not the starting state.\nWe often waste cognitive effort analyzing past anomalies when we should be calculating the current transition matrix: the probability of shifting from state A to state B right now.",
-      "quote": "If a system is Markovian, the path taken to reach the present state tells you nothing about where it transitions next.",
-      "actionItem": "Analyze recurring operational bottlenecks by mapping state-to-state transition probabilities rather than debating historical blame.",
+      "headline": "Focus on the Present",
+      "body": "Some systems move forward based only on where they are now.\nPast events do not change how the next step works.\nStop obsessing over history when fixing today's process.",
+      "quote": "Where you go next depends on your present rules, not your past.",
+      "actionItem": "Fix current workflow rules instead of arguing over past mistakes.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1484,10 +1484,10 @@ export const THE_MODEL_THINKER_BOOK: Book = {
       "author": "Scott E. Page",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Models Clarify What Facts Alone Obscure",
-      "body": "Raw data without models is mere trivia.\nModels supply the essential causal architecture, illuminating counterfactuals and separating systemic signal from random environmental noise.",
-      "quote": "Models are formal representations that make thinking rigorous. Without them, we are hostage to our own cognitive quirks and prejudices.",
-      "actionItem": "Convert one fuzzy verbal intuition about your organization's business strategy into a formal, testable causal flowchart.",
+      "headline": "Models Make Thinking Clear",
+      "body": "Raw numbers mean nothing without a framework.\nSimple mental maps help you spot real cause and effect.\nThey keep you from fooling yourself with random patterns.",
+      "quote": "Models sharpen our thinking and save us from our own bad habits.",
+      "actionItem": "Draw a simple cause-and-effect flowchart for your team's main business goal.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1505,10 +1505,10 @@ export const THE_MODEL_THINKER_BOOK: Book = {
       "author": "Scott E. Page",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Rugged Landscapes and the Danger of Local Optima",
-      "body": "In simple, single-peaked optimization landscapes, straightforward hill-climbing guarantees reaching the global summit.\nIn rugged, multi-peaked environments with interlinked variables, conventional optimization often traps you on a modest foothill.\nEscaping requires deliberate, exploratory moves that temporarily reduce performance to discover superior peaks.",
-      "quote": "On a rugged landscape, continuous improvement can trap you. You must sometimes take worse steps to reach higher ground.",
-      "actionItem": "Reserve ten percent of your operational budget or research time for disruptive, non-optimizing experiments that intentionally diverge from core practices.",
+      "headline": "The Local Trap",
+      "body": "Small daily gains can trap you on a tiny hill.\nReaching the highest mountain requires crossing low valleys.\nSometimes you must try riskier steps to find bigger wins.",
+      "quote": "Tiny daily improvements can trap you on small hills instead of peaks.",
+      "actionItem": "Spend ten percent of your time testing bold ideas that might fail.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1526,10 +1526,10 @@ export const THE_MODEL_THINKER_BOOK: Book = {
       "author": "Scott E. Page",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Path Dependence: Polya Processes and History's Momentum",
-      "body": "A Polya urn process illustrates how early random fluctuations can permanently freeze a system into a single trajectory.\nWhen adding a ball of a chosen color increases the probability of drawing that same color again, early random accidents become locked-in institutional paths, making future reversal nearly impossible.",
-      "quote": "Path dependence means that history matters. Early choices, even accidental ones, cast long shadows over future possibilities.",
-      "actionItem": "When standardizing new software, team architecture, or product protocols, rigorously vet early defaults before increasing returns lock them into permanence.",
+      "headline": "Early Choices Stick",
+      "body": "Early random choices often decide future rules permanently.\nAs a habit gains momentum, changing direction becomes very hard.\nWhat starts as an accident quickly turns into law.",
+      "quote": "History matters because small early choices lock in long-term paths.",
+      "actionItem": "Choose team tools and default rules carefully before they become impossible to change.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1547,10 +1547,10 @@ export const THE_MODEL_THINKER_BOOK: Book = {
       "author": "Scott E. Page",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Dismantling Prisoners' Dilemmas with Tit-for-Tat and Clear Horizons",
-      "body": "Selfish agents consistently defect in one-shot interactions, destroying mutual value.\nTo foster sustained cooperation without top-down policing, design repeated interactions with an indefinite horizon ('the shadow of the future') and employ an initial posture of cooperation paired with swift, reciprocal retaliation against defection.",
-      "quote": "Cooperation emerges naturally when interactions repeat indefinitely and players possess the means to punish opportunistic defection.",
-      "actionItem": "Structure partnership contracts around transparent, iterative milestone deliverables rather than lump-sum end-date agreements.",
+      "headline": "Build Lasting Cooperation",
+      "body": "People cheat when they meet only once.\nLong relationships encourage honesty because bad deeds bring fast payback.\nStart friendly, copy good deeds, and punish bad moves quickly.",
+      "quote": "Trust grows when people know they will deal with each other again.",
+      "actionItem": "Break project contracts into frequent small milestones instead of one final payment.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1568,10 +1568,10 @@ export const THE_MODEL_THINKER_BOOK: Book = {
       "author": "Scott E. Page",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Normal Distributions vs. Power Laws: The Extremistan Border",
-      "body": "Normal distributions govern phenomena with independent, bounded events\u2014like human height or factory variances\u2014where the central limit theorem holds.\nPower laws, driven by preferential attachment and network effects, rule domains where the top fraction accounts for the vast majority of outcomes.\nMisapplying a bell-curve model to a power-law world invites financial catastrophe.",
-      "quote": "Treating a fat-tailed power-law environment as if it follows a bell curve is the foundational error of modern risk modeling.",
-      "actionItem": "Audit your core operational and investment risks: identify whether your primary liabilities lie within standard standard-deviation buffers or in fat-tailed tail events.",
+      "headline": "Averages Versus Outliers",
+      "body": "Some things cluster around an average, like human height.\nOther realms are ruled by rare giants, like book sales.\nTreating superstar markets like average worlds invites big disaster.",
+      "quote": "Do not treat extreme winner-take-all worlds like predictable everyday averages.",
+      "actionItem": "Check whether your business risks come from normal dips or rare shocks.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1589,10 +1589,10 @@ export const THE_MODEL_THINKER_BOOK: Book = {
       "author": "Scott E. Page",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Network Topology: Why Hubs Accelerate and Vulnerate Systems",
-      "body": "In scale-free networks shaped by preferential attachment, a tiny handful of nodes accumulate massive degree centrality.\nThis topology offers immense resilience against random component failures, but exposes an acute vulnerability: targeted attacks on the central hubs can shatter the entire network in an instant.",
-      "quote": "Scale-free networks are robust to accident yet extraordinarily fragile to deliberate intervention.",
-      "actionItem": "Identify the critical information or operational hubs in your company; build redundant communication pipelines around them to prevent systemic paralysis.",
+      "headline": "Protect Central Hubs",
+      "body": "Most networks rely heavily on a few vital hubs.\nThese super-connected points make the system fast and strong.\nBut when one main hub breaks, the entire network fails.",
+      "quote": "Connected networks survive random accidents, but crumble when key hubs fail.",
+      "actionItem": "Spot the single points of contact in your company and build backups.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1610,10 +1610,10 @@ export const THE_MODEL_THINKER_BOOK: Book = {
       "author": "Scott E. Page",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Mitigating Information Cascades with Forced Sequential Skepticism",
-      "body": "Information cascades occur when individuals base decisions on the observed actions of predecessors rather than their own private signals, creating a fragile consensus based on virtually zero aggregate evidence.\nCascades collapse rapidly once credible public information is introduced.",
-      "quote": "In an information cascade, rational agents imitate others, producing a fragile consensus that can shatter on the arrival of a single truth.",
-      "actionItem": "In product review or risk meetings, require junior team members to present their evaluations first, preventing their judgment from anchoring on executive signals.",
+      "headline": "Stop the Copycat Effect",
+      "body": "People often copy earlier choices instead of trusting their own eyes.\nThis creates popular trends built on zero real proof.\nSuch crowds break apart as soon as facts appear.",
+      "quote": "People copy others and build weak trends that shatter under truth.",
+      "actionItem": "Ask newer team members to speak first in meetings before bosses talk.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1631,10 +1631,10 @@ export const THE_MODEL_THINKER_BOOK: Book = {
       "author": "Scott E. Page",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The SIR Contagion Model: Managing the Reproduction Rate",
-      "body": "Whether tracking viral transmission, computer malware, or cultural memes, the SIR model segments populations into Susceptible, Infectious, and Recovered.\nThe fundamental tipping dynamic depends on R0: the basic reproduction number.\nIf R0 exceeds 1, exponential spread is inevitable; if R0 drops even slightly below 1, the spread naturally extinguishes.",
-      "quote": "The mechanics of epidemics apply equally to viruses, viral products, and toxic organizational behaviors.",
-      "actionItem": "To halt the spread of toxic workplace practices, either remove infectious vectors immediately or reduce exposure rates by reconfiguring team communication channels.",
+      "headline": "How Things Spread",
+      "body": "Rumors, habits, and germs spread in the same way.\nWhen one person infects more than one peer, growth explodes.\nCut the infection number below one, and the wave dies.",
+      "quote": "The rules behind viral sickness also drive memes and toxic office habits.",
+      "actionItem": "Stop bad workplace gossip by separating toxic partners into different teams.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1652,10 +1652,10 @@ export const THE_MODEL_THINKER_BOOK: Book = {
       "author": "Scott E. Page",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Models Provide Counterfactual Superpowers",
-      "body": "Observing reality shows only what happened, never what might have occurred.\nModels allow us to run synthetic experiments on history, varying single parameters to discover unobserved fragilities and hidden structural possibilities.",
-      "quote": "Models allow us to explore counterfactual worlds, to ask 'what if' in a disciplined and mathematically coherent manner.",
-      "actionItem": "When conducting a post-mortem on a past failure, change one specific organizational parameter in your causal model to determine whether the outcome would have flipped.",
+      "headline": "Ask What If",
+      "body": "Real life shows only the single path that actually happened.\nGood models let you test alternate pasts in your head.\nTesting different paths uncovers hidden risks before they hurt.",
+      "quote": "Models give us the power to explore alternate realities with discipline.",
+      "actionItem": "Review your last big project failure by asking what one change fixes.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1673,10 +1673,10 @@ export const THE_MODEL_THINKER_BOOK: Book = {
       "author": "Scott E. Page",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Spatial Competition and the Hotelling Clustering Effect",
-      "body": "Harold Hotelling's model explains why competitors\u2014such as gas stations, fast-food outlets, and political candidates\u2014cluster together rather than distributing evenly to serve customers.\nIn a quest to capture the median customer while protecting their baseline flank, competing entities rationally mimic their rivals' positions, degrading overall consumer convenience.",
-      "quote": "Rational competition often produces spatial and ideological uniformity rather than diverse consumer choice.",
-      "actionItem": "Resist the instinctive urge to copy your main competitor's feature set; consciously plant your product flag away from the crowded middle to command an unserved niche.",
+      "headline": "Why Competitors Crowd Together",
+      "body": "Shops and politicians often bunch up in the middle.\nThey crowd their rivals to steal every possible customer.\nThis race to the center gives buyers fewer unique choices.",
+      "quote": "Rivalry often forces competitors to look identical instead of offering fresh choices.",
+      "actionItem": "Do not copy your rival's features; build for people they ignore.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1694,10 +1694,10 @@ export const THE_MODEL_THINKER_BOOK: Book = {
       "author": "Scott E. Page",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Signaling Theory: Costly Action as the Antidote to Cheap Talk",
-      "body": "In worlds characterized by asymmetric information, cheap talk fails to convince.\nMichael Spence's signaling model demonstrates that a signal is credible only if its cost is prohibitively high for an imposter to replicate.\nHigh-value actors willingly bear this differential cost to prove their authentic quality.",
-      "quote": "To be believed, a signal must be costly enough that an inferior actor cannot afford to send it.",
-      "actionItem": "When communicating trustworthiness or competence to new clients, offer binding guarantees, skin-in-the-game warranties, or non-refundable commitments that an unreliable competitor cannot match.",
+      "headline": "Talk Is Cheap",
+      "body": "Anyone can claim their product is the absolute best.\nA promise earns trust only when lying would cost too much.\nReal quality shows through deeds that fakes cannot afford.",
+      "quote": "To be believed, your promise must be too expensive to fake.",
+      "actionItem": "Offer money-back guarantees that poor competitors could never afford to match.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1715,10 +1715,10 @@ export const THE_MODEL_THINKER_BOOK: Book = {
       "author": "Scott E. Page",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Taming the Winner's Curse in Competitive Bidding",
-      "body": "In auctions for common-value assets with uncertain valuations, the highest bidder is almost guaranteed to have overvalued the prize.\nWinning the contest therefore signals that your private estimate was the most aggressively optimistic in the room, leading directly to financial losses unless you adjust your bid downward beforehand.",
-      "quote": "In a common-value auction, victory is often defeat in disguise unless you factor in the winner's curse.",
-      "actionItem": "In competitive procurement or acquisition negotiations, automatically discount your maximum bid proportionally to the number of competing bidders participating.",
+      "headline": "The Winner's Trap",
+      "body": "In blind bidding wars, the top bidder usually overpays.\nWinning merely proves you had the most foolish estimate.\nUnless you lower your bid early, victory costs you money.",
+      "quote": "Winning a bidding battle is often a loss in disguise.",
+      "actionItem": "Lower your top bid whenever you see a lot of eager competitors.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1736,10 +1736,10 @@ export const THE_MODEL_THINKER_BOOK: Book = {
       "author": "Scott E. Page",
       "category": "Psychology",
       "type": "concept",
-      "headline": "System Dynamics: Stocks, Flows, and Delay Lags",
-      "body": "Complex systems consist of stocks (accumulations) and flows (rates of change).\nBecause human intuition instinctively focuses on visible inflows and outflows while ignoring feedback delays, leaders constantly overcorrect.\nWhen managers fail to respect system response lag, their aggressive policy swings induce violent oscillations rather than stability.",
-      "quote": "Delays between action and feedback turn well-intentioned interventions into violent system oscillations.",
-      "actionItem": "Before altering key policies, estimate the temporal delay between implementation and measurable system response; commit to a moratorium on further adjustments until that window concludes.",
+      "headline": "Beware of Time Delays",
+      "body": "Big systems take time to react to new changes.\nLeaders panic during the wait and steer way too hard.\nImpatience turns simple delays into wild swings and crashes.",
+      "quote": "Delays between action and results turn simple fixes into wild problems.",
+      "actionItem": "Wait long enough for a new policy to work before changing it.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1757,10 +1757,10 @@ export const THE_MODEL_THINKER_BOOK: Book = {
       "author": "Scott E. Page",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Wisdom is the Art of Lattice Construction",
-      "body": "Intelligence is the ability to master a single formal framework, but wisdom is knowing how multiple models intersect, constrain, and enrich one another.\nThe many-model approach transforms fragmented knowledge into an interconnected, resilient understanding of the world.",
-      "quote": "Wisdom lies in the ability to hold multiple models in the mind simultaneously and navigate the tensions between them.",
-      "actionItem": "Build a written catalog of your top ten foundational mental models across biology, economics, physics, and psychology, and review complex problems across the entire catalog.",
+      "headline": "Connect Your Ideas",
+      "body": "Clever people master one idea very well.\nWise people understand how different ideas link and support each other.\nTrue clarity comes from weaving many models together.",
+      "quote": "Wisdom means holding multiple ideas in mind without getting confused.",
+      "actionItem": "List five basic mental models and test your hardest decisions against each.",
       "tags": [
         "Psychology",
         "Core Insights"

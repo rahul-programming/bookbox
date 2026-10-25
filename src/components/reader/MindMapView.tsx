@@ -1,7 +1,6 @@
 import React, { useState, useRef, useMemo, useEffect } from 'react';
 import { Book, MindMapNode } from '../../types';
 import { 
-  Network, 
   ZoomIn, 
   ZoomOut, 
   Maximize2, 
@@ -584,59 +583,38 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
         : 'max-w-7xl mx-auto pt-4 sm:pt-4 pb-16 space-y-4 w-full max-w-full overflow-x-hidden'
     }`}>
       
-      {/* Top Controls Toolbar */}
-      <div className={`scroll-mt-36 p-3 sm:p-4 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-xs flex flex-wrap items-center justify-between gap-3 ${isFullscreen ? 'shrink-0' : ''}`}>
+      {/* Top Controls Toolbar - Compact & Left-Aligned */}
+      <div className={`scroll-mt-36 p-2 sm:p-2.5 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-xs flex flex-wrap items-center justify-start gap-2 sm:gap-3 ${isFullscreen ? 'shrink-0' : ''}`}>
         
-        {/* Left: Title & Mode Toggle */}
-        <div className="flex items-center space-x-3">
-          <div className="w-9 h-9 rounded-xl bg-blue-600/10 dark:bg-blue-500/20 text-blue-600 dark:text-blue-400 flex items-center justify-center">
-            <Network className="w-5 h-5" />
-          </div>
-          <div>
-            <h3 className="font-bold text-sm text-slate-900 dark:text-slate-100 flex items-center space-x-2">
-              <span>Visual Concept Map</span>
-              <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-blue-100 dark:bg-blue-950 text-blue-700 dark:text-blue-300">
-                Visual
-              </span>
-            </h3>
-            <p className="text-[11px] text-slate-500 dark:text-slate-400">
-              Interactive Bézier mind map. Drag canvas to pan, click nodes to inspect.
-            </p>
-          </div>
-        </div>
-
-        {/* Center / Right: Layout Switcher, Search, Zoom */}
-        <div className="flex flex-wrap items-center gap-2">
-          
-          {/* Search in map */}
-          <div className="relative">
-            <Search className="w-3.5 h-3.5 text-slate-400 absolute left-2.5 top-2.5 pointer-events-none" />
-            <input
-              type="text"
-              placeholder="Search concepts..."
-              value={searchQuery}
-              onChange={e => setSearchQuery(e.target.value)}
-              onKeyDown={(e) => {
-                if (e.key === 'Escape') setSearchQuery('');
+        {/* Search in map */}
+        <div className="relative">
+          <Search className="w-3.5 h-3.5 text-slate-400 absolute left-2.5 top-2.5 pointer-events-none" />
+          <input
+            type="text"
+            placeholder="Search concepts..."
+            value={searchQuery}
+            onChange={e => setSearchQuery(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Escape') setSearchQuery('');
+            }}
+            className="pl-8 pr-8 py-1.5 text-xs rounded-xl bg-slate-100 dark:bg-slate-700/60 border border-transparent focus:border-blue-500 focus:bg-white dark:focus:bg-slate-800 text-slate-800 dark:text-slate-200 outline-none transition w-36 sm:w-44"
+          />
+          {searchQuery && (
+            <button
+              type="button"
+              onMouseDown={(e) => {
+                e.preventDefault();
+                setSearchQuery('');
               }}
-              className="pl-8 pr-8 py-1.5 text-xs rounded-xl bg-slate-100 dark:bg-slate-700/60 border border-transparent focus:border-blue-500 focus:bg-white dark:focus:bg-slate-800 text-slate-800 dark:text-slate-200 outline-none transition w-36 sm:w-44"
-            />
-            {searchQuery && (
-              <button
-                type="button"
-                onMouseDown={(e) => {
-                  e.preventDefault();
-                  setSearchQuery('');
-                }}
-                onClick={() => setSearchQuery('')}
-                className="absolute right-1.5 top-1/2 -translate-y-1/2 w-4.5 h-4.5 flex items-center justify-center rounded-full bg-slate-200/90 hover:bg-slate-300 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-600 dark:text-slate-200 hover:text-slate-900 dark:hover:text-white shadow-xs transition-all cursor-pointer z-10"
-                title="Clear search"
-                aria-label="Clear search"
-              >
-                <X className="w-2.5 h-2.5 stroke-[2.5]" />
-              </button>
-            )}
-          </div>
+              onClick={() => setSearchQuery('')}
+              className="absolute right-1.5 top-1/2 -translate-y-1/2 w-4.5 h-4.5 flex items-center justify-center rounded-full bg-slate-200/90 hover:bg-slate-300 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-600 dark:text-slate-200 hover:text-slate-900 dark:hover:text-white shadow-xs transition-all cursor-pointer z-10"
+              title="Clear search"
+              aria-label="Clear search"
+            >
+              <X className="w-2.5 h-2.5 stroke-[2.5]" />
+            </button>
+          )}
+        </div>
 
           {/* Layout Mode Switcher */}
           <div className="flex items-center p-0.5 rounded-xl bg-slate-100 dark:bg-slate-700/60 text-xs font-medium">
@@ -743,7 +721,6 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
             </button>
           </div>
 
-        </div>
       </div>
 
       {/* Main Canvas & Inspector Layout */}
