@@ -76,6 +76,20 @@ import { SOCRATIC_LOGIC_BOOK } from './books/socraticLogicExpanded';
 import { LOGIC_A_VERY_SHORT_INTRODUCTION_BOOK } from './books/logicAVeryShortIntroductionExpanded';
 import { THE_USES_OF_ARGUMENT_BOOK } from './books/theUsesOfArgumentExpanded';
 import { AN_INTRODUCTION_TO_REASONING_BOOK } from './books/anIntroductionToReasoningExpanded';
+import { ARGUMENTATION_AND_DEBATE_CRITICAL_THINKING_FOR_REASONED_DECI_BOOK } from './books/argumentationAndDebateCriticalThinkingForReasonedDeciExpanded';
+import { EVERYTHING_S_AN_ARGUMENT_BOOK } from './books/everythingSAnArgumentExpanded';
+import { GOOD_REASONS_FOR_BETTER_ARGUMENTS_BOOK } from './books/goodReasonsForBetterArgumentsExpanded';
+import { HOW_TO_HAVE_IMPOSSIBLE_CONVERSATIONS_BOOK } from './books/howToHaveImpossibleConversationsExpanded';
+import { PLATO_S_REPUBLIC_SELECTED_DIALOGUES_BOOK } from './books/platoSRepublicSelectedDialoguesExpanded';
+import { THE_SOCRATIC_METHOD_OF_PSYCHOTHERAPY_BOOK } from './books/theSocraticMethodOfPsychotherapyExpanded';
+import { THINK_AGAIN_THE_POWER_OF_KNOWING_WHAT_YOU_DON_T_KNOW_BOOK } from './books/thinkAgainThePowerOfKnowingWhatYouDonTKnowExpanded';
+import { THE_ART_OF_DIALOGUE_BOOK } from './books/theArtOfDialogueExpanded';
+import { LOGICALLY_FALLACIOUS_BOOK } from './books/logicallyFallaciousExpanded';
+import { ATTACKING_FAULTY_REASONING_BOOK } from './books/attackingFaultyReasoningExpanded';
+import { AN_ILLUSTRATED_BOOK_OF_BAD_ARGUMENTS_BOOK } from './books/anIllustratedBookOfBadArgumentsExpanded';
+import { WITH_GOOD_REASON_AN_INTRODUCTION_TO_INFORMAL_FALLACIES_BOOK } from './books/withGoodReasonAnIntroductionToInformalFallaciesExpanded';
+import { FALLACIES_AND_ARGUMENT_APPRAISAL_BOOK } from './books/fallaciesAndArgumentAppraisalExpanded';
+import { THE_ART_OF_BEING_RIGHT_THE_ART_OF_CONTROVERSY_BOOK } from './books/theArtOfBeingRightTheArtOfControversyExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -152,7 +166,21 @@ export const SEED_BOOKS: Book[] = [
   SOCRATIC_LOGIC_BOOK,
   LOGIC_A_VERY_SHORT_INTRODUCTION_BOOK,
   THE_USES_OF_ARGUMENT_BOOK,
-  AN_INTRODUCTION_TO_REASONING_BOOK
+  AN_INTRODUCTION_TO_REASONING_BOOK,
+  ARGUMENTATION_AND_DEBATE_CRITICAL_THINKING_FOR_REASONED_DECI_BOOK,
+  EVERYTHING_S_AN_ARGUMENT_BOOK,
+  GOOD_REASONS_FOR_BETTER_ARGUMENTS_BOOK,
+  HOW_TO_HAVE_IMPOSSIBLE_CONVERSATIONS_BOOK,
+  PLATO_S_REPUBLIC_SELECTED_DIALOGUES_BOOK,
+  THE_SOCRATIC_METHOD_OF_PSYCHOTHERAPY_BOOK,
+  THINK_AGAIN_THE_POWER_OF_KNOWING_WHAT_YOU_DON_T_KNOW_BOOK,
+  THE_ART_OF_DIALOGUE_BOOK,
+  LOGICALLY_FALLACIOUS_BOOK,
+  ATTACKING_FAULTY_REASONING_BOOK,
+  AN_ILLUSTRATED_BOOK_OF_BAD_ARGUMENTS_BOOK,
+  WITH_GOOD_REASON_AN_INTRODUCTION_TO_INFORMAL_FALLACIES_BOOK,
+  FALLACIES_AND_ARGUMENT_APPRAISAL_BOOK,
+  THE_ART_OF_BEING_RIGHT_THE_ART_OF_CONTROVERSY_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -231,7 +259,21 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(SOCRATIC_LOGIC_BOOK.ideaCards || []),
   ...(LOGIC_A_VERY_SHORT_INTRODUCTION_BOOK.ideaCards || []),
   ...(THE_USES_OF_ARGUMENT_BOOK.ideaCards || []),
-  ...(AN_INTRODUCTION_TO_REASONING_BOOK.ideaCards || [])
+  ...(AN_INTRODUCTION_TO_REASONING_BOOK.ideaCards || []),
+  ...(ARGUMENTATION_AND_DEBATE_CRITICAL_THINKING_FOR_REASONED_DECI_BOOK.ideaCards || []),
+  ...(EVERYTHING_S_AN_ARGUMENT_BOOK.ideaCards || []),
+  ...(GOOD_REASONS_FOR_BETTER_ARGUMENTS_BOOK.ideaCards || []),
+  ...(HOW_TO_HAVE_IMPOSSIBLE_CONVERSATIONS_BOOK.ideaCards || []),
+  ...(PLATO_S_REPUBLIC_SELECTED_DIALOGUES_BOOK.ideaCards || []),
+  ...(THE_SOCRATIC_METHOD_OF_PSYCHOTHERAPY_BOOK.ideaCards || []),
+  ...(THINK_AGAIN_THE_POWER_OF_KNOWING_WHAT_YOU_DON_T_KNOW_BOOK.ideaCards || []),
+  ...(THE_ART_OF_DIALOGUE_BOOK.ideaCards || []),
+  ...(LOGICALLY_FALLACIOUS_BOOK.ideaCards || []),
+  ...(ATTACKING_FAULTY_REASONING_BOOK.ideaCards || []),
+  ...(AN_ILLUSTRATED_BOOK_OF_BAD_ARGUMENTS_BOOK.ideaCards || []),
+  ...(WITH_GOOD_REASON_AN_INTRODUCTION_TO_INFORMAL_FALLACIES_BOOK.ideaCards || []),
+  ...(FALLACIES_AND_ARGUMENT_APPRAISAL_BOOK.ideaCards || []),
+  ...(THE_ART_OF_BEING_RIGHT_THE_ART_OF_CONTROVERSY_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
