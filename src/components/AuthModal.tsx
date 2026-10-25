@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { UserAccount } from '../types';
-import { login, signUp } from '../db';
+import { login, signUp, getAllUsers } from '../db';
 import { X, User, Mail, Lock, LogIn, UserPlus, Sparkles, CheckCircle2, AlertCircle } from 'lucide-react';
 
 interface AuthModalProps {
@@ -26,10 +26,14 @@ export const AuthModal: React.FC<AuthModalProps> = ({
   const [migrateGuestData, setMigrateGuestData] = useState(true);
   const [errorMessage, setErrorMessage] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+  const [existingAccounts, setExistingAccounts] = useState<UserAccount[]>([]);
 
   React.useEffect(() => {
     setMode(initialMode);
     setErrorMessage('');
+    if (isOpen) {
+      getAllUsers().then(users => setExistingAccounts(users));
+    }
   }, [initialMode, isOpen]);
 
   if (!isOpen) return null;
@@ -181,6 +185,33 @@ export const AuthModal: React.FC<AuthModalProps> = ({
                 </div>
               </div>
             </>
+          )}
+
+          {/* Quick Select for Accounts Detected on This Device */}
+          {mode === 'login' && existingAccounts.length > 0 && (
+            <div className="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200/80 dark:border-slate-800 space-y-1.5">
+              <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+                Accounts on this device:
+              </span>
+              <div className="flex flex-wrap gap-1.5">
+                {existingAccounts.map(acc => (
+                  <button
+                    key={acc.id}
+                    type="button"
+                    onClick={() => setEmail(acc.email)}
+                    className={`inline-flex items-center space-x-1.5 px-2 py-1 rounded-lg text-xs transition border cursor-pointer ${
+                      email === acc.email
+                        ? 'bg-blue-50 dark:bg-blue-950/50 border-blue-400 text-blue-700 dark:text-blue-300 font-semibold'
+                        : 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:border-blue-300'
+                    }`}
+                  >
+                    <span>{acc.avatarEmoji || '🦉'}</span>
+                    <span className="font-medium">{acc.name}</span>
+                    <span className="text-[10px] text-slate-400 font-mono">({acc.email})</span>
+                  </button>
+                ))}
+              </div>
+            </div>
           )}
 
           {/* Email */}

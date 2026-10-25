@@ -6,6 +6,7 @@ import {
   toggleFavorite, 
   toggleCurrentlyReading, 
   getActiveUser, 
+  getActiveUserSession,
   getUserProgressMap, 
   getUserProfile, 
   logout 
@@ -25,7 +26,7 @@ import { AuthModal } from './components/AuthModal';
 
 export function App() {
   const [isReady, setIsReady] = useState(false);
-  const [currentUser, setCurrentUser] = useState<UserAccount | null>(null);
+  const [currentUser, setCurrentUser] = useState<UserAccount | null>(() => getActiveUserSession());
   const [isAuthOpen, setIsAuthOpen] = useState(false);
   const [authInitialMode, setAuthInitialMode] = useState<'login' | 'signup'>('login');
   const [activeTab, setActiveTab] = useState<MainTab>('library');

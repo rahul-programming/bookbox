@@ -43,6 +43,18 @@ export class BookBoxDB extends Dexie {
 export const db = new BookBoxDB();
 
 export async function initDatabase(): Promise<void> {
+  // 1. Request persistent browser storage to protect IndexedDB and LocalStorage against OS/browser auto-eviction on restart
+  if (typeof navigator !== 'undefined' && navigator.storage && navigator.storage.persist) {
+    try {
+      await navigator.storage.persist();
+    } catch {
+      // Best-effort storage request
+    }
+  }
+
+  // 2. Synchronize user accounts between IndexedDB and LocalStorage Vault
+  await syncUserVault();
+
   const booksCount = await db.books.count();
   if (booksCount === 0) {
     // Populate seed library
@@ -231,31 +243,227 @@ export async function importDatabaseBackup(jsonString: string): Promise<boolean>
   }
 }
 
+// Pure-JS SHA-256 fallback when Web Crypto API (crypto.subtle) is unavailable (e.g. Insecure HTTP LAN, file://, webviews)
+function sha256Fallback(str: string): string {
+  function rightRotate(value: number, amount: number) {
+    return (value >>> amount) | (value << (32 - amount));
+  }
+  const mathPow = Math.pow;
+  const maxWord = mathPow(2, 32);
+  let lengthProperty = 'length';
+  let i = 0, j = 0;
+  let result = '';
+
+  const words: number[] = [];
+  const asciiBitLength = str.length * 8;
+  let hash: number[] = [];
+  let k: number[] = [];
+  let primeCounter = 0;
+
+  const isComposite: Record<number, boolean> = {};
+  for (let candidate = 2; primeCounter < 64; candidate++) {
+    if (!isComposite[candidate]) {
+      for (i = 0; i < 313; i += candidate) {
+        isComposite[i] = true;
+      }
+      hash[primeCounter] = (mathPow(candidate, 0.5) * maxWord) | 0;
+      k[primeCounter++] = (mathPow(candidate, 1 / 3) * maxWord) | 0;
+    }
+  }
+
+  str += '\x80';
+  while (str.length % 64 - 56) str += '\x00';
+  for (i = 0; i < str.length; i++) {
+    j = str.charCodeAt(i);
+    if (j >> 8) return '';
+    words[i >> 2] |= j << ((3 - i) % 4) * 8;
+  }
+  words[words.length] = ((asciiBitLength / maxWord) | 0);
+  words[words.length] = (asciiBitLength | 0);
+
+  for (j = 0; j < words.length;) {
+    const w = words.slice(j, j += 16);
+    const oldHash = hash;
+    hash = hash.slice(0, 8);
+    for (i = 0; i < 64; i++) {
+      const w15 = w[i - 15], w2 = w[i - 2];
+      const s0 = rightRotate(w15, 7) ^ rightRotate(w15, 18) ^ (w15 >>> 3);
+      const s1 = rightRotate(w2, 17) ^ rightRotate(w2, 19) ^ (w2 >>> 10);
+      const ch = (hash[4] & hash[5]) ^ (~hash[4] & hash[6]);
+      const maj = (hash[0] & hash[1]) ^ (hash[0] & hash[2]) ^ (hash[1] & hash[2]);
+      const temp1 = hash[7] + (rightRotate(hash[4], 6) ^ rightRotate(hash[4], 11) ^ rightRotate(hash[4], 25)) + ch + k[i] + (w[i] = (i < 16) ? w[i] : (w[i - 16] + s0 + w[i - 7] + s1) | 0);
+      const temp2 = (rightRotate(hash[0], 2) ^ rightRotate(hash[0], 13) ^ rightRotate(hash[0], 22)) + maj;
+      hash = [(temp1 + temp2) | 0].concat(hash);
+      hash[4] = (hash[4] + temp1) | 0;
+    }
+    for (i = 0; i < 8; i++) {
+      hash[i] = (hash[i] + oldHash[i]) | 0;
+    }
+  }
+  for (i = 0; i < 8; i++) {
+    for (j = 3; j >= 0; j--) {
+      const b = (hash[i] >> (8 * j)) & 255;
+      result += (b < 16 ? '0' : '') + b.toString(16);
+    }
+  }
+  return result;
+}
+
 export async function hashPassword(password: string): Promise<string> {
-  const encoder = new TextEncoder();
-  const data = encoder.encode(password + "_bookbox_salt_2026");
-  const hashBuffer = await crypto.subtle.digest('SHA-256', data);
-  const hashArray = Array.from(new Uint8Array(hashBuffer));
-  return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+  const salted = password + "_bookbox_salt_2026";
+  try {
+    if (typeof crypto !== 'undefined' && crypto.subtle && typeof crypto.subtle.digest === 'function') {
+      const encoder = new TextEncoder();
+      const data = encoder.encode(salted);
+      const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+      const hashArray = Array.from(new Uint8Array(hashBuffer));
+      return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+    }
+  } catch (e) {
+    console.warn('Web Crypto API failed, falling back to pure SHA-256:', e);
+  }
+  return sha256Fallback(salted);
+}
+
+// LocalStorage User Vault Keys for Dual-Layer Resilience across restarts & reboots
+const USERS_VAULT_KEY = 'bookbox_user_vault_v1';
+const ACTIVE_SESSION_KEY = 'bookbox_active_user_session';
+const ACTIVE_USER_ID_KEY = 'bookbox_active_user_id';
+
+export function getLocalUserVault(): UserAccount[] {
+  try {
+    const raw = localStorage.getItem(USERS_VAULT_KEY);
+    return raw ? JSON.parse(raw) : [];
+  } catch {
+    return [];
+  }
+}
+
+export function saveLocalUserVault(users: UserAccount[]): void {
+  try {
+    localStorage.setItem(USERS_VAULT_KEY, JSON.stringify(users));
+  } catch (e) {
+    console.warn('Failed to save user vault to localStorage:', e);
+  }
+}
+
+export async function persistUser(user: UserAccount): Promise<void> {
+  // 1. IndexedDB
+  try {
+    await db.users.put(user);
+  } catch (e) {
+    console.warn('Failed to write user to IndexedDB:', e);
+  }
+
+  // 2. LocalStorage Vault
+  try {
+    const vault = getLocalUserVault();
+    const idx = vault.findIndex(u => u.id === user.id || u.email.toLowerCase() === user.email.toLowerCase());
+    if (idx >= 0) {
+      vault[idx] = user;
+    } else {
+      vault.push(user);
+    }
+    saveLocalUserVault(vault);
+  } catch (e) {
+    console.warn('Failed to write user to localStorage vault:', e);
+  }
+}
+
+export async function syncUserVault(): Promise<void> {
+  try {
+    const localUsers = getLocalUserVault();
+    let dbUsers: UserAccount[] = [];
+    try {
+      dbUsers = await db.users.toArray();
+    } catch {
+      dbUsers = [];
+    }
+
+    const mergedMap = new Map<string, UserAccount>();
+
+    for (const u of dbUsers) {
+      mergedMap.set(u.email.toLowerCase(), u);
+    }
+
+    for (const u of localUsers) {
+      const existing = mergedMap.get(u.email.toLowerCase());
+      if (!existing || (u.lastLoginAt || 0) >= (existing.lastLoginAt || 0)) {
+        mergedMap.set(u.email.toLowerCase(), u);
+      }
+    }
+
+    const allMerged = Array.from(mergedMap.values());
+    if (allMerged.length > 0) {
+      saveLocalUserVault(allMerged);
+      for (const u of allMerged) {
+        await db.users.put(u).catch(() => {});
+      }
+    }
+  } catch (e) {
+    console.warn('Failed to sync user vault:', e);
+  }
 }
 
 export function getActiveUserId(): string | null {
-  return localStorage.getItem('bookbox_active_user_id') || null;
+  return localStorage.getItem(ACTIVE_USER_ID_KEY) || null;
 }
 
 export function setActiveUserId(id: string | null): void {
   if (id) {
-    localStorage.setItem('bookbox_active_user_id', id);
+    localStorage.setItem(ACTIVE_USER_ID_KEY, id);
   } else {
-    localStorage.removeItem('bookbox_active_user_id');
+    localStorage.removeItem(ACTIVE_USER_ID_KEY);
+    localStorage.removeItem(ACTIVE_SESSION_KEY);
+  }
+}
+
+export function getActiveUserSession(): UserAccount | null {
+  try {
+    const raw = localStorage.getItem(ACTIVE_SESSION_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+}
+
+export function setActiveUserSession(user: UserAccount | null): void {
+  if (user) {
+    setActiveUserId(user.id);
+    try {
+      localStorage.setItem(ACTIVE_SESSION_KEY, JSON.stringify(user));
+    } catch {}
+  } else {
+    setActiveUserId(null);
   }
 }
 
 export async function getActiveUser(): Promise<UserAccount | null> {
-  const id = getActiveUserId();
+  const cached = getActiveUserSession();
+  const id = getActiveUserId() || cached?.id;
   if (!id) return null;
-  const user = await db.users.get(id);
-  return user || null;
+
+  try {
+    const user = await db.users.get(id);
+    if (user) {
+      setActiveUserSession(user);
+      return user;
+    }
+  } catch (e) {
+    console.warn('IndexedDB read error in getActiveUser:', e);
+  }
+
+  // Fallback to local vault
+  const vault = getLocalUserVault();
+  const found = vault.find(u => u.id === id || (cached && u.email === cached.email));
+  if (found) {
+    await db.users.put(found).catch(() => {});
+    setActiveUserSession(found);
+    return found;
+  }
+
+  if (cached) return cached;
+  return null;
 }
 
 export async function signUp(
@@ -276,7 +484,13 @@ export async function signUp(
     return { success: false, error: 'Password must be at least 4 characters long.' };
   }
 
-  const existing = await db.users.where('email').equals(cleanEmail).first();
+  // Check both IndexedDB and LocalStorage vault for existing account
+  let existing = await db.users.where('email').equals(cleanEmail).first().catch(() => undefined);
+  if (!existing) {
+    const vault = getLocalUserVault();
+    existing = vault.find(u => u.email.toLowerCase() === cleanEmail);
+  }
+
   if (existing) {
     return { success: false, error: 'An account with this email already exists. Please log in.' };
   }
@@ -293,32 +507,35 @@ export async function signUp(
     lastLoginAt: now
   };
 
-  await db.users.put(user);
-  setActiveUserId(user.id);
+  await persistUser(user);
+  setActiveUserSession(user);
 
   // If user requested migration of guest data, copy guest progress and habit profile
   if (migrateGuestData) {
-    const guestProgress = await db.progress.filter(p => !p.userId || p.userId === 'guest' || !p.bookId.includes('___')).toArray();
-    for (const gp of guestProgress) {
-      const cleanBookId = gp.actualBookId || gp.bookId.replace('guest___', '');
-      const userKey = `${user.id}___${cleanBookId}`;
-      await db.progress.put({
-        ...gp,
-        bookId: userKey,
-        actualBookId: cleanBookId,
-        userId: user.id
-      });
-    }
+    try {
+      const guestProgress = await db.progress.filter(p => !p.userId || p.userId === 'guest' || !p.bookId.includes('___')).toArray();
+      for (const gp of guestProgress) {
+        const cleanBookId = gp.actualBookId || gp.bookId.replace('guest___', '');
+        const userKey = `${user.id}___${cleanBookId}`;
+        await db.progress.put({
+          ...gp,
+          bookId: userKey,
+          actualBookId: cleanBookId,
+          userId: user.id
+        });
+      }
 
-    const guestProfile = await db.profile.get('active_profile');
-    if (guestProfile) {
-      await db.profile.put({
-        ...guestProfile,
-        id: `profile_${user.id}`
-      });
+      const guestProfile = await db.profile.get('active_profile');
+      if (guestProfile) {
+        await db.profile.put({
+          ...guestProfile,
+          id: `profile_${user.id}`
+        });
+      }
+    } catch (e) {
+      console.warn('Error during guest data migration:', e);
     }
   } else {
-    // Initialize fresh profile
     await getUserProfile(user.id);
   }
 
@@ -330,7 +547,19 @@ export async function login(
   password: string
 ): Promise<{ success: boolean; user?: UserAccount; error?: string }> {
   const cleanEmail = email.trim().toLowerCase();
-  const user = await db.users.where('email').equals(cleanEmail).first();
+
+  // 1. Check IndexedDB
+  let user = await db.users.where('email').equals(cleanEmail).first().catch(() => undefined);
+
+  // 2. Fallback to LocalStorage vault
+  if (!user) {
+    const vault = getLocalUserVault();
+    user = vault.find(u => u.email.toLowerCase() === cleanEmail);
+    if (user) {
+      await db.users.put(user).catch(() => {});
+    }
+  }
+
   if (!user) {
     return { success: false, error: 'No account found with this email. Please check or sign up.' };
   }
@@ -344,18 +573,23 @@ export async function login(
     ...user,
     lastLoginAt: Date.now()
   };
-  await db.users.put(updatedUser);
-  setActiveUserId(user.id);
+
+  await persistUser(updatedUser);
+  setActiveUserSession(updatedUser);
 
   return { success: true, user: updatedUser };
 }
 
 export async function logout(): Promise<void> {
-  setActiveUserId(null);
+  setActiveUserSession(null);
 }
 
 export async function getAllUsers(): Promise<UserAccount[]> {
-  return db.users.toArray();
+  try {
+    const dbUsers = await db.users.toArray();
+    if (dbUsers.length > 0) return dbUsers;
+  } catch {}
+  return getLocalUserVault();
 }
 
 export async function getUserProgressMap(userId: string | null): Promise<Record<string, UserProgress>> {
