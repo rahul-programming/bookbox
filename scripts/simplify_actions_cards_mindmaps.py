@@ -37,7 +37,7 @@ def log(msg):
     ts = time.strftime("%Y-%m-%d %H:%M:%S")
     print(f"[{ts}] {msg}", flush=True)
 
-def query_agy(prompt, timeout=360, effort="low", retries=2):
+def query_agy(prompt, timeout=120, effort="low", retries=1):
     for attempt in range(retries):
         try:
             cmd = [
@@ -68,9 +68,9 @@ def query_agy(prompt, timeout=360, effort="low", retries=2):
                 raise
         except Exception as e:
             if attempt == retries - 1:
-                raise
-            log(f"⚠️ Retry on error: {e}")
-            time.sleep(2)
+                log(f"⚠️ agy query fallback on error: {e}")
+                return {}
+            time.sleep(1)
 
 def clean_quotes(s):
     if not isinstance(s, str):
@@ -138,7 +138,7 @@ STRICT SIMPLICITY RULES:
 2. Words: Everyday plain English. BAN all pretentious words (no "associative machinery", "subjective certainty", "heuristics", "computational", "epistemic asymmetry", "metabolic").
 3. "headline": Short, punchy concept or mental model name (2-5 words).
 4. "body": 2-3 short, clear sentences explaining the core concept in plain language.
-5. "quote": Keep the original authentic quote as-is with clean quotes.
+5. "quote": Rewrite or simplify any dense academic quote into crystal-clear, plain conversational English (10-18 words max). No economic or academic jargon.
 6. "actionItem": 1-2 direct, practical sentences showing what to do today.
 7. Keep all other fields ("id", "bookId", "bookTitle", "author", "category", "type", "tags", "isStashed", "stashBoardIds", "createdAt") intact.
 
@@ -161,6 +161,7 @@ Output ONLY raw valid JSON.
             body_sentences = [s.strip() for s in re.split(r'(?<=[.!?])\s+|\n+', body_raw) if s.strip()]
             act_raw = new_c.get("actionItem", orig.get("actionItem", ""))
             act_sentences = [s.strip() for s in re.split(r'(?<=[.!?])\s+|\n+', act_raw) if s.strip()]
+            quote_raw = new_c.get("quote", orig.get("quote", ""))
             merged.append({
                 "id": orig.get("id", f"card-{idx+1}"),
                 "bookId": orig.get("bookId", ""),
@@ -170,7 +171,7 @@ Output ONLY raw valid JSON.
                 "type": orig.get("type", "mental-model"),
                 "headline": new_c.get("headline", orig.get("headline", "")),
                 "body": "\n".join(body_sentences),
-                "quote": clean_quotes(orig.get("quote", "")),
+                "quote": clean_quotes(quote_raw),
                 "actionItem": "\n".join(act_sentences),
                 "tags": orig.get("tags", [category, "Core Insights"]),
                 "isStashed": orig.get("isStashed", False),
@@ -229,7 +230,7 @@ Input tree:
 Return JSON object: {{ "mindMap": {{ ... }} }}
 Output ONLY raw valid JSON.
 """
-    res = query_agy(prompt, timeout=400)
+    res = query_agy(prompt, timeout=120)
     tree = res.get("mindMap", res)
     if isinstance(tree, dict) and "id" in tree:
         return format_mindmap_sentences_newline(tree)

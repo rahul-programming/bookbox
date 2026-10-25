@@ -782,7 +782,7 @@ export const SEVEN_POWERS_BOOK: Book = {
       "type": "mental-model",
       "headline": "Benefit Plus Barrier",
       "body": "Being good at your work is not enough to win.\nTrue power needs both a big benefit and a strong barrier.\nThe barrier stops other companies from copying your success.",
-      "quote": "Power is the set of conditions creating the potential for persistent differential returns.",
+      "quote": "True power is a lasting edge that rivals cannot copy, letting you earn big profits for years.",
       "actionItem": "Find the one thing stopping a rich rival from copying you.",
       "tags": [
         "Strategy",
@@ -803,7 +803,7 @@ export const SEVEN_POWERS_BOOK: Book = {
       "type": "concept",
       "headline": "Scale Lowers Unit Costs",
       "body": "Big companies spread fixed setup costs over millions of items.\nThis makes each single item much cheaper to produce.\nNew rivals cannot match these low prices without losing huge money.",
-      "quote": "Scale Economics is a business in which per unit cost declines with an increase in scale.",
+      "quote": "As your business grows bigger, each product costs less to make, so rivals cannot match your prices.",
       "actionItem": "Grow sales fast to push your unit costs below all rivals.",
       "tags": [
         "Strategy",
@@ -824,7 +824,7 @@ export const SEVEN_POWERS_BOOK: Book = {
       "type": "concept",
       "headline": "The Network Effect",
       "body": "Your product becomes more valuable as more people join and use it.\nBuyers stay because leaving means losing access to everyone else.\nA new competitor with zero users offers almost no value.",
-      "quote": "The value of the service to each user increases with the addition of other users.",
+      "quote": "Every new user who joins makes the product more valuable for everyone else.",
       "actionItem": "Spend heavily early on to sign up users before rivals do.",
       "tags": [
         "Strategy",
@@ -845,7 +845,7 @@ export const SEVEN_POWERS_BOOK: Book = {
       "type": "mental-model",
       "headline": "The Leader's Trap",
       "body": "A small startup invents a new and better way of doing business.\nThe big market leader sees it but chooses not to copy.\nCopying the new way would destroy their existing profits.",
-      "quote": "A newcomer adopts a new, superior business model which the incumbent does not mimic due to expected damage to its existing business.",
+      "quote": "A small startup invents a new model that giant rivals are afraid to copy because it would kill their old profits.",
       "actionItem": "Pick a business model that hurts a big rival if copied.",
       "tags": [
         "Strategy",
@@ -866,7 +866,7 @@ export const SEVEN_POWERS_BOOK: Book = {
       "type": "concept",
       "headline": "High Switching Costs",
       "body": "Customers stick with you when changing to a rival hurts too much.\nSwitching takes too much time, money, and effort to be worth it.\nAs long as staying is easier, customers will not leave.",
-      "quote": "The value loss expected by a customer that would be incurred on switching to an alternate supplier.",
+      "quote": "Customers stay with you because leaving to a rival causes too much pain, lost time, and expense.",
       "actionItem": "Plug your product deep into daily routines so leaving feels painful.",
       "tags": [
         "Strategy",
@@ -887,7 +887,7 @@ export const SEVEN_POWERS_BOOK: Book = {
       "type": "concept",
       "headline": "Branding Builds Trust",
       "body": "A strong brand lets you charge higher prices for standard products.\nCustomers pay more because they feel safe buying from a trusted name.\nRivals cannot quickly buy this trust with money or ads.",
-      "quote": "The durable attribution of higher value to an objectively identical offering that is based on historical information encountered by the buyer.",
+      "quote": "Buyers happily pay you higher prices for the exact same thing because they know and trust your name.",
       "actionItem": "Make buyers feel completely safe picking you over cheap competitors.",
       "tags": [
         "Strategy",
@@ -908,7 +908,7 @@ export const SEVEN_POWERS_BOOK: Book = {
       "type": "concept",
       "headline": "Cornered Resource",
       "body": "You own a rare asset that gives you an unfair advantage.\nIt could be a key patent, great land, or special talent.\nCompetitors cannot buy or copy this asset at a fair price.",
-      "quote": "Preferential access at attractive terms to a coveted asset that can independently enhance value.",
+      "quote": "You own exclusive rights to a rare talent, patent, or asset that rivals simply cannot buy at any price.",
       "actionItem": "Lock up exclusive rights, patents, or prime locations before others act.",
       "tags": [
         "Strategy",
@@ -929,7 +929,7 @@ export const SEVEN_POWERS_BOOK: Book = {
       "type": "concept",
       "headline": "Hidden Process Power",
       "body": "Your entire company works together in a special, highly trained way.\nYears of learning make your team faster, better, and cheaper.\nRivals cannot copy your method even by hiring your staff.",
-      "quote": "Embedded company organization and activity sets which enable lower costs and/or superior products.",
+      "quote": "Your internal systems are so complex and deeply practiced that rivals cannot copy how you work.",
       "actionItem": "Build deep team habits that outsiders cannot see or copy easily.",
       "tags": [
         "Strategy",
@@ -950,7 +950,7 @@ export const SEVEN_POWERS_BOOK: Book = {
       "type": "mental-model",
       "headline": "The Power Stages",
       "body": "You can only build certain powers at specific times.\nStartups can grab unique assets and attack old business models.\nFast-growing markets allow scale, while mature markets only allow brand power.",
-      "quote": "Power is primarily acquired during the rapid growth phase of the industry.",
+      "quote": "You must seize power while your market is booming, before the game freezes.",
       "actionItem": "Check your market stage and pursue powers that fit today.",
       "tags": [
         "Strategy",
@@ -971,7 +971,7 @@ export const SEVEN_POWERS_BOOK: Book = {
       "type": "actionable",
       "headline": "Win During Takeoff",
       "body": "Markets stay wide open during the rapid takeoff phase.\nWinning big volume now creates strong moats that last for decades.\nOnce a market matures, winning power becomes almost impossible.",
-      "quote": "Once the industry matures, the rules of the game are set and Power becomes exceedingly difficult to establish.",
+      "quote": "When a market gets old and settled, building a new moat is nearly impossible.",
       "actionItem": "Give up short-term profits today to grab total market share.",
       "tags": [
         "Strategy",
@@ -992,7 +992,7 @@ export const SEVEN_POWERS_BOOK: Book = {
       "type": "mental-model",
       "headline": "Efficiency Is Not Strategy",
       "body": "Working hard and using good tools is required to stay alive.\nHowever, every rival can buy the exact same software and tools.\nWithout a real barrier, competition wipes out all your profits.",
-      "quote": "Operational excellence is about doing things better, but strategy is about doing things differently to create a sustainable advantage.",
+      "quote": "Working harder only buys table stakes; true strategy means doing things differently so competitors cannot follow.",
       "actionItem": "Pair every software tool with unique scale or locked distribution.",
       "tags": [
         "Strategy",
@@ -1013,7 +1013,7 @@ export const SEVEN_POWERS_BOOK: Book = {
       "type": "quote",
       "headline": "Protect Future Profits",
       "body": "A company is only worth the cash it generates over time.\nYou cannot keep making strong profits without walls that stop copycats.\nGood strategy builds walls around your cash flow.",
-      "quote": "Strategy is the study of the fundamental determinants of potential business value.",
+      "quote": "Strategy is simply figuring out what creates lasting value that competitors cannot steal.",
       "actionItem": "Build clear barriers that keep your long-term profits safe.",
       "tags": [
         "Strategy",
@@ -1034,7 +1034,7 @@ export const SEVEN_POWERS_BOOK: Book = {
       "type": "actionable",
       "headline": "Make Leaving Hard",
       "body": "Happy customers can still leave if a cheaper rival shows up.\nKeep them by becoming the central place they store critical data.\nMoving away should feel too messy and painful to consider.",
-      "quote": "Switching costs arise when a customer expects that the cost of switching exceeds the incremental value offered by an alternative.",
+      "quote": "Customers will not leave you unless a rival gives them benefits far bigger than the hassle of switching.",
       "actionItem": "Store essential client data so leaving requires too much painful effort.",
       "tags": [
         "Strategy",
@@ -1055,7 +1055,7 @@ export const SEVEN_POWERS_BOOK: Book = {
       "type": "actionable",
       "headline": "Target Their Cash Cow",
       "body": "Build a product that hits your rival's main money maker.\nTo fight you, they would have to wreck their own sales.\nWhile they pause and hesitate, you can run and win.",
-      "quote": "The incumbent calculates that adopting the challenger's model would inflict more damage on itself than letting the challenger run.",
+      "quote": "The giant company chooses not to copy you because copying would burn its own core business to the ground.",
       "actionItem": "Create an offer that forces big rivals to sacrifice major profits.",
       "tags": [
         "Strategy",
@@ -1076,7 +1076,7 @@ export const SEVEN_POWERS_BOOK: Book = {
       "type": "quote",
       "headline": "Invention Needs A Wall",
       "body": "A fresh invention does not give you lasting power by itself.\nRich rivals will quickly copy any great idea that lacks protection.\nYou must turn new ideas into strong moats right away.",
-      "quote": "Invention is the source of all Power, but invention itself is not Power.",
+      "quote": "Inventing something cool starts the journey, but you only win if you build a wall around it.",
       "actionItem": "Turn every new feature into scale or customer lock-in immediately.",
       "tags": [
         "Strategy",
@@ -1097,7 +1097,7 @@ export const SEVEN_POWERS_BOOK: Book = {
       "type": "actionable",
       "headline": "Set Network Limits",
       "body": "Growing your user network too broadly can ruin the user experience.\nCrowding and noise make the service worse for your core fans.\nProtect your main base instead of chasing every random user.",
-      "quote": "Network Economies are defined by their boundaries; expanding beyond them can degrade the core value proposition.",
+      "quote": "Network effects only work inside their natural home; expanding too widely waters down the value.",
       "actionItem": "Keep your focus sharp on your core group of active users.",
       "tags": [
         "Strategy",
@@ -1118,7 +1118,7 @@ export const SEVEN_POWERS_BOOK: Book = {
       "type": "mental-model",
       "headline": "Defend And Create",
       "body": "Good strategy does two different jobs at the same time.\nIt protects the power you own and builds new power tomorrow.\nCompanies that stop building new advantages will slowly fall apart.",
-      "quote": "Statics addresses the question of whether a business has Power. Dynamics addresses how that Power was created.",
+      "quote": "Statics asks if your castle has a moat today. Dynamics asks how you dug that moat during the takeoff.",
       "actionItem": "Spend time building next year's moats, not just guarding today's sales.",
       "tags": [
         "Strategy",
@@ -1139,7 +1139,7 @@ export const SEVEN_POWERS_BOOK: Book = {
       "type": "actionable",
       "headline": "Turn Talent Into Code",
       "body": "If one star worker makes your business special, they hold the power.\nThey can easily walk away or demand all the profit.\nTurn their personal knowledge into company software, playbooks, and systems.",
-      "quote": "If the resource can command its full market value, the excess returns accrue to the resource, not the firm.",
+      "quote": "If a superstar employee can easily take their talent elsewhere, they keep the profits instead of your company.",
       "actionItem": "Document key worker skills into playbooks and company software tools.",
       "tags": [
         "Strategy",
@@ -1160,7 +1160,7 @@ export const SEVEN_POWERS_BOOK: Book = {
       "type": "quote",
       "headline": "True Strategic Success",
       "body": "Big user numbers and vanity revenue do not mean you won.\nGreat strategy means making high profits that rivals cannot touch.\nWithout strong barriers, rivals will arrive and take those profits.",
-      "quote": "The purpose of strategy is to create persistent differential returns.",
+      "quote": "The entire point of strategy is to make profits competitors cannot take away from you.",
       "actionItem": "Judge success by healthy profit margins rather than simple revenue growth.",
       "tags": [
         "Strategy",
@@ -1181,7 +1181,7 @@ export const SEVEN_POWERS_BOOK: Book = {
       "type": "mental-model",
       "headline": "Avoid Giant Leaders",
       "body": "Old industries freeze in place once winners claim their moats.\nFighting an established market giant head-on will only waste your money.\nInstead, focus your energy on fresh, unformed markets.",
-      "quote": "When the dust settles, those with Power will earn differential returns, and those without will earn ordinary returns.",
+      "quote": "When market hype ends, companies with true moats keep high profits, while all others fight for scraps.",
       "actionItem": "Stop fighting entrenched leaders and target new, growing categories instead.",
       "tags": [
         "Strategy",

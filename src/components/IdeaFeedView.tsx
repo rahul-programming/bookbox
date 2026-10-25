@@ -197,25 +197,26 @@ export const IdeaFeedView: React.FC<IdeaFeedViewProps> = ({ onSelectBook, onOpen
                     </div>
 
                     {/* Scrollable Front Content */}
-                    <div className="flex-1 min-h-0 overflow-y-auto pr-1 my-1 space-y-2">
+                    <div className="flex-1 min-h-0 overflow-y-auto pr-1 my-1 space-y-2.5">
                       <h3 className="font-bold text-base text-slate-900 dark:text-slate-100 leading-snug">
                         {idea.headline}
                       </h3>
 
-                      {idea.quote ? (
-                        <div className="p-3 rounded-xl bg-slate-50 dark:bg-slate-900 border-l-3 border-blue-500">
-                          <Quote className="w-3 h-3 text-blue-500 mb-1" />
-                          <p className="text-xs italic text-slate-700 dark:text-slate-300">
-                            "{idea.quote}"
+                      {/* Always show the clear plain-English Takeaway on the front */}
+                      <div className="space-y-1.5 text-xs text-slate-700 dark:text-slate-300">
+                        {(idea.body.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (
+                          <p key={idx} className="leading-relaxed">
+                            {sentence}
                           </p>
-                        </div>
-                      ) : (
-                        <div className="space-y-1.5 text-xs text-slate-600 dark:text-slate-300">
-                          {(idea.body.split(/(?<=[.!?])(?:\s+|\n+)|(?:\r?\n)+/).map(s => s.trim()).filter(Boolean)).map((sentence, idx) => (
-                            <p key={idx} className="leading-relaxed">
-                              {sentence}
-                            </p>
-                          ))}
+                        ))}
+                      </div>
+
+                      {idea.quote && (
+                        <div className="p-2 rounded-xl bg-slate-50 dark:bg-slate-900 border-l-2 border-blue-500 mt-1">
+                          <Quote className="w-3 h-3 text-blue-500 mb-0.5 inline-block mr-1 align-middle" />
+                          <span className="text-[11px] italic text-slate-600 dark:text-slate-400">
+                            "{idea.quote}"
+                          </span>
                         </div>
                       )}
                     </div>
