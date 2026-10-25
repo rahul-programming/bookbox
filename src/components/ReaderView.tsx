@@ -93,6 +93,13 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
     loadProgress();
   }, [book.id, book.blinks.length]);
 
+  // Instantly reset scroll to top whenever changing view mode or active book
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'instant' });
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  }, [viewMode, book.id]);
+
   const handleToggleFavorite = async () => {
     const next = await toggleFavorite(book.id);
     setIsFavorite(next);
@@ -359,7 +366,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
       </div>
 
       {/* Main View Container */}
-      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 w-full max-w-full min-w-0">
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 w-full max-w-full min-w-0 pt-2 sm:pt-4">
         {viewMode === 'blinks' && (
           <KeyInsightsView
             book={book}

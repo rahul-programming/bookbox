@@ -581,11 +581,11 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
     <div className={`${
       isFullscreen 
         ? 'fixed inset-0 z-50 bg-white dark:bg-slate-900 flex flex-col p-3 sm:p-4' 
-        : 'max-w-7xl mx-auto py-4 sm:py-6 space-y-4 w-full max-w-full overflow-x-hidden'
+        : 'max-w-7xl mx-auto pt-5 sm:pt-7 pb-16 space-y-4 w-full max-w-full overflow-x-hidden'
     }`}>
       
       {/* Top Controls Toolbar */}
-      <div className={`p-3 sm:p-4 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-xs flex flex-wrap items-center justify-between gap-3 ${isFullscreen ? 'shrink-0' : ''}`}>
+      <div className={`scroll-mt-36 p-3 sm:p-4 rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700 shadow-xs flex flex-wrap items-center justify-between gap-3 ${isFullscreen ? 'shrink-0' : ''}`}>
         
         {/* Left: Title & Mode Toggle */}
         <div className="flex items-center space-x-3">

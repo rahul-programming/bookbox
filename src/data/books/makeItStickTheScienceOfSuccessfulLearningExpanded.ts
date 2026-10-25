@@ -1,5 +1,5 @@
 // Make It Stick: The Science of Successful Learning by Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel
-// Category-Attuned Synthesis with Readable Paragraphs and Line-Broken Mind Map
+// Category-Attuned Synthesis with Super-Simple Language and Readable Paragraphs
 
 import { Book } from '../../types';
 
@@ -411,169 +411,169 @@ export const MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK: Book = {
   "actionItems": [
     {
       "id": "make-it-stick-the-science-of-successful-learning-act-1",
-      "title": "Immediate 2-Minute Brain Dump",
-      "description": "Stop rereading and test yourself immediately. Forcing your brain to pull ideas out of thin air cements learning far faster than passive reviewing.",
+      "title": "Quick Brain Dump",
+      "description": "Stop rereading and test yourself right away. Pulling facts from memory makes them stick much longer.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Close your book, article, or slide deck immediately after finishing a section.",
-        "Grab a blank sheet of paper or open a blank digital doc.",
-        "Set a timer for 2 minutes and write down every key idea, concept, or formula you remember without peeking.",
-        "Reopen your material only afterward to check what you missed and star the gaps."
+        "1. Close your book or notes immediately after reading.",
+        "2. Grab a blank piece of paper.",
+        "3. Write down everything you remember in two minutes.",
+        "4. Check your notes to see what you missed."
       ],
       "sourceChapter": "Chapter 2: To Learn, Retrieve"
     },
     {
       "id": "make-it-stick-the-science-of-successful-learning-act-2",
-      "title": "Daily Morning Retrieval Warm-Up",
-      "description": "Kickstart your day by actively recalling yesterday's core insights. Consistent low-stakes self-quizzing turns fragile working memory into durable long-term storage.",
+      "title": "Morning Memory Warm-Up",
+      "description": "Start your day by remembering yesterday's big lessons. Quick daily quizzes build strong memory habits.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "Before opening email or social media, look at your primary project or study topic.",
-        "Ask yourself three crisp questions: 'What was the main breakthrough yesterday?', 'How does it work?', and 'Why does it matter?'.",
-        "Explain the answers out loud or jot them down in bullet points.",
-        "Check your notes to verify accuracy and calibrate your confidence."
+        "1. Pick your main topic before opening your phone.",
+        "2. Ask yourself what you learned yesterday.",
+        "3. Say the answers out loud or write notes.",
+        "4. Check your notes to see if you got it right."
       ],
       "sourceChapter": "Chapter 8: Make It Stick"
     },
     {
       "id": "make-it-stick-the-science-of-successful-learning-act-3",
-      "title": "The 'Friction-for-Rereading' Desk Setup",
-      "description": "Design an environment that discourages the illusion of mastery from passive highlighting and forces active generation.",
+      "title": "Quiz-First Desk Setup",
+      "description": "Set up your desk so you test yourself instead of just highlighting. This stops the trap of fake learning.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Remove all highlighters from your desk and store them in another room.",
-        "Place an index card box or notebook and a single pen right beside your reading spot.",
-        "Stick a sticky note on your monitor or book cover: 'Stop rereading. Close and quiz.'",
-        "Keep a dedicated stack of fresh index cards ready for immediate flashcard creation."
+        "1. Move all highlighters away from your desk.",
+        "2. Put blank index cards and a pen near your book.",
+        "3. Stick a reminder note saying: 'Close book and quiz.'",
+        "4. Keep your cards ready to write new questions."
       ],
       "sourceChapter": "Chapter 1: Learning Is Misunderstood"
     },
     {
       "id": "make-it-stick-the-science-of-successful-learning-act-4",
-      "title": "Illusion of Competence Reality Audit",
-      "description": "Audit your current study materials to expose false familiarity caused by repeated reading, highlighting, and fluent text.",
+      "title": "Honest Knowledge Check",
+      "description": "Test yourself to see what you really know. Reading something easily does not mean you know it.",
       "category": "audit",
       "timeEstimateMinutes": 20,
       "stepByStep": [
-        "Gather the notes, slides, or books you feel most confident about.",
-        "Write down 5 core conceptual problems or exam-style questions based on that material without looking at the answers.",
-        "Attempt to answer all 5 under closed-book conditions.",
-        "Score yourself honestly: classify answers as 'True Mastery' (could explain clearly) or 'False Fluency' (felt familiar but struggled to articulate)."
+        "1. Pick the notes you feel most confident about.",
+        "2. Write five hard questions without checking the answers.",
+        "3. Answer all five questions with your notes closed.",
+        "4. Mark which answers were easy and which were shaky."
       ],
       "sourceChapter": "Chapter 5: Avoid Illusions of Knowing"
     },
     {
       "id": "make-it-stick-the-science-of-successful-learning-act-5",
-      "title": "The Leitner Spaced Box System",
-      "description": "Build a simple, physical spaced retrieval pipeline that challenges memory right as it begins to fade.",
+      "title": "Three-Box Flashcard System",
+      "description": "Sort your flashcards into three boxes based on how well you know them. This tests memory right before you forget.",
       "category": "system",
       "timeEstimateMinutes": 25,
       "stepByStep": [
-        "Label three physical envelopes or folders: 'Every Day (Box 1)', 'Every 3 Days (Box 2)', and 'Once a Week (Box 3)'.",
-        "Write target concepts as a question on the front of an index card and the concise answer on the back.",
-        "Test cards from Box 1 daily: move correct answers into Box 2, and keep missed cards in Box 1.",
-        "Review Box 2 every three days; promote successful cards to Box 3, and immediately drop any missed card back to Box 1."
+        "1. Label three boxes: Daily, Every 3 Days, and Weekly.",
+        "2. Put a question on front and answer on back.",
+        "3. Move cards you get right to the next box.",
+        "4. Send any card you miss back to Box 1."
       ],
       "sourceChapter": "Chapter 3: Mix Up Your Practice"
     },
     {
       "id": "make-it-stick-the-science-of-successful-learning-act-6",
-      "title": "Pre-Study Generation Sprint",
-      "description": "Attempt to solve a problem or explain a concept before being taught the answer. Making mistakes first primes your brain to absorb the correct solution deeply.",
+      "title": "Guess Before You Learn",
+      "description": "Try solving a problem before reading the solution. Making a mistake first helps your brain learn faster.",
       "category": "quick-win",
       "timeEstimateMinutes": 8,
       "stepByStep": [
-        "Pick the next chapter heading, problem set, or meeting agenda item you haven't reviewed yet.",
-        "Spend 5 minutes drafting your best guess at the explanation, solution, or mechanism.",
-        "Embrace uncertainty\u2014give yourself full permission to get the answer completely wrong.",
-        "Read the actual material immediately afterward to experience the heightened 'aha!' hook."
+        "1. Look at a new chapter heading or problem.",
+        "2. Spend three minutes writing your best guess.",
+        "3. Do not worry if your guess is wrong.",
+        "4. Read the chapter to find the real answer."
       ],
       "sourceChapter": "Chapter 4: Embrace Difficulties"
     },
     {
       "id": "make-it-stick-the-science-of-successful-learning-act-7",
-      "title": "Evening Elaboration Journaling",
-      "description": "Connect freshly learned ideas to your existing life experience. Relating new concepts to what you already know builds rich neural highways.",
+      "title": "Nightly Idea Journal",
+      "description": "Link new lessons to things you already know well. Connecting old and new ideas makes learning last.",
       "category": "daily-routine",
       "timeEstimateMinutes": 10,
       "stepByStep": [
-        "During your evening wind-down, identify one key concept or lesson from your day.",
-        "Write down: 'This is just like [personal metaphor or real-world experience] because...'",
-        "Describe how this principle impacts an active project or daily decision.",
-        "Explain it in one sentence simple enough for a 12-year-old to understand."
+        "1. Pick one lesson you learned today before bed.",
+        "2. Write how it reminds you of a past experience.",
+        "3. Explain the idea in one very simple sentence.",
+        "4. Note how you can use it in your life."
       ],
       "sourceChapter": "Chapter 8: Make It Stick"
     },
     {
       "id": "make-it-stick-the-science-of-successful-learning-act-8",
-      "title": "Interleaving Workstation Partition",
-      "description": "Rearrange your digital or physical workspace to support interleaving multiple related subjects rather than getting stuck in monotonous blocked practice.",
+      "title": "Mixed-Topic Workstation",
+      "description": "Set up your space to switch between different skills. Mixing topics helps your brain spot differences.",
       "category": "environment",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Identify 2 or 3 distinct skills or problem types you are currently developing (e.g., calculations, theory, writing).",
-        "Create dedicated, color-coded workspace zones, browser tab groups, or physical trays for each skill.",
-        "Arrange materials side-by-side so switching between them requires zero setup friction.",
-        "Place an interval timer in plain sight to enforce 25-minute skill-switching intervals."
+        "1. Pick two or three skills you want to practice.",
+        "2. Set up separate folders or trays for each skill.",
+        "3. Place them side-by-side so switching takes no effort.",
+        "4. Set a timer to switch topics every twenty minutes."
       ],
       "sourceChapter": "Chapter 3: Mix Up Your Practice"
     },
     {
       "id": "make-it-stick-the-science-of-successful-learning-act-9",
-      "title": "Weekly Practice Distribution Audit",
-      "description": "Audit your weekly calendar to eliminate intense last-minute cramming blocks and replace them with spaced, distributed sessions.",
+      "title": "Cramming Calendar Fix",
+      "description": "Break big study marathons into smaller sessions spread across the week. Spaced learning is much better than cramming.",
       "category": "audit",
       "timeEstimateMinutes": 15,
       "stepByStep": [
-        "Review your past week's calendar and tally total hours spent on massed, continuous study or single-topic marathons.",
-        "Identify topics studied only once in a heavy 3-hour marathon.",
-        "Break upcoming marathon blocks into three 45-minute sessions spaced across Monday, Wednesday, and Friday.",
-        "Color-code these sessions on your calendar and set recurring alerts to lock in spacing."
+        "1. Check your calendar for long, three-hour study blocks.",
+        "2. Split each long block into three short sessions.",
+        "3. Spread those short sessions across different days.",
+        "4. Add reminders on your phone for each session."
       ],
       "sourceChapter": "Chapter 3: Mix Up Your Practice"
     },
     {
       "id": "make-it-stick-the-science-of-successful-learning-act-10",
-      "title": "Dynamic Interleaved Practice Queue",
-      "description": "Build an adaptive problem-solving queue that shuffles different problem types together so your brain learns to diagnose the underlying structure.",
+      "title": "Shuffled Practice Stack",
+      "description": "Mix up practice problems so you cannot guess what is coming next. This teaches your brain how to pick solutions.",
       "category": "system",
       "timeEstimateMinutes": 30,
       "stepByStep": [
-        "Collect 15-20 practice problems spanning three different sub-types or categories.",
-        "Shuffle the problems thoroughly into a single randomized deck or spreadsheet so you cannot predict which type comes next.",
-        "Solve each problem, forcing yourself to first identify 'What kind of problem is this?' before picking a solution strategy.",
-        "Flag problems where you misidentified the type and add similar variations to next week's shuffle."
+        "1. Collect fifteen practice problems from three different topics.",
+        "2. Shuffle the problems together like a deck of cards.",
+        "3. Name the problem type before you start solving.",
+        "4. Save any problem you misidentify for next week."
       ],
       "sourceChapter": "Chapter 3: Mix Up Your Practice"
     },
     {
       "id": "make-it-stick-the-science-of-successful-learning-act-11",
-      "title": "The Feynman Mirror Challenge",
-      "description": "Rapidly detect gaps in your mental model by teaching a core idea out loud without consulting notes.",
+      "title": "Mirror Talk Challenge",
+      "description": "Explain an idea out loud without looking at any notes. Speaking reveals the exact spots you do not understand.",
       "category": "quick-win",
       "timeEstimateMinutes": 5,
       "stepByStep": [
-        "Stand up in front of a mirror or open a voice recorder on your phone.",
-        "Select a difficult concept you've recently tackled.",
-        "Explain the mechanism out loud in under 90 seconds without using jargon or glancing at notes.",
-        "Notice the exact sentence where you stumble, pause, or resort to vague words\u2014that is your true learning boundary."
+        "1. Stand in front of a mirror with closed notes.",
+        "2. Pick a tricky idea you just studied.",
+        "3. Explain it out loud in simple words quickly.",
+        "4. Notice where you stumble to find your weak spots."
       ],
       "sourceChapter": "Chapter 7: Increase Your Abilities"
     },
     {
       "id": "make-it-stick-the-science-of-successful-learning-act-12",
-      "title": "The Mental Model Reflection Matrix",
-      "description": "Establish a structural reflection habit after finishing any major project or task to extract transferable principles.",
+      "title": "Project Reflection Rule",
+      "description": "Reflect on every finished task to pull out clear rules. Simple rules guide your actions on future projects.",
       "category": "daily-routine",
       "timeEstimateMinutes": 12,
       "stepByStep": [
-        "At the conclusion of a work sprint, open your reflection notebook.",
-        "Answer three questions: 'What went well?', 'What could have been done better?', and 'What principle can I extract for next time?'.",
-        "Synthesize the overarching mental model into a single takeaway rule (e.g., 'If X happens, apply Y').",
-        "Archive the rule in your master personal operating manual for future retrieval."
+        "1. Open your notes after finishing a big project.",
+        "2. Write down what worked and what went wrong.",
+        "3. Turn that lesson into one simple 'If-Then' rule.",
+        "4. Save the rule where you can read it later."
       ],
       "sourceChapter": "Chapter 6: Get Beyond Learning Styles"
     }
@@ -750,10 +750,10 @@ export const MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK: Book = {
       "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "The Testing Effect as a Muscle",
-      "body": "Testing is not an assessment tool for measuring what you know; it is a primary engine of learning.\nEvery time you force your brain to pull a memory out of storage, you reconstruct and strengthen the underlying neural circuitry.",
-      "quote": "Practice at retrieving new knowledge or skill from memory is a potent learning tool that produces far greater long-term learning than rereading.",
-      "actionItem": "Close your book or notes right now, take a blank index card, and write down the three core takeaways from your last reading session entirely from memory.",
+      "headline": "Testing Builds Memory",
+      "body": "Quizzing yourself is not just a test.\nIt is the best way to learn.\nPulling facts out of your mind locks them in.",
+      "quote": "Testing yourself from memory builds much stronger learning than reading notes again.",
+      "actionItem": "Close your book right now.\nWrite down three main ideas on a blank card from memory.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -771,10 +771,10 @@ export const MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK: Book = {
       "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
       "category": "Psychology",
       "type": "concept",
-      "headline": "The Dangerous Illusion of Fluency",
-      "body": "When you reread a highlighted passage, your brain confuses visual familiarity with comprehension.\nBecause the text flows effortlessly across your eyes, you assume you own the concept.\nFluency is fool's gold; retrieval effort is true mastery.",
-      "quote": "When you read a text over and over again, you develop a sense of fluency that is mistaken for mastery of the content.",
-      "actionItem": "Banish passive rereading from your study routine and replace it with practice questions and self-quizzing.",
+      "headline": "The Reading Trap",
+      "body": "Rereading text makes it look easy.\nThat trick makes you think you know it well.\nTrue learning happens only when you test yourself.",
+      "quote": "Reading a page again and again tricks you into thinking you know it.",
+      "actionItem": "Stop rereading your notes today.\nQuiz yourself with practice questions instead.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -792,10 +792,10 @@ export const MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK: Book = {
       "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Desirable Difficulties",
-      "body": "Effortless learning evaporates rapidly, while effortful learning anchors deep into long-term memory.\nImpediments that force your cognitive faculties to sweat\u2014such as spaced sessions and varied contexts\u2014trigger robust neural consolidation.",
-      "quote": "When learning is harder, it is stronger and lasts longer.",
-      "actionItem": "When a topic feels confusing or taxing to practice, reframe that friction as permanent neural progress and lean in for five more minutes.",
+      "headline": "Hard Learning Sticks",
+      "body": "Easy learning fades away fast.\nWhen your brain works hard, memories stick much longer.\nA little struggle makes learning strong.",
+      "quote": "When learning feels harder, the knowledge stays with you much longer.",
+      "actionItem": "When a topic feels hard, keep going for five more minutes.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -813,10 +813,10 @@ export const MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK: Book = {
       "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Install Spaced Retrieval Intervals",
-      "body": "Allow enough time to pass between study sessions so that a little bit of forgetting sets in.\nReconstructing information after mild forgetting forces your brain to work harder, solidifying memories into permanent mental models.",
-      "quote": "A little forgetting between practice sessions can be a good thing, leading to stronger long-term retention.",
-      "actionItem": "Schedule your next review session for three days from today rather than repeating the material tomorrow morning.",
+      "headline": "Space Out Your Study",
+      "body": "Wait a few days between study sessions.\nLet yourself forget just a little bit.\nRelearning facts after a break creates deep memory.",
+      "quote": "Forgetting a little bit between practice sessions helps you remember things much better.",
+      "actionItem": "Review this lesson three days from now instead of tomorrow morning.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -834,10 +834,10 @@ export const MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK: Book = {
       "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Interleaving Beats Blocked Practice",
-      "body": "Practicing one problem type in bulk creates an artificial peak in immediate performance that quickly crumbles.\nMixing distinct problem types forces your mind to continually identify which solution framework applies.",
-      "quote": "Interleaving the practice of two or more subjects or skills produces longer-term learning than practicing them in blocks.",
-      "actionItem": "Shuffle flashcards or task sets across two different categories so you must discern the underlying rule before solving each prompt.",
+      "headline": "Mix Up Your Practice",
+      "body": "Doing one problem type over and over builds false confidence.\nMixing different topics teaches you how to pick the right tool.\nIt prepares you for real tests.",
+      "quote": "Mixing different skills together works much better than practicing just one at a time.",
+      "actionItem": "Shuffle practice questions from two different topics together before solving them.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -855,10 +855,10 @@ export const MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK: Book = {
       "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Elaborative Encoding",
-      "body": "Isolated facts are fragile; interconnected facts are resilient.\nWhen you attach a new idea to an existing experience, metaphor, or framework, you multiply the retrieval pathways your brain can use to locate it later.",
-      "quote": "Elaboration is the process of giving new material meaning by expressing it in your own words and connecting it with what you already know.",
-      "actionItem": "Summarize a newly learned concept by formulating an analogy that compares it to a sport, hobby, or daily routine you already know intimately.",
+      "headline": "Connect New to Old",
+      "body": "Single facts get lost easily.\nTie new ideas to things you already understand well.\nStrong connections make ideas easy to recall later.",
+      "quote": "Explain new ideas in your own words and link them to what you know.",
+      "actionItem": "Explain this new idea by comparing it to your favorite hobby.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -876,10 +876,10 @@ export const MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK: Book = {
       "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Run the Generation Exercise",
-      "body": "Attempting to solve an unfamiliar problem before being handed the solution creates cognitive curiosity and primes your mind for retention.\nEven if your initial guess is dead wrong, the struggle enhances subsequent learning.",
-      "quote": "Trying to solve a problem before being taught the solution leads to better learning, even when errors are made in the attempt.",
-      "actionItem": "Before looking at the answer key or tutorial, spend three minutes drafting your best hypothesis or attempt.",
+      "headline": "Try Before You Look",
+      "body": "Try solving a problem before anyone shows you how.\nEven wrong guesses wake up your brain.\nThe right answer will stick much better afterward.",
+      "quote": "Trying to solve a puzzle first helps you learn, even if you make mistakes.",
+      "actionItem": "Spend three minutes trying the problem before you look at the answer sheet.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -897,10 +897,10 @@ export const MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK: Book = {
       "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
       "category": "Psychology",
       "type": "quote",
-      "headline": "Learning Requires Brainwork",
-      "body": "Passive consumption is comfortable, but real intellectual development requires relentless mental engagement.\nYou cannot outsource cognitive sweat.",
-      "quote": "Learning is deeper and more durable when it is effortful.",
-      "actionItem": "Pause after reading a complex chapter, look away, and speak out loud the central thesis in your own words.",
+      "headline": "Brain Effort Counts",
+      "body": "Sitting back and watching is easy.\nReal learning needs active brain effort.\nYou must push your mind to grow.",
+      "quote": "Learning goes deeper and lasts longer when you have to work for it.",
+      "actionItem": "Look away from the book right now.\nSay the main idea out loud.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -918,10 +918,10 @@ export const MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK: Book = {
       "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Calibration Against Objective Standards",
-      "body": "Left unchecked, human intuition tends toward overconfidence.\nCalibration is the disciplined alignment of what you think you know with what external reality demonstrates you can actually execute.",
-      "quote": "We are poor judges of what we know and what we don't know, and we need objective measures to calibrate our judgment.",
-      "actionItem": "Take a timed, blind diagnostic test to calibrate your actual performance against your perceived ability.",
+      "headline": "Test Your True Level",
+      "body": "We often think we know more than we do.\nReal tests show the plain truth.\nUse tests to spot your weak spots quickly.",
+      "quote": "We are bad at judging our knowledge, so we need real tests to check.",
+      "actionItem": "Take a quick quiz without your notes to see what you truly know.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -939,10 +939,10 @@ export const MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK: Book = {
       "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Mental Models and Schema Formation",
-      "body": "Novices memorize fragmented facts; masters assemble mental models that encapsulate how an entire ecosystem functions.\nMastering overarching principles lets you adapt instantly when novel variables emerge.",
-      "quote": "Complex mastery requires building a mental model\u2014a mental representation of some external reality.",
-      "actionItem": "Draw a high-level flowchart depicting how the core components of your field interact under pressure.",
+      "headline": "Build Big Pictures",
+      "body": "Beginners memorize small facts.\nExperts build a big picture of how things fit together.\nA clear mental map helps you solve new problems easily.",
+      "quote": "Mastery means building a clear mental map of how things work in the world.",
+      "actionItem": "Draw a simple diagram showing how the main parts of your topic connect.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -960,10 +960,10 @@ export const MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK: Book = {
       "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Varied Practice for Real-World Transfer",
-      "body": "Practicing identical tasks in identical environments develops brittle competence.\nChanging environmental cues, angles, and variables forces your brain to extract the underlying rule rather than memorizing a fixed motor script.",
-      "quote": "Varied practice improves your ability to transfer learning from one situation and apply it successfully to another.",
-      "actionItem": "Switch up your study environment or alter the constraints on your practice drills to build flexible, transfer-ready execution.",
+      "headline": "Change How You Practice",
+      "body": "Repeating the same exact drill creates stiff skills.\nChanging settings and rules forces you to adapt.\nThat makes your skills work anywhere.",
+      "quote": "Practicing in varied ways helps you use your skills in fresh, new situations.",
+      "actionItem": "Practice your skills in a new room or with a new time limit.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -981,10 +981,10 @@ export const MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK: Book = {
       "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Delayed Feedback Deepens Processing",
-      "body": "Immediate feedback can act as an external crutch, making you rely on instant corrections rather than internalizing the evaluation process.\nDelaying feedback slightly forces you to assess your own logic before seeing the answer.",
-      "quote": "Delaying feedback slightly can lead to better long-term learning than giving it immediately.",
-      "actionItem": "Complete an entire set of practice problems and self-evaluate your confidence before opening the answer key.",
+      "headline": "Wait Before Checking Answers",
+      "body": "Instant answers stop you from thinking deeply.\nWait a little before checking your work.\nThis forces your brain to judge its own choices.",
+      "quote": "Waiting a bit to check answers helps you learn better than checking instantly.",
+      "actionItem": "Finish all your practice questions before looking at the answer key.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1002,10 +1002,10 @@ export const MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK: Book = {
       "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Illusion of Intuition",
-      "body": "Our instincts about how we learn best are consistently misleading.\nTrust rigorous cognitive science over what feels subjectively easiest in the moment.",
-      "quote": "Most people believe that learning is best done by massing practice on a single topic, but the evidence shows that this belief is mistaken.",
-      "actionItem": "Audit your weekly calendar and swap out one multi-hour cramming block for three distributed 45-minute sprints.",
+      "headline": "Cramming Is a Trap",
+      "body": "Cramming feels fast, but it does not last.\nTrust science instead of gut feelings.\nSpreading out your practice works much better.",
+      "quote": "Cramming one topic feels good, but science proves it does not work well.",
+      "actionItem": "Trade one long cram session for three short sessions across the week.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1023,10 +1023,10 @@ export const MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK: Book = {
       "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Reconsolidation Through Recall",
-      "body": "Memory is not a static recording stored in a vault.\nEvery time an idea is retrieved, it becomes malleable again, integrating fresh context and strengthening its synaptic links before settling back down.",
-      "quote": "Retrieval updates learning, reconsolidating memories and making them more pliable and resilient.",
-      "actionItem": "Spend two minutes at the conclusion of every meeting or work session articulating the key decisions without referencing your notepad.",
+      "headline": "Recall Refreshes Memory",
+      "body": "Memories are not locked in stone.\nEach time you remember something, your brain updates it.\nThat makes the memory tougher and easier to find later.",
+      "quote": "Pulling up a memory updates it and makes it stronger for the future.",
+      "actionItem": "Spend two minutes after your meeting listing key decisions from memory.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1044,10 +1044,10 @@ export const MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK: Book = {
       "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Mnemonic Device Scaffolding",
-      "body": "Mnemonic devices and visual memory palaces are intentional cognitive coat hooks.\nThey don't replace deep conceptual reasoning, but they provide reliable structural scaffolding for fast, accurate retrieval under pressure.",
-      "quote": "Mnemonics help you retrieve what you have learned and hold it in mind while you construct mental models.",
-      "actionItem": "Construct a vivid, spatial acronym or visual memory palace room for the next checklist or list of key points you need to memorize.",
+      "headline": "Use Memory Clues",
+      "body": "Memory tricks act like mental coat hooks.\nThey help you grab facts quickly when under stress.\nThey keep details ready while you solve problems.",
+      "quote": "Memory tricks help you find facts fast while you build deeper understanding.",
+      "actionItem": "Make up a simple acronym to remember the next checklist you study.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1065,10 +1065,10 @@ export const MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK: Book = {
       "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
       "category": "Psychology",
       "type": "concept",
-      "headline": "Dynamic Neuroplasticity",
-      "body": "Your intellectual capacity is not a fixed inheritance.\nEngaging in deliberate, high-effort cognitive practice physically restructures brain tissue, expanding working memory limits and executive functioning over time.",
-      "quote": "The brain is remarkably plastic, capable of changing and growing in response to challenge throughout life.",
-      "actionItem": "Identify an area you previously labeled outside your natural talent and commit to a two-week deliberate practice regimen.",
+      "headline": "Your Brain Can Grow",
+      "body": "Your brain power is not set in stone.\nHard mental practice builds new brain pathways.\nYou can get smarter at any age.",
+      "quote": "The brain can change and grow whenever you take on hard challenges.",
+      "actionItem": "Pick one hard skill you avoided and practice it daily for two weeks.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1086,10 +1086,10 @@ export const MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK: Book = {
       "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Reflective Deliberate Practice",
-      "body": "Experience alone does not produce expertise; reflection does.\nTaking time to dissect what happened, why it happened, and how you will adapt next time turns raw experience into durable insight.",
-      "quote": "Reflection is a form of retrieval practice paired with elaboration that leads to stronger mental models.",
-      "actionItem": "Institute a five-minute end-of-day journal prompt: What succeeded today?\nWhat missed the mark?\nWhat will I tweak tomorrow?",
+      "headline": "Reflect to Learn",
+      "body": "Just doing things does not make you wise.\nThinking about what happened does.\nReviewing your day turns everyday moments into real skills.",
+      "quote": "Reviewing what happened helps you build much stronger understanding.",
+      "actionItem": "Write down what went well today and what you will change tomorrow.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1107,10 +1107,10 @@ export const MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK: Book = {
       "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
       "category": "Psychology",
       "type": "quote",
-      "headline": "The Reality of Mastery",
-      "body": "Mastery is not an accident of genetics.\nIt is the predictable outcome of choosing productive struggle over comfortable repetition day after day.",
-      "quote": "Mastery requires both the possession of ready knowledge and the conceptual understanding of how to use it.",
-      "actionItem": "Eliminate low-friction passive habits and build an active retrieval pipeline for your top professional skill.",
+      "headline": "True Skill Takes Work",
+      "body": "Mastery is not a gift you are born with.\nIt comes from choosing hard practice every single day.\nWork brings true results.",
+      "quote": "Mastery means having quick knowledge and knowing how to use it well.",
+      "actionItem": "Drop easy study habits and test your top skill with hard questions.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1128,10 +1128,10 @@ export const MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK: Book = {
       "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
       "category": "Psychology",
       "type": "actionable",
-      "headline": "Build Flashcard Decks That Challenge",
-      "body": "Effective flashcard systems force rigorous retrieval rather than superficial keyword matching.\nFormulate questions that demand deep explanation, application, and problem solving rather than simple definition recognition.",
-      "quote": "Flashcards are a simple, powerful tool for spaced retrieval practice when used properly.",
-      "actionItem": "Rewrite your flashcard prompts from simple definitions to scenario-based questions starting with How or Why.",
+      "headline": "Make Better Flashcards",
+      "body": "Simple flashcards are too easy to guess.\nWrite cards that make you explain problems.\nHard cards make your brain work much more.",
+      "quote": "Flashcards are a powerful way to test your memory when used well.",
+      "actionItem": "Change your flashcard questions to start with How or Why.",
       "tags": [
         "Psychology",
         "Core Insights"
@@ -1149,10 +1149,10 @@ export const MAKE_IT_STICK_THE_SCIENCE_OF_SUCCESSFUL_LEARNING_BOOK: Book = {
       "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
       "category": "Psychology",
       "type": "mental-model",
-      "headline": "Structure Building",
-      "body": "High-performing learners constantly extract foundational concepts from new information and organize them into a structured mental blueprint.\nCultivate the habit of sifting the vital structural core from irrelevant noise.",
-      "quote": "Cultivating the ability to identify key concepts and sort them into a coherent structure is central to successful learning.",
-      "actionItem": "Condense any 20-page article or technical chapter into a one-page hierarchical outline containing only foundational principles.",
+      "headline": "Find Core Rules",
+      "body": "Great learners spot the core rules in new topics.\nThey organize these rules into a clean plan.\nThis keeps you focused on what matters most.",
+      "quote": "Finding the main ideas and grouping them well is key to learning.",
+      "actionItem": "Summarize a full chapter onto one page with only key points.",
       "tags": [
         "Psychology",
         "Core Insights"

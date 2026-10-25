@@ -205,7 +205,12 @@ export function App() {
           {/* Main Navigation Tabs */}
           <NavigationTabs
             activeTab={activeTab}
-            onTabChange={(tab) => setActiveTab(tab)}
+            onTabChange={(tab) => {
+              setActiveTab(tab);
+              window.scrollTo({ top: 0, behavior: 'instant' });
+              document.documentElement.scrollTop = 0;
+              document.body.scrollTop = 0;
+            }}
             stashedCount={stashedCount}
             favoritesCount={favoritesCount}
             readingCount={readingCount}
