@@ -90,6 +90,17 @@ import { AN_ILLUSTRATED_BOOK_OF_BAD_ARGUMENTS_BOOK } from './books/anIllustrated
 import { WITH_GOOD_REASON_AN_INTRODUCTION_TO_INFORMAL_FALLACIES_BOOK } from './books/withGoodReasonAnIntroductionToInformalFallaciesExpanded';
 import { FALLACIES_AND_ARGUMENT_APPRAISAL_BOOK } from './books/fallaciesAndArgumentAppraisalExpanded';
 import { THE_ART_OF_BEING_RIGHT_THE_ART_OF_CONTROVERSY_BOOK } from './books/theArtOfBeingRightTheArtOfControversyExpanded';
+import { WIN_EVERY_ARGUMENT_THE_ART_OF_DEBATING_PERSUADING_AND_PUBLIC_BOOK } from './books/winEveryArgumentTheArtOfDebatingPersuadingAndPublicExpanded';
+import { THANK_YOU_FOR_ARGUING_BOOK } from './books/thankYouForArguingExpanded';
+import { BULLSHIT_JOBS_ON_BULLSHIT_BOOK } from './books/bullshitJobsOnBullshitExpanded';
+import { HOW_TO_WIN_ANY_ARGUMENT_BOOK } from './books/howToWinAnyArgumentExpanded';
+import { THE_INVISIBLE_GORILLA_HOW_OUR_INTUITIONS_DECEIVE_US_BOOK } from './books/theInvisibleGorillaHowOurIntuitionsDeceiveUsExpanded';
+import { COGNITIVE_PSYCHOLOGY_MIND_AND_BRAIN_BOOK } from './books/cognitivePsychologyMindAndBrainExpanded';
+import { THE_SEVEN_SINS_OF_MEMORY_BOOK } from './books/theSevenSinsOfMemoryExpanded';
+import { STRANGERS_TO_OURSELVES_DISCOVERING_THE_ADAPTIVE_UNCONSCIOUS_BOOK } from './books/strangersToOurselvesDiscoveringTheAdaptiveUnconsciousExpanded';
+import { THE_EVOLUTION_OF_DESIRE_STRATEGIES_OF_HUMAN_MATING_BOOK } from './books/theEvolutionOfDesireStrategiesOfHumanMatingExpanded';
+import { THE_MORAL_ANIMAL_BOOK } from './books/theMoralAnimalExpanded';
+import { THE_SELFISH_GENE_BOOK } from './books/theSelfishGeneExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -180,7 +191,18 @@ export const SEED_BOOKS: Book[] = [
   AN_ILLUSTRATED_BOOK_OF_BAD_ARGUMENTS_BOOK,
   WITH_GOOD_REASON_AN_INTRODUCTION_TO_INFORMAL_FALLACIES_BOOK,
   FALLACIES_AND_ARGUMENT_APPRAISAL_BOOK,
-  THE_ART_OF_BEING_RIGHT_THE_ART_OF_CONTROVERSY_BOOK
+  THE_ART_OF_BEING_RIGHT_THE_ART_OF_CONTROVERSY_BOOK,
+  WIN_EVERY_ARGUMENT_THE_ART_OF_DEBATING_PERSUADING_AND_PUBLIC_BOOK,
+  THANK_YOU_FOR_ARGUING_BOOK,
+  BULLSHIT_JOBS_ON_BULLSHIT_BOOK,
+  HOW_TO_WIN_ANY_ARGUMENT_BOOK,
+  THE_INVISIBLE_GORILLA_HOW_OUR_INTUITIONS_DECEIVE_US_BOOK,
+  COGNITIVE_PSYCHOLOGY_MIND_AND_BRAIN_BOOK,
+  THE_SEVEN_SINS_OF_MEMORY_BOOK,
+  STRANGERS_TO_OURSELVES_DISCOVERING_THE_ADAPTIVE_UNCONSCIOUS_BOOK,
+  THE_EVOLUTION_OF_DESIRE_STRATEGIES_OF_HUMAN_MATING_BOOK,
+  THE_MORAL_ANIMAL_BOOK,
+  THE_SELFISH_GENE_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -273,7 +295,18 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(AN_ILLUSTRATED_BOOK_OF_BAD_ARGUMENTS_BOOK.ideaCards || []),
   ...(WITH_GOOD_REASON_AN_INTRODUCTION_TO_INFORMAL_FALLACIES_BOOK.ideaCards || []),
   ...(FALLACIES_AND_ARGUMENT_APPRAISAL_BOOK.ideaCards || []),
-  ...(THE_ART_OF_BEING_RIGHT_THE_ART_OF_CONTROVERSY_BOOK.ideaCards || [])
+  ...(THE_ART_OF_BEING_RIGHT_THE_ART_OF_CONTROVERSY_BOOK.ideaCards || []),
+  ...(WIN_EVERY_ARGUMENT_THE_ART_OF_DEBATING_PERSUADING_AND_PUBLIC_BOOK.ideaCards || []),
+  ...(THANK_YOU_FOR_ARGUING_BOOK.ideaCards || []),
+  ...(BULLSHIT_JOBS_ON_BULLSHIT_BOOK.ideaCards || []),
+  ...(HOW_TO_WIN_ANY_ARGUMENT_BOOK.ideaCards || []),
+  ...(THE_INVISIBLE_GORILLA_HOW_OUR_INTUITIONS_DECEIVE_US_BOOK.ideaCards || []),
+  ...(COGNITIVE_PSYCHOLOGY_MIND_AND_BRAIN_BOOK.ideaCards || []),
+  ...(THE_SEVEN_SINS_OF_MEMORY_BOOK.ideaCards || []),
+  ...(STRANGERS_TO_OURSELVES_DISCOVERING_THE_ADAPTIVE_UNCONSCIOUS_BOOK.ideaCards || []),
+  ...(THE_EVOLUTION_OF_DESIRE_STRATEGIES_OF_HUMAN_MATING_BOOK.ideaCards || []),
+  ...(THE_MORAL_ANIMAL_BOOK.ideaCards || []),
+  ...(THE_SELFISH_GENE_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
