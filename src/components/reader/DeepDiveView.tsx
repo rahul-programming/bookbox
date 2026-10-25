@@ -458,7 +458,7 @@ export const DeepDiveView: React.FC<DeepDiveViewProps> = ({
 
                       {/* Chapter Visual Diagram Summary */}
                       {blink.diagram && (
-                        <ChapterDiagramViewer diagram={blink.diagram} />
+                        <ChapterDiagramViewer diagram={blink.diagram} fontSizeClass={fontSizeClass} />
                       )}
 
                       {/* Editorial Context Callout */}
