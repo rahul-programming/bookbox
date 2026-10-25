@@ -582,7 +582,7 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
   return (
     <div className={`${
       isFullscreen 
-        ? 'fixed inset-0 z-50 bg-[#0b101b] w-full h-[100dvh] flex flex-col p-0 m-0 overflow-hidden select-none' 
+        ? 'fixed inset-0 z-50 bg-slate-50 dark:bg-[#0b101b] w-full h-[100dvh] flex flex-col p-0 m-0 overflow-hidden select-none' 
         : 'max-w-7xl mx-auto pt-6 sm:pt-8 pb-16 space-y-4 w-full max-w-full overflow-x-hidden'
     }`}>
       
@@ -706,7 +706,7 @@ export const MindMapView: React.FC<MindMapViewProps> = ({ book, onStartAudio, fo
             isFullscreen 
               ? 'w-full h-full rounded-none border-0' 
               : 'lg:col-span-3 rounded-2xl border border-slate-200 dark:border-slate-700 h-[600px] sm:h-[680px]'
-          } bg-slate-50/60 dark:bg-[#0b101b] relative overflow-hidden shadow-inner select-none ${
+          } bg-slate-50 dark:bg-[#0b101b] relative overflow-hidden shadow-inner select-none ${
             isDragging ? 'cursor-grabbing' : 'cursor-grab'
           }`}
           style={{
