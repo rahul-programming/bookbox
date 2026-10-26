@@ -216,6 +216,16 @@ import { THE_CROSSROADS_OF_SHOULD_AND_MUST_BOOK } from './books/theCrossroadsOfS
 import { LIVING_FORWARD_A_PROVEN_PLAN_TO_STOP_DRIFTING_BOOK } from './books/livingForwardAProvenPlanToStopDriftingExpanded';
 import { A_MILLION_MILES_IN_A_THOUSAND_YEARS_BOOK } from './books/aMillionMilesInAThousandYearsExpanded';
 import { SO_GOOD_THEY_CAN_T_IGNORE_YOU_BOOK } from './books/soGoodTheyCanTIgnoreYouExpanded';
+import { THE_DIP_A_LITTLE_BOOK_THAT_TEACHES_YOU_WHEN_TO_QUIT_BOOK } from './books/theDipALittleBookThatTeachesYouWhenToQuitExpanded';
+import { MINDSET_THE_NEW_PSYCHOLOGY_OF_SUCCESS_BOOK } from './books/mindsetTheNewPsychologyOfSuccessExpanded';
+import { REINVENTING_YOU_BOOK } from './books/reinventingYouExpanded';
+import { THE_SECOND_MOUNTAIN_THE_QUEST_FOR_A_MORAL_LIFE_BOOK } from './books/theSecondMountainTheQuestForAMoralLifeExpanded';
+import { TRANSITIONS_MAKING_SENSE_OF_LIFE_S_CHANGES_BOOK } from './books/transitionsMakingSenseOfLifeSChangesExpanded';
+import { LIFE_IS_IN_THE_TRANSITIONS_BOOK } from './books/lifeIsInTheTransitionsExpanded';
+import { WHO_MOVED_MY_CHEESE_BOOK } from './books/whoMovedMyCheeseExpanded';
+import { PIVOT_THE_ONLY_MOVE_THAT_MATTERS_IS_YOUR_NEXT_ONE_BOOK } from './books/pivotTheOnlyMoveThatMattersIsYourNextOneExpanded';
+import { RANGE_WHY_GENERALISTS_TRIUMPH_IN_A_SPECIALIZED_WORLD_BOOK } from './books/rangeWhyGeneralistsTriumphInASpecializedWorldExpanded';
+import { KING_WARRIOR_MAGICIAN_LOVER_BOOK } from './books/kingWarriorMagicianLoverExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -432,7 +442,17 @@ export const SEED_BOOKS: Book[] = [
   THE_CROSSROADS_OF_SHOULD_AND_MUST_BOOK,
   LIVING_FORWARD_A_PROVEN_PLAN_TO_STOP_DRIFTING_BOOK,
   A_MILLION_MILES_IN_A_THOUSAND_YEARS_BOOK,
-  SO_GOOD_THEY_CAN_T_IGNORE_YOU_BOOK
+  SO_GOOD_THEY_CAN_T_IGNORE_YOU_BOOK,
+  THE_DIP_A_LITTLE_BOOK_THAT_TEACHES_YOU_WHEN_TO_QUIT_BOOK,
+  MINDSET_THE_NEW_PSYCHOLOGY_OF_SUCCESS_BOOK,
+  REINVENTING_YOU_BOOK,
+  THE_SECOND_MOUNTAIN_THE_QUEST_FOR_A_MORAL_LIFE_BOOK,
+  TRANSITIONS_MAKING_SENSE_OF_LIFE_S_CHANGES_BOOK,
+  LIFE_IS_IN_THE_TRANSITIONS_BOOK,
+  WHO_MOVED_MY_CHEESE_BOOK,
+  PIVOT_THE_ONLY_MOVE_THAT_MATTERS_IS_YOUR_NEXT_ONE_BOOK,
+  RANGE_WHY_GENERALISTS_TRIUMPH_IN_A_SPECIALIZED_WORLD_BOOK,
+  KING_WARRIOR_MAGICIAN_LOVER_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -651,7 +671,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(THE_CROSSROADS_OF_SHOULD_AND_MUST_BOOK.ideaCards || []),
   ...(LIVING_FORWARD_A_PROVEN_PLAN_TO_STOP_DRIFTING_BOOK.ideaCards || []),
   ...(A_MILLION_MILES_IN_A_THOUSAND_YEARS_BOOK.ideaCards || []),
-  ...(SO_GOOD_THEY_CAN_T_IGNORE_YOU_BOOK.ideaCards || [])
+  ...(SO_GOOD_THEY_CAN_T_IGNORE_YOU_BOOK.ideaCards || []),
+  ...(THE_DIP_A_LITTLE_BOOK_THAT_TEACHES_YOU_WHEN_TO_QUIT_BOOK.ideaCards || []),
+  ...(MINDSET_THE_NEW_PSYCHOLOGY_OF_SUCCESS_BOOK.ideaCards || []),
+  ...(REINVENTING_YOU_BOOK.ideaCards || []),
+  ...(THE_SECOND_MOUNTAIN_THE_QUEST_FOR_A_MORAL_LIFE_BOOK.ideaCards || []),
+  ...(TRANSITIONS_MAKING_SENSE_OF_LIFE_S_CHANGES_BOOK.ideaCards || []),
+  ...(LIFE_IS_IN_THE_TRANSITIONS_BOOK.ideaCards || []),
+  ...(WHO_MOVED_MY_CHEESE_BOOK.ideaCards || []),
+  ...(PIVOT_THE_ONLY_MOVE_THAT_MATTERS_IS_YOUR_NEXT_ONE_BOOK.ideaCards || []),
+  ...(RANGE_WHY_GENERALISTS_TRIUMPH_IN_A_SPECIALIZED_WORLD_BOOK.ideaCards || []),
+  ...(KING_WARRIOR_MAGICIAN_LOVER_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
