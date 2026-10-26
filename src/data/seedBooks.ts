@@ -236,6 +236,16 @@ import { THE_ARCHETYPES_AND_THE_COLLECTIVE_UNCONSCIOUS_BOOK } from './books/theA
 import { HE_UNDERSTANDING_MASCULINE_PSYCHOLOGY_BOOK } from './books/heUnderstandingMasculinePsychologyExpanded';
 import { SHE_UNDERSTANDING_FEMININE_PSYCHOLOGY_BOOK } from './books/sheUnderstandingFemininePsychologyExpanded';
 import { THE_COURAGE_TO_BE_DISLIKED_BOOK } from './books/theCourageToBeDislikedExpanded';
+import { NOT_NICE_STOP_PEOPLE_PLEASING_STAYING_SILENT_FEELING_GUILTY_BOOK } from './books/notNiceStopPeoplePleasingStayingSilentFeelingGuiltyExpanded';
+import { RADICAL_ACCEPTANCE_BOOK } from './books/radicalAcceptanceExpanded';
+import { THE_GIFTS_OF_IMPERFECTION_BOOK } from './books/theGiftsOfImperfectionExpanded';
+import { NO_MORE_MR_NICE_GUY_BOOK } from './books/noMoreMrNiceGuyExpanded';
+import { THE_DISEASE_TO_PLEASE_CURING_THE_PEOPLE_PLEASING_SYNDROME_BOOK } from './books/theDiseaseToPleaseCuringThePeoplePleasingSyndromeExpanded';
+import { UNTAMED_BOOK } from './books/untamedExpanded';
+import { I_THOUGHT_IT_WAS_JUST_ME_BUT_IT_ISN_T_BOOK } from './books/iThoughtItWasJustMeButItIsnTExpanded';
+import { YOUR_ERRONEOUS_ZONES_BOOK } from './books/yourErroneousZonesExpanded';
+import { HONORING_THE_SELF_BOOK } from './books/honoringTheSelfExpanded';
+import { CRUCIAL_CONVERSATIONS_TOOLS_FOR_TALKING_WHEN_STAKES_ARE_HIGH_BOOK } from './books/crucialConversationsToolsForTalkingWhenStakesAreHighExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -472,7 +482,17 @@ export const SEED_BOOKS: Book[] = [
   THE_ARCHETYPES_AND_THE_COLLECTIVE_UNCONSCIOUS_BOOK,
   HE_UNDERSTANDING_MASCULINE_PSYCHOLOGY_BOOK,
   SHE_UNDERSTANDING_FEMININE_PSYCHOLOGY_BOOK,
-  THE_COURAGE_TO_BE_DISLIKED_BOOK
+  THE_COURAGE_TO_BE_DISLIKED_BOOK,
+  NOT_NICE_STOP_PEOPLE_PLEASING_STAYING_SILENT_FEELING_GUILTY_BOOK,
+  RADICAL_ACCEPTANCE_BOOK,
+  THE_GIFTS_OF_IMPERFECTION_BOOK,
+  NO_MORE_MR_NICE_GUY_BOOK,
+  THE_DISEASE_TO_PLEASE_CURING_THE_PEOPLE_PLEASING_SYNDROME_BOOK,
+  UNTAMED_BOOK,
+  I_THOUGHT_IT_WAS_JUST_ME_BUT_IT_ISN_T_BOOK,
+  YOUR_ERRONEOUS_ZONES_BOOK,
+  HONORING_THE_SELF_BOOK,
+  CRUCIAL_CONVERSATIONS_TOOLS_FOR_TALKING_WHEN_STAKES_ARE_HIGH_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -711,7 +731,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(THE_ARCHETYPES_AND_THE_COLLECTIVE_UNCONSCIOUS_BOOK.ideaCards || []),
   ...(HE_UNDERSTANDING_MASCULINE_PSYCHOLOGY_BOOK.ideaCards || []),
   ...(SHE_UNDERSTANDING_FEMININE_PSYCHOLOGY_BOOK.ideaCards || []),
-  ...(THE_COURAGE_TO_BE_DISLIKED_BOOK.ideaCards || [])
+  ...(THE_COURAGE_TO_BE_DISLIKED_BOOK.ideaCards || []),
+  ...(NOT_NICE_STOP_PEOPLE_PLEASING_STAYING_SILENT_FEELING_GUILTY_BOOK.ideaCards || []),
+  ...(RADICAL_ACCEPTANCE_BOOK.ideaCards || []),
+  ...(THE_GIFTS_OF_IMPERFECTION_BOOK.ideaCards || []),
+  ...(NO_MORE_MR_NICE_GUY_BOOK.ideaCards || []),
+  ...(THE_DISEASE_TO_PLEASE_CURING_THE_PEOPLE_PLEASING_SYNDROME_BOOK.ideaCards || []),
+  ...(UNTAMED_BOOK.ideaCards || []),
+  ...(I_THOUGHT_IT_WAS_JUST_ME_BUT_IT_ISN_T_BOOK.ideaCards || []),
+  ...(YOUR_ERRONEOUS_ZONES_BOOK.ideaCards || []),
+  ...(HONORING_THE_SELF_BOOK.ideaCards || []),
+  ...(CRUCIAL_CONVERSATIONS_TOOLS_FOR_TALKING_WHEN_STAKES_ARE_HIGH_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
