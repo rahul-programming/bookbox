@@ -164,6 +164,16 @@ import { WHO_GETS_WHAT_AND_WHY_BOOK } from './books/whoGetsWhatAndWhyExpanded';
 import { THE_ACCOUNTABILITY_MANIFESTO_BOOK } from './books/theAccountabilityManifestoExpanded';
 import { GETTING_THINGS_DONE_THE_ART_OF_STRESS_FREE_PRODUCTIVITY_BOOK } from './books/gettingThingsDoneTheArtOfStressFreeProductivityExpanded';
 import { MAKE_TIME_HOW_TO_FOCUS_ON_WHAT_MATTERS_EVERY_DAY_BOOK } from './books/makeTimeHowToFocusOnWhatMattersEveryDayExpanded';
+import { TIME_SMART_HOW_TO_RECLAIM_YOUR_TIME_AND_LIVE_A_HAPPIER_LIFE_BOOK } from './books/timeSmartHowToReclaimYourTimeAndLiveAHappierLifeExpanded';
+import { BOOK_168_HOURS_YOU_HAVE_MORE_TIME_THAN_YOU_THINK_BOOK } from './books/168HoursYouHaveMoreTimeThanYouThinkExpanded';
+import { FOUR_THOUSAND_WEEKS_TIME_MANAGEMENT_FOR_MORTALS_BOOK } from './books/fourThousandWeeksTimeManagementForMortalsExpanded';
+import { ESSENTIALISM_THE_DISCIPLINED_PURSUIT_OF_LESS_BOOK } from './books/essentialismTheDisciplinedPursuitOfLessExpanded';
+import { THE_ONE_THING_BOOK } from './books/theOneThingExpanded';
+import { EFFORTLESS_MAKE_IT_EASIER_TO_DO_WHAT_MATTERS_MOST_BOOK } from './books/effortlessMakeItEasierToDoWhatMattersMostExpanded';
+import { HELL_YEAH_OR_NO_BOOK } from './books/hellYeahOrNoExpanded';
+import { THE_80_20_PRINCIPLE_BOOK } from './books/the8020PrincipleExpanded';
+import { THE_POWER_OF_FULL_ENGAGEMENT_BOOK } from './books/thePowerOfFullEngagementExpanded';
+import { WHEN_THE_SCIENTIFIC_SECRETS_OF_PERFECT_TIMING_BOOK } from './books/whenTheScientificSecretsOfPerfectTimingExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -328,7 +338,17 @@ export const SEED_BOOKS: Book[] = [
   WHO_GETS_WHAT_AND_WHY_BOOK,
   THE_ACCOUNTABILITY_MANIFESTO_BOOK,
   GETTING_THINGS_DONE_THE_ART_OF_STRESS_FREE_PRODUCTIVITY_BOOK,
-  MAKE_TIME_HOW_TO_FOCUS_ON_WHAT_MATTERS_EVERY_DAY_BOOK
+  MAKE_TIME_HOW_TO_FOCUS_ON_WHAT_MATTERS_EVERY_DAY_BOOK,
+  TIME_SMART_HOW_TO_RECLAIM_YOUR_TIME_AND_LIVE_A_HAPPIER_LIFE_BOOK,
+  BOOK_168_HOURS_YOU_HAVE_MORE_TIME_THAN_YOU_THINK_BOOK,
+  FOUR_THOUSAND_WEEKS_TIME_MANAGEMENT_FOR_MORTALS_BOOK,
+  ESSENTIALISM_THE_DISCIPLINED_PURSUIT_OF_LESS_BOOK,
+  THE_ONE_THING_BOOK,
+  EFFORTLESS_MAKE_IT_EASIER_TO_DO_WHAT_MATTERS_MOST_BOOK,
+  HELL_YEAH_OR_NO_BOOK,
+  THE_80_20_PRINCIPLE_BOOK,
+  THE_POWER_OF_FULL_ENGAGEMENT_BOOK,
+  WHEN_THE_SCIENTIFIC_SECRETS_OF_PERFECT_TIMING_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -495,7 +515,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(WHO_GETS_WHAT_AND_WHY_BOOK.ideaCards || []),
   ...(THE_ACCOUNTABILITY_MANIFESTO_BOOK.ideaCards || []),
   ...(GETTING_THINGS_DONE_THE_ART_OF_STRESS_FREE_PRODUCTIVITY_BOOK.ideaCards || []),
-  ...(MAKE_TIME_HOW_TO_FOCUS_ON_WHAT_MATTERS_EVERY_DAY_BOOK.ideaCards || [])
+  ...(MAKE_TIME_HOW_TO_FOCUS_ON_WHAT_MATTERS_EVERY_DAY_BOOK.ideaCards || []),
+  ...(TIME_SMART_HOW_TO_RECLAIM_YOUR_TIME_AND_LIVE_A_HAPPIER_LIFE_BOOK.ideaCards || []),
+  ...(BOOK_168_HOURS_YOU_HAVE_MORE_TIME_THAN_YOU_THINK_BOOK.ideaCards || []),
+  ...(FOUR_THOUSAND_WEEKS_TIME_MANAGEMENT_FOR_MORTALS_BOOK.ideaCards || []),
+  ...(ESSENTIALISM_THE_DISCIPLINED_PURSUIT_OF_LESS_BOOK.ideaCards || []),
+  ...(THE_ONE_THING_BOOK.ideaCards || []),
+  ...(EFFORTLESS_MAKE_IT_EASIER_TO_DO_WHAT_MATTERS_MOST_BOOK.ideaCards || []),
+  ...(HELL_YEAH_OR_NO_BOOK.ideaCards || []),
+  ...(THE_80_20_PRINCIPLE_BOOK.ideaCards || []),
+  ...(THE_POWER_OF_FULL_ENGAGEMENT_BOOK.ideaCards || []),
+  ...(WHEN_THE_SCIENTIFIC_SECRETS_OF_PERFECT_TIMING_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
