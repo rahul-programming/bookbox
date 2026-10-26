@@ -134,6 +134,16 @@ import { MAN_S_SEARCH_FOR_MEANING_BOOK } from './books/manSSearchForMeaningExpan
 import { THE_NOONDAY_DEMON_AN_ATLAS_OF_DEPRESSION_BOOK } from './books/theNoondayDemonAnAtlasOfDepressionExpanded';
 import { LOST_CONNECTIONS_UNCOVERING_THE_REAL_CAUSES_OF_DEPRESSION_BOOK } from './books/lostConnectionsUncoveringTheRealCausesOfDepressionExpanded';
 import { THE_DANCE_OF_ANGER_BOOK } from './books/theDanceOfAngerExpanded';
+import { FORGIVE_FOR_GOOD_BOOK } from './books/forgiveForGoodExpanded';
+import { ANGER_WISDOM_FOR_COOLING_THE_FLAMES_BOOK } from './books/angerWisdomForCoolingTheFlamesExpanded';
+import { OVERCOMING_DESTRUCTIVE_ANGER_BOOK } from './books/overcomingDestructiveAngerExpanded';
+import { RETHINKING_NARCISSISM_ANGER_BOOK } from './books/rethinkingNarcissismAngerExpanded';
+import { DARING_GREATLY_BOOK } from './books/daringGreatlyExpanded';
+import { SELF_COMPASSION_THE_PROVEN_POWER_OF_BEING_KIND_TO_YOURSELF_BOOK } from './books/selfCompassionTheProvenPowerOfBeingKindToYourselfExpanded';
+import { THE_COMPASSIONATE_MIND_BOOK } from './books/theCompassionateMindExpanded';
+import { HEALING_THE_SHAME_THAT_BINDS_YOU_BOOK } from './books/healingTheShameThatBindsYouExpanded';
+import { RADICAL_COMPASSION_BOOK } from './books/radicalCompassionExpanded';
+import { TINY_HABITS_THE_SMALL_CHANGES_THAT_CHANGE_EVERYTHING_BOOK } from './books/tinyHabitsTheSmallChangesThatChangeEverythingExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -268,7 +278,17 @@ export const SEED_BOOKS: Book[] = [
   MAN_S_SEARCH_FOR_MEANING_BOOK,
   THE_NOONDAY_DEMON_AN_ATLAS_OF_DEPRESSION_BOOK,
   LOST_CONNECTIONS_UNCOVERING_THE_REAL_CAUSES_OF_DEPRESSION_BOOK,
-  THE_DANCE_OF_ANGER_BOOK
+  THE_DANCE_OF_ANGER_BOOK,
+  FORGIVE_FOR_GOOD_BOOK,
+  ANGER_WISDOM_FOR_COOLING_THE_FLAMES_BOOK,
+  OVERCOMING_DESTRUCTIVE_ANGER_BOOK,
+  RETHINKING_NARCISSISM_ANGER_BOOK,
+  DARING_GREATLY_BOOK,
+  SELF_COMPASSION_THE_PROVEN_POWER_OF_BEING_KIND_TO_YOURSELF_BOOK,
+  THE_COMPASSIONATE_MIND_BOOK,
+  HEALING_THE_SHAME_THAT_BINDS_YOU_BOOK,
+  RADICAL_COMPASSION_BOOK,
+  TINY_HABITS_THE_SMALL_CHANGES_THAT_CHANGE_EVERYTHING_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -405,7 +425,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(MAN_S_SEARCH_FOR_MEANING_BOOK.ideaCards || []),
   ...(THE_NOONDAY_DEMON_AN_ATLAS_OF_DEPRESSION_BOOK.ideaCards || []),
   ...(LOST_CONNECTIONS_UNCOVERING_THE_REAL_CAUSES_OF_DEPRESSION_BOOK.ideaCards || []),
-  ...(THE_DANCE_OF_ANGER_BOOK.ideaCards || [])
+  ...(THE_DANCE_OF_ANGER_BOOK.ideaCards || []),
+  ...(FORGIVE_FOR_GOOD_BOOK.ideaCards || []),
+  ...(ANGER_WISDOM_FOR_COOLING_THE_FLAMES_BOOK.ideaCards || []),
+  ...(OVERCOMING_DESTRUCTIVE_ANGER_BOOK.ideaCards || []),
+  ...(RETHINKING_NARCISSISM_ANGER_BOOK.ideaCards || []),
+  ...(DARING_GREATLY_BOOK.ideaCards || []),
+  ...(SELF_COMPASSION_THE_PROVEN_POWER_OF_BEING_KIND_TO_YOURSELF_BOOK.ideaCards || []),
+  ...(THE_COMPASSIONATE_MIND_BOOK.ideaCards || []),
+  ...(HEALING_THE_SHAME_THAT_BINDS_YOU_BOOK.ideaCards || []),
+  ...(RADICAL_COMPASSION_BOOK.ideaCards || []),
+  ...(TINY_HABITS_THE_SMALL_CHANGES_THAT_CHANGE_EVERYTHING_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
