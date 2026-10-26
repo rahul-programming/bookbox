@@ -174,6 +174,16 @@ import { HELL_YEAH_OR_NO_BOOK } from './books/hellYeahOrNoExpanded';
 import { THE_80_20_PRINCIPLE_BOOK } from './books/the8020PrincipleExpanded';
 import { THE_POWER_OF_FULL_ENGAGEMENT_BOOK } from './books/thePowerOfFullEngagementExpanded';
 import { WHEN_THE_SCIENTIFIC_SECRETS_OF_PERFECT_TIMING_BOOK } from './books/whenTheScientificSecretsOfPerfectTimingExpanded';
+import { THE_POWER_OF_WHEN_BOOK } from './books/thePowerOfWhenExpanded';
+import { PEAK_PERFORMANCE_BOOK } from './books/peakPerformanceExpanded';
+import { THE_CIRCADIAN_CODE_BOOK } from './books/theCircadianCodeExpanded';
+import { THE_NOW_HABIT_BOOK } from './books/theNowHabitExpanded';
+import { THE_5_SECOND_RULE_BOOK } from './books/the5SecondRuleExpanded';
+import { THE_WAR_OF_ART_BOOK } from './books/theWarOfArtExpanded';
+import { SOLVING_THE_PROCRASTINATION_PUZZLE_BOOK } from './books/solvingTheProcrastinationPuzzleExpanded';
+import { DO_THE_WORK_BOOK } from './books/doTheWorkExpanded';
+import { WHY_WE_SLEEP_UNLOCKING_THE_POWER_OF_SLEEP_AND_DREAMS_BOOK } from './books/whyWeSleepUnlockingThePowerOfSleepAndDreamsExpanded';
+import { THE_SLEEP_SOLUTION_BOOK } from './books/theSleepSolutionExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -348,7 +358,17 @@ export const SEED_BOOKS: Book[] = [
   HELL_YEAH_OR_NO_BOOK,
   THE_80_20_PRINCIPLE_BOOK,
   THE_POWER_OF_FULL_ENGAGEMENT_BOOK,
-  WHEN_THE_SCIENTIFIC_SECRETS_OF_PERFECT_TIMING_BOOK
+  WHEN_THE_SCIENTIFIC_SECRETS_OF_PERFECT_TIMING_BOOK,
+  THE_POWER_OF_WHEN_BOOK,
+  PEAK_PERFORMANCE_BOOK,
+  THE_CIRCADIAN_CODE_BOOK,
+  THE_NOW_HABIT_BOOK,
+  THE_5_SECOND_RULE_BOOK,
+  THE_WAR_OF_ART_BOOK,
+  SOLVING_THE_PROCRASTINATION_PUZZLE_BOOK,
+  DO_THE_WORK_BOOK,
+  WHY_WE_SLEEP_UNLOCKING_THE_POWER_OF_SLEEP_AND_DREAMS_BOOK,
+  THE_SLEEP_SOLUTION_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -525,7 +545,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(HELL_YEAH_OR_NO_BOOK.ideaCards || []),
   ...(THE_80_20_PRINCIPLE_BOOK.ideaCards || []),
   ...(THE_POWER_OF_FULL_ENGAGEMENT_BOOK.ideaCards || []),
-  ...(WHEN_THE_SCIENTIFIC_SECRETS_OF_PERFECT_TIMING_BOOK.ideaCards || [])
+  ...(WHEN_THE_SCIENTIFIC_SECRETS_OF_PERFECT_TIMING_BOOK.ideaCards || []),
+  ...(THE_POWER_OF_WHEN_BOOK.ideaCards || []),
+  ...(PEAK_PERFORMANCE_BOOK.ideaCards || []),
+  ...(THE_CIRCADIAN_CODE_BOOK.ideaCards || []),
+  ...(THE_NOW_HABIT_BOOK.ideaCards || []),
+  ...(THE_5_SECOND_RULE_BOOK.ideaCards || []),
+  ...(THE_WAR_OF_ART_BOOK.ideaCards || []),
+  ...(SOLVING_THE_PROCRASTINATION_PUZZLE_BOOK.ideaCards || []),
+  ...(DO_THE_WORK_BOOK.ideaCards || []),
+  ...(WHY_WE_SLEEP_UNLOCKING_THE_POWER_OF_SLEEP_AND_DREAMS_BOOK.ideaCards || []),
+  ...(THE_SLEEP_SOLUTION_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
