@@ -194,6 +194,18 @@ import { THE_COMPLETE_GUIDE_TO_FASTING_BOOK } from './books/theCompleteGuideToFa
 import { WHY_WE_GET_SICK_BOOK } from './books/whyWeGetSickExpanded';
 import { BECOMING_A_SUPPLE_LEOPARD_BOOK } from './books/becomingASuppleLeopardExpanded';
 import { STARTING_STRENGTH_BASIC_BARBELL_TRAINING_BOOK } from './books/startingStrengthBasicBarbellTrainingExpanded';
+import { BUILT_FROM_BROKEN_BOOK } from './books/builtFromBrokenExpanded';
+import { OVERCOMING_GRAVITY_BOOK } from './books/overcomingGravityExpanded';
+import { BORN_TO_RUN_BOOK } from './books/bornToRunExpanded';
+import { BREATH_THE_NEW_SCIENCE_OF_A_LOST_ART_BOOK } from './books/breathTheNewScienceOfALostArtExpanded';
+import { THE_OXYGEN_ADVANTAGE_BOOK } from './books/theOxygenAdvantageExpanded';
+import { WIM_HOF_THE_WIM_HOF_METHOD_BOOK } from './books/wimHofTheWimHofMethodExpanded';
+import { SOMATICS_REAWAKENING_THE_MIND_S_CONTROL_OF_MOVEMENT_BOOK } from './books/somaticsReawakeningTheMindSControlOfMovementExpanded';
+import { THE_POLYVAGAL_THEORY_IN_THERAPY_BOOK } from './books/thePolyvagalTheoryInTherapyExpanded';
+import { HEALING_BACK_PAIN_THE_MIND_BODY_CONNECTION_BOOK } from './books/healingBackPainTheMindBodyConnectionExpanded';
+import { THE_BODY_KEEPS_THE_SCORE_BOOK } from './books/theBodyKeepsTheScoreExpanded';
+import { THE_DIVIDED_MIND_THE_EPIDEMIC_OF_MINDBODY_DISORDERS_BOOK } from './books/theDividedMindTheEpidemicOfMindbodyDisordersExpanded';
+import { UNLEARN_YOUR_PAIN_BOOK } from './books/unlearnYourPainExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -388,7 +400,19 @@ export const SEED_BOOKS: Book[] = [
   THE_COMPLETE_GUIDE_TO_FASTING_BOOK,
   WHY_WE_GET_SICK_BOOK,
   BECOMING_A_SUPPLE_LEOPARD_BOOK,
-  STARTING_STRENGTH_BASIC_BARBELL_TRAINING_BOOK
+  STARTING_STRENGTH_BASIC_BARBELL_TRAINING_BOOK,
+  BUILT_FROM_BROKEN_BOOK,
+  OVERCOMING_GRAVITY_BOOK,
+  BORN_TO_RUN_BOOK,
+  BREATH_THE_NEW_SCIENCE_OF_A_LOST_ART_BOOK,
+  THE_OXYGEN_ADVANTAGE_BOOK,
+  WIM_HOF_THE_WIM_HOF_METHOD_BOOK,
+  SOMATICS_REAWAKENING_THE_MIND_S_CONTROL_OF_MOVEMENT_BOOK,
+  THE_POLYVAGAL_THEORY_IN_THERAPY_BOOK,
+  HEALING_BACK_PAIN_THE_MIND_BODY_CONNECTION_BOOK,
+  THE_BODY_KEEPS_THE_SCORE_BOOK,
+  THE_DIVIDED_MIND_THE_EPIDEMIC_OF_MINDBODY_DISORDERS_BOOK,
+  UNLEARN_YOUR_PAIN_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -585,7 +609,19 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(THE_COMPLETE_GUIDE_TO_FASTING_BOOK.ideaCards || []),
   ...(WHY_WE_GET_SICK_BOOK.ideaCards || []),
   ...(BECOMING_A_SUPPLE_LEOPARD_BOOK.ideaCards || []),
-  ...(STARTING_STRENGTH_BASIC_BARBELL_TRAINING_BOOK.ideaCards || [])
+  ...(STARTING_STRENGTH_BASIC_BARBELL_TRAINING_BOOK.ideaCards || []),
+  ...(BUILT_FROM_BROKEN_BOOK.ideaCards || []),
+  ...(OVERCOMING_GRAVITY_BOOK.ideaCards || []),
+  ...(BORN_TO_RUN_BOOK.ideaCards || []),
+  ...(BREATH_THE_NEW_SCIENCE_OF_A_LOST_ART_BOOK.ideaCards || []),
+  ...(THE_OXYGEN_ADVANTAGE_BOOK.ideaCards || []),
+  ...(WIM_HOF_THE_WIM_HOF_METHOD_BOOK.ideaCards || []),
+  ...(SOMATICS_REAWAKENING_THE_MIND_S_CONTROL_OF_MOVEMENT_BOOK.ideaCards || []),
+  ...(THE_POLYVAGAL_THEORY_IN_THERAPY_BOOK.ideaCards || []),
+  ...(HEALING_BACK_PAIN_THE_MIND_BODY_CONNECTION_BOOK.ideaCards || []),
+  ...(THE_BODY_KEEPS_THE_SCORE_BOOK.ideaCards || []),
+  ...(THE_DIVIDED_MIND_THE_EPIDEMIC_OF_MINDBODY_DISORDERS_BOOK.ideaCards || []),
+  ...(UNLEARN_YOUR_PAIN_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
