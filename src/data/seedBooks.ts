@@ -124,6 +124,16 @@ import { SEARCH_INSIDE_YOURSELF_BOOK } from './books/searchInsideYourselfExpande
 import { PRIMAL_LEADERSHIP_BOOK } from './books/primalLeadershipExpanded';
 import { WORKING_WITH_EMOTIONAL_INTELLIGENCE_BOOK } from './books/workingWithEmotionalIntelligenceExpanded';
 import { HOPE_AND_HELP_FOR_YOUR_NERVES_BOOK } from './books/hopeAndHelpForYourNervesExpanded';
+import { UNWINDING_ANXIETY_BOOK } from './books/unwindingAnxietyExpanded';
+import { THE_WORRY_TRICK_BOOK } from './books/theWorryTrickExpanded';
+import { WHEN_PANIC_ATTACKS_BOOK } from './books/whenPanicAttacksExpanded';
+import { THE_ANXIETY_AND_PHOBIA_WORKBOOK_BOOK } from './books/theAnxietyAndPhobiaWorkbookExpanded';
+import { LEARNED_OPTIMISM_BOOK } from './books/learnedOptimismExpanded';
+import { THE_UPWARD_SPIRAL_BOOK } from './books/theUpwardSpiralExpanded';
+import { MAN_S_SEARCH_FOR_MEANING_BOOK } from './books/manSSearchForMeaningExpanded';
+import { THE_NOONDAY_DEMON_AN_ATLAS_OF_DEPRESSION_BOOK } from './books/theNoondayDemonAnAtlasOfDepressionExpanded';
+import { LOST_CONNECTIONS_UNCOVERING_THE_REAL_CAUSES_OF_DEPRESSION_BOOK } from './books/lostConnectionsUncoveringTheRealCausesOfDepressionExpanded';
+import { THE_DANCE_OF_ANGER_BOOK } from './books/theDanceOfAngerExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -248,7 +258,17 @@ export const SEED_BOOKS: Book[] = [
   SEARCH_INSIDE_YOURSELF_BOOK,
   PRIMAL_LEADERSHIP_BOOK,
   WORKING_WITH_EMOTIONAL_INTELLIGENCE_BOOK,
-  HOPE_AND_HELP_FOR_YOUR_NERVES_BOOK
+  HOPE_AND_HELP_FOR_YOUR_NERVES_BOOK,
+  UNWINDING_ANXIETY_BOOK,
+  THE_WORRY_TRICK_BOOK,
+  WHEN_PANIC_ATTACKS_BOOK,
+  THE_ANXIETY_AND_PHOBIA_WORKBOOK_BOOK,
+  LEARNED_OPTIMISM_BOOK,
+  THE_UPWARD_SPIRAL_BOOK,
+  MAN_S_SEARCH_FOR_MEANING_BOOK,
+  THE_NOONDAY_DEMON_AN_ATLAS_OF_DEPRESSION_BOOK,
+  LOST_CONNECTIONS_UNCOVERING_THE_REAL_CAUSES_OF_DEPRESSION_BOOK,
+  THE_DANCE_OF_ANGER_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -375,7 +395,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(SEARCH_INSIDE_YOURSELF_BOOK.ideaCards || []),
   ...(PRIMAL_LEADERSHIP_BOOK.ideaCards || []),
   ...(WORKING_WITH_EMOTIONAL_INTELLIGENCE_BOOK.ideaCards || []),
-  ...(HOPE_AND_HELP_FOR_YOUR_NERVES_BOOK.ideaCards || [])
+  ...(HOPE_AND_HELP_FOR_YOUR_NERVES_BOOK.ideaCards || []),
+  ...(UNWINDING_ANXIETY_BOOK.ideaCards || []),
+  ...(THE_WORRY_TRICK_BOOK.ideaCards || []),
+  ...(WHEN_PANIC_ATTACKS_BOOK.ideaCards || []),
+  ...(THE_ANXIETY_AND_PHOBIA_WORKBOOK_BOOK.ideaCards || []),
+  ...(LEARNED_OPTIMISM_BOOK.ideaCards || []),
+  ...(THE_UPWARD_SPIRAL_BOOK.ideaCards || []),
+  ...(MAN_S_SEARCH_FOR_MEANING_BOOK.ideaCards || []),
+  ...(THE_NOONDAY_DEMON_AN_ATLAS_OF_DEPRESSION_BOOK.ideaCards || []),
+  ...(LOST_CONNECTIONS_UNCOVERING_THE_REAL_CAUSES_OF_DEPRESSION_BOOK.ideaCards || []),
+  ...(THE_DANCE_OF_ANGER_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
