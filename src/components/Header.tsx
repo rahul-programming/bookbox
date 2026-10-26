@@ -195,7 +195,7 @@ export const Header: React.FC<HeaderProps> = ({
               </button>
 
               {isUserMenuOpen && (
-                <div className="absolute right-0 mt-2 w-64 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-2xl p-4 z-50 space-y-3 animate-fade-in">
+                <div className="absolute right-0 mt-2 w-64 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-2xl p-4 z-[100] space-y-3 animate-fade-in">
                   <div className="flex items-center space-x-3 pb-3 border-b border-slate-100 dark:border-slate-700">
                     <span className="text-3xl">{currentUser.avatarEmoji || '🦉'}</span>
                     <div className="truncate">

@@ -94,7 +94,10 @@ def to_camel_case(s):
 
 def to_screaming_snake(s):
     cleaned = re.sub(r'[^a-zA-Z0-9]+', '_', s).strip('_')
-    return cleaned.upper() + '_BOOK'
+    res = cleaned.upper() + '_BOOK'
+    if res[0].isdigit():
+        res = 'BOOK_' + res
+    return res
 
 def sanitize_action_items(raw_items, book_id):
     valid_categories = {'quick-win', 'daily-routine', 'environment', 'audit', 'system'}
@@ -151,19 +154,22 @@ def sanitize_reflections(raw_refs, book_id):
 def sanitize_one_page_summary(s):
     if not isinstance(s, dict):
         return {}
-    def flatten_strings(val):
+    def flatten_items(val):
         if not isinstance(val, list):
             return []
         out = []
         for item in val:
             if isinstance(item, list):
-                out.extend(flatten_strings(item))
+                out.extend(flatten_items(item))
+            elif isinstance(item, dict):
+                out.append(item)
             elif isinstance(item, str) and item.strip():
                 out.append(clean_quotes(item.strip()))
         return out
 
-    s["strengths"] = flatten_strings(s.get("strengths", []))
-    s["blindSpotsAndCounterarguments"] = flatten_strings(s.get("blindSpotsAndCounterarguments", []))
+    s["strengths"] = flatten_items(s.get("strengths", []))
+    s["blindSpotsAndCounterarguments"] = flatten_items(s.get("blindSpotsAndCounterarguments", []))
+    s["keyPillars"] = flatten_items(s.get("keyPillars", []))
     return s
 
 def sanitize_idea_cards(raw_cards, book_id, book_title, author, app_category):
@@ -499,7 +505,7 @@ Written in simple, gripping, plain English like a compelling real-world narrativ
 Return JSON object: {{ "stories": [story-1, story-2, story-3, story-4, story-5] }}
 Output ONLY raw valid JSON.
 """
-        s1_data = query_agy(prompt_s1, effort="low")
+        s1_data = query_agy(prompt_s1, timeout=600, effort="low")
         s1_list = s1_data.get("stories", [])
         if isinstance(s1_list, list):
             draft["stories"].extend(s1_list)
@@ -532,7 +538,7 @@ Written in simple, gripping, plain English like a compelling real-world narrativ
 Return JSON object: {{ "stories": [story-6, story-7, story-8, story-9, story-10] }}
 Output ONLY raw valid JSON.
 """
-        s2_data = query_agy(prompt_s2, effort="low")
+        s2_data = query_agy(prompt_s2, timeout=600, effort="low")
         s2_list = s2_data.get("stories", [])
         if isinstance(s2_list, list):
             draft["stories"].extend(s2_list)
@@ -782,7 +788,6 @@ def save_book_status(book_id, updates):
         for b in tracker_data.get("books", []):
             if b.get("id") == book_id:
                 b.update(updates)
-                break
         with open(TRACKER_PATH, "w") as f:
             json.dump(tracker_data, f, indent=2)
     except Exception as e:
