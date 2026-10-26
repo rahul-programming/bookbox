@@ -144,6 +144,16 @@ import { THE_COMPASSIONATE_MIND_BOOK } from './books/theCompassionateMindExpande
 import { HEALING_THE_SHAME_THAT_BINDS_YOU_BOOK } from './books/healingTheShameThatBindsYouExpanded';
 import { RADICAL_COMPASSION_BOOK } from './books/radicalCompassionExpanded';
 import { TINY_HABITS_THE_SMALL_CHANGES_THAT_CHANGE_EVERYTHING_BOOK } from './books/tinyHabitsTheSmallChangesThatChangeEverythingExpanded';
+import { THE_POWER_OF_HABIT_BOOK } from './books/thePowerOfHabitExpanded';
+import { BETTER_THAN_BEFORE_BOOK } from './books/betterThanBeforeExpanded';
+import { MINI_HABITS_BOOK } from './books/miniHabitsExpanded';
+import { DOPAMINE_NATION_FINDING_BALANCE_IN_THE_AGE_OF_INDULGENCE_BOOK } from './books/dopamineNationFindingBalanceInTheAgeOfIndulgenceExpanded';
+import { IN_THE_REALM_OF_HUNGRY_GHOSTS_BOOK } from './books/inTheRealmOfHungryGhostsExpanded';
+import { RATIONAL_RECOVERY_BOOK } from './books/rationalRecoveryExpanded';
+import { THE_EASY_WAY_TO_STOP_SMOKING_STOP_DRINKING_BOOK } from './books/theEasyWayToStopSmokingStopDrinkingExpanded';
+import { THIS_NAKED_MIND_BOOK } from './books/thisNakedMindExpanded';
+import { ONE_SMALL_STEP_CAN_CHANGE_YOUR_LIFE_THE_KAIZEN_WAY_BOOK } from './books/oneSmallStepCanChangeYourLifeTheKaizenWayExpanded';
+import { ELASTIC_HABITS_BOOK } from './books/elasticHabitsExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -288,7 +298,17 @@ export const SEED_BOOKS: Book[] = [
   THE_COMPASSIONATE_MIND_BOOK,
   HEALING_THE_SHAME_THAT_BINDS_YOU_BOOK,
   RADICAL_COMPASSION_BOOK,
-  TINY_HABITS_THE_SMALL_CHANGES_THAT_CHANGE_EVERYTHING_BOOK
+  TINY_HABITS_THE_SMALL_CHANGES_THAT_CHANGE_EVERYTHING_BOOK,
+  THE_POWER_OF_HABIT_BOOK,
+  BETTER_THAN_BEFORE_BOOK,
+  MINI_HABITS_BOOK,
+  DOPAMINE_NATION_FINDING_BALANCE_IN_THE_AGE_OF_INDULGENCE_BOOK,
+  IN_THE_REALM_OF_HUNGRY_GHOSTS_BOOK,
+  RATIONAL_RECOVERY_BOOK,
+  THE_EASY_WAY_TO_STOP_SMOKING_STOP_DRINKING_BOOK,
+  THIS_NAKED_MIND_BOOK,
+  ONE_SMALL_STEP_CAN_CHANGE_YOUR_LIFE_THE_KAIZEN_WAY_BOOK,
+  ELASTIC_HABITS_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -435,7 +455,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(THE_COMPASSIONATE_MIND_BOOK.ideaCards || []),
   ...(HEALING_THE_SHAME_THAT_BINDS_YOU_BOOK.ideaCards || []),
   ...(RADICAL_COMPASSION_BOOK.ideaCards || []),
-  ...(TINY_HABITS_THE_SMALL_CHANGES_THAT_CHANGE_EVERYTHING_BOOK.ideaCards || [])
+  ...(TINY_HABITS_THE_SMALL_CHANGES_THAT_CHANGE_EVERYTHING_BOOK.ideaCards || []),
+  ...(THE_POWER_OF_HABIT_BOOK.ideaCards || []),
+  ...(BETTER_THAN_BEFORE_BOOK.ideaCards || []),
+  ...(MINI_HABITS_BOOK.ideaCards || []),
+  ...(DOPAMINE_NATION_FINDING_BALANCE_IN_THE_AGE_OF_INDULGENCE_BOOK.ideaCards || []),
+  ...(IN_THE_REALM_OF_HUNGRY_GHOSTS_BOOK.ideaCards || []),
+  ...(RATIONAL_RECOVERY_BOOK.ideaCards || []),
+  ...(THE_EASY_WAY_TO_STOP_SMOKING_STOP_DRINKING_BOOK.ideaCards || []),
+  ...(THIS_NAKED_MIND_BOOK.ideaCards || []),
+  ...(ONE_SMALL_STEP_CAN_CHANGE_YOUR_LIFE_THE_KAIZEN_WAY_BOOK.ideaCards || []),
+  ...(ELASTIC_HABITS_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
