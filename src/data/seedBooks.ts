@@ -184,6 +184,16 @@ import { SOLVING_THE_PROCRASTINATION_PUZZLE_BOOK } from './books/solvingTheProcr
 import { DO_THE_WORK_BOOK } from './books/doTheWorkExpanded';
 import { WHY_WE_SLEEP_UNLOCKING_THE_POWER_OF_SLEEP_AND_DREAMS_BOOK } from './books/whyWeSleepUnlockingThePowerOfSleepAndDreamsExpanded';
 import { THE_SLEEP_SOLUTION_BOOK } from './books/theSleepSolutionExpanded';
+import { SLEEP_SMARTER_BOOK } from './books/sleepSmarterExpanded';
+import { THE_PROMISE_OF_SLEEP_BOOK } from './books/thePromiseOfSleepExpanded';
+import { SAY_GOOD_NIGHT_TO_INSOMNIA_BOOK } from './books/sayGoodNightToInsomniaExpanded';
+import { OUTLIVE_THE_SCIENCE_AND_ART_OF_LONGEVITY_BOOK } from './books/outliveTheScienceAndArtOfLongevityExpanded';
+import { THE_OBESITY_CODE_BOOK } from './books/theObesityCodeExpanded';
+import { IN_DEFENSE_OF_FOOD_BOOK } from './books/inDefenseOfFoodExpanded';
+import { THE_COMPLETE_GUIDE_TO_FASTING_BOOK } from './books/theCompleteGuideToFastingExpanded';
+import { WHY_WE_GET_SICK_BOOK } from './books/whyWeGetSickExpanded';
+import { BECOMING_A_SUPPLE_LEOPARD_BOOK } from './books/becomingASuppleLeopardExpanded';
+import { STARTING_STRENGTH_BASIC_BARBELL_TRAINING_BOOK } from './books/startingStrengthBasicBarbellTrainingExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -368,7 +378,17 @@ export const SEED_BOOKS: Book[] = [
   SOLVING_THE_PROCRASTINATION_PUZZLE_BOOK,
   DO_THE_WORK_BOOK,
   WHY_WE_SLEEP_UNLOCKING_THE_POWER_OF_SLEEP_AND_DREAMS_BOOK,
-  THE_SLEEP_SOLUTION_BOOK
+  THE_SLEEP_SOLUTION_BOOK,
+  SLEEP_SMARTER_BOOK,
+  THE_PROMISE_OF_SLEEP_BOOK,
+  SAY_GOOD_NIGHT_TO_INSOMNIA_BOOK,
+  OUTLIVE_THE_SCIENCE_AND_ART_OF_LONGEVITY_BOOK,
+  THE_OBESITY_CODE_BOOK,
+  IN_DEFENSE_OF_FOOD_BOOK,
+  THE_COMPLETE_GUIDE_TO_FASTING_BOOK,
+  WHY_WE_GET_SICK_BOOK,
+  BECOMING_A_SUPPLE_LEOPARD_BOOK,
+  STARTING_STRENGTH_BASIC_BARBELL_TRAINING_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -555,7 +575,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(SOLVING_THE_PROCRASTINATION_PUZZLE_BOOK.ideaCards || []),
   ...(DO_THE_WORK_BOOK.ideaCards || []),
   ...(WHY_WE_SLEEP_UNLOCKING_THE_POWER_OF_SLEEP_AND_DREAMS_BOOK.ideaCards || []),
-  ...(THE_SLEEP_SOLUTION_BOOK.ideaCards || [])
+  ...(THE_SLEEP_SOLUTION_BOOK.ideaCards || []),
+  ...(SLEEP_SMARTER_BOOK.ideaCards || []),
+  ...(THE_PROMISE_OF_SLEEP_BOOK.ideaCards || []),
+  ...(SAY_GOOD_NIGHT_TO_INSOMNIA_BOOK.ideaCards || []),
+  ...(OUTLIVE_THE_SCIENCE_AND_ART_OF_LONGEVITY_BOOK.ideaCards || []),
+  ...(THE_OBESITY_CODE_BOOK.ideaCards || []),
+  ...(IN_DEFENSE_OF_FOOD_BOOK.ideaCards || []),
+  ...(THE_COMPLETE_GUIDE_TO_FASTING_BOOK.ideaCards || []),
+  ...(WHY_WE_GET_SICK_BOOK.ideaCards || []),
+  ...(BECOMING_A_SUPPLE_LEOPARD_BOOK.ideaCards || []),
+  ...(STARTING_STRENGTH_BASIC_BARBELL_TRAINING_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
