@@ -206,6 +206,16 @@ import { HEALING_BACK_PAIN_THE_MIND_BODY_CONNECTION_BOOK } from './books/healing
 import { THE_BODY_KEEPS_THE_SCORE_BOOK } from './books/theBodyKeepsTheScoreExpanded';
 import { THE_DIVIDED_MIND_THE_EPIDEMIC_OF_MINDBODY_DISORDERS_BOOK } from './books/theDividedMindTheEpidemicOfMindbodyDisordersExpanded';
 import { UNLEARN_YOUR_PAIN_BOOK } from './books/unlearnYourPainExpanded';
+import { THE_PATH_MADE_CLEAR_BOOK } from './books/thePathMadeClearExpanded';
+import { DESIGNING_YOUR_LIFE_HOW_TO_BUILD_A_WELL_LIVED_JOYFUL_LIFE_BOOK } from './books/designingYourLifeHowToBuildAWellLivedJoyfulLifeExpanded';
+import { IKIGAI_THE_JAPANESE_SECRET_TO_A_LONG_AND_HAPPY_LIFE_BOOK } from './books/ikigaiTheJapaneseSecretToALongAndHappyLifeExpanded';
+import { START_WITH_WHY_HOW_GREAT_LEADERS_INSPIRE_EVERYONE_TO_TAKE_AC_BOOK } from './books/startWithWhyHowGreatLeadersInspireEveryoneToTakeAcExpanded';
+import { FIND_YOUR_WHY_BOOK } from './books/findYourWhyExpanded';
+import { THE_ART_OF_WORK_BOOK } from './books/theArtOfWorkExpanded';
+import { THE_CROSSROADS_OF_SHOULD_AND_MUST_BOOK } from './books/theCrossroadsOfShouldAndMustExpanded';
+import { LIVING_FORWARD_A_PROVEN_PLAN_TO_STOP_DRIFTING_BOOK } from './books/livingForwardAProvenPlanToStopDriftingExpanded';
+import { A_MILLION_MILES_IN_A_THOUSAND_YEARS_BOOK } from './books/aMillionMilesInAThousandYearsExpanded';
+import { SO_GOOD_THEY_CAN_T_IGNORE_YOU_BOOK } from './books/soGoodTheyCanTIgnoreYouExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -412,7 +422,17 @@ export const SEED_BOOKS: Book[] = [
   HEALING_BACK_PAIN_THE_MIND_BODY_CONNECTION_BOOK,
   THE_BODY_KEEPS_THE_SCORE_BOOK,
   THE_DIVIDED_MIND_THE_EPIDEMIC_OF_MINDBODY_DISORDERS_BOOK,
-  UNLEARN_YOUR_PAIN_BOOK
+  UNLEARN_YOUR_PAIN_BOOK,
+  THE_PATH_MADE_CLEAR_BOOK,
+  DESIGNING_YOUR_LIFE_HOW_TO_BUILD_A_WELL_LIVED_JOYFUL_LIFE_BOOK,
+  IKIGAI_THE_JAPANESE_SECRET_TO_A_LONG_AND_HAPPY_LIFE_BOOK,
+  START_WITH_WHY_HOW_GREAT_LEADERS_INSPIRE_EVERYONE_TO_TAKE_AC_BOOK,
+  FIND_YOUR_WHY_BOOK,
+  THE_ART_OF_WORK_BOOK,
+  THE_CROSSROADS_OF_SHOULD_AND_MUST_BOOK,
+  LIVING_FORWARD_A_PROVEN_PLAN_TO_STOP_DRIFTING_BOOK,
+  A_MILLION_MILES_IN_A_THOUSAND_YEARS_BOOK,
+  SO_GOOD_THEY_CAN_T_IGNORE_YOU_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -621,7 +641,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(HEALING_BACK_PAIN_THE_MIND_BODY_CONNECTION_BOOK.ideaCards || []),
   ...(THE_BODY_KEEPS_THE_SCORE_BOOK.ideaCards || []),
   ...(THE_DIVIDED_MIND_THE_EPIDEMIC_OF_MINDBODY_DISORDERS_BOOK.ideaCards || []),
-  ...(UNLEARN_YOUR_PAIN_BOOK.ideaCards || [])
+  ...(UNLEARN_YOUR_PAIN_BOOK.ideaCards || []),
+  ...(THE_PATH_MADE_CLEAR_BOOK.ideaCards || []),
+  ...(DESIGNING_YOUR_LIFE_HOW_TO_BUILD_A_WELL_LIVED_JOYFUL_LIFE_BOOK.ideaCards || []),
+  ...(IKIGAI_THE_JAPANESE_SECRET_TO_A_LONG_AND_HAPPY_LIFE_BOOK.ideaCards || []),
+  ...(START_WITH_WHY_HOW_GREAT_LEADERS_INSPIRE_EVERYONE_TO_TAKE_AC_BOOK.ideaCards || []),
+  ...(FIND_YOUR_WHY_BOOK.ideaCards || []),
+  ...(THE_ART_OF_WORK_BOOK.ideaCards || []),
+  ...(THE_CROSSROADS_OF_SHOULD_AND_MUST_BOOK.ideaCards || []),
+  ...(LIVING_FORWARD_A_PROVEN_PLAN_TO_STOP_DRIFTING_BOOK.ideaCards || []),
+  ...(A_MILLION_MILES_IN_A_THOUSAND_YEARS_BOOK.ideaCards || []),
+  ...(SO_GOOD_THEY_CAN_T_IGNORE_YOU_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
