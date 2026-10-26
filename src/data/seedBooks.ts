@@ -114,6 +114,16 @@ import { REINVENTING_YOUR_LIFE_BOOK } from './books/reinventingYourLifeExpanded'
 import { DBT_SKILLS_TRAINING_HANDOUTS_AND_WORKSHEETS_BOOK } from './books/dbtSkillsTrainingHandoutsAndWorksheetsExpanded';
 import { MIND_OVER_MOOD_BOOK } from './books/mindOverMoodExpanded';
 import { WITHOUT_CONSCIENCE_THE_DISTURBING_WORLD_OF_THE_PSYCHOPATHS_A_BOOK } from './books/withoutConscienceTheDisturbingWorldOfThePsychopathsAExpanded';
+import { SNAKES_IN_SUITS_WHEN_PSYCHOPATHS_GO_TO_WORK_BOOK } from './books/snakesInSuitsWhenPsychopathsGoToWorkExpanded';
+import { IN_SHEEP_S_CLOTHING_UNDERSTANDING_AND_DEALING_WITH_MANIPULAT_BOOK } from './books/inSheepSClothingUnderstandingAndDealingWithManipulatExpanded';
+import { THE_NARCISSIST_YOU_KNOW_BOOK } from './books/theNarcissistYouKnowExpanded';
+import { DISARMING_THE_NARCISSIST_BOOK } from './books/disarmingTheNarcissistExpanded';
+import { EMOTIONAL_AGILITY_BOOK } from './books/emotionalAgilityExpanded';
+import { PERMISSION_TO_FEEL_BOOK } from './books/permissionToFeelExpanded';
+import { SEARCH_INSIDE_YOURSELF_BOOK } from './books/searchInsideYourselfExpanded';
+import { PRIMAL_LEADERSHIP_BOOK } from './books/primalLeadershipExpanded';
+import { WORKING_WITH_EMOTIONAL_INTELLIGENCE_BOOK } from './books/workingWithEmotionalIntelligenceExpanded';
+import { HOPE_AND_HELP_FOR_YOUR_NERVES_BOOK } from './books/hopeAndHelpForYourNervesExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -228,7 +238,17 @@ export const SEED_BOOKS: Book[] = [
   REINVENTING_YOUR_LIFE_BOOK,
   DBT_SKILLS_TRAINING_HANDOUTS_AND_WORKSHEETS_BOOK,
   MIND_OVER_MOOD_BOOK,
-  WITHOUT_CONSCIENCE_THE_DISTURBING_WORLD_OF_THE_PSYCHOPATHS_A_BOOK
+  WITHOUT_CONSCIENCE_THE_DISTURBING_WORLD_OF_THE_PSYCHOPATHS_A_BOOK,
+  SNAKES_IN_SUITS_WHEN_PSYCHOPATHS_GO_TO_WORK_BOOK,
+  IN_SHEEP_S_CLOTHING_UNDERSTANDING_AND_DEALING_WITH_MANIPULAT_BOOK,
+  THE_NARCISSIST_YOU_KNOW_BOOK,
+  DISARMING_THE_NARCISSIST_BOOK,
+  EMOTIONAL_AGILITY_BOOK,
+  PERMISSION_TO_FEEL_BOOK,
+  SEARCH_INSIDE_YOURSELF_BOOK,
+  PRIMAL_LEADERSHIP_BOOK,
+  WORKING_WITH_EMOTIONAL_INTELLIGENCE_BOOK,
+  HOPE_AND_HELP_FOR_YOUR_NERVES_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -345,7 +365,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(REINVENTING_YOUR_LIFE_BOOK.ideaCards || []),
   ...(DBT_SKILLS_TRAINING_HANDOUTS_AND_WORKSHEETS_BOOK.ideaCards || []),
   ...(MIND_OVER_MOOD_BOOK.ideaCards || []),
-  ...(WITHOUT_CONSCIENCE_THE_DISTURBING_WORLD_OF_THE_PSYCHOPATHS_A_BOOK.ideaCards || [])
+  ...(WITHOUT_CONSCIENCE_THE_DISTURBING_WORLD_OF_THE_PSYCHOPATHS_A_BOOK.ideaCards || []),
+  ...(SNAKES_IN_SUITS_WHEN_PSYCHOPATHS_GO_TO_WORK_BOOK.ideaCards || []),
+  ...(IN_SHEEP_S_CLOTHING_UNDERSTANDING_AND_DEALING_WITH_MANIPULAT_BOOK.ideaCards || []),
+  ...(THE_NARCISSIST_YOU_KNOW_BOOK.ideaCards || []),
+  ...(DISARMING_THE_NARCISSIST_BOOK.ideaCards || []),
+  ...(EMOTIONAL_AGILITY_BOOK.ideaCards || []),
+  ...(PERMISSION_TO_FEEL_BOOK.ideaCards || []),
+  ...(SEARCH_INSIDE_YOURSELF_BOOK.ideaCards || []),
+  ...(PRIMAL_LEADERSHIP_BOOK.ideaCards || []),
+  ...(WORKING_WITH_EMOTIONAL_INTELLIGENCE_BOOK.ideaCards || []),
+  ...(HOPE_AND_HELP_FOR_YOUR_NERVES_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
