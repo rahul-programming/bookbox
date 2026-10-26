@@ -266,6 +266,16 @@ import { WORDS_CAN_CHANGE_YOUR_BRAIN_BOOK } from './books/wordsCanChangeYourBrai
 import { CONNECTING_ACROSS_DIFFERENCES_BOOK } from './books/connectingAcrossDifferencesExpanded';
 import { LIVING_NONVIOLENT_COMMUNICATION_BOOK } from './books/livingNonviolentCommunicationExpanded';
 import { WHEN_I_SAY_NO_I_FEEL_GUILTY_BOOK } from './books/whenISayNoIFeelGuiltyExpanded';
+import { SET_BOUNDARIES_FIND_PEACE_A_GUIDE_TO_RECLAIMING_YOURSELF_BOOK } from './books/setBoundariesFindPeaceAGuideToReclaimingYourselfExpanded';
+import { THE_ASSERTIVENESS_WORKBOOK_BOOK } from './books/theAssertivenessWorkbookExpanded';
+import { BOUNDARIES_WHEN_TO_SAY_YES_HOW_TO_SAY_NO_TO_TAKE_CONTROL_OF_BOOK } from './books/boundariesWhenToSayYesHowToSayNoToTakeControlOfExpanded';
+import { WHERE_TO_DRAW_THE_LINE_HOW_TO_SET_HEALTHY_BOUNDARIES_EVERY_D_BOOK } from './books/whereToDrawTheLineHowToSetHealthyBoundariesEveryDExpanded';
+import { YOUR_PERFECT_RIGHT_ASSERTIVENESS_AND_EQUALITY_IN_YOUR_LIFE_A_BOOK } from './books/yourPerfectRightAssertivenessAndEqualityInYourLifeAExpanded';
+import { THE_BOOK_OF_BOUNDARIES_BOOK } from './books/theBookOfBoundariesExpanded';
+import { SAYING_NO_TO_SAY_YES_BOOK } from './books/sayingNoToSayYesExpanded';
+import { STOP_WALKING_ON_EGGSHELLS_BOOK } from './books/stopWalkingOnEggshellsExpanded';
+import { THE_ART_OF_EVERYDAY_ASSERTIVENESS_BOOK } from './books/theArtOfEverydayAssertivenessExpanded';
+import { DIGITAL_BODY_LANGUAGE_HOW_TO_BUILD_TRUST_AND_CONNECTION_NO_M_BOOK } from './books/digitalBodyLanguageHowToBuildTrustAndConnectionNoMExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -532,7 +542,17 @@ export const SEED_BOOKS: Book[] = [
   WORDS_CAN_CHANGE_YOUR_BRAIN_BOOK,
   CONNECTING_ACROSS_DIFFERENCES_BOOK,
   LIVING_NONVIOLENT_COMMUNICATION_BOOK,
-  WHEN_I_SAY_NO_I_FEEL_GUILTY_BOOK
+  WHEN_I_SAY_NO_I_FEEL_GUILTY_BOOK,
+  SET_BOUNDARIES_FIND_PEACE_A_GUIDE_TO_RECLAIMING_YOURSELF_BOOK,
+  THE_ASSERTIVENESS_WORKBOOK_BOOK,
+  BOUNDARIES_WHEN_TO_SAY_YES_HOW_TO_SAY_NO_TO_TAKE_CONTROL_OF_BOOK,
+  WHERE_TO_DRAW_THE_LINE_HOW_TO_SET_HEALTHY_BOUNDARIES_EVERY_D_BOOK,
+  YOUR_PERFECT_RIGHT_ASSERTIVENESS_AND_EQUALITY_IN_YOUR_LIFE_A_BOOK,
+  THE_BOOK_OF_BOUNDARIES_BOOK,
+  SAYING_NO_TO_SAY_YES_BOOK,
+  STOP_WALKING_ON_EGGSHELLS_BOOK,
+  THE_ART_OF_EVERYDAY_ASSERTIVENESS_BOOK,
+  DIGITAL_BODY_LANGUAGE_HOW_TO_BUILD_TRUST_AND_CONNECTION_NO_M_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -801,7 +821,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(WORDS_CAN_CHANGE_YOUR_BRAIN_BOOK.ideaCards || []),
   ...(CONNECTING_ACROSS_DIFFERENCES_BOOK.ideaCards || []),
   ...(LIVING_NONVIOLENT_COMMUNICATION_BOOK.ideaCards || []),
-  ...(WHEN_I_SAY_NO_I_FEEL_GUILTY_BOOK.ideaCards || [])
+  ...(WHEN_I_SAY_NO_I_FEEL_GUILTY_BOOK.ideaCards || []),
+  ...(SET_BOUNDARIES_FIND_PEACE_A_GUIDE_TO_RECLAIMING_YOURSELF_BOOK.ideaCards || []),
+  ...(THE_ASSERTIVENESS_WORKBOOK_BOOK.ideaCards || []),
+  ...(BOUNDARIES_WHEN_TO_SAY_YES_HOW_TO_SAY_NO_TO_TAKE_CONTROL_OF_BOOK.ideaCards || []),
+  ...(WHERE_TO_DRAW_THE_LINE_HOW_TO_SET_HEALTHY_BOUNDARIES_EVERY_D_BOOK.ideaCards || []),
+  ...(YOUR_PERFECT_RIGHT_ASSERTIVENESS_AND_EQUALITY_IN_YOUR_LIFE_A_BOOK.ideaCards || []),
+  ...(THE_BOOK_OF_BOUNDARIES_BOOK.ideaCards || []),
+  ...(SAYING_NO_TO_SAY_YES_BOOK.ideaCards || []),
+  ...(STOP_WALKING_ON_EGGSHELLS_BOOK.ideaCards || []),
+  ...(THE_ART_OF_EVERYDAY_ASSERTIVENESS_BOOK.ideaCards || []),
+  ...(DIGITAL_BODY_LANGUAGE_HOW_TO_BUILD_TRUST_AND_CONNECTION_NO_M_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
