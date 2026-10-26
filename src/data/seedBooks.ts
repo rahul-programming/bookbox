@@ -154,6 +154,16 @@ import { THE_EASY_WAY_TO_STOP_SMOKING_STOP_DRINKING_BOOK } from './books/theEasy
 import { THIS_NAKED_MIND_BOOK } from './books/thisNakedMindExpanded';
 import { ONE_SMALL_STEP_CAN_CHANGE_YOUR_LIFE_THE_KAIZEN_WAY_BOOK } from './books/oneSmallStepCanChangeYourLifeTheKaizenWayExpanded';
 import { ELASTIC_HABITS_BOOK } from './books/elasticHabitsExpanded';
+import { THE_COMPOUND_EFFECT_BOOK } from './books/theCompoundEffectExpanded';
+import { SLIGHT_EDGE_BOOK } from './books/slightEdgeExpanded';
+import { THE_1_RULE_BOOK } from './books/the1RuleExpanded';
+import { THE_WILLPOWER_INSTINCT_BOOK } from './books/theWillpowerInstinctExpanded';
+import { WILLPOWER_DOESN_T_WORK_BOOK } from './books/willpowerDoesnTWorkExpanded';
+import { STICK_WITH_IT_BOOK } from './books/stickWithItExpanded';
+import { WHO_GETS_WHAT_AND_WHY_BOOK } from './books/whoGetsWhatAndWhyExpanded';
+import { THE_ACCOUNTABILITY_MANIFESTO_BOOK } from './books/theAccountabilityManifestoExpanded';
+import { GETTING_THINGS_DONE_THE_ART_OF_STRESS_FREE_PRODUCTIVITY_BOOK } from './books/gettingThingsDoneTheArtOfStressFreeProductivityExpanded';
+import { MAKE_TIME_HOW_TO_FOCUS_ON_WHAT_MATTERS_EVERY_DAY_BOOK } from './books/makeTimeHowToFocusOnWhatMattersEveryDayExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -308,7 +318,17 @@ export const SEED_BOOKS: Book[] = [
   THE_EASY_WAY_TO_STOP_SMOKING_STOP_DRINKING_BOOK,
   THIS_NAKED_MIND_BOOK,
   ONE_SMALL_STEP_CAN_CHANGE_YOUR_LIFE_THE_KAIZEN_WAY_BOOK,
-  ELASTIC_HABITS_BOOK
+  ELASTIC_HABITS_BOOK,
+  THE_COMPOUND_EFFECT_BOOK,
+  SLIGHT_EDGE_BOOK,
+  THE_1_RULE_BOOK,
+  THE_WILLPOWER_INSTINCT_BOOK,
+  WILLPOWER_DOESN_T_WORK_BOOK,
+  STICK_WITH_IT_BOOK,
+  WHO_GETS_WHAT_AND_WHY_BOOK,
+  THE_ACCOUNTABILITY_MANIFESTO_BOOK,
+  GETTING_THINGS_DONE_THE_ART_OF_STRESS_FREE_PRODUCTIVITY_BOOK,
+  MAKE_TIME_HOW_TO_FOCUS_ON_WHAT_MATTERS_EVERY_DAY_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -465,7 +485,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(THE_EASY_WAY_TO_STOP_SMOKING_STOP_DRINKING_BOOK.ideaCards || []),
   ...(THIS_NAKED_MIND_BOOK.ideaCards || []),
   ...(ONE_SMALL_STEP_CAN_CHANGE_YOUR_LIFE_THE_KAIZEN_WAY_BOOK.ideaCards || []),
-  ...(ELASTIC_HABITS_BOOK.ideaCards || [])
+  ...(ELASTIC_HABITS_BOOK.ideaCards || []),
+  ...(THE_COMPOUND_EFFECT_BOOK.ideaCards || []),
+  ...(SLIGHT_EDGE_BOOK.ideaCards || []),
+  ...(THE_1_RULE_BOOK.ideaCards || []),
+  ...(THE_WILLPOWER_INSTINCT_BOOK.ideaCards || []),
+  ...(WILLPOWER_DOESN_T_WORK_BOOK.ideaCards || []),
+  ...(STICK_WITH_IT_BOOK.ideaCards || []),
+  ...(WHO_GETS_WHAT_AND_WHY_BOOK.ideaCards || []),
+  ...(THE_ACCOUNTABILITY_MANIFESTO_BOOK.ideaCards || []),
+  ...(GETTING_THINGS_DONE_THE_ART_OF_STRESS_FREE_PRODUCTIVITY_BOOK.ideaCards || []),
+  ...(MAKE_TIME_HOW_TO_FOCUS_ON_WHAT_MATTERS_EVERY_DAY_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
