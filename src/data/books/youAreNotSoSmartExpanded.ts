@@ -8,7 +8,7 @@ export const YOU_ARE_NOT_SO_SMART_BOOK: Book = {
   "title": "You Are Not So Smart",
   "author": "David McRaney",
   "category": "Psychology",
-  "subcategory": "Critical Thinking & Cognitive Biases",
+  "subcategory": "Cognitive Biases & Logic",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 240,

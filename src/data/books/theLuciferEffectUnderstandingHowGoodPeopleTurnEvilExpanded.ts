@@ -8,7 +8,7 @@ export const THE_LUCIFER_EFFECT_UNDERSTANDING_HOW_GOOD_PEOPLE_TURN_EVIL_BOOK: Bo
   "title": "The Lucifer Effect: Understanding How Good People Turn Evil",
   "author": "Philip Zimbardo",
   "category": "Psychology",
-  "subcategory": "Social Psychology & Group Dynamics",
+  "subcategory": "Social Psychology",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 80,

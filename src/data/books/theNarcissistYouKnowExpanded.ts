@@ -8,7 +8,7 @@ export const THE_NARCISSIST_YOU_KNOW_BOOK: Book = {
   "title": "The Narcissist You Know",
   "author": "Joseph Burgo",
   "category": "Psychology",
-  "subcategory": "The Dark Triad & Toxic Personality Diagnostics",
+  "subcategory": "Personality & Shadow Work",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 55,

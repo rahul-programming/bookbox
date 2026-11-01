@@ -8,7 +8,7 @@ export const PEAK_PERFORMANCE_BOOK: Book = {
   "title": "Peak Performance",
   "author": "Brad Stulberg & Steve Magness",
   "category": "Productivity",
-  "subcategory": "Chronobiology, Ultradian Rhythms & Energy Cycling",
+  "subcategory": "Energy & Burnout",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

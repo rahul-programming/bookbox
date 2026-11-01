@@ -8,7 +8,7 @@ export const DOPAMINE_NATION_FINDING_BALANCE_IN_THE_AGE_OF_INDULGENCE_BOOK: Book
   "title": "Dopamine Nation: Finding Balance in the Age of Indulgence",
   "author": "Anna Lembke",
   "category": "Productivity",
-  "subcategory": "Habit Extinction, Dopamine Resets & Addiction Recovery",
+  "subcategory": "Beating Procrastination",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

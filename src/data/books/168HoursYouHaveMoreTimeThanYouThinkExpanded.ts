@@ -8,7 +8,7 @@ export const BOOK_168_HOURS_YOU_HAVE_MORE_TIME_THAN_YOU_THINK_BOOK: Book = {
   "title": "168 Hours: You Have More Time Than You Think",
   "author": "Laura Vanderkam",
   "category": "Productivity",
-  "subcategory": "Systematic Time Management & Workflow Architecture",
+  "subcategory": "Daily Systems & Workflows",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

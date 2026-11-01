@@ -8,7 +8,7 @@ export const THE_GREAT_MENTAL_MODELS_VOL_1_2_BOOK: Book = {
   "title": "The Great Mental Models (Vol 1 & 2)",
   "author": "Shane Parrish",
   "category": "Psychology",
-  "subcategory": "General Thinking Concepts & Mental Models",
+  "subcategory": "Cognitive Biases & Logic",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 70,

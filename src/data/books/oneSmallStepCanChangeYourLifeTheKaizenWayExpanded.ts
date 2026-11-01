@@ -8,7 +8,7 @@ export const ONE_SMALL_STEP_CAN_CHANGE_YOUR_LIFE_THE_KAIZEN_WAY_BOOK: Book = {
   "title": "One Small Step Can Change Your Life: The Kaizen Way",
   "author": "Robert Maurer",
   "category": "Productivity",
-  "subcategory": "Micro-Habits, Kaizen & Friction Design",
+  "subcategory": "Habits & Routines",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

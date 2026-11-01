@@ -8,7 +8,7 @@ export const THE_5_SECOND_RULE_BOOK: Book = {
   "title": "The 5 Second Rule",
   "author": "Mel Robbins",
   "category": "Productivity",
-  "subcategory": "Eradicating Procrastination & Activation Inertia",
+  "subcategory": "Beating Procrastination",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 85,

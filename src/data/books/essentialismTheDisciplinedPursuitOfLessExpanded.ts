@@ -8,7 +8,7 @@ export const ESSENTIALISM_THE_DISCIPLINED_PURSUIT_OF_LESS_BOOK: Book = {
   "title": "Essentialism: The Disciplined Pursuit of Less",
   "author": "Greg McKeown",
   "category": "Productivity",
-  "subcategory": "Relentless Prioritization & Focus Filters",
+  "subcategory": "Organization & Minimalism",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 100,

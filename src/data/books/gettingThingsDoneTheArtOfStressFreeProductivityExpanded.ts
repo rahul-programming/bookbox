@@ -8,7 +8,7 @@ export const GETTING_THINGS_DONE_THE_ART_OF_STRESS_FREE_PRODUCTIVITY_BOOK: Book 
   "title": "Getting Things Done: The Art of Stress-Free Productivity",
   "author": "David Allen",
   "category": "Productivity",
-  "subcategory": "Systematic Time Management & Workflow Architecture",
+  "subcategory": "Daily Systems & Workflows",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 75,

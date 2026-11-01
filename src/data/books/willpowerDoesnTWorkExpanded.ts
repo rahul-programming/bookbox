@@ -8,7 +8,7 @@ export const WILLPOWER_DOESN_T_WORK_BOOK: Book = {
   "title": "Willpower Doesn't Work",
   "author": "Benjamin Hardy",
   "category": "Productivity",
-  "subcategory": "Pre-Commitment Devices & Accountability Protocols",
+  "subcategory": "Goal Setting & Execution",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 70,

@@ -8,7 +8,7 @@ export const THE_WAR_OF_ART_BOOK: Book = {
   "title": "The War of Art",
   "author": "Steven Pressfield",
   "category": "Productivity",
-  "subcategory": "Eradicating Procrastination & Activation Inertia",
+  "subcategory": "Beating Procrastination",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

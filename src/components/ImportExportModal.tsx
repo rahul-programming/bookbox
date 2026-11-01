@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { exportDatabaseBackup, importDatabaseBackup, db } from '../db';
 import { Book, Category } from '../types';
+import { CATEGORIES } from '../data/categoryTaxonomy';
 import { Download, Upload, Plus, FileText, Check, AlertCircle, X } from 'lucide-react';
 
 interface ImportExportModalProps {
@@ -275,12 +276,9 @@ export const ImportExportModal: React.FC<ImportExportModalProps> = ({ onClose, o
                   onChange={(e) => setCustomCategory(e.target.value as Category)}
                   className="w-full px-3.5 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
                 >
-                  <option value="Productivity">Productivity</option>
-                  <option value="Psychology">Psychology</option>
-                  <option value="Finance">Finance</option>
-                  <option value="Philosophy">Philosophy</option>
-                  <option value="Leadership">Leadership</option>
-                  <option value="Strategy">Strategy</option>
+                  {CATEGORIES.map(cat => (
+                    <option key={cat} value={cat}>{cat}</option>
+                  ))}
                 </select>
               </div>
 

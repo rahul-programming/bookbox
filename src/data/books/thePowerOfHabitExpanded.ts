@@ -8,7 +8,7 @@ export const THE_POWER_OF_HABIT_BOOK: Book = {
   "title": "The Power of Habit",
   "author": "Charles Duhigg",
   "category": "Productivity",
-  "subcategory": "Habit Loop Mechanics & Identity Engineering",
+  "subcategory": "Habits & Routines",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

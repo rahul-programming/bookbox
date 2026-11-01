@@ -8,7 +8,7 @@ export const THE_CIRCADIAN_CODE_BOOK: Book = {
   "title": "The Circadian Code",
   "author": "Satchin Panda",
   "category": "Productivity",
-  "subcategory": "Chronobiology, Ultradian Rhythms & Energy Cycling",
+  "subcategory": "Energy & Burnout",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 65,

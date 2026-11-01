@@ -8,7 +8,7 @@ export const THE_PARADOX_OF_CHOICE_BOOK: Book = {
   "title": "The Paradox of Choice",
   "author": "Barry Schwartz",
   "category": "Psychology",
-  "subcategory": "Decision-Making Architecture Under Uncertainty",
+  "subcategory": "Decision Making",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 55,

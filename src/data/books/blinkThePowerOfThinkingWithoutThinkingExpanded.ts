@@ -8,7 +8,7 @@ export const BLINK_THE_POWER_OF_THINKING_WITHOUT_THINKING_BOOK: Book = {
   "title": "Blink: The Power of Thinking Without Thinking",
   "author": "Malcolm Gladwell",
   "category": "Psychology",
-  "subcategory": "Decision-Making Architecture Under Uncertainty",
+  "subcategory": "Decision Making",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

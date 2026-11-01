@@ -8,7 +8,7 @@ export const MEDITATIONS_BOOK: Book = {
   "title": "Meditations",
   "author": "Marcus Aurelius",
   "category": "Philosophy",
-  "subcategory": "Classical Stoicism",
+  "subcategory": "Stoicism & Ancient Wisdom",
   "coverColor": "from-amber-700 to-stone-900",
   "coverEmoji": "\ud83c\udfdb\ufe0f",
   "readingTimeMinutes": 60,

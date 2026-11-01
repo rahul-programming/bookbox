@@ -8,7 +8,7 @@ export const COMPLEXITY_A_GUIDED_TOUR_BOOK: Book = {
   "title": "Complexity: A Guided Tour",
   "author": "Melanie Mitchell",
   "category": "Psychology",
-  "subcategory": "Systems Thinking & Complexity Navigation",
+  "subcategory": "Human Behavior",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 95,

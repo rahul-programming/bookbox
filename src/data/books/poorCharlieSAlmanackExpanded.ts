@@ -8,7 +8,7 @@ export const POOR_CHARLIE_S_ALMANACK_BOOK: Book = {
   "title": "Poor Charlie\u2019s Almanack",
   "author": "Charles T. Munger",
   "category": "Psychology",
-  "subcategory": "Critical Thinking & Cognitive Biases",
+  "subcategory": "Cognitive Biases & Logic",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 75,

@@ -8,7 +8,7 @@ export const THE_ACCOUNTABILITY_MANIFESTO_BOOK: Book = {
   "title": "The Accountability Manifesto",
   "author": "Sam Silverstein",
   "category": "Productivity",
-  "subcategory": "Pre-Commitment Devices & Accountability Protocols",
+  "subcategory": "Goal Setting & Execution",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

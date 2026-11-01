@@ -8,7 +8,7 @@ export const SOURCES_OF_POWER_BOOK: Book = {
   "title": "Sources of Power",
   "author": "Gary Klein",
   "category": "Psychology",
-  "subcategory": "Decision-Making Architecture Under Uncertainty",
+  "subcategory": "Decision Making",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 85,

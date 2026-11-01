@@ -8,7 +8,7 @@ export const SMART_CHOICES_BOOK: Book = {
   "title": "Smart Choices",
   "author": "John S. Hammond, Ralph L. Keeney, Howard Raiffa",
   "category": "Psychology",
-  "subcategory": "Decision-Making Architecture Under Uncertainty",
+  "subcategory": "Decision Making",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 55,

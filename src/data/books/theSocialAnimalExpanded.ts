@@ -8,7 +8,7 @@ export const THE_SOCIAL_ANIMAL_BOOK: Book = {
   "title": "The Social Animal",
   "author": "Elliot Aronson",
   "category": "Psychology",
-  "subcategory": "Social Psychology & Group Dynamics",
+  "subcategory": "Social Psychology",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

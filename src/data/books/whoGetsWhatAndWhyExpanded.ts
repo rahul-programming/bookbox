@@ -8,7 +8,7 @@ export const WHO_GETS_WHAT_AND_WHY_BOOK: Book = {
   "title": "Who Gets What \u2014 and Why",
   "author": "Alvin E. Roth",
   "category": "Productivity",
-  "subcategory": "Pre-Commitment Devices & Accountability Protocols",
+  "subcategory": "Goal Setting & Execution",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 60,

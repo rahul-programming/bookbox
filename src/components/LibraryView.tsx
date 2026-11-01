@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Book, UserProgress, Category } from '../types';
+import { CATEGORIES, CATEGORY_SUBCATEGORIES } from '../data/categoryTaxonomy';
 import { BookCard } from './BookCard';
 import { Search, Sparkles, Compass, Flame, Volume2, X } from 'lucide-react';
 import { AudioPlayerBar } from './AudioPlayerBar';
@@ -40,10 +41,9 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
     books.forEach(b => {
       if (b.category) cats.add(b.category);
     });
-    const priorityOrder = ['Productivity', 'Psychology', 'Finance', 'Philosophy', 'Strategy', 'Leadership'];
-    const ordered = priorityOrder.filter(c => cats.has(c));
+    const ordered = CATEGORIES.filter(c => cats.has(c));
     Array.from(cats).sort().forEach(c => {
-      if (!ordered.includes(c)) ordered.push(c);
+      if (!ordered.includes(c as Category)) ordered.push(c as Category);
     });
     return ['All', ...ordered];
   }, [books]);
@@ -54,24 +54,25 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
     return books.filter(b => b.category === selectedCategory);
   }, [books, selectedCategory]);
 
-  // Only show subcategories once a category has more than 5 books
+  // Subcategories defined for the selected category
   const subcategories = React.useMemo(() => {
-    if (selectedCategory === 'All' || booksInSelectedCategory.length <= 5) return [];
+    if (selectedCategory === 'All' || booksInSelectedCategory.length === 0) return [];
 
-    const subs = new Set<string>();
+    const definedSubs = CATEGORY_SUBCATEGORIES[selectedCategory as Category] || [];
+    const presentSubs = new Set<string>();
     booksInSelectedCategory.forEach(b => {
       if (b.subcategory && b.subcategory.trim()) {
-        subs.add(b.subcategory.trim());
-      } else if (b.tags && b.tags.length > 0) {
-        const candidate = b.tags.find(
-          t => t.toLowerCase() !== b.category.toLowerCase() && t !== 'Custom'
-        );
-        if (candidate) subs.add(candidate);
+        presentSubs.add(b.subcategory.trim());
       }
     });
 
-    if (subs.size === 0) return [];
-    return ['All', ...Array.from(subs).sort()];
+    const ordered = definedSubs.filter(sub => presentSubs.has(sub));
+    presentSubs.forEach(sub => {
+      if (!ordered.includes(sub)) ordered.push(sub);
+    });
+
+    if (ordered.length === 0) return [];
+    return ['All', ...ordered];
   }, [selectedCategory, booksInSelectedCategory]);
 
   const handleCategoryChange = (cat: string) => {

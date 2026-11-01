@@ -8,7 +8,7 @@ export const SYNC_HOW_ORDER_EMERGES_FROM_CHAOS_BOOK: Book = {
   "title": "Sync: How Order Emerges from Chaos",
   "author": "Steven Strogatz",
   "category": "Psychology",
-  "subcategory": "Systems Thinking & Complexity Navigation",
+  "subcategory": "Human Behavior",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 50,

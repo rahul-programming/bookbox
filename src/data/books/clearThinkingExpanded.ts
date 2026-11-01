@@ -8,7 +8,7 @@ export const CLEAR_THINKING_BOOK: Book = {
   "title": "Clear Thinking",
   "author": "Shane Parrish",
   "category": "Psychology",
-  "subcategory": "Critical Thinking & Cognitive Biases",
+  "subcategory": "Cognitive Biases & Logic",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 130,

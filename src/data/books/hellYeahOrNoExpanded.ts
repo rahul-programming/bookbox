@@ -8,7 +8,7 @@ export const HELL_YEAH_OR_NO_BOOK: Book = {
   "title": "Hell Yeah or No",
   "author": "Derek Sivers",
   "category": "Productivity",
-  "subcategory": "Relentless Prioritization & Focus Filters",
+  "subcategory": "Time Management",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 335,

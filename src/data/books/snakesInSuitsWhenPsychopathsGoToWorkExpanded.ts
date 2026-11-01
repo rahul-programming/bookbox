@@ -8,7 +8,7 @@ export const SNAKES_IN_SUITS_WHEN_PSYCHOPATHS_GO_TO_WORK_BOOK: Book = {
   "title": "Snakes in Suits: When Psychopaths Go to Work",
   "author": "Paul Babiak & Robert D. Hare",
   "category": "Psychology",
-  "subcategory": "The Dark Triad & Toxic Personality Diagnostics",
+  "subcategory": "Personality & Shadow Work",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 55,

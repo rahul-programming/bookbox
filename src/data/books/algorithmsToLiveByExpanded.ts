@@ -8,7 +8,7 @@ export const ALGORITHMS_TO_LIVE_BY_BOOK: Book = {
   "title": "Algorithms to Live By",
   "author": "Brian Christian & Tom Griffiths",
   "category": "Psychology",
-  "subcategory": "Decision-Making Architecture Under Uncertainty",
+  "subcategory": "Decision Making",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 55,

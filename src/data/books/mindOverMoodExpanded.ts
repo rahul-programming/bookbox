@@ -8,7 +8,7 @@ export const MIND_OVER_MOOD_BOOK: Book = {
   "title": "Mind Over Mood",
   "author": "Dennis Greenberger & Christine A. Padesky",
   "category": "Psychology",
-  "subcategory": "Clinical & Evidence-Based Therapeutic Modalities",
+  "subcategory": "Human Behavior",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 80,

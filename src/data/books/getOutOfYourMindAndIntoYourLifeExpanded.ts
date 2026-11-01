@@ -8,7 +8,7 @@ export const GET_OUT_OF_YOUR_MIND_AND_INTO_YOUR_LIFE_BOOK: Book = {
   "title": "Get Out of Your Mind and Into Your Life",
   "author": "Steven C. Hayes",
   "category": "Psychology",
-  "subcategory": "Clinical & Evidence-Based Therapeutic Modalities",
+  "subcategory": "Human Behavior",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 65,

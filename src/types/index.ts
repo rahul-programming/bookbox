@@ -1,10 +1,16 @@
 export type Category = 
   | 'Productivity'
   | 'Psychology'
-  | 'Finance'
+  | 'Communication'
+  | 'Leadership & Career'
+  | 'Business & Strategy'
+  | 'Sales & Persuasion'
+  | 'Money & Investing'
+  | 'Health & Longevity'
+  | 'Personal Growth'
   | 'Philosophy'
-  | 'Leadership'
-  | 'Strategy';
+  | 'Spirituality'
+  | 'Creativity & Expression';
 
 export type ReaderViewMode = 'blinks' | 'deepdive' | 'actionable' | 'cards' | 'mindmap';
 

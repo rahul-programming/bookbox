@@ -8,7 +8,7 @@ export const REINVENTING_YOUR_LIFE_BOOK: Book = {
   "title": "Reinventing Your Life",
   "author": "Jeffrey E. Young & Janet S. Klosko",
   "category": "Psychology",
-  "subcategory": "Clinical & Evidence-Based Therapeutic Modalities",
+  "subcategory": "Human Behavior",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 85,

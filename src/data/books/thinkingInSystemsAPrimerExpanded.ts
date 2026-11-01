@@ -8,7 +8,7 @@ export const THINKING_IN_SYSTEMS_A_PRIMER_BOOK: Book = {
   "title": "Thinking in Systems: A Primer",
   "author": "Donella H. Meadows",
   "category": "Psychology",
-  "subcategory": "",
+  "subcategory": "Human Behavior",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

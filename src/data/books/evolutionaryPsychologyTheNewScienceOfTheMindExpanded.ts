@@ -8,7 +8,7 @@ export const EVOLUTIONARY_PSYCHOLOGY_THE_NEW_SCIENCE_OF_THE_MIND_BOOK: Book = {
   "title": "Evolutionary Psychology: The New Science of the Mind",
   "author": "David M. Buss",
   "category": "Psychology",
-  "subcategory": "Evolutionary Psychology & Primal Drives",
+  "subcategory": "Evolutionary Psychology",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 65,

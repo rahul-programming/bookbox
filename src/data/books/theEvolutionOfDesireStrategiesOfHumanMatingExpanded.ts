@@ -8,7 +8,7 @@ export const THE_EVOLUTION_OF_DESIRE_STRATEGIES_OF_HUMAN_MATING_BOOK: Book = {
   "title": "The Evolution of Desire: Strategies of Human Mating",
   "author": "David M. Buss",
   "category": "Psychology",
-  "subcategory": "Evolutionary Psychology & Primal Drives",
+  "subcategory": "Evolutionary Psychology",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 50,

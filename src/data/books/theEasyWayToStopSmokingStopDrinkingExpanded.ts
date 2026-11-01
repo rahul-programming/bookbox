@@ -8,7 +8,7 @@ export const THE_EASY_WAY_TO_STOP_SMOKING_STOP_DRINKING_BOOK: Book = {
   "title": "The Easy Way to Stop Smoking / Stop Drinking",
   "author": "Allen Carr",
   "category": "Productivity",
-  "subcategory": "Habit Extinction, Dopamine Resets & Addiction Recovery",
+  "subcategory": "Beating Procrastination",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 220,

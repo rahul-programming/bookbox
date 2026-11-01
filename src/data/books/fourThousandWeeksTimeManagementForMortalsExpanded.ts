@@ -8,7 +8,7 @@ export const FOUR_THOUSAND_WEEKS_TIME_MANAGEMENT_FOR_MORTALS_BOOK: Book = {
   "title": "Four Thousand Weeks: Time Management for Mortals",
   "author": "Oliver Burkeman",
   "category": "Productivity",
-  "subcategory": "Systematic Time Management & Workflow Architecture",
+  "subcategory": "Daily Systems & Workflows",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 70,

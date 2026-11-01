@@ -8,7 +8,7 @@ export const THE_LOGIC_OF_SCIENTIFIC_DISCOVERY_BOOK: Book = {
   "title": "The Logic of Scientific Discovery",
   "author": "Karl Popper",
   "category": "Psychology",
-  "subcategory": "",
+  "subcategory": "Decision Making",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 50,

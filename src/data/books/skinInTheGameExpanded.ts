@@ -8,7 +8,7 @@ export const SKIN_IN_THE_GAME_BOOK: Book = {
   "title": "Skin in the Game",
   "author": "Nassim Nicholas Taleb",
   "category": "Psychology",
-  "subcategory": "",
+  "subcategory": "Decision Making",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 95,

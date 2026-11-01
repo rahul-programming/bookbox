@@ -8,7 +8,7 @@ export const RISK_SAVVY_HOW_TO_MAKE_GOOD_DECISIONS_BOOK: Book = {
   "title": "Risk Savvy: How to Make Good Decisions",
   "author": "Gerd Gigerenzer",
   "category": "Psychology",
-  "subcategory": "Decision-Making Architecture Under Uncertainty",
+  "subcategory": "Decision Making",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 60,

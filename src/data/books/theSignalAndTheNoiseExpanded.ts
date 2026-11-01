@@ -8,7 +8,7 @@ export const THE_SIGNAL_AND_THE_NOISE_BOOK: Book = {
   "title": "The Signal and the Noise",
   "author": "Nate Silver",
   "category": "Psychology",
-  "subcategory": "Bayesian Epistemology, Forecasting & Epistemic Humility",
+  "subcategory": "Decision Making",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 65,

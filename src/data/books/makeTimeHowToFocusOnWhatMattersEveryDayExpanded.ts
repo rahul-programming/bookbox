@@ -8,7 +8,7 @@ export const MAKE_TIME_HOW_TO_FOCUS_ON_WHAT_MATTERS_EVERY_DAY_BOOK: Book = {
   "title": "Make Time: How to Focus on What Matters Every Day",
   "author": "Jake Knapp & John Zeratsky",
   "category": "Productivity",
-  "subcategory": "Systematic Time Management & Workflow Architecture",
+  "subcategory": "Daily Systems & Workflows",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

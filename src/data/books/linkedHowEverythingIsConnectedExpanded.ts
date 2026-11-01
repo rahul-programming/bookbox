@@ -8,7 +8,7 @@ export const LINKED_HOW_EVERYTHING_IS_CONNECTED_BOOK: Book = {
   "title": "Linked: How Everything Is Connected",
   "author": "Albert-L\u00e1szl\u00f3 Barab\u00e1si",
   "category": "Psychology",
-  "subcategory": "Systems Thinking & Complexity Navigation",
+  "subcategory": "Human Behavior",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 75,

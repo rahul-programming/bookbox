@@ -8,7 +8,7 @@ export const HOW_TO_DECIDE_BOOK: Book = {
   "title": "How to Decide",
   "author": "Annie Duke",
   "category": "Psychology",
-  "subcategory": "Decision-Making Architecture Under Uncertainty",
+  "subcategory": "Decision Making",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

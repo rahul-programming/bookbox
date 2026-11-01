@@ -8,7 +8,7 @@ export const THE_FIFTH_DISCIPLINE_BOOK: Book = {
   "title": "The Fifth Discipline",
   "author": "Peter M. Senge",
   "category": "Psychology",
-  "subcategory": "",
+  "subcategory": "Human Behavior",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 105,

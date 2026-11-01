@@ -8,7 +8,7 @@ export const FACTFULNESS_BOOK: Book = {
   "title": "Factfulness",
   "author": "Hans Rosling",
   "category": "Psychology",
-  "subcategory": "Critical Thinking & Cognitive Biases",
+  "subcategory": "Cognitive Biases & Logic",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 55,

@@ -8,7 +8,7 @@ export const THE_BLACK_SWAN_BOOK: Book = {
   "title": "The Black Swan",
   "author": "Nassim Nicholas Taleb",
   "category": "Psychology",
-  "subcategory": "Critical Thinking & Cognitive Biases",
+  "subcategory": "Cognitive Biases & Logic",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 95,

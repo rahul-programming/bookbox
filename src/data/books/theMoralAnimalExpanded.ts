@@ -8,7 +8,7 @@ export const THE_MORAL_ANIMAL_BOOK: Book = {
   "title": "The Moral Animal",
   "author": "Robert Wright",
   "category": "Psychology",
-  "subcategory": "Evolutionary Psychology & Primal Drives",
+  "subcategory": "Evolutionary Psychology",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 90,

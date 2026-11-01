@@ -8,7 +8,7 @@ export const DISARMING_THE_NARCISSIST_BOOK: Book = {
   "title": "Disarming the Narcissist",
   "author": "Wendy T. Behary",
   "category": "Psychology",
-  "subcategory": "The Dark Triad & Toxic Personality Diagnostics",
+  "subcategory": "Personality & Shadow Work",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

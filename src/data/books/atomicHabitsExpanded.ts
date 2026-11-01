@@ -8,7 +8,7 @@ export const ATOMIC_HABITS_BOOK: Book = {
   "title": "Atomic Habits",
   "author": "James Clear",
   "category": "Productivity",
-  "subcategory": "Habit Loop Mechanics & Identity Engineering",
+  "subcategory": "Habits & Routines",
   "coverColor": "from-amber-500 to-red-600",
   "coverEmoji": "\u269b\ufe0f",
   "readingTimeMinutes": 100,

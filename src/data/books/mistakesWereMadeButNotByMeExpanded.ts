@@ -8,7 +8,7 @@ export const MISTAKES_WERE_MADE_BUT_NOT_BY_ME_BOOK: Book = {
   "title": "Mistakes Were Made (But Not by Me)",
   "author": "Carol Tavris & Elliot Aronson",
   "category": "Psychology",
-  "subcategory": "Social Psychology & Group Dynamics",
+  "subcategory": "Social Psychology",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

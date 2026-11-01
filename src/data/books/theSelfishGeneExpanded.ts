@@ -8,7 +8,7 @@ export const THE_SELFISH_GENE_BOOK: Book = {
   "title": "The Selfish Gene",
   "author": "Richard Dawkins",
   "category": "Psychology",
-  "subcategory": "Evolutionary Psychology & Primal Drives",
+  "subcategory": "Evolutionary Psychology",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 65,

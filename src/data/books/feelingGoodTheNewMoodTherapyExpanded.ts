@@ -8,7 +8,7 @@ export const FEELING_GOOD_THE_NEW_MOOD_THERAPY_BOOK: Book = {
   "title": "Feeling Good: The New Mood Therapy",
   "author": "David D. Burns",
   "category": "Psychology",
-  "subcategory": "Clinical & Evidence-Based Therapeutic Modalities",
+  "subcategory": "Human Behavior",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 140,

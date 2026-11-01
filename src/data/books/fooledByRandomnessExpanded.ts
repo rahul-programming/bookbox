@@ -8,7 +8,7 @@ export const FOOLED_BY_RANDOMNESS_BOOK: Book = {
   "title": "Fooled by Randomness",
   "author": "Nassim Nicholas Taleb",
   "category": "Psychology",
-  "subcategory": "Critical Thinking & Cognitive Biases",
+  "subcategory": "Cognitive Biases & Logic",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 70,

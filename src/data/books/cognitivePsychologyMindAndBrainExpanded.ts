@@ -8,7 +8,7 @@ export const COGNITIVE_PSYCHOLOGY_MIND_AND_BRAIN_BOOK: Book = {
   "title": "Cognitive Psychology: Mind and Brain",
   "author": "Edward E. Smith & Stephen M. Kosslyn",
   "category": "Psychology",
-  "subcategory": "Cognitive Psychology & Human Information Limits",
+  "subcategory": "Human Behavior",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 60,

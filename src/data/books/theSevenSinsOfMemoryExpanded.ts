@@ -8,7 +8,7 @@ export const THE_SEVEN_SINS_OF_MEMORY_BOOK: Book = {
   "title": "The Seven Sins of Memory",
   "author": "Daniel L. Schacter",
   "category": "Psychology",
-  "subcategory": "Cognitive Psychology & Human Information Limits",
+  "subcategory": "Human Behavior",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

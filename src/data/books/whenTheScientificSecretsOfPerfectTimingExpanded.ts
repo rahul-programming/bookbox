@@ -8,7 +8,7 @@ export const WHEN_THE_SCIENTIFIC_SECRETS_OF_PERFECT_TIMING_BOOK: Book = {
   "title": "When: The Scientific Secrets of Perfect Timing",
   "author": "Daniel H. Pink",
   "category": "Productivity",
-  "subcategory": "Chronobiology, Ultradian Rhythms & Energy Cycling",
+  "subcategory": "Energy & Burnout",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

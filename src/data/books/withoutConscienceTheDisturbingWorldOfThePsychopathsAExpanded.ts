@@ -8,7 +8,7 @@ export const WITHOUT_CONSCIENCE_THE_DISTURBING_WORLD_OF_THE_PSYCHOPATHS_A_BOOK: 
   "title": "Without Conscience: The Disturbing World of the Psychopaths Among Us",
   "author": "Robert D. Hare",
   "category": "Psychology",
-  "subcategory": "The Dark Triad & Toxic Personality Diagnostics",
+  "subcategory": "Personality & Shadow Work",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 65,

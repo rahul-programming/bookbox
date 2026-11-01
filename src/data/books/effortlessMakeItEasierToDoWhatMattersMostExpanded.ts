@@ -8,7 +8,7 @@ export const EFFORTLESS_MAKE_IT_EASIER_TO_DO_WHAT_MATTERS_MOST_BOOK: Book = {
   "title": "Effortless: Make It Easier to Do What Matters Most",
   "author": "Greg McKeown",
   "category": "Productivity",
-  "subcategory": "Relentless Prioritization & Focus Filters",
+  "subcategory": "Time Management",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 75,

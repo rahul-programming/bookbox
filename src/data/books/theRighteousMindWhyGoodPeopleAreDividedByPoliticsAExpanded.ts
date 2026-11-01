@@ -8,7 +8,7 @@ export const THE_RIGHTEOUS_MIND_WHY_GOOD_PEOPLE_ARE_DIVIDED_BY_POLITICS_A_BOOK: 
   "title": "The Righteous Mind: Why Good People Are Divided by Politics and Religion",
   "author": "Jonathan Haidt",
   "category": "Psychology",
-  "subcategory": "Evolutionary Psychology & Primal Drives",
+  "subcategory": "Evolutionary Psychology",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 60,

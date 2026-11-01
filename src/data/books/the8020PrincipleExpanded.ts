@@ -8,7 +8,7 @@ export const THE_80_20_PRINCIPLE_BOOK: Book = {
   "title": "The 80/20 Principle",
   "author": "Richard Koch",
   "category": "Productivity",
-  "subcategory": "Relentless Prioritization & Focus Filters",
+  "subcategory": "Time Management",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 80,

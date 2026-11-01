@@ -8,7 +8,7 @@ export const THE_POWER_OF_WHEN_BOOK: Book = {
   "title": "The Power of When",
   "author": "Michael Breus",
   "category": "Productivity",
-  "subcategory": "Chronobiology, Ultradian Rhythms & Energy Cycling",
+  "subcategory": "Energy & Burnout",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 80,

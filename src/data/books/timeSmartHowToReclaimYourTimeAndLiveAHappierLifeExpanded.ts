@@ -8,7 +8,7 @@ export const TIME_SMART_HOW_TO_RECLAIM_YOUR_TIME_AND_LIVE_A_HAPPIER_LIFE_BOOK: B
   "title": "Time Smart: How to Reclaim Your Time and Live a Happier Life",
   "author": "Ashley Whillans",
   "category": "Productivity",
-  "subcategory": "Systematic Time Management & Workflow Architecture",
+  "subcategory": "Daily Systems & Workflows",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

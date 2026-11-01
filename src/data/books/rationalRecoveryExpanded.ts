@@ -8,7 +8,7 @@ export const RATIONAL_RECOVERY_BOOK: Book = {
   "title": "Rational Recovery",
   "author": "Jack Trimpey",
   "category": "Productivity",
-  "subcategory": "Habit Extinction, Dopamine Resets & Addiction Recovery",
+  "subcategory": "Beating Procrastination",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 105,

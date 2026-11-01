@@ -8,7 +8,7 @@ export const EXPERT_POLITICAL_JUDGMENT_BOOK: Book = {
   "title": "Expert Political Judgment",
   "author": "Philip E. Tetlock",
   "category": "Psychology",
-  "subcategory": "",
+  "subcategory": "Decision Making",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

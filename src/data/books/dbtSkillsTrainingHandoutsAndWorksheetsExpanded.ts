@@ -8,7 +8,7 @@ export const DBT_SKILLS_TRAINING_HANDOUTS_AND_WORKSHEETS_BOOK: Book = {
   "title": "DBT Skills Training Handouts and Worksheets",
   "author": "Marsha M. Linehan",
   "category": "Psychology",
-  "subcategory": "Clinical & Evidence-Based Therapeutic Modalities",
+  "subcategory": "Human Behavior",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

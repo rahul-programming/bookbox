@@ -8,7 +8,7 @@ export const THE_MODEL_THINKER_BOOK: Book = {
   "title": "The Model Thinker",
   "author": "Scott E. Page",
   "category": "Psychology",
-  "subcategory": "",
+  "subcategory": "Decision Making",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 120,

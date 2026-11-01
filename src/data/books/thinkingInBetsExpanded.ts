@@ -8,7 +8,7 @@ export const THINKING_IN_BETS_BOOK: Book = {
   "title": "Thinking in Bets",
   "author": "Annie Duke",
   "category": "Psychology",
-  "subcategory": "Critical Thinking & Cognitive Biases",
+  "subcategory": "Decision Making",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

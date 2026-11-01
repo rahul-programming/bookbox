@@ -8,7 +8,7 @@ export const SOLVING_THE_PROCRASTINATION_PUZZLE_BOOK: Book = {
   "title": "Solving the Procrastination Puzzle",
   "author": "Timothy A. Pychyl",
   "category": "Productivity",
-  "subcategory": "Eradicating Procrastination & Activation Inertia",
+  "subcategory": "Beating Procrastination",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 50,

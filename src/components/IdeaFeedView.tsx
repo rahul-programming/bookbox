@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { IdeaCard, Category, Book } from '../types';
+import { CATEGORIES } from '../data/categoryTaxonomy';
 import { db } from '../db';
 import { Search, Sparkles, RotateCw, Bookmark, Check, BookOpen, Quote, Volume2, X } from 'lucide-react';
 import { AudioPlayerBar } from './AudioPlayerBar';
@@ -21,10 +22,9 @@ export const IdeaFeedView: React.FC<IdeaFeedViewProps> = ({ onSelectBook, onOpen
     ideas.forEach(i => {
       if (i.category) cats.add(i.category);
     });
-    const priorityOrder = ['Productivity', 'Psychology', 'Finance', 'Philosophy', 'Strategy', 'Leadership'];
-    const ordered = priorityOrder.filter(c => cats.has(c));
+    const ordered = CATEGORIES.filter(c => cats.has(c));
     Array.from(cats).sort().forEach(c => {
-      if (!ordered.includes(c)) ordered.push(c);
+      if (!ordered.includes(c as Category)) ordered.push(c as Category);
     });
     return ['All', ...ordered];
   }, [ideas]);

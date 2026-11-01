@@ -8,7 +8,7 @@ export const STICK_WITH_IT_BOOK: Book = {
   "title": "Stick with It",
   "author": "Sean Young",
   "category": "Productivity",
-  "subcategory": "Pre-Commitment Devices & Accountability Protocols",
+  "subcategory": "Goal Setting & Execution",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

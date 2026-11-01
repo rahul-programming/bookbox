@@ -8,7 +8,7 @@ export const DEEP_WORK_BOOK: Book = {
   "title": "Deep Work: Rules for Focused Success in a Distracted World",
   "author": "Cal Newport",
   "category": "Productivity",
-  "subcategory": "Deep Work & Focus Systems",
+  "subcategory": "Digital Detox & Attention",
   "coverColor": "from-blue-600 to-indigo-900",
   "coverEmoji": "\ud83c\udfaf",
   "readingTimeMinutes": 45,

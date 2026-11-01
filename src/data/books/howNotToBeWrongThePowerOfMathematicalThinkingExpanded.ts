@@ -8,7 +8,7 @@ export const HOW_NOT_TO_BE_WRONG_THE_POWER_OF_MATHEMATICAL_THINKING_BOOK: Book =
   "title": "How Not to Be Wrong: The Power of Mathematical Thinking",
   "author": "Jordan Ellenberg",
   "category": "Psychology",
-  "subcategory": "",
+  "subcategory": "Decision Making",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 90,

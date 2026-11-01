@@ -8,7 +8,7 @@ export const THE_INVISIBLE_GORILLA_HOW_OUR_INTUITIONS_DECEIVE_US_BOOK: Book = {
   "title": "The Invisible Gorilla: How Our Intuitions Deceive Us",
   "author": "Christopher Chabris & Daniel Simons",
   "category": "Psychology",
-  "subcategory": "Cognitive Psychology & Human Information Limits",
+  "subcategory": "Human Behavior",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

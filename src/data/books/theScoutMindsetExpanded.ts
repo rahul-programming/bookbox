@@ -8,7 +8,7 @@ export const THE_SCOUT_MINDSET_BOOK: Book = {
   "title": "The Scout Mindset",
   "author": "Julia Galef",
   "category": "Psychology",
-  "subcategory": "Bayesian Epistemology, Forecasting & Epistemic Humility",
+  "subcategory": "Decision Making",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 75,

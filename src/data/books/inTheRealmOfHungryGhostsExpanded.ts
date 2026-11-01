@@ -8,7 +8,7 @@ export const IN_THE_REALM_OF_HUNGRY_GHOSTS_BOOK: Book = {
   "title": "In the Realm of Hungry Ghosts",
   "author": "Gabor Mat\u00e9",
   "category": "Productivity",
-  "subcategory": "Habit Extinction, Dopamine Resets & Addiction Recovery",
+  "subcategory": "Beating Procrastination",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 165,

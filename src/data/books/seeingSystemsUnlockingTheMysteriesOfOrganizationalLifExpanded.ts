@@ -8,7 +8,7 @@ export const SEEING_SYSTEMS_UNLOCKING_THE_MYSTERIES_OF_ORGANIZATIONAL_LIF_BOOK: 
   "title": "Seeing Systems: Unlocking the Mysteries of Organizational Life",
   "author": "Barry Oshry",
   "category": "Psychology",
-  "subcategory": "Systems Thinking & Complexity Navigation",
+  "subcategory": "Human Behavior",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

@@ -8,7 +8,7 @@ export const SLIGHT_EDGE_BOOK: Book = {
   "title": "Slight Edge",
   "author": "Jeff Olson",
   "category": "Productivity",
-  "subcategory": "Micro-Habits, Kaizen & Friction Design",
+  "subcategory": "Habits & Routines",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 90,

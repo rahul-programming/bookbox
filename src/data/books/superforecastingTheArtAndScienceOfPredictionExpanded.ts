@@ -8,7 +8,7 @@ export const SUPERFORECASTING_THE_ART_AND_SCIENCE_OF_PREDICTION_BOOK: Book = {
   "title": "Superforecasting: The Art and Science of Prediction",
   "author": "Philip E. Tetlock & Dan Gardner",
   "category": "Psychology",
-  "subcategory": "Bayesian Epistemology, Forecasting & Epistemic Humility",
+  "subcategory": "Decision Making",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 60,

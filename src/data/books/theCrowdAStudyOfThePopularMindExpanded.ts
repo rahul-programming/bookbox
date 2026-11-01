@@ -8,7 +8,7 @@ export const THE_CROWD_A_STUDY_OF_THE_POPULAR_MIND_BOOK: Book = {
   "title": "The Crowd: A Study of the Popular Mind",
   "author": "Gustave Le Bon",
   "category": "Psychology",
-  "subcategory": "Social Psychology & Group Dynamics",
+  "subcategory": "Social Psychology",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 60,

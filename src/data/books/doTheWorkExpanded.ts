@@ -8,7 +8,7 @@ export const DO_THE_WORK_BOOK: Book = {
   "title": "Do the Work",
   "author": "Steven Pressfield",
   "category": "Productivity",
-  "subcategory": "Eradicating Procrastination & Activation Inertia",
+  "subcategory": "Beating Procrastination",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

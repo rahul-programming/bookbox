@@ -8,7 +8,7 @@ export const TINY_HABITS_THE_SMALL_CHANGES_THAT_CHANGE_EVERYTHING_BOOK: Book = {
   "title": "Tiny Habits: The Small Changes That Change Everything",
   "author": "BJ Fogg",
   "category": "Productivity",
-  "subcategory": "Habit Loop Mechanics & Identity Engineering",
+  "subcategory": "Habits & Routines",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,

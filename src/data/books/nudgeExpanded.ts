@@ -8,7 +8,7 @@ export const NUDGE_BOOK: Book = {
   "title": "Nudge",
   "author": "Richard H. Thaler & Cass R. Sunstein",
   "category": "Psychology",
-  "subcategory": "Decision-Making Architecture Under Uncertainty",
+  "subcategory": "Decision Making",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 75,

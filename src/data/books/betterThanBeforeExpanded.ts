@@ -8,7 +8,7 @@ export const BETTER_THAN_BEFORE_BOOK: Book = {
   "title": "Better Than Before",
   "author": "Gretchen Rubin",
   "category": "Productivity",
-  "subcategory": "Habit Loop Mechanics & Identity Engineering",
+  "subcategory": "Habits & Routines",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 105,

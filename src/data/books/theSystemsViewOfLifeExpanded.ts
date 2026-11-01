@@ -8,7 +8,7 @@ export const THE_SYSTEMS_VIEW_OF_LIFE_BOOK: Book = {
   "title": "The Systems View of Life",
   "author": "Fritjof Capra & Pier Luigi Luisi",
   "category": "Psychology",
-  "subcategory": "Systems Thinking & Complexity Navigation",
+  "subcategory": "Human Behavior",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 90,

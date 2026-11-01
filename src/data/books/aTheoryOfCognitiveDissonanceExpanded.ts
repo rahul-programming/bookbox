@@ -8,7 +8,7 @@ export const A_THEORY_OF_COGNITIVE_DISSONANCE_BOOK: Book = {
   "title": "A Theory of Cognitive Dissonance",
   "author": "Leon Festinger",
   "category": "Psychology",
-  "subcategory": "Social Psychology & Group Dynamics",
+  "subcategory": "Social Psychology",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 55,
