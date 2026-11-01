@@ -23,10 +23,12 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "atomic-habits": "./books/atomicHabitsExpanded.ts",
   "attacking-faulty-reasoning": "./books/attackingFaultyReasoningExpanded.ts",
   "attention-span": "./books/attentionSpanExpanded.ts",
+  "awareness-alone-is-not-enough": "./books/awarenessAloneIsNotEnoughExpanded.ts",
   "bargaining-for-advantage-negotiation-strategies-for-reasonab": "./books/bargainingForAdvantageNegotiationStrategiesForReasonabExpanded.ts",
   "becoming-a-supple-leopard": "./books/becomingASuppleLeopardExpanded.ts",
   "being-logical-a-guide-to-good-thinking": "./books/beingLogicalAGuideToGoodThinkingExpanded.ts",
   "better-than-before": "./books/betterThanBeforeExpanded.ts",
+  "bhavana-mind-development-in-everyday-reality": "./books/bhavanaMindDevelopmentInEverydayRealityExpanded.ts",
   "blink-the-power-of-thinking-without-thinking": "./books/blinkThePowerOfThinkingWithoutThinkingExpanded.ts",
   "bored-and-brilliant": "./books/boredAndBrilliantExpanded.ts",
   "born-to-run": "./books/bornToRunExpanded.ts",
@@ -52,6 +54,8 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "deep-work": "./books/deepWorkExpanded.ts",
   "dependent-arising-a-practical-guide-to-early-buddhist-teachings": "./books/dependentArisingAPracticalGuideToEarlyBuddhistTeachingsExpanded.ts",
   "designing-your-life-how-to-build-a-well-lived-joyful-life": "./books/designingYourLifeHowToBuildAWellLivedJoyfulLifeExpanded.ts",
+  "dhamma-everywhere-freeing-the-mind-across-all-postures": "./books/dhammaEverywhereFreeingTheMindAcrossAllPosturesExpanded.ts",
+  "dhamma-padetha-collection-of-insight-essays": "./books/dhammaPadethaCollectionOfInsightEssaysExpanded.ts",
   "difficult-conversations-how-to-discuss-what-matters-most": "./books/difficultConversationsHowToDiscussWhatMattersMostExpanded.ts",
   "digital-body-language-how-to-build-trust-and-connection-no-m": "./books/digitalBodyLanguageHowToBuildTrustAndConnectionNoMExpanded.ts",
   "disarming-the-narcissist": "./books/disarmingTheNarcissistExpanded.ts",
@@ -138,6 +142,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "man-and-his-symbols": "./books/manAndHisSymbolsExpanded.ts",
   "man-s-search-for-meaning": "./books/manSSearchForMeaningExpanded.ts",
   "manual-of-insight": "./books/manualOfInsightExpanded.ts",
+  "meditation-instructions-for-intensive-practice": "./books/meditationInstructionsForIntensivePracticeExpanded.ts",
   "meditation-on-the-mind-mindful-watching-of-thoughts": "./books/meditationOnTheMindMindfulWatchingOfThoughtsExpanded.ts",
   "meditations": "./books/meditationsExpanded.ts",
   "meeting-the-shadow-the-hidden-power-of-the-dark-side-of-huma": "./books/meetingTheShadowTheHiddenPowerOfTheDarkSideOfHumaExpanded.ts",
@@ -185,6 +190,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "reclaiming-conversation-the-power-of-talk-in-a-digital-age": "./books/reclaimingConversationThePowerOfTalkInADigitalAgeExpanded.ts",
   "reinventing-you": "./books/reinventingYouExpanded.ts",
   "reinventing-your-life": "./books/reinventingYourLifeExpanded.ts",
+  "relax-and-be-aware-mindfulness-in-daily-life": "./books/relaxAndBeAwareMindfulnessInDailyLifeExpanded.ts",
   "remote-office-not-required": "./books/remoteOfficeNotRequiredExpanded.ts",
   "rest-why-you-get-more-done-when-you-work-less": "./books/restWhyYouGetMoreDoneWhenYouWorkLessExpanded.ts",
   "rethinking-narcissism-anger": "./books/rethinkingNarcissismAngerExpanded.ts",
@@ -270,6 +276,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-fifth-discipline": "./books/theFifthDisciplineExpanded.ts",
   "the-forty-rules-of-love": "./books/theFortyRulesOfLoveExpanded.ts",
   "the-foundation-conditions-for-nirvana": "./books/theFoundationConditionsForNirvanaExpanded.ts",
+  "the-four-foundations-of-mindfulness": "./books/theFourFoundationsOfMindfulnessExpanded.ts",
   "the-genesis-of-the-bodhisattva-ideal": "./books/theGenesisOfTheBodhisattvaIdealExpanded.ts",
   "the-gifts-of-imperfection": "./books/theGiftsOfImperfectionExpanded.ts",
   "the-great-mental-models-vol-1-2": "./books/theGreatMentalModelsVol12Expanded.ts",
@@ -293,6 +300,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-power-of-full-engagement": "./books/thePowerOfFullEngagementExpanded.ts",
   "the-power-of-habit": "./books/thePowerOfHabitExpanded.ts",
   "the-power-of-when": "./books/thePowerOfWhenExpanded.ts",
+  "the-practice-of-vipassana-meditation": "./books/thePracticeOfVipassanaMeditationExpanded.ts",
   "the-progress-of-insight": "./books/theProgressOfInsightExpanded.ts",
   "the-promise-of-sleep": "./books/thePromiseOfSleepExpanded.ts",
   "the-righteous-mind-why-good-people-are-divided-by-politics-a": "./books/theRighteousMindWhyGoodPeopleAreDividedByPoliticsAExpanded.ts",
@@ -330,7 +338,11 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "unlearn-your-pain": "./books/unlearnYourPainExpanded.ts",
   "untamed": "./books/untamedExpanded.ts",
   "unwinding-anxiety": "./books/unwindingAnxietyExpanded.ts",
+  "vipassana-meditation-guidelines": "./books/vipassanaMeditationGuidelinesExpanded.ts",
+  "vipassana-meditation-lectures-on-insight": "./books/vipassanaMeditationLecturesOnInsightExpanded.ts",
+  "volition-the-real-mastermind-behind-kamma": "./books/volitionTheRealMastermindBehindKammaExpanded.ts",
   "we-need-to-talk-how-to-have-conversations-that-matter": "./books/weNeedToTalkHowToHaveConversationsThatMatterExpanded.ts",
+  "when-awareness-becomes-natural": "./books/whenAwarenessBecomesNaturalExpanded.ts",
   "when-i-say-no-i-feel-guilty": "./books/whenISayNoIFeelGuiltyExpanded.ts",
   "when-panic-attacks": "./books/whenPanicAttacksExpanded.ts",
   "when-the-scientific-secrets-of-perfect-timing": "./books/whenTheScientificSecretsOfPerfectTimingExpanded.ts",
@@ -345,6 +357,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "with-good-reason-an-introduction-to-informal-fallacies": "./books/withGoodReasonAnIntroductionToInformalFallaciesExpanded.ts",
   "without-conscience-the-disturbing-world-of-the-psychopaths-a": "./books/withoutConscienceTheDisturbingWorldOfThePsychopathsAExpanded.ts",
   "words-can-change-your-brain": "./books/wordsCanChangeYourBrainExpanded.ts",
+  "words-of-dhamma-practical-meditative-advice": "./books/wordsOfDhammaPracticalMeditativeAdviceExpanded.ts",
   "working-in-public-the-making-and-maintenance-of-open-source-": "./books/workingInPublicTheMakingAndMaintenanceOfOpenSourceExpanded.ts",
   "working-with-emotional-intelligence": "./books/workingWithEmotionalIntelligenceExpanded.ts",
   "write-once-read-forever-syntopic-knowledge": "./books/writeOnceReadForeverSyntopicKnowledgeExpanded.ts",
@@ -1149,6 +1162,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "awareness-alone-is-not-enough",
+    "title": "Awareness Alone Is Not Enough",
+    "author": "Sayadaw U Tejaniya",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mindfulness without wisdom is merely passive recording. True freedom comes when you check the quality of your observing mind and investigate experience with relaxed curiosity.",
+      "coreThesis": "Awareness alone cannot liberate the mind; genuine freedom arises only when awareness is paired with right attitude and wisdom that observes without craving, aversion, or personal ownership.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Awareness Alone Is Not Enough"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "bargaining-for-advantage-negotiation-strategies-for-reasonab",
     "title": "Bargaining for Advantage: Negotiation Strategies for Reasonable People",
     "author": "G. Richard Shell",
@@ -1284,6 +1332,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "bhavana-mind-development-in-everyday-reality",
+    "title": "Bhavana: Mind Development in Everyday Reality",
+    "author": "Chanmyay Sayadaw (U Janakabhivamsa)",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1999,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Meditation is not a mystical retreat from life, but the direct mental calibration required to navigate daily existence without being hijacked by stress, reactivity, and fear. Chanmyay Sayadaw provides a crystal-clear masterclass on turning every breath, step, and sensation into an instrument of profound liberation.",
+      "coreThesis": "Suffering arises because we unconsciously identify with transient sensations and thoughts; by maintaining uninterrupted, objective awareness through mental noting in all daily activities, the illusion of ego dissolves into liberating clarity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Bhavana: Mind Development in Everyday Reality"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -2154,6 +2237,76 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "dhamma-everywhere-freeing-the-mind-across-all-postures",
+    "title": "Dhamma Everywhere: Freeing the Mind Across All Postures",
+    "author": "Sayadaw U Tejaniya",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Meditation is not an intense cushion sprint where you battle your own thoughts; it is a gentle, 24/7 background awareness that frees the mind in the middle of real life. Sayadaw U Tejaniya strips away mystical pretension to show how checking the attitude of your observing mind transforms driving, washing dishes, and daily stress into effortless awakening.",
+      "coreThesis": "Liberation does not come from controlling your mental experiences, but from maintaining a relaxed, continuous awareness that observes the nature of the mind without greed or aversion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Dhamma Everywhere: Freeing the Mind Across All Postures"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "dhamma-padetha-collection-of-insight-essays",
+    "title": "Dhamma Padetha: Collection of Insight Essays",
+    "author": "Sayadaw U Kundalabhivamsa",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 150,
+    "publishedYear": 1999,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mindfulness is not an escape from reality; it is the master key to meeting everyday life with clean hands and an unshakeable heart. Sayadaw U Kundalabhivamsa distills centuries of contemplative insight into immediate, practical tools for living peacefully and dying without fear.",
+      "coreThesis": "Suffering arises from mistaking fleeting mental weather for a solid, permanent self; consistent moment-to-moment awareness dissolves this illusion and uncovers natural peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Dhamma Padetha: Collection of Insight Essays"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -5162,6 +5315,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "meditation-instructions-for-intensive-practice",
+    "title": "Meditation Instructions for Intensive Practice",
+    "author": "Sayadaw U Silananda",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1990,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "A surgical, field-tested manual for stripping away mental noise and discovering reality as it actually unfolds moment by moment. Sayadaw U Silananda provides a transparent blueprint to turn every physical sensation and wandering thought into pure insight.",
+      "coreThesis": "Suffering stems from blindly identifying with fleeting sensations and thoughts; sustained, non-judgmental labeling of current experience directly reveals the impersonal, impermanent nature of reality, bringing immediate mental freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Meditation Instructions for Intensive Practice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "meditation-on-the-mind-mindful-watching-of-thoughts",
     "title": "Meditation on the Mind: Mindful Watching of Thoughts",
     "author": "Bhikkhu Analayo",
@@ -6797,6 +6985,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "relax-and-be-aware-mindfulness-in-daily-life",
+    "title": "Relax and Be Aware: Mindfulness in Daily Life",
+    "author": "Sayadaw U Tejaniya",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 155,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop wrestling with your mind on the meditation cushion and discover that true freedom lives right inside your daily routine. Sayadaw U Tejaniya reveals how effortless, continuous awareness during everyday moments dissolves suffering faster than forceful concentration ever could.",
+      "coreThesis": "Enlightenment is not manufactured through forceful concentration, but uncovered through continuous, relaxed awareness that observes both life and the observing mind with zero aversion or craving.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Relax and Be Aware: Mindfulness in Daily Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -9763,6 +9986,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-four-foundations-of-mindfulness",
+    "title": "The Four Foundations of Mindfulness",
+    "author": "Sayadaw U Silananda",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1990,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Sayadaw U Silananda unpacks Buddhism's core manual on liberation, turning ancient meditation scripture into an exact, step-by-step training guide for modern living. By learning to observe the body, feelings, mind, and reality without clinging, you dismantle anxiety at the root and uncover unflappable peace.",
+      "coreThesis": "Suffering dissolves when you stop mistaking fleeting physical and mental events for a solid, permanent 'self.' Sustained, non-judgmental awareness of the present moment reveals things as they actually are and delivers unshakable liberation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Four Foundations of Mindfulness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-genesis-of-the-bodhisattva-ideal",
     "title": "The Genesis of the Bodhisattva Ideal",
     "author": "Bhikkhu Analayo",
@@ -10559,6 +10817,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-practice-of-vipassana-meditation",
+    "title": "The Practice of Vipassana Meditation",
+    "author": "Sayadaw U Kundalabhivamsa",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1993,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Transform raw physical discomfort and mental distraction into crystal-clear insight through the gentle, meticulous art of moment-to-moment noting. A masterclass in Theravada Vipassana, this classic guide shows how direct, kind observation uncouples awareness from suffering.",
+      "coreThesis": "Suffering dissolves when sensations and thoughts are observed directly with calm, continuous mindfulness rather than resisted through mental aversion or grasped with craving.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Practice of Vipassana Meditation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -11852,6 +12145,111 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "vipassana-meditation-guidelines",
+    "title": "Vipassana Meditation Guidelines",
+    "author": "Chanmyay Sayadaw (U Janakabhivamsa)",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1983,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop fighting your wandering mind and learn to observe reality exactly as it unfolds right now. Chanmyay Sayadaw offers a direct, no-nonsense roadmap to Vipassana insight using continuous, everyday mindfulness.",
+      "coreThesis": "Suffering dissolves when you silently and non-reactively label every physical sensation and mental state the exact instant it arises.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Vipassana Meditation Guidelines"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "vipassana-meditation-lectures-on-insight",
+    "title": "Vipassana Meditation: Lectures on Insight",
+    "author": "Chanmyay Sayadaw (U Janakabhivamsa)",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1997,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step out of the storm of chronic overthinking and awaken to reality as it actually unfolds in your immediate physical and mental experience. Venerable Chanmyay Sayadaw delivers a masterclass in classic Burmese insight meditation, turning moment-to-moment awareness into a direct scalpel for emotional freedom.",
+      "coreThesis": "Suffering ceases not by suppressing thoughts or escaping the world, but by observing the body and mind in real time with continuous, label-assisted, non-judgmental awareness until the illusion of a separate self dissolves naturally.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Vipassana Meditation: Lectures on Insight"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "volition-the-real-mastermind-behind-kamma",
+    "title": "Volition: The Real Mastermind Behind Kamma",
+    "author": "Sayadaw U Silananda",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1990,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Kamma is neither cosmic punishment nor unalterable destiny; it is the natural harvest of your own psychological intent. By mastering volition in this immediate breath, you stop being a helpless victim of your past and become the deliberate architect of your inner freedom.",
+      "coreThesis": "Action is defined by the mental intention behind it, meaning your current state of awareness\\u2014not cosmic destiny\\u2014is the true author of your reality and your freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Volition: The Real Mastermind Behind Kamma"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "we-need-to-talk-how-to-have-conversations-that-matter",
     "title": "We Need to Talk: How to Have Conversations That Matter",
     "author": "Celeste Headlee",
@@ -11882,6 +12280,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "when-awareness-becomes-natural",
+    "title": "When Awareness Becomes Natural",
+    "author": "Sayadaw U Tejaniya",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Meditation is not an escape from reality\\u2014it is learning to watch reality unfold without tension or interference. Sayadaw U Tejaniya reveals how gentle, uninterrupted awareness turns everyday routines into direct liberation.",
+      "coreThesis": "Mindfulness is not about forcing the mind into artificial stillness; it is the effortless, continuous recognition of mental states with a relaxed attitude of non-judgmental wisdom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "When Awareness Becomes Natural"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -12372,6 +12805,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "words-of-dhamma-practical-meditative-advice",
+    "title": "Words of Dhamma: Practical Meditative Advice",
+    "author": "Sayadaw U Kundalabhivamsa",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2001,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step off the runaway train of overthinking and discover immediate mental ease through simple, precise awareness. This guide strips away esoteric mystery to show you exactly how to train your attention into an unwavering source of peace.",
+      "coreThesis": "Suffering dissolves the instant you observe the present moment clearly without grasping or resistance. Continuous, gentle mindfulness reveals that all experiences\\u2014pleasant or painful\\u2014are impermanent events rather than a solid self.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Words of Dhamma: Practical Meditative Advice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
