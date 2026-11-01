@@ -376,6 +376,16 @@ import { PURIFICATION_OF_MIND_AND_VIEW_BOOK } from './books/purificationOfMindAn
 import { LIVING_THE_DHAMMA_HOUR_BY_HOUR_BOOK } from './books/livingTheDhammaHourByHourExpanded';
 import { THE_POWER_OF_MINDFULNESS_BOOK } from './books/thePowerOfMindfulnessExpanded';
 import { GREAT_DISCIPLES_OF_THE_BUDDHA_THEIR_LIVES_AND_LEGACY_BOOK } from './books/greatDisciplesOfTheBuddhaTheirLivesAndLegacyExpanded';
+import { THE_LIFE_OF_SARIPUTTA_BOOK } from './books/theLifeOfSariputtaExpanded';
+import { THE_FOUR_SUBLIME_STATES_BRAHMA_VIHARA_BOOK } from './books/theFourSublimeStatesBrahmaViharaExpanded';
+import { THE_ROOTS_OF_GOOD_AND_EVIL_BOOK } from './books/theRootsOfGoodAndEvilExpanded';
+import { ANATTA_AND_NIBBANA_EGOLESSNESS_AND_DELIVERANCE_BOOK } from './books/anattaAndNibbanaEgolessnessAndDeliveranceExpanded';
+import { THE_WORN_OUT_SKIN_REFLECTIONS_ON_THE_URAGA_SUTTA_BOOK } from './books/theWornOutSkinReflectionsOnTheUragaSuttaExpanded';
+import { BUDDHISM_AND_THE_GOD_IDEA_BOOK } from './books/buddhismAndTheGodIdeaExpanded';
+import { THE_ROAD_TO_INNER_FREEDOM_BOOK } from './books/theRoadToInnerFreedomExpanded';
+import { PROTECTION_THROUGH_SATIPATTHANA_BOOK } from './books/protectionThroughSatipatthanaExpanded';
+import { THE_FIVE_MENTAL_HINDRANCES_AND_THEIR_CONQUEST_BOOK } from './books/theFiveMentalHindrancesAndTheirConquestExpanded';
+import { THE_FOUR_NUTRIMENTS_OF_LIFE_BOOK } from './books/theFourNutrimentsOfLifeExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -752,7 +762,17 @@ export const SEED_BOOKS: Book[] = [
   PURIFICATION_OF_MIND_AND_VIEW_BOOK,
   LIVING_THE_DHAMMA_HOUR_BY_HOUR_BOOK,
   THE_POWER_OF_MINDFULNESS_BOOK,
-  GREAT_DISCIPLES_OF_THE_BUDDHA_THEIR_LIVES_AND_LEGACY_BOOK
+  GREAT_DISCIPLES_OF_THE_BUDDHA_THEIR_LIVES_AND_LEGACY_BOOK,
+  THE_LIFE_OF_SARIPUTTA_BOOK,
+  THE_FOUR_SUBLIME_STATES_BRAHMA_VIHARA_BOOK,
+  THE_ROOTS_OF_GOOD_AND_EVIL_BOOK,
+  ANATTA_AND_NIBBANA_EGOLESSNESS_AND_DELIVERANCE_BOOK,
+  THE_WORN_OUT_SKIN_REFLECTIONS_ON_THE_URAGA_SUTTA_BOOK,
+  BUDDHISM_AND_THE_GOD_IDEA_BOOK,
+  THE_ROAD_TO_INNER_FREEDOM_BOOK,
+  PROTECTION_THROUGH_SATIPATTHANA_BOOK,
+  THE_FIVE_MENTAL_HINDRANCES_AND_THEIR_CONQUEST_BOOK,
+  THE_FOUR_NUTRIMENTS_OF_LIFE_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -1131,7 +1151,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(PURIFICATION_OF_MIND_AND_VIEW_BOOK.ideaCards || []),
   ...(LIVING_THE_DHAMMA_HOUR_BY_HOUR_BOOK.ideaCards || []),
   ...(THE_POWER_OF_MINDFULNESS_BOOK.ideaCards || []),
-  ...(GREAT_DISCIPLES_OF_THE_BUDDHA_THEIR_LIVES_AND_LEGACY_BOOK.ideaCards || [])
+  ...(GREAT_DISCIPLES_OF_THE_BUDDHA_THEIR_LIVES_AND_LEGACY_BOOK.ideaCards || []),
+  ...(THE_LIFE_OF_SARIPUTTA_BOOK.ideaCards || []),
+  ...(THE_FOUR_SUBLIME_STATES_BRAHMA_VIHARA_BOOK.ideaCards || []),
+  ...(THE_ROOTS_OF_GOOD_AND_EVIL_BOOK.ideaCards || []),
+  ...(ANATTA_AND_NIBBANA_EGOLESSNESS_AND_DELIVERANCE_BOOK.ideaCards || []),
+  ...(THE_WORN_OUT_SKIN_REFLECTIONS_ON_THE_URAGA_SUTTA_BOOK.ideaCards || []),
+  ...(BUDDHISM_AND_THE_GOD_IDEA_BOOK.ideaCards || []),
+  ...(THE_ROAD_TO_INNER_FREEDOM_BOOK.ideaCards || []),
+  ...(PROTECTION_THROUGH_SATIPATTHANA_BOOK.ideaCards || []),
+  ...(THE_FIVE_MENTAL_HINDRANCES_AND_THEIR_CONQUEST_BOOK.ideaCards || []),
+  ...(THE_FOUR_NUTRIMENTS_OF_LIFE_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [

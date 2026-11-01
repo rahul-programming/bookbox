@@ -18,6 +18,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "an-illustrated-book-of-bad-arguments": "./books/anIllustratedBookOfBadArgumentsExpanded.ts",
   "an-inquiring-mind-s-journey-into-vipassana": "./books/anInquiringMindSJourneyIntoVipassanaExpanded.ts",
   "an-introduction-to-reasoning": "./books/anIntroductionToReasoningExpanded.ts",
+  "anatta-and-nibbana-egolessness-and-deliverance": "./books/anattaAndNibbanaEgolessnessAndDeliveranceExpanded.ts",
   "anger-wisdom-for-cooling-the-flames": "./books/angerWisdomForCoolingTheFlamesExpanded.ts",
   "antifragile-things-that-gain-from-disorder": "./books/antifragileThingsThatGainFromDisorderExpanded.ts",
   "argumentation-and-debate-critical-thinking-for-reasoned-deci": "./books/argumentationAndDebateCriticalThinkingForReasonedDeciExpanded.ts",
@@ -99,6 +100,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "getting-things-done-the-art-of-stress-free-productivity": "./books/gettingThingsDoneTheArtOfStressFreeProductivityExpanded.ts",
   "getting-to-yes-negotiating-agreement-without-giving-in": "./books/gettingToYesNegotiatingAgreementWithoutGivingInExpanded.ts",
   "good-reasons-for-better-arguments": "./books/goodReasonsForBetterArgumentsExpanded.ts",
+  "great-disciples-of-the-buddha-their-lives-and-legacy": "./books/greatDisciplesOfTheBuddhaTheirLivesAndLegacyExpanded.ts",
   "he-understanding-masculine-psychology": "./books/heUnderstandingMasculinePsychologyExpanded.ts",
   "healing-back-pain-the-mind-body-connection": "./books/healingBackPainTheMindBodyConnectionExpanded.ts",
   "healing-the-shame-that-binds-you": "./books/healingTheShameThatBindsYouExpanded.ts",
@@ -284,11 +286,13 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-forty-rules-of-love": "./books/theFortyRulesOfLoveExpanded.ts",
   "the-foundation-conditions-for-nirvana": "./books/theFoundationConditionsForNirvanaExpanded.ts",
   "the-four-foundations-of-mindfulness": "./books/theFourFoundationsOfMindfulnessExpanded.ts",
+  "the-four-sublime-states-brahma-vihara": "./books/theFourSublimeStatesBrahmaViharaExpanded.ts",
   "the-genesis-of-the-bodhisattva-ideal": "./books/theGenesisOfTheBodhisattvaIdealExpanded.ts",
   "the-gifts-of-imperfection": "./books/theGiftsOfImperfectionExpanded.ts",
   "the-great-mental-models-vol-1-2": "./books/theGreatMentalModelsVol12Expanded.ts",
   "the-information-diet": "./books/theInformationDietExpanded.ts",
   "the-invisible-gorilla-how-our-intuitions-deceive-us": "./books/theInvisibleGorillaHowOurIntuitionsDeceiveUsExpanded.ts",
+  "the-life-of-sariputta": "./books/theLifeOfSariputtaExpanded.ts",
   "the-logic-of-scientific-discovery": "./books/theLogicOfScientificDiscoveryExpanded.ts",
   "the-lucifer-effect-understanding-how-good-people-turn-evil": "./books/theLuciferEffectUnderstandingHowGoodPeopleTurnEvilExpanded.ts",
   "the-memory-book": "./books/theMemoryBookExpanded.ts",
@@ -313,6 +317,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-progress-of-insight-through-mental-noting": "./books/theProgressOfInsightThroughMentalNotingExpanded.ts",
   "the-promise-of-sleep": "./books/thePromiseOfSleepExpanded.ts",
   "the-righteous-mind-why-good-people-are-divided-by-politics-a": "./books/theRighteousMindWhyGoodPeopleAreDividedByPoliticsAExpanded.ts",
+  "the-roots-of-good-and-evil": "./books/theRootsOfGoodAndEvilExpanded.ts",
   "the-scout-mindset": "./books/theScoutMindsetExpanded.ts",
   "the-second-mountain-the-quest-for-a-moral-life": "./books/theSecondMountainTheQuestForAMoralLifeExpanded.ts",
   "the-selfish-gene": "./books/theSelfishGeneExpanded.ts",
@@ -332,6 +337,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-war-of-art": "./books/theWarOfArtExpanded.ts",
   "the-way-to-the-guru-meditative-guidance": "./books/theWayToTheGuruMeditativeGuidanceExpanded.ts",
   "the-willpower-instinct": "./books/theWillpowerInstinctExpanded.ts",
+  "the-worn-out-skin-reflections-on-the-uraga-sutta": "./books/theWornOutSkinReflectionsOnTheUragaSuttaExpanded.ts",
   "the-worry-trick": "./books/theWorryTrickExpanded.ts",
   "think-again-the-power-of-knowing-what-you-don-t-know": "./books/thinkAgainThePowerOfKnowingWhatYouDonTKnowExpanded.ts",
   "thinking-fast-and-slow": "./books/thinkingFastAndSlowExpanded.ts",
@@ -995,6 +1001,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "anatta-and-nibbana-egolessness-and-deliverance",
+    "title": "Anatta and Nibbana: Egolessness and Deliverance",
+    "author": "Nyanaponika Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1959,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop searching for an eternal self to polish or fearing an empty void to avoid; true freedom begins the exact second you see that you were never a solid, trapped identity to begin with.",
+      "coreThesis": "Liberation is not the destruction of a real self nor the discovery of an eternal soul; it is the immediate peace of dropping a phantom burden you never actually had to carry.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Anatta and Nibbana: Egolessness and Deliverance"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -3820,6 +3861,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "great-disciples-of-the-buddha-their-lives-and-legacy",
+    "title": "Great Disciples of the Buddha: Their Lives and Legacy",
+    "author": "Nyanaponika Thera & Hellmuth Hecker",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1997,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Enlightenment is not a uniform mold; it is a prism through which distinct human temperaments achieve complete inner freedom. By chronicling twenty-four real men and women\\u2014scholars, outlaws, grief-stricken mothers, and wealthy executives\\u2014this book reveals how every personality type can transform daily friction into liberating clarity.",
+      "coreThesis": "Human liberation does not require an identical personality or an escape from everyday reality; any life condition, skill, or temperament can become the direct vehicle for complete inner freedom when met with clear awareness and non-attachment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Great Disciples of the Buddha: Their Lives and Legacy"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -10277,6 +10353,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-four-sublime-states-brahma-vihara",
+    "title": "The Four Sublime States: Brahma-Vihara",
+    "author": "Nyanaponika Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1958,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Nyanaponika Thera distills the ancient Buddhist practice of the Four Sublime States into a profound blueprint for emotional freedom and boundless goodwill. It teaches you how to systematically train your mind so compassion and serenity become your natural baseline, rather than fleeting accidental moods.",
+      "coreThesis": "Genuine inner peace and social freedom arise when the heart systematically replaces self-centered reactions with four boundless, mutually balancing mental states: unconditional goodwill, courageous compassion, shared joy, and insight-grounded equanimity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Four Sublime States: Brahma-Vihara"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-genesis-of-the-bodhisattva-ideal",
     "title": "The Genesis of the Bodhisattva Ideal",
     "author": "Bhikkhu Analayo",
@@ -10446,6 +10557,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-life-of-sariputta",
+    "title": "The Life of Sariputta",
+    "author": "Nyanaponika Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1987,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into the inner life of the Buddha's greatest student and discover how razor-sharp intellect transforms into radical inner peace. This classic biography reveals how pure clarity, deep humility, and everyday mindfulness dismantle anxiety and anchor your mind in unwavering calm.",
+      "coreThesis": "Supreme wisdom is not cold intellectual analysis; it is the calm, direct recognition of mental states as fleeting events, freeing the heart to act with boundless patience and humility.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Life of Sariputta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -11288,6 +11434,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-roots-of-good-and-evil",
+    "title": "The Roots of Good and Evil",
+    "author": "Nyanaponika Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1978,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind is an ecosystem shaped entirely by six root motives: three poison the soil, while three make it flourish. By learning to identify and uproot greed, aversion, and delusion at their psychological source, you unlock unshakeable clarity and lasting inner freedom.",
+      "coreThesis": "All psychological suffering and moral failure originate from greed, hatred, and delusion; genuine liberation arises when clear mindfulness and insight replace these poisons with generosity, loving-kindness, and wisdom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Roots of Good and Evil"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-scout-mindset",
     "title": "The Scout Mindset",
     "author": "Julia Galef",
@@ -11945,6 +12126,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-worn-out-skin-reflections-on-the-uraga-sutta",
+    "title": "The Worn-Out Skin: Reflections on the Uraga Sutta",
+    "author": "Nyanaponika Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1977,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Just as a serpent steps out of a dried-up skin without looking back, the awakened mind naturally discards resentment, craving, and rigid self-images. Nyanaponika Thera transforms an ancient seventeen-verse Buddhist chant into an urgent, practical guide for shedding emotional baggage and living in unburdened awareness.",
+      "coreThesis": "Genuine inner freedom occurs naturally when awareness clearly sees that anger, craving, and fixed self-images are restrictive dead husks, allowing the mind to shed them cleanly without regret or identity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Worn-Out Skin: Reflections on the Uraga Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
