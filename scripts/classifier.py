@@ -78,9 +78,21 @@ def classify_book(book_meta):
     sub = book_meta.get('subcategoryName') or book_meta.get('subcategory') or ''
     title = book_meta.get('title') or ''
     author = book_meta.get('author') or ''
+    topic_group = book_meta.get('topicGroup') or ''
+    clean_sub = book_meta.get('cleanSubcategory') or ''
     sub_l = sub.lower()
     title_l = title.lower()
     author_l = author.lower()
+    tg_l = topic_group.lower()
+
+    # Direct Buddhism check: if topicGroup is Buddhist or subcategory is explicitly Buddhism & Zen
+    buddhist_topics = [
+        '1_insight_meditation_mahasi', '2_nyanaponika_bodhi_analayo', '3_thai_forest_monks',
+        '4_mindfulness_gunaratana', '5_dhammapada', '6_tipitaka_abhidhamma',
+        '7_buddhanet_publications', '8_dalai_lama', '9_bps_publications', '10_satipatthana_anapanasati'
+    ]
+    if topic_group in buddhist_topics or 'buddh' in tg_l or clean_sub == 'Buddhism & Zen' or sub == 'Buddhism & Zen':
+        return ('Spirituality', 'Buddhism & Zen')
 
     # Dim 1: Mind, Cognition, Reasoning & Epistemology
     if did == 1:
@@ -292,23 +304,42 @@ def classify_book(book_meta):
 
     # Dim 20: Spiritual Awakening, Mindfulness & Non-Duality
     elif did == 20:
-        if any(k in title_l or k in author_l for k in ['bhakti', 'narada', 'kirtan', 'japa', 'chaitanya', 'mirabai', 'kabir', 'surdas', 'tulsidas', 'tukaram', 'devotion', 'ramakrishna', 'vivekananda bhakti']):
+        buddhist_keywords = [
+            'buddh', 'zen', 'vipassana', 'vipassanā', 'gunaratana', 'goldstein', 'kornfield', 'salzberg',
+            'thich nhat hanh', 'dharma', 'dhamma', 'brach', 'tift', 'harding', 'analayo', 'anālayo',
+            'mahasi', 'sayadaw', 'bodhi', 'nyanaponika', 'chah', 'ajahn', 'thanissaro', 'sumedho',
+            'amaro', 'jayasaro', 'pasanno', 'munindo', 'abhinando', 'anan', 'soma thera', 'piya tan',
+            'goenka', 'ledi', 'pa-auk', 'dalai lama', 'suzuki', 'dogen', 'rinpoche', 'khandro',
+            'chogyam trungpa', 'pema chodron', 'sheng yen', 'hsuan hua', 'yin shun', 'buddhadasa',
+            'sangharakshita', 'walpola rahula', 'narada thera', 'u tejaniya', 'satipatthana',
+            'satipaṭṭhāna', 'anapanasati', 'ānāpānasati', 'sutta', 'nikaya', 'nikāya', 'tipitaka',
+            'tipiṭaka', 'tripitaka', 'abhidhamma', 'abhidharma', 'dhammapada', 'theravada', 'theravāda',
+            'mahayana', 'mahāyāna', 'vajrayana', 'vajrayāna', 'tibetan', 'nirvana', 'nibbana',
+            'bodhisattva', 'samatha', 'śamatha', 'jhana', 'jhāna', 'dhyana', 'brahmavihara',
+            'brahmavihāra', 'metta', 'mettā', 'karuna', 'mudita', 'upekkha', 'four noble truths',
+            'eightfold path', 'anatta', 'anattā', 'anicca', 'dukkha', 'paticcasamuppada',
+            'dependent origination', 'dependent arising', 'kamma', 'karma', 'sangha', 'bhikkhu',
+            'bhikkhuni', 'arahant', 'arhat', 'visuddhimagga', 'bps', 'buddhanet', 'middle way',
+            'koan', 'shikantaza', 'zazen', 'chan', 'pure land', 'wheel of dhamma', 'progress of insight',
+            'manual of insight'
+        ]
+        if any(k in title_l or k in author_l or k in sub_l for k in ['bhakti', 'narada', 'kirtan', 'japa', 'chaitanya', 'mirabai', 'kabir', 'surdas', 'tulsidas', 'tukaram', 'devotion', 'ramakrishna', 'vivekananda bhakti']):
             return ('Spirituality', 'Bhakti Marga & Devotion')
-        elif any(k in title_l or k in author_l for k in ['nisargadatta', 'ramana', 'ashtavakra', 'advaita', 'shankara', 'upanishad']):
+        elif any(k in title_l or k in author_l or k in sub_l for k in ['nisargadatta', 'ramana', 'ashtavakra', 'advaita', 'shankara', 'upanishad', 'mandukya', 'avadhuta', 'ribhu']):
             return ('Spirituality', 'Advaita Vedanta')
-        elif any(k in title_l or k in author_l for k in ['shaivism', 'kashmir', 'shiva sutra', 'pratyabhijna', 'spanda', 'abhinavagupta', 'lakshmanjoo']):
+        elif any(k in title_l or k in author_l or k in sub_l for k in ['shaivism', 'kashmir', 'shiva sutra', 'pratyabhijna', 'spanda', 'abhinavagupta', 'lakshmanjoo']):
             return ('Spirituality', 'Kashmir Shaivism')
-        elif any(k in title_l or k in author_l for k in ['tantra', 'tantric', 'vijnana bhairava', 'wallis', 'shakti']):
+        elif any(k in title_l or k in author_l or k in sub_l for k in ['tantra', 'tantric', 'vijnana bhairava', 'wallis', 'shakti']):
             return ('Spirituality', 'Tantra & Sacred Energy')
-        elif any(k in title_l or k in author_l for k in ['kundalini', 'chakra', 'prana', 'nadis', 'subtle body', 'serpent power']):
+        elif any(k in title_l or k in author_l or k in sub_l for k in ['kundalini', 'chakra', 'prana', 'nadis', 'subtle body', 'serpent power']):
             return ('Spirituality', 'Kundalini & Prana')
-        elif any(k in title_l or k in author_l for k in ['yoga sutra', 'patanjali', 'raja yoga', 'bhagavad gita', 'yogananda', 'kriya']):
+        elif any(k in title_l or k in author_l or k in sub_l for k in ['yoga sutra', 'patanjali', 'raja yoga', 'bhagavad gita', 'yogananda', 'kriya']):
             return ('Spirituality', 'Classical Yoga & Sutras')
-        elif any(k in title_l or k in author_l for k in ['sufi', 'rumi', 'hafiz', 'forty rules of love']):
+        elif any(k in title_l or k in author_l or k in sub_l for k in ['sufi', 'rumi', 'hafiz', 'forty rules of love']):
             return ('Spirituality', 'Sufism & Divine Love')
-        elif any(k in title_l or k in author_l for k in ['tao', 'lao tzu', 'chuang tzu', 'wu wei']):
+        elif any(k in title_l or k in author_l or k in sub_l for k in ['tao', 'lao tzu', 'chuang tzu', 'wu wei']):
             return ('Spirituality', 'Taoism & Eastern Wisdom')
-        elif any(k in title_l or k in author_l for k in ['buddh', 'zen', 'vipassana', 'gunaratana', 'goldstein', 'kornfield', 'salzberg', 'thich nhat hanh', 'dharma', 'brach', 'tift', 'harding']):
+        elif any(k in title_l or k in author_l or k in sub_l for k in buddhist_keywords):
             return ('Spirituality', 'Buddhism & Zen')
         else:
             return ('Spirituality', 'Universal Non-Duality')

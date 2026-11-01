@@ -22,6 +22,7 @@ import re
 import subprocess
 import signal
 from datetime import datetime, timezone
+from classifier import classify_book
 
 WORKSPACE_DIR = "/Users/rahulsharma/Documents/coding/myapps/bookbox"
 TRACKER_PATH = os.path.join(WORKSPACE_DIR, "src/data/synthesis_tracker.json")
@@ -305,7 +306,14 @@ def get_category_tone_instruction(category, subcategory, title):
 - Focus: Overcoming inertia, daily routines, environment design, actionable protocols, agency.
 - Tone: Like a world-class coach breaking down big goals into effortless daily steps. Crisp, motivating, focused on tangible progress and removing friction."""
 
-    # Philosophy / Stoicism / Mindfulness
+    # Spirituality / Buddhism / Contemplative Wisdom
+    if "spirituality" in cat_lower or any(k in sub_lower for k in ["buddh", "zen", "advaita", "bhakti", "yoga", "shaivism", "tantra", "kundalini", "taoism", "sufism", "non-duality"]):
+        return """CATEGORY-ATTUNED TONE — SPIRITUALITY / BUDDHISM / CONTEMPLATIVE WISDOM:
+- Voice: Lucid, serene, grounded, reverent yet accessible, deeply clarifying.
+- Focus: Direct experiential awareness, transcending the ego, non-attachment, cultivating compassion and mindfulness, liberation from suffering.
+- Tone: Like a compassionate, grounded meditation master gently pointing directly to your own immediate awareness. Clear, serene, and profoundly practical."""
+
+    # Philosophy / Stoicism / Values
     if "philosophy" in cat_lower or any(k in sub_lower for k in ["stoic", "values", "ikigai"]) or any(k in title_lower for k in ["meditations", "clear thinking", "scout mindset"]):
         return """CATEGORY-ATTUNED TONE — PHILOSOPHY / STOICISM / MINDFULNESS:
 - Voice: Contemplative, profound, serene, timeless, clarifying, stoic.
@@ -330,10 +338,10 @@ def synthesize_book(book_meta):
     author = book_meta['author']
     book_id = book_meta['id']
     dim_name = book_meta.get('dimensionName', 'General')
-    sub_name = book_meta.get('subcategoryName', 'Core')
-    tone_instruction = get_category_tone_instruction(dim_name, sub_name, title)
+    app_category, sub_name = classify_book(book_meta)
+    tone_instruction = get_category_tone_instruction(app_category, sub_name, title)
 
-    log(f"--- Synthesizing: '{title}' by {author} ({book_id}) [{dim_name} / {sub_name}] ---")
+    log(f"--- Synthesizing: '{title}' by {author} ({book_id}) [{app_category} / {sub_name}] ---")
 
     # Draft persistence setup
     drafts_dir = os.path.join(WORKSPACE_DIR, "logs/.drafts")
@@ -578,25 +586,6 @@ Output ONLY raw valid JSON.
     sanitized_actions = sanitize_action_items(draft["actionItems"], book_id)
 
     # Step 4A: Reflections & Idea Cards
-    category_map = {
-        1: "Psychology",
-        2: "Psychology",
-        3: "Psychology",
-        4: "Productivity",
-        5: "Productivity",
-        6: "Productivity",
-        7: "Finance",
-        8: "Philosophy",
-        9: "Philosophy",
-        10: "Philosophy",
-        11: "Leadership",
-        12: "Leadership",
-        13: "Leadership",
-        22: "Strategy",
-        23: "Strategy"
-    }
-    app_category = category_map.get(book_meta.get("dimensionId", 1), "Strategy")
-
     if "reflectionExercises" not in draft or "ideaCards" not in draft:
         log("Stage 4/5: Generating 10 reflection exercises and 20 atomic idea cards...")
         cards_prompt = f"""
@@ -770,6 +759,14 @@ def update_seed_books(camel_name, screaming_name):
         with open(seed_path, "w") as f:
             f.write(content)
 
+    # Also synchronize lightweight catalog for on-demand lazy loading
+    try:
+        sys.path.append(os.path.join(WORKSPACE_DIR, "scripts"))
+        from build_catalog import build_catalog
+        build_catalog()
+    except Exception as bce:
+        log(f"Warning: Failed to update bookCatalog.ts: {bce}")
+
 def rollback_seed_books(camel_name, screaming_name):
     seed_path = os.path.join(WORKSPACE_DIR, "src/data/seedBooks.ts")
     with open(seed_path, "r") as f:
@@ -869,7 +866,12 @@ def main():
         sys.exit(1)
 
     update_progress_tracker()
-    books_since_last_push = 0
+    try:
+        git_status_res = subprocess.run(["git", "status", "--porcelain", "src/data/books/"], cwd=WORKSPACE_DIR, capture_output=True, text=True)
+        untracked_count = len([l for l in git_status_res.stdout.splitlines() if l.startswith("??") and "Expanded.ts" in l])
+        books_since_last_push = untracked_count % 10
+    except Exception:
+        books_since_last_push = 0
 
     while RUNNING:
         with open(TRACKER_PATH, "r") as f:
@@ -932,7 +934,7 @@ def main():
                 build_res = subprocess.run(["npm", "run", "build"], cwd=WORKSPACE_DIR, capture_output=True, text=True)
                 if build_res.returncode == 0:
                     try:
-                        subprocess.run(["git", "add", "src/data/books/", "src/data/seedBooks.ts"], cwd=WORKSPACE_DIR, check=True)
+                        subprocess.run(["git", "add", "src/data/", "src/components/", "src/types/", "scripts/classifier.py", "scripts/build_catalog.py"], cwd=WORKSPACE_DIR, check=True)
                         commit_msg = f"feat(synthesis): batch of {books_since_last_push} books synthesized and added to library"
                         subprocess.run(["git", "commit", "-m", commit_msg], cwd=WORKSPACE_DIR, check=True)
                         push_res = subprocess.run(["git", "push", "origin", "main"], cwd=WORKSPACE_DIR, capture_output=True, text=True)

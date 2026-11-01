@@ -1,5 +1,6 @@
 import React from 'react';
 import { Book, UserProgress } from '../types';
+import { BookCover } from './BookCover';
 import { Clock, CheckCircle2, ChevronRight, Sparkles, Volume2, Heart, BookOpen } from 'lucide-react';
 
 interface BookCardProps {
@@ -19,7 +20,7 @@ export const BookCard: React.FC<BookCardProps> = ({
   onToggleFavorite,
   onToggleCurrentlyReading
 }) => {
-  const totalBlinks = book.blinks.length;
+  const totalBlinks = book.totalChapters || book.blinks?.length || 0;
   const completedBlinks = progress?.completedBlinkIds.length ?? 0;
   const isCompleted = progress?.isCompleted || (totalBlinks > 0 && completedBlinks === totalBlinks);
   const percent = totalBlinks > 0 ? Math.round((completedBlinks / totalBlinks) * 100) : 0;
@@ -31,11 +32,15 @@ export const BookCard: React.FC<BookCardProps> = ({
       onClick={() => onSelect(book)}
       className="group relative flex flex-col rounded-2xl bg-white dark:bg-slate-800/90 border border-slate-200/80 dark:border-slate-700/80 p-5 shadow-xs hover:shadow-lg hover:border-blue-400 dark:hover:border-blue-500 transition-all duration-300 cursor-pointer overflow-hidden"
     >
-      {/* Top Header: Cover Emoji & Action Buttons / Category Badge */}
+      {/* Top Header: Actual Book Cover & Action Buttons / Category Badge */}
       <div className="flex items-start justify-between gap-3 mb-4">
-        <div className={`w-14 h-18 rounded-xl bg-gradient-to-br ${book.coverColor} flex items-center justify-center text-3xl shadow-sm group-hover:scale-105 transition-transform duration-300`}>
-          {book.coverEmoji}
-        </div>
+        <BookCover
+          title={book.title}
+          author={book.author}
+          category={book.category}
+          coverImageUrl={book.coverImageUrl}
+          size="md"
+        />
 
         <div className="flex flex-col items-end gap-1.5">
           <div className="flex items-center space-x-1">

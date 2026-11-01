@@ -9,7 +9,7 @@ import {
   UserAccount,
   UserScopedStash
 } from '../types';
-import { SEED_BOOKS, SEED_IDEAS, SEED_BOARDS } from '../data/seedBooks';
+import { BOOK_CATALOG, SEED_BOARDS } from '../data/bookCatalog';
 
 export class BookBoxDB extends Dexie {
   books!: Table<Book, string>;
@@ -57,9 +57,8 @@ export async function initDatabase(): Promise<void> {
 
   const booksCount = await db.books.count();
   if (booksCount === 0) {
-    // Populate seed library
-    await db.books.bulkAdd(SEED_BOOKS);
-    await db.ideas.bulkAdd(SEED_IDEAS);
+    // Populate seed library with lightweight catalog stubs
+    await db.books.bulkAdd(BOOK_CATALOG);
     await db.stashes.bulkAdd(SEED_BOARDS);
 
     // Initial habit profile
@@ -71,7 +70,7 @@ export async function initDatabase(): Promise<void> {
       dailyGoalMinutes: 10,
       todayMinutesRead: 4,
       totalBooksCompleted: 1,
-      totalIdeasStashed: SEED_IDEAS.filter(i => i.isStashed).length,
+      totalIdeasStashed: 0,
       unlockedBadges: ['first_read', 'habit_starter', 'idea_collector']
     };
     await db.profile.put(initialProfile);
@@ -88,23 +87,29 @@ export async function initDatabase(): Promise<void> {
     };
     await db.progress.put(initialProgress);
   } else {
-    // Synchronize updated seed books (with latest engaging, simple content)
-    for (const b of SEED_BOOKS) {
+    // Synchronize updated catalog metadata without wiping loaded content
+    for (const b of BOOK_CATALOG) {
       const existing = await db.books.get(b.id);
-      if (!existing || !existing.isCustom) {
+      if (!existing) {
         await db.books.put(b);
-      }
-      if (b.ideaCards && b.ideaCards.length > 0) {
-        for (const card of b.ideaCards) {
-          const existingIdea = await db.ideas.get(card.id);
-          if (!existingIdea) {
-            await db.ideas.put(card);
-          } else if (existingIdea.isStashed) {
-            // Keep user stash state while refreshing content
-            await db.ideas.put({ ...card, isStashed: true, stashBoardIds: existingIdea.stashBoardIds });
-          } else {
-            await db.ideas.put(card);
-          }
+      } else if (!existing.isCustom) {
+        // If the book was already loaded into IndexedDB by the reader, preserve its full content!
+        if (existing.isLoaded && existing.blinks && existing.blinks.length > 0) {
+          await db.books.put({
+            ...existing,
+            title: b.title,
+            author: b.author,
+            category: b.category,
+            subcategory: b.subcategory,
+            totalChapters: b.totalChapters || existing.blinks.length,
+            readingTimeMinutes: b.readingTimeMinutes,
+            publishedYear: b.publishedYear,
+            coverEmoji: b.coverEmoji,
+            coverColor: b.coverColor,
+            tags: b.tags
+          });
+        } else {
+          await db.books.put(b);
         }
       }
     }
@@ -149,8 +154,8 @@ export async function initDatabase(): Promise<void> {
 
     for (const duplicates of booksByNormalizedTitle.values()) {
       if (duplicates.length > 1) {
-        // Prefer book present in SEED_BOOKS or with more blinks
-        const authoritative = duplicates.find(d => SEED_BOOKS.some(sb => sb.id === d.id)) ||
+        // Prefer book present in BOOK_CATALOG or with more blinks
+        const authoritative = duplicates.find(d => BOOK_CATALOG.some(sb => sb.id === d.id)) ||
                               [...duplicates].sort((a, b) => (b.blinks?.length || 0) - (a.blinks?.length || 0))[0];
 
         for (const dup of duplicates) {

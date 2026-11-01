@@ -112,7 +112,7 @@ export const FavoritesView: React.FC<FavoritesViewProps> = ({
 
       {/* Category Pills if more than 1 category */}
       {favoriteBooks.length > 0 && categories.length > 2 && (
-        <div className="flex items-center space-x-2 overflow-x-auto pb-1 no-scrollbar">
+        <div className="flex items-center space-x-2 overflow-x-auto pt-1 pb-3">
           {categories.map((cat) => (
             <button
               key={cat}

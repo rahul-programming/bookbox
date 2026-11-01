@@ -8,7 +8,7 @@ export const CONTEMPLATION_OF_DHAMMA_THE_FOURTH_FOUNDATION_BOOK: Book = {
   "title": "Contemplation of Dhamma: The Fourth Foundation",
   "author": "Bhikkhu Analayo",
   "category": "Spirituality",
-  "subcategory": "Universal Non-Duality",
+  "subcategory": "Buddhism & Zen",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 65,
@@ -1822,6 +1822,6 @@ export const CONTEMPLATION_OF_DHAMMA_THE_FOURTH_FOUNDATION_BOOK: Book = {
   "tags": [
     "Spirituality",
     "Spiritual Awakening, Mindfulness & Non-Duality",
-    "Universal Non-Duality"
+    "Buddhism & Zen"
   ]
 };

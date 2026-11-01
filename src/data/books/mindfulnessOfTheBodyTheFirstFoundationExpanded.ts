@@ -8,7 +8,7 @@ export const MINDFULNESS_OF_THE_BODY_THE_FIRST_FOUNDATION_BOOK: Book = {
   "title": "Mindfulness of the Body: The First Foundation",
   "author": "Bhikkhu Analayo",
   "category": "Spirituality",
-  "subcategory": "Universal Non-Duality",
+  "subcategory": "Buddhism & Zen",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,
@@ -1444,6 +1444,6 @@ export const MINDFULNESS_OF_THE_BODY_THE_FIRST_FOUNDATION_BOOK: Book = {
   "tags": [
     "Spirituality",
     "Spiritual Awakening, Mindfulness & Non-Duality",
-    "Universal Non-Duality"
+    "Buddhism & Zen"
   ]
 };

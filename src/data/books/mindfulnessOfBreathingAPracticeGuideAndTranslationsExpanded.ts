@@ -8,7 +8,7 @@ export const MINDFULNESS_OF_BREATHING_A_PRACTICE_GUIDE_AND_TRANSLATIONS_BOOK: Bo
   "title": "Mindfulness of Breathing: A Practice Guide and Translations",
   "author": "Bhikkhu Analayo",
   "category": "Spirituality",
-  "subcategory": "Universal Non-Duality",
+  "subcategory": "Buddhism & Zen",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,
@@ -1374,6 +1374,6 @@ export const MINDFULNESS_OF_BREATHING_A_PRACTICE_GUIDE_AND_TRANSLATIONS_BOOK: Bo
   "tags": [
     "Spirituality",
     "Spiritual Awakening, Mindfulness & Non-Duality",
-    "Universal Non-Duality"
+    "Buddhism & Zen"
   ]
 };

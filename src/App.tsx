@@ -23,6 +23,7 @@ import { ReaderView } from './components/ReaderView';
 import { StashModal } from './components/StashModal';
 import { ImportExportModal } from './components/ImportExportModal';
 import { AuthModal } from './components/AuthModal';
+import { loadFullBook } from './data/bookLoader';
 
 interface LastViewState {
   view: 'book' | 'tab';
@@ -145,6 +146,14 @@ export function App() {
             const nextBook = booksRef.current.find(b => b.id === state.bookId);
             if (nextBook) {
               setSelectedBook(nextBook);
+              if (!nextBook.isLoaded || !nextBook.blinks || nextBook.blinks.length === 0) {
+                loadFullBook(nextBook.id).then(full => {
+                  if (full) {
+                    setSelectedBook(full);
+                    setBooks(prev => prev.map(b => b.id === full.id ? full : b));
+                  }
+                });
+              }
               saveLastViewState({
                 view: 'book',
                 bookId: nextBook.id,
@@ -190,7 +199,7 @@ export function App() {
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
 
-  const handleSelectBook = (book: Book, initialMode: ReaderViewMode = 'blinks') => {
+  const handleSelectBook = async (book: Book, initialMode: ReaderViewMode = 'blinks') => {
     window.history.pushState({ view: 'book', bookId: book.id, tab: activeTabRef.current }, '');
     setInitialReaderViewMode(initialMode);
     setSelectedBook(book);
@@ -202,6 +211,15 @@ export function App() {
       tab: activeTabRef.current
     });
     window.scrollTo({ top: 0, behavior: 'instant' });
+
+    // On-demand lazy load if full book content not loaded
+    if (!book.isLoaded || !book.blinks || book.blinks.length === 0) {
+      const fullBook = await loadFullBook(book.id);
+      if (fullBook) {
+        setSelectedBook(fullBook);
+        setBooks(prev => prev.map(b => b.id === fullBook.id ? fullBook : b));
+      }
+    }
   };
 
   const handleReaderViewModeChange = (mode: ReaderViewMode) => {
@@ -360,6 +378,15 @@ export function App() {
               setInitialReaderBlinkIndex(bIndex);
               setSelectedBook(foundBook);
 
+              if (!foundBook.isLoaded || !foundBook.blinks || foundBook.blinks.length === 0) {
+                loadFullBook(foundBook.id).then(full => {
+                  if (full) {
+                    setSelectedBook(full);
+                    setBooks(prev => prev.map(b => b.id === full.id ? full : b));
+                  }
+                });
+              }
+
               window.history.replaceState({ view: 'home', tab }, '');
               window.history.pushState({ view: 'book', bookId: foundBook.id, tab }, '');
               restored = true;
@@ -388,6 +415,15 @@ export function App() {
             setInitialReaderViewMode('blinks');
             setInitialReaderBlinkIndex(latest.currentBlinkIndex ?? 0);
             setSelectedBook(foundBook);
+
+            if (!foundBook.isLoaded || !foundBook.blinks || foundBook.blinks.length === 0) {
+              loadFullBook(foundBook.id).then(full => {
+                if (full) {
+                  setSelectedBook(full);
+                  setBooks(prev => prev.map(b => b.id === full.id ? full : b));
+                }
+              });
+            }
 
             window.history.replaceState({ view: 'home', tab: 'reading' }, '');
             window.history.pushState({ view: 'book', bookId: foundBook.id, tab: 'reading' }, '');

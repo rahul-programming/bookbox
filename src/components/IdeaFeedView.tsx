@@ -90,7 +90,7 @@ export const IdeaFeedView: React.FC<IdeaFeedViewProps> = ({ onSelectBook, onOpen
       <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4">
         
         {/* Category Pills */}
-        <div className="flex items-center space-x-2 overflow-x-auto pb-1 sm:pb-0 no-scrollbar">
+        <div className="flex items-center space-x-2 overflow-x-auto pt-1 pb-3">
           {categories.map((cat) => (
             <button
               key={cat}

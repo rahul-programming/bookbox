@@ -213,7 +213,7 @@ export const ActionItemsView: React.FC<ActionItemsViewProps> = ({
       </div>
 
       {/* Category Filter Pills */}
-      <div className="flex items-center space-x-2 overflow-x-auto pb-1 no-scrollbar">
+      <div className="flex items-center space-x-2 overflow-x-auto pt-1 pb-3">
         <button
           onClick={() => setSelectedCategory('all')}
           className={`px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition cursor-pointer ${

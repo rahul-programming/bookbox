@@ -8,7 +8,7 @@ export const THE_GENESIS_OF_THE_BODHISATTVA_IDEAL_BOOK: Book = {
   "title": "The Genesis of the Bodhisattva Ideal",
   "author": "Bhikkhu Analayo",
   "category": "Spirituality",
-  "subcategory": "Universal Non-Duality",
+  "subcategory": "Buddhism & Zen",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,
@@ -1217,6 +1217,6 @@ export const THE_GENESIS_OF_THE_BODHISATTVA_IDEAL_BOOK: Book = {
   "tags": [
     "Spirituality",
     "Spiritual Awakening, Mindfulness & Non-Duality",
-    "Universal Non-Duality"
+    "Buddhism & Zen"
   ]
 };

@@ -8,7 +8,7 @@ export const SATIPATTHANA_MEDITATION_A_PRACTICE_GUIDE_BOOK: Book = {
   "title": "Satipatthana Meditation: A Practice Guide",
   "author": "Bhikkhu Analayo",
   "category": "Spirituality",
-  "subcategory": "Universal Non-Duality",
+  "subcategory": "Buddhism & Zen",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,
@@ -1535,6 +1535,6 @@ export const SATIPATTHANA_MEDITATION_A_PRACTICE_GUIDE_BOOK: Book = {
   "tags": [
     "Spirituality",
     "Spiritual Awakening, Mindfulness & Non-Duality",
-    "Universal Non-Duality"
+    "Buddhism & Zen"
   ]
 };

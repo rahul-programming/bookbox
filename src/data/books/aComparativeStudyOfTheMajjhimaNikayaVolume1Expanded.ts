@@ -8,7 +8,7 @@ export const A_COMPARATIVE_STUDY_OF_THE_MAJJHIMA_NIKAYA_VOLUME_1_BOOK: Book = {
   "title": "A Comparative Study of the Majjhima-nikaya (Volume 1)",
   "author": "Bhikkhu Analayo",
   "category": "Spirituality",
-  "subcategory": "Universal Non-Duality",
+  "subcategory": "Buddhism & Zen",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 45,
@@ -1611,6 +1611,6 @@ export const A_COMPARATIVE_STUDY_OF_THE_MAJJHIMA_NIKAYA_VOLUME_1_BOOK: Book = {
   "tags": [
     "Spirituality",
     "Spiritual Awakening, Mindfulness & Non-Duality",
-    "Universal Non-Duality"
+    "Buddhism & Zen"
   ]
 };

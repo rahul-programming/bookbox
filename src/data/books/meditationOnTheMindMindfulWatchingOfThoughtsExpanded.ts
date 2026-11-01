@@ -8,7 +8,7 @@ export const MEDITATION_ON_THE_MIND_MINDFUL_WATCHING_OF_THOUGHTS_BOOK: Book = {
   "title": "Meditation on the Mind: Mindful Watching of Thoughts",
   "author": "Bhikkhu Analayo",
   "category": "Spirituality",
-  "subcategory": "Universal Non-Duality",
+  "subcategory": "Buddhism & Zen",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 75,
@@ -1734,6 +1734,6 @@ export const MEDITATION_ON_THE_MIND_MINDFUL_WATCHING_OF_THOUGHTS_BOOK: Book = {
   "tags": [
     "Spirituality",
     "Spiritual Awakening, Mindfulness & Non-Duality",
-    "Universal Non-Duality"
+    "Buddhism & Zen"
   ]
 };

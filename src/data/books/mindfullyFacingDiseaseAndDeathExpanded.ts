@@ -8,7 +8,7 @@ export const MINDFULLY_FACING_DISEASE_AND_DEATH_BOOK: Book = {
   "title": "Mindfully Facing Disease and Death",
   "author": "Bhikkhu Analayo",
   "category": "Spirituality",
-  "subcategory": "Universal Non-Duality",
+  "subcategory": "Buddhism & Zen",
   "coverColor": "from-slate-900 to-indigo-950",
   "coverEmoji": "\ud83d\udcd6",
   "readingTimeMinutes": 120,
@@ -2062,6 +2062,6 @@ export const MINDFULLY_FACING_DISEASE_AND_DEATH_BOOK: Book = {
   "tags": [
     "Spirituality",
     "Spiritual Awakening, Mindfulness & Non-Duality",
-    "Universal Non-Duality"
+    "Buddhism & Zen"
   ]
 };

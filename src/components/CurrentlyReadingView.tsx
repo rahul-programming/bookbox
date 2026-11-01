@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Book, UserProgress } from '../types';
 import { BookCard } from './BookCard';
+import { BookCover } from './BookCover';
 import { BookOpen, Search, X, PlayCircle, BookMarked, Plus, Sparkles, Check } from 'lucide-react';
 import { AudioPlayerBar } from './AudioPlayerBar';
 
@@ -179,7 +180,7 @@ export const CurrentlyReadingView: React.FC<CurrentlyReadingViewProps> = ({
 
       {/* Category Filter Pills (if multiple categories) */}
       {readingBooks.length > 0 && categories.length > 2 && (
-        <div className="flex items-center space-x-2 overflow-x-auto pb-1 no-scrollbar">
+        <div className="flex items-center space-x-2 overflow-x-auto pt-1 pb-3">
           {categories.map((cat) => (
             <button
               key={cat}
@@ -278,9 +279,13 @@ export const CurrentlyReadingView: React.FC<CurrentlyReadingViewProps> = ({
                     className="p-4 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:border-blue-400 shadow-xs flex items-center justify-between gap-3 cursor-pointer group transition"
                   >
                     <div className="flex items-center space-x-3 min-w-0">
-                      <div className={`w-10 h-12 rounded-lg bg-gradient-to-br ${book.coverColor} flex items-center justify-center text-lg shrink-0`}>
-                        {book.coverEmoji}
-                      </div>
+                      <BookCover
+                        title={book.title}
+                        author={book.author}
+                        category={book.category}
+                        coverImageUrl={book.coverImageUrl}
+                        size="sm"
+                      />
                       <div className="truncate">
                         <h4 className="text-xs font-bold text-slate-900 dark:text-slate-100 truncate group-hover:text-blue-600">
                           {book.title}

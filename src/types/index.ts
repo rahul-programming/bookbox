@@ -80,6 +80,7 @@ export interface ReflectionExercise {
 
 export interface KeyPillarDetail {
   title: string;
+  titlePlain?: string;
   description: string;
   actionableTakeaway?: string;
 }
@@ -143,8 +144,11 @@ export interface Book {
   subcategory?: string;
   coverColor: string; // gradient / color identifier
   coverEmoji: string;
+  coverImageUrl?: string | null;
   readingTimeMinutes: number;
   publishedYear: number;
+  totalChapters?: number;
+  isLoaded?: boolean;
   onePageSummary: OnePageSummary;
   blinks: Blink[];
   mindMap: MindMapNode;
