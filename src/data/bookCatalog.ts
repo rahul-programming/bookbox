@@ -16,6 +16,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "algorithms-to-live-by": "./books/algorithmsToLiveByExpanded.ts",
   "alone-together-why-we-expect-more-from-technology-and-less-f": "./books/aloneTogetherWhyWeExpectMoreFromTechnologyAndLessFExpanded.ts",
   "an-illustrated-book-of-bad-arguments": "./books/anIllustratedBookOfBadArgumentsExpanded.ts",
+  "an-inquiring-mind-s-journey-into-vipassana": "./books/anInquiringMindSJourneyIntoVipassanaExpanded.ts",
   "an-introduction-to-reasoning": "./books/anIntroductionToReasoningExpanded.ts",
   "anger-wisdom-for-cooling-the-flames": "./books/angerWisdomForCoolingTheFlamesExpanded.ts",
   "antifragile-things-that-gain-from-disorder": "./books/antifragileThingsThatGainFromDisorderExpanded.ts",
@@ -45,6 +46,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "connecting-across-differences": "./books/connectingAcrossDifferencesExpanded.ts",
   "contagious-why-things-catch-on": "./books/contagiousWhyThingsCatchOnExpanded.ts",
   "contemplation-of-dhamma-the-fourth-foundation": "./books/contemplationOfDhammaTheFourthFoundationExpanded.ts",
+  "continuous-mindfulness-in-dynamic-living": "./books/continuousMindfulnessInDynamicLivingExpanded.ts",
   "conversational-intelligence-how-great-leaders-build-trust-an": "./books/conversationalIntelligenceHowGreatLeadersBuildTrustAnExpanded.ts",
   "crucial-conversations-tools-for-talking-when-stakes-are-high": "./books/crucialConversationsToolsForTalkingWhenStakesAreHighExpanded.ts",
   "curation-the-power-of-selection-in-a-world-of-excess": "./books/curationThePowerOfSelectionInAWorldOfExcessExpanded.ts",
@@ -120,6 +122,8 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "indistractable-how-to-control-your-attention-and-choose-your": "./books/indistractableHowToControlYourAttentionAndChooseYourExpanded.ts",
   "influence-the-psychology-of-persuasion": "./books/influenceThePsychologyOfPersuasionExpanded.ts",
   "inner-work-using-dreams-and-active-imagination-for-personal-": "./books/innerWorkUsingDreamsAndActiveImaginationForPersonalExpanded.ts",
+  "insight-meditation-the-path-to-peace": "./books/insightMeditationThePathToPeaceExpanded.ts",
+  "insight-meditation-workshop-manual": "./books/insightMeditationWorkshopManualExpanded.ts",
   "introduction-to-logic": "./books/introductionToLogicExpanded.ts",
   "invisible-influence-the-hidden-forces-that-shape-behavior": "./books/invisibleInfluenceTheHiddenForcesThatShapeBehaviorExpanded.ts",
   "just-listen-discover-the-secret-to-getting-through-to-absolu": "./books/justListenDiscoverTheSecretToGettingThroughToAbsoluExpanded.ts",
@@ -133,6 +137,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "listen-like-you-mean-it-reclaiming-the-lost-art-of-true-conn": "./books/listenLikeYouMeanItReclaimingTheLostArtOfTrueConnExpanded.ts",
   "living-forward-a-proven-plan-to-stop-drifting": "./books/livingForwardAProvenPlanToStopDriftingExpanded.ts",
   "living-nonviolent-communication": "./books/livingNonviolentCommunicationExpanded.ts",
+  "living-the-dhamma-hour-by-hour": "./books/livingTheDhammaHourByHourExpanded.ts",
   "logic-a-very-short-introduction": "./books/logicAVeryShortIntroductionExpanded.ts",
   "logically-fallacious": "./books/logicallyFallaciousExpanded.ts",
   "lost-art-of-listening-how-learning-to-listen-can-improve-rel": "./books/lostArtOfListeningHowLearningToListenCanImproveRelExpanded.ts",
@@ -141,6 +146,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "make-time-how-to-focus-on-what-matters-every-day": "./books/makeTimeHowToFocusOnWhatMattersEveryDayExpanded.ts",
   "man-and-his-symbols": "./books/manAndHisSymbolsExpanded.ts",
   "man-s-search-for-meaning": "./books/manSSearchForMeaningExpanded.ts",
+  "manual-of-buddhist-vipassana-practice": "./books/manualOfBuddhistVipassanaPracticeExpanded.ts",
   "manual-of-insight": "./books/manualOfInsightExpanded.ts",
   "meditation-instructions-for-intensive-practice": "./books/meditationInstructionsForIntensivePracticeExpanded.ts",
   "meditation-on-the-mind-mindful-watching-of-thoughts": "./books/meditationOnTheMindMindfulWatchingOfThoughtsExpanded.ts",
@@ -182,6 +188,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "pre-suasion-a-revolutionary-way-to-influence-and-persuade": "./books/preSuasionARevolutionaryWayToInfluenceAndPersuadeExpanded.ts",
   "primal-leadership": "./books/primalLeadershipExpanded.ts",
   "the-psychology-of-money-timeless-lessons-on-wealth-greed-and": "./books/psychologyOfMoneyExpanded.ts",
+  "purification-of-mind-and-view": "./books/purificationOfMindAndViewExpanded.ts",
   "radical-acceptance": "./books/radicalAcceptanceExpanded.ts",
   "radical-compassion": "./books/radicalCompassionExpanded.ts",
   "range-why-generalists-triumph-in-a-specialized-world": "./books/rangeWhyGeneralistsTriumphInASpecializedWorldExpanded.ts",
@@ -299,15 +306,18 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-power-of-a-positive-no-how-to-say-no-and-still-get-to-ye": "./books/thePowerOfAPositiveNoHowToSayNoAndStillGetToYeExpanded.ts",
   "the-power-of-full-engagement": "./books/thePowerOfFullEngagementExpanded.ts",
   "the-power-of-habit": "./books/thePowerOfHabitExpanded.ts",
+  "the-power-of-mindfulness": "./books/thePowerOfMindfulnessExpanded.ts",
   "the-power-of-when": "./books/thePowerOfWhenExpanded.ts",
   "the-practice-of-vipassana-meditation": "./books/thePracticeOfVipassanaMeditationExpanded.ts",
   "the-progress-of-insight": "./books/theProgressOfInsightExpanded.ts",
+  "the-progress-of-insight-through-mental-noting": "./books/theProgressOfInsightThroughMentalNotingExpanded.ts",
   "the-promise-of-sleep": "./books/thePromiseOfSleepExpanded.ts",
   "the-righteous-mind-why-good-people-are-divided-by-politics-a": "./books/theRighteousMindWhyGoodPeopleAreDividedByPoliticsAExpanded.ts",
   "the-scout-mindset": "./books/theScoutMindsetExpanded.ts",
   "the-second-mountain-the-quest-for-a-moral-life": "./books/theSecondMountainTheQuestForAMoralLifeExpanded.ts",
   "the-selfish-gene": "./books/theSelfishGeneExpanded.ts",
   "the-seven-sins-of-memory": "./books/theSevenSinsOfMemoryExpanded.ts",
+  "the-seven-stages-of-purification": "./books/theSevenStagesOfPurificationExpanded.ts",
   "the-shallows-what-the-internet-is-doing-to-our-brains": "./books/theShallowsWhatTheInternetIsDoingToOurBrainsExpanded.ts",
   "the-signal-and-the-noise": "./books/theSignalAndTheNoiseExpanded.ts",
   "the-sleep-solution": "./books/theSleepSolutionExpanded.ts",
@@ -340,6 +350,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "unwinding-anxiety": "./books/unwindingAnxietyExpanded.ts",
   "vipassana-meditation-guidelines": "./books/vipassanaMeditationGuidelinesExpanded.ts",
   "vipassana-meditation-lectures-on-insight": "./books/vipassanaMeditationLecturesOnInsightExpanded.ts",
+  "vipassana-talks-from-mahasi-sasana-yeiktha": "./books/vipassanaTalksFromMahasiSasanaYeikthaExpanded.ts",
   "volition-the-real-mastermind-behind-kamma": "./books/volitionTheRealMastermindBehindKammaExpanded.ts",
   "we-need-to-talk-how-to-have-conversations-that-matter": "./books/weNeedToTalkHowToHaveConversationsThatMatterExpanded.ts",
   "when-awareness-becomes-natural": "./books/whenAwarenessBecomesNaturalExpanded.ts",
@@ -914,6 +925,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "an-inquiring-mind-s-journey-into-vipassana",
+    "title": "An Inquiring Mind's Journey into Vipassana",
+    "author": "Sayadaw U Dhammarakkhita",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop fighting the turbulent currents of your thoughts and step onto the dry riverbank of direct observation. This book provides a master craftsman's blueprint for dismantling everyday anxiety, uncovering natural inner stillness, and discovering freedom right in the middle of life's daily demands.",
+      "coreThesis": "Suffering is born from mistaking transient mental and physical events for a permanent self; meticulous, non-reactive observation systematically dissolves this confusion, unveiling natural, unconditioned peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "An Inquiring Mind's Journey into Vipassana"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -1917,6 +1963,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Contemplation of Dhamma: The Fourth Foundation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "continuous-mindfulness-in-dynamic-living",
+    "title": "Continuous Mindfulness in Dynamic Living",
+    "author": "Sayadaw U Ottamathara",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Meditation is not an escape hatch from modern life; it is the clear lens through which life is lived. Sayadaw U Ottamathara dismantles the boundary between formal sitting and daily chaos, showing how unbroken awareness turns every chore, interaction, and obstacle into effortless liberation.",
+      "coreThesis": "Suffering dissolves when awareness ceases to be a scheduled appointment and becomes an uninterrupted way of engaging with life's dynamic movement.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Continuous Mindfulness in Dynamic Living"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -4547,6 +4628,76 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "insight-meditation-the-path-to-peace",
+    "title": "Insight Meditation: The Path to Peace",
+    "author": "Sayadaw U Sobhana",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1979,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop wrestling with your mind and start watching it work. Venerable Sayadaw U Sobhana strips away centuries of mystical fog to deliver an exact, step-by-step practical manual for uncovering unshakable inner stillness right in the middle of everyday life.",
+      "coreThesis": "Suffering dissolves the exact instant you stop identifying with passing thoughts and physical sensations, meeting every present-moment experience with neutral, bare awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Insight Meditation: The Path to Peace"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "insight-meditation-workshop-manual",
+    "title": "Insight Meditation Workshop Manual",
+    "author": "Sayadaw U Thondara",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1996,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "A crystal-clear, hands-on field manual for training direct awareness and dismantling mental friction without dogma or mystification. It translates ancient insight practice into a step-by-step diagnostic toolkit for modern everyday sanity.",
+      "coreThesis": "Suffering dissolves when attention shifts from believing mental narratives to directly observing the real-time physical and mental sensations that make up each fleeting moment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Insight Meditation Workshop Manual"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "introduction-to-logic",
     "title": "Introduction to Logic",
     "author": "Irving M. Copi, Carl Cohen, Victor Rodych",
@@ -5001,6 +5152,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "living-the-dhamma-hour-by-hour",
+    "title": "Living the Dhamma Hour by Hour",
+    "author": "Sayadaw U Rewata",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Liberation does not hide on remote mountain peaks or require abandoning ordinary life. This guide shows how to convert every standard hour of work, conversation, and routine into steady, unshakable inner peace.",
+      "coreThesis": "Awakening is not an event waiting in the future, but the direct practice of keeping awareness clean and non-reactive through the ordinary hours of everyday life.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Living the Dhamma Hour by Hour"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "logic-a-very-short-introduction",
     "title": "Logic: A Very Short Introduction",
     "author": "Graham Priest",
@@ -5275,6 +5461,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "manual-of-buddhist-vipassana-practice",
+    "title": "Manual of Buddhist Vipassana Practice",
+    "author": "Sayadaw U Pannathami",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2002,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into your own mind like a calm master craftsman inspecting raw materials, discovering that suffering ends the moment you observe life exactly as it unfolds without clinging or recoil.",
+      "coreThesis": "Suffering is maintained solely by your unconscious habit of reacting to sensations; by neutrally noting experiences as they arise and pass away, you realize non-self and attain peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Manual of Buddhist Vipassana Practice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -6707,6 +6928,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Finance",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "purification-of-mind-and-view",
+    "title": "Purification of Mind and View",
+    "author": "Sayadaw U Zagara",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop mistaking the turbulent weather on the surface of your life for who you actually are. This masterclass reveals how quiet concentration and razor-sharp self-observation systematically dissolve existential anxiety, leaving direct, unshakeable peace.",
+      "coreThesis": "Suffering occurs when you mistake a shifting stream of physical sensations and mental habits for a permanent self; steadying the mind dismantles this illusion and reveals inherent freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Purification of Mind and View"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -10787,6 +11043,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-power-of-mindfulness",
+    "title": "The Power of Mindfulness",
+    "author": "Nyanaponika Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1968,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mindfulness is not a rigid battle against your thoughts, but an extraordinarily calm, quiet power that transforms the mind simply by seeing things as they are. By practicing bare, non-judgmental attention, you unlock clarity, inner stillness, and freedom from habitual reaction.",
+      "coreThesis": "Direct, non-reactive observation\\u2014Bare Attention\\u2014possesses an inherent, quiet strength that untangles mental clutter, disarms compulsive habits, and reveals reality with liberating clarity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Power of Mindfulness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-power-of-when",
     "title": "The Power of When",
     "author": "Michael Breus",
@@ -10880,6 +11171,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Progress of Insight"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-progress-of-insight-through-mental-noting",
+    "title": "The Progress of Insight Through Mental Noting",
+    "author": "Sayadaw U Sujatha",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1965,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop wrestling with your mind and start labeling what is actually happening. This classic roadmap reveals how simple, steady mental noting dissolves emotional turmoil and leads directly to enduring spiritual freedom.",
+      "coreThesis": "Suffering dissolves when you stop identifying with passing thoughts and physical sensations, observing them objectively through continuous, gentle present-moment notation until the mind discovers unconditioned freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Progress of Insight Through Mental Noting"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -11096,6 +11422,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-seven-stages-of-purification",
+    "title": "The Seven Stages of Purification",
+    "author": "Matara Sri Nanarama Mahathera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1983,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Awakening is not an accidental lightning bolt\\u2014it is a precise, reproducible process of clearing away mental dust step by step. Matara Sri Nanarama provides a direct, master-crafted roadmap detailing how disciplined attention turns everyday confusion into unshakeable spiritual freedom.",
+      "coreThesis": "Genuine spiritual liberation is a systematic sequence of mental clarities, where ethical integrity settles the mind, deep stillness unlocks objective seeing, and thorough observation dissolves the illusion of a separate self.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Seven Stages of Purification"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -12203,6 +12564,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Vipassana Meditation: Lectures on Insight"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "vipassana-talks-from-mahasi-sasana-yeiktha",
+    "title": "Vipassana Talks from Mahasi Sasana Yeiktha",
+    "author": "Sayadaw U Lakkhana",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Vipassana Talks from Mahasi Sasana Yeiktha reveals meditation not as a mystical retreat from life, but as an exact, moment-to-moment training in seeing reality without egoic distortion. Through the classic Mahasi noting method, Sayadaw U Lakkhana delivers an unadorned owner's manual for dismantling anxiety, reactive habits, and existential suffering.",
+      "coreThesis": "Suffering dissolves when awareness meets each immediate sensation, thought, and emotion with precise, non-reactive noting, revealing reality as an impermanent, ungraspable process free of a permanent self.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Vipassana Talks from Mahasi Sasana Yeiktha"
     },
     "reflectionExercises": [],
     "actionItems": [],
