@@ -7,6 +7,9 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "a-comparative-study-of-the-majjhima-nikaya-volume-1": "./books/aComparativeStudyOfTheMajjhimaNikayaVolume1Expanded.ts",
   "a-comparative-study-of-the-majjhima-nikaya-volume-2": "./books/aComparativeStudyOfTheMajjhimaNikayaVolume2Expanded.ts",
   "a-concise-introduction-to-logic": "./books/aConciseIntroductionToLogicExpanded.ts",
+  "a-discourse-on-the-cula-vedalla-sutta": "./books/aDiscourseOnTheCulaVedallaSuttaExpanded.ts",
+  "a-discourse-on-the-maha-vedalla-sutta": "./books/aDiscourseOnTheMahaVedallaSuttaExpanded.ts",
+  "a-discourse-on-the-sakkapanha-sutta": "./books/aDiscourseOnTheSakkapanhaSuttaExpanded.ts",
   "a-million-miles-in-a-thousand-years": "./books/aMillionMilesInAThousandYearsExpanded.ts",
   "a-mind-for-numbers": "./books/aMindForNumbersExpanded.ts",
   "a-theory-of-cognitive-dissonance": "./books/aTheoryOfCognitiveDissonanceExpanded.ts",
@@ -55,7 +58,13 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "discourse-on-dependent-origination": "./books/discourseOnDependentOriginationExpanded.ts",
   "discourse-on-the-anattalakkhana-sutta": "./books/discourseOnTheAnattalakkhanaSuttaExpanded.ts",
   "discourse-on-the-ariyavasa-sutta": "./books/discourseOnTheAriyavasaSuttaExpanded.ts",
+  "discourse-on-the-hemavata-sutta": "./books/discourseOnTheHemavataSuttaExpanded.ts",
+  "discourse-on-the-malukyaputta-sutta": "./books/discourseOnTheMalukyaputtaSuttaExpanded.ts",
+  "discourse-on-the-purabheda-sutta": "./books/discourseOnThePurabhedaSuttaExpanded.ts",
   "discourse-on-the-sallekha-sutta": "./books/discourseOnTheSallekhaSuttaExpanded.ts",
+  "discourse-on-the-silavanta-sutta": "./books/discourseOnTheSilavantaSuttaExpanded.ts",
+  "discourse-on-the-tuwathaka-sutta": "./books/discourseOnTheTuwathakaSuttaExpanded.ts",
+  "discourse-on-the-vammika-sutta": "./books/discourseOnTheVammikaSuttaExpanded.ts",
   "discourse-on-the-wheel-of-dhamma": "./books/discourseOnTheWheelOfDhammaExpanded.ts",
   "do-the-work": "./books/doTheWorkExpanded.ts",
   "dopamine-nation-finding-balance-in-the-age-of-indulgence": "./books/dopamineNationFindingBalanceInTheAgeOfIndulgenceExpanded.ts",
@@ -77,6 +86,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "fooled-by-randomness": "./books/fooledByRandomnessExpanded.ts",
   "forgive-for-good": "./books/forgiveForGoodExpanded.ts",
   "four-thousand-weeks-time-management-for-mortals": "./books/fourThousandWeeksTimeManagementForMortalsExpanded.ts",
+  "fundamentals-of-vipassana-meditation": "./books/fundamentalsOfVipassanaMeditationExpanded.ts",
   "get-out-of-your-mind-and-into-your-life": "./books/getOutOfYourMindAndIntoYourLifeExpanded.ts",
   "getting-past-no-negotiating-with-difficult-people": "./books/gettingPastNoNegotiatingWithDifficultPeopleExpanded.ts",
   "getting-things-done-the-art-of-stress-free-productivity": "./books/gettingThingsDoneTheArtOfStressFreeProductivityExpanded.ts",
@@ -309,6 +319,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "tiny-habits-the-small-changes-that-change-everything": "./books/tinyHabitsTheSmallChangesThatChangeEverythingExpanded.ts",
   "to-sell-is-human-the-surprising-truth-about-moving-others": "./books/toSellIsHumanTheSurprisingTruthAboutMovingOthersExpanded.ts",
   "transitions-making-sense-of-life-s-changes": "./books/transitionsMakingSenseOfLifeSChangesExpanded.ts",
+  "treatise-on-the-vipassana-insight-practice": "./books/treatiseOnTheVipassanaInsightPracticeExpanded.ts",
   "ultralearning": "./books/ultralearningExpanded.ts",
   "unlearn-your-pain": "./books/unlearnYourPainExpanded.ts",
   "untamed": "./books/untamedExpanded.ts",
@@ -571,6 +582,111 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "a-discourse-on-the-cula-vedalla-sutta",
+    "title": "A Discourse on the Cula-Vedalla Sutta",
+    "author": "Mahasi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 125,
+    "publishedYear": 1981,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop fighting the turbulent weather of your thoughts and discover the calm observer underneath. Through an intimate ancient dialogue, this practical manual shows how observing your sensations without grabbing or pushing them away dismantles anxiety and reveals natural inner peace.",
+      "coreThesis": "Suffering is not caused by the natural flow of experiences, but by the friction of clinging to them as a fixed 'I.' When you observe sensations with lucid, non-reactive mindfulness, the illusion of an isolated ego dissolves into peaceful freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "A Discourse on the Cula-Vedalla Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "a-discourse-on-the-maha-vedalla-sutta",
+    "title": "A Discourse on the Maha-Vedalla Sutta",
+    "author": "Mahasi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1981,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step out of the tangled web of mental reactivity and experience the direct, unshakeable stillness of pure awareness. This masterwork unpacks the architecture of your own mind so you can systematically dissolve stress at its root.",
+      "coreThesis": "Suffering occurs when you mistake passing mental impressions for a solid self; true peace arises the moment you observe these phenomena as impermanent, impersonal processes.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "A Discourse on the Maha-Vedalla Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "a-discourse-on-the-sakkapanha-sutta",
+    "title": "A Discourse on the Sakkapanha Sutta",
+    "author": "Mahasi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1980,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Why do beings who yearn for peace remain perpetually at war with themselves and the world? Mahasi Sayadaw unpicks the Buddha's dialogue with the king of gods to reveal how bare, momentary mindfulness dismantles emotional conflict at its very root.",
+      "coreThesis": "Hostility, anxiety, and conflict do not stem from the outside world, but from the chain reaction of sensory craving, envy, and conceptual proliferation\\u2014a cycle that dissolves entirely through immediate, non-judgmental mindfulness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "A Discourse on the Sakkapanha Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -2247,6 +2363,111 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "discourse-on-the-hemavata-sutta",
+    "title": "Discourse on the Hemavata Sutta",
+    "author": "Mahasi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 90,
+    "publishedYear": 1963,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Before trusting any spiritual path, subject it to the ultimate trial: inspect its teacher's conduct under a magnifying glass, then turn that same relentless awareness inward to witness how your senses construct reality. Mahasi Sayadaw transforms an ancient nocturnal dialogue into a razor-sharp, practical operating manual for direct psychological liberation.",
+      "coreThesis": "Genuine spiritual awakening demands ruthless ethical scrutiny of conduct followed by bare, moment-to-moment sensory awareness that halts the automated generation of an ego.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Discourse on the Hemavata Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "discourse-on-the-malukyaputta-sutta",
+    "title": "Discourse on the Malukyaputta Sutta",
+    "author": "Mahasi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1981,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When an elderly monk begged for a practice simple enough to master before death, the Buddha gave him the ultimate shortcut to liberation: intercept reality at the five senses before your mind invents a story about it. Mahasi Sayadaw unlocks this ancient formula into a surgical, moment-to-moment manual for immediate peace.",
+      "coreThesis": "Suffering is manufactured entirely in the split-second lag between sensory contact and mental projection; by resting in bare, immediate awareness at the six sense doors, craving cannot ignite and the mind abides in natural liberation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Discourse on the Malukyaputta Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "discourse-on-the-purabheda-sutta",
+    "title": "Discourse on the Purabheda Sutta",
+    "author": "Mahasi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 1982,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mah\\u0101si Say\\u0101daw unpacks the Buddha\\u2019s timeless blueprint for emotional freedom: how to dismantle craving, regret, and anxiety before your days run out. Through lucid mindfulness, discover how to dwell in an unshakeable inner peace that sensory storms cannot disturb.",
+      "coreThesis": "Genuine liberation is not a distant philosophical concept, but the immediate cessation of craving, regret, and ego-clinging through momentary bare awareness practiced before death.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Discourse on the Purabheda Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "discourse-on-the-sallekha-sutta",
     "title": "Discourse on the Sallekha Sutta",
     "author": "Mahasi Sayadaw",
@@ -2270,6 +2491,111 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Discourse on the Sallekha Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "discourse-on-the-silavanta-sutta",
+    "title": "Discourse on the Silavanta Sutta",
+    "author": "Mahasi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1982,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Whether you are taking your first mindful breath or dwelling in profound spiritual freedom, the practice never changes: observe whatever arises in the mind and body right now. Mahasi Sayadaw unlocks the ancient S\\u012blavanta Sutta to reveal that the beginner's mirror and the master's mirror are identical.",
+      "coreThesis": "From the very first steps of spiritual practice to total awakening, the single direct path to liberation is the continuous, bare observation of impermanence, suffering, and selflessness within your immediate bodily and mental experiences.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Discourse on the Silavanta Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "discourse-on-the-tuwathaka-sutta",
+    "title": "Discourse on the Tuwathaka Sutta",
+    "author": "Mahasi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1976,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Cut through endless mental chatter and reclaim authentic peace right in the middle of daily life. Mahasi Sayadaw reveals the direct, practical manual for dismantling the ego's false narratives through plain, moment-to-moment awareness.",
+      "coreThesis": "Suffering dissolves the moment you stop spinning personal stories around bare sensory inputs and instead observe all experiences rising and vanishing with detached, moment-by-moment mindfulness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Discourse on the Tuwathaka Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "discourse-on-the-vammika-sutta",
+    "title": "Discourse on the Vammika Sutta",
+    "author": "Mahasi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 90,
+    "publishedYear": 1965,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind is an earthen ant-hill simmering with nighttime anxieties and erupting in daytime compulsions. Discover how Buddha's most ingenious parabolic riddle hands you the exact spade needed to dig up inner clutter and uncover unshakeable peace.",
+      "coreThesis": "The human personality is a smoking mound of conditioned habits; by applying continuous mindful attention as a digging blade, you expose and discard every mental obstacle until pure, unconditioned freedom remains.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Discourse on the Vammika Sutta"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -3009,6 +3335,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "fundamentals-of-vipassana-meditation",
+    "title": "Fundamentals of Vipassana Meditation",
+    "author": "Mahasi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 105,
+    "publishedYear": 1961,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step out of the exhausting storm of your conceptual thoughts and witness reality directly as it unfolds. Mahasi Sayadaw reveals the time-tested manual of bare awareness that dismantles chronic tension, dissolving the illusion of a separate self through simple, continuous observation.",
+      "coreThesis": "Suffering dissolves when you stop identifying with passing sensations and instead observe every bodily and mental event with continuous, non-reactive awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Fundamentals of Vipassana Meditation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -11096,6 +11457,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "treatise-on-the-vipassana-insight-practice",
+    "title": "Treatise on the Vipassana Insight Practice",
+    "author": "Mahasi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1950,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop fighting your thoughts and start tracking reality with laboratory precision. This masterwork is the definitive field guide to peeling away mental delusion and awakening directly to the unshakeable peace hidden within ordinary, present awareness.",
+      "coreThesis": "Suffering is sustained only by clinging to an imagined, unchanging ego; by impartially noting the birth and death of each present sensation and thought, consciousness naturally unties its own knots and tastes liberation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Treatise on the Vipassana Insight Practice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
