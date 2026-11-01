@@ -333,6 +333,7 @@ import { DISCOURSE_ON_THE_WHEEL_OF_DHAMMA_BOOK } from './books/discourseOnTheWhe
 import { DISCOURSE_ON_DEPENDENT_ORIGINATION_BOOK } from './books/discourseOnDependentOriginationExpanded';
 import { DISCOURSE_ON_THE_ANATTALAKKHANA_SUTTA_BOOK } from './books/discourseOnTheAnattalakkhanaSuttaExpanded';
 import { DISCOURSE_ON_THE_ARIYAVASA_SUTTA_BOOK } from './books/discourseOnTheAriyavasaSuttaExpanded';
+import { DISCOURSE_ON_THE_SALLEKHA_SUTTA_BOOK } from './books/discourseOnTheSallekhaSuttaExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -666,7 +667,8 @@ export const SEED_BOOKS: Book[] = [
   DISCOURSE_ON_THE_WHEEL_OF_DHAMMA_BOOK,
   DISCOURSE_ON_DEPENDENT_ORIGINATION_BOOK,
   DISCOURSE_ON_THE_ANATTALAKKHANA_SUTTA_BOOK,
-  DISCOURSE_ON_THE_ARIYAVASA_SUTTA_BOOK
+  DISCOURSE_ON_THE_ARIYAVASA_SUTTA_BOOK,
+  DISCOURSE_ON_THE_SALLEKHA_SUTTA_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -1002,7 +1004,8 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(DISCOURSE_ON_THE_WHEEL_OF_DHAMMA_BOOK.ideaCards || []),
   ...(DISCOURSE_ON_DEPENDENT_ORIGINATION_BOOK.ideaCards || []),
   ...(DISCOURSE_ON_THE_ANATTALAKKHANA_SUTTA_BOOK.ideaCards || []),
-  ...(DISCOURSE_ON_THE_ARIYAVASA_SUTTA_BOOK.ideaCards || [])
+  ...(DISCOURSE_ON_THE_ARIYAVASA_SUTTA_BOOK.ideaCards || []),
+  ...(DISCOURSE_ON_THE_SALLEKHA_SUTTA_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [

@@ -23,6 +23,7 @@ import { ReaderView } from './components/ReaderView';
 import { StashModal } from './components/StashModal';
 import { ImportExportModal } from './components/ImportExportModal';
 import { AuthModal } from './components/AuthModal';
+import { ErrorBoundary } from './components/ErrorBoundary';
 import { loadFullBook } from './data/bookLoader';
 
 interface LastViewState {
@@ -552,17 +553,23 @@ export function App() {
 
       {/* Main Content: If a book is selected, open Unified ReaderView; otherwise show Tabs & Dashboard */}
       {selectedBook ? (
-        <ReaderView
-          book={selectedBook}
-          onBack={handleBackFromBook}
-          onOpenStashModal={handleOpenStashModal}
-          onBookCompleted={() => refreshData()}
-          fontSizeIndex={fontSizeIndex}
-          initialViewMode={initialReaderViewMode}
-          initialBlinkIndex={initialReaderBlinkIndex}
-          onViewModeChange={handleReaderViewModeChange}
-          onBlinkIndexChange={handleReaderBlinkIndexChange}
-        />
+        <ErrorBoundary
+          key={selectedBook.id}
+          fallbackTitle={`Error opening "${selectedBook.title}"`}
+          onReset={handleBackFromBook}
+        >
+          <ReaderView
+            book={selectedBook}
+            onBack={handleBackFromBook}
+            onOpenStashModal={handleOpenStashModal}
+            onBookCompleted={() => refreshData()}
+            fontSizeIndex={fontSizeIndex}
+            initialViewMode={initialReaderViewMode}
+            initialBlinkIndex={initialReaderBlinkIndex}
+            onViewModeChange={handleReaderViewModeChange}
+            onBlinkIndexChange={handleReaderBlinkIndexChange}
+          />
+        </ErrorBoundary>
       ) : (
         <>
           {/* Main Navigation Tabs */}

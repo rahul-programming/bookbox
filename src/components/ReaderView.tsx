@@ -91,18 +91,19 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
       const uid = getActiveUserId();
       const pMap = await getUserProgressMap(uid);
       const existing = pMap[book.id];
+      const maxIdx = Math.max(0, (book.blinks?.length || 1) - 1);
       if (existing) {
         const targetIndex = (initialBlinkIndex !== undefined && initialBlinkIndex > 0)
           ? initialBlinkIndex
           : (existing.currentBlinkIndex ?? 0);
-        const boundedIndex = Math.min(targetIndex, Math.max(0, book.blinks.length - 1));
+        const boundedIndex = Math.min(targetIndex, maxIdx);
         setCurrentBlinkIndex(boundedIndex);
         onBlinkIndexChange?.(boundedIndex);
         setCompletedActionIds(existing.completedActionIds || []);
         setIsFavorite(!!existing.isFavorite);
         setIsCurrentlyReading(existing.isCurrentlyReading ?? true);
       } else {
-        const boundedIndex = Math.min(initialBlinkIndex || 0, Math.max(0, book.blinks.length - 1));
+        const boundedIndex = Math.min(initialBlinkIndex || 0, maxIdx);
         setCurrentBlinkIndex(boundedIndex);
         onBlinkIndexChange?.(boundedIndex);
         await saveUserProgress(book.id, {
@@ -119,7 +120,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
       }
     };
     loadProgress();
-  }, [book.id, book.blinks.length]);
+  }, [book.id, book.blinks?.length]);
 
   // Instantly reset scroll to top whenever changing view mode, active book, or chapter/blink
   useEffect(() => {
@@ -127,6 +128,19 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
     document.documentElement.scrollTop = 0;
     document.body.scrollTop = 0;
   }, [viewMode, book.id, currentBlinkIndex]);
+
+  const hasBlinks = Boolean(book.blinks && book.blinks.length > 0);
+  const activeBlink = hasBlinks ? (book.blinks[currentBlinkIndex] || book.blinks[0]) : null;
+
+  // Set default audio track to current blink on mount (ALWAYS at top level before early returns)
+  useEffect(() => {
+    if (activeBlink) {
+      setAudioTrack({
+        headline: activeBlink.headline,
+        text: activeBlink.content
+      });
+    }
+  }, [book.id, activeBlink?.id]);
 
   const handleToggleFavorite = async () => {
     const next = await toggleFavorite(book.id);
@@ -147,7 +161,8 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
     await saveUserProgress(book.id, { completedActionIds: next });
   };
 
-  if (!book.blinks || book.blinks.length === 0) {
+  // Safe fallback loading screen if book is currently streaming or hydrating on-demand
+  if (!hasBlinks) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-slate-50 dark:bg-slate-900 text-slate-500 p-6">
         <div className="w-10 h-10 border-3 border-blue-600 border-t-transparent rounded-full animate-spin mb-4" />
@@ -163,17 +178,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
     );
   }
 
-  const activeBlink = book.blinks[currentBlinkIndex] || book.blinks[0];
-
-  // Set default audio track to current blink on mount
-  useEffect(() => {
-    if (activeBlink) {
-      setAudioTrack({
-        headline: activeBlink.headline,
-        text: activeBlink.content
-      });
-    }
-  }, [book.id]);
+  const currentBlink = book.blinks[currentBlinkIndex] || book.blinks[0];
 
   const handleStartAudio = (headline: string, text: string) => {
     setAudioTrack({ headline, text });
@@ -422,7 +427,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
             highlightRange={highlightRange}
             onBlinkChange={handleBlinkChange}
             onCompleteBook={handleCompleteBook}
-            onStartAudio={() => handleStartAudio(activeBlink.headline, activeBlink.keyInsight || activeBlink.content)}
+            onStartAudio={() => handleStartAudio(currentBlink.headline, currentBlink.keyInsight || currentBlink.content)}
             fontSizeClass={fontClasses[fontSizeIndex]}
           />
         )}

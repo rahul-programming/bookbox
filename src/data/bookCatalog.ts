@@ -55,6 +55,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "discourse-on-dependent-origination": "./books/discourseOnDependentOriginationExpanded.ts",
   "discourse-on-the-anattalakkhana-sutta": "./books/discourseOnTheAnattalakkhanaSuttaExpanded.ts",
   "discourse-on-the-ariyavasa-sutta": "./books/discourseOnTheAriyavasaSuttaExpanded.ts",
+  "discourse-on-the-sallekha-sutta": "./books/discourseOnTheSallekhaSuttaExpanded.ts",
   "discourse-on-the-wheel-of-dhamma": "./books/discourseOnTheWheelOfDhammaExpanded.ts",
   "do-the-work": "./books/doTheWorkExpanded.ts",
   "dopamine-nation-finding-balance-in-the-age-of-indulgence": "./books/dopamineNationFindingBalanceInTheAgeOfIndulgenceExpanded.ts",
@@ -2234,6 +2235,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Discourse on the Ariyavasa Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "discourse-on-the-sallekha-sutta",
+    "title": "Discourse on the Sallekha Sutta",
+    "author": "Mahasi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 230,
+    "publishedYear": 1969,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Spiritual practice is not an intellectual salon or a peaceful escape into daydreaming\\u2014it is an exacting, daily craft of scrubbing away ego grit. Mahasi Sayadaw turns the Buddha's Sallekha Sutta into an uncompromising, surgical field guide for dismantling forty-four mental toxins to reveal effortless, radiant freedom.",
+      "coreThesis": "Genuine spiritual enlightenment is not a mystical high or an exotic theory, but the systematic, daily scrubbing away of forty-four inner defilements through bare mindfulness and ethical rigor.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Discourse on the Sallekha Sutta"
     },
     "reflectionExercises": [],
     "actionItems": [],

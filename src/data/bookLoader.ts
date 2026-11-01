@@ -26,7 +26,20 @@ export async function loadFullBook(bookId: string): Promise<Book | null> {
   // 3. Dynamically fetch the isolated book chunk on-demand
   try {
     const module = await bookModules[relPath]();
-    const exportedBook = (module.default || Object.values(module)[0]) as Book;
+    let exportedBook: Book | null = null;
+    if (module.default && module.default.id) {
+      exportedBook = module.default;
+    } else {
+      for (const val of Object.values(module)) {
+        if (val && typeof val === 'object' && (val as any).id && (val as any).blinks) {
+          exportedBook = val as Book;
+          break;
+        }
+      }
+      if (!exportedBook) {
+        exportedBook = (module.default || Object.values(module)[0]) as Book;
+      }
+    }
 
     if (exportedBook && exportedBook.id) {
       const fullBook: Book = {
