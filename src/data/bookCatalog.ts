@@ -67,6 +67,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "discourse-on-the-vammika-sutta": "./books/discourseOnTheVammikaSuttaExpanded.ts",
   "discourse-on-the-wheel-of-dhamma": "./books/discourseOnTheWheelOfDhammaExpanded.ts",
   "do-the-work": "./books/doTheWorkExpanded.ts",
+  "don-t-look-at-the-mind-with-contempt": "./books/donTLookAtTheMindWithContemptExpanded.ts",
   "dopamine-nation-finding-balance-in-the-age-of-indulgence": "./books/dopamineNationFindingBalanceInTheAgeOfIndulgenceExpanded.ts",
   "early-buddhist-meditation-studies": "./books/earlyBuddhistMeditationStudiesExpanded.ts",
   "early-buddhist-oral-tradition-and-textual-transmission": "./books/earlyBuddhistOralTraditionAndTextualTransmissionExpanded.ts",
@@ -111,6 +112,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "in-defense-of-food": "./books/inDefenseOfFoodExpanded.ts",
   "in-sheep-s-clothing-understanding-and-dealing-with-manipulat": "./books/inSheepSClothingUnderstandingAndDealingWithManipulatExpanded.ts",
   "in-the-realm-of-hungry-ghosts": "./books/inTheRealmOfHungryGhostsExpanded.ts",
+  "in-this-very-life-the-liberation-teachings-of-the-buddha": "./books/inThisVeryLifeTheLiberationTeachingsOfTheBuddhaExpanded.ts",
   "indistractable-how-to-control-your-attention-and-choose-your": "./books/indistractableHowToControlYourAttentionAndChooseYourExpanded.ts",
   "influence-the-psychology-of-persuasion": "./books/influenceThePsychologyOfPersuasionExpanded.ts",
   "inner-work-using-dreams-and-active-imagination-for-personal-": "./books/innerWorkUsingDreamsAndActiveImaginationForPersonalExpanded.ts",
@@ -158,6 +160,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "nonviolent-communication-a-language-of-life": "./books/nonviolentCommunicationALanguageOfLifeExpanded.ts",
   "not-nice-stop-people-pleasing-staying-silent-feeling-guilty": "./books/notNiceStopPeoplePleasingStayingSilentFeelingGuiltyExpanded.ts",
   "nudge": "./books/nudgeExpanded.ts",
+  "on-the-path-to-freedom": "./books/onThePathToFreedomExpanded.ts",
   "one-small-step-can-change-your-life-the-kaizen-way": "./books/oneSmallStepCanChangeYourLifeTheKaizenWayExpanded.ts",
   "outlive-the-science-and-art-of-longevity": "./books/outliveTheScienceAndArtOfLongevityExpanded.ts",
   "overcoming-destructive-anger": "./books/overcomingDestructiveAngerExpanded.ts",
@@ -303,11 +306,13 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-social-animal": "./books/theSocialAnimalExpanded.ts",
   "the-socratic-method-of-psychotherapy": "./books/theSocraticMethodOfPsychotherapyExpanded.ts",
   "the-soulful-art-of-persuasion": "./books/theSoulfulArtOfPersuasionExpanded.ts",
+  "the-state-of-mind-called-beautiful": "./books/theStateOfMindCalledBeautifulExpanded.ts",
   "the-sutta-discovery-early-buddhist-teachings": "./books/theSuttaDiscoveryEarlyBuddhistTeachingsExpanded.ts",
   "the-systems-view-of-life": "./books/theSystemsViewOfLifeExpanded.ts",
   "the-upward-spiral": "./books/theUpwardSpiralExpanded.ts",
   "the-uses-of-argument": "./books/theUsesOfArgumentExpanded.ts",
   "the-war-of-art": "./books/theWarOfArtExpanded.ts",
+  "the-way-to-the-guru-meditative-guidance": "./books/theWayToTheGuruMeditativeGuidanceExpanded.ts",
   "the-willpower-instinct": "./books/theWillpowerInstinctExpanded.ts",
   "the-worry-trick": "./books/theWorryTrickExpanded.ts",
   "think-again-the-power-of-knowing-what-you-don-t-know": "./books/thinkAgainThePowerOfKnowingWhatYouDonTKnowExpanded.ts",
@@ -316,6 +321,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "thinking-in-systems-a-primer": "./books/thinkingInSystemsAPrimerExpanded.ts",
   "this-naked-mind": "./books/thisNakedMindExpanded.ts",
   "time-smart-how-to-reclaim-your-time-and-live-a-happier-life": "./books/timeSmartHowToReclaimYourTimeAndLiveAHappierLifeExpanded.ts",
+  "timeless-wisdom-in-depth-dhamma-talks": "./books/timelessWisdomInDepthDhammaTalksExpanded.ts",
   "tiny-habits-the-small-changes-that-change-everything": "./books/tinyHabitsTheSmallChangesThatChangeEverythingExpanded.ts",
   "to-sell-is-human-the-surprising-truth-about-moving-others": "./books/toSellIsHumanTheSurprisingTruthAboutMovingOthersExpanded.ts",
   "transitions-making-sense-of-life-s-changes": "./books/transitionsMakingSenseOfLifeSChangesExpanded.ts",
@@ -2678,6 +2684,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "don-t-look-at-the-mind-with-contempt",
+    "title": "Don't Look at the Mind with Contempt",
+    "author": "Sayadaw U Tejaniya",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2006,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop wrestling with your restless mind and start studying it like a curious scientist. Sayadaw U Tejaniya reveals that the secret to lasting inner freedom is not forcing mental silence, but cultivating a relaxed, judgment-free awareness that treats every mental state as natural data.",
+      "coreThesis": "Suffering is caused not by messy thoughts, but by the subtle aversion and contempt with which you judge them; liberation arises when you observe every mental state with relaxed, non-interfering awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Don't Look at the Mind with Contempt"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "dopamine-nation-finding-balance-in-the-age-of-indulgence",
     "title": "Dopamine Nation: Finding Balance in the Age of Indulgence",
     "author": "Anna Lembke",
@@ -4208,6 +4249,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "in-this-very-life-the-liberation-teachings-of-the-buddha",
+    "title": "In This Very Life: The Liberation Teachings of the Buddha",
+    "author": "Sayadaw U Pandita",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1992,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Liberation is not an elusive myth reserved for ancient monks; it is a direct, achievable reality attainable right now through uncompromising, moment-to-moment mindfulness. Sayadaw U Pandita provides a razor-sharp, practical field manual to dismantle suffering and awaken in this very life.",
+      "coreThesis": "Complete freedom from suffering is directly accessible in this immediate lifetime through rigorous, unbroken, moment-to-moment mindfulness of mind and body.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "In This Very Life: The Liberation Teachings of the Buddha"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -5850,6 +5926,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "on-the-path-to-freedom",
+    "title": "On the Path to Freedom",
+    "author": "Sayadaw U Pandita",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1995,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Real freedom is not an exotic escape; it is waking up from the mental fog of identification and seeing reality with surgical clarity. Sayadaw U Pandita delivers an uncompromising, practical blueprint for deconstructing suffering and mastering your own mind in real time.",
+      "coreThesis": "Suffering dissolves when continuous, precise awareness observes sensory experience directly, dismantling the false assumption of a solid, independent self.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "On the Path to Freedom"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -10906,6 +11017,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-state-of-mind-called-beautiful",
+    "title": "The State of Mind Called Beautiful",
+    "author": "Sayadaw U Pandita",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2006,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step out of the storm of mental reactivity into pristine clarity. Revered meditation master Sayadaw U Pandita provides a rigorous, practical blueprint for training your mind until calm awareness becomes your natural home.",
+      "coreThesis": "Genuine inner peace is cultivated through ethical discipline, protective goodwill, and razor-sharp moment-to-moment awareness that cuts cleanly through conditioned reactivity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The State of Mind Called Beautiful"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-sutta-discovery-early-buddhist-teachings",
     "title": "The Sutta Discovery: Early Buddhist Teachings",
     "author": "Piya Tan & Bhikkhu Analayo",
@@ -11075,6 +11221,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-way-to-the-guru-meditative-guidance",
+    "title": "The Way to the Guru: Meditative Guidance",
+    "author": "Sayadaw U Pandita",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1992,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Cut through spiritual romanticism with surgical mindfulness. This rigorous guide demonstrates how direct, microscopic attention to your immediate sensory reality dissolves mental friction and delivers lasting inner liberation.",
+      "coreThesis": "Enlightenment is not a distant, esoteric trance; it is the natural consequence of unbroken, precise awareness brought to this very moment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Way to the Guru: Meditative Guidance"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -11352,6 +11533,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "timeless-wisdom-in-depth-dhamma-talks",
+    "title": "Timeless Wisdom: In-Depth Dhamma Talks",
+    "author": "Sayadaw U Pandita",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 120,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Liberation is not an abstract philosophy; it is an uncompromising craft of direct, real-time attention. Sayadaw U Pandita provides a clinical, compassionate masterclass in dismantling suffering by observing reality exactly as it rises and falls.",
+      "coreThesis": "Suffering dissolves when unbroken, moment-to-moment awareness intercepts raw experience at the senses before mental habits twist it into craving and conflict.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Timeless Wisdom: In-Depth Dhamma Talks"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
