@@ -406,6 +406,16 @@ import { FOOD_FOR_THE_HEART_COLLECTED_TEACHINGS_BOOK } from './books/foodForTheH
 import { BEING_DHARMA_THE_ESSENCE_OF_THE_BUDDHA_S_TEACHINGS_BOOK } from './books/beingDharmaTheEssenceOfTheBuddhaSTeachingsExpanded';
 import { A_STILL_FOREST_POOL_INSIGHT_MEDITATION_OF_ACHAAN_CHAH_BOOK } from './books/aStillForestPoolInsightMeditationOfAchaanChahExpanded';
 import { NO_AJAHN_CHAH_REFLECTIONS_OF_A_MASTER_BOOK } from './books/noAjahnChahReflectionsOfAMasterExpanded';
+import { EVERYTHING_ARISES_EVERYTHING_FALLS_AWAY_BOOK } from './books/everythingArisesEverythingFallsAwayExpanded';
+import { IN_SIMPLE_TERMS_108_DHAMMA_SIMILES_BOOK } from './books/inSimpleTerms108DhammaSimilesExpanded';
+import { OUR_REAL_HOME_TEACHINGS_FOR_APPROACHING_DEATH_BOOK } from './books/ourRealHomeTeachingsForApproachingDeathExpanded';
+import { BODHINYANA_A_COLLECTION_OF_DHAMMA_TALKS_BOOK } from './books/bodhinyanaACollectionOfDhammaTalksExpanded';
+import { A_TASTE_OF_FREEDOM_BOOK } from './books/aTasteOfFreedomExpanded';
+import { LIVING_DHAMMA_BOOK } from './books/livingDhammaExpanded';
+import { PEACE_BEYOND_SUFFERING_BOOK } from './books/peaceBeyondSufferingExpanded';
+import { THE_KEY_TO_LIBERATION_BOOK } from './books/theKeyToLiberationExpanded';
+import { JUST_ONE_WORD_MINDFULNESS_BOOK } from './books/justOneWordMindfulnessExpanded';
+import { CLARITY_OF_INSIGHT_SELECTED_FOREST_DHAMMA_BOOK } from './books/clarityOfInsightSelectedForestDhammaExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -812,7 +822,17 @@ export const SEED_BOOKS: Book[] = [
   FOOD_FOR_THE_HEART_COLLECTED_TEACHINGS_BOOK,
   BEING_DHARMA_THE_ESSENCE_OF_THE_BUDDHA_S_TEACHINGS_BOOK,
   A_STILL_FOREST_POOL_INSIGHT_MEDITATION_OF_ACHAAN_CHAH_BOOK,
-  NO_AJAHN_CHAH_REFLECTIONS_OF_A_MASTER_BOOK
+  NO_AJAHN_CHAH_REFLECTIONS_OF_A_MASTER_BOOK,
+  EVERYTHING_ARISES_EVERYTHING_FALLS_AWAY_BOOK,
+  IN_SIMPLE_TERMS_108_DHAMMA_SIMILES_BOOK,
+  OUR_REAL_HOME_TEACHINGS_FOR_APPROACHING_DEATH_BOOK,
+  BODHINYANA_A_COLLECTION_OF_DHAMMA_TALKS_BOOK,
+  A_TASTE_OF_FREEDOM_BOOK,
+  LIVING_DHAMMA_BOOK,
+  PEACE_BEYOND_SUFFERING_BOOK,
+  THE_KEY_TO_LIBERATION_BOOK,
+  JUST_ONE_WORD_MINDFULNESS_BOOK,
+  CLARITY_OF_INSIGHT_SELECTED_FOREST_DHAMMA_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -1221,7 +1241,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(FOOD_FOR_THE_HEART_COLLECTED_TEACHINGS_BOOK.ideaCards || []),
   ...(BEING_DHARMA_THE_ESSENCE_OF_THE_BUDDHA_S_TEACHINGS_BOOK.ideaCards || []),
   ...(A_STILL_FOREST_POOL_INSIGHT_MEDITATION_OF_ACHAAN_CHAH_BOOK.ideaCards || []),
-  ...(NO_AJAHN_CHAH_REFLECTIONS_OF_A_MASTER_BOOK.ideaCards || [])
+  ...(NO_AJAHN_CHAH_REFLECTIONS_OF_A_MASTER_BOOK.ideaCards || []),
+  ...(EVERYTHING_ARISES_EVERYTHING_FALLS_AWAY_BOOK.ideaCards || []),
+  ...(IN_SIMPLE_TERMS_108_DHAMMA_SIMILES_BOOK.ideaCards || []),
+  ...(OUR_REAL_HOME_TEACHINGS_FOR_APPROACHING_DEATH_BOOK.ideaCards || []),
+  ...(BODHINYANA_A_COLLECTION_OF_DHAMMA_TALKS_BOOK.ideaCards || []),
+  ...(A_TASTE_OF_FREEDOM_BOOK.ideaCards || []),
+  ...(LIVING_DHAMMA_BOOK.ideaCards || []),
+  ...(PEACE_BEYOND_SUFFERING_BOOK.ideaCards || []),
+  ...(THE_KEY_TO_LIBERATION_BOOK.ideaCards || []),
+  ...(JUST_ONE_WORD_MINDFULNESS_BOOK.ideaCards || []),
+  ...(CLARITY_OF_INSIGHT_SELECTED_FOREST_DHAMMA_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [

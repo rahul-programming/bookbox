@@ -14,6 +14,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "a-million-miles-in-a-thousand-years": "./books/aMillionMilesInAThousandYearsExpanded.ts",
   "a-mind-for-numbers": "./books/aMindForNumbersExpanded.ts",
   "a-still-forest-pool-insight-meditation-of-achaan-chah": "./books/aStillForestPoolInsightMeditationOfAchaanChahExpanded.ts",
+  "a-taste-of-freedom": "./books/aTasteOfFreedomExpanded.ts",
   "a-theory-of-cognitive-dissonance": "./books/aTheoryOfCognitiveDissonanceExpanded.ts",
   "algorithms-to-live-by": "./books/algorithmsToLiveByExpanded.ts",
   "alone-together-why-we-expect-more-from-technology-and-less-f": "./books/aloneTogetherWhyWeExpectMoreFromTechnologyAndLessFExpanded.ts",
@@ -35,6 +36,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "better-than-before": "./books/betterThanBeforeExpanded.ts",
   "bhavana-mind-development-in-everyday-reality": "./books/bhavanaMindDevelopmentInEverydayRealityExpanded.ts",
   "blink-the-power-of-thinking-without-thinking": "./books/blinkThePowerOfThinkingWithoutThinkingExpanded.ts",
+  "bodhinyana-a-collection-of-dhamma-talks": "./books/bodhinyanaACollectionOfDhammaTalksExpanded.ts",
   "bored-and-brilliant": "./books/boredAndBrilliantExpanded.ts",
   "born-to-run": "./books/bornToRunExpanded.ts",
   "boundaries-when-to-say-yes-how-to-say-no-to-take-control-of-": "./books/boundariesWhenToSayYesHowToSayNoToTakeControlOfExpanded.ts",
@@ -88,6 +90,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "elastic-habits": "./books/elasticHabitsExpanded.ts",
   "emotional-agility": "./books/emotionalAgilityExpanded.ts",
   "essentialism-the-disciplined-pursuit-of-less": "./books/essentialismTheDisciplinedPursuitOfLessExpanded.ts",
+  "everything-arises-everything-falls-away": "./books/everythingArisesEverythingFallsAwayExpanded.ts",
   "everything-s-an-argument": "./books/everythingSAnArgumentExpanded.ts",
   "evolutionary-psychology-the-new-science-of-the-mind": "./books/evolutionaryPsychologyTheNewScienceOfTheMindExpanded.ts",
   "expert-political-judgment": "./books/expertPoliticalJudgmentExpanded.ts",
@@ -127,6 +130,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "ikigai-the-japanese-secret-to-a-long-and-happy-life": "./books/ikigaiTheJapaneseSecretToALongAndHappyLifeExpanded.ts",
   "in-defense-of-food": "./books/inDefenseOfFoodExpanded.ts",
   "in-sheep-s-clothing-understanding-and-dealing-with-manipulat": "./books/inSheepSClothingUnderstandingAndDealingWithManipulatExpanded.ts",
+  "in-simple-terms-108-dhamma-similes": "./books/inSimpleTerms108DhammaSimilesExpanded.ts",
   "in-the-buddha-s-words-an-anthology-from-the-pali-canon": "./books/inTheBuddhaSWordsAnAnthologyFromThePaliCanonExpanded.ts",
   "in-the-realm-of-hungry-ghosts": "./books/inTheRealmOfHungryGhostsExpanded.ts",
   "in-this-very-life-the-liberation-teachings-of-the-buddha": "./books/inThisVeryLifeTheLiberationTeachingsOfTheBuddhaExpanded.ts",
@@ -147,6 +151,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "limitless": "./books/limitlessExpanded.ts",
   "linked-how-everything-is-connected": "./books/linkedHowEverythingIsConnectedExpanded.ts",
   "listen-like-you-mean-it-reclaiming-the-lost-art-of-true-conn": "./books/listenLikeYouMeanItReclaimingTheLostArtOfTrueConnExpanded.ts",
+  "living-dhamma": "./books/livingDhammaExpanded.ts",
   "living-forward-a-proven-plan-to-stop-drifting": "./books/livingForwardAProvenPlanToStopDriftingExpanded.ts",
   "living-nonviolent-communication": "./books/livingNonviolentCommunicationExpanded.ts",
   "living-the-dhamma-hour-by-hour": "./books/livingTheDhammaHourByHourExpanded.ts",
@@ -177,6 +182,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "negotiating-the-nonnegotiable-how-to-resolve-your-most-emoti": "./books/negotiatingTheNonnegotiableHowToResolveYourMostEmotiExpanded.ts",
   "negotiation-genius": "./books/negotiationGeniusExpanded.ts",
   "never-split-the-difference-negotiating-as-if-your-life-depen": "./books/neverSplitTheDifferenceNegotiatingAsIfYourLifeDepenExpanded.ts",
+  "no-ajahn-chah-reflections-of-a-master": "./books/noAjahnChahReflectionsOfAMasterExpanded.ts",
   "no-bad-parts-healing-trauma-and-restoring-wholeness-with-the": "./books/noBadPartsHealingTraumaAndRestoringWholenessWithTheExpanded.ts",
   "no-hard-feelings-the-secret-power-of-embracing-emotions-at-w": "./books/noHardFeelingsTheSecretPowerOfEmbracingEmotionsAtWExpanded.ts",
   "no-more-mr-nice-guy": "./books/noMoreMrNiceGuyExpanded.ts",
@@ -185,6 +191,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "nudge": "./books/nudgeExpanded.ts",
   "on-the-path-to-freedom": "./books/onThePathToFreedomExpanded.ts",
   "one-small-step-can-change-your-life-the-kaizen-way": "./books/oneSmallStepCanChangeYourLifeTheKaizenWayExpanded.ts",
+  "our-real-home-teachings-for-approaching-death": "./books/ourRealHomeTeachingsForApproachingDeathExpanded.ts",
   "outlive-the-science-and-art-of-longevity": "./books/outliveTheScienceAndArtOfLongevityExpanded.ts",
   "overcoming-destructive-anger": "./books/overcomingDestructiveAngerExpanded.ts",
   "overcoming-gravity": "./books/overcomingGravityExpanded.ts",
@@ -879,6 +886,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "A Still Forest Pool: Insight Meditation of Achaan Chah"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "a-taste-of-freedom",
+    "title": "A Taste of Freedom",
+    "author": "Ajahn Chah",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1980,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop fighting the waves of life and step back onto the dry ground of pure awareness. Ajahn Chah strips spiritual practice of all mystical jargon, offering an earthy, razor-sharp blueprint for tasting total inner freedom right here, right now.",
+      "coreThesis": "Suffering is not caused by the transient world, but by our grasping onto what cannot stay; letting go completely brings unshakeable, immediate peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "A Taste of Freedom"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -1619,6 +1661,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "bodhinyana-a-collection-of-dhamma-talks",
+    "title": "Bodhinyana: A Collection of Dhamma Talks",
+    "author": "Ajahn Chah",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1982,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Peace is not the absence of life's storms; it is the wisdom to stop wrestling with them. Ajahn Chah strips away mystical jargon to reveal how everyday awareness and radical non-clinging dismantle anxiety at the root.",
+      "coreThesis": "Suffering is caused solely by clinging to things that naturally change; true peace is realized the moment we stop demanding the world be anything other than what it is.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Bodhinyana: A Collection of Dhamma Talks"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -3473,6 +3550,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "everything-arises-everything-falls-away",
+    "title": "Everything Arises, Everything Falls Away",
+    "author": "Ajahn Chah",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2005,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Freedom is not found by freezing life in place, but by learning to relax your grip on things that were never yours to keep. Ajahn Chah offers crystal-clear, grounded wisdom that turns everyday observation into an open door to lasting peace.",
+      "coreThesis": "All experiences, thoughts, and feelings arise naturally and dissolve on their own; true peace arrives the moment you stop clinging to them or mistaking them for who you are.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Everything Arises, Everything Falls Away"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "everything-s-an-argument",
     "title": "Everything\\u2019s an Argument",
     "author": "Andrea A. Lunsford & John J. Ruszkiewicz",
@@ -4833,6 +4945,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "in-simple-terms-108-dhamma-similes",
+    "title": "In Simple Terms: 108 Dhamma Similes",
+    "author": "Ajahn Chah",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 540,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Ajahn Chah strips away ornate monastic dogma to hand you 108 razor-sharp, down-to-earth parables on taming your mind. Discover why inner peace isn't an exotic destination, but the simple, radical art of putting down the heavy rocks you carry every day.",
+      "coreThesis": "Suffering comes not from changing circumstances, but from grasping what naturally slips away; true peace is the effortless baseline revealed the moment you drop what you carry.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "In Simple Terms: 108 Dhamma Similes"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "in-the-buddha-s-words-an-anthology-from-the-pali-canon",
     "title": "In the Buddha's Words: An Anthology from the Pali Canon",
     "author": "Bhikkhu Bodhi",
@@ -5527,6 +5674,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "living-dhamma",
+    "title": "Living Dhamma",
+    "author": "Ajahn Chah",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1992,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop chasing peace as if it were an object to acquire; genuine freedom begins the moment you stop fighting reality and observe your mind with unwavering, neutral clarity.",
+      "coreThesis": "Suffering occurs only when you demand that impermanent things remain static; true peace arises naturally when you observe experience without grasping or resistance.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Living Dhamma"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -6579,6 +6761,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "no-ajahn-chah-reflections-of-a-master",
+    "title": "No Ajahn Chah: Reflections of a Master",
+    "author": "Ajahn Chah",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 1994,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop wrestling with reality: true peace is not the absence of storms, but the wisdom to leave the heart unhooked. In short, razor-sharp reflections, Thai forest master Ajahn Chah strips spirituality down to practical, unshakeable stillness.",
+      "coreThesis": "Suffering is born from resisting change and grasping at what cannot be held; when you release attachment to outcomes and self-image, unconditioned peace is already present.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "No Ajahn Chah: Reflections of a Master"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "no-bad-parts-healing-trauma-and-restoring-wholeness-with-the",
     "title": "No Bad Parts: Healing Trauma and Restoring Wholeness with the Internal Family Systems Model",
     "author": "Richard C. Schwartz",
@@ -6853,6 +7070,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "our-real-home-teachings-for-approaching-death",
+    "title": "Our Real Home: Teachings for Approaching Death",
+    "author": "Ajahn Chah",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1987,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your physical body is a borrowed shelter that will inevitably crumble\\u2014peace comes not from fighting the wreckage, but from discovering the timeless awareness that was never born and cannot die.",
+      "coreThesis": "The physical body is merely borrowed matter bound for decay; our real home is the clear, unattached mind resting in peaceful awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Our Real Home: Teachings for Approaching Death"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
