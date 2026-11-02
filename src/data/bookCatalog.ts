@@ -39,6 +39,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "being-logical-a-guide-to-good-thinking": "./books/beingLogicalAGuideToGoodThinkingExpanded.ts",
   "better-than-before": "./books/betterThanBeforeExpanded.ts",
   "beyond-all-directions-essays-on-nirvana": "./books/beyondAllDirectionsEssaysOnNirvanaExpanded.ts",
+  "beyond-mindfulness-in-plain-english": "./books/beyondMindfulnessInPlainEnglishExpanded.ts",
   "bhavana-mind-development-in-everyday-reality": "./books/bhavanaMindDevelopmentInEverydayRealityExpanded.ts",
   "blink-the-power-of-thinking-without-thinking": "./books/blinkThePowerOfThinkingWithoutThinkingExpanded.ts",
   "bodhinyana-a-collection-of-dhamma-talks": "./books/bodhinyanaACollectionOfDhammaTalksExpanded.ts",
@@ -101,6 +102,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "early-buddhist-meditation-studies": "./books/earlyBuddhistMeditationStudiesExpanded.ts",
   "early-buddhist-oral-tradition-and-textual-transmission": "./books/earlyBuddhistOralTraditionAndTextualTransmissionExpanded.ts",
   "effortless-make-it-easier-to-do-what-matters-most": "./books/effortlessMakeItEasierToDoWhatMattersMostExpanded.ts",
+  "eight-mindful-steps-to-happiness": "./books/eightMindfulStepsToHappinessExpanded.ts",
   "elastic-habits": "./books/elasticHabitsExpanded.ts",
   "emotional-agility": "./books/emotionalAgilityExpanded.ts",
   "essentialism-the-disciplined-pursuit-of-less": "./books/essentialismTheDisciplinedPursuitOfLessExpanded.ts",
@@ -162,6 +164,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "intuitive-awareness-living-in-the-unconditioned": "./books/intuitiveAwarenessLivingInTheUnconditionedExpanded.ts",
   "investigating-the-dhamma-a-collection-of-essays": "./books/investigatingTheDhammaACollectionOfEssaysExpanded.ts",
   "invisible-influence-the-hidden-forces-that-shape-behavior": "./books/invisibleInfluenceTheHiddenForcesThatShapeBehaviorExpanded.ts",
+  "journey-to-mindfulness-autobiography": "./books/journeyToMindfulnessAutobiographyExpanded.ts",
   "just-listen-discover-the-secret-to-getting-through-to-absolu": "./books/justListenDiscoverTheSecretToGettingThroughToAbsoluExpanded.ts",
   "just-one-more-breath-teachings-on-meditation-and-life": "./books/justOneMoreBreathTeachingsOnMeditationAndLifeExpanded.ts",
   "just-one-word-mindfulness": "./books/justOneWordMindfulnessExpanded.ts",
@@ -183,6 +186,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "logically-fallacious": "./books/logicallyFallaciousExpanded.ts",
   "lost-art-of-listening-how-learning-to-listen-can-improve-rel": "./books/lostArtOfListeningHowLearningToListenCanImproveRelExpanded.ts",
   "lost-connections-uncovering-the-real-causes-of-depression": "./books/lostConnectionsUncoveringTheRealCausesOfDepressionExpanded.ts",
+  "loving-kindness-in-plain-english": "./books/lovingKindnessInPlainEnglishExpanded.ts",
   "make-it-stick-the-science-of-successful-learning": "./books/makeItStickTheScienceOfSuccessfulLearningExpanded.ts",
   "make-time-how-to-focus-on-what-matters-every-day": "./books/makeTimeHowToFocusOnWhatMattersEveryDayExpanded.ts",
   "man-and-his-symbols": "./books/manAndHisSymbolsExpanded.ts",
@@ -190,6 +194,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "manual-of-buddhist-vipassana-practice": "./books/manualOfBuddhistVipassanaPracticeExpanded.ts",
   "manual-of-insight": "./books/manualOfInsightExpanded.ts",
   "meditation-instructions-for-intensive-practice": "./books/meditationInstructionsForIntensivePracticeExpanded.ts",
+  "meditation-on-perception-ten-healing-practices": "./books/meditationOnPerceptionTenHealingPracticesExpanded.ts",
   "meditation-on-the-mind-mindful-watching-of-thoughts": "./books/meditationOnTheMindMindfulWatchingOfThoughtsExpanded.ts",
   "meditations-1-dhamma-talks": "./books/meditations1DhammaTalksExpanded.ts",
   "meditations-2-dhamma-talks": "./books/meditations2DhammaTalksExpanded.ts",
@@ -204,6 +209,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "mind-over-mood": "./books/mindOverMoodExpanded.ts",
   "mindfully-facing-disease-and-death": "./books/mindfullyFacingDiseaseAndDeathExpanded.ts",
   "mindfulness-bliss-and-beyond-a-meditator-s-handbook": "./books/mindfulnessBlissAndBeyondAMeditatorSHandbookExpanded.ts",
+  "mindfulness-for-health-and-vitality": "./books/mindfulnessForHealthAndVitalityExpanded.ts",
   "mindfulness-of-breathing-a-practice-guide-and-translations": "./books/mindfulnessOfBreathingAPracticeGuideAndTranslationsExpanded.ts",
   "mindfulness-of-the-body-the-first-foundation": "./books/mindfulnessOfTheBodyTheFirstFoundationExpanded.ts",
   "mindfulness-the-path-to-the-deathless": "./books/mindfulnessThePathToTheDeathlessExpanded.ts",
@@ -297,6 +303,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "somatics-reawakening-the-mind-s-control-of-movement": "./books/somaticsReawakeningTheMindSControlOfMovementExpanded.ts",
   "sources-of-power": "./books/sourcesOfPowerExpanded.ts",
   "speak-peace-in-a-world-of-conflict": "./books/speakPeaceInAWorldOfConflictExpanded.ts",
+  "start-here-start-now-a-guide-to-compassionate-living": "./books/startHereStartNowAGuideToCompassionateLivingExpanded.ts",
   "start-with-no-the-negotiating-tools-that-the-pros-don-t-want": "./books/startWithNoTheNegotiatingToolsThatTheProsDonTWantExpanded.ts",
   "start-with-why-how-great-leaders-inspire-everyone-to-take-ac": "./books/startWithWhyHowGreatLeadersInspireEveryoneToTakeAcExpanded.ts",
   "starting-strength-basic-barbell-training": "./books/startingStrengthBasicBarbellTrainingExpanded.ts",
@@ -324,6 +331,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-art-of-being-right-the-art-of-controversy": "./books/theArtOfBeingRightTheArtOfControversyExpanded.ts",
   "the-art-of-communicating": "./books/theArtOfCommunicatingExpanded.ts",
   "the-art-of-dialogue": "./books/theArtOfDialogueExpanded.ts",
+  "the-art-of-disappearing-the-path-to-lasting-joy": "./books/theArtOfDisappearingThePathToLastingJoyExpanded.ts",
   "the-art-of-everyday-assertiveness": "./books/theArtOfEverydayAssertivenessExpanded.ts",
   "the-art-of-note-taking": "./books/theArtOfNoteTakingExpanded.ts",
   "the-art-of-persuasion": "./books/theArtOfPersuasionExpanded.ts",
@@ -363,6 +371,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-forty-rules-of-love": "./books/theFortyRulesOfLoveExpanded.ts",
   "the-foundation-conditions-for-nirvana": "./books/theFoundationConditionsForNirvanaExpanded.ts",
   "the-four-foundations-of-mindfulness": "./books/theFourFoundationsOfMindfulnessExpanded.ts",
+  "the-four-foundations-of-mindfulness-in-plain-english": "./books/theFourFoundationsOfMindfulnessInPlainEnglishExpanded.ts",
   "the-four-noble-truths": "./books/theFourNobleTruthsExpanded.ts",
   "the-four-nutriments-of-life": "./books/theFourNutrimentsOfLifeExpanded.ts",
   "the-four-sublime-states-brahma-vihara": "./books/theFourSublimeStatesBrahmaViharaExpanded.ts",
@@ -396,6 +405,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-paradox-of-becoming-finding-freedom-in-the-cycle-of-becoming": "./books/theParadoxOfBecomingFindingFreedomInTheCycleOfBecomingExpanded.ts",
   "the-paradox-of-choice": "./books/theParadoxOfChoiceExpanded.ts",
   "the-path-made-clear": "./books/thePathMadeClearExpanded.ts",
+  "the-path-of-serenity-and-insight": "./books/thePathOfSerenityAndInsightExpanded.ts",
   "the-polyvagal-theory-in-therapy": "./books/thePolyvagalTheoryInTherapyExpanded.ts",
   "the-power-of-a-positive-no-how-to-say-no-and-still-get-to-ye": "./books/thePowerOfAPositiveNoHowToSayNoAndStillGetToYeExpanded.ts",
   "the-power-of-full-engagement": "./books/thePowerOfFullEngagementExpanded.ts",
@@ -1832,6 +1842,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Beyond All Directions: Essays on Nirvana"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "beyond-mindfulness-in-plain-english",
+    "title": "Beyond Mindfulness in Plain English",
+    "author": "Bhante Henepola Gunaratana",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2009,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mindfulness shows you what is happening; deep concentration gives you the unshakable stillness to see through it. This lucid guide shows everyday practitioners how to access the luminous states of deep meditative absorption (jhanas) to uproot suffering and discover profound inner freedom.",
+      "coreThesis": "Deep concentration and mindfulness are two inseparable wings of contemplative practice; mastering focused absorption quiets mental turbulence and provides the unshakable stability necessary for liberating insight.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Beyond Mindfulness in Plain English"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -4009,6 +4054,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "eight-mindful-steps-to-happiness",
+    "title": "Eight Mindful Steps to Happiness",
+    "author": "Bhante Henepola Gunaratana",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2001,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Meditation on the cushion is only one spoke of the wheel\\u2014true peace requires training how you see, speak, work, and respond to every moment. Bhante Gunaratana translates the ancient Noble Eightfold Path into an immediate, practical roadmap for living with radiant ease in daily modern life.",
+      "coreThesis": "Suffering is not caused by the external world, but by how an untrained mind grasps and resists experience; genuine happiness emerges naturally when wisdom, ethical integrity, and focused awareness are practiced simultaneously as an interconnected way of being.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Eight Mindful Steps to Happiness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "elastic-habits",
     "title": "Elastic Habits",
     "author": "Stephen Guise",
@@ -6139,6 +6219,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "journey-to-mindfulness-autobiography",
+    "title": "Journey to Mindfulness: Autobiography",
+    "author": "Bhante Henepola Gunaratana",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 160,
+    "publishedYear": 2003,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mindfulness is not a tranquil spa escape; it is the master key to clear seeing forged in the furnace of real human struggle. Bhante G.'s life reveals how bare awareness transforms poverty, sickness, racial prejudice, and heartbreak into unwavering liberation.",
+      "coreThesis": "Enlightenment is not an exotic trance, but ordinary life met with clean, non-clinging awareness and boundless loving-kindness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Journey to Mindfulness: Autobiography"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "just-listen-discover-the-secret-to-getting-through-to-absolu",
     "title": "Just Listen: Discover the Secret to Getting Through to Absolutely Anyone",
     "author": "Mark Goulston",
@@ -6873,6 +6988,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "loving-kindness-in-plain-english",
+    "title": "Loving-Kindness in Plain English",
+    "author": "Bhante Henepola Gunaratana",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 100,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Anger and resentment are like drinking poison while expecting the other person to suffer; loving-kindness is the lucid art of purifying your own heart first. Bhante Gunaratana translates ancient Buddhist metta practice into direct, down-to-earth tools to dissolve hostility and cultivate genuine warmth in everyday life.",
+      "coreThesis": "Loving-kindness is not passive weakness or sentimental optimism; it is the mind's natural state of clarity and harmlessness, cultivated systematically to liberate the heart from anger and suffering.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Loving-Kindness in Plain English"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "make-it-stick-the-science-of-successful-learning",
     "title": "Make It Stick: The Science of Successful Learning",
     "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
@@ -7105,6 +7255,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Meditation Instructions for Intensive Practice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "meditation-on-perception-ten-healing-practices",
+    "title": "Meditation on Perception: Ten Healing Practices",
+    "author": "Bhante Henepola Gunaratana",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 90,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Suffering is not caused by what you experience, but by the distorted lens through which you perceive it. By retraining perception through ten classic Buddhist contemplations, you can dissolve chronic anxiety, release clinging, and unlock deep mental clarity.",
+      "coreThesis": "Suffering arises because the untrained mind projects permanence, ownership, and false pleasure onto fluid conditions; by deliberately cultivating clear, objective perceptions, you untie psychological knots and realize enduring inner freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Meditation on Perception: Ten Healing Practices"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -7594,6 +7779,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Mindfulness, Bliss, and Beyond: A Meditator's Handbook"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "mindfulness-for-health-and-vitality",
+    "title": "Mindfulness for Health and Vitality",
+    "author": "Bhante Henepola Gunaratana",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Meditation is not about escaping your messy human life\\u2014it is the practical craft of seeing reality exactly as it is without flinching. Bhante Gunaratana cuts away esoteric fog to hand you a grounded owner's manual for waking up to genuine peace and energetic clarity.",
+      "coreThesis": "Suffering is not caused by the events of your life, but by your unconscious resistance to reality; by observing direct experience with bare, friendly attention, you dismantle friction and uncover natural vitality and peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mindfulness for Health and Vitality"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -10850,6 +11070,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "start-here-start-now-a-guide-to-compassionate-living",
+    "title": "Start Here, Start Now: A Guide to Compassionate Living",
+    "author": "Bhante Henepola Gunaratana",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You do not need an exotic monastery or years of quiet retreats to find peace; you only need the courage to witness reality as it is right now. Bhante Gunaratana strips away mystical jargon to offer a refreshingly honest, field-tested manual for training the restless mind.",
+      "coreThesis": "Suffering stems from blindly grasping at transient pleasures and resisting inevitable discomfort; through gentle, non-judgmental awareness of the breath, anyone can awaken to unshakeable clarity right where they stand.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Start Here, Start Now: A Guide to Compassionate Living"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "start-with-no-the-negotiating-tools-that-the-pros-don-t-want",
     "title": "Start with NO: The Negotiating Tools that the Pros Don't Want You to Know",
     "author": "Jim Camp",
@@ -11788,6 +12043,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-art-of-disappearing-the-path-to-lasting-joy",
+    "title": "The Art of Disappearing: The Path to Lasting Joy",
+    "author": "Ajahn Brahm",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Lasting peace is not something you acquire; it is what remains when you stop defending and sustaining the illusion of the 'doer'. Ajahn Brahm maps the direct, joyful path of letting go until the burdensome ego completely steps aside.",
+      "coreThesis": "Suffering is maintained by the exhausting habit of grasping and managing an illusory self; supreme happiness arrives when you stop doing and let the ego dissolve into still awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Art of Disappearing: The Path to Lasting Joy"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -13153,6 +13443,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-four-foundations-of-mindfulness-in-plain-english",
+    "title": "The Four Foundations of Mindfulness in Plain English",
+    "author": "Bhante Henepola Gunaratana",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mindfulness is not a vague relaxation trick; it is a systematic, step-by-step diagnostic toolkit for your immediate human experience. Bhante Gunaratana translates the Buddha's master discourse on meditation into clear, everyday instructions that teach you how to see life without distortion and live free from reactive suffering.",
+      "coreThesis": "Suffering arises when we blindly identify with fluctuating physical sensations and passing mental events; by cultivating steady, objective awareness across body, feelings, mind, and truth, we awaken to freedom right here in ordinary life.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Four Foundations of Mindfulness in Plain English"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-four-noble-truths",
     "title": "The Four Noble Truths",
     "author": "Ajahn Sumedho",
@@ -14299,6 +14624,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-path-of-serenity-and-insight",
+    "title": "The Path of Serenity and Insight",
+    "author": "Bhante Henepola Gunaratana",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1985,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Serenity settles the turbulent silt of the mind; insight sees straight to the bedrock of reality. Bhante Gunaratana illuminates the classical Buddhist path of meditative absorption, transforming deep concentration into the sharpest lens for lasting inner freedom.",
+      "coreThesis": "Profound mental stillness and penetrative insight are interdependent: serene absorption quietens the noise of the mind so that wisdom can directly see through the illusion of self and end suffering.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Path of Serenity and Insight"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
