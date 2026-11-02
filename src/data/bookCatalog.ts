@@ -13,6 +13,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "a-discourse-on-the-sakkapanha-sutta": "./books/aDiscourseOnTheSakkapanhaSuttaExpanded.ts",
   "a-million-miles-in-a-thousand-years": "./books/aMillionMilesInAThousandYearsExpanded.ts",
   "a-mind-for-numbers": "./books/aMindForNumbersExpanded.ts",
+  "a-still-forest-pool-insight-meditation-of-achaan-chah": "./books/aStillForestPoolInsightMeditationOfAchaanChahExpanded.ts",
   "a-theory-of-cognitive-dissonance": "./books/aTheoryOfCognitiveDissonanceExpanded.ts",
   "algorithms-to-live-by": "./books/algorithmsToLiveByExpanded.ts",
   "alone-together-why-we-expect-more-from-technology-and-less-f": "./books/aloneTogetherWhyWeExpectMoreFromTechnologyAndLessFExpanded.ts",
@@ -29,6 +30,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "awareness-alone-is-not-enough": "./books/awarenessAloneIsNotEnoughExpanded.ts",
   "bargaining-for-advantage-negotiation-strategies-for-reasonab": "./books/bargainingForAdvantageNegotiationStrategiesForReasonabExpanded.ts",
   "becoming-a-supple-leopard": "./books/becomingASuppleLeopardExpanded.ts",
+  "being-dharma-the-essence-of-the-buddha-s-teachings": "./books/beingDharmaTheEssenceOfTheBuddhaSTeachingsExpanded.ts",
   "being-logical-a-guide-to-good-thinking": "./books/beingLogicalAGuideToGoodThinkingExpanded.ts",
   "better-than-before": "./books/betterThanBeforeExpanded.ts",
   "bhavana-mind-development-in-everyday-reality": "./books/bhavanaMindDevelopmentInEverydayRealityExpanded.ts",
@@ -38,6 +40,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "boundaries-when-to-say-yes-how-to-say-no-to-take-control-of-": "./books/boundariesWhenToSayYesHowToSayNoToTakeControlOfExpanded.ts",
   "brahmavihara-the-four-immeasurables-in-early-buddhism": "./books/brahmaviharaTheFourImmeasurablesInEarlyBuddhismExpanded.ts",
   "breath-the-new-science-of-a-lost-art": "./books/breathTheNewScienceOfALostArtExpanded.ts",
+  "buddhism-and-the-ecology-of-mind": "./books/buddhismAndTheEcologyOfMindExpanded.ts",
   "buddhism-and-the-god-idea": "./books/buddhismAndTheGodIdeaExpanded.ts",
   "building-a-second-brain": "./books/buildingASecondBrainExpanded.ts",
   "built-from-broken": "./books/builtFromBrokenExpanded.ts",
@@ -53,6 +56,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "conversational-intelligence-how-great-leaders-build-trust-an": "./books/conversationalIntelligenceHowGreatLeadersBuildTrustAnExpanded.ts",
   "crucial-conversations-tools-for-talking-when-stakes-are-high": "./books/crucialConversationsToolsForTalkingWhenStakesAreHighExpanded.ts",
   "curation-the-power-of-selection-in-a-world-of-excess": "./books/curationThePowerOfSelectionInAWorldOfExcessExpanded.ts",
+  "dana-the-practice-of-giving": "./books/danaThePracticeOfGivingExpanded.ts",
   "daring-greatly": "./books/daringGreatlyExpanded.ts",
   "dbt-skills-training-handouts-and-worksheets": "./books/dbtSkillsTrainingHandoutsAndWorksheetsExpanded.ts",
   "decisive": "./books/decisiveExpanded.ts",
@@ -93,6 +97,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "fierce-conversations-achieving-success-at-work-and-in-life-o": "./books/fierceConversationsAchievingSuccessAtWorkAndInLifeOExpanded.ts",
   "find-your-why": "./books/findYourWhyExpanded.ts",
   "flow-the-psychology-of-optimal-experience": "./books/flowThePsychologyOfOptimalExperienceExpanded.ts",
+  "food-for-the-heart-collected-teachings": "./books/foodForTheHeartCollectedTeachingsExpanded.ts",
   "fooled-by-randomness": "./books/fooledByRandomnessExpanded.ts",
   "forgive-for-good": "./books/forgiveForGoodExpanded.ts",
   "four-thousand-weeks-time-management-for-mortals": "./books/fourThousandWeeksTimeManagementForMortalsExpanded.ts",
@@ -101,6 +106,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "getting-past-no-negotiating-with-difficult-people": "./books/gettingPastNoNegotiatingWithDifficultPeopleExpanded.ts",
   "getting-things-done-the-art-of-stress-free-productivity": "./books/gettingThingsDoneTheArtOfStressFreeProductivityExpanded.ts",
   "getting-to-yes-negotiating-agreement-without-giving-in": "./books/gettingToYesNegotiatingAgreementWithoutGivingInExpanded.ts",
+  "going-for-refuge-and-taking-the-precepts": "./books/goingForRefugeAndTakingThePreceptsExpanded.ts",
   "good-reasons-for-better-arguments": "./books/goodReasonsForBetterArgumentsExpanded.ts",
   "great-disciples-of-the-buddha-their-lives-and-legacy": "./books/greatDisciplesOfTheBuddhaTheirLivesAndLegacyExpanded.ts",
   "he-understanding-masculine-psychology": "./books/heUnderstandingMasculinePsychologyExpanded.ts",
@@ -130,6 +136,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "insight-meditation-the-path-to-peace": "./books/insightMeditationThePathToPeaceExpanded.ts",
   "insight-meditation-workshop-manual": "./books/insightMeditationWorkshopManualExpanded.ts",
   "introduction-to-logic": "./books/introductionToLogicExpanded.ts",
+  "investigating-the-dhamma-a-collection-of-essays": "./books/investigatingTheDhammaACollectionOfEssaysExpanded.ts",
   "invisible-influence-the-hidden-forces-that-shape-behavior": "./books/invisibleInfluenceTheHiddenForcesThatShapeBehaviorExpanded.ts",
   "just-listen-discover-the-secret-to-getting-through-to-absolu": "./books/justListenDiscoverTheSecretToGettingThroughToAbsoluExpanded.ts",
   "kill-it-with-fire-manage-aging-computer-systems-and-communic": "./books/killItWithFireManageAgingComputerSystemsAndCommunicExpanded.ts",
@@ -253,6 +260,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-5-second-rule": "./books/the5SecondRuleExpanded.ts",
   "the-80-20-principle": "./books/the8020PrincipleExpanded.ts",
   "the-accountability-manifesto": "./books/theAccountabilityManifestoExpanded.ts",
+  "the-all-embracing-net-of-views-brahmajala-sutta": "./books/theAllEmbracingNetOfViewsBrahmajalaSuttaExpanded.ts",
   "the-anxiety-and-phobia-workbook": "./books/theAnxietyAndPhobiaWorkbookExpanded.ts",
   "the-archetypes-and-the-collective-unconscious": "./books/theArchetypesAndTheCollectiveUnconsciousExpanded.ts",
   "the-art-of-being-right-the-art-of-controversy": "./books/theArtOfBeingRightTheArtOfControversyExpanded.ts",
@@ -283,6 +291,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-dance-of-anger": "./books/theDanceOfAngerExpanded.ts",
   "the-dawn-of-abhidharma": "./books/theDawnOfAbhidharmaExpanded.ts",
   "the-dip-a-little-book-that-teaches-you-when-to-quit": "./books/theDipALittleBookThatTeachesYouWhenToQuitExpanded.ts",
+  "the-discourse-on-the-root-of-existence-mulapariyaya-sutta": "./books/theDiscourseOnTheRootOfExistenceMulapariyayaSuttaExpanded.ts",
   "the-disease-to-please-curing-the-people-pleasing-syndrome": "./books/theDiseaseToPleaseCuringThePeoplePleasingSyndromeExpanded.ts",
   "the-distracted-mind-ancient-brains-in-a-high-tech-world": "./books/theDistractedMindAncientBrainsInAHighTechWorldExpanded.ts",
   "the-divided-mind-the-epidemic-of-mindbody-disorders": "./books/theDividedMindTheEpidemicOfMindbodyDisordersExpanded.ts",
@@ -297,6 +306,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-four-sublime-states-brahma-vihara": "./books/theFourSublimeStatesBrahmaViharaExpanded.ts",
   "the-genesis-of-the-bodhisattva-ideal": "./books/theGenesisOfTheBodhisattvaIdealExpanded.ts",
   "the-gifts-of-imperfection": "./books/theGiftsOfImperfectionExpanded.ts",
+  "the-great-discourse-on-causation-mahanidana-sutta": "./books/theGreatDiscourseOnCausationMahanidanaSuttaExpanded.ts",
   "the-great-mental-models-vol-1-2": "./books/theGreatMentalModelsVol12Expanded.ts",
   "the-information-diet": "./books/theInformationDietExpanded.ts",
   "the-invisible-gorilla-how-our-intuitions-deceive-us": "./books/theInvisibleGorillaHowOurIntuitionsDeceiveUsExpanded.ts",
@@ -361,6 +371,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "timeless-wisdom-in-depth-dhamma-talks": "./books/timelessWisdomInDepthDhammaTalksExpanded.ts",
   "tiny-habits-the-small-changes-that-change-everything": "./books/tinyHabitsTheSmallChangesThatChangeEverythingExpanded.ts",
   "to-sell-is-human-the-surprising-truth-about-moving-others": "./books/toSellIsHumanTheSurprisingTruthAboutMovingOthersExpanded.ts",
+  "transcendental-dependent-arising": "./books/transcendentalDependentArisingExpanded.ts",
   "transitions-making-sense-of-life-s-changes": "./books/transitionsMakingSenseOfLifeSChangesExpanded.ts",
   "treatise-on-the-vipassana-insight-practice": "./books/treatiseOnTheVipassanaInsightPracticeExpanded.ts",
   "ultralearning": "./books/ultralearningExpanded.ts",
@@ -842,6 +853,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "a-still-forest-pool-insight-meditation-of-achaan-chah",
+    "title": "A Still Forest Pool: Insight Meditation of Achaan Chah",
+    "author": "Ajahn Chah (Jack Kornfield & Paul Breiter eds.)",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1985,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind is like a wild forest pool: when you stop churning the water with desires and complaints, the sediment settles on its own, and the clearest truths of life reflect effortlessly on the surface. Ajahn Chah strips spirituality of scholastic mysticism to deliver a radically down-to-earth manual for living free from anxiety and emotional entanglement.",
+      "coreThesis": "Suffering is born entirely from grasping what cannot be kept and resisting what cannot be prevented; true peace is not the absence of disturbance, but non-clinging awareness in the midst of it all.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "A Still Forest Pool: Insight Meditation of Achaan Chah"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -1402,6 +1448,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "being-dharma-the-essence-of-the-buddha-s-teachings",
+    "title": "Being Dharma: The Essence of the Buddha's Teachings",
+    "author": "Ajahn Chah",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2001,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop chasing peace as an external trophy and learn to settle the mind right where you stand. Ajahn Chah strips away mystical jargon to reveal that true freedom is simply letting go of what you cannot control.",
+      "coreThesis": "Suffering is born from holding onto impermanent things; freedom is the natural ease that occurs when you open your hand and let things be as they are.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Being Dharma: The Essence of the Buddha's Teachings"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "being-logical-a-guide-to-good-thinking",
     "title": "Being Logical: A Guide to Good Thinking",
     "author": "D.Q. McInerny",
@@ -1711,6 +1792,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Finance",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "buddhism-and-the-ecology-of-mind",
+    "title": "Buddhism and the Ecology of Mind",
+    "author": "Bhikkhu Bodhi",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1990,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When a river fills with sludge, looking only at the water never cures the problem\\u2014you have to inspect the factory upstream. Bhikkhu Bodhi shows that our burning planet is merely the outward symptom of an untended, toxic mind, offering a serene, practical path to purify consciousness and heal our shared world.",
+      "coreThesis": "Our environmental collapse is the outward shadow cast by an uncultivated mind gripped by greed and separation; purifying inner awareness through contentment and interconnected wisdom naturally restores outer balance.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Buddhism and the Ecology of Mind"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -2234,6 +2350,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "dana-the-practice-of-giving",
+    "title": "Dana: The Practice of Giving",
+    "author": "Bhikkhu Bodhi",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1990,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Generosity is not a financial transaction or moral tax; it is the fundamental art of opening the clenched fist of the ego. By practicing deliberate giving, you systematically dissolve greed, cultivate quiet joy, and build the unshakeable inner freedom required for deep awakening.",
+      "coreThesis": "True generosity is the intentional surrender of grasping that frees the mind from self-centered anxiety and establishes the essential foundation for liberation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Dana: The Practice of Giving"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -3635,6 +3786,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "food-for-the-heart-collected-teachings",
+    "title": "Food for the Heart: Collected Teachings",
+    "author": "Ajahn Chah",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 185,
+    "publishedYear": 2002,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind is naturally crystal-clear and quiet; it only suffers because it chases every passing mood like a leaf caught in a gust of wind. In 'Food for the Heart', master Ajahn Chah hands you the direct, earthy tools to stop fighting your life and rest in unshakeable freedom.",
+      "coreThesis": "Suffering does not come from what happens to you, but from grasping what cannot be held. Freedom is opening your clenched fist and letting reality be exactly what it is.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Food for the Heart: Collected Teachings"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "fooled-by-randomness",
     "title": "Fooled by Randomness",
     "author": "Nassim Nicholas Taleb",
@@ -3909,6 +4095,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "going-for-refuge-and-taking-the-precepts",
+    "title": "Going for Refuge and Taking the Precepts",
+    "author": "Bhikkhu Bodhi",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 1981,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Before you can still the mind in deep meditation, you must anchor your life in unwavering direction and clean conduct. Bhikkhu Bodhi illuminates the twin foundations of Buddhist practice\\u2014taking refuge and undertaking moral precepts\\u2014revealing them not as ancient dogmas, but as practical tools for psychological stability and ultimate liberation.",
+      "coreThesis": "True inner freedom requires an intentional compass of ultimate trust and practical guardrails of ethical restraint to quiet guilt, stabilize attention, and dissolve ego-driven suffering.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Going for Refuge and Taking the Precepts"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -4922,6 +5143,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "investigating-the-dhamma-a-collection-of-essays",
+    "title": "Investigating the Dhamma: A Collection of Essays",
+    "author": "Bhikkhu Bodhi",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Cut through fashionable spiritual marketing and inspect the raw balance sheet of the human mind with one of modern Buddhism\\u2019s sharpest forensic auditors. Bhikkhu Bodhi delivers an unvarnished masterclass in emotional risk management, proving that real freedom comes from auditing false mental assets rather than buying into feel-good fads.",
+      "coreThesis": "Genuine mental freedom is not achieved through trendy intellectual compromises, but through the rigorous, unvarnished audit and liquidation of toxic emotional attachments.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Investigating the Dhamma: A Collection of Essays"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -9216,6 +9472,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-all-embracing-net-of-views-brahmajala-sutta",
+    "title": "The All-Embracing Net of Views: Brahmajala Sutta",
+    "author": "Bhikkhu Bodhi",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1978,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step out of the tangled web of opinions, dogmas, and mental debates into the calm clarity of direct awareness. This foundational Buddhist text reveals how all rigid beliefs trap the human heart, and points the way to unshakeable inner peace.",
+      "coreThesis": "Every fixed opinion about the self and reality is an unexamined reaction to sensory contact, and complete spiritual freedom is realized not by adopting the right dogma, but by relinquishing the urge to grasp any view whatsoever.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The All-Embracing Net of Views: Brahmajala Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-anxiety-and-phobia-workbook",
     "title": "The Anxiety and Phobia Workbook",
     "author": "Edmund J. Bourne",
@@ -10263,6 +10554,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-discourse-on-the-root-of-existence-mulapariyaya-sutta",
+    "title": "The Discourse on the Root of Existence: Mulapariyaya Sutta",
+    "author": "Bhikkhu Bodhi",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 1980,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Suffering is not caused by the world itself, but by the quiet mental reflex that turns naked experience into 'me' and 'mine.' Bhikkhu Bodhi illuminates the Buddha's most radical map for unmasking this illusion, pointing directly to natural, unconditioned freedom.",
+      "coreThesis": "Suffering arises because consciousness habitually superimposes the illusion of a self onto neutral phenomena; total liberation comes from meeting direct experience without building an identity upon it.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Discourse on the Root of Existence: Mulapariyaya Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-disease-to-please-curing-the-people-pleasing-syndrome",
     "title": "The Disease to Please: Curing the People-Pleasing Syndrome",
     "author": "Harriet B. Braiker",
@@ -10746,6 +11072,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-great-discourse-on-causation-mahanidana-sutta",
+    "title": "The Great Discourse on Causation: Mahanidana Sutta",
+    "author": "Bhikkhu Bodhi",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 1984,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When you pull on a single thread of personal suffering, you find the entire fabric of human conditioning attached to it. Bhikkhu Bodhi unlocks the Buddha's definitive masterclass on causation to reveal how untangling cause and effect dissolves the illusion of the separate ego.",
+      "coreThesis": "Suffering and identity are not fixed entities, but reciprocal processes sustained by interlocking conditions; seeing how they arise naturally dissolves the illusion of an ego and brings liberation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Great Discourse on Causation: Mahanidana Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -12976,6 +13337,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "transcendental-dependent-arising",
+    "title": "Transcendental Dependent Arising",
+    "author": "Bhikkhu Bodhi",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1980,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Suffering is not a permanent trap, but the exact compost out of which your spiritual awakening naturally blooms. Discover the Buddha's hidden upward spiral of cause and effect that transforms everyday friction into unshakable freedom.",
+      "coreThesis": "Awakening is not an accidental event or an act of force, but a lawful, natural chain reaction where meeting life's inevitable friction with clear awareness naturally unfolds into joy, stillness, and liberation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Transcendental Dependent Arising"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
