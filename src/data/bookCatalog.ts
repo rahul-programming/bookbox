@@ -34,6 +34,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "being-dharma-the-essence-of-the-buddha-s-teachings": "./books/beingDharmaTheEssenceOfTheBuddhaSTeachingsExpanded.ts",
   "being-logical-a-guide-to-good-thinking": "./books/beingLogicalAGuideToGoodThinkingExpanded.ts",
   "better-than-before": "./books/betterThanBeforeExpanded.ts",
+  "beyond-all-directions-essays-on-nirvana": "./books/beyondAllDirectionsEssaysOnNirvanaExpanded.ts",
   "bhavana-mind-development-in-everyday-reality": "./books/bhavanaMindDevelopmentInEverydayRealityExpanded.ts",
   "blink-the-power-of-thinking-without-thinking": "./books/blinkThePowerOfThinkingWithoutThinkingExpanded.ts",
   "bodhinyana-a-collection-of-dhamma-talks": "./books/bodhinyanaACollectionOfDhammaTalksExpanded.ts",
@@ -140,6 +141,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "inner-work-using-dreams-and-active-imagination-for-personal-": "./books/innerWorkUsingDreamsAndActiveImaginationForPersonalExpanded.ts",
   "insight-meditation-the-path-to-peace": "./books/insightMeditationThePathToPeaceExpanded.ts",
   "insight-meditation-workshop-manual": "./books/insightMeditationWorkshopManualExpanded.ts",
+  "into-the-stream-a-study-guide-on-the-first-stage-of-awakening": "./books/intoTheStreamAStudyGuideOnTheFirstStageOfAwakeningExpanded.ts",
   "introduction-to-logic": "./books/introductionToLogicExpanded.ts",
   "investigating-the-dhamma-a-collection-of-essays": "./books/investigatingTheDhammaACollectionOfEssaysExpanded.ts",
   "invisible-influence-the-hidden-forces-that-shape-behavior": "./books/invisibleInfluenceTheHiddenForcesThatShapeBehaviorExpanded.ts",
@@ -171,6 +173,9 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "meditation-on-the-mind-mindful-watching-of-thoughts": "./books/meditationOnTheMindMindfulWatchingOfThoughtsExpanded.ts",
   "meditations-1-dhamma-talks": "./books/meditations1DhammaTalksExpanded.ts",
   "meditations-2-dhamma-talks": "./books/meditations2DhammaTalksExpanded.ts",
+  "meditations-3-dhamma-talks": "./books/meditations3DhammaTalksExpanded.ts",
+  "meditations-4-dhamma-talks": "./books/meditations4DhammaTalksExpanded.ts",
+  "meditations-5-dhamma-talks": "./books/meditations5DhammaTalksExpanded.ts",
   "meditations": "./books/meditationsExpanded.ts",
   "meeting-the-shadow-the-hidden-power-of-the-dark-side-of-huma": "./books/meetingTheShadowTheHiddenPowerOfTheDarkSideOfHumaExpanded.ts",
   "memories-dreams-reflections": "./books/memoriesDreamsReflectionsExpanded.ts",
@@ -230,6 +235,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "remote-office-not-required": "./books/remoteOfficeNotRequiredExpanded.ts",
   "rest-why-you-get-more-done-when-you-work-less": "./books/restWhyYouGetMoreDoneWhenYouWorkLessExpanded.ts",
   "rethinking-narcissism-anger": "./books/rethinkingNarcissismAngerExpanded.ts",
+  "right-mindfulness-memory-and-ardency-on-the-buddhist-path": "./books/rightMindfulnessMemoryAndArdencyOnTheBuddhistPathExpanded.ts",
   "risk-savvy-how-to-make-good-decisions": "./books/riskSavvyHowToMakeGoodDecisionsExpanded.ts",
   "satipatthana-meditation-a-practice-guide": "./books/satipatthanaMeditationAPracticeGuideExpanded.ts",
   "satipatthana-the-direct-path-to-realization": "./books/satipatthanaTheDirectPathToRealizationExpanded.ts",
@@ -241,6 +247,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "search-inside-yourself": "./books/searchInsideYourselfExpanded.ts",
   "seeing-systems-unlocking-the-mysteries-of-organizational-lif": "./books/seeingSystemsUnlockingTheMysteriesOfOrganizationalLifExpanded.ts",
   "self-compassion-the-proven-power-of-being-kind-to-yourself": "./books/selfCompassionTheProvenPowerOfBeingKindToYourselfExpanded.ts",
+  "selves-and-not-self-buddhist-epistemology": "./books/selvesAndNotSelfBuddhistEpistemologyExpanded.ts",
   "set-boundaries-find-peace-a-guide-to-reclaiming-yourself": "./books/setBoundariesFindPeaceAGuideToReclaimingYourselfExpanded.ts",
   "7-powers-the-foundations-of-business-strategy": "./books/sevenPowersExpanded.ts",
   "she-understanding-feminine-psychology": "./books/sheUnderstandingFemininePsychologyExpanded.ts",
@@ -293,6 +300,8 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-body-keeps-the-score": "./books/theBodyKeepsTheScoreExpanded.ts",
   "the-book-of-boundaries": "./books/theBookOfBoundariesExpanded.ts",
   "the-brain-that-changes-itself": "./books/theBrainThatChangesItselfExpanded.ts",
+  "the-buddhist-monastic-code-volume-i": "./books/theBuddhistMonasticCodeVolumeIExpanded.ts",
+  "the-buddhist-monastic-code-volume-ii": "./books/theBuddhistMonasticCodeVolumeIiExpanded.ts",
   "the-catalyst-how-to-change-anyone-s-mind": "./books/theCatalystHowToChangeAnyoneSMindExpanded.ts",
   "the-checklist-manifesto": "./books/theChecklistManifestoExpanded.ts",
   "the-circadian-code": "./books/theCircadianCodeExpanded.ts",
@@ -326,6 +335,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-great-mental-models-vol-1-2": "./books/theGreatMentalModelsVol12Expanded.ts",
   "the-information-diet": "./books/theInformationDietExpanded.ts",
   "the-invisible-gorilla-how-our-intuitions-deceive-us": "./books/theInvisibleGorillaHowOurIntuitionsDeceiveUsExpanded.ts",
+  "the-karma-of-questions-essays-on-the-buddhist-path": "./books/theKarmaOfQuestionsEssaysOnTheBuddhistPathExpanded.ts",
   "the-key-to-liberation": "./books/theKeyToLiberationExpanded.ts",
   "the-life-of-sariputta": "./books/theLifeOfSariputtaExpanded.ts",
   "the-logic-of-scientific-discovery": "./books/theLogicOfScientificDiscoveryExpanded.ts",
@@ -1604,6 +1614,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "beyond-all-directions-essays-on-nirvana",
+    "title": "Beyond All Directions: Essays on Nirvana",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop searching for enlightenment in mystical slogans; genuine freedom is an exacting craft of mindful discernment. Thanissaro Bhikkhu cuts through modern spiritual romance to reveal Nirvana as the unconditioned peace that emerges when mental fabrications are clearly understood and put down.",
+      "coreThesis": "Nirvana is not an emotional mood or a cosmic location, but the radical unbinding that occurs when the mind masters discernment, drops all fabricated identities, and steps outside the cycle of craving.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Beyond All Directions: Essays on Nirvana"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -5309,6 +5354,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "into-the-stream-a-study-guide-on-the-first-stage-of-awakening",
+    "title": "Into the Stream: A Study Guide on the First Stage of Awakening",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stream-entry is not a vague mystical trance, but a precise, verifiable milestone where the mind catches its first direct glimpse of the unconditioned. Thanissaro Bhikkhu maps the exact practical training required to step into the current of liberation and ensure total freedom from suffering.",
+      "coreThesis": "The first stage of awakening is a verifiable shift in perception won by systematic mental craftsmanship: when attention ceases feeding habitual reactive fabrications, the mind directly touches the unconditioned and enters an irreversible current toward total liberation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Into the Stream: A Study Guide on the First Stage of Awakening"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "introduction-to-logic",
     "title": "Introduction to Logic",
     "author": "Irving M. Copi, Carl Cohen, Victor Rodych",
@@ -6380,6 +6460,111 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Meditations 2: Dhamma Talks"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "meditations-3-dhamma-talks",
+    "title": "Meditations 3: Dhamma Talks",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 230,
+    "publishedYear": 2006,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Meditations 3 cuts through misty spiritual romanticism to reveal meditation as a master artisan's craft\\u2014training you to use the physical breath to dismantle self-inflicted distress and discover unconditioned freedom.",
+      "coreThesis": "Genuine peace is an active, trainable craft: by mastering breath energy and disarming reactive perceptions, you dissolve internal friction and awaken to an unconditioned freedom right where you are.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Meditations 3: Dhamma Talks"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "meditations-4-dhamma-talks",
+    "title": "Meditations 4: Dhamma Talks",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 210,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop treating meditation as a passive zoning-out exercise and start practicing it as an exacting, hands-on craft. Thanissaro Bhikkhu delivers a direct masterclass on tuning breath energy and mastering mental intentions to achieve unshakable inner freedom.",
+      "coreThesis": "Suffering is not an inescapable fate or a fixed identity, but an active misstep in how we manufacture our experience. By training awareness through full-body breath mastery and ethical discernment, we systematically dismantle craving and awaken to unconditioned peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Meditations 4: Dhamma Talks"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "meditations-5-dhamma-talks",
+    "title": "Meditations 5: Dhamma Talks",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 210,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Meditation is not passive zoning out or escaping the world; it is precision craftwork that trains you to master your own attention, dissolve reactive stress, and build an unshakable inner refuge.",
+      "coreThesis": "Suffering is an active, ongoing fabrication that you unknowingly manufacture; by learning the practical craft of breath meditation and clear self-observation, you can dismantle that fabrication and discover an unconditional, blameless peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Meditations 5: Dhamma Talks"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -8452,6 +8637,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "right-mindfulness-memory-and-ardency-on-the-buddhist-path",
+    "title": "Right Mindfulness: Memory and Ardency on the Buddhist Path",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mindfulness is not passive, open-ended daydreaming\\u2014it is an active, trained vigilance that protects your attention and steers your mind toward unshakeable clarity.",
+      "coreThesis": "Right mindfulness is active, memory-anchored vigilance that uses purposeful effort to abandon destructive habits and establish deep mental stillness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Right Mindfulness: Memory and Ardency on the Buddhist Path"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "risk-savvy-how-to-make-good-decisions",
     "title": "Risk Savvy: How to Make Good Decisions",
     "author": "Gerd Gigerenzer",
@@ -8829,6 +9049,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "selves-and-not-self-buddhist-epistemology",
+    "title": "Selves and Not-Self: Buddhist Epistemology",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop asking who you are and start noticing what your mind is doing. The Buddha never taught that you have no self; he gave you 'self' and 'not-self' as precision tools to dismantle suffering and uncover boundless peace.",
+      "coreThesis": "Self and not-self are not doctrines about your metaphysical identity; they are practical perceptual strategies designed to systematically dismantle suffering until unconditioned freedom is realized.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Selves and Not-Self: Buddhist Epistemology"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -10646,6 +10901,76 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-buddhist-monastic-code-volume-i",
+    "title": "The Buddhist Monastic Code, Volume I",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 1994,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Far from being dry legalism, this masterpiece reveals Buddhist monastic discipline as high-precision engineering for the human mind. It demonstrates how clean ethical boundaries protect meditation, silence mental chatter, and cultivate fearless inner peace.",
+      "coreThesis": "External ethical boundaries are the indispensable foundation of inner stillness; when intention and action are completely harmless, the mind rests in unshakeable clarity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Buddhist Monastic Code, Volume I"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-buddhist-monastic-code-volume-ii",
+    "title": "The Buddhist Monastic Code, Volume II",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 120,
+    "publishedYear": 2002,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "While modern life treats rules as bureaucratic shackles, this masterwork reveals ancient monastic discipline as the ultimate architecture of freedom. It transforms every routine physical act\\u2014from tailoring a robe to resolving a group grievance\\u2014into razor-sharp mindfulness that dissolves the ego.",
+      "coreThesis": "Enlightenment does not occur in an ethical vacuum; meticulous external discipline in material habits and communal harmony creates the unshakeable container required for profound internal stillness and liberation from ego.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Buddhist Monastic Code, Volume II"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-catalyst-how-to-change-anyone-s-mind",
     "title": "The Catalyst: How to Change Anyone's Mind",
     "author": "Jonah Berger",
@@ -11792,6 +12117,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-karma-of-questions-essays-on-the-buddhist-path",
+    "title": "The Karma of Questions: Essays on the Buddhist Path",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2002,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your questions are not passive queries\\u2014they are the blueprints molding your reality, suffering, and freedom. Thanissaro Bhikkhu reveals Buddhist practice not as vague mystical surrender, but as an active master craft of questioning, testing, and mastering the mind.",
+      "coreThesis": "Every question you ask is an intentional action that shapes your experience; liberation is realized by asking skillful questions that actively dismantle suffering and verify freedom for yourself.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Karma of Questions: Essays on the Buddhist Path"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
