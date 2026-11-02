@@ -112,6 +112,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "expert-political-judgment": "./books/expertPoliticalJudgmentExpanded.ts",
   "factfulness": "./books/factfulnessExpanded.ts",
   "fallacies-and-argument-appraisal": "./books/fallaciesAndArgumentAppraisalExpanded.ts",
+  "fear-essential-wisdom-for-getting-through-the-storm": "./books/fearEssentialWisdomForGettingThroughTheStormExpanded.ts",
   "feeling-good-the-new-mood-therapy": "./books/feelingGoodTheNewMoodTherapyExpanded.ts",
   "fierce-conversations-achieving-success-at-work-and-in-life-o": "./books/fierceConversationsAchievingSuccessAtWorkAndInLifeOExpanded.ts",
   "find-your-why": "./books/findYourWhyExpanded.ts",
@@ -224,11 +225,13 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "no-bad-parts-healing-trauma-and-restoring-wholeness-with-the": "./books/noBadPartsHealingTraumaAndRestoringWholenessWithTheExpanded.ts",
   "no-hard-feelings-the-secret-power-of-embracing-emotions-at-w": "./books/noHardFeelingsTheSecretPowerOfEmbracingEmotionsAtWExpanded.ts",
   "no-more-mr-nice-guy": "./books/noMoreMrNiceGuyExpanded.ts",
+  "no-mud-no-lotus-the-art-of-transforming-suffering": "./books/noMudNoLotusTheArtOfTransformingSufferingExpanded.ts",
   "noble-strategy-essays-on-the-buddhist-path": "./books/nobleStrategyEssaysOnTheBuddhistPathExpanded.ts",
   "nonviolent-communication-a-language-of-life": "./books/nonviolentCommunicationALanguageOfLifeExpanded.ts",
   "not-nice-stop-people-pleasing-staying-silent-feeling-guilty": "./books/notNiceStopPeoplePleasingStayingSilentFeelingGuiltyExpanded.ts",
   "now-is-the-knowing": "./books/nowIsTheKnowingExpanded.ts",
   "nudge": "./books/nudgeExpanded.ts",
+  "old-path-white-clouds-walking-in-the-footsteps-of-the-buddha": "./books/oldPathWhiteCloudsWalkingInTheFootstepsOfTheBuddhaExpanded.ts",
   "on-love-dhamma-talks-on-metta": "./books/onLoveDhammaTalksOnMettaExpanded.ts",
   "on-the-path-an-anthology-of-suttas-on-the-noble-eightfold-path": "./books/onThePathAnAnthologyOfSuttasOnTheNobleEightfoldPathExpanded.ts",
   "on-the-path-to-freedom": "./books/onThePathToFreedomExpanded.ts",
@@ -242,6 +245,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "parami-ways-to-cross-life-s-floats": "./books/paramiWaysToCrossLifeSFloatsExpanded.ts",
   "peace-beyond-suffering": "./books/peaceBeyondSufferingExpanded.ts",
   "peace-is-a-dynamic-process": "./books/peaceIsADynamicProcessExpanded.ts",
+  "peace-is-every-step-the-path-of-mindfulness-in-everyday-life": "./books/peaceIsEveryStepThePathOfMindfulnessInEverydayLifeExpanded.ts",
   "peak-performance": "./books/peakPerformanceExpanded.ts",
   "permission-to-feel": "./books/permissionToFeelExpanded.ts",
   "perspectives-on-satipatthana": "./books/perspectivesOnSatipatthanaExpanded.ts",
@@ -287,6 +291,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "7-powers-the-foundations-of-business-strategy": "./books/sevenPowersExpanded.ts",
   "she-understanding-feminine-psychology": "./books/sheUnderstandingFemininePsychologyExpanded.ts",
   "show-your-work": "./books/showYourWorkExpanded.ts",
+  "silence-the-power-of-quiet-in-a-world-full-of-noise": "./books/silenceThePowerOfQuietInAWorldFullOfNoiseExpanded.ts",
   "silent-rain-collected-dhamma-talks": "./books/silentRainCollectedDhammaTalksExpanded.ts",
   "simple-teachings-on-higher-truths": "./books/simpleTeachingsOnHigherTruthsExpanded.ts",
   "skill-in-questions-how-the-buddha-taught": "./books/skillInQuestionsHowTheBuddhaTaughtExpanded.ts",
@@ -340,6 +345,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-asynchronous-mindset": "./books/theAsynchronousMindsetExpanded.ts",
   "the-attention-merchants": "./books/theAttentionMerchantsExpanded.ts",
   "the-black-swan": "./books/theBlackSwanExpanded.ts",
+  "the-blooming-of-a-lotus-guided-meditations": "./books/theBloomingOfALotusGuidedMeditationsExpanded.ts",
   "the-body-keeps-the-score": "./books/theBodyKeepsTheScoreExpanded.ts",
   "the-book-of-boundaries": "./books/theBookOfBoundariesExpanded.ts",
   "the-brain-that-changes-itself": "./books/theBrainThatChangesItselfExpanded.ts",
@@ -380,6 +386,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-great-discourse-on-causation-mahanidana-sutta": "./books/theGreatDiscourseOnCausationMahanidanaSuttaExpanded.ts",
   "the-great-mental-models-vol-1-2": "./books/theGreatMentalModelsVol12Expanded.ts",
   "the-heart-of-practice-ajaan-mun-s-dhamma-sermons": "./books/theHeartOfPracticeAjaanMunSDhammaSermonsExpanded.ts",
+  "the-heart-of-the-buddha-s-teaching": "./books/theHeartOfTheBuddhaSTeachingExpanded.ts",
   "the-information-diet": "./books/theInformationDietExpanded.ts",
   "the-invisible-gorilla-how-our-intuitions-deceive-us": "./books/theInvisibleGorillaHowOurIntuitionsDeceiveUsExpanded.ts",
   "the-island-an-anthology-of-the-buddha-s-teachings-on-nibbana": "./books/theIslandAnAnthologyOfTheBuddhaSTeachingsOnNibbanaExpanded.ts",
@@ -392,6 +399,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-middle-length-discourses-of-the-buddha-majjhima-nikaya": "./books/theMiddleLengthDiscoursesOfTheBuddhaMajjhimaNikayaExpanded.ts",
   "the-mind-and-the-way-buddhist-reflections-on-life": "./books/theMindAndTheWayBuddhistReflectionsOnLifeExpanded.ts",
   "the-mind-that-knows": "./books/theMindThatKnowsExpanded.ts",
+  "the-miracle-of-mindfulness-an-introduction-to-meditation": "./books/theMiracleOfMindfulnessAnIntroductionToMeditationExpanded.ts",
   "the-model-thinker": "./books/theModelThinkerExpanded.ts",
   "the-moral-animal": "./books/theMoralAnimalExpanded.ts",
   "the-narcissist-you-know": "./books/theNarcissistYouKnowExpanded.ts",
@@ -434,6 +442,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-soulful-art-of-persuasion": "./books/theSoulfulArtOfPersuasionExpanded.ts",
   "the-sound-of-silence-selected-teachings": "./books/theSoundOfSilenceSelectedTeachingsExpanded.ts",
   "the-state-of-mind-called-beautiful": "./books/theStateOfMindCalledBeautifulExpanded.ts",
+  "the-sun-my-heart-from-mindfulness-to-insight-contemplation": "./books/theSunMyHeartFromMindfulnessToInsightContemplationExpanded.ts",
   "the-sutta-discovery-early-buddhist-teachings": "./books/theSuttaDiscoveryEarlyBuddhistTeachingsExpanded.ts",
   "the-suttanipata-an-ancient-collection-of-discourses": "./books/theSuttanipataAnAncientCollectionOfDiscoursesExpanded.ts",
   "the-systems-view-of-life": "./books/theSystemsViewOfLifeExpanded.ts",
@@ -494,6 +503,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "working-with-emotional-intelligence": "./books/workingWithEmotionalIntelligenceExpanded.ts",
   "write-once-read-forever-syntopic-knowledge": "./books/writeOnceReadForeverSyntopicKnowledgeExpanded.ts",
   "yes-50-scientifically-proven-ways-to-be-persuasive": "./books/yes50ScientificallyProvenWaysToBePersuasiveExpanded.ts",
+  "you-are-here-discovering-the-magic-of-the-present-moment": "./books/youAreHereDiscoveringTheMagicOfThePresentMomentExpanded.ts",
   "you-are-not-so-smart": "./books/youAreNotSoSmartExpanded.ts",
   "your-erroneous-zones": "./books/yourErroneousZonesExpanded.ts",
   "your-perfect-right-assertiveness-and-equality-in-your-life-a": "./books/yourPerfectRightAssertivenessAndEqualityInYourLifeAExpanded.ts"
@@ -4397,6 +4407,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "fear-essential-wisdom-for-getting-through-the-storm",
+    "title": "Fear: Essential Wisdom for Getting Through the Storm",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Fear is not an enemy to outrun, but a vulnerable inner alarm asking for mindful embrace. By learning to stop running and breathe directly with our dread, we touch true fearlessness and discover unshakeable calm in any storm.",
+      "coreThesis": "Fear flourishes only when we flee from it into projections of past and future; embracing the present moment with mindful breath transforms dread into clear, compassionate freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Fear: Essential Wisdom for Getting Through the Storm"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -8315,6 +8360,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "no-mud-no-lotus-the-art-of-transforming-suffering",
+    "title": "No Mud, No Lotus: The Art of Transforming Suffering",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Suffering is not a failure of life to be eradicated, but the fertile compost from which genuine peace, compassion, and awakening bloom.",
+      "coreThesis": "Suffering and joy are complementary parts of one living reality; when embraced with mindful awareness, our deepest wounds become the raw material for genuine peace and compassion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "No Mud, No Lotus: The Art of Transforming Suffering"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "noble-strategy-essays-on-the-buddhist-path",
     "title": "Noble Strategy: Essays on the Buddhist Path",
     "author": "Thanissaro Bhikkhu",
@@ -8486,6 +8566,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "old-path-white-clouds-walking-in-the-footsteps-of-the-buddha",
+    "title": "Old Path White Clouds: Walking in the Footsteps of the Buddha",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 405,
+    "publishedYear": 1991,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into the living footsteps of Siddhartha Gautama as an ordinary human being who uncovered the art of quiet freedom in everyday reality. This masterwork shows that peace is not an unreachable prize at the end of the road\\u2014it is the very ground you step on right now.",
+      "coreThesis": "Peace and liberation are not distant goals to achieve in another world; they are uncovered directly in this present moment whenever you bring kind, clear awareness to your everyday actions.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Old Path White Clouds: Walking in the Footsteps of the Buddha"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -8932,6 +9047,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Peace Is a Dynamic Process"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "peace-is-every-step-the-path-of-mindfulness-in-everyday-life",
+    "title": "Peace Is Every Step: The Path of Mindfulness in Everyday Life",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 360,
+    "publishedYear": 1991,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Peace is not a distant destination waiting at the finish line of personal striving; it is the immediate physical reality of your next breath, your next step, and your next mindful choice.",
+      "coreThesis": "Peace is not a future milestone achieved by eliminating problems; it is the living capacity to be fully awake, kind, and non-attached in this exact breath and step.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Peace Is Every Step: The Path of Mindfulness in Everyday Life"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -10508,6 +10658,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "silence-the-power-of-quiet-in-a-world-full-of-noise",
+    "title": "Silence: The Power of Quiet in a World Full of Noise",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "In a culture addicted to endless stimulation, silence is not an empty void\\u2014it is the vital ground of clarity, healing, and freedom. Thich Nhat Hanh shows how turning down your internal mental chatter unlocks the courage to meet your life exactly as it is.",
+      "coreThesis": "Silence is the essential foundation for knowing who you are and hearing what life is asking of you. By gently stepping out of the continuous stream of compulsive thinking, you awaken to peace, freedom, and connection right here in the present moment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Silence: The Power of Quiet in a World Full of Noise"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -12362,6 +12547,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-blooming-of-a-lotus-guided-meditations",
+    "title": "The Blooming of a Lotus: Guided Meditations",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1993,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mindfulness is not an abstract theory or an intellectual philosophy\\u2014it is practical heart surgery carried out through the simple rhythm of conscious breathing. This classic contemplative manual translates ancient Buddhist psychology into direct, experiential exercises that heal emotional fractures and awaken immediate presence.",
+      "coreThesis": "Suffering dissolves not by fleeing our discomfort, but by returning home to the body with conscious breathing and holding every thought and emotion in compassionate, spacious awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Blooming of a Lotus: Guided Meditations"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-body-keeps-the-score",
     "title": "The Body Keeps the Score",
     "author": "Bessel van der Kolk",
@@ -13757,6 +13977,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-heart-of-the-buddha-s-teaching",
+    "title": "The Heart of the Buddha's Teaching",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 125,
+    "publishedYear": 1998,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Suffering is not a life sentence or a moral failing; it is the raw organic compost from which genuine peace, clarity, and joy are cultivated. By learning to stop running and gently embrace what is present right now, you step immediately into living freedom.",
+      "coreThesis": "Suffering and joy are inseparable counterparts of the same reality; by mindfully understanding and embracing our pain rather than fleeing it, we transform it directly into peace and freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Heart of the Buddha's Teaching"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-information-diet",
     "title": "The Information Diet",
     "author": "Clay A. Johnson",
@@ -14164,6 +14419,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Mind That Knows"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-miracle-of-mindfulness-an-introduction-to-meditation",
+    "title": "The Miracle of Mindfulness: An Introduction to Meditation",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1975,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Peace is not an elusive prize waiting at the end of a retreat; it is available in the very cup of tea you are holding right now. By reclaiming your breath in ordinary moments, you turn routine daily chores into the ultimate meditation practice.",
+      "coreThesis": "The present moment is the only moment in which you are truly alive; treating everyday actions with conscious awareness transforms ordinary life into sacred peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Miracle of Mindfulness: An Introduction to Meditation"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -15630,6 +15920,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The State of Mind Called Beautiful"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-sun-my-heart-from-mindfulness-to-insight-contemplation",
+    "title": "The Sun My Heart: From Mindfulness to Insight Contemplation",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1988,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mindfulness is not an escape from reality; it is the lens that reveals you are already woven into everything around you. Discover how breathing, peeling an orange, and walking on the earth dissolve the illusion of an isolated self.",
+      "coreThesis": "You are not an isolated self trapped inside a body, but an interconnected process of 'interbeing' continuously sustained by the entire universe.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Sun My Heart: From Mindfulness to Insight Contemplation"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -17732,6 +18057,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "you-are-here-discovering-the-magic-of-the-present-moment",
+    "title": "You Are Here: Discovering the Magic of the Present Moment",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2009,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop racing through life toward an imaginary finish line and awaken to the miracle already unfolding right under your feet. Thich Nhat Hanh hands you the master key to profound mental stillness: unifying mind and body through single, deliberate breaths.",
+      "coreThesis": "The present moment is the only place where life is actually happening and where true peace can ever be found. By bringing the mind back into harmony with the physical body through conscious breathing, you uncover an inexhaustible reservoir of healing and freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "You Are Here: Discovering the Magic of the Present Moment"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
