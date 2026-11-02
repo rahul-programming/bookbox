@@ -54,6 +54,9 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "broad-view-boundless-heart": "./books/broadViewBoundlessHeartExpanded.ts",
   "buddhism-and-the-ecology-of-mind": "./books/buddhismAndTheEcologyOfMindExpanded.ts",
   "buddhism-and-the-god-idea": "./books/buddhismAndTheGodIdeaExpanded.ts",
+  "buddhist-legends-dhammapada-commentary-part-1": "./books/buddhistLegendsDhammapadaCommentaryPart1Expanded.ts",
+  "buddhist-legends-dhammapada-commentary-part-2": "./books/buddhistLegendsDhammapadaCommentaryPart2Expanded.ts",
+  "buddhist-legends-dhammapada-commentary-part-3": "./books/buddhistLegendsDhammapadaCommentaryPart3Expanded.ts",
   "building-a-second-brain": "./books/buildingASecondBrainExpanded.ts",
   "built-from-broken": "./books/builtFromBrokenExpanded.ts",
   "bullshit-jobs-on-bullshit": "./books/bullshitJobsOnBullshitExpanded.ts",
@@ -83,6 +86,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "designing-your-life-how-to-build-a-well-lived-joyful-life": "./books/designingYourLifeHowToBuildAWellLivedJoyfulLifeExpanded.ts",
   "dhamma-everywhere-freeing-the-mind-across-all-postures": "./books/dhammaEverywhereFreeingTheMindAcrossAllPosturesExpanded.ts",
   "dhamma-padetha-collection-of-insight-essays": "./books/dhammaPadethaCollectionOfInsightEssaysExpanded.ts",
+  "dhammapada-a-translation": "./books/dhammapadaATranslationExpanded.ts",
   "difficult-conversations-how-to-discuss-what-matters-most": "./books/difficultConversationsHowToDiscussWhatMattersMostExpanded.ts",
   "digital-body-language-how-to-build-trust-and-connection-no-m": "./books/digitalBodyLanguageHowToBuildTrustAndConnectionNoMExpanded.ts",
   "disarming-the-narcissist": "./books/disarmingTheNarcissistExpanded.ts",
@@ -375,8 +379,13 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-dance-of-anger": "./books/theDanceOfAngerExpanded.ts",
   "the-dawn-of-abhidharma": "./books/theDawnOfAbhidharmaExpanded.ts",
   "the-dhammapada-a-new-translation": "./books/theDhammapadaANewTranslationExpanded.ts",
+  "the-dhammapada-a-translation-of-the-buddhist-classic": "./books/theDhammapadaATranslationOfTheBuddhistClassicExpanded.ts",
   "the-dhammapada": "./books/theDhammapadaExpanded.ts",
   "the-dhammapada-the-buddha-s-path-of-wisdom": "./books/theDhammapadaTheBuddhaSPathOfWisdomExpanded.ts",
+  "the-dhammapada-the-sayings-of-the-buddha": "./books/theDhammapadaTheSayingsOfTheBuddhaExpanded.ts",
+  "the-dhammapada-translated-with-an-introduction": "./books/theDhammapadaTranslatedWithAnIntroductionExpanded.ts",
+  "the-dhammapada-verses-and-stories": "./books/theDhammapadaVersesAndStoriesExpanded.ts",
+  "the-dhammapada-with-the-story-of-the-buddha": "./books/theDhammapadaWithTheStoryOfTheBuddhaExpanded.ts",
   "the-diamond-that-cuts-through-illusion": "./books/theDiamondThatCutsThroughIllusionExpanded.ts",
   "the-dip-a-little-book-that-teaches-you-when-to-quit": "./books/theDipALittleBookThatTeachesYouWhenToQuitExpanded.ts",
   "the-discourse-on-the-root-of-existence-mulapariyaya-sutta": "./books/theDiscourseOnTheRootOfExistenceMulapariyayaSuttaExpanded.ts",
@@ -483,6 +492,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "transcendental-dependent-arising": "./books/transcendentalDependentArisingExpanded.ts",
   "transformation-and-healing-satipatthana-sutra": "./books/transformationAndHealingSatipatthanaSutraExpanded.ts",
   "transitions-making-sense-of-life-s-changes": "./books/transitionsMakingSenseOfLifeSChangesExpanded.ts",
+  "treasury-of-truth-illustrated-dhammapada": "./books/treasuryOfTruthIllustratedDhammapadaExpanded.ts",
   "treatise-on-the-vipassana-insight-practice": "./books/treatiseOnTheVipassanaInsightPracticeExpanded.ts",
   "true-love-a-practice-for-awakening-the-heart": "./books/trueLoveAPracticeForAwakeningTheHeartExpanded.ts",
   "tug-of-vow-monastic-training-in-the-forest-tradition": "./books/tugOfVowMonasticTrainingInTheForestTraditionExpanded.ts",
@@ -2408,6 +2418,111 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "buddhist-legends-dhammapada-commentary-part-1",
+    "title": "Buddhist Legends: Dhammapada Commentary (Part 1)",
+    "author": "Eugene Watson Burlingame",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 115,
+    "publishedYear": 1921,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mind is the master architect of your entire reality. Eugene Watson Burlingame's translation of the canonical Dhammapada Commentary unlocks the vivid, ground-level stories that turn Buddhist psychological theory into immediate, lived wisdom.",
+      "coreThesis": "Your mind shapes your experience as an ox's hoof shapes its tracks: train your awareness with vigilant heedfulness, and peace inevitably follows.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Buddhist Legends: Dhammapada Commentary (Part 1)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "buddhist-legends-dhammapada-commentary-part-2",
+    "title": "Buddhist Legends: Dhammapada Commentary (Part 2)",
+    "author": "Eugene Watson Burlingame",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1921,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step directly into the vibrant, living world where the Buddha\\u2019s verses were born\\u2014illuminating how everyday greed, pride, and restlessness dissolve when met with pure awareness. Through gritty human parables, this commentary proves that freedom from suffering is not an abstract theory, but an immediate, moment-to-moment training of your own mind.",
+      "coreThesis": "Suffering and peace are direct results of your own mental habits, not external circumstances. You are your own primary refuge, and liberation blooms the moment you cease blaming the world and train your immediate attention with radical honesty and kindness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Buddhist Legends: Dhammapada Commentary (Part 2)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "buddhist-legends-dhammapada-commentary-part-3",
+    "title": "Buddhist Legends: Dhammapada Commentary (Part 3)",
+    "author": "Eugene Watson Burlingame",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 1921,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into the living laboratory of early Buddhist wisdom where real human struggles meet the razor-sharp clarity of awakening. This commentary transforms ancient verses into urgent, practical mirrors for shedding ego, taming inner turbulence, and finding unshakeable peace.",
+      "coreThesis": "Suffering is an internal friction born of unexamined craving and self-delusion; true freedom begins the moment awareness stops clinging and rests in tranquil, harmless clarity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Buddhist Legends: Dhammapada Commentary (Part 3)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "building-a-second-brain",
     "title": "Building a Second Brain",
     "author": "Tiago Forte",
@@ -3407,6 +3522,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Dhamma Padetha: Collection of Insight Essays"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "dhammapada-a-translation",
+    "title": "Dhammapada: A Translation",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 1998,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind is the master architect of your entire reality; train it with vigilant craftsmanship, and sorrow cannot touch you.",
+      "coreThesis": "Mind precedes all mental states; train your attention with relentless heedfulness, and you eradicate suffering at its root.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Dhammapada: A Translation"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -13615,6 +13765,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-dhammapada-a-translation-of-the-buddhist-classic",
+    "title": "The Dhammapada: A Translation of the Buddhist Classic",
+    "author": "Gil Fronsdal",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 2005,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your entire life is an exact reflection of how you steer your attention. The Dhammapada offers an unsparing, practical manual for training the mind so you can live with absolute poise and zero unnecessary suffering.",
+      "coreThesis": "Suffering and freedom are generated entirely from within. Train attention with vigilant heedfulness, and peace naturally replaces turbulence.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Dhammapada: A Translation of the Buddhist Classic"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-dhammapada",
     "title": "The Dhammapada",
     "author": "Eknath Easwaran",
@@ -13673,6 +13858,146 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Dhammapada: The Buddha's Path of Wisdom"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-dhammapada-the-sayings-of-the-buddha",
+    "title": "The Dhammapada: The Sayings of the Buddha",
+    "author": "Thomas Byrom",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 1976,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your life is shaped by the quality of your attention: train your mind, and peace follows you like your own shadow. Thomas Byrom's lyric translation strips away scholastic dust to present the Buddha's most direct, practical manual for inner freedom.",
+      "coreThesis": "Suffering and serenity are not gifts from the world; they are the exact harvest of your own thoughts and cultivated awareness. When you tame and clarify your mind, freedom is immediate and permanent.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Dhammapada: The Sayings of the Buddha"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-dhammapada-translated-with-an-introduction",
+    "title": "The Dhammapada: Translated with an Introduction",
+    "author": "Juan Mascaro",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 1973,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your life flows wherever your attention points. Master your mind like an artisan shaping fine timber, and you replace friction and craving with an unshakeable, silent freedom.",
+      "coreThesis": "Suffering and peace are internal creations rooted in how we direct our awareness. By mastering our wandering thoughts and letting go of grasping desires, we awaken to natural, untroubled clarity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Dhammapada: Translated with an Introduction"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-dhammapada-verses-and-stories",
+    "title": "The Dhammapada: Verses and Stories",
+    "author": "Burmese Pitaka Translation Committee",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 1986,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind is the master architect of your entire reality. By training your attention with the precision of a craftsman, you can dismantle anxiety and access steady, untroubled clarity right in the middle of daily life.",
+      "coreThesis": "Suffering and peace are mental creations governed by intentional choice; master your own mind through alert mindfulness, and freedom from suffering naturally follows.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Dhammapada: Verses and Stories"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-dhammapada-with-the-story-of-the-buddha",
+    "title": "The Dhammapada: With the Story of the Buddha",
+    "author": "Valerie Roebuck",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into the timeless, poetic heart of ancient wisdom where human suffering is unmasked not as a cosmic curse, but as an untamed mind that can be trained into luminous peace. Valerie Roebuck's evocative translation pairs poignant aphorisms with the narrative soul of the Buddha's world, offering an intimate mirror to our daily struggles with anger, craving, and peace.",
+      "coreThesis": "Our entire reality is authored and sculpted by our thoughts; by training the restless mind with relentless gentleness, we extinguish the fires of craving and uncover our innate peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Dhammapada: With the Story of the Buddha"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -17378,6 +17703,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "treasury-of-truth-illustrated-dhammapada",
+    "title": "Treasury of Truth: Illustrated Dhammapada",
+    "author": "Ven. Weragoda Sarada Maha Thero",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 1993,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind shapes your entire experience of reality. By training attention, shedding craving, and cultivating moment-to-moment clarity, you can navigate life's inevitable storms with unshakable serenity.",
+      "coreThesis": "Every state of suffering or peace originates entirely within the mind; when awareness is disciplined and stripped of selfish grasping, freedom is your natural state.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Treasury of Truth: Illustrated Dhammapada"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
