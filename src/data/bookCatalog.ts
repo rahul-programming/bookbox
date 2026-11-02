@@ -27,6 +27,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "anatta-and-nibbana-egolessness-and-deliverance": "./books/anattaAndNibbanaEgolessnessAndDeliveranceExpanded.ts",
   "anger-wisdom-for-cooling-the-flames": "./books/angerWisdomForCoolingTheFlamesExpanded.ts",
   "antifragile-things-that-gain-from-disorder": "./books/antifragileThingsThatGainFromDisorderExpanded.ts",
+  "arahattamagga-arahattaphala-the-path-to-arahantship": "./books/arahattamaggaArahattaphalaThePathToArahantshipExpanded.ts",
   "argumentation-and-debate-critical-thinking-for-reasoned-deci": "./books/argumentationAndDebateCriticalThinkingForReasonedDeciExpanded.ts",
   "atomic-habits": "./books/atomicHabitsExpanded.ts",
   "attacking-faulty-reasoning": "./books/attackingFaultyReasoningExpanded.ts",
@@ -47,6 +48,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "brahmavihara-the-four-immeasurables-in-early-buddhism": "./books/brahmaviharaTheFourImmeasurablesInEarlyBuddhismExpanded.ts",
   "breakthrough-realizing-the-deathless-in-this-life": "./books/breakthroughRealizingTheDeathlessInThisLifeExpanded.ts",
   "breath-the-new-science-of-a-lost-art": "./books/breathTheNewScienceOfALostArtExpanded.ts",
+  "breathing-like-a-buddha": "./books/breathingLikeABuddhaExpanded.ts",
   "broad-view-boundless-heart": "./books/broadViewBoundlessHeartExpanded.ts",
   "buddhism-and-the-ecology-of-mind": "./books/buddhismAndTheEcologyOfMindExpanded.ts",
   "buddhism-and-the-god-idea": "./books/buddhismAndTheGodIdeaExpanded.ts",
@@ -201,6 +203,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "mind-like-fire-unbound": "./books/mindLikeFireUnboundExpanded.ts",
   "mind-over-mood": "./books/mindOverMoodExpanded.ts",
   "mindfully-facing-disease-and-death": "./books/mindfullyFacingDiseaseAndDeathExpanded.ts",
+  "mindfulness-bliss-and-beyond-a-meditator-s-handbook": "./books/mindfulnessBlissAndBeyondAMeditatorSHandbookExpanded.ts",
   "mindfulness-of-breathing-a-practice-guide-and-translations": "./books/mindfulnessOfBreathingAPracticeGuideAndTranslationsExpanded.ts",
   "mindfulness-of-the-body-the-first-foundation": "./books/mindfulnessOfTheBodyTheFirstFoundationExpanded.ts",
   "mindfulness-the-path-to-the-deathless": "./books/mindfulnessThePathToTheDeathlessExpanded.ts",
@@ -224,11 +227,13 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "on-the-path-an-anthology-of-suttas-on-the-noble-eightfold-path": "./books/onThePathAnAnthologyOfSuttasOnTheNobleEightfoldPathExpanded.ts",
   "on-the-path-to-freedom": "./books/onThePathToFreedomExpanded.ts",
   "one-small-step-can-change-your-life-the-kaizen-way": "./books/oneSmallStepCanChangeYourLifeTheKaizenWayExpanded.ts",
+  "opening-the-door-of-your-heart": "./books/openingTheDoorOfYourHeartExpanded.ts",
   "our-real-home-teachings-for-approaching-death": "./books/ourRealHomeTeachingsForApproachingDeathExpanded.ts",
   "outlive-the-science-and-art-of-longevity": "./books/outliveTheScienceAndArtOfLongevityExpanded.ts",
   "overcoming-destructive-anger": "./books/overcomingDestructiveAngerExpanded.ts",
   "overcoming-gravity": "./books/overcomingGravityExpanded.ts",
   "owning-your-own-shadow": "./books/owningYourOwnShadowExpanded.ts",
+  "parami-ways-to-cross-life-s-floats": "./books/paramiWaysToCrossLifeSFloatsExpanded.ts",
   "peace-beyond-suffering": "./books/peaceBeyondSufferingExpanded.ts",
   "peace-is-a-dynamic-process": "./books/peaceIsADynamicProcessExpanded.ts",
   "peak-performance": "./books/peakPerformanceExpanded.ts",
@@ -299,6 +304,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "stillness-flowing-the-life-and-teachings-of-ajahn-chah": "./books/stillnessFlowingTheLifeAndTeachingsOfAjahnChahExpanded.ts",
   "stolen-focus-why-you-can-t-pay-attention": "./books/stolenFocusWhyYouCanTPayAttentionExpanded.ts",
   "stop-walking-on-eggshells": "./books/stopWalkingOnEggshellsExpanded.ts",
+  "straight-from-the-heart-dhamma-talks": "./books/straightFromTheHeartDhammaTalksExpanded.ts",
   "strangers-to-ourselves-discovering-the-adaptive-unconscious": "./books/strangersToOurselvesDiscoveringTheAdaptiveUnconsciousExpanded.ts",
   "super-thinking-the-big-book-of-mental-models": "./books/superThinkingTheBigBookOfMentalModelsExpanded.ts",
   "supercommunicators-how-to-unlock-the-secret-language-of-conn": "./books/supercommunicatorsHowToUnlockTheSecretLanguageOfConnExpanded.ts",
@@ -364,6 +370,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-gifts-of-imperfection": "./books/theGiftsOfImperfectionExpanded.ts",
   "the-great-discourse-on-causation-mahanidana-sutta": "./books/theGreatDiscourseOnCausationMahanidanaSuttaExpanded.ts",
   "the-great-mental-models-vol-1-2": "./books/theGreatMentalModelsVol12Expanded.ts",
+  "the-heart-of-practice-ajaan-mun-s-dhamma-sermons": "./books/theHeartOfPracticeAjaanMunSDhammaSermonsExpanded.ts",
   "the-information-diet": "./books/theInformationDietExpanded.ts",
   "the-invisible-gorilla-how-our-intuitions-deceive-us": "./books/theInvisibleGorillaHowOurIntuitionsDeceiveUsExpanded.ts",
   "the-island-an-anthology-of-the-buddha-s-teachings-on-nibbana": "./books/theIslandAnAnthologyOfTheBuddhaSTeachingsOnNibbanaExpanded.ts",
@@ -437,10 +444,12 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "timeless-wisdom-in-depth-dhamma-talks": "./books/timelessWisdomInDepthDhammaTalksExpanded.ts",
   "tiny-habits-the-small-changes-that-change-everything": "./books/tinyHabitsTheSmallChangesThatChangeEverythingExpanded.ts",
   "to-sell-is-human-the-surprising-truth-about-moving-others": "./books/toSellIsHumanTheSurprisingTruthAboutMovingOthersExpanded.ts",
+  "to-the-last-breath-dhamma-talks-on-illness-and-death": "./books/toTheLastBreathDhammaTalksOnIllnessAndDeathExpanded.ts",
   "transcendental-dependent-arising": "./books/transcendentalDependentArisingExpanded.ts",
   "transitions-making-sense-of-life-s-changes": "./books/transitionsMakingSenseOfLifeSChangesExpanded.ts",
   "treatise-on-the-vipassana-insight-practice": "./books/treatiseOnTheVipassanaInsightPracticeExpanded.ts",
   "tug-of-vow-monastic-training-in-the-forest-tradition": "./books/tugOfVowMonasticTrainingInTheForestTraditionExpanded.ts",
+  "turning-the-wheel-of-truth": "./books/turningTheWheelOfTruthExpanded.ts",
   "ultralearning": "./books/ultralearningExpanded.ts",
   "unexpected-freedom-dhamma-reflections": "./books/unexpectedFreedomDhammaReflectionsExpanded.ts",
   "unlearn-your-pain": "./books/unlearnYourPainExpanded.ts",
@@ -464,6 +473,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "willpower-doesn-t-work": "./books/willpowerDoesnTWorkExpanded.ts",
   "wim-hof-the-wim-hof-method": "./books/wimHofTheWimHofMethodExpanded.ts",
   "win-every-argument-the-art-of-debating-persuading-and-public": "./books/winEveryArgumentTheArtOfDebatingPersuadingAndPublicExpanded.ts",
+  "wisdom-develops-samadhi": "./books/wisdomDevelopsSamadhiExpanded.ts",
   "with-each-and-every-breath-a-guide-to-meditation": "./books/withEachAndEveryBreathAGuideToMeditationExpanded.ts",
   "with-good-reason-an-introduction-to-informal-fallacies": "./books/withGoodReasonAnIntroductionToInformalFallaciesExpanded.ts",
   "without-and-within-questions-and-answers-on-theravada-buddhism": "./books/withoutAndWithinQuestionsAndAnswersOnTheravadaBuddhismExpanded.ts",
@@ -1415,6 +1425,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "arahattamagga-arahattaphala-the-path-to-arahantship",
+    "title": "Arahattamagga Arahattaphala: The Path to Arahantship",
+    "author": "Ajahn Maha Bua",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2005,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "A rare, uncompromising firsthand account of full spiritual liberation from one of the Thai Forest Tradition's most revered masters. It delivers a direct, surgical roadmap to dismantling ego and discovering unshakeable inner freedom.",
+      "coreThesis": "Suffering ends not through philosophical belief, but through the uncompromising investigation of the mind that dissolves the mistaken illusion of a separate self.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Arahattamagga Arahattaphala: The Path to Arahantship"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "argumentation-and-debate-critical-thinking-for-reasoned-deci",
     "title": "Argumentation and Debate: Critical Thinking for Reasoned Decision Making",
     "author": "Austin J. Freeley & David L. Steinberg",
@@ -2108,6 +2153,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Finance",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "breathing-like-a-buddha",
+    "title": "Breathing Like a Buddha",
+    "author": "Ajahn Sucitto",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 100,
+    "publishedYear": 2022,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Meditation is not an uphill fight to pin down a wandering mind; it is coming home to the natural rhythm that already sustains your life. Ajahn Sucitto restores the Buddha's breath meditation to what it was always meant to be: an embodied, somatic journey from tension to liberation.",
+      "coreThesis": "Liberation does not come from controlling your mind through force, but from inhabiting your body with kind awareness\\u2014allowing the natural breath-energy to dissolve contractions until heart and world rest in unclenched peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Breathing Like a Buddha"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -7491,6 +7571,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "mindfulness-bliss-and-beyond-a-meditator-s-handbook",
+    "title": "Mindfulness, Bliss, and Beyond: A Meditator's Handbook",
+    "author": "Ajahn Brahm",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2006,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Meditation is not a grim endurance test of force, but the art of letting go until the mind settles into profound stillness, radiant bliss, and liberating insight.",
+      "coreThesis": "Deep peace and liberating wisdom arise not from willful control, but from the radical relinquishment of doing, allowing the mind to rest in its natural state of effortless stillness and radiant joy.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mindfulness, Bliss, and Beyond: A Meditator's Handbook"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "mindfulness-of-breathing-a-practice-guide-and-translations",
     "title": "Mindfulness of Breathing: A Practice Guide and Translations",
     "author": "Bhikkhu Analayo",
@@ -8294,6 +8409,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "opening-the-door-of-your-heart",
+    "title": "Opening the Door of Your Heart",
+    "author": "Ajahn Brahm",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Life drops unexpected truckloads of mess at your doorstep, but you don't have to carry the stench inside. Through disarming wit and profound mindfulness parables, Ajahn Brahm shows how opening the door of your heart to messy reality turns life's hardest moments into rich fertilizer for abiding peace.",
+      "coreThesis": "Suffering does not come from painful events, but from our internal resistance to them; when you unconditionally welcome reality with patience, compassion, and open-hearted awareness, life's worst manure transforms into the fertilizer of wisdom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Opening the Door of Your Heart"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "our-real-home-teachings-for-approaching-death",
     "title": "Our Real Home: Teachings for Approaching Death",
     "author": "Ajahn Chah",
@@ -8464,6 +8614,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "parami-ways-to-cross-life-s-floats",
+    "title": "Parami: Ways to Cross Life's Floats",
+    "author": "Ajahn Sucitto",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When life's relentless demands threaten to pull you under, spiritual practice is not an abstract theory\\u2014it is a dependable raft built from daily virtues. Ajahn Sucitto demonstrates how ten classical inner qualities transform everyday stress into clear, grounded spiritual freedom.",
+      "coreThesis": "Enlightenment is built not through extraordinary feats, but by consistently cultivating ten grounded, everyday virtues that carry the mind across the turbulent currents of reactivity to lasting peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Parami: Ways to Cross Life's Floats"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -10910,6 +11095,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "straight-from-the-heart-dhamma-talks",
+    "title": "Straight from the Heart: Dhamma Talks",
+    "author": "Ajahn Maha Bua",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 1987,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Strip away scholastic debates and encounter the raw, fierce reality of meditation practice straight from a Thai Forest master. This collection offers a practical manual for dissecting physical pain, dissolving inner illusions, and unveiling genuine, unconditioned freedom.",
+      "coreThesis": "Suffering is maintained by blind identification with physical sensations and mental chatter; relentless discernment in the present moment completely dismantles this illusion, revealing the mind's native, indestructible freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Straight from the Heart: Dhamma Talks"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "strangers-to-ourselves-discovering-the-adaptive-unconscious",
     "title": "Strangers to Ourselves: Discovering the Adaptive Unconscious",
     "author": "Timothy D. Wilson",
@@ -13174,6 +13394,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "the-heart-of-practice-ajaan-mun-s-dhamma-sermons",
+    "title": "The Heart of Practice: Ajaan Mun's Dhamma Sermons",
+    "author": "Ajahn Mun Bhuridatto",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 85,
+    "publishedYear": 1950,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Cut through endless intellectual theory and discover the radiant stillness already resting at the center of your awareness. Ajahn Mun strips away philosophical clutter to reveal meditation as a practical, uncompromising craft of inner liberation.",
+      "coreThesis": "Suffering is maintained by clinging to mental fabrications, but when continuous awareness inspects the heart directly, defilements dissolve and original radiance is restored.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Heart of Practice: Ajaan Mun's Dhamma Sermons"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -15723,6 +15978,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "to-the-last-breath-dhamma-talks-on-illness-and-death",
+    "title": "To the Last Breath: Dhamma Talks on Illness and Death",
+    "author": "Ajahn Maha Bua",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1992,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When severe pain or mortal illness strikes, your mind does not have to collapse with the body. Ajahn Maha Bua offers a fearless, practical roadmap to dissect physical suffering and discover the unshakeable awareness that never dies.",
+      "coreThesis": "The body experiences pain and inevitably perishes, but the pure knowing awareness observing it does not die. Liberation comes from dissecting sensation from mind and letting go of all clinging.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "To the Last Breath: Dhamma Talks on Illness and Death"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "transcendental-dependent-arising",
     "title": "Transcendental Dependent Arising",
     "author": "Bhikkhu Bodhi",
@@ -15851,6 +16141,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Tug of Vow: Monastic Training in the Forest Tradition"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "turning-the-wheel-of-truth",
+    "title": "Turning the Wheel of Truth",
+    "author": "Ajahn Sucitto",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 90,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Ajahn Sucitto takes the Buddha's inaugural teaching\\u2014the foundation of all Buddhist wisdom\\u2014and turns it into a clear, living field manual for navigating modern human stress and discovering unshakeable inner peace.",
+      "coreThesis": "Suffering is not caused by the natural turbulence of life, but by the mind's automatic reflex to clutch and resist; freedom arrives the exact instant we open our hands and step out of the grip of craving.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Turning the Wheel of Truth"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -16662,6 +16987,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "wisdom-develops-samadhi",
+    "title": "Wisdom Develops Samadhi",
+    "author": "Ajahn Maha Bua",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1983,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop forcing a turbulent mind to freeze into silence; learn how sharp, clear investigation naturally dissolves restlessness and ushers in unshakable inner peace.",
+      "coreThesis": "Stillness does not always precede insight; actively applying investigative wisdom dissolves mental turbulence and naturally leads the mind into profound, unwavering absorption.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Wisdom Develops Samadhi"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
