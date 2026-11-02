@@ -48,6 +48,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "building-a-second-brain": "./books/buildingASecondBrainExpanded.ts",
   "built-from-broken": "./books/builtFromBrokenExpanded.ts",
   "bullshit-jobs-on-bullshit": "./books/bullshitJobsOnBullshitExpanded.ts",
+  "cittaviveka-teachings-from-the-silent-mind": "./books/cittavivekaTeachingsFromTheSilentMindExpanded.ts",
   "clarity-of-insight-selected-forest-dhamma": "./books/clarityOfInsightSelectedForestDhammaExpanded.ts",
   "clear-thinking": "./books/clearThinkingExpanded.ts",
   "cognitive-psychology-mind-and-brain": "./books/cognitivePsychologyMindAndBrainExpanded.ts",
@@ -85,6 +86,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "discourse-on-the-wheel-of-dhamma": "./books/discourseOnTheWheelOfDhammaExpanded.ts",
   "do-the-work": "./books/doTheWorkExpanded.ts",
   "don-t-look-at-the-mind-with-contempt": "./books/donTLookAtTheMindWithContemptExpanded.ts",
+  "don-t-take-your-life-personally": "./books/donTTakeYourLifePersonallyExpanded.ts",
   "dopamine-nation-finding-balance-in-the-age-of-indulgence": "./books/dopamineNationFindingBalanceInTheAgeOfIndulgenceExpanded.ts",
   "early-buddhist-meditation-studies": "./books/earlyBuddhistMeditationStudiesExpanded.ts",
   "early-buddhist-oral-tradition-and-textual-transmission": "./books/earlyBuddhistOralTraditionAndTextualTransmissionExpanded.ts",
@@ -115,6 +117,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "good-reasons-for-better-arguments": "./books/goodReasonsForBetterArgumentsExpanded.ts",
   "great-disciples-of-the-buddha-their-lives-and-legacy": "./books/greatDisciplesOfTheBuddhaTheirLivesAndLegacyExpanded.ts",
   "he-understanding-masculine-psychology": "./books/heUnderstandingMasculinePsychologyExpanded.ts",
+  "head-and-heart-together-essays-on-the-buddhist-path": "./books/headAndHeartTogetherEssaysOnTheBuddhistPathExpanded.ts",
   "healing-back-pain-the-mind-body-connection": "./books/healingBackPainTheMindBodyConnectionExpanded.ts",
   "healing-the-shame-that-binds-you": "./books/healingTheShameThatBindsYouExpanded.ts",
   "hell-yeah-or-no": "./books/hellYeahOrNoExpanded.ts",
@@ -143,6 +146,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "insight-meditation-workshop-manual": "./books/insightMeditationWorkshopManualExpanded.ts",
   "into-the-stream-a-study-guide-on-the-first-stage-of-awakening": "./books/intoTheStreamAStudyGuideOnTheFirstStageOfAwakeningExpanded.ts",
   "introduction-to-logic": "./books/introductionToLogicExpanded.ts",
+  "intuitive-awareness-living-in-the-unconditioned": "./books/intuitiveAwarenessLivingInTheUnconditionedExpanded.ts",
   "investigating-the-dhamma-a-collection-of-essays": "./books/investigatingTheDhammaACollectionOfEssaysExpanded.ts",
   "invisible-influence-the-hidden-forces-that-shape-behavior": "./books/invisibleInfluenceTheHiddenForcesThatShapeBehaviorExpanded.ts",
   "just-listen-discover-the-secret-to-getting-through-to-absolu": "./books/justListenDiscoverTheSecretToGettingThroughToAbsoluExpanded.ts",
@@ -185,6 +189,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "mindfully-facing-disease-and-death": "./books/mindfullyFacingDiseaseAndDeathExpanded.ts",
   "mindfulness-of-breathing-a-practice-guide-and-translations": "./books/mindfulnessOfBreathingAPracticeGuideAndTranslationsExpanded.ts",
   "mindfulness-of-the-body-the-first-foundation": "./books/mindfulnessOfTheBodyTheFirstFoundationExpanded.ts",
+  "mindfulness-the-path-to-the-deathless": "./books/mindfulnessThePathToTheDeathlessExpanded.ts",
   "mindset-the-new-psychology-of-success": "./books/mindsetTheNewPsychologyOfSuccessExpanded.ts",
   "mini-habits": "./books/miniHabitsExpanded.ts",
   "mistakes-were-made-but-not-by-me": "./books/mistakesWereMadeButNotByMeExpanded.ts",
@@ -199,6 +204,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "noble-strategy-essays-on-the-buddhist-path": "./books/nobleStrategyEssaysOnTheBuddhistPathExpanded.ts",
   "nonviolent-communication-a-language-of-life": "./books/nonviolentCommunicationALanguageOfLifeExpanded.ts",
   "not-nice-stop-people-pleasing-staying-silent-feeling-guilty": "./books/notNiceStopPeoplePleasingStayingSilentFeelingGuiltyExpanded.ts",
+  "now-is-the-knowing": "./books/nowIsTheKnowingExpanded.ts",
   "nudge": "./books/nudgeExpanded.ts",
   "on-the-path-an-anthology-of-suttas-on-the-noble-eightfold-path": "./books/onThePathAnAnthologyOfSuttasOnTheNobleEightfoldPathExpanded.ts",
   "on-the-path-to-freedom": "./books/onThePathToFreedomExpanded.ts",
@@ -222,6 +228,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "protection-through-satipatthana": "./books/protectionThroughSatipatthanaExpanded.ts",
   "the-psychology-of-money-timeless-lessons-on-wealth-greed-and": "./books/psychologyOfMoneyExpanded.ts",
   "purification-of-mind-and-view": "./books/purificationOfMindAndViewExpanded.ts",
+  "purity-of-heart-essays-on-the-buddhist-path": "./books/purityOfHeartEssaysOnTheBuddhistPathExpanded.ts",
   "radical-acceptance": "./books/radicalAcceptanceExpanded.ts",
   "radical-compassion": "./books/radicalCompassionExpanded.ts",
   "range-why-generalists-triumph-in-a-specialized-world": "./books/rangeWhyGeneralistsTriumphInASpecializedWorldExpanded.ts",
@@ -277,6 +284,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "superforecasting-the-art-and-science-of-prediction": "./books/superforecastingTheArtAndScienceOfPredictionExpanded.ts",
   "superiority-conceit-in-buddhist-traditions": "./books/superiorityConceitInBuddhistTraditionsExpanded.ts",
   "sync-how-order-emerges-from-chaos": "./books/syncHowOrderEmergesFromChaosExpanded.ts",
+  "teachings-of-a-buddhist-monk": "./books/teachingsOfABuddhistMonkExpanded.ts",
   "thank-you-for-arguing": "./books/thankYouForArguingExpanded.ts",
   "thanks-for-the-feedback-the-science-and-art-of-receiving-fee": "./books/thanksForTheFeedbackTheScienceAndArtOfReceivingFeeExpanded.ts",
   "the-1-rule": "./books/the1RuleExpanded.ts",
@@ -342,6 +350,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-lucifer-effect-understanding-how-good-people-turn-evil": "./books/theLuciferEffectUnderstandingHowGoodPeopleTurnEvilExpanded.ts",
   "the-memory-book": "./books/theMemoryBookExpanded.ts",
   "the-middle-length-discourses-of-the-buddha-majjhima-nikaya": "./books/theMiddleLengthDiscoursesOfTheBuddhaMajjhimaNikayaExpanded.ts",
+  "the-mind-and-the-way-buddhist-reflections-on-life": "./books/theMindAndTheWayBuddhistReflectionsOnLifeExpanded.ts",
   "the-model-thinker": "./books/theModelThinkerExpanded.ts",
   "the-moral-animal": "./books/theMoralAnimalExpanded.ts",
   "the-narcissist-you-know": "./books/theNarcissistYouKnowExpanded.ts",
@@ -380,6 +389,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-social-animal": "./books/theSocialAnimalExpanded.ts",
   "the-socratic-method-of-psychotherapy": "./books/theSocraticMethodOfPsychotherapyExpanded.ts",
   "the-soulful-art-of-persuasion": "./books/theSoulfulArtOfPersuasionExpanded.ts",
+  "the-sound-of-silence-selected-teachings": "./books/theSoundOfSilenceSelectedTeachingsExpanded.ts",
   "the-state-of-mind-called-beautiful": "./books/theStateOfMindCalledBeautifulExpanded.ts",
   "the-sutta-discovery-early-buddhist-teachings": "./books/theSuttaDiscoveryEarlyBuddhistTeachingsExpanded.ts",
   "the-suttanipata-an-ancient-collection-of-discourses": "./books/theSuttanipataAnAncientCollectionOfDiscoursesExpanded.ts",
@@ -2108,6 +2118,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "cittaviveka-teachings-from-the-silent-mind",
+    "title": "Cittaviveka: Teachings from the Silent Mind",
+    "author": "Ajahn Sumedho",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 1983,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You do not need to silence your mind; you only need to step back and realize that your awareness is already silent. Ajahn Sumedho offers a masterclass in shedding emotional clutter and resting in spacious, unshakeable freedom.",
+      "coreThesis": "Suffering occurs when we identify with passing thoughts and feelings; genuine liberation is resting as the silent, unconditioned witness that peacefully contains them all.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Cittaviveka: Teachings from the Silent Mind"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "clarity-of-insight-selected-forest-dhamma",
     "title": "Clarity of Insight: Selected Forest Dhamma",
     "author": "Ajahn Chah",
@@ -3399,6 +3444,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "don-t-take-your-life-personally",
+    "title": "Don't Take Your Life Personally",
+    "author": "Ajahn Sumedho",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 150,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop turning your daily thoughts and emotions into a dramatic personal courtroom. By stepping back into spacious awareness, you realize that life's weather does not define the sky.",
+      "coreThesis": "You are not your transient thoughts, feelings, or conditioned personality; resting as the silent awareness that witnesses them frees you from taking life personally.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Don't Take Your Life Personally"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "dopamine-nation-finding-balance-in-the-age-of-indulgence",
     "title": "Dopamine Nation: Finding Balance in the Age of Indulgence",
     "author": "Anna Lembke",
@@ -4446,6 +4526,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "head-and-heart-together-essays-on-the-buddhist-path",
+    "title": "Head and Heart Together: Essays on the Buddhist Path",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Meditation is neither cold, dry intellectual detachment nor fuzzy, boundless emotionalism. Thanissaro Bhikkhu unites clear discernment with an open heart, offering a tough-minded, practical training manual for genuine spiritual freedom.",
+      "coreThesis": "Authentic liberation requires uniting analytical discernment with universal goodwill, turning the mind into a disciplined craftsman capable of dismantling its own suffering.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Head and Heart Together: Essays on the Buddhist Path"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "healing-back-pain-the-mind-body-connection",
     "title": "Healing Back Pain: The Mind-Body Connection",
     "author": "John E. Sarno",
@@ -5419,6 +5534,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "intuitive-awareness-living-in-the-unconditioned",
+    "title": "Intuitive Awareness: Living in the Unconditioned",
+    "author": "Ajahn Sumedho",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop wrestling with your busy mind and step back into the quiet space that notices the struggle. Freedom isn't something you build\\u2014it is the wide-open sky of awareness already present behind every passing storm.",
+      "coreThesis": "Suffering occurs only when we identify with passing mental and emotional weather; true liberation is directly recognizing and resting in the untouched, open space of awareness that holds it all.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Intuitive Awareness: Living in the Unconditioned"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -6891,6 +7041,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "mindfulness-the-path-to-the-deathless",
+    "title": "Mindfulness: The Path to the Deathless",
+    "author": "Ajahn Sumedho",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 1985,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop trying to forcefully silence your noisy mind and instead discover the silent sky in which every storm naturally dissolves. Ajahn Sumedho reveals mindfulness not as an exhausting mental chore, but as direct, effortless resting in the unshakeable stillness behind every passing thought.",
+      "coreThesis": "Suffering occurs only when we identify with passing thoughts and feelings; freedom is discovered the moment we rest in the open, unconditioned awareness that peacefully observes them.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mindfulness: The Path to the Deathless"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "mindset-the-new-psychology-of-success",
     "title": "Mindset: The New Psychology of Success",
     "author": "Carol S. Dweck",
@@ -7375,6 +7560,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "now-is-the-knowing",
+    "title": "Now Is the Knowing",
+    "author": "Ajahn Sumedho",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1989,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Yesterday is a memory and tomorrow is the unknown\\u2014peace begins the moment you stop fighting your experience and rest in direct awareness right now. Ajahn Sumedho reveals how stepping back from mental chatter uncovers an unshakeable clarity that is already present.",
+      "coreThesis": "Suffering is born from identifying with transient mental states; enduring peace emerges when you rest as the knowing witness of all arising and passing phenomena.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Now Is the Knowing"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -8170,6 +8390,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Purification of Mind and View"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "purity-of-heart-essays-on-the-buddhist-path",
+    "title": "Purity of Heart: Essays on the Buddhist Path",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2006,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop treating mindfulness like a spa day and discover the Buddha's true training manual: a masterclass in emotional craftsmanship, rigorous honesty, and total mental freedom.",
+      "coreThesis": "Spiritual purity is not passive surrender, but an active, discerning craft: by testing intentions and refining attention, the mind unbinds itself from suffering.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Purity of Heart: Essays on the Buddhist Path"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -10095,6 +10350,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "teachings-of-a-buddhist-monk",
+    "title": "Teachings of a Buddhist Monk",
+    "author": "Ajahn Sumedho",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1990,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop fighting your noisy thoughts and learn the quiet art of laying down your burdens. Ajahn Sumedho offers a refreshingly human, warm guide to waking up inside ordinary life by discovering the unshakeable stillness behind every passing storm.",
+      "coreThesis": "Suffering is not caused by life's conditions, but by our clinging to them; genuine freedom is the immediate, effortless release of grasping by resting as the silent knowing awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Teachings of a Buddhist Monk"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -12366,6 +12656,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-mind-and-the-way-buddhist-reflections-on-life",
+    "title": "The Mind and the Way: Buddhist Reflections on Life",
+    "author": "Ajahn Sumedho",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 1995,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop fighting the weather of your own mind. Ajahn Sumedho shows how stepping back from mental chatter into calm, spacious awareness transforms daily stress into effortless peace.",
+      "coreThesis": "Suffering is created when we fight reality and cling to fleeting mental states; freedom is found by resting in the silent, spacious awareness that observes life exactly as it is.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Mind and the Way: Buddhist Reflections on Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-model-thinker",
     "title": "The Model Thinker",
     "author": "Scott E. Page",
@@ -13687,6 +14012,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-sound-of-silence-selected-teachings",
+    "title": "The Sound of Silence: Selected Teachings",
+    "author": "Ajahn Sumedho",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 135,
+    "publishedYear": 2007,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You do not need to silence your noisy thoughts to find peace; you only need to tune your ear to the spacious, quiet awareness in which those thoughts already come and go. Through the simple practice of listening to the subtle inner 'sound of silence,' Ajahn Sumedho reveals that liberation is not an exotic future achievement, but your immediate, uncluttered natural state.",
+      "coreThesis": "Suffering stems from identifying with passing thoughts and demanding that life conform to personal desires; true liberation is realized the moment you take refuge in the silent, spacious awareness that effortlessly witnesses all change.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Sound of Silence: Selected Teachings"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
