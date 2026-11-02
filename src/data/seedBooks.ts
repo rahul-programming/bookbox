@@ -466,6 +466,16 @@ import { ON_LOVE_DHAMMA_TALKS_ON_METTA_BOOK } from './books/onLoveDhammaTalksOnM
 import { DAUGHTERS_AND_SONS_BUDDHIST_WISDOM_ON_PARENTING_BOOK } from './books/daughtersAndSonsBuddhistWisdomOnParentingExpanded';
 import { FROM_HEART_TO_HEART_SELECTED_DHAMMA_TALKS_BOOK } from './books/fromHeartToHeartSelectedDhammaTalksExpanded';
 import { UNEXPECTED_FREEDOM_DHAMMA_REFLECTIONS_BOOK } from './books/unexpectedFreedomDhammaReflectionsExpanded';
+import { A_SIMPLE_WAY_THE_HEART_OF_THE_PRACTICE_BOOK } from './books/aSimpleWayTheHeartOfThePracticeExpanded';
+import { DEEP_DOWN_WE_KNOW_BOOK } from './books/deepDownWeKnowExpanded';
+import { SIMPLE_TEACHINGS_ON_HIGHER_TRUTHS_BOOK } from './books/simpleTeachingsOnHigherTruthsExpanded';
+import { SEEKING_BUDDHO_TEACHINGS_ON_MEDITATION_BOOK } from './books/seekingBuddhoTeachingsOnMeditationExpanded';
+import { THE_MIND_THAT_KNOWS_BOOK } from './books/theMindThatKnowsExpanded';
+import { KEEPING_THE_BREATH_IN_MIND_LESSONS_IN_SAMADHI_BOOK } from './books/keepingTheBreathInMindLessonsInSamadhiExpanded';
+import { THE_CRAFT_OF_THE_HEART_BOOK } from './books/theCraftOfTheHeartExpanded';
+import { INNER_STRENGTH_SIXTEEN_ASPECTS_OF_THE_DHAMMA_BOOK } from './books/innerStrengthSixteenAspectsOfTheDhammaExpanded';
+import { THE_SKILL_OF_RELEASE_BOOK } from './books/theSkillOfReleaseExpanded';
+import { VENERABLE_ACARIYA_MUN_BHURIDATTA_SPIRITUAL_BIOGRAPHY_BOOK } from './books/venerableAcariyaMunBhuridattaSpiritualBiographyExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -932,7 +942,17 @@ export const SEED_BOOKS: Book[] = [
   ON_LOVE_DHAMMA_TALKS_ON_METTA_BOOK,
   DAUGHTERS_AND_SONS_BUDDHIST_WISDOM_ON_PARENTING_BOOK,
   FROM_HEART_TO_HEART_SELECTED_DHAMMA_TALKS_BOOK,
-  UNEXPECTED_FREEDOM_DHAMMA_REFLECTIONS_BOOK
+  UNEXPECTED_FREEDOM_DHAMMA_REFLECTIONS_BOOK,
+  A_SIMPLE_WAY_THE_HEART_OF_THE_PRACTICE_BOOK,
+  DEEP_DOWN_WE_KNOW_BOOK,
+  SIMPLE_TEACHINGS_ON_HIGHER_TRUTHS_BOOK,
+  SEEKING_BUDDHO_TEACHINGS_ON_MEDITATION_BOOK,
+  THE_MIND_THAT_KNOWS_BOOK,
+  KEEPING_THE_BREATH_IN_MIND_LESSONS_IN_SAMADHI_BOOK,
+  THE_CRAFT_OF_THE_HEART_BOOK,
+  INNER_STRENGTH_SIXTEEN_ASPECTS_OF_THE_DHAMMA_BOOK,
+  THE_SKILL_OF_RELEASE_BOOK,
+  VENERABLE_ACARIYA_MUN_BHURIDATTA_SPIRITUAL_BIOGRAPHY_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -1401,7 +1421,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(ON_LOVE_DHAMMA_TALKS_ON_METTA_BOOK.ideaCards || []),
   ...(DAUGHTERS_AND_SONS_BUDDHIST_WISDOM_ON_PARENTING_BOOK.ideaCards || []),
   ...(FROM_HEART_TO_HEART_SELECTED_DHAMMA_TALKS_BOOK.ideaCards || []),
-  ...(UNEXPECTED_FREEDOM_DHAMMA_REFLECTIONS_BOOK.ideaCards || [])
+  ...(UNEXPECTED_FREEDOM_DHAMMA_REFLECTIONS_BOOK.ideaCards || []),
+  ...(A_SIMPLE_WAY_THE_HEART_OF_THE_PRACTICE_BOOK.ideaCards || []),
+  ...(DEEP_DOWN_WE_KNOW_BOOK.ideaCards || []),
+  ...(SIMPLE_TEACHINGS_ON_HIGHER_TRUTHS_BOOK.ideaCards || []),
+  ...(SEEKING_BUDDHO_TEACHINGS_ON_MEDITATION_BOOK.ideaCards || []),
+  ...(THE_MIND_THAT_KNOWS_BOOK.ideaCards || []),
+  ...(KEEPING_THE_BREATH_IN_MIND_LESSONS_IN_SAMADHI_BOOK.ideaCards || []),
+  ...(THE_CRAFT_OF_THE_HEART_BOOK.ideaCards || []),
+  ...(INNER_STRENGTH_SIXTEEN_ASPECTS_OF_THE_DHAMMA_BOOK.ideaCards || []),
+  ...(THE_SKILL_OF_RELEASE_BOOK.ideaCards || []),
+  ...(VENERABLE_ACARIYA_MUN_BHURIDATTA_SPIRITUAL_BIOGRAPHY_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [

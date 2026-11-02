@@ -14,6 +14,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "a-life-of-blessing-celebrating-virtue-and-stillness": "./books/aLifeOfBlessingCelebratingVirtueAndStillnessExpanded.ts",
   "a-million-miles-in-a-thousand-years": "./books/aMillionMilesInAThousandYearsExpanded.ts",
   "a-mind-for-numbers": "./books/aMindForNumbersExpanded.ts",
+  "a-simple-way-the-heart-of-the-practice": "./books/aSimpleWayTheHeartOfThePracticeExpanded.ts",
   "a-still-forest-pool-insight-meditation-of-achaan-chah": "./books/aStillForestPoolInsightMeditationOfAchaanChahExpanded.ts",
   "a-taste-of-freedom": "./books/aTasteOfFreedomExpanded.ts",
   "a-theory-of-cognitive-dissonance": "./books/aTheoryOfCognitiveDissonanceExpanded.ts",
@@ -70,6 +71,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "daughters-and-sons-buddhist-wisdom-on-parenting": "./books/daughtersAndSonsBuddhistWisdomOnParentingExpanded.ts",
   "dbt-skills-training-handouts-and-worksheets": "./books/dbtSkillsTrainingHandoutsAndWorksheetsExpanded.ts",
   "decisive": "./books/decisiveExpanded.ts",
+  "deep-down-we-know": "./books/deepDownWeKnowExpanded.ts",
   "deep-work": "./books/deepWorkExpanded.ts",
   "dependent-arising-a-practical-guide-to-early-buddhist-teachings": "./books/dependentArisingAPracticalGuideToEarlyBuddhistTeachingsExpanded.ts",
   "designing-your-life-how-to-build-a-well-lived-joyful-life": "./books/designingYourLifeHowToBuildAWellLivedJoyfulLifeExpanded.ts",
@@ -149,6 +151,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "in-this-very-life-the-liberation-teachings-of-the-buddha": "./books/inThisVeryLifeTheLiberationTeachingsOfTheBuddhaExpanded.ts",
   "indistractable-how-to-control-your-attention-and-choose-your": "./books/indistractableHowToControlYourAttentionAndChooseYourExpanded.ts",
   "influence-the-psychology-of-persuasion": "./books/influenceThePsychologyOfPersuasionExpanded.ts",
+  "inner-strength-sixteen-aspects-of-the-dhamma": "./books/innerStrengthSixteenAspectsOfTheDhammaExpanded.ts",
   "inner-work-using-dreams-and-active-imagination-for-personal-": "./books/innerWorkUsingDreamsAndActiveImaginationForPersonalExpanded.ts",
   "insight-meditation-the-path-to-peace": "./books/insightMeditationThePathToPeaceExpanded.ts",
   "insight-meditation-workshop-manual": "./books/insightMeditationWorkshopManualExpanded.ts",
@@ -160,6 +163,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "just-listen-discover-the-secret-to-getting-through-to-absolu": "./books/justListenDiscoverTheSecretToGettingThroughToAbsoluExpanded.ts",
   "just-one-more-breath-teachings-on-meditation-and-life": "./books/justOneMoreBreathTeachingsOnMeditationAndLifeExpanded.ts",
   "just-one-word-mindfulness": "./books/justOneWordMindfulnessExpanded.ts",
+  "keeping-the-breath-in-mind-lessons-in-samadhi": "./books/keepingTheBreathInMindLessonsInSamadhiExpanded.ts",
   "kill-it-with-fire-manage-aging-computer-systems-and-communic": "./books/killItWithFireManageAgingComputerSystemsAndCommunicExpanded.ts",
   "king-warrior-magician-lover": "./books/kingWarriorMagicianLoverExpanded.ts",
   "learn-like-a-pro": "./books/learnLikeAProExpanded.ts",
@@ -265,6 +269,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "scale": "./books/scaleExpanded.ts",
   "search-inside-yourself": "./books/searchInsideYourselfExpanded.ts",
   "seeing-systems-unlocking-the-mysteries-of-organizational-lif": "./books/seeingSystemsUnlockingTheMysteriesOfOrganizationalLifExpanded.ts",
+  "seeking-buddho-teachings-on-meditation": "./books/seekingBuddhoTeachingsOnMeditationExpanded.ts",
   "self-compassion-the-proven-power-of-being-kind-to-yourself": "./books/selfCompassionTheProvenPowerOfBeingKindToYourselfExpanded.ts",
   "selves-and-not-self-buddhist-epistemology": "./books/selvesAndNotSelfBuddhistEpistemologyExpanded.ts",
   "set-boundaries-find-peace-a-guide-to-reclaiming-yourself": "./books/setBoundariesFindPeaceAGuideToReclaimingYourselfExpanded.ts",
@@ -272,6 +277,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "she-understanding-feminine-psychology": "./books/sheUnderstandingFemininePsychologyExpanded.ts",
   "show-your-work": "./books/showYourWorkExpanded.ts",
   "silent-rain-collected-dhamma-talks": "./books/silentRainCollectedDhammaTalksExpanded.ts",
+  "simple-teachings-on-higher-truths": "./books/simpleTeachingsOnHigherTruthsExpanded.ts",
   "skill-in-questions-how-the-buddha-taught": "./books/skillInQuestionsHowTheBuddhaTaughtExpanded.ts",
   "skin-in-the-game": "./books/skinInTheGameExpanded.ts",
   "sleep-smarter": "./books/sleepSmarterExpanded.ts",
@@ -334,6 +340,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-compound-effect": "./books/theCompoundEffectExpanded.ts",
   "the-connected-discourses-of-the-buddha-samyutta-nikaya": "./books/theConnectedDiscoursesOfTheBuddhaSamyuttaNikayaExpanded.ts",
   "the-courage-to-be-disliked": "./books/theCourageToBeDislikedExpanded.ts",
+  "the-craft-of-the-heart": "./books/theCraftOfTheHeartExpanded.ts",
   "the-crossroads-of-should-and-must": "./books/theCrossroadsOfShouldAndMustExpanded.ts",
   "the-crowd-a-study-of-the-popular-mind": "./books/theCrowdAStudyOfThePopularMindExpanded.ts",
   "the-dance-of-anger": "./books/theDanceOfAngerExpanded.ts",
@@ -368,6 +375,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-memory-book": "./books/theMemoryBookExpanded.ts",
   "the-middle-length-discourses-of-the-buddha-majjhima-nikaya": "./books/theMiddleLengthDiscoursesOfTheBuddhaMajjhimaNikayaExpanded.ts",
   "the-mind-and-the-way-buddhist-reflections-on-life": "./books/theMindAndTheWayBuddhistReflectionsOnLifeExpanded.ts",
+  "the-mind-that-knows": "./books/theMindThatKnowsExpanded.ts",
   "the-model-thinker": "./books/theModelThinkerExpanded.ts",
   "the-moral-animal": "./books/theMoralAnimalExpanded.ts",
   "the-narcissist-you-know": "./books/theNarcissistYouKnowExpanded.ts",
@@ -402,6 +410,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-shallows-what-the-internet-is-doing-to-our-brains": "./books/theShallowsWhatTheInternetIsDoingToOurBrainsExpanded.ts",
   "the-shape-of-suffering-a-study-of-dependent-co-arising": "./books/theShapeOfSufferingAStudyOfDependentCoArisingExpanded.ts",
   "the-signal-and-the-noise": "./books/theSignalAndTheNoiseExpanded.ts",
+  "the-skill-of-release": "./books/theSkillOfReleaseExpanded.ts",
   "the-sleep-solution": "./books/theSleepSolutionExpanded.ts",
   "the-social-animal": "./books/theSocialAnimalExpanded.ts",
   "the-socratic-method-of-psychotherapy": "./books/theSocraticMethodOfPsychotherapyExpanded.ts",
@@ -437,6 +446,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "unlearn-your-pain": "./books/unlearnYourPainExpanded.ts",
   "untamed": "./books/untamedExpanded.ts",
   "unwinding-anxiety": "./books/unwindingAnxietyExpanded.ts",
+  "venerable-acariya-mun-bhuridatta-spiritual-biography": "./books/venerableAcariyaMunBhuridattaSpiritualBiographyExpanded.ts",
   "vipassana-meditation-guidelines": "./books/vipassanaMeditationGuidelinesExpanded.ts",
   "vipassana-meditation-lectures-on-insight": "./books/vipassanaMeditationLecturesOnInsightExpanded.ts",
   "vipassana-talks-from-mahasi-sasana-yeiktha": "./books/vipassanaTalksFromMahasiSasanaYeikthaExpanded.ts",
@@ -949,6 +959,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "a-simple-way-the-heart-of-the-practice",
+    "title": "A Simple Way: The Heart of the Practice",
+    "author": "Ajahn Munindo",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop treating spiritual freedom like a distant promotion you must exhaust yourself to earn. True peace is the ground beneath your feet the instant you stop fighting your immediate experience.",
+      "coreThesis": "Suffering dissolves not when we successfully control our circumstances, but when we drop our resistance and rest in the clear, compassionate awareness of things as they actually are.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "A Simple Way: The Heart of the Practice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -2902,6 +2947,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "deep-down-we-know",
+    "title": "Deep Down We Know",
+    "author": "Ajahn Munindo",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You do not need to construct wisdom from scratch; deep down, intuitive awareness already knows how to navigate reality when conditioned panic gets out of the way. Ajahn Munindo offers a calm, steady hand that guides you out of mental entanglements back into the quiet sanity that has been present all along.",
+      "coreThesis": "Wisdom is an inherent quality of uncluttered awareness rather than an intellectual achievement. When you stop feeding emotional reactivity and rest in direct experiential presence, you uncover a steady, unshakeable knowing that already understands how to live freely.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Deep Down We Know"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -5664,6 +5744,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "inner-strength-sixteen-aspects-of-the-dhamma",
+    "title": "Inner Strength: Sixteen Aspects of the Dhamma",
+    "author": "Ajahn Lee Dhammadharo",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 1998,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Ajahn Lee shows that true inner strength is not an abstract philosophy, but a practical craftsmanship of breath and mind developed right inside your ribcage. By refining your attention like an artisan working with raw gold, you transform daily mental reactivity into unshakable, natural freedom.",
+      "coreThesis": "Genuine liberation is an empirical craft: by mastering bodily breath energy and cultivating silent, non-clinging discernment, awareness frees itself from all fabricated suffering.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Inner Strength: Sixteen Aspects of the Dhamma"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "inner-work-using-dreams-and-active-imagination-for-personal-",
     "title": "Inner Work: Using Dreams and Active Imagination for Personal Growth",
     "author": "Robert A. Johnson",
@@ -6037,6 +6152,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Just One Word: Mindfulness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "keeping-the-breath-in-mind-lessons-in-samadhi",
+    "title": "Keeping the Breath in Mind & Lessons in Samadhi",
+    "author": "Ajahn Lee Dhammadharo",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1953,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your breath is not just air in the lungs\\u2014it is an internal energy grid you can actively tune to dissolve tension and stabilize awareness. Master Thai forest teacher Ajahn Lee provides a manual for transforming ordinary respiration into a sanctuary of profound meditative stillness and liberating insight.",
+      "coreThesis": "Breath is an active, malleable life energy that can be systematically refined to calm the nervous system, unify attention, and awaken liberating discernment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Keeping the Breath in Mind & Lessons in Samadhi"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -9714,6 +9864,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "seeking-buddho-teachings-on-meditation",
+    "title": "Seeking Buddho: Teachings on Meditation",
+    "author": "Ajahn Anan",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2006,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind already possesses an unshakeable inner refuge, yet daily distraction keeps you looking outside for peace. 'Seeking Buddho' offers an authentic, grounded field guide from the Thai Forest Tradition to train undivided attention, master mental stillness, and wake up to your true nature.",
+      "coreThesis": "Genuine liberation is realized when concentrated stillness stabilizes the mind, enabling clear insight into impermanence and awakening the unshakeable awareness already present within.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Seeking Buddho: Teachings on Meditation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "self-compassion-the-proven-power-of-being-kind-to-yourself",
     "title": "Self-Compassion: The Proven Power of Being Kind to Yourself",
     "author": "Kristin Neff",
@@ -9946,6 +10131,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Silent Rain: Collected Dhamma Talks"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "simple-teachings-on-higher-truths",
+    "title": "Simple Teachings on Higher Truths",
+    "author": "Ajahn Anan",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 305,
+    "publishedYear": 2009,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Ajahn Anan dismantles spiritual complexity with the warmth of a master gardener, showing that liberation from suffering is not an exotic mountain retreat but a clean, grounded way of seeing reality right in the middle of domestic and work life. It is an indispensable manual for calming a turbulent mind, untangling everyday friction, and resting in an unshakeable inner home.",
+      "coreThesis": "Suffering is not caused by life's changing circumstances, but by our clinging to them; by cultivating moral integrity, present-moment attention, and clear seeing, we discover an unshakeable inner peace that is already here.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Simple Teachings on Higher Truths"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -12120,6 +12340,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-craft-of-the-heart",
+    "title": "The Craft of the Heart",
+    "author": "Ajahn Lee Dhammadharo",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 175,
+    "publishedYear": 1939,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mastering your own mind is not an abstract mystical dream\\u2014it is an exact, hands-on craft akin to fine woodworking or tuning an engine. Ajahn Lee provides a no-nonsense workshop manual that trains your breath and attention to dissolve mental friction and uncover unshakable peace.",
+      "coreThesis": "Genuine inner liberation is an attainable practical trade: by purifying your ethical conduct and mastering conscious breath awareness, you dismantle mental agitation and reveal an indestructible wellspring of clarity and peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Craft of the Heart"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-crossroads-of-should-and-must",
     "title": "The Crossroads of Should and Must",
     "author": "Elle Luna",
@@ -13294,6 +13549,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Mind and the Way: Buddhist Reflections on Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-mind-that-knows",
+    "title": "The Mind That Knows",
+    "author": "Ajahn Anan",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop wrestling with your wandering thoughts and discover the quiet observer already looking through your eyes. Ajahn Anan reveals how awakening is not a distant summit to conquer, but an immediate return to the untainted awareness that knows every passing moment.",
+      "coreThesis": "Suffering occurs only when you mistake passing mental weather for your true identity; freedom is remembering that you are the silent, unshakeable awareness that knows the storm.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Mind That Knows"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -14489,6 +14779,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "the-skill-of-release",
+    "title": "The Skill of Release",
+    "author": "Ajahn Lee Dhammadharo",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 1995,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Liberation is not an accident or a vague philosophy\\u2014it is a refined craft mastered breath by breath. Ajahn Lee shows how to train the mind like an artisan, using conscious breath work to ground stillness, untangle suffering, and attain complete unbinding.",
+      "coreThesis": "Freedom from suffering is not an abstract concept, but a technical art developed by mastering bodily breath energy and mental stillness until grasping dissolves naturally.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Skill of Release"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -15707,6 +16032,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "venerable-acariya-mun-bhuridatta-spiritual-biography",
+    "title": "Venerable Acariya Mun Bhuridatta: Spiritual Biography",
+    "author": "Ajahn Maha Bua",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2002,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into the deep wilderness with Thailand's greatest modern forest master to discover how stripping away comfort reveals unshakable inner freedom. This extraordinary spiritual biography proves that complete enlightenment is not an ancient myth, but a living, practical reality achievable right here and now.",
+      "coreThesis": "Total liberation from suffering is achieved not by escaping the world, but by turning awareness directly upon the mind to burn away all self-deception through unwavering mindfulness and courageous self-investigation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Venerable Acariya Mun Bhuridatta: Spiritual Biography"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
