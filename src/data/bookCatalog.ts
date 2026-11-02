@@ -47,6 +47,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "building-a-second-brain": "./books/buildingASecondBrainExpanded.ts",
   "built-from-broken": "./books/builtFromBrokenExpanded.ts",
   "bullshit-jobs-on-bullshit": "./books/bullshitJobsOnBullshitExpanded.ts",
+  "clarity-of-insight-selected-forest-dhamma": "./books/clarityOfInsightSelectedForestDhammaExpanded.ts",
   "clear-thinking": "./books/clearThinkingExpanded.ts",
   "cognitive-psychology-mind-and-brain": "./books/cognitivePsychologyMindAndBrainExpanded.ts",
   "compassion-and-emptiness-in-early-buddhist-meditation": "./books/compassionAndEmptinessInEarlyBuddhistMeditationExpanded.ts",
@@ -143,6 +144,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "investigating-the-dhamma-a-collection-of-essays": "./books/investigatingTheDhammaACollectionOfEssaysExpanded.ts",
   "invisible-influence-the-hidden-forces-that-shape-behavior": "./books/invisibleInfluenceTheHiddenForcesThatShapeBehaviorExpanded.ts",
   "just-listen-discover-the-secret-to-getting-through-to-absolu": "./books/justListenDiscoverTheSecretToGettingThroughToAbsoluExpanded.ts",
+  "just-one-word-mindfulness": "./books/justOneWordMindfulnessExpanded.ts",
   "kill-it-with-fire-manage-aging-computer-systems-and-communic": "./books/killItWithFireManageAgingComputerSystemsAndCommunicExpanded.ts",
   "king-warrior-magician-lover": "./books/kingWarriorMagicianLoverExpanded.ts",
   "learn-like-a-pro": "./books/learnLikeAProExpanded.ts",
@@ -167,10 +169,13 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "manual-of-insight": "./books/manualOfInsightExpanded.ts",
   "meditation-instructions-for-intensive-practice": "./books/meditationInstructionsForIntensivePracticeExpanded.ts",
   "meditation-on-the-mind-mindful-watching-of-thoughts": "./books/meditationOnTheMindMindfulWatchingOfThoughtsExpanded.ts",
+  "meditations-1-dhamma-talks": "./books/meditations1DhammaTalksExpanded.ts",
+  "meditations-2-dhamma-talks": "./books/meditations2DhammaTalksExpanded.ts",
   "meditations": "./books/meditationsExpanded.ts",
   "meeting-the-shadow-the-hidden-power-of-the-dark-side-of-huma": "./books/meetingTheShadowTheHiddenPowerOfTheDarkSideOfHumaExpanded.ts",
   "memories-dreams-reflections": "./books/memoriesDreamsReflectionsExpanded.ts",
   "methods-of-persuasion": "./books/methodsOfPersuasionExpanded.ts",
+  "mind-like-fire-unbound": "./books/mindLikeFireUnboundExpanded.ts",
   "mind-over-mood": "./books/mindOverMoodExpanded.ts",
   "mindfully-facing-disease-and-death": "./books/mindfullyFacingDiseaseAndDeathExpanded.ts",
   "mindfulness-of-breathing-a-practice-guide-and-translations": "./books/mindfulnessOfBreathingAPracticeGuideAndTranslationsExpanded.ts",
@@ -186,9 +191,11 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "no-bad-parts-healing-trauma-and-restoring-wholeness-with-the": "./books/noBadPartsHealingTraumaAndRestoringWholenessWithTheExpanded.ts",
   "no-hard-feelings-the-secret-power-of-embracing-emotions-at-w": "./books/noHardFeelingsTheSecretPowerOfEmbracingEmotionsAtWExpanded.ts",
   "no-more-mr-nice-guy": "./books/noMoreMrNiceGuyExpanded.ts",
+  "noble-strategy-essays-on-the-buddhist-path": "./books/nobleStrategyEssaysOnTheBuddhistPathExpanded.ts",
   "nonviolent-communication-a-language-of-life": "./books/nonviolentCommunicationALanguageOfLifeExpanded.ts",
   "not-nice-stop-people-pleasing-staying-silent-feeling-guilty": "./books/notNiceStopPeoplePleasingStayingSilentFeelingGuiltyExpanded.ts",
   "nudge": "./books/nudgeExpanded.ts",
+  "on-the-path-an-anthology-of-suttas-on-the-noble-eightfold-path": "./books/onThePathAnAnthologyOfSuttasOnTheNobleEightfoldPathExpanded.ts",
   "on-the-path-to-freedom": "./books/onThePathToFreedomExpanded.ts",
   "one-small-step-can-change-your-life-the-kaizen-way": "./books/oneSmallStepCanChangeYourLifeTheKaizenWayExpanded.ts",
   "our-real-home-teachings-for-approaching-death": "./books/ourRealHomeTeachingsForApproachingDeathExpanded.ts",
@@ -196,6 +203,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "overcoming-destructive-anger": "./books/overcomingDestructiveAngerExpanded.ts",
   "overcoming-gravity": "./books/overcomingGravityExpanded.ts",
   "owning-your-own-shadow": "./books/owningYourOwnShadowExpanded.ts",
+  "peace-beyond-suffering": "./books/peaceBeyondSufferingExpanded.ts",
   "peak-performance": "./books/peakPerformanceExpanded.ts",
   "permission-to-feel": "./books/permissionToFeelExpanded.ts",
   "perspectives-on-satipatthana": "./books/perspectivesOnSatipatthanaExpanded.ts",
@@ -237,6 +245,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "7-powers-the-foundations-of-business-strategy": "./books/sevenPowersExpanded.ts",
   "she-understanding-feminine-psychology": "./books/sheUnderstandingFemininePsychologyExpanded.ts",
   "show-your-work": "./books/showYourWorkExpanded.ts",
+  "skill-in-questions-how-the-buddha-taught": "./books/skillInQuestionsHowTheBuddhaTaughtExpanded.ts",
   "skin-in-the-game": "./books/skinInTheGameExpanded.ts",
   "sleep-smarter": "./books/sleepSmarterExpanded.ts",
   "slight-edge": "./books/slightEdgeExpanded.ts",
@@ -317,6 +326,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-great-mental-models-vol-1-2": "./books/theGreatMentalModelsVol12Expanded.ts",
   "the-information-diet": "./books/theInformationDietExpanded.ts",
   "the-invisible-gorilla-how-our-intuitions-deceive-us": "./books/theInvisibleGorillaHowOurIntuitionsDeceiveUsExpanded.ts",
+  "the-key-to-liberation": "./books/theKeyToLiberationExpanded.ts",
   "the-life-of-sariputta": "./books/theLifeOfSariputtaExpanded.ts",
   "the-logic-of-scientific-discovery": "./books/theLogicOfScientificDiscoveryExpanded.ts",
   "the-lucifer-effect-understanding-how-good-people-turn-evil": "./books/theLuciferEffectUnderstandingHowGoodPeopleTurnEvilExpanded.ts",
@@ -332,6 +342,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-obesity-code": "./books/theObesityCodeExpanded.ts",
   "the-one-thing": "./books/theOneThingExpanded.ts",
   "the-oxygen-advantage": "./books/theOxygenAdvantageExpanded.ts",
+  "the-paradox-of-becoming-finding-freedom-in-the-cycle-of-becoming": "./books/theParadoxOfBecomingFindingFreedomInTheCycleOfBecomingExpanded.ts",
   "the-paradox-of-choice": "./books/theParadoxOfChoiceExpanded.ts",
   "the-path-made-clear": "./books/thePathMadeClearExpanded.ts",
   "the-polyvagal-theory-in-therapy": "./books/thePolyvagalTheoryInTherapyExpanded.ts",
@@ -353,6 +364,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-seven-sins-of-memory": "./books/theSevenSinsOfMemoryExpanded.ts",
   "the-seven-stages-of-purification": "./books/theSevenStagesOfPurificationExpanded.ts",
   "the-shallows-what-the-internet-is-doing-to-our-brains": "./books/theShallowsWhatTheInternetIsDoingToOurBrainsExpanded.ts",
+  "the-shape-of-suffering-a-study-of-dependent-co-arising": "./books/theShapeOfSufferingAStudyOfDependentCoArisingExpanded.ts",
   "the-signal-and-the-noise": "./books/theSignalAndTheNoiseExpanded.ts",
   "the-sleep-solution": "./books/theSleepSolutionExpanded.ts",
   "the-social-animal": "./books/theSocialAnimalExpanded.ts",
@@ -367,6 +379,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-war-of-art": "./books/theWarOfArtExpanded.ts",
   "the-way-to-the-guru-meditative-guidance": "./books/theWayToTheGuruMeditativeGuidanceExpanded.ts",
   "the-willpower-instinct": "./books/theWillpowerInstinctExpanded.ts",
+  "the-wings-to-awakening-an-anthology-from-the-pali-canon": "./books/theWingsToAwakeningAnAnthologyFromThePaliCanonExpanded.ts",
   "the-worn-out-skin-reflections-on-the-uraga-sutta": "./books/theWornOutSkinReflectionsOnTheUragaSuttaExpanded.ts",
   "the-worry-trick": "./books/theWorryTrickExpanded.ts",
   "think-again-the-power-of-knowing-what-you-don-t-know": "./books/thinkAgainThePowerOfKnowingWhatYouDonTKnowExpanded.ts",
@@ -402,6 +415,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "willpower-doesn-t-work": "./books/willpowerDoesnTWorkExpanded.ts",
   "wim-hof-the-wim-hof-method": "./books/wimHofTheWimHofMethodExpanded.ts",
   "win-every-argument-the-art-of-debating-persuading-and-public": "./books/winEveryArgumentTheArtOfDebatingPersuadingAndPublicExpanded.ts",
+  "with-each-and-every-breath-a-guide-to-meditation": "./books/withEachAndEveryBreathAGuideToMeditationExpanded.ts",
   "with-good-reason-an-introduction-to-informal-fallacies": "./books/withGoodReasonAnIntroductionToInformalFallaciesExpanded.ts",
   "without-conscience-the-disturbing-world-of-the-psychopaths-a": "./books/withoutConscienceTheDisturbingWorldOfThePsychopathsAExpanded.ts",
   "words-can-change-your-brain": "./books/wordsCanChangeYourBrainExpanded.ts",
@@ -2044,6 +2058,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "clarity-of-insight-selected-forest-dhamma",
+    "title": "Clarity of Insight: Selected Forest Dhamma",
+    "author": "Ajahn Chah",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1979,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop wrestling with your restless mind and simply flip on the inner light switch. Ajahn Chah reveals that true freedom comes not from stopping thoughts, but from resting as the silent, unshakeable observer who sees all things rise and fall.",
+      "coreThesis": "Suffering occurs only when the mind clings to ever-shifting conditions; by resting in steady, luminous awareness ('the one who knows'), we see through illusions and discover unshakeable inner peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Clarity of Insight: Selected Forest Dhamma"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -5400,6 +5449,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "just-one-word-mindfulness",
+    "title": "Just One Word: Mindfulness",
+    "author": "Ajahn Chah",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Cut through endless spiritual debates and overthinking with a single, direct command: wake up to this immediate breath, see thoughts as passing weather, and drop what hurts.",
+      "coreThesis": "Suffering is not caused by life's fluctuating conditions, but by our habit of grasping what changes; seeing this clearly in the immediate moment through bare mindfulness is the entire path to peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Just One Word: Mindfulness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "kill-it-with-fire-manage-aging-computer-systems-and-communic",
     "title": "Kill It with Fire: Manage Aging Computer Systems (and Communication)",
     "author": "Marianne Bellotti",
@@ -6238,6 +6322,76 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "meditations-1-dhamma-talks",
+    "title": "Meditations 1: Dhamma Talks",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 200,
+    "publishedYear": 2003,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Meditation is not a passive mental spa; it is a master craft of inner engineering. Thanissaro Bhikkhu offers forty direct, practical field-talks that show you how to use breath, ethics, and relentless discernment to liberate the mind from self-inflicted friction.",
+      "coreThesis": "Suffering is not an inescapable fate imposed by the world, but an unskillful internal fabrication that dissolves completely when the mind masters the craft of breath awareness, ethical restraint, and lucid discernment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Meditations 1: Dhamma Talks"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "meditations-2-dhamma-talks",
+    "title": "Meditations 2: Dhamma Talks",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 200,
+    "publishedYear": 2006,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop treating meditation as passive escape; treat it as master craftsmanship. These evening talks show you how to forge the breath into a portable sanctuary of unshakable clarity in an unruly world.",
+      "coreThesis": "Suffering is not an inevitable fact of life, but an unskillful habit that dissolves when the mind actively cultivates breath-centered stillness and razor-sharp discernment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Meditations 2: Dhamma Talks"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "meditations",
     "title": "Meditations",
     "author": "Marcus Aurelius",
@@ -6372,6 +6526,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "mind-like-fire-unbound",
+    "title": "Mind Like Fire Unbound",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1993,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Nibbana does not mean annihilation or going dark into nothingness; it means radical, cooling release. When you understand how an ancient flame lets go of its fuel, you uncover the direct, practical path to unbinding your own mind.",
+      "coreThesis": "Suffering is an active process sustained solely by what the mind clings to; withdraw the fuel, and consciousness naturally cools into unconfined, timeless freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mind Like Fire Unbound"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -6901,6 +7090,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "noble-strategy-essays-on-the-buddhist-path",
+    "title": "Noble Strategy: Essays on the Buddhist Path",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 1999,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Buddhism is not a passive philosophy of mere acceptance, but an empowering master craft for training the mind toward total emotional freedom. Thanissaro Bhikkhu reveals the Dhamma as a pragmatic, noble strategy where every intention becomes a skillful tool to dismantle suffering.",
+      "coreThesis": "The spiritual path is a deliberate, skillful strategy of action that transforms present intention, using ethical clarity and focused awareness to unbind the heart from all suffering.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Noble Strategy: Essays on the Buddhist Path"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "nonviolent-communication-a-language-of-life",
     "title": "Nonviolent Communication: A Language of Life",
     "author": "Marshall B. Rosenberg",
@@ -7002,6 +7226,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "on-the-path-an-anthology-of-suttas-on-the-noble-eightfold-path",
+    "title": "On the Path: An Anthology of Suttas on the Noble Eightfold Path",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Suffering is not a permanent trap, but a practical problem with an exact, hands-on mechanical solution. Thanissaro Bhikkhu curates the Buddha's original operating manual to show how deliberate ethical discipline, focused awareness, and meditative stillness assemble a reliable craft for total spiritual freedom.",
+      "coreThesis": "The Noble Eightfold Path is a deliberate, pragmatic training program that transforms how you generate intention, turning every action, thought, and breath into a direct vehicle toward the unconditioned peace of liberation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "On the Path: An Anthology of Suttas on the Noble Eightfold Path"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -7245,6 +7504,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "peace-beyond-suffering",
+    "title": "Peace Beyond Suffering",
+    "author": "Ajahn Chah",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1980,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Suffering does not come from the noisy world around you; it comes entirely from clutching things that change. Ajahn Chah hands you the plain, practical wisdom to put down the heavy rock you never realized you were carrying.",
+      "coreThesis": "Suffering occurs only when the mind grasps and resists reality; absolute peace appears the moment you open your hands and let experience flow without clinging.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Peace Beyond Suffering"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -8674,6 +8968,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "skill-in-questions-how-the-buddha-taught",
+    "title": "Skill in Questions: How the Buddha Taught",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Master the art of spiritual inquiry: discover how asking the right questions\\u2014and deliberately ignoring the wrong ones\\u2014becomes the master key to personal peace and liberation.",
+      "coreThesis": "Awakening is not about possessing universal theoretical knowledge, but about mastering the fourfold craft of questioning so that every thought actively dissolves suffering.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Skill in Questions: How the Buddha Taught"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -11468,6 +11797,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-key-to-liberation",
+    "title": "The Key to Liberation",
+    "author": "Ajahn Chah",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1999,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Liberation is not an unreachable mystical summit; it is the natural, unshakeable calm discovered when you stop chasing pleasant thoughts and stop running from unpleasant ones.",
+      "coreThesis": "Freedom from suffering comes not from controlling your thoughts or arranging perfect conditions, but from observing every arising experience with non-clinging awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Key to Liberation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-life-of-sariputta",
     "title": "The Life of Sariputta",
     "author": "Nyanaponika Thera",
@@ -11986,6 +12350,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Finance",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-paradox-of-becoming-finding-freedom-in-the-cycle-of-becoming",
+    "title": "The Paradox of Becoming: Finding Freedom in the Cycle of Becoming",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You cannot escape suffering by trying to destroy your ego; you escape by using a healthy, focused mind as a practical raft until you reach the opposite shore.",
+      "coreThesis": "Liberation does not come from destroying the self, but from skillfully using a disciplined identity and focused stillness as a temporary raft to cross beyond all identity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Paradox of Becoming: Finding Freedom in the Cycle of Becoming"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -12724,6 +13123,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-shape-of-suffering-a-study-of-dependent-co-arising",
+    "title": "The Shape of Suffering: A Study of Dependent Co-arising",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Suffering is not an inescapable fate or a single historical accident; it is an active mechanical loop your mind continuously manufactures right now. By learning where to unplug this causal feedback circuit in real-time, you dismantle stress at its root and step into profound, unconditioned peace.",
+      "coreThesis": "Suffering is an active, ongoing process of mental fabrication sustained by real-time feedback loops. By developing calm discernment at key causal junctions in the present moment, you stop feeding the loop and bring stress to an end.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Shape of Suffering: A Study of Dependent Co-arising"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-signal-and-the-noise",
     "title": "The Signal and the Noise",
     "author": "Nate Silver",
@@ -13207,6 +13641,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-wings-to-awakening-an-anthology-from-the-pali-canon",
+    "title": "The Wings to Awakening: An Anthology from the Pali Canon",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 90,
+    "publishedYear": 1996,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Awakening is not mystical luck or vague surrender; it is a practical, master craft anyone can develop through disciplined attention. This anthology reveals the Buddha's definitive engineering manual for purifying attention and experiencing unshakable freedom right now.",
+      "coreThesis": "Suffering is an active process generated by unexamined intentions, and liberation is a practical, trainable craft achieved by aligning attention, stillness, and clear discernment with immediate reality.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Wings to Awakening: An Anthology from the Pali Canon"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -14428,6 +14897,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "with-each-and-every-breath-a-guide-to-meditation",
+    "title": "With Each and Every Breath: A Guide to Meditation",
+    "author": "Thanissaro Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your breath is not just air entering your lungs\\u2014it is an internal energy network and a direct steering wheel for your attention. Thanissaro Bhikkhu delivers a rigorous, master-craftsman guide from the Thai Forest tradition to turn every breath into an anchor of clear awareness, profound comfort, and lasting freedom.",
+      "coreThesis": "Genuine, reliable happiness is an internal craft cultivated by training the mind to harmonize with the breath, replacing compulsive reactive habits with luminous awareness and discernment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "With Each and Every Breath: A Guide to Meditation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
