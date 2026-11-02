@@ -49,6 +49,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "brahmavihara-the-four-immeasurables-in-early-buddhism": "./books/brahmaviharaTheFourImmeasurablesInEarlyBuddhismExpanded.ts",
   "breakthrough-realizing-the-deathless-in-this-life": "./books/breakthroughRealizingTheDeathlessInThisLifeExpanded.ts",
   "breath-the-new-science-of-a-lost-art": "./books/breathTheNewScienceOfALostArtExpanded.ts",
+  "breathe-you-are-alive-anapanasati-sutra": "./books/breatheYouAreAliveAnapanasatiSutraExpanded.ts",
   "breathing-like-a-buddha": "./books/breathingLikeABuddhaExpanded.ts",
   "broad-view-boundless-heart": "./books/broadViewBoundlessHeartExpanded.ts",
   "buddhism-and-the-ecology-of-mind": "./books/buddhismAndTheEcologyOfMindExpanded.ts",
@@ -129,6 +130,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "getting-things-done-the-art-of-stress-free-productivity": "./books/gettingThingsDoneTheArtOfStressFreeProductivityExpanded.ts",
   "getting-to-yes-negotiating-agreement-without-giving-in": "./books/gettingToYesNegotiatingAgreementWithoutGivingInExpanded.ts",
   "going-for-refuge-and-taking-the-precepts": "./books/goingForRefugeAndTakingThePreceptsExpanded.ts",
+  "going-home-jesus-and-buddha-as-brothers": "./books/goingHomeJesusAndBuddhaAsBrothersExpanded.ts",
   "good-reasons-for-better-arguments": "./books/goodReasonsForBetterArgumentsExpanded.ts",
   "great-disciples-of-the-buddha-their-lives-and-legacy": "./books/greatDisciplesOfTheBuddhaTheirLivesAndLegacyExpanded.ts",
   "he-understanding-masculine-psychology": "./books/heUnderstandingMasculinePsychologyExpanded.ts",
@@ -179,6 +181,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "limitless": "./books/limitlessExpanded.ts",
   "linked-how-everything-is-connected": "./books/linkedHowEverythingIsConnectedExpanded.ts",
   "listen-like-you-mean-it-reclaiming-the-lost-art-of-true-conn": "./books/listenLikeYouMeanItReclaimingTheLostArtOfTrueConnExpanded.ts",
+  "living-buddha-living-christ": "./books/livingBuddhaLivingChristExpanded.ts",
   "living-dhamma": "./books/livingDhammaExpanded.ts",
   "living-forward-a-proven-plan-to-stop-drifting": "./books/livingForwardAProvenPlanToStopDriftingExpanded.ts",
   "living-nonviolent-communication": "./books/livingNonviolentCommunicationExpanded.ts",
@@ -237,6 +240,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "on-the-path-to-freedom": "./books/onThePathToFreedomExpanded.ts",
   "one-small-step-can-change-your-life-the-kaizen-way": "./books/oneSmallStepCanChangeYourLifeTheKaizenWayExpanded.ts",
   "opening-the-door-of-your-heart": "./books/openingTheDoorOfYourHeartExpanded.ts",
+  "our-appointment-with-life-the-bhaddekaratta-sutta": "./books/ourAppointmentWithLifeTheBhaddekarattaSuttaExpanded.ts",
   "our-real-home-teachings-for-approaching-death": "./books/ourRealHomeTeachingsForApproachingDeathExpanded.ts",
   "outlive-the-science-and-art-of-longevity": "./books/outliveTheScienceAndArtOfLongevityExpanded.ts",
   "overcoming-destructive-anger": "./books/overcomingDestructiveAngerExpanded.ts",
@@ -324,6 +328,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "superiority-conceit-in-buddhist-traditions": "./books/superiorityConceitInBuddhistTraditionsExpanded.ts",
   "sync-how-order-emerges-from-chaos": "./books/syncHowOrderEmergesFromChaosExpanded.ts",
   "teachings-of-a-buddhist-monk": "./books/teachingsOfABuddhistMonkExpanded.ts",
+  "teachings-on-love": "./books/teachingsOnLoveExpanded.ts",
   "thank-you-for-arguing": "./books/thankYouForArguingExpanded.ts",
   "thanks-for-the-feedback-the-science-and-art-of-receiving-fee": "./books/thanksForTheFeedbackTheScienceAndArtOfReceivingFeeExpanded.ts",
   "the-1-rule": "./books/the1RuleExpanded.ts",
@@ -365,6 +370,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-crowd-a-study-of-the-popular-mind": "./books/theCrowdAStudyOfThePopularMindExpanded.ts",
   "the-dance-of-anger": "./books/theDanceOfAngerExpanded.ts",
   "the-dawn-of-abhidharma": "./books/theDawnOfAbhidharmaExpanded.ts",
+  "the-diamond-that-cuts-through-illusion": "./books/theDiamondThatCutsThroughIllusionExpanded.ts",
   "the-dip-a-little-book-that-teaches-you-when-to-quit": "./books/theDipALittleBookThatTeachesYouWhenToQuitExpanded.ts",
   "the-discourse-on-the-root-of-existence-mulapariyaya-sutta": "./books/theDiscourseOnTheRootOfExistenceMulapariyayaSuttaExpanded.ts",
   "the-disease-to-please-curing-the-people-pleasing-syndrome": "./books/theDiseaseToPleaseCuringThePeoplePleasingSyndromeExpanded.ts",
@@ -464,9 +470,12 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "tiny-habits-the-small-changes-that-change-everything": "./books/tinyHabitsTheSmallChangesThatChangeEverythingExpanded.ts",
   "to-sell-is-human-the-surprising-truth-about-moving-others": "./books/toSellIsHumanTheSurprisingTruthAboutMovingOthersExpanded.ts",
   "to-the-last-breath-dhamma-talks-on-illness-and-death": "./books/toTheLastBreathDhammaTalksOnIllnessAndDeathExpanded.ts",
+  "touching-peace-practicing-the-art-of-mindful-living": "./books/touchingPeacePracticingTheArtOfMindfulLivingExpanded.ts",
   "transcendental-dependent-arising": "./books/transcendentalDependentArisingExpanded.ts",
+  "transformation-and-healing-satipatthana-sutra": "./books/transformationAndHealingSatipatthanaSutraExpanded.ts",
   "transitions-making-sense-of-life-s-changes": "./books/transitionsMakingSenseOfLifeSChangesExpanded.ts",
   "treatise-on-the-vipassana-insight-practice": "./books/treatiseOnTheVipassanaInsightPracticeExpanded.ts",
+  "true-love-a-practice-for-awakening-the-heart": "./books/trueLoveAPracticeForAwakeningTheHeartExpanded.ts",
   "tug-of-vow-monastic-training-in-the-forest-tradition": "./books/tugOfVowMonasticTrainingInTheForestTraditionExpanded.ts",
   "turning-the-wheel-of-truth": "./books/turningTheWheelOfTruthExpanded.ts",
   "ultralearning": "./books/ultralearningExpanded.ts",
@@ -506,7 +515,8 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "you-are-here-discovering-the-magic-of-the-present-moment": "./books/youAreHereDiscoveringTheMagicOfThePresentMomentExpanded.ts",
   "you-are-not-so-smart": "./books/youAreNotSoSmartExpanded.ts",
   "your-erroneous-zones": "./books/yourErroneousZonesExpanded.ts",
-  "your-perfect-right-assertiveness-and-equality-in-your-life-a": "./books/yourPerfectRightAssertivenessAndEqualityInYourLifeAExpanded.ts"
+  "your-perfect-right-assertiveness-and-equality-in-your-life-a": "./books/yourPerfectRightAssertivenessAndEqualityInYourLifeAExpanded.ts",
+  "zen-keys-a-guide-to-zen-practice": "./books/zenKeysAGuideToZenPracticeExpanded.ts"
 };
 
 export const SEED_BOARDS: StashBoard[] = [
@@ -2208,6 +2218,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Finance",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "breathe-you-are-alive-anapanasati-sutra",
+    "title": "Breathe, You Are Alive: Anapanasati Sutra",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1990,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your breath is an unwavering bridge reuniting scattered attention with the vibrant reality of living. Thich Nhat Hanh translates an ancient Buddhist manual into an effortless, grounded discipline for steadying the heart and awakening to life in the present moment.",
+      "coreThesis": "Breath is the living bridge between scattered thoughts and embodied reality; by gently observing the in-breath and out-breath without strain, you calm the nervous system, cradle challenging emotions with compassion, and realize that true life is found only in the present moment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Breathe, You Are Alive: Anapanasati Sutra"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -5006,6 +5051,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "going-home-jesus-and-buddha-as-brothers",
+    "title": "Going Home: Jesus and Buddha as Brothers",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1999,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Jesus and the Buddha are not rival religious figures competing for souls, but spiritual brothers teaching the exact same art of mindful presence, reconciliation, and deep peace. By returning to the sacred sanctuary of your own conscious breathing, you discover that the Kingdom of God and the Pure Land are fully alive here and now.",
+      "coreThesis": "True spiritual life is not an adherence to abstract dogmas, but an experiential homecoming to the present moment where mindfulness, compassion, and divine presence naturally dissolve alienation and unite all spiritual traditions.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Going Home: Jesus and Buddha as Brothers"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "good-reasons-for-better-arguments",
     "title": "Good Reasons for Better Arguments",
     "author": "Jerome E. Bickenbach & Jacqueline M. Davies",
@@ -6748,6 +6828,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "living-buddha-living-christ",
+    "title": "Living Buddha, Living Christ",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1995,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When you strip away rigid dogma, the heart of spiritual life is not an argument over concepts, but the immediate art of being awake and compassionate. Thich Nhat Hanh builds a luminous bridge between East and West, showing how mindfulness and the Holy Spirit both awaken the divine right here in daily life.",
+      "coreThesis": "Authentic spirituality is not an intellectual allegiance to doctrine, but a living practice of mindfulness and compassion that reveals the sacred within the present moment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Living Buddha, Living Christ"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -8767,6 +8882,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Opening the Door of Your Heart"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "our-appointment-with-life-the-bhaddekaratta-sutta",
+    "title": "Our Appointment with Life: The Bhaddekaratta Sutta",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 1990,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Life has already scheduled a meeting with you right now, yet your mind is constantly out of the office chasing dead memories or phantom futures. This classic guide hands you the practical keys to show up, sit down, and reclaim your direct experience before your life passes you by.",
+      "coreThesis": "Life is available only in the present moment; to be caught in the ghosts of the past or dreams of the future is to miss your only real appointment with reality.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Our Appointment with Life: The Bhaddekaratta Sutta"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -11813,6 +11963,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "teachings-on-love",
+    "title": "Teachings on Love",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 1997,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Love is not an intoxicating emotional seizure or a barter of codependency; it is a practical, daily craft of cultivated awareness. Thich Nhat Hanh presents a masterclass in relational mindfulness, showing that you can only love someone as deeply as you understand their pain and care for your own.",
+      "coreThesis": "Understanding is the very substance of love: to love without understanding another's suffering is not love, but mere attachment and possession.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Teachings on Love"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "thank-you-for-arguing",
     "title": "Thank You for Arguing",
     "author": "Jay Heinrichs",
@@ -13233,6 +13418,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Dawn of Abhidharma"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-diamond-that-cuts-through-illusion",
+    "title": "The Diamond That Cuts Through Illusion",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 160,
+    "publishedYear": 1992,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Cut through your daily anxiety and mental fog with the diamond-sharp wisdom of the Diamond Sutra. Thich Nhat Hanh translates profound ancient non-duality into a practical, serene way to live free from mental traps and emotional burnout.",
+      "coreThesis": "Suffering dissolves when we see through the illusion of a separate self and recognize that all things exist only in dynamic, interconnected relationship.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Diamond That Cuts Through Illusion"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -16698,6 +16918,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "touching-peace-practicing-the-art-of-mindful-living",
+    "title": "Touching Peace: Practicing the Art of Mindful Living",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1992,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Peace is not a distant trophy waiting at the end of a long struggle; it is a physical reality waiting under your feet each time you step into the present moment. Thich Nhat Hanh hands you the practical tools to transform everyday friction, sorrow, and daily pressure into living serenity.",
+      "coreThesis": "Peace is available in every breath and step; by embracing our suffering without aversion, we touch the living miracle of the present moment and cultivate lasting compassion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Touching Peace: Practicing the Art of Mindful Living"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "transcendental-dependent-arising",
     "title": "Transcendental Dependent Arising",
     "author": "Bhikkhu Bodhi",
@@ -16721,6 +16976,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Transcendental Dependent Arising"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "transformation-and-healing-satipatthana-sutra",
+    "title": "Transformation and Healing: Satipatthana Sutra",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1990,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop fighting your inner life and learn to inhabit your immediate reality with serene, grounded awareness. Thich Nhat Hanh translates Buddhism's most fundamental meditation guide into practical, everyday tools for deep mental clarity and lasting peace.",
+      "coreThesis": "Suffering dissolves when we stop escaping our present experience and instead illuminate the body, feelings, mind, and reality with gentle, non-reactive awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Transformation and Healing: Satipatthana Sutra"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -16791,6 +17081,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Treatise on the Vipassana Insight Practice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "true-love-a-practice-for-awakening-the-heart",
+    "title": "True Love: A Practice for Awakening the Heart",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Love is not a passive sentiment or a dramatic emotional contract\\u2014it is an active capacity of mindful presence that can be trained like any daily discipline. Thich Nhat Hanh cuts through romantic illusions to reveal how anchoring your attention in the present moment transforms relationships into sanctuaries of genuine peace and understanding.",
+      "coreThesis": "Authentic love is the capacity to be fully present for yourself and another, offering freedom, compassion, and deep listening rather than possessive attachment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "True Love: A Practice for Awakening the Heart"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -18196,6 +18521,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "zen-keys-a-guide-to-zen-practice",
+    "title": "Zen Keys: A Guide to Zen Practice",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1974,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Zen is not an intellectual philosophy to debate, but a practical key that unlocks direct contact with life right now. By bringing calm, undivided attention to washing a dish or taking a step, you dissolve anxiety and touch profound peace in the present moment.",
+      "coreThesis": "Enlightenment is not a distant, supernatural achievement; it is the immediate, conscious awareness of living fully in the present moment through mindful body and mind alignment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Zen Keys: A Guide to Zen Practice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
