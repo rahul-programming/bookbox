@@ -6,6 +6,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "3-d-negotiation-powerful-tools-to-change-the-game-in-your-mo": "./books/3DNegotiationPowerfulToolsToChangeTheGameInYourMoExpanded.ts",
   "a-comparative-study-of-the-majjhima-nikaya-volume-1": "./books/aComparativeStudyOfTheMajjhimaNikayaVolume1Expanded.ts",
   "a-comparative-study-of-the-majjhima-nikaya-volume-2": "./books/aComparativeStudyOfTheMajjhimaNikayaVolume2Expanded.ts",
+  "a-comprehensive-manual-of-abhidhamma": "./books/aComprehensiveManualOfAbhidhammaExpanded.ts",
   "a-concise-introduction-to-logic": "./books/aConciseIntroductionToLogicExpanded.ts",
   "a-discourse-on-the-cula-vedalla-sutta": "./books/aDiscourseOnTheCulaVedallaSuttaExpanded.ts",
   "a-discourse-on-the-maha-vedalla-sutta": "./books/aDiscourseOnTheMahaVedallaSuttaExpanded.ts",
@@ -37,6 +38,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "boundaries-when-to-say-yes-how-to-say-no-to-take-control-of-": "./books/boundariesWhenToSayYesHowToSayNoToTakeControlOfExpanded.ts",
   "brahmavihara-the-four-immeasurables-in-early-buddhism": "./books/brahmaviharaTheFourImmeasurablesInEarlyBuddhismExpanded.ts",
   "breath-the-new-science-of-a-lost-art": "./books/breathTheNewScienceOfALostArtExpanded.ts",
+  "buddhism-and-the-god-idea": "./books/buddhismAndTheGodIdeaExpanded.ts",
   "building-a-second-brain": "./books/buildingASecondBrainExpanded.ts",
   "built-from-broken": "./books/builtFromBrokenExpanded.ts",
   "bullshit-jobs-on-bullshit": "./books/bullshitJobsOnBullshitExpanded.ts",
@@ -119,6 +121,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "ikigai-the-japanese-secret-to-a-long-and-happy-life": "./books/ikigaiTheJapaneseSecretToALongAndHappyLifeExpanded.ts",
   "in-defense-of-food": "./books/inDefenseOfFoodExpanded.ts",
   "in-sheep-s-clothing-understanding-and-dealing-with-manipulat": "./books/inSheepSClothingUnderstandingAndDealingWithManipulatExpanded.ts",
+  "in-the-buddha-s-words-an-anthology-from-the-pali-canon": "./books/inTheBuddhaSWordsAnAnthologyFromThePaliCanonExpanded.ts",
   "in-the-realm-of-hungry-ghosts": "./books/inTheRealmOfHungryGhostsExpanded.ts",
   "in-this-very-life-the-liberation-teachings-of-the-buddha": "./books/inThisVeryLifeTheLiberationTeachingsOfTheBuddhaExpanded.ts",
   "indistractable-how-to-control-your-attention-and-choose-your": "./books/indistractableHowToControlYourAttentionAndChooseYourExpanded.ts",
@@ -189,12 +192,14 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "practical-vipassana-meditative-exercises": "./books/practicalVipassanaMeditativeExercisesExpanded.ts",
   "pre-suasion-a-revolutionary-way-to-influence-and-persuade": "./books/preSuasionARevolutionaryWayToInfluenceAndPersuadeExpanded.ts",
   "primal-leadership": "./books/primalLeadershipExpanded.ts",
+  "protection-through-satipatthana": "./books/protectionThroughSatipatthanaExpanded.ts",
   "the-psychology-of-money-timeless-lessons-on-wealth-greed-and": "./books/psychologyOfMoneyExpanded.ts",
   "purification-of-mind-and-view": "./books/purificationOfMindAndViewExpanded.ts",
   "radical-acceptance": "./books/radicalAcceptanceExpanded.ts",
   "radical-compassion": "./books/radicalCompassionExpanded.ts",
   "range-why-generalists-triumph-in-a-specialized-world": "./books/rangeWhyGeneralistsTriumphInASpecializedWorldExpanded.ts",
   "rational-recovery": "./books/rationalRecoveryExpanded.ts",
+  "reading-the-buddha-s-discourses-in-pali": "./books/readingTheBuddhaSDiscoursesInPaliExpanded.ts",
   "rebirth-in-early-buddhism-and-current-research": "./books/rebirthInEarlyBuddhismAndCurrentResearchExpanded.ts",
   "reclaiming-conversation-the-power-of-talk-in-a-digital-age": "./books/reclaimingConversationThePowerOfTalkInADigitalAgeExpanded.ts",
   "reinventing-you": "./books/reinventingYouExpanded.ts",
@@ -271,6 +276,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-compassionate-mind": "./books/theCompassionateMindExpanded.ts",
   "the-complete-guide-to-fasting": "./books/theCompleteGuideToFastingExpanded.ts",
   "the-compound-effect": "./books/theCompoundEffectExpanded.ts",
+  "the-connected-discourses-of-the-buddha-samyutta-nikaya": "./books/theConnectedDiscoursesOfTheBuddhaSamyuttaNikayaExpanded.ts",
   "the-courage-to-be-disliked": "./books/theCourageToBeDislikedExpanded.ts",
   "the-crossroads-of-should-and-must": "./books/theCrossroadsOfShouldAndMustExpanded.ts",
   "the-crowd-a-study-of-the-popular-mind": "./books/theCrowdAStudyOfThePopularMindExpanded.ts",
@@ -283,9 +289,11 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-easy-way-to-stop-smoking-stop-drinking": "./books/theEasyWayToStopSmokingStopDrinkingExpanded.ts",
   "the-evolution-of-desire-strategies-of-human-mating": "./books/theEvolutionOfDesireStrategiesOfHumanMatingExpanded.ts",
   "the-fifth-discipline": "./books/theFifthDisciplineExpanded.ts",
+  "the-five-mental-hindrances-and-their-conquest": "./books/theFiveMentalHindrancesAndTheirConquestExpanded.ts",
   "the-forty-rules-of-love": "./books/theFortyRulesOfLoveExpanded.ts",
   "the-foundation-conditions-for-nirvana": "./books/theFoundationConditionsForNirvanaExpanded.ts",
   "the-four-foundations-of-mindfulness": "./books/theFourFoundationsOfMindfulnessExpanded.ts",
+  "the-four-nutriments-of-life": "./books/theFourNutrimentsOfLifeExpanded.ts",
   "the-four-sublime-states-brahma-vihara": "./books/theFourSublimeStatesBrahmaViharaExpanded.ts",
   "the-genesis-of-the-bodhisattva-ideal": "./books/theGenesisOfTheBodhisattvaIdealExpanded.ts",
   "the-gifts-of-imperfection": "./books/theGiftsOfImperfectionExpanded.ts",
@@ -296,11 +304,14 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-logic-of-scientific-discovery": "./books/theLogicOfScientificDiscoveryExpanded.ts",
   "the-lucifer-effect-understanding-how-good-people-turn-evil": "./books/theLuciferEffectUnderstandingHowGoodPeopleTurnEvilExpanded.ts",
   "the-memory-book": "./books/theMemoryBookExpanded.ts",
+  "the-middle-length-discourses-of-the-buddha-majjhima-nikaya": "./books/theMiddleLengthDiscoursesOfTheBuddhaMajjhimaNikayaExpanded.ts",
   "the-model-thinker": "./books/theModelThinkerExpanded.ts",
   "the-moral-animal": "./books/theMoralAnimalExpanded.ts",
   "the-narcissist-you-know": "./books/theNarcissistYouKnowExpanded.ts",
+  "the-noble-eightfold-path-way-to-the-end-of-suffering": "./books/theNobleEightfoldPathWayToTheEndOfSufferingExpanded.ts",
   "the-noonday-demon-an-atlas-of-depression": "./books/theNoondayDemonAnAtlasOfDepressionExpanded.ts",
   "the-now-habit": "./books/theNowHabitExpanded.ts",
+  "the-numerical-discourses-of-the-buddha-anguttara-nikaya": "./books/theNumericalDiscoursesOfTheBuddhaAnguttaraNikayaExpanded.ts",
   "the-obesity-code": "./books/theObesityCodeExpanded.ts",
   "the-one-thing": "./books/theOneThingExpanded.ts",
   "the-oxygen-advantage": "./books/theOxygenAdvantageExpanded.ts",
@@ -317,6 +328,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-progress-of-insight-through-mental-noting": "./books/theProgressOfInsightThroughMentalNotingExpanded.ts",
   "the-promise-of-sleep": "./books/thePromiseOfSleepExpanded.ts",
   "the-righteous-mind-why-good-people-are-divided-by-politics-a": "./books/theRighteousMindWhyGoodPeopleAreDividedByPoliticsAExpanded.ts",
+  "the-road-to-inner-freedom": "./books/theRoadToInnerFreedomExpanded.ts",
   "the-roots-of-good-and-evil": "./books/theRootsOfGoodAndEvilExpanded.ts",
   "the-scout-mindset": "./books/theScoutMindsetExpanded.ts",
   "the-second-mountain-the-quest-for-a-moral-life": "./books/theSecondMountainTheQuestForAMoralLifeExpanded.ts",
@@ -331,6 +343,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-soulful-art-of-persuasion": "./books/theSoulfulArtOfPersuasionExpanded.ts",
   "the-state-of-mind-called-beautiful": "./books/theStateOfMindCalledBeautifulExpanded.ts",
   "the-sutta-discovery-early-buddhist-teachings": "./books/theSuttaDiscoveryEarlyBuddhistTeachingsExpanded.ts",
+  "the-suttanipata-an-ancient-collection-of-discourses": "./books/theSuttanipataAnAncientCollectionOfDiscoursesExpanded.ts",
   "the-systems-view-of-life": "./books/theSystemsViewOfLifeExpanded.ts",
   "the-upward-spiral": "./books/theUpwardSpiralExpanded.ts",
   "the-uses-of-argument": "./books/theUsesOfArgumentExpanded.ts",
@@ -576,6 +589,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "A Comparative Study of the Majjhima-nikaya (Volume 2)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "a-comprehensive-manual-of-abhidhamma",
+    "title": "A Comprehensive Manual of Abhidhamma",
+    "author": "Bhikkhu Bodhi",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1993,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind is not a single, solid self; it is a rapid stream of micro-moments that can be understood, cleaned, and liberated. This book provides the ultimate high-definition blueprint of human consciousness to dissolve suffering directly at its roots.",
+      "coreThesis": "Suffering arises because we mistake a rapid flow of conditioned mind-moments for an enduring self; dismantling experience into its ultimate mental and physical components unlocks authentic spiritual freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "A Comprehensive Manual of Abhidhamma"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -1663,6 +1711,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Finance",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "buddhism-and-the-god-idea",
+    "title": "Buddhism and the God-Idea",
+    "author": "Nyanaponika Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1962,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step off the treadmill of seeking salvation outside yourself. Nyanaponika Thera offers a serene, razor-sharp look into how awakening is not found in an external creator, but realized right here in the uncluttered clarity of your own direct awareness.",
+      "coreThesis": "Genuine liberation requires no external creator: the universe operates by lawful cause and effect, and true peace is realized only through personal responsibility and direct mindful insight.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Buddhism and the God-Idea"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -4529,6 +4612,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "in-the-buddha-s-words-an-anthology-from-the-pali-canon",
+    "title": "In the Buddha's Words: An Anthology from the Pali Canon",
+    "author": "Bhikkhu Bodhi",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2005,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Direct from humanity's oldest contemplative treasury, this book distills the historical Buddha's core discourses into a clear, stepwise manual for mastering the mind and finding unshakeable peace amidst life's storms.",
+      "coreThesis": "Suffering arises because we grasp tightly at fleeting experiences and mistake a transient mind-body process for a solid self; train the mind in calm mindfulness and penetrating insight, and you step into timeless freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "In the Buddha's Words: An Anthology from the Pali Canon"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "in-the-realm-of-hungry-ghosts",
     "title": "In the Realm of Hungry Ghosts",
     "author": "Gabor Mat\\u00e9",
@@ -6973,6 +7091,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "protection-through-satipatthana",
+    "title": "Protection Through Satipatthana",
+    "author": "Nyanaponika Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1967,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Worldly harmony does not begin with managing others; it begins with mastering your own mind. Nyanaponika Thera shows how radical self-awareness becomes the ultimate armor for yourself and your community.",
+      "coreThesis": "Protecting oneself through mindfulness safeguards the world, and protecting others through kindness safeguards oneself.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Protection Through Satipatthana"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-psychology-of-money-timeless-lessons-on-wealth-greed-and",
     "title": "The Psychology of Money",
     "author": "Morgan Housel",
@@ -7177,6 +7330,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "reading-the-buddha-s-discourses-in-pali",
+    "title": "Reading the Buddha's Discourses in Pali",
+    "author": "Bhikkhu Bodhi",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step past third-hand interpretations and listen directly to the Buddha's ancient voice. By pairing original core teachings with rigorous, transparent word-by-word breakdowns, this work turns the language of liberation into an immediate, living mirror for your own mind.",
+      "coreThesis": "Direct engagement with the original words of the Dhamma demystifies awakening, revealing liberation not as a mystical belief, but as an empirical, condition-by-condition training of immediate awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Reading the Buddha's Discourses in Pali"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -9830,6 +10018,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-connected-discourses-of-the-buddha-samyutta-nikaya",
+    "title": "The Connected Discourses of the Buddha (Samyutta Nikaya)",
+    "author": "Bhikkhu Bodhi",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 280,
+    "publishedYear": 2000,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Imagine holding the master operating manual for human consciousness. Translated with supreme clarity by Bhikkhu Bodhi, this collection strips away dogma to show you exactly how suffering is manufactured\\u2014and how you can shut down the factory for good.",
+      "coreThesis": "Suffering is not an inescapable fate, but a mechanical byproduct of grasping at impermanent things as a permanent self; dismantle the grasping through clear, non-reactive awareness, and freedom naturally reveals itself.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Connected Discourses of the Buddha (Samyutta Nikaya)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-courage-to-be-disliked",
     "title": "The Courage to Be Disliked",
     "author": "Ichiro Kishimi & Fumitake Koga",
@@ -10249,6 +10472,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-five-mental-hindrances-and-their-conquest",
+    "title": "The Five Mental Hindrances and Their Conquest",
+    "author": "Nyanaponika Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1961,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind is naturally pristine and clear like mountain water, but daily life continually stirs up sediment, heat, and weeds. Master the five universal mental traps that rob you of clarity, and discover how quiet, compassionate observation dissolves inner friction without brute struggle.",
+      "coreThesis": "The five hindrances are temporary mental contaminants, not your true identity; by meeting them with precise mindfulness and targeted remedies, their power evaporates and natural inner peace returns.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Five Mental Hindrances and Their Conquest"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-forty-rules-of-love",
     "title": "The Forty Rules of Love",
     "author": "Elif Shafak",
@@ -10341,6 +10599,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Four Foundations of Mindfulness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-four-nutriments-of-life",
+    "title": "The Four Nutriments of Life",
+    "author": "Nyanaponika Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1967,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Life is not an unmoving solid statue; it is an open flame that must constantly burn fresh fuel to survive. By clearly seeing the four physical and psychological 'foods' you consume every second, you break unconscious cravings and uncover unshakable inner freedom.",
+      "coreThesis": "Every aspect of human existence\\u2014from physical flesh to personal identity\\u2014is a conditioned process sustained solely by what it consumes; inspecting and calming your intake of physical, sensory, and mental fuel dissolves the illusion of an ego and brings lasting peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Four Nutriments of Life"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -10701,6 +10994,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-middle-length-discourses-of-the-buddha-majjhima-nikaya",
+    "title": "The Middle Length Discourses of the Buddha (Majjhima Nikaya)",
+    "author": "Bhikkhu Nanamoli & Bhikkhu Bodhi",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 760,
+    "publishedYear": 1995,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step directly into the lively, practical dialogues of the historical Buddha as he diagnoses the mechanics of human discontent and reveals the exact, repeatable blueprint for lasting peace. Far from abstract dogma, this is a hands-on field manual for training attention, clearing emotional clutter, and waking up to reality right where you are.",
+      "coreThesis": "Suffering is not an inescapable fate, but a mechanical friction generated whenever an untamed mind clings to fleeting experiences as a rigid self; by seeing things as they actually are, this friction permanently dissolves.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Middle Length Discourses of the Buddha (Majjhima Nikaya)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-model-thinker",
     "title": "The Model Thinker",
     "author": "Scott E. Page",
@@ -10805,6 +11133,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-noble-eightfold-path-way-to-the-end-of-suffering",
+    "title": "The Noble Eightfold Path: Way to the End of Suffering",
+    "author": "Bhikkhu Bodhi",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1984,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Suffering is not a life sentence\\u2014it is an internal friction created by misperceiving reality. Bhikkhu Bodhi delivers a masterclass on the Buddha's timeless blueprint, showing how eight interconnected habits systematically untangle anxiety and deliver unshakeable inner peace.",
+      "coreThesis": "Suffering arises because we mistake transient sensations for a solid, permanent self; liberation is realized by cultivating an integrated training in ethical harmony, calm focus, and penetrating experiential wisdom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Noble Eightfold Path: Way to the End of Suffering"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-noonday-demon-an-atlas-of-depression",
     "title": "The Noonday Demon: An Atlas of Depression",
     "author": "Andrew Solomon",
@@ -10870,6 +11233,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-numerical-discourses-of-the-buddha-anguttara-nikaya",
+    "title": "The Numerical Discourses of the Buddha (Anguttara Nikaya)",
+    "author": "Bhikkhu Bodhi",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "The Buddha's most practical handbook of liberation, systematically categorized from ones to elevens like a master blueprint for human consciousness. It cuts through mystification to show how steady awareness, calm discipline, and clear seeing dissolve everyday suffering.",
+      "coreThesis": "Suffering is not an inevitable life sentence; it is a mechanical byproduct of an uninspected mind that dissolves completely when wholesome habits, steady awareness, and clear insight are methodically cultivated.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Numerical Discourses of the Buddha (Anguttara Nikaya)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -11434,6 +11832,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-road-to-inner-freedom",
+    "title": "The Road to Inner Freedom",
+    "author": "Nyanaponika Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1982,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop fighting the turbulent current of life and discover the unshakeable stillness of an examined mind. This timeless guide reveals that lasting peace is not a distant belief system, but an immediate, practical art of clear seeing available in every breath.",
+      "coreThesis": "Inner freedom is not acquired by escaping the world, but by purifying attention and seeing that the self is an open, flowing process rather than a solid castle to defend.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Road to Inner Freedom"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-roots-of-good-and-evil",
     "title": "The Roots of Good and Evil",
     "author": "Nyanaponika Thera",
@@ -11910,6 +12343,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Sutta Discovery: Early Buddhist Teachings"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-suttanipata-an-ancient-collection-of-discourses",
+    "title": "The Suttanipata: An Ancient Collection of Discourses",
+    "author": "Bhikkhu Bodhi",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into the oldest, most intimate verses of the Buddha before religious dogma took root. Here is a stripped-down, practical handbook for shedding anxiety, ending petty arguments, and discovering unconditional peace right where you stand.",
+      "coreThesis": "True freedom is not found in defending beliefs or accumulating possessions, but in loosening your mental grip, shedding ideological disputes, and dwelling in peaceful, unattached awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Suttanipata: An Ancient Collection of Discourses"
     },
     "reflectionExercises": [],
     "actionItems": [],
