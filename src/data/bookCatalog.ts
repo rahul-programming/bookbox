@@ -87,6 +87,10 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "dhamma-everywhere-freeing-the-mind-across-all-postures": "./books/dhammaEverywhereFreeingTheMindAcrossAllPosturesExpanded.ts",
   "dhamma-padetha-collection-of-insight-essays": "./books/dhammaPadethaCollectionOfInsightEssaysExpanded.ts",
   "dhammapada-a-translation": "./books/dhammapadaATranslationExpanded.ts",
+  "dhammapada-reflections-contemplations-on-wisdom": "./books/dhammapadaReflectionsContemplationsOnWisdomExpanded.ts",
+  "dhammapada-the-way-of-the-buddha-vol-1": "./books/dhammapadaTheWayOfTheBuddhaVol1Expanded.ts",
+  "dhammapada-the-way-of-the-buddha-vol-2": "./books/dhammapadaTheWayOfTheBuddhaVol2Expanded.ts",
+  "dhammapada-wisdom-of-the-buddha": "./books/dhammapadaWisdomOfTheBuddhaExpanded.ts",
   "difficult-conversations-how-to-discuss-what-matters-most": "./books/difficultConversationsHowToDiscussWhatMattersMostExpanded.ts",
   "digital-body-language-how-to-build-trust-and-connection-no-m": "./books/digitalBodyLanguageHowToBuildTrustAndConnectionNoMExpanded.ts",
   "disarming-the-narcissist": "./books/disarmingTheNarcissistExpanded.ts",
@@ -328,6 +332,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "stillness-flowing-the-life-and-teachings-of-ajahn-chah": "./books/stillnessFlowingTheLifeAndTeachingsOfAjahnChahExpanded.ts",
   "stolen-focus-why-you-can-t-pay-attention": "./books/stolenFocusWhyYouCanTPayAttentionExpanded.ts",
   "stop-walking-on-eggshells": "./books/stopWalkingOnEggshellsExpanded.ts",
+  "stories-of-the-dhammapada": "./books/storiesOfTheDhammapadaExpanded.ts",
   "straight-from-the-heart-dhamma-talks": "./books/straightFromTheHeartDhammaTalksExpanded.ts",
   "strangers-to-ourselves-discovering-the-adaptive-unconscious": "./books/strangersToOurselvesDiscoveringTheAdaptiveUnconsciousExpanded.ts",
   "super-thinking-the-big-book-of-mental-models": "./books/superThinkingTheBigBookOfMentalModelsExpanded.ts",
@@ -362,6 +367,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-body-keeps-the-score": "./books/theBodyKeepsTheScoreExpanded.ts",
   "the-book-of-boundaries": "./books/theBookOfBoundariesExpanded.ts",
   "the-brain-that-changes-itself": "./books/theBrainThatChangesItselfExpanded.ts",
+  "the-buddha-s-path-of-virtue": "./books/theBuddhaSPathOfVirtueExpanded.ts",
   "the-buddhist-monastic-code-volume-i": "./books/theBuddhistMonasticCodeVolumeIExpanded.ts",
   "the-buddhist-monastic-code-volume-ii": "./books/theBuddhistMonasticCodeVolumeIiExpanded.ts",
   "the-catalyst-how-to-change-anyone-s-mind": "./books/theCatalystHowToChangeAnyoneSMindExpanded.ts",
@@ -382,7 +388,10 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-dhammapada-a-translation-of-the-buddhist-classic": "./books/theDhammapadaATranslationOfTheBuddhistClassicExpanded.ts",
   "the-dhammapada": "./books/theDhammapadaExpanded.ts",
   "the-dhammapada-the-buddha-s-path-of-wisdom": "./books/theDhammapadaTheBuddhaSPathOfWisdomExpanded.ts",
+  "the-dhammapada-the-path-of-perfection": "./books/theDhammapadaThePathOfPerfectionExpanded.ts",
   "the-dhammapada-the-sayings-of-the-buddha": "./books/theDhammapadaTheSayingsOfTheBuddhaExpanded.ts",
+  "the-dhammapada-the-way-of-the-righteous": "./books/theDhammapadaTheWayOfTheRighteousExpanded.ts",
+  "the-dhammapada-the-way-of-truth": "./books/theDhammapadaTheWayOfTruthExpanded.ts",
   "the-dhammapada-translated-with-an-introduction": "./books/theDhammapadaTranslatedWithAnIntroductionExpanded.ts",
   "the-dhammapada-verses-and-stories": "./books/theDhammapadaVersesAndStoriesExpanded.ts",
   "the-dhammapada-with-the-story-of-the-buddha": "./books/theDhammapadaWithTheStoryOfTheBuddhaExpanded.ts",
@@ -422,6 +431,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-middle-length-discourses-of-the-buddha-majjhima-nikaya": "./books/theMiddleLengthDiscoursesOfTheBuddhaMajjhimaNikayaExpanded.ts",
   "the-mind-and-the-way-buddhist-reflections-on-life": "./books/theMindAndTheWayBuddhistReflectionsOnLifeExpanded.ts",
   "the-mind-that-knows": "./books/theMindThatKnowsExpanded.ts",
+  "the-mindful-way-commentary-on-the-dhammapada": "./books/theMindfulWayCommentaryOnTheDhammapadaExpanded.ts",
   "the-miracle-of-mindfulness-an-introduction-to-meditation": "./books/theMiracleOfMindfulnessAnIntroductionToMeditationExpanded.ts",
   "the-model-thinker": "./books/theModelThinkerExpanded.ts",
   "the-moral-animal": "./books/theMoralAnimalExpanded.ts",
@@ -3557,6 +3567,146 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Dhammapada: A Translation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "dhammapada-reflections-contemplations-on-wisdom",
+    "title": "Dhammapada Reflections: Contemplations on Wisdom",
+    "author": "Bhikkhu Khantipalo",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 1993,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind is the master architect of every joy and agony you experience. By training awareness and relinquishing egoic grasping, you can step out of the storm of reactive conditioning into unshakable inner clarity.",
+      "coreThesis": "Suffering and freedom do not come from external conditions; they are born directly from the state of your own mind. By cultivating vigilant awareness and letting go of grasping, inner peace becomes your permanent baseline.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Dhammapada Reflections: Contemplations on Wisdom"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "dhammapada-the-way-of-the-buddha-vol-1",
+    "title": "Dhammapada: The Way of the Buddha (Vol 1)",
+    "author": "Osho",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1981,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step out of the restless turbulence of your conditioned mind and discover the calm, radiant presence already resting within your direct awareness.",
+      "coreThesis": "Suffering is an internal habit born of unconscious identification with thought, and lasting peace arrives the moment you step back to witness the mind without judgment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Dhammapada: The Way of the Buddha (Vol 1)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "dhammapada-the-way-of-the-buddha-vol-2",
+    "title": "Dhammapada: The Way of the Buddha (Vol 2)",
+    "author": "Osho",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1991,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop collecting second-hand spiritual concepts and wake up to the living reality breathing within you right now. Osho transforms the Buddha's ancient Dhammapada into an urgent, razor-sharp guide to shedding mental clutter and tasting authentic inner freedom.",
+      "coreThesis": "Suffering is the friction created when an unconscious, grasping ego resists the living reality of the present; liberation is the natural clarity that appears when you stop analyzing life and dare to witness it as it is.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Dhammapada: The Way of the Buddha (Vol 2)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "dhammapada-wisdom-of-the-buddha",
+    "title": "Dhammapada: Wisdom of the Buddha",
+    "author": "Harischandra Kaviratna",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 1980,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your entire life is shaped by your attention; train your mind, and you dismantle suffering at its root. The Dhammapada delivers timeless, razor-sharp guidance on cultivating inner stillness, moral discipline, and direct spiritual freedom.",
+      "coreThesis": "Your mind creates your world; by mastering your thoughts and releasing craving, you attain indestructible peace and genuine freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Dhammapada: Wisdom of the Buddha"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -11985,6 +12135,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "stories-of-the-dhammapada",
+    "title": "Stories of the Dhammapada",
+    "author": "K. Sri Dhammananda",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 1988,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Ground timeless spiritual wisdom in real human drama: see how every verse of the Dhammapada was forged in the heat of daily conflicts, family heartbreaks, and practical moral crossroads.",
+      "coreThesis": "Your mind shapes your entire reality, and lasting peace is not a gift from external circumstances, but the natural fruit of disciplined awareness and compassionate self-mastery.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Stories of the Dhammapada"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "straight-from-the-heart-dhamma-talks",
     "title": "Straight from the Heart: Dhamma Talks",
     "author": "Ajahn Maha Bua",
@@ -13171,6 +13356,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-buddha-s-path-of-virtue",
+    "title": "The Buddha's Path of Virtue",
+    "author": "F.L. Woodward",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 1921,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind shapes your entire reality; tame it, and you walk untouched through the turbulence of life. This timeless translation cuts straight to the root of suffering, showing you how to cultivate unbreakable inner peace right in the middle of everyday friction.",
+      "coreThesis": "Suffering and joy are not dictated by external circumstances, but by the state of your own mind. By cultivating vigilant mindfulness and releasing attachment, you attain natural, unwavering peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Buddha's Path of Virtue"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-buddhist-monastic-code-volume-i",
     "title": "The Buddhist Monastic Code, Volume I",
     "author": "Thanissaro Bhikkhu",
@@ -13870,6 +14090,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-dhammapada-the-path-of-perfection",
+    "title": "The Dhammapada: The Path of Perfection",
+    "author": "Max M\\u00fcller",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 1881,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your life is shaped by the quality of your attention. The Dhammapada offers an unvarnished manual for training your mind, stepping off the treadmill of reactive craving, and awakening to lasting peace right now.",
+      "coreThesis": "Suffering and peace are direct products of your own mental habits. When you train attention and release grasping, enduring freedom naturally arises.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Dhammapada: The Path of Perfection"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-dhammapada-the-sayings-of-the-buddha",
     "title": "The Dhammapada: The Sayings of the Buddha",
     "author": "Thomas Byrom",
@@ -13893,6 +14148,76 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Dhammapada: The Sayings of the Buddha"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-dhammapada-the-way-of-the-righteous",
+    "title": "The Dhammapada: The Way of the Righteous",
+    "author": "Radhakrishnan",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 1950,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind is the master architect of your reality: train it, and peace follows you like your shadow; neglect it, and suffering trails behind like a heavy wagon wheel. S. Radhakrishnan translates Buddhism's foundational ethical compass into a direct, urgent manual for inner mastery and timeless liberation.",
+      "coreThesis": "Suffering and joy are direct products of our own mental habits; mastering attention and letting go of grasping dissolves illusion and reveals innate, unshakeable freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Dhammapada: The Way of the Righteous"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-dhammapada-the-way-of-truth",
+    "title": "The Dhammapada: The Way of Truth",
+    "author": "Sangharakshita",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 2001,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind is the master architect of your entire world. Sangharakshita strips away dry scholastic dogma to deliver a surgical, practical handbook on training your inner awareness for unshakeable peace.",
+      "coreThesis": "Every quality of your lived experience originates in your own state of consciousness; tame the mind, and you dismantle suffering at its root.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Dhammapada: The Way of Truth"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -15254,6 +15579,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Mind That Knows"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-mindful-way-commentary-on-the-dhammapada",
+    "title": "The Mindful Way: Commentary on the Dhammapada",
+    "author": "Jack Kornfield",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 2005,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind shapes your entire experience of reality: train it with care, and tranquility follows you like an unwavering shadow. This classic contemplative commentary strips away dogmatic clutter to reveal the practical art of mental liberation in everyday life.",
+      "coreThesis": "Suffering is not caused by the external world, but by an untrained mind clinging to illusions; cultivate vigilant, compassionate awareness to dwell in immediate freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Mindful Way: Commentary on the Dhammapada"
     },
     "reflectionExercises": [],
     "actionItems": [],
