@@ -68,6 +68,8 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "contemplation-of-dhamma-the-fourth-foundation": "./books/contemplationOfDhammaTheFourthFoundationExpanded.ts",
   "continuous-mindfulness-in-dynamic-living": "./books/continuousMindfulnessInDynamicLivingExpanded.ts",
   "conversational-intelligence-how-great-leaders-build-trust-an": "./books/conversationalIntelligenceHowGreatLeadersBuildTrustAnExpanded.ts",
+  "cracking-the-walnut-secret-teachings-on-awakening": "./books/crackingTheWalnutSecretTeachingsOnAwakeningExpanded.ts",
+  "creating-true-peace-ending-violence-in-yourself-and-the-world": "./books/creatingTruePeaceEndingViolenceInYourselfAndTheWorldExpanded.ts",
   "crucial-conversations-tools-for-talking-when-stakes-are-high": "./books/crucialConversationsToolsForTalkingWhenStakesAreHighExpanded.ts",
   "curation-the-power-of-selection-in-a-world-of-excess": "./books/curationThePowerOfSelectionInAWorldOfExcessExpanded.ts",
   "dana-the-practice-of-giving": "./books/danaThePracticeOfGivingExpanded.ts",
@@ -162,6 +164,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "inner-work-using-dreams-and-active-imagination-for-personal-": "./books/innerWorkUsingDreamsAndActiveImaginationForPersonalExpanded.ts",
   "insight-meditation-the-path-to-peace": "./books/insightMeditationThePathToPeaceExpanded.ts",
   "insight-meditation-workshop-manual": "./books/insightMeditationWorkshopManualExpanded.ts",
+  "interbeing-fourteen-precepts-of-engaged-buddhism": "./books/interbeingFourteenPreceptsOfEngagedBuddhismExpanded.ts",
   "into-the-stream-a-study-guide-on-the-first-stage-of-awakening": "./books/intoTheStreamAStudyGuideOnTheFirstStageOfAwakeningExpanded.ts",
   "introduction-to-logic": "./books/introductionToLogicExpanded.ts",
   "intuitive-awareness-living-in-the-unconditioned": "./books/intuitiveAwarenessLivingInTheUnconditionedExpanded.ts",
@@ -282,6 +285,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "satipatthana-meditation-a-practice-guide": "./books/satipatthanaMeditationAPracticeGuideExpanded.ts",
   "satipatthana-the-direct-path-to-realization": "./books/satipatthanaTheDirectPathToRealizationExpanded.ts",
   "satipatthana-vipassana-meditation-basic-and-progressive-practice": "./books/satipatthanaVipassanaMeditationBasicAndProgressivePracticeExpanded.ts",
+  "savor-mindful-eating-mindful-life": "./books/savorMindfulEatingMindfulLifeExpanded.ts",
   "say-good-night-to-insomnia": "./books/sayGoodNightToInsomniaExpanded.ts",
   "say-what-you-mean-a-mindful-approach-to-nonviolent-communica": "./books/sayWhatYouMeanAMindfulApproachToNonviolentCommunicaExpanded.ts",
   "saying-no-to-say-yes": "./books/sayingNoToSayYesExpanded.ts",
@@ -370,6 +374,9 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-crowd-a-study-of-the-popular-mind": "./books/theCrowdAStudyOfThePopularMindExpanded.ts",
   "the-dance-of-anger": "./books/theDanceOfAngerExpanded.ts",
   "the-dawn-of-abhidharma": "./books/theDawnOfAbhidharmaExpanded.ts",
+  "the-dhammapada-a-new-translation": "./books/theDhammapadaANewTranslationExpanded.ts",
+  "the-dhammapada": "./books/theDhammapadaExpanded.ts",
+  "the-dhammapada-the-buddha-s-path-of-wisdom": "./books/theDhammapadaTheBuddhaSPathOfWisdomExpanded.ts",
   "the-diamond-that-cuts-through-illusion": "./books/theDiamondThatCutsThroughIllusionExpanded.ts",
   "the-dip-a-little-book-that-teaches-you-when-to-quit": "./books/theDipALittleBookThatTeachesYouWhenToQuitExpanded.ts",
   "the-discourse-on-the-root-of-existence-mulapariyaya-sutta": "./books/theDiscourseOnTheRootOfExistenceMulapariyayaSuttaExpanded.ts",
@@ -377,6 +384,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-distracted-mind-ancient-brains-in-a-high-tech-world": "./books/theDistractedMindAncientBrainsInAHighTechWorldExpanded.ts",
   "the-divided-mind-the-epidemic-of-mindbody-disorders": "./books/theDividedMindTheEpidemicOfMindbodyDisordersExpanded.ts",
   "the-easy-way-to-stop-smoking-stop-drinking": "./books/theEasyWayToStopSmokingStopDrinkingExpanded.ts",
+  "the-energy-of-prayer-how-to-deepen-your-spiritual-practice": "./books/theEnergyOfPrayerHowToDeepenYourSpiritualPracticeExpanded.ts",
   "the-evolution-of-desire-strategies-of-human-mating": "./books/theEvolutionOfDesireStrategiesOfHumanMatingExpanded.ts",
   "the-fifth-discipline": "./books/theFifthDisciplineExpanded.ts",
   "the-five-mental-hindrances-and-their-conquest": "./books/theFiveMentalHindrancesAndTheirConquestExpanded.ts",
@@ -415,6 +423,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-numerical-discourses-of-the-buddha-anguttara-nikaya": "./books/theNumericalDiscoursesOfTheBuddhaAnguttaraNikayaExpanded.ts",
   "the-obesity-code": "./books/theObesityCodeExpanded.ts",
   "the-one-thing": "./books/theOneThingExpanded.ts",
+  "the-other-shore-a-new-translation-of-the-heart-sutra": "./books/theOtherShoreANewTranslationOfTheHeartSutraExpanded.ts",
   "the-oxygen-advantage": "./books/theOxygenAdvantageExpanded.ts",
   "the-paradox-of-becoming-finding-freedom-in-the-cycle-of-becoming": "./books/theParadoxOfBecomingFindingFreedomInTheCycleOfBecomingExpanded.ts",
   "the-paradox-of-choice": "./books/theParadoxOfChoiceExpanded.ts",
@@ -516,6 +525,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "you-are-not-so-smart": "./books/youAreNotSoSmartExpanded.ts",
   "your-erroneous-zones": "./books/yourErroneousZonesExpanded.ts",
   "your-perfect-right-assertiveness-and-equality-in-your-life-a": "./books/yourPerfectRightAssertivenessAndEqualityInYourLifeAExpanded.ts",
+  "your-true-home-the-everyday-wisdom-of-thich-nhat-hanh": "./books/yourTrueHomeTheEverydayWisdomOfThichNhatHanhExpanded.ts",
   "zen-keys-a-guide-to-zen-practice": "./books/zenKeysAGuideToZenPracticeExpanded.ts"
 };
 
@@ -2881,6 +2891,76 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "cracking-the-walnut-secret-teachings-on-awakening",
+    "title": "Cracking the Walnut: Secret Teachings on Awakening",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 135,
+    "publishedYear": 2023,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "N\\u0101g\\u0101rjuna\\u2019s brilliant razor meets Thich Nhat Hanh\\u2019s gentle touch to crack open the rigid mental shells that trap us in anxiety, division, and fear. By dismantling every fixed view, this book releases you into the calm, interconnected freedom of direct experience.",
+      "coreThesis": "Suffering stems from mistaking our mental concepts for living reality; by letting go of rigid dualisms through the lens of interbeing, we discover that peace is already our natural state.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Cracking the Walnut: Secret Teachings on Awakening"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "creating-true-peace-ending-violence-in-yourself-and-the-world",
+    "title": "Creating True Peace: Ending Violence in Yourself and the World",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2003,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "World peace is not negotiated across diplomatic tables; it is seeded in how you handle your own anger during morning traffic. Thich Nhat Hanh delivers a concrete, field-tested manual for transforming inner friction into genuine harmony across your home, community, and society.",
+      "coreThesis": "Peace in the world is impossible without peace in the individual, because outer conflict is simply unaddressed inner violence projected onto others.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Creating True Peace: Ending Violence in Yourself and the World"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -6157,6 +6237,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Insight Meditation Workshop Manual"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "interbeing-fourteen-precepts-of-engaged-buddhism",
+    "title": "Interbeing: Fourteen Precepts of Engaged Buddhism",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 1987,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Spirituality is not an escape hatch from the messy world\\u2014it is the direct practice of clarity and compassion in the middle of it. Thich Nhat Hanh translates ancient Zen discipline into fourteen razor-sharp guidelines for living awake in modern society.",
+      "coreThesis": "You do not exist in isolation; you 'inter-are' with everything around you, meaning personal mindfulness and compassionate social action are inseparable.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Interbeing: Fourteen Precepts of Engaged Buddhism"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -10361,6 +10476,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "savor-mindful-eating-mindful-life",
+    "title": "Savor: Mindful Eating, Mindful Life",
+    "author": "Thich Nhat Hanh & Lilian Cheung",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop fighting your body and discover how the simple act of chewing can set you free. By pairing ancient Zen wisdom with modern Harvard nutritional science, this book turns every meal into a path of liberation, lasting health, and peace.",
+      "coreThesis": "Sustainable physical vitality is not achieved through willpower and dietary deprivation, but through waking up to the present moment and meeting your body, food, and emotional life with lucid, compassionate awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Savor: Mindful Eating, Mindful Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "say-good-night-to-insomnia",
     "title": "Say Good Night to Insomnia",
     "author": "Gregg D. Jacobs",
@@ -13430,6 +13580,111 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-dhammapada-a-new-translation",
+    "title": "The Dhammapada: A New Translation",
+    "author": "Bhikkhu Bodhi",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 1985,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "The Dhammapada is the definitive handbook of contemplative psychology, distilling liberation down to a simple, piercing truth: you do not suffer because of the world, but because of your untrained mind. By waking up to immediate conscious awareness and mastering your inner state, you discover an unshakeable peace untouched by the storms of daily life.",
+      "coreThesis": "Mind is the forerunner of every experience; master your own mind through clear, vigilant awareness, and the cycle of suffering naturally dissolves.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Dhammapada: A New Translation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-dhammapada",
+    "title": "The Dhammapada",
+    "author": "Eknath Easwaran",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 1985,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind is the master workshop that shapes every joy and sorrow you experience. The Dhammapada gives you the timeless, practical blueprint to tame runaway thoughts and step into unshakeable inner peace.",
+      "coreThesis": "All that we are arises from our thoughts, and our peace depends entirely on our own mental mastery. By training the mind, extinguishing selfish craving, and living mindfully, anyone can attain complete inner liberation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Dhammapada"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-dhammapada-the-buddha-s-path-of-wisdom",
+    "title": "The Dhammapada: The Buddha's Path of Wisdom",
+    "author": "Acharya Buddharakkhita",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 1985,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your life is shaped entirely by the quality of your attention. Master your mind like a skilled gardener, and peace naturally follows every step you take.",
+      "coreThesis": "Mind is the forerunner of every experience; by cultivating disciplined, clear attention and shedding selfish craving, you liberate yourself from all inner suffering.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Dhammapada: The Buddha's Path of Wisdom"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-diamond-that-cuts-through-illusion",
     "title": "The Diamond That Cuts Through Illusion",
     "author": "Thich Nhat Hanh",
@@ -13670,6 +13925,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-energy-of-prayer-how-to-deepen-your-spiritual-practice",
+    "title": "The Energy of Prayer: How to Deepen Your Spiritual Practice",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2006,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Prayer is not a desperate plea sent across the cosmos to a distant sovereign; it is a clean, focused current of mindfulness generated right here within your own breathing body. When heart, body, and mind align, your loving intention directly shifts the fabric of reality and heals human suffering from the inside out.",
+      "coreThesis": "Authentic prayer is not a petition to a distant, external entity, but the focused, embodied energy of mindfulness and compassion generated through the non-dual realization that the one who prays and the one who hears are fundamentally one.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Energy of Prayer: How to Deepen Your Spiritual Practice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -14995,6 +15285,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-other-shore-a-new-translation-of-the-heart-sutra",
+    "title": "The Other Shore: A New Translation of the Heart Sutra",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop fearing life, loss, and death by realizing you were never an isolated island in the first place. Thich Nhat Hanh cuts through centuries of confusing jargon to show that emptiness is not a terrifying void, but the vibrant, interconnected reality of everything in existence.",
+      "coreThesis": "Emptiness does not mean you do not exist; it means you are empty of an isolated, permanent self and full of the entire universe.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Other Shore: A New Translation of the Heart Sutra"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -18521,6 +18846,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "your-true-home-the-everyday-wisdom-of-thich-nhat-hanh",
+    "title": "Your True Home: The Everyday Wisdom of Thich Nhat Hanh",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your life is only accessible right here and right now\\u2014stop chasing an imaginary future and discover that your true home is already under your feet.",
+      "coreThesis": "Peace, happiness, and liberation cannot be found in the future; your true home is direct, compassionate awareness anchored fully in the present moment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Your True Home: The Everyday Wisdom of Thich Nhat Hanh"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
