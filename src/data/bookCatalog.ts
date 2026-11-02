@@ -11,11 +11,13 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "a-discourse-on-the-cula-vedalla-sutta": "./books/aDiscourseOnTheCulaVedallaSuttaExpanded.ts",
   "a-discourse-on-the-maha-vedalla-sutta": "./books/aDiscourseOnTheMahaVedallaSuttaExpanded.ts",
   "a-discourse-on-the-sakkapanha-sutta": "./books/aDiscourseOnTheSakkapanhaSuttaExpanded.ts",
+  "a-life-of-blessing-celebrating-virtue-and-stillness": "./books/aLifeOfBlessingCelebratingVirtueAndStillnessExpanded.ts",
   "a-million-miles-in-a-thousand-years": "./books/aMillionMilesInAThousandYearsExpanded.ts",
   "a-mind-for-numbers": "./books/aMindForNumbersExpanded.ts",
   "a-still-forest-pool-insight-meditation-of-achaan-chah": "./books/aStillForestPoolInsightMeditationOfAchaanChahExpanded.ts",
   "a-taste-of-freedom": "./books/aTasteOfFreedomExpanded.ts",
   "a-theory-of-cognitive-dissonance": "./books/aTheoryOfCognitiveDissonanceExpanded.ts",
+  "abundant-exalted-immeasurable-the-brahmaviharas": "./books/abundantExaltedImmeasurableTheBrahmaviharasExpanded.ts",
   "algorithms-to-live-by": "./books/algorithmsToLiveByExpanded.ts",
   "alone-together-why-we-expect-more-from-technology-and-less-f": "./books/aloneTogetherWhyWeExpectMoreFromTechnologyAndLessFExpanded.ts",
   "an-illustrated-book-of-bad-arguments": "./books/anIllustratedBookOfBadArgumentsExpanded.ts",
@@ -65,6 +67,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "curation-the-power-of-selection-in-a-world-of-excess": "./books/curationThePowerOfSelectionInAWorldOfExcessExpanded.ts",
   "dana-the-practice-of-giving": "./books/danaThePracticeOfGivingExpanded.ts",
   "daring-greatly": "./books/daringGreatlyExpanded.ts",
+  "daughters-and-sons-buddhist-wisdom-on-parenting": "./books/daughtersAndSonsBuddhistWisdomOnParentingExpanded.ts",
   "dbt-skills-training-handouts-and-worksheets": "./books/dbtSkillsTrainingHandoutsAndWorksheetsExpanded.ts",
   "decisive": "./books/decisiveExpanded.ts",
   "deep-work": "./books/deepWorkExpanded.ts",
@@ -87,6 +90,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "discourse-on-the-vammika-sutta": "./books/discourseOnTheVammikaSuttaExpanded.ts",
   "discourse-on-the-wheel-of-dhamma": "./books/discourseOnTheWheelOfDhammaExpanded.ts",
   "do-the-work": "./books/doTheWorkExpanded.ts",
+  "don-t-hold-back-monastic-reflections-on-practice": "./books/donTHoldBackMonasticReflectionsOnPracticeExpanded.ts",
   "don-t-look-at-the-mind-with-contempt": "./books/donTLookAtTheMindWithContemptExpanded.ts",
   "don-t-take-your-life-personally": "./books/donTTakeYourLifePersonallyExpanded.ts",
   "dopamine-nation-finding-balance-in-the-age-of-indulgence": "./books/dopamineNationFindingBalanceInTheAgeOfIndulgenceExpanded.ts",
@@ -111,6 +115,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "fooled-by-randomness": "./books/fooledByRandomnessExpanded.ts",
   "forgive-for-good": "./books/forgiveForGoodExpanded.ts",
   "four-thousand-weeks-time-management-for-mortals": "./books/fourThousandWeeksTimeManagementForMortalsExpanded.ts",
+  "from-heart-to-heart-selected-dhamma-talks": "./books/fromHeartToHeartSelectedDhammaTalksExpanded.ts",
   "fundamentals-of-vipassana-meditation": "./books/fundamentalsOfVipassanaMeditationExpanded.ts",
   "get-out-of-your-mind-and-into-your-life": "./books/getOutOfYourMindAndIntoYourLifeExpanded.ts",
   "getting-past-no-negotiating-with-difficult-people": "./books/gettingPastNoNegotiatingWithDifficultPeopleExpanded.ts",
@@ -160,6 +165,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "learn-like-a-pro": "./books/learnLikeAProExpanded.ts",
   "learned-optimism": "./books/learnedOptimismExpanded.ts",
   "life-is-in-the-transitions": "./books/lifeIsInTheTransitionsExpanded.ts",
+  "like-a-clear-sky-dhamma-reflections": "./books/likeAClearSkyDhammaReflectionsExpanded.ts",
   "limitless": "./books/limitlessExpanded.ts",
   "linked-how-everything-is-connected": "./books/linkedHowEverythingIsConnectedExpanded.ts",
   "listen-like-you-mean-it-reclaiming-the-lost-art-of-true-conn": "./books/listenLikeYouMeanItReclaimingTheLostArtOfTrueConnExpanded.ts",
@@ -210,6 +216,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "not-nice-stop-people-pleasing-staying-silent-feeling-guilty": "./books/notNiceStopPeoplePleasingStayingSilentFeelingGuiltyExpanded.ts",
   "now-is-the-knowing": "./books/nowIsTheKnowingExpanded.ts",
   "nudge": "./books/nudgeExpanded.ts",
+  "on-love-dhamma-talks-on-metta": "./books/onLoveDhammaTalksOnMettaExpanded.ts",
   "on-the-path-an-anthology-of-suttas-on-the-noble-eightfold-path": "./books/onThePathAnAnthologyOfSuttasOnTheNobleEightfoldPathExpanded.ts",
   "on-the-path-to-freedom": "./books/onThePathToFreedomExpanded.ts",
   "one-small-step-can-change-your-life-the-kaizen-way": "./books/oneSmallStepCanChangeYourLifeTheKaizenWayExpanded.ts",
@@ -283,6 +290,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "start-with-why-how-great-leaders-inspire-everyone-to-take-ac": "./books/startWithWhyHowGreatLeadersInspireEveryoneToTakeAcExpanded.ts",
   "starting-strength-basic-barbell-training": "./books/startingStrengthBasicBarbellTrainingExpanded.ts",
   "stick-with-it": "./books/stickWithItExpanded.ts",
+  "stillness-flowing-the-life-and-teachings-of-ajahn-chah": "./books/stillnessFlowingTheLifeAndTeachingsOfAjahnChahExpanded.ts",
   "stolen-focus-why-you-can-t-pay-attention": "./books/stolenFocusWhyYouCanTPayAttentionExpanded.ts",
   "stop-walking-on-eggshells": "./books/stopWalkingOnEggshellsExpanded.ts",
   "strangers-to-ourselves-discovering-the-adaptive-unconscious": "./books/strangersToOurselvesDiscoveringTheAdaptiveUnconsciousExpanded.ts",
@@ -425,6 +433,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "treatise-on-the-vipassana-insight-practice": "./books/treatiseOnTheVipassanaInsightPracticeExpanded.ts",
   "tug-of-vow-monastic-training-in-the-forest-tradition": "./books/tugOfVowMonasticTrainingInTheForestTraditionExpanded.ts",
   "ultralearning": "./books/ultralearningExpanded.ts",
+  "unexpected-freedom-dhamma-reflections": "./books/unexpectedFreedomDhammaReflectionsExpanded.ts",
   "unlearn-your-pain": "./books/unlearnYourPainExpanded.ts",
   "untamed": "./books/untamedExpanded.ts",
   "unwinding-anxiety": "./books/unwindingAnxietyExpanded.ts",
@@ -447,6 +456,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "win-every-argument-the-art-of-debating-persuading-and-public": "./books/winEveryArgumentTheArtOfDebatingPersuadingAndPublicExpanded.ts",
   "with-each-and-every-breath-a-guide-to-meditation": "./books/withEachAndEveryBreathAGuideToMeditationExpanded.ts",
   "with-good-reason-an-introduction-to-informal-fallacies": "./books/withGoodReasonAnIntroductionToInformalFallaciesExpanded.ts",
+  "without-and-within-questions-and-answers-on-theravada-buddhism": "./books/withoutAndWithinQuestionsAndAnswersOnTheravadaBuddhismExpanded.ts",
   "without-conscience-the-disturbing-world-of-the-psychopaths-a": "./books/withoutConscienceTheDisturbingWorldOfThePsychopathsAExpanded.ts",
   "words-can-change-your-brain": "./books/wordsCanChangeYourBrainExpanded.ts",
   "words-of-dhamma-practical-meditative-advice": "./books/wordsOfDhammaPracticalMeditativeAdviceExpanded.ts",
@@ -838,6 +848,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "a-life-of-blessing-celebrating-virtue-and-stillness",
+    "title": "A Life of Blessing: Celebrating Virtue and Stillness",
+    "author": "Ajahn Pasanno",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop chasing external luck and discover how genuine blessing is an inside job built through conscious virtue and serene inner stillness.",
+      "coreThesis": "True blessing is not an external windfall granted by chance, but the natural fruit of cultivating ethical clarity, open generosity, and deep contemplative stillness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "A Life of Blessing: Celebrating Virtue and Stillness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "a-million-miles-in-a-thousand-years",
     "title": "A Million Miles in a Thousand Years",
     "author": "Donald Miller",
@@ -1007,6 +1052,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "abundant-exalted-immeasurable-the-brahmaviharas",
+    "title": "Abundant, Exalted, Immeasurable: The Brahmaviharas",
+    "author": "Ajahn Pasanno",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 90,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your heart is not a fragile room to be defended, but an boundless atmosphere waiting to be uncovered. Ajahn Pasanno reveals how the Brahmaviharas transform loving-kindness, compassion, appreciative joy, and equanimity from fragile emotions into an unshakeable vehicle for direct awakening.",
+      "coreThesis": "The heart's natural state is boundless and hospitable; by training the mind to abandon defensive contraction and radiate unconditional goodwill, the Brahmaviharas become direct vehicles for complete spiritual liberation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Abundant, Exalted, Immeasurable: The Brahmaviharas"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -2721,6 +2801,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "daughters-and-sons-buddhist-wisdom-on-parenting",
+    "title": "Daughters and Sons: Buddhist Wisdom on Parenting",
+    "author": "Ajahn Jayasaro",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Parenting and filial devotion are not burdens of duty, but sacred training grounds for awakening direct empathy and transcending the ego. Ajahn Jayasaro reveals how honoring our roots becomes the quiet engine of genuine emotional freedom and spiritual maturity.",
+      "coreThesis": "True spiritual maturity begins when we step outside self-centered entitlement to recognize the profound sacrifices that gave us life, transforming filial gratitude into an active practice of liberation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Daughters and Sons: Buddhist Wisdom on Parenting"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "dbt-skills-training-handouts-and-worksheets",
     "title": "DBT Skills Training Handouts and Worksheets",
     "author": "Marsha M. Linehan",
@@ -3484,6 +3599,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "don-t-hold-back-monastic-reflections-on-practice",
+    "title": "Don't Hold Back: Monastic Reflections on Practice",
+    "author": "Ajahn Pasanno",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop treating spiritual freedom like a distant finish line and discover what happens when you commit completely to the ground right beneath your feet. Drawing from decades of Thai Forest monastic wisdom, Ajahn Pasanno shows how holding nothing back in your everyday awareness unlocks an effortless, unshakeable inner peace.",
+      "coreThesis": "Genuine liberation is not something added to the self, but the profound freedom realized when you stop withholding your honest attention and cleanly let go of grasping in the present moment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Don't Hold Back: Monastic Reflections on Practice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -4321,6 +4471,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "from-heart-to-heart-selected-dhamma-talks",
+    "title": "From Heart to Heart: Selected Dhamma Talks",
+    "author": "Ajahn Jayasaro",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Liberation is not an abstract intellectual puzzle, but a direct encounter with your immediate awareness. This work strips away esoteric religious clutter to show how real awakening passes from heart to heart through gritty simplicity and radical presence.",
+      "coreThesis": "Genuine spiritual wisdom is directly realized within the quiet, unclouded heart, bypassing intellectual concepts through honest moment-to-moment awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "From Heart to Heart: Selected Dhamma Talks"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -6034,6 +6219,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "like-a-clear-sky-dhamma-reflections",
+    "title": "Like a Clear Sky: Dhamma Reflections",
+    "author": "Ajahn Pasanno",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind is not the turbulent storm of thoughts racing through your head; it is the vast, quiet sky that effortlessly holds them. By learning to step back into this spacious awareness, you stop drowning in passing mental weather and discover an unshakeable inner peace available right in the middle of everyday life.",
+      "coreThesis": "Suffering occurs only when we mistake temporary passing thoughts and emotional weather for who we are; true liberation is simply remembering to rest as the spacious, clear awareness that observes them without resistance.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Like a Clear Sky: Dhamma Reflections"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -7781,6 +8001,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "on-love-dhamma-talks-on-metta",
+    "title": "On Love: Dhamma Talks on Metta",
+    "author": "Ajahn Jayasaro",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most suffering in relationships comes from confusing love with possessive clinging. In this lucid discourse, Ajahn Jayasaro reveals how unhooking goodwill from attachment transforms love from an anxious transaction into a boundless, freeing refuge.",
+      "coreThesis": "Genuine love is not an anxious desire to possess another person, but the purified, unconditional wish for their true well-being, freed from craving and grounded in wisdom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "On Love: Dhamma Talks on Metta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -10325,6 +10580,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "stillness-flowing-the-life-and-teachings-of-ajahn-chah",
+    "title": "Stillness Flowing: The Life and Teachings of Ajahn Chah",
+    "author": "Ajahn Jayasaro",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into the definitive, serene biography of Ajahn Chah, the forest monk whose direct wisdom transformed modern global mindfulness. It proves that lasting inner peace is not found by stopping the chaotic currents of life, but by resting as the clear riverbed through which everything freely flows.",
+      "coreThesis": "Suffering occurs only when we demand that changing things stay still; true peace is not a quiet environment, but the unshakable awareness that watches life arise and pass without clinging.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Stillness Flowing: The Life and Teachings of Ajahn Chah"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -15282,6 +15572,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "unexpected-freedom-dhamma-reflections",
+    "title": "Unexpected Freedom: Dhamma Reflections",
+    "author": "Ajahn Munindo",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2005,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Freedom is not a far-off trophy won through spiritual struggle; it is the unexpected, quiet discovery of peace waiting whenever you stop fighting your own experience.",
+      "coreThesis": "Genuine freedom is not achieved by perfecting your circumstances or suppressing difficult emotions, but by resting as the spacious, compassionate awareness that welcomes all of life without clinging or aversion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Unexpected Freedom: Dhamma Reflections"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "unlearn-your-pain",
     "title": "Unlearn Your Pain",
     "author": "Howard Schubiner & Michael Betzold",
@@ -16047,6 +16372,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "without-and-within-questions-and-answers-on-theravada-buddhism",
+    "title": "Without and Within: Questions and Answers on Theravada Buddhism",
+    "author": "Ajahn Jayasaro",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step past external cultural ritual directly into the pristine mechanics of your own immediate awareness. Ajahn Jayasaro presents a lucid, compassionate masterclass that deconstructs Theravada Buddhism into clear, practical principles for everyday life.",
+      "coreThesis": "Suffering dissolves when you stop mistaking passing mental weather for an enduring self, training direct awareness to meet reality without attachment or resistance.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Without and Within: Questions and Answers on Theravada Buddhism"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
