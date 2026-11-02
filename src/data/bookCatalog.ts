@@ -42,7 +42,9 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "born-to-run": "./books/bornToRunExpanded.ts",
   "boundaries-when-to-say-yes-how-to-say-no-to-take-control-of-": "./books/boundariesWhenToSayYesHowToSayNoToTakeControlOfExpanded.ts",
   "brahmavihara-the-four-immeasurables-in-early-buddhism": "./books/brahmaviharaTheFourImmeasurablesInEarlyBuddhismExpanded.ts",
+  "breakthrough-realizing-the-deathless-in-this-life": "./books/breakthroughRealizingTheDeathlessInThisLifeExpanded.ts",
   "breath-the-new-science-of-a-lost-art": "./books/breathTheNewScienceOfALostArtExpanded.ts",
+  "broad-view-boundless-heart": "./books/broadViewBoundlessHeartExpanded.ts",
   "buddhism-and-the-ecology-of-mind": "./books/buddhismAndTheEcologyOfMindExpanded.ts",
   "buddhism-and-the-god-idea": "./books/buddhismAndTheGodIdeaExpanded.ts",
   "building-a-second-brain": "./books/buildingASecondBrainExpanded.ts",
@@ -103,6 +105,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "feeling-good-the-new-mood-therapy": "./books/feelingGoodTheNewMoodTherapyExpanded.ts",
   "fierce-conversations-achieving-success-at-work-and-in-life-o": "./books/fierceConversationsAchievingSuccessAtWorkAndInLifeOExpanded.ts",
   "find-your-why": "./books/findYourWhyExpanded.ts",
+  "finding-the-missing-peace-a-primer-of-meditation": "./books/findingTheMissingPeaceAPrimerOfMeditationExpanded.ts",
   "flow-the-psychology-of-optimal-experience": "./books/flowThePsychologyOfOptimalExperienceExpanded.ts",
   "food-for-the-heart-collected-teachings": "./books/foodForTheHeartCollectedTeachingsExpanded.ts",
   "fooled-by-randomness": "./books/fooledByRandomnessExpanded.ts",
@@ -150,6 +153,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "investigating-the-dhamma-a-collection-of-essays": "./books/investigatingTheDhammaACollectionOfEssaysExpanded.ts",
   "invisible-influence-the-hidden-forces-that-shape-behavior": "./books/invisibleInfluenceTheHiddenForcesThatShapeBehaviorExpanded.ts",
   "just-listen-discover-the-secret-to-getting-through-to-absolu": "./books/justListenDiscoverTheSecretToGettingThroughToAbsoluExpanded.ts",
+  "just-one-more-breath-teachings-on-meditation-and-life": "./books/justOneMoreBreathTeachingsOnMeditationAndLifeExpanded.ts",
   "just-one-word-mindfulness": "./books/justOneWordMindfulnessExpanded.ts",
   "kill-it-with-fire-manage-aging-computer-systems-and-communic": "./books/killItWithFireManageAgingComputerSystemsAndCommunicExpanded.ts",
   "king-warrior-magician-lover": "./books/kingWarriorMagicianLoverExpanded.ts",
@@ -215,6 +219,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "overcoming-gravity": "./books/overcomingGravityExpanded.ts",
   "owning-your-own-shadow": "./books/owningYourOwnShadowExpanded.ts",
   "peace-beyond-suffering": "./books/peaceBeyondSufferingExpanded.ts",
+  "peace-is-a-dynamic-process": "./books/peaceIsADynamicProcessExpanded.ts",
   "peak-performance": "./books/peakPerformanceExpanded.ts",
   "permission-to-feel": "./books/permissionToFeelExpanded.ts",
   "perspectives-on-satipatthana": "./books/perspectivesOnSatipatthanaExpanded.ts",
@@ -259,10 +264,12 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "7-powers-the-foundations-of-business-strategy": "./books/sevenPowersExpanded.ts",
   "she-understanding-feminine-psychology": "./books/sheUnderstandingFemininePsychologyExpanded.ts",
   "show-your-work": "./books/showYourWorkExpanded.ts",
+  "silent-rain-collected-dhamma-talks": "./books/silentRainCollectedDhammaTalksExpanded.ts",
   "skill-in-questions-how-the-buddha-taught": "./books/skillInQuestionsHowTheBuddhaTaughtExpanded.ts",
   "skin-in-the-game": "./books/skinInTheGameExpanded.ts",
   "sleep-smarter": "./books/sleepSmarterExpanded.ts",
   "slight-edge": "./books/slightEdgeExpanded.ts",
+  "small-boat-great-mountain-reflections-on-dzogchen-and-theravada": "./books/smallBoatGreatMountainReflectionsOnDzogchenAndTheravadaExpanded.ts",
   "smart-brevity-the-power-of-saying-more-with-less": "./books/smartBrevityThePowerOfSayingMoreWithLessExpanded.ts",
   "smart-choices": "./books/smartChoicesExpanded.ts",
   "snakes-in-suits-when-psychopaths-go-to-work": "./books/snakesInSuitsWhenPsychopathsGoToWorkExpanded.ts",
@@ -335,6 +342,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-forty-rules-of-love": "./books/theFortyRulesOfLoveExpanded.ts",
   "the-foundation-conditions-for-nirvana": "./books/theFoundationConditionsForNirvanaExpanded.ts",
   "the-four-foundations-of-mindfulness": "./books/theFourFoundationsOfMindfulnessExpanded.ts",
+  "the-four-noble-truths": "./books/theFourNobleTruthsExpanded.ts",
   "the-four-nutriments-of-life": "./books/theFourNutrimentsOfLifeExpanded.ts",
   "the-four-sublime-states-brahma-vihara": "./books/theFourSublimeStatesBrahmaViharaExpanded.ts",
   "the-genesis-of-the-bodhisattva-ideal": "./books/theGenesisOfTheBodhisattvaIdealExpanded.ts",
@@ -343,6 +351,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-great-mental-models-vol-1-2": "./books/theGreatMentalModelsVol12Expanded.ts",
   "the-information-diet": "./books/theInformationDietExpanded.ts",
   "the-invisible-gorilla-how-our-intuitions-deceive-us": "./books/theInvisibleGorillaHowOurIntuitionsDeceiveUsExpanded.ts",
+  "the-island-an-anthology-of-the-buddha-s-teachings-on-nibbana": "./books/theIslandAnAnthologyOfTheBuddhaSTeachingsOnNibbanaExpanded.ts",
   "the-karma-of-questions-essays-on-the-buddhist-path": "./books/theKarmaOfQuestionsEssaysOnTheBuddhistPathExpanded.ts",
   "the-key-to-liberation": "./books/theKeyToLiberationExpanded.ts",
   "the-life-of-sariputta": "./books/theLifeOfSariputtaExpanded.ts",
@@ -414,6 +423,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "transcendental-dependent-arising": "./books/transcendentalDependentArisingExpanded.ts",
   "transitions-making-sense-of-life-s-changes": "./books/transitionsMakingSenseOfLifeSChangesExpanded.ts",
   "treatise-on-the-vipassana-insight-practice": "./books/treatiseOnTheVipassanaInsightPracticeExpanded.ts",
+  "tug-of-vow-monastic-training-in-the-forest-tradition": "./books/tugOfVowMonasticTrainingInTheForestTraditionExpanded.ts",
   "ultralearning": "./books/ultralearningExpanded.ts",
   "unlearn-your-pain": "./books/unlearnYourPainExpanded.ts",
   "untamed": "./books/untamedExpanded.ts",
@@ -1908,6 +1918,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "breakthrough-realizing-the-deathless-in-this-life",
+    "title": "Breakthrough: Realizing the Deathless in This Life",
+    "author": "Ajahn Amaro",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Liberation is not an exotic future achievement\\u2014it is an immediate shift in perspective right where you sit. Ajahn Amaro unpacks the classic breakthrough of stream-entry, showing how to step out of mental turbulence and discover the unshakable, deathless nature of pure awareness.",
+      "coreThesis": "The deathless is not a distant celestial prize, but the unconditioned space of awareness already present behind all experience, uncovered the moment we stop clinging to transient identities.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Breakthrough: Realizing the Deathless in This Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "breath-the-new-science-of-a-lost-art",
     "title": "Breath: The New Science of a Lost Art",
     "author": "James Nestor",
@@ -1938,6 +1983,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Finance",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "broad-view-boundless-heart",
+    "title": "Broad View, Boundless Heart",
+    "author": "Ajahn Pasanno & Ajahn Amaro",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2001,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Wisdom without heart turns cold and sterile, while compassion without clear sight collapses into exhausted burnout. This book unites deep meditative serenity with fierce emotional warmth, teaching you how to dwell in open awareness without clinging to a single conditioned thought.",
+      "coreThesis": "Genuine spiritual freedom arises from the seamless union of radical mental openness and unconditional benevolence: seeing things as they actually are without grasping, and meeting every experience with an undefended heart.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Broad View, Boundless Heart"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -4037,6 +4117,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "finding-the-missing-peace-a-primer-of-meditation",
+    "title": "Finding the Missing Peace: A Primer of Meditation",
+    "author": "Ajahn Amaro",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Peace is not an elusive prize waiting in a far-off sanctuary; it is your mind's natural baseline when you stop wrestling with the present moment. In this masterfully lucid primer, Ajahn Amaro distills decades of forest tradition practice into a direct, refreshingly practical roadmap for everyday tranquility.",
+      "coreThesis": "Peace is not something created by straining effort; it is what remains when you stop fueling mental conflict and rest in the silent, innate awareness of the present moment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Finding the Missing Peace: A Primer of Meditation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "flow-the-psychology-of-optimal-experience",
     "title": "Flow: The Psychology of Optimal Experience",
     "author": "Mihaly Csikszentmihalyi",
@@ -5674,6 +5789,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "just-one-more-breath-teachings-on-meditation-and-life",
+    "title": "Just One More Breath: Teachings on Meditation and Life",
+    "author": "Ajahn Amaro",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop running on the consumerist treadmill of craving and discovering the quiet freedom already present in your direct awareness. Ajahn Amaro masterfully illuminates how stepping out of the cycle of 'just one more' opens the boundless, effortless joy of celebrating life as it is.",
+      "coreThesis": "Suffering is perpetuated by the delusion that fulfillment lies in 'just one more' gratification; genuine liberation arises when mindful awareness intercepts the urge to grasp, revealing our inherent completeness through appreciative joy.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Just One More Breath: Teachings on Meditation and Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -7949,6 +8099,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "peace-is-a-dynamic-process",
+    "title": "Peace Is a Dynamic Process",
+    "author": "Ajahn Sumedho",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Peace is not a static retirement home where life stops moving; it is learning how to ride a bicycle smoothly across uneven ground. Master monk Ajahn Sumedho reveals how direct awareness transforms daily emotional chaos into grounded, unshakeable freedom.",
+      "coreThesis": "Peace is not the total absence of life's friction, but the active, unconditioned awareness that holds every shifting condition without clinging.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Peace Is a Dynamic Process"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "peak-performance",
     "title": "Peak Performance",
     "author": "Brad Stulberg & Steve Magness",
@@ -9483,6 +9668,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "silent-rain-collected-dhamma-talks",
+    "title": "Silent Rain: Collected Dhamma Talks",
+    "author": "Ajahn Amaro",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 1996,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind is like an open sky that has mistaken passing weather for its own identity. Ajahn Amaro shows how walking through life without mental baggage reveals the quiet peace already resting beneath all your noise.",
+      "coreThesis": "Suffering occurs when we grasp at changing experiences; genuine peace is discovered by resting as the silent, unattached awareness that holds all things.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Silent Rain: Collected Dhamma Talks"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "skill-in-questions-how-the-buddha-taught",
     "title": "Skill in Questions: How the Buddha Taught",
     "author": "Thanissaro Bhikkhu",
@@ -9617,6 +9837,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "small-boat-great-mountain-reflections-on-dzogchen-and-theravada",
+    "title": "Small Boat, Great Mountain: Reflections on Dzogchen and Theravada",
+    "author": "Ajahn Amaro",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2003,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "What happens when the pristine, step-by-step discipline of Therav\\u0101da meditation meets the direct, panoramic freedom of Tibetan Dzogchen? Ajahn Amaro reveals that both ancient rivers flow into the exact same ocean of primordial, unattached awareness.",
+      "coreThesis": "Enlightenment is neither a far-off achievement nor the exclusive property of any single tradition; it is the immediate, unconditioned awareness that naturally reveals itself the moment you stop clinging to passing mental states.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Small Boat, Great Mountain: Reflections on Dzogchen and Theravada"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -12133,6 +12388,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-four-noble-truths",
+    "title": "The Four Noble Truths",
+    "author": "Ajahn Sumedho",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1992,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Suffering is not a personal defect or an inevitable life sentence\\u2014it is simply friction caused by clutching tightly to things that constantly move. By shifting from dramatic personal grievance to quiet, direct observation, you unlock immediate inner peace in the middle of everyday chaos.",
+      "coreThesis": "Suffering occurs only when the mind clings to passing conditions; by recognizing tension objectively and releasing attachment, immediate peace naturally reveals itself.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Four Noble Truths"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-four-nutriments-of-life",
     "title": "The Four Nutriments of Life",
     "author": "Nyanaponika Thera",
@@ -12407,6 +12697,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-island-an-anthology-of-the-buddha-s-teachings-on-nibbana",
+    "title": "The Island: An Anthology of the Buddha's Teachings on Nibbana",
+    "author": "Ajahn Pasanno & Ajahn Amaro",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 90,
+    "publishedYear": 2009,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Nibb\\u0101na is not a distant, mythical heaven or cold void\\u2014it is the cool, unshakeable sanctuary of awareness available right now when you stop adding fuel to the fires of mental reactivity. This definitive anthology maps the Buddha's most direct teachings on liberation, translating ancient canonical wisdom into practical, everyday awakening.",
+      "coreThesis": "Liberation is not an exotic destination to be attained in the future, but the cool, unconditioned peace that naturally reveals itself when the mind stops fueling reactivity and clinging.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Island: An Anthology of the Buddha's Teachings on Nibbana"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -14876,6 +15201,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Treatise on the Vipassana Insight Practice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "tug-of-vow-monastic-training-in-the-forest-tradition",
+    "title": "Tug of Vow: Monastic Training in the Forest Tradition",
+    "author": "Ajahn Amaro",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Vows are not cages built to trap your vitality; they are riverbanks designed to turn chaotic mental rapids into a clean, focused current of liberation. Master forest monk Ajahn Amaro reveals how submitting to radical simplicity and deliberate discipline unlocks an unshakeable, spacious freedom right in the middle of daily life.",
+      "coreThesis": "Authentic freedom is never found by expanding our options to satisfy every passing craving, but by establishing firm boundaries that extinguish the illusion of the self-centered ego.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Tug of Vow: Monastic Training in the Forest Tradition"
     },
     "reflectionExercises": [],
     "actionItems": [],
