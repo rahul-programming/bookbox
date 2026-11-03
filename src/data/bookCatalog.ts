@@ -201,6 +201,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "living-forward-a-proven-plan-to-stop-drifting": "./books/livingForwardAProvenPlanToStopDriftingExpanded.ts",
   "living-nonviolent-communication": "./books/livingNonviolentCommunicationExpanded.ts",
   "living-the-dhamma-hour-by-hour": "./books/livingTheDhammaHourByHourExpanded.ts",
+  "living-the-dhammapada-practical-everyday-wisdom": "./books/livingTheDhammapadaPracticalEverydayWisdomExpanded.ts",
   "logic-a-very-short-introduction": "./books/logicAVeryShortIntroductionExpanded.ts",
   "logically-fallacious": "./books/logicallyFallaciousExpanded.ts",
   "lost-art-of-listening-how-learning-to-listen-can-improve-rel": "./books/lostArtOfListeningHowLearningToListenCanImproveRelExpanded.ts",
@@ -429,10 +430,12 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-information-diet": "./books/theInformationDietExpanded.ts",
   "the-invisible-gorilla-how-our-intuitions-deceive-us": "./books/theInvisibleGorillaHowOurIntuitionsDeceiveUsExpanded.ts",
   "the-island-an-anthology-of-the-buddha-s-teachings-on-nibbana": "./books/theIslandAnAnthologyOfTheBuddhaSTeachingsOnNibbanaExpanded.ts",
+  "the-itivuttaka-the-buddha-s-sayings": "./books/theItivuttakaTheBuddhaSSayingsExpanded.ts",
   "the-karma-of-questions-essays-on-the-buddhist-path": "./books/theKarmaOfQuestionsEssaysOnTheBuddhistPathExpanded.ts",
   "the-key-to-liberation": "./books/theKeyToLiberationExpanded.ts",
   "the-life-of-sariputta": "./books/theLifeOfSariputtaExpanded.ts",
   "the-logic-of-scientific-discovery": "./books/theLogicOfScientificDiscoveryExpanded.ts",
+  "the-long-discourses-of-the-buddha-digha-nikaya": "./books/theLongDiscoursesOfTheBuddhaDighaNikayaExpanded.ts",
   "the-lucifer-effect-understanding-how-good-people-turn-evil": "./books/theLuciferEffectUnderstandingHowGoodPeopleTurnEvilExpanded.ts",
   "the-memory-book": "./books/theMemoryBookExpanded.ts",
   "the-middle-length-discourses-of-the-buddha-majjhima-nikaya": "./books/theMiddleLengthDiscoursesOfTheBuddhaMajjhimaNikayaExpanded.ts",
@@ -454,7 +457,9 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-paradox-of-becoming-finding-freedom-in-the-cycle-of-becoming": "./books/theParadoxOfBecomingFindingFreedomInTheCycleOfBecomingExpanded.ts",
   "the-paradox-of-choice": "./books/theParadoxOfChoiceExpanded.ts",
   "the-path-made-clear": "./books/thePathMadeClearExpanded.ts",
+  "the-path-of-purification-visuddhimagga": "./books/thePathOfPurificationVisuddhimaggaExpanded.ts",
   "the-path-of-serenity-and-insight": "./books/thePathOfSerenityAndInsightExpanded.ts",
+  "the-patimokkha-monastic-discipline-rules": "./books/thePatimokkhaMonasticDisciplineRulesExpanded.ts",
   "the-polyvagal-theory-in-therapy": "./books/thePolyvagalTheoryInTherapyExpanded.ts",
   "the-power-of-a-positive-no-how-to-say-no-and-still-get-to-ye": "./books/thePowerOfAPositiveNoHowToSayNoAndStillGetToYeExpanded.ts",
   "the-power-of-full-engagement": "./books/thePowerOfFullEngagementExpanded.ts",
@@ -466,6 +471,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-progress-of-insight-through-mental-noting": "./books/theProgressOfInsightThroughMentalNotingExpanded.ts",
   "the-promise-of-sleep": "./books/thePromiseOfSleepExpanded.ts",
   "the-pure-soul-the-brahmana-vagga-of-the-dhammapada": "./books/thePureSoulTheBrahmanaVaggaOfTheDhammapadaExpanded.ts",
+  "the-questions-of-king-milinda-milindapanha": "./books/theQuestionsOfKingMilindaMilindapanhaExpanded.ts",
   "the-righteous-mind-why-good-people-are-divided-by-politics-a": "./books/theRighteousMindWhyGoodPeopleAreDividedByPoliticsAExpanded.ts",
   "the-road-to-inner-freedom": "./books/theRoadToInnerFreedomExpanded.ts",
   "the-roots-of-good-and-evil": "./books/theRootsOfGoodAndEvilExpanded.ts",
@@ -486,9 +492,11 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-state-of-mind-called-beautiful": "./books/theStateOfMindCalledBeautifulExpanded.ts",
   "the-sun-my-heart-from-mindfulness-to-insight-contemplation": "./books/theSunMyHeartFromMindfulnessToInsightContemplationExpanded.ts",
   "the-sutta-discovery-early-buddhist-teachings": "./books/theSuttaDiscoveryEarlyBuddhistTeachingsExpanded.ts",
+  "the-sutta-nipata-early-buddhist-poetry": "./books/theSuttaNipataEarlyBuddhistPoetryExpanded.ts",
   "the-suttanipata-an-ancient-collection-of-discourses": "./books/theSuttanipataAnAncientCollectionOfDiscoursesExpanded.ts",
   "the-systems-view-of-life": "./books/theSystemsViewOfLifeExpanded.ts",
   "the-thousandfold-verse-dhammapada-sahassa-vagga": "./books/theThousandfoldVerseDhammapadaSahassaVaggaExpanded.ts",
+  "the-udana-inspired-utterances-of-the-buddha": "./books/theUdanaInspiredUtterancesOfTheBuddhaExpanded.ts",
   "the-upward-spiral": "./books/theUpwardSpiralExpanded.ts",
   "the-uses-of-argument": "./books/theUsesOfArgumentExpanded.ts",
   "the-war-of-art": "./books/theWarOfArtExpanded.ts",
@@ -498,6 +506,8 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-wise-and-the-foolish-in-the-dhammapada": "./books/theWiseAndTheFoolishInTheDhammapadaExpanded.ts",
   "the-worn-out-skin-reflections-on-the-uraga-sutta": "./books/theWornOutSkinReflectionsOnTheUragaSuttaExpanded.ts",
   "the-worry-trick": "./books/theWorryTrickExpanded.ts",
+  "theragatha-verses-of-the-senior-monks": "./books/theragathaVersesOfTheSeniorMonksExpanded.ts",
+  "therigatha-poems-of-early-buddhist-nuns": "./books/therigathaPoemsOfEarlyBuddhistNunsExpanded.ts",
   "think-again-the-power-of-knowing-what-you-don-t-know": "./books/thinkAgainThePowerOfKnowingWhatYouDonTKnowExpanded.ts",
   "thinking-fast-and-slow": "./books/thinkingFastAndSlowExpanded.ts",
   "thinking-in-bets": "./books/thinkingInBetsExpanded.ts",
@@ -7561,6 +7571,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Living the Dhamma Hour by Hour"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "living-the-dhammapada-practical-everyday-wisdom",
+    "title": "Living the Dhammapada: Practical Everyday Wisdom",
+    "author": "K. Sri Dhammananda",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 1988,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "The mind is not an uncontrollable weather pattern; it is a garden that produces either tranquil harvest or suffocating brambles depending on where you aim your daily attention. Venerable Dhammananda transforms humanity's most timeless contemplative verses into a clean, practical playbook for mastering everyday living.",
+      "coreThesis": "Your mind shapes every contour of your lived experience: by training daily attention and abandoning reactionary clinging, you extinguish suffering at its source.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Living the Dhammapada: Practical Everyday Wisdom"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -15532,6 +15577,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-itivuttaka-the-buddha-s-sayings",
+    "title": "The Itivuttaka: The Buddha's Sayings",
+    "author": "John D. Ireland",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1991,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into the most intimate collection of the Buddha's spontaneous teachings, preserved by memory as short, crystalline utterances that dismantle egoic friction and reveal radiant inner stillness. It is an unvarnished owner's manual for direct awakening, showing how everyday mental habits forge either boundless freedom or perpetual restlessness.",
+      "coreThesis": "Human suffering is neither mysterious nor permanent; it is fueled by identifiable mental defilements, and can be completely dismantled through steady mindfulness, moral integrity, and direct insight into our unconditioned nature.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Itivuttaka: The Buddha's Sayings"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-karma-of-questions-essays-on-the-buddhist-path",
     "title": "The Karma of Questions: Essays on the Buddhist Path",
     "author": "Thanissaro Bhikkhu",
@@ -15668,6 +15748,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "the-long-discourses-of-the-buddha-digha-nikaya",
+    "title": "The Long Discourses of the Buddha (Digha Nikaya)",
+    "author": "Maurice Walshe",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 170,
+    "publishedYear": 1995,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step directly into the original dialogues that shaped Eastern philosophy, translated into luminous, accessible English. This collection strips away religious mystery to hand you a grounded, field-tested manual for training the restless mind and finding unwavering freedom in daily life.",
+      "coreThesis": "Suffering is not an inescapable fate, but a mechanical friction created by grasping at transient thoughts and circumstances; by cultivating steady, non-reactive mindfulness, anyone can untangle the mind and rest in immediate, lasting peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Long Discourses of the Buddha (Digha Nikaya)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -16404,6 +16519,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-path-of-purification-visuddhimagga",
+    "title": "The Path of Purification (Visuddhimagga)",
+    "author": "Bhadantacariya Buddhaghosa (Bhikkhu Nanamoli tr.)",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 115,
+    "publishedYear": 1956,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Regarded as the master operating manual for the human mind, this classic work provides a systematic, ground-level blueprint for clearing inner turbulence and awakening to lasting freedom.",
+      "coreThesis": "Genuine inner freedom is not an accidental flash of luck, but a stepwise cultivation: grounded ethics calm the storm, concentrated focus steadies the vision, and direct insight dissolves the illusion of an isolated ego.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Path of Purification (Visuddhimagga)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-path-of-serenity-and-insight",
     "title": "The Path of Serenity and Insight",
     "author": "Bhante Henepola Gunaratana",
@@ -16427,6 +16577,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Path of Serenity and Insight"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-patimokkha-monastic-discipline-rules",
+    "title": "The Patimokkha: Monastic Discipline Rules",
+    "author": "K.R. Norman",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 95,
+    "publishedYear": 2001,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "The Patimokkha is not a rigid penal code, but the ancient blueprint for an unburdened mind. By creating clean external boundaries, it strips away mental friction so pure awareness can rest in stillness.",
+      "coreThesis": "Genuine inner freedom requires clear outer boundaries; when ethical conduct eliminates remorse and guilt, the mind effortlessly settles into tranquil, unshakeable awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Patimokkha: Monastic Discipline Rules"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -16812,6 +16997,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Pure Soul: The Brahmana Vagga of the Dhammapada"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-questions-of-king-milinda-milindapanha",
+    "title": "The Questions of King Milinda (Milindapanha)",
+    "author": "T.W. Rhys Davids",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1890,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When a sharp, skeptical king interrogates an unflappable monk, ancient philosophical puzzles crack open into immediate, everyday clarity. It is the ultimate guide to discovering who you actually are when the illusion of ego falls away.",
+      "coreThesis": "The self is not an unchanging inner owner, but a dynamic, interconnected process of awareness and action that can be understood and liberated through clear inquiry.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Questions of King Milinda (Milindapanha)"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -17522,6 +17742,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-sutta-nipata-early-buddhist-poetry",
+    "title": "The Sutta Nipata: Early Buddhist Poetry",
+    "author": "H. Saddhatissa",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1985,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into the oldest, most direct verses of early Buddhism, stripped of institutional dogma and ornate ritual. This text delivers pure, unembellished guidance on living lightly, dropping mental disputes, and crossing life's turbulent floods with absolute inner freedom.",
+      "coreThesis": "Genuine liberation is not the acquisition of superior beliefs or possessions, but the radical, peaceful release of all grasping, defensiveness, and mental clinging.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Sutta Nipata: Early Buddhist Poetry"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-suttanipata-an-ancient-collection-of-discourses",
     "title": "The Suttanipata: An Ancient Collection of Discourses",
     "author": "Bhikkhu Bodhi",
@@ -17614,6 +17869,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Thousandfold Verse: Dhammapada Sahassa Vagga"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-udana-inspired-utterances-of-the-buddha",
+    "title": "The Udana: Inspired Utterances of the Buddha",
+    "author": "John D. Ireland",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1990,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Direct from the earliest Buddhist scriptures, the Udana captures the Buddha's spontaneous exclamations of spiritual breakthrough. It cuts through religious dogma to reveal the timeless peace of an uncluttered mind.",
+      "coreThesis": "Suffering is born from grasping at temporary conditions; freedom is immediately tasted whenever the mind releases its clinging and rests in unconditioned awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Udana: Inspired Utterances of the Buddha"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -17936,6 +18226,76 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "theragatha-verses-of-the-senior-monks",
+    "title": "Theragatha: Verses of the Senior Monks",
+    "author": "Bhikkhu Sujato",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 105,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "The Therag\\u0101th\\u0101 is an intimate anthology of raw victory songs composed by individuals who confronted their deepest mental suffering, broke free, and found unshakable stillness. It offers a practical mirror showing that awakening is not an unattainable myth, but an immediate psychological reality available to anyone willing to train their attention.",
+      "coreThesis": "Suffering ceases when you stop mistaking passing thoughts and sensations for your true identity, resting instead in clear, unattached awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Theragatha: Verses of the Senior Monks"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "therigatha-poems-of-early-buddhist-nuns",
+    "title": "Therigatha: Poems of Early Buddhist Nuns",
+    "author": "Charles Hallisey",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Hear the oldest recorded voices of spiritually liberated women who cast aside societal expectations, heartbreak, and domestic drudgery to awaken directly to timeless inner freedom. Through raw, unvarnished verse, these early Buddhist practitioners prove that profound awakening is not an abstract theory, but an immediate, living reality within everyday human grasp.",
+      "coreThesis": "Total spiritual liberation is accessible to anyone right now through clear, honest mindfulness that cuts through emotional clinging and reveals our innate, unshakable peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Therigatha: Poems of Early Buddhist Nuns"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
