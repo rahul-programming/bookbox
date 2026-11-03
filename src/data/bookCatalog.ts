@@ -11,6 +11,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "a-discourse-on-the-cula-vedalla-sutta": "./books/aDiscourseOnTheCulaVedallaSuttaExpanded.ts",
   "a-discourse-on-the-maha-vedalla-sutta": "./books/aDiscourseOnTheMahaVedallaSuttaExpanded.ts",
   "a-discourse-on-the-sakkapanha-sutta": "./books/aDiscourseOnTheSakkapanhaSuttaExpanded.ts",
+  "a-heart-of-wisdom-the-twin-verses-of-the-dhammapada": "./books/aHeartOfWisdomTheTwinVersesOfTheDhammapadaExpanded.ts",
   "a-life-of-blessing-celebrating-virtue-and-stillness": "./books/aLifeOfBlessingCelebratingVirtueAndStillnessExpanded.ts",
   "a-million-miles-in-a-thousand-years": "./books/aMillionMilesInAThousandYearsExpanded.ts",
   "a-mind-for-numbers": "./books/aMindForNumbersExpanded.ts",
@@ -90,6 +91,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "dhammapada-reflections-contemplations-on-wisdom": "./books/dhammapadaReflectionsContemplationsOnWisdomExpanded.ts",
   "dhammapada-the-way-of-the-buddha-vol-1": "./books/dhammapadaTheWayOfTheBuddhaVol1Expanded.ts",
   "dhammapada-the-way-of-the-buddha-vol-2": "./books/dhammapadaTheWayOfTheBuddhaVol2Expanded.ts",
+  "dhammapada-the-way-of-the-buddha-vol-3": "./books/dhammapadaTheWayOfTheBuddhaVol3Expanded.ts",
   "dhammapada-wisdom-of-the-buddha": "./books/dhammapadaWisdomOfTheBuddhaExpanded.ts",
   "difficult-conversations-how-to-discuss-what-matters-most": "./books/difficultConversationsHowToDiscussWhatMattersMostExpanded.ts",
   "digital-body-language-how-to-build-trust-and-connection-no-m": "./books/digitalBodyLanguageHowToBuildTrustAndConnectionNoMExpanded.ts",
@@ -119,6 +121,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "essentialism-the-disciplined-pursuit-of-less": "./books/essentialismTheDisciplinedPursuitOfLessExpanded.ts",
   "everything-arises-everything-falls-away": "./books/everythingArisesEverythingFallsAwayExpanded.ts",
   "everything-s-an-argument": "./books/everythingSAnArgumentExpanded.ts",
+  "evil-and-punishment-the-danda-vagga-of-the-dhammapada": "./books/evilAndPunishmentTheDandaVaggaOfTheDhammapadaExpanded.ts",
   "evolutionary-psychology-the-new-science-of-the-mind": "./books/evolutionaryPsychologyTheNewScienceOfTheMindExpanded.ts",
   "expert-political-judgment": "./books/expertPoliticalJudgmentExpanded.ts",
   "factfulness": "./books/factfulnessExpanded.ts",
@@ -147,6 +150,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "head-and-heart-together-essays-on-the-buddhist-path": "./books/headAndHeartTogetherEssaysOnTheBuddhistPathExpanded.ts",
   "healing-back-pain-the-mind-body-connection": "./books/healingBackPainTheMindBodyConnectionExpanded.ts",
   "healing-the-shame-that-binds-you": "./books/healingTheShameThatBindsYouExpanded.ts",
+  "heedfulness-the-deathless-path-of-the-dhammapada": "./books/heedfulnessTheDeathlessPathOfTheDhammapadaExpanded.ts",
   "hell-yeah-or-no": "./books/hellYeahOrNoExpanded.ts",
   "honoring-the-self": "./books/honoringTheSelfExpanded.ts",
   "hope-and-help-for-your-nerves": "./books/hopeAndHelpForYourNervesExpanded.ts",
@@ -245,6 +249,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "not-nice-stop-people-pleasing-staying-silent-feeling-guilty": "./books/notNiceStopPeoplePleasingStayingSilentFeelingGuiltyExpanded.ts",
   "now-is-the-knowing": "./books/nowIsTheKnowingExpanded.ts",
   "nudge": "./books/nudgeExpanded.ts",
+  "old-age-and-mortality-the-jara-vagga": "./books/oldAgeAndMortalityTheJaraVaggaExpanded.ts",
   "old-path-white-clouds-walking-in-the-footsteps-of-the-buddha": "./books/oldPathWhiteCloudsWalkingInTheFootstepsOfTheBuddhaExpanded.ts",
   "on-love-dhamma-talks-on-metta": "./books/onLoveDhammaTalksOnMettaExpanded.ts",
   "on-the-path-an-anthology-of-suttas-on-the-noble-eightfold-path": "./books/onThePathAnAnthologyOfSuttasOnTheNobleEightfoldPathExpanded.ts",
@@ -387,6 +392,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-dhammapada-a-new-translation": "./books/theDhammapadaANewTranslationExpanded.ts",
   "the-dhammapada-a-translation-of-the-buddhist-classic": "./books/theDhammapadaATranslationOfTheBuddhistClassicExpanded.ts",
   "the-dhammapada": "./books/theDhammapadaExpanded.ts",
+  "the-dhammapada-for-awakening": "./books/theDhammapadaForAwakeningExpanded.ts",
   "the-dhammapada-the-buddha-s-path-of-wisdom": "./books/theDhammapadaTheBuddhaSPathOfWisdomExpanded.ts",
   "the-dhammapada-the-path-of-perfection": "./books/theDhammapadaThePathOfPerfectionExpanded.ts",
   "the-dhammapada-the-sayings-of-the-buddha": "./books/theDhammapadaTheSayingsOfTheBuddhaExpanded.ts",
@@ -406,6 +412,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-evolution-of-desire-strategies-of-human-mating": "./books/theEvolutionOfDesireStrategiesOfHumanMatingExpanded.ts",
   "the-fifth-discipline": "./books/theFifthDisciplineExpanded.ts",
   "the-five-mental-hindrances-and-their-conquest": "./books/theFiveMentalHindrancesAndTheirConquestExpanded.ts",
+  "the-flowers-of-enlightenment-dhammapada-chapter-4": "./books/theFlowersOfEnlightenmentDhammapadaChapter4Expanded.ts",
   "the-forty-rules-of-love": "./books/theFortyRulesOfLoveExpanded.ts",
   "the-foundation-conditions-for-nirvana": "./books/theFoundationConditionsForNirvanaExpanded.ts",
   "the-four-foundations-of-mindfulness": "./books/theFourFoundationsOfMindfulnessExpanded.ts",
@@ -458,6 +465,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-progress-of-insight": "./books/theProgressOfInsightExpanded.ts",
   "the-progress-of-insight-through-mental-noting": "./books/theProgressOfInsightThroughMentalNotingExpanded.ts",
   "the-promise-of-sleep": "./books/thePromiseOfSleepExpanded.ts",
+  "the-pure-soul-the-brahmana-vagga-of-the-dhammapada": "./books/thePureSoulTheBrahmanaVaggaOfTheDhammapadaExpanded.ts",
   "the-righteous-mind-why-good-people-are-divided-by-politics-a": "./books/theRighteousMindWhyGoodPeopleAreDividedByPoliticsAExpanded.ts",
   "the-road-to-inner-freedom": "./books/theRoadToInnerFreedomExpanded.ts",
   "the-roots-of-good-and-evil": "./books/theRootsOfGoodAndEvilExpanded.ts",
@@ -480,12 +488,14 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-sutta-discovery-early-buddhist-teachings": "./books/theSuttaDiscoveryEarlyBuddhistTeachingsExpanded.ts",
   "the-suttanipata-an-ancient-collection-of-discourses": "./books/theSuttanipataAnAncientCollectionOfDiscoursesExpanded.ts",
   "the-systems-view-of-life": "./books/theSystemsViewOfLifeExpanded.ts",
+  "the-thousandfold-verse-dhammapada-sahassa-vagga": "./books/theThousandfoldVerseDhammapadaSahassaVaggaExpanded.ts",
   "the-upward-spiral": "./books/theUpwardSpiralExpanded.ts",
   "the-uses-of-argument": "./books/theUsesOfArgumentExpanded.ts",
   "the-war-of-art": "./books/theWarOfArtExpanded.ts",
   "the-way-to-the-guru-meditative-guidance": "./books/theWayToTheGuruMeditativeGuidanceExpanded.ts",
   "the-willpower-instinct": "./books/theWillpowerInstinctExpanded.ts",
   "the-wings-to-awakening-an-anthology-from-the-pali-canon": "./books/theWingsToAwakeningAnAnthologyFromThePaliCanonExpanded.ts",
+  "the-wise-and-the-foolish-in-the-dhammapada": "./books/theWiseAndTheFoolishInTheDhammapadaExpanded.ts",
   "the-worn-out-skin-reflections-on-the-uraga-sutta": "./books/theWornOutSkinReflectionsOnTheUragaSuttaExpanded.ts",
   "the-worry-trick": "./books/theWorryTrickExpanded.ts",
   "think-again-the-power-of-knowing-what-you-don-t-know": "./books/thinkAgainThePowerOfKnowingWhatYouDonTKnowExpanded.ts",
@@ -916,6 +926,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "A Discourse on the Sakkapanha Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "a-heart-of-wisdom-the-twin-verses-of-the-dhammapada",
+    "title": "A Heart of Wisdom: The Twin Verses of the Dhammapada",
+    "author": "Bhikkhu Pesala",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 1989,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind shapes your entire world: every joy or sorrow you experience is the natural harvest of your own habitual intentions. Bhikkhu Pesala reveals how practical, relentless awareness cleanses inner friction and awakens unshakeable peace right in the midst of daily life.",
+      "coreThesis": "Consciousness precedes all experience: cleanse your intention of greed and ill-will, and genuine peace follows as an effortless law of nature.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "A Heart of Wisdom: The Twin Verses of the Dhammapada"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -3684,6 +3729,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "dhammapada-the-way-of-the-buddha-vol-3",
+    "title": "Dhammapada: The Way of the Buddha (Vol 3)",
+    "author": "Osho",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1991,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step off the exhausting treadmill of secondhand knowledge and awaken to the silent, untamed awareness already waiting within you. Osho uses Gautam Buddha's verses to reveal that peace is not an accomplishment you chase, but the clarity you uncover when the mental dust settles.",
+      "coreThesis": "Enlightenment is not a future prize won by accumulating borrowed knowledge, but the immediate realization of your unshakeable, sky-like awareness through silent witnessing.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Dhammapada: The Way of the Buddha (Vol 3)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "dhammapada-wisdom-of-the-buddha",
     "title": "Dhammapada: Wisdom of the Buddha",
     "author": "Harischandra Kaviratna",
@@ -4699,6 +4779,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "evil-and-punishment-the-danda-vagga-of-the-dhammapada",
+    "title": "Evil and Punishment: The Danda Vagga of the Dhammapada",
+    "author": "Sister Vajira",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 1962,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Evil and punishment are not distant courtroom verdicts delivered by an external judge; they are immediate laws of physics operating within human consciousness. Sister Vajira unlocks the Danda Vagga to reveal that cruelty burns the holder first, while radical empathy and inner mastery dissolve all suffering at its root.",
+      "coreThesis": "Harm inflicted upon another is fundamentally self-inflicted harm; by identifying with the vulnerability of all life and training the mind into stillness, one dismantles the root mechanism of suffering.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Evil and Punishment: The Danda Vagga of the Dhammapada"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "evolutionary-psychology-the-new-science-of-the-mind",
     "title": "Evolutionary Psychology: The New Science of the Mind",
     "author": "David M. Buss",
@@ -5671,6 +5786,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "heedfulness-the-deathless-path-of-the-dhammapada",
+    "title": "Heedfulness: The Deathless Path of the Dhammapada",
+    "author": "Bhikkhu Cintita",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Wake up from the autopilot of daily life. Heedfulness turns ordinary moment-to-moment attention into an unshakeable sanctuary beyond anxiety, grasping, and burnout.",
+      "coreThesis": "Continuous, vigilant presence of mind is the sole bridge between automated suffering and enduring freedom. When you guard your awareness with consistent care, you unlock a steady peace untouched by life's volatility.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Heedfulness: The Deathless Path of the Dhammapada"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -9096,6 +9246,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "old-age-and-mortality-the-jara-vagga",
+    "title": "Old Age and Mortality: The Jara Vagga",
+    "author": "Bhikkhu Anigha",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Aging and mortality are not sudden personal tragedies to flee from, but the very chisel that carves away egoic delusion. Bhikkhu Anigha unlocks the ancient Jar\\u0101 Vagga verses to reveal that recognizing bodily decay is the swiftest doorway to absolute inner freedom.",
+      "coreThesis": "Old age and physical dissolution are not flaws in our existence to be denied or mourned, but natural realities that, when observed directly without craving, permanently dismantle the architecture of suffering.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Old Age and Mortality: The Jara Vagga"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -14055,6 +14240,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-dhammapada-for-awakening",
+    "title": "The Dhammapada for Awakening",
+    "author": "Abbot George Burke (Swami Nirmalananda Giri)",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind shapes your entire reality, and unexamined thought is the sole engine of human friction. Abbot George Burke reveals the Dhammapada not as ancient dogma, but as a direct, practical field manual for training awareness and realizing lasting inner freedom.",
+      "coreThesis": "Suffering is born of an undisciplined mind chasing transient desires, while freedom is realized through steady mindfulness, ethical integrity, and direct insight into our true nature.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Dhammapada for Awakening"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-dhammapada-the-buddha-s-path-of-wisdom",
     "title": "The Dhammapada: The Buddha's Path of Wisdom",
     "author": "Acharya Buddharakkhita",
@@ -14707,6 +14927,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Five Mental Hindrances and Their Conquest"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-flowers-of-enlightenment-dhammapada-chapter-4",
+    "title": "The Flowers of Enlightenment: Dhammapada Chapter 4",
+    "author": "Narada Mahathera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 1963,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Just as an artist selects fresh blossoms to weave an enduring garland, you can curate your awareness and habits to build a serene, unshakable life. Narada Mahathera illuminates the classic verses on the fragile beauty of life, showing how to live with the lightness of a bee and the deep scent of genuine virtue.",
+      "coreThesis": "Human existence is as delicate and ephemeral as morning foam, yet when disciplined by mindfulness and gentle integrity, every fleeting moment can be woven into an enduring garland of wholesome action and liberation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Flowers of Enlightenment: Dhammapada Chapter 4"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -16534,6 +16789,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-pure-soul-the-brahmana-vagga-of-the-dhammapada",
+    "title": "The Pure Soul: The Brahmana Vagga of the Dhammapada",
+    "author": "Bhikkhu Bodhi",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 1985,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Authentic nobility has nothing to do with social status, pedigree, or ritual performance\\u2014it is the direct fruit of an unburdened, pristine awareness. This culminating teaching reveals how anyone can dismantle mental clinging and inhabit a state of quiet, unshakable inner freedom.",
+      "coreThesis": "True spiritual purity is not an inherited privilege or an external performance, but the inner freedom of a mind stripped clean of craving, hostility, and self-centered delusion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Pure Soul: The Brahmana Vagga of the Dhammapada"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-righteous-mind-why-good-people-are-divided-by-politics-a",
     "title": "The Righteous Mind: Why Good People Are Divided by Politics and Religion",
     "author": "Jonathan Haidt",
@@ -17301,6 +17591,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-thousandfold-verse-dhammapada-sahassa-vagga",
+    "title": "The Thousandfold Verse: Dhammapada Sahassa Vagga",
+    "author": "Bhikkhu Nyanatusita",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Cut through the noisy overload of modern life with ancient verses that weigh quality over volume. A single sentence heard in stillness delivers greater liberation than a thousand hollow speeches.",
+      "coreThesis": "One moment of lucid awareness and self-mastery holds more spiritual value than a lifetime spent chasing superficial achievements or consuming endless empty words.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Thousandfold Verse: Dhammapada Sahassa Vagga"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-upward-spiral",
     "title": "The Upward Spiral",
     "author": "Alex Korb",
@@ -17499,6 +17824,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Wings to Awakening: An Anthology from the Pali Canon"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-wise-and-the-foolish-in-the-dhammapada",
+    "title": "The Wise and the Foolish in the Dhammapada",
+    "author": "Hellmuth Hecker",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1993,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop drifting through life on the autopilot of craving and ego defense. Hellmuth Hecker illuminates the Buddha's timeless contrast between the foolish mind that creates its own storms and the wise mind that builds an unshakeable sanctuary within.",
+      "coreThesis": "Suffering is not inflicted from the outside but generated by our own unconscious delusion; wisdom begins the moment we recognize our own confusion and consciously anchor our mind in wakeful, non-reactive presence.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Wise and the Foolish in the Dhammapada"
     },
     "reflectionExercises": [],
     "actionItems": [],
