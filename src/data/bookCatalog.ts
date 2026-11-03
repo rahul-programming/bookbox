@@ -19,6 +19,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "a-still-forest-pool-insight-meditation-of-achaan-chah": "./books/aStillForestPoolInsightMeditationOfAchaanChahExpanded.ts",
   "a-taste-of-freedom": "./books/aTasteOfFreedomExpanded.ts",
   "a-theory-of-cognitive-dissonance": "./books/aTheoryOfCognitiveDissonanceExpanded.ts",
+  "abhidhamma-in-practice": "./books/abhidhammaInPracticeExpanded.ts",
   "abundant-exalted-immeasurable-the-brahmaviharas": "./books/abundantExaltedImmeasurableTheBrahmaviharasExpanded.ts",
   "algorithms-to-live-by": "./books/algorithmsToLiveByExpanded.ts",
   "alone-together-why-we-expect-more-from-technology-and-less-f": "./books/aloneTogetherWhyWeExpectMoreFromTechnologyAndLessFExpanded.ts",
@@ -61,6 +62,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "building-a-second-brain": "./books/buildingASecondBrainExpanded.ts",
   "built-from-broken": "./books/builtFromBrokenExpanded.ts",
   "bullshit-jobs-on-bullshit": "./books/bullshitJobsOnBullshitExpanded.ts",
+  "citta-and-cetasika-mind-and-mental-factors": "./books/cittaAndCetasikaMindAndMentalFactorsExpanded.ts",
   "cittaviveka-teachings-from-the-silent-mind": "./books/cittavivekaTeachingsFromTheSilentMindExpanded.ts",
   "clarity-of-insight-selected-forest-dhamma": "./books/clarityOfInsightSelectedForestDhammaExpanded.ts",
   "clear-thinking": "./books/clearThinkingExpanded.ts",
@@ -93,6 +95,8 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "dhammapada-the-way-of-the-buddha-vol-2": "./books/dhammapadaTheWayOfTheBuddhaVol2Expanded.ts",
   "dhammapada-the-way-of-the-buddha-vol-3": "./books/dhammapadaTheWayOfTheBuddhaVol3Expanded.ts",
   "dhammapada-wisdom-of-the-buddha": "./books/dhammapadaWisdomOfTheBuddhaExpanded.ts",
+  "dhammasangani-buddhist-psychological-ethics": "./books/dhammasanganiBuddhistPsychologicalEthicsExpanded.ts",
+  "dhatukatha-discourse-on-elements": "./books/dhatukathaDiscourseOnElementsExpanded.ts",
   "difficult-conversations-how-to-discuss-what-matters-most": "./books/difficultConversationsHowToDiscussWhatMattersMostExpanded.ts",
   "digital-body-language-how-to-build-trust-and-connection-no-m": "./books/digitalBodyLanguageHowToBuildTrustAndConnectionNoMExpanded.ts",
   "disarming-the-narcissist": "./books/disarmingTheNarcissistExpanded.ts",
@@ -186,6 +190,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "just-listen-discover-the-secret-to-getting-through-to-absolu": "./books/justListenDiscoverTheSecretToGettingThroughToAbsoluExpanded.ts",
   "just-one-more-breath-teachings-on-meditation-and-life": "./books/justOneMoreBreathTeachingsOnMeditationAndLifeExpanded.ts",
   "just-one-word-mindfulness": "./books/justOneWordMindfulnessExpanded.ts",
+  "kathavatthu-points-of-controversy": "./books/kathavatthuPointsOfControversyExpanded.ts",
   "keeping-the-breath-in-mind-lessons-in-samadhi": "./books/keepingTheBreathInMindLessonsInSamadhiExpanded.ts",
   "kill-it-with-fire-manage-aging-computer-systems-and-communic": "./books/killItWithFireManageAgingComputerSystemsAndCommunicExpanded.ts",
   "king-warrior-magician-lover": "./books/kingWarriorMagicianLoverExpanded.ts",
@@ -264,6 +269,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "overcoming-gravity": "./books/overcomingGravityExpanded.ts",
   "owning-your-own-shadow": "./books/owningYourOwnShadowExpanded.ts",
   "parami-ways-to-cross-life-s-floats": "./books/paramiWaysToCrossLifeSFloatsExpanded.ts",
+  "patthana-the-great-book-of-conditional-relations": "./books/patthanaTheGreatBookOfConditionalRelationsExpanded.ts",
   "peace-beyond-suffering": "./books/peaceBeyondSufferingExpanded.ts",
   "peace-is-a-dynamic-process": "./books/peaceIsADynamicProcessExpanded.ts",
   "peace-is-every-step-the-path-of-mindfulness-in-everyday-life": "./books/peaceIsEveryStepThePathOfMindfulnessInEverydayLifeExpanded.ts",
@@ -277,8 +283,10 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "practical-vipassana-meditative-exercises": "./books/practicalVipassanaMeditativeExercisesExpanded.ts",
   "pre-suasion-a-revolutionary-way-to-influence-and-persuade": "./books/preSuasionARevolutionaryWayToInfluenceAndPersuadeExpanded.ts",
   "primal-leadership": "./books/primalLeadershipExpanded.ts",
+  "process-of-consciousness-according-to-abhidhamma": "./books/processOfConsciousnessAccordingToAbhidhammaExpanded.ts",
   "protection-through-satipatthana": "./books/protectionThroughSatipatthanaExpanded.ts",
   "the-psychology-of-money-timeless-lessons-on-wealth-greed-and": "./books/psychologyOfMoneyExpanded.ts",
+  "puggalapannatti-designation-of-human-types": "./books/puggalapannattiDesignationOfHumanTypesExpanded.ts",
   "purification-of-mind-and-view": "./books/purificationOfMindAndViewExpanded.ts",
   "purity-of-heart-essays-on-the-buddhist-path": "./books/purityOfHeartEssaysOnTheBuddhistPathExpanded.ts",
   "radical-acceptance": "./books/radicalAcceptanceExpanded.ts",
@@ -410,6 +418,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-divided-mind-the-epidemic-of-mindbody-disorders": "./books/theDividedMindTheEpidemicOfMindbodyDisordersExpanded.ts",
   "the-easy-way-to-stop-smoking-stop-drinking": "./books/theEasyWayToStopSmokingStopDrinkingExpanded.ts",
   "the-energy-of-prayer-how-to-deepen-your-spiritual-practice": "./books/theEnergyOfPrayerHowToDeepenYourSpiritualPracticeExpanded.ts",
+  "the-essence-of-buddha-abhidhamma": "./books/theEssenceOfBuddhaAbhidhammaExpanded.ts",
   "the-evolution-of-desire-strategies-of-human-mating": "./books/theEvolutionOfDesireStrategiesOfHumanMatingExpanded.ts",
   "the-fifth-discipline": "./books/theFifthDisciplineExpanded.ts",
   "the-five-mental-hindrances-and-their-conquest": "./books/theFiveMentalHindrancesAndTheirConquestExpanded.ts",
@@ -457,9 +466,11 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-paradox-of-becoming-finding-freedom-in-the-cycle-of-becoming": "./books/theParadoxOfBecomingFindingFreedomInTheCycleOfBecomingExpanded.ts",
   "the-paradox-of-choice": "./books/theParadoxOfChoiceExpanded.ts",
   "the-path-made-clear": "./books/thePathMadeClearExpanded.ts",
+  "the-path-of-freedom-vimuttimagga": "./books/thePathOfFreedomVimuttimaggaExpanded.ts",
   "the-path-of-purification-visuddhimagga": "./books/thePathOfPurificationVisuddhimaggaExpanded.ts",
   "the-path-of-serenity-and-insight": "./books/thePathOfSerenityAndInsightExpanded.ts",
   "the-patimokkha-monastic-discipline-rules": "./books/thePatimokkhaMonasticDisciplineRulesExpanded.ts",
+  "the-philosophy-of-the-abhidhamma": "./books/thePhilosophyOfTheAbhidhammaExpanded.ts",
   "the-polyvagal-theory-in-therapy": "./books/thePolyvagalTheoryInTherapyExpanded.ts",
   "the-power-of-a-positive-no-how-to-say-no-and-still-get-to-ye": "./books/thePowerOfAPositiveNoHowToSayNoAndStillGetToYeExpanded.ts",
   "the-power-of-full-engagement": "./books/thePowerOfFullEngagementExpanded.ts",
@@ -528,11 +539,13 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "tug-of-vow-monastic-training-in-the-forest-tradition": "./books/tugOfVowMonasticTrainingInTheForestTraditionExpanded.ts",
   "turning-the-wheel-of-truth": "./books/turningTheWheelOfTruthExpanded.ts",
   "ultralearning": "./books/ultralearningExpanded.ts",
+  "unconditional-love-and-the-abhidhamma": "./books/unconditionalLoveAndTheAbhidhammaExpanded.ts",
   "unexpected-freedom-dhamma-reflections": "./books/unexpectedFreedomDhammaReflectionsExpanded.ts",
   "unlearn-your-pain": "./books/unlearnYourPainExpanded.ts",
   "untamed": "./books/untamedExpanded.ts",
   "unwinding-anxiety": "./books/unwindingAnxietyExpanded.ts",
   "venerable-acariya-mun-bhuridatta-spiritual-biography": "./books/venerableAcariyaMunBhuridattaSpiritualBiographyExpanded.ts",
+  "vibhanga-the-book-of-analysis": "./books/vibhangaTheBookOfAnalysisExpanded.ts",
   "vipassana-meditation-guidelines": "./books/vipassanaMeditationGuidelinesExpanded.ts",
   "vipassana-meditation-lectures-on-insight": "./books/vipassanaMeditationLecturesOnInsightExpanded.ts",
   "vipassana-talks-from-mahasi-sasana-yeiktha": "./books/vipassanaTalksFromMahasiSasanaYeikthaExpanded.ts",
@@ -560,6 +573,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "working-in-public-the-making-and-maintenance-of-open-source-": "./books/workingInPublicTheMakingAndMaintenanceOfOpenSourceExpanded.ts",
   "working-with-emotional-intelligence": "./books/workingWithEmotionalIntelligenceExpanded.ts",
   "write-once-read-forever-syntopic-knowledge": "./books/writeOnceReadForeverSyntopicKnowledgeExpanded.ts",
+  "yamaka-the-book-of-pairs": "./books/yamakaTheBookOfPairsExpanded.ts",
   "yes-50-scientifically-proven-ways-to-be-persuasive": "./books/yes50ScientificallyProvenWaysToBePersuasiveExpanded.ts",
   "you-are-here-discovering-the-magic-of-the-present-moment": "./books/youAreHereDiscoveringTheMagicOfThePresentMomentExpanded.ts",
   "you-are-not-so-smart": "./books/youAreNotSoSmartExpanded.ts",
@@ -1222,6 +1236,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "abhidhamma-in-practice",
+    "title": "Abhidhamma in Practice",
+    "author": "N.K.G. Mendis",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1985,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop mistaking your racing stream of thoughts for a permanent self. N.K.G. Mendis translates the intricate psychological blueprints of classical Theravada Buddhism into direct, moment-to-moment tools for everyday mental clarity and genuine peace.",
+      "coreThesis": "The self is not a permanent entity but a rapid, unbroken sequence of mental and physical events; systematically observing these components in daily life dissolves clinging and yields unshakable inner freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Abhidhamma in Practice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -2693,6 +2742,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "citta-and-cetasika-mind-and-mental-factors",
+    "title": "Citta and Cetasika: Mind and Mental Factors",
+    "author": "Nina van Gorkom",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 180,
+    "publishedYear": 1999,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind is not a single, unchangeable identity\\u2014it is an ever-shifting river of momentary awareness shaped by specific mental ingredients. By learning to clearly recognize these ingredients as they arise, you dismantle anxiety, break compulsive reactions, and awaken to direct, liberating peace.",
+      "coreThesis": "There is no permanent, fixed self behind your conscious experience\\u2014only fleeting moments of awareness flavored by conditioned mental factors. Freedom is found not by controlling the mind, but by clearly seeing what is actually present without clinging.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Citta and Cetasika: Mind and Mental Factors"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "cittaviveka-teachings-from-the-silent-mind",
     "title": "Cittaviveka: Teachings from the Silent Mind",
     "author": "Ajahn Sumedho",
@@ -3797,6 +3881,76 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Dhammapada: Wisdom of the Buddha"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "dhammasangani-buddhist-psychological-ethics",
+    "title": "Dhammasangani: Buddhist Psychological Ethics",
+    "author": "C.A.F. Rhys Davids",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 180,
+    "publishedYear": 1900,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Imagine holding an exact, step-by-step master blueprint of your own consciousness that disproves anxiety and ego right at the root. The Dhammasangani reveals that your mind is not a frozen, broken personal identity, but a flowing stream of momentary ingredients that you can understand, purify, and liberate right now.",
+      "coreThesis": "You are not a rigid, isolated ego trapped inside a body; you are open awareness observing a rapid stream of conditioned mental and physical events that can be understood, cleansed, and liberated in this very moment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Dhammasangani: Buddhist Psychological Ethics"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "dhatukatha-discourse-on-elements",
+    "title": "Dhatukatha: Discourse on Elements",
+    "author": "Sayadaw U Narada",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 1962,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Dhatukatha is the ultimate diagnostic manual for human experience, dismantling the illusion of a solid 'self' through fourteen rigorous analytical tests. By systematically auditing every thought, sensation, and physical element, it reveals that you are not a permanent ego, but a flowing orchestra of impersonal natural processes.",
+      "coreThesis": "Every human experience is an impersonal combination of distinct physical and mental elements; because these elements merely associate, dissociate, and pass away according to natural law, no independent self or ego exists anywhere within them.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Dhatukatha: Discourse on Elements"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -7059,6 +7213,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "kathavatthu-points-of-controversy",
+    "title": "Kathavatthu: Points of Controversy",
+    "author": "S.Z. Aung & C.A.F. Rhys Davids",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 115,
+    "publishedYear": 1915,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into antiquity's sharpest spiritual courtroom, where centuries of subtle ego-traps, spiritual superstitions, and metaphysical illusions are dismantled by the blade of clear mindfulness. It is a timeless masterclass in clearing the mind's clutter so direct liberation can breathe.",
+      "coreThesis": "Genuine spiritual awakening is not an accumulation of esoteric dogmatic beliefs, but the radical dismantling of the illusory self through lucid, relentless investigation of immediate experience.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Kathavatthu: Points of Controversy"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "keeping-the-breath-in-mind-lessons-in-samadhi",
     "title": "Keeping the Breath in Mind & Lessons in Samadhi",
     "author": "Ajahn Lee Dhammadharo",
@@ -9784,6 +9973,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "patthana-the-great-book-of-conditional-relations",
+    "title": "Patthana: The Great Book of Conditional Relations",
+    "author": "Sayadaw U Narada",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1969,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into the engine room of reality where nothing exists in isolation. Sayadaw U Narada unlocks the crown jewel of Buddhist psychology, proving that what you call a 'self' is simply a brilliant, fluid dance of interconnected conditions.",
+      "coreThesis": "Nothing in the universe stands alone or arises without cause; every experience is an impermanent event sustained by an intricate web of twenty-four conditional relations.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Patthana: The Great Book of Conditional Relations"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "peace-beyond-suffering",
     "title": "Peace Beyond Suffering",
     "author": "Ajahn Chah",
@@ -10238,6 +10462,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "process-of-consciousness-according-to-abhidhamma",
+    "title": "Process of Consciousness according to Abhidhamma",
+    "author": "Dr. Mehm Tin Mon",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1995,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "What if your mind is not a permanent thinker, but a breathtakingly fast stream of momentary mental events? Dr. Mehm Tin Mon dismantles the mechanics of your consciousness to show exactly where suffering begins and how serene insight sets you free.",
+      "coreThesis": "Consciousness is an orderly stream of momentary, dependently arisen processes rather than a fixed self, and liberating peace is realized the moment we see through this rapid rhythm with mindful non-attachment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Process of Consciousness according to Abhidhamma"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "protection-through-satipatthana",
     "title": "Protection Through Satipatthana",
     "author": "Nyanaponika Thera",
@@ -10304,6 +10563,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Finance",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "puggalapannatti-designation-of-human-types",
+    "title": "Puggalapannatti: Designation of Human Types",
+    "author": "B.C. Law",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1924,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "While ultimate reality reveals no permanent ego, our daily mental habits are unmistakably real. This classical Buddhist masterwork provides a crystal-clear psychological mirror to diagnose your inner tendencies and chart an exact course toward emotional freedom.",
+      "coreThesis": "The individual self is a practical convention rather than a fixed soul, yet diagnosing your unique psychological patterns is essential for untangling suffering and awakening into steady, compassionate freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Puggalapannatti: Designation of Human Types"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -14880,6 +15174,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-essence-of-buddha-abhidhamma",
+    "title": "The Essence of Buddha Abhidhamma",
+    "author": "Dr. Mehm Tin Mon",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1995,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Demystify the human mind with a precise psychological blueprint that reveals consciousness as an ever-shifting stream rather than a rigid self. Discover how seeing through mental illusions opens the door to lasting inner peace.",
+      "coreThesis": "The illusion of a solid, permanent ego dissolves when experience is observed at high resolution, revealing that lasting freedom arises naturally from understanding how thoughts, feelings, and matter condition one another from moment to moment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Essence of Buddha Abhidhamma"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-evolution-of-desire-strategies-of-human-mating",
     "title": "The Evolution of Desire: Strategies of Human Mating",
     "author": "David M. Buss",
@@ -16519,6 +16848,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-path-of-freedom-vimuttimagga",
+    "title": "The Path of Freedom (Vimuttimagga)",
+    "author": "Arahant Upatissa (N.R.M. Ehara tr.)",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 1961,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Before you can quiet the mind, you must calm the storm of daily conduct; *The Path of Freedom* delivers a pristine, ancient engineering manual for purifying human awareness from restless confusion into radical inner peace. It strips spiritual practice of superstition, presenting an orderly, step-by-step roadmap from ethical alignment to unwavering stillness and total mental liberation.",
+      "coreThesis": "Genuine spiritual freedom is not an elusive altered state, but the natural result of living with ethical clarity, steadying attention through tailored meditation, and seeing through the illusion of a solid self.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Path of Freedom (Vimuttimagga)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-path-of-purification-visuddhimagga",
     "title": "The Path of Purification (Visuddhimagga)",
     "author": "Bhadantacariya Buddhaghosa (Bhikkhu Nanamoli tr.)",
@@ -16612,6 +16976,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Patimokkha: Monastic Discipline Rules"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-philosophy-of-the-abhidhamma",
+    "title": "The Philosophy of the Abhidhamma",
+    "author": "E.W. Adikaram",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 1946,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step behind the curtain of your own mind and discover that the heavy ego you carry is not a permanent stone statue, but a flowing, luminous stream of momentary events. E.W. Adikaram illuminates the ancient Buddhist architecture of consciousness, giving you the contemplative blueprint to dissolve psychological baggage and rest in immediate, liberated awareness.",
+      "coreThesis": "You are not a solid, permanent ego trapped in a hostile world, but a radiant, interconnected continuum of momentary mental events. By seeing the fine mechanics of consciousness in immediate experience, clinging evaporates and natural inner freedom reveals itself.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Philosophy of the Abhidhamma"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -18997,6 +19396,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "unconditional-love-and-the-abhidhamma",
+    "title": "Unconditional Love and the Abhidhamma",
+    "author": "Nina van Gorkom",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 120,
+    "publishedYear": 1975,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop trying to manufacture unconditional love through willpower. Discover how genuine loving-kindness arises naturally once you clearly see the difference between grasping attachment and pure, selfless goodwill.",
+      "coreThesis": "Unconditional love is not an emotional performance or personal possession; it is the natural warmth of awareness that shines whenever the illusion of a grasping self dissolves.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Unconditional Love and the Abhidhamma"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "unexpected-freedom-dhamma-reflections",
     "title": "Unexpected Freedom: Dhamma Reflections",
     "author": "Ajahn Munindo",
@@ -19160,6 +19594,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Venerable Acariya Mun Bhuridatta: Spiritual Biography"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "vibhanga-the-book-of-analysis",
+    "title": "Vibhanga: The Book of Analysis",
+    "author": "Sayadaw U Thittila",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 90,
+    "publishedYear": 1969,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When you take apart an engine bolt by bolt, the illusion of a solid machine dissolves into working parts\\u2014and your suffering vanishes with it. Sayadaw U Thittila\\u2019s canonical translation of the Vibhanga provides the ultimate precision blueprint for dismantling the ego and resting in calm, luminous awareness.",
+      "coreThesis": "Suffering dissolves when you systematically dissect your rigid sense of self into fleeting physical and mental components, revealing that freedom is already present in direct, non-clinging awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Vibhanga: The Book of Analysis"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -20112,6 +20581,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "yamaka-the-book-of-pairs",
+    "title": "Yamaka: The Book of Pairs",
+    "author": "Sayadaw U Tiloka",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1983,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "The Book of Pairs is an uncompromising, master-level manual that uses two-way questioning to dismantle every mental assumption you make about yourself. By cross-examining everyday experience, it clears away mental confusion and reveals the stillness of direct, unshakeable awareness.",
+      "coreThesis": "Genuine peace arises when you cross-examine your mental assumptions from both directions, discovering that no transient thought, emotion, or sensation forms a permanent, self-contained ego.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Yamaka: The Book of Pairs"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
