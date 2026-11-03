@@ -382,6 +382,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-book-of-boundaries": "./books/theBookOfBoundariesExpanded.ts",
   "the-brain-that-changes-itself": "./books/theBrainThatChangesItselfExpanded.ts",
   "the-buddha-s-path-of-virtue": "./books/theBuddhaSPathOfVirtueExpanded.ts",
+  "the-buddha-s-philosophy-of-mind": "./books/theBuddhaSPhilosophyOfMindExpanded.ts",
   "the-buddhist-monastic-code-volume-i": "./books/theBuddhistMonasticCodeVolumeIExpanded.ts",
   "the-buddhist-monastic-code-volume-ii": "./books/theBuddhistMonasticCodeVolumeIiExpanded.ts",
   "the-catalyst-how-to-change-anyone-s-mind": "./books/theCatalystHowToChangeAnyoneSMindExpanded.ts",
@@ -13903,6 +13904,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Buddha's Path of Virtue"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-buddha-s-philosophy-of-mind",
+    "title": "The Buddha's Philosophy of Mind",
+    "author": "C.A.F. Rhys Davids",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1914,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step inside history's most sophisticated lab for inner freedom: the Buddha did not view the mind as a rigid identity, but as a living river of clean, observable processes. By learning to see thoughts and emotions as transient events rather than 'me,' you reclaim direct mastery over your immediate experience.",
+      "coreThesis": "The human mind is not an unchanging entity or an isolated soul, but a dynamic, ever-changing stream of conditioned events that can be thoroughly understood, decluttered, and liberated from suffering.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Buddha's Philosophy of Mind"
     },
     "reflectionExercises": [],
     "actionItems": [],
