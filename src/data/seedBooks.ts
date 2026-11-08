@@ -611,6 +611,16 @@ import { EARLY_BUDDHIST_THEORY_OF_KNOWLEDGE_BOOK } from './books/earlyBuddhistTh
 import { SURVIVAL_AND_KARMA_IN_BUDDHIST_PERSPECTIVE_BOOK } from './books/survivalAndKarmaInBuddhistPerspectiveExpanded';
 import { BUDDHISM_ITS_RELIGION_AND_PHILOSOPHY_BOOK } from './books/buddhismItsReligionAndPhilosophyExpanded';
 import { FACETS_OF_BUDDHIST_THOUGHT_BOOK } from './books/facetsOfBuddhistThoughtExpanded';
+import { A_TREASURY_OF_THE_BUDDHA_S_WORDS_DISCOURSES_FROM_MAJJHIMA_BOOK } from './books/aTreasuryOfTheBuddhaSWordsDiscoursesFromMajjhimaExpanded';
+import { THE_PRACTICE_OF_SILA_MORALITY_IN_THE_TIPITAKA_BOOK } from './books/thePracticeOfSilaMoralityInTheTipitakaExpanded';
+import { AN_ANALYSIS_OF_THE_SUTTA_NIPATA_BOOK } from './books/anAnalysisOfTheSuttaNipataExpanded';
+import { A_PALI_GRAMMAR_FOR_BEGINNERS_BOOK } from './books/aPaliGrammarForBeginnersExpanded';
+import { THE_PALI_LITERATURE_OF_CEYLON_BOOK } from './books/thePaliLiteratureOfCeylonExpanded';
+import { THE_DISCOURSE_ON_RIGHT_VIEW_SAMMADITTHI_SUTTA_BOOK } from './books/theDiscourseOnRightViewSammaditthiSuttaExpanded';
+import { THE_BOOK_OF_THE_DISCIPLINE_VINAYA_PITAKA_BOOK } from './books/theBookOfTheDisciplineVinayaPitakaExpanded';
+import { PALI_BUDDHIST_REVIEW_ANTHOLOGIES_BOOK } from './books/paliBuddhistReviewAnthologiesExpanded';
+import { THE_HERITAGE_OF_THE_SANGHA_BOOK } from './books/theHeritageOfTheSanghaExpanded';
+import { WHAT_THE_BUDDHA_TAUGHT_BOOK } from './books/whatTheBuddhaTaughtExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -1222,7 +1232,17 @@ export const SEED_BOOKS: Book[] = [
   EARLY_BUDDHIST_THEORY_OF_KNOWLEDGE_BOOK,
   SURVIVAL_AND_KARMA_IN_BUDDHIST_PERSPECTIVE_BOOK,
   BUDDHISM_ITS_RELIGION_AND_PHILOSOPHY_BOOK,
-  FACETS_OF_BUDDHIST_THOUGHT_BOOK
+  FACETS_OF_BUDDHIST_THOUGHT_BOOK,
+  A_TREASURY_OF_THE_BUDDHA_S_WORDS_DISCOURSES_FROM_MAJJHIMA_BOOK,
+  THE_PRACTICE_OF_SILA_MORALITY_IN_THE_TIPITAKA_BOOK,
+  AN_ANALYSIS_OF_THE_SUTTA_NIPATA_BOOK,
+  A_PALI_GRAMMAR_FOR_BEGINNERS_BOOK,
+  THE_PALI_LITERATURE_OF_CEYLON_BOOK,
+  THE_DISCOURSE_ON_RIGHT_VIEW_SAMMADITTHI_SUTTA_BOOK,
+  THE_BOOK_OF_THE_DISCIPLINE_VINAYA_PITAKA_BOOK,
+  PALI_BUDDHIST_REVIEW_ANTHOLOGIES_BOOK,
+  THE_HERITAGE_OF_THE_SANGHA_BOOK,
+  WHAT_THE_BUDDHA_TAUGHT_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -1836,7 +1856,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(EARLY_BUDDHIST_THEORY_OF_KNOWLEDGE_BOOK.ideaCards || []),
   ...(SURVIVAL_AND_KARMA_IN_BUDDHIST_PERSPECTIVE_BOOK.ideaCards || []),
   ...(BUDDHISM_ITS_RELIGION_AND_PHILOSOPHY_BOOK.ideaCards || []),
-  ...(FACETS_OF_BUDDHIST_THOUGHT_BOOK.ideaCards || [])
+  ...(FACETS_OF_BUDDHIST_THOUGHT_BOOK.ideaCards || []),
+  ...(A_TREASURY_OF_THE_BUDDHA_S_WORDS_DISCOURSES_FROM_MAJJHIMA_BOOK.ideaCards || []),
+  ...(THE_PRACTICE_OF_SILA_MORALITY_IN_THE_TIPITAKA_BOOK.ideaCards || []),
+  ...(AN_ANALYSIS_OF_THE_SUTTA_NIPATA_BOOK.ideaCards || []),
+  ...(A_PALI_GRAMMAR_FOR_BEGINNERS_BOOK.ideaCards || []),
+  ...(THE_PALI_LITERATURE_OF_CEYLON_BOOK.ideaCards || []),
+  ...(THE_DISCOURSE_ON_RIGHT_VIEW_SAMMADITTHI_SUTTA_BOOK.ideaCards || []),
+  ...(THE_BOOK_OF_THE_DISCIPLINE_VINAYA_PITAKA_BOOK.ideaCards || []),
+  ...(PALI_BUDDHIST_REVIEW_ANTHOLOGIES_BOOK.ideaCards || []),
+  ...(THE_HERITAGE_OF_THE_SANGHA_BOOK.ideaCards || []),
+  ...(WHAT_THE_BUDDHA_TAUGHT_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [

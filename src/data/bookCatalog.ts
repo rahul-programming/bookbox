@@ -15,14 +15,17 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "a-life-of-blessing-celebrating-virtue-and-stillness": "./books/aLifeOfBlessingCelebratingVirtueAndStillnessExpanded.ts",
   "a-million-miles-in-a-thousand-years": "./books/aMillionMilesInAThousandYearsExpanded.ts",
   "a-mind-for-numbers": "./books/aMindForNumbersExpanded.ts",
+  "a-pali-grammar-for-beginners": "./books/aPaliGrammarForBeginnersExpanded.ts",
   "a-simple-way-the-heart-of-the-practice": "./books/aSimpleWayTheHeartOfThePracticeExpanded.ts",
   "a-still-forest-pool-insight-meditation-of-achaan-chah": "./books/aStillForestPoolInsightMeditationOfAchaanChahExpanded.ts",
   "a-taste-of-freedom": "./books/aTasteOfFreedomExpanded.ts",
   "a-theory-of-cognitive-dissonance": "./books/aTheoryOfCognitiveDissonanceExpanded.ts",
+  "a-treasury-of-the-buddha-s-words-discourses-from-majjhima": "./books/aTreasuryOfTheBuddhaSWordsDiscoursesFromMajjhimaExpanded.ts",
   "abhidhamma-in-practice": "./books/abhidhammaInPracticeExpanded.ts",
   "abundant-exalted-immeasurable-the-brahmaviharas": "./books/abundantExaltedImmeasurableTheBrahmaviharasExpanded.ts",
   "algorithms-to-live-by": "./books/algorithmsToLiveByExpanded.ts",
   "alone-together-why-we-expect-more-from-technology-and-less-f": "./books/aloneTogetherWhyWeExpectMoreFromTechnologyAndLessFExpanded.ts",
+  "an-analysis-of-the-sutta-nipata": "./books/anAnalysisOfTheSuttaNipataExpanded.ts",
   "an-illustrated-book-of-bad-arguments": "./books/anIllustratedBookOfBadArgumentsExpanded.ts",
   "an-inquiring-mind-s-journey-into-vipassana": "./books/anInquiringMindSJourneyIntoVipassanaExpanded.ts",
   "an-introduction-to-reasoning": "./books/anIntroductionToReasoningExpanded.ts",
@@ -286,6 +289,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "overcoming-destructive-anger": "./books/overcomingDestructiveAngerExpanded.ts",
   "overcoming-gravity": "./books/overcomingGravityExpanded.ts",
   "owning-your-own-shadow": "./books/owningYourOwnShadowExpanded.ts",
+  "pali-buddhist-review-anthologies": "./books/paliBuddhistReviewAnthologiesExpanded.ts",
   "parami-ways-to-cross-life-s-floats": "./books/paramiWaysToCrossLifeSFloatsExpanded.ts",
   "patthana-the-great-book-of-conditional-relations": "./books/patthanaTheGreatBookOfConditionalRelationsExpanded.ts",
   "peace-beyond-suffering": "./books/peaceBeyondSufferingExpanded.ts",
@@ -400,6 +404,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-blooming-of-a-lotus-guided-meditations": "./books/theBloomingOfALotusGuidedMeditationsExpanded.ts",
   "the-body-keeps-the-score": "./books/theBodyKeepsTheScoreExpanded.ts",
   "the-book-of-boundaries": "./books/theBookOfBoundariesExpanded.ts",
+  "the-book-of-the-discipline-vinaya-pitaka": "./books/theBookOfTheDisciplineVinayaPitakaExpanded.ts",
   "the-brain-that-changes-itself": "./books/theBrainThatChangesItselfExpanded.ts",
   "the-buddha-and-his-teachings": "./books/theBuddhaAndHisTeachingsExpanded.ts",
   "the-buddha-s-ancient-path": "./books/theBuddhaSAncientPathExpanded.ts",
@@ -436,6 +441,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-dhammapada-with-the-story-of-the-buddha": "./books/theDhammapadaWithTheStoryOfTheBuddhaExpanded.ts",
   "the-diamond-that-cuts-through-illusion": "./books/theDiamondThatCutsThroughIllusionExpanded.ts",
   "the-dip-a-little-book-that-teaches-you-when-to-quit": "./books/theDipALittleBookThatTeachesYouWhenToQuitExpanded.ts",
+  "the-discourse-on-right-view-sammaditthi-sutta": "./books/theDiscourseOnRightViewSammaditthiSuttaExpanded.ts",
   "the-discourse-on-the-root-of-existence-mulapariyaya-sutta": "./books/theDiscourseOnTheRootOfExistenceMulapariyayaSuttaExpanded.ts",
   "the-disease-to-please-curing-the-people-pleasing-syndrome": "./books/theDiseaseToPleaseCuringThePeoplePleasingSyndromeExpanded.ts",
   "the-distracted-mind-ancient-brains-in-a-high-tech-world": "./books/theDistractedMindAncientBrainsInAHighTechWorldExpanded.ts",
@@ -461,6 +467,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-great-mental-models-vol-1-2": "./books/theGreatMentalModelsVol12Expanded.ts",
   "the-heart-of-practice-ajaan-mun-s-dhamma-sermons": "./books/theHeartOfPracticeAjaanMunSDhammaSermonsExpanded.ts",
   "the-heart-of-the-buddha-s-teaching": "./books/theHeartOfTheBuddhaSTeachingExpanded.ts",
+  "the-heritage-of-the-sangha": "./books/theHeritageOfTheSanghaExpanded.ts",
   "the-information-diet": "./books/theInformationDietExpanded.ts",
   "the-invisible-gorilla-how-our-intuitions-deceive-us": "./books/theInvisibleGorillaHowOurIntuitionsDeceiveUsExpanded.ts",
   "the-island-an-anthology-of-the-buddha-s-teachings-on-nibbana": "./books/theIslandAnAnthologyOfTheBuddhaSTeachingsOnNibbanaExpanded.ts",
@@ -488,6 +495,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-one-thing": "./books/theOneThingExpanded.ts",
   "the-other-shore-a-new-translation-of-the-heart-sutra": "./books/theOtherShoreANewTranslationOfTheHeartSutraExpanded.ts",
   "the-oxygen-advantage": "./books/theOxygenAdvantageExpanded.ts",
+  "the-pali-literature-of-ceylon": "./books/thePaliLiteratureOfCeylonExpanded.ts",
   "the-paradox-of-becoming-finding-freedom-in-the-cycle-of-becoming": "./books/theParadoxOfBecomingFindingFreedomInTheCycleOfBecomingExpanded.ts",
   "the-paradox-of-choice": "./books/theParadoxOfChoiceExpanded.ts",
   "the-path-made-clear": "./books/thePathMadeClearExpanded.ts",
@@ -503,6 +511,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-power-of-habit": "./books/thePowerOfHabitExpanded.ts",
   "the-power-of-mindfulness": "./books/thePowerOfMindfulnessExpanded.ts",
   "the-power-of-when": "./books/thePowerOfWhenExpanded.ts",
+  "the-practice-of-sila-morality-in-the-tipitaka": "./books/thePracticeOfSilaMoralityInTheTipitakaExpanded.ts",
   "the-practice-of-vipassana-meditation": "./books/thePracticeOfVipassanaMeditationExpanded.ts",
   "the-progress-of-insight": "./books/theProgressOfInsightExpanded.ts",
   "the-progress-of-insight-through-mental-noting": "./books/theProgressOfInsightThroughMentalNotingExpanded.ts",
@@ -582,6 +591,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "vipassana-talks-from-mahasi-sasana-yeiktha": "./books/vipassanaTalksFromMahasiSasanaYeikthaExpanded.ts",
   "volition-the-real-mastermind-behind-kamma": "./books/volitionTheRealMastermindBehindKammaExpanded.ts",
   "we-need-to-talk-how-to-have-conversations-that-matter": "./books/weNeedToTalkHowToHaveConversationsThatMatterExpanded.ts",
+  "what-the-buddha-taught": "./books/whatTheBuddhaTaughtExpanded.ts",
   "when-awareness-becomes-natural": "./books/whenAwarenessBecomesNaturalExpanded.ts",
   "when-i-say-no-i-feel-guilty": "./books/whenISayNoIFeelGuiltyExpanded.ts",
   "when-panic-attacks": "./books/whenPanicAttacksExpanded.ts",
@@ -1132,6 +1142,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "a-pali-grammar-for-beginners",
+    "title": "A Pali Grammar for Beginners",
+    "author": "Venerable Narada Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 1952,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step past third-party interpretations and encounter the original voice of the Buddha directly. This handbook strips away centuries of commentary, giving you the practical keys to read the core texts of liberation in their pristine, living tongue.",
+      "coreThesis": "Direct engagement with the original words of the Buddha dissolves translation bias, revealing the teachings on mindfulness, non-attachment, and liberation with unmistakable clarity and precision.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "A Pali Grammar for Beginners"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "a-simple-way-the-heart-of-the-practice",
     "title": "A Simple Way: The Heart of the Practice",
     "author": "Ajahn Munindo",
@@ -1272,6 +1317,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "a-treasury-of-the-buddha-s-words-discourses-from-majjhima",
+    "title": "A Treasury of the Buddha's Words: Discourses from Majjhima",
+    "author": "Nyanamoli Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1977,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into the living workshop of the Buddha through pristine, direct dialogues translated with diamond clarity. Discover how ancient contemplative wisdom untangles the knots of modern stress, ego-clinging, and emotional fatigue.",
+      "coreThesis": "Suffering is not an inherent flaw in reality, but a predictable friction caused by clinging to transient experiences; seeing things clearly as they are brings instant, durable peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "A Treasury of the Buddha's Words: Discourses from Majjhima"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "abhidhamma-in-practice",
     "title": "Abhidhamma in Practice",
     "author": "N.K.G. Mendis",
@@ -1406,6 +1486,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "an-analysis-of-the-sutta-nipata",
+    "title": "An Analysis of the Sutta Nipata",
+    "author": "Bhikkhu Nyanatusita",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step out of the mental noise of opinions and anxieties by discovering the earliest, most pristine contemplative manual of Buddhism. Learn to shed mental burdens like worn-out clothes and abide in luminous, unshakeable presence.",
+      "coreThesis": "Genuine spiritual awakening is not the collection of new philosophical opinions, but the radical shedding of egoic clinging and dogmatism to reveal pristine, immediate peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "An Analysis of the Sutta Nipata"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -10599,6 +10714,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "pali-buddhist-review-anthologies",
+    "title": "Pali Buddhist Review Anthologies",
+    "author": "Russell Webb ed.",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1982,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "A crystal-clear distillation of early Buddhist wisdom that strips away historical dust to reveal the timeless mechanics of human freedom. It hands you a serene, grounded blueprint for turning raw attention directly into lasting liberation.",
+      "coreThesis": "Suffering is maintained by gripping transient phenomena; clarity arises when relentless self-clinging gives way to serene, unadorned observation of the present moment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Pali Buddhist Review Anthologies"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "parami-ways-to-cross-life-s-floats",
     "title": "Parami: Ways to Cross Life's Floats",
     "author": "Ajahn Sucitto",
@@ -14577,6 +14727,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-book-of-the-discipline-vinaya-pitaka",
+    "title": "The Book of the Discipline (Vinaya Pitaka)",
+    "author": "I.B. Horner",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1938,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Monastic rules are not rigid cages; they are the riverbanks that channel scattered human energy into an ocean of quiet freedom. I.B. Horner\\u2019s masterwork reveals how transparent ethical boundaries create the stillness required for spiritual awakening.",
+      "coreThesis": "Enlightening awareness requires uncompromised ethical boundaries; outer discipline purifies behavioral friction so the mind can awaken to natural stillness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Book of the Discipline (Vinaya Pitaka)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-brain-that-changes-itself",
     "title": "The Brain That Changes Itself",
     "author": "Norman Doidge",
@@ -15835,6 +16020,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-discourse-on-right-view-sammaditthi-sutta",
+    "title": "The Discourse on Right View: Sammaditthi Sutta",
+    "author": "Bhikkhu Nanamoli & Bhikkhu Bodhi",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1991,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Right View is not a rigid dogma to defend, but the pristine lens through which you see reality exactly as it operates. By tracing your emotional turmoil to its immediate root causes, this text shows you how to dismantle suffering before it takes hold.",
+      "coreThesis": "Suffering is not an inescapable fate or a personal identity, but a mechanical byproduct of distorted perception that ceases the instant you understand and withdraw its causal fuel.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Discourse on Right View: Sammaditthi Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-discourse-on-the-root-of-existence-mulapariyaya-sutta",
     "title": "The Discourse on the Root of Existence: Mulapariyaya Sutta",
     "author": "Bhikkhu Bodhi",
@@ -16695,6 +16915,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Heart of the Buddha's Teaching"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-heritage-of-the-sangha",
+    "title": "The Heritage of the Sangha",
+    "author": "Walpola Rahula",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 100,
+    "publishedYear": 1974,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Spiritual practice was never meant to be a quiet retreat from life, but an active force of clarity and service within it. Walpola Rahula demonstrates that true liberation walks directly into the heart of the community to heal real suffering.",
+      "coreThesis": "Genuine spiritual awakening does not withdraw from the world; it expresses its inner freedom through courageous, compassionate service to everyday human life.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Heritage of the Sangha"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -17650,6 +17905,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-pali-literature-of-ceylon",
+    "title": "The Pali Literature of Ceylon",
+    "author": "G.P. Malalasekera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 1928,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When civil unrest and human memory faltered, a humble island gathered the Buddha's direct path to freedom and preserved it against the tides of time. Malalasekera illuminates how this living wisdom library was safeguarded across millennia to awaken everyday minds right now.",
+      "coreThesis": "The true guardian of peace is disciplined awareness: kingdoms decay and conditions shift endlessly, but distilled meditative wisdom remains pristine when preserved with humility and care.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Pali Literature of Ceylon"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-paradox-of-becoming-finding-freedom-in-the-cycle-of-becoming",
     "title": "The Paradox of Becoming: Finding Freedom in the Cycle of Becoming",
     "author": "Thanissaro Bhikkhu",
@@ -18169,6 +18459,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-practice-of-sila-morality-in-the-tipitaka",
+    "title": "The Practice of Sila (Morality) in the Tipitaka",
+    "author": "Bhikkhu Pesala",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2001,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Morality in early Buddhism is not a set of restrictive dogmas designed to control you, but a master craft of mental hygiene that silences inner agitation. By aligning your speech, work, and conduct, you build a serene, guilt-free runway where genuine meditation and direct spiritual liberation become effortless.",
+      "coreThesis": "Authentic moral conduct is not external obedience, but practical mental hygiene; clearing away harmful action eliminates inner remorse, naturally generating the calm clarity required for spiritual awakening.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Practice of Sila (Morality) in the Tipitaka"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -20927,6 +21252,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "what-the-buddha-taught",
+    "title": "What the Buddha Taught",
+    "author": "Walpola Rahula",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1959,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Suffering is not a mystical curse\\u2014it is a functional friction caused by gripping tightly onto things that are constantly moving. Walpola Rahula strips away religious mythology to present the Buddha's original teachings as an empirical, practical science of inner freedom.",
+      "coreThesis": "Suffering ceases when you stop grasping at a shifting reality with an imaginary self, replacing reactive attachment with lucid, direct awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "What the Buddha Taught"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
