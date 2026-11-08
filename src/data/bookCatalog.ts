@@ -239,6 +239,14 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "man-s-search-for-meaning": "./books/manSSearchForMeaningExpanded.ts",
   "manual-of-buddhist-vipassana-practice": "./books/manualOfBuddhistVipassanaPracticeExpanded.ts",
   "manual-of-insight": "./books/manualOfInsightExpanded.ts",
+  "manual-of-insight-vipassana-dipani": "./books/manualOfInsightVipassanaDipaniExpanded.ts",
+  "manual-of-light-alin-kyan": "./books/manualOfLightAlinKyanExpanded.ts",
+  "manual-of-non-self-anatta-dipani": "./books/manualOfNonSelfAnattaDipaniExpanded.ts",
+  "manual-of-right-view-ditthi-dipani": "./books/manualOfRightViewDitthiDipaniExpanded.ts",
+  "manual-of-the-factors-of-enlightenment-bodhipakkhiya-dipani": "./books/manualOfTheFactorsOfEnlightenmentBodhipakkhiyaDipaniExpanded.ts",
+  "manual-of-the-four-noble-truths-saccavanta-dipani": "./books/manualOfTheFourNobleTruthsSaccavantaDipaniExpanded.ts",
+  "manual-of-the-path-to-higher-knowledge-patthanuddesa-dipani": "./books/manualOfThePathToHigherKnowledgePatthanuddesaDipaniExpanded.ts",
+  "manual-of-the-supreme-man-uttamapurisa-dipani": "./books/manualOfTheSupremeManUttamapurisaDipaniExpanded.ts",
   "meditation-instructions-for-intensive-practice": "./books/meditationInstructionsForIntensivePracticeExpanded.ts",
   "meditation-on-perception-ten-healing-practices": "./books/meditationOnPerceptionTenHealingPracticesExpanded.ts",
   "meditation-on-the-mind-mindful-watching-of-thoughts": "./books/meditationOnTheMindMindfulWatchingOfThoughtsExpanded.ts",
@@ -478,6 +486,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-logic-of-scientific-discovery": "./books/theLogicOfScientificDiscoveryExpanded.ts",
   "the-long-discourses-of-the-buddha-digha-nikaya": "./books/theLongDiscoursesOfTheBuddhaDighaNikayaExpanded.ts",
   "the-lucifer-effect-understanding-how-good-people-turn-evil": "./books/theLuciferEffectUnderstandingHowGoodPeopleTurnEvilExpanded.ts",
+  "the-manuals-of-dhamma-collected-works": "./books/theManualsOfDhammaCollectedWorksExpanded.ts",
   "the-memory-book": "./books/theMemoryBookExpanded.ts",
   "the-middle-length-discourses-of-the-buddha-majjhima-nikaya": "./books/theMiddleLengthDiscoursesOfTheBuddhaMajjhimaNikayaExpanded.ts",
   "the-mind-and-the-way-buddhist-reflections-on-life": "./books/theMindAndTheWayBuddhistReflectionsOnLifeExpanded.ts",
@@ -520,6 +529,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-psychological-attitude-of-early-buddhist-philosophy": "./books/thePsychologicalAttitudeOfEarlyBuddhistPhilosophyExpanded.ts",
   "the-pure-soul-the-brahmana-vagga-of-the-dhammapada": "./books/thePureSoulTheBrahmanaVaggaOfTheDhammapadaExpanded.ts",
   "the-questions-of-king-milinda-milindapanha": "./books/theQuestionsOfKingMilindaMilindapanhaExpanded.ts",
+  "the-requisites-of-enlightenment": "./books/theRequisitesOfEnlightenmentExpanded.ts",
   "the-righteous-mind-why-good-people-are-divided-by-politics-a": "./books/theRighteousMindWhyGoodPeopleAreDividedByPoliticsAExpanded.ts",
   "the-road-to-inner-freedom": "./books/theRoadToInnerFreedomExpanded.ts",
   "the-roots-of-good-and-evil": "./books/theRootsOfGoodAndEvilExpanded.ts",
@@ -8967,6 +8977,286 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "manual-of-insight-vipassana-dipani",
+    "title": "Manual of Insight (Vipassana Dipani)",
+    "author": "Ven. Ledi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1915,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Ven. Ledi Sayadaw's seminal masterpiece strips away thousands of years of scholastic dust to expose the human ego as an innocent optical illusion. With the precision of a seasoned watchmaker and the tenderness of a forest contemplative, this manual teaches you how to directly observe your mind and body until unshakeable peace naturally reveals itself.",
+      "coreThesis": "Suffering is maintained by a continuous misinterpretation of fluid physical and mental processes as an enduring self; observing their rapid arising and dissolution dissolves this illusion and unveils effortless liberation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Manual of Insight (Vipassana Dipani)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "manual-of-light-alin-kyan",
+    "title": "Manual of Light (Alin Kyan)",
+    "author": "Ven. Ledi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1961,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step out of the mental fog of confusion into luminous, direct awareness. Ven. Ledi Sayadaw hands you a pocket lantern to dismantle the mirage of the ego and discover genuine, unshakable inner freedom.",
+      "coreThesis": "Suffering dissolves when direct contemplative insight illuminates experiential reality, revealing that the personal self is not a solid entity but a transparent flow of causes and conditions.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Manual of Light (Alin Kyan)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "manual-of-non-self-anatta-dipani",
+    "title": "Manual of Non-Self (Anatta Dipani)",
+    "author": "Ven. Ledi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1901,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You are not a stressed manager frantically piloting a fragile body and racing mind; you are the wide-open space witnessing a seamless natural flow. Ven. Ledi Sayadaw hands you the master blueprint to dismantle the illusion of the ego and discover unshakeable inner calm.",
+      "coreThesis": "The self is not a permanent inner owner, but an ever-shifting confluence of impersonal mental and physical conditions. True peace arrives when you stop defending a concept and rest in direct, unconditioned awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Manual of Non-Self (Anatta Dipani)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "manual-of-right-view-ditthi-dipani",
+    "title": "Manual of Right View (Ditthi Dipani)",
+    "author": "Ven. Ledi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 1900,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your life is neither a helpless script written in the past nor an arbitrary accident; it is an active workshop where clear understanding and present action rebuild reality in every breath. Ven. Ledi Sayadaw clears the mental windshield, dissolving ancient illusions of ego to reveal the natural freedom right in front of you.",
+      "coreThesis": "Suffering is born of distorted vision that mistakes natural processes for an isolated, permanent self. When you see clear cause and effect, present effort dissolves fatalism, and non-attachment unlocks immediate inner freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Manual of Right View (Ditthi Dipani)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "manual-of-the-factors-of-enlightenment-bodhipakkhiya-dipani",
+    "title": "Manual of the Factors of Enlightenment (Bodhipakkhiya Dipani)",
+    "author": "Ven. Ledi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1904,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Ven. Ledi Sayadaw strips away monastic elitism to reveal the Buddha's thirty-seven wings of enlightenment as a practical, step-by-step toolkit for any committed person. It is the definitive operating manual for transforming scattered human attention into an unshakeable vehicle of freedom.",
+      "coreThesis": "Enlightenment is not a mystical accident, but the systematic outcome of balancing and strengthening thirty-seven natural mental faculties accessible to any earnest seeker in daily life.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Manual of the Factors of Enlightenment (Bodhipakkhiya Dipani)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "manual-of-the-four-noble-truths-saccavanta-dipani",
+    "title": "Manual of the Four Noble Truths (Saccavanta Dipani)",
+    "author": "Ven. Ledi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1903,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Ven. Ledi Sayadaw dissects the Four Noble Truths not as abstract dogmas, but as an empirical diagnostic manual for the mind. By exposing the sixteen hidden gears of craving and suffering, this classic work hands you the exact blueprint to dismantle inner turmoil and experience genuine liberation.",
+      "coreThesis": "Suffering is an inevitable mechanical consequence of mistaking impermanent processes for a permanent self; dismantling that friction requires direct, analytical awareness of how craving drives the mind.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Manual of the Four Noble Truths (Saccavanta Dipani)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "manual-of-the-path-to-higher-knowledge-patthanuddesa-dipani",
+    "title": "Manual of the Path to Higher Knowledge (Patthanuddesa Dipani)",
+    "author": "Ven. Ledi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 135,
+    "publishedYear": 1935,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step behind the illusion of an isolated, separate self and discover how every thought, breath, and action is an interconnected flow of natural laws. Ven. Ledi Sayadaw breaks down the twenty-four conditions governing human experience, handing you the ultimate master key to deep peace and mental freedom.",
+      "coreThesis": "Nothing in mind or nature stands alone or possesses an unchanging self; every phenomenon arises, functions, and dissolves purely through dynamic, mutually dependent conditions.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Manual of the Path to Higher Knowledge (Patthanuddesa Dipani)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "manual-of-the-supreme-man-uttamapurisa-dipani",
+    "title": "Manual of the Supreme Man (Uttamapurisa Dipani)",
+    "author": "Ven. Ledi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1900,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You are not trapped by your conditioning; you are simply running on unexamined habit. Ven. Ledi Sayadaw provides the clear, uncompromising manual to transform from a distracted survivor into a truly noble, liberated human being.",
+      "coreThesis": "True human greatness is realized not through external power or pious ritual, but by directly dissecting the illusion of the self through sharp, disciplined mindfulness and daily moral excellence.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Manual of the Supreme Man (Uttamapurisa Dipani)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "meditation-instructions-for-intensive-practice",
     "title": "Meditation Instructions for Intensive Practice",
     "author": "Sayadaw U Silananda",
@@ -17311,6 +17601,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-manuals-of-dhamma-collected-works",
+    "title": "The Manuals of Dhamma (Collected Works)",
+    "author": "Ven. Ledi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1999,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Ven. Ledi Sayadaw breaks down complex spiritual philosophy into an exact, practical owner's manual for everyday human consciousness. By exposing our mental illusions through clear self-observation, this work shows anyone how to dismantle anxiety and discover lasting internal freedom.",
+      "coreThesis": "Suffering dissolves when you directly observe your body and mind as a flowing process of changing conditions rather than a solid, personal self.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Manuals of Dhamma (Collected Works)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-memory-book",
     "title": "The Memory Book",
     "author": "Harry Lorayne & Jerry Lucas",
@@ -18767,6 +19092,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Questions of King Milinda (Milindapanha)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-requisites-of-enlightenment",
+    "title": "The Requisites of Enlightenment",
+    "author": "Ven. Ledi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1971,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Liberation is not a distant, supernatural miracle; it is an organic harvest cultivated through thirty-seven exact, practical qualities of mind. Ven. Ledi Sayadaw breaks down the mechanics of awakening with the precision of an engineer and the tenderness of an elder guide.",
+      "coreThesis": "Awakening is a methodical cultivation of thirty-seven mental qualities that anyone can nurture right in the midst of ordinary life. Freedom occurs naturally when mindfulness and discernment clear away the mistaken illusion of a separate, permanent self.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Requisites of Enlightenment"
     },
     "reflectionExercises": [],
     "actionItems": [],
