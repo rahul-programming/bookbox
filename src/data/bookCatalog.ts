@@ -26,6 +26,8 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "an-illustrated-book-of-bad-arguments": "./books/anIllustratedBookOfBadArgumentsExpanded.ts",
   "an-inquiring-mind-s-journey-into-vipassana": "./books/anInquiringMindSJourneyIntoVipassanaExpanded.ts",
   "an-introduction-to-reasoning": "./books/anIntroductionToReasoningExpanded.ts",
+  "analysis-of-the-fine-material-realm-rupa-loka": "./books/analysisOfTheFineMaterialRealmRupaLokaExpanded.ts",
+  "analysis-of-the-immaterial-realm-arupa-loka": "./books/analysisOfTheImmaterialRealmArupaLokaExpanded.ts",
   "analysis-of-the-sensuous-realm-kama-loka": "./books/analysisOfTheSensuousRealmKamaLokaExpanded.ts",
   "anatta-and-nibbana-egolessness-and-deliverance": "./books/anattaAndNibbanaEgolessnessAndDeliveranceExpanded.ts",
   "anger-wisdom-for-cooling-the-flames": "./books/angerWisdomForCoolingTheFlamesExpanded.ts",
@@ -57,6 +59,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "broad-view-boundless-heart": "./books/broadViewBoundlessHeartExpanded.ts",
   "buddhism-and-the-ecology-of-mind": "./books/buddhismAndTheEcologyOfMindExpanded.ts",
   "buddhism-and-the-god-idea": "./books/buddhismAndTheGodIdeaExpanded.ts",
+  "buddhism-its-religion-and-philosophy": "./books/buddhismItsReligionAndPhilosophyExpanded.ts",
   "buddhist-dictionary-manual-of-terms-and-doctrines": "./books/buddhistDictionaryManualOfTermsAndDoctrinesExpanded.ts",
   "buddhist-legends-dhammapada-commentary-part-1": "./books/buddhistLegendsDhammapadaCommentaryPart1Expanded.ts",
   "buddhist-legends-dhammapada-commentary-part-2": "./books/buddhistLegendsDhammapadaCommentaryPart2Expanded.ts",
@@ -104,6 +107,8 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "dhammapada-wisdom-of-the-buddha": "./books/dhammapadaWisdomOfTheBuddhaExpanded.ts",
   "dhammasangani-buddhist-psychological-ethics": "./books/dhammasanganiBuddhistPsychologicalEthicsExpanded.ts",
   "dhatukatha-discourse-on-elements": "./books/dhatukathaDiscourseOnElementsExpanded.ts",
+  "dictionary-of-pali-proper-names-volume-1": "./books/dictionaryOfPaliProperNamesVolume1Expanded.ts",
+  "dictionary-of-pali-proper-names-volume-2": "./books/dictionaryOfPaliProperNamesVolume2Expanded.ts",
   "difficult-conversations-how-to-discuss-what-matters-most": "./books/difficultConversationsHowToDiscussWhatMattersMostExpanded.ts",
   "digital-body-language-how-to-build-trust-and-connection-no-m": "./books/digitalBodyLanguageHowToBuildTrustAndConnectionNoMExpanded.ts",
   "disarming-the-narcissist": "./books/disarmingTheNarcissistExpanded.ts",
@@ -126,6 +131,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "early-buddhist-meditation-studies": "./books/earlyBuddhistMeditationStudiesExpanded.ts",
   "early-buddhist-metaphysics": "./books/earlyBuddhistMetaphysicsExpanded.ts",
   "early-buddhist-oral-tradition-and-textual-transmission": "./books/earlyBuddhistOralTraditionAndTextualTransmissionExpanded.ts",
+  "early-buddhist-theory-of-knowledge": "./books/earlyBuddhistTheoryOfKnowledgeExpanded.ts",
   "effortless-make-it-easier-to-do-what-matters-most": "./books/effortlessMakeItEasierToDoWhatMattersMostExpanded.ts",
   "eight-mindful-steps-to-happiness": "./books/eightMindfulStepsToHappinessExpanded.ts",
   "elastic-habits": "./books/elasticHabitsExpanded.ts",
@@ -136,6 +142,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "evil-and-punishment-the-danda-vagga-of-the-dhammapada": "./books/evilAndPunishmentTheDandaVaggaOfTheDhammapadaExpanded.ts",
   "evolutionary-psychology-the-new-science-of-the-mind": "./books/evolutionaryPsychologyTheNewScienceOfTheMindExpanded.ts",
   "expert-political-judgment": "./books/expertPoliticalJudgmentExpanded.ts",
+  "facets-of-buddhist-thought": "./books/facetsOfBuddhistThoughtExpanded.ts",
   "factfulness": "./books/factfulnessExpanded.ts",
   "fallacies-and-argument-appraisal": "./books/fallaciesAndArgumentAppraisalExpanded.ts",
   "fear-essential-wisdom-for-getting-through-the-storm": "./books/fearEssentialWisdomForGettingThroughTheStormExpanded.ts",
@@ -364,6 +371,8 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "supercommunicators-how-to-unlock-the-secret-language-of-conn": "./books/supercommunicatorsHowToUnlockTheSecretLanguageOfConnExpanded.ts",
   "superforecasting-the-art-and-science-of-prediction": "./books/superforecastingTheArtAndScienceOfPredictionExpanded.ts",
   "superiority-conceit-in-buddhist-traditions": "./books/superiorityConceitInBuddhistTraditionsExpanded.ts",
+  "supramundane-consciousness-lokuttara-citta": "./books/supramundaneConsciousnessLokuttaraCittaExpanded.ts",
+  "survival-and-karma-in-buddhist-perspective": "./books/survivalAndKarmaInBuddhistPerspectiveExpanded.ts",
   "sync-how-order-emerges-from-chaos": "./books/syncHowOrderEmergesFromChaosExpanded.ts",
   "teachings-of-a-buddhist-monk": "./books/teachingsOfABuddhistMonkExpanded.ts",
   "teachings-on-love": "./books/teachingsOnLoveExpanded.ts",
@@ -431,6 +440,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-disease-to-please-curing-the-people-pleasing-syndrome": "./books/theDiseaseToPleaseCuringThePeoplePleasingSyndromeExpanded.ts",
   "the-distracted-mind-ancient-brains-in-a-high-tech-world": "./books/theDistractedMindAncientBrainsInAHighTechWorldExpanded.ts",
   "the-divided-mind-the-epidemic-of-mindbody-disorders": "./books/theDividedMindTheEpidemicOfMindbodyDisordersExpanded.ts",
+  "the-doctrine-of-anatta-in-the-nikayas": "./books/theDoctrineOfAnattaInTheNikayasExpanded.ts",
   "the-easy-way-to-stop-smoking-stop-drinking": "./books/theEasyWayToStopSmokingStopDrinkingExpanded.ts",
   "the-energy-of-prayer-how-to-deepen-your-spiritual-practice": "./books/theEnergyOfPrayerHowToDeepenYourSpiritualPracticeExpanded.ts",
   "the-essence-of-buddha-abhidhamma": "./books/theEssenceOfBuddhaAbhidhammaExpanded.ts",
@@ -1506,6 +1516,76 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "analysis-of-the-fine-material-realm-rupa-loka",
+    "title": "Analysis of the Fine-Material Realm: Rupa-loka",
+    "author": "Dr. Mehm Tin Mon",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1995,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step beyond sensory chaos into an architecturally precise cartography of pure, luminous consciousness. Dr. Mehm Tin Mon shows how tranquil absorption refines human awareness into radiant stillness\\u2014and why true freedom requires seeing through even the most exalted peace.",
+      "coreThesis": "The Fine-Material Realm is the natural outer reflection of an inner mind purified by deep meditative stillness; yet, because even the most radiant celestial peace is impermanent, true liberation demands advancing from tranquility to liberating insight.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Analysis of the Fine-Material Realm: Rupa-loka"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "analysis-of-the-immaterial-realm-arupa-loka",
+    "title": "Analysis of the Immaterial Realm: Arupa-loka",
+    "author": "Dr. Mehm Tin Mon",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Imagine stripping away your physical body, senses, and surroundings until only pure, boundless awareness remains. Dr. Mehm Tin Mon charts the ultimate frontiers of the formless mind\\u2014and reveals why even cosmic stillness must be let go to find true freedom.",
+      "coreThesis": "The formless realm represents the mind's peak capacity for stillness without physical matter, yet true liberation requires seeing that even sublime peace is impermanent and stepping beyond it.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Analysis of the Immaterial Realm: Arupa-loka"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "analysis-of-the-sensuous-realm-kama-loka",
     "title": "Analysis of the Sensuous Realm: Kama-loka",
     "author": "Dr. Mehm Tin Mon",
@@ -2576,6 +2656,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Buddhism and the God-Idea"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "buddhism-its-religion-and-philosophy",
+    "title": "Buddhism: Its Religion and Philosophy",
+    "author": "K.N. Jayatilleke",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 1988,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step out of the mental courtroom of rigid dogma into direct, uncluttered awareness. Discover how ancient contemplative wisdom deconstructs the exhausting illusion of ego to reveal effortless peace in daily life.",
+      "coreThesis": "Suffering stems from mistaking fluid, impermanent experiences for a solid, isolated self; freedom emerges the moment awareness stops clinging and rests in direct reality.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Buddhism: Its Religion and Philosophy"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -4229,6 +4344,76 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "dictionary-of-pali-proper-names-volume-1",
+    "title": "Dictionary of Pali Proper Names (Volume 1)",
+    "author": "G.P. Malalasekera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1937,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into the living landscape where the Buddha walked and taught. This monumental compendium turns abstract spiritual philosophy into an intimate, grounded map of real human beings discovering liberation.",
+      "coreThesis": "Enlightenment is never an abstract concept; it is an immediate, living reality discovered by ordinary human beings who met their everyday circumstances with unwavering presence and non-attachment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Dictionary of Pali Proper Names (Volume 1)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "dictionary-of-pali-proper-names-volume-2",
+    "title": "Dictionary of Pali Proper Names (Volume 2)",
+    "author": "G.P. Malalasekera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 1938,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into the living landscape of early Buddhism, where every person, mountain, forest grove, and river comes alive as an immediate mirror of awakening. Malalasekera's masterwork maps the human drama of the Pali Canon, showing that liberation is not an abstract theory, but an embodied path walked by real people in real places.",
+      "coreThesis": "Enlightenment is never an aloof, disembodied idea; it is a timeless, lived human reality etched into real personalities, relationships, and everyday environments.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Dictionary of Pali Proper Names (Volume 2)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "difficult-conversations-how-to-discuss-what-matters-most",
     "title": "Difficult Conversations: How to Discuss What Matters Most",
     "author": "Douglas Stone, Bruce Patton, Sheila Heen",
@@ -4999,6 +5184,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "early-buddhist-theory-of-knowledge",
+    "title": "Early Buddhist Theory of Knowledge",
+    "author": "K.N. Jayatilleke",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1963,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop mistaking the map for the landscape: discover the ancient, rigorous blueprint for testing your spiritual life like a scientist tests reality. This landmark work shows how authentic awakening is grounded in direct personal perception rather than blind dogmatic belief.",
+      "coreThesis": "Enlightenment is not a dogma to be believed, but an empirical truth to be personally verified through purified attention and direct experiential insight.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Early Buddhist Theory of Knowledge"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "effortless-make-it-easier-to-do-what-matters-most",
     "title": "Effortless: Make It Easier to Do What Matters Most",
     "author": "Greg McKeown",
@@ -5345,6 +5565,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "facets-of-buddhist-thought",
+    "title": "Facets of Buddhist Thought",
+    "author": "K.N. Jayatilleke",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2009,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Buddhism is not a blind faith or an esoteric puzzle, but a razor-sharp, practical science of human freedom. Jayatilleke strips away superstition to reveal a verifiable path for calming the restless mind and seeing reality as it truly is.",
+      "coreThesis": "Suffering dissolves when we treat life as an empirical experiment: by observing our mental habits clearly, releasing our tight grip on a false self, and living in quiet harmony with cause and effect.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Facets of Buddhist Thought"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -13309,6 +13564,76 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "supramundane-consciousness-lokuttara-citta",
+    "title": "Supramundane Consciousness: Lokuttara Citta",
+    "author": "Dr. Mehm Tin Mon",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1995,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step out of the restless cycle of conditioned thought into direct, unshakeable freedom. Dr. Mehm Tin Mon provides the master blueprint for waking up from the movie screen of the mind into raw, liberating reality.",
+      "coreThesis": "Suffering ceases permanently when conscious awareness pierces through the illusion of a solid self and anchors in the unconditioned stillness of Nibb\\u0101na.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Supramundane Consciousness: Lokuttara Citta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "survival-and-karma-in-buddhist-perspective",
+    "title": "Survival and Karma in Buddhist Perspective",
+    "author": "K.N. Jayatilleke",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1969,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Death is neither a brick wall that snuffs out awareness nor an elevator carrying a permanent ego to eternity. It is an evolving river of habit and intention that you can observe, understand, and master in this very breath.",
+      "coreThesis": "Human existence is not a fixed monument that gets destroyed at death, but a flowing stream of conscious energy propelled by intentional action; by understanding this natural cause-and-effect, one finds freedom from both fearful clinging and moral nihilism.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Survival and Karma in Buddhist Perspective"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "sync-how-order-emerges-from-chaos",
     "title": "Sync: How Order Emerges from Chaos",
     "author": "Steven Strogatz",
@@ -15645,6 +15970,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Finance",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-doctrine-of-anatta-in-the-nikayas",
+    "title": "The Doctrine of Anatta in the Nikayas",
+    "author": "Dr. G.P. Malalasekera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1966,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Imagine spending your entire life guarding and furnishing a house, only to realize the house is completely empty and always has been. Dr. Malalasekera unpacks the Buddha's most revolutionary insight: the solid 'I' you defend every day is not an entity, but a flowing stream.",
+      "coreThesis": "There is no static, permanent soul hiding behind human experience; existence is an ever-changing process, and recognizing that nothing belongs to 'me' dissolves suffering at the root.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Doctrine of Anatta in the Nikayas"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
