@@ -641,6 +641,17 @@ import { WAS_THE_BUDDHA_A_PESSIMIST_BOOK } from './books/wasTheBuddhaAPessimistE
 import { DHARMA_ITS_TRUE_NATURE_BOOK } from './books/dharmaItsTrueNatureExpanded';
 import { THE_GRACIOUS_FLOW_OF_DHARMA_BOOK } from './books/theGraciousFlowOfDharmaExpanded';
 import { CHRONICLES_OF_DHAMMA_HISTORICAL_PERSPECTIVES_BOOK } from './books/chroniclesOfDhammaHistoricalPerspectivesExpanded';
+import { REALIZING_THE_TRUTH_THROUGH_SENSATIONS_BOOK } from './books/realizingTheTruthThroughSensationsExpanded';
+import { THE_ESSENTIAL_PRACTICE_DHAMMA_DISCOURSES_BOOK } from './books/theEssentialPracticeDhammaDiscoursesExpanded';
+import { TO_LIGHT_A_FIRE_A_GUIDE_TO_PRACTICE_BOOK } from './books/toLightAFireAGuideToPracticeExpanded';
+import { THE_WAY_TO_NIBBANA_BOOK } from './books/theWayToNibbanaExpanded';
+import { KNOWING_AND_SEEING_TEACHINGS_OF_PA_AUK_MONASTERY_BOOK } from './books/knowingAndSeeingTeachingsOfPaAukMonasteryExpanded';
+import { THE_WORKINGS_OF_KAMMA_BOOK } from './books/theWorkingsOfKammaExpanded';
+import { MINDFULNESS_OF_BREATHING_FOUR_ELEMENTS_MEDITATION_BOOK } from './books/mindfulnessOfBreathingFourElementsMeditationExpanded';
+import { THE_PRACTICE_WHICH_LEADS_TO_NIBBANA_BOOK } from './books/thePracticeWhichLeadsToNibbanaExpanded';
+import { TOWARD_ETERNAL_PEACE_DISCOURSE_ON_NIBBANA_BOOK } from './books/towardEternalPeaceDiscourseOnNibbanaExpanded';
+import { A_CHARIOT_TO_NIBBANA_STAGES_OF_AWAKENING_BOOK } from './books/aChariotToNibbanaStagesOfAwakeningExpanded';
+import { TEACHING_AND_TRAINING_AT_PA_AUK_MONASTERY_BOOK } from './books/teachingAndTrainingAtPaAukMonasteryExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -1282,7 +1293,18 @@ export const SEED_BOOKS: Book[] = [
   WAS_THE_BUDDHA_A_PESSIMIST_BOOK,
   DHARMA_ITS_TRUE_NATURE_BOOK,
   THE_GRACIOUS_FLOW_OF_DHARMA_BOOK,
-  CHRONICLES_OF_DHAMMA_HISTORICAL_PERSPECTIVES_BOOK
+  CHRONICLES_OF_DHAMMA_HISTORICAL_PERSPECTIVES_BOOK,
+  REALIZING_THE_TRUTH_THROUGH_SENSATIONS_BOOK,
+  THE_ESSENTIAL_PRACTICE_DHAMMA_DISCOURSES_BOOK,
+  TO_LIGHT_A_FIRE_A_GUIDE_TO_PRACTICE_BOOK,
+  THE_WAY_TO_NIBBANA_BOOK,
+  KNOWING_AND_SEEING_TEACHINGS_OF_PA_AUK_MONASTERY_BOOK,
+  THE_WORKINGS_OF_KAMMA_BOOK,
+  MINDFULNESS_OF_BREATHING_FOUR_ELEMENTS_MEDITATION_BOOK,
+  THE_PRACTICE_WHICH_LEADS_TO_NIBBANA_BOOK,
+  TOWARD_ETERNAL_PEACE_DISCOURSE_ON_NIBBANA_BOOK,
+  A_CHARIOT_TO_NIBBANA_STAGES_OF_AWAKENING_BOOK,
+  TEACHING_AND_TRAINING_AT_PA_AUK_MONASTERY_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -1926,7 +1948,18 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(WAS_THE_BUDDHA_A_PESSIMIST_BOOK.ideaCards || []),
   ...(DHARMA_ITS_TRUE_NATURE_BOOK.ideaCards || []),
   ...(THE_GRACIOUS_FLOW_OF_DHARMA_BOOK.ideaCards || []),
-  ...(CHRONICLES_OF_DHAMMA_HISTORICAL_PERSPECTIVES_BOOK.ideaCards || [])
+  ...(CHRONICLES_OF_DHAMMA_HISTORICAL_PERSPECTIVES_BOOK.ideaCards || []),
+  ...(REALIZING_THE_TRUTH_THROUGH_SENSATIONS_BOOK.ideaCards || []),
+  ...(THE_ESSENTIAL_PRACTICE_DHAMMA_DISCOURSES_BOOK.ideaCards || []),
+  ...(TO_LIGHT_A_FIRE_A_GUIDE_TO_PRACTICE_BOOK.ideaCards || []),
+  ...(THE_WAY_TO_NIBBANA_BOOK.ideaCards || []),
+  ...(KNOWING_AND_SEEING_TEACHINGS_OF_PA_AUK_MONASTERY_BOOK.ideaCards || []),
+  ...(THE_WORKINGS_OF_KAMMA_BOOK.ideaCards || []),
+  ...(MINDFULNESS_OF_BREATHING_FOUR_ELEMENTS_MEDITATION_BOOK.ideaCards || []),
+  ...(THE_PRACTICE_WHICH_LEADS_TO_NIBBANA_BOOK.ideaCards || []),
+  ...(TOWARD_ETERNAL_PEACE_DISCOURSE_ON_NIBBANA_BOOK.ideaCards || []),
+  ...(A_CHARIOT_TO_NIBBANA_STAGES_OF_AWAKENING_BOOK.ideaCards || []),
+  ...(TEACHING_AND_TRAINING_AT_PA_AUK_MONASTERY_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [

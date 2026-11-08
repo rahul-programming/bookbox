@@ -4,6 +4,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "10-days-to-faster-reading": "./books/10DaysToFasterReadingExpanded.ts",
   "168-hours-you-have-more-time-than-you-think": "./books/168HoursYouHaveMoreTimeThanYouThinkExpanded.ts",
   "3-d-negotiation-powerful-tools-to-change-the-game-in-your-mo": "./books/3DNegotiationPowerfulToolsToChangeTheGameInYourMoExpanded.ts",
+  "a-chariot-to-nibbana-stages-of-awakening": "./books/aChariotToNibbanaStagesOfAwakeningExpanded.ts",
   "a-comparative-study-of-the-majjhima-nikaya-volume-1": "./books/aComparativeStudyOfTheMajjhimaNikayaVolume1Expanded.ts",
   "a-comparative-study-of-the-majjhima-nikaya-volume-2": "./books/aComparativeStudyOfTheMajjhimaNikayaVolume2Expanded.ts",
   "a-comprehensive-manual-of-abhidhamma": "./books/aComprehensiveManualOfAbhidhammaExpanded.ts",
@@ -220,6 +221,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "keeping-the-breath-in-mind-lessons-in-samadhi": "./books/keepingTheBreathInMindLessonsInSamadhiExpanded.ts",
   "kill-it-with-fire-manage-aging-computer-systems-and-communic": "./books/killItWithFireManageAgingComputerSystemsAndCommunicExpanded.ts",
   "king-warrior-magician-lover": "./books/kingWarriorMagicianLoverExpanded.ts",
+  "knowing-and-seeing-teachings-of-pa-auk-monastery": "./books/knowingAndSeeingTeachingsOfPaAukMonasteryExpanded.ts",
   "learn-like-a-pro": "./books/learnLikeAProExpanded.ts",
   "learned-optimism": "./books/learnedOptimismExpanded.ts",
   "life-is-in-the-transitions": "./books/lifeIsInTheTransitionsExpanded.ts",
@@ -271,6 +273,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "mindfulness-bliss-and-beyond-a-meditator-s-handbook": "./books/mindfulnessBlissAndBeyondAMeditatorSHandbookExpanded.ts",
   "mindfulness-for-health-and-vitality": "./books/mindfulnessForHealthAndVitalityExpanded.ts",
   "mindfulness-of-breathing-a-practice-guide-and-translations": "./books/mindfulnessOfBreathingAPracticeGuideAndTranslationsExpanded.ts",
+  "mindfulness-of-breathing-four-elements-meditation": "./books/mindfulnessOfBreathingFourElementsMeditationExpanded.ts",
   "mindfulness-of-the-body-the-first-foundation": "./books/mindfulnessOfTheBodyTheFirstFoundationExpanded.ts",
   "mindfulness-the-path-to-the-deathless": "./books/mindfulnessThePathToTheDeathlessExpanded.ts",
   "mindset-the-new-psychology-of-success": "./books/mindsetTheNewPsychologyOfSuccessExpanded.ts",
@@ -330,6 +333,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "range-why-generalists-triumph-in-a-specialized-world": "./books/rangeWhyGeneralistsTriumphInASpecializedWorldExpanded.ts",
   "rational-recovery": "./books/rationalRecoveryExpanded.ts",
   "reading-the-buddha-s-discourses-in-pali": "./books/readingTheBuddhaSDiscoursesInPaliExpanded.ts",
+  "realizing-the-truth-through-sensations": "./books/realizingTheTruthThroughSensationsExpanded.ts",
   "rebirth-in-early-buddhism-and-current-research": "./books/rebirthInEarlyBuddhismAndCurrentResearchExpanded.ts",
   "reclaiming-conversation-the-power-of-talk-in-a-digital-age": "./books/reclaimingConversationThePowerOfTalkInADigitalAgeExpanded.ts",
   "reinventing-you": "./books/reinventingYouExpanded.ts",
@@ -392,6 +396,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "supramundane-consciousness-lokuttara-citta": "./books/supramundaneConsciousnessLokuttaraCittaExpanded.ts",
   "survival-and-karma-in-buddhist-perspective": "./books/survivalAndKarmaInBuddhistPerspectiveExpanded.ts",
   "sync-how-order-emerges-from-chaos": "./books/syncHowOrderEmergesFromChaosExpanded.ts",
+  "teaching-and-training-at-pa-auk-monastery": "./books/teachingAndTrainingAtPaAukMonasteryExpanded.ts",
   "teachings-of-a-buddhist-monk": "./books/teachingsOfABuddhistMonkExpanded.ts",
   "teachings-on-love": "./books/teachingsOnLoveExpanded.ts",
   "thank-you-for-arguing": "./books/thankYouForArguingExpanded.ts",
@@ -466,6 +471,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-easy-way-to-stop-smoking-stop-drinking": "./books/theEasyWayToStopSmokingStopDrinkingExpanded.ts",
   "the-energy-of-prayer-how-to-deepen-your-spiritual-practice": "./books/theEnergyOfPrayerHowToDeepenYourSpiritualPracticeExpanded.ts",
   "the-essence-of-buddha-abhidhamma": "./books/theEssenceOfBuddhaAbhidhammaExpanded.ts",
+  "the-essential-practice-dhamma-discourses": "./books/theEssentialPracticeDhammaDiscoursesExpanded.ts",
   "the-evolution-of-desire-strategies-of-human-mating": "./books/theEvolutionOfDesireStrategiesOfHumanMatingExpanded.ts",
   "the-fifth-discipline": "./books/theFifthDisciplineExpanded.ts",
   "the-five-mental-hindrances-and-their-conquest": "./books/theFiveMentalHindrancesAndTheirConquestExpanded.ts",
@@ -531,6 +537,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-power-of-when": "./books/thePowerOfWhenExpanded.ts",
   "the-practice-of-sila-morality-in-the-tipitaka": "./books/thePracticeOfSilaMoralityInTheTipitakaExpanded.ts",
   "the-practice-of-vipassana-meditation": "./books/thePracticeOfVipassanaMeditationExpanded.ts",
+  "the-practice-which-leads-to-nibbana": "./books/thePracticeWhichLeadsToNibbanaExpanded.ts",
   "the-progress-of-insight": "./books/theProgressOfInsightExpanded.ts",
   "the-progress-of-insight-through-mental-noting": "./books/theProgressOfInsightThroughMentalNotingExpanded.ts",
   "the-promise-of-sleep": "./books/thePromiseOfSleepExpanded.ts",
@@ -569,11 +576,13 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-upward-spiral": "./books/theUpwardSpiralExpanded.ts",
   "the-uses-of-argument": "./books/theUsesOfArgumentExpanded.ts",
   "the-war-of-art": "./books/theWarOfArtExpanded.ts",
+  "the-way-to-nibbana": "./books/theWayToNibbanaExpanded.ts",
   "the-way-to-the-guru-meditative-guidance": "./books/theWayToTheGuruMeditativeGuidanceExpanded.ts",
   "the-willpower-instinct": "./books/theWillpowerInstinctExpanded.ts",
   "the-wings-to-awakening-an-anthology-from-the-pali-canon": "./books/theWingsToAwakeningAnAnthologyFromThePaliCanonExpanded.ts",
   "the-wise-and-the-foolish-in-the-dhammapada": "./books/theWiseAndTheFoolishInTheDhammapadaExpanded.ts",
   "the-word-of-the-buddha": "./books/theWordOfTheBuddhaExpanded.ts",
+  "the-workings-of-kamma": "./books/theWorkingsOfKammaExpanded.ts",
   "the-worn-out-skin-reflections-on-the-uraga-sutta": "./books/theWornOutSkinReflectionsOnTheUragaSuttaExpanded.ts",
   "the-worry-trick": "./books/theWorryTrickExpanded.ts",
   "theragatha-verses-of-the-senior-monks": "./books/theragathaVersesOfTheSeniorMonksExpanded.ts",
@@ -586,9 +595,11 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "time-smart-how-to-reclaim-your-time-and-live-a-happier-life": "./books/timeSmartHowToReclaimYourTimeAndLiveAHappierLifeExpanded.ts",
   "timeless-wisdom-in-depth-dhamma-talks": "./books/timelessWisdomInDepthDhammaTalksExpanded.ts",
   "tiny-habits-the-small-changes-that-change-everything": "./books/tinyHabitsTheSmallChangesThatChangeEverythingExpanded.ts",
+  "to-light-a-fire-a-guide-to-practice": "./books/toLightAFireAGuideToPracticeExpanded.ts",
   "to-sell-is-human-the-surprising-truth-about-moving-others": "./books/toSellIsHumanTheSurprisingTruthAboutMovingOthersExpanded.ts",
   "to-the-last-breath-dhamma-talks-on-illness-and-death": "./books/toTheLastBreathDhammaTalksOnIllnessAndDeathExpanded.ts",
   "touching-peace-practicing-the-art-of-mindful-living": "./books/touchingPeacePracticingTheArtOfMindfulLivingExpanded.ts",
+  "toward-eternal-peace-discourse-on-nibbana": "./books/towardEternalPeaceDiscourseOnNibbanaExpanded.ts",
   "transcendental-dependent-arising": "./books/transcendentalDependentArisingExpanded.ts",
   "transformation-and-healing-satipatthana-sutra": "./books/transformationAndHealingSatipatthanaSutraExpanded.ts",
   "transitions-making-sense-of-life-s-changes": "./books/transitionsMakingSenseOfLifeSChangesExpanded.ts",
@@ -773,6 +784,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "a-chariot-to-nibbana-stages-of-awakening",
+    "title": "A Chariot to Nibbana: Stages of Awakening",
+    "author": "Pa-Auk Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 95,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Awakening is not a vague mystical trance, but a systematic science of mind. Pa-Auk Sayadaw provides the master operating manual: forge an unshakeable laser of concentration, dissect reality at the subatomic level, and walk the proven highway to total liberation.",
+      "coreThesis": "Deep spiritual awakening requires transforming ordinary scattered attention into an immaculate, laser-focused lens that directly dismantles the illusion of a solid self through precise, empirical observation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "A Chariot to Nibbana: Stages of Awakening"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -8324,6 +8370,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "knowing-and-seeing-teachings-of-pa-auk-monastery",
+    "title": "Knowing and Seeing: Teachings of Pa-Auk Monastery",
+    "author": "Pa-Auk Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1999,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "A master manual that turns meditation from vague relaxation into an exact, step-by-step science of seeing your own mind and body under high-power concentration. By steadying attention like a precision lens, you learn to dissolve the illusion of self and experience profound inner peace.",
+      "coreThesis": "Liberation from suffering is achieved not through blind faith or intellectual study, but by training the mind to razor-sharp stillness so it can directly see the transparent, momentary nature of all mental and physical phenomena.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Knowing and Seeing: Teachings of Pa-Auk Monastery"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "learn-like-a-pro",
     "title": "Learn Like a Pro",
     "author": "Barbara Oakley & Olav Schewe",
@@ -10094,6 +10175,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Mindfulness of Breathing: A Practice Guide and Translations"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "mindfulness-of-breathing-four-elements-meditation",
+    "title": "Mindfulness of Breathing & Four Elements Meditation",
+    "author": "Pa-Auk Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1999,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Transform everyday breathing and physical bodily sensations into an ultra-sharp microscope of direct awareness. This classic meditation manual offers a concrete, laboratory-grade roadmap to quiet the restless mind and perceive physical existence at the level of raw ultimate reality.",
+      "coreThesis": "Deep mental stillness and true spiritual liberation are not mysterious accidents, but the direct result of systematically calming the breath to develop luminous concentration, then turning that radiant awareness upon physical reality to dismantle the illusion of a solid self.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mindfulness of Breathing & Four Elements Meditation"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -12155,6 +12271,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Reading the Buddha's Discourses in Pali"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "realizing-the-truth-through-sensations",
+    "title": "Realizing the Truth Through Sensations",
+    "author": "S.N. Goenka",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 1990,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop wrestling endlessly with turbulent mental thoughts and dive straight into the body's physical sensations to dismantle anxiety, craving, and anger at their biological roots. S.N. Goenka proves that observing bodily sensations with quiet, balanced equanimity unravels subconscious conditioning and reveals genuine inner liberation.",
+      "coreThesis": "Suffering is ignited not by external events, but by reactive habits toward physical bodily sensations. By observing these sensations objectively without craving or aversion, you directly realize impermanence and dissolve mental conditioning at its roots.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Realizing the Truth Through Sensations"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -14325,6 +14476,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "teaching-and-training-at-pa-auk-monastery",
+    "title": "Teaching and Training at Pa-Auk Monastery",
+    "author": "Pa-Auk Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2005,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Experience the gold standard of classical Buddhist meditation distilled into a lucid, step-by-step master plan. This guide bridges deep absorption with razor-sharp insight, showing you how to turn your mind into an ultra-precise laboratory for genuine spiritual awakening.",
+      "coreThesis": "Profound spiritual liberation is achieved systematically when ethical conduct quiets mental turmoil, deep concentration stabilizes and illuminates attention, and penetrating insight dismantles the illusion of an autonomous self.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Teaching and Training at Pa-Auk Monastery"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -16915,6 +17101,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-essential-practice-dhamma-discourses",
+    "title": "The Essential Practice: Dhamma Discourses",
+    "author": "Webu Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1991,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop overcomplicating spiritual freedom: anchor your attention to the simple physical touch of your breath, right now, without dropping it for a single moment. Venerable Webu Sayadaw strips away all dry scholastic debate to deliver the raw, immediate engine of awakening.",
+      "coreThesis": "Enlightenment is not a distant intellectual philosophy, but the direct result of keeping continuous, unwavering awareness on the touch of the breath in every posture and waking second.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Essential Practice: Dhamma Discourses"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-evolution-of-desire-strategies-of-human-mating",
     "title": "The Evolution of Desire: Strategies of Human Mating",
     "author": "David M. Buss",
@@ -19184,6 +19405,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-practice-which-leads-to-nibbana",
+    "title": "The Practice Which Leads to Nibbana",
+    "author": "Pa-Auk Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 105,
+    "publishedYear": 1998,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop mistaking mental concepts for reality. This master manual turns your attention into a high-powered laboratory microscope, systematically dismantling the illusion of self until liberation reveals itself.",
+      "coreThesis": "Profound, unshakeable mental stillness generates the luminous clarity required to dissect physical and mental phenomena into their momentary components, extinguishing ignorance and realizing unconditional freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Practice Which Leads to Nibbana"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-progress-of-insight",
     "title": "The Progress of Insight",
     "author": "Mahasi Sayadaw",
@@ -20511,6 +20767,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-way-to-nibbana",
+    "title": "The Way to Nibbana",
+    "author": "Webu Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 90,
+    "publishedYear": 2001,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop searching for enlightenment in endless philosophical theory\\u2014liberation sits right beneath your nose with every incoming and outgoing breath. Venerable Webu Sayadaw strips away all esoteric clutter to deliver the most radically simple, immediately actionable blueprint for lasting mental stillness ever recorded.",
+      "coreThesis": "Total liberation from suffering requires no encyclopedic scholarship, only continuous, unbroken awareness of the breath anchored to the present touch point.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Way to Nibbana"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-way-to-the-guru-meditative-guidance",
     "title": "The Way to the Guru: Meditative Guidance",
     "author": "Sayadaw U Pandita",
@@ -20674,6 +20965,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Word of the Buddha"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-workings-of-kamma",
+    "title": "The Workings of Kamma",
+    "author": "Pa-Auk Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your life today is the harvest of your past intentions, and every conscious choice right now plants tomorrow's garden. Discover the microscopic mechanics of karma and learn how to dismantle compulsive mental conditioning to achieve genuine inner peace.",
+      "coreThesis": "Karma is the natural law of volitional intention bearing corresponding fruit; by training immediate awareness, you cultivate wholesome habits and ultimately untie the karmic knots that bind the mind.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Workings of Kamma"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -21103,6 +21429,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "to-light-a-fire-a-guide-to-practice",
+    "title": "To Light a Fire: A Guide to Practice",
+    "author": "Webu Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1990,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop hoarding meditation theories and light the flame within your direct experience. Webu Sayadaw strips spiritual awakening down to a single physical spot, revealing how relentless, unbroken awareness of the breath naturally consumes suffering at its root.",
+      "coreThesis": "Continuous, unbroken awareness anchored on the physical sensation of the breath at the nostril tip naturally suppresses mental afflictions and sparks the radiant fire of awakening.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "To Light a Fire: A Guide to Practice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "to-sell-is-human-the-surprising-truth-about-moving-others",
     "title": "To Sell Is Human: The Surprising Truth About Moving Others",
     "author": "Daniel H. Pink",
@@ -21196,6 +21557,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Touching Peace: Practicing the Art of Mindful Living"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "toward-eternal-peace-discourse-on-nibbana",
+    "title": "Toward Eternal Peace: Discourse on Nibbana",
+    "author": "Pa-Auk Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2000,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "World peace is impossible without inner peace, and inner peace is not a passive mood\\u2014it is a precise, trainable master craft. Pa-Auk Sayadaw lays out the canonical Buddhist blueprint to dismantle the mental engines of friction and realize Nibb\\u0101na, the ultimate unconditioned stillness.",
+      "coreThesis": "True peace cannot be engineered externally; it is realized only when the disciplined mind dismantles greed, hatred, and delusion through concentration and insight, touching the unconditioned reality of Nibb\\u0101na.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Toward Eternal Peace: Discourse on Nibbana"
     },
     "reflectionExercises": [],
     "actionItems": [],

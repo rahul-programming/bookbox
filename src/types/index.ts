@@ -88,7 +88,8 @@ export interface KeyPillarDetail {
 export interface FrameworkStep {
   step: number;
   name: string;
-  summary: string;
+  summary?: string;
+  description?: string;
   executionTip: string;
 }
 
