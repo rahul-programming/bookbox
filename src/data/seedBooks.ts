@@ -591,6 +591,16 @@ import { KARMA_AND_REBIRTH_BOOK } from './books/karmaAndRebirthExpanded';
 import { THE_PSYCHOLOGICAL_ATTITUDE_OF_EARLY_BUDDHIST_PHILOSOPHY_BOOK } from './books/thePsychologicalAttitudeOfEarlyBuddhistPhilosophyExpanded';
 import { EARLY_BUDDHIST_METAPHYSICS_BOOK } from './books/earlyBuddhistMetaphysicsExpanded';
 import { THE_CONCEPTION_OF_BUDDHIST_NIRVANA_BOOK } from './books/theConceptionOfBuddhistNirvanaExpanded';
+import { CENTRAL_CONCEPTION_OF_BUDDHISM_AND_MEANING_OF_DHARMA_BOOK } from './books/centralConceptionOfBuddhismAndMeaningOfDharmaExpanded';
+import { BUDDHIST_LOGIC_VOLUME_1_BOOK } from './books/buddhistLogicVolume1Expanded';
+import { BUDDHIST_LOGIC_VOLUME_2_BOOK } from './books/buddhistLogicVolume2Expanded';
+import { THE_PSYCHOLOGICAL_ASPECT_OF_BUDDHISM_BOOK } from './books/thePsychologicalAspectOfBuddhismExpanded';
+import { THE_SEVEN_FACTORS_OF_ENLIGHTENMENT_BOJJHANGA_BOOK } from './books/theSevenFactorsOfEnlightenmentBojjhangaExpanded';
+import { THE_SPECTRUM_OF_BUDDHISM_BOOK } from './books/theSpectrumOfBuddhismExpanded';
+import { THE_BUDDHA_S_ANCIENT_PATH_BOOK } from './books/theBuddhaSAncientPathExpanded';
+import { DEPENDENT_ORIGINATION_PATICCA_SAMUPPADA_BOOK } from './books/dependentOriginationPaticcaSamuppadaExpanded';
+import { COMPREHENSIVE_COMMENTARY_ON_THE_ABHIDHAMMATTHA_SANGAHA_BOOK } from './books/comprehensiveCommentaryOnTheAbhidhammatthaSangahaExpanded';
+import { ANALYSIS_OF_THE_SENSUOUS_REALM_KAMA_LOKA_BOOK } from './books/analysisOfTheSensuousRealmKamaLokaExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -1182,7 +1192,17 @@ export const SEED_BOOKS: Book[] = [
   KARMA_AND_REBIRTH_BOOK,
   THE_PSYCHOLOGICAL_ATTITUDE_OF_EARLY_BUDDHIST_PHILOSOPHY_BOOK,
   EARLY_BUDDHIST_METAPHYSICS_BOOK,
-  THE_CONCEPTION_OF_BUDDHIST_NIRVANA_BOOK
+  THE_CONCEPTION_OF_BUDDHIST_NIRVANA_BOOK,
+  CENTRAL_CONCEPTION_OF_BUDDHISM_AND_MEANING_OF_DHARMA_BOOK,
+  BUDDHIST_LOGIC_VOLUME_1_BOOK,
+  BUDDHIST_LOGIC_VOLUME_2_BOOK,
+  THE_PSYCHOLOGICAL_ASPECT_OF_BUDDHISM_BOOK,
+  THE_SEVEN_FACTORS_OF_ENLIGHTENMENT_BOJJHANGA_BOOK,
+  THE_SPECTRUM_OF_BUDDHISM_BOOK,
+  THE_BUDDHA_S_ANCIENT_PATH_BOOK,
+  DEPENDENT_ORIGINATION_PATICCA_SAMUPPADA_BOOK,
+  COMPREHENSIVE_COMMENTARY_ON_THE_ABHIDHAMMATTHA_SANGAHA_BOOK,
+  ANALYSIS_OF_THE_SENSUOUS_REALM_KAMA_LOKA_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -1776,7 +1796,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(KARMA_AND_REBIRTH_BOOK.ideaCards || []),
   ...(THE_PSYCHOLOGICAL_ATTITUDE_OF_EARLY_BUDDHIST_PHILOSOPHY_BOOK.ideaCards || []),
   ...(EARLY_BUDDHIST_METAPHYSICS_BOOK.ideaCards || []),
-  ...(THE_CONCEPTION_OF_BUDDHIST_NIRVANA_BOOK.ideaCards || [])
+  ...(THE_CONCEPTION_OF_BUDDHIST_NIRVANA_BOOK.ideaCards || []),
+  ...(CENTRAL_CONCEPTION_OF_BUDDHISM_AND_MEANING_OF_DHARMA_BOOK.ideaCards || []),
+  ...(BUDDHIST_LOGIC_VOLUME_1_BOOK.ideaCards || []),
+  ...(BUDDHIST_LOGIC_VOLUME_2_BOOK.ideaCards || []),
+  ...(THE_PSYCHOLOGICAL_ASPECT_OF_BUDDHISM_BOOK.ideaCards || []),
+  ...(THE_SEVEN_FACTORS_OF_ENLIGHTENMENT_BOJJHANGA_BOOK.ideaCards || []),
+  ...(THE_SPECTRUM_OF_BUDDHISM_BOOK.ideaCards || []),
+  ...(THE_BUDDHA_S_ANCIENT_PATH_BOOK.ideaCards || []),
+  ...(DEPENDENT_ORIGINATION_PATICCA_SAMUPPADA_BOOK.ideaCards || []),
+  ...(COMPREHENSIVE_COMMENTARY_ON_THE_ABHIDHAMMATTHA_SANGAHA_BOOK.ideaCards || []),
+  ...(ANALYSIS_OF_THE_SENSUOUS_REALM_KAMA_LOKA_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [

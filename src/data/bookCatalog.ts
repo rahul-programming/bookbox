@@ -26,6 +26,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "an-illustrated-book-of-bad-arguments": "./books/anIllustratedBookOfBadArgumentsExpanded.ts",
   "an-inquiring-mind-s-journey-into-vipassana": "./books/anInquiringMindSJourneyIntoVipassanaExpanded.ts",
   "an-introduction-to-reasoning": "./books/anIntroductionToReasoningExpanded.ts",
+  "analysis-of-the-sensuous-realm-kama-loka": "./books/analysisOfTheSensuousRealmKamaLokaExpanded.ts",
   "anatta-and-nibbana-egolessness-and-deliverance": "./books/anattaAndNibbanaEgolessnessAndDeliveranceExpanded.ts",
   "anger-wisdom-for-cooling-the-flames": "./books/angerWisdomForCoolingTheFlamesExpanded.ts",
   "antifragile-things-that-gain-from-disorder": "./books/antifragileThingsThatGainFromDisorderExpanded.ts",
@@ -60,9 +61,12 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "buddhist-legends-dhammapada-commentary-part-1": "./books/buddhistLegendsDhammapadaCommentaryPart1Expanded.ts",
   "buddhist-legends-dhammapada-commentary-part-2": "./books/buddhistLegendsDhammapadaCommentaryPart2Expanded.ts",
   "buddhist-legends-dhammapada-commentary-part-3": "./books/buddhistLegendsDhammapadaCommentaryPart3Expanded.ts",
+  "buddhist-logic-volume-1": "./books/buddhistLogicVolume1Expanded.ts",
+  "buddhist-logic-volume-2": "./books/buddhistLogicVolume2Expanded.ts",
   "building-a-second-brain": "./books/buildingASecondBrainExpanded.ts",
   "built-from-broken": "./books/builtFromBrokenExpanded.ts",
   "bullshit-jobs-on-bullshit": "./books/bullshitJobsOnBullshitExpanded.ts",
+  "central-conception-of-buddhism-and-meaning-of-dharma": "./books/centralConceptionOfBuddhismAndMeaningOfDharmaExpanded.ts",
   "citta-and-cetasika-mind-and-mental-factors": "./books/cittaAndCetasikaMindAndMentalFactorsExpanded.ts",
   "cittaviveka-teachings-from-the-silent-mind": "./books/cittavivekaTeachingsFromTheSilentMindExpanded.ts",
   "clarity-of-insight-selected-forest-dhamma": "./books/clarityOfInsightSelectedForestDhammaExpanded.ts",
@@ -70,6 +74,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "cognitive-psychology-mind-and-brain": "./books/cognitivePsychologyMindAndBrainExpanded.ts",
   "compassion-and-emptiness-in-early-buddhist-meditation": "./books/compassionAndEmptinessInEarlyBuddhistMeditationExpanded.ts",
   "complexity-a-guided-tour": "./books/complexityAGuidedTourExpanded.ts",
+  "comprehensive-commentary-on-the-abhidhammattha-sangaha": "./books/comprehensiveCommentaryOnTheAbhidhammatthaSangahaExpanded.ts",
   "connecting-across-differences": "./books/connectingAcrossDifferencesExpanded.ts",
   "contagious-why-things-catch-on": "./books/contagiousWhyThingsCatchOnExpanded.ts",
   "contemplation-of-dhamma-the-fourth-foundation": "./books/contemplationOfDhammaTheFourthFoundationExpanded.ts",
@@ -87,6 +92,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "deep-down-we-know": "./books/deepDownWeKnowExpanded.ts",
   "deep-work": "./books/deepWorkExpanded.ts",
   "dependent-arising-a-practical-guide-to-early-buddhist-teachings": "./books/dependentArisingAPracticalGuideToEarlyBuddhistTeachingsExpanded.ts",
+  "dependent-origination-paticca-samuppada": "./books/dependentOriginationPaticcaSamuppadaExpanded.ts",
   "designing-your-life-how-to-build-a-well-lived-joyful-life": "./books/designingYourLifeHowToBuildAWellLivedJoyfulLifeExpanded.ts",
   "dhamma-everywhere-freeing-the-mind-across-all-postures": "./books/dhammaEverywhereFreeingTheMindAcrossAllPosturesExpanded.ts",
   "dhamma-padetha-collection-of-insight-essays": "./books/dhammaPadethaCollectionOfInsightEssaysExpanded.ts",
@@ -387,6 +393,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-book-of-boundaries": "./books/theBookOfBoundariesExpanded.ts",
   "the-brain-that-changes-itself": "./books/theBrainThatChangesItselfExpanded.ts",
   "the-buddha-and-his-teachings": "./books/theBuddhaAndHisTeachingsExpanded.ts",
+  "the-buddha-s-ancient-path": "./books/theBuddhaSAncientPathExpanded.ts",
   "the-buddha-s-path-of-virtue": "./books/theBuddhaSPathOfVirtueExpanded.ts",
   "the-buddha-s-philosophy-of-mind": "./books/theBuddhaSPhilosophyOfMindExpanded.ts",
   "the-buddhist-monastic-code-volume-i": "./books/theBuddhistMonasticCodeVolumeIExpanded.ts",
@@ -490,6 +497,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-progress-of-insight": "./books/theProgressOfInsightExpanded.ts",
   "the-progress-of-insight-through-mental-noting": "./books/theProgressOfInsightThroughMentalNotingExpanded.ts",
   "the-promise-of-sleep": "./books/thePromiseOfSleepExpanded.ts",
+  "the-psychological-aspect-of-buddhism": "./books/thePsychologicalAspectOfBuddhismExpanded.ts",
   "the-psychological-attitude-of-early-buddhist-philosophy": "./books/thePsychologicalAttitudeOfEarlyBuddhistPhilosophyExpanded.ts",
   "the-pure-soul-the-brahmana-vagga-of-the-dhammapada": "./books/thePureSoulTheBrahmanaVaggaOfTheDhammapadaExpanded.ts",
   "the-questions-of-king-milinda-milindapanha": "./books/theQuestionsOfKingMilindaMilindapanhaExpanded.ts",
@@ -499,6 +507,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-scout-mindset": "./books/theScoutMindsetExpanded.ts",
   "the-second-mountain-the-quest-for-a-moral-life": "./books/theSecondMountainTheQuestForAMoralLifeExpanded.ts",
   "the-selfish-gene": "./books/theSelfishGeneExpanded.ts",
+  "the-seven-factors-of-enlightenment-bojjhanga": "./books/theSevenFactorsOfEnlightenmentBojjhangaExpanded.ts",
   "the-seven-sins-of-memory": "./books/theSevenSinsOfMemoryExpanded.ts",
   "the-seven-stages-of-purification": "./books/theSevenStagesOfPurificationExpanded.ts",
   "the-shallows-what-the-internet-is-doing-to-our-brains": "./books/theShallowsWhatTheInternetIsDoingToOurBrainsExpanded.ts",
@@ -510,6 +519,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-socratic-method-of-psychotherapy": "./books/theSocraticMethodOfPsychotherapyExpanded.ts",
   "the-soulful-art-of-persuasion": "./books/theSoulfulArtOfPersuasionExpanded.ts",
   "the-sound-of-silence-selected-teachings": "./books/theSoundOfSilenceSelectedTeachingsExpanded.ts",
+  "the-spectrum-of-buddhism": "./books/theSpectrumOfBuddhismExpanded.ts",
   "the-state-of-mind-called-beautiful": "./books/theStateOfMindCalledBeautifulExpanded.ts",
   "the-sun-my-heart-from-mindfulness-to-insight-contemplation": "./books/theSunMyHeartFromMindfulnessToInsightContemplationExpanded.ts",
   "the-sutta-discovery-early-buddhist-teachings": "./books/theSuttaDiscoveryEarlyBuddhistTeachingsExpanded.ts",
@@ -1491,6 +1501,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "analysis-of-the-sensuous-realm-kama-loka",
+    "title": "Analysis of the Sensuous Realm: Kama-loka",
+    "author": "Dr. Mehm Tin Mon",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1995,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step out of the restless current of sensory craving and discover how your mind constructs your daily reality. This book maps the architecture of the sensuous realm to reveal the clear, open doorway to lasting inner peace.",
+      "coreThesis": "The sensuous realm is a mental landscape shaped entirely by intention and craving; by seeing the impermanence of sensory input with quiet mindfulness, consciousness naturally unties its knots and rests in liberation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Analysis of the Sensuous Realm: Kama-loka"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -2683,6 +2728,76 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "buddhist-logic-volume-1",
+    "title": "Buddhist Logic (Volume 1)",
+    "author": "Th. Stcherbatsky",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 1932,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step behind the mind's conceptual chatter and discover reality as an ever-flowing stream of vivid, ungraspable moments. This masterwork shows how clear thinking and meditative awareness together dissolve mental illusions, guiding you to profound inner peace and practical clarity.",
+      "coreThesis": "Ultimate reality is an unbroken, dynamic stream of point-instants directly met in present awareness, while all conceptual names and categories are convenient mental maps that must never be mistaken for living truth.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Buddhist Logic (Volume 1)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "buddhist-logic-volume-2",
+    "title": "Buddhist Logic (Volume 2)",
+    "author": "Th. Stcherbatsky",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1930,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step out of mental chatter and touch reality as it actually is. This classic guide unveils the bridge between raw sensory awareness and razor-sharp everyday discernment, freeing your mind from self-made delusions.",
+      "coreThesis": "Direct perception connects you to the bare, unlabelled truth of the present moment, while mindful reasoning safely guides your actions by distinguishing living reality from mental projections.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Buddhist Logic (Volume 2)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "building-a-second-brain",
     "title": "Building a Second Brain",
     "author": "Tiago Forte",
@@ -2783,6 +2898,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "central-conception-of-buddhism-and-meaning-of-dharma",
+    "title": "Central Conception of Buddhism and Meaning of Dharma",
+    "author": "Th. Stcherbatsky",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 1923,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You are not a solid, static self trapped inside a heavy body\\u2014you are an ever-flowing river of momentary sensations, thoughts, and awareness. Discover the foundational Buddhist insight that dissolves the illusion of an isolated ego and reveals immediate, effortless inner freedom.",
+      "coreThesis": "Reality contains no permanent souls or enduring substances, but is an unbroken stream of momentary physical and mental flashes governed by causal harmony; realizing this directly dissolves suffering.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Central Conception of Buddhism and Meaning of Dharma"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -3028,6 +3178,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "comprehensive-commentary-on-the-abhidhammattha-sangaha",
+    "title": "Comprehensive Commentary on the Abhidhammattha Sangaha",
+    "author": "Mahathera Narada",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1956,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into the ultimate user manual for your mind, where ancient contemplative science strips away the illusion of a solid ego. Discover how every moment of perception is an assembly line of fleeting elements that you can observe, understand, and liberate.",
+      "coreThesis": "The self is not an unchanging soul but a ceaseless, lawful river of mental and physical events; seeing this stream clearly dissolves attachment and reveals natural liberation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Comprehensive Commentary on the Abhidhammattha Sangaha"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -3612,6 +3797,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Dependent Arising: A Practical Guide to Early Buddhist Teachings"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "dependent-origination-paticca-samuppada",
+    "title": "Dependent Origination: Paticca Samuppada",
+    "author": "Piyadassi Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 1959,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Suffering is not a permanent curse or a flaw in your soul; it is a mechanical chain reaction driven by unconscious habits. By clearly observing the link between sensation and craving, you can cut the chain and step into immediate inner peace.",
+      "coreThesis": "Every psychological and existential suffering arises dependent on specific causal conditions, and by bringing awake awareness to sensory experience, the causal chain dissolves naturally into lasting freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Dependent Origination: Paticca Samuppada"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -14101,6 +14321,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-buddha-s-ancient-path",
+    "title": "The Buddha's Ancient Path",
+    "author": "Piyadassi Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 1964,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Suffering is not a mystery or a cosmic punishment; it is a mechanical reaction to clutching what changes. Walk this timeless, step-by-step master roadmap to quiet mental chaos and uncover unshakeable clarity in the middle of everyday life.",
+      "coreThesis": "Suffering arises whenever we demand permanence from an impermanent world; true freedom is found by systematically training our conduct, attention, and wisdom along a balanced, eight-step road to complete clarity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Buddha's Ancient Path"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-buddha-s-path-of-virtue",
     "title": "The Buddha's Path of Virtue",
     "author": "F.L. Woodward",
@@ -17699,6 +17954,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-psychological-aspect-of-buddhism",
+    "title": "The Psychological Aspect of Buddhism",
+    "author": "Piyadassi Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1972,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Long before modern therapy, the Buddha diagnosed human dissatisfaction as an untrained mental reflex rather than a cosmic defect. This book lays out early Buddhism's master blueprint for observing your thoughts, dismantling ego illusions, and regaining serenity from the inside out.",
+      "coreThesis": "Human distress is not imposed by the external world, but constructed moment by moment in the untrained mind; by systematically observing and cleansing mental volitions, true liberation is realized right here.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Psychological Aspect of Buddhism"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-psychological-attitude-of-early-buddhist-philosophy",
     "title": "The Psychological Attitude of Early Buddhist Philosophy",
     "author": "Lama Anagarika Govinda",
@@ -18008,6 +18298,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-seven-factors-of-enlightenment-bojjhanga",
+    "title": "The Seven Factors of Enlightenment: Bojjhanga",
+    "author": "Piyadassi Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1960,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Awakening is not a mystical lottery; it is an exact psychological science of tuning seven qualities of conscious awareness. Piyadassi Thera provides a master blueprint for harmonizing active energy and calm stillness into direct inner freedom.",
+      "coreThesis": "Enlightenment is the natural fruition of seven balanced mental factors supervised by constant mindfulness, transforming raw reactive awareness into liberated, unshakable peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Seven Factors of Enlightenment: Bojjhanga"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -18385,6 +18710,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Sound of Silence: Selected Teachings"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-spectrum-of-buddhism",
+    "title": "The Spectrum of Buddhism",
+    "author": "Piyadassi Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 1991,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step out of mental chaos into natural clarity. Ven. Piyadassi unpacks the practical psychology of Buddhism as an accessible toolkit for modern inner freedom.",
+      "coreThesis": "Suffering is an internal friction born of clinging to transient conditions. True peace arrives when we train the mind to observe reality clearly, dropping the illusion of an isolated, defensive ego.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Spectrum of Buddhism"
     },
     "reflectionExercises": [],
     "actionItems": [],
