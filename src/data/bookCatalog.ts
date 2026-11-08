@@ -56,6 +56,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "broad-view-boundless-heart": "./books/broadViewBoundlessHeartExpanded.ts",
   "buddhism-and-the-ecology-of-mind": "./books/buddhismAndTheEcologyOfMindExpanded.ts",
   "buddhism-and-the-god-idea": "./books/buddhismAndTheGodIdeaExpanded.ts",
+  "buddhist-dictionary-manual-of-terms-and-doctrines": "./books/buddhistDictionaryManualOfTermsAndDoctrinesExpanded.ts",
   "buddhist-legends-dhammapada-commentary-part-1": "./books/buddhistLegendsDhammapadaCommentaryPart1Expanded.ts",
   "buddhist-legends-dhammapada-commentary-part-2": "./books/buddhistLegendsDhammapadaCommentaryPart2Expanded.ts",
   "buddhist-legends-dhammapada-commentary-part-3": "./books/buddhistLegendsDhammapadaCommentaryPart3Expanded.ts",
@@ -117,6 +118,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "don-t-take-your-life-personally": "./books/donTTakeYourLifePersonallyExpanded.ts",
   "dopamine-nation-finding-balance-in-the-age-of-indulgence": "./books/dopamineNationFindingBalanceInTheAgeOfIndulgenceExpanded.ts",
   "early-buddhist-meditation-studies": "./books/earlyBuddhistMeditationStudiesExpanded.ts",
+  "early-buddhist-metaphysics": "./books/earlyBuddhistMetaphysicsExpanded.ts",
   "early-buddhist-oral-tradition-and-textual-transmission": "./books/earlyBuddhistOralTraditionAndTextualTransmissionExpanded.ts",
   "effortless-make-it-easier-to-do-what-matters-most": "./books/effortlessMakeItEasierToDoWhatMattersMostExpanded.ts",
   "eight-mindful-steps-to-happiness": "./books/eightMindfulStepsToHappinessExpanded.ts",
@@ -141,6 +143,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "forgive-for-good": "./books/forgiveForGoodExpanded.ts",
   "four-thousand-weeks-time-management-for-mortals": "./books/fourThousandWeeksTimeManagementForMortalsExpanded.ts",
   "from-heart-to-heart-selected-dhamma-talks": "./books/fromHeartToHeartSelectedDhammaTalksExpanded.ts",
+  "fundamentals-of-buddhism-four-lectures": "./books/fundamentalsOfBuddhismFourLecturesExpanded.ts",
   "fundamentals-of-vipassana-meditation": "./books/fundamentalsOfVipassanaMeditationExpanded.ts",
   "get-out-of-your-mind-and-into-your-life": "./books/getOutOfYourMindAndIntoYourLifeExpanded.ts",
   "getting-past-no-negotiating-with-difficult-people": "./books/gettingPastNoNegotiatingWithDifficultPeopleExpanded.ts",
@@ -150,6 +153,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "going-home-jesus-and-buddha-as-brothers": "./books/goingHomeJesusAndBuddhaAsBrothersExpanded.ts",
   "good-reasons-for-better-arguments": "./books/goodReasonsForBetterArgumentsExpanded.ts",
   "great-disciples-of-the-buddha-their-lives-and-legacy": "./books/greatDisciplesOfTheBuddhaTheirLivesAndLegacyExpanded.ts",
+  "guide-through-the-abhidhamma-pitaka": "./books/guideThroughTheAbhidhammaPitakaExpanded.ts",
   "he-understanding-masculine-psychology": "./books/heUnderstandingMasculinePsychologyExpanded.ts",
   "head-and-heart-together-essays-on-the-buddhist-path": "./books/headAndHeartTogetherEssaysOnTheBuddhistPathExpanded.ts",
   "healing-back-pain-the-mind-body-connection": "./books/healingBackPainTheMindBodyConnectionExpanded.ts",
@@ -190,6 +194,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "just-listen-discover-the-secret-to-getting-through-to-absolu": "./books/justListenDiscoverTheSecretToGettingThroughToAbsoluExpanded.ts",
   "just-one-more-breath-teachings-on-meditation-and-life": "./books/justOneMoreBreathTeachingsOnMeditationAndLifeExpanded.ts",
   "just-one-word-mindfulness": "./books/justOneWordMindfulnessExpanded.ts",
+  "karma-and-rebirth": "./books/karmaAndRebirthExpanded.ts",
   "kathavatthu-points-of-controversy": "./books/kathavatthuPointsOfControversyExpanded.ts",
   "keeping-the-breath-in-mind-lessons-in-samadhi": "./books/keepingTheBreathInMindLessonsInSamadhiExpanded.ts",
   "kill-it-with-fire-manage-aging-computer-systems-and-communic": "./books/killItWithFireManageAgingComputerSystemsAndCommunicExpanded.ts",
@@ -381,6 +386,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-body-keeps-the-score": "./books/theBodyKeepsTheScoreExpanded.ts",
   "the-book-of-boundaries": "./books/theBookOfBoundariesExpanded.ts",
   "the-brain-that-changes-itself": "./books/theBrainThatChangesItselfExpanded.ts",
+  "the-buddha-and-his-teachings": "./books/theBuddhaAndHisTeachingsExpanded.ts",
   "the-buddha-s-path-of-virtue": "./books/theBuddhaSPathOfVirtueExpanded.ts",
   "the-buddha-s-philosophy-of-mind": "./books/theBuddhaSPhilosophyOfMindExpanded.ts",
   "the-buddhist-monastic-code-volume-i": "./books/theBuddhistMonasticCodeVolumeIExpanded.ts",
@@ -392,6 +398,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-compassionate-mind": "./books/theCompassionateMindExpanded.ts",
   "the-complete-guide-to-fasting": "./books/theCompleteGuideToFastingExpanded.ts",
   "the-compound-effect": "./books/theCompoundEffectExpanded.ts",
+  "the-conception-of-buddhist-nirvana": "./books/theConceptionOfBuddhistNirvanaExpanded.ts",
   "the-connected-discourses-of-the-buddha-samyutta-nikaya": "./books/theConnectedDiscoursesOfTheBuddhaSamyuttaNikayaExpanded.ts",
   "the-courage-to-be-disliked": "./books/theCourageToBeDislikedExpanded.ts",
   "the-craft-of-the-heart": "./books/theCraftOfTheHeartExpanded.ts",
@@ -470,6 +477,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-path-of-freedom-vimuttimagga": "./books/thePathOfFreedomVimuttimaggaExpanded.ts",
   "the-path-of-purification-visuddhimagga": "./books/thePathOfPurificationVisuddhimaggaExpanded.ts",
   "the-path-of-serenity-and-insight": "./books/thePathOfSerenityAndInsightExpanded.ts",
+  "the-path-to-deliverance-handbook-of-meditation": "./books/thePathToDeliveranceHandbookOfMeditationExpanded.ts",
   "the-patimokkha-monastic-discipline-rules": "./books/thePatimokkhaMonasticDisciplineRulesExpanded.ts",
   "the-philosophy-of-the-abhidhamma": "./books/thePhilosophyOfTheAbhidhammaExpanded.ts",
   "the-polyvagal-theory-in-therapy": "./books/thePolyvagalTheoryInTherapyExpanded.ts",
@@ -482,6 +490,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-progress-of-insight": "./books/theProgressOfInsightExpanded.ts",
   "the-progress-of-insight-through-mental-noting": "./books/theProgressOfInsightThroughMentalNotingExpanded.ts",
   "the-promise-of-sleep": "./books/thePromiseOfSleepExpanded.ts",
+  "the-psychological-attitude-of-early-buddhist-philosophy": "./books/thePsychologicalAttitudeOfEarlyBuddhistPhilosophyExpanded.ts",
   "the-pure-soul-the-brahmana-vagga-of-the-dhammapada": "./books/thePureSoulTheBrahmanaVaggaOfTheDhammapadaExpanded.ts",
   "the-questions-of-king-milinda-milindapanha": "./books/theQuestionsOfKingMilindaMilindapanhaExpanded.ts",
   "the-righteous-mind-why-good-people-are-divided-by-politics-a": "./books/theRighteousMindWhyGoodPeopleAreDividedByPoliticsAExpanded.ts",
@@ -516,6 +525,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-willpower-instinct": "./books/theWillpowerInstinctExpanded.ts",
   "the-wings-to-awakening-an-anthology-from-the-pali-canon": "./books/theWingsToAwakeningAnAnthologyFromThePaliCanonExpanded.ts",
   "the-wise-and-the-foolish-in-the-dhammapada": "./books/theWiseAndTheFoolishInTheDhammapadaExpanded.ts",
+  "the-word-of-the-buddha": "./books/theWordOfTheBuddhaExpanded.ts",
   "the-worn-out-skin-reflections-on-the-uraga-sutta": "./books/theWornOutSkinReflectionsOnTheUragaSuttaExpanded.ts",
   "the-worry-trick": "./books/theWorryTrickExpanded.ts",
   "theragatha-verses-of-the-senior-monks": "./books/theragathaVersesOfTheSeniorMonksExpanded.ts",
@@ -2521,6 +2531,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Buddhism and the God-Idea"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "buddhist-dictionary-manual-of-terms-and-doctrines",
+    "title": "Buddhist Dictionary: Manual of Terms and Doctrines",
+    "author": "Nyanatiloka Mahathera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1952,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Nyanatiloka Mahathera's classic manual cuts through centuries of speculative confusion to hand you the exact operational vocabulary of human consciousness. It serves as an uncompromising, serene blueprint that transforms abstract Buddhist philosophy into direct, practical clarity for everyday awakening.",
+      "coreThesis": "Human suffering arises from misunderstanding the fluid components of consciousness as a solid, permanent 'self'; by precisely identifying and deconstructing these mental elements, you dissolve the illusion and rest in immediate liberation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Buddhist Dictionary: Manual of Terms and Doctrines"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -4664,6 +4709,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "early-buddhist-metaphysics",
+    "title": "Early Buddhist Metaphysics",
+    "author": "Noa Ronkin",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2005,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step out of the illusion of a solid, anxious ego and look directly under the hood of consciousness. This book reveals reality not as rigid things, but as a fluid, interconnected river of experiential moments.",
+      "coreThesis": "Reality is not made of solid, independent entities, but is an interconnected, flowing stream of momentary experiential events that dissolve the illusion of a separate self.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Early Buddhist Metaphysics"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "early-buddhist-oral-tradition-and-textual-transmission",
     "title": "Early Buddhist Oral Tradition and Textual Transmission",
     "author": "Bhikkhu Analayo",
@@ -5501,6 +5581,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "fundamentals-of-buddhism-four-lectures",
+    "title": "Fundamentals of Buddhism: Four Lectures",
+    "author": "Nyanatiloka Mahathera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1949,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Strip away mystique, ritual, and dogma to discover a surgical, liberating science of your own conscious experience. Venerable Nyanatiloka delivers an uncompromising masterclass on how suffering operates and how direct mental training dissolves it completely.",
+      "coreThesis": "Suffering is not an inescapable curse but a conditioned chain reaction driven by ignorance and grasping; by systematically cultivating direct mindful awareness, the entire chain of mental friction dissolves into absolute freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Fundamentals of Buddhism: Four Lectures"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "fundamentals-of-vipassana-meditation",
     "title": "Fundamentals of Vipassana Meditation",
     "author": "Mahasi Sayadaw",
@@ -5804,6 +5919,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Great Disciples of the Buddha: Their Lives and Legacy"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "guide-through-the-abhidhamma-pitaka",
+    "title": "Guide Through the Abhidhamma-Pitaka",
+    "author": "Nyanatiloka Mahathera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1938,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step behind the curtain of the thinking mind into an exact blueprint of your moment-to-moment experience. Nyanatiloka Mahathera deconstructs the illusion of a solid self into an organic, interconnected flow of awareness and conditional factors.",
+      "coreThesis": "The perceived solid self is a convenient illusion created by rapid, interdependent streams of mind and matter. By systematically recognizing these elemental components and their causal conditions, the mind untangles craving and wakes up to genuine freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Guide Through the Abhidhamma-Pitaka"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -7202,6 +7352,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Just One Word: Mindfulness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "karma-and-rebirth",
+    "title": "Karma and Rebirth",
+    "author": "Nyanatiloka Mahathera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1959,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You are neither the victim of blind genetic luck nor the property of an external judge; your present experience is the exact harvest of your past intentions. Nyanatiloka Mahathera delivers a razor-sharp, grounding manual that demystifies how actions create destiny\\u2014and how conscious awareness sets you free.",
+      "coreThesis": "Every conscious intention acts as a living seed that inexorably ripens into your future experience; by ending craving in the present moment, the chain of rebirth dissolves into liberation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Karma and Rebirth"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -13881,6 +14066,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-buddha-and-his-teachings",
+    "title": "The Buddha and His Teachings",
+    "author": "Narada Mahathera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 220,
+    "publishedYear": 1964,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Liberation is not an otherworldly mystery; it is an immediate, verifiable training of your own mind. Venerable Narada strips away superstition to reveal the Buddha's timeless blueprint for emotional resilience, ethical mastery, and profound inner peace.",
+      "coreThesis": "Suffering arises from clinging to an illusion of a static, separate ego; freedom is realized here and now by training the mind through ethical discipline, collected awareness, and penetrating insight.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Buddha and His Teachings"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-buddha-s-path-of-virtue",
     "title": "The Buddha's Path of Virtue",
     "author": "F.L. Woodward",
@@ -14260,6 +14480,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-conception-of-buddhist-nirvana",
+    "title": "The Conception of Buddhist Nirvana",
+    "author": "Th. Stcherbatsky",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 95,
+    "publishedYear": 1927,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Nirvana is not a far-off void or total extinction, but the serene art of seeing this very life without the distortion of a clinging ego. When you drop mental labels, ordinary experience reveals itself as immediate, luminous freedom.",
+      "coreThesis": "Nirvana and everyday reality are not two separate realms; liberation is simply experiencing ordinary life stripped of egoic attachment and conceptual confusion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Conception of Buddhist Nirvana"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -16989,6 +17244,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-path-to-deliverance-handbook-of-meditation",
+    "title": "The Path to Deliverance: Handbook of Meditation",
+    "author": "Nyanatiloka Mahathera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1952,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into the ultimate original manual of inner freedom, where twenty-five centuries of Buddhist meditation are distilled into a clear, no-nonsense roadmap. Cut through mental clutter and discover how ethical clarity, stable attention, and piercing insight dismantle stress at its root.",
+      "coreThesis": "Genuine inner liberation is not mystical chance, but an orderly training of the mind: clean ethical living quiets inner turmoil, steady concentration unifies attention, and direct insight into impermanence dissolves the illusion of an isolated ego.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Path to Deliverance: Handbook of Meditation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-patimokkha-monastic-discipline-rules",
     "title": "The Patimokkha: Monastic Discipline Rules",
     "author": "K.R. Norman",
@@ -17404,6 +17694,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Finance",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-psychological-attitude-of-early-buddhist-philosophy",
+    "title": "The Psychological Attitude of Early Buddhist Philosophy",
+    "author": "Lama Anagarika Govinda",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 120,
+    "publishedYear": 1939,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Lama Anagarika Govinda strips away religious dogma to reveal early Buddhism as an exact, empirical psychology of human liberation. By mapping the swift current of your thoughts, this masterpiece shows how waking up to immediate awareness dissolves suffering and reveals natural inner peace.",
+      "coreThesis": "The self is not a static soul to defend, but a dynamic, interconnected stream of conscious moments; by observing this stream without clinging, suffering naturally dissolves into direct, compassionate clarity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Psychological Attitude of Early Buddhist Philosophy"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -18584,6 +18909,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Wise and the Foolish in the Dhammapada"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-word-of-the-buddha",
+    "title": "The Word of the Buddha",
+    "author": "Nyanatiloka Mahathera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1907,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "A pure, unvarnished synthesis of the Buddha's original discourses arranged into an exact practical manual for ending inner friction. It replaces mystical abstraction with an empirical roadmap to genuine mental freedom.",
+      "coreThesis": "Suffering arises not from outer events, but from grasping at constantly changing mental and physical experiences as a solid 'me'; seeing through this illusion directly dissolves all mental anguish.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Word of the Buddha"
     },
     "reflectionExercises": [],
     "actionItems": [],

@@ -580,6 +580,17 @@ import { THE_ESSENCE_OF_BUDDHA_ABHIDHAMMA_BOOK } from './books/theEssenceOfBuddh
 import { ABHIDHAMMA_IN_PRACTICE_BOOK } from './books/abhidhammaInPracticeExpanded';
 import { UNCONDITIONAL_LOVE_AND_THE_ABHIDHAMMA_BOOK } from './books/unconditionalLoveAndTheAbhidhammaExpanded';
 import { CITTA_AND_CETASIKA_MIND_AND_MENTAL_FACTORS_BOOK } from './books/cittaAndCetasikaMindAndMentalFactorsExpanded';
+import { THE_BUDDHA_S_PHILOSOPHY_OF_MIND_BOOK } from './books/theBuddhaSPhilosophyOfMindExpanded';
+import { THE_BUDDHA_AND_HIS_TEACHINGS_BOOK } from './books/theBuddhaAndHisTeachingsExpanded';
+import { BUDDHIST_DICTIONARY_MANUAL_OF_TERMS_AND_DOCTRINES_BOOK } from './books/buddhistDictionaryManualOfTermsAndDoctrinesExpanded';
+import { THE_WORD_OF_THE_BUDDHA_BOOK } from './books/theWordOfTheBuddhaExpanded';
+import { THE_PATH_TO_DELIVERANCE_HANDBOOK_OF_MEDITATION_BOOK } from './books/thePathToDeliveranceHandbookOfMeditationExpanded';
+import { FUNDAMENTALS_OF_BUDDHISM_FOUR_LECTURES_BOOK } from './books/fundamentalsOfBuddhismFourLecturesExpanded';
+import { GUIDE_THROUGH_THE_ABHIDHAMMA_PITAKA_BOOK } from './books/guideThroughTheAbhidhammaPitakaExpanded';
+import { KARMA_AND_REBIRTH_BOOK } from './books/karmaAndRebirthExpanded';
+import { THE_PSYCHOLOGICAL_ATTITUDE_OF_EARLY_BUDDHIST_PHILOSOPHY_BOOK } from './books/thePsychologicalAttitudeOfEarlyBuddhistPhilosophyExpanded';
+import { EARLY_BUDDHIST_METAPHYSICS_BOOK } from './books/earlyBuddhistMetaphysicsExpanded';
+import { THE_CONCEPTION_OF_BUDDHIST_NIRVANA_BOOK } from './books/theConceptionOfBuddhistNirvanaExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -1160,7 +1171,18 @@ export const SEED_BOOKS: Book[] = [
   THE_ESSENCE_OF_BUDDHA_ABHIDHAMMA_BOOK,
   ABHIDHAMMA_IN_PRACTICE_BOOK,
   UNCONDITIONAL_LOVE_AND_THE_ABHIDHAMMA_BOOK,
-  CITTA_AND_CETASIKA_MIND_AND_MENTAL_FACTORS_BOOK
+  CITTA_AND_CETASIKA_MIND_AND_MENTAL_FACTORS_BOOK,
+  THE_BUDDHA_S_PHILOSOPHY_OF_MIND_BOOK,
+  THE_BUDDHA_AND_HIS_TEACHINGS_BOOK,
+  BUDDHIST_DICTIONARY_MANUAL_OF_TERMS_AND_DOCTRINES_BOOK,
+  THE_WORD_OF_THE_BUDDHA_BOOK,
+  THE_PATH_TO_DELIVERANCE_HANDBOOK_OF_MEDITATION_BOOK,
+  FUNDAMENTALS_OF_BUDDHISM_FOUR_LECTURES_BOOK,
+  GUIDE_THROUGH_THE_ABHIDHAMMA_PITAKA_BOOK,
+  KARMA_AND_REBIRTH_BOOK,
+  THE_PSYCHOLOGICAL_ATTITUDE_OF_EARLY_BUDDHIST_PHILOSOPHY_BOOK,
+  EARLY_BUDDHIST_METAPHYSICS_BOOK,
+  THE_CONCEPTION_OF_BUDDHIST_NIRVANA_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -1743,7 +1765,18 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(THE_ESSENCE_OF_BUDDHA_ABHIDHAMMA_BOOK.ideaCards || []),
   ...(ABHIDHAMMA_IN_PRACTICE_BOOK.ideaCards || []),
   ...(UNCONDITIONAL_LOVE_AND_THE_ABHIDHAMMA_BOOK.ideaCards || []),
-  ...(CITTA_AND_CETASIKA_MIND_AND_MENTAL_FACTORS_BOOK.ideaCards || [])
+  ...(CITTA_AND_CETASIKA_MIND_AND_MENTAL_FACTORS_BOOK.ideaCards || []),
+  ...(THE_BUDDHA_S_PHILOSOPHY_OF_MIND_BOOK.ideaCards || []),
+  ...(THE_BUDDHA_AND_HIS_TEACHINGS_BOOK.ideaCards || []),
+  ...(BUDDHIST_DICTIONARY_MANUAL_OF_TERMS_AND_DOCTRINES_BOOK.ideaCards || []),
+  ...(THE_WORD_OF_THE_BUDDHA_BOOK.ideaCards || []),
+  ...(THE_PATH_TO_DELIVERANCE_HANDBOOK_OF_MEDITATION_BOOK.ideaCards || []),
+  ...(FUNDAMENTALS_OF_BUDDHISM_FOUR_LECTURES_BOOK.ideaCards || []),
+  ...(GUIDE_THROUGH_THE_ABHIDHAMMA_PITAKA_BOOK.ideaCards || []),
+  ...(KARMA_AND_REBIRTH_BOOK.ideaCards || []),
+  ...(THE_PSYCHOLOGICAL_ATTITUDE_OF_EARLY_BUDDHIST_PHILOSOPHY_BOOK.ideaCards || []),
+  ...(EARLY_BUDDHIST_METAPHYSICS_BOOK.ideaCards || []),
+  ...(THE_CONCEPTION_OF_BUDDHIST_NIRVANA_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
