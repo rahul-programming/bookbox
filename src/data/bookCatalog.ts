@@ -16,6 +16,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "a-million-miles-in-a-thousand-years": "./books/aMillionMilesInAThousandYearsExpanded.ts",
   "a-mind-for-numbers": "./books/aMindForNumbersExpanded.ts",
   "a-pali-grammar-for-beginners": "./books/aPaliGrammarForBeginnersExpanded.ts",
+  "a-practical-guide-to-vipassana-meditation": "./books/aPracticalGuideToVipassanaMeditationExpanded.ts",
   "a-simple-way-the-heart-of-the-practice": "./books/aSimpleWayTheHeartOfThePracticeExpanded.ts",
   "a-still-forest-pool-insight-meditation-of-achaan-chah": "./books/aStillForestPoolInsightMeditationOfAchaanChahExpanded.ts",
   "a-taste-of-freedom": "./books/aTasteOfFreedomExpanded.ts",
@@ -73,6 +74,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "built-from-broken": "./books/builtFromBrokenExpanded.ts",
   "bullshit-jobs-on-bullshit": "./books/bullshitJobsOnBullshitExpanded.ts",
   "central-conception-of-buddhism-and-meaning-of-dharma": "./books/centralConceptionOfBuddhismAndMeaningOfDharmaExpanded.ts",
+  "chronicles-of-dhamma-historical-perspectives": "./books/chroniclesOfDhammaHistoricalPerspectivesExpanded.ts",
   "citta-and-cetasika-mind-and-mental-factors": "./books/cittaAndCetasikaMindAndMentalFactorsExpanded.ts",
   "cittaviveka-teachings-from-the-silent-mind": "./books/cittavivekaTeachingsFromTheSilentMindExpanded.ts",
   "clarity-of-insight-selected-forest-dhamma": "./books/clarityOfInsightSelectedForestDhammaExpanded.ts",
@@ -109,6 +111,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "dhammapada-the-way-of-the-buddha-vol-3": "./books/dhammapadaTheWayOfTheBuddhaVol3Expanded.ts",
   "dhammapada-wisdom-of-the-buddha": "./books/dhammapadaWisdomOfTheBuddhaExpanded.ts",
   "dhammasangani-buddhist-psychological-ethics": "./books/dhammasanganiBuddhistPsychologicalEthicsExpanded.ts",
+  "dharma-its-true-nature": "./books/dharmaItsTrueNatureExpanded.ts",
   "dhatukatha-discourse-on-elements": "./books/dhatukathaDiscourseOnElementsExpanded.ts",
   "dictionary-of-pali-proper-names-volume-1": "./books/dictionaryOfPaliProperNamesVolume1Expanded.ts",
   "dictionary-of-pali-proper-names-volume-2": "./books/dictionaryOfPaliProperNamesVolume2Expanded.ts",
@@ -126,6 +129,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "discourse-on-the-tuwathaka-sutta": "./books/discourseOnTheTuwathakaSuttaExpanded.ts",
   "discourse-on-the-vammika-sutta": "./books/discourseOnTheVammikaSuttaExpanded.ts",
   "discourse-on-the-wheel-of-dhamma": "./books/discourseOnTheWheelOfDhammaExpanded.ts",
+  "discourses-on-the-satipatthana-sutta": "./books/discoursesOnTheSatipatthanaSuttaExpanded.ts",
   "do-the-work": "./books/doTheWorkExpanded.ts",
   "don-t-hold-back-monastic-reflections-on-practice": "./books/donTHoldBackMonasticReflectionsOnPracticeExpanded.ts",
   "don-t-look-at-the-mind-with-contempt": "./books/donTLookAtTheMindWithContemptExpanded.ts",
@@ -156,6 +160,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "flow-the-psychology-of-optimal-experience": "./books/flowThePsychologyOfOptimalExperienceExpanded.ts",
   "food-for-the-heart-collected-teachings": "./books/foodForTheHeartCollectedTeachingsExpanded.ts",
   "fooled-by-randomness": "./books/fooledByRandomnessExpanded.ts",
+  "for-the-benefit-of-many": "./books/forTheBenefitOfManyExpanded.ts",
   "forgive-for-good": "./books/forgiveForGoodExpanded.ts",
   "four-thousand-weeks-time-management-for-mortals": "./books/fourThousandWeeksTimeManagementForMortalsExpanded.ts",
   "from-heart-to-heart-selected-dhamma-talks": "./books/fromHeartToHeartSelectedDhammaTalksExpanded.ts",
@@ -248,6 +253,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "manual-of-the-path-to-higher-knowledge-patthanuddesa-dipani": "./books/manualOfThePathToHigherKnowledgePatthanuddesaDipaniExpanded.ts",
   "manual-of-the-supreme-man-uttamapurisa-dipani": "./books/manualOfTheSupremeManUttamapurisaDipaniExpanded.ts",
   "meditation-instructions-for-intensive-practice": "./books/meditationInstructionsForIntensivePracticeExpanded.ts",
+  "meditation-now-inner-peace-through-inner-wisdom": "./books/meditationNowInnerPeaceThroughInnerWisdomExpanded.ts",
   "meditation-on-perception-ten-healing-practices": "./books/meditationOnPerceptionTenHealingPracticesExpanded.ts",
   "meditation-on-the-mind-mindful-watching-of-thoughts": "./books/meditationOnTheMindMindfulWatchingOfThoughtsExpanded.ts",
   "meditations-1-dhamma-talks": "./books/meditations1DhammaTalksExpanded.ts",
@@ -402,6 +408,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-art-of-dialogue": "./books/theArtOfDialogueExpanded.ts",
   "the-art-of-disappearing-the-path-to-lasting-joy": "./books/theArtOfDisappearingThePathToLastingJoyExpanded.ts",
   "the-art-of-everyday-assertiveness": "./books/theArtOfEverydayAssertivenessExpanded.ts",
+  "the-art-of-living-vipassana-meditation": "./books/theArtOfLivingVipassanaMeditationExpanded.ts",
   "the-art-of-note-taking": "./books/theArtOfNoteTakingExpanded.ts",
   "the-art-of-persuasion": "./books/theArtOfPersuasionExpanded.ts",
   "the-art-of-work": "./books/theArtOfWorkExpanded.ts",
@@ -423,6 +430,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-catalyst-how-to-change-anyone-s-mind": "./books/theCatalystHowToChangeAnyoneSMindExpanded.ts",
   "the-checklist-manifesto": "./books/theChecklistManifestoExpanded.ts",
   "the-circadian-code": "./books/theCircadianCodeExpanded.ts",
+  "the-clock-of-vipassana-has-struck": "./books/theClockOfVipassanaHasStruckExpanded.ts",
   "the-coaching-habit-say-less-ask-more-change-the-way-you-lead": "./books/theCoachingHabitSayLessAskMoreChangeTheWayYouLeadExpanded.ts",
   "the-compassionate-mind": "./books/theCompassionateMindExpanded.ts",
   "the-complete-guide-to-fasting": "./books/theCompleteGuideToFastingExpanded.ts",
@@ -471,6 +479,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-four-sublime-states-brahma-vihara": "./books/theFourSublimeStatesBrahmaViharaExpanded.ts",
   "the-genesis-of-the-bodhisattva-ideal": "./books/theGenesisOfTheBodhisattvaIdealExpanded.ts",
   "the-gifts-of-imperfection": "./books/theGiftsOfImperfectionExpanded.ts",
+  "the-gracious-flow-of-dharma": "./books/theGraciousFlowOfDharmaExpanded.ts",
   "the-great-discourse-on-causation-mahanidana-sutta": "./books/theGreatDiscourseOnCausationMahanidanaSuttaExpanded.ts",
   "the-great-mental-models-vol-1-2": "./books/theGreatMentalModelsVol12Expanded.ts",
   "the-heart-of-practice-ajaan-mun-s-dhamma-sermons": "./books/theHeartOfPracticeAjaanMunSDhammaSermonsExpanded.ts",
@@ -600,6 +609,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "vipassana-meditation-lectures-on-insight": "./books/vipassanaMeditationLecturesOnInsightExpanded.ts",
   "vipassana-talks-from-mahasi-sasana-yeiktha": "./books/vipassanaTalksFromMahasiSasanaYeikthaExpanded.ts",
   "volition-the-real-mastermind-behind-kamma": "./books/volitionTheRealMastermindBehindKammaExpanded.ts",
+  "was-the-buddha-a-pessimist": "./books/wasTheBuddhaAPessimistExpanded.ts",
   "we-need-to-talk-how-to-have-conversations-that-matter": "./books/weNeedToTalkHowToHaveConversationsThatMatterExpanded.ts",
   "what-the-buddha-taught": "./books/whatTheBuddhaTaughtExpanded.ts",
   "when-awareness-becomes-natural": "./books/whenAwarenessBecomesNaturalExpanded.ts",
@@ -1175,6 +1185,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "A Pali Grammar for Beginners"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "a-practical-guide-to-vipassana-meditation",
+    "title": "A Practical Guide to Vipassana Meditation",
+    "author": "Sayagyi U Ba Khin",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1999,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Liberation is not an abstract philosophy reserved for forest monasteries; it is an exact, experiential science available right inside your physical body. By learning to observe bodily sensations without craving or aversion, you dismantle the subconscious roots of human suffering.",
+      "coreThesis": "Suffering dissolves when you directly observe physical sensations with balanced awareness, realizing that impermanence governs all things and freeing the mind from blind reaction.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "A Practical Guide to Vipassana Meditation"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -3178,6 +3223,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "chronicles-of-dhamma-historical-perspectives",
+    "title": "Chronicles of Dhamma: Historical Perspectives",
+    "author": "S.N. Goenka",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into the living chronicle of a modern spiritual renaissance that demystified enlightenment into a practical, repeatable science of mind. This volume reveals how timeless contemplative wisdom broke through cultural dogma to provide everyday people with direct tools for lasting peace.",
+      "coreThesis": "Suffering stems from unconscious mental reactions to physical sensations; by observing these sensations with unbroken equanimity, the mind dissolves deep conditioning and discovers universal freedom in the present moment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Chronicles of Dhamma: Historical Perspectives"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "citta-and-cetasika-mind-and-mental-factors",
     "title": "Citta and Cetasika: Mind and Mental Factors",
     "author": "Nina van Gorkom",
@@ -4434,6 +4514,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "dharma-its-true-nature",
+    "title": "Dharma: Its True Nature",
+    "author": "S.N. Goenka",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1995,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Dharma is not a religion, ritual, or sectarian creed\\u2014it is the universal operating manual of nature itself. By observing physical sensations with radical equanimity, you dismantle mental agitation at its biological root and awaken to effortless inner peace.",
+      "coreThesis": "Dharma is the impartial, universal law of cause and effect governing all life; when we stop reacting blindly to bodily sensations and observe reality as it is, suffering dissolves naturally.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Dharma: Its True Nature"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "dhatukatha-discourse-on-elements",
     "title": "Dhatukatha: Discourse on Elements",
     "author": "Sayadaw U Narada",
@@ -5017,6 +5132,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Discourse on the Wheel of Dhamma"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "discourses-on-the-satipatthana-sutta",
+    "title": "Discourses on the Satipatthana Sutta",
+    "author": "S.N. Goenka",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1999,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step beyond dry spiritual philosophy and discover the Buddha's master blueprint for complete emotional freedom through the living laboratory of your own body. Learn how silent, objective observation of physical sensations unties lifelong knots of stress, anxiety, and reactivity from the inside out.",
+      "coreThesis": "Suffering is maintained by blind, automatic reactions to physical sensations; by observing every bodily and mental event with patient, objective equanimity, you dissolve subconscious conditioning and discover genuine liberation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Discourses on the Satipatthana Sutta"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -6073,6 +6223,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "for-the-benefit-of-many",
+    "title": "For the Benefit of Many",
+    "author": "S.N. Goenka",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 200,
+    "publishedYear": 2002,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Liberation is not an abstract philosophy; it is a practical, body-centered science of observing reality exactly as it is without reacting. This definitive collection reveals how selfless service and daily awareness dissolve the ego and generate authentic, lasting peace.",
+      "coreThesis": "Suffering begins the moment you react with craving or aversion to physical sensations; freedom is attained by observing reality objectively with equanimity and expressing that inner peace through selfless service.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "For the Benefit of Many"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -9280,6 +9465,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Meditation Instructions for Intensive Practice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "meditation-now-inner-peace-through-inner-wisdom",
+    "title": "Meditation Now: Inner Peace Through Inner Wisdom",
+    "author": "S.N. Goenka",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2002,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "World peace begins with inner peace, and inner peace is a practical science of mental hygiene. By dispassionately observing natural physical sensations, Vipassana deconditions compulsive reactivity and awakens genuine, lasting freedom in daily life.",
+      "coreThesis": "Suffering is rooted in blind subconscious reactivity to physical sensations; by observing natural reality within without craving or aversion, the mind unties its knot of misery and discovers enduring peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Meditation Now: Inner Peace Through Inner Wisdom"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -14668,6 +14888,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-art-of-living-vipassana-meditation",
+    "title": "The Art of Living: Vipassana Meditation",
+    "author": "William Hart & S.N. Goenka",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1987,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Suffering is not caused by external events, but by your unconscious, automatic reactions to physical sensations in your body. By observing these fleeting sensations with rigorous equanimity, you dismantle lifelong habits of anger, craving, and misery at their root.",
+      "coreThesis": "Human misery originates in our automatic reactions to bodily sensations; by observing sensations objectively with perfect equanimity, we dissolve mental conditioning and achieve lasting freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Art of Living: Vipassana Meditation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-art-of-note-taking",
     "title": "The Art of Note-Taking",
     "author": "Various masters of intellectual journaling",
@@ -15395,6 +15650,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-clock-of-vipassana-has-struck",
+    "title": "The Clock of Vipassana Has Struck",
+    "author": "Sayagyi U Ba Khin",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1999,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Liberation is not an abstract philosophy reserved for forest monasteries; it is an exact, hands-on craft you practice inside your own nervous system. By observing physical sensations with quiet objectivity, you discover that every disturbance rises only to pass away.",
+      "coreThesis": "Suffering dissolves when you directly experience the universal law of impermanence (Anicca) through bodily sensations with calm, non-reactive awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Clock of Vipassana Has Struck"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -17073,6 +17363,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-gracious-flow-of-dharma",
+    "title": "The Gracious Flow of Dharma",
+    "author": "S.N. Goenka",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1994,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step off the treadmill of emotional reactivity and discover the universal mechanics of your own mind. S.N. Goenka strips away ritual and dogma to offer a practical, experiential blueprint for real mental liberation.",
+      "coreThesis": "Suffering stems from unconscious mental reactions to physical sensations; by observing these changing sensations with non-reactive equanimity, the mind purifies itself and uncovers lasting peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Gracious Flow of Dharma"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -21570,6 +21895,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Volition: The Real Mastermind Behind Kamma"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "was-the-buddha-a-pessimist",
+    "title": "Was the Buddha a Pessimist?",
+    "author": "S.N. Goenka",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2001,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "The Buddha did not come to paint existence gray; he came as a master physician offering the practical medicine for complete, unshakable peace. S.N. Goenka dismantles the age-old myth of Buddhist gloom to reveal a profoundly optimistic, experiential science of living.",
+      "coreThesis": "The Buddha was a realist and a supreme spiritual physician, diagnosing suffering only to deliver the practical, experiential cure that unlocks supreme and lasting peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Was the Buddha a Pessimist?"
     },
     "reflectionExercises": [],
     "actionItems": [],

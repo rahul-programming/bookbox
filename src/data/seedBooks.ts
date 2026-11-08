@@ -631,6 +631,16 @@ import { MANUAL_OF_RIGHT_VIEW_DITTHI_DIPANI_BOOK } from './books/manualOfRightVi
 import { MANUAL_OF_THE_SUPREME_MAN_UTTAMAPURISA_DIPANI_BOOK } from './books/manualOfTheSupremeManUttamapurisaDipaniExpanded';
 import { MANUAL_OF_LIGHT_ALIN_KYAN_BOOK } from './books/manualOfLightAlinKyanExpanded';
 import { THE_REQUISITES_OF_ENLIGHTENMENT_BOOK } from './books/theRequisitesOfEnlightenmentExpanded';
+import { THE_CLOCK_OF_VIPASSANA_HAS_STRUCK_BOOK } from './books/theClockOfVipassanaHasStruckExpanded';
+import { A_PRACTICAL_GUIDE_TO_VIPASSANA_MEDITATION_BOOK } from './books/aPracticalGuideToVipassanaMeditationExpanded';
+import { THE_ART_OF_LIVING_VIPASSANA_MEDITATION_BOOK } from './books/theArtOfLivingVipassanaMeditationExpanded';
+import { DISCOURSES_ON_THE_SATIPATTHANA_SUTTA_BOOK } from './books/discoursesOnTheSatipatthanaSuttaExpanded';
+import { FOR_THE_BENEFIT_OF_MANY_BOOK } from './books/forTheBenefitOfManyExpanded';
+import { MEDITATION_NOW_INNER_PEACE_THROUGH_INNER_WISDOM_BOOK } from './books/meditationNowInnerPeaceThroughInnerWisdomExpanded';
+import { WAS_THE_BUDDHA_A_PESSIMIST_BOOK } from './books/wasTheBuddhaAPessimistExpanded';
+import { DHARMA_ITS_TRUE_NATURE_BOOK } from './books/dharmaItsTrueNatureExpanded';
+import { THE_GRACIOUS_FLOW_OF_DHARMA_BOOK } from './books/theGraciousFlowOfDharmaExpanded';
+import { CHRONICLES_OF_DHAMMA_HISTORICAL_PERSPECTIVES_BOOK } from './books/chroniclesOfDhammaHistoricalPerspectivesExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -1262,7 +1272,17 @@ export const SEED_BOOKS: Book[] = [
   MANUAL_OF_RIGHT_VIEW_DITTHI_DIPANI_BOOK,
   MANUAL_OF_THE_SUPREME_MAN_UTTAMAPURISA_DIPANI_BOOK,
   MANUAL_OF_LIGHT_ALIN_KYAN_BOOK,
-  THE_REQUISITES_OF_ENLIGHTENMENT_BOOK
+  THE_REQUISITES_OF_ENLIGHTENMENT_BOOK,
+  THE_CLOCK_OF_VIPASSANA_HAS_STRUCK_BOOK,
+  A_PRACTICAL_GUIDE_TO_VIPASSANA_MEDITATION_BOOK,
+  THE_ART_OF_LIVING_VIPASSANA_MEDITATION_BOOK,
+  DISCOURSES_ON_THE_SATIPATTHANA_SUTTA_BOOK,
+  FOR_THE_BENEFIT_OF_MANY_BOOK,
+  MEDITATION_NOW_INNER_PEACE_THROUGH_INNER_WISDOM_BOOK,
+  WAS_THE_BUDDHA_A_PESSIMIST_BOOK,
+  DHARMA_ITS_TRUE_NATURE_BOOK,
+  THE_GRACIOUS_FLOW_OF_DHARMA_BOOK,
+  CHRONICLES_OF_DHAMMA_HISTORICAL_PERSPECTIVES_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -1896,7 +1916,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(MANUAL_OF_RIGHT_VIEW_DITTHI_DIPANI_BOOK.ideaCards || []),
   ...(MANUAL_OF_THE_SUPREME_MAN_UTTAMAPURISA_DIPANI_BOOK.ideaCards || []),
   ...(MANUAL_OF_LIGHT_ALIN_KYAN_BOOK.ideaCards || []),
-  ...(THE_REQUISITES_OF_ENLIGHTENMENT_BOOK.ideaCards || [])
+  ...(THE_REQUISITES_OF_ENLIGHTENMENT_BOOK.ideaCards || []),
+  ...(THE_CLOCK_OF_VIPASSANA_HAS_STRUCK_BOOK.ideaCards || []),
+  ...(A_PRACTICAL_GUIDE_TO_VIPASSANA_MEDITATION_BOOK.ideaCards || []),
+  ...(THE_ART_OF_LIVING_VIPASSANA_MEDITATION_BOOK.ideaCards || []),
+  ...(DISCOURSES_ON_THE_SATIPATTHANA_SUTTA_BOOK.ideaCards || []),
+  ...(FOR_THE_BENEFIT_OF_MANY_BOOK.ideaCards || []),
+  ...(MEDITATION_NOW_INNER_PEACE_THROUGH_INNER_WISDOM_BOOK.ideaCards || []),
+  ...(WAS_THE_BUDDHA_A_PESSIMIST_BOOK.ideaCards || []),
+  ...(DHARMA_ITS_TRUE_NATURE_BOOK.ideaCards || []),
+  ...(THE_GRACIOUS_FLOW_OF_DHARMA_BOOK.ideaCards || []),
+  ...(CHRONICLES_OF_DHAMMA_HISTORICAL_PERSPECTIVES_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
