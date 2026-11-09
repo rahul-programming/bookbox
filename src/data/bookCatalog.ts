@@ -27,6 +27,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "a-young-people-s-life-of-the-buddha": "./books/aYoungPeopleSLifeOfTheBuddhaExpanded.ts",
   "abhidhamma-in-practice": "./books/abhidhammaInPracticeExpanded.ts",
   "abundant-exalted-immeasurable-the-brahmaviharas": "./books/abundantExaltedImmeasurableTheBrahmaviharasExpanded.ts",
+  "after-buddhism-rethinking-dharma-for-a-secular-age": "./books/afterBuddhismRethinkingDharmaForASecularAgeExpanded.ts",
   "algorithms-to-live-by": "./books/algorithmsToLiveByExpanded.ts",
   "all-of-us-beset-by-birth-decay-and-death": "./books/allOfUsBesetByBirthDecayAndDeathExpanded.ts",
   "alone-together-why-we-expect-more-from-technology-and-less-f": "./books/aloneTogetherWhyWeExpectMoreFromTechnologyAndLessFExpanded.ts",
@@ -60,6 +61,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "being-nobody-going-nowhere-meditations-on-the-path": "./books/beingNobodyGoingNowhereMeditationsOnThePathExpanded.ts",
   "better-than-before": "./books/betterThanBeforeExpanded.ts",
   "beyond-all-directions-essays-on-nirvana": "./books/beyondAllDirectionsEssaysOnNirvanaExpanded.ts",
+  "beyond-distraction-five-ways-to-focus-the-mind": "./books/beyondDistractionFiveWaysToFocusTheMindExpanded.ts",
   "beyond-mindfulness-in-plain-english": "./books/beyondMindfulnessInPlainEnglishExpanded.ts",
   "beyond-religion-ethics-for-a-whole-world": "./books/beyondReligionEthicsForAWholeWorldExpanded.ts",
   "bhavana-mind-development-in-everyday-reality": "./books/bhavanaMindDevelopmentInEverydayRealityExpanded.ts",
@@ -81,6 +83,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "buddhism-and-the-god-idea": "./books/buddhismAndTheGodIdeaExpanded.ts",
   "buddhism-in-a-nutshell": "./books/buddhismInANutshellExpanded.ts",
   "buddhism-its-religion-and-philosophy": "./books/buddhismItsReligionAndPhilosophyExpanded.ts",
+  "buddhism-without-beliefs-a-contemporary-guide": "./books/buddhismWithoutBeliefsAContemporaryGuideExpanded.ts",
   "buddhist-dictionary-manual-of-terms-and-doctrines": "./books/buddhistDictionaryManualOfTermsAndDoctrinesExpanded.ts",
   "buddhist-legends-dhammapada-commentary-part-1": "./books/buddhistLegendsDhammapadaCommentaryPart1Expanded.ts",
   "buddhist-legends-dhammapada-commentary-part-2": "./books/buddhistLegendsDhammapadaCommentaryPart2Expanded.ts",
@@ -101,6 +104,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "compassion-and-emptiness-in-early-buddhist-meditation": "./books/compassionAndEmptinessInEarlyBuddhistMeditationExpanded.ts",
   "complexity-a-guided-tour": "./books/complexityAGuidedTourExpanded.ts",
   "comprehensive-commentary-on-the-abhidhammattha-sangaha": "./books/comprehensiveCommentaryOnTheAbhidhammatthaSangahaExpanded.ts",
+  "confession-of-a-buddhist-atheist": "./books/confessionOfABuddhistAtheistExpanded.ts",
   "connecting-across-differences": "./books/connectingAcrossDifferencesExpanded.ts",
   "contagious-why-things-catch-on": "./books/contagiousWhyThingsCatchOnExpanded.ts",
   "contemplation-of-dhamma-the-fourth-foundation": "./books/contemplationOfDhammaTheFourthFoundationExpanded.ts",
@@ -355,6 +359,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "not-nice-stop-people-pleasing-staying-silent-feeling-guilty": "./books/notNiceStopPeoplePleasingStayingSilentFeelingGuiltyExpanded.ts",
   "now-is-the-knowing": "./books/nowIsTheKnowingExpanded.ts",
   "nudge": "./books/nudgeExpanded.ts",
+  "nudge-improving-decisions-about-health-wealth-and-happiness": "./books/nudgeImprovingDecisionsAboutHealthWealthAndHappinessExpanded.ts",
   "old-age-and-mortality-the-jara-vagga": "./books/oldAgeAndMortalityTheJaraVaggaExpanded.ts",
   "old-path-white-clouds-walking-in-the-footsteps-of-the-buddha": "./books/oldPathWhiteCloudsWalkingInTheFootstepsOfTheBuddhaExpanded.ts",
   "on-love-dhamma-talks-on-metta": "./books/onLoveDhammaTalksOnMettaExpanded.ts",
@@ -409,6 +414,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "remote-office-not-required": "./books/remoteOfficeNotRequiredExpanded.ts",
   "rest-why-you-get-more-done-when-you-work-less": "./books/restWhyYouGetMoreDoneWhenYouWorkLessExpanded.ts",
   "rethinking-narcissism-anger": "./books/rethinkingNarcissismAngerExpanded.ts",
+  "right-concentration-a-practical-guide-to-the-jhanas": "./books/rightConcentrationAPracticalGuideToTheJhanasExpanded.ts",
   "right-livelihood-in-buddhist-perspective": "./books/rightLivelihoodInBuddhistPerspectiveExpanded.ts",
   "right-mindfulness-memory-and-ardency-on-the-buddhist-path": "./books/rightMindfulnessMemoryAndArdencyOnTheBuddhistPathExpanded.ts",
   "risk-savvy-how-to-make-good-decisions": "./books/riskSavvyHowToMakeGoodDecisionsExpanded.ts",
@@ -424,6 +430,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "search-inside-yourself": "./books/searchInsideYourselfExpanded.ts",
   "searching-for-the-self": "./books/searchingForTheSelfExpanded.ts",
   "seeing-systems-unlocking-the-mysteries-of-organizational-lif": "./books/seeingSystemsUnlockingTheMysteriesOfOrganizationalLifExpanded.ts",
+  "seeing-that-frees-meditations-on-emptiness": "./books/seeingThatFreesMeditationsOnEmptinessExpanded.ts",
   "seeking-buddho-teachings-on-meditation": "./books/seekingBuddhoTeachingsOnMeditationExpanded.ts",
   "self-compassion-the-proven-power-of-being-kind-to-yourself": "./books/selfCompassionTheProvenPowerOfBeingKindToYourselfExpanded.ts",
   "selves-and-not-self-buddhist-epistemology": "./books/selvesAndNotSelfBuddhistEpistemologyExpanded.ts",
@@ -450,6 +457,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "somatics-reawakening-the-mind-s-control-of-movement": "./books/somaticsReawakeningTheMindSControlOfMovementExpanded.ts",
   "sources-of-power": "./books/sourcesOfPowerExpanded.ts",
   "speak-peace-in-a-world-of-conflict": "./books/speakPeaceInAWorldOfConflictExpanded.ts",
+  "split-second-persuasion": "./books/splitSecondPersuasionExpanded.ts",
   "stages-of-meditation-commentary-on-the-bhavanakrama": "./books/stagesOfMeditationCommentaryOnTheBhavanakramaExpanded.ts",
   "start-here-start-now-a-guide-to-compassionate-living": "./books/startHereStartNowAGuideToCompassionateLivingExpanded.ts",
   "start-with-no-the-negotiating-tools-that-the-pros-don-t-want": "./books/startWithNoTheNegotiatingToolsThatTheProsDonTWantExpanded.ts",
@@ -483,6 +491,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-anapanasati-sutta-full-translation-and-notes": "./books/theAnapanasatiSuttaFullTranslationAndNotesExpanded.ts",
   "the-anxiety-and-phobia-workbook": "./books/theAnxietyAndPhobiaWorkbookExpanded.ts",
   "the-archetypes-and-the-collective-unconscious": "./books/theArchetypesAndTheCollectiveUnconsciousExpanded.ts",
+  "the-art-and-skill-of-buddhist-meditation": "./books/theArtAndSkillOfBuddhistMeditationExpanded.ts",
   "the-art-of-being-right-the-art-of-controversy": "./books/theArtOfBeingRightTheArtOfControversyExpanded.ts",
   "the-art-of-breathing-meditative-secret-of-insight": "./books/theArtOfBreathingMeditativeSecretOfInsightExpanded.ts",
   "the-art-of-communicating": "./books/theArtOfCommunicatingExpanded.ts",
@@ -565,6 +574,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-essence-of-the-heart-sutra": "./books/theEssenceOfTheHeartSutraExpanded.ts",
   "the-essential-practice-dhamma-discourses": "./books/theEssentialPracticeDhammaDiscoursesExpanded.ts",
   "the-evolution-of-desire-strategies-of-human-mating": "./books/theEvolutionOfDesireStrategiesOfHumanMatingExpanded.ts",
+  "the-experience-of-samadhi-in-depth-exploration": "./books/theExperienceOfSamadhiInDepthExplorationExpanded.ts",
   "the-experiential-path-of-satipatthana": "./books/theExperientialPathOfSatipatthanaExpanded.ts",
   "the-fifth-discipline": "./books/theFifthDisciplineExpanded.ts",
   "the-fire-sermon-adittapariyaya-sutta": "./books/theFireSermonAdittapariyayaSuttaExpanded.ts",
@@ -1711,6 +1721,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Abundant, Exalted, Immeasurable: The Brahmaviharas"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "after-buddhism-rethinking-dharma-for-a-secular-age",
+    "title": "After Buddhism: Rethinking Dharma for a Secular Age",
+    "author": "Stephen Batchelor",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "What if the Buddha was never interested in founding a religion of dogmas, karma, and rebirth, but was offering an intensely practical medical toolkit for living fully in an uncertain world? Stephen Batchelor strips away centuries of mystical sediment to uncover a grounded, radical practice of everyday human flourishing.",
+      "coreThesis": "The Dharma is not a metaphysical religion of dogmas, karma, and rebirth, but a pragmatic therapeutic discipline: an actionable fourfold task that enables human flourishing right here in the secular world.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "After Buddhism: Rethinking Dharma for a Secular Age"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -2875,6 +2920,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "beyond-distraction-five-ways-to-focus-the-mind",
+    "title": "Beyond Distraction: Five Ways to Focus the Mind",
+    "author": "Shaila Catherine",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2022,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You do not have to be a helpless passenger inside your own runaway mind. Based on an ancient, battle-tested Buddhist manual, this book provides five practical mental levers to dismantle distraction and restore lasting inner stillness.",
+      "coreThesis": "Distracting thoughts persist only because we unconsciously fuel them; by applying five progressive, classical strategies, anyone can dismantle mental agitation and cultivate unshakable serenity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Beyond Distraction: Five Ways to Focus the Mind"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "beyond-mindfulness-in-plain-english",
     "title": "Beyond Mindfulness in Plain English",
     "author": "Bhante Henepola Gunaratana",
@@ -3609,6 +3689,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "buddhism-without-beliefs-a-contemporary-guide",
+    "title": "Buddhism Without Beliefs: A Contemporary Guide",
+    "author": "Stephen Batchelor",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 1997,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Strip away centuries of dogma, superstition, and ritual, and Buddhism becomes a radical, practical art of living awake in an uncertain world. It is not something to believe in, but something to practice every single day.",
+      "coreThesis": "The Dharma is an existential craft, not a belief system: by embracing deep agnosticism and meeting impermanence directly, we awaken to immediate freedom in everyday life.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Buddhism Without Beliefs: A Contemporary Guide"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "buddhist-dictionary-manual-of-terms-and-doctrines",
     "title": "Buddhist Dictionary: Manual of Terms and Doctrines",
     "author": "Nyanatiloka Mahathera",
@@ -4295,6 +4410,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Comprehensive Commentary on the Abhidhammattha Sangaha"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "confession-of-a-buddhist-atheist",
+    "title": "Confession of a Buddhist Atheist",
+    "author": "Stephen Batchelor",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 90,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Strip away centuries of religious mythology and discover the Buddha not as an omniscient deity, but as a practical guide for living wisely in an uncertain world. Stephen Batchelor blends intimate memoir with historical detective work to recover a radically grounded, secular path to inner freedom.",
+      "coreThesis": "The historical Buddha was not a cosmic deity founding a religion of belief, but an existential doctor prescribing a practical four-part therapy to awaken peace within this mortal life.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Confession of a Buddhist Atheist"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -13185,6 +13335,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "nudge-improving-decisions-about-health-wealth-and-happiness",
+    "title": "Nudge: Improving Decisions About Health, Wealth, and Happiness",
+    "author": "Richard H. Thaler & Cass R. Sunstein",
+    "category": "Sales & Persuasion",
+    "subcategory": "Buyer Psychology",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Human beings rarely make financial or life choices like cold, calculating spreadsheets\\u2014they default to whatever path offers the least resistance. By quietly rearranging the terrain of daily choices, you can protect yourself from your own worst impulses and let discipline run on autopilot.",
+      "coreThesis": "Humans do not act like rational calculators; we naturally follow the path of least resistance. If you shape the environment so the default choice is the prudent choice, long-term survival and wealth take care of themselves.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Nudge: Improving Decisions About Health, Wealth, and Happiness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "old-age-and-mortality-the-jara-vagga",
     "title": "Old Age and Mortality: The Jara Vagga",
     "author": "Bhikkhu Anigha",
@@ -15073,6 +15258,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "right-concentration-a-practical-guide-to-the-jhanas",
+    "title": "Right Concentration: A Practical Guide to the Jhanas",
+    "author": "Leigh Brasington",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 110,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Deep meditative joy is not a mystical gift reserved for hermits in mountain caves\\u2014it is a trainable natural faculty accessible to any dedicated modern practitioner. Leigh Brasington demystifies the Buddhist jh\\u0101nas into an exact, reproducible sequence that transforms steady attention into a powerful engine for spiritual liberation.",
+      "coreThesis": "The jh\\u0101nas are accessible, natural states of deep mental absorption that soothe the nervous system and sharpen attention into an unstoppable instrument for liberating insight.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Right Concentration: A Practical Guide to the Jhanas"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "right-livelihood-in-buddhist-perspective",
     "title": "Right Livelihood in Buddhist Perspective",
     "author": "BPS Wheel Series",
@@ -15592,6 +15812,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "seeing-that-frees-meditations-on-emptiness",
+    "title": "Seeing That Frees: Meditations on Emptiness",
+    "author": "Rob Burbea",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 145,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Suffering is not built into reality; it is built into the rigid lenses through which we view it. Rob Burbea offers a masterclass in contemplative freedom, showing how shifting your way of looking dismantles anxiety, dissolves the ego, and reveals the profound, open peace of everyday life.",
+      "coreThesis": "Experience does not exist independently of our way of looking; when grasping subsides, perceived phenomena lose their solidity and reveal their liberating, empty nature.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Seeing That Frees: Meditations on Emptiness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -16496,6 +16751,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "split-second-persuasion",
+    "title": "Split-Second Persuasion",
+    "author": "Kevin Dutton",
+    "category": "Sales & Persuasion",
+    "subcategory": "Persuasion & Influence",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Human decisions rarely pivot on lengthy logical arguments; they flip in split seconds when the right sensory tripwires are triggered. Kevin Dutton unpacks the cognitive mechanics of instantaneous influence, showing how master persuaders bypass conscious resistance like a key sliding into a lock.",
+      "coreThesis": "Instant persuasion is not a contest of logic, but a hardwired evolutionary reflex that flips critical skepticism into sudden consent when triggered by precise sensory cues.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Split-Second Persuasion"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
@@ -17649,6 +17939,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-art-and-skill-of-buddhist-meditation",
+    "title": "The Art and Skill of Buddhist Meditation",
+    "author": "Richard Shankman",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Meditation is not a grim wrestling match with your thoughts, but the craft of befriending your own attention. Richard Shankman provides an indispensable master manual that harmonizes deep concentration (samatha) and liberating insight (vipassana) into one seamless, accessible journey.",
+      "coreThesis": "Deep concentration and liberating insight are mutually reinforcing halves of one practice: a calm, collected mind allows you to see experience clearly, untangle clinging, and rest in effortless freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Art and Skill of Buddhist Meditation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -20516,6 +20841,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-experience-of-samadhi-in-depth-exploration",
+    "title": "The Experience of Samadhi: In-Depth Exploration",
+    "author": "Richard Shankman",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop fighting your wandering mind with brute force; true concentration is not a white-knuckled vice, but a warm, collected stillness born from letting go. Richard Shankman demystifies Buddhist sam\\u0101dhi to reveal how profound mental peace and penetrating insight naturally arise together.",
+      "coreThesis": "Sam\\u0101dhi is the natural settling of the mind through non-attachment and ease, providing the quiet stability through which liberating insight spontaneously emerges.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Experience of Samadhi: In-Depth Exploration"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
