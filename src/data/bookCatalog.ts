@@ -68,6 +68,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "bhavana-mind-development-in-everyday-reality": "./books/bhavanaMindDevelopmentInEverydayRealityExpanded.ts",
   "blink-the-power-of-thinking-without-thinking": "./books/blinkThePowerOfThinkingWithoutThinkingExpanded.ts",
   "bodhinyana-a-collection-of-dhamma-talks": "./books/bodhinyanaACollectionOfDhammaTalksExpanded.ts",
+  "body-language": "./books/bodyLanguageExpanded.ts",
   "bored-and-brilliant": "./books/boredAndBrilliantExpanded.ts",
   "born-to-run": "./books/bornToRunExpanded.ts",
   "boundaries-when-to-say-yes-how-to-say-no-to-take-control-of-": "./books/boundariesWhenToSayYesHowToSayNoToTakeControlOfExpanded.ts",
@@ -116,6 +117,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "cracking-the-walnut-secret-teachings-on-awakening": "./books/crackingTheWalnutSecretTeachingsOnAwakeningExpanded.ts",
   "creating-true-peace-ending-violence-in-yourself-and-the-world": "./books/creatingTruePeaceEndingViolenceInYourselfAndTheWorldExpanded.ts",
   "crucial-conversations-tools-for-talking-when-stakes-are-high": "./books/crucialConversationsToolsForTalkingWhenStakesAreHighExpanded.ts",
+  "cues-master-the-secret-language-of-charismatic-communication": "./books/cuesMasterTheSecretLanguageOfCharismaticCommunicationExpanded.ts",
   "curation-the-power-of-selection-in-a-world-of-excess": "./books/curationThePowerOfSelectionInAWorldOfExcessExpanded.ts",
   "dana-the-practice-of-giving": "./books/danaThePracticeOfGivingExpanded.ts",
   "dangerous-personalities": "./books/dangerousPersonalitiesExpanded.ts",
@@ -172,6 +174,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "eight-mindful-steps-to-happiness": "./books/eightMindfulStepsToHappinessExpanded.ts",
   "elastic-habits": "./books/elasticHabitsExpanded.ts",
   "emotional-agility": "./books/emotionalAgilityExpanded.ts",
+  "emotions-revealed-recognizing-faces-and-feelings-to-improve-": "./books/emotionsRevealedRecognizingFacesAndFeelingsToImproveExpanded.ts",
   "essentialism-the-disciplined-pursuit-of-less": "./books/essentialismTheDisciplinedPursuitOfLessExpanded.ts",
   "ethics-for-the-new-millennium": "./books/ethicsForTheNewMillenniumExpanded.ts",
   "everything-arises-everything-falls-away": "./books/everythingArisesEverythingFallsAwayExpanded.ts",
@@ -179,6 +182,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "evil-and-punishment-the-danda-vagga-of-the-dhammapada": "./books/evilAndPunishmentTheDandaVaggaOfTheDhammapadaExpanded.ts",
   "evolutionary-psychology-the-new-science-of-the-mind": "./books/evolutionaryPsychologyTheNewScienceOfTheMindExpanded.ts",
   "expert-political-judgment": "./books/expertPoliticalJudgmentExpanded.ts",
+  "face-reading-in-chinese-medicine": "./books/faceReadingInChineseMedicineExpanded.ts",
   "facets-of-buddhist-thought": "./books/facetsOfBuddhistThoughtExpanded.ts",
   "factfulness": "./books/factfulnessExpanded.ts",
   "faith-trusting-your-own-deepest-experience": "./books/faithTrustingYourOwnDeepestExperienceExpanded.ts",
@@ -447,6 +451,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "7-powers-the-foundations-of-business-strategy": "./books/sevenPowersExpanded.ts",
   "she-understanding-feminine-psychology": "./books/sheUnderstandingFemininePsychologyExpanded.ts",
   "show-your-work": "./books/showYourWorkExpanded.ts",
+  "signals-how-everyday-signs-reveal-your-unspoken-thoughts": "./books/signalsHowEverydaySignsRevealYourUnspokenThoughtsExpanded.ts",
   "silence-the-power-of-quiet-in-a-world-full-of-noise": "./books/silenceThePowerOfQuietInAWorldFullOfNoiseExpanded.ts",
   "silent-rain-collected-dhamma-talks": "./books/silentRainCollectedDhammaTalksExpanded.ts",
   "simple-teachings-on-higher-truths": "./books/simpleTeachingsOnHigherTruthsExpanded.ts",
@@ -491,6 +496,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "teaching-and-training-at-pa-auk-monastery": "./books/teachingAndTrainingAtPaAukMonasteryExpanded.ts",
   "teachings-of-a-buddhist-monk": "./books/teachingsOfABuddhistMonkExpanded.ts",
   "teachings-on-love": "./books/teachingsOnLoveExpanded.ts",
+  "telling-lies-clues-to-deceit-in-the-marketplace-politics-and": "./books/tellingLiesCluesToDeceitInTheMarketplacePoliticsAndExpanded.ts",
   "thank-you-for-arguing": "./books/thankYouForArguingExpanded.ts",
   "thanks-for-the-feedback-the-science-and-art-of-receiving-fee": "./books/thanksForTheFeedbackTheScienceAndArtOfReceivingFeeExpanded.ts",
   "the-1-rule": "./books/the1RuleExpanded.ts",
@@ -645,6 +651,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-narcissist-you-know": "./books/theNarcissistYouKnowExpanded.ts",
   "the-noble-eightfold-path-way-to-the-end-of-suffering": "./books/theNobleEightfoldPathWayToTheEndOfSufferingExpanded.ts",
   "the-noble-quest-ariyapariyesana-sutta": "./books/theNobleQuestAriyapariyesanaSuttaExpanded.ts",
+  "the-nonverbal-advantage": "./books/theNonverbalAdvantageExpanded.ts",
   "the-noonday-demon-an-atlas-of-depression": "./books/theNoondayDemonAnAtlasOfDepressionExpanded.ts",
   "the-now-habit": "./books/theNowHabitExpanded.ts",
   "the-numerical-discourses-of-the-buddha-anguttara-nikaya": "./books/theNumericalDiscoursesOfTheBuddhaAnguttaraNikayaExpanded.ts",
@@ -764,6 +771,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "unconditional-love-and-the-abhidhamma": "./books/unconditionalLoveAndTheAbhidhammaExpanded.ts",
   "unexpected-freedom-dhamma-reflections": "./books/unexpectedFreedomDhammaReflectionsExpanded.ts",
   "unlearn-your-pain": "./books/unlearnYourPainExpanded.ts",
+  "unmasking-the-face": "./books/unmaskingTheFaceExpanded.ts",
   "untamed": "./books/untamedExpanded.ts",
   "unwinding-anxiety": "./books/unwindingAnxietyExpanded.ts",
   "venerable-acariya-mun-bhuridatta-spiritual-biography": "./books/venerableAcariyaMunBhuridattaSpiritualBiographyExpanded.ts",
@@ -793,6 +801,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "willpower-doesn-t-work": "./books/willpowerDoesnTWorkExpanded.ts",
   "wim-hof-the-wim-hof-method": "./books/wimHofTheWimHofMethodExpanded.ts",
   "win-every-argument-the-art-of-debating-persuading-and-public": "./books/winEveryArgumentTheArtOfDebatingPersuadingAndPublicExpanded.ts",
+  "winning-body-language": "./books/winningBodyLanguageExpanded.ts",
   "wisdom-develops-samadhi": "./books/wisdomDevelopsSamadhiExpanded.ts",
   "wisdom-wide-and-deep-mastering-jhana-and-vipassana": "./books/wisdomWideAndDeepMasteringJhanaAndVipassanaExpanded.ts",
   "with-each-and-every-breath-a-guide-to-meditation": "./books/withEachAndEveryBreathAGuideToMeditationExpanded.ts",
@@ -809,6 +818,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "yes-50-scientifically-proven-ways-to-be-persuasive": "./books/yes50ScientificallyProvenWaysToBePersuasiveExpanded.ts",
   "you-are-here-discovering-the-magic-of-the-present-moment": "./books/youAreHereDiscoveringTheMagicOfThePresentMomentExpanded.ts",
   "you-are-not-so-smart": "./books/youAreNotSoSmartExpanded.ts",
+  "you-say-more-than-you-think": "./books/youSayMoreThanYouThinkExpanded.ts",
   "your-erroneous-zones": "./books/yourErroneousZonesExpanded.ts",
   "your-perfect-right-assertiveness-and-equality-in-your-life-a": "./books/yourPerfectRightAssertivenessAndEqualityInYourLifeAExpanded.ts",
   "your-true-home-the-everyday-wisdom-of-thich-nhat-hanh": "./books/yourTrueHomeTheEverydayWisdomOfThichNhatHanhExpanded.ts",
@@ -3184,6 +3194,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "body-language",
+    "title": "Body Language",
+    "author": "Julius Fast",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 1970,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Words represent only the overt script of human interaction; our physical movements run the real engine underneath. Julius Fast demystifies kinesics, revealing how spatial bubbles, micro-gestures, and unconscious posture broadcast our truest intentions before we speak a single syllable.",
+      "coreThesis": "Human communication is primarily non-verbal; our bodies constantly broadcast our genuine emotional and territorial realities through involuntary physical patterns that speak louder and earlier than words.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Body Language"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "bored-and-brilliant",
     "title": "Bored and Brilliant",
     "author": "Manoush Zomorodi",
@@ -4857,6 +4902,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "cues-master-the-secret-language-of-charismatic-communication",
+    "title": "Cues: Master the Secret Language of Charismatic Communication",
+    "author": "Vanessa Van Edwards",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2022,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Every human interaction is governed by a silent, continuous broadcast of micro-signals: balance warmth and competence, and you command the room without saying a word.",
+      "coreThesis": "Charisma is not an innate gift but a decipherable science governed by balancing two social signals: warmth, which establishes mutual trust, and competence, which establishes professional respect.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Cues: Master the Secret Language of Charismatic Communication"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -6820,6 +6900,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "emotions-revealed-recognizing-faces-and-feelings-to-improve-",
+    "title": "Emotions Revealed: Recognizing Faces and Feelings to Improve Communication",
+    "author": "Paul Ekman",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2003,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your face is an open-source biological instrument panel flashing micro-signals before your conscious mind even realizes what it feels. Master this hidden circuitry, and you unlock the ability to spot genuine feelings, navigate conflicts, and connect with people on an entirely new frequency.",
+      "coreThesis": "Human emotional expressions are hardwired, universal biological signals that involuntarily broadcast genuine feelings across the face, offering an objective window into the human mind when observed with precision.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Emotions Revealed: Recognizing Faces and Feelings to Improve Communication"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "essentialism-the-disciplined-pursuit-of-less",
     "title": "Essentialism: The Disciplined Pursuit of Less",
     "author": "Greg McKeown",
@@ -7061,6 +7176,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "face-reading-in-chinese-medicine",
+    "title": "Face Reading in Chinese Medicine",
+    "author": "Lillian Bridges",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your face is not a static mask, but a real-time living dashboard reflecting internal organ health, emotional history, and behavioral tendencies. By decoding its anatomical contours and vascular shifts, you unlock a rigorous non-verbal diagnostic system refined over millennia.",
+      "coreThesis": "The human face is a dynamic biological map where physical features, micro-discolorations, and crease lines reveal internal organ integrity, constitutional reserves, and habitual emotional processing.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Face Reading in Chinese Medicine"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -16429,6 +16579,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "signals-how-everyday-signs-reveal-your-unspoken-thoughts",
+    "title": "Signals: How Everyday Signs Reveal Your Unspoken Thoughts",
+    "author": "Allan Pease",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 90,
+    "publishedYear": 1984,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "While your spoken words articulate conscious intent, your physical posture broadcasts your real subconscious state in real time. Allan Pease provides an illuminating field manual that decodes the silent choreography of everyday human interaction.",
+      "coreThesis": "Human bodies run evolutionary biological scripts that expose true thoughts and emotions through consistent physical patterns, which can be systematically decoded and harmonized through clusters, context, and spatial awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Signals: How Everyday Signs Reveal Your Unspoken Thoughts"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "silence-the-power-of-quiet-in-a-world-full-of-noise",
     "title": "Silence: The Power of Quiet in a World Full of Noise",
     "author": "Thich Nhat Hanh",
@@ -17959,6 +18144,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "telling-lies-clues-to-deceit-in-the-marketplace-politics-and",
+    "title": "Telling Lies: Clues to Deceit in the Marketplace, Politics, and Marriage",
+    "author": "Paul Ekman",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1985,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Deception creates friction between conscious words and involuntary biology. Learn how emotional leakage, fleeting facial signals, and vocal shifts expose hidden truths beneath spoken masks.",
+      "coreThesis": "Lying generates emotional and cognitive friction that leaks through involuntary non-verbal channels, but no single cue proves deceit; reliable detection requires tracking deviations from a known baseline across multiple behavioral streams.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Telling Lies: Clues to Deceit in the Marketplace, Politics, and Marriage"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -23346,6 +23566,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-nonverbal-advantage",
+    "title": "The Nonverbal Advantage",
+    "author": "Carol Kinsey Goman",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Long before you finish your opening sentence, your posture, gaze, and micro-movements have already negotiated the room. Body language is not mystical mind reading; it is a visible biological dashboard that broadcasts your true confidence, warmth, and intentions in real time.",
+      "coreThesis": "Nonverbal cues are involuntary biological readouts that overpower verbal speech; achieving true influence requires reading clusters against baselines while deliberately projecting physical warmth and competence.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Nonverbal Advantage"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-noonday-demon-an-atlas-of-depression",
     "title": "The Noonday Demon: An Atlas of Depression",
     "author": "Andrew Solomon",
@@ -27503,6 +27758,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "unmasking-the-face",
+    "title": "Unmasking the Face",
+    "author": "Paul Ekman & Wallace V. Friesen",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 1975,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Every human face is an open-source biological instrument engineered with a universal mechanical alphabet. By mastering the physical blueprint of facial muscle movements, you can decode raw, unfiltered human emotion before words even leave the mouth.",
+      "coreThesis": "The human face communicates core emotional states through universally hardwired biological muscle movements that leak authentic psychological truths despite voluntary social masking.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Unmasking the Face"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "untamed",
     "title": "Untamed",
     "author": "Glennon Doyle",
@@ -28518,6 +28808,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "winning-body-language",
+    "title": "Winning Body Language",
+    "author": "Mark Bowden",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Human brains evaluate physical presence long before rational language ever registers. By organizing non-verbal gestures across specific horizontal planes, you can bypass instinctive social defenses and install immediate trust, clarity, and authority.",
+      "coreThesis": "Human perception is governed by evolutionary survival mechanics: placing open gestures deliberately across anatomical planes bypasses primitive skepticism to establish instant trust and decisive influence.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Winning Body Language"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "wisdom-develops-samadhi",
     "title": "Wisdom Develops Samadhi",
     "author": "Ajahn Maha Bua",
@@ -29074,6 +29399,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "you-say-more-than-you-think",
+    "title": "You Say More Than You Think",
+    "author": "Janine Driver",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your spoken words make up only a tiny sliver of how people evaluate you; your unconscious posture, orientation, and limb placement run the real conversation. Former federal law enforcement investigator Janine Driver reveals the hidden mechanics of human kinesics so you can spot what people really feel and command effortless respect.",
+      "coreThesis": "Non-verbal behavior is a reliable window into authentic intent; by actively calibrating your physical alignment and eliminating unconscious self-pacifying leaks, you dramatically amplify personal influence and read hidden interpersonal dynamics.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "You Say More Than You Think"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
