@@ -39,6 +39,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "analysis-of-the-immaterial-realm-arupa-loka": "./books/analysisOfTheImmaterialRealmArupaLokaExpanded.ts",
   "analysis-of-the-sensuous-realm-kama-loka": "./books/analysisOfTheSensuousRealmKamaLokaExpanded.ts",
   "ananda-the-guardian-of-the-dhamma": "./books/anandaTheGuardianOfTheDhammaExpanded.ts",
+  "anapanasati-the-path-of-inhaling-and-exhaling": "./books/anapanasatiThePathOfInhalingAndExhalingExpanded.ts",
   "anapanasati-unveiling-the-secrets-of-life": "./books/anapanasatiUnveilingTheSecretsOfLifeExpanded.ts",
   "anatta-and-nibbana-egolessness-and-deliverance": "./books/anattaAndNibbanaEgolessnessAndDeliveranceExpanded.ts",
   "anger-wisdom-for-cooling-the-flames": "./books/angerWisdomForCoolingTheFlamesExpanded.ts",
@@ -174,6 +175,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "expert-political-judgment": "./books/expertPoliticalJudgmentExpanded.ts",
   "facets-of-buddhist-thought": "./books/facetsOfBuddhistThoughtExpanded.ts",
   "factfulness": "./books/factfulnessExpanded.ts",
+  "faith-trusting-your-own-deepest-experience": "./books/faithTrustingYourOwnDeepestExperienceExpanded.ts",
   "fallacies-and-argument-appraisal": "./books/fallaciesAndArgumentAppraisalExpanded.ts",
   "fear-essential-wisdom-for-getting-through-the-storm": "./books/fearEssentialWisdomForGettingThroughTheStormExpanded.ts",
   "feeling-good-the-new-mood-therapy": "./books/feelingGoodTheNewMoodTherapyExpanded.ts",
@@ -182,6 +184,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "finding-the-missing-peace-a-primer-of-meditation": "./books/findingTheMissingPeaceAPrimerOfMeditationExpanded.ts",
   "flash-of-lightning-in-the-dark-of-night": "./books/flashOfLightningInTheDarkOfNightExpanded.ts",
   "flow-the-psychology-of-optimal-experience": "./books/flowThePsychologyOfOptimalExperienceExpanded.ts",
+  "focused-and-fearless-meditator-s-guide-to-deep-joy-and-calm": "./books/focusedAndFearlessMeditatorSGuideToDeepJoyAndCalmExpanded.ts",
   "following-in-the-buddha-s-footsteps": "./books/followingInTheBuddhaSFootstepsExpanded.ts",
   "food-for-the-heart-collected-teachings": "./books/foodForTheHeartCollectedTeachingsExpanded.ts",
   "fooled-by-randomness": "./books/fooledByRandomnessExpanded.ts",
@@ -193,6 +196,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "fundamentals-of-buddhism": "./books/fundamentalsOfBuddhismExpanded.ts",
   "fundamentals-of-buddhism-four-lectures": "./books/fundamentalsOfBuddhismFourLecturesExpanded.ts",
   "fundamentals-of-vipassana-meditation": "./books/fundamentalsOfVipassanaMeditationExpanded.ts",
+  "gaining-inner-peace-through-satipatthana": "./books/gainingInnerPeaceThroughSatipatthanaExpanded.ts",
   "gentle-bridges-conversations-with-the-dalai-lama-on-mind-sciences": "./books/gentleBridgesConversationsWithTheDalaiLamaOnMindSciencesExpanded.ts",
   "get-out-of-your-mind-and-into-your-life": "./books/getOutOfYourMindAndIntoYourLifeExpanded.ts",
   "getting-past-no-negotiating-with-difficult-people": "./books/gettingPastNoNegotiatingWithDifficultPeopleExpanded.ts",
@@ -356,6 +360,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "on-love-dhamma-talks-on-metta": "./books/onLoveDhammaTalksOnMettaExpanded.ts",
   "on-the-path-an-anthology-of-suttas-on-the-noble-eightfold-path": "./books/onThePathAnAnthologyOfSuttasOnTheNobleEightfoldPathExpanded.ts",
   "on-the-path-to-freedom": "./books/onThePathToFreedomExpanded.ts",
+  "one-dharma-the-emerging-western-buddhism": "./books/oneDharmaTheEmergingWesternBuddhismExpanded.ts",
   "one-small-step-can-change-your-life-the-kaizen-way": "./books/oneSmallStepCanChangeYourLifeTheKaizenWayExpanded.ts",
   "opening-the-door-of-your-heart": "./books/openingTheDoorOfYourHeartExpanded.ts",
   "our-appointment-with-life-the-bhaddekaratta-sutta": "./books/ourAppointmentWithLifeTheBhaddekarattaSuttaExpanded.ts",
@@ -475,9 +480,11 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-80-20-principle": "./books/the8020PrincipleExpanded.ts",
   "the-accountability-manifesto": "./books/theAccountabilityManifestoExpanded.ts",
   "the-all-embracing-net-of-views-brahmajala-sutta": "./books/theAllEmbracingNetOfViewsBrahmajalaSuttaExpanded.ts",
+  "the-anapanasati-sutta-full-translation-and-notes": "./books/theAnapanasatiSuttaFullTranslationAndNotesExpanded.ts",
   "the-anxiety-and-phobia-workbook": "./books/theAnxietyAndPhobiaWorkbookExpanded.ts",
   "the-archetypes-and-the-collective-unconscious": "./books/theArchetypesAndTheCollectiveUnconsciousExpanded.ts",
   "the-art-of-being-right-the-art-of-controversy": "./books/theArtOfBeingRightTheArtOfControversyExpanded.ts",
+  "the-art-of-breathing-meditative-secret-of-insight": "./books/theArtOfBreathingMeditativeSecretOfInsightExpanded.ts",
   "the-art-of-communicating": "./books/theArtOfCommunicatingExpanded.ts",
   "the-art-of-dialogue": "./books/theArtOfDialogueExpanded.ts",
   "the-art-of-disappearing-the-path-to-lasting-joy": "./books/theArtOfDisappearingThePathToLastingJoyExpanded.ts",
@@ -558,6 +565,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-essence-of-the-heart-sutra": "./books/theEssenceOfTheHeartSutraExpanded.ts",
   "the-essential-practice-dhamma-discourses": "./books/theEssentialPracticeDhammaDiscoursesExpanded.ts",
   "the-evolution-of-desire-strategies-of-human-mating": "./books/theEvolutionOfDesireStrategiesOfHumanMatingExpanded.ts",
+  "the-experiential-path-of-satipatthana": "./books/theExperientialPathOfSatipatthanaExpanded.ts",
   "the-fifth-discipline": "./books/theFifthDisciplineExpanded.ts",
   "the-fire-sermon-adittapariyaya-sutta": "./books/theFireSermonAdittapariyayaSuttaExpanded.ts",
   "the-five-mental-hindrances-and-their-conquest": "./books/theFiveMentalHindrancesAndTheirConquestExpanded.ts",
@@ -646,6 +654,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-psychological-attitude-of-early-buddhist-philosophy": "./books/thePsychologicalAttitudeOfEarlyBuddhistPhilosophyExpanded.ts",
   "the-pure-soul-the-brahmana-vagga-of-the-dhammapada": "./books/thePureSoulTheBrahmanaVaggaOfTheDhammapadaExpanded.ts",
   "the-questions-of-king-milinda-milindapanha": "./books/theQuestionsOfKingMilindaMilindapanhaExpanded.ts",
+  "the-radiant-mind-continuous-satipatthana-in-modern-life": "./books/theRadiantMindContinuousSatipatthanaInModernLifeExpanded.ts",
   "the-requisites-of-enlightenment": "./books/theRequisitesOfEnlightenmentExpanded.ts",
   "the-righteous-mind-why-good-people-are-divided-by-politics-a": "./books/theRighteousMindWhyGoodPeopleAreDividedByPoliticsAExpanded.ts",
   "the-road-to-inner-freedom": "./books/theRoadToInnerFreedomExpanded.ts",
@@ -755,6 +764,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "wim-hof-the-wim-hof-method": "./books/wimHofTheWimHofMethodExpanded.ts",
   "win-every-argument-the-art-of-debating-persuading-and-public": "./books/winEveryArgumentTheArtOfDebatingPersuadingAndPublicExpanded.ts",
   "wisdom-develops-samadhi": "./books/wisdomDevelopsSamadhiExpanded.ts",
+  "wisdom-wide-and-deep-mastering-jhana-and-vipassana": "./books/wisdomWideAndDeepMasteringJhanaAndVipassanaExpanded.ts",
   "with-each-and-every-breath-a-guide-to-meditation": "./books/withEachAndEveryBreathAGuideToMeditationExpanded.ts",
   "with-good-reason-an-introduction-to-informal-fallacies": "./books/withGoodReasonAnIntroductionToInformalFallaciesExpanded.ts",
   "without-and-within-questions-and-answers-on-theravada-buddhism": "./books/withoutAndWithinQuestionsAndAnswersOnTheravadaBuddhismExpanded.ts",
@@ -2120,6 +2130,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Ananda: The Guardian of the Dhamma"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "anapanasati-the-path-of-inhaling-and-exhaling",
+    "title": "Anapanasati: The Path of Inhaling and Exhaling",
+    "author": "Webu Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1992,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Liberation does not require exhaustive intellectual scholarship\\u2014it requires unbroken awareness of the very breath sustaining your life right now. Venerable Webu Sayadaw strips meditation down to its rawest, most powerful essence: feel the breath touch the upper lip, stay there, and discover lasting inner calm.",
+      "coreThesis": "Continuous, unbroken mindfulness of the breath touching the upper lip gathers the wandering mind, burns away inner defilements, and directly reveals liberation here and now.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Anapanasati: The Path of Inhaling and Exhaling"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -6848,6 +6893,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "faith-trusting-your-own-deepest-experience",
+    "title": "Faith: Trusting Your Own Deepest Experience",
+    "author": "Sharon Salzberg",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2002,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Faith is not about forcing yourself to believe impossible doctrines; it is cultivating the courageous willingness to trust your own immediate, living experience. Sharon Salzberg reclaims faith as an inner compass of clarity, resilience, and unconditional belonging.",
+      "coreThesis": "Genuine faith is not belief in external dogma, but an experiential trust in your own capacity to navigate life, meet suffering with compassion, and abide in the open truth of the present moment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Faith: Trusting Your Own Deepest Experience"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "fallacies-and-argument-appraisal",
     "title": "Fallacies and Argument Appraisal",
     "author": "Christopher W. Tindale",
@@ -7123,6 +7203,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "focused-and-fearless-meditator-s-guide-to-deep-joy-and-calm",
+    "title": "Focused and Fearless: Meditator's Guide to Deep Joy and Calm",
+    "author": "Shaila Catherine",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 100,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Deep meditation is not an exhausting battle against stray thoughts, but a gentle art of relaxing so completely into present awareness that the mind lights up with natural joy. Shaila Catherine provides an extraordinarily lucid manual to unlock the classical Buddhist jhanas\\u2014systematic states of profound stillness that dissolve fear and reveal unshakeable freedom.",
+      "coreThesis": "Profound mental stillness is cultivated through release rather than force, and when the mind rests in unshakable absorption, it gains the lucidity to dismantle all clinging and awaken into lasting peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Focused and Fearless: Meditator's Guide to Deep Joy and Calm"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -7500,6 +7615,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Fundamentals of Vipassana Meditation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "gaining-inner-peace-through-satipatthana",
+    "title": "Gaining Inner Peace Through Satipatthana",
+    "author": "Ven. Mahasi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1951,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop wrestling with your runaway mind; simply step back and name reality as it occurs. Mahasi Sayadaw reveals the direct, practical manual for dismantling anxiety and discovering unshakable inner stillness through real-time experiential attention.",
+      "coreThesis": "Suffering is sustained entirely by misidentifying with transient bodily sensations and passing thoughts; by applying silent, bare mental noting to every experience in the present moment, the illusion of an ego dissolves into enduring inner quietude.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Gaining Inner Peace Through Satipatthana"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -13210,6 +13360,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "one-dharma-the-emerging-western-buddhism",
+    "title": "One Dharma: The Emerging Western Buddhism",
+    "author": "Joseph Goldstein",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2002,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Cut through sectarian confusion and discover the single, beating heart of contemplative wisdom: liberation through non-clinging. Joseph Goldstein distills ancient traditions into a lucid, pragmatic compass for waking up in modern daily life.",
+      "coreThesis": "Authentic spiritual liberation is not measured by doctrinal allegiance or esoteric philosophy, but by a single universal touchstone: the mind's freedom from clinging.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "One Dharma: The Emerging Western Buddhism"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "one-small-step-can-change-your-life-the-kaizen-way",
     "title": "One Small Step Can Change Your Life: The Kaizen Way",
     "author": "Robert Maurer",
@@ -17364,6 +17549,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-anapanasati-sutta-full-translation-and-notes",
+    "title": "The Anapanasati Sutta: Full Translation and Notes",
+    "author": "Bhikkhu Thanissaro",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1997,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your breath is not just air entering your lungs\\u2014it is an internal laboratory for training attention, calming turbulence, and uncovering ultimate mental freedom. In this canonical manual, Bhikkhu Thanissaro unlocks the Buddha's master blueprint for turning ordinary breathing into profound awakening.",
+      "coreThesis": "The conscious breath is a complete, self-contained vehicle for liberation that harmonizes the physical body, heals emotional turbulence, and frees the mind from all grasping.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Anapanasati Sutta: Full Translation and Notes"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-anxiety-and-phobia-workbook",
     "title": "The Anxiety and Phobia Workbook",
     "author": "Edmund J. Bourne",
@@ -17464,6 +17684,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-art-of-breathing-meditative-secret-of-insight",
+    "title": "The Art of Breathing: Meditative Secret of Insight",
+    "author": "Sayadaw U Pandita",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1991,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your breath is not an abstract concept; it is an immediate physical doorway into reality. By observing bodily sensations with microscopic precision, you dismantle lifelong mental conditioning and discover radical, unshakeable freedom.",
+      "coreThesis": "Continuous, moment-to-moment bare awareness of physical sensations effortlessly burns away habitual mental conditioning, revealing the unconditioned freedom already present beneath reactive ego-grasping.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Art of Breathing: Meditative Secret of Insight"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -20261,6 +20516,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-experiential-path-of-satipatthana",
+    "title": "The Experiential Path of Satipatthana",
+    "author": "Sayadaw U Tejaniya",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop wrestling with your mind on the meditation cushion. Discover how continuous, relaxed awareness transforms every ordinary waking moment into direct freedom.",
+      "coreThesis": "Awakening happens not by forcing the mind into an artificial stillness, but by maintaining a continuous, relaxed awareness that observes all mental and physical experiences with the right attitude.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Experiential Path of Satipatthana"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -23328,6 +23618,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Questions of King Milinda (Milindapanha)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-radiant-mind-continuous-satipatthana-in-modern-life",
+    "title": "The Radiant Mind: Continuous Satipatthana in Modern Life",
+    "author": "Joseph Goldstein",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mindfulness is not a temporary quiet escape from real life\\u2014it is the continuous recognition of things exactly as they are. By grounding awareness in the classic Satipatthana framework, you learn to rest in the natural clarity of awareness whether sitting in silence or driving through rush-hour traffic.",
+      "coreThesis": "Awareness itself is intrinsically luminous and free; by sustaining continuous, non-judgmental presence with body, feelings, and thoughts, we dissolve habitual grasping and live with effortless peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Radiant Mind: Continuous Satipatthana in Modern Life"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -27136,6 +27461,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Wisdom Develops Samadhi"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "wisdom-wide-and-deep-mastering-jhana-and-vipassana",
+    "title": "Wisdom Wide and Deep: Mastering Jhana and Vipassana",
+    "author": "Shaila Catherine",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 95,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Calm concentration is the lens; penetrating wisdom is the light that reveals reality as it actually is. This practical guide offers an exact, step-by-step blueprint to cultivate unbreakable mental stillness and use it to permanently dismantle the roots of suffering.",
+      "coreThesis": "Profound, unshakeable concentration is the essential diagnostic microscope through which the mind clearly perceives its own empty, dynamic nature and permanently unbinds itself from suffering.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Wisdom Wide and Deep: Mastering Jhana and Vipassana"
     },
     "reflectionExercises": [],
     "actionItems": [],
