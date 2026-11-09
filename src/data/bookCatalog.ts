@@ -39,6 +39,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "anatta-and-nibbana-egolessness-and-deliverance": "./books/anattaAndNibbanaEgolessnessAndDeliveranceExpanded.ts",
   "anger-wisdom-for-cooling-the-flames": "./books/angerWisdomForCoolingTheFlamesExpanded.ts",
   "antifragile-things-that-gain-from-disorder": "./books/antifragileThingsThatGainFromDisorderExpanded.ts",
+  "approaching-the-buddhist-path": "./books/approachingTheBuddhistPathExpanded.ts",
   "arahattamagga-arahattaphala-the-path-to-arahantship": "./books/arahattamaggaArahattaphalaThePathToArahantshipExpanded.ts",
   "argumentation-and-debate-critical-thinking-for-reasoned-deci": "./books/argumentationAndDebateCriticalThinkingForReasonedDeciExpanded.ts",
   "atomic-habits": "./books/atomicHabitsExpanded.ts",
@@ -142,6 +143,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "don-t-look-at-the-mind-with-contempt": "./books/donTLookAtTheMindWithContemptExpanded.ts",
   "don-t-take-your-life-personally": "./books/donTTakeYourLifePersonallyExpanded.ts",
   "dopamine-nation-finding-balance-in-the-age-of-indulgence": "./books/dopamineNationFindingBalanceInTheAgeOfIndulgenceExpanded.ts",
+  "dzogchen-heart-essence-of-the-great-perfection": "./books/dzogchenHeartEssenceOfTheGreatPerfectionExpanded.ts",
   "early-buddhist-meditation-studies": "./books/earlyBuddhistMeditationStudiesExpanded.ts",
   "early-buddhist-metaphysics": "./books/earlyBuddhistMetaphysicsExpanded.ts",
   "early-buddhist-oral-tradition-and-textual-transmission": "./books/earlyBuddhistOralTraditionAndTextualTransmissionExpanded.ts",
@@ -166,11 +168,13 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "find-your-why": "./books/findYourWhyExpanded.ts",
   "finding-the-missing-peace-a-primer-of-meditation": "./books/findingTheMissingPeaceAPrimerOfMeditationExpanded.ts",
   "flow-the-psychology-of-optimal-experience": "./books/flowThePsychologyOfOptimalExperienceExpanded.ts",
+  "following-in-the-buddha-s-footsteps": "./books/followingInTheBuddhaSFootstepsExpanded.ts",
   "food-for-the-heart-collected-teachings": "./books/foodForTheHeartCollectedTeachingsExpanded.ts",
   "fooled-by-randomness": "./books/fooledByRandomnessExpanded.ts",
   "for-the-benefit-of-many": "./books/forTheBenefitOfManyExpanded.ts",
   "forgive-for-good": "./books/forgiveForGoodExpanded.ts",
   "four-thousand-weeks-time-management-for-mortals": "./books/fourThousandWeeksTimeManagementForMortalsExpanded.ts",
+  "freedom-in-exile-the-autobiography-of-the-dalai-lama": "./books/freedomInExileTheAutobiographyOfTheDalaiLamaExpanded.ts",
   "from-heart-to-heart-selected-dhamma-talks": "./books/fromHeartToHeartSelectedDhammaTalksExpanded.ts",
   "fundamentals-of-buddhism": "./books/fundamentalsOfBuddhismExpanded.ts",
   "fundamentals-of-buddhism-four-lectures": "./books/fundamentalsOfBuddhismFourLecturesExpanded.ts",
@@ -208,6 +212,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "i-thought-it-was-just-me-but-it-isn-t": "./books/iThoughtItWasJustMeButItIsnTExpanded.ts",
   "ikigai-the-japanese-secret-to-a-long-and-happy-life": "./books/ikigaiTheJapaneseSecretToALongAndHappyLifeExpanded.ts",
   "in-defense-of-food": "./books/inDefenseOfFoodExpanded.ts",
+  "in-praise-of-great-compassion": "./books/inPraiseOfGreatCompassionExpanded.ts",
   "in-sheep-s-clothing-understanding-and-dealing-with-manipulat": "./books/inSheepSClothingUnderstandingAndDealingWithManipulatExpanded.ts",
   "in-simple-terms-108-dhamma-similes": "./books/inSimpleTerms108DhammaSimilesExpanded.ts",
   "in-the-buddha-s-words-an-anthology-from-the-pali-canon": "./books/inTheBuddhaSWordsAnAnthologyFromThePaliCanonExpanded.ts",
@@ -295,6 +300,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "mini-habits": "./books/miniHabitsExpanded.ts",
   "mistakes-were-made-but-not-by-me": "./books/mistakesWereMadeButNotByMeExpanded.ts",
   "moonwalking-with-einstein": "./books/moonwalkingWithEinsteinExpanded.ts",
+  "my-land-and-my-people-the-original-autobiography": "./books/myLandAndMyPeopleTheOriginalAutobiographyExpanded.ts",
   "negotiating-the-nonnegotiable-how-to-resolve-your-most-emoti": "./books/negotiatingTheNonnegotiableHowToResolveYourMostEmotiExpanded.ts",
   "negotiation-genius": "./books/negotiationGeniusExpanded.ts",
   "never-split-the-difference-negotiating-as-if-your-life-depen": "./books/neverSplitTheDifferenceNegotiatingAsIfYourLifeDepenExpanded.ts",
@@ -359,6 +365,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "rethinking-narcissism-anger": "./books/rethinkingNarcissismAngerExpanded.ts",
   "right-mindfulness-memory-and-ardency-on-the-buddhist-path": "./books/rightMindfulnessMemoryAndArdencyOnTheBuddhistPathExpanded.ts",
   "risk-savvy-how-to-make-good-decisions": "./books/riskSavvyHowToMakeGoodDecisionsExpanded.ts",
+  "samsara-nirvana-and-buddha-nature": "./books/samsaraNirvanaAndBuddhaNatureExpanded.ts",
   "satipatthana-meditation-a-practice-guide": "./books/satipatthanaMeditationAPracticeGuideExpanded.ts",
   "satipatthana-the-direct-path-to-realization": "./books/satipatthanaTheDirectPathToRealizationExpanded.ts",
   "satipatthana-vipassana-meditation-basic-and-progressive-practice": "./books/satipatthanaVipassanaMeditationBasicAndProgressivePracticeExpanded.ts",
@@ -498,6 +505,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-flowers-of-enlightenment-dhammapada-chapter-4": "./books/theFlowersOfEnlightenmentDhammapadaChapter4Expanded.ts",
   "the-forty-rules-of-love": "./books/theFortyRulesOfLoveExpanded.ts",
   "the-foundation-conditions-for-nirvana": "./books/theFoundationConditionsForNirvanaExpanded.ts",
+  "the-foundation-of-buddhist-practice": "./books/theFoundationOfBuddhistPracticeExpanded.ts",
   "the-four-foundations-of-mindfulness": "./books/theFourFoundationsOfMindfulnessExpanded.ts",
   "the-four-foundations-of-mindfulness-in-plain-english": "./books/theFourFoundationsOfMindfulnessInPlainEnglishExpanded.ts",
   "the-four-noble-truths": "./books/theFourNobleTruthsExpanded.ts",
@@ -505,6 +513,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-four-sublime-states-brahma-vihara": "./books/theFourSublimeStatesBrahmaViharaExpanded.ts",
   "the-genesis-of-the-bodhisattva-ideal": "./books/theGenesisOfTheBodhisattvaIdealExpanded.ts",
   "the-gifts-of-imperfection": "./books/theGiftsOfImperfectionExpanded.ts",
+  "the-good-heart-a-buddhist-perspective-on-jesus": "./books/theGoodHeartABuddhistPerspectiveOnJesusExpanded.ts",
   "the-gracious-flow-of-dharma": "./books/theGraciousFlowOfDharmaExpanded.ts",
   "the-great-book-of-protection-maha-paritta": "./books/theGreatBookOfProtectionMahaParittaExpanded.ts",
   "the-great-discourse-on-causation-mahanidana-sutta": "./books/theGreatDiscourseOnCausationMahanidanaSuttaExpanded.ts",
@@ -608,6 +617,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-wise-and-the-foolish-in-the-dhammapada": "./books/theWiseAndTheFoolishInTheDhammapadaExpanded.ts",
   "the-word-of-the-buddha": "./books/theWordOfTheBuddhaExpanded.ts",
   "the-workings-of-kamma": "./books/theWorkingsOfKammaExpanded.ts",
+  "the-world-of-tibetan-buddhism-philosophy-and-practice": "./books/theWorldOfTibetanBuddhismPhilosophyAndPracticeExpanded.ts",
   "the-worn-out-skin-reflections-on-the-uraga-sutta": "./books/theWornOutSkinReflectionsOnTheUragaSuttaExpanded.ts",
   "the-worry-trick": "./books/theWorryTrickExpanded.ts",
   "theragatha-verses-of-the-senior-monks": "./books/theragathaVersesOfTheSeniorMonksExpanded.ts",
@@ -2038,6 +2048,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "approaching-the-buddhist-path",
+    "title": "Approaching the Buddhist Path",
+    "author": "Dalai Lama & Thubten Chodron",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into spiritual practice without dogmatic baggage by treating your own consciousness as a living laboratory for peace, compassion, and lucid insight. This foundational masterwork provides a practical, clear bridge between ancient Buddhist realization and everyday modern life.",
+      "coreThesis": "Lasting peace and liberation from suffering are cultivated by systematically investigating your own mind, dismantling self-centered illusions, and opening your heart with active compassion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Approaching the Buddhist Path"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -5640,6 +5685,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "dzogchen-heart-essence-of-the-great-perfection",
+    "title": "Dzogchen: Heart Essence of the Great Perfection",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2000,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop chasing enlightenment like a distant shore. Your own clear, present awareness is already complete, pure, and resting quietly beneath the noise of daily thinking.",
+      "coreThesis": "Your natural state of awareness is already pristine, self-luminous, and free; liberation is not about constructing a new state of mind, but simply relaxing into the unconditioned clear light that has always been present.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Dzogchen: Heart Essence of the Great Perfection"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "early-buddhist-meditation-studies",
     "title": "Early Buddhist Meditation Studies",
     "author": "Bhikkhu Analayo",
@@ -6478,6 +6558,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "following-in-the-buddha-s-footsteps",
+    "title": "Following in the Buddha's Footsteps",
+    "author": "Dalai Lama & Thubten Chodron",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "A definitive, cross-tradition masterclass on the three higher trainings\\u2014ethical conduct, meditative focus, and penetrative wisdom\\u2014revealing how to systematically liberate the human mind from recurring suffering.",
+      "coreThesis": "Genuine inner liberation requires building an unyielding ethical baseline that stills internal turmoil, establishing focused concentration, and deploying penetrating awareness to dismantle the illusion of an autonomous, permanent self.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Following in the Buddha's Footsteps"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "food-for-the-heart-collected-teachings",
     "title": "Food for the Heart: Collected Teachings",
     "author": "Ajahn Chah",
@@ -6647,6 +6762,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "freedom-in-exile-the-autobiography-of-the-dalai-lama",
+    "title": "Freedom in Exile: The Autobiography of the Dalai Lama",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 1990,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Even when stripped of home, nation, and physical sanctuary, true inner freedom remains entirely untouchable. 'Freedom in Exile' reveals how radical compassion and calm mindfulness transform devastating political displacement into an engine for universal goodwill.",
+      "coreThesis": "External conditions can strip away your home and comfort, but your inner peace remains invulnerable when anchored in non-attachment and unconditional compassion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Freedom in Exile: The Autobiography of the Dalai Lama"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -7940,6 +8090,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Finance",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "in-praise-of-great-compassion",
+    "title": "In Praise of Great Compassion",
+    "author": "Dalai Lama & Thubten Chodron",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Compassion is not a fragile emotion or weak sentimentality\\u2014it is a robust, trainable skill that dismantles everyday ego-fixation and liberates the mind. The Dalai Lama and Thubten Chodron deliver an exact blueprint for awakening universal empathy and radical resilience in the thick of ordinary life.",
+      "coreThesis": "The instinctive obsession with putting oneself first is the primary engine of human discontent, whereas systematically training the mind in boundless compassion is the most direct path to inner freedom and outer harmony.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "In Praise of Great Compassion"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -10986,6 +11171,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "my-land-and-my-people-the-original-autobiography",
+    "title": "My Land and My People: The Original Autobiography",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 1962,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Written in the immediate aftermath of losing his nation, the Dalai Lama\\u2019s original autobiography reveals how unshakeable inner peace and fierce compassion survive the ultimate geopolitical catastrophe. It is an enduring testament to meeting violent disruption not with hatred, but with clarity, disciplined non-violence, and radical non-attachment.",
+      "coreThesis": "External sovereignty and physical territory can be stripped away overnight, but genuine inner freedom and compassionate presence remain indestructible when anchored beyond ego and resentment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "My Land and My People: The Original Autobiography"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "negotiating-the-nonnegotiable-how-to-resolve-your-most-emoti",
     "title": "Negotiating the Nonnegotiable: How to Resolve Your Most Emotionally Charged Conflicts",
     "author": "Daniel Shapiro",
@@ -13219,6 +13439,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "samsara-nirvana-and-buddha-nature",
+    "title": "Samsara, Nirvana, and Buddha Nature",
+    "author": "Dalai Lama & Thubten Chodron",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Suffering is not a permanent life sentence; it is simply a mechanical glitch in how you interpret yourself and the world. By recognizing the innate, unstained clarity of your own mind, you can systematically dismantle anxiety and touch durable inner freedom.",
+      "coreThesis": "Suffering arises from misperceiving the self as solid and independent, but because mental afflictions are adventitious and awareness is fundamentally pure, complete freedom is entirely attainable through insight and causal understanding.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Samsara, Nirvana, and Buddha Nature"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -18074,6 +18329,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-foundation-of-buddhist-practice",
+    "title": "The Foundation of Buddhist Practice",
+    "author": "Dalai Lama & Thubten Chodron",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop treating spirituality as wishful thinking and start treating it as precise, laboratory-grade mental training. This book delivers the foundational blueprint for understanding your mind, debugging your habitual reactions, and building an unshakable life of wisdom and inner peace.",
+      "coreThesis": "Genuine spiritual transformation demands rigorous intellectual investigation, disciplined daily meditation, and meticulous ethical responsibility\\u2014liberation is realized when we align our actions with the exact causal laws of mind and reality.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Foundation of Buddhist Practice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-four-foundations-of-mindfulness",
     "title": "The Four Foundations of Mindfulness",
     "author": "Sayadaw U Silananda",
@@ -18314,6 +18604,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-good-heart-a-buddhist-perspective-on-jesus",
+    "title": "The Good Heart: A Buddhist Perspective on Jesus",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1996,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When one of the world's foremost Buddhist masters reads the Christian Gospels, doctrinal walls dissolve into a luminous masterclass on unconditional love, inner silence, and universal human goodness.",
+      "coreThesis": "Genuine spirituality is measured not by intellectual adherence to dogma, but by the warmth, humility, and active compassion with which we treat every living being.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Good Heart: A Buddhist Perspective on Jesus"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -21905,6 +22230,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Workings of Kamma"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-world-of-tibetan-buddhism-philosophy-and-practice",
+    "title": "The World of Tibetan Buddhism: Philosophy and Practice",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 100,
+    "publishedYear": 1995,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "A crystal-clear, step-by-step masterclass by the Dalai Lama that demystifies Tibetan Buddhism, showing you how to turn every daily irritation into profound compassion and open-sky wisdom.",
+      "coreThesis": "Suffering stems from mistaking our fleeting ego for a permanent, solid entity; freedom arises naturally when we pair rigorous insight into our interdependence with active, warm-hearted compassion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The World of Tibetan Buddhism: Philosophy and Practice"
     },
     "reflectionExercises": [],
     "actionItems": [],
