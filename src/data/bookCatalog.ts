@@ -64,6 +64,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "broad-view-boundless-heart": "./books/broadViewBoundlessHeartExpanded.ts",
   "buddhism-and-the-ecology-of-mind": "./books/buddhismAndTheEcologyOfMindExpanded.ts",
   "buddhism-and-the-god-idea": "./books/buddhismAndTheGodIdeaExpanded.ts",
+  "buddhism-in-a-nutshell": "./books/buddhismInANutshellExpanded.ts",
   "buddhism-its-religion-and-philosophy": "./books/buddhismItsReligionAndPhilosophyExpanded.ts",
   "buddhist-dictionary-manual-of-terms-and-doctrines": "./books/buddhistDictionaryManualOfTermsAndDoctrinesExpanded.ts",
   "buddhist-legends-dhammapada-commentary-part-1": "./books/buddhistLegendsDhammapadaCommentaryPart1Expanded.ts",
@@ -165,6 +166,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "forgive-for-good": "./books/forgiveForGoodExpanded.ts",
   "four-thousand-weeks-time-management-for-mortals": "./books/fourThousandWeeksTimeManagementForMortalsExpanded.ts",
   "from-heart-to-heart-selected-dhamma-talks": "./books/fromHeartToHeartSelectedDhammaTalksExpanded.ts",
+  "fundamentals-of-buddhism": "./books/fundamentalsOfBuddhismExpanded.ts",
   "fundamentals-of-buddhism-four-lectures": "./books/fundamentalsOfBuddhismFourLecturesExpanded.ts",
   "fundamentals-of-vipassana-meditation": "./books/fundamentalsOfVipassanaMeditationExpanded.ts",
   "get-out-of-your-mind-and-into-your-life": "./books/getOutOfYourMindAndIntoYourLifeExpanded.ts",
@@ -187,6 +189,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "how-not-to-be-wrong-the-power-of-mathematical-thinking": "./books/howNotToBeWrongThePowerOfMathematicalThinkingExpanded.ts",
   "how-to-decide": "./books/howToDecideExpanded.ts",
   "how-to-have-impossible-conversations": "./books/howToHaveImpossibleConversationsExpanded.ts",
+  "how-to-live-without-fear-and-worry": "./books/howToLiveWithoutFearAndWorryExpanded.ts",
   "how-to-read-a-book": "./books/howToReadABookExpanded.ts",
   "how-to-take-smart-notes": "./books/howToTakeSmartNotesExpanded.ts",
   "how-to-win-any-argument": "./books/howToWinAnyArgumentExpanded.ts",
@@ -244,6 +247,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "make-time-how-to-focus-on-what-matters-every-day": "./books/makeTimeHowToFocusOnWhatMattersEveryDayExpanded.ts",
   "man-and-his-symbols": "./books/manAndHisSymbolsExpanded.ts",
   "man-s-search-for-meaning": "./books/manSSearchForMeaningExpanded.ts",
+  "manual-of-abhidhamma-abhidhammattha-sangaha": "./books/manualOfAbhidhammaAbhidhammatthaSangahaExpanded.ts",
   "manual-of-buddhist-vipassana-practice": "./books/manualOfBuddhistVipassanaPracticeExpanded.ts",
   "manual-of-insight": "./books/manualOfInsightExpanded.ts",
   "manual-of-insight-vipassana-dipani": "./books/manualOfInsightVipassanaDipaniExpanded.ts",
@@ -430,6 +434,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-buddha-s-ancient-path": "./books/theBuddhaSAncientPathExpanded.ts",
   "the-buddha-s-path-of-virtue": "./books/theBuddhaSPathOfVirtueExpanded.ts",
   "the-buddha-s-philosophy-of-mind": "./books/theBuddhaSPhilosophyOfMindExpanded.ts",
+  "the-buddha-s-system-of-meditation": "./books/theBuddhaSSystemOfMeditationExpanded.ts",
   "the-buddhist-monastic-code-volume-i": "./books/theBuddhistMonasticCodeVolumeIExpanded.ts",
   "the-buddhist-monastic-code-volume-ii": "./books/theBuddhistMonasticCodeVolumeIiExpanded.ts",
   "the-catalyst-how-to-change-anyone-s-mind": "./books/theCatalystHowToChangeAnyoneSMindExpanded.ts",
@@ -486,6 +491,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-genesis-of-the-bodhisattva-ideal": "./books/theGenesisOfTheBodhisattvaIdealExpanded.ts",
   "the-gifts-of-imperfection": "./books/theGiftsOfImperfectionExpanded.ts",
   "the-gracious-flow-of-dharma": "./books/theGraciousFlowOfDharmaExpanded.ts",
+  "the-great-book-of-protection-maha-paritta": "./books/theGreatBookOfProtectionMahaParittaExpanded.ts",
   "the-great-discourse-on-causation-mahanidana-sutta": "./books/theGreatDiscourseOnCausationMahanidanaSuttaExpanded.ts",
   "the-great-mental-models-vol-1-2": "./books/theGreatMentalModelsVol12Expanded.ts",
   "the-heart-of-practice-ajaan-mun-s-dhamma-sermons": "./books/theHeartOfPracticeAjaanMunSDhammaSermonsExpanded.ts",
@@ -502,6 +508,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-long-discourses-of-the-buddha-digha-nikaya": "./books/theLongDiscoursesOfTheBuddhaDighaNikayaExpanded.ts",
   "the-lucifer-effect-understanding-how-good-people-turn-evil": "./books/theLuciferEffectUnderstandingHowGoodPeopleTurnEvilExpanded.ts",
   "the-manuals-of-dhamma-collected-works": "./books/theManualsOfDhammaCollectedWorksExpanded.ts",
+  "the-mechanism-of-the-five-aggregates": "./books/theMechanismOfTheFiveAggregatesExpanded.ts",
   "the-memory-book": "./books/theMemoryBookExpanded.ts",
   "the-middle-length-discourses-of-the-buddha-majjhima-nikaya": "./books/theMiddleLengthDiscoursesOfTheBuddhaMajjhimaNikayaExpanded.ts",
   "the-mind-and-the-way-buddhist-reflections-on-life": "./books/theMindAndTheWayBuddhistReflectionsOnLifeExpanded.ts",
@@ -572,6 +579,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-suttanipata-an-ancient-collection-of-discourses": "./books/theSuttanipataAnAncientCollectionOfDiscoursesExpanded.ts",
   "the-systems-view-of-life": "./books/theSystemsViewOfLifeExpanded.ts",
   "the-thousandfold-verse-dhammapada-sahassa-vagga": "./books/theThousandfoldVerseDhammapadaSahassaVaggaExpanded.ts",
+  "the-tree-of-enlightenment": "./books/theTreeOfEnlightenmentExpanded.ts",
   "the-udana-inspired-utterances-of-the-buddha": "./books/theUdanaInspiredUtterancesOfTheBuddhaExpanded.ts",
   "the-upward-spiral": "./books/theUpwardSpiralExpanded.ts",
   "the-uses-of-argument": "./books/theUsesOfArgumentExpanded.ts",
@@ -603,6 +611,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "transcendental-dependent-arising": "./books/transcendentalDependentArisingExpanded.ts",
   "transformation-and-healing-satipatthana-sutra": "./books/transformationAndHealingSatipatthanaSutraExpanded.ts",
   "transitions-making-sense-of-life-s-changes": "./books/transitionsMakingSenseOfLifeSChangesExpanded.ts",
+  "treasure-of-the-dhamma": "./books/treasureOfTheDhammaExpanded.ts",
   "treasury-of-truth-illustrated-dhammapada": "./books/treasuryOfTruthIllustratedDhammapadaExpanded.ts",
   "treatise-on-the-vipassana-insight-practice": "./books/treatiseOnTheVipassanaInsightPracticeExpanded.ts",
   "true-love-a-practice-for-awakening-the-heart": "./books/trueLoveAPracticeForAwakeningTheHeartExpanded.ts",
@@ -622,6 +631,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "volition-the-real-mastermind-behind-kamma": "./books/volitionTheRealMastermindBehindKammaExpanded.ts",
   "was-the-buddha-a-pessimist": "./books/wasTheBuddhaAPessimistExpanded.ts",
   "we-need-to-talk-how-to-have-conversations-that-matter": "./books/weNeedToTalkHowToHaveConversationsThatMatterExpanded.ts",
+  "what-buddhists-believe": "./books/whatBuddhistsBelieveExpanded.ts",
   "what-the-buddha-taught": "./books/whatTheBuddhaTaughtExpanded.ts",
   "when-awareness-becomes-natural": "./books/whenAwarenessBecomesNaturalExpanded.ts",
   "when-i-say-no-i-feel-guilty": "./books/whenISayNoIFeelGuiltyExpanded.ts",
@@ -2872,6 +2882,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Buddhism and the God-Idea"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "buddhism-in-a-nutshell",
+    "title": "Buddhism in a Nutshell",
+    "author": "Narada Mahathera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 1933,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Buddhism is not a set of dogmas to believe, but a practical science of mental liberation you verify directly in your daily experience. Venerable Narada strips away superstition to reveal the Buddha's timeless blueprint for overcoming suffering and mastering the mind.",
+      "coreThesis": "Suffering arises not from outer circumstance, but from clinging to a phantom ego in an ever-changing world; by training the mind in ethical conduct, calm focus, and direct insight, anyone can realize unshakeable inner peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Buddhism in a Nutshell"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -6412,6 +6457,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "fundamentals-of-buddhism",
+    "title": "Fundamentals of Buddhism",
+    "author": "Peter Della Santina",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 1984,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Strip away centuries of mystical haze: Buddhism is an empirical owner's manual for your own mind. Peter Della Santina offers a serene, razor-sharp guide to resolving inner turbulence through direct awareness and practical insight.",
+      "coreThesis": "Suffering is not an inescapable fate, but a mechanical byproduct of misperceiving dynamic change as permanent and grasping after a nonexistent static self; seeing reality as it is dissolves friction and yields lasting peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Fundamentals of Buddhism"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "fundamentals-of-buddhism-four-lectures",
     "title": "Fundamentals of Buddhism: Four Lectures",
     "author": "Nyanatiloka Mahathera",
@@ -7175,6 +7255,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "how-to-live-without-fear-and-worry",
+    "title": "How to Live Without Fear and Worry",
+    "author": "K. Sri Dhammananda",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 135,
+    "publishedYear": 1989,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Fear and worry do not come from the world around you; they stem entirely from an untrained mind clutching at things it cannot keep. This masterwork reveals how practical mindfulness, ethical clarity, and daily non-attachment permanently dismantle anxiety at its root.",
+      "coreThesis": "Worry is an artificial burden born of selfish craving and resistance to natural change; understand life as it truly is, and fear loses all power over you.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "How to Live Without Fear and Worry"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -9168,6 +9283,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "manual-of-abhidhamma-abhidhammattha-sangaha",
+    "title": "Manual of Abhidhamma (Abhidhammattha Sangaha)",
+    "author": "Narada Mahathera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1956,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop mistaking the contents of your thoughts for who you are. This definitive guidebook breaks the mind into clear, workable elements, showing you precisely how each moment arises, how suffering forms, and how genuine freedom is realized right here.",
+      "coreThesis": "The mind is not a monolithic self, but a dynamic, lawful stream of momentary consciousness and mental factors that can be understood, purified, and freed from suffering.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Manual of Abhidhamma (Abhidhammattha Sangaha)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -15667,6 +15817,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-buddha-s-system-of-meditation",
+    "title": "The Buddha's System of Meditation",
+    "author": "Ayya Khema",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 1997,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop fighting your restless mind and start tuning it like a precision instrument. Ayya Khema decodes the Buddha's definitive, step-by-step meditative roadmap, showing how stillness and self-inquiry dissolve the illusion of the ego.",
+      "coreThesis": "Deep meditative concentration and radical insight are two halves of a single organic movement: stabilizing the mind dissolves inner noise, allowing direct awareness to expose the fabricated ego and unveil natural freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Buddha's System of Meditation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-buddhist-monastic-code-volume-i",
     "title": "The Buddhist Monastic Code, Volume I",
     "author": "Thanissaro Bhikkhu",
@@ -17624,6 +17809,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-great-book-of-protection-maha-paritta",
+    "title": "The Great Book of Protection (Maha Paritta)",
+    "author": "Ven. Piyadassi Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 120,
+    "publishedYear": 1975,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Real protection is not a lucky charm or an invisible shield; it is the natural resilience of a mind grounded in truth, compassion, and clear awareness. Ven. Piyadassi Thera presents the classical Buddhist sanctuary of Paritta chanting as a living psychological toolkit that dispels fear, stabilizes inner peace, and brings genuine clarity to daily life.",
+      "coreThesis": "Genuine safety cannot be purchased from without; it is the natural psychological consequence of an ethical life, a compassionate heart, and a mind anchored in reality.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Great Book of Protection (Maha Paritta)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-great-discourse-on-causation-mahanidana-sutta",
     "title": "The Great Discourse on Causation: Mahanidana Sutta",
     "author": "Bhikkhu Bodhi",
@@ -18170,6 +18390,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Manuals of Dhamma (Collected Works)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-mechanism-of-the-five-aggregates",
+    "title": "The Mechanism of the Five Aggregates",
+    "author": "Pa-Auk Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2000,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind and body are not an indivisible person; they are a five-part relay team passing the baton so fast that it creates the optical illusion of an ego. Once you see the moving gears under the hood, the entire burden of personal anxiety quietly dissolves.",
+      "coreThesis": "Human identity is not a permanent entity but a rapid five-part relay of physical and mental events; seeing how these parts interact dissolves the illusion of an ego and frees the heart from clinging.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Mechanism of the Five Aggregates"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -20627,6 +20882,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-tree-of-enlightenment",
+    "title": "The Tree of Enlightenment",
+    "author": "Peter Della Santina",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 190,
+    "publishedYear": 1997,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Demystify Buddhist thought with a master practitioner who bridges ancient wisdom and modern clarity. This comprehensive guide turns abstract eastern philosophy into practical tools for emotional freedom, mental stillness, and daily clarity.",
+      "coreThesis": "Suffering is not a life sentence, but a cognitive miscalibration caused by mistaking fluid experiences for a permanent self. By seeing through this illusion with disciplined attention and compassion, the mind unhooks from reactivity and rests in natural freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Tree of Enlightenment"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-udana-inspired-utterances-of-the-buddha",
     "title": "The Udana: Inspired Utterances of the Buddha",
     "author": "John D. Ireland",
@@ -21709,6 +21999,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "treasure-of-the-dhamma",
+    "title": "Treasure of the Dhamma",
+    "author": "K. Sri Dhammananda",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 1994,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "A timeless treasury of practical contemplative wisdom that cuts through modern mental noise to reveal the stillness already present within you. Venerable K. Sri Dhammananda distills the essential teachings of the Dhammapada into direct, grounded guidance for mastering the mind and living with compassionate clarity.",
+      "coreThesis": "Suffering and peace are self-created states of consciousness; by disciplining the mind, seeing impermanence clearly, and letting go of grasping, one discovers unshakeable inner freedom amidst everyday life.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Treasure of the Dhamma"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "treasury-of-truth-illustrated-dhammapada",
     "title": "Treasury of Truth: Illustrated Dhammapada",
     "author": "Ven. Weragoda Sarada Maha Thero",
@@ -22368,6 +22693,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "what-buddhists-believe",
+    "title": "What Buddhists Believe",
+    "author": "K. Sri Dhammananda",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 85,
+    "publishedYear": 1964,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Buddhism is not a system of blind faith or passive ritual, but a rational, empirical manual for mastering your own mind and ending suffering. Venerable Dhammananda cuts through centuries of cultural superstition to reveal an emancipatory way of life grounded in personal accountability and direct insight.",
+      "coreThesis": "Liberation is entirely in your own hands: by understanding reality as impermanent and interconnected, you cease clinging to illusions and dismantle suffering through deliberate mental culture.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "What Buddhists Believe"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]

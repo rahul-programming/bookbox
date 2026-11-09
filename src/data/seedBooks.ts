@@ -652,6 +652,16 @@ import { THE_PRACTICE_WHICH_LEADS_TO_NIBBANA_BOOK } from './books/thePracticeWhi
 import { TOWARD_ETERNAL_PEACE_DISCOURSE_ON_NIBBANA_BOOK } from './books/towardEternalPeaceDiscourseOnNibbanaExpanded';
 import { A_CHARIOT_TO_NIBBANA_STAGES_OF_AWAKENING_BOOK } from './books/aChariotToNibbanaStagesOfAwakeningExpanded';
 import { TEACHING_AND_TRAINING_AT_PA_AUK_MONASTERY_BOOK } from './books/teachingAndTrainingAtPaAukMonasteryExpanded';
+import { THE_MECHANISM_OF_THE_FIVE_AGGREGATES_BOOK } from './books/theMechanismOfTheFiveAggregatesExpanded';
+import { THE_TREE_OF_ENLIGHTENMENT_BOOK } from './books/theTreeOfEnlightenmentExpanded';
+import { FUNDAMENTALS_OF_BUDDHISM_BOOK } from './books/fundamentalsOfBuddhismExpanded';
+import { WHAT_BUDDHISTS_BELIEVE_BOOK } from './books/whatBuddhistsBelieveExpanded';
+import { HOW_TO_LIVE_WITHOUT_FEAR_AND_WORRY_BOOK } from './books/howToLiveWithoutFearAndWorryExpanded';
+import { TREASURE_OF_THE_DHAMMA_BOOK } from './books/treasureOfTheDhammaExpanded';
+import { BUDDHISM_IN_A_NUTSHELL_BOOK } from './books/buddhismInANutshellExpanded';
+import { MANUAL_OF_ABHIDHAMMA_ABHIDHAMMATTHA_SANGAHA_BOOK } from './books/manualOfAbhidhammaAbhidhammatthaSangahaExpanded';
+import { THE_GREAT_BOOK_OF_PROTECTION_MAHA_PARITTA_BOOK } from './books/theGreatBookOfProtectionMahaParittaExpanded';
+import { THE_BUDDHA_S_SYSTEM_OF_MEDITATION_BOOK } from './books/theBuddhaSSystemOfMeditationExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -1304,7 +1314,17 @@ export const SEED_BOOKS: Book[] = [
   THE_PRACTICE_WHICH_LEADS_TO_NIBBANA_BOOK,
   TOWARD_ETERNAL_PEACE_DISCOURSE_ON_NIBBANA_BOOK,
   A_CHARIOT_TO_NIBBANA_STAGES_OF_AWAKENING_BOOK,
-  TEACHING_AND_TRAINING_AT_PA_AUK_MONASTERY_BOOK
+  TEACHING_AND_TRAINING_AT_PA_AUK_MONASTERY_BOOK,
+  THE_MECHANISM_OF_THE_FIVE_AGGREGATES_BOOK,
+  THE_TREE_OF_ENLIGHTENMENT_BOOK,
+  FUNDAMENTALS_OF_BUDDHISM_BOOK,
+  WHAT_BUDDHISTS_BELIEVE_BOOK,
+  HOW_TO_LIVE_WITHOUT_FEAR_AND_WORRY_BOOK,
+  TREASURE_OF_THE_DHAMMA_BOOK,
+  BUDDHISM_IN_A_NUTSHELL_BOOK,
+  MANUAL_OF_ABHIDHAMMA_ABHIDHAMMATTHA_SANGAHA_BOOK,
+  THE_GREAT_BOOK_OF_PROTECTION_MAHA_PARITTA_BOOK,
+  THE_BUDDHA_S_SYSTEM_OF_MEDITATION_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -1959,7 +1979,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(THE_PRACTICE_WHICH_LEADS_TO_NIBBANA_BOOK.ideaCards || []),
   ...(TOWARD_ETERNAL_PEACE_DISCOURSE_ON_NIBBANA_BOOK.ideaCards || []),
   ...(A_CHARIOT_TO_NIBBANA_STAGES_OF_AWAKENING_BOOK.ideaCards || []),
-  ...(TEACHING_AND_TRAINING_AT_PA_AUK_MONASTERY_BOOK.ideaCards || [])
+  ...(TEACHING_AND_TRAINING_AT_PA_AUK_MONASTERY_BOOK.ideaCards || []),
+  ...(THE_MECHANISM_OF_THE_FIVE_AGGREGATES_BOOK.ideaCards || []),
+  ...(THE_TREE_OF_ENLIGHTENMENT_BOOK.ideaCards || []),
+  ...(FUNDAMENTALS_OF_BUDDHISM_BOOK.ideaCards || []),
+  ...(WHAT_BUDDHISTS_BELIEVE_BOOK.ideaCards || []),
+  ...(HOW_TO_LIVE_WITHOUT_FEAR_AND_WORRY_BOOK.ideaCards || []),
+  ...(TREASURE_OF_THE_DHAMMA_BOOK.ideaCards || []),
+  ...(BUDDHISM_IN_A_NUTSHELL_BOOK.ideaCards || []),
+  ...(MANUAL_OF_ABHIDHAMMA_ABHIDHAMMATTHA_SANGAHA_BOOK.ideaCards || []),
+  ...(THE_GREAT_BOOK_OF_PROTECTION_MAHA_PARITTA_BOOK.ideaCards || []),
+  ...(THE_BUDDHA_S_SYSTEM_OF_MEDITATION_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
