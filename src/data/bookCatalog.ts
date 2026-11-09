@@ -39,6 +39,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "analysis-of-the-immaterial-realm-arupa-loka": "./books/analysisOfTheImmaterialRealmArupaLokaExpanded.ts",
   "analysis-of-the-sensuous-realm-kama-loka": "./books/analysisOfTheSensuousRealmKamaLokaExpanded.ts",
   "ananda-the-guardian-of-the-dhamma": "./books/anandaTheGuardianOfTheDhammaExpanded.ts",
+  "anapanasati-unveiling-the-secrets-of-life": "./books/anapanasatiUnveilingTheSecretsOfLifeExpanded.ts",
   "anatta-and-nibbana-egolessness-and-deliverance": "./books/anattaAndNibbanaEgolessnessAndDeliveranceExpanded.ts",
   "anger-wisdom-for-cooling-the-flames": "./books/angerWisdomForCoolingTheFlamesExpanded.ts",
   "angulimala-a-murderer-s-road-to-sainthood": "./books/angulimalaAMurdererSRoadToSainthoodExpanded.ts",
@@ -68,6 +69,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "boundaries-when-to-say-yes-how-to-say-no-to-take-control-of-": "./books/boundariesWhenToSayYesHowToSayNoToTakeControlOfExpanded.ts",
   "brahmavihara-the-four-immeasurables-in-early-buddhism": "./books/brahmaviharaTheFourImmeasurablesInEarlyBuddhismExpanded.ts",
   "breakthrough-realizing-the-deathless-in-this-life": "./books/breakthroughRealizingTheDeathlessInThisLifeExpanded.ts",
+  "breath-by-breath-the-liberating-practice-of-insight": "./books/breathByBreathTheLiberatingPracticeOfInsightExpanded.ts",
   "breath-the-new-science-of-a-lost-art": "./books/breathTheNewScienceOfALostArtExpanded.ts",
   "breathe-you-are-alive-anapanasati-sutra": "./books/breatheYouAreAliveAnapanasatiSutraExpanded.ts",
   "breathing-like-a-buddha": "./books/breathingLikeABuddhaExpanded.ts",
@@ -101,6 +103,8 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "connecting-across-differences": "./books/connectingAcrossDifferencesExpanded.ts",
   "contagious-why-things-catch-on": "./books/contagiousWhyThingsCatchOnExpanded.ts",
   "contemplation-of-dhamma-the-fourth-foundation": "./books/contemplationOfDhammaTheFourthFoundationExpanded.ts",
+  "contemplation-of-feeling-the-second-foundation": "./books/contemplationOfFeelingTheSecondFoundationExpanded.ts",
+  "contemplation-of-the-mind-the-third-foundation": "./books/contemplationOfTheMindTheThirdFoundationExpanded.ts",
   "continuous-mindfulness-in-dynamic-living": "./books/continuousMindfulnessInDynamicLivingExpanded.ts",
   "conversational-intelligence-how-great-leaders-build-trust-an": "./books/conversationalIntelligenceHowGreatLeadersBuildTrustAnExpanded.ts",
   "cracking-the-walnut-secret-teachings-on-awakening": "./books/crackingTheWalnutSecretTeachingsOnAwakeningExpanded.ts",
@@ -289,6 +293,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "manual-of-insight": "./books/manualOfInsightExpanded.ts",
   "manual-of-insight-vipassana-dipani": "./books/manualOfInsightVipassanaDipaniExpanded.ts",
   "manual-of-light-alin-kyan": "./books/manualOfLightAlinKyanExpanded.ts",
+  "manual-of-mindfulness-of-breathing-anapana-dipani": "./books/manualOfMindfulnessOfBreathingAnapanaDipaniExpanded.ts",
   "manual-of-non-self-anatta-dipani": "./books/manualOfNonSelfAnattaDipaniExpanded.ts",
   "manual-of-right-view-ditthi-dipani": "./books/manualOfRightViewDitthiDipaniExpanded.ts",
   "manual-of-the-factors-of-enlightenment-bodhipakkhiya-dipani": "./books/manualOfTheFactorsOfEnlightenmentBodhipakkhiyaDipaniExpanded.ts",
@@ -317,12 +322,16 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "mindfully-facing-disease-and-death": "./books/mindfullyFacingDiseaseAndDeathExpanded.ts",
   "mindfulness-a-practical-guide-to-awakening-vol-1-body": "./books/mindfulnessAPracticalGuideToAwakeningVol1BodyExpanded.ts",
   "mindfulness-a-practical-guide-to-awakening-vol-2-feelings": "./books/mindfulnessAPracticalGuideToAwakeningVol2FeelingsExpanded.ts",
+  "mindfulness-a-practical-guide-to-awakening-vol-3-mind": "./books/mindfulnessAPracticalGuideToAwakeningVol3MindExpanded.ts",
+  "mindfulness-a-practical-guide-to-awakening-vol-4-dhammas": "./books/mindfulnessAPracticalGuideToAwakeningVol4DhammasExpanded.ts",
   "mindfulness-bliss-and-beyond-a-meditator-s-handbook": "./books/mindfulnessBlissAndBeyondAMeditatorSHandbookExpanded.ts",
   "mindfulness-for-health-and-vitality": "./books/mindfulnessForHealthAndVitalityExpanded.ts",
   "mindfulness-of-breathing-a-practice-guide-and-translations": "./books/mindfulnessOfBreathingAPracticeGuideAndTranslationsExpanded.ts",
+  "mindfulness-of-breathing-buddhist-texts-commentaries": "./books/mindfulnessOfBreathingBuddhistTextsCommentariesExpanded.ts",
   "mindfulness-of-breathing-four-elements-meditation": "./books/mindfulnessOfBreathingFourElementsMeditationExpanded.ts",
   "mindfulness-of-the-body-the-first-foundation": "./books/mindfulnessOfTheBodyTheFirstFoundationExpanded.ts",
   "mindfulness-the-path-to-the-deathless": "./books/mindfulnessThePathToTheDeathlessExpanded.ts",
+  "mindfulness-with-breathing-a-manual-for-beginners": "./books/mindfulnessWithBreathingAManualForBeginnersExpanded.ts",
   "mindscience-an-east-west-dialogue": "./books/mindscienceAnEastWestDialogueExpanded.ts",
   "mindset-the-new-psychology-of-success": "./books/mindsetTheNewPsychologyOfSuccessExpanded.ts",
   "mini-habits": "./books/miniHabitsExpanded.ts",
@@ -556,6 +565,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-forty-rules-of-love": "./books/theFortyRulesOfLoveExpanded.ts",
   "the-foundation-conditions-for-nirvana": "./books/theFoundationConditionsForNirvanaExpanded.ts",
   "the-foundation-of-buddhist-practice": "./books/theFoundationOfBuddhistPracticeExpanded.ts",
+  "the-foundations-of-mindfulness-sutta-translation-guide": "./books/theFoundationsOfMindfulnessSuttaTranslationGuideExpanded.ts",
   "the-four-foundations-of-mindfulness": "./books/theFourFoundationsOfMindfulnessExpanded.ts",
   "the-four-foundations-of-mindfulness-in-plain-english": "./books/theFourFoundationsOfMindfulnessInPlainEnglishExpanded.ts",
   "the-four-noble-truths": "./books/theFourNobleTruthsExpanded.ts",
@@ -2122,6 +2132,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "anapanasati-unveiling-the-secrets-of-life",
+    "title": "Anapanasati: Unveiling the Secrets of Life",
+    "author": "Buddhadasa Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1988,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your breath is not just air\\u2014it is the direct operating dashboard of your nervous system, mind, and emotional freedom. Buddhadasa Bhikkhu strips away centuries of ritualistic dust to offer a hands-on manual for mastering every layer of your inner life with each simple inhalation and exhalation.",
+      "coreThesis": "Total psychological freedom is not found in esoteric trances or far-off temples, but in clearly understanding and steadying your body, emotions, and mind through direct, natural breath awareness in the present moment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Anapanasati: Unveiling the Secrets of Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "anatta-and-nibbana-egolessness-and-deliverance",
     "title": "Anatta and Nibbana: Egolessness and Deliverance",
     "author": "Nyanaponika Thera",
@@ -3122,6 +3167,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Breakthrough: Realizing the Deathless in This Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "breath-by-breath-the-liberating-practice-of-insight",
+    "title": "Breath by Breath: The Liberating Practice of Insight",
+    "author": "Larry Rosenberg",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1998,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your breath is an ever-present sanctuary and a precision instrument for waking up from the trance of daily stress. Larry Rosenberg illuminates the ancient Anapanasati practice as an accessible, direct path to profound emotional freedom and inner silence.",
+      "coreThesis": "Mindfulness of breathing is a complete, self-contained vehicle for liberation that steadies the nervous system, illuminates mental fabrications, and reveals the profound freedom of living without clinging.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Breath by Breath: The Liberating Practice of Insight"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -4275,6 +4355,76 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Contemplation of Dhamma: The Fourth Foundation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "contemplation-of-feeling-the-second-foundation",
+    "title": "Contemplation of Feeling: The Second Foundation",
+    "author": "Nyanaponika Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1983,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Every emotional storm in human life begins with an unnoticed spark of bare physical or mental sensation. By learning to observe this raw sensory tone before reaction takes over, you intercept stress at its root and claim genuine inner freedom.",
+      "coreThesis": "Suffering does not arise from sensations themselves, but from blindly reacting to their hedonic tone; observing feeling with bare, detached awareness dissolves craving and aversion at their exact point of origin.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Contemplation of Feeling: The Second Foundation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "contemplation-of-the-mind-the-third-foundation",
+    "title": "Contemplation of the Mind: The Third Foundation",
+    "author": "Joseph Goldstein",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop getting pushed around by the turbulent weather inside your head. Joseph Goldstein reveals how stepping back into raw, non-judgmental awareness turns your mind from a chaotic storm into clear, tranquil open space.",
+      "coreThesis": "The mind is not a fixed personal self, but an impermanent flow of conditioned mental states that dissolve harmlessly when met with lucid, non-reactive awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Contemplation of the Mind: The Third Foundation"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -10858,6 +11008,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "manual-of-mindfulness-of-breathing-anapana-dipani",
+    "title": "Manual of Mindfulness of Breathing (Anapana Dipani)",
+    "author": "Ven. Ledi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1961,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your breath is a built-in compass for inner peace that travels with you everywhere. Venerable Ledi Sayadaw shows how observing simple in-and-out breaths systematically dissolves anxiety, stabilizes focus, and opens the door to complete emotional liberation.",
+      "coreThesis": "Deliberate, steady awareness of the natural breath calms mental turbulence and reveals that all suffering arises from grasping at passing phenomena, unlocking enduring peace and clarity in ordinary daily life.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Manual of Mindfulness of Breathing (Anapana Dipani)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "manual-of-non-self-anatta-dipani",
     "title": "Manual of Non-Self (Anatta Dipani)",
     "author": "Ven. Ledi Sayadaw",
@@ -11837,6 +12022,76 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "mindfulness-a-practical-guide-to-awakening-vol-3-mind",
+    "title": "Mindfulness: A Practical Guide to Awakening (Vol 3 - Mind)",
+    "author": "Joseph Goldstein",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 220,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mindfulness is not a temporary relaxation pill for a busy day; it is a meticulous, step-by-step master key to genuine spiritual awakening. By learning to observe the direct texture of your mind and body without grasping or resistance, you dismantle lifelong suffering and uncover radiant inner peace.",
+      "coreThesis": "Suffering dissolves when we stop mistaking transient mental and physical events for a solid self, using bare, continuous mindfulness to step into immediate unconditioned freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mindfulness: A Practical Guide to Awakening (Vol 3 - Mind)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "mindfulness-a-practical-guide-to-awakening-vol-4-dhammas",
+    "title": "Mindfulness: A Practical Guide to Awakening (Vol 4 - Dhammas)",
+    "author": "Joseph Goldstein",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 220,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mindfulness is not a temporary stress-relief tool; it is a systematic laboratory manual for mental liberation. Joseph Goldstein unlocks the profound fourth foundation of mindfulness\\u2014Dhammas\\u2014showing how clear observation deconstructs everyday suffering into pure freedom.",
+      "coreThesis": "Suffering occurs because we misidentify fluid sensory phenomena as a permanent 'self.' By systematically observing the natural laws of mental experience without clinging or aversion, the mind liberates itself into natural, unconditioned peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mindfulness: A Practical Guide to Awakening (Vol 4 - Dhammas)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "mindfulness-bliss-and-beyond-a-meditator-s-handbook",
     "title": "Mindfulness, Bliss, and Beyond: A Meditator's Handbook",
     "author": "Ajahn Brahm",
@@ -11942,6 +12197,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "mindfulness-of-breathing-buddhist-texts-commentaries",
+    "title": "Mindfulness of Breathing: Buddhist Texts & Commentaries",
+    "author": "Bhikkhu Nanamoli",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1952,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your breath is not just air moving through your lungs; it is a built-in compass pointing straight back to clear presence. This book delivers the ancient, time-tested manual on how observing everyday breathing systematically frees your mind from stress, distraction, and ego.",
+      "coreThesis": "Breath is the universal bridge between physical body and silent mind; resting steady, non-judgmental attention on respiration dissolves reactivity and reveals natural liberation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mindfulness of Breathing: Buddhist Texts & Commentaries"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "mindfulness-of-breathing-four-elements-meditation",
     "title": "Mindfulness of Breathing & Four Elements Meditation",
     "author": "Pa-Auk Sayadaw",
@@ -12035,6 +12325,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Mindfulness: The Path to the Deathless"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "mindfulness-with-breathing-a-manual-for-beginners",
+    "title": "Mindfulness with Breathing: A Manual for Beginners",
+    "author": "Buddhadasa Bhikkhu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1988,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your breath is not just air moving through lungs; it is the master steering wheel of your mind, nervous system, and emotional freedom. Buddhadasa Bhikkhu delivers a crystal-clear, step-by-step masterclass on how to use every inhalation and exhalation to dismantle stress, drop inner friction, and awaken to natural peace.",
+      "coreThesis": "Suffering occurs when we cling to ever-changing bodily states, emotions, and thoughts; by anchoring attention in the breath across its natural stages, we awaken to impermanence and step into unshakeable inner peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mindfulness with Breathing: A Manual for Beginners"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -20172,6 +20497,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Foundation of Buddhist Practice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-foundations-of-mindfulness-sutta-translation-guide",
+    "title": "The Foundations of Mindfulness: Sutta Translation & Guide",
+    "author": "Bhikkhu Bodhi",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1995,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mindfulness is not a temporary relaxation trick; it is an exact, radical inspection of your immediate experience that dissolves compulsive suffering at its root. Bhikkhu Bodhi's canonical translation provides the timeless operating manual for observing body, sensation, mind, and reality with total clarity.",
+      "coreThesis": "Suffering dissolves when you stop fighting your moment-to-moment experience and instead observe body, feelings, mind, and natural laws with lucid, non-clinging presence.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Foundations of Mindfulness: Sutta Translation & Guide"
     },
     "reflectionExercises": [],
     "actionItems": [],
