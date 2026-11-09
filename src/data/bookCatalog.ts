@@ -26,6 +26,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "abhidhamma-in-practice": "./books/abhidhammaInPracticeExpanded.ts",
   "abundant-exalted-immeasurable-the-brahmaviharas": "./books/abundantExaltedImmeasurableTheBrahmaviharasExpanded.ts",
   "algorithms-to-live-by": "./books/algorithmsToLiveByExpanded.ts",
+  "all-of-us-beset-by-birth-decay-and-death": "./books/allOfUsBesetByBirthDecayAndDeathExpanded.ts",
   "alone-together-why-we-expect-more-from-technology-and-less-f": "./books/aloneTogetherWhyWeExpectMoreFromTechnologyAndLessFExpanded.ts",
   "an-analysis-of-the-sutta-nipata": "./books/anAnalysisOfTheSuttaNipataExpanded.ts",
   "an-illustrated-book-of-bad-arguments": "./books/anIllustratedBookOfBadArgumentsExpanded.ts",
@@ -47,6 +48,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "becoming-a-supple-leopard": "./books/becomingASuppleLeopardExpanded.ts",
   "being-dharma-the-essence-of-the-buddha-s-teachings": "./books/beingDharmaTheEssenceOfTheBuddhaSTeachingsExpanded.ts",
   "being-logical-a-guide-to-good-thinking": "./books/beingLogicalAGuideToGoodThinkingExpanded.ts",
+  "being-nobody-going-nowhere-meditations-on-the-path": "./books/beingNobodyGoingNowhereMeditationsOnThePathExpanded.ts",
   "better-than-before": "./books/betterThanBeforeExpanded.ts",
   "beyond-all-directions-essays-on-nirvana": "./books/beyondAllDirectionsEssaysOnNirvanaExpanded.ts",
   "beyond-mindfulness-in-plain-english": "./books/beyondMindfulnessInPlainEnglishExpanded.ts",
@@ -173,6 +175,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "getting-past-no-negotiating-with-difficult-people": "./books/gettingPastNoNegotiatingWithDifficultPeopleExpanded.ts",
   "getting-things-done-the-art-of-stress-free-productivity": "./books/gettingThingsDoneTheArtOfStressFreeProductivityExpanded.ts",
   "getting-to-yes-negotiating-agreement-without-giving-in": "./books/gettingToYesNegotiatingAgreementWithoutGivingInExpanded.ts",
+  "give-it-up-and-be-happy": "./books/giveItUpAndBeHappyExpanded.ts",
   "going-for-refuge-and-taking-the-precepts": "./books/goingForRefugeAndTakingThePreceptsExpanded.ts",
   "going-home-jesus-and-buddha-as-brothers": "./books/goingHomeJesusAndBuddhaAsBrothersExpanded.ts",
   "good-reasons-for-better-arguments": "./books/goodReasonsForBetterArgumentsExpanded.ts",
@@ -194,6 +197,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "how-to-take-smart-notes": "./books/howToTakeSmartNotesExpanded.ts",
   "how-to-win-any-argument": "./books/howToWinAnyArgumentExpanded.ts",
   "humble-inquiry-the-gentle-art-of-asking-instead-of-telling": "./books/humbleInquiryTheGentleArtOfAskingInsteadOfTellingExpanded.ts",
+  "i-give-you-my-life-the-autobiography-of-ayya-khema": "./books/iGiveYouMyLifeTheAutobiographyOfAyyaKhemaExpanded.ts",
   "i-hear-you-the-surprisingly-simple-skill-behind-extraordinar": "./books/iHearYouTheSurprisinglySimpleSkillBehindExtraordinarExpanded.ts",
   "i-thought-it-was-just-me-but-it-isn-t": "./books/iThoughtItWasJustMeButItIsnTExpanded.ts",
   "ikigai-the-japanese-secret-to-a-long-and-happy-life": "./books/ikigaiTheJapaneseSecretToALongAndHappyLifeExpanded.ts",
@@ -224,6 +228,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "keeping-the-breath-in-mind-lessons-in-samadhi": "./books/keepingTheBreathInMindLessonsInSamadhiExpanded.ts",
   "kill-it-with-fire-manage-aging-computer-systems-and-communic": "./books/killItWithFireManageAgingComputerSystemsAndCommunicExpanded.ts",
   "king-warrior-magician-lover": "./books/kingWarriorMagicianLoverExpanded.ts",
+  "know-your-mind-the-four-foundations-of-mindfulness": "./books/knowYourMindTheFourFoundationsOfMindfulnessExpanded.ts",
   "knowing-and-seeing-teachings-of-pa-auk-monastery": "./books/knowingAndSeeingTeachingsOfPaAukMonasteryExpanded.ts",
   "learn-like-a-pro": "./books/learnLikeAProExpanded.ts",
   "learned-optimism": "./books/learnedOptimismExpanded.ts",
@@ -417,6 +422,8 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-art-of-dialogue": "./books/theArtOfDialogueExpanded.ts",
   "the-art-of-disappearing-the-path-to-lasting-joy": "./books/theArtOfDisappearingThePathToLastingJoyExpanded.ts",
   "the-art-of-everyday-assertiveness": "./books/theArtOfEverydayAssertivenessExpanded.ts",
+  "the-art-of-happiness-a-handbook-for-living": "./books/theArtOfHappinessAHandbookForLivingExpanded.ts",
+  "the-art-of-happiness-at-work": "./books/theArtOfHappinessAtWorkExpanded.ts",
   "the-art-of-living-vipassana-meditation": "./books/theArtOfLivingVipassanaMeditationExpanded.ts",
   "the-art-of-note-taking": "./books/theArtOfNoteTakingExpanded.ts",
   "the-art-of-persuasion": "./books/theArtOfPersuasionExpanded.ts",
@@ -628,6 +635,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "vipassana-meditation-guidelines": "./books/vipassanaMeditationGuidelinesExpanded.ts",
   "vipassana-meditation-lectures-on-insight": "./books/vipassanaMeditationLecturesOnInsightExpanded.ts",
   "vipassana-talks-from-mahasi-sasana-yeiktha": "./books/vipassanaTalksFromMahasiSasanaYeikthaExpanded.ts",
+  "visible-here-and-now-the-buddha-s-teachings": "./books/visibleHereAndNowTheBuddhaSTeachingsExpanded.ts",
   "volition-the-real-mastermind-behind-kamma": "./books/volitionTheRealMastermindBehindKammaExpanded.ts",
   "was-the-buddha-a-pessimist": "./books/wasTheBuddhaAPessimistExpanded.ts",
   "we-need-to-talk-how-to-have-conversations-that-matter": "./books/weNeedToTalkHowToHaveConversationsThatMatterExpanded.ts",
@@ -636,9 +644,11 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "when-awareness-becomes-natural": "./books/whenAwarenessBecomesNaturalExpanded.ts",
   "when-i-say-no-i-feel-guilty": "./books/whenISayNoIFeelGuiltyExpanded.ts",
   "when-panic-attacks": "./books/whenPanicAttacksExpanded.ts",
+  "when-the-iron-eagle-flies-buddhism-for-the-west": "./books/whenTheIronEagleFliesBuddhismForTheWestExpanded.ts",
   "when-the-scientific-secrets-of-perfect-timing": "./books/whenTheScientificSecretsOfPerfectTimingExpanded.ts",
   "where-to-draw-the-line-how-to-set-healthy-boundaries-every-d": "./books/whereToDrawTheLineHowToSetHealthyBoundariesEveryDExpanded.ts",
   "who-gets-what-and-why": "./books/whoGetsWhatAndWhyExpanded.ts",
+  "who-is-my-self-a-guide-to-buddhist-meditation": "./books/whoIsMySelfAGuideToBuddhistMeditationExpanded.ts",
   "who-moved-my-cheese": "./books/whoMovedMyCheeseExpanded.ts",
   "why-we-get-sick": "./books/whyWeGetSickExpanded.ts",
   "why-we-sleep-unlocking-the-power-of-sleep-and-dreams": "./books/whyWeSleepUnlockingThePowerOfSleepAndDreamsExpanded.ts",
@@ -1567,6 +1577,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "all-of-us-beset-by-birth-decay-and-death",
+    "title": "All of Us: Beset by Birth, Decay, and Death",
+    "author": "Ayya Khema",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 1987,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Every human is bound to the same inescapable journey of birth, aging, and decline. Ayya Khema hands you the blueprint to build an unshakeable inner island of peace right in the middle of life's stormy seas.",
+      "coreThesis": "Suffering is not caused by life's inevitable impermanence, but by our desperate struggle to anchor an ego to things that change; liberating peace comes from stepping down as 'somebody' and establishing a disciplined inner sanctuary.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "All of Us: Beset by Birth, Decay, and Death"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "alone-together-why-we-expect-more-from-technology-and-less-f",
     "title": "Alone Together: Why We Expect More from Technology and Less from Each Other",
     "author": "Sherry Turkle",
@@ -2295,6 +2340,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "being-nobody-going-nowhere-meditations-on-the-path",
+    "title": "Being Nobody, Going Nowhere: Meditations on the Path",
+    "author": "Ayya Khema",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 1987,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop exhausting yourself trying to build an empire out of your ego. When you drop the heavy luggage of being a 'somebody' rushing 'somewhere', genuine freedom and quiet joy meet you right where you sit.",
+      "coreThesis": "Suffering stems from the exhausting urge to manufacture and protect a solid identity; true, unshakable peace arises when you drop the burden of self-importance and settle into bare, open awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Being Nobody, Going Nowhere: Meditations on the Path"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -6702,6 +6782,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "give-it-up-and-be-happy",
+    "title": "Give It Up and Be Happy",
+    "author": "Ayya Khema",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1989,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Happiness does not come from piling more onto your plate, but from having the courage to set down what you never needed to carry. Ayya Khema offers a clear, compassionate roadmap for trading the exhaustion of endless craving for the unshakeable peace of an unburdened mind.",
+      "coreThesis": "Genuine, lasting happiness is not an achievement of accumulation, but the profound freedom that arises when you voluntarily release your craving to control, defend, and possess.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Give It Up and Be Happy"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "going-for-refuge-and-taking-the-precepts",
     "title": "Going for Refuge and Taking the Precepts",
     "author": "Bhikkhu Bodhi",
@@ -7430,6 +7545,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "i-give-you-my-life-the-autobiography-of-ayya-khema",
+    "title": "I Give You My Life: The Autobiography of Ayya Khema",
+    "author": "Ayya Khema",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1998,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Before she became one of the twentieth century's most revered Buddhist meditation masters, Ayya Khema survived Nazi terror, wartime internment in China, and suburban California domesticity. This extraordinary memoir illuminates how a lifetime of tumultuous upheaval transformed into total inner liberation and selfless spiritual service.",
+      "coreThesis": "True freedom is not found by finding a safe corner in an unpredictable world, but by relinquishing the illusion of an isolated self and transforming one's life into openhanded awareness and selfless service.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "I Give You My Life: The Autobiography of Ayya Khema"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -8480,6 +8630,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "know-your-mind-the-four-foundations-of-mindfulness",
+    "title": "Know Your Mind: The Four Foundations of Mindfulness",
+    "author": "Ayya Khema",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 1991,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind creates your entire experience of reality, yet most people let it run like an unruly driverless vehicle. Ayya Khema hands you the keys to your inner world, demonstrating how steady mindfulness and deep calm dismantle the anxious ego and open a wellspring of quiet freedom.",
+      "coreThesis": "Suffering is simply the reflex of an untrained mind grasping at pleasant moments and resisting unpleasant ones; knowing your mind through steady observation dissolves the illusion of ego and reveals lasting inner freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Know Your Mind: The Four Foundations of Mindfulness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -15219,6 +15404,76 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-art-of-happiness-a-handbook-for-living",
+    "title": "The Art of Happiness: A Handbook for Living",
+    "author": "Dalai Lama & Howard C. Cutler",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 1998,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Happiness is not a lucky lottery ticket\\u2014it is an internal craft you build with steady practice. By blending Eastern contemplative discipline with Western psychology, this guide shows you how to anchor an unshakable inner peace amid life's inevitable storms.",
+      "coreThesis": "The fundamental purpose of human life is happiness, and this state is achievable not through external acquisition, but by systematically training the mind through compassion, perspective, and emotional awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Art of Happiness: A Handbook for Living"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-art-of-happiness-at-work",
+    "title": "The Art of Happiness at Work",
+    "author": "Dalai Lama & Howard C. Cutler",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2003,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your job cannot make you happy or miserable on its own\\u2014the mind that meets the job determines everything. By cultivating inner clarity and active compassion, any workplace becomes fertile ground for peace and purposeful living.",
+      "coreThesis": "Workplace joy does not depend on changing your job, but on transforming your mind. When you replace ego-defense with compassion, realistic appraisal, and ethical purpose, work becomes an avenue for genuine peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Art of Happiness at Work"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -22593,6 +22848,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "visible-here-and-now-the-buddha-s-teachings",
+    "title": "Visible Here and Now: The Buddha's Teachings",
+    "author": "Ayya Khema",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2001,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Spiritual freedom is not a delayed reward reserved for an afterlife\\u2014it is a practical, tangible transformation of consciousness available in this very breath. Ayya Khema takes one of the Buddha's most famous discourses and turns it into a transparent blueprint for mastering the mind and tasting unconditional inner peace.",
+      "coreThesis": "Enlightenment is not a post-mortem promise or esoteric mystery, but an immediate psychological reality attained by systematically decluttering the senses, steadying attention, and tasting the profound stillness already present within consciousness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Visible Here and Now: The Buddha's Teachings"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "volition-the-real-mastermind-behind-kamma",
     "title": "Volition: The Real Mastermind Behind Kamma",
     "author": "Sayadaw U Silananda",
@@ -22873,6 +23163,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "when-the-iron-eagle-flies-buddhism-for-the-west",
+    "title": "When the Iron Eagle Flies: Buddhism for the West",
+    "author": "Ayya Khema",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 1991,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When the mind stops wrestling with reality, an unshakeable inner peace reveals itself. Ayya Khema demystifies deep Buddhist contemplation, showing modern adults how to transform everyday stress into clear, radiant liberation.",
+      "coreThesis": "Suffering is not caused by external life events, but by our compulsive clinging to transient sensations; by steadying the mind in quiet joy and observing reality without grasping, we uncover lasting inner freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "When the Iron Eagle Flies: Buddhism for the West"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "when-the-scientific-secrets-of-perfect-timing",
     "title": "When: The Scientific Secrets of Perfect Timing",
     "author": "Daniel H. Pink",
@@ -22973,6 +23298,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "who-is-my-self-a-guide-to-buddhist-meditation",
+    "title": "Who Is My Self? A Guide to Buddhist Meditation",
+    "author": "Ayya Khema",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 1997,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Grounding profound ancient wisdom in everyday direct experience, Ayya Khema reveals that genuine peace comes from dismantling the exhausting illusion of a separate ego through structured meditative absorption. This book provides a step-by-step masterclass on settling the mind so deeply that the true, selfless nature of reality becomes self-evident.",
+      "coreThesis": "The ego is not a permanent entity to be defended or improved, but a temporary mental construct; by settling the mind into profound meditative stillness, we see through this illusion and awaken to effortless inner freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Who Is My Self? A Guide to Buddhist Meditation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
