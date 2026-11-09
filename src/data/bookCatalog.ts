@@ -118,6 +118,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "crucial-conversations-tools-for-talking-when-stakes-are-high": "./books/crucialConversationsToolsForTalkingWhenStakesAreHighExpanded.ts",
   "curation-the-power-of-selection-in-a-world-of-excess": "./books/curationThePowerOfSelectionInAWorldOfExcessExpanded.ts",
   "dana-the-practice-of-giving": "./books/danaThePracticeOfGivingExpanded.ts",
+  "dangerous-personalities": "./books/dangerousPersonalitiesExpanded.ts",
   "daring-greatly": "./books/daringGreatlyExpanded.ts",
   "daughters-and-sons-buddhist-wisdom-on-parenting": "./books/daughtersAndSonsBuddhistWisdomOnParentingExpanded.ts",
   "dbt-skills-training-handouts-and-worksheets": "./books/dbtSkillsTrainingHandoutsAndWorksheetsExpanded.ts",
@@ -202,6 +203,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "fundamentals-of-buddhism-four-lectures": "./books/fundamentalsOfBuddhismFourLecturesExpanded.ts",
   "fundamentals-of-vipassana-meditation": "./books/fundamentalsOfVipassanaMeditationExpanded.ts",
   "gaining-inner-peace-through-satipatthana": "./books/gainingInnerPeaceThroughSatipatthanaExpanded.ts",
+  "gaslighting-recognize-manipulative-and-emotionally-abusive-p": "./books/gaslightingRecognizeManipulativeAndEmotionallyAbusivePExpanded.ts",
   "gentle-bridges-conversations-with-the-dalai-lama-on-mind-sciences": "./books/gentleBridgesConversationsWithTheDalaiLamaOnMindSciencesExpanded.ts",
   "get-out-of-your-mind-and-into-your-life": "./books/getOutOfYourMindAndIntoYourLifeExpanded.ts",
   "getting-past-no-negotiating-with-difficult-people": "./books/gettingPastNoNegotiatingWithDifficultPeopleExpanded.ts",
@@ -473,6 +475,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "stick-with-it": "./books/stickWithItExpanded.ts",
   "stillness-flowing-the-life-and-teachings-of-ajahn-chah": "./books/stillnessFlowingTheLifeAndTeachingsOfAjahnChahExpanded.ts",
   "stolen-focus-why-you-can-t-pay-attention": "./books/stolenFocusWhyYouCanTPayAttentionExpanded.ts",
+  "stop-caretaking-the-borderline-or-narcissist": "./books/stopCaretakingTheBorderlineOrNarcissistExpanded.ts",
   "stop-walking-on-eggshells": "./books/stopWalkingOnEggshellsExpanded.ts",
   "stories-of-the-dhammapada": "./books/storiesOfTheDhammapadaExpanded.ts",
   "straight-from-the-heart-dhamma-talks": "./books/straightFromTheHeartDhammaTalksExpanded.ts",
@@ -512,6 +515,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-art-of-living-vipassana-meditation": "./books/theArtOfLivingVipassanaMeditationExpanded.ts",
   "the-art-of-note-taking": "./books/theArtOfNoteTakingExpanded.ts",
   "the-art-of-persuasion": "./books/theArtOfPersuasionExpanded.ts",
+  "the-art-of-seduction": "./books/theArtOfSeductionExpanded.ts",
   "the-art-of-work": "./books/theArtOfWorkExpanded.ts",
   "the-assertiveness-workbook": "./books/theAssertivenessWorkbookExpanded.ts",
   "the-asynchronous-mindset": "./books/theAsynchronousMindsetExpanded.ts",
@@ -547,11 +551,13 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-conception-of-buddhist-nirvana": "./books/theConceptionOfBuddhistNirvanaExpanded.ts",
   "the-connected-discourses-of-the-buddha-samyutta-nikaya": "./books/theConnectedDiscoursesOfTheBuddhaSamyuttaNikayaExpanded.ts",
   "the-courage-to-be-disliked": "./books/theCourageToBeDislikedExpanded.ts",
+  "the-covert-passive-aggressive-narcissist": "./books/theCovertPassiveAggressiveNarcissistExpanded.ts",
   "the-craft-of-the-heart": "./books/theCraftOfTheHeartExpanded.ts",
   "the-crossroads-of-should-and-must": "./books/theCrossroadsOfShouldAndMustExpanded.ts",
   "the-crowd-a-study-of-the-popular-mind": "./books/theCrowdAStudyOfThePopularMindExpanded.ts",
   "the-dance-of-anger": "./books/theDanceOfAngerExpanded.ts",
   "the-dawn-of-abhidharma": "./books/theDawnOfAbhidharmaExpanded.ts",
+  "the-definitive-book-of-body-language": "./books/theDefinitiveBookOfBodyLanguageExpanded.ts",
   "the-dhammapada-a-new-translation": "./books/theDhammapadaANewTranslationExpanded.ts",
   "the-dhammapada-a-translation-of-the-buddhist-classic": "./books/theDhammapadaATranslationOfTheBuddhistClassicExpanded.ts",
   "the-dhammapada": "./books/theDhammapadaExpanded.ts",
@@ -600,6 +606,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-four-sublime-states-brahma-vihara": "./books/theFourSublimeStatesBrahmaViharaExpanded.ts",
   "the-gelug-kagyu-tradition-of-mahamudra": "./books/theGelugKagyuTraditionOfMahamudraExpanded.ts",
   "the-genesis-of-the-bodhisattva-ideal": "./books/theGenesisOfTheBodhisattvaIdealExpanded.ts",
+  "the-gift-of-fear-survival-signals-that-protect-us-from-viole": "./books/theGiftOfFearSurvivalSignalsThatProtectUsFromVioleExpanded.ts",
   "the-gifts-of-imperfection": "./books/theGiftsOfImperfectionExpanded.ts",
   "the-good-heart-a-buddhist-perspective-on-jesus": "./books/theGoodHeartABuddhistPerspectiveOnJesusExpanded.ts",
   "the-gracious-flow-of-dharma": "./books/theGraciousFlowOfDharmaExpanded.ts",
@@ -658,6 +665,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-philosophy-of-the-abhidhamma": "./books/thePhilosophyOfTheAbhidhammaExpanded.ts",
   "the-polyvagal-theory-in-therapy": "./books/thePolyvagalTheoryInTherapyExpanded.ts",
   "the-power-of-a-positive-no-how-to-say-no-and-still-get-to-ye": "./books/thePowerOfAPositiveNoHowToSayNoAndStillGetToYeExpanded.ts",
+  "the-power-of-body-language": "./books/thePowerOfBodyLanguageExpanded.ts",
   "the-power-of-full-engagement": "./books/thePowerOfFullEngagementExpanded.ts",
   "the-power-of-habit": "./books/thePowerOfHabitExpanded.ts",
   "the-power-of-mindfulness": "./books/thePowerOfMindfulnessExpanded.ts",
@@ -768,6 +776,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "was-the-buddha-a-pessimist": "./books/wasTheBuddhaAPessimistExpanded.ts",
   "we-need-to-talk-how-to-have-conversations-that-matter": "./books/weNeedToTalkHowToHaveConversationsThatMatterExpanded.ts",
   "what-buddhists-believe": "./books/whatBuddhistsBelieveExpanded.ts",
+  "what-every-body-is-saying": "./books/whatEveryBodyIsSayingExpanded.ts",
   "what-the-buddha-taught": "./books/whatTheBuddhaTaughtExpanded.ts",
   "when-awareness-becomes-natural": "./books/whenAwarenessBecomesNaturalExpanded.ts",
   "when-i-say-no-i-feel-guilty": "./books/whenISayNoIFeelGuiltyExpanded.ts",
@@ -778,6 +787,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "who-gets-what-and-why": "./books/whoGetsWhatAndWhyExpanded.ts",
   "who-is-my-self-a-guide-to-buddhist-meditation": "./books/whoIsMySelfAGuideToBuddhistMeditationExpanded.ts",
   "who-moved-my-cheese": "./books/whoMovedMyCheeseExpanded.ts",
+  "who-s-pulling-your-strings": "./books/whoSPullingYourStringsExpanded.ts",
   "why-we-get-sick": "./books/whyWeGetSickExpanded.ts",
   "why-we-sleep-unlocking-the-power-of-sleep-and-dreams": "./books/whyWeSleepUnlockingThePowerOfSleepAndDreamsExpanded.ts",
   "willpower-doesn-t-work": "./books/willpowerDoesnTWorkExpanded.ts",
@@ -4922,6 +4932,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "dangerous-personalities",
+    "title": "Dangerous Personalities",
+    "author": "Joe Navarro & Toni Sciarra Poynter",
+    "category": "Sales & Persuasion",
+    "subcategory": "Objection Handling",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Written by a seasoned FBI behavioral profiler, this operational field guide dismantles the camouflage of everyday human hazards. It equips you with sensory tripwires to spot, outmaneuver, and quarantine toxic individuals before they wreck your life.",
+      "coreThesis": "Dangerous personalities are defined not by psychiatric labels, but by the trail of psychological, financial, and physical erosion they leave behind; your primary responsibility is systematic threat detection and boundary defense, not rehabilitation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Dangerous Personalities"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "daring-greatly",
     "title": "Daring Greatly",
     "author": "Bren\\u00e9 Brown",
@@ -7852,6 +7897,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "gaslighting-recognize-manipulative-and-emotionally-abusive-p",
+    "title": "Gaslighting: Recognize Manipulative and Emotionally Abusive People",
+    "author": "Stephanie Moulton Sarkis",
+    "category": "Sales & Persuasion",
+    "subcategory": "Objection Handling",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Gaslighting is not a miscommunication\\u2014it is an asymmetrical psychological war of attrition engineered to hijack your internal compass. Stephanie Moulton Sarkis provides the field manual to detect distorted reality loops, establish airtight boundaries, and reclaim absolute self-trust.",
+      "coreThesis": "Gaslighting is a systematic campaign of perceptual sabotage designed to induce self-doubt and establish control; your only winning move is to stop debating reality and anchor yourself in cold, verifiable facts.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Gaslighting: Recognize Manipulative and Emotionally Abusive People"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
@@ -17326,6 +17406,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "stop-caretaking-the-borderline-or-narcissist",
+    "title": "Stop Caretaking the Borderline or Narcissist",
+    "author": "Margalis Fjelstad",
+    "category": "Sales & Persuasion",
+    "subcategory": "Objection Handling",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 100,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step behind the curtain of high-conflict relationships to reveal the hidden machinery locking you into emotional rescue loops. Learn how to shut off the cycle, set unbreakable boundaries, and reclaim your personal sovereignty.",
+      "coreThesis": "You cannot manage or cure another adult's personality disorder, but you can dismantle the destructive feedback loop by refusing to serve as their emotional shock absorber.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Stop Caretaking the Borderline or Narcissist"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "stop-walking-on-eggshells",
     "title": "Stop Walking on Eggshells",
     "author": "Paul T. Mason & Randi Kreger",
@@ -18689,6 +18804,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-art-of-seduction",
+    "title": "The Art of Seduction",
+    "author": "Robert Greene",
+    "category": "Sales & Persuasion",
+    "subcategory": "Objection Handling",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 175,
+    "publishedYear": 2001,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Seduction is not a mystical gift or physical fluke, but a subtle psychological feedback loop that bends human desire. By understanding how the human mind yearns to escape routine, anyone can dissolve emotional friction and inspire voluntary compliance.",
+      "coreThesis": "Direct persuasion creates friction and triggers psychological resistance, whereas seduction draws people in by mirroring their unspoken desires and leading them to persuade themselves.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Art of Seduction"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-art-of-work",
     "title": "The Art of Work",
     "author": "Jeff Goins",
@@ -19911,6 +20061,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-covert-passive-aggressive-narcissist",
+    "title": "The Covert Passive-Aggressive Narcissist",
+    "author": "Debbie Mirza",
+    "category": "Sales & Persuasion",
+    "subcategory": "Objection Handling",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "While overt bullies blast through the front door with megaphones, covert narcissists quietly siphon the foundation under the floorboards while offering you a cup of tea. This book illuminates the invisible mechanics of disguised psychological manipulation so you can identify the leak, stop self-blame, and rebuild your reality.",
+      "coreThesis": "Psychological abuse is most devastating not when it is loud, but when it is disguised as quiet innocence, eroding your confidence from within while presenting a spotless face to the world.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Covert Passive-Aggressive Narcissist"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-craft-of-the-heart",
     "title": "The Craft of the Heart",
     "author": "Ajahn Lee Dhammadharo",
@@ -20081,6 +20266,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-definitive-book-of-body-language",
+    "title": "The Definitive Book of Body Language",
+    "author": "Allan & Barbara Pease",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 95,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "While your words deliver the deliberate script, your physical posture, micro-movements, and spatial orientation broadcast your genuine thoughts in real time. Allan and Barbara Pease pull back the curtain on the silent biological broadcast that determines whether people trust, resist, or follow you.",
+      "coreThesis": "Human words express intellectual arguments, but human bodies involuntarily broadcast underlying emotional convictions and intentions. True interpersonal intelligence requires reading silent gesture clusters in context rather than relying on spoken statements alone.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Definitive Book of Body Language"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -21759,6 +21979,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-gift-of-fear-survival-signals-that-protect-us-from-viole",
+    "title": "The Gift of Fear: Survival Signals That Protect Us from Violence",
+    "author": "Gavin de Becker",
+    "category": "Sales & Persuasion",
+    "subcategory": "Objection Handling",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 1997,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your subconscious mind is a high-speed prediction engine that spots danger long before your conscious logic can catch up. By tuning into your biological radar and spotting manipulative compliance traps, you unlock an innate sensory security system built to keep you safe.",
+      "coreThesis": "Intuition is not mystical superstition but rapid, unconscious data processing designed to preserve life, and prioritizing social politeness over these biological survival signals leaves people vulnerable to calculated manipulation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Gift of Fear: Survival Signals That Protect Us from Violence"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
@@ -23785,6 +24040,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-power-of-body-language",
+    "title": "The Power of Body Language",
+    "author": "Tonya Reiman",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2007,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Words represent only the surface contract in negotiation and human interaction; your non-verbal signaling controls the actual leverage. Tonya Reiman provides a tactical manual for decoding involuntary behavioral signals and engineering your physical presence to dominate every encounter.",
+      "coreThesis": "Human decision-making is driven by evolutionary non-verbal cues that bypass rational filters; commanding the silent physical channel guarantees asymmetric influence and impenetrable credibility.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Power of Body Language"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -27633,6 +27923,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "what-every-body-is-saying",
+    "title": "What Every BODY is Saying",
+    "author": "Joe Navarro with Marvin Karlins",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Human words are filtered through conscious social polish, but the body operates on an involuntary, primal circuit that broadcasts our true psychological state in real time. Former FBI counterintelligence agent Joe Navarro reveals how decoding micro-signals\\u2014from restless feet to pacifying neck touches\\u2014gives you a dynamic radar for authentic human emotion.",
+      "coreThesis": "The subconscious limbic brain cannot lie; reading genuine human intentions requires observing bottom-up physiological cues\\u2014starting at the feet and moving up to the face\\u2014tracked in behavioral clusters against an established baseline.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "What Every BODY is Saying"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "what-the-buddha-taught",
     "title": "What the Buddha Taught",
     "author": "Walpola Rahula",
@@ -27978,6 +28303,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "who-s-pulling-your-strings",
+    "title": "Who's Pulling Your Strings?",
+    "author": "Harriet B. Braiker",
+    "category": "Sales & Persuasion",
+    "subcategory": "Objection Handling",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Manipulation is never a solo act; it is an interconnected system running on your exposed psychological buttons. By decoding the hidden mechanics of coercion and replacing automatic compliance with deliberate boundary friction, you can permanently cut the puppet strings.",
+      "coreThesis": "Manipulation requires two active participants: an exploiter who pulls the strings and a target whose exposed buttons allow those strings to move them. Neutralize the buttons, and the manipulator loses all operational power.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Who's Pulling Your Strings?"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
