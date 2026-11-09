@@ -692,6 +692,16 @@ import { THE_FOUNDATION_OF_BUDDHIST_PRACTICE_BOOK } from './books/theFoundationO
 import { SAMSARA_NIRVANA_AND_BUDDHA_NATURE_BOOK } from './books/samsaraNirvanaAndBuddhaNatureExpanded';
 import { FOLLOWING_IN_THE_BUDDHA_S_FOOTSTEPS_BOOK } from './books/followingInTheBuddhaSFootstepsExpanded';
 import { IN_PRAISE_OF_GREAT_COMPASSION_BOOK } from './books/inPraiseOfGreatCompassionExpanded';
+import { SEARCHING_FOR_THE_SELF_BOOK } from './books/searchingForTheSelfExpanded';
+import { REALIZING_THE_PROFOUND_VIEW_BOOK } from './books/realizingTheProfoundViewExpanded';
+import { MIND_OF_CLEAR_LIGHT_ADVICE_ON_LIVING_WELL_AND_DYING_CONSCIOUSLY_BOOK } from './books/mindOfClearLightAdviceOnLivingWellAndDyingConsciouslyExpanded';
+import { KINDNESS_CLARITY_AND_INSIGHT_BOOK } from './books/kindnessClarityAndInsightExpanded';
+import { TRANSFORMING_THE_MIND_GENERATING_COMPASSION_BOOK } from './books/transformingTheMindGeneratingCompassionExpanded';
+import { THE_ESSENCE_OF_THE_HEART_SUTRA_BOOK } from './books/theEssenceOfTheHeartSutraExpanded';
+import { HEALING_ANGER_THE_POWER_OF_PATIENCE_BOOK } from './books/healingAngerThePowerOfPatienceExpanded';
+import { LIGHTING_THE_PATH_THE_FOUR_NOBLE_TRUTHS_BOOK } from './books/lightingThePathTheFourNobleTruthsExpanded';
+import { THE_GELUG_KAGYU_TRADITION_OF_MAHAMUDRA_BOOK } from './books/theGelugKagyuTraditionOfMahamudraExpanded';
+import { HEART_ADVICE_OF_A_MAHAMUDRA_MASTER_BOOK } from './books/heartAdviceOfAMahamudraMasterExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -1384,7 +1394,17 @@ export const SEED_BOOKS: Book[] = [
   THE_FOUNDATION_OF_BUDDHIST_PRACTICE_BOOK,
   SAMSARA_NIRVANA_AND_BUDDHA_NATURE_BOOK,
   FOLLOWING_IN_THE_BUDDHA_S_FOOTSTEPS_BOOK,
-  IN_PRAISE_OF_GREAT_COMPASSION_BOOK
+  IN_PRAISE_OF_GREAT_COMPASSION_BOOK,
+  SEARCHING_FOR_THE_SELF_BOOK,
+  REALIZING_THE_PROFOUND_VIEW_BOOK,
+  MIND_OF_CLEAR_LIGHT_ADVICE_ON_LIVING_WELL_AND_DYING_CONSCIOUSLY_BOOK,
+  KINDNESS_CLARITY_AND_INSIGHT_BOOK,
+  TRANSFORMING_THE_MIND_GENERATING_COMPASSION_BOOK,
+  THE_ESSENCE_OF_THE_HEART_SUTRA_BOOK,
+  HEALING_ANGER_THE_POWER_OF_PATIENCE_BOOK,
+  LIGHTING_THE_PATH_THE_FOUR_NOBLE_TRUTHS_BOOK,
+  THE_GELUG_KAGYU_TRADITION_OF_MAHAMUDRA_BOOK,
+  HEART_ADVICE_OF_A_MAHAMUDRA_MASTER_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -2079,7 +2099,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(THE_FOUNDATION_OF_BUDDHIST_PRACTICE_BOOK.ideaCards || []),
   ...(SAMSARA_NIRVANA_AND_BUDDHA_NATURE_BOOK.ideaCards || []),
   ...(FOLLOWING_IN_THE_BUDDHA_S_FOOTSTEPS_BOOK.ideaCards || []),
-  ...(IN_PRAISE_OF_GREAT_COMPASSION_BOOK.ideaCards || [])
+  ...(IN_PRAISE_OF_GREAT_COMPASSION_BOOK.ideaCards || []),
+  ...(SEARCHING_FOR_THE_SELF_BOOK.ideaCards || []),
+  ...(REALIZING_THE_PROFOUND_VIEW_BOOK.ideaCards || []),
+  ...(MIND_OF_CLEAR_LIGHT_ADVICE_ON_LIVING_WELL_AND_DYING_CONSCIOUSLY_BOOK.ideaCards || []),
+  ...(KINDNESS_CLARITY_AND_INSIGHT_BOOK.ideaCards || []),
+  ...(TRANSFORMING_THE_MIND_GENERATING_COMPASSION_BOOK.ideaCards || []),
+  ...(THE_ESSENCE_OF_THE_HEART_SUTRA_BOOK.ideaCards || []),
+  ...(HEALING_ANGER_THE_POWER_OF_PATIENCE_BOOK.ideaCards || []),
+  ...(LIGHTING_THE_PATH_THE_FOUR_NOBLE_TRUTHS_BOOK.ideaCards || []),
+  ...(THE_GELUG_KAGYU_TRADITION_OF_MAHAMUDRA_BOOK.ideaCards || []),
+  ...(HEART_ADVICE_OF_A_MAHAMUDRA_MASTER_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [

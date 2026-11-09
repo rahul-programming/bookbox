@@ -191,8 +191,10 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "guide-through-the-abhidhamma-pitaka": "./books/guideThroughTheAbhidhammaPitakaExpanded.ts",
   "he-understanding-masculine-psychology": "./books/heUnderstandingMasculinePsychologyExpanded.ts",
   "head-and-heart-together-essays-on-the-buddhist-path": "./books/headAndHeartTogetherEssaysOnTheBuddhistPathExpanded.ts",
+  "healing-anger-the-power-of-patience": "./books/healingAngerThePowerOfPatienceExpanded.ts",
   "healing-back-pain-the-mind-body-connection": "./books/healingBackPainTheMindBodyConnectionExpanded.ts",
   "healing-the-shame-that-binds-you": "./books/healingTheShameThatBindsYouExpanded.ts",
+  "heart-advice-of-a-mahamudra-master": "./books/heartAdviceOfAMahamudraMasterExpanded.ts",
   "heedfulness-the-deathless-path-of-the-dhammapada": "./books/heedfulnessTheDeathlessPathOfTheDhammapadaExpanded.ts",
   "hell-yeah-or-no": "./books/hellYeahOrNoExpanded.ts",
   "honoring-the-self": "./books/honoringTheSelfExpanded.ts",
@@ -238,12 +240,14 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "kathavatthu-points-of-controversy": "./books/kathavatthuPointsOfControversyExpanded.ts",
   "keeping-the-breath-in-mind-lessons-in-samadhi": "./books/keepingTheBreathInMindLessonsInSamadhiExpanded.ts",
   "kill-it-with-fire-manage-aging-computer-systems-and-communic": "./books/killItWithFireManageAgingComputerSystemsAndCommunicExpanded.ts",
+  "kindness-clarity-and-insight": "./books/kindnessClarityAndInsightExpanded.ts",
   "king-warrior-magician-lover": "./books/kingWarriorMagicianLoverExpanded.ts",
   "know-your-mind-the-four-foundations-of-mindfulness": "./books/knowYourMindTheFourFoundationsOfMindfulnessExpanded.ts",
   "knowing-and-seeing-teachings-of-pa-auk-monastery": "./books/knowingAndSeeingTeachingsOfPaAukMonasteryExpanded.ts",
   "learn-like-a-pro": "./books/learnLikeAProExpanded.ts",
   "learned-optimism": "./books/learnedOptimismExpanded.ts",
   "life-is-in-the-transitions": "./books/lifeIsInTheTransitionsExpanded.ts",
+  "lighting-the-path-the-four-noble-truths": "./books/lightingThePathTheFourNobleTruthsExpanded.ts",
   "like-a-clear-sky-dhamma-reflections": "./books/likeAClearSkyDhammaReflectionsExpanded.ts",
   "limitless": "./books/limitlessExpanded.ts",
   "linked-how-everything-is-connected": "./books/linkedHowEverythingIsConnectedExpanded.ts",
@@ -288,6 +292,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "memories-dreams-reflections": "./books/memoriesDreamsReflectionsExpanded.ts",
   "methods-of-persuasion": "./books/methodsOfPersuasionExpanded.ts",
   "mind-like-fire-unbound": "./books/mindLikeFireUnboundExpanded.ts",
+  "mind-of-clear-light-advice-on-living-well-and-dying-consciously": "./books/mindOfClearLightAdviceOnLivingWellAndDyingConsciouslyExpanded.ts",
   "mind-over-mood": "./books/mindOverMoodExpanded.ts",
   "mindfully-facing-disease-and-death": "./books/mindfullyFacingDiseaseAndDeathExpanded.ts",
   "mindfulness-bliss-and-beyond-a-meditator-s-handbook": "./books/mindfulnessBlissAndBeyondAMeditatorSHandbookExpanded.ts",
@@ -354,6 +359,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "range-why-generalists-triumph-in-a-specialized-world": "./books/rangeWhyGeneralistsTriumphInASpecializedWorldExpanded.ts",
   "rational-recovery": "./books/rationalRecoveryExpanded.ts",
   "reading-the-buddha-s-discourses-in-pali": "./books/readingTheBuddhaSDiscoursesInPaliExpanded.ts",
+  "realizing-the-profound-view": "./books/realizingTheProfoundViewExpanded.ts",
   "realizing-the-truth-through-sensations": "./books/realizingTheTruthThroughSensationsExpanded.ts",
   "rebirth-in-early-buddhism-and-current-research": "./books/rebirthInEarlyBuddhismAndCurrentResearchExpanded.ts",
   "reclaiming-conversation-the-power-of-talk-in-a-digital-age": "./books/reclaimingConversationThePowerOfTalkInADigitalAgeExpanded.ts",
@@ -375,6 +381,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "saying-no-to-say-yes": "./books/sayingNoToSayYesExpanded.ts",
   "scale": "./books/scaleExpanded.ts",
   "search-inside-yourself": "./books/searchInsideYourselfExpanded.ts",
+  "searching-for-the-self": "./books/searchingForTheSelfExpanded.ts",
   "seeing-systems-unlocking-the-mysteries-of-organizational-lif": "./books/seeingSystemsUnlockingTheMysteriesOfOrganizationalLifExpanded.ts",
   "seeking-buddho-teachings-on-meditation": "./books/seekingBuddhoTeachingsOnMeditationExpanded.ts",
   "self-compassion-the-proven-power-of-being-kind-to-yourself": "./books/selfCompassionTheProvenPowerOfBeingKindToYourselfExpanded.ts",
@@ -498,6 +505,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-easy-way-to-stop-smoking-stop-drinking": "./books/theEasyWayToStopSmokingStopDrinkingExpanded.ts",
   "the-energy-of-prayer-how-to-deepen-your-spiritual-practice": "./books/theEnergyOfPrayerHowToDeepenYourSpiritualPracticeExpanded.ts",
   "the-essence-of-buddha-abhidhamma": "./books/theEssenceOfBuddhaAbhidhammaExpanded.ts",
+  "the-essence-of-the-heart-sutra": "./books/theEssenceOfTheHeartSutraExpanded.ts",
   "the-essential-practice-dhamma-discourses": "./books/theEssentialPracticeDhammaDiscoursesExpanded.ts",
   "the-evolution-of-desire-strategies-of-human-mating": "./books/theEvolutionOfDesireStrategiesOfHumanMatingExpanded.ts",
   "the-fifth-discipline": "./books/theFifthDisciplineExpanded.ts",
@@ -511,6 +519,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-four-noble-truths": "./books/theFourNobleTruthsExpanded.ts",
   "the-four-nutriments-of-life": "./books/theFourNutrimentsOfLifeExpanded.ts",
   "the-four-sublime-states-brahma-vihara": "./books/theFourSublimeStatesBrahmaViharaExpanded.ts",
+  "the-gelug-kagyu-tradition-of-mahamudra": "./books/theGelugKagyuTraditionOfMahamudraExpanded.ts",
   "the-genesis-of-the-bodhisattva-ideal": "./books/theGenesisOfTheBodhisattvaIdealExpanded.ts",
   "the-gifts-of-imperfection": "./books/theGiftsOfImperfectionExpanded.ts",
   "the-good-heart-a-buddhist-perspective-on-jesus": "./books/theGoodHeartABuddhistPerspectiveOnJesusExpanded.ts",
@@ -637,6 +646,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "toward-eternal-peace-discourse-on-nibbana": "./books/towardEternalPeaceDiscourseOnNibbanaExpanded.ts",
   "transcendental-dependent-arising": "./books/transcendentalDependentArisingExpanded.ts",
   "transformation-and-healing-satipatthana-sutra": "./books/transformationAndHealingSatipatthanaSutraExpanded.ts",
+  "transforming-the-mind-generating-compassion": "./books/transformingTheMindGeneratingCompassionExpanded.ts",
   "transitions-making-sense-of-life-s-changes": "./books/transitionsMakingSenseOfLifeSChangesExpanded.ts",
   "treasure-of-the-dhamma": "./books/treasureOfTheDhammaExpanded.ts",
   "treasury-of-truth-illustrated-dhammapada": "./books/treasuryOfTruthIllustratedDhammapadaExpanded.ts",
@@ -7362,6 +7372,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "healing-anger-the-power-of-patience",
+    "title": "Healing Anger: The Power of Patience",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1997,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Anger is an internal fire that burns down your own home before singeing anyone else. By mastering contemplative patience, you transform adversaries into indispensable spiritual trainers and reclaim unshakeable inner peace.",
+      "coreThesis": "Anger is an entirely irrational, self-inflicted poison that erodes clarity and joy; genuine patience is the active, supreme mental strength that transforms every interpersonal conflict into fuel for spiritual liberation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Healing Anger: The Power of Patience"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "healing-back-pain-the-mind-body-connection",
     "title": "Healing Back Pain: The Mind-Body Connection",
     "author": "John E. Sarno",
@@ -7427,6 +7472,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "heart-advice-of-a-mahamudra-master",
+    "title": "Heart Advice of a Mahamudra Master",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop wrestling with your thoughts and discover the calm clarity that has been inside you the entire time. This handbook strips away spiritual complexity and teaches you to rest directly in pure, undisturbed awareness.",
+      "coreThesis": "Your mind's true nature is already pristine, spacious, and free; you do not need to construct peace, you only need to stop manipulating your immediate awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Heart Advice of a Mahamudra Master"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -9005,6 +9085,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "kindness-clarity-and-insight",
+    "title": "Kindness, Clarity, and Insight",
+    "author": "Dalai Lama (Jeffrey Hopkins tr.)",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 100,
+    "publishedYear": 1984,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind is not broken; it is simply clouded by habitual grasping and unchecked reactions. By pairing active kindness with razor-sharp insight, you discover an unwavering inner clarity that transforms how you live, work, and relate to the world.",
+      "coreThesis": "Genuine freedom arises when boundless compassion softens the heart while analytical wisdom dissolves the illusion of a separate, rigid self, revealing the luminous clarity naturally present in immediate awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Kindness, Clarity, and Insight"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "king-warrior-magician-lover",
     "title": "King, Warrior, Magician, Lover",
     "author": "Robert Moore & Douglas Gillette",
@@ -9210,6 +9325,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "lighting-the-path-the-four-noble-truths",
+    "title": "Lighting the Path: The Four Noble Truths",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2003,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "A crystal-clear blueprint for inner peace from the Dalai Lama, mapping how ancient contemplative wisdom can systematically untangle mental friction and cultivate genuine compassion.",
+      "coreThesis": "Human suffering is not an unchangeable fate but a treatable condition born of misunderstanding and grasping, which can be permanently dissolved through disciplined ethical conduct, courageous compassion, and clear insight into reality.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Lighting the Path: The Four Noble Truths"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -10740,6 +10890,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Mind Like Fire Unbound"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "mind-of-clear-light-advice-on-living-well-and-dying-consciously",
+    "title": "Mind of Clear Light: Advice on Living Well and Dying Consciously",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2002,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Death is not a grim end to be feared, but the most profound meditation retreat of a lifetime. By mastering conscious awareness today, you turn life's ultimate mystery into an open gateway of unconditional peace.",
+      "coreThesis": "Death is a natural, predictable dissolution of coarse physical and mental layers that reveals our pristine, fundamental awareness. When met with disciplined mindfulness and boundless compassion, it becomes the supreme opportunity for spiritual liberation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mind of Clear Light: Advice on Living Well and Dying Consciously"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -13058,6 +13243,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "realizing-the-profound-view",
+    "title": "Realizing the Profound View",
+    "author": "Dalai Lama & Thubten Chodron",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2023,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When you look closely at your life, suffering starts with a single mistake: assuming you and the things around you possess an untouchable, solid core. This book gives you the analytical toolkit to dismantle that illusion and discover the boundless freedom of living without rigid grasping.",
+      "coreThesis": "Nothing in the universe\\u2014including your personal self\\u2014exists independently or from its own side; realizing this fluid interdependence frees you from all clinging and suffering while leaving practical daily life completely intact.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Realizing the Profound View"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "realizing-the-truth-through-sensations",
     "title": "Realizing the Truth Through Sensations",
     "author": "S.N. Goenka",
@@ -13786,6 +14006,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "searching-for-the-self",
+    "title": "Searching for the Self",
+    "author": "Dalai Lama & Thubten Chodron",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2022,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You are not a rigid, isolated statue battling the world; you are a living, interconnected process mistaken for a solid self. By systematically dismantling the phantom ego, this book delivers the master key to unshakeable inner freedom.",
+      "coreThesis": "The independent, unchanging self we instinctively protect does not exist; recognizing that identity is merely a dynamic, dependently arisen label dissolves anxiety and awakens boundless compassion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Searching for the Self"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -18086,6 +18341,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-essence-of-the-heart-sutra",
+    "title": "The Essence of the Heart Sutra",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2002,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Unlock Buddhism's most celebrated text on reality and liberation through lucid, masterclass guidance from the Dalai Lama. Discover how realizing the emptiness of independent existence untangles anxiety and unlocks unshakeable, active compassion.",
+      "coreThesis": "Suffering arises from grasping onto people, things, and our own egos as solid, independent entities; realizing that everything exists interdependently dissolves defensive fear and awakens boundless, active compassion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Essence of the Heart Sutra"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-essential-practice-dhamma-discourses",
     "title": "The Essential Practice: Dhamma Discourses",
     "author": "Webu Sayadaw",
@@ -18527,6 +18817,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Four Sublime States: Brahma-Vihara"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-gelug-kagyu-tradition-of-mahamudra",
+    "title": "The Gelug/Kagyu Tradition of Mahamudra",
+    "author": "Dalai Lama & Alexander Berzin",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1997,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind is not the turbulent weather of your passing thoughts, but the vast, luminous sky in which all weather unfolds. This canonical masterpiece bridges practical Tibetan wisdom and sharp direct contemplation to guide you into recognizing your own untouched, awake awareness.",
+      "coreThesis": "The true nature of your mind is intrinsically clear, spacious, and aware; suffering occurs only when you mistake passing mental clouds for a solid, unchanging self.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Gelug/Kagyu Tradition of Mahamudra"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -22927,6 +23252,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Transformation and Healing: Satipatthana Sutra"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "transforming-the-mind-generating-compassion",
+    "title": "Transforming the Mind: Generating Compassion",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2000,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind is not a fixed stone monument; it is a fertile garden that grows whatever seeds you consciously water. This book delivers a serene, practical manual for transforming daily emotional friction into boundless compassion and unshakable inner clarity.",
+      "coreThesis": "Genuine happiness arises not from protecting an anxious ego, but from radically retraining the mind to cherish others and seeing the transparent, interconnected nature of all reality.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Transforming the Mind: Generating Compassion"
     },
     "reflectionExercises": [],
     "actionItems": [],
