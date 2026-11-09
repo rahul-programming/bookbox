@@ -240,6 +240,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "just-listen-discover-the-secret-to-getting-through-to-absolu": "./books/justListenDiscoverTheSecretToGettingThroughToAbsoluExpanded.ts",
   "just-one-more-breath-teachings-on-meditation-and-life": "./books/justOneMoreBreathTeachingsOnMeditationAndLifeExpanded.ts",
   "just-one-word-mindfulness": "./books/justOneWordMindfulnessExpanded.ts",
+  "kamma-and-its-fruit-explorations-in-buddhist-karma": "./books/kammaAndItsFruitExplorationsInBuddhistKarmaExpanded.ts",
   "karma-and-rebirth": "./books/karmaAndRebirthExpanded.ts",
   "kathavatthu-points-of-controversy": "./books/kathavatthuPointsOfControversyExpanded.ts",
   "keeping-the-breath-in-mind-lessons-in-samadhi": "./books/keepingTheBreathInMindLessonsInSamadhiExpanded.ts",
@@ -301,6 +302,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "mind-like-fire-unbound": "./books/mindLikeFireUnboundExpanded.ts",
   "mind-of-clear-light-advice-on-living-well-and-dying-consciously": "./books/mindOfClearLightAdviceOnLivingWellAndDyingConsciouslyExpanded.ts",
   "mind-over-mood": "./books/mindOverMoodExpanded.ts",
+  "mind-overcoming-its-canker-asavas": "./books/mindOvercomingItsCankerAsavasExpanded.ts",
   "mindfully-facing-disease-and-death": "./books/mindfullyFacingDiseaseAndDeathExpanded.ts",
   "mindfulness-bliss-and-beyond-a-meditator-s-handbook": "./books/mindfulnessBlissAndBeyondAMeditatorSHandbookExpanded.ts",
   "mindfulness-for-health-and-vitality": "./books/mindfulnessForHealthAndVitalityExpanded.ts",
@@ -363,12 +365,14 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "purification-of-mind-and-view": "./books/purificationOfMindAndViewExpanded.ts",
   "purity-of-heart-essays-on-the-buddhist-path": "./books/purityOfHeartEssaysOnTheBuddhistPathExpanded.ts",
   "radical-acceptance": "./books/radicalAcceptanceExpanded.ts",
+  "radical-buddhism-the-early-pali-suttas": "./books/radicalBuddhismTheEarlyPaliSuttasExpanded.ts",
   "radical-compassion": "./books/radicalCompassionExpanded.ts",
   "range-why-generalists-triumph-in-a-specialized-world": "./books/rangeWhyGeneralistsTriumphInASpecializedWorldExpanded.ts",
   "rational-recovery": "./books/rationalRecoveryExpanded.ts",
   "reading-the-buddha-s-discourses-in-pali": "./books/readingTheBuddhaSDiscoursesInPaliExpanded.ts",
   "realizing-the-profound-view": "./books/realizingTheProfoundViewExpanded.ts",
   "realizing-the-truth-through-sensations": "./books/realizingTheTruthThroughSensationsExpanded.ts",
+  "rebirth-as-doctrine-and-experience-essays-and-case-studies": "./books/rebirthAsDoctrineAndExperienceEssaysAndCaseStudiesExpanded.ts",
   "rebirth-in-early-buddhism-and-current-research": "./books/rebirthInEarlyBuddhismAndCurrentResearchExpanded.ts",
   "reclaiming-conversation-the-power-of-talk-in-a-digital-age": "./books/reclaimingConversationThePowerOfTalkInADigitalAgeExpanded.ts",
   "reinventing-you": "./books/reinventingYouExpanded.ts",
@@ -435,6 +439,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "supramundane-consciousness-lokuttara-citta": "./books/supramundaneConsciousnessLokuttaraCittaExpanded.ts",
   "survival-and-karma-in-buddhist-perspective": "./books/survivalAndKarmaInBuddhistPerspectiveExpanded.ts",
   "sync-how-order-emerges-from-chaos": "./books/syncHowOrderEmergesFromChaosExpanded.ts",
+  "taming-the-mind-discourses-on-mind-training": "./books/tamingTheMindDiscoursesOnMindTrainingExpanded.ts",
   "teaching-and-training-at-pa-auk-monastery": "./books/teachingAndTrainingAtPaAukMonasteryExpanded.ts",
   "teachings-of-a-buddhist-monk": "./books/teachingsOfABuddhistMonkExpanded.ts",
   "teachings-on-love": "./books/teachingsOnLoveExpanded.ts",
@@ -476,6 +481,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-buddha-s-system-of-meditation": "./books/theBuddhaSSystemOfMeditationExpanded.ts",
   "the-buddhist-monastic-code-volume-i": "./books/theBuddhistMonasticCodeVolumeIExpanded.ts",
   "the-buddhist-monastic-code-volume-ii": "./books/theBuddhistMonasticCodeVolumeIiExpanded.ts",
+  "the-buddhist-way-of-loving-kindness-metta-bhavana": "./books/theBuddhistWayOfLovingKindnessMettaBhavanaExpanded.ts",
   "the-catalyst-how-to-change-anyone-s-mind": "./books/theCatalystHowToChangeAnyoneSMindExpanded.ts",
   "the-checklist-manifesto": "./books/theChecklistManifestoExpanded.ts",
   "the-circadian-code": "./books/theCircadianCodeExpanded.ts",
@@ -514,12 +520,14 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-divided-mind-the-epidemic-of-mindbody-disorders": "./books/theDividedMindTheEpidemicOfMindbodyDisordersExpanded.ts",
   "the-doctrine-of-anatta-in-the-nikayas": "./books/theDoctrineOfAnattaInTheNikayasExpanded.ts",
   "the-easy-way-to-stop-smoking-stop-drinking": "./books/theEasyWayToStopSmokingStopDrinkingExpanded.ts",
+  "the-elimination-of-anger": "./books/theEliminationOfAngerExpanded.ts",
   "the-energy-of-prayer-how-to-deepen-your-spiritual-practice": "./books/theEnergyOfPrayerHowToDeepenYourSpiritualPracticeExpanded.ts",
   "the-essence-of-buddha-abhidhamma": "./books/theEssenceOfBuddhaAbhidhammaExpanded.ts",
   "the-essence-of-the-heart-sutra": "./books/theEssenceOfTheHeartSutraExpanded.ts",
   "the-essential-practice-dhamma-discourses": "./books/theEssentialPracticeDhammaDiscoursesExpanded.ts",
   "the-evolution-of-desire-strategies-of-human-mating": "./books/theEvolutionOfDesireStrategiesOfHumanMatingExpanded.ts",
   "the-fifth-discipline": "./books/theFifthDisciplineExpanded.ts",
+  "the-fire-sermon-adittapariyaya-sutta": "./books/theFireSermonAdittapariyayaSuttaExpanded.ts",
   "the-five-mental-hindrances-and-their-conquest": "./books/theFiveMentalHindrancesAndTheirConquestExpanded.ts",
   "the-flowers-of-enlightenment-dhammapada-chapter-4": "./books/theFlowersOfEnlightenmentDhammapadaChapter4Expanded.ts",
   "the-forty-rules-of-love": "./books/theFortyRulesOfLoveExpanded.ts",
@@ -578,6 +586,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-paradox-of-choice": "./books/theParadoxOfChoiceExpanded.ts",
   "the-path-made-clear": "./books/thePathMadeClearExpanded.ts",
   "the-path-of-freedom-vimuttimagga": "./books/thePathOfFreedomVimuttimaggaExpanded.ts",
+  "the-path-of-non-attachment": "./books/thePathOfNonAttachmentExpanded.ts",
   "the-path-of-purification-visuddhimagga": "./books/thePathOfPurificationVisuddhimaggaExpanded.ts",
   "the-path-of-serenity-and-insight": "./books/thePathOfSerenityAndInsightExpanded.ts",
   "the-path-to-deliverance-handbook-of-meditation": "./books/thePathToDeliveranceHandbookOfMeditationExpanded.ts",
@@ -588,6 +597,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-power-of-full-engagement": "./books/thePowerOfFullEngagementExpanded.ts",
   "the-power-of-habit": "./books/thePowerOfHabitExpanded.ts",
   "the-power-of-mindfulness": "./books/thePowerOfMindfulnessExpanded.ts",
+  "the-power-of-mindfulness-in-daily-living": "./books/thePowerOfMindfulnessInDailyLivingExpanded.ts",
   "the-power-of-when": "./books/thePowerOfWhenExpanded.ts",
   "the-practice-of-sila-morality-in-the-tipitaka": "./books/thePracticeOfSilaMoralityInTheTipitakaExpanded.ts",
   "the-practice-of-vipassana-meditation": "./books/thePracticeOfVipassanaMeditationExpanded.ts",
@@ -9105,6 +9115,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "kamma-and-its-fruit-explorations-in-buddhist-karma",
+    "title": "Kamma and Its Fruit: Explorations in Buddhist Karma",
+    "author": "Nyanaponika Thera (ed.)",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1975,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Karma is not a rigid fate written in stone, but the living steering wheel of your immediate awareness. Master your present intentions, and you rewrite the entire trajectory of your inner life.",
+      "coreThesis": "Karma is neither blind fatalism nor chance luck; it is dynamic, intention-driven causality where present-moment mindfulness can dissolve the grip of past momentum.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Kamma and Its Fruit: Explorations in Buddhist Karma"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "karma-and-rebirth",
     "title": "Karma and Rebirth",
     "author": "Nyanatiloka Mahathera",
@@ -11232,6 +11277,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "mind-overcoming-its-canker-asavas",
+    "title": "Mind: Overcoming Its Canker (Asavas)",
+    "author": "BPS Wheel Series",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 120,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind isn't broken, but it is leaking peace through unguarded psychological taints called cankers. This classic manual reveals the ancient, battle-tested blueprint to plug those mental leaks, tame reactivity, and reclaim effortless inner stillness.",
+      "coreThesis": "Suffering is not caused by external events, but by unexamined mental effluents that leak into our perception; systematically mastering wise attention and applying seven practical behavioral filters completely purifies the mind.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mind: Overcoming Its Canker (Asavas)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -13403,6 +13483,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "radical-buddhism-the-early-pali-suttas",
+    "title": "Radical Buddhism: The Early Pali Suttas",
+    "author": "BPS Anthology",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1982,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "The Buddha did not offer a pair of warm slippers for cozy armchair contemplation\\u2014he offered a sharp scalpel to dismantle delusion. This work strips away decorative spiritual trends to reveal early Buddhism as an urgent, uncompromising inner revolution for direct liberation.",
+      "coreThesis": "Genuine liberation requires directly uprooting the hidden engine of craving rather than soothing its symptoms, confronting impermanence with unvarnished clarity to attain unconditional peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Radical Buddhism: The Early Pali Suttas"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "radical-compassion",
     "title": "Radical Compassion",
     "author": "Tara Brach",
@@ -13601,6 +13716,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Realizing the Truth Through Sensations"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "rebirth-as-doctrine-and-experience-essays-and-case-studies",
+    "title": "Rebirth as Doctrine and Experience: Essays and Case Studies",
+    "author": "Francis Story",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 110,
+    "publishedYear": 1975,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Death is not a brick wall or the magical transfer of a ghost; it is an ongoing river of cause and effect where yesterday's habits shape tomorrow's existence. Francis Story unites rigorous empirical field research with classic Buddhist insight to prove that consciousness continues without an unchanging soul.",
+      "coreThesis": "Consciousness is a causally continuous stream of karmic momentum that persists beyond physical death without an unchanging soul, and seeing this dynamic flow directly liberates the mind from fear, craving, and ego-clinging.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Rebirth as Doctrine and Experience: Essays and Case Studies"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -15914,6 +16064,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "taming-the-mind-discourses-on-mind-training",
+    "title": "Taming the Mind: Discourses on Mind Training",
+    "author": "BPS Anthology",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1963,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "An unexamined, chaotic mind is like a vehicle running downhill without brakes, while a trained mind is your most reliable instrument of peace and freedom. This canonical anthology provides the foundational blueprint for transforming scattered mental reactivity into steady, luminous clarity.",
+      "coreThesis": "The human mind left unguided is the primary architect of human distress, but systematically trained and guarded, it becomes an inexhaustible fountain of peace and genuine freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Taming the Mind: Discourses on Mind Training"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "teaching-and-training-at-pa-auk-monastery",
     "title": "Teaching and Training at Pa-Auk Monastery",
     "author": "Pa-Auk Sayadaw",
@@ -17347,6 +17532,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-buddhist-way-of-loving-kindness-metta-bhavana",
+    "title": "The Buddhist Way of Loving-Kindness (Metta Bhavana)",
+    "author": "Acharya Buddharakkhita",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1989,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Loving-kindness is not passive sentimental wishing; it is an active, invincible mental science that dissolves hostility and frees the mind from within. Acharya Buddharakkhita delivers the definitive master manual on how to systematically train goodwill into an unshakeable inner refuge.",
+      "coreThesis": "Genuine loving-kindness is a systematic mental discipline that uproots resentment, transforms human vulnerability into an unshakeable protective field, and leads directly to spiritual liberation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Buddhist Way of Loving-Kindness (Metta Bhavana)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-catalyst-how-to-change-anyone-s-mind",
     "title": "The Catalyst: How to Change Anyone's Mind",
     "author": "Jonah Berger",
@@ -18676,6 +18896,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-elimination-of-anger",
+    "title": "The Elimination of Anger",
+    "author": "Ven. K. Piyatissa Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1975,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Anger is not an immovable personality flaw, but a toxic ember you choose to pick up with bare hands hoping to burn someone else. Ven. K. Piyatissa Thera presents the classical Buddhist playbook\\u2014an eight-tiered cognitive toolkit designed to de-escalate, dismantle, and extinguish resentment before it consumes your inner peace.",
+      "coreThesis": "Hostility hurts only the person who harbors it; true emotional liberation occurs when we view provocation through the lens of impermanence and meet aggression with deliberate, radiant goodwill.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Elimination of Anger"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-energy-of-prayer-how-to-deepen-your-spiritual-practice",
     "title": "The Energy of Prayer: How to Deepen Your Spiritual Practice",
     "author": "Thich Nhat Hanh",
@@ -18882,6 +19137,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "the-fire-sermon-adittapariyaya-sutta",
+    "title": "The Fire Sermon: Adittapariyaya Sutta",
+    "author": "BPS Wheel Series",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1960,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind is constantly handling burning coals of sensory craving, knee-jerk irritation, and stubborn confusion. This ancient masterwork shows you how to recognize the heat, drop the embers, and step out into immediate, unshakable peace.",
+      "coreThesis": "Human experience is continually consumed by the friction of grasping, aversion, and confusion; true freedom arrives the moment you stop feeding fuel to sensory reactions and allow awareness to cool down.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Fire Sermon: Adittapariyaya Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -20910,6 +21200,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-path-of-non-attachment",
+    "title": "The Path of Non-Attachment",
+    "author": "Sister Vajira",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1961,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Suffering does not come from life's events, but from our frantic impulse to claim and hold them. By opening your grip and seeing through the illusion of ownership, inner peace becomes your immediate, natural baseline.",
+      "coreThesis": "Suffering arises entirely from mistaking transient experiences for a permanent self; release the grasping, and peace immediately reveals itself as your natural state.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Path of Non-Attachment"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-path-of-purification-visuddhimagga",
     "title": "The Path of Purification (Visuddhimagga)",
     "author": "Bhadantacariya Buddhaghosa (Bhikkhu Nanamoli tr.)",
@@ -21248,6 +21573,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Power of Mindfulness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-power-of-mindfulness-in-daily-living",
+    "title": "The Power of Mindfulness in Daily Living",
+    "author": "BPS Anthology",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1968,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step out of mental turbulence and discover the quiet power of bare attention: observing your experience cleanly before reactivity hijacks your peace.",
+      "coreThesis": "Freedom from psychological suffering does not require fighting your mind, but holding present experience in calm, non-reactive bare attention.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Power of Mindfulness in Daily Living"
     },
     "reflectionExercises": [],
     "actionItems": [],
