@@ -28,6 +28,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "abhidhamma-in-practice": "./books/abhidhammaInPracticeExpanded.ts",
   "abundant-exalted-immeasurable-the-brahmaviharas": "./books/abundantExaltedImmeasurableTheBrahmaviharasExpanded.ts",
   "after-buddhism-rethinking-dharma-for-a-secular-age": "./books/afterBuddhismRethinkingDharmaForASecularAgeExpanded.ts",
+  "alchemy-the-dark-art-and-curious-science-of-creating-magic-i": "./books/alchemyTheDarkArtAndCuriousScienceOfCreatingMagicIExpanded.ts",
   "algorithms-to-live-by": "./books/algorithmsToLiveByExpanded.ts",
   "all-of-us-beset-by-birth-decay-and-death": "./books/allOfUsBesetByBirthDecayAndDeathExpanded.ts",
   "alone-together-why-we-expect-more-from-technology-and-less-f": "./books/aloneTogetherWhyWeExpectMoreFromTechnologyAndLessFExpanded.ts",
@@ -223,6 +224,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "heedfulness-the-deathless-path-of-the-dhammapada": "./books/heedfulnessTheDeathlessPathOfTheDhammapadaExpanded.ts",
   "hell-yeah-or-no": "./books/hellYeahOrNoExpanded.ts",
   "honoring-the-self": "./books/honoringTheSelfExpanded.ts",
+  "hooked-how-to-build-habit-forming-products": "./books/hookedHowToBuildHabitFormingProductsExpanded.ts",
   "hope-and-help-for-your-nerves": "./books/hopeAndHelpForYourNervesExpanded.ts",
   "how-not-to-be-wrong-the-power-of-mathematical-thinking": "./books/howNotToBeWrongThePowerOfMathematicalThinkingExpanded.ts",
   "how-to-decide": "./books/howToDecideExpanded.ts",
@@ -343,6 +345,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "mindscience-an-east-west-dialogue": "./books/mindscienceAnEastWestDialogueExpanded.ts",
   "mindset-the-new-psychology-of-success": "./books/mindsetTheNewPsychologyOfSuccessExpanded.ts",
   "mini-habits": "./books/miniHabitsExpanded.ts",
+  "misbehaving-the-making-of-behavioral-economics": "./books/misbehavingTheMakingOfBehavioralEconomicsExpanded.ts",
   "mistakes-were-made-but-not-by-me": "./books/mistakesWereMadeButNotByMeExpanded.ts",
   "moonwalking-with-einstein": "./books/moonwalkingWithEinsteinExpanded.ts",
   "my-land-and-my-people-the-original-autobiography": "./books/myLandAndMyPeopleTheOriginalAutobiographyExpanded.ts",
@@ -389,10 +392,12 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "power-questions-build-relationships-win-new-business-and-inf": "./books/powerQuestionsBuildRelationshipsWinNewBusinessAndInfExpanded.ts",
   "practical-vipassana-meditative-exercises": "./books/practicalVipassanaMeditativeExercisesExpanded.ts",
   "pre-suasion-a-revolutionary-way-to-influence-and-persuade": "./books/preSuasionARevolutionaryWayToInfluenceAndPersuadeExpanded.ts",
+  "predictably-irrational-the-hidden-forces-that-shape-our-deci": "./books/predictablyIrrationalTheHiddenForcesThatShapeOurDeciExpanded.ts",
   "primal-leadership": "./books/primalLeadershipExpanded.ts",
   "process-of-consciousness-according-to-abhidhamma": "./books/processOfConsciousnessAccordingToAbhidhammaExpanded.ts",
   "protection-through-satipatthana": "./books/protectionThroughSatipatthanaExpanded.ts",
   "the-psychology-of-money-timeless-lessons-on-wealth-greed-and": "./books/psychologyOfMoneyExpanded.ts",
+  "psychopath-free-recovering-from-emotional-abuse": "./books/psychopathFreeRecoveringFromEmotionalAbuseExpanded.ts",
   "puggalapannatti-designation-of-human-types": "./books/puggalapannattiDesignationOfHumanTypesExpanded.ts",
   "purification-of-mind-and-view": "./books/purificationOfMindAndViewExpanded.ts",
   "purity-of-heart-essays-on-the-buddhist-path": "./books/purityOfHeartEssaysOnTheBuddhistPathExpanded.ts",
@@ -427,6 +432,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "say-what-you-mean-a-mindful-approach-to-nonviolent-communica": "./books/sayWhatYouMeanAMindfulApproachToNonviolentCommunicaExpanded.ts",
   "saying-no-to-say-yes": "./books/sayingNoToSayYesExpanded.ts",
   "scale": "./books/scaleExpanded.ts",
+  "scarcity-why-having-too-little-means-so-much": "./books/scarcityWhyHavingTooLittleMeansSoMuchExpanded.ts",
   "search-inside-yourself": "./books/searchInsideYourselfExpanded.ts",
   "searching-for-the-self": "./books/searchingForTheSelfExpanded.ts",
   "seeing-systems-unlocking-the-mysteries-of-organizational-lif": "./books/seeingSystemsUnlockingTheMysteriesOfOrganizationalLifExpanded.ts",
@@ -457,6 +463,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "somatics-reawakening-the-mind-s-control-of-movement": "./books/somaticsReawakeningTheMindSControlOfMovementExpanded.ts",
   "sources-of-power": "./books/sourcesOfPowerExpanded.ts",
   "speak-peace-in-a-world-of-conflict": "./books/speakPeaceInAWorldOfConflictExpanded.ts",
+  "spent-sex-evolution-and-consumer-behavior": "./books/spentSexEvolutionAndConsumerBehaviorExpanded.ts",
   "split-second-persuasion": "./books/splitSecondPersuasionExpanded.ts",
   "stages-of-meditation-commentary-on-the-bhavanakrama": "./books/stagesOfMeditationCommentaryOnTheBhavanakramaExpanded.ts",
   "start-here-start-now-a-guide-to-compassionate-living": "./books/startHereStartNowAGuideToCompassionateLivingExpanded.ts",
@@ -484,6 +491,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "thank-you-for-arguing": "./books/thankYouForArguingExpanded.ts",
   "thanks-for-the-feedback-the-science-and-art-of-receiving-fee": "./books/thanksForTheFeedbackTheScienceAndArtOfReceivingFeeExpanded.ts",
   "the-1-rule": "./books/the1RuleExpanded.ts",
+  "the-48-laws-of-power": "./books/the48LawsOfPowerExpanded.ts",
   "the-5-second-rule": "./books/the5SecondRuleExpanded.ts",
   "the-80-20-principle": "./books/the8020PrincipleExpanded.ts",
   "the-accountability-manifesto": "./books/theAccountabilityManifestoExpanded.ts",
@@ -528,6 +536,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-case-for-rebirth": "./books/theCaseForRebirthExpanded.ts",
   "the-catalyst-how-to-change-anyone-s-mind": "./books/theCatalystHowToChangeAnyoneSMindExpanded.ts",
   "the-checklist-manifesto": "./books/theChecklistManifestoExpanded.ts",
+  "the-choice-factory-25-behavioral-biases-that-influence-what-": "./books/theChoiceFactory25BehavioralBiasesThatInfluenceWhatExpanded.ts",
   "the-circadian-code": "./books/theCircadianCodeExpanded.ts",
   "the-clock-of-vipassana-has-struck": "./books/theClockOfVipassanaHasStruckExpanded.ts",
   "the-coaching-habit-say-less-ask-more-change-the-way-you-lead": "./books/theCoachingHabitSayLessAskMoreChangeTheWayYouLeadExpanded.ts",
@@ -700,6 +709,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-tree-of-enlightenment": "./books/theTreeOfEnlightenmentExpanded.ts",
   "the-udana-inspired-utterances-of-the-buddha": "./books/theUdanaInspiredUtterancesOfTheBuddhaExpanded.ts",
   "the-universe-in-a-single-atom-convergence-of-science-and-spirituality": "./books/theUniverseInASingleAtomConvergenceOfScienceAndSpiritualityExpanded.ts",
+  "the-upside-of-irrationality": "./books/theUpsideOfIrrationalityExpanded.ts",
   "the-upward-spiral": "./books/theUpwardSpiralExpanded.ts",
   "the-uses-of-argument": "./books/theUsesOfArgumentExpanded.ts",
   "the-war-of-art": "./books/theWarOfArtExpanded.ts",
@@ -1763,6 +1773,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "alchemy-the-dark-art-and-curious-science-of-creating-magic-i",
+    "title": "Alchemy: The Dark Art and Curious Science of Creating Magic in Brands, Business, and Life",
+    "author": "Rory Sutherland",
+    "category": "Sales & Persuasion",
+    "subcategory": "Buyer Psychology",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "The world isn't an engineering blueprint; it's a living ecosystem governed by psychology rather than rigid logic. If you solve human problems using pure reason alone, you miss the counter-intuitive 'alchemy' that actually changes minds, moves markets, and unlocks magic.",
+      "coreThesis": "Human behavior is psychological, not logical; the most transformative breakthroughs come not from perfecting mechanical efficiency, but from reframing subjective perception.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Alchemy: The Dark Art and Curious Science of Creating Magic in Brands, Business, and Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
@@ -8582,6 +8627,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "hooked-how-to-build-habit-forming-products",
+    "title": "Hooked: How to Build Habit-Forming Products",
+    "author": "Nir Eyal",
+    "category": "Sales & Persuasion",
+    "subcategory": "Buyer Psychology",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Why do we reach for our phones before our feet hit the floor in the morning? Discover the hidden psychological machinery that turns everyday products into irresistible, subconscious reflexes.",
+      "coreThesis": "Products achieve enduring dominance not through relentless advertising, but by encoding themselves into subconscious feedback loops that resolve internal emotional discomforts in seconds.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Hooked: How to Build Habit-Forming Products"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "hope-and-help-for-your-nerves",
     "title": "Hope and Help for Your Nerves",
     "author": "Claire Weekes",
@@ -12777,6 +12857,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "misbehaving-the-making-of-behavioral-economics",
+    "title": "Misbehaving: The Making of Behavioral Economics",
+    "author": "Richard H. Thaler",
+    "category": "Sales & Persuasion",
+    "subcategory": "Buyer Psychology",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 165,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Standard economics assumes we are cold, robotic calculating machines called 'Econs'\\u2014yet actual humans are messy, impulsive, and wonderfully irrational. Richard Thaler reveals how invisible psychological quirks shape our wallets, our markets, and our daily choices, showing how designing for real human nature transforms the world.",
+      "coreThesis": "Human economic decisions are not governed by robotic optimization, but by systematic psychological shortcuts, emotional accounting, and self-control battles. Recognizing these predictable quirks allows us to design smarter choices that work with human nature rather than against it.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Misbehaving: The Making of Behavioral Economics"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "mistakes-were-made-but-not-by-me",
     "title": "Mistakes Were Made (But Not by Me)",
     "author": "Carol Tavris & Elliot Aronson",
@@ -14384,6 +14499,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "predictably-irrational-the-hidden-forces-that-shape-our-deci",
+    "title": "Predictably Irrational: The Hidden Forces That Shape Our Decisions",
+    "author": "Dan Ariely",
+    "category": "Sales & Persuasion",
+    "subcategory": "Buyer Psychology",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Human decision-making is not randomly flawed; it is systematically biased along predictable, exploitable vectors. Master these irrational patterns to construct robust operational moats, optimize pricing architectures, and eliminate self-inflicted strategic errors.",
+      "coreThesis": "Human irrationality is not random or chaotic; it is systematic, repetitive, and completely predictable. Strategic advantage comes from designing incentives, pricing, and operational systems that account for these hardwired cognitive biases rather than assuming rational actors.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Predictably Irrational: The Hidden Forces That Shape Our Decisions"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "primal-leadership",
     "title": "Primal Leadership",
     "author": "Daniel Goleman, Richard Boyatzis, Annie McKee",
@@ -14520,6 +14670,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Finance",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "psychopath-free-recovering-from-emotional-abuse",
+    "title": "Psychopath Free: Recovering from Emotional Abuse",
+    "author": "Jackson MacKenzie",
+    "category": "Sales & Persuasion",
+    "subcategory": "Objection Handling",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step inside the deceptive psychological machinery of predatory charm and discover the exact mechanics required to dismantle toxic conditioning and reclaim your sovereignty.",
+      "coreThesis": "Toxic manipulation is an engineered behavioral trap that exploits genuine empathy; permanent recovery requires dismantling cognitive dissonance, enforcing total non-engagement, and transforming unexamined vulnerabilities into conscious self-respect.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Psychopath Free: Recovering from Emotional Abuse"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -15711,6 +15896,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "scarcity-why-having-too-little-means-so-much",
+    "title": "Scarcity: Why Having Too Little Means So Much",
+    "author": "Sendhil Mullainathan & Eldar Shafir",
+    "category": "Sales & Persuasion",
+    "subcategory": "Buyer Psychology",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When you have too little of something critical\\u2014time, money, or calories\\u2014your mind automatically hijacks your attention. This creates a powerful focus on today's emergency while silently sabotaging your ability to plan for tomorrow.",
+      "coreThesis": "Scarcity alters how we think: chronic deficits hijack our working mental bandwidth, forcing tunnel vision that solves immediate emergencies at the devastating expense of long-term foresight.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Scarcity: Why Having Too Little Means So Much"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "search-inside-yourself",
     "title": "Search Inside Yourself",
     "author": "Chade-Meng Tan",
@@ -16756,6 +16976,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "spent-sex-evolution-and-consumer-behavior",
+    "title": "Spent: Sex, Evolution, and Consumer Behavior",
+    "author": "Geoffrey Miller",
+    "category": "Sales & Persuasion",
+    "subcategory": "Buyer Psychology",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 85,
+    "publishedYear": 2009,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "We spend billions buying manufactured products to signal fitness traits that evolution already gave us the power to demonstrate for free. By decoding consumerism through evolutionary biology, this book reveals how to step off the commercial treadmill and build authentic social status.",
+      "coreThesis": "Modern consumerism is an evolutionary signaling error: we purchase expensive goods to broadcast fitness, intelligence, and character traits that are communicated far more persuasively through direct, natural human behavior.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Spent: Sex, Evolution, and Consumer Behavior"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "split-second-persuasion",
     "title": "Split-Second Persuasion",
     "author": "Kevin Dutton",
@@ -17694,6 +17949,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-48-laws-of-power",
+    "title": "The 48 Laws of Power",
+    "author": "Robert Greene",
+    "category": "Sales & Persuasion",
+    "subcategory": "Objection Handling",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 240,
+    "publishedYear": 1998,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Power is not an elective course; it is the operating system of human hierarchy. Master the unwritten rules of human leverage, or spend your career navigating traps set by those who have.",
+      "coreThesis": "Power is an unavoidable social force governed by timeless laws; survival and success require clinical detachment, emotional discipline, and absolute mastery of human incentives.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The 48 Laws of Power"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
@@ -19233,6 +19523,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "the-choice-factory-25-behavioral-biases-that-influence-what-",
+    "title": "The Choice Factory: 25 Behavioral Biases That Influence What We Buy",
+    "author": "Richard Shotton",
+    "category": "Sales & Persuasion",
+    "subcategory": "Buyer Psychology",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 125,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Human buyers are not calculating spreadsheets; we are instinct-driven creatures navigating daily friction through subconscious rules of thumb. Richard Shotton maps the 25 hidden psychological shortcuts that actually guide consumer purchasing, giving marketers the exact levers to trigger action.",
+      "coreThesis": "Consumers make decisions based on cognitive shortcuts and contextual cues rather than objective logic; win the context, and you win the choice.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Choice Factory: 25 Behavioral Biases That Influence What We Buy"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -25242,6 +25567,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-upside-of-irrationality",
+    "title": "The Upside of Irrationality",
+    "author": "Dan Ariely",
+    "category": "Sales & Persuasion",
+    "subcategory": "Buyer Psychology",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Standard economics assumes we are calculating calculators, but our true superpower lies in our emotional, non-linear quirks. By learning the hidden gears of human behavior, you can turn your irrational impulses into purpose, deep satisfaction, and resilient relationships.",
+      "coreThesis": "Human irrationality is not a software bug to be erased, but an evolved operating system that produces purpose, pride, and social bonds when understood and navigated empirically.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Upside of Irrationality"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
