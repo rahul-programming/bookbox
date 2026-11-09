@@ -37,8 +37,10 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "analysis-of-the-fine-material-realm-rupa-loka": "./books/analysisOfTheFineMaterialRealmRupaLokaExpanded.ts",
   "analysis-of-the-immaterial-realm-arupa-loka": "./books/analysisOfTheImmaterialRealmArupaLokaExpanded.ts",
   "analysis-of-the-sensuous-realm-kama-loka": "./books/analysisOfTheSensuousRealmKamaLokaExpanded.ts",
+  "ananda-the-guardian-of-the-dhamma": "./books/anandaTheGuardianOfTheDhammaExpanded.ts",
   "anatta-and-nibbana-egolessness-and-deliverance": "./books/anattaAndNibbanaEgolessnessAndDeliveranceExpanded.ts",
   "anger-wisdom-for-cooling-the-flames": "./books/angerWisdomForCoolingTheFlamesExpanded.ts",
+  "angulimala-a-murderer-s-road-to-sainthood": "./books/angulimalaAMurdererSRoadToSainthoodExpanded.ts",
   "antifragile-things-that-gain-from-disorder": "./books/antifragileThingsThatGainFromDisorderExpanded.ts",
   "approaching-the-buddhist-path": "./books/approachingTheBuddhistPathExpanded.ts",
   "arahattamagga-arahattaphala-the-path-to-arahantship": "./books/arahattamaggaArahattaphalaThePathToArahantshipExpanded.ts",
@@ -69,6 +71,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "breathe-you-are-alive-anapanasati-sutra": "./books/breatheYouAreAliveAnapanasatiSutraExpanded.ts",
   "breathing-like-a-buddha": "./books/breathingLikeABuddhaExpanded.ts",
   "broad-view-boundless-heart": "./books/broadViewBoundlessHeartExpanded.ts",
+  "buddhism-and-the-crisis-of-the-modern-world": "./books/buddhismAndTheCrisisOfTheModernWorldExpanded.ts",
   "buddhism-and-the-ecology-of-mind": "./books/buddhismAndTheEcologyOfMindExpanded.ts",
   "buddhism-and-the-god-idea": "./books/buddhismAndTheGodIdeaExpanded.ts",
   "buddhism-in-a-nutshell": "./books/buddhismInANutshellExpanded.ts",
@@ -79,6 +82,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "buddhist-legends-dhammapada-commentary-part-3": "./books/buddhistLegendsDhammapadaCommentaryPart3Expanded.ts",
   "buddhist-logic-volume-1": "./books/buddhistLogicVolume1Expanded.ts",
   "buddhist-logic-volume-2": "./books/buddhistLogicVolume2Expanded.ts",
+  "buddhist-women-at-the-time-of-the-buddha": "./books/buddhistWomenAtTheTimeOfTheBuddhaExpanded.ts",
   "building-a-second-brain": "./books/buildingASecondBrainExpanded.ts",
   "built-from-broken": "./books/builtFromBrokenExpanded.ts",
   "bullshit-jobs-on-bullshit": "./books/bullshitJobsOnBullshitExpanded.ts",
@@ -126,6 +130,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "dictionary-of-pali-proper-names-volume-2": "./books/dictionaryOfPaliProperNamesVolume2Expanded.ts",
   "difficult-conversations-how-to-discuss-what-matters-most": "./books/difficultConversationsHowToDiscussWhatMattersMostExpanded.ts",
   "digital-body-language-how-to-build-trust-and-connection-no-m": "./books/digitalBodyLanguageHowToBuildTrustAndConnectionNoMExpanded.ts",
+  "dimensions-of-buddhist-thought-collected-essays": "./books/dimensionsOfBuddhistThoughtCollectedEssaysExpanded.ts",
   "disarming-the-narcissist": "./books/disarmingTheNarcissistExpanded.ts",
   "discourse-on-dependent-origination": "./books/discourseOnDependentOriginationExpanded.ts",
   "discourse-on-the-anattalakkhana-sutta": "./books/discourseOnTheAnattalakkhanaSuttaExpanded.ts",
@@ -187,6 +192,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "getting-things-done-the-art-of-stress-free-productivity": "./books/gettingThingsDoneTheArtOfStressFreeProductivityExpanded.ts",
   "getting-to-yes-negotiating-agreement-without-giving-in": "./books/gettingToYesNegotiatingAgreementWithoutGivingInExpanded.ts",
   "give-it-up-and-be-happy": "./books/giveItUpAndBeHappyExpanded.ts",
+  "gods-and-the-universe-in-buddhist-perspective": "./books/godsAndTheUniverseInBuddhistPerspectiveExpanded.ts",
   "going-for-refuge-and-taking-the-precepts": "./books/goingForRefugeAndTakingThePreceptsExpanded.ts",
   "going-home-jesus-and-buddha-as-brothers": "./books/goingHomeJesusAndBuddhaAsBrothersExpanded.ts",
   "good-reasons-for-better-arguments": "./books/goodReasonsForBetterArgumentsExpanded.ts",
@@ -269,6 +275,8 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "lost-art-of-listening-how-learning-to-listen-can-improve-rel": "./books/lostArtOfListeningHowLearningToListenCanImproveRelExpanded.ts",
   "lost-connections-uncovering-the-real-causes-of-depression": "./books/lostConnectionsUncoveringTheRealCausesOfDepressionExpanded.ts",
   "loving-kindness-in-plain-english": "./books/lovingKindnessInPlainEnglishExpanded.ts",
+  "maha-kassapa-father-of-the-sangha": "./books/mahaKassapaFatherOfTheSanghaExpanded.ts",
+  "maha-moggallana-master-of-psychic-power": "./books/mahaMoggallanaMasterOfPsychicPowerExpanded.ts",
   "make-it-stick-the-science-of-successful-learning": "./books/makeItStickTheScienceOfSuccessfulLearningExpanded.ts",
   "make-time-how-to-focus-on-what-matters-every-day": "./books/makeTimeHowToFocusOnWhatMattersEveryDayExpanded.ts",
   "man-and-his-symbols": "./books/manAndHisSymbolsExpanded.ts",
@@ -479,9 +487,11 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-buddha-s-path-of-virtue": "./books/theBuddhaSPathOfVirtueExpanded.ts",
   "the-buddha-s-philosophy-of-mind": "./books/theBuddhaSPhilosophyOfMindExpanded.ts",
   "the-buddha-s-system-of-meditation": "./books/theBuddhaSSystemOfMeditationExpanded.ts",
+  "the-buddhist-approach-to-mental-health": "./books/theBuddhistApproachToMentalHealthExpanded.ts",
   "the-buddhist-monastic-code-volume-i": "./books/theBuddhistMonasticCodeVolumeIExpanded.ts",
   "the-buddhist-monastic-code-volume-ii": "./books/theBuddhistMonasticCodeVolumeIiExpanded.ts",
   "the-buddhist-way-of-loving-kindness-metta-bhavana": "./books/theBuddhistWayOfLovingKindnessMettaBhavanaExpanded.ts",
+  "the-case-for-rebirth": "./books/theCaseForRebirthExpanded.ts",
   "the-catalyst-how-to-change-anyone-s-mind": "./books/theCatalystHowToChangeAnyoneSMindExpanded.ts",
   "the-checklist-manifesto": "./books/theChecklistManifestoExpanded.ts",
   "the-circadian-code": "./books/theCircadianCodeExpanded.ts",
@@ -2022,6 +2032,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "ananda-the-guardian-of-the-dhamma",
+    "title": "Ananda: The Guardian of the Dhamma",
+    "author": "Hellmuth Hecker",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1980,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into the intimate inner circle of the Buddha through the life of Ananda, the devoted attendant who remembered every teaching. It reveals how profound personal service, deep emotional vulnerability, and final spiritual liberation converge in everyday living.",
+      "coreThesis": "Selfless service and deep human warmth do not hinder spiritual awakening; when balanced with clear awareness and honest release, dedicated care for others becomes the direct path to freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Ananda: The Guardian of the Dhamma"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "anatta-and-nibbana-egolessness-and-deliverance",
     "title": "Anatta and Nibbana: Egolessness and Deliverance",
     "author": "Nyanaponika Thera",
@@ -2087,6 +2132,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "angulimala-a-murderer-s-road-to-sainthood",
+    "title": "Angulimala: A Murderer's Road to Sainthood",
+    "author": "Hellmuth Hecker",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1984,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Can a ruthless killer rewrite his destiny and touch total inner peace? Hellmuth Hecker unfolds the classic Buddhist chronicle of Angulimala to prove that no past mistake is fatal when direct awareness halts the momentum of harm.",
+      "coreThesis": "No past conditioning or moral failure is permanent; the moment outward aggression stops and awareness awakens, direct liberation becomes possible.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Angulimala: A Murderer's Road to Sainthood"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -3139,6 +3219,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "buddhism-and-the-crisis-of-the-modern-world",
+    "title": "Buddhism and the Crisis of the Modern World",
+    "author": "BPS Anthology",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1993,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Modern society built a world of astonishing speed and material wealth, yet left our inner lives depleted and restless. This timeless collection reveals that today's global crises are not mechanical accidents, but the unchecked human ego mirrored on a massive scale\\u2014and offers the clear, calming medicine of direct contemplative awareness to heal it.",
+      "coreThesis": "The crisis of modern civilization is an outward projection of unmanaged craving, fear, and ego-clinging; true global renewal begins only by anchoring immediate awareness in non-attachment, ethical clarity, and interbeing.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Buddhism and the Crisis of the Modern World"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "buddhism-and-the-ecology-of-mind",
     "title": "Buddhism and the Ecology of Mind",
     "author": "Bhikkhu Bodhi",
@@ -3477,6 +3592,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Buddhist Logic (Volume 2)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "buddhist-women-at-the-time-of-the-buddha",
+    "title": "Buddhist Women at the Time of the Buddha",
+    "author": "Hellmuth Hecker",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1982,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into the direct life stories of remarkable women who transformed grief, betrayal, vanity, and social constraint into radical spiritual freedom. Through their journeys, discover how the highest states of mindfulness and inner peace are fully accessible in everyday adult life.",
+      "coreThesis": "Total liberation from suffering is not determined by gender, social role, or past trauma, but by the immediate willingness to see impermanence clearly and release the gripping mind.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Buddhist Women at the Time of the Buddha"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -5125,6 +5275,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "dimensions-of-buddhist-thought-collected-essays",
+    "title": "Dimensions of Buddhist Thought: Collected Essays",
+    "author": "Francis Story",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 165,
+    "publishedYear": 1976,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Francis Story bridges ancient Dhamma and modern empirical science, showing that the universe is not an arbitrary creation but a dynamic, self-regulating stream of cause and effect. By learning to observe the mind with scientific precision, you unlock an unshakeable, practical freedom right in the midst of daily life.",
+      "coreThesis": "Suffering arises from attempting to grasp an unchanging self within an ever-shifting psychophysical flux; true liberation occurs when rational inquiry and direct meditative insight align with the natural law of cause and effect.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Dimensions of Buddhist Thought: Collected Essays"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -7250,6 +7435,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Give It Up and Be Happy"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "gods-and-the-universe-in-buddhist-perspective",
+    "title": "Gods and the Universe in Buddhist Perspective",
+    "author": "Francis Story",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1972,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into a breathtakingly modern Buddhist cosmos where even gods must die and universes breathe in endless cycles. Francis Story dissolves the divide between ancient spiritual insight and modern cosmology, pointing you back to direct, liberated awareness.",
+      "coreThesis": "The universe is an infinite, self-regulating stream of causes and conditions without an absolute beginning or supreme creator; true liberation arises not from worshipping impermanent celestial beings, but through mastering one's own mind via clear insight.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Gods and the Universe in Buddhist Perspective"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -10117,6 +10337,76 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Loving-Kindness in Plain English"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "maha-kassapa-father-of-the-sangha",
+    "title": "Maha Kassapa: Father of the Sangha",
+    "author": "Hellmuth Hecker",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1987,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into the quiet, steadfast wilderness with Maha Kassapa\\u2014the Buddha's austere counterpart whose unwavering discipline and serene detachment preserved the Dhamma for the world.",
+      "coreThesis": "True spiritual freedom and enduring clarity arise not from acquiring more, but from voluntary simplicity, relentless self-discipline, and unshakeable non-attachment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Maha Kassapa: Father of the Sangha"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "maha-moggallana-master-of-psychic-power",
+    "title": "Maha Moggallana: Master of Psychic Power",
+    "author": "Hellmuth Hecker",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1979,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Even the greatest master of supernormal power cannot outrun the iron law of cause and effect. Hellmuth Hecker reveals how extraordinary mental discipline is meaningless unless anchored in radical non-attachment and serene acceptance of karma.",
+      "coreThesis": "Supernormal mental capacities and extraordinary focus are merely secondary instruments; true liberation lies in understanding universal causality, cultivating unshakable mindfulness, and abiding in complete non-attachment even when facing the fruition of past karma.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Maha Moggallana: Master of Psychic Power"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -17462,6 +17752,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-buddhist-approach-to-mental-health",
+    "title": "The Buddhist Approach to Mental Health",
+    "author": "Francis Story",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1965,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Francis Story delivers an incisive, grounded masterclass on how ancient Buddhist psychology directly dismantles the modern epidemic of mental friction, anxiety, and inner division. By treating consciousness not as a fixed identity but as an improvable craft, this work hands you the exact contemplative tools to restore organic emotional sanity.",
+      "coreThesis": "Mental anguish is neither a random curse nor a permanent identity; it is the predictable friction generated by clinging to an illusory, rigid ego. Psychological health is realized through direct, bare awareness that sees thoughts as passing phenomena and systematically frees consciousness from grasping.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Buddhist Approach to Mental Health"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-buddhist-monastic-code-volume-i",
     "title": "The Buddhist Monastic Code, Volume I",
     "author": "Thanissaro Bhikkhu",
@@ -17555,6 +17880,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Buddhist Way of Loving-Kindness (Metta Bhavana)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-case-for-rebirth",
+    "title": "The Case for Rebirth",
+    "author": "Francis Story",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1959,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Death is not a sudden finish line, nor does it transport an unchanging soul\\u2014it is simply a link in an unbroken stream of cause and effect. By understanding consciousness as flowing momentum rather than a fixed identity, we discover how every choice shapes both today and the life to come.",
+      "coreThesis": "Consciousness is an ongoing causal current driven by volitional desire rather than a permanent entity, continuing from moment to moment and lifetime to lifetime until craving is dissolved in awakened awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Case for Rebirth"
     },
     "reflectionExercises": [],
     "actionItems": [],
