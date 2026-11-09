@@ -24,6 +24,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "a-taste-of-freedom": "./books/aTasteOfFreedomExpanded.ts",
   "a-theory-of-cognitive-dissonance": "./books/aTheoryOfCognitiveDissonanceExpanded.ts",
   "a-treasury-of-the-buddha-s-words-discourses-from-majjhima": "./books/aTreasuryOfTheBuddhaSWordsDiscoursesFromMajjhimaExpanded.ts",
+  "a-young-people-s-life-of-the-buddha": "./books/aYoungPeopleSLifeOfTheBuddhaExpanded.ts",
   "abhidhamma-in-practice": "./books/abhidhammaInPracticeExpanded.ts",
   "abundant-exalted-immeasurable-the-brahmaviharas": "./books/abundantExaltedImmeasurableTheBrahmaviharasExpanded.ts",
   "algorithms-to-live-by": "./books/algorithmsToLiveByExpanded.ts",
@@ -71,6 +72,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "breathe-you-are-alive-anapanasati-sutra": "./books/breatheYouAreAliveAnapanasatiSutraExpanded.ts",
   "breathing-like-a-buddha": "./books/breathingLikeABuddhaExpanded.ts",
   "broad-view-boundless-heart": "./books/broadViewBoundlessHeartExpanded.ts",
+  "buddhism-and-science-breakthrough-dialogues": "./books/buddhismAndScienceBreakthroughDialoguesExpanded.ts",
   "buddhism-and-the-crisis-of-the-modern-world": "./books/buddhismAndTheCrisisOfTheModernWorldExpanded.ts",
   "buddhism-and-the-ecology-of-mind": "./books/buddhismAndTheEcologyOfMindExpanded.ts",
   "buddhism-and-the-god-idea": "./books/buddhismAndTheGodIdeaExpanded.ts",
@@ -389,6 +391,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "remote-office-not-required": "./books/remoteOfficeNotRequiredExpanded.ts",
   "rest-why-you-get-more-done-when-you-work-less": "./books/restWhyYouGetMoreDoneWhenYouWorkLessExpanded.ts",
   "rethinking-narcissism-anger": "./books/rethinkingNarcissismAngerExpanded.ts",
+  "right-livelihood-in-buddhist-perspective": "./books/rightLivelihoodInBuddhistPerspectiveExpanded.ts",
   "right-mindfulness-memory-and-ardency-on-the-buddhist-path": "./books/rightMindfulnessMemoryAndArdencyOnTheBuddhistPathExpanded.ts",
   "risk-savvy-how-to-make-good-decisions": "./books/riskSavvyHowToMakeGoodDecisionsExpanded.ts",
   "samsara-nirvana-and-buddha-nature": "./books/samsaraNirvanaAndBuddhaNatureExpanded.ts",
@@ -525,11 +528,13 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-dip-a-little-book-that-teaches-you-when-to-quit": "./books/theDipALittleBookThatTeachesYouWhenToQuitExpanded.ts",
   "the-discourse-on-right-view-sammaditthi-sutta": "./books/theDiscourseOnRightViewSammaditthiSuttaExpanded.ts",
   "the-discourse-on-the-root-of-existence-mulapariyaya-sutta": "./books/theDiscourseOnTheRootOfExistenceMulapariyayaSuttaExpanded.ts",
+  "the-discourse-on-the-snake-simile-alagaddupama-sutta": "./books/theDiscourseOnTheSnakeSimileAlagaddupamaSuttaExpanded.ts",
   "the-disease-to-please-curing-the-people-pleasing-syndrome": "./books/theDiseaseToPleaseCuringThePeoplePleasingSyndromeExpanded.ts",
   "the-distracted-mind-ancient-brains-in-a-high-tech-world": "./books/theDistractedMindAncientBrainsInAHighTechWorldExpanded.ts",
   "the-divided-mind-the-epidemic-of-mindbody-disorders": "./books/theDividedMindTheEpidemicOfMindbodyDisordersExpanded.ts",
   "the-doctrine-of-anatta-in-the-nikayas": "./books/theDoctrineOfAnattaInTheNikayasExpanded.ts",
   "the-easy-way-to-stop-smoking-stop-drinking": "./books/theEasyWayToStopSmokingStopDrinkingExpanded.ts",
+  "the-elephant-footprint-cula-hatthipadopama-sutta": "./books/theElephantFootprintCulaHatthipadopamaSuttaExpanded.ts",
   "the-elimination-of-anger": "./books/theEliminationOfAngerExpanded.ts",
   "the-energy-of-prayer-how-to-deepen-your-spiritual-practice": "./books/theEnergyOfPrayerHowToDeepenYourSpiritualPracticeExpanded.ts",
   "the-essence-of-buddha-abhidhamma": "./books/theEssenceOfBuddhaAbhidhammaExpanded.ts",
@@ -556,6 +561,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-great-book-of-protection-maha-paritta": "./books/theGreatBookOfProtectionMahaParittaExpanded.ts",
   "the-great-discourse-on-causation-mahanidana-sutta": "./books/theGreatDiscourseOnCausationMahanidanaSuttaExpanded.ts",
   "the-great-mental-models-vol-1-2": "./books/theGreatMentalModelsVol12Expanded.ts",
+  "the-greater-discourse-on-voidness-maha-sunnata-sutta": "./books/theGreaterDiscourseOnVoidnessMahaSunnataSuttaExpanded.ts",
   "the-heart-of-compassion-a-practical-approach": "./books/theHeartOfCompassionAPracticalApproachExpanded.ts",
   "the-heart-of-practice-ajaan-mun-s-dhamma-sermons": "./books/theHeartOfPracticeAjaanMunSDhammaSermonsExpanded.ts",
   "the-heart-of-the-buddha-s-teaching": "./books/theHeartOfTheBuddhaSTeachingExpanded.ts",
@@ -565,6 +571,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-island-an-anthology-of-the-buddha-s-teachings-on-nibbana": "./books/theIslandAnAnthologyOfTheBuddhaSTeachingsOnNibbanaExpanded.ts",
   "the-itivuttaka-the-buddha-s-sayings": "./books/theItivuttakaTheBuddhaSSayingsExpanded.ts",
   "the-joy-of-living-and-dying-in-peace": "./books/theJoyOfLivingAndDyingInPeaceExpanded.ts",
+  "the-kalama-sutta-the-buddha-s-charter-of-free-inquiry": "./books/theKalamaSuttaTheBuddhaSCharterOfFreeInquiryExpanded.ts",
   "the-karma-of-questions-essays-on-the-buddhist-path": "./books/theKarmaOfQuestionsEssaysOnTheBuddhistPathExpanded.ts",
   "the-key-to-liberation": "./books/theKeyToLiberationExpanded.ts",
   "the-life-of-sariputta": "./books/theLifeOfSariputtaExpanded.ts",
@@ -584,6 +591,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-moral-animal": "./books/theMoralAnimalExpanded.ts",
   "the-narcissist-you-know": "./books/theNarcissistYouKnowExpanded.ts",
   "the-noble-eightfold-path-way-to-the-end-of-suffering": "./books/theNobleEightfoldPathWayToTheEndOfSufferingExpanded.ts",
+  "the-noble-quest-ariyapariyesana-sutta": "./books/theNobleQuestAriyapariyesanaSuttaExpanded.ts",
   "the-noonday-demon-an-atlas-of-depression": "./books/theNoondayDemonAnAtlasOfDepressionExpanded.ts",
   "the-now-habit": "./books/theNowHabitExpanded.ts",
   "the-numerical-discourses-of-the-buddha-anguttara-nikaya": "./books/theNumericalDiscoursesOfTheBuddhaAnguttaraNikayaExpanded.ts",
@@ -632,6 +640,8 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-shallows-what-the-internet-is-doing-to-our-brains": "./books/theShallowsWhatTheInternetIsDoingToOurBrainsExpanded.ts",
   "the-shape-of-suffering-a-study-of-dependent-co-arising": "./books/theShapeOfSufferingAStudyOfDependentCoArisingExpanded.ts",
   "the-signal-and-the-noise": "./books/theSignalAndTheNoiseExpanded.ts",
+  "the-simile-of-the-cloth-vatthupama-sutta": "./books/theSimileOfTheClothVatthupamaSuttaExpanded.ts",
+  "the-simile-of-the-raft-crossing-over-the-stream": "./books/theSimileOfTheRaftCrossingOverTheStreamExpanded.ts",
   "the-skill-of-release": "./books/theSkillOfReleaseExpanded.ts",
   "the-sleep-solution": "./books/theSleepSolutionExpanded.ts",
   "the-social-animal": "./books/theSocialAnimalExpanded.ts",
@@ -1566,6 +1576,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "A Treasury of the Buddha's Words: Discourses from Majjhima"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "a-young-people-s-life-of-the-buddha",
+    "title": "A Young People's Life of the Buddha",
+    "author": "Bhikkhu Silacara",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 90,
+    "publishedYear": 1927,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Strip away centuries of complex ritual to witness the Buddha as a practical physician of the mind. This masterwork shows how genuine freedom is found not in running away from life, but in seeing clearly through our everyday illusions.",
+      "coreThesis": "Suffering is not an inescapable fate, but a mental knot created by clinging to changing conditions; it unbinds the moment we see reality with calm, non-reactive clarity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "A Young People's Life of the Buddha"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -3207,6 +3252,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Broad View, Boundless Heart"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "buddhism-and-science-breakthrough-dialogues",
+    "title": "Buddhism and Science: Breakthrough Dialogues",
+    "author": "BPS Wheel Series",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1958,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Centuries before modern physics dissolved solid matter into shifting energetic fields, the Buddha discovered the exact same fluid reality within human consciousness. This seminal anthology bridges lab-bench empirical science and direct meditative awareness, offering a clear, grounded path to freedom from illusion.",
+      "coreThesis": "Both modern scientific exploration and Buddhist contemplative practice arrive at the identical truth: reality is an interdependent, dynamic process devoid of a permanent, isolated self.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Buddhism and Science: Breakthrough Dialogues"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -14333,6 +14413,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "right-livelihood-in-buddhist-perspective",
+    "title": "Right Livelihood in Buddhist Perspective",
+    "author": "BPS Wheel Series",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1984,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Work consumes most of your waking life, yet most people treat it as a spiritual compromise. This classic guide shows how turning your daily vocation into a conscious craft of non-harm is the fastest path to mental peace and genuine inner freedom.",
+      "coreThesis": "How you make your living either continuously agitates your consciousness or clarifies it; work aligned with harmlessness and honest care becomes meditation in action.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Right Livelihood in Buddhist Perspective"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "right-mindfulness-memory-and-ardency-on-the-buddhist-path",
     "title": "Right Mindfulness: Memory and Ardency on the Buddhist Path",
     "author": "Thanissaro Bhikkhu",
@@ -19081,6 +19196,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-discourse-on-the-snake-simile-alagaddupama-sutta",
+    "title": "The Discourse on the Snake Simile: Alagaddupama Sutta",
+    "author": "Nyanaponika Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1962,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop turning your spiritual journey into an intellectual ego trip. This timeless manual reveals how to use wisdom as a practical life raft to cross life's stormy waters, and how to set it down once you reach the shore.",
+      "coreThesis": "Wisdom is an instrument for crossing from confusion to peace, not an ornament to wear or a weapon to wield. Truth liberates only when practiced without clinging to the concepts used to reach it.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Discourse on the Snake Simile: Alagaddupama Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-disease-to-please-curing-the-people-pleasing-syndrome",
     "title": "The Disease to Please: Curing the People-Pleasing Syndrome",
     "author": "Harriet B. Braiker",
@@ -19251,6 +19401,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-elephant-footprint-cula-hatthipadopama-sutta",
+    "title": "The Elephant Footprint: Cula-Hatthipadopama Sutta",
+    "author": "Bhikkhu Bodhi",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1995,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Do not settle for secondhand belief or intellectual cleverness\\u2014track the real footsteps of awareness until you see the truth directly for yourself. Bhikkhu Bodhi translates the Buddha's timeless field guide to verifying spiritual freedom through direct, unshakeable experience.",
+      "coreThesis": "Genuine spiritual liberation cannot be verified by outward reputation, debate, or pleasant meditative feelings; it is realized only when the seeker walks the gradual path of ethical discipline and stillness to directly eradicate mental clinging.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Elephant Footprint: Cula-Hatthipadopama Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -20163,6 +20348,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-greater-discourse-on-voidness-maha-sunnata-sutta",
+    "title": "The Greater Discourse on Voidness: Maha-Sunnata Sutta",
+    "author": "Nyanamoli Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1965,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop packing your mind with needless noise. This ancient manual shows you how to clear the mental clutter and rest naturally in spacious, unshakable clarity.",
+      "coreThesis": "Voidness is not a cold philosophical void; it is the natural ease and unburdened clarity discovered when you stop cluttering your awareness with ego, chatter, and attachment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Greater Discourse on Voidness: Maha-Sunnata Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-heart-of-compassion-a-practical-approach",
     "title": "The Heart of Compassion: A Practical Approach",
     "author": "Dalai Lama",
@@ -20466,6 +20686,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Joy of Living and Dying in Peace"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-kalama-sutta-the-buddha-s-charter-of-free-inquiry",
+    "title": "The Kalama Sutta: The Buddha's Charter of Free Inquiry",
+    "author": "Soma Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1959,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step out of the storm of conflicting dogmas and test spiritual truth directly in your own immediate living awareness. Here is the world's most timeless charter of inner discernment: do not accept any teaching until you verify its fruit in your own peace of mind.",
+      "coreThesis": "Truth is never validated by pedigree, tradition, or rhetorical brilliance, but by the direct, observable impact an attitude or teaching has upon the peace and purity of your immediate experience.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Kalama Sutta: The Buddha's Charter of Free Inquiry"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -21129,6 +21384,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Noble Eightfold Path: Way to the End of Suffering"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-noble-quest-ariyapariyesana-sutta",
+    "title": "The Noble Quest: Ariyapariyesana Sutta",
+    "author": "Bhikkhu Nanamoli",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1974,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop building your life upon quicksand. This ancient spiritual masterpiece reveals how to pivot from chasing fragile, fleeting securities to uncovering the unshakeable peace already present within pure awareness.",
+      "coreThesis": "True freedom begins the moment you stop demanding lasting fulfillment from impermanent things and instead discover the deathless, unconditioned peace of direct awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Noble Quest: Ariyapariyesana Sutta"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -22815,6 +23105,76 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "the-simile-of-the-cloth-vatthupama-sutta",
+    "title": "The Simile of the Cloth: Vatthupama Sutta",
+    "author": "Nyanaponika Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1963,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Before you can dye fabric a brilliant color, you must scour out the grease, grime, and grit. Nyanaponika Thera translates the Buddha's timeless masterclass on cleansing the sixteen mental stains that distort everyday perception and awaken effortless inner freedom.",
+      "coreThesis": "The natural luminous clarity of awareness is obscured only by visiting impurities; recognize and dissolve these emotional stains, and the mind spontaneously realizes freedom and universal goodwill.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Simile of the Cloth: Vatthupama Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-simile-of-the-raft-crossing-over-the-stream",
+    "title": "The Simile of the Raft: Crossing Over the Stream",
+    "author": "BPS Wheel Series",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1962,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your beliefs and meditation practices are life rafts built to carry you across turbulent waters, not heavy monuments to carry on your back once you reach the shore. This classic Buddhist treatise offers an indispensable masterclass in spiritual pragmatism, teaching you how to use wisdom to cross the river of suffering and cultivate the ultimate freedom to let go.",
+      "coreThesis": "Spiritual teachings and practices are functional vehicles meant solely for crossing out of suffering; when you reach direct understanding, clinging to doctrine becomes the final obstacle to true freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Simile of the Raft: Crossing Over the Stream"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
