@@ -62,10 +62,12 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "being-nobody-going-nowhere-meditations-on-the-path": "./books/beingNobodyGoingNowhereMeditationsOnThePathExpanded.ts",
   "better-than-before": "./books/betterThanBeforeExpanded.ts",
   "beyond-all-directions-essays-on-nirvana": "./books/beyondAllDirectionsEssaysOnNirvanaExpanded.ts",
+  "beyond-culture": "./books/beyondCultureExpanded.ts",
   "beyond-distraction-five-ways-to-focus-the-mind": "./books/beyondDistractionFiveWaysToFocusTheMindExpanded.ts",
   "beyond-mindfulness-in-plain-english": "./books/beyondMindfulnessInPlainEnglishExpanded.ts",
   "beyond-religion-ethics-for-a-whole-world": "./books/beyondReligionEthicsForAWholeWorldExpanded.ts",
   "bhavana-mind-development-in-everyday-reality": "./books/bhavanaMindDevelopmentInEverydayRealityExpanded.ts",
+  "blink-the-art-of-the-glance": "./books/blinkTheArtOfTheGlanceExpanded.ts",
   "blink-the-power-of-thinking-without-thinking": "./books/blinkThePowerOfThinkingWithoutThinkingExpanded.ts",
   "bodhinyana-a-collection-of-dhamma-talks": "./books/bodhinyanaACollectionOfDhammaTalksExpanded.ts",
   "body-language": "./books/bodyLanguageExpanded.ts",
@@ -96,6 +98,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "building-a-second-brain": "./books/buildingASecondBrainExpanded.ts",
   "built-from-broken": "./books/builtFromBrokenExpanded.ts",
   "bullshit-jobs-on-bullshit": "./books/bullshitJobsOnBullshitExpanded.ts",
+  "captivate-the-science-of-succeeding-with-people": "./books/captivateTheScienceOfSucceedingWithPeopleExpanded.ts",
   "central-conception-of-buddhism-and-meaning-of-dharma": "./books/centralConceptionOfBuddhismAndMeaningOfDharmaExpanded.ts",
   "chronicles-of-dhamma-historical-perspectives": "./books/chroniclesOfDhammaHistoricalPerspectivesExpanded.ts",
   "citta-and-cetasika-mind-and-mental-factors": "./books/cittaAndCetasikaMindAndMentalFactorsExpanded.ts",
@@ -182,6 +185,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "evil-and-punishment-the-danda-vagga-of-the-dhammapada": "./books/evilAndPunishmentTheDandaVaggaOfTheDhammapadaExpanded.ts",
   "evolutionary-psychology-the-new-science-of-the-mind": "./books/evolutionaryPsychologyTheNewScienceOfTheMindExpanded.ts",
   "expert-political-judgment": "./books/expertPoliticalJudgmentExpanded.ts",
+  "eye-to-eye-how-people-interact-with-gaze": "./books/eyeToEyeHowPeopleInteractWithGazeExpanded.ts",
   "face-reading-in-chinese-medicine": "./books/faceReadingInChineseMedicineExpanded.ts",
   "facets-of-buddhist-thought": "./books/facetsOfBuddhistThoughtExpanded.ts",
   "factfulness": "./books/factfulnessExpanded.ts",
@@ -297,6 +301,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "logically-fallacious": "./books/logicallyFallaciousExpanded.ts",
   "lost-art-of-listening-how-learning-to-listen-can-improve-rel": "./books/lostArtOfListeningHowLearningToListenCanImproveRelExpanded.ts",
   "lost-connections-uncovering-the-real-causes-of-depression": "./books/lostConnectionsUncoveringTheRealCausesOfDepressionExpanded.ts",
+  "louder-than-words-take-your-career-from-average-to-exception": "./books/louderThanWordsTakeYourCareerFromAverageToExceptionExpanded.ts",
   "loving-kindness-in-plain-english": "./books/lovingKindnessInPlainEnglishExpanded.ts",
   "maha-kassapa-father-of-the-sangha": "./books/mahaKassapaFatherOfTheSanghaExpanded.ts",
   "maha-moggallana-master-of-psychic-power": "./books/mahaMoggallanaMasterOfPsychicPowerExpanded.ts",
@@ -469,6 +474,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "solving-the-procrastination-puzzle": "./books/solvingTheProcrastinationPuzzleExpanded.ts",
   "somatics-reawakening-the-mind-s-control-of-movement": "./books/somaticsReawakeningTheMindSControlOfMovementExpanded.ts",
   "sources-of-power": "./books/sourcesOfPowerExpanded.ts",
+  "spatial-behavior-a-geographic-and-psychological-perspective": "./books/spatialBehaviorAGeographicAndPsychologicalPerspectiveExpanded.ts",
   "speak-peace-in-a-world-of-conflict": "./books/speakPeaceInAWorldOfConflictExpanded.ts",
   "spent-sex-evolution-and-consumer-behavior": "./books/spentSexEvolutionAndConsumerBehaviorExpanded.ts",
   "split-second-persuasion": "./books/splitSecondPersuasionExpanded.ts",
@@ -597,6 +603,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-evolution-of-desire-strategies-of-human-mating": "./books/theEvolutionOfDesireStrategiesOfHumanMatingExpanded.ts",
   "the-experience-of-samadhi-in-depth-exploration": "./books/theExperienceOfSamadhiInDepthExplorationExpanded.ts",
   "the-experiential-path-of-satipatthana": "./books/theExperientialPathOfSatipatthanaExpanded.ts",
+  "the-face-of-emotion": "./books/theFaceOfEmotionExpanded.ts",
   "the-fifth-discipline": "./books/theFifthDisciplineExpanded.ts",
   "the-fire-sermon-adittapariyaya-sutta": "./books/theFireSermonAdittapariyayaSuttaExpanded.ts",
   "the-five-mental-hindrances-and-their-conquest": "./books/theFiveMentalHindrancesAndTheirConquestExpanded.ts",
@@ -625,6 +632,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-heart-of-practice-ajaan-mun-s-dhamma-sermons": "./books/theHeartOfPracticeAjaanMunSDhammaSermonsExpanded.ts",
   "the-heart-of-the-buddha-s-teaching": "./books/theHeartOfTheBuddhaSTeachingExpanded.ts",
   "the-heritage-of-the-sangha": "./books/theHeritageOfTheSanghaExpanded.ts",
+  "the-hidden-dimension": "./books/theHiddenDimensionExpanded.ts",
   "the-information-diet": "./books/theInformationDietExpanded.ts",
   "the-invisible-gorilla-how-our-intuitions-deceive-us": "./books/theInvisibleGorillaHowOurIntuitionsDeceiveUsExpanded.ts",
   "the-island-an-anthology-of-the-buddha-s-teachings-on-nibbana": "./books/theIslandAnAnthologyOfTheBuddhaSTeachingsOnNibbanaExpanded.ts",
@@ -636,6 +644,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-life-of-sariputta": "./books/theLifeOfSariputtaExpanded.ts",
   "the-logic-of-scientific-discovery": "./books/theLogicOfScientificDiscoveryExpanded.ts",
   "the-long-discourses-of-the-buddha-digha-nikaya": "./books/theLongDiscoursesOfTheBuddhaDighaNikayaExpanded.ts",
+  "the-look-the-secret-language-of-the-eyes": "./books/theLookTheSecretLanguageOfTheEyesExpanded.ts",
   "the-lucifer-effect-understanding-how-good-people-turn-evil": "./books/theLuciferEffectUnderstandingHowGoodPeopleTurnEvilExpanded.ts",
   "the-manuals-of-dhamma-collected-works": "./books/theManualsOfDhammaCollectedWorksExpanded.ts",
   "the-mechanism-of-the-five-aggregates": "./books/theMechanismOfTheFiveAggregatesExpanded.ts",
@@ -702,6 +711,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-shallows-what-the-internet-is-doing-to-our-brains": "./books/theShallowsWhatTheInternetIsDoingToOurBrainsExpanded.ts",
   "the-shape-of-suffering-a-study-of-dependent-co-arising": "./books/theShapeOfSufferingAStudyOfDependentCoArisingExpanded.ts",
   "the-signal-and-the-noise": "./books/theSignalAndTheNoiseExpanded.ts",
+  "the-silent-language": "./books/theSilentLanguageExpanded.ts",
   "the-simile-of-the-cloth-vatthupama-sutta": "./books/theSimileOfTheClothVatthupamaSuttaExpanded.ts",
   "the-simile-of-the-raft-crossing-over-the-stream": "./books/theSimileOfTheRaftCrossingOverTheStreamExpanded.ts",
   "the-skill-of-release": "./books/theSkillOfReleaseExpanded.ts",
@@ -2985,6 +2995,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "beyond-culture",
+    "title": "Beyond Culture",
+    "author": "Edward T. Hall",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 1976,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Culture is the invisible operating system running your mind, dictating how you talk, move, and think without your knowledge. By decoding this silent script, you gain the superpower to see the hidden mechanics shaping every conversation, workplace, and relationship.",
+      "coreThesis": "Culture is an unconscious biological and cognitive filter that dictates how we perceive space, time, and human interaction. We can only achieve true self-awareness and cross-cultural harmony by recognizing and stepping beyond our silent programming.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Beyond Culture"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "beyond-distraction-five-ways-to-focus-the-mind",
     "title": "Beyond Distraction: Five Ways to Focus the Mind",
     "author": "Shaila Catherine",
@@ -3120,6 +3165,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "blink-the-art-of-the-glance",
+    "title": "Blink: The Art of the Glance",
+    "author": "Selected papers on rapid eye-tracking and social perception.",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Before you speak a single word, your eyes execute hundreds of ballistic micro-movements that broadcast your confidence, focus, and intentions. This analysis decodes the hidden physics of eye tracking to show how split-second glances govern social hierarchy, trust, and persuasion.",
+      "coreThesis": "Human eyes are not passive receivers of light; they are active, dual-channel transceivers that broadcast autonomic nervous system states and decode social rank in split-second visual bursts.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Blink: The Art of the Glance"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -4169,6 +4249,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "captivate-the-science-of-succeeding-with-people",
+    "title": "Captivate: The Science of Succeeding with People",
+    "author": "Vanessa Van Edwards",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Charisma is not an innate genetic lottery ticket\\u2014it is a systematic, readable science of behavioral engineering. By learning the mechanics of non-verbal cues, conversational sparks, and personality decoding, anyone can transform social awkwardness into effortless influence.",
+      "coreThesis": "Human interaction is governed by predictable psychological formulas and non-verbal feedback loops; decoding these hidden behavioral mechanics turns awkward encounters into authentic, magnetic connections.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Captivate: The Science of Succeeding with People"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -7176,6 +7291,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "eye-to-eye-how-people-interact-with-gaze",
+    "title": "Eye to Eye: How People Interact with Gaze",
+    "author": "Social psychology monographs on visual dominance ratios and pupil constriction.",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1988,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Human eyes are not just sensory receivers; they are active broadcast towers transmitting social status, cognitive load, and relational intent in millisecond bursts. Discover the invisible feedback loops and behavioral physics that govern every conversation before a single word is processed.",
+      "coreThesis": "Gaze is an active social signaling system that regulates conversational flow, projects hierarchy through visual dominance ratios, and leaks internal autonomic states through involuntary ocular reflexes.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Eye to Eye: How People Interact with Gaze"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -11194,6 +11344,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "louder-than-words-take-your-career-from-average-to-exception",
+    "title": "Louder Than Words: Take Your Career from Average to Exceptional with the Hidden Power of Nonverbal Intelligence",
+    "author": "Joe Navarro",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Words deliver the brief, but silent physical signals close the transaction. Mastering nonverbal intelligence equips leaders with an asymmetric radar to decode unspoken friction, project unflinching authority, and command the room.",
+      "coreThesis": "Professional leverage is won or lost in silent execution: by mastering the comfort/discomfort paradigm, you read counterparts with total clarity while deliberately projecting unquestioned credibility.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Louder Than Words: Take Your Career from Average to Exceptional with the Hidden Power of Nonverbal Intelligence"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -17206,6 +17391,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "spatial-behavior-a-geographic-and-psychological-perspective",
+    "title": "Spatial Behavior: A Geographic and Psychological Perspective",
+    "author": "Reginald G. Golledge & Robert J. Stimson",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 1997,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "We don't live in the objective physical universe; we live inside a mental map sketchily drafted by our senses and pruned by our habits. This landmark work unites environmental psychology and geography to reveal the hidden cognitive rules that govern how we walk, shop, commute, and claim territory.",
+      "coreThesis": "Human movement and spatial choices are not driven by objective geography, but by subjective, imperfect cognitive maps filtered through bounded rationality, time constraints, and emotional meaning.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Spatial Behavior: A Geographic and Psychological Perspective"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "speak-peace-in-a-world-of-conflict",
     "title": "Speak Peace in a World of Conflict",
     "author": "Marshall B. Rosenberg",
@@ -21681,6 +21901,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-face-of-emotion",
+    "title": "The Face of Emotion",
+    "author": "Eric R. Kandel",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 85,
+    "publishedYear": 1971,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your face is not a passive mirror; it is an active command center directing how you think, decide, and connect. By cracking the universal biological code of facial expressions, this work reveals how subtle muscle twitches drive human motivation and emotional reality.",
+      "coreThesis": "Human emotions are autonomous, biologically hardwired motivational programs expressed through universal facial muscle configurations that actively regulate internal feeling states via real-time somatic feedback.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Face of Emotion"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-fifth-discipline",
     "title": "The Fifth Discipline",
     "author": "Peter M. Senge",
@@ -22658,6 +22913,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-hidden-dimension",
+    "title": "The Hidden Dimension",
+    "author": "Edward T. Hall",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 1966,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Just like fish swim unaware of the water around them, humans move inside invisible, culturally programmed bubbles of space that dictate every conversation, relationship, and stress level. Edward T. Hall decodes these hidden sensory zones to reveal why physical distance speaks louder than words.",
+      "coreThesis": "Space is an active, unconscious dimension of culture; humans inhabit invisible sensory bubbles whose unspoken boundaries govern comfort, stress, and communication.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Hidden Dimension"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-information-diet",
     "title": "The Information Diet",
     "author": "Clay A. Johnson",
@@ -23037,6 +23327,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-look-the-secret-language-of-the-eyes",
+    "title": "The Look: The Secret Language of the Eyes",
+    "author": "Various behavioral treatises on oculesics and gaze dynamics.",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your eyes are twin biometric projectors broadcasting your hidden thoughts, stress levels, and desires milliseconds before your mouth can frame a sentence. Master oculesics to decode the involuntary micro-signals that govern human connection, authority, and trust.",
+      "coreThesis": "The human gaze is an involuntary biological communication protocol that continuously broadcasts status, emotional arousal, and cognitive processing long before spoken words register.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Look: The Secret Language of the Eyes"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -25345,6 +25670,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "the-silent-language",
+    "title": "The Silent Language",
+    "author": "Edward T. Hall",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 1959,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Beneath every spoken conversation lies an invisible, silent language of time, distance, and rhythm running like hidden code in the background. Anthropologist Edward T. Hall reveals the subconscious social architecture that dictates human behavior long before anyone utters a syllable.",
+      "coreThesis": "Culture is communication, and its most influential rules are unspoken patterns of time, physical space, and social rhythm that dictate human behavior below conscious awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Silent Language"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
