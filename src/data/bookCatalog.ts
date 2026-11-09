@@ -198,6 +198,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "healing-back-pain-the-mind-body-connection": "./books/healingBackPainTheMindBodyConnectionExpanded.ts",
   "healing-the-shame-that-binds-you": "./books/healingTheShameThatBindsYouExpanded.ts",
   "heart-advice-of-a-mahamudra-master": "./books/heartAdviceOfAMahamudraMasterExpanded.ts",
+  "heart-to-heart-a-conversational-guide-to-awakening": "./books/heartToHeartAConversationalGuideToAwakeningExpanded.ts",
   "heedfulness-the-deathless-path-of-the-dhammapada": "./books/heedfulnessTheDeathlessPathOfTheDhammapadaExpanded.ts",
   "hell-yeah-or-no": "./books/hellYeahOrNoExpanded.ts",
   "honoring-the-self": "./books/honoringTheSelfExpanded.ts",
@@ -255,6 +256,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "limitless": "./books/limitlessExpanded.ts",
   "linked-how-everything-is-connected": "./books/linkedHowEverythingIsConnectedExpanded.ts",
   "listen-like-you-mean-it-reclaiming-the-lost-art-of-true-conn": "./books/listenLikeYouMeanItReclaimingTheLostArtOfTrueConnExpanded.ts",
+  "live-in-a-better-way-reflections-on-truth-love-and-happiness": "./books/liveInABetterWayReflectionsOnTruthLoveAndHappinessExpanded.ts",
   "living-buddha-living-christ": "./books/livingBuddhaLivingChristExpanded.ts",
   "living-dhamma": "./books/livingDhammaExpanded.ts",
   "living-forward-a-proven-plan-to-stop-drifting": "./books/livingForwardAProvenPlanToStopDriftingExpanded.ts",
@@ -281,6 +283,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "manual-of-the-four-noble-truths-saccavanta-dipani": "./books/manualOfTheFourNobleTruthsSaccavantaDipaniExpanded.ts",
   "manual-of-the-path-to-higher-knowledge-patthanuddesa-dipani": "./books/manualOfThePathToHigherKnowledgePatthanuddesaDipaniExpanded.ts",
   "manual-of-the-supreme-man-uttamapurisa-dipani": "./books/manualOfTheSupremeManUttamapurisaDipaniExpanded.ts",
+  "many-ways-to-nirvana-reflections-on-happiness": "./books/manyWaysToNirvanaReflectionsOnHappinessExpanded.ts",
   "meditation-instructions-for-intensive-practice": "./books/meditationInstructionsForIntensivePracticeExpanded.ts",
   "meditation-now-inner-peace-through-inner-wisdom": "./books/meditationNowInnerPeaceThroughInnerWisdomExpanded.ts",
   "meditation-on-perception-ten-healing-practices": "./books/meditationOnPerceptionTenHealingPracticesExpanded.ts",
@@ -294,6 +297,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "meeting-the-shadow-the-hidden-power-of-the-dark-side-of-huma": "./books/meetingTheShadowTheHiddenPowerOfTheDarkSideOfHumaExpanded.ts",
   "memories-dreams-reflections": "./books/memoriesDreamsReflectionsExpanded.ts",
   "methods-of-persuasion": "./books/methodsOfPersuasionExpanded.ts",
+  "mind-in-comfort-and-ease-the-vision-of-the-great-perfection": "./books/mindInComfortAndEaseTheVisionOfTheGreatPerfectionExpanded.ts",
   "mind-like-fire-unbound": "./books/mindLikeFireUnboundExpanded.ts",
   "mind-of-clear-light-advice-on-living-well-and-dying-consciously": "./books/mindOfClearLightAdviceOnLivingWellAndDyingConsciouslyExpanded.ts",
   "mind-over-mood": "./books/mindOverMoodExpanded.ts",
@@ -462,6 +466,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-blooming-of-a-lotus-guided-meditations": "./books/theBloomingOfALotusGuidedMeditationsExpanded.ts",
   "the-body-keeps-the-score": "./books/theBodyKeepsTheScoreExpanded.ts",
   "the-book-of-boundaries": "./books/theBookOfBoundariesExpanded.ts",
+  "the-book-of-joy-lasting-happiness-in-a-changing-world": "./books/theBookOfJoyLastingHappinessInAChangingWorldExpanded.ts",
   "the-book-of-the-discipline-vinaya-pitaka": "./books/theBookOfTheDisciplineVinayaPitakaExpanded.ts",
   "the-brain-that-changes-itself": "./books/theBrainThatChangesItselfExpanded.ts",
   "the-buddha-and-his-teachings": "./books/theBuddhaAndHisTeachingsExpanded.ts",
@@ -621,6 +626,9 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-suttanipata-an-ancient-collection-of-discourses": "./books/theSuttanipataAnAncientCollectionOfDiscoursesExpanded.ts",
   "the-systems-view-of-life": "./books/theSystemsViewOfLifeExpanded.ts",
   "the-thousandfold-verse-dhammapada-sahassa-vagga": "./books/theThousandfoldVerseDhammapadaSahassaVaggaExpanded.ts",
+  "the-three-basic-facts-of-existence-impermanence-anicca": "./books/theThreeBasicFactsOfExistenceImpermanenceAniccaExpanded.ts",
+  "the-three-basic-facts-of-existence-non-self-anatta": "./books/theThreeBasicFactsOfExistenceNonSelfAnattaExpanded.ts",
+  "the-three-basic-facts-of-existence-suffering-dukkha": "./books/theThreeBasicFactsOfExistenceSufferingDukkhaExpanded.ts",
   "the-tree-of-enlightenment": "./books/theTreeOfEnlightenmentExpanded.ts",
   "the-udana-inspired-utterances-of-the-buddha": "./books/theUdanaInspiredUtterancesOfTheBuddhaExpanded.ts",
   "the-universe-in-a-single-atom-convergence-of-science-and-spirituality": "./books/theUniverseInASingleAtomConvergenceOfScienceAndSpiritualityExpanded.ts",
@@ -631,6 +639,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-way-to-the-guru-meditative-guidance": "./books/theWayToTheGuruMeditativeGuidanceExpanded.ts",
   "the-willpower-instinct": "./books/theWillpowerInstinctExpanded.ts",
   "the-wings-to-awakening-an-anthology-from-the-pali-canon": "./books/theWingsToAwakeningAnAnthologyFromThePaliCanonExpanded.ts",
+  "the-wisdom-of-forgiveness-intimate-conversations": "./books/theWisdomOfForgivenessIntimateConversationsExpanded.ts",
   "the-wise-and-the-foolish-in-the-dhammapada": "./books/theWiseAndTheFoolishInTheDhammapadaExpanded.ts",
   "the-word-of-the-buddha": "./books/theWordOfTheBuddhaExpanded.ts",
   "the-workings-of-kamma": "./books/theWorkingsOfKammaExpanded.ts",
@@ -651,6 +660,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "to-sell-is-human-the-surprising-truth-about-moving-others": "./books/toSellIsHumanTheSurprisingTruthAboutMovingOthersExpanded.ts",
   "to-the-last-breath-dhamma-talks-on-illness-and-death": "./books/toTheLastBreathDhammaTalksOnIllnessAndDeathExpanded.ts",
   "touching-peace-practicing-the-art-of-mindful-living": "./books/touchingPeacePracticingTheArtOfMindfulLivingExpanded.ts",
+  "toward-a-true-kinship-of-faiths": "./books/towardATrueKinshipOfFaithsExpanded.ts",
   "toward-eternal-peace-discourse-on-nibbana": "./books/towardEternalPeaceDiscourseOnNibbanaExpanded.ts",
   "transcendental-dependent-arising": "./books/transcendentalDependentArisingExpanded.ts",
   "transcending-reflections-on-finding-meaning-in-suffering": "./books/transcendingReflectionsOnFindingMeaningInSufferingExpanded.ts",
@@ -7627,6 +7637,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "heart-to-heart-a-conversational-guide-to-awakening",
+    "title": "Heart to Heart: A Conversational Guide to Awakening",
+    "author": "Dalai Lama & Patrick Gaffney",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2023,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When you step out of mental chatter, life reveals itself as an interconnected living web rather than an isolated battleground. A serene, direct dialogue reminding us that healing the outer world begins with cultivating an untangled, warm-hearted mind.",
+      "coreThesis": "Individual peace and planetary survival share the exact same root: seeing through the illusion of self-isolation and meeting every living being with clear, practical compassion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Heart to Heart: A Conversational Guide to Awakening"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "heedfulness-the-deathless-path-of-the-dhammapada",
     "title": "Heedfulness: The Deathless Path of the Dhammapada",
     "author": "Bhikkhu Cintita",
@@ -9619,6 +9664,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "live-in-a-better-way-reflections-on-truth-love-and-happiness",
+    "title": "Live in a Better Way: Reflections on Truth, Love, and Happiness",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2001,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Enduring joy is not an accident of circumstance, but an interior skill trained through deliberate mental discipline and an open heart. The Dalai Lama outlines how calming reactive impulses and cultivating boundless warmth transforms ordinary life into an effortless sanctuary of peace.",
+      "coreThesis": "Authentic happiness arises not from rearranging external conditions, but from retraining our internal awareness through ethical self-discipline, lucid wisdom, and active compassion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Live in a Better Way: Reflections on Truth, Love, and Happiness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "living-buddha-living-christ",
     "title": "Living Buddha, Living Christ",
     "author": "Thich Nhat Hanh",
@@ -10528,6 +10608,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "many-ways-to-nirvana-reflections-on-happiness",
+    "title": "Many Ways to Nirvana: Reflections on Happiness",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Happiness is not an accidental jackpot or a stroke of luck\\u2014it is a trainable mental discipline rooted in seeing reality as it actually is. In this lucid guide, the Dalai Lama strips away esoteric jargon to present a practical blueprint for transforming inner affliction into lasting peace and universal compassion.",
+      "coreThesis": "Genuine, lasting happiness is not an external acquisition, but an internal skill achieved by seeing reality accurately, purifying destructive mental afflictions, and expanding self-centered preoccupation into universal compassion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Many Ways to Nirvana: Reflections on Happiness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "meditation-instructions-for-intensive-practice",
     "title": "Meditation Instructions for Intensive Practice",
     "author": "Sayadaw U Silananda",
@@ -10977,6 +11092,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "mind-in-comfort-and-ease-the-vision-of-the-great-perfection",
+    "title": "Mind in Comfort and Ease: The Vision of the Great Perfection",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 90,
+    "publishedYear": 2007,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop fighting your wandering mind and uncover the unshakeable stillness already resting beneath your thoughts. In this masterwork, the Dalai Lama provides a lucid roadmap to Dzogchen, showing you how to settle into effortless, luminous awareness.",
+      "coreThesis": "Your mind's true nature is already open, luminous, and free; lasting comfort is not created by straining, but by resting effortlessly in direct, compassionate awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mind in Comfort and Ease: The Vision of the Great Perfection"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -16848,6 +16998,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-book-of-joy-lasting-happiness-in-a-changing-world",
+    "title": "The Book of Joy: Lasting Happiness in a Changing World",
+    "author": "Dalai Lama & Desmond Tutu",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 125,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Joy is not a fortunate accident of comfortable external conditions, but an internal muscular skill cultivated through the furnace of life's inevitable adversity. In this historic meeting of hearts, two spiritual giants reveal that true liberation arrives when we stop guarding the fragile ego and open outward in unconditional generosity.",
+      "coreThesis": "Enduring joy is an inner capacity that is independent of external circumstances, forged not by dodging suffering, but by dissolving the narrow ego into selfless compassion and universal perspective.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Book of Joy: Lasting Happiness in a Changing World"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-book-of-the-discipline-vinaya-pitaka",
     "title": "The Book of the Discipline (Vinaya Pitaka)",
     "author": "I.B. Horner",
@@ -22402,6 +22587,111 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-three-basic-facts-of-existence-impermanence-anicca",
+    "title": "The Three Basic Facts of Existence: Impermanence (Anicca)",
+    "author": "BPS Anthology",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1981,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop trying to freeze a flowing river: discover how embracing the relentless flux of life dissolves anxiety, softens ego, and unlocks deep, unshakeable peace.",
+      "coreThesis": "Every physical and mental phenomenon is an ongoing process in constant motion; recognizing this continuous flux dissolves compulsive clinging and reveals enduring mental freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Three Basic Facts of Existence: Impermanence (Anicca)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-three-basic-facts-of-existence-non-self-anatta",
+    "title": "The Three Basic Facts of Existence: Non-Self (Anatta)",
+    "author": "BPS Anthology",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 1981,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You are not a static manager trapped behind your eyes; you are the open sky through which weather passes. This anthology dismantles the illusion of an isolated ego to reveal the boundless peace already present right here.",
+      "coreThesis": "There is no permanent, independent self lurking inside your experience; suffering dissolves the moment you cease defending a phantom identity and rest in selfless, flowing reality.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Three Basic Facts of Existence: Non-Self (Anatta)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-three-basic-facts-of-existence-suffering-dukkha",
+    "title": "The Three Basic Facts of Existence: Suffering (Dukkha)",
+    "author": "BPS Anthology",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1973,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Suffering is not a personal failure or cosmic punishment; it is the natural friction produced when we expect impermanent things to provide permanent satisfaction. By facing this basic fact directly, we step out of reactive anxiety and discover unshakable inner peace.",
+      "coreThesis": "Suffering is an inescapable feature of all compounded existence; true liberation arises not by rearranging external circumstances, but by clearly seeing their unreliability and releasing the habit of grasping.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Three Basic Facts of Existence: Suffering (Dukkha)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-tree-of-enlightenment",
     "title": "The Tree of Enlightenment",
     "author": "Peter Della Santina",
@@ -22740,6 +23030,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Wings to Awakening: An Anthology from the Pali Canon"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-wisdom-of-forgiveness-intimate-conversations",
+    "title": "The Wisdom of Forgiveness: Intimate Conversations",
+    "author": "Dalai Lama & Victor Chan",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 95,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Forgiveness is not a moral concession to your adversary; it is the ultimate act of emotional self-defense. In these intimate dialogues, the Dalai Lama reveals how releasing resentment cleanses the mind of toxic poison and unlocks unshakeable inner peace.",
+      "coreThesis": "Forgiveness is an act of rational self-preservation that dismantles inner resentment, freeing awareness from the destructive grip of hatred to restore clear perception and profound compassion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Wisdom of Forgiveness: Intimate Conversations"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -23437,6 +23762,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Touching Peace: Practicing the Art of Mindful Living"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "toward-a-true-kinship-of-faiths",
+    "title": "Toward a True Kinship of Faiths",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "In a fractured world torn by dogma, the Dalai Lama offers a serene, practical path to global peace: hold firm personal faith while embracing every other tradition as a fellow traveler on the road to compassion. It is a masterclass in seeing through the ego's tribal boundaries to honor the shared human heartbeat beneath all worship.",
+      "coreThesis": "Individual spiritual devotion requires single-minded dedication to one path, but a harmonious world demands recognizing that many distinct paths skillfully guide different human hearts toward the same universal summit of compassion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Toward a True Kinship of Faiths"
     },
     "reflectionExercises": [],
     "actionItems": [],
