@@ -17,6 +17,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "a-million-miles-in-a-thousand-years": "./books/aMillionMilesInAThousandYearsExpanded.ts",
   "a-mind-for-numbers": "./books/aMindForNumbersExpanded.ts",
   "a-pali-grammar-for-beginners": "./books/aPaliGrammarForBeginnersExpanded.ts",
+  "a-policy-of-kindness-anthology-of-writings": "./books/aPolicyOfKindnessAnthologyOfWritingsExpanded.ts",
   "a-practical-guide-to-vipassana-meditation": "./books/aPracticalGuideToVipassanaMeditationExpanded.ts",
   "a-simple-way-the-heart-of-the-practice": "./books/aSimpleWayTheHeartOfThePracticeExpanded.ts",
   "a-still-forest-pool-insight-meditation-of-achaan-chah": "./books/aStillForestPoolInsightMeditationOfAchaanChahExpanded.ts",
@@ -167,6 +168,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "fierce-conversations-achieving-success-at-work-and-in-life-o": "./books/fierceConversationsAchievingSuccessAtWorkAndInLifeOExpanded.ts",
   "find-your-why": "./books/findYourWhyExpanded.ts",
   "finding-the-missing-peace-a-primer-of-meditation": "./books/findingTheMissingPeaceAPrimerOfMeditationExpanded.ts",
+  "flash-of-lightning-in-the-dark-of-night": "./books/flashOfLightningInTheDarkOfNightExpanded.ts",
   "flow-the-psychology-of-optimal-experience": "./books/flowThePsychologyOfOptimalExperienceExpanded.ts",
   "following-in-the-buddha-s-footsteps": "./books/followingInTheBuddhaSFootstepsExpanded.ts",
   "food-for-the-heart-collected-teachings": "./books/foodForTheHeartCollectedTeachingsExpanded.ts",
@@ -179,6 +181,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "fundamentals-of-buddhism": "./books/fundamentalsOfBuddhismExpanded.ts",
   "fundamentals-of-buddhism-four-lectures": "./books/fundamentalsOfBuddhismFourLecturesExpanded.ts",
   "fundamentals-of-vipassana-meditation": "./books/fundamentalsOfVipassanaMeditationExpanded.ts",
+  "gentle-bridges-conversations-with-the-dalai-lama-on-mind-sciences": "./books/gentleBridgesConversationsWithTheDalaiLamaOnMindSciencesExpanded.ts",
   "get-out-of-your-mind-and-into-your-life": "./books/getOutOfYourMindAndIntoYourLifeExpanded.ts",
   "getting-past-no-negotiating-with-difficult-people": "./books/gettingPastNoNegotiatingWithDifficultPeopleExpanded.ts",
   "getting-things-done-the-art-of-stress-free-productivity": "./books/gettingThingsDoneTheArtOfStressFreeProductivityExpanded.ts",
@@ -301,6 +304,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "mindfulness-of-breathing-four-elements-meditation": "./books/mindfulnessOfBreathingFourElementsMeditationExpanded.ts",
   "mindfulness-of-the-body-the-first-foundation": "./books/mindfulnessOfTheBodyTheFirstFoundationExpanded.ts",
   "mindfulness-the-path-to-the-deathless": "./books/mindfulnessThePathToTheDeathlessExpanded.ts",
+  "mindscience-an-east-west-dialogue": "./books/mindscienceAnEastWestDialogueExpanded.ts",
   "mindset-the-new-psychology-of-success": "./books/mindsetTheNewPsychologyOfSuccessExpanded.ts",
   "mini-habits": "./books/miniHabitsExpanded.ts",
   "mistakes-were-made-but-not-by-me": "./books/mistakesWereMadeButNotByMeExpanded.ts",
@@ -396,6 +400,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "skill-in-questions-how-the-buddha-taught": "./books/skillInQuestionsHowTheBuddhaTaughtExpanded.ts",
   "skin-in-the-game": "./books/skinInTheGameExpanded.ts",
   "sleep-smarter": "./books/sleepSmarterExpanded.ts",
+  "sleeping-dreaming-and-dying-exploration-of-consciousness": "./books/sleepingDreamingAndDyingExplorationOfConsciousnessExpanded.ts",
   "slight-edge": "./books/slightEdgeExpanded.ts",
   "small-boat-great-mountain-reflections-on-dzogchen-and-theravada": "./books/smallBoatGreatMountainReflectionsOnDzogchenAndTheravadaExpanded.ts",
   "smart-brevity-the-power-of-saying-more-with-less": "./books/smartBrevityThePowerOfSayingMoreWithLessExpanded.ts",
@@ -471,6 +476,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-circadian-code": "./books/theCircadianCodeExpanded.ts",
   "the-clock-of-vipassana-has-struck": "./books/theClockOfVipassanaHasStruckExpanded.ts",
   "the-coaching-habit-say-less-ask-more-change-the-way-you-lead": "./books/theCoachingHabitSayLessAskMoreChangeTheWayYouLeadExpanded.ts",
+  "the-compassionate-life": "./books/theCompassionateLifeExpanded.ts",
   "the-compassionate-mind": "./books/theCompassionateMindExpanded.ts",
   "the-complete-guide-to-fasting": "./books/theCompleteGuideToFastingExpanded.ts",
   "the-compound-effect": "./books/theCompoundEffectExpanded.ts",
@@ -535,6 +541,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-invisible-gorilla-how-our-intuitions-deceive-us": "./books/theInvisibleGorillaHowOurIntuitionsDeceiveUsExpanded.ts",
   "the-island-an-anthology-of-the-buddha-s-teachings-on-nibbana": "./books/theIslandAnAnthologyOfTheBuddhaSTeachingsOnNibbanaExpanded.ts",
   "the-itivuttaka-the-buddha-s-sayings": "./books/theItivuttakaTheBuddhaSSayingsExpanded.ts",
+  "the-joy-of-living-and-dying-in-peace": "./books/theJoyOfLivingAndDyingInPeaceExpanded.ts",
   "the-karma-of-questions-essays-on-the-buddhist-path": "./books/theKarmaOfQuestionsEssaysOnTheBuddhistPathExpanded.ts",
   "the-key-to-liberation": "./books/theKeyToLiberationExpanded.ts",
   "the-life-of-sariputta": "./books/theLifeOfSariputtaExpanded.ts",
@@ -545,6 +552,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-mechanism-of-the-five-aggregates": "./books/theMechanismOfTheFiveAggregatesExpanded.ts",
   "the-memory-book": "./books/theMemoryBookExpanded.ts",
   "the-middle-length-discourses-of-the-buddha-majjhima-nikaya": "./books/theMiddleLengthDiscoursesOfTheBuddhaMajjhimaNikayaExpanded.ts",
+  "the-middle-way-faith-grounded-in-reason": "./books/theMiddleWayFaithGroundedInReasonExpanded.ts",
   "the-mind-and-the-way-buddhist-reflections-on-life": "./books/theMindAndTheWayBuddhistReflectionsOnLifeExpanded.ts",
   "the-mind-that-knows": "./books/theMindThatKnowsExpanded.ts",
   "the-mindful-way-commentary-on-the-dhammapada": "./books/theMindfulWayCommentaryOnTheDhammapadaExpanded.ts",
@@ -645,6 +653,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "touching-peace-practicing-the-art-of-mindful-living": "./books/touchingPeacePracticingTheArtOfMindfulLivingExpanded.ts",
   "toward-eternal-peace-discourse-on-nibbana": "./books/towardEternalPeaceDiscourseOnNibbanaExpanded.ts",
   "transcendental-dependent-arising": "./books/transcendentalDependentArisingExpanded.ts",
+  "transcending-reflections-on-finding-meaning-in-suffering": "./books/transcendingReflectionsOnFindingMeaningInSufferingExpanded.ts",
   "transformation-and-healing-satipatthana-sutra": "./books/transformationAndHealingSatipatthanaSutraExpanded.ts",
   "transforming-the-mind-generating-compassion": "./books/transformingTheMindGeneratingCompassionExpanded.ts",
   "transitions-making-sense-of-life-s-changes": "./books/transitionsMakingSenseOfLifeSChangesExpanded.ts",
@@ -692,6 +701,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "without-conscience-the-disturbing-world-of-the-psychopaths-a": "./books/withoutConscienceTheDisturbingWorldOfThePsychopathsAExpanded.ts",
   "words-can-change-your-brain": "./books/wordsCanChangeYourBrainExpanded.ts",
   "words-of-dhamma-practical-meditative-advice": "./books/wordsOfDhammaPracticalMeditativeAdviceExpanded.ts",
+  "words-of-truth-a-buddhist-prayer-for-peace": "./books/wordsOfTruthABuddhistPrayerForPeaceExpanded.ts",
   "working-in-public-the-making-and-maintenance-of-open-source-": "./books/workingInPublicTheMakingAndMaintenanceOfOpenSourceExpanded.ts",
   "working-with-emotional-intelligence": "./books/workingWithEmotionalIntelligenceExpanded.ts",
   "write-once-read-forever-syntopic-knowledge": "./books/writeOnceReadForeverSyntopicKnowledgeExpanded.ts",
@@ -1281,6 +1291,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "A Pali Grammar for Beginners"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "a-policy-of-kindness-anthology-of-writings",
+    "title": "A Policy of Kindness: Anthology of Writings",
+    "author": "Dalai Lama (Sidney Piburn ed.)",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 1990,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Kindness is not a soft, sentimental luxury\\u2014it is an indispensable operating system for human survival and inner freedom. In this lucid anthology, the Dalai Lama strips spirituality of ritual fog and reveals how practical compassion calms the mind and repairs our fractured world.",
+      "coreThesis": "Genuine peace is neither passive nor pious; it is the natural byproduct of training the mind in universal responsibility and practicing kindness as our daily operating policy.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "A Policy of Kindness: Anthology of Writings"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -6533,6 +6578,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "flash-of-lightning-in-the-dark-of-night",
+    "title": "Flash of Lightning in the Dark of Night",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1994,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Just as a solitary lightning flash illuminates an entire landscape on a pitch-black night, a single genuine impulse of selfless compassion can instantly dissolve the suffocating darkness of human suffering. In this masterclass commentary, the Dalai Lama provides a direct, practical manual for transforming irritation, sorrow, and daily friction into indestructible mental clarity and boundless warmth.",
+      "coreThesis": "Genuine inner liberation is found not by insulating the self from harm, but by dissolving self-absorption through radical compassion and seeing the interconnected emptiness of all phenomena.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Flash of Lightning in the Dark of Night"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "flow-the-psychology-of-optimal-experience",
     "title": "Flow: The Psychology of Optimal Experience",
     "author": "Mihaly Csikszentmihalyi",
@@ -6940,6 +7020,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Fundamentals of Vipassana Meditation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "gentle-bridges-conversations-with-the-dalai-lama-on-mind-sciences",
+    "title": "Gentle Bridges: Conversations with the Dalai Lama on Mind Sciences",
+    "author": "Jeremy W. Hayward & Francisco Varela",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 1992,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When cutting-edge neuroscientists and the Dalai Lama sit down in Dharamsala, two monumental traditions of inquiry meet not to debate dogmas, but to cross-examine reality. This landmark dialogue reveals that inspecting your mind under the quiet lens of direct awareness uncovers the very same dynamic, centerless nature that biology and cognitive science discover in the physical world.",
+      "coreThesis": "Mind and matter are interdependent, dynamic processes devoid of a static, standalone self; genuine knowledge demands uniting rigorous external empirical measurement with disciplined, first-person experiential awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Gentle Bridges: Conversations with the Dalai Lama on Mind Sciences"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -11217,6 +11332,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "mindscience-an-east-west-dialogue",
+    "title": "MindScience: An East-West Dialogue",
+    "author": "Dalai Lama, Herbert Benson, et al.",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1991,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "MindScience captures the historic first summit where Harvard medical scientists and Buddhist contemplative masters met to map human consciousness. It proves that ancient meditation is an empirical inner science capable of rewiring the nervous system and unlocking radical peace.",
+      "coreThesis": "Human consciousness and physical biology exist in a dynamic, two-way feedback loop where disciplined awareness directly transforms the nervous system, proving that genuine mental well-being is a trainable skill rather than a fixed genetic trait.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "MindScience: An East-West Dialogue"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "mindset-the-new-psychology-of-success",
     "title": "Mindset: The New Psychology of Success",
     "author": "Carol S. Dweck",
@@ -14533,6 +14683,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "sleeping-dreaming-and-dying-exploration-of-consciousness",
+    "title": "Sleeping, Dreaming, and Dying: Exploration of Consciousness",
+    "author": "Dalai Lama & Francisco Varela",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1997,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When waking daylight fades, where does your awareness actually go? In this historic Dharamsala summit, the Dalai Lama and pioneering neuroscientists explore the frontiers of sleep, lucid dreaming, and dying to illuminate the unbroken awareness within us all.",
+      "coreThesis": "The ego is not a permanent fixture but a fleeting daytime projection; by investigating sleep, dreams, and death, we uncover the indestructible baseline of luminous, open awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Sleeping, Dreaming, and Dying: Exploration of Consciousness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "slight-edge",
     "title": "Slight Edge",
     "author": "Jeff Olson",
@@ -17151,6 +17336,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-compassionate-life",
+    "title": "The Compassionate Life",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2001,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Compassion is not a soft sentimental luxury; it is the ultimate survival tool and the most rational pathway to personal freedom. The Dalai Lama reveals how training your mind toward universal warm-heartedness systematically dismantles anxiety and unlocks unshakable peace.",
+      "coreThesis": "Genuine compassion is not emotional weakness or religious piety; it is the sharpest, most rational tool for dissolving the mental prison of the ego and experiencing enduring personal peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Compassionate Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-compassionate-mind",
     "title": "The Compassionate Mind",
     "author": "Paul Gilbert",
@@ -19388,6 +19608,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-joy-of-living-and-dying-in-peace",
+    "title": "The Joy of Living and Dying in Peace",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1997,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Death is not a tragedy to hide from, but life's most clarifying mirror. By looking directly at our impermanence with quiet courage, we strip away superficial trivialities and uncover an unshakable inner peace that ennobles every breath.",
+      "coreThesis": "A peaceful death is the natural harvest of a conscious, compassionate life; by befriending impermanence, we dismantle fear and awaken to the joyous, interconnected reality of each present moment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Joy of Living and Dying in Peace"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-karma-of-questions-essays-on-the-buddhist-path",
     "title": "The Karma of Questions: Essays on the Buddhist Path",
     "author": "Thanissaro Bhikkhu",
@@ -19725,6 +19980,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Middle Length Discourses of the Buddha (Majjhima Nikaya)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-middle-way-faith-grounded-in-reason",
+    "title": "The Middle Way: Faith Grounded in Reason",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2009,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Faith without critical reasoning is blind trust, while intellect without an open heart is sterile cynicism. The Dalai Lama guides you through the Buddhist Middle Way, showing how clear-eyed logic and deep contemplation dissolve existential anxiety and awaken boundless compassion.",
+      "coreThesis": "Things exist purely in relationship to causes and conditions, entirely devoid of independent, solid reality; recognizing this dependent nature frees the mind from rigid extremes and transforms intellect into fearless, active compassion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Middle Way: Faith Grounded in Reason"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -23229,6 +23519,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "transcending-reflections-on-finding-meaning-in-suffering",
+    "title": "Transcending: Reflections on Finding Meaning in Suffering",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1999,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Pain in life is as inevitable as weather, but psychological anguish is entirely manufactured by our mental resistance. Discover how ancient contemplative wisdom transforms daily friction, loss, and hardship into grounded clarity and boundless compassion.",
+      "coreThesis": "Pain is an inescapable fact of physical existence, but suffering is an optional mental habit caused by ego-grasping; by shifting awareness from selfish resistance to open compassion and interdependence, adversity transforms into profound inner peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Transcending: Reflections on Finding Meaning in Suffering"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "transformation-and-healing-satipatthana-sutra",
     "title": "Transformation and Healing: Satipatthana Sutra",
     "author": "Thich Nhat Hanh",
@@ -24861,6 +25186,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Words of Dhamma: Practical Meditative Advice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "words-of-truth-a-buddhist-prayer-for-peace",
+    "title": "Words of Truth: A Buddhist Prayer for Peace",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1993,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Written from exile in the immediate shadow of national tragedy, this timeless Buddhist text reveals how to transform profound personal and political grief into an unstoppable engine of universal peace. It offers the world's most radical spiritual stance: extending fierce, active compassion not only to the suffering, but equally to those inflicting the pain.",
+      "coreThesis": "Genuine, lasting peace can never be forged through hatred or retaliation; it emerges only when we realize our radical interdependence and extend boundless compassion to every being, including our oppressors.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Words of Truth: A Buddhist Prayer for Peace"
     },
     "reflectionExercises": [],
     "actionItems": [],
