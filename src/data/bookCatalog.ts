@@ -32,6 +32,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "an-illustrated-book-of-bad-arguments": "./books/anIllustratedBookOfBadArgumentsExpanded.ts",
   "an-inquiring-mind-s-journey-into-vipassana": "./books/anInquiringMindSJourneyIntoVipassanaExpanded.ts",
   "an-introduction-to-reasoning": "./books/anIntroductionToReasoningExpanded.ts",
+  "an-open-heart-practicing-compassion-in-everyday-life": "./books/anOpenHeartPracticingCompassionInEverydayLifeExpanded.ts",
   "analysis-of-the-fine-material-realm-rupa-loka": "./books/analysisOfTheFineMaterialRealmRupaLokaExpanded.ts",
   "analysis-of-the-immaterial-realm-arupa-loka": "./books/analysisOfTheImmaterialRealmArupaLokaExpanded.ts",
   "analysis-of-the-sensuous-realm-kama-loka": "./books/analysisOfTheSensuousRealmKamaLokaExpanded.ts",
@@ -43,6 +44,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "atomic-habits": "./books/atomicHabitsExpanded.ts",
   "attacking-faulty-reasoning": "./books/attackingFaultyReasoningExpanded.ts",
   "attention-span": "./books/attentionSpanExpanded.ts",
+  "awakening-the-mind-lightening-the-heart": "./books/awakeningTheMindLighteningTheHeartExpanded.ts",
   "awareness-alone-is-not-enough": "./books/awarenessAloneIsNotEnoughExpanded.ts",
   "bargaining-for-advantage-negotiation-strategies-for-reasonab": "./books/bargainingForAdvantageNegotiationStrategiesForReasonabExpanded.ts",
   "becoming-a-supple-leopard": "./books/becomingASuppleLeopardExpanded.ts",
@@ -52,6 +54,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "better-than-before": "./books/betterThanBeforeExpanded.ts",
   "beyond-all-directions-essays-on-nirvana": "./books/beyondAllDirectionsEssaysOnNirvanaExpanded.ts",
   "beyond-mindfulness-in-plain-english": "./books/beyondMindfulnessInPlainEnglishExpanded.ts",
+  "beyond-religion-ethics-for-a-whole-world": "./books/beyondReligionEthicsForAWholeWorldExpanded.ts",
   "bhavana-mind-development-in-everyday-reality": "./books/bhavanaMindDevelopmentInEverydayRealityExpanded.ts",
   "blink-the-power-of-thinking-without-thinking": "./books/blinkThePowerOfThinkingWithoutThinkingExpanded.ts",
   "bodhinyana-a-collection-of-dhamma-talks": "./books/bodhinyanaACollectionOfDhammaTalksExpanded.ts",
@@ -148,6 +151,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "elastic-habits": "./books/elasticHabitsExpanded.ts",
   "emotional-agility": "./books/emotionalAgilityExpanded.ts",
   "essentialism-the-disciplined-pursuit-of-less": "./books/essentialismTheDisciplinedPursuitOfLessExpanded.ts",
+  "ethics-for-the-new-millennium": "./books/ethicsForTheNewMillenniumExpanded.ts",
   "everything-arises-everything-falls-away": "./books/everythingArisesEverythingFallsAwayExpanded.ts",
   "everything-s-an-argument": "./books/everythingSAnArgumentExpanded.ts",
   "evil-and-punishment-the-danda-vagga-of-the-dhammapada": "./books/evilAndPunishmentTheDandaVaggaOfTheDhammapadaExpanded.ts",
@@ -193,7 +197,9 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "how-to-decide": "./books/howToDecideExpanded.ts",
   "how-to-have-impossible-conversations": "./books/howToHaveImpossibleConversationsExpanded.ts",
   "how-to-live-without-fear-and-worry": "./books/howToLiveWithoutFearAndWorryExpanded.ts",
+  "how-to-practice-the-way-to-a-meaningful-life": "./books/howToPracticeTheWayToAMeaningfulLifeExpanded.ts",
   "how-to-read-a-book": "./books/howToReadABookExpanded.ts",
+  "how-to-see-yourself-as-you-really-are": "./books/howToSeeYourselfAsYouReallyAreExpanded.ts",
   "how-to-take-smart-notes": "./books/howToTakeSmartNotesExpanded.ts",
   "how-to-win-any-argument": "./books/howToWinAnyArgumentExpanded.ts",
   "humble-inquiry-the-gentle-art-of-asking-instead-of-telling": "./books/humbleInquiryTheGentleArtOfAskingInsteadOfTellingExpanded.ts",
@@ -387,6 +393,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "somatics-reawakening-the-mind-s-control-of-movement": "./books/somaticsReawakeningTheMindSControlOfMovementExpanded.ts",
   "sources-of-power": "./books/sourcesOfPowerExpanded.ts",
   "speak-peace-in-a-world-of-conflict": "./books/speakPeaceInAWorldOfConflictExpanded.ts",
+  "stages-of-meditation-commentary-on-the-bhavanakrama": "./books/stagesOfMeditationCommentaryOnTheBhavanakramaExpanded.ts",
   "start-here-start-now-a-guide-to-compassionate-living": "./books/startHereStartNowAGuideToCompassionateLivingExpanded.ts",
   "start-with-no-the-negotiating-tools-that-the-pros-don-t-want": "./books/startWithNoTheNegotiatingToolsThatTheProsDonTWantExpanded.ts",
   "start-with-why-how-great-leaders-inspire-everyone-to-take-ac": "./books/startWithWhyHowGreatLeadersInspireEveryoneToTakeAcExpanded.ts",
@@ -424,6 +431,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-art-of-everyday-assertiveness": "./books/theArtOfEverydayAssertivenessExpanded.ts",
   "the-art-of-happiness-a-handbook-for-living": "./books/theArtOfHappinessAHandbookForLivingExpanded.ts",
   "the-art-of-happiness-at-work": "./books/theArtOfHappinessAtWorkExpanded.ts",
+  "the-art-of-happiness-in-a-troubled-world": "./books/theArtOfHappinessInATroubledWorldExpanded.ts",
   "the-art-of-living-vipassana-meditation": "./books/theArtOfLivingVipassanaMeditationExpanded.ts",
   "the-art-of-note-taking": "./books/theArtOfNoteTakingExpanded.ts",
   "the-art-of-persuasion": "./books/theArtOfPersuasionExpanded.ts",
@@ -501,6 +509,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-great-book-of-protection-maha-paritta": "./books/theGreatBookOfProtectionMahaParittaExpanded.ts",
   "the-great-discourse-on-causation-mahanidana-sutta": "./books/theGreatDiscourseOnCausationMahanidanaSuttaExpanded.ts",
   "the-great-mental-models-vol-1-2": "./books/theGreatMentalModelsVol12Expanded.ts",
+  "the-heart-of-compassion-a-practical-approach": "./books/theHeartOfCompassionAPracticalApproachExpanded.ts",
   "the-heart-of-practice-ajaan-mun-s-dhamma-sermons": "./books/theHeartOfPracticeAjaanMunSDhammaSermonsExpanded.ts",
   "the-heart-of-the-buddha-s-teaching": "./books/theHeartOfTheBuddhaSTeachingExpanded.ts",
   "the-heritage-of-the-sangha": "./books/theHeritageOfTheSanghaExpanded.ts",
@@ -588,6 +597,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-thousandfold-verse-dhammapada-sahassa-vagga": "./books/theThousandfoldVerseDhammapadaSahassaVaggaExpanded.ts",
   "the-tree-of-enlightenment": "./books/theTreeOfEnlightenmentExpanded.ts",
   "the-udana-inspired-utterances-of-the-buddha": "./books/theUdanaInspiredUtterancesOfTheBuddhaExpanded.ts",
+  "the-universe-in-a-single-atom-convergence-of-science-and-spirituality": "./books/theUniverseInASingleAtomConvergenceOfScienceAndSpiritualityExpanded.ts",
   "the-upward-spiral": "./books/theUpwardSpiralExpanded.ts",
   "the-uses-of-argument": "./books/theUsesOfArgumentExpanded.ts",
   "the-war-of-art": "./books/theWarOfArtExpanded.ts",
@@ -1787,6 +1797,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "an-open-heart-practicing-compassion-in-everyday-life",
+    "title": "An Open Heart: Practicing Compassion in Everyday Life",
+    "author": "Dalai Lama (Nicholas Vreeland ed.)",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 2001,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Happiness is not an accidental stroke of luck; it is a mental discipline cultivated by opening your heart to others. The Dalai Lama provides a lucid, step-by-step masterclass on transforming everyday irritation into boundless compassion and unshakable inner clarity.",
+      "coreThesis": "Genuine inner peace arises not from rearranging external circumstances, but from training the mind in impartial compassion and recognizing our deep, interdependent connection with all life.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "An Open Heart: Practicing Compassion in Everyday Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "analysis-of-the-fine-material-realm-rupa-loka",
     "title": "Analysis of the Fine-Material Realm: Rupa-loka",
     "author": "Dr. Mehm Tin Mon",
@@ -2170,6 +2215,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "awakening-the-mind-lightening-the-heart",
+    "title": "Awakening the Mind, Lightening the Heart",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1995,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Suffering is not a life sentence, but a misperception born from an overinflated ego. Here is a practical, step-by-step blueprint to transform daily emotional friction into boundless clarity and unshakable compassion.",
+      "coreThesis": "Genuine inner peace arises not by escaping reality, but by training the mind to exchange rigid self-cherishing for universal compassion and seeing through the illusion of a separate self.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Awakening the Mind, Lightening the Heart"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "awareness-alone-is-not-enough",
     "title": "Awareness Alone Is Not Enough",
     "author": "Sayadaw U Tejaniya",
@@ -2473,6 +2553,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Beyond Mindfulness in Plain English"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "beyond-religion-ethics-for-a-whole-world",
+    "title": "Beyond Religion: Ethics for a Whole World",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Religion is like tea, but universal human warmth is like clean water: you can live without tea, but nobody survives without water. This book provides a clear, practical blueprint for an ethical, deeply compassionate life that requires no dogma, no rituals, and no supernatural beliefs.",
+      "coreThesis": "Human flourishing does not depend on religious allegiance, but on secular ethics rooted in our shared biology, rational discernment, and an educated, compassionate heart.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Beyond Religion: Ethics for a Whole World"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -5840,6 +5955,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "ethics-for-the-new-millennium",
+    "title": "Ethics for the New Millennium",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 1999,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Material comfort can furnish a house, but only genuine inner discipline and warm-heartedness can bring peace to the person living inside it. The Dalai Lama outlines a secular, universally accessible moral roadmap rooted in human interdependence, clear discernment, and radical compassion.",
+      "coreThesis": "Enduring happiness and global peace require no dogma or magic; they flow naturally from secular ethics grounded in the clear awareness of our shared human interdependence and unconditional compassion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Ethics for the New Millennium"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "everything-arises-everything-falls-away",
     "title": "Everything Arises, Everything Falls Away",
     "author": "Ajahn Chah",
@@ -7410,6 +7560,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "how-to-practice-the-way-to-a-meaningful-life",
+    "title": "How to Practice: The Way to a Meaningful Life",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2002,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Happiness is not an accident of circumstance\\u2014it is a trainable inner skill. The Dalai Lama distills centuries of Tibetan contemplative science into a lucid, step-by-step masterclass on purifying daily actions, calming the mind, and uncovering the deep nature of reality.",
+      "coreThesis": "Genuine, unshakable peace is achieved by uniting rigorous ethical discipline, laser-focused mental stillness, and the liberating wisdom of emptiness in the service of universal compassion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "How to Practice: The Way to a Meaningful Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "how-to-read-a-book",
     "title": "How to Read a Book",
     "author": "Mortimer J. Adler & Charles Van Doren",
@@ -7440,6 +7625,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "how-to-see-yourself-as-you-really-are",
+    "title": "How to See Yourself As You Really Are",
+    "author": "Dalai Lama (Jeffrey Hopkins tr.)",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 145,
+    "publishedYear": 2006,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most of our anxiety and anger comes from defending an imaginary, rigid ego that does not actually exist. By investigating your immediate experience with quiet, surgical precision, you dissolve this inner tension and uncover a natural, unshakeable compassion.",
+      "coreThesis": "You do not exist as a solid, independent entity isolated from the world; seeing that your identity is an interconnected, ever-changing process dissolves fear and naturally awakens boundless compassion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "How to See Yourself As You Really Are"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -14186,6 +14406,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "stages-of-meditation-commentary-on-the-bhavanakrama",
+    "title": "Stages of Meditation: Commentary on the Bhavanakrama",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2001,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Meditation is neither blank escapism nor daydreaming; it is the deliberate marriage of razor-sharp stillness and analytical clarity. In this masterclass on Kamalashila\\u2019s Bhavanakrama, the Dalai Lama delivers a rigorous, step-by-step roadmap to train your mind, dissolve self-deception, and awaken boundless compassion.",
+      "coreThesis": "Genuine inner liberation requires both an unshakable, focused mind and analytical insight into reality, rooted in universal compassion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Stages of Meditation: Commentary on the Bhavanakrama"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "start-here-start-now-a-guide-to-compassionate-living",
     "title": "Start Here, Start Now: A Guide to Compassionate Living",
     "author": "Bhante Henepola Gunaratana",
@@ -15467,6 +15722,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Art of Happiness at Work"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-art-of-happiness-in-a-troubled-world",
+    "title": "The Art of Happiness in a Troubled World",
+    "author": "Dalai Lama & Howard C. Cutler",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 2009,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When global chaos, political tribalism, and relentless 24-hour news cycles threaten your peace of mind, genuine sanctuary is not found by withdrawing behind defensive walls. By joining ancient contemplative clarity with modern psychiatric insight, the Dalai Lama and Dr. Howard Cutler reveal how to build an unshakable inner equilibrium grounded in common humanity and active compassion.",
+      "coreThesis": "Individual serenity and societal harmony are inseparable: true happiness in a fractured world is attained not by retreating into isolated self-interest, but by dismantling prejudice and anchoring the mind in our shared human condition.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Art of Happiness in a Troubled World"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -18165,6 +18455,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "the-heart-of-compassion-a-practical-approach",
+    "title": "The Heart of Compassion: A Practical Approach",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2002,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Inner peace is not an accident of good luck; it is a trainable skill cultivated by calming the ego and opening your heart. The Dalai Lama delivers a direct, grounded blueprint for turning daily friction into unshakable compassion and mental clarity.",
+      "coreThesis": "Genuine lasting peace arises when you quiet self-centered grasping and deliberately cultivate warmhearted concern for all living beings.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Heart of Compassion: A Practical Approach"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -21195,6 +21520,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Udana: Inspired Utterances of the Buddha"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-universe-in-a-single-atom-convergence-of-science-and-spirituality",
+    "title": "The Universe in a Single Atom: Convergence of Science and Spirituality",
+    "author": "Dalai Lama",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2005,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When modern physics zooms into the atom, solid matter dissolves into relationships; when a meditator examines the mind, a rigid ego vanishes into open awareness. This book builds a seamless bridge between empirical research and inner contemplative practice to guide human progress with clarity and heart.",
+      "coreThesis": "Empirical science and contemplative spirituality are mutually complementary disciplines of inquiry: when both investigate reality honestly without dogmatic attachment, they converge on interdependence and reveal that ethical compassion is essential for human survival.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Universe in a Single Atom: Convergence of Science and Spirituality"
     },
     "reflectionExercises": [],
     "actionItems": [],
