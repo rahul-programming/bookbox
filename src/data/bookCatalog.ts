@@ -138,6 +138,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "discourse-on-the-anattalakkhana-sutta": "./books/discourseOnTheAnattalakkhanaSuttaExpanded.ts",
   "discourse-on-the-ariyavasa-sutta": "./books/discourseOnTheAriyavasaSuttaExpanded.ts",
   "discourse-on-the-hemavata-sutta": "./books/discourseOnTheHemavataSuttaExpanded.ts",
+  "discourse-on-the-honeyball-madhupindika-sutta": "./books/discourseOnTheHoneyballMadhupindikaSuttaExpanded.ts",
   "discourse-on-the-malukyaputta-sutta": "./books/discourseOnTheMalukyaputtaSuttaExpanded.ts",
   "discourse-on-the-purabheda-sutta": "./books/discourseOnThePurabhedaSuttaExpanded.ts",
   "discourse-on-the-sallekha-sutta": "./books/discourseOnTheSallekhaSuttaExpanded.ts",
@@ -314,6 +315,8 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "mind-over-mood": "./books/mindOverMoodExpanded.ts",
   "mind-overcoming-its-canker-asavas": "./books/mindOvercomingItsCankerAsavasExpanded.ts",
   "mindfully-facing-disease-and-death": "./books/mindfullyFacingDiseaseAndDeathExpanded.ts",
+  "mindfulness-a-practical-guide-to-awakening-vol-1-body": "./books/mindfulnessAPracticalGuideToAwakeningVol1BodyExpanded.ts",
+  "mindfulness-a-practical-guide-to-awakening-vol-2-feelings": "./books/mindfulnessAPracticalGuideToAwakeningVol2FeelingsExpanded.ts",
   "mindfulness-bliss-and-beyond-a-meditator-s-handbook": "./books/mindfulnessBlissAndBeyondAMeditatorSHandbookExpanded.ts",
   "mindfulness-for-health-and-vitality": "./books/mindfulnessForHealthAndVitalityExpanded.ts",
   "mindfulness-of-breathing-a-practice-guide-and-translations": "./books/mindfulnessOfBreathingAPracticeGuideAndTranslationsExpanded.ts",
@@ -385,6 +388,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "rebirth-as-doctrine-and-experience-essays-and-case-studies": "./books/rebirthAsDoctrineAndExperienceEssaysAndCaseStudiesExpanded.ts",
   "rebirth-in-early-buddhism-and-current-research": "./books/rebirthInEarlyBuddhismAndCurrentResearchExpanded.ts",
   "reclaiming-conversation-the-power-of-talk-in-a-digital-age": "./books/reclaimingConversationThePowerOfTalkInADigitalAgeExpanded.ts",
+  "reflections-on-the-dhamma": "./books/reflectionsOnTheDhammaExpanded.ts",
   "reinventing-you": "./books/reinventingYouExpanded.ts",
   "reinventing-your-life": "./books/reinventingYourLifeExpanded.ts",
   "relax-and-be-aware-mindfulness-in-daily-life": "./books/relaxAndBeAwareMindfulnessInDailyLifeExpanded.ts",
@@ -410,6 +414,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "self-compassion-the-proven-power-of-being-kind-to-yourself": "./books/selfCompassionTheProvenPowerOfBeingKindToYourselfExpanded.ts",
   "selves-and-not-self-buddhist-epistemology": "./books/selvesAndNotSelfBuddhistEpistemologyExpanded.ts",
   "set-boundaries-find-peace-a-guide-to-reclaiming-yourself": "./books/setBoundariesFindPeaceAGuideToReclaimingYourselfExpanded.ts",
+  "setting-in-motion-the-wheel-of-truth": "./books/settingInMotionTheWheelOfTruthExpanded.ts",
   "7-powers-the-foundations-of-business-strategy": "./books/sevenPowersExpanded.ts",
   "she-understanding-feminine-psychology": "./books/sheUnderstandingFemininePsychologyExpanded.ts",
   "show-your-work": "./books/showYourWorkExpanded.ts",
@@ -491,6 +496,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-buddha-s-philosophy-of-mind": "./books/theBuddhaSPhilosophyOfMindExpanded.ts",
   "the-buddha-s-system-of-meditation": "./books/theBuddhaSSystemOfMeditationExpanded.ts",
   "the-buddhist-approach-to-mental-health": "./books/theBuddhistApproachToMentalHealthExpanded.ts",
+  "the-buddhist-conception-of-mental-health": "./books/theBuddhistConceptionOfMentalHealthExpanded.ts",
   "the-buddhist-monastic-code-volume-i": "./books/theBuddhistMonasticCodeVolumeIExpanded.ts",
   "the-buddhist-monastic-code-volume-ii": "./books/theBuddhistMonasticCodeVolumeIiExpanded.ts",
   "the-buddhist-way-of-loving-kindness-metta-bhavana": "./books/theBuddhistWayOfLovingKindnessMettaBhavanaExpanded.ts",
@@ -528,7 +534,9 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-dip-a-little-book-that-teaches-you-when-to-quit": "./books/theDipALittleBookThatTeachesYouWhenToQuitExpanded.ts",
   "the-discourse-on-right-view-sammaditthi-sutta": "./books/theDiscourseOnRightViewSammaditthiSuttaExpanded.ts",
   "the-discourse-on-the-root-of-existence-mulapariyaya-sutta": "./books/theDiscourseOnTheRootOfExistenceMulapariyayaSuttaExpanded.ts",
+  "the-discourse-on-the-seven-purifications": "./books/theDiscourseOnTheSevenPurificationsExpanded.ts",
   "the-discourse-on-the-snake-simile-alagaddupama-sutta": "./books/theDiscourseOnTheSnakeSimileAlagaddupamaSuttaExpanded.ts",
+  "the-discourse-on-the-stilled-thought-vitakkasanthana-sutta": "./books/theDiscourseOnTheStilledThoughtVitakkasanthanaSuttaExpanded.ts",
   "the-disease-to-please-curing-the-people-pleasing-syndrome": "./books/theDiseaseToPleaseCuringThePeoplePleasingSyndromeExpanded.ts",
   "the-distracted-mind-ancient-brains-in-a-high-tech-world": "./books/theDistractedMindAncientBrainsInAHighTechWorldExpanded.ts",
   "the-divided-mind-the-epidemic-of-mindbody-disorders": "./books/theDividedMindTheEpidemicOfMindbodyDisordersExpanded.ts",
@@ -560,6 +568,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-gracious-flow-of-dharma": "./books/theGraciousFlowOfDharmaExpanded.ts",
   "the-great-book-of-protection-maha-paritta": "./books/theGreatBookOfProtectionMahaParittaExpanded.ts",
   "the-great-discourse-on-causation-mahanidana-sutta": "./books/theGreatDiscourseOnCausationMahanidanaSuttaExpanded.ts",
+  "the-great-discourse-on-the-lion-s-roar-maha-sihanada-sutta": "./books/theGreatDiscourseOnTheLionSRoarMahaSihanadaSuttaExpanded.ts",
   "the-great-mental-models-vol-1-2": "./books/theGreatMentalModelsVol12Expanded.ts",
   "the-greater-discourse-on-voidness-maha-sunnata-sutta": "./books/theGreaterDiscourseOnVoidnessMahaSunnataSuttaExpanded.ts",
   "the-heart-of-compassion-a-practical-approach": "./books/theHeartOfCompassionAPracticalApproachExpanded.ts",
@@ -665,6 +674,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-upward-spiral": "./books/theUpwardSpiralExpanded.ts",
   "the-uses-of-argument": "./books/theUsesOfArgumentExpanded.ts",
   "the-war-of-art": "./books/theWarOfArtExpanded.ts",
+  "the-way-of-mindfulness-satipatthana-sutta-commentary": "./books/theWayOfMindfulnessSatipatthanaSuttaCommentaryExpanded.ts",
   "the-way-to-nibbana": "./books/theWayToNibbanaExpanded.ts",
   "the-way-to-the-guru-meditative-guidance": "./books/theWayToTheGuruMeditativeGuidanceExpanded.ts",
   "the-willpower-instinct": "./books/theWillpowerInstinctExpanded.ts",
@@ -5558,6 +5568,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Discourse on the Hemavata Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "discourse-on-the-honeyball-madhupindika-sutta",
+    "title": "Discourse on the Honeyball: Madhupindika Sutta",
+    "author": "Bhikkhu Nanamoli",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1977,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step off the runaway train of overthinking and discover the quiet eye of conscious awareness. This classical masterpiece deconstructs how raw sensory impressions morph into crippling mental drama\\u2014and how you can untangle the knot in real time.",
+      "coreThesis": "Human conflict and suffering arise not from the external world, but from the uncontrolled proliferation of concepts that the mind superimposes onto raw sensory experience. Cutting this proliferation at the root restores natural peace and freedom from all dispute.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Discourse on the Honeyball: Madhupindika Sutta"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -11722,6 +11767,76 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "mindfulness-a-practical-guide-to-awakening-vol-1-body",
+    "title": "Mindfulness: A Practical Guide to Awakening (Vol 1 - Body)",
+    "author": "Joseph Goldstein",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your physical body is not an identity to cling to or polish, but a natural, ever-shifting landscape where genuine liberation begins. Joseph Goldstein demystifies early Buddhist somatic meditation to reveal how observing simple physical sensations dissolves self-inflicted distress and reveals unshakeable freedom.",
+      "coreThesis": "Awakening begins when you stop identifying with the physical body as 'self' and start observing somatic sensations directly as a flux of impersonal natural conditions.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mindfulness: A Practical Guide to Awakening (Vol 1 - Body)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "mindfulness-a-practical-guide-to-awakening-vol-2-feelings",
+    "title": "Mindfulness: A Practical Guide to Awakening (Vol 2 - Feelings)",
+    "author": "Joseph Goldstein",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 215,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Every emotional storm starts with an almost imperceptible spark: the raw feeling tone of pleasant, unpleasant, or neutral. Catch this spark at the doorstep of your mind, and you disarm lifelong reactivity before it turns into suffering.",
+      "coreThesis": "Suffering is not caused by pleasant, unpleasant, or neutral feelings, but by our automatic addiction to chasing, fighting, or ignoring them. By recognizing feeling tones the instant they arise, you dismantle habitual reactivity and awaken to unconditioned peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mindfulness: A Practical Guide to Awakening (Vol 2 - Feelings)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "mindfulness-bliss-and-beyond-a-meditator-s-handbook",
     "title": "Mindfulness, Bliss, and Beyond: A Meditator's Handbook",
     "author": "Ajahn Brahm",
@@ -14203,6 +14318,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "reflections-on-the-dhamma",
+    "title": "Reflections on the Dhamma",
+    "author": "Venerable Narada Mahathera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 220,
+    "publishedYear": 1964,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step out of mental exhaustion and discover the lucid stillness of direct awareness. Venerable N\\u0101rada Mah\\u0101thera cuts through spiritual dogma to hand you a practical, laboratory-grade manual for inner peace.",
+      "coreThesis": "Suffering ceases the moment you stop demanding impermanent things provide lasting satisfaction, training the mind to rest in clear, non-clinging awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Reflections on the Dhamma"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "reinventing-you",
     "title": "Reinventing You",
     "author": "Dorie Clark",
@@ -15070,6 +15220,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "setting-in-motion-the-wheel-of-truth",
+    "title": "Setting in Motion the Wheel of Truth",
+    "author": "Ven. Mahasi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 1981,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop searching for lasting peace in passing experiences: this masterwork maps the Buddha's foundational sermon into an uncompromising, practical instruction manual for genuine mental freedom.",
+      "coreThesis": "Suffering ceases not through extreme asceticism or escapist pleasures, but through grounded, moment-by-moment mindfulness that exposes the impermanence of all things and cuts craving at its root.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Setting in Motion the Wheel of Truth"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -17902,6 +18087,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-buddhist-conception-of-mental-health",
+    "title": "The Buddhist Conception of Mental Health",
+    "author": "Dr. K.D.P. Wickremasinghe",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1987,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Dr. K.D.P. Wickremasinghe unlocks ancient Buddhist psychology to show that peace of mind is not a rare accident, but a trainable daily skill. By diagnosing mental suffering at its root and prescribing systematic inner training, this work transforms your awareness into an unshakeable sanctuary.",
+      "coreThesis": "Genuine mental health is not the passive absence of symptom, but the active mastery of consciousness\\u2014achieved by recognizing the impermanent nature of thoughts, releasing egoic attachment, and anchoring awareness in clear, compassionate presence.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Buddhist Conception of Mental Health"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-buddhist-monastic-code-volume-i",
     "title": "The Buddhist Monastic Code, Volume I",
     "author": "Thanissaro Bhikkhu",
@@ -19196,6 +19416,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-discourse-on-the-seven-purifications",
+    "title": "The Discourse on the Seven Purifications",
+    "author": "Sayadaw U Thittila",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1987,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Awakening is not a mystical lottery ticket; it is a clear, step-by-step engineering manual for inner freedom. Sayadaw U Thittila unpacks the classic seven-stage roadmap that transforms everyday moral integrity into unshakeable liberation.",
+      "coreThesis": "Genuine spiritual liberation is an orderly, progressive unveiling: upright conduct calms the mind, mental calm reveals things as they truly are, and seeing reality clearly dissolves the roots of suffering forever.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Discourse on the Seven Purifications"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-discourse-on-the-snake-simile-alagaddupama-sutta",
     "title": "The Discourse on the Snake Simile: Alagaddupama Sutta",
     "author": "Nyanaponika Thera",
@@ -19219,6 +19474,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Discourse on the Snake Simile: Alagaddupama Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-discourse-on-the-stilled-thought-vitakkasanthana-sutta",
+    "title": "The Discourse on the Stilled Thought: Vitakkasanthana Sutta",
+    "author": "Soma Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1960,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When unwanted mental storms and destructive thought loops hijack your clarity, blind resistance only fuels the flame. This classic discourse reveals an ancient, time-tested cognitive toolkit of five tiered strategies to dissolve mental noise and restore pristine inner stillness.",
+      "coreThesis": "Distracting, harmful thoughts lose their grip not through frantic resistance, but through an orderly progression from gentle cognitive redirection down to resolute stillness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Discourse on the Stilled Thought: Vitakkasanthana Sutta"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -20302,6 +20592,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Great Discourse on Causation: Mahanidana Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-great-discourse-on-the-lion-s-roar-maha-sihanada-sutta",
+    "title": "The Great Discourse on the Lion's Roar: Maha-Sihanada Sutta",
+    "author": "Bhikkhu Nanamoli",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1993,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When a departed disciple claims spiritual enlightenment is merely abstract logic, the Buddha responds not with wounded pride, but with an earth-shattering disclosure of what total mental freedom actually looks like. The Great Discourse on the Lion's Roar provides an uncompromising blueprint of unshakeable clarity, cutting through spiritual vanity and pointing straight to direct, liberated awareness.",
+      "coreThesis": "Genuine spiritual awakening is not speculative logic or self-punishing asceticism, but the direct experiential purification of the mind that completely uproots craving and suffering.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Great Discourse on the Lion's Roar: Maha-Sihanada Sutta"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -23977,6 +24302,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-way-of-mindfulness-satipatthana-sutta-commentary",
+    "title": "The Way of Mindfulness: Satipatthana Sutta & Commentary",
+    "author": "Soma Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1941,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step off the runaway treadmill of emotional reactivity and discover the original operating manual for human consciousness. Soma Thera's classic translation opens the definitive ancient map for observing your body, feelings, and thoughts with absolute clarity and unshakable inner freedom.",
+      "coreThesis": "Suffering dissolves when you stop identifying with passing physical and mental phenomena, resting instead in sustained, non-judgmental bare attention.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Way of Mindfulness: Satipatthana Sutta & Commentary"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
