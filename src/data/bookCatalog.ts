@@ -57,10 +57,12 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "awakening-the-mind-lightening-the-heart": "./books/awakeningTheMindLighteningTheHeartExpanded.ts",
   "awareness-alone-is-not-enough": "./books/awarenessAloneIsNotEnoughExpanded.ts",
   "bargaining-for-advantage-negotiation-strategies-for-reasonab": "./books/bargainingForAdvantageNegotiationStrategiesForReasonabExpanded.ts",
+  "be-prepared-how-to-think-on-your-feet-and-stand-up-to-bullie": "./books/bePreparedHowToThinkOnYourFeetAndStandUpToBullieExpanded.ts",
   "becoming-a-supple-leopard": "./books/becomingASuppleLeopardExpanded.ts",
   "being-dharma-the-essence-of-the-buddha-s-teachings": "./books/beingDharmaTheEssenceOfTheBuddhaSTeachingsExpanded.ts",
   "being-logical-a-guide-to-good-thinking": "./books/beingLogicalAGuideToGoodThinkingExpanded.ts",
   "being-nobody-going-nowhere-meditations-on-the-path": "./books/beingNobodyGoingNowhereMeditationsOnThePathExpanded.ts",
+  "better-presentations-a-guide-for-scholars-researchers-and-wo": "./books/betterPresentationsAGuideForScholarsResearchersAndWoExpanded.ts",
   "better-than-before": "./books/betterThanBeforeExpanded.ts",
   "beyond-all-directions-essays-on-nirvana": "./books/beyondAllDirectionsEssaysOnNirvanaExpanded.ts",
   "beyond-culture": "./books/beyondCultureExpanded.ts",
@@ -451,6 +453,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "right-livelihood-in-buddhist-perspective": "./books/rightLivelihoodInBuddhistPerspectiveExpanded.ts",
   "right-mindfulness-memory-and-ardency-on-the-buddhist-path": "./books/rightMindfulnessMemoryAndArdencyOnTheBuddhistPathExpanded.ts",
   "risk-savvy-how-to-make-good-decisions": "./books/riskSavvyHowToMakeGoodDecisionsExpanded.ts",
+  "rule-the-room-a-unique-system-for-easy-selling-and-presentat": "./books/ruleTheRoomAUniqueSystemForEasySellingAndPresentatExpanded.ts",
   "samsara-nirvana-and-buddha-nature": "./books/samsaraNirvanaAndBuddhaNatureExpanded.ts",
   "satipatthana-meditation-a-practice-guide": "./books/satipatthanaMeditationAPracticeGuideExpanded.ts",
   "satipatthana-the-direct-path-to-realization": "./books/satipatthanaTheDirectPathToRealizationExpanded.ts",
@@ -504,6 +507,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "start-with-no-the-negotiating-tools-that-the-pros-don-t-want": "./books/startWithNoTheNegotiatingToolsThatTheProsDonTWantExpanded.ts",
   "start-with-why-how-great-leaders-inspire-everyone-to-take-ac": "./books/startWithWhyHowGreatLeadersInspireEveryoneToTakeAcExpanded.ts",
   "starting-strength-basic-barbell-training": "./books/startingStrengthBasicBarbellTrainingExpanded.ts",
+  "steal-the-show-from-speeches-to-job-interviews-to-deal-closi": "./books/stealTheShowFromSpeechesToJobInterviewsToDealClosiExpanded.ts",
   "stick-with-it": "./books/stickWithItExpanded.ts",
   "stillness-flowing-the-life-and-teachings-of-ajahn-chah": "./books/stillnessFlowingTheLifeAndTeachingsOfAjahnChahExpanded.ts",
   "stolen-focus-why-you-can-t-pay-attention": "./books/stolenFocusWhyYouCanTPayAttentionExpanded.ts",
@@ -522,6 +526,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "supramundane-consciousness-lokuttara-citta": "./books/supramundaneConsciousnessLokuttaraCittaExpanded.ts",
   "survival-and-karma-in-buddhist-perspective": "./books/survivalAndKarmaInBuddhistPerspectiveExpanded.ts",
   "sync-how-order-emerges-from-chaos": "./books/syncHowOrderEmergesFromChaosExpanded.ts",
+  "talk-like-ted-the-9-public-speaking-secrets-of-the-world-s-t": "./books/talkLikeTedThe9PublicSpeakingSecretsOfTheWorldSTExpanded.ts",
   "taming-the-mind-discourses-on-mind-training": "./books/tamingTheMindDiscoursesOnMindTrainingExpanded.ts",
   "teaching-and-training-at-pa-auk-monastery": "./books/teachingAndTrainingAtPaAukMonasteryExpanded.ts",
   "teachings-of-a-buddhist-monk": "./books/teachingsOfABuddhistMonkExpanded.ts",
@@ -553,6 +558,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-art-of-living-vipassana-meditation": "./books/theArtOfLivingVipassanaMeditationExpanded.ts",
   "the-art-of-note-taking": "./books/theArtOfNoteTakingExpanded.ts",
   "the-art-of-persuasion": "./books/theArtOfPersuasionExpanded.ts",
+  "the-art-of-quick-thinking": "./books/theArtOfQuickThinkingExpanded.ts",
   "the-art-of-rhetoric": "./books/theArtOfRhetoricExpanded.ts",
   "the-art-of-seduction": "./books/theArtOfSeductionExpanded.ts",
   "the-art-of-speaking": "./books/theArtOfSpeakingExpanded.ts",
@@ -592,6 +598,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-connected-discourses-of-the-buddha-samyutta-nikaya": "./books/theConnectedDiscoursesOfTheBuddhaSamyuttaNikayaExpanded.ts",
   "the-courage-to-be-disliked": "./books/theCourageToBeDislikedExpanded.ts",
   "the-covert-passive-aggressive-narcissist": "./books/theCovertPassiveAggressiveNarcissistExpanded.ts",
+  "the-craft-of-scientific-presentations": "./books/theCraftOfScientificPresentationsExpanded.ts",
   "the-craft-of-the-heart": "./books/theCraftOfTheHeartExpanded.ts",
   "the-crossroads-of-should-and-must": "./books/theCrossroadsOfShouldAndMustExpanded.ts",
   "the-crowd-a-study-of-the-popular-mind": "./books/theCrowdAStudyOfThePopularMindExpanded.ts",
@@ -662,6 +669,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-heart-of-the-buddha-s-teaching": "./books/theHeartOfTheBuddhaSTeachingExpanded.ts",
   "the-heritage-of-the-sangha": "./books/theHeritageOfTheSanghaExpanded.ts",
   "the-hidden-dimension": "./books/theHiddenDimensionExpanded.ts",
+  "the-humorous-approach": "./books/theHumorousApproachExpanded.ts",
   "the-information-diet": "./books/theInformationDietExpanded.ts",
   "the-invisible-gorilla-how-our-intuitions-deceive-us": "./books/theInvisibleGorillaHowOurIntuitionsDeceiveUsExpanded.ts",
   "the-island-an-anthology-of-the-buddha-s-teachings-on-nibbana": "./books/theIslandAnAnthologyOfTheBuddhaSTeachingsOnNibbanaExpanded.ts",
@@ -726,6 +734,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-psychological-attitude-of-early-buddhist-philosophy": "./books/thePsychologicalAttitudeOfEarlyBuddhistPhilosophyExpanded.ts",
   "the-pure-soul-the-brahmana-vagga-of-the-dhammapada": "./books/thePureSoulTheBrahmanaVaggaOfTheDhammapadaExpanded.ts",
   "the-questions-of-king-milinda-milindapanha": "./books/theQuestionsOfKingMilindaMilindapanhaExpanded.ts",
+  "the-quick-and-easy-way-to-effective-speaking": "./books/theQuickAndEasyWayToEffectiveSpeakingExpanded.ts",
   "the-radiant-mind-continuous-satipatthana-in-modern-life": "./books/theRadiantMindContinuousSatipatthanaInModernLifeExpanded.ts",
   "the-requisites-of-enlightenment": "./books/theRequisitesOfEnlightenmentExpanded.ts",
   "the-right-to-speak-working-with-the-voice": "./books/theRightToSpeakWorkingWithTheVoiceExpanded.ts",
@@ -787,6 +796,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "theragatha-verses-of-the-senior-monks": "./books/theragathaVersesOfTheSeniorMonksExpanded.ts",
   "therigatha-poems-of-early-buddhist-nuns": "./books/therigathaPoemsOfEarlyBuddhistNunsExpanded.ts",
   "think-again-the-power-of-knowing-what-you-don-t-know": "./books/thinkAgainThePowerOfKnowingWhatYouDonTKnowExpanded.ts",
+  "think-faster-talk-smarter-how-to-speak-successfully-on-the-s": "./books/thinkFasterTalkSmarterHowToSpeakSuccessfullyOnTheSExpanded.ts",
   "thinking-fast-and-slow": "./books/thinkingFastAndSlowExpanded.ts",
   "thinking-in-bets": "./books/thinkingInBetsExpanded.ts",
   "thinking-in-systems-a-primer": "./books/thinkingInSystemsAPrimerExpanded.ts",
@@ -2860,6 +2870,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "be-prepared-how-to-think-on-your-feet-and-stand-up-to-bullie",
+    "title": "Be Prepared: How to Think on Your Feet and Stand Up to Bullies",
+    "author": "Selected treatises on verbal self-defense.",
+    "category": "Creativity & Expression",
+    "subcategory": "Humor & Wit in Speaking",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When verbal predators strike, your nervous system wants to freeze, fumble, or rage. This treatise reveals how to turn panic into poise, dissect hostile verbal aggression on the fly, and neutralize social intimidation with scientific precision.",
+      "coreThesis": "Verbal bullying is not a debate over facts; it is an asymmetrical exploit of your nervous system that dissolves the moment you withhold emotional reactivity and reframe the social interaction.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Be Prepared: How to Think on Your Feet and Stand Up to Bullies"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "becoming-a-supple-leopard",
     "title": "Becoming a Supple Leopard",
     "author": "Kelly Starrett & Glen Cordoza",
@@ -2995,6 +3040,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "better-presentations-a-guide-for-scholars-researchers-and-wo",
+    "title": "Better Presentations: A Guide for Scholars, Researchers, and Wonks",
+    "author": "Jonathan Schwabish",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Academic and analytical slide decks routinely collapse under the weight of pasted report text and unreadable chart dumps. Better Presentations rewires scholarly communication around human cognitive perception, turning complex research findings into crisp, persuasive live visual narratives.",
+      "coreThesis": "A slide deck is an ambient visual complement to your spoken voice, not a printed document projected on a wall; design it to guide human visual attention, not to serve as your teleprompter.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Better Presentations: A Guide for Scholars, Researchers, and Wonks"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -16632,6 +16712,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "rule-the-room-a-unique-system-for-easy-selling-and-presentat",
+    "title": "Rule the Room: A Unique System for Easy Selling and Presentation",
+    "author": "Jason Teteak",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Public speaking is not an innate charisma lottery; it is an exact behavioral science. By treating your presentation like an engineered circuit of human attention, you can reliably command any room from opening hook to final ovation.",
+      "coreThesis": "Commanding a room is a predictable mechanical craft: when you align what you deliver with how human brains process attention, credibility and persuasion follow automatically.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Rule the Room: A Unique System for Easy Selling and Presentation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "samsara-nirvana-and-buddha-nature",
     "title": "Samsara, Nirvana, and Buddha Nature",
     "author": "Dalai Lama & Thubten Chodron",
@@ -18481,6 +18596,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "steal-the-show-from-speeches-to-job-interviews-to-deal-closi",
+    "title": "Steal the Show: From Speeches to Job Interviews to Deal-Closing Pitches",
+    "author": "Michael Port",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 90,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Master the hidden performance mechanics actors use to captivate crowds and turn high-stakes pitches, job interviews, and keynote presentations into standing ovations.",
+      "coreThesis": "Every high-stakes interaction is an act of performance; by mastering actor-grade preparation, objectives, and presence, you shift from self-conscious panic to selfless service.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Steal the Show: From Speeches to Job Interviews to Deal-Closing Pitches"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "stick-with-it",
     "title": "Stick with It",
     "author": "Sean Young",
@@ -19106,6 +19256,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "talk-like-ted-the-9-public-speaking-secrets-of-the-world-s-t",
+    "title": "Talk Like TED: The 9 Public-Speaking Secrets of the World's Top Minds",
+    "author": "Carmine Gallo",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Great ideas stay invisible unless they are delivered in a way that aligns with how the human brain actually processes information. Carmine Gallo decodes the cognitive blueprint behind the world's most viral TED talks to show you how to captivate any room.",
+      "coreThesis": "Public speaking is an applied neurological craft where genuine emotion, unexpected novelty, and concise multisensory delivery align with the brain's natural wiring to make ideas impossible to ignore.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Talk Like TED: The 9 Public-Speaking Secrets of the World's Top Minds"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -20189,6 +20374,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-art-of-quick-thinking",
+    "title": "The Art of Quick Thinking",
+    "author": "Edward de Bono",
+    "category": "Creativity & Expression",
+    "subcategory": "Humor & Wit in Speaking",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 95,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mental agility on your feet is not a genetic reflex or a ruthless debate contest; it is a trainable perceptual operating system. By swapping combat for curiosity, you can navigate high-pressure exchanges, sharp rebuttals, and unexpected conversational pivots with effortless elegance.",
+      "coreThesis": "Conversational agility and wit stem not from defensive intellectual combat, but from perceptual flexibility that extracts concepts and explores parallel alternatives in real time.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Art of Quick Thinking"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -21551,6 +21771,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-craft-of-scientific-presentations",
+    "title": "The Craft of Scientific Presentations",
+    "author": "Michael Alley",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2003,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most technical talks collapse under bullet points and dense data, burying brilliant discoveries beneath cognitive noise. Michael Alley provides an engineering blueprint for transforming dry technical reports into compelling, visual, and memorable spoken narratives.",
+      "coreThesis": "A scientific presentation succeeds only when engineered for human cognitive bandwidth: replace bullet-heavy outlines with concise verbal claims anchored to direct visual evidence.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Craft of Scientific Presentations"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -24003,6 +24258,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-humorous-approach",
+    "title": "The Humorous Approach",
+    "author": "Various texts on conversational humor, comedic timing, and irony.",
+    "category": "Creativity & Expression",
+    "subcategory": "Humor & Wit in Speaking",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Laughter is not a lucky accident\\u2014it is a precise neural reaction to broken expectations. Discover how everyday conversational wit operates like a fine-tuned engine, turning ordinary dialogue into engaging, magnetic connection.",
+      "coreThesis": "Conversational humor is an applied science of expectation management: by setting up predictable patterns and sharply pivoting with perfect timing, you disarm social tension and create instant shared rapport.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Humorous Approach"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-information-diet",
     "title": "The Information Diet",
     "author": "Clay A. Johnson",
@@ -26240,6 +26530,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-quick-and-easy-way-to-effective-speaking",
+    "title": "The Quick and Easy Way to Effective Speaking",
+    "author": "Dale Carnegie",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 1962,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Public speaking is not an elusive genetic gift, but an engineerable behavioral circuit where stage fright is converted into kinetic drive. Master the exact conversational mechanics that align human attention, dismantle cognitive resistance, and move listeners to decisive action.",
+      "coreThesis": "Compelling public speaking is an enlarged, authentic conversation fueled by lived conviction and structured to serve the listener's mental bandwidth rather than a performer's ego.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Quick and Easy Way to Effective Speaking"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-radiant-mind-continuous-satipatthana-in-modern-life",
     "title": "The Radiant Mind: Continuous Satipatthana in Modern Life",
     "author": "Joseph Goldstein",
@@ -28367,6 +28692,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "think-faster-talk-smarter-how-to-speak-successfully-on-the-s",
+    "title": "Think Faster, Talk Smarter: How to Speak Successfully on the Spot",
+    "author": "Matt Abrahams",
+    "category": "Creativity & Expression",
+    "subcategory": "Humor & Wit in Speaking",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2023,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most spontaneous speaking fails not from a lack of intelligence, but because our internal cognitive alarm system floods our working memory when we try to be perfect. By trading perfectionism for simple structural recipes, you can turn sudden, high-stakes conversational pressure into effortless clarity.",
+      "coreThesis": "Spontaneous communication is an engineering challenge of cognitive load management, unlocked not by trying to speak brilliantly, but by calming the nervous system and pouring thoughts into simple, reusable structures.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Think Faster, Talk Smarter: How to Speak Successfully on the Spot"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
