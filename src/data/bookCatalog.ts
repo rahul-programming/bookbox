@@ -102,6 +102,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "buddhist-logic-volume-2": "./books/buddhistLogicVolume2Expanded.ts",
   "buddhist-women-at-the-time-of-the-buddha": "./books/buddhistWomenAtTheTimeOfTheBuddhaExpanded.ts",
   "building-a-second-brain": "./books/buildingASecondBrainExpanded.ts",
+  "building-a-storybrand-clarify-your-message-so-customers-will": "./books/buildingAStorybrandClarifyYourMessageSoCustomersWillExpanded.ts",
   "built-from-broken": "./books/builtFromBrokenExpanded.ts",
   "bullshit-jobs-on-bullshit": "./books/bullshitJobsOnBullshitExpanded.ts",
   "captivate-the-science-of-succeeding-with-people": "./books/captivateTheScienceOfSucceedingWithPeopleExpanded.ts",
@@ -110,6 +111,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "citta-and-cetasika-mind-and-mental-factors": "./books/cittaAndCetasikaMindAndMentalFactorsExpanded.ts",
   "cittaviveka-teachings-from-the-silent-mind": "./books/cittavivekaTeachingsFromTheSilentMindExpanded.ts",
   "clarity-of-insight-selected-forest-dhamma": "./books/clarityOfInsightSelectedForestDhammaExpanded.ts",
+  "class-a-guide-through-the-american-status-system": "./books/classAGuideThroughTheAmericanStatusSystemExpanded.ts",
   "clear-thinking": "./books/clearThinkingExpanded.ts",
   "cognitive-psychology-mind-and-brain": "./books/cognitivePsychologyMindAndBrainExpanded.ts",
   "compassion-and-emptiness-in-early-buddhist-meditation": "./books/compassionAndEmptinessInEarlyBuddhistMeditationExpanded.ts",
@@ -171,6 +173,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "discourse-on-the-vammika-sutta": "./books/discourseOnTheVammikaSuttaExpanded.ts",
   "discourse-on-the-wheel-of-dhamma": "./books/discourseOnTheWheelOfDhammaExpanded.ts",
   "discourses-on-the-satipatthana-sutta": "./books/discoursesOnTheSatipatthanaSuttaExpanded.ts",
+  "distinction-a-social-critique-of-the-judgement-of-taste": "./books/distinctionASocialCritiqueOfTheJudgementOfTasteExpanded.ts",
   "do-the-work": "./books/doTheWorkExpanded.ts",
   "don-t-hold-back-monastic-reflections-on-practice": "./books/donTHoldBackMonasticReflectionsOnPracticeExpanded.ts",
   "don-t-look-at-the-mind-with-contempt": "./books/donTLookAtTheMindWithContemptExpanded.ts",
@@ -189,6 +192,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "emotions-revealed-recognizing-faces-and-feelings-to-improve-": "./books/emotionsRevealedRecognizingFacesAndFeelingsToImproveExpanded.ts",
   "essentialism-the-disciplined-pursuit-of-less": "./books/essentialismTheDisciplinedPursuitOfLessExpanded.ts",
   "ethics-for-the-new-millennium": "./books/ethicsForTheNewMillenniumExpanded.ts",
+  "everybody-writes-your-go-to-guide-to-creating-ridiculously-g": "./books/everybodyWritesYourGoToGuideToCreatingRidiculouslyGExpanded.ts",
   "everything-arises-everything-falls-away": "./books/everythingArisesEverythingFallsAwayExpanded.ts",
   "everything-s-an-argument": "./books/everythingSAnArgumentExpanded.ts",
   "evil-and-punishment-the-danda-vagga-of-the-dhammapada": "./books/evilAndPunishmentTheDandaVaggaOfTheDhammapadaExpanded.ts",
@@ -403,6 +407,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "on-the-orator-de-oratore": "./books/onTheOratorDeOratoreExpanded.ts",
   "on-the-path-an-anthology-of-suttas-on-the-noble-eightfold-path": "./books/onThePathAnAnthologyOfSuttasOnTheNobleEightfoldPathExpanded.ts",
   "on-the-path-to-freedom": "./books/onThePathToFreedomExpanded.ts",
+  "on-writing-well-the-classic-guide-to-writing-nonfiction": "./books/onWritingWellTheClassicGuideToWritingNonfictionExpanded.ts",
   "one-dharma-the-emerging-western-buddhism": "./books/oneDharmaTheEmergingWesternBuddhismExpanded.ts",
   "one-small-step-can-change-your-life-the-kaizen-way": "./books/oneSmallStepCanChangeYourLifeTheKaizenWayExpanded.ts",
   "opening-the-door-of-your-heart": "./books/openingTheDoorOfYourHeartExpanded.ts",
@@ -550,6 +555,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "thank-you-for-arguing": "./books/thankYouForArguingExpanded.ts",
   "thank-you-for-arguing-what-aristotle-lincoln-and-homer-simps": "./books/thankYouForArguingWhatAristotleLincolnAndHomerSimpsExpanded.ts",
   "thanks-for-the-feedback-the-science-and-art-of-receiving-fee": "./books/thanksForTheFeedbackTheScienceAndArtOfReceivingFeeExpanded.ts",
+  "the-1-page-marketing-plan": "./books/the1PageMarketingPlanExpanded.ts",
   "the-1-rule": "./books/the1RuleExpanded.ts",
   "the-22-immutable-laws-of-marketing": "./books/the22ImmutableLawsOfMarketingExpanded.ts",
   "the-48-laws-of-power": "./books/the48LawsOfPowerExpanded.ts",
@@ -614,6 +620,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-compound-effect": "./books/theCompoundEffectExpanded.ts",
   "the-conception-of-buddhist-nirvana": "./books/theConceptionOfBuddhistNirvanaExpanded.ts",
   "the-connected-discourses-of-the-buddha-samyutta-nikaya": "./books/theConnectedDiscoursesOfTheBuddhaSamyuttaNikayaExpanded.ts",
+  "the-copywriter-s-handbook": "./books/theCopywriterSHandbookExpanded.ts",
   "the-courage-to-be-disliked": "./books/theCourageToBeDislikedExpanded.ts",
   "the-covert-passive-aggressive-narcissist": "./books/theCovertPassiveAggressiveNarcissistExpanded.ts",
   "the-craft-of-scientific-presentations": "./books/theCraftOfScientificPresentationsExpanded.ts",
@@ -649,6 +656,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-easy-way-to-stop-smoking-stop-drinking": "./books/theEasyWayToStopSmokingStopDrinkingExpanded.ts",
   "the-elements-of-eloquence-how-to-turn-the-perfect-english-ph": "./books/theElementsOfEloquenceHowToTurnThePerfectEnglishPhExpanded.ts",
   "the-elephant-footprint-cula-hatthipadopama-sutta": "./books/theElephantFootprintCulaHatthipadopamaSuttaExpanded.ts",
+  "the-elephant-in-the-brain-hidden-motives-in-everyday-life": "./books/theElephantInTheBrainHiddenMotivesInEverydayLifeExpanded.ts",
   "the-elimination-of-anger": "./books/theEliminationOfAngerExpanded.ts",
   "the-energy-of-prayer-how-to-deepen-your-spiritual-practice": "./books/theEnergyOfPrayerHowToDeepenYourSpiritualPracticeExpanded.ts",
   "the-essence-of-buddha-abhidhamma": "./books/theEssenceOfBuddhaAbhidhammaExpanded.ts",
@@ -780,6 +788,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-sound-of-silence-selected-teachings": "./books/theSoundOfSilenceSelectedTeachingsExpanded.ts",
   "the-spectrum-of-buddhism": "./books/theSpectrumOfBuddhismExpanded.ts",
   "the-state-of-mind-called-beautiful": "./books/theStateOfMindCalledBeautifulExpanded.ts",
+  "the-status-game-on-social-position-and-how-we-use-it": "./books/theStatusGameOnSocialPositionAndHowWeUseItExpanded.ts",
   "the-storyteller-s-secret": "./books/theStorytellerSSecretExpanded.ts",
   "the-sun-my-heart-from-mindfulness-to-insight-contemplation": "./books/theSunMyHeartFromMindfulnessToInsightContemplationExpanded.ts",
   "the-sutta-discovery-early-buddhist-teachings": "./books/theSuttaDiscoveryEarlyBuddhistTeachingsExpanded.ts",
@@ -893,6 +902,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "words-that-work-it-s-not-what-you-say-it-s-what-people-hear": "./books/wordsThatWorkItSNotWhatYouSayItSWhatPeopleHearExpanded.ts",
   "working-in-public-the-making-and-maintenance-of-open-source-": "./books/workingInPublicTheMakingAndMaintenanceOfOpenSourceExpanded.ts",
   "working-with-emotional-intelligence": "./books/workingWithEmotionalIntelligenceExpanded.ts",
+  "write-of-passage-digital-writing-treatises": "./books/writeOfPassageDigitalWritingTreatisesExpanded.ts",
   "write-once-read-forever-syntopic-knowledge": "./books/writeOnceReadForeverSyntopicKnowledgeExpanded.ts",
   "yamaka-the-book-of-pairs": "./books/yamakaTheBookOfPairsExpanded.ts",
   "yes-50-scientifically-proven-ways-to-be-persuasive": "./books/yes50ScientificallyProvenWaysToBePersuasiveExpanded.ts",
@@ -4464,6 +4474,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "building-a-storybrand-clarify-your-message-so-customers-will",
+    "title": "Building a StoryBrand: Clarify Your Message So Customers Will Listen",
+    "author": "Donald Miller",
+    "category": "Leadership & Career",
+    "subcategory": "Personal Brand & Reputation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "If you confuse, you lose. Positioning your brand as the expert guide rather than the heroic protagonist cuts through market noise and forces customers to pay attention.",
+      "coreThesis": "Customers do not buy the best products; they buy the products they can understand the fastest. Win market share by positioning the customer as the hero and your brand as the guide who hands them a foolproof plan to succeed.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Building a StoryBrand: Clarify Your Message So Customers Will Listen"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "built-from-broken",
     "title": "Built from Broken",
     "author": "Scott H. Hogan",
@@ -4739,6 +4784,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "class-a-guide-through-the-american-status-system",
+    "title": "Class: A Guide Through the American Status System",
+    "author": "Paul Fussell",
+    "category": "Leadership & Career",
+    "subcategory": "Workplace Politics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1983,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Paul Fussell exposes the invisible chessboard of American status, proving that taste, vocabulary, and micro-habits\\u2014not net worth\\u2014determine your true social capital. It is an unsparing strategic manual for reading unspoken hierarchy, spotting status anxiety, and deciding whether to compete or opt out.",
+      "coreThesis": "Social class in America is governed by cultural capital, autonomy, and aesthetic signaling rather than mere money, and anxious striving inevitably advertises the very insecurity it attempts to hide.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Class: A Guide Through the American Status System"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
@@ -6875,6 +6955,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "distinction-a-social-critique-of-the-judgement-of-taste",
+    "title": "Distinction: A Social Critique of the Judgement of Taste",
+    "author": "Pierre Bourdieu",
+    "category": "Leadership & Career",
+    "subcategory": "Workplace Politics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1979,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your personal taste is not an authentic quirk; it is a finely tuned radar tracking your position on the corporate and social chessboard. Master the hidden currency of status signaling to navigate office politics, build defensible moats, and spot the unspoken rules governing executive authority.",
+      "coreThesis": "Individual taste is not a private aesthetic preference, but an ingrained classification system used to signal social rank and police the boundaries of power.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Distinction: A Social Critique of the Judgement of Taste"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "do-the-work",
     "title": "Do the Work",
     "author": "Steven Pressfield",
@@ -7500,6 +7615,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "everybody-writes-your-go-to-guide-to-creating-ridiculously-g",
+    "title": "Everybody Writes: Your Go-To Guide to Creating Ridiculously Good Content",
+    "author": "Ann Handley",
+    "category": "Leadership & Career",
+    "subcategory": "Personal Brand & Reputation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 370,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "In a digital-first economy where your written word is your storefront, sloppy communication carries catastrophic reputational risk. Clear, empathetic, and ruthlessly edited writing is not an artistic luxury\\u2014it is an asymmetrical competitive moat that commands authority, signals competence, and compounds market influence.",
+      "coreThesis": "Your writing is your digital reputation; clarity, relentless customer empathy, and surgical editing form the ultimate competitive moat for commanding attention and professional respect.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Everybody Writes: Your Go-To Guide to Creating Ridiculously Good Content"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
@@ -14985,6 +15135,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "on-writing-well-the-classic-guide-to-writing-nonfiction",
+    "title": "On Writing Well: The Classic Guide to Writing Nonfiction",
+    "author": "William Zinsser",
+    "category": "Leadership & Career",
+    "subcategory": "Personal Brand & Reputation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 125,
+    "publishedYear": 1976,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your words are the mirror of your character, signaling your hidden standards before you ever enter the room. Master the architecture of simplicity, and you command lasting respect through clarity, warmth, and quiet authority.",
+      "coreThesis": "Prose is the mirror of character: stripped of vanity and clutter, clear writing becomes the ultimate signal of authority, emotional truth, and respect.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "On Writing Well: The Classic Guide to Writing Nonfiction"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "one-dharma-the-emerging-western-buddhism",
     "title": "One Dharma: The Emerging Western Buddhism",
     "author": "Joseph Goldstein",
@@ -20119,6 +20304,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-1-page-marketing-plan",
+    "title": "The 1-Page Marketing Plan",
+    "author": "Allan Dib",
+    "category": "Leadership & Career",
+    "subcategory": "Personal Brand & Reputation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most businesses run on random acts of promotion that burn cash without accountable return. The 1-Page Marketing Plan forces your entire growth engine onto a single 9-box grid, converting marketing from an unpredictable expense into a high-margin asset.",
+      "coreThesis": "Marketing is not an artistic indulgence; it is a measurable direct-response engine designed to reliably transform strangers into loyal, high-lifetime-value promoters.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The 1-Page Marketing Plan"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-1-rule",
     "title": "The 1% Rule",
     "author": "Tommy Baker",
@@ -22356,6 +22576,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-copywriter-s-handbook",
+    "title": "The Copywriter's Handbook",
+    "author": "Robert W. Bly",
+    "category": "Leadership & Career",
+    "subcategory": "Personal Brand & Reputation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 95,
+    "publishedYear": 1985,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Words are not art projects\\u2014they are capital allocation instruments designed to alter human behavior. Robert W. Bly delivers the definitive playbook for turning clear language into predictable commercial leverage.",
+      "coreThesis": "Copywriting is salesmanship deployed through language: its worth is measured purely by response rates and closed business, not artistic approval.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Copywriter's Handbook"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-courage-to-be-disliked",
     "title": "The Courage to Be Disliked",
     "author": "Ichiro Kishimi & Fumitake Koga",
@@ -23576,6 +23831,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-elephant-in-the-brain-hidden-motives-in-everyday-life",
+    "title": "The Elephant in the Brain: Hidden Motives in Everyday Life",
+    "author": "Kevin Simler & Robin Hanson",
+    "category": "Leadership & Career",
+    "subcategory": "Workplace Politics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Human beings are walking public relations firms running 24/7 damage control for hidden evolutionary agendas. Master the actual rules of the board\\u2014signaling, status tournaments, and plausible deniability\\u2014or remain the unwitting dupe of institutional theatre.",
+      "coreThesis": "Our minds are built to hide our real, self-serving motives from ourselves so we can convincingly deceive everyone around us. True power and strategic clarity come from auditing what people actually signal and protect, not what they publicly profess.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Elephant in the Brain: Hidden Motives in Everyday Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
@@ -28158,6 +28448,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-status-game-on-social-position-and-how-we-use-it",
+    "title": "The Status Game: On Social Position and How We Use It",
+    "author": "Will Storr",
+    "category": "Leadership & Career",
+    "subcategory": "Workplace Politics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 145,
+    "publishedYear": 2021,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Human life is an unending competition for social standing, run by an ancient operating system that dictates every promotion, conflict, and cultural civil war. Master the three fundamental games\\u2014Dominance, Virtue, and Success\\u2014or remain their blind pawn.",
+      "coreThesis": "Human behavior is not driven primarily by money or power, but by an instinctual drive to secure status within social hierarchies. Lasting influence comes from mastering competence-driven prestige rather than brute dominance or moral posturing.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Status Game: On Social Position and How We Use It"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-storyteller-s-secret",
     "title": "The Storyteller's Secret",
     "author": "Carmine Gallo",
@@ -32103,6 +32428,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "write-of-passage-digital-writing-treatises",
+    "title": "Write of Passage / Digital Writing treatises",
+    "author": "Modern manuals on high-leverage atomic essays and digital distribution.",
+    "category": "Leadership & Career",
+    "subcategory": "Personal Brand & Reputation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Traditional networking is hand-to-hand combat; online writing is an autonomous radar tower broadcasting your competence to the global market 24/7. Turn your insights into modular digital assets and attract compounding professional leverage without cold outreach.",
+      "coreThesis": "Publishing clear, atomic ideas online creates an asymmetric serendipity engine that permanently replaces cold networking with inbound professional and financial leverage.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Write of Passage / Digital Writing treatises"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
