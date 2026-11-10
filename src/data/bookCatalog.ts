@@ -191,6 +191,8 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "factfulness": "./books/factfulnessExpanded.ts",
   "faith-trusting-your-own-deepest-experience": "./books/faithTrustingYourOwnDeepestExperienceExpanded.ts",
   "fallacies-and-argument-appraisal": "./books/fallaciesAndArgumentAppraisalExpanded.ts",
+  "farnsworth-s-classical-english-rhetoric": "./books/farnsworthSClassicalEnglishRhetoricExpanded.ts",
+  "farnsworth-s-classical-english-style": "./books/farnsworthSClassicalEnglishStyleExpanded.ts",
   "fear-essential-wisdom-for-getting-through-the-storm": "./books/fearEssentialWisdomForGettingThroughTheStormExpanded.ts",
   "feeling-good-the-new-mood-therapy": "./books/feelingGoodTheNewMoodTherapyExpanded.ts",
   "fierce-conversations-achieving-success-at-work-and-in-life-o": "./books/fierceConversationsAchievingSuccessAtWorkAndInLifeOExpanded.ts",
@@ -214,6 +216,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "gaslighting-recognize-manipulative-and-emotionally-abusive-p": "./books/gaslightingRecognizeManipulativeAndEmotionallyAbusivePExpanded.ts",
   "gentle-bridges-conversations-with-the-dalai-lama-on-mind-sciences": "./books/gentleBridgesConversationsWithTheDalaiLamaOnMindSciencesExpanded.ts",
   "get-out-of-your-mind-and-into-your-life": "./books/getOutOfYourMindAndIntoYourLifeExpanded.ts",
+  "get-the-truth-former-cia-officers-teach-you-how-to-persuade-": "./books/getTheTruthFormerCiaOfficersTeachYouHowToPersuadeExpanded.ts",
   "getting-past-no-negotiating-with-difficult-people": "./books/gettingPastNoNegotiatingWithDifficultPeopleExpanded.ts",
   "getting-things-done-the-art-of-stress-free-productivity": "./books/gettingThingsDoneTheArtOfStressFreeProductivityExpanded.ts",
   "getting-to-yes-negotiating-agreement-without-giving-in": "./books/gettingToYesNegotiatingAgreementWithoutGivingInExpanded.ts",
@@ -243,6 +246,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "how-to-practice-the-way-to-a-meaningful-life": "./books/howToPracticeTheWayToAMeaningfulLifeExpanded.ts",
   "how-to-read-a-book": "./books/howToReadABookExpanded.ts",
   "how-to-see-yourself-as-you-really-are": "./books/howToSeeYourselfAsYouReallyAreExpanded.ts",
+  "how-to-spot-a-liar": "./books/howToSpotALiarExpanded.ts",
   "how-to-take-smart-notes": "./books/howToTakeSmartNotesExpanded.ts",
   "how-to-win-any-argument": "./books/howToWinAnyArgumentExpanded.ts",
   "humble-inquiry-the-gentle-art-of-asking-instead-of-telling": "./books/humbleInquiryTheGentleArtOfAskingInsteadOfTellingExpanded.ts",
@@ -284,6 +288,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "knowing-and-seeing-teachings-of-pa-auk-monastery": "./books/knowingAndSeeingTeachingsOfPaAukMonasteryExpanded.ts",
   "learn-like-a-pro": "./books/learnLikeAProExpanded.ts",
   "learned-optimism": "./books/learnedOptimismExpanded.ts",
+  "liespotting-proven-techniques-to-detect-deception": "./books/liespottingProvenTechniquesToDetectDeceptionExpanded.ts",
   "life-is-in-the-transitions": "./books/lifeIsInTheTransitionsExpanded.ts",
   "lighting-the-path-the-four-noble-truths": "./books/lightingThePathTheFourNobleTruthsExpanded.ts",
   "like-a-clear-sky-dhamma-reflections": "./books/likeAClearSkyDhammaReflectionsExpanded.ts",
@@ -396,6 +401,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "peace-is-every-step-the-path-of-mindfulness-in-everyday-life": "./books/peaceIsEveryStepThePathOfMindfulnessInEverydayLifeExpanded.ts",
   "peak-performance": "./books/peakPerformanceExpanded.ts",
   "permission-to-feel": "./books/permissionToFeelExpanded.ts",
+  "personal-space": "./books/personalSpaceExpanded.ts",
   "perspectives-on-satipatthana": "./books/perspectivesOnSatipatthanaExpanded.ts",
   "pivot-the-only-move-that-matters-is-your-next-one": "./books/pivotTheOnlyMoveThatMattersIsYourNextOneExpanded.ts",
   "plato-s-republic-selected-dialogues": "./books/platoSRepublicSelectedDialoguesExpanded.ts",
@@ -430,6 +436,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "remote-office-not-required": "./books/remoteOfficeNotRequiredExpanded.ts",
   "rest-why-you-get-more-done-when-you-work-less": "./books/restWhyYouGetMoreDoneWhenYouWorkLessExpanded.ts",
   "rethinking-narcissism-anger": "./books/rethinkingNarcissismAngerExpanded.ts",
+  "rhetoric": "./books/rhetoricExpanded.ts",
   "right-concentration-a-practical-guide-to-the-jhanas": "./books/rightConcentrationAPracticalGuideToTheJhanasExpanded.ts",
   "right-livelihood-in-buddhist-perspective": "./books/rightLivelihoodInBuddhistPerspectiveExpanded.ts",
   "right-mindfulness-memory-and-ardency-on-the-buddhist-path": "./books/rightMindfulnessMemoryAndArdencyOnTheBuddhistPathExpanded.ts",
@@ -478,6 +485,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "speak-peace-in-a-world-of-conflict": "./books/speakPeaceInAWorldOfConflictExpanded.ts",
   "spent-sex-evolution-and-consumer-behavior": "./books/spentSexEvolutionAndConsumerBehaviorExpanded.ts",
   "split-second-persuasion": "./books/splitSecondPersuasionExpanded.ts",
+  "spy-the-lie-former-cia-officers-teach-you-how-to-detect-dece": "./books/spyTheLieFormerCiaOfficersTeachYouHowToDetectDeceExpanded.ts",
   "stages-of-meditation-commentary-on-the-bhavanakrama": "./books/stagesOfMeditationCommentaryOnTheBhavanakramaExpanded.ts",
   "start-here-start-now-a-guide-to-compassionate-living": "./books/startHereStartNowAGuideToCompassionateLivingExpanded.ts",
   "start-with-no-the-negotiating-tools-that-the-pros-don-t-want": "./books/startWithNoTheNegotiatingToolsThatTheProsDonTWantExpanded.ts",
@@ -504,6 +512,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "teachings-on-love": "./books/teachingsOnLoveExpanded.ts",
   "telling-lies-clues-to-deceit-in-the-marketplace-politics-and": "./books/tellingLiesCluesToDeceitInTheMarketplacePoliticsAndExpanded.ts",
   "thank-you-for-arguing": "./books/thankYouForArguingExpanded.ts",
+  "thank-you-for-arguing-what-aristotle-lincoln-and-homer-simps": "./books/thankYouForArguingWhatAristotleLincolnAndHomerSimpsExpanded.ts",
   "thanks-for-the-feedback-the-science-and-art-of-receiving-fee": "./books/thanksForTheFeedbackTheScienceAndArtOfReceivingFeeExpanded.ts",
   "the-1-rule": "./books/the1RuleExpanded.ts",
   "the-48-laws-of-power": "./books/the48LawsOfPowerExpanded.ts",
@@ -732,6 +741,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-three-basic-facts-of-existence-non-self-anatta": "./books/theThreeBasicFactsOfExistenceNonSelfAnattaExpanded.ts",
   "the-three-basic-facts-of-existence-suffering-dukkha": "./books/theThreeBasicFactsOfExistenceSufferingDukkhaExpanded.ts",
   "the-tree-of-enlightenment": "./books/theTreeOfEnlightenmentExpanded.ts",
+  "the-truth-detector-an-ex-fbi-agent-s-guide-for-getting-peopl": "./books/theTruthDetectorAnExFbiAgentSGuideForGettingPeoplExpanded.ts",
   "the-udana-inspired-utterances-of-the-buddha": "./books/theUdanaInspiredUtterancesOfTheBuddhaExpanded.ts",
   "the-universe-in-a-single-atom-convergence-of-science-and-spirituality": "./books/theUniverseInASingleAtomConvergenceOfScienceAndSpiritualityExpanded.ts",
   "the-upside-of-irrationality": "./books/theUpsideOfIrrationalityExpanded.ts",
@@ -7503,6 +7513,76 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "farnsworth-s-classical-english-rhetoric",
+    "title": "Farnsworth's Classical English Rhetoric",
+    "author": "Ward Farnsworth",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 90,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Great oratory is not mystical charisma; it is cognitive engineering operating through exact linguistic circuits. Ward Farnsworth deconstructs the physical mechanics of classical rhetoric, revealing how calibrated word orders manipulate audience attention, expectation, and memory like precision clockwork.",
+      "coreThesis": "Memorable speech is an engineered structural system: classical rhetorical figures survive because they exploit universal cognitive wiring, converting fleeting sounds into permanent mental impressions.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Farnsworth's Classical English Rhetoric"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "farnsworth-s-classical-english-style",
+    "title": "Farnsworth's Classical English Style",
+    "author": "Ward Farnsworth",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Great prose is not accidental art; it is an acoustic and cognitive machine engineered to move the human nervous system. Ward Farnsworth decodes the mechanical levers of classical style so any speaker or writer can produce irresistible clarity, authority, and rhythm.",
+      "coreThesis": "Memorable style is an applied science of cognitive and acoustic patterns: by deliberately contrasting Saxon simplicity with Latinate elevation, calibrating sentence mechanics, and tuning terminal cadences, you control how ideas land in the human mind.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Farnsworth's Classical English Style"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "fear-essential-wisdom-for-getting-through-the-storm",
     "title": "Fear: Essential Wisdom for Getting Through the Storm",
     "author": "Thich Nhat Hanh",
@@ -8302,6 +8382,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "get-the-truth-former-cia-officers-teach-you-how-to-persuade-",
+    "title": "Get the Truth: Former CIA Officers Teach You How to Persuade Anyone to Tell All",
+    "author": "Philip Houston et al.",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When people hide the truth, aggressive interrogation triggers defensive walls like water hitting a hot skillet. Former CIA polygraph and interrogation specialists reveal how calm, structured monologues dismantle self-preservation instincts and make honesty feel like the safest path forward.",
+      "coreThesis": "People do not withhold the truth because they enjoy lying; they hide it to protect themselves from immediate negative consequences. By removing confrontation and delivering an empathetic monologue that minimizes short-term shame, you turn truth-telling into the most appealing psychological choice.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Get the Truth: Former CIA Officers Teach You How to Persuade Anyone to Tell All"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -9315,6 +9430,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "how-to-spot-a-liar",
+    "title": "How to Spot a Liar",
+    "author": "Gregory Hartley & Maryann Karinch",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2005,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Deception is an engine under heavy cognitive load, and every lie inevitably leaks through physiological heat. Master the interrogator's science of baselining to spot the subtle cracks between words and nervous systems.",
+      "coreThesis": "There is no single universal tell for a lie; deception is discovered by measuring abrupt departures from a person's calibrated baseline under targeted cognitive stress.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "How to Spot a Liar"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -10750,6 +10900,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "liespotting-proven-techniques-to-detect-deception",
+    "title": "Liespotting: Proven Techniques to Detect Deception",
+    "author": "Pamela Meyer",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Deception is not an invisible phantom\\u2014it leaves distinct physical footprints across facial muscles, body language, and vocal syntax. Pamela Meyer reveals the scientific mechanics of deceit so you can spot red flags, cut through fog, and build rock-solid trust.",
+      "coreThesis": "A lie has no power until someone chooses to believe it; by systematically tracking deviations from baseline verbal, facial, and physical patterns, anyone can accurately detect deception and cultivate authentic trust.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Liespotting: Proven Techniques to Detect Deception"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -14670,6 +14855,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "personal-space",
+    "title": "Personal Space",
+    "author": "Robert Sommer",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 1969,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Every human carries an invisible, portable bubble of personal space that expands and contracts based on trust, status, and environment. Robert Sommer pulls back the curtain on this hidden architecture, revealing how everyday rooms quietly dictate whether we connect, compete, or retreat.",
+      "coreThesis": "Human beings inhabit an invisible, portable territory whose boundaries constantly negotiate privacy, status, and social warmth; physical architecture must serve these biological and behavioral feedback loops rather than institutional convenience.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Personal Space"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "perspectives-on-satipatthana",
     "title": "Perspectives on Satipatthana",
     "author": "Bhikkhu Analayo",
@@ -15853,6 +16073,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "rhetoric",
+    "title": "Rhetoric",
+    "author": "Aristotle",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 300,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Persuasion is not mystical charisma or dark manipulation\\u2014it is an observable, engineered physics of human cognition. Aristotle unpacks the exact mechanics of how minds change, offering a diagnostic toolkit for crafting arguments that inform, resonate, and endure.",
+      "coreThesis": "Persuasion is the systematic discipline of observing the available means of proof in any given situation and assembling credibility, emotional resonance, and logical clarity into an undeniable case.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Rhetoric"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -17531,6 +17786,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "spy-the-lie-former-cia-officers-teach-you-how-to-detect-dece",
+    "title": "Spy the Lie: Former CIA Officers Teach You How to Detect Deception",
+    "author": "Philip Houston, Michael Floyd, Susan Carnicero",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Written by seasoned CIA interrogators, this book reveals the exact behavioral feedback loops people trigger when concealing the truth. Learn to spot deception within a strict five-second window using scientific observation rather than guesswork.",
+      "coreThesis": "Deception creates measurable cognitive friction that leaks through verbal and physical evasion within five seconds of a stimulus question.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Spy the Lie: Former CIA Officers Teach You How to Detect Deception"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "stages-of-meditation-commentary-on-the-bhavanakrama",
     "title": "Stages of Meditation: Commentary on the Bhavanakrama",
     "author": "Dalai Lama",
@@ -18434,6 +18724,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "thank-you-for-arguing-what-aristotle-lincoln-and-homer-simps",
+    "title": "Thank You for Arguing: What Aristotle, Lincoln, and Homer Simpson Can Teach Us About the Art of Persuasion",
+    "author": "Jay Heinrichs",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 140,
+    "publishedYear": 2007,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Persuasion is not a gladiatorial brawl to destroy an adversary; it is the deliberate design of human consent. By shifting conversations from past blame to future choice, you steer people into choosing your outcome willingly.",
+      "coreThesis": "Genuine persuasion does not defeat opponents; it aligns audience desires with future action by channeling character, emotion, and choice.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Thank You for Arguing: What Aristotle, Lincoln, and Homer Simpson Can Teach Us About the Art of Persuasion"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -26402,6 +26727,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-truth-detector-an-ex-fbi-agent-s-guide-for-getting-peopl",
+    "title": "The Truth Detector: An Ex-FBI Agent\\u2019s Guide for Getting People to Reveal the Truth",
+    "author": "Jack Schafer",
+    "category": "Communication",
+    "subcategory": "Body Language & Non-Verbal",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Direct questions trigger human defensiveness, but subtle conversational mechanics can open minds effortlessly. Former FBI behavioral analyst Jack Schafer reveals how to harvest the unvarnished truth by working with human psychological wiring rather than against it.",
+      "coreThesis": "Direct interrogation activates defensive psychological armor; deliberate conversational elicitation triggers our hardwired urge to correct, educate, and connect, prompting people to reveal the truth voluntarily.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Truth Detector: An Ex-FBI Agent\\u2019s Guide for Getting People to Reveal the Truth"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
