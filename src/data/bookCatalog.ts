@@ -59,6 +59,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "banter-master-small-talk-sexy-banter-and-flirting": "./books/banterMasterSmallTalkSexyBanterAndFlirtingExpanded.ts",
   "bargaining-for-advantage-negotiation-strategies-for-reasonab": "./books/bargainingForAdvantageNegotiationStrategiesForReasonabExpanded.ts",
   "be-prepared-how-to-think-on-your-feet-and-stand-up-to-bullie": "./books/bePreparedHowToThinkOnYourFeetAndStandUpToBullieExpanded.ts",
+  "be-the-go-to-how-to-own-your-competitive-market": "./books/beTheGoToHowToOwnYourCompetitiveMarketExpanded.ts",
   "becoming-a-supple-leopard": "./books/becomingASuppleLeopardExpanded.ts",
   "being-dharma-the-essence-of-the-buddha-s-teachings": "./books/beingDharmaTheEssenceOfTheBuddhaSTeachingsExpanded.ts",
   "being-logical-a-guide-to-good-thinking": "./books/beingLogicalAGuideToGoodThinkingExpanded.ts",
@@ -73,6 +74,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "bhavana-mind-development-in-everyday-reality": "./books/bhavanaMindDevelopmentInEverydayRealityExpanded.ts",
   "blink-the-art-of-the-glance": "./books/blinkTheArtOfTheGlanceExpanded.ts",
   "blink-the-power-of-thinking-without-thinking": "./books/blinkThePowerOfThinkingWithoutThinkingExpanded.ts",
+  "blue-ocean-strategy": "./books/blueOceanStrategyExpanded.ts",
   "bodhinyana-a-collection-of-dhamma-talks": "./books/bodhinyanaACollectionOfDhammaTalksExpanded.ts",
   "body-language": "./books/bodyLanguageExpanded.ts",
   "bored-and-brilliant": "./books/boredAndBrilliantExpanded.ts",
@@ -120,6 +122,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "contemplation-of-dhamma-the-fourth-foundation": "./books/contemplationOfDhammaTheFourthFoundationExpanded.ts",
   "contemplation-of-feeling-the-second-foundation": "./books/contemplationOfFeelingTheSecondFoundationExpanded.ts",
   "contemplation-of-the-mind-the-third-foundation": "./books/contemplationOfTheMindTheThirdFoundationExpanded.ts",
+  "content-inc-how-entrepreneurs-use-content-to-build-massive-a": "./books/contentIncHowEntrepreneursUseContentToBuildMassiveAExpanded.ts",
   "continuous-mindfulness-in-dynamic-living": "./books/continuousMindfulnessInDynamicLivingExpanded.ts",
   "conversational-intelligence-how-great-leaders-build-trust-an": "./books/conversationalIntelligenceHowGreatLeadersBuildTrustAnExpanded.ts",
   "cracking-the-walnut-secret-teachings-on-awakening": "./books/crackingTheWalnutSecretTeachingsOnAwakeningExpanded.ts",
@@ -173,6 +176,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "don-t-look-at-the-mind-with-contempt": "./books/donTLookAtTheMindWithContemptExpanded.ts",
   "don-t-take-your-life-personally": "./books/donTTakeYourLifePersonallyExpanded.ts",
   "dopamine-nation-finding-balance-in-the-age-of-indulgence": "./books/dopamineNationFindingBalanceInTheAgeOfIndulgenceExpanded.ts",
+  "dorie-clark-stand-out-how-to-find-your-breakthrough-idea-and": "./books/dorieClarkStandOutHowToFindYourBreakthroughIdeaAndExpanded.ts",
   "dzogchen-heart-essence-of-the-great-perfection": "./books/dzogchenHeartEssenceOfTheGreatPerfectionExpanded.ts",
   "early-buddhist-meditation-studies": "./books/earlyBuddhistMeditationStudiesExpanded.ts",
   "early-buddhist-metaphysics": "./books/earlyBuddhistMetaphysicsExpanded.ts",
@@ -376,6 +380,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "mini-habits": "./books/miniHabitsExpanded.ts",
   "misbehaving-the-making-of-behavioral-economics": "./books/misbehavingTheMakingOfBehavioralEconomicsExpanded.ts",
   "mistakes-were-made-but-not-by-me": "./books/mistakesWereMadeButNotByMeExpanded.ts",
+  "monetizing-innovation": "./books/monetizingInnovationExpanded.ts",
   "moonwalking-with-einstein": "./books/moonwalkingWithEinsteinExpanded.ts",
   "my-land-and-my-people-the-original-autobiography": "./books/myLandAndMyPeopleTheOriginalAutobiographyExpanded.ts",
   "negotiating-the-nonnegotiable-how-to-resolve-your-most-emoti": "./books/negotiatingTheNonnegotiableHowToResolveYourMostEmotiExpanded.ts",
@@ -414,6 +419,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "peace-is-a-dynamic-process": "./books/peaceIsADynamicProcessExpanded.ts",
   "peace-is-every-step-the-path-of-mindfulness-in-everyday-life": "./books/peaceIsEveryStepThePathOfMindfulnessInEverydayLifeExpanded.ts",
   "peak-performance": "./books/peakPerformanceExpanded.ts",
+  "perennial-seller-the-art-of-making-and-marketing-work-that-l": "./books/perennialSellerTheArtOfMakingAndMarketingWorkThatLExpanded.ts",
   "permission-to-feel": "./books/permissionToFeelExpanded.ts",
   "personal-space": "./books/personalSpaceExpanded.ts",
   "perspectives-on-satipatthana": "./books/perspectivesOnSatipatthanaExpanded.ts",
@@ -482,6 +488,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "setting-in-motion-the-wheel-of-truth": "./books/settingInMotionTheWheelOfTruthExpanded.ts",
   "7-powers-the-foundations-of-business-strategy": "./books/sevenPowersExpanded.ts",
   "she-understanding-feminine-psychology": "./books/sheUnderstandingFemininePsychologyExpanded.ts",
+  "show-your-work-10-ways-to-share-your-creativity-and-get-disc": "./books/showYourWork10WaysToShareYourCreativityAndGetDiscExpanded.ts",
   "show-your-work": "./books/showYourWorkExpanded.ts",
   "signals-how-everyday-signs-reveal-your-unspoken-thoughts": "./books/signalsHowEverydaySignsRevealYourUnspokenThoughtsExpanded.ts",
   "silence-the-power-of-quiet-in-a-world-full-of-noise": "./books/silenceThePowerOfQuietInAWorldFullOfNoiseExpanded.ts",
@@ -544,6 +551,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "thank-you-for-arguing-what-aristotle-lincoln-and-homer-simps": "./books/thankYouForArguingWhatAristotleLincolnAndHomerSimpsExpanded.ts",
   "thanks-for-the-feedback-the-science-and-art-of-receiving-fee": "./books/thanksForTheFeedbackTheScienceAndArtOfReceivingFeeExpanded.ts",
   "the-1-rule": "./books/the1RuleExpanded.ts",
+  "the-22-immutable-laws-of-marketing": "./books/the22ImmutableLawsOfMarketingExpanded.ts",
   "the-48-laws-of-power": "./books/the48LawsOfPowerExpanded.ts",
   "the-5-second-rule": "./books/the5SecondRuleExpanded.ts",
   "the-80-20-principle": "./books/the8020PrincipleExpanded.ts",
@@ -580,6 +588,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-book-of-joy-lasting-happiness-in-a-changing-world": "./books/theBookOfJoyLastingHappinessInAChangingWorldExpanded.ts",
   "the-book-of-the-discipline-vinaya-pitaka": "./books/theBookOfTheDisciplineVinayaPitakaExpanded.ts",
   "the-brain-that-changes-itself": "./books/theBrainThatChangesItselfExpanded.ts",
+  "the-brand-called-you": "./books/theBrandCalledYouExpanded.ts",
   "the-buddha-and-his-teachings": "./books/theBuddhaAndHisTeachingsExpanded.ts",
   "the-buddha-s-ancient-path": "./books/theBuddhaSAncientPathExpanded.ts",
   "the-buddha-s-path-of-virtue": "./books/theBuddhaSPathOfVirtueExpanded.ts",
@@ -804,6 +813,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-worry-trick": "./books/theWorryTrickExpanded.ts",
   "theragatha-verses-of-the-senior-monks": "./books/theragathaVersesOfTheSeniorMonksExpanded.ts",
   "therigatha-poems-of-early-buddhist-nuns": "./books/therigathaPoemsOfEarlyBuddhistNunsExpanded.ts",
+  "they-ask-you-answer": "./books/theyAskYouAnswerExpanded.ts",
   "think-again-the-power-of-knowing-what-you-don-t-know": "./books/thinkAgainThePowerOfKnowingWhatYouDonTKnowExpanded.ts",
   "think-faster-talk-smarter-how-to-speak-successfully-on-the-s": "./books/thinkFasterTalkSmarterHowToSpeakSuccessfullyOnTheSExpanded.ts",
   "thinking-fast-and-slow": "./books/thinkingFastAndSlowExpanded.ts",
@@ -2950,6 +2960,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "be-the-go-to-how-to-own-your-competitive-market",
+    "title": "Be the Go-To: How to Own Your Competitive Market",
+    "author": "Theresa M. Lina",
+    "category": "Leadership & Career",
+    "subcategory": "Executive Presence",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "If your customers treat you like an interchangeable commodity, you are forced to slash prices until your business starves. Theresa Lina delivers a battle-tested blueprint to claim category ownership, dictate premium pricing, and turn your brand into the default market choice.",
+      "coreThesis": "Category dominance belongs to those who solve a specific, high-stakes problem so decisively that alternatives look like reckless compromises.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Be the Go-To: How to Own Your Competitive Market"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "becoming-a-supple-leopard",
     "title": "Becoming a Supple Leopard",
     "author": "Kelly Starrett & Glen Cordoza",
@@ -3436,6 +3481,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "blue-ocean-strategy",
+    "title": "Blue Ocean Strategy",
+    "author": "W. Chan Kim & Ren\\u00e9e Mauborgne",
+    "category": "Leadership & Career",
+    "subcategory": "Executive Presence",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2005,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop fighting over table scraps in shark-infested waters where everyone looks, talks, and charges the exact same. Break the status quo by engineering a distinct space where competition becomes irrelevant.",
+      "coreThesis": "Sustainable dominance comes from making competition irrelevant, breaking the trade-off between differentiation and low cost by opening entirely new, uncontested space.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Blue Ocean Strategy"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -5077,6 +5157,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "content-inc-how-entrepreneurs-use-content-to-build-massive-a",
+    "title": "Content Inc.: How Entrepreneurs Use Content to Build Massive Audiences",
+    "author": "Joe Pulizzi",
+    "category": "Leadership & Career",
+    "subcategory": "Personal Brand & Reputation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 120,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop manufacturing products in a vacuum and praying for buyers. Build an obsessed, owned audience first through focused intellectual authority, then monetize by selling them exactly what they already demand.",
+      "coreThesis": "The lowest-risk way to launch a business is to build a loyal, owned audience first and engineer the product second.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Content Inc.: How Entrepreneurs Use Content to Build Massive Audiences"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
@@ -6930,6 +7045,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "dorie-clark-stand-out-how-to-find-your-breakthrough-idea-and",
+    "title": "Dorie Clark: Stand Out: How to Find Your Breakthrough Idea and Build a Following Around It",
+    "author": "Dorie Clark",
+    "category": "Leadership & Career",
+    "subcategory": "Executive Presence",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Raw competence is a commodity in an oversaturated market; lasting executive authority belongs to those who package proprietary insight into scalable, defensible intellectual capital. Stand Out delivers the exact playbook for engineering a breakthrough perspective and systematically converting it into institutional gravity and widespread market influence.",
+      "coreThesis": "Professional excellence without distinct positioning is a losing hand; durable authority requires identifying a proprietary niche, codifying it into an operational framework, and assembling an active community around it.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Dorie Clark: Stand Out: How to Find Your Breakthrough Idea and Build a Following Around It"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
@@ -14032,6 +14182,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "monetizing-innovation",
+    "title": "Monetizing Innovation",
+    "author": "Madhavan Ramanujam & Georg Tacke",
+    "category": "Leadership & Career",
+    "subcategory": "Executive Presence",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most innovations fail not because the engineering is bad, but because companies build products first and guess the price at the finish line. Designing around price turns innovation from an expensive gamble into predictable profit.",
+      "coreThesis": "Never build a product and then wonder what to charge; determine what customers will pay first, and design the product to match that price.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Monetizing Innovation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "moonwalking-with-einstein",
     "title": "Moonwalking with Einstein",
     "author": "Joshua Foer",
@@ -15355,6 +15540,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "perennial-seller-the-art-of-making-and-marketing-work-that-l",
+    "title": "Perennial Seller: The Art of Making and Marketing Work That Lasts",
+    "author": "Ryan Holiday",
+    "category": "Leadership & Career",
+    "subcategory": "Personal Brand & Reputation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most products flare up and vanish overnight like dry brush, while true classics endure like ancient redwood trees. Ryan Holiday reveals the ruthless blueprint for crafting, positioning, and marketing work designed to sell steadily for decades.",
+      "coreThesis": "Enduring commercial success is an architectural decision, not a lottery ticket: lasting work requires an inherently great product, ruthless positioning for a specific tribe, and an owned distribution engine.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Perennial Seller: The Art of Making and Marketing Work That Lasts"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
@@ -17734,6 +17954,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "show-your-work-10-ways-to-share-your-creativity-and-get-disc",
+    "title": "Show Your Work! 10 Ways to Share Your Creativity and Get Discovered",
+    "author": "Austin Kleon",
+    "category": "Leadership & Career",
+    "subcategory": "Personal Brand & Reputation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop hiding in the shed polishing a masterpiece nobody knows exists. By documenting your daily work in public, you build an asymmetrical discovery engine that turns your everyday craft into a magnetic professional moat.",
+      "coreThesis": "Discovery is an active byproduct of daily visibility: sharing your learning exhaust in public builds a durable, compound reputation far faster than hoarding a finished product.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Show Your Work! 10 Ways to Share Your Creativity and Get Discovered"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "show-your-work",
     "title": "Show Your Work!",
     "author": "Austin Kleon",
@@ -19899,6 +20154,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-22-immutable-laws-of-marketing",
+    "title": "The 22 Immutable Laws of Marketing",
+    "author": "Al Ries & Jack Trout",
+    "category": "Leadership & Career",
+    "subcategory": "Executive Presence",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 110,
+    "publishedYear": 1993,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Marketing is not an engineering contest over who builds a better mousetrap; it is a cutthroat psychological battle to stake out uncontested real estate in the prospect's mind. Master these twenty-two unsentimental rules of positioning, or watch your superior product get ground to dust by a competitor who seized the mental high ground first.",
+      "coreThesis": "Markets are not won in factories or spreadsheets, but inside the narrow, stubborn corridors of human perception. To win, you must either be first into the prospect's mind or deliberately sacrifice breadth to own a sharp, uncontested mental category.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The 22 Immutable Laws of Marketing"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-48-laws-of-power",
     "title": "The 48 Laws of Power",
     "author": "Robert Greene",
@@ -21154,6 +21444,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "the-brand-called-you",
+    "title": "The Brand Called You",
+    "author": "Tom Peters",
+    "category": "Leadership & Career",
+    "subcategory": "Executive Presence",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 250,
+    "publishedYear": 1999,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Corporate tenure is dead, and flying under the radar is professional suicide: in an era of relentless automation and outsourcing, you are the chief executive, head marketer, and lead strategist of Me Inc. Peters provides a tactical blueprint to strip away corporate anonymity and engineer an unmistakable, defensible personal brand anchored in high-impact execution.",
+      "coreThesis": "You are not an employee of a corporation; you are an independent enterprise whose market value depends on building rare capabilities, treating assignments as signature projects, and asserting unmistakable distinction.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Brand Called You"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -28982,6 +29307,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "they-ask-you-answer",
+    "title": "They Ask, You Answer",
+    "author": "Marcus Sheridan",
+    "category": "Leadership & Career",
+    "subcategory": "Personal Brand & Reputation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 335,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop hiding your prices and dodging tough questions; whoever answers the customer's deepest doubts with total, unvarnished clarity wins the entire market.",
+      "coreThesis": "Trust is built when a company willingly answers every uncomfortable question its buyers have; whoever tells the absolute truth first and clearest owns the market.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "They Ask, You Answer"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
