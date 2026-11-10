@@ -161,7 +161,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
       <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4">
         
         {/* Category Pills */}
-        <div className="flex items-center space-x-2 overflow-x-auto pt-1 pb-3">
+        <div className="flex items-center space-x-2 overflow-x-auto pt-2 pb-4">
           {categories.map((cat) => (
             <button
               key={cat}
@@ -211,7 +211,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
 
       {/* Subcategory Pills (automatically displayed when category has > 5 books) */}
       {subcategories.length > 0 && (
-        <div className="flex items-center space-x-2 overflow-x-auto pt-1 pb-3 -mt-2">
+        <div className="flex items-center space-x-2 overflow-x-auto pt-2 pb-4 -mt-1">
           <span className="text-[11px] font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-wider shrink-0 mr-1">
             Subcategories ({booksInSelectedCategory.length}):
           </span>

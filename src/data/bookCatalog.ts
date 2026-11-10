@@ -56,6 +56,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "attention-span": "./books/attentionSpanExpanded.ts",
   "awakening-the-mind-lightening-the-heart": "./books/awakeningTheMindLighteningTheHeartExpanded.ts",
   "awareness-alone-is-not-enough": "./books/awarenessAloneIsNotEnoughExpanded.ts",
+  "banter-master-small-talk-sexy-banter-and-flirting": "./books/banterMasterSmallTalkSexyBanterAndFlirtingExpanded.ts",
   "bargaining-for-advantage-negotiation-strategies-for-reasonab": "./books/bargainingForAdvantageNegotiationStrategiesForReasonabExpanded.ts",
   "be-prepared-how-to-think-on-your-feet-and-stand-up-to-bullie": "./books/bePreparedHowToThinkOnYourFeetAndStandUpToBullieExpanded.ts",
   "becoming-a-supple-leopard": "./books/becomingASuppleLeopardExpanded.ts",
@@ -256,10 +257,12 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "how-to-take-smart-notes": "./books/howToTakeSmartNotesExpanded.ts",
   "how-to-win-any-argument": "./books/howToWinAnyArgumentExpanded.ts",
   "humble-inquiry-the-gentle-art-of-asking-instead-of-telling": "./books/humbleInquiryTheGentleArtOfAskingInsteadOfTellingExpanded.ts",
+  "humor-seriously-why-humor-is-a-secret-weapon-in-business-and": "./books/humorSeriouslyWhyHumorIsASecretWeaponInBusinessAndExpanded.ts",
   "i-give-you-my-life-the-autobiography-of-ayya-khema": "./books/iGiveYouMyLifeTheAutobiographyOfAyyaKhemaExpanded.ts",
   "i-hear-you-the-surprisingly-simple-skill-behind-extraordinar": "./books/iHearYouTheSurprisinglySimpleSkillBehindExtraordinarExpanded.ts",
   "i-thought-it-was-just-me-but-it-isn-t": "./books/iThoughtItWasJustMeButItIsnTExpanded.ts",
   "ikigai-the-japanese-secret-to-a-long-and-happy-life": "./books/ikigaiTheJapaneseSecretToALongAndHappyLifeExpanded.ts",
+  "improv-wisdom-don-t-prepare-just-show-up": "./books/improvWisdomDonTPrepareJustShowUpExpanded.ts",
   "in-defense-of-food": "./books/inDefenseOfFoodExpanded.ts",
   "in-praise-of-great-compassion": "./books/inPraiseOfGreatCompassionExpanded.ts",
   "in-sheep-s-clothing-understanding-and-dealing-with-manipulat": "./books/inSheepSClothingUnderstandingAndDealingWithManipulatExpanded.ts",
@@ -293,6 +296,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "king-warrior-magician-lover": "./books/kingWarriorMagicianLoverExpanded.ts",
   "know-your-mind-the-four-foundations-of-mindfulness": "./books/knowYourMindTheFourFoundationsOfMindfulnessExpanded.ts",
   "knowing-and-seeing-teachings-of-pa-auk-monastery": "./books/knowingAndSeeingTeachingsOfPaAukMonasteryExpanded.ts",
+  "known-the-handbook-for-building-and-unleashing-your-personal": "./books/knownTheHandbookForBuildingAndUnleashingYourPersonalExpanded.ts",
   "lead-with-a-story": "./books/leadWithAStoryExpanded.ts",
   "learn-like-a-pro": "./books/learnLikeAProExpanded.ts",
   "learned-optimism": "./books/learnedOptimismExpanded.ts",
@@ -415,7 +419,9 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "perspectives-on-satipatthana": "./books/perspectivesOnSatipatthanaExpanded.ts",
   "pivot-the-only-move-that-matters-is-your-next-one": "./books/pivotTheOnlyMoveThatMattersIsYourNextOneExpanded.ts",
   "plato-s-republic-selected-dialogues": "./books/platoSRepublicSelectedDialoguesExpanded.ts",
+  "play-bigger-how-pirates-dreamers-and-innovators-create-and-d": "./books/playBiggerHowPiratesDreamersAndInnovatorsCreateAndDExpanded.ts",
   "poor-charlie-s-almanack": "./books/poorCharlieSAlmanackExpanded.ts",
+  "positioning-the-battle-for-your-mind": "./books/positioningTheBattleForYourMindExpanded.ts",
   "power-questions-build-relationships-win-new-business-and-inf": "./books/powerQuestionsBuildRelationshipsWinNewBusinessAndInfExpanded.ts",
   "practical-vipassana-meditative-exercises": "./books/practicalVipassanaMeditativeExercisesExpanded.ts",
   "pre-suasion-a-revolutionary-way-to-influence-and-persuade": "./books/preSuasionARevolutionaryWayToInfluenceAndPersuadeExpanded.ts",
@@ -503,6 +509,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "split-second-persuasion": "./books/splitSecondPersuasionExpanded.ts",
   "spy-the-lie-former-cia-officers-teach-you-how-to-detect-dece": "./books/spyTheLieFormerCiaOfficersTeachYouHowToDetectDeceExpanded.ts",
   "stages-of-meditation-commentary-on-the-bhavanakrama": "./books/stagesOfMeditationCommentaryOnTheBhavanakramaExpanded.ts",
+  "stand-up-comedy-the-book": "./books/standUpComedyTheBookExpanded.ts",
   "start-here-start-now-a-guide-to-compassionate-living": "./books/startHereStartNowAGuideToCompassionateLivingExpanded.ts",
   "start-with-no-the-negotiating-tools-that-the-pros-don-t-want": "./books/startWithNoTheNegotiatingToolsThatTheProsDonTWantExpanded.ts",
   "start-with-why-how-great-leaders-inspire-everyone-to-take-ac": "./books/startWithWhyHowGreatLeadersInspireEveryoneToTakeAcExpanded.ts",
@@ -583,6 +590,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-buddhist-monastic-code-volume-i": "./books/theBuddhistMonasticCodeVolumeIExpanded.ts",
   "the-buddhist-monastic-code-volume-ii": "./books/theBuddhistMonasticCodeVolumeIiExpanded.ts",
   "the-buddhist-way-of-loving-kindness-metta-bhavana": "./books/theBuddhistWayOfLovingKindnessMettaBhavanaExpanded.ts",
+  "the-business-of-expertise-how-entrepreneurial-advisors-maste": "./books/theBusinessOfExpertiseHowEntrepreneurialAdvisorsMasteExpanded.ts",
   "the-case-for-rebirth": "./books/theCaseForRebirthExpanded.ts",
   "the-catalyst-how-to-change-anyone-s-mind": "./books/theCatalystHowToChangeAnyoneSMindExpanded.ts",
   "the-checklist-manifesto": "./books/theChecklistManifestoExpanded.ts",
@@ -590,6 +598,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-circadian-code": "./books/theCircadianCodeExpanded.ts",
   "the-clock-of-vipassana-has-struck": "./books/theClockOfVipassanaHasStruckExpanded.ts",
   "the-coaching-habit-say-less-ask-more-change-the-way-you-lead": "./books/theCoachingHabitSayLessAskMoreChangeTheWayYouLeadExpanded.ts",
+  "the-comic-toolbox-how-to-be-funny-even-if-you-re-not": "./books/theComicToolboxHowToBeFunnyEvenIfYouReNotExpanded.ts",
   "the-compassionate-life": "./books/theCompassionateLifeExpanded.ts",
   "the-compassionate-mind": "./books/theCompassionateMindExpanded.ts",
   "the-complete-guide-to-fasting": "./books/theCompleteGuideToFastingExpanded.ts",
@@ -863,6 +872,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "wired-for-story-the-writer-s-guide-to-using-brain-science-to": "./books/wiredForStoryTheWriterSGuideToUsingBrainScienceToExpanded.ts",
   "wisdom-develops-samadhi": "./books/wisdomDevelopsSamadhiExpanded.ts",
   "wisdom-wide-and-deep-mastering-jhana-and-vipassana": "./books/wisdomWideAndDeepMasteringJhanaAndVipassanaExpanded.ts",
+  "wit-the-power-of-verbal-play": "./books/witThePowerOfVerbalPlayExpanded.ts",
   "with-each-and-every-breath-a-guide-to-meditation": "./books/withEachAndEveryBreathAGuideToMeditationExpanded.ts",
   "with-good-reason-an-introduction-to-informal-fallacies": "./books/withGoodReasonAnIntroductionToInformalFallaciesExpanded.ts",
   "without-and-within-questions-and-answers-on-theravada-buddhism": "./books/withoutAndWithinQuestionsAndAnswersOnTheravadaBuddhismExpanded.ts",
@@ -2830,6 +2840,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "banter-master-small-talk-sexy-banter-and-flirting",
+    "title": "Banter: Master Small Talk, Sexy Banter, and Flirting",
+    "author": "Patrick King",
+    "category": "Creativity & Expression",
+    "subcategory": "Humor & Wit in Speaking",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Transform everyday conversational small talk into an exhilarating game of low-stakes psychological tennis. Discover how wit, tension, and playful misdirection turn mundane exchanges into electric human connection.",
+      "coreThesis": "Banter is an agile, low-stakes game of mutual verbal play that replaces factual interrogation with emotional resonance and spontaneous wit.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Banter: Master Small Talk, Sexy Banter, and Flirting"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -9825,6 +9870,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "humor-seriously-why-humor-is-a-secret-weapon-in-business-and",
+    "title": "Humor, Seriously: Why Humor Is a Secret Weapon in Business and Life",
+    "author": "Jennifer Aaker & Naomi Bagdonas",
+    "category": "Creativity & Expression",
+    "subcategory": "Humor & Wit in Speaking",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Humor is not an innate talent reserved for stand-up comedians; it is an underutilized psychological catalyst that builds trust, diffuses friction, and sharpens creative problem-solving. By learning the mechanics of levity, anyone can transform ordinary workplace interactions into memorable, high-trust collaborations.",
+      "coreThesis": "Humor is a learnable behavioral skill and high-leverage cognitive tool that signals confidence, builds instant rapport, and drives creative performance in high-stakes environments.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Humor, Seriously: Why Humor Is a Secret Weapon in Business and Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "i-give-you-my-life-the-autobiography-of-ayya-khema",
     "title": "I Give You My Life: The Autobiography of Ayya Khema",
     "author": "Ayya Khema",
@@ -9960,6 +10040,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "improv-wisdom-don-t-prepare-just-show-up",
+    "title": "Improv Wisdom: Don't Prepare, Just Show Up",
+    "author": "Patricia Ryan Madson",
+    "category": "Creativity & Expression",
+    "subcategory": "Humor & Wit in Speaking",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2005,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Life does not run on a rehearsed script; it operates like a live, unscripted feedback loop. Stanford pioneer Patricia Ryan Madson shows how thirteen simple improvisational rules rewire our defensive reflexes into effortless wit, presence, and real-time responsiveness.",
+      "coreThesis": "Spontaneous wit and effective presence do not stem from flawless advance preparation, but from trusting the live environment and treating every interaction as an offer to be accepted and built upon.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Improv Wisdom: Don't Prepare, Just Show Up"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -11115,6 +11230,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "known-the-handbook-for-building-and-unleashing-your-personal",
+    "title": "Known: The Handbook for Building and Unleashing Your Personal Brand in the Digital Age",
+    "author": "Mark Schaefer",
+    "category": "Leadership & Career",
+    "subcategory": "Executive Presence",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Being exceptional at your craft is useless if the market cannot find you. This playbook reveals the repeatable four-step blueprint to engineer legitimate authority, command market pricing, and build an unassailable career moat.",
+      "coreThesis": "Reputation is not an accident of charisma; it is a systematically engineered asset built by marrying a sustainable interest with uncontested market space, consistent content production, and an actionable audience.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Known: The Handbook for Building and Unleashing Your Personal Brand in the Digital Age"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
@@ -15385,6 +15535,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "play-bigger-how-pirates-dreamers-and-innovators-create-and-d",
+    "title": "Play Bigger: How Pirates, Dreamers, and Innovators Create and Dominate Markets",
+    "author": "Al Ramadan, Dave Peterson, Christopher Lochhead, Kevin Maney",
+    "category": "Leadership & Career",
+    "subcategory": "Executive Presence",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop fighting over crumbs in someone else's market. The most dominant players in history don't beat the competition\\u2014they make the competition irrelevant by inventing the problem only they can solve.",
+      "coreThesis": "The best company doesn't win; the company that defines the problem and creates the category wins and captures 76% of the value.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Play Bigger: How Pirates, Dreamers, and Innovators Create and Dominate Markets"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "poor-charlie-s-almanack",
     "title": "Poor Charlie\\u2019s Almanack",
     "author": "Charles T. Munger",
@@ -15416,6 +15601,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "positioning-the-battle-for-your-mind",
+    "title": "Positioning: The Battle for Your Mind",
+    "author": "Al Ries & Jack Trout",
+    "category": "Leadership & Career",
+    "subcategory": "Executive Presence",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 120,
+    "publishedYear": 1981,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Positioning is not about altering what you build; it is about anchoring a single, uncontested idea inside the customer's mind. In an overcrowded world, the winner is not the superior product, but the player who stakes out the sharpest, earliest mental real estate.",
+      "coreThesis": "Victory in business and executive reputation is decided in the prospect's mind, where owning one simple, distinctive word beats product superiority every time.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Positioning: The Battle for Your Mind"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -18456,6 +18676,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "stand-up-comedy-the-book",
+    "title": "Stand-Up Comedy: The Book",
+    "author": "Judy Carter",
+    "category": "Creativity & Expression",
+    "subcategory": "Humor & Wit in Speaking",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1989,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Comedy is not mystical lightning or an innate genetic trait; it is an engineered pressure-relief valve built on authentic observation and cognitive surprise. Judy Carter deconstructs the stage craft into a repeatable, modular laboratory process that transforms daily friction and vulnerability into magnetic public influence.",
+      "coreThesis": "Laughter is a physiological reaction to the sudden release of cognitive tension, created when authentic human vulnerability and everyday friction are channeled through disciplined structural pivots.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Stand-Up Comedy: The Book"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "start-here-start-now-a-guide-to-compassionate-living",
     "title": "Start Here, Start Now: A Guide to Compassionate Living",
     "author": "Bhante Henepola Gunaratana",
@@ -21252,6 +21507,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-business-of-expertise-how-entrepreneurial-advisors-maste",
+    "title": "The Business of Expertise: How Entrepreneurial Advisors Master the Most Difficult Business Problem",
+    "author": "David C. Baker",
+    "category": "Leadership & Career",
+    "subcategory": "Executive Presence",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 85,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most advisory firms operate as submissive, commoditized vendors begging for scraps because they refuse to make hard strategic trade-offs. David C. Baker provides the ruthless blueprint for building drop-dead positioning, clinical detachment, and immense pricing power as an indispensable expert.",
+      "coreThesis": "Scarcity is the sole source of leverage: true expertise requires radical positioning that deliberately turns away most business to command monopolistic pricing power on the remaining slice.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Business of Expertise: How Entrepreneurial Advisors Master the Most Difficult Business Problem"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-case-for-rebirth",
     "title": "The Case for Rebirth",
     "author": "Francis Story",
@@ -21491,6 +21781,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-comic-toolbox-how-to-be-funny-even-if-you-re-not",
+    "title": "The Comic Toolbox: How to Be Funny Even If You're Not",
+    "author": "John Vorhaus",
+    "category": "Creativity & Expression",
+    "subcategory": "Humor & Wit in Speaking",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 1994,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Humor is not an innate mystical gift\\u2014it is an observable engineering system powered by two interacting forces: truth and pain. By mastering a toolkit of deliberate mechanical levers, anyone can diagnose, construct, and deliver compelling comedic moments on demand.",
+      "coreThesis": "Comedy is the systemic collision of truth and pain, engineered by taking an authentic human flaw or vulnerability and heightening it through a disciplined sequence of contrast, escalation, and surprise.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Comic Toolbox: How to Be Funny Even If You're Not"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -31033,6 +31358,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "wit-the-power-of-verbal-play",
+    "title": "Wit: The Power of Verbal Play",
+    "author": "James Geary",
+    "category": "Creativity & Expression",
+    "subcategory": "Humor & Wit in Speaking",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Wit is not decorative humor or lightweight entertainment; it is an asymmetric cognitive weapon designed to destabilize dogmatic assumptions and cut through ambiguity in high-stakes environments. James Geary deconstructs how linguistic agility, pattern recognition, and rapid lateral pivots generate decisive intellectual leverage when conventional thinking hits a wall.",
+      "coreThesis": "Wit is rapid-fire pattern recognition compressed into verbal economy, functioning as a high-leverage cognitive strategy to outmaneuver rigid convention and reveal hidden truth.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Wit: The Power of Verbal Play"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]

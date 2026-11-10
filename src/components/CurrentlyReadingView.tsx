@@ -180,7 +180,7 @@ export const CurrentlyReadingView: React.FC<CurrentlyReadingViewProps> = ({
 
       {/* Category Filter Pills (if multiple categories) */}
       {readingBooks.length > 0 && categories.length > 2 && (
-        <div className="flex items-center space-x-2 overflow-x-auto pt-1 pb-3">
+        <div className="flex items-center space-x-2 overflow-x-auto pt-2 pb-4">
           {categories.map((cat) => (
             <button
               key={cat}
