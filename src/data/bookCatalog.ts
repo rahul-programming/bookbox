@@ -111,6 +111,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "complexity-a-guided-tour": "./books/complexityAGuidedTourExpanded.ts",
   "comprehensive-commentary-on-the-abhidhammattha-sangaha": "./books/comprehensiveCommentaryOnTheAbhidhammatthaSangahaExpanded.ts",
   "confession-of-a-buddhist-atheist": "./books/confessionOfABuddhistAtheistExpanded.ts",
+  "confessions-of-a-public-speaker": "./books/confessionsOfAPublicSpeakerExpanded.ts",
   "connecting-across-differences": "./books/connectingAcrossDifferencesExpanded.ts",
   "contagious-why-things-catch-on": "./books/contagiousWhyThingsCatchOnExpanded.ts",
   "contemplation-of-dhamma-the-fourth-foundation": "./books/contemplationOfDhammaTheFourthFoundationExpanded.ts",
@@ -199,6 +200,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "fierce-conversations-achieving-success-at-work-and-in-life-o": "./books/fierceConversationsAchievingSuccessAtWorkAndInLifeOExpanded.ts",
   "find-your-why": "./books/findYourWhyExpanded.ts",
   "finding-the-missing-peace-a-primer-of-meditation": "./books/findingTheMissingPeaceAPrimerOfMeditationExpanded.ts",
+  "finding-your-voice": "./books/findingYourVoiceExpanded.ts",
   "flash-of-lightning-in-the-dark-of-night": "./books/flashOfLightningInTheDarkOfNightExpanded.ts",
   "flow-the-psychology-of-optimal-experience": "./books/flowThePsychologyOfOptimalExperienceExpanded.ts",
   "focused-and-fearless-meditator-s-guide-to-deep-joy-and-calm": "./books/focusedAndFearlessMeditatorSGuideToDeepJoyAndCalmExpanded.ts",
@@ -416,6 +418,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "practical-vipassana-meditative-exercises": "./books/practicalVipassanaMeditativeExercisesExpanded.ts",
   "pre-suasion-a-revolutionary-way-to-influence-and-persuade": "./books/preSuasionARevolutionaryWayToInfluenceAndPersuadeExpanded.ts",
   "predictably-irrational-the-hidden-forces-that-shape-our-deci": "./books/predictablyIrrationalTheHiddenForcesThatShapeOurDeciExpanded.ts",
+  "presentation-zen-simple-ideas-on-presentation-design-and-del": "./books/presentationZenSimpleIdeasOnPresentationDesignAndDelExpanded.ts",
   "primal-leadership": "./books/primalLeadershipExpanded.ts",
   "process-of-consciousness-according-to-abhidhamma": "./books/processOfConsciousnessAccordingToAbhidhammaExpanded.ts",
   "protection-through-satipatthana": "./books/protectionThroughSatipatthanaExpanded.ts",
@@ -475,10 +478,12 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "silence-the-power-of-quiet-in-a-world-full-of-noise": "./books/silenceThePowerOfQuietInAWorldFullOfNoiseExpanded.ts",
   "silent-rain-collected-dhamma-talks": "./books/silentRainCollectedDhammaTalksExpanded.ts",
   "simple-teachings-on-higher-truths": "./books/simpleTeachingsOnHigherTruthsExpanded.ts",
+  "sing-your-story": "./books/singYourStoryExpanded.ts",
   "skill-in-questions-how-the-buddha-taught": "./books/skillInQuestionsHowTheBuddhaTaughtExpanded.ts",
   "skin-in-the-game": "./books/skinInTheGameExpanded.ts",
   "sleep-smarter": "./books/sleepSmarterExpanded.ts",
   "sleeping-dreaming-and-dying-exploration-of-consciousness": "./books/sleepingDreamingAndDyingExplorationOfConsciousnessExpanded.ts",
+  "slide-ology-the-art-and-science-of-creating-great-presentati": "./books/slideOlogyTheArtAndScienceOfCreatingGreatPresentatiExpanded.ts",
   "slight-edge": "./books/slightEdgeExpanded.ts",
   "small-boat-great-mountain-reflections-on-dzogchen-and-theravada": "./books/smallBoatGreatMountainReflectionsOnDzogchenAndTheravadaExpanded.ts",
   "smart-brevity-the-power-of-saying-more-with-less": "./books/smartBrevityThePowerOfSayingMoreWithLessExpanded.ts",
@@ -521,6 +526,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "teaching-and-training-at-pa-auk-monastery": "./books/teachingAndTrainingAtPaAukMonasteryExpanded.ts",
   "teachings-of-a-buddhist-monk": "./books/teachingsOfABuddhistMonkExpanded.ts",
   "teachings-on-love": "./books/teachingsOnLoveExpanded.ts",
+  "ted-talks-the-official-ted-guide-to-public-speaking": "./books/tedTalksTheOfficialTedGuideToPublicSpeakingExpanded.ts",
   "telling-lies-clues-to-deceit-in-the-marketplace-politics-and": "./books/tellingLiesCluesToDeceitInTheMarketplacePoliticsAndExpanded.ts",
   "thank-you-for-arguing": "./books/thankYouForArguingExpanded.ts",
   "thank-you-for-arguing-what-aristotle-lincoln-and-homer-simps": "./books/thankYouForArguingWhatAristotleLincolnAndHomerSimpsExpanded.ts",
@@ -549,6 +555,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-art-of-persuasion": "./books/theArtOfPersuasionExpanded.ts",
   "the-art-of-rhetoric": "./books/theArtOfRhetoricExpanded.ts",
   "the-art-of-seduction": "./books/theArtOfSeductionExpanded.ts",
+  "the-art-of-speaking": "./books/theArtOfSpeakingExpanded.ts",
   "the-art-of-work": "./books/theArtOfWorkExpanded.ts",
   "the-assertiveness-workbook": "./books/theAssertivenessWorkbookExpanded.ts",
   "the-asynchronous-mindset": "./books/theAsynchronousMindsetExpanded.ts",
@@ -783,6 +790,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "thinking-fast-and-slow": "./books/thinkingFastAndSlowExpanded.ts",
   "thinking-in-bets": "./books/thinkingInBetsExpanded.ts",
   "thinking-in-systems-a-primer": "./books/thinkingInSystemsAPrimerExpanded.ts",
+  "this-is-the-voice": "./books/thisIsTheVoiceExpanded.ts",
   "this-naked-mind": "./books/thisNakedMindExpanded.ts",
   "time-smart-how-to-reclaim-your-time-and-live-a-happier-life": "./books/timeSmartHowToReclaimYourTimeAndLiveAHappierLifeExpanded.ts",
   "timeless-wisdom-in-depth-dhamma-talks": "./books/timelessWisdomInDepthDhammaTalksExpanded.ts",
@@ -818,6 +826,8 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "vipassana-meditation-lectures-on-insight": "./books/vipassanaMeditationLecturesOnInsightExpanded.ts",
   "vipassana-talks-from-mahasi-sasana-yeiktha": "./books/vipassanaTalksFromMahasiSasanaYeikthaExpanded.ts",
   "visible-here-and-now-the-buddha-s-teachings": "./books/visibleHereAndNowTheBuddhaSTeachingsExpanded.ts",
+  "vocal-power": "./books/vocalPowerExpanded.ts",
+  "voice-and-the-actor": "./books/voiceAndTheActorExpanded.ts",
   "volition-the-real-mastermind-behind-kamma": "./books/volitionTheRealMastermindBehindKammaExpanded.ts",
   "was-the-buddha-a-pessimist": "./books/wasTheBuddhaAPessimistExpanded.ts",
   "we-need-to-talk-how-to-have-conversations-that-matter": "./books/weNeedToTalkHowToHaveConversationsThatMatterExpanded.ts",
@@ -4737,6 +4747,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "confessions-of-a-public-speaker",
+    "title": "Confessions of a Public Speaker",
+    "author": "Scott Berkun",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 2009,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Public speaking is not an innate genetic gift\\u2014it is an engineered feedback loop between human attention and physical room dynamics. Scott Berkun pulls back the curtain to reveal the practical mechanics, psychological quirks, and field-tested habits that turn panic into powerful communication.",
+      "coreThesis": "Great speaking is not theatrical charisma; it is the deliberate craft of managing human attention, physical room mechanics, and biological nervous energy to serve the audience.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Confessions of a Public Speaker"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "connecting-across-differences",
     "title": "Connecting Across Differences",
     "author": "Jane Marantz Connor & Dian Killian",
@@ -7808,6 +7853,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "finding-your-voice",
+    "title": "Finding Your Voice",
+    "author": "Barbara Houseman",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2002,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your voice is not a static biological quirk; it is a mechanical acoustic wind instrument powered by physical feedback loops. By unlocking posture, breath support, and resonance chambers, anyone can project effortless power and magnetic clarity.",
+      "coreThesis": "Authentic vocal power does not come from pushing the throat, but from releasing physical tension and letting natural breath resonate freely throughout the body.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Finding Your Voice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -15399,6 +15479,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "presentation-zen-simple-ideas-on-presentation-design-and-del",
+    "title": "Presentation Zen: Simple Ideas on Presentation Design and Delivery",
+    "author": "Garr Reynolds",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most presentations overload human attention by treating visual slides like teleprompters. Presentation Zen decodes the cognitive mechanics of human attention, showing you how to strip away clutter and deliver unforgettable visual stories.",
+      "coreThesis": "A presentation is a human performance amplified by visual imagery, not a document projected on a wall. Maximum influence happens when you strip away digital clutter to let clarity, narrative contrast, and human presence connect directly with listener psychology.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Presentation Zen: Simple Ideas on Presentation Design and Delivery"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "primal-leadership",
     "title": "Primal Leadership",
     "author": "Daniel Goleman, Richard Boyatzis, Annie McKee",
@@ -17459,6 +17574,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "sing-your-story",
+    "title": "Sing Your Story",
+    "author": "Jay Althouse",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2001,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Singing is not mere pitch matching; it is the deliberate calibration of acoustic physics, phonetic timing, and emotional narrative. This guide uncovers the operational mechanics that transform a standard vocal delivery into a compelling, spontaneous story.",
+      "coreThesis": "Authentic vocal storytelling emerges when technical vocal mechanics and harmonic discipline become automated, allowing real-time narrative presence and spontaneous emotional truth to lead.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Sing Your Story"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "skill-in-questions-how-the-buddha-taught",
     "title": "Skill in Questions: How the Buddha Taught",
     "author": "Thanissaro Bhikkhu",
@@ -17593,6 +17743,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "slide-ology-the-art-and-science-of-creating-great-presentati",
+    "title": "Slide:ology: The Art and Science of Creating Great Presentations",
+    "author": "Nancy Duarte",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Slide:ology deconstructs the hidden visual mechanics of communication, showing why dumping raw bullet points onto a screen overwhelms the human brain and how intentional design turns complex ideas into immediate optical clarity.",
+      "coreThesis": "A slide is an optical support system designed to clarify and accelerate human perception, never a spoken teleprompter or a print document disguised on a screen.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Slide:ology: The Art and Science of Creating Great Presentations"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -19064,6 +19249,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "ted-talks-the-official-ted-guide-to-public-speaking",
+    "title": "TED Talks: The Official TED Guide to Public Speaking",
+    "author": "Chris Anderson",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 105,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Public speaking is not an innate theatrical gift; it is the cognitive science of building a living idea inside someone else's mind. By replacing self-focused performance with audience-focused idea replication, anyone can deliver talks that spark curiosity, reshape worldviews, and spread across the globe.",
+      "coreThesis": "A successful presentation is not a theatrical display; it is the deliberate construction of an idea inside the listener's brain using common language, relatable metaphors, and an unbroken throughline.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "TED Talks: The Official TED Guide to Public Speaking"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "telling-lies-clues-to-deceit-in-the-marketplace-politics-and",
     "title": "Telling Lies: Clues to Deceit in the Marketplace, Politics, and Marriage",
     "author": "Paul Ekman",
@@ -20039,6 +20259,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-art-of-speaking",
+    "title": "The Art of Speaking",
+    "author": "Selected treatises on vocal modulation and acoustical dynamics.",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1761,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your voice is not a static identity card; it is a precision acoustic instrument governed by pressure, resonance, and muscle dynamics. Master the physical mechanics of breath, pitch modulation, and spatial projection, and you can command any room with effortless authority.",
+      "coreThesis": "Eloquence is an applied acoustical science: authoritative speaking depends on mastering diaphragmatic breath pressure, vocal tract resonance, and dynamic modulation rather than brute physical force.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Art of Speaking"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -28219,6 +28474,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "this-is-the-voice",
+    "title": "This Is the Voice",
+    "author": "John Colapinto",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2021,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your voice is not just a carrier pipe for words; it is an ancient evolutionary biometric instrument that reveals your health, status, and innermost emotions before your brain even chooses a sentence. Discover the hidden mechanics behind human speech and learn how pitch, resonance, and cadence quietly govern every room you step into.",
+      "coreThesis": "The human voice is an ancient biological and social instrument whose physical acoustics telegraph emotion, status, and evolutionary fitness far faster than vocabulary alone.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "This Is the Voice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "this-naked-mind",
     "title": "This Naked Mind",
     "author": "Annie Grace",
@@ -29438,6 +29728,76 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "vocal-power",
+    "title": "Vocal Power",
+    "author": "Arthur Joseph",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2003,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your vocal delivery is a high-leverage instrument that directly governs your credibility and authority long before people evaluate your raw logic. Master your physical vocal apparatus to eliminate hesitation and command rooms with unwavering vocal stability.",
+      "coreThesis": "Authority is primarily an auditory and physical signal: systematically mastering the mechanics of breath, posture, and vocal resonance ensures your delivery carries undeniable weight and command under extreme operational pressure.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Vocal Power"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "voice-and-the-actor",
+    "title": "Voice and the Actor",
+    "author": "Cicely Berry",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1973,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your voice is not an isolated throat mechanism\\u2014it is a physical acoustic engine powered by full-body breath, kinetic muscularity, and unfiltered emotional intent. Discover how releasing structural friction transforms ordinary speech into an effortless, resonant wave that commands any room.",
+      "coreThesis": "Authentic vocal power is an engineering principle: releasing physical tension and anchoring speech in full-body breath mechanics naturally amplifies clarity, resonance, and emotional authority without vocal strain.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Voice and the Actor"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]

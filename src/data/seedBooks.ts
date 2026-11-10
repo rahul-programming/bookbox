@@ -862,6 +862,16 @@ import { SET_YOUR_VOICE_FREE_BOOK } from './books/setYourVoiceFreeExpanded';
 import { THE_VOICE_BOOK_CARING_FOR_PROTECTING_AND_IMPROVING_YOUR_VOIC_BOOK } from './books/theVoiceBookCaringForProtectingAndImprovingYourVoicExpanded';
 import { FREEING_THE_NATURAL_VOICE_BOOK } from './books/freeingTheNaturalVoiceExpanded';
 import { THE_RIGHT_TO_SPEAK_WORKING_WITH_THE_VOICE_BOOK } from './books/theRightToSpeakWorkingWithTheVoiceExpanded';
+import { VOICE_AND_THE_ACTOR_BOOK } from './books/voiceAndTheActorExpanded';
+import { FINDING_YOUR_VOICE_BOOK } from './books/findingYourVoiceExpanded';
+import { THIS_IS_THE_VOICE_BOOK } from './books/thisIsTheVoiceExpanded';
+import { THE_ART_OF_SPEAKING_BOOK } from './books/theArtOfSpeakingExpanded';
+import { SING_YOUR_STORY_BOOK } from './books/singYourStoryExpanded';
+import { VOCAL_POWER_BOOK } from './books/vocalPowerExpanded';
+import { TED_TALKS_THE_OFFICIAL_TED_GUIDE_TO_PUBLIC_SPEAKING_BOOK } from './books/tedTalksTheOfficialTedGuideToPublicSpeakingExpanded';
+import { SLIDE_OLOGY_THE_ART_AND_SCIENCE_OF_CREATING_GREAT_PRESENTATI_BOOK } from './books/slideOlogyTheArtAndScienceOfCreatingGreatPresentatiExpanded';
+import { PRESENTATION_ZEN_SIMPLE_IDEAS_ON_PRESENTATION_DESIGN_AND_DEL_BOOK } from './books/presentationZenSimpleIdeasOnPresentationDesignAndDelExpanded';
+import { CONFESSIONS_OF_A_PUBLIC_SPEAKER_BOOK } from './books/confessionsOfAPublicSpeakerExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -1724,7 +1734,17 @@ export const SEED_BOOKS: Book[] = [
   SET_YOUR_VOICE_FREE_BOOK,
   THE_VOICE_BOOK_CARING_FOR_PROTECTING_AND_IMPROVING_YOUR_VOIC_BOOK,
   FREEING_THE_NATURAL_VOICE_BOOK,
-  THE_RIGHT_TO_SPEAK_WORKING_WITH_THE_VOICE_BOOK
+  THE_RIGHT_TO_SPEAK_WORKING_WITH_THE_VOICE_BOOK,
+  VOICE_AND_THE_ACTOR_BOOK,
+  FINDING_YOUR_VOICE_BOOK,
+  THIS_IS_THE_VOICE_BOOK,
+  THE_ART_OF_SPEAKING_BOOK,
+  SING_YOUR_STORY_BOOK,
+  VOCAL_POWER_BOOK,
+  TED_TALKS_THE_OFFICIAL_TED_GUIDE_TO_PUBLIC_SPEAKING_BOOK,
+  SLIDE_OLOGY_THE_ART_AND_SCIENCE_OF_CREATING_GREAT_PRESENTATI_BOOK,
+  PRESENTATION_ZEN_SIMPLE_IDEAS_ON_PRESENTATION_DESIGN_AND_DEL_BOOK,
+  CONFESSIONS_OF_A_PUBLIC_SPEAKER_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -2589,7 +2609,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(SET_YOUR_VOICE_FREE_BOOK.ideaCards || []),
   ...(THE_VOICE_BOOK_CARING_FOR_PROTECTING_AND_IMPROVING_YOUR_VOIC_BOOK.ideaCards || []),
   ...(FREEING_THE_NATURAL_VOICE_BOOK.ideaCards || []),
-  ...(THE_RIGHT_TO_SPEAK_WORKING_WITH_THE_VOICE_BOOK.ideaCards || [])
+  ...(THE_RIGHT_TO_SPEAK_WORKING_WITH_THE_VOICE_BOOK.ideaCards || []),
+  ...(VOICE_AND_THE_ACTOR_BOOK.ideaCards || []),
+  ...(FINDING_YOUR_VOICE_BOOK.ideaCards || []),
+  ...(THIS_IS_THE_VOICE_BOOK.ideaCards || []),
+  ...(THE_ART_OF_SPEAKING_BOOK.ideaCards || []),
+  ...(SING_YOUR_STORY_BOOK.ideaCards || []),
+  ...(VOCAL_POWER_BOOK.ideaCards || []),
+  ...(TED_TALKS_THE_OFFICIAL_TED_GUIDE_TO_PUBLIC_SPEAKING_BOOK.ideaCards || []),
+  ...(SLIDE_OLOGY_THE_ART_AND_SCIENCE_OF_CREATING_GREAT_PRESENTATI_BOOK.ideaCards || []),
+  ...(PRESENTATION_ZEN_SIMPLE_IDEAS_ON_PRESENTATION_DESIGN_AND_DEL_BOOK.ideaCards || []),
+  ...(CONFESSIONS_OF_A_PUBLIC_SPEAKER_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
