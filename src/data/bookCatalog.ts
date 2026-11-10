@@ -209,6 +209,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "forgive-for-good": "./books/forgiveForGoodExpanded.ts",
   "four-thousand-weeks-time-management-for-mortals": "./books/fourThousandWeeksTimeManagementForMortalsExpanded.ts",
   "freedom-in-exile-the-autobiography-of-the-dalai-lama": "./books/freedomInExileTheAutobiographyOfTheDalaiLamaExpanded.ts",
+  "freeing-the-natural-voice": "./books/freeingTheNaturalVoiceExpanded.ts",
   "from-heart-to-heart-selected-dhamma-talks": "./books/fromHeartToHeartSelectedDhammaTalksExpanded.ts",
   "fundamentals-of-buddhism": "./books/fundamentalsOfBuddhismExpanded.ts",
   "fundamentals-of-buddhism-four-lectures": "./books/fundamentalsOfBuddhismFourLecturesExpanded.ts",
@@ -288,6 +289,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "king-warrior-magician-lover": "./books/kingWarriorMagicianLoverExpanded.ts",
   "know-your-mind-the-four-foundations-of-mindfulness": "./books/knowYourMindTheFourFoundationsOfMindfulnessExpanded.ts",
   "knowing-and-seeing-teachings-of-pa-auk-monastery": "./books/knowingAndSeeingTeachingsOfPaAukMonasteryExpanded.ts",
+  "lead-with-a-story": "./books/leadWithAStoryExpanded.ts",
   "learn-like-a-pro": "./books/learnLikeAProExpanded.ts",
   "learned-optimism": "./books/learnedOptimismExpanded.ts",
   "liespotting-proven-techniques-to-detect-deception": "./books/liespottingProvenTechniquesToDetectDeceptionExpanded.ts",
@@ -306,6 +308,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "living-the-dhammapada-practical-everyday-wisdom": "./books/livingTheDhammapadaPracticalEverydayWisdomExpanded.ts",
   "logic-a-very-short-introduction": "./books/logicAVeryShortIntroductionExpanded.ts",
   "logically-fallacious": "./books/logicallyFallaciousExpanded.ts",
+  "long-story-short-the-only-storytelling-guide-you-ll-ever-nee": "./books/longStoryShortTheOnlyStorytellingGuideYouLlEverNeeExpanded.ts",
   "lost-art-of-listening-how-learning-to-listen-can-improve-rel": "./books/lostArtOfListeningHowLearningToListenCanImproveRelExpanded.ts",
   "lost-connections-uncovering-the-real-causes-of-depression": "./books/lostConnectionsUncoveringTheRealCausesOfDepressionExpanded.ts",
   "louder-than-words-take-your-career-from-average-to-exception": "./books/louderThanWordsTakeYourCareerFromAverageToExceptionExpanded.ts",
@@ -463,6 +466,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "self-compassion-the-proven-power-of-being-kind-to-yourself": "./books/selfCompassionTheProvenPowerOfBeingKindToYourselfExpanded.ts",
   "selves-and-not-self-buddhist-epistemology": "./books/selvesAndNotSelfBuddhistEpistemologyExpanded.ts",
   "set-boundaries-find-peace-a-guide-to-reclaiming-yourself": "./books/setBoundariesFindPeaceAGuideToReclaimingYourselfExpanded.ts",
+  "set-your-voice-free": "./books/setYourVoiceFreeExpanded.ts",
   "setting-in-motion-the-wheel-of-truth": "./books/settingInMotionTheWheelOfTruthExpanded.ts",
   "7-powers-the-foundations-of-business-strategy": "./books/sevenPowersExpanded.ts",
   "she-understanding-feminine-psychology": "./books/sheUnderstandingFemininePsychologyExpanded.ts",
@@ -501,6 +505,8 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "stop-caretaking-the-borderline-or-narcissist": "./books/stopCaretakingTheBorderlineOrNarcissistExpanded.ts",
   "stop-walking-on-eggshells": "./books/stopWalkingOnEggshellsExpanded.ts",
   "stories-of-the-dhammapada": "./books/storiesOfTheDhammapadaExpanded.ts",
+  "stories-that-stick": "./books/storiesThatStickExpanded.ts",
+  "story-style-structure-substance-and-the-principles-of-screen": "./books/storyStyleStructureSubstanceAndThePrinciplesOfScreenExpanded.ts",
   "storyworthy-engage-teach-persuade-and-change-your-life-throu": "./books/storyworthyEngageTeachPersuadeAndChangeYourLifeThrouExpanded.ts",
   "straight-from-the-heart-dhamma-talks": "./books/straightFromTheHeartDhammaTalksExpanded.ts",
   "strangers-to-ourselves-discovering-the-adaptive-unconscious": "./books/strangersToOurselvesDiscoveringTheAdaptiveUnconsciousExpanded.ts",
@@ -715,12 +721,14 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-questions-of-king-milinda-milindapanha": "./books/theQuestionsOfKingMilindaMilindapanhaExpanded.ts",
   "the-radiant-mind-continuous-satipatthana-in-modern-life": "./books/theRadiantMindContinuousSatipatthanaInModernLifeExpanded.ts",
   "the-requisites-of-enlightenment": "./books/theRequisitesOfEnlightenmentExpanded.ts",
+  "the-right-to-speak-working-with-the-voice": "./books/theRightToSpeakWorkingWithTheVoiceExpanded.ts",
   "the-righteous-mind-why-good-people-are-divided-by-politics-a": "./books/theRighteousMindWhyGoodPeopleAreDividedByPoliticsAExpanded.ts",
   "the-road-to-inner-freedom": "./books/theRoadToInnerFreedomExpanded.ts",
   "the-roots-of-good-and-evil": "./books/theRootsOfGoodAndEvilExpanded.ts",
   "the-scout-mindset": "./books/theScoutMindsetExpanded.ts",
   "the-second-mountain-the-quest-for-a-moral-life": "./books/theSecondMountainTheQuestForAMoralLifeExpanded.ts",
   "the-selfish-gene": "./books/theSelfishGeneExpanded.ts",
+  "the-seven-basic-plots-why-we-tell-stories": "./books/theSevenBasicPlotsWhyWeTellStoriesExpanded.ts",
   "the-seven-factors-of-enlightenment-bojjhanga": "./books/theSevenFactorsOfEnlightenmentBojjhangaExpanded.ts",
   "the-seven-sins-of-memory": "./books/theSevenSinsOfMemoryExpanded.ts",
   "the-seven-stages-of-purification": "./books/theSevenStagesOfPurificationExpanded.ts",
@@ -755,6 +763,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-upside-of-irrationality": "./books/theUpsideOfIrrationalityExpanded.ts",
   "the-upward-spiral": "./books/theUpwardSpiralExpanded.ts",
   "the-uses-of-argument": "./books/theUsesOfArgumentExpanded.ts",
+  "the-voice-book-caring-for-protecting-and-improving-your-voic": "./books/theVoiceBookCaringForProtectingAndImprovingYourVoicExpanded.ts",
   "the-war-of-art": "./books/theWarOfArtExpanded.ts",
   "the-way-of-mindfulness-satipatthana-sutta-commentary": "./books/theWayOfMindfulnessSatipatthanaSuttaCommentaryExpanded.ts",
   "the-way-to-nibbana": "./books/theWayToNibbanaExpanded.ts",
@@ -799,6 +808,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "unconditional-love-and-the-abhidhamma": "./books/unconditionalLoveAndTheAbhidhammaExpanded.ts",
   "unexpected-freedom-dhamma-reflections": "./books/unexpectedFreedomDhammaReflectionsExpanded.ts",
   "unlearn-your-pain": "./books/unlearnYourPainExpanded.ts",
+  "unleash-the-power-of-storytelling": "./books/unleashThePowerOfStorytellingExpanded.ts",
   "unmasking-the-face": "./books/unmaskingTheFaceExpanded.ts",
   "untamed": "./books/untamedExpanded.ts",
   "unwinding-anxiety": "./books/unwindingAnxietyExpanded.ts",
@@ -8152,6 +8162,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "freeing-the-natural-voice",
+    "title": "Freeing the Natural Voice",
+    "author": "Kristin Linklater",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 100,
+    "publishedYear": 1976,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your natural voice is already fully formed; decades of social conditioning, physical tension, and defensive habits have simply muffled it under heavy armor. By dismantling unconscious muscular locks from the spine to the jaw, Kristin Linklater provides a rigorous roadmap to restore effortless resonance, emotional truth, and room-commanding vocal power.",
+      "coreThesis": "Authentic vocal power is not built by forcing or manufacturing sound, but by stripping away the physical tensions and psychological armor that block the body's innate acoustic resonance.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Freeing the Natural Voice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "from-heart-to-heart-selected-dhamma-talks",
     "title": "From Heart to Heart: Selected Dhamma Talks",
     "author": "Ajahn Jayasaro",
@@ -10915,6 +10960,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "lead-with-a-story",
+    "title": "Lead with a Story",
+    "author": "Paul Smith",
+    "category": "Creativity & Expression",
+    "subcategory": "Writing & Storytelling",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 150,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Human cognition is biologically wired to reject raw directives and forget dry bullet points. By treating stories as high-resolution operational flight simulators, leaders can download complex values, strategy, and judgment straight into their team's mental operating system.",
+      "coreThesis": "Data informs the intellect, but narrative trains human judgment; true leadership operates by embedding abstract principles into concrete stories that function as mental flight simulators for autonomous decision-making.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Lead with a Story"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "learn-like-a-pro",
     "title": "Learn Like a Pro",
     "author": "Barbara Oakley & Olav Schewe",
@@ -11539,6 +11619,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "long-story-short-the-only-storytelling-guide-you-ll-ever-nee",
+    "title": "Long Story Short: The Only Storytelling Guide You'll Ever Need",
+    "author": "Margot Leitman",
+    "category": "Creativity & Expression",
+    "subcategory": "Writing & Storytelling",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Great storytelling is not an elite circus act reserved for extraordinary adventurers; it is a repeatable cognitive science of transforming ordinary friction into shared human connection. Margot Leitman hands you the diagnostic toolkit to mine your everyday missteps and deliver them with unvarnished, magnetic impact.",
+      "coreThesis": "Audiences do not connect with flawless heroes reciting polished scripts; they bond with vulnerable human beings who dissect real missteps with emotional honesty and structural clarity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Long Story Short: The Only Storytelling Guide You'll Ever Need"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -17030,6 +17145,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "set-your-voice-free",
+    "title": "Set Your Voice Free",
+    "author": "Roger Love with Donna Frazier",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 1999,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your voice is not a fixed genetic roll of the dice; it is a mechanical wind instrument governed by tuneable physics. By mastering diaphragmatic airflow and blending your chest and head registers into a seamless middle voice, you transform your everyday speech from dull noise into an magnetic, resonant signal.",
+      "coreThesis": "Human voice is an adjustable biomechanical wind instrument; by combining diaphragmatic breath control with a blended middle register, anyone can eliminate vocal strain and speak with magnetic, effortless authority.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Set Your Voice Free"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "setting-in-motion-the-wheel-of-truth",
     "title": "Setting in Motion the Wheel of Truth",
     "author": "Ven. Mahasi Sayadaw",
@@ -18351,6 +18501,76 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "stories-that-stick",
+    "title": "Stories That Stick",
+    "author": "Kindra Hall",
+    "category": "Creativity & Expression",
+    "subcategory": "Writing & Storytelling",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Human brains are wired to resist abstract data, but they involuntarily sync with narrative structure. Kindra Hall provides the practical engineering blueprint to turn everyday moments into strategic stories that captivate attention, dissolve skepticism, and trigger decisive action.",
+      "coreThesis": "Data informs the intellect, but story governs human decision-making. By engineering specific narratives around characters and pivotal moments, communicators build psychological bridges that transform abstract ideas into irresistible action.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Stories That Stick"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "story-style-structure-substance-and-the-principles-of-screen",
+    "title": "Story: Style, Structure, Substance, and the Principles of Screenwriting",
+    "author": "Robert McKee",
+    "category": "Creativity & Expression",
+    "subcategory": "Writing & Storytelling",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 95,
+    "publishedYear": 1997,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Great stories are not accidents of lightning-strike inspiration; they are finely tuned dynamic systems governed by universal laws of human behavior and cause-and-effect pressure. Robert McKee decodes the hidden physics of narrative, showing you how to turn raw human conflict into irresistible, emotionally transformative experiences.",
+      "coreThesis": "A story is an organic dynamic system where true human character and meaning are forged only when unexpected friction shatters expectations and demands difficult choices under mounting pressure.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Story: Style, Structure, Substance, and the Principles of Screenwriting"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -25835,6 +26055,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-right-to-speak-working-with-the-voice",
+    "title": "The Right to Speak: Working with the Voice",
+    "author": "Patsy Rodenburg",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1992,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your natural voice is not broken; it is merely imprisoned beneath decades of accumulated physical tension and defensive habits. By viewing the voice as a finely tuned biological instrument, Patsy Rodenburg shows how releasing bodily friction restores effortless resonance, authority, and expressive power.",
+      "coreThesis": "Powerful, resonant speech does not come from forcing sound outward; it happens when you systematically eliminate bodily tension, allowing your natural breath and physical resonators to communicate with unblocked authority.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Right to Speak: Working with the Voice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-righteous-mind-why-good-people-are-divided-by-politics-a",
     "title": "The Righteous Mind: Why Good People Are Divided by Politics and Religion",
     "author": "Jonathan Haidt",
@@ -26039,6 +26294,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-seven-basic-plots-why-we-tell-stories",
+    "title": "The Seven Basic Plots: Why We Tell Stories",
+    "author": "Christopher Booker",
+    "category": "Creativity & Expression",
+    "subcategory": "Writing & Storytelling",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 170,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Human storytelling operates on a hidden universal operating system: just seven core archetypal plot blueprints that mirror our psychological quest for balance and maturity. By decoding these timeless narrative algorithms, we uncover not only why great stories move us, but how human minds make sense of real-world crises, growth, and renewal.",
+      "coreThesis": "All storytelling is an evolutionary psychological toolkit governed by seven universal plot patterns, designed to guide the human mind from egocentric imbalance toward integrated maturity and wholeness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Seven Basic Plots: Why We Tell Stories"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -27227,6 +27517,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-voice-book-caring-for-protecting-and-improving-your-voic",
+    "title": "The Voice Book: Caring for, Protecting, and Improving Your Voice",
+    "author": "Kate DeVore & Starr Cookman",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2009,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your voice is not an invisible mystery; it is an organic acoustic wind instrument governed by clear physical feedback loops. Master the structural chain of posture, breath flow, and resonant chambers, and you can command any room with effortless, injury-free clarity.",
+      "coreThesis": "Vocal power and clarity are physical engineering outcomes produced by breath support and acoustic resonance, not muscular strain in the throat.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Voice Book: Caring for, Protecting, and Improving Your Voice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -28763,6 +29088,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Finance",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "unleash-the-power-of-storytelling",
+    "title": "Unleash the Power of Storytelling",
+    "author": "Rob Biesenbach",
+    "category": "Creativity & Expression",
+    "subcategory": "Writing & Storytelling",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Raw data informs, but structured narrative forces decisions. Master the tactical craft of storytelling to cut through cognitive noise, establish immediate trust, and mobilize stakeholders with zero wasted effort.",
+      "coreThesis": "Data merely validates conclusions, while structured narrative drives human commitment. He who controls the story controls the decision.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Unleash the Power of Storytelling"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
