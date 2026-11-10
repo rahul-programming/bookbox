@@ -12,6 +12,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "a-discourse-on-the-cula-vedalla-sutta": "./books/aDiscourseOnTheCulaVedallaSuttaExpanded.ts",
   "a-discourse-on-the-maha-vedalla-sutta": "./books/aDiscourseOnTheMahaVedallaSuttaExpanded.ts",
   "a-discourse-on-the-sakkapanha-sutta": "./books/aDiscourseOnTheSakkapanhaSuttaExpanded.ts",
+  "a-handbook-of-rhetorical-devices": "./books/aHandbookOfRhetoricalDevicesExpanded.ts",
   "a-heart-of-wisdom-the-twin-verses-of-the-dhammapada": "./books/aHeartOfWisdomTheTwinVersesOfTheDhammapadaExpanded.ts",
   "a-life-of-blessing-celebrating-virtue-and-stillness": "./books/aLifeOfBlessingCelebratingVirtueAndStillnessExpanded.ts",
   "a-million-miles-in-a-thousand-years": "./books/aMillionMilesInAThousandYearsExpanded.ts",
@@ -267,6 +268,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "inner-work-using-dreams-and-active-imagination-for-personal-": "./books/innerWorkUsingDreamsAndActiveImaginationForPersonalExpanded.ts",
   "insight-meditation-the-path-to-peace": "./books/insightMeditationThePathToPeaceExpanded.ts",
   "insight-meditation-workshop-manual": "./books/insightMeditationWorkshopManualExpanded.ts",
+  "institutes-of-oratory": "./books/institutesOfOratoryExpanded.ts",
   "interbeing-fourteen-precepts-of-engaged-buddhism": "./books/interbeingFourteenPreceptsOfEngagedBuddhismExpanded.ts",
   "into-the-stream-a-study-guide-on-the-first-stage-of-awakening": "./books/intoTheStreamAStudyGuideOnTheFirstStageOfAwakeningExpanded.ts",
   "introduction-to-logic": "./books/introductionToLogicExpanded.ts",
@@ -382,6 +384,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "old-age-and-mortality-the-jara-vagga": "./books/oldAgeAndMortalityTheJaraVaggaExpanded.ts",
   "old-path-white-clouds-walking-in-the-footsteps-of-the-buddha": "./books/oldPathWhiteCloudsWalkingInTheFootstepsOfTheBuddhaExpanded.ts",
   "on-love-dhamma-talks-on-metta": "./books/onLoveDhammaTalksOnMettaExpanded.ts",
+  "on-the-orator-de-oratore": "./books/onTheOratorDeOratoreExpanded.ts",
   "on-the-path-an-anthology-of-suttas-on-the-noble-eightfold-path": "./books/onThePathAnAnthologyOfSuttasOnTheNobleEightfoldPathExpanded.ts",
   "on-the-path-to-freedom": "./books/onThePathToFreedomExpanded.ts",
   "one-dharma-the-emerging-western-buddhism": "./books/oneDharmaTheEmergingWesternBuddhismExpanded.ts",
@@ -434,6 +437,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "reinventing-your-life": "./books/reinventingYourLifeExpanded.ts",
   "relax-and-be-aware-mindfulness-in-daily-life": "./books/relaxAndBeAwareMindfulnessInDailyLifeExpanded.ts",
   "remote-office-not-required": "./books/remoteOfficeNotRequiredExpanded.ts",
+  "resonate-present-visual-stories-that-transform-audiences": "./books/resonatePresentVisualStoriesThatTransformAudiencesExpanded.ts",
   "rest-why-you-get-more-done-when-you-work-less": "./books/restWhyYouGetMoreDoneWhenYouWorkLessExpanded.ts",
   "rethinking-narcissism-anger": "./books/rethinkingNarcissismAngerExpanded.ts",
   "rhetoric": "./books/rhetoricExpanded.ts",
@@ -497,6 +501,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "stop-caretaking-the-borderline-or-narcissist": "./books/stopCaretakingTheBorderlineOrNarcissistExpanded.ts",
   "stop-walking-on-eggshells": "./books/stopWalkingOnEggshellsExpanded.ts",
   "stories-of-the-dhammapada": "./books/storiesOfTheDhammapadaExpanded.ts",
+  "storyworthy-engage-teach-persuade-and-change-your-life-throu": "./books/storyworthyEngageTeachPersuadeAndChangeYourLifeThrouExpanded.ts",
   "straight-from-the-heart-dhamma-talks": "./books/straightFromTheHeartDhammaTalksExpanded.ts",
   "strangers-to-ourselves-discovering-the-adaptive-unconscious": "./books/strangersToOurselvesDiscoveringTheAdaptiveUnconsciousExpanded.ts",
   "super-thinking-the-big-book-of-mental-models": "./books/superThinkingTheBigBookOfMentalModelsExpanded.ts",
@@ -536,6 +541,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-art-of-living-vipassana-meditation": "./books/theArtOfLivingVipassanaMeditationExpanded.ts",
   "the-art-of-note-taking": "./books/theArtOfNoteTakingExpanded.ts",
   "the-art-of-persuasion": "./books/theArtOfPersuasionExpanded.ts",
+  "the-art-of-rhetoric": "./books/theArtOfRhetoricExpanded.ts",
   "the-art-of-seduction": "./books/theArtOfSeductionExpanded.ts",
   "the-art-of-work": "./books/theArtOfWorkExpanded.ts",
   "the-assertiveness-workbook": "./books/theAssertivenessWorkbookExpanded.ts",
@@ -603,6 +609,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-divided-mind-the-epidemic-of-mindbody-disorders": "./books/theDividedMindTheEpidemicOfMindbodyDisordersExpanded.ts",
   "the-doctrine-of-anatta-in-the-nikayas": "./books/theDoctrineOfAnattaInTheNikayasExpanded.ts",
   "the-easy-way-to-stop-smoking-stop-drinking": "./books/theEasyWayToStopSmokingStopDrinkingExpanded.ts",
+  "the-elements-of-eloquence-how-to-turn-the-perfect-english-ph": "./books/theElementsOfEloquenceHowToTurnThePerfectEnglishPhExpanded.ts",
   "the-elephant-footprint-cula-hatthipadopama-sutta": "./books/theElephantFootprintCulaHatthipadopamaSuttaExpanded.ts",
   "the-elimination-of-anger": "./books/theEliminationOfAngerExpanded.ts",
   "the-energy-of-prayer-how-to-deepen-your-spiritual-practice": "./books/theEnergyOfPrayerHowToDeepenYourSpiritualPracticeExpanded.ts",
@@ -731,6 +738,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-sound-of-silence-selected-teachings": "./books/theSoundOfSilenceSelectedTeachingsExpanded.ts",
   "the-spectrum-of-buddhism": "./books/theSpectrumOfBuddhismExpanded.ts",
   "the-state-of-mind-called-beautiful": "./books/theStateOfMindCalledBeautifulExpanded.ts",
+  "the-storyteller-s-secret": "./books/theStorytellerSSecretExpanded.ts",
   "the-sun-my-heart-from-mindfulness-to-insight-contemplation": "./books/theSunMyHeartFromMindfulnessToInsightContemplationExpanded.ts",
   "the-sutta-discovery-early-buddhist-teachings": "./books/theSuttaDiscoveryEarlyBuddhistTeachingsExpanded.ts",
   "the-sutta-nipata-early-buddhist-poetry": "./books/theSuttaNipataEarlyBuddhistPoetryExpanded.ts",
@@ -822,6 +830,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "wim-hof-the-wim-hof-method": "./books/wimHofTheWimHofMethodExpanded.ts",
   "win-every-argument-the-art-of-debating-persuading-and-public": "./books/winEveryArgumentTheArtOfDebatingPersuadingAndPublicExpanded.ts",
   "winning-body-language": "./books/winningBodyLanguageExpanded.ts",
+  "wired-for-story-the-writer-s-guide-to-using-brain-science-to": "./books/wiredForStoryTheWriterSGuideToUsingBrainScienceToExpanded.ts",
   "wisdom-develops-samadhi": "./books/wisdomDevelopsSamadhiExpanded.ts",
   "wisdom-wide-and-deep-mastering-jhana-and-vipassana": "./books/wisdomWideAndDeepMasteringJhanaAndVipassanaExpanded.ts",
   "with-each-and-every-breath-a-guide-to-meditation": "./books/withEachAndEveryBreathAGuideToMeditationExpanded.ts",
@@ -831,6 +840,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "words-can-change-your-brain": "./books/wordsCanChangeYourBrainExpanded.ts",
   "words-of-dhamma-practical-meditative-advice": "./books/wordsOfDhammaPracticalMeditativeAdviceExpanded.ts",
   "words-of-truth-a-buddhist-prayer-for-peace": "./books/wordsOfTruthABuddhistPrayerForPeaceExpanded.ts",
+  "words-that-work-it-s-not-what-you-say-it-s-what-people-hear": "./books/wordsThatWorkItSNotWhatYouSayItSWhatPeopleHearExpanded.ts",
   "working-in-public-the-making-and-maintenance-of-open-source-": "./books/workingInPublicTheMakingAndMaintenanceOfOpenSourceExpanded.ts",
   "working-with-emotional-intelligence": "./books/workingWithEmotionalIntelligenceExpanded.ts",
   "write-once-read-forever-syntopic-knowledge": "./books/writeOnceReadForeverSyntopicKnowledgeExpanded.ts",
@@ -1254,6 +1264,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "a-handbook-of-rhetorical-devices",
+    "title": "A Handbook of Rhetorical Devices",
+    "author": "Robert A. Harris",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 300,
+    "publishedYear": 1997,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Rhetorical devices are not ornamental poetry; they are precision gears engineered to control attention, memory, and cognitive friction. Robert A. Harris maps sixty fundamental verbal mechanisms that transform everyday speaking into compelling, memorable persuasion.",
+      "coreThesis": "Speech is a cognitive engineering problem: rhetorical devices are mechanical tools that steer human attention, regulate mental processing speed, and permanently anchor ideas in memory.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "A Handbook of Rhetorical Devices"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -10170,6 +10215,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "institutes-of-oratory",
+    "title": "Institutes of Oratory",
+    "author": "Quintilian",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 95,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mastery in communication is not a bag of superficial stage tricks, but an integrated operating system linking raw character, disciplined logic, and physical delivery. Quintilian breaks down human persuasion with surgical precision, showing how an upright mind transforms clear thinking into irresistible public influence.",
+      "coreThesis": "True eloquence is the natural resonance of an upright character expressing clear, rigorous thought through disciplined physical mechanics.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Institutes of Oratory"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "interbeing-fourteen-precepts-of-engaged-buddhism",
     "title": "Interbeing: Fourteen Precepts of Engaged Buddhism",
     "author": "Thich Nhat Hanh",
@@ -14190,6 +14270,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "on-the-orator-de-oratore",
+    "title": "On the Orator (De Oratore)",
+    "author": "Cicero",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Speaking well is not a cheap party trick\\u2014it is the ultimate human operating system that turns deep knowledge into collective momentum. Cicero reveals the hidden machinery of persuasion, showing that true influence happens only when broad mental substance meets disciplined vocal and physical delivery.",
+      "coreThesis": "True eloquence is deep philosophical understanding brought to life through emotional resonance, disciplined structure, and magnetic physical delivery.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "On the Orator (De Oratore)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "on-the-path-an-anthology-of-suttas-on-the-noble-eightfold-path",
     "title": "On the Path: An Anthology of Suttas on the Noble Eightfold Path",
     "author": "Thanissaro Bhikkhu",
@@ -16003,6 +16118,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "resonate-present-visual-stories-that-transform-audiences",
+    "title": "Resonate: Present Visual Stories that Transform Audiences",
+    "author": "Nancy Duarte",
+    "category": "Creativity & Expression",
+    "subcategory": "Writing & Storytelling",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Great presentations do not just broadcast data; they synchronize minds like matched tuning forks. By casting your audience as the hero and alternating between current flaws and future possibilities, you turn passive listeners into an active movement.",
+      "coreThesis": "Audience persuasion occurs when a speaker acts as a humble guide, using the rhythmic contrast between current reality and future possibility to inspire collective action.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Resonate: Present Visual Stories that Transform Audiences"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -18206,6 +18356,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "storyworthy-engage-teach-persuade-and-change-your-life-throu",
+    "title": "Storyworthy: Engage, Teach, Persuade, and Change Your Life through the Power of Storytelling",
+    "author": "Matthew Dicks",
+    "category": "Creativity & Expression",
+    "subcategory": "Writing & Storytelling",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 115,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Great storytellers do not lead wilder lives; they operate with better sensory instruments to capture and execute everyday inflection points. Master storyteller Matthew Dicks provides an operational blueprint to locate, engineer, and deliver high-stakes personal narratives that command rooms and drive human decisions.",
+      "coreThesis": "A powerful story is never about extraordinary external events, but about a five-second shift in human perspective made visible through vulnerability, cause-and-effect friction, and disciplined structure.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Storyworthy: Engage, Teach, Persuade, and Change Your Life through the Power of Storytelling"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "straight-from-the-heart-dhamma-talks",
     "title": "Straight from the Heart: Dhamma Talks",
     "author": "Ajahn Maha Bua",
@@ -19564,6 +19749,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-art-of-rhetoric",
+    "title": "The Art of Rhetoric",
+    "author": "Quintilian & classical translations.",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 95,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mastering high-stakes communication is not about learning flashy parlor tricks; it is about calibrating an interconnected system of clear thinking, structured logic, and genuine character. Quintilian breaks down human persuasion into an exact science, revealing how authentic credibility and disciplined design move audiences to decisive action.",
+      "coreThesis": "Genuine persuasion is the natural output of an ethical mind trained in systematic logic, transparent expression, and empathetic delivery. Technique without integrity collapses into cheap manipulation, while moral truth without disciplined craft remains unheard.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Art of Rhetoric"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -21906,6 +22126,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-elements-of-eloquence-how-to-turn-the-perfect-english-ph",
+    "title": "The Elements of Eloquence: How to Turn the Perfect English Phrase",
+    "author": "Mark Forsyth",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 195,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Great speech is not a mysterious mystical gift; it is precision mechanical engineering for the human brain. By mastering classical figures of speech, anyone can snap words together like gears to make ideas unforgettable.",
+      "coreThesis": "Eloquence is structural technology, not romantic inspiration: phrasing becomes memorable because specific mechanical formulas exploit the predictable cognitive quirks of human auditory processing.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Elements of Eloquence: How to Turn the Perfect English Phrase"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -26383,6 +26638,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-storyteller-s-secret",
+    "title": "The Storyteller's Secret",
+    "author": "Carmine Gallo",
+    "category": "Creativity & Expression",
+    "subcategory": "Writing & Storytelling",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 185,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your raw data is like loose seeds on pavement\\u2014it blows away without ever taking root. Carmine Gallo decodes the neurochemical mechanics of how master communicators wrap facts in narrative to spark dopamine, ignite belief, and drive decisive action.",
+      "coreThesis": "Ideas do not spread on analytical merit alone; they spread when wrapped in narrative structures that trigger biological empathy and make complex truths unforgettable.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Storyteller's Secret"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-sun-my-heart-from-mindfulness-to-insight-contemplation",
     "title": "The Sun My Heart: From Mindfulness to Insight Contemplation",
     "author": "Thich Nhat Hanh",
@@ -29563,6 +29853,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "wired-for-story-the-writer-s-guide-to-using-brain-science-to",
+    "title": "Wired for Story: The Writer's Guide to Using Brain Science to Hook Readers",
+    "author": "Lisa Cron",
+    "category": "Creativity & Expression",
+    "subcategory": "Writing & Storytelling",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Human brains did not evolve to appreciate ornate prose; they evolved to decode survival simulations disguised as stories. By unlocking how neuroscience processes tension, motive, and cause-and-effect, you can build narratives that hook attention from the first breath and never let go.",
+      "coreThesis": "Story is not an artistic indulgence; it is an evolutionary survival mechanism designed to simulate navigating high-stakes human dilemmas.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Wired for Story: The Writer's Guide to Using Brain Science to Hook Readers"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "wisdom-develops-samadhi",
     "title": "Wisdom Develops Samadhi",
     "author": "Ajahn Maha Bua",
@@ -29873,6 +30198,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "words-that-work-it-s-not-what-you-say-it-s-what-people-hear",
+    "title": "Words That Work: It's Not What You Say, It's What People Hear",
+    "author": "Frank Luntz",
+    "category": "Creativity & Expression",
+    "subcategory": "Public Speaking & Keynotes",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2007,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Communication is not measured by the sound waves you transmit, but by the mental pictures your listener actually constructs. By decoding human cognitive filters and calibrating your vocabulary to audience empathy, you can transform ordinary words into unforgettable instruments of persuasion.",
+      "coreThesis": "The true meaning of your words resides entirely within the listener's mental filter, not your personal intention; whoever controls the framing controls the reality.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Words That Work: It's Not What You Say, It's What People Hear"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
