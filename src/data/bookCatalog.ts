@@ -20,6 +20,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "a-pali-grammar-for-beginners": "./books/aPaliGrammarForBeginnersExpanded.ts",
   "a-policy-of-kindness-anthology-of-writings": "./books/aPolicyOfKindnessAnthologyOfWritingsExpanded.ts",
   "a-practical-guide-to-vipassana-meditation": "./books/aPracticalGuideToVipassanaMeditationExpanded.ts",
+  "a-random-walk-down-wall-street": "./books/aRandomWalkDownWallStreetExpanded.ts",
   "a-simple-way-the-heart-of-the-practice": "./books/aSimpleWayTheHeartOfThePracticeExpanded.ts",
   "a-still-forest-pool-insight-meditation-of-achaan-chah": "./books/aStillForestPoolInsightMeditationOfAchaanChahExpanded.ts",
   "a-taste-of-freedom": "./books/aTasteOfFreedomExpanded.ts",
@@ -33,6 +34,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "after-buddhism-rethinking-dharma-for-a-secular-age": "./books/afterBuddhismRethinkingDharmaForASecularAgeExpanded.ts",
   "alchemy-the-dark-art-and-curious-science-of-creating-magic-i": "./books/alchemyTheDarkArtAndCuriousScienceOfCreatingMagicIExpanded.ts",
   "algorithms-to-live-by": "./books/algorithmsToLiveByExpanded.ts",
+  "all-about-asset-allocation": "./books/allAboutAssetAllocationExpanded.ts",
   "all-of-us-beset-by-birth-decay-and-death": "./books/allOfUsBesetByBirthDecayAndDeathExpanded.ts",
   "alone-together-why-we-expect-more-from-technology-and-less-f": "./books/aloneTogetherWhyWeExpectMoreFromTechnologyAndLessFExpanded.ts",
   "an-analysis-of-the-sutta-nipata": "./books/anAnalysisOfTheSuttaNipataExpanded.ts",
@@ -53,6 +55,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "approaching-the-buddhist-path": "./books/approachingTheBuddhistPathExpanded.ts",
   "arahattamagga-arahattaphala-the-path-to-arahantship": "./books/arahattamaggaArahattaphalaThePathToArahantshipExpanded.ts",
   "argumentation-and-debate-critical-thinking-for-reasoned-deci": "./books/argumentationAndDebateCriticalThinkingForReasonedDeciExpanded.ts",
+  "asset-allocation-balancing-financial-risk": "./books/assetAllocationBalancingFinancialRiskExpanded.ts",
   "atomic-habits": "./books/atomicHabitsExpanded.ts",
   "attached-the-new-science-of-adult-attachment-and-how-it-can-": "./books/attachedTheNewScienceOfAdultAttachmentAndHowItCanExpanded.ts",
   "attacking-faulty-reasoning": "./books/attackingFaultyReasoningExpanded.ts",
@@ -111,6 +114,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "bullshit-jobs-on-bullshit": "./books/bullshitJobsOnBullshitExpanded.ts",
   "captivate-the-science-of-succeeding-with-people": "./books/captivateTheScienceOfSucceedingWithPeopleExpanded.ts",
   "central-conception-of-buddhism-and-meaning-of-dharma": "./books/centralConceptionOfBuddhismAndMeaningOfDharmaExpanded.ts",
+  "choose-fi-your-blueprint-to-financial-independence": "./books/chooseFiYourBlueprintToFinancialIndependenceExpanded.ts",
   "chronicles-of-dhamma-historical-perspectives": "./books/chroniclesOfDhammaHistoricalPerspectivesExpanded.ts",
   "citta-and-cetasika-mind-and-mental-factors": "./books/cittaAndCetasikaMindAndMentalFactorsExpanded.ts",
   "cittaviveka-teachings-from-the-silent-mind": "./books/cittavivekaTeachingsFromTheSilentMindExpanded.ts",
@@ -118,6 +122,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "class-a-guide-through-the-american-status-system": "./books/classAGuideThroughTheAmericanStatusSystemExpanded.ts",
   "clear-thinking": "./books/clearThinkingExpanded.ts",
   "cognitive-psychology-mind-and-brain": "./books/cognitivePsychologyMindAndBrainExpanded.ts",
+  "common-stocks-and-uncommon-profits": "./books/commonStocksAndUncommonProfitsExpanded.ts",
   "compassion-and-emptiness-in-early-buddhist-meditation": "./books/compassionAndEmptinessInEarlyBuddhistMeditationExpanded.ts",
   "complexity-a-guided-tour": "./books/complexityAGuidedTourExpanded.ts",
   "comprehensive-commentary-on-the-abhidhammattha-sangaha": "./books/comprehensiveCommentaryOnTheAbhidhammatthaSangahaExpanded.ts",
@@ -478,6 +483,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "presence-bringing-your-boldest-self-to-your-biggest-challeng": "./books/presenceBringingYourBoldestSelfToYourBiggestChallengExpanded.ts",
   "presentation-zen-simple-ideas-on-presentation-design-and-del": "./books/presentationZenSimpleIdeasOnPresentationDesignAndDelExpanded.ts",
   "primal-leadership": "./books/primalLeadershipExpanded.ts",
+  "principles-for-navigating-big-debt-crises": "./books/principlesForNavigatingBigDebtCrisesExpanded.ts",
   "process-of-consciousness-according-to-abhidhamma": "./books/processOfConsciousnessAccordingToAbhidhammaExpanded.ts",
   "protection-through-satipatthana": "./books/protectionThroughSatipatthanaExpanded.ts",
   "the-psychology-of-money-timeless-lessons-on-wealth-greed-and": "./books/psychologyOfMoneyExpanded.ts",
@@ -648,6 +654,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-black-swan": "./books/theBlackSwanExpanded.ts",
   "the-blooming-of-a-lotus-guided-meditations": "./books/theBloomingOfALotusGuidedMeditationsExpanded.ts",
   "the-body-keeps-the-score": "./books/theBodyKeepsTheScoreExpanded.ts",
+  "the-bogleheads-guide-to-investing": "./books/theBogleheadsGuideToInvestingExpanded.ts",
   "the-book-of-boundaries": "./books/theBookOfBoundariesExpanded.ts",
   "the-book-of-joy-lasting-happiness-in-a-changing-world": "./books/theBookOfJoyLastingHappinessInAChangingWorldExpanded.ts",
   "the-book-of-the-discipline-vinaya-pitaka": "./books/theBookOfTheDisciplineVinayaPitakaExpanded.ts",
@@ -742,6 +749,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-four-foundations-of-mindfulness-in-plain-english": "./books/theFourFoundationsOfMindfulnessInPlainEnglishExpanded.ts",
   "the-four-noble-truths": "./books/theFourNobleTruthsExpanded.ts",
   "the-four-nutriments-of-life": "./books/theFourNutrimentsOfLifeExpanded.ts",
+  "the-four-pillars-of-investing": "./books/theFourPillarsOfInvestingExpanded.ts",
   "the-four-sublime-states-brahma-vihara": "./books/theFourSublimeStatesBrahmaViharaExpanded.ts",
   "the-gardener-and-the-carpenter-what-the-new-science-of-child": "./books/theGardenerAndTheCarpenterWhatTheNewScienceOfChildExpanded.ts",
   "the-gelug-kagyu-tradition-of-mahamudra": "./books/theGelugKagyuTraditionOfMahamudraExpanded.ts",
@@ -763,6 +771,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-humorous-approach": "./books/theHumorousApproachExpanded.ts",
   "the-image-a-guide-to-pseudo-events-in-america": "./books/theImageAGuideToPseudoEventsInAmericaExpanded.ts",
   "the-information-diet": "./books/theInformationDietExpanded.ts",
+  "the-intelligent-investor": "./books/theIntelligentInvestorExpanded.ts",
   "the-invisible-gorilla-how-our-intuitions-deceive-us": "./books/theInvisibleGorillaHowOurIntuitionsDeceiveUsExpanded.ts",
   "the-island-an-anthology-of-the-buddha-s-teachings-on-nibbana": "./books/theIslandAnAnthologyOfTheBuddhaSTeachingsOnNibbanaExpanded.ts",
   "the-itivuttaka-the-buddha-s-sayings": "./books/theItivuttakaTheBuddhaSSayingsExpanded.ts",
@@ -939,6 +948,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "unlearn-your-pain": "./books/unlearnYourPainExpanded.ts",
   "unleash-the-power-of-storytelling": "./books/unleashThePowerOfStorytellingExpanded.ts",
   "unmasking-the-face": "./books/unmaskingTheFaceExpanded.ts",
+  "unshakeable-your-financial-freedom-playbook": "./books/unshakeableYourFinancialFreedomPlaybookExpanded.ts",
   "untamed": "./books/untamedExpanded.ts",
   "untangled-guiding-teenage-girls-through-the-seven-transition": "./books/untangledGuidingTeenageGirlsThroughTheSevenTransitionExpanded.ts",
   "unwinding-anxiety": "./books/unwindingAnxietyExpanded.ts",
@@ -1698,6 +1708,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "a-random-walk-down-wall-street",
+    "title": "A Random Walk Down Wall Street",
+    "author": "Burton G. Malkiel",
+    "category": "Money & Investing",
+    "subcategory": "Investing & Asset Allocation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 1973,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Financial markets behave like complex ecological systems where prices instantly digest all known information into a random walk. Trying to outguess the collective crowd is a costly illusion; the real key to compounding wealth is owning the entire economy through low-cost index funds.",
+      "coreThesis": "Short-term stock price movements are inherently unpredictable because prices already reflect all known information. An investor's most reliable path to superior long-term wealth is capturing total market returns through low-cost, broadly diversified index funds while ruthlessly eliminating fees.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "A Random Walk Down Wall Street"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "a-simple-way-the-heart-of-the-practice",
     "title": "A Simple Way: The Heart of the Practice",
     "author": "Ajahn Munindo",
@@ -2149,6 +2194,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "all-about-asset-allocation",
+    "title": "All About Asset Allocation",
+    "author": "Richard A. Ferri",
+    "category": "Money & Investing",
+    "subcategory": "Investing & Asset Allocation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop trying to predict tomorrow's weather in the financial markets and start engineering an all-terrain vehicle built to thrive across every economic season. Rick Ferri reveals how asset allocation\\u2014not stock picking or market timing\\u2014drives virtually all your long-term investment success.",
+      "coreThesis": "Over 90 percent of investment return variability and portfolio safety is determined by how you split your capital across broad asset classes, not which individual securities you pick or when you try to time the market.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "All About Asset Allocation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -2846,6 +2926,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "asset-allocation-balancing-financial-risk",
+    "title": "Asset Allocation: Balancing Financial Risk",
+    "author": "Roger C. Gibson",
+    "category": "Money & Investing",
+    "subcategory": "Investing & Asset Allocation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 1989,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Wealth building is not an Olympic sprint to predict the weather; it is sound engineering. Roger C. Gibson reveals how combining distinct, imperfectly synchronized asset classes produces an investment vehicle with smoother rides and superior endurance than any single asset could achieve alone.",
+      "coreThesis": "Long-term investment success is dictated not by predicting market swings or picking winning individual stocks, but by engineering a disciplined asset allocation across non-correlated asset classes that balances growth potential with emotional endurance.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Asset Allocation: Balancing Financial Risk"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
       "Strategy",
       "Mental Models"
     ]
@@ -4879,6 +4994,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "choose-fi-your-blueprint-to-financial-independence",
+    "title": "Choose FI: Your Blueprint to Financial Independence",
+    "author": "Chris Mamula, Brad Barrett, Jonathan Mendonsa",
+    "category": "Money & Investing",
+    "subcategory": "Financial Independence & FIRE",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Financial Independence is not a grueling marathon reserved for Wall Street elites\\u2014it is an elegant, modular mechanical system anyone can build to reclaim total ownership over their time. By fine-tuning three core dials\\u2014spending deliberately, maximizing income, and investing passively\\u2014you construct a self-propelling flywheel that sets you free decades ahead of schedule.",
+      "coreThesis": "Financial independence is an engineered system of intentional habits, lifestyle optimization, and passive index investing that converts surplus income into permanent personal autonomy.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Choose FI: Your Blueprint to Financial Independence"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "chronicles-of-dhamma-historical-perspectives",
     "title": "Chronicles of Dhamma: Historical Perspectives",
     "author": "S.N. Goenka",
@@ -5118,6 +5268,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "common-stocks-and-uncommon-profits",
+    "title": "Common Stocks and Uncommon Profits",
+    "author": "Philip A. Fisher",
+    "category": "Money & Investing",
+    "subcategory": "Investing & Asset Allocation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1958,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Great investing works like identifying championship thoroughbreds rather than buying discounted junk at a flea market. Philip Fisher reveals how investigating a company's internal engine, management culture, and competitive moat delivers life-changing wealth over decades.",
+      "coreThesis": "Sustained, generational investment returns come from owning a small concentration of exceptionally managed companies with scalable markets and never selling them as long as their operational engine remains elite.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Common Stocks and Uncommon Profits"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
       "Strategy",
       "Mental Models"
     ]
@@ -17709,6 +17894,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "principles-for-navigating-big-debt-crises",
+    "title": "Principles for Navigating Big Debt Crises",
+    "author": "Ray Dalio",
+    "category": "Money & Investing",
+    "subcategory": "Investing & Asset Allocation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Debt crises seem like chaotic financial thunderstorms, but they actually follow strict, repeatable laws of physics. Once you master the hidden machine of credit, you can spot the warning signs and protect your life raft before the tidal wave hits.",
+      "coreThesis": "Debt cycles are not unpredictable accidents; they are mechanical cause-and-effect loops driven by human greed, shortsightedness, and the math of borrowing from our future selves.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Principles for Navigating Big Debt Crises"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "process-of-consciousness-according-to-abhidhamma",
     "title": "Process of Consciousness according to Abhidhamma",
     "author": "Dr. Mehm Tin Mon",
@@ -23648,6 +23868,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-bogleheads-guide-to-investing",
+    "title": "The Bogleheads' Guide to Investing",
+    "author": "Taylor Larimore, Mel Lindauer, Michael LeBoeuf",
+    "category": "Money & Investing",
+    "subcategory": "Investing & Asset Allocation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 115,
+    "publishedYear": 2006,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Wall Street wants you to treat investing like an exotic casino where brokers harvest the rake. The Bogleheads prove that building sovereign, lasting wealth requires doing the exact opposite: owning the entire productive economy at rock-bottom cost and leaving it alone.",
+      "coreThesis": "Successful investing is an exercise in cost minimization and emotional restraint: own the whole market through low-cost index funds, diversify across basic asset classes, and stay the course through all economic cycles.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Bogleheads' Guide to Investing"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-book-of-boundaries",
     "title": "The Book of Boundaries",
     "author": "Melissa Urban",
@@ -26934,6 +27189,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-four-pillars-of-investing",
+    "title": "The Four Pillars of Investing",
+    "author": "William J. Bernstein",
+    "category": "Money & Investing",
+    "subcategory": "Investing & Asset Allocation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2002,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Investing is not a lottery ticket or an elite guessing contest; it is an endurance marathon built on four unyielding pillars: Theory, History, Psychology, and Business. Master these four realities, cut out Wall Street's fee-extracting middlemen, and you secure genuine financial independence.",
+      "coreThesis": "Successful investing does not require outsmarting the market; it requires understanding economic theory, respecting financial history, mastering your own psychological weaknesses, and ruthlessly minimizing Wall Street's predatory fees through disciplined, diversified asset allocation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Four Pillars of Investing"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-four-sublime-states-brahma-vihara",
     "title": "The Four Sublime States: Brahma-Vihara",
     "author": "Nyanaponika Thera",
@@ -27663,6 +27953,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-intelligent-investor",
+    "title": "The Intelligent Investor",
+    "author": "Benjamin Graham",
+    "category": "Money & Investing",
+    "subcategory": "Investing & Asset Allocation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 100,
+    "publishedYear": 1949,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Real investing is not about outsmarting the casino; it is about building an unshakeable fortress against human folly and market turbulence. By treating shares as real business stakes and buying only with a generous safety margin, you master the quiet art of enduring wealth.",
+      "coreThesis": "Investment success is not a function of financial brilliance or forecasting ability, but of emotional control and insisting on a margin of safety when buying productive assets.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Intelligent Investor"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
       "Strategy",
       "Mental Models"
     ]
@@ -33813,6 +34138,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "unshakeable-your-financial-freedom-playbook",
+    "title": "Unshakeable: Your Financial Freedom Playbook",
+    "author": "Tony Robbins",
+    "category": "Money & Investing",
+    "subcategory": "Investing & Asset Allocation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stock market volatility is not an unpredictable storm out to sink you, but an engine of wealth creation once you understand its underlying physics. Unshakeable gives you the battle-tested rules, fiduciary filters, and psychological armor needed to thrive in any market climate.",
+      "coreThesis": "Financial peace of mind is not achieved by predicting market weather, but by building an antifragile portfolio and mastering your behavioral reflexes so that every crisis works in your favor.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Unshakeable: Your Financial Freedom Playbook"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
       "Strategy",
       "Mental Models"
     ]
