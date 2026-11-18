@@ -53,6 +53,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "arahattamagga-arahattaphala-the-path-to-arahantship": "./books/arahattamaggaArahattaphalaThePathToArahantshipExpanded.ts",
   "argumentation-and-debate-critical-thinking-for-reasoned-deci": "./books/argumentationAndDebateCriticalThinkingForReasonedDeciExpanded.ts",
   "atomic-habits": "./books/atomicHabitsExpanded.ts",
+  "attached-the-new-science-of-adult-attachment-and-how-it-can-": "./books/attachedTheNewScienceOfAdultAttachmentAndHowItCanExpanded.ts",
   "attacking-faulty-reasoning": "./books/attackingFaultyReasoningExpanded.ts",
   "attention-span": "./books/attentionSpanExpanded.ts",
   "awakening-the-mind-lightening-the-heart": "./books/awakeningTheMindLighteningTheHeartExpanded.ts",
@@ -191,6 +192,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "early-buddhist-oral-tradition-and-textual-transmission": "./books/earlyBuddhistOralTraditionAndTextualTransmissionExpanded.ts",
   "early-buddhist-theory-of-knowledge": "./books/earlyBuddhistTheoryOfKnowledgeExpanded.ts",
   "effortless-make-it-easier-to-do-what-matters-most": "./books/effortlessMakeItEasierToDoWhatMattersMostExpanded.ts",
+  "eight-dates-essential-conversations-for-a-lifetime-of-love": "./books/eightDatesEssentialConversationsForALifetimeOfLoveExpanded.ts",
   "eight-mindful-steps-to-happiness": "./books/eightMindfulStepsToHappinessExpanded.ts",
   "elastic-habits": "./books/elasticHabitsExpanded.ts",
   "emotional-agility": "./books/emotionalAgilityExpanded.ts",
@@ -239,6 +241,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "get-out-of-your-mind-and-into-your-life": "./books/getOutOfYourMindAndIntoYourLifeExpanded.ts",
   "get-the-truth-former-cia-officers-teach-you-how-to-persuade-": "./books/getTheTruthFormerCiaOfficersTeachYouHowToPersuadeExpanded.ts",
   "getting-past-no-negotiating-with-difficult-people": "./books/gettingPastNoNegotiatingWithDifficultPeopleExpanded.ts",
+  "getting-the-love-you-want-a-guide-for-couples": "./books/gettingTheLoveYouWantAGuideForCouplesExpanded.ts",
   "getting-things-done-the-art-of-stress-free-productivity": "./books/gettingThingsDoneTheArtOfStressFreeProductivityExpanded.ts",
   "getting-to-yes-negotiating-agreement-without-giving-in": "./books/gettingToYesNegotiatingAgreementWithoutGivingInExpanded.ts",
   "give-and-take-why-helping-others-drives-our-success": "./books/giveAndTakeWhyHelpingOthersDrivesOurSuccessExpanded.ts",
@@ -258,6 +261,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "heart-to-heart-a-conversational-guide-to-awakening": "./books/heartToHeartAConversationalGuideToAwakeningExpanded.ts",
   "heedfulness-the-deathless-path-of-the-dhammapada": "./books/heedfulnessTheDeathlessPathOfTheDhammapadaExpanded.ts",
   "hell-yeah-or-no": "./books/hellYeahOrNoExpanded.ts",
+  "hold-me-tight-seven-conversations-for-a-lifetime-of-love": "./books/holdMeTightSevenConversationsForALifetimeOfLoveExpanded.ts",
   "honoring-the-self": "./books/honoringTheSelfExpanded.ts",
   "hooked-how-to-build-habit-forming-products": "./books/hookedHowToBuildHabitFormingProductsExpanded.ts",
   "hope-and-help-for-your-nerves": "./books/hopeAndHelpForYourNervesExpanded.ts",
@@ -336,6 +340,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "lost-art-of-listening-how-learning-to-listen-can-improve-rel": "./books/lostArtOfListeningHowLearningToListenCanImproveRelExpanded.ts",
   "lost-connections-uncovering-the-real-causes-of-depression": "./books/lostConnectionsUncoveringTheRealCausesOfDepressionExpanded.ts",
   "louder-than-words-take-your-career-from-average-to-exception": "./books/louderThanWordsTakeYourCareerFromAverageToExceptionExpanded.ts",
+  "love-sense-the-revolutionary-new-science-of-romantic-relatio": "./books/loveSenseTheRevolutionaryNewScienceOfRomanticRelatioExpanded.ts",
   "loving-kindness-in-plain-english": "./books/lovingKindnessInPlainEnglishExpanded.ts",
   "maha-kassapa-father-of-the-sangha": "./books/mahaKassapaFatherOfTheSanghaExpanded.ts",
   "maha-moggallana-master-of-psychic-power": "./books/mahaMoggallanaMasterOfPsychicPowerExpanded.ts",
@@ -357,6 +362,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "manual-of-the-path-to-higher-knowledge-patthanuddesa-dipani": "./books/manualOfThePathToHigherKnowledgePatthanuddesaDipaniExpanded.ts",
   "manual-of-the-supreme-man-uttamapurisa-dipani": "./books/manualOfTheSupremeManUttamapurisaDipaniExpanded.ts",
   "many-ways-to-nirvana-reflections-on-happiness": "./books/manyWaysToNirvanaReflectionsOnHappinessExpanded.ts",
+  "mating-in-captivity-unlocking-erotic-intelligence": "./books/matingInCaptivityUnlockingEroticIntelligenceExpanded.ts",
   "meditation-instructions-for-intensive-practice": "./books/meditationInstructionsForIntensivePracticeExpanded.ts",
   "meditation-now-inner-peace-through-inner-wisdom": "./books/meditationNowInnerPeaceThroughInnerWisdomExpanded.ts",
   "meditation-on-perception-ten-healing-practices": "./books/meditationOnPerceptionTenHealingPracticesExpanded.ts",
@@ -579,6 +585,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-22-immutable-laws-of-marketing": "./books/the22ImmutableLawsOfMarketingExpanded.ts",
   "the-2-hour-cocktail-party-how-to-build-big-relationships-wit": "./books/the2HourCocktailPartyHowToBuildBigRelationshipsWitExpanded.ts",
   "the-48-laws-of-power": "./books/the48LawsOfPowerExpanded.ts",
+  "the-5-love-languages-the-secret-to-love-that-lasts": "./books/the5LoveLanguagesTheSecretToLoveThatLastsExpanded.ts",
   "the-5-second-rule": "./books/the5SecondRuleExpanded.ts",
   "the-80-20-principle": "./books/the8020PrincipleExpanded.ts",
   "the-accountability-manifesto": "./books/theAccountabilityManifestoExpanded.ts",
@@ -799,6 +806,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-selfish-gene": "./books/theSelfishGeneExpanded.ts",
   "the-seven-basic-plots-why-we-tell-stories": "./books/theSevenBasicPlotsWhyWeTellStoriesExpanded.ts",
   "the-seven-factors-of-enlightenment-bojjhanga": "./books/theSevenFactorsOfEnlightenmentBojjhangaExpanded.ts",
+  "the-seven-principles-for-making-marriage-work": "./books/theSevenPrinciplesForMakingMarriageWorkExpanded.ts",
   "the-seven-sins-of-memory": "./books/theSevenSinsOfMemoryExpanded.ts",
   "the-seven-stages-of-purification": "./books/theSevenStagesOfPurificationExpanded.ts",
   "the-shallows-what-the-internet-is-doing-to-our-brains": "./books/theShallowsWhatTheInternetIsDoingToOurBrainsExpanded.ts",
@@ -814,6 +822,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-soulful-art-of-persuasion": "./books/theSoulfulArtOfPersuasionExpanded.ts",
   "the-sound-of-silence-selected-teachings": "./books/theSoundOfSilenceSelectedTeachingsExpanded.ts",
   "the-spectrum-of-buddhism": "./books/theSpectrumOfBuddhismExpanded.ts",
+  "the-state-of-affairs-rethinking-infidelity": "./books/theStateOfAffairsRethinkingInfidelityExpanded.ts",
   "the-state-of-mind-called-beautiful": "./books/theStateOfMindCalledBeautifulExpanded.ts",
   "the-status-game-on-social-position-and-how-we-use-it": "./books/theStatusGameOnSocialPositionAndHowWeUseItExpanded.ts",
   "the-storyteller-s-secret": "./books/theStorytellerSSecretExpanded.ts",
@@ -918,6 +927,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "wim-hof-the-wim-hof-method": "./books/wimHofTheWimHofMethodExpanded.ts",
   "win-every-argument-the-art-of-debating-persuading-and-public": "./books/winEveryArgumentTheArtOfDebatingPersuadingAndPublicExpanded.ts",
   "winning-body-language": "./books/winningBodyLanguageExpanded.ts",
+  "wired-for-love": "./books/wiredForLoveExpanded.ts",
   "wired-for-story-the-writer-s-guide-to-using-brain-science-to": "./books/wiredForStoryTheWriterSGuideToUsingBrainScienceToExpanded.ts",
   "wisdom-develops-samadhi": "./books/wisdomDevelopsSamadhiExpanded.ts",
   "wisdom-wide-and-deep-mastering-jhana-and-vipassana": "./books/wisdomWideAndDeepMasteringJhanaAndVipassanaExpanded.ts",
@@ -2787,6 +2797,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Productivity",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "attached-the-new-science-of-adult-attachment-and-how-it-can-",
+    "title": "Attached: The New Science of Adult Attachment and How It Can Help You Find\\u2014and Keep\\u2014Love",
+    "author": "Amir Levine & Rachel Heller",
+    "category": "Communication",
+    "subcategory": "Relationships & Love",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Romantic turbulence is not a character defect\\u2014it is biological circuitry. By decoding the hidden mechanics of adult attachment, you can stop fighting your neurobiology and build lasting intimacy with scientific clarity.",
+      "coreThesis": "Human attachment needs are hardwired biological imperatives rather than personal weaknesses; true emotional independence is only achieved from the platform of a dependable, secure connection.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Attached: The New Science of Adult Attachment and How It Can Help You Find\\u2014and Keep\\u2014Love"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -7615,6 +7660,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "eight-dates-essential-conversations-for-a-lifetime-of-love",
+    "title": "Eight Dates: Essential Conversations for a Lifetime of Love",
+    "author": "John Gottman & Julie Schwartz Gottman",
+    "category": "Communication",
+    "subcategory": "Relationships & Love",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Groundbreaking relationship science reveals that love is not a static stroke of luck, but an ongoing scientific experiment fueled by deliberate curiosity. Eight structured, distraction-free conversations show you how to calibrate the vital mechanics of your bond for life.",
+      "coreThesis": "A lasting relationship is not an effortless emotional state, but an intentional, lifelong conversation maintained through relentless curiosity, mutual attunement, and psychological safety.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Eight Dates: Essential Conversations for a Lifetime of Love"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "eight-mindful-steps-to-happiness",
     "title": "Eight Mindful Steps to Happiness",
     "author": "Bhante Henepola Gunaratana",
@@ -9292,6 +9372,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "getting-the-love-you-want-a-guide-for-couples",
+    "title": "Getting the Love You Want: A Guide for Couples",
+    "author": "Harville Hendrix & Helen LaKelly Hunt",
+    "category": "Communication",
+    "subcategory": "Relationships & Love",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 1988,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Romantic attraction isn't random chemistry\\u2014it is a precision guidance system designed by your subconscious to find someone who matches your childhood emotional blueprint. When friction sparks, it is not proof you picked the wrong partner, but the hidden engine trying to heal your oldest wounds.",
+      "coreThesis": "Romantic attraction is an unconscious homing beacon targeting the exact emotional profile needed to heal childhood wounds; intentional dialogue transforms the resulting conflict into profound, enduring connection.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Getting the Love You Want: A Guide for Couples"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "getting-things-done-the-art-of-stress-free-productivity",
     "title": "Getting Things Done: The Art of Stress-Free Productivity",
     "author": "David Allen",
@@ -9952,6 +10067,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "hold-me-tight-seven-conversations-for-a-lifetime-of-love",
+    "title": "Hold Me Tight: Seven Conversations for a Lifetime of Love",
+    "author": "Sue Johnson",
+    "category": "Communication",
+    "subcategory": "Relationships & Love",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Romantic conflict is not a flaw in communication technique; it is a neurological distress signal triggered by threatened connection. By decoding the hidden attachment feedback loops that hijack our brains, partners can shift from hostile defense cycles into deep, enduring security.",
+      "coreThesis": "Adult romantic love is an innate mammalian survival attachment system, and relationship distress is an automatic panic response to emotional disconnection that can be repaired through vulnerable, responsive connection.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Hold Me Tight: Seven Conversations for a Lifetime of Love"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -12684,6 +12834,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "love-sense-the-revolutionary-new-science-of-romantic-relatio",
+    "title": "Love Sense: The Revolutionary New Science of Romantic Relationships",
+    "author": "Sue Johnson",
+    "category": "Communication",
+    "subcategory": "Relationships & Love",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Romantic love is neither an accidental chemical high nor a fragile mystery; it is an exquisitely designed mammalian survival system hardwired into human neurobiology. By mastering the clear attachment signals beneath everyday friction, partners can diagnose their destructive cycles and build lifelong resilience together.",
+      "coreThesis": "Human adults are biologically hardwired for emotional attachment, meaning a dependable, responsive romantic bond is not an optional luxury or sign of weakness, but a foundational survival requirement that stabilizes our brain, body, and nervous system.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Love Sense: The Revolutionary New Science of Romantic Relationships"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "loving-kindness-in-plain-english",
     "title": "Loving-Kindness in Plain English",
     "author": "Bhante Henepola Gunaratana",
@@ -13413,6 +13598,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "mating-in-captivity-unlocking-erotic-intelligence",
+    "title": "Mating in Captivity: Unlocking Erotic Intelligence",
+    "author": "Esther Perel",
+    "category": "Communication",
+    "subcategory": "Relationships & Love",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2006,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Love seeks comfort, safety, and closeness, but desire demands mystery, unpredictability, and space. Unlocking erotic intelligence means mastering the mechanical balance between the warmth of home and the wild spark of the unknown.",
+      "coreThesis": "Desire does not thrive on complete safety and psychological fusion; it requires separateness, mystery, and the deliberate creation of space between two autonomous individuals.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mating in Captivity: Unlocking Erotic Intelligence"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -21174,6 +21394,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-5-love-languages-the-secret-to-love-that-lasts",
+    "title": "The 5 Love Languages: The Secret to Love that Lasts",
+    "author": "Gary Chapman",
+    "category": "Communication",
+    "subcategory": "Relationships & Love",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 1992,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Human relationships do not fail from a lack of love, but from a fatal translation error. By decoding your partner's distinct emotional operating system, you can stop broadcasting signals into empty static and start fueling real connection.",
+      "coreThesis": "Emotional connection thrives not on the volume of effort expended, but on transmitting care in the recipient's native psychological dialect.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The 5 Love Languages: The Secret to Love that Lasts"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-5-second-rule",
     "title": "The 5 Second Rule",
     "author": "Mel Robbins",
@@ -28864,6 +29119,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-seven-principles-for-making-marriage-work",
+    "title": "The Seven Principles for Making Marriage Work",
+    "author": "John M. Gottman & Nan Silver",
+    "category": "Communication",
+    "subcategory": "Relationships & Love",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 1999,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "What if marital success is not an inscrutable mystery, but a measurable biological and behavioral system with clear rules? Decades of laboratory data prove that enduring love hinges on micro-moments of emotional friendship and structural repair, not conflict-free perfection.",
+      "coreThesis": "Lasting love is built on the mundane architecture of daily emotional connection and mutual respect, which creates an immunological buffer against inevitable perpetual conflicts.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Seven Principles for Making Marriage Work"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-seven-sins-of-memory",
     "title": "The Seven Sins of Memory",
     "author": "Daniel L. Schacter",
@@ -29383,6 +29673,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-state-of-affairs-rethinking-infidelity",
+    "title": "The State of Affairs: Rethinking Infidelity",
+    "author": "Esther Perel",
+    "category": "Communication",
+    "subcategory": "Relationships & Love",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Infidelity is not merely a symptom of a broken marriage; it is a profound diagnostic window into the human condition, desire, and identity. Esther Perel pulls back the emotional curtain to show how couples can transform relational catastrophe into honest psychological reinvention.",
+      "coreThesis": "Affairs are rarely about finding another person; they are about reconnecting with a lost self, exposing the hidden fault lines of modern romanticism and offering an unexpected catalyst for systemic relationship redesign.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The State of Affairs: Rethinking Infidelity"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -33011,6 +33336,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Winning Body Language"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "wired-for-love",
+    "title": "Wired for Love",
+    "author": "Stan Tatkin",
+    "category": "Communication",
+    "subcategory": "Relationships & Love",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Human relationships do not run on good intentions alone; they run on neurobiology. By treating your partnership like an interconnected biological control circuit, you can defuse chronic threat alarms and engineer an unbreakable sanctuary of mutual security.",
+      "coreThesis": "A thriving relationship is a shared biological survival pact where partners act as dedicated co-regulators of each other's nervous systems.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Wired for Love"
     },
     "reflectionExercises": [],
     "actionItems": [],
