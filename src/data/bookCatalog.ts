@@ -123,6 +123,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "confession-of-a-buddhist-atheist": "./books/confessionOfABuddhistAtheistExpanded.ts",
   "confessions-of-a-public-speaker": "./books/confessionsOfAPublicSpeakerExpanded.ts",
   "connecting-across-differences": "./books/connectingAcrossDifferencesExpanded.ts",
+  "conscious-uncoupling-5-steps-to-living-happily-even-after": "./books/consciousUncoupling5StepsToLivingHappilyEvenAfterExpanded.ts",
   "contagious-why-things-catch-on": "./books/contagiousWhyThingsCatchOnExpanded.ts",
   "contemplation-of-dhamma-the-fourth-foundation": "./books/contemplationOfDhammaTheFourthFoundationExpanded.ts",
   "contemplation-of-feeling-the-second-foundation": "./books/contemplationOfFeelingTheSecondFoundationExpanded.ts",
@@ -241,6 +242,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "get-out-of-your-mind-and-into-your-life": "./books/getOutOfYourMindAndIntoYourLifeExpanded.ts",
   "get-the-truth-former-cia-officers-teach-you-how-to-persuade-": "./books/getTheTruthFormerCiaOfficersTeachYouHowToPersuadeExpanded.ts",
   "getting-past-no-negotiating-with-difficult-people": "./books/gettingPastNoNegotiatingWithDifficultPeopleExpanded.ts",
+  "getting-past-your-breakup": "./books/gettingPastYourBreakupExpanded.ts",
   "getting-the-love-you-want-a-guide-for-couples": "./books/gettingTheLoveYouWantAGuideForCouplesExpanded.ts",
   "getting-things-done-the-art-of-stress-free-productivity": "./books/gettingThingsDoneTheArtOfStressFreeProductivityExpanded.ts",
   "getting-to-yes-negotiating-agreement-without-giving-in": "./books/gettingToYesNegotiatingAgreementWithoutGivingInExpanded.ts",
@@ -252,6 +254,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "good-reasons-for-better-arguments": "./books/goodReasonsForBetterArgumentsExpanded.ts",
   "great-disciples-of-the-buddha-their-lives-and-legacy": "./books/greatDisciplesOfTheBuddhaTheirLivesAndLegacyExpanded.ts",
   "guide-through-the-abhidhamma-pitaka": "./books/guideThroughTheAbhidhammaPitakaExpanded.ts",
+  "he-s-just-not-that-into-you": "./books/heSJustNotThatIntoYouExpanded.ts",
   "he-understanding-masculine-psychology": "./books/heUnderstandingMasculinePsychologyExpanded.ts",
   "head-and-heart-together-essays-on-the-buddhist-path": "./books/headAndHeartTogetherEssaysOnTheBuddhistPathExpanded.ts",
   "healing-anger-the-power-of-patience": "./books/healingAngerThePowerOfPatienceExpanded.ts",
@@ -303,6 +306,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "intuitive-awareness-living-in-the-unconditioned": "./books/intuitiveAwarenessLivingInTheUnconditionedExpanded.ts",
   "investigating-the-dhamma-a-collection-of-essays": "./books/investigatingTheDhammaACollectionOfEssaysExpanded.ts",
   "invisible-influence-the-hidden-forces-that-shape-behavior": "./books/invisibleInfluenceTheHiddenForcesThatShapeBehaviorExpanded.ts",
+  "it-s-called-a-breakup-because-it-s-broken": "./books/itSCalledABreakupBecauseItSBrokenExpanded.ts",
   "journey-to-mindfulness-autobiography": "./books/journeyToMindfulnessAutobiographyExpanded.ts",
   "just-listen-discover-the-secret-to-getting-through-to-absolu": "./books/justListenDiscoverTheSecretToGettingThroughToAbsoluExpanded.ts",
   "just-one-more-breath-teachings-on-meditation-and-life": "./books/justOneMoreBreathTeachingsOnMeditationAndLifeExpanded.ts",
@@ -399,6 +403,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "mini-habits": "./books/miniHabitsExpanded.ts",
   "misbehaving-the-making-of-behavioral-economics": "./books/misbehavingTheMakingOfBehavioralEconomicsExpanded.ts",
   "mistakes-were-made-but-not-by-me": "./books/mistakesWereMadeButNotByMeExpanded.ts",
+  "mom-s-house-dad-s-house-a-complete-guide-for-parents-who-are": "./books/momSHouseDadSHouseACompleteGuideForParentsWhoAreExpanded.ts",
   "monetizing-innovation": "./books/monetizingInnovationExpanded.ts",
   "moonwalking-with-einstein": "./books/moonwalkingWithEinsteinExpanded.ts",
   "my-land-and-my-people-the-original-autobiography": "./books/myLandAndMyPeopleTheOriginalAutobiographyExpanded.ts",
@@ -475,6 +480,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "realizing-the-truth-through-sensations": "./books/realizingTheTruthThroughSensationsExpanded.ts",
   "rebirth-as-doctrine-and-experience-essays-and-case-studies": "./books/rebirthAsDoctrineAndExperienceEssaysAndCaseStudiesExpanded.ts",
   "rebirth-in-early-buddhism-and-current-research": "./books/rebirthInEarlyBuddhismAndCurrentResearchExpanded.ts",
+  "rebuilding-when-your-relationship-ends": "./books/rebuildingWhenYourRelationshipEndsExpanded.ts",
   "reclaiming-conversation-the-power-of-talk-in-a-digital-age": "./books/reclaimingConversationThePowerOfTalkInADigitalAgeExpanded.ts",
   "reflections-on-the-dhamma": "./books/reflectionsOnTheDhammaExpanded.ts",
   "reinventing-you": "./books/reinventingYouExpanded.ts",
@@ -539,6 +545,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "speak-peace-in-a-world-of-conflict": "./books/speakPeaceInAWorldOfConflictExpanded.ts",
   "spent-sex-evolution-and-consumer-behavior": "./books/spentSexEvolutionAndConsumerBehaviorExpanded.ts",
   "split-second-persuasion": "./books/splitSecondPersuasionExpanded.ts",
+  "splitting-protecting-yourself-while-divorcing-someone-with-b": "./books/splittingProtectingYourselfWhileDivorcingSomeoneWithBExpanded.ts",
   "spy-the-lie-former-cia-officers-teach-you-how-to-detect-dece": "./books/spyTheLieFormerCiaOfficersTeachYouHowToDetectDeceExpanded.ts",
   "stages-of-meditation-commentary-on-the-bhavanakrama": "./books/stagesOfMeditationCommentaryOnTheBhavanakramaExpanded.ts",
   "stand-up-comedy-the-book": "./books/standUpComedyTheBookExpanded.ts",
@@ -733,6 +740,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-invisible-gorilla-how-our-intuitions-deceive-us": "./books/theInvisibleGorillaHowOurIntuitionsDeceiveUsExpanded.ts",
   "the-island-an-anthology-of-the-buddha-s-teachings-on-nibbana": "./books/theIslandAnAnthologyOfTheBuddhaSTeachingsOnNibbanaExpanded.ts",
   "the-itivuttaka-the-buddha-s-sayings": "./books/theItivuttakaTheBuddhaSSayingsExpanded.ts",
+  "the-journey-from-abandonment-to-healing": "./books/theJourneyFromAbandonmentToHealingExpanded.ts",
   "the-joy-of-living-and-dying-in-peace": "./books/theJoyOfLivingAndDyingInPeaceExpanded.ts",
   "the-kalama-sutta-the-buddha-s-charter-of-free-inquiry": "./books/theKalamaSuttaTheBuddhaSCharterOfFreeInquiryExpanded.ts",
   "the-karma-of-questions-essays-on-the-buddhist-path": "./books/theKarmaOfQuestionsEssaysOnTheBuddhistPathExpanded.ts",
@@ -838,6 +846,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-three-basic-facts-of-existence-non-self-anatta": "./books/theThreeBasicFactsOfExistenceNonSelfAnattaExpanded.ts",
   "the-three-basic-facts-of-existence-suffering-dukkha": "./books/theThreeBasicFactsOfExistenceSufferingDukkhaExpanded.ts",
   "the-tree-of-enlightenment": "./books/theTreeOfEnlightenmentExpanded.ts",
+  "the-truth-about-children-and-divorce": "./books/theTruthAboutChildrenAndDivorceExpanded.ts",
   "the-truth-detector-an-ex-fbi-agent-s-guide-for-getting-peopl": "./books/theTruthDetectorAnExFbiAgentSGuideForGettingPeoplExpanded.ts",
   "the-udana-inspired-utterances-of-the-buddha": "./books/theUdanaInspiredUtterancesOfTheBuddhaExpanded.ts",
   "the-universe-in-a-single-atom-convergence-of-science-and-spirituality": "./books/theUniverseInASingleAtomConvergenceOfScienceAndSpiritualityExpanded.ts",
@@ -875,6 +884,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "to-light-a-fire-a-guide-to-practice": "./books/toLightAFireAGuideToPracticeExpanded.ts",
   "to-sell-is-human-the-surprising-truth-about-moving-others": "./books/toSellIsHumanTheSurprisingTruthAboutMovingOthersExpanded.ts",
   "to-the-last-breath-dhamma-talks-on-illness-and-death": "./books/toTheLastBreathDhammaTalksOnIllnessAndDeathExpanded.ts",
+  "too-good-to-leave-too-bad-to-stay": "./books/tooGoodToLeaveTooBadToStayExpanded.ts",
   "touching-peace-practicing-the-art-of-mindful-living": "./books/touchingPeacePracticingTheArtOfMindfulLivingExpanded.ts",
   "toward-a-true-kinship-of-faiths": "./books/towardATrueKinshipOfFaithsExpanded.ts",
   "toward-eternal-peace-discourse-on-nibbana": "./books/towardEternalPeaceDiscourseOnNibbanaExpanded.ts",
@@ -5247,6 +5257,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "conscious-uncoupling-5-steps-to-living-happily-even-after",
+    "title": "Conscious Uncoupling: 5 Steps to Living Happily Even After",
+    "author": "Katherine Woodward Thomas",
+    "category": "Communication",
+    "subcategory": "Conflict Resolution",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When a partnership ends, our biological fight-or-flight reflexes urge us toward scorched-earth conflict. Conscious Uncoupling provides a systematic engineering blueprint to defuse that destructive circuit, transform acute grief into radical self-insight, and redesign the relationship into a healthy, cooperative post-romantic alliance.",
+      "coreThesis": "A breakup is not a moral failure to be punished through blame, but a critical developmental transition that can be navigated with conscious emotional regulation, self-accountability, and mutual goodwill.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Conscious Uncoupling: 5 Steps to Living Happily Even After"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "contagious-why-things-catch-on",
     "title": "Contagious: Why Things Catch On",
     "author": "Jonah Berger",
@@ -9372,6 +9417,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "getting-past-your-breakup",
+    "title": "Getting Past Your Breakup",
+    "author": "Susan J. Elliott",
+    "category": "Communication",
+    "subcategory": "Conflict Resolution",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2009,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When a relationship collapses, your brain experiences acute chemical withdrawal and systemic disruption. This field guide provides an exact, behavioral blueprint to halt the spiral, recalibrate your internal circuitry, and convert heartbreak into your greatest life upgrade.",
+      "coreThesis": "A breakup is not a failure of character or a catastrophic dead end; it is a vital structural diagnostic that exposes your boundary deficits and offers a systematic window to rebuild genuine self-worth.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Getting Past Your Breakup"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "getting-the-love-you-want-a-guide-for-couples",
     "title": "Getting the Love You Want: A Guide for Couples",
     "author": "Harville Hendrix & Helen LaKelly Hunt",
@@ -9752,6 +9832,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "he-s-just-not-that-into-you",
+    "title": "He's Just Not That Into You",
+    "author": "Greg Behrendt & Liz Tuccillo",
+    "category": "Communication",
+    "subcategory": "Conflict Resolution",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop deciphering mixed signals like cryptic hieroglyphics and start treating romantic interest like a green traffic light. If a partner wants to be with you, their actions make the road completely clear; if they don't, indecision is your answer.",
+      "coreThesis": "A person who truly desires your company will consistently overcome barriers to pursue and keep you. When you have to invent excuses to explain their lack of effort, their inaction is already your answer.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "He's Just Not That Into You"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -11535,6 +11650,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "it-s-called-a-breakup-because-it-s-broken",
+    "title": "It's Called a Breakup Because It's Broken",
+    "author": "Greg Behrendt & Amiira Ruotola-Behrendt",
+    "category": "Communication",
+    "subcategory": "Conflict Resolution",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 2005,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When an engine throws a rod, turning the key harder will not fix the mechanical disaster. This book treats post-relationship grief like a malfunctioning behavioral feedback loop, giving you the operational circuit-breakers needed to shut down emotional leakage and rebuild sovereign vitality.",
+      "coreThesis": "A breakup is not an ambiguous puzzle waiting to be solved; it is conclusive proof of structural collapse that demands an immediate, disciplined circuit breaker to restore personal agency.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "It's Called a Breakup Because It's Broken"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -14897,6 +15047,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "mom-s-house-dad-s-house-a-complete-guide-for-parents-who-are",
+    "title": "Mom\\u2019s House, Dad\\u2019s House: A Complete Guide for Parents Who Are Separated, Divorced, or Remarried",
+    "author": "Isolina Ricci",
+    "category": "Communication",
+    "subcategory": "Conflict Resolution",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 90,
+    "publishedYear": 1997,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Divorce does not terminate a family system; it reorganizes a single headquarters into a two-campus corporate partnership. By trading emotional grievance for businesslike protocols, parents can run calm, highly synchronized dual-household operations without courtroom warfare.",
+      "coreThesis": "Separation is not the destruction of a family but the administrative redesign of a shared enterprise into two autonomous, cooperating households governed by businesslike boundaries.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mom\\u2019s House, Dad\\u2019s House: A Complete Guide for Parents Who Are Separated, Divorced, or Remarried"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "monetizing-innovation",
     "title": "Monetizing Innovation",
     "author": "Madhavan Ramanujam & Georg Tacke",
@@ -17553,6 +17738,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "rebuilding-when-your-relationship-ends",
+    "title": "Rebuilding: When Your Relationship Ends",
+    "author": "Bruce Fisher & Robert Alberti",
+    "category": "Communication",
+    "subcategory": "Conflict Resolution",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 100,
+    "publishedYear": 1981,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When a long-term relationship shatters, the aftermath feels like total seismic collapse. This classic manual reveals that grief is not a chaotic spiral, but an orderly climb up a nineteen-step mountain toward psychological independence.",
+      "coreThesis": "A breakup is not a catastrophic system error, but an orderly reconstruction process where untangling from a partner builds autonomous self-worth.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Rebuilding: When Your Relationship Ends"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "reclaiming-conversation-the-power-of-talk-in-a-digital-age",
     "title": "Reclaiming Conversation: The Power of Talk in a Digital Age",
     "author": "Sherry Turkle",
@@ -19781,6 +20001,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "splitting-protecting-yourself-while-divorcing-someone-with-b",
+    "title": "Splitting: Protecting Yourself While Divorcing Someone with Borderline or Narcissistic Personality Disorder",
+    "author": "Bill Eddy & Randi Kreger",
+    "category": "Communication",
+    "subcategory": "Conflict Resolution",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When high-conflict personalities enter family court, ordinary disputes transform into asymmetric psychological warfare where charm masks chaos and false narratives weaponize the legal system. This definitive tactical guide reveals the behavioral blueprints of borderline and narcissistic dynamics, equipping you with the empirical tools to dismantle distortions, protect assets, and exit the storm intact.",
+      "coreThesis": "High-conflict divorce is driven by unconscious psychological defenses that externalize internal shame through systemic blame and legal weaponization; surviving it requires replacing emotional counterattacks with forensic documentation, airtight boundaries, and disciplined, low-contact communication.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Splitting: Protecting Yourself While Divorcing Someone with Borderline or Narcissistic Personality Disorder"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -26568,6 +26823,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-journey-from-abandonment-to-healing",
+    "title": "The Journey from Abandonment to Healing",
+    "author": "Susan Anderson",
+    "category": "Communication",
+    "subcategory": "Conflict Resolution",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2000,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Heartbreak is not merely an emotional setback; it is a primal neurological shockwave that triggers ancient survival circuitry. Susan Anderson reveals the systematic mechanics of abandonment grief and provides an exact operational toolkit to convert acute emotional devastation into radical personal autonomy.",
+      "coreThesis": "Abandonment triggers hardwired primal panic that naturally collapses into self-blame, but systematically navigating its predictable neurological stages transforms catastrophic loss into unshakeable self-reliance.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Journey from Abandonment to Healing"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-joy-of-living-and-dying-in-peace",
     "title": "The Joy of Living and Dying in Peace",
     "author": "Dalai Lama",
@@ -30237,6 +30527,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-truth-about-children-and-divorce",
+    "title": "The Truth About Children and Divorce",
+    "author": "Robert E. Emery",
+    "category": "Communication",
+    "subcategory": "Parenting & Family",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Divorce is an intense mechanical reorganization of a family system, where unmanaged adult grief masquerades as toxic conflict. By separating raw spousal emotions from executive parenting duties, adults can protect family stability and ensure everyone emerges resilient.",
+      "coreThesis": "The true damage of divorce stems not from the restructuring of the household, but from ongoing interparental hostility driven by unacknowledged grief. Lasting resilience occurs when adults build rigid boundaries between their expired romantic partnership and their ongoing shared parental duties.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Truth About Children and Divorce"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-truth-detector-an-ex-fbi-agent-s-guide-for-getting-peopl",
     "title": "The Truth Detector: An Ex-FBI Agent\\u2019s Guide for Getting People to Reveal the Truth",
     "author": "Jack Schafer",
@@ -31524,6 +31849,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "too-good-to-leave-too-bad-to-stay",
+    "title": "Too Good to Leave, Too Bad to Stay",
+    "author": "Mira Kirshenbaum",
+    "category": "Communication",
+    "subcategory": "Conflict Resolution",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 150,
+    "publishedYear": 1996,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop spinning your wheels in the agonizing gray zone of relationship ambivalence. Mira Kirshenbaum delivers an engineering-grade diagnostic checklist that cuts through mental fog to reveal whether your partnership has a viable future or is fundamentally beyond repair.",
+      "coreThesis": "Chronic relationship ambivalence cannot be cured by pros-and-cons lists; it requires systematic diagnostic stress tests that identify whether the partnership possesses the baseline structural health needed to thrive.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Too Good to Leave, Too Bad to Stay"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
