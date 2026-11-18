@@ -277,6 +277,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "how-to-see-yourself-as-you-really-are": "./books/howToSeeYourselfAsYouReallyAreExpanded.ts",
   "how-to-spot-a-liar": "./books/howToSpotALiarExpanded.ts",
   "how-to-take-smart-notes": "./books/howToTakeSmartNotesExpanded.ts",
+  "how-to-talk-so-kids-will-listen-listen-so-kids-will-talk": "./books/howToTalkSoKidsWillListenListenSoKidsWillTalkExpanded.ts",
   "how-to-win-any-argument": "./books/howToWinAnyArgumentExpanded.ts",
   "humble-inquiry-the-gentle-art-of-asking-instead-of-telling": "./books/humbleInquiryTheGentleArtOfAskingInsteadOfTellingExpanded.ts",
   "humor-seriously-why-humor-is-a-secret-weapon-in-business-and": "./books/humorSeriouslyWhyHumorIsASecretWeaponInBusinessAndExpanded.ts",
@@ -414,6 +415,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "never-split-the-difference-negotiating-as-if-your-life-depen": "./books/neverSplitTheDifferenceNegotiatingAsIfYourLifeDepenExpanded.ts",
   "no-ajahn-chah-reflections-of-a-master": "./books/noAjahnChahReflectionsOfAMasterExpanded.ts",
   "no-bad-parts-healing-trauma-and-restoring-wholeness-with-the": "./books/noBadPartsHealingTraumaAndRestoringWholenessWithTheExpanded.ts",
+  "no-drama-discipline": "./books/noDramaDisciplineExpanded.ts",
   "no-hard-feelings-the-secret-power-of-embracing-emotions-at-w": "./books/noHardFeelingsTheSecretPowerOfEmbracingEmotionsAtWExpanded.ts",
   "no-inner-core-an-introduction-to-the-doctrine-of-anatta": "./books/noInnerCoreAnIntroductionToTheDoctrineOfAnattaExpanded.ts",
   "no-more-mr-nice-guy": "./books/noMoreMrNiceGuyExpanded.ts",
@@ -442,6 +444,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "owning-your-own-shadow": "./books/owningYourOwnShadowExpanded.ts",
   "pali-buddhist-review-anthologies": "./books/paliBuddhistReviewAnthologiesExpanded.ts",
   "parami-ways-to-cross-life-s-floats": "./books/paramiWaysToCrossLifeSFloatsExpanded.ts",
+  "parenting-from-the-inside-out": "./books/parentingFromTheInsideOutExpanded.ts",
   "patthana-the-great-book-of-conditional-relations": "./books/patthanaTheGreatBookOfConditionalRelationsExpanded.ts",
   "peace-beyond-suffering": "./books/peaceBeyondSufferingExpanded.ts",
   "peace-is-a-dynamic-process": "./books/peaceIsADynamicProcessExpanded.ts",
@@ -521,10 +524,12 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "she-understanding-feminine-psychology": "./books/sheUnderstandingFemininePsychologyExpanded.ts",
   "show-your-work-10-ways-to-share-your-creativity-and-get-disc": "./books/showYourWork10WaysToShareYourCreativityAndGetDiscExpanded.ts",
   "show-your-work": "./books/showYourWorkExpanded.ts",
+  "siblings-without-rivalry": "./books/siblingsWithoutRivalryExpanded.ts",
   "signals-how-everyday-signs-reveal-your-unspoken-thoughts": "./books/signalsHowEverydaySignsRevealYourUnspokenThoughtsExpanded.ts",
   "silence-the-power-of-quiet-in-a-world-full-of-noise": "./books/silenceThePowerOfQuietInAWorldFullOfNoiseExpanded.ts",
   "silent-rain-collected-dhamma-talks": "./books/silentRainCollectedDhammaTalksExpanded.ts",
   "simple-teachings-on-higher-truths": "./books/simpleTeachingsOnHigherTruthsExpanded.ts",
+  "simplicity-parenting-using-the-extraordinary-power-of-less-t": "./books/simplicityParentingUsingTheExtraordinaryPowerOfLessTExpanded.ts",
   "sing-your-story": "./books/singYourStoryExpanded.ts",
   "skill-in-questions-how-the-buddha-taught": "./books/skillInQuestionsHowTheBuddhaTaughtExpanded.ts",
   "skin-in-the-game": "./books/skinInTheGameExpanded.ts",
@@ -599,6 +604,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-all-embracing-net-of-views-brahmajala-sutta": "./books/theAllEmbracingNetOfViewsBrahmajalaSuttaExpanded.ts",
   "the-anapanasati-sutta-full-translation-and-notes": "./books/theAnapanasatiSuttaFullTranslationAndNotesExpanded.ts",
   "the-anxiety-and-phobia-workbook": "./books/theAnxietyAndPhobiaWorkbookExpanded.ts",
+  "the-anxious-generation-how-the-great-rewiring-of-childhood-i": "./books/theAnxiousGenerationHowTheGreatRewiringOfChildhoodIExpanded.ts",
   "the-archetypes-and-the-collective-unconscious": "./books/theArchetypesAndTheCollectiveUnconsciousExpanded.ts",
   "the-art-and-skill-of-buddhist-meditation": "./books/theArtAndSkillOfBuddhistMeditationExpanded.ts",
   "the-art-of-being-right-the-art-of-controversy": "./books/theArtOfBeingRightTheArtOfControversyExpanded.ts",
@@ -657,6 +663,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-conception-of-buddhist-nirvana": "./books/theConceptionOfBuddhistNirvanaExpanded.ts",
   "the-connected-discourses-of-the-buddha-samyutta-nikaya": "./books/theConnectedDiscoursesOfTheBuddhaSamyuttaNikayaExpanded.ts",
   "the-connector-s-advantage": "./books/theConnectorSAdvantageExpanded.ts",
+  "the-conscious-parent-transforming-ourselves-empowering-our-c": "./books/theConsciousParentTransformingOurselvesEmpoweringOurCExpanded.ts",
   "the-copywriter-s-handbook": "./books/theCopywriterSHandbookExpanded.ts",
   "the-courage-to-be-disliked": "./books/theCourageToBeDislikedExpanded.ts",
   "the-covert-passive-aggressive-narcissist": "./books/theCovertPassiveAggressiveNarcissistExpanded.ts",
@@ -718,6 +725,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-four-noble-truths": "./books/theFourNobleTruthsExpanded.ts",
   "the-four-nutriments-of-life": "./books/theFourNutrimentsOfLifeExpanded.ts",
   "the-four-sublime-states-brahma-vihara": "./books/theFourSublimeStatesBrahmaViharaExpanded.ts",
+  "the-gardener-and-the-carpenter-what-the-new-science-of-child": "./books/theGardenerAndTheCarpenterWhatTheNewScienceOfChildExpanded.ts",
   "the-gelug-kagyu-tradition-of-mahamudra": "./books/theGelugKagyuTraditionOfMahamudraExpanded.ts",
   "the-genesis-of-the-bodhisattva-ideal": "./books/theGenesisOfTheBodhisattvaIdealExpanded.ts",
   "the-gift-of-fear-survival-signals-that-protect-us-from-viole": "./books/theGiftOfFearSurvivalSignalsThatProtectUsFromVioleExpanded.ts",
@@ -859,6 +867,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-way-out-a-mindbody-approach-to-healing-chronic-pain": "./books/theWayOutAMindbodyApproachToHealingChronicPainExpanded.ts",
   "the-way-to-nibbana": "./books/theWayToNibbanaExpanded.ts",
   "the-way-to-the-guru-meditative-guidance": "./books/theWayToTheGuruMeditativeGuidanceExpanded.ts",
+  "the-whole-brain-child-12-revolutionary-strategies-to-nurture": "./books/theWholeBrainChild12RevolutionaryStrategiesToNurtureExpanded.ts",
   "the-willpower-instinct": "./books/theWillpowerInstinctExpanded.ts",
   "the-wings-to-awakening-an-anthology-from-the-pali-canon": "./books/theWingsToAwakeningAnAnthologyFromThePaliCanonExpanded.ts",
   "the-wisdom-of-forgiveness-intimate-conversations": "./books/theWisdomOfForgivenessIntimateConversationsExpanded.ts",
@@ -906,6 +915,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "unleash-the-power-of-storytelling": "./books/unleashThePowerOfStorytellingExpanded.ts",
   "unmasking-the-face": "./books/unmaskingTheFaceExpanded.ts",
   "untamed": "./books/untamedExpanded.ts",
+  "untangled-guiding-teenage-girls-through-the-seven-transition": "./books/untangledGuidingTeenageGirlsThroughTheSevenTransitionExpanded.ts",
   "unwinding-anxiety": "./books/unwindingAnxietyExpanded.ts",
   "venerable-acariya-mun-bhuridatta-spiritual-biography": "./books/venerableAcariyaMunBhuridattaSpiritualBiographyExpanded.ts",
   "vibhanga-the-book-of-analysis": "./books/vibhangaTheBookOfAnalysisExpanded.ts",
@@ -10640,6 +10650,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "how-to-talk-so-kids-will-listen-listen-so-kids-will-talk",
+    "title": "How to Talk So Kids Will Listen & Listen So Kids Will Talk",
+    "author": "Adele Faber & Elaine Mazlish",
+    "category": "Communication",
+    "subcategory": "Parenting & Family",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1980,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Human friction isn't caused by broken intentions, but by broken feedback loops. When you stop ordering, lecturing, and judging\\u2014and start mirroring reality with calm, descriptive precision\\u2014resistance dissolves into natural collaboration.",
+      "coreThesis": "Cooperation is not extracted through authority or coercion; it is unlocked when emotional reality is validated and communication shifts from character judgment to objective description.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "How to Talk So Kids Will Listen & Listen So Kids Will Talk"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "how-to-win-any-argument",
     "title": "How to Win Any Argument",
     "author": "Robert Mayer",
@@ -15431,6 +15476,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "no-drama-discipline",
+    "title": "No-Drama Discipline",
+    "author": "Daniel J. Siegel & Tina Payne Bryson",
+    "category": "Communication",
+    "subcategory": "Parenting & Family",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Human brains cannot absorb corrective instruction while engulfed in high-stress emotional storms. True discipline is not punitive retribution, but neurobiological calibration: connect to soothe the nervous system first, then redirect higher faculties toward constructive repair.",
+      "coreThesis": "Discipline is fundamentally education rather than retribution; rational behavioral course-correction is neurologically impossible until emotional threat circuits have been soothed through attuned human connection.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "No-Drama Discipline"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "no-hard-feelings-the-secret-power-of-embracing-emotions-at-w",
     "title": "No Hard Feelings: The Secret Power of Embracing Emotions at Work",
     "author": "Liz Fosslien & Mollie West Duffy",
@@ -16405,6 +16485,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "parenting-from-the-inside-out",
+    "title": "Parenting from the Inside Out",
+    "author": "Daniel J. Siegel & Mary Hartzell",
+    "category": "Communication",
+    "subcategory": "Parenting & Family",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2003,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your reactions under pressure are rarely about the present moment; they are ancient muscle memory firing from unresolved chapters of your own past. When you map your internal wiring and make peace with your personal history, you gain conscious control over how you show up in every relationship.",
+      "coreThesis": "The single strongest predictor of healthy, secure relationships is the degree to which an adult has made coherent sense of their own childhood experiences.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Parenting from the Inside Out"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -19169,6 +19284,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "siblings-without-rivalry",
+    "title": "Siblings Without Rivalry",
+    "author": "Adele Faber & Elaine Mazlish",
+    "category": "Communication",
+    "subcategory": "Parenting & Family",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1987,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Human friction is not an anomaly to extinguish; it is a predictable mechanical reaction to forced proximity and competing incentives. By replacing the courtroom judge mentality with systems mediation, you dismantle rivalry at its behavioral source.",
+      "coreThesis": "Rivalry dissolves when authority stops acting as a courtroom referee and instead acknowledges raw feelings, abandons uniform comparisons, and equips individuals to negotiate their own equilibrium.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Siblings Without Rivalry"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "signals-how-everyday-signs-reveal-your-unspoken-thoughts",
     "title": "Signals: How Everyday Signs Reveal Your Unspoken Thoughts",
     "author": "Allan Pease",
@@ -19304,6 +19454,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "simplicity-parenting-using-the-extraordinary-power-of-less-t",
+    "title": "Simplicity Parenting: Using the Extraordinary Power of Less to Raise Calmer, Happier, and More Secure Kids",
+    "author": "Kim John Payne",
+    "category": "Communication",
+    "subcategory": "Parenting & Family",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2009,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Modern life floods domestic operating systems with sensory clutter, toxic information leakage, and calendar bloat. By aggressively stripping away non-essential inputs, leaders restore focus, emotional resilience, and deep stability.",
+      "coreThesis": "Human flourishing is constrained by systemic sensory and scheduling overload; reducing external friction through disciplined subtraction builds unshakeable internal resilience.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Simplicity Parenting: Using the Extraordinary Power of Less to Raise Calmer, Happier, and More Secure Kids"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -21894,6 +22079,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-anxious-generation-how-the-great-rewiring-of-childhood-i",
+    "title": "The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness",
+    "author": "Jonathan Haidt",
+    "category": "Communication",
+    "subcategory": "Parenting & Family",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2024,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Human psychology thrives on physical friction, spontaneous real-world practice, and undivided attention. When modern algorithms quietly replaced tangible daily life with nonstop digital feeds, they triggered a massive structural collapse in emotional well-being.",
+      "coreThesis": "Human emotional health collapses when tangible physical independence and shared presence are replaced by hyper-connected, algorithmically engineered screen environments.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-archetypes-and-the-collective-unconscious",
     "title": "The Archetypes and the Collective Unconscious",
     "author": "Carl G. Jung",
@@ -23916,6 +24136,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-conscious-parent-transforming-ourselves-empowering-our-c",
+    "title": "The Conscious Parent: Transforming Ourselves, Empowering Our Children",
+    "author": "Shefali Tsabary",
+    "category": "Communication",
+    "subcategory": "Parenting & Family",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 85,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop trying to engineer the other person to fit your unexamined ego; real leadership begins by debugging your own internal operating system. When you replace coercive control with clear-eyed self-awareness, you build resilient, high-trust alliances that naturally thrive.",
+      "coreThesis": "Authentic authority is not about managing external behavior through control, but about mastering your own internal reactions to create an unshakeable container for mutual growth.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Conscious Parent: Transforming Ourselves, Empowering Our Children"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -26049,6 +26304,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-gardener-and-the-carpenter-what-the-new-science-of-child",
+    "title": "The Gardener and the Carpenter: What the New Science of Child Development Tells Us About the Relationship Between Parents and Children",
+    "author": "Alison Gopnik",
+    "category": "Communication",
+    "subcategory": "Parenting & Family",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop trying to carve humans like a carpenter building a chair from raw lumber; start cultivating rich soil like a gardener stewarding a biodiverse ecosystem.",
+      "coreThesis": "The purpose of nurturing the next generation is not to shape a predictable finished product, but to sustain a resilient, diverse ecosystem capable of thriving in an uncertain future.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Gardener and the Carpenter: What the New Science of Child Development Tells Us About the Relationship Between Parents and Children"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -30982,6 +31272,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-whole-brain-child-12-revolutionary-strategies-to-nurture",
+    "title": "The Whole-Brain Child: 12 Revolutionary Strategies to Nurture Your Child's Developing Mind",
+    "author": "Daniel J. Siegel & Tina Payne Bryson",
+    "category": "Communication",
+    "subcategory": "Parenting & Family",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind is not a single engine, but an intricate team of specialized departments that frequently clash under pressure. By learning how these neural circuits communicate, you can turn chaotic mental breakdowns into seamless mental breakthroughs.",
+      "coreThesis": "Mental balance and emotional maturity are not innate luck; they are the natural byproduct of deliberately integrating the brain's emotional, analytical, survival, and social circuits through everyday communication.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Whole-Brain Child: 12 Revolutionary Strategies to Nurture Your Child's Developing Mind"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-willpower-instinct",
     "title": "The Willpower Instinct",
     "author": "Kelly McGonigal",
@@ -32618,6 +32943,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "untangled-guiding-teenage-girls-through-the-seven-transition",
+    "title": "Untangled: Guiding Teenage Girls Through the Seven Transitions into Adulthood",
+    "author": "Lisa Damour",
+    "category": "Communication",
+    "subcategory": "Parenting & Family",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Adolescence in teenage girls is not erratic chaos; it is a predictable, biological engineering upgrade. Discover the hidden developmental tracks that turn bewildering friction into masterclasses in adult autonomy.",
+      "coreThesis": "Teenage volatility is not broken behavior to be punished, but an orderly developmental sequence of seven essential transitions required to manufacture an independent adult.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Untangled: Guiding Teenage Girls Through the Seven Transitions into Adulthood"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
