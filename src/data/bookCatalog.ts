@@ -31,6 +31,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "abhidhamma-studies-researches-in-buddhist-psychology": "./books/abhidhammaStudiesResearchesInBuddhistPsychologyExpanded.ts",
   "abundant-exalted-immeasurable-the-brahmaviharas": "./books/abundantExaltedImmeasurableTheBrahmaviharasExpanded.ts",
   "adult-children-of-emotionally-immature-parents-how-to-heal-f": "./books/adultChildrenOfEmotionallyImmatureParentsHowToHealFExpanded.ts",
+  "afford-anything": "./books/affordAnythingExpanded.ts",
   "after-buddhism-rethinking-dharma-for-a-secular-age": "./books/afterBuddhismRethinkingDharmaForASecularAgeExpanded.ts",
   "alchemy-the-dark-art-and-curious-science-of-creating-magic-i": "./books/alchemyTheDarkArtAndCuriousScienceOfCreatingMagicIExpanded.ts",
   "algorithms-to-live-by": "./books/algorithmsToLiveByExpanded.ts",
@@ -199,6 +200,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "early-buddhist-metaphysics": "./books/earlyBuddhistMetaphysicsExpanded.ts",
   "early-buddhist-oral-tradition-and-textual-transmission": "./books/earlyBuddhistOralTraditionAndTextualTransmissionExpanded.ts",
   "early-buddhist-theory-of-knowledge": "./books/earlyBuddhistTheoryOfKnowledgeExpanded.ts",
+  "early-retirement-extreme-a-philosophical-and-practical-guide": "./books/earlyRetirementExtremeAPhilosophicalAndPracticalGuideExpanded.ts",
   "effortless-make-it-easier-to-do-what-matters-most": "./books/effortlessMakeItEasierToDoWhatMattersMostExpanded.ts",
   "eight-dates-essential-conversations-for-a-lifetime-of-love": "./books/eightDatesEssentialConversationsForALifetimeOfLoveExpanded.ts",
   "eight-mindful-steps-to-happiness": "./books/eightMindfulStepsToHappinessExpanded.ts",
@@ -474,6 +476,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "pivot-the-only-move-that-matters-is-your-next-one": "./books/pivotTheOnlyMoveThatMattersIsYourNextOneExpanded.ts",
   "plato-s-republic-selected-dialogues": "./books/platoSRepublicSelectedDialoguesExpanded.ts",
   "play-bigger-how-pirates-dreamers-and-innovators-create-and-d": "./books/playBiggerHowPiratesDreamersAndInnovatorsCreateAndDExpanded.ts",
+  "playing-with-fire-financial-independence-retire-early": "./books/playingWithFireFinancialIndependenceRetireEarlyExpanded.ts",
   "poor-charlie-s-almanack": "./books/poorCharlieSAlmanackExpanded.ts",
   "positioning-the-battle-for-your-mind": "./books/positioningTheBattleForYourMindExpanded.ts",
   "power-questions-build-relationships-win-new-business-and-inf": "./books/powerQuestionsBuildRelationshipsWinNewBusinessAndInfExpanded.ts",
@@ -491,6 +494,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "puggalapannatti-designation-of-human-types": "./books/puggalapannattiDesignationOfHumanTypesExpanded.ts",
   "purification-of-mind-and-view": "./books/purificationOfMindAndViewExpanded.ts",
   "purity-of-heart-essays-on-the-buddhist-path": "./books/purityOfHeartEssaysOnTheBuddhistPathExpanded.ts",
+  "quit-like-a-millionaire": "./books/quitLikeAMillionaireExpanded.ts",
   "radical-acceptance": "./books/radicalAcceptanceExpanded.ts",
   "radical-buddhism-the-early-pali-suttas": "./books/radicalBuddhismTheEarlyPaliSuttasExpanded.ts",
   "radical-compassion": "./books/radicalCompassionExpanded.ts",
@@ -539,6 +543,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "self-compassion-the-proven-power-of-being-kind-to-yourself": "./books/selfCompassionTheProvenPowerOfBeingKindToYourselfExpanded.ts",
   "selves-and-not-self-buddhist-epistemology": "./books/selvesAndNotSelfBuddhistEpistemologyExpanded.ts",
   "set-boundaries-find-peace-a-guide-to-reclaiming-yourself": "./books/setBoundariesFindPeaceAGuideToReclaimingYourselfExpanded.ts",
+  "set-for-life-dominate-life-money-and-the-american-dream": "./books/setForLifeDominateLifeMoneyAndTheAmericanDreamExpanded.ts",
   "set-your-voice-free": "./books/setYourVoiceFreeExpanded.ts",
   "setting-in-motion-the-wheel-of-truth": "./books/settingInMotionTheWheelOfTruthExpanded.ts",
   "7-powers-the-foundations-of-business-strategy": "./books/sevenPowersExpanded.ts",
@@ -619,6 +624,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-22-immutable-laws-of-marketing": "./books/the22ImmutableLawsOfMarketingExpanded.ts",
   "the-2-hour-cocktail-party-how-to-build-big-relationships-wit": "./books/the2HourCocktailPartyHowToBuildBigRelationshipsWitExpanded.ts",
   "the-48-laws-of-power": "./books/the48LawsOfPowerExpanded.ts",
+  "the-4-hour-workweek": "./books/the4HourWorkweekExpanded.ts",
   "the-5-love-languages-the-secret-to-love-that-lasts": "./books/the5LoveLanguagesTheSecretToLoveThatLastsExpanded.ts",
   "the-5-second-rule": "./books/the5SecondRuleExpanded.ts",
   "the-80-20-principle": "./books/the8020PrincipleExpanded.ts",
@@ -780,6 +786,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-kalama-sutta-the-buddha-s-charter-of-free-inquiry": "./books/theKalamaSuttaTheBuddhaSCharterOfFreeInquiryExpanded.ts",
   "the-karma-of-questions-essays-on-the-buddhist-path": "./books/theKarmaOfQuestionsEssaysOnTheBuddhistPathExpanded.ts",
   "the-key-to-liberation": "./books/theKeyToLiberationExpanded.ts",
+  "the-lean-startup-how-today-s-entrepreneurs-use-continuous-in": "./books/theLeanStartupHowTodaySEntrepreneursUseContinuousInExpanded.ts",
   "the-life-of-sariputta": "./books/theLifeOfSariputtaExpanded.ts",
   "the-little-book-of-common-sense-investing": "./books/theLittleBookOfCommonSenseInvestingExpanded.ts",
   "the-logic-of-scientific-discovery": "./books/theLogicOfScientificDiscoveryExpanded.ts",
@@ -910,6 +917,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-world-of-tibetan-buddhism-philosophy-and-practice": "./books/theWorldOfTibetanBuddhismPhilosophyAndPracticeExpanded.ts",
   "the-worn-out-skin-reflections-on-the-uraga-sutta": "./books/theWornOutSkinReflectionsOnTheUragaSuttaExpanded.ts",
   "the-worry-trick": "./books/theWorryTrickExpanded.ts",
+  "the-year-of-less": "./books/theYearOfLessExpanded.ts",
   "theragatha-verses-of-the-senior-monks": "./books/theragathaVersesOfTheSeniorMonksExpanded.ts",
   "therigatha-poems-of-early-buddhist-nuns": "./books/therigathaPoemsOfEarlyBuddhistNunsExpanded.ts",
   "they-ask-you-answer": "./books/theyAskYouAnswerExpanded.ts",
@@ -952,6 +960,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "untamed": "./books/untamedExpanded.ts",
   "untangled-guiding-teenage-girls-through-the-seven-transition": "./books/untangledGuidingTeenageGirlsThroughTheSevenTransitionExpanded.ts",
   "unwinding-anxiety": "./books/unwindingAnxietyExpanded.ts",
+  "vagabonding-an-uncommon-guide-to-the-art-of-long-term-world-": "./books/vagabondingAnUncommonGuideToTheArtOfLongTermWorldExpanded.ts",
   "venerable-acariya-mun-bhuridatta-spiritual-biography": "./books/venerableAcariyaMunBhuridattaSpiritualBiographyExpanded.ts",
   "vibhanga-the-book-of-analysis": "./books/vibhangaTheBookOfAnalysisExpanded.ts",
   "vipassana-meditation-guidelines": "./books/vipassanaMeditationGuidelinesExpanded.ts",
@@ -997,6 +1006,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "words-of-dhamma-practical-meditative-advice": "./books/wordsOfDhammaPracticalMeditativeAdviceExpanded.ts",
   "words-of-truth-a-buddhist-prayer-for-peace": "./books/wordsOfTruthABuddhistPrayerForPeaceExpanded.ts",
   "words-that-work-it-s-not-what-you-say-it-s-what-people-hear": "./books/wordsThatWorkItSNotWhatYouSayItSWhatPeopleHearExpanded.ts",
+  "work-optional-retire-early-the-non-penny-pinching-way": "./books/workOptionalRetireEarlyTheNonPennyPinchingWayExpanded.ts",
   "working-in-public-the-making-and-maintenance-of-open-source-": "./books/workingInPublicTheMakingAndMaintenanceOfOpenSourceExpanded.ts",
   "working-with-emotional-intelligence": "./books/workingWithEmotionalIntelligenceExpanded.ts",
   "write-of-passage-digital-writing-treatises": "./books/writeOfPassageDigitalWritingTreatisesExpanded.ts",
@@ -2088,6 +2098,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "afford-anything",
+    "title": "Afford Anything",
+    "author": "Paula Pant",
+    "category": "Money & Investing",
+    "subcategory": "Financial Independence & FIRE",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You can afford anything, but you cannot afford everything\\u2014every dollar and hour spent is a non-negotiable vote for one reality and a quiet cancellation of another. Paula Pant deconstructs money not as a moral scoreboard, but as an engineering framework for reclaiming personal sovereignty.",
+      "coreThesis": "Resource allocation is fundamentally zero-sum: every expenditure is an active trade-off, and true wealth emerges when you deliberately widen and deploy 'The Gap' between earning and spending to buy back unconditional control over your time.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Afford Anything"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
       "Strategy",
       "Mental Models"
     ]
@@ -7960,6 +8005,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "early-retirement-extreme-a-philosophical-and-practical-guide",
+    "title": "Early Retirement Extreme: A Philosophical and Practical Guide to Financial Independence",
+    "author": "Jacob Lund Fisker",
+    "category": "Money & Investing",
+    "subcategory": "Financial Independence & FIRE",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "What if personal finance isn't an accounting chore, but an elegant physics problem of friction, leverage, and metabolic energy? By treating your household as an interconnected ecosystem rather than a passive conduit for consumer spending, you can compress a forty-year career into five years of deliberate design.",
+      "coreThesis": "Financial independence is fundamentally a function of systemic lifestyle efficiency rather than absolute income; by shifting from a specialized consumer to a self-reliant polymath, saving 70% to 80% of your earnings mathematically compresses forty years of work into five.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Early Retirement Extreme: A Philosophical and Practical Guide to Financial Independence"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
       "Strategy",
       "Mental Models"
     ]
@@ -17580,6 +17660,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "playing-with-fire-financial-independence-retire-early",
+    "title": "Playing with FIRE (Financial Independence Retire Early)",
+    "author": "Scott Trench & Scott Rieckens",
+    "category": "Money & Investing",
+    "subcategory": "Financial Independence & FIRE",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most professionals are running on an endless treadmill where every pay raise simply buys heavier lifestyle weights. Playing with FIRE reveals the underlying mechanics of consumer traps and hands you the engineering blueprint to buy back forty years of your life.",
+      "coreThesis": "Financial independence is not a function of raw income, but of the mathematical gap between what you earn and what you consume; drastically widening that gap lets you buy back your lifetime.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Playing with FIRE (Financial Independence Retire Early)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "poor-charlie-s-almanack",
     "title": "Poor Charlie\\u2019s Almanack",
     "author": "Charles T. Munger",
@@ -18168,6 +18283,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "quit-like-a-millionaire",
+    "title": "Quit Like a Millionaire",
+    "author": "Kristy Shen & Bryce Leung",
+    "category": "Money & Investing",
+    "subcategory": "Financial Independence & FIRE",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 110,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You do not need a windfall, a lucky tech startup, or decades chained to a desk to buy your freedom. By treating personal finance as an engineering problem rather than a status contest, you can systematically build a self-sustaining portfolio and retire decades ahead of the crowd.",
+      "coreThesis": "Financial freedom is an optimization equation solved by decoupling income from status symbols, maximizing low-cost global equity compounding, and shielding your portfolio against early retirement market volatility.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Quit Like a Millionaire"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
       "Strategy",
       "Mental Models"
     ]
@@ -19845,6 +19995,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "set-for-life-dominate-life-money-and-the-american-dream",
+    "title": "Set for Life: Dominate Life, Money, and the American Dream",
+    "author": "Scott Trench",
+    "category": "Money & Investing",
+    "subcategory": "Financial Independence & FIRE",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Traditional financial advice prepares you to retire comfortably at sixty-five, but Scott Trench outlines an aggressive, staged blueprint to achieve complete financial autonomy in your twenties or thirties. By eliminating your largest recurring expense\\u2014housing\\u2014and reinvesting surplus cash flow into income-producing assets, you build the runway to work on your own terms for life.",
+      "coreThesis": "Early financial independence is engineered by eliminating the biggest fixed cost of living through house hacking, generating high-margin scalable income, and reinvesting the surplus into cash-flowing assets that replace the need for traditional corporate employment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Set for Life: Dominate Life, Money, and the American Dream"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
       "Strategy",
       "Mental Models"
     ]
@@ -22639,6 +22824,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-4-hour-workweek",
+    "title": "The 4-Hour Workweek",
+    "author": "Timothy Ferriss",
+    "category": "Money & Investing",
+    "subcategory": "Financial Independence & FIRE",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2007,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop trading forty years of forty-hour weeks for a delayed-gratification retirement you may never enjoy. By re-engineering your relationship with time, eliminating cognitive clutter, and constructing automated systems, you can live like a millionaire today on a fraction of the budget.",
+      "coreThesis": "True wealth is not measured by the size of your bank account, but by the currency of time and mobility: the ability to control what you do, when you do it, and where you live.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The 4-Hour Workweek"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
       "Strategy",
       "Mental Models"
     ]
@@ -28273,6 +28493,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-lean-startup-how-today-s-entrepreneurs-use-continuous-in",
+    "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
+    "author": "Eric Ries",
+    "category": "Money & Investing",
+    "subcategory": "Personal Finance & Budgeting",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most ambitious ventures fail not from lack of effort, but from building things nobody actually wants. The Lean Startup replaces guesswork and rigid master plans with rapid scientific feedback loops that turn uncertainty into predictable progress.",
+      "coreThesis": "A startup is a scientific experiment designed to discover how to build a sustainable enterprise before resources run out. Validated learning\\u2014proven by observed human behavior\\u2014is the only real measure of progress under extreme uncertainty.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-life-of-sariputta",
     "title": "The Life of Sariputta",
     "author": "Nyanaponika Thera",
@@ -32817,6 +33072,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-year-of-less",
+    "title": "The Year of Less",
+    "author": "Cait Flanders",
+    "category": "Money & Investing",
+    "subcategory": "Financial Independence & FIRE",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When you shut down the financial release valve of compulsive spending, what raw emotional machinery gets exposed? Cait Flanders documents a twelve-month consumer fast that reveals how buying less isn't about frugal deprivation\\u2014it is about dismantling the hidden numbing agents running your adult life.",
+      "coreThesis": "Compulsive spending is rarely about acquiring goods; it is an emotional shock absorber used to numb daily friction, and eliminating it exposes the exact life adjustments required for true freedom.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Year of Less"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "theragatha-verses-of-the-senior-monks",
     "title": "Theragatha: Verses of the Senior Monks",
     "author": "Bhikkhu Sujato",
@@ -34278,6 +34568,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "vagabonding-an-uncommon-guide-to-the-art-of-long-term-world-",
+    "title": "Vagabonding: An Uncommon Guide to the Art of Long-Term World Travel",
+    "author": "Rolf Potts",
+    "category": "Money & Investing",
+    "subcategory": "Financial Independence & FIRE",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2002,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Money is merely a measuring tape, but unallocated time is the actual territory of human freedom. Rolf Potts unpacks the operational physics of trading consumer clutter for radical calendar ownership through intentional, low-cost world travel.",
+      "coreThesis": "True wealth is not measured by the quantity of possessions you accumulate, but by the abundance of self-directed time you control. By deliberately lowering ongoing financial overhead, anyone can purchase uninterrupted months of radical life autonomy.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Vagabonding: An Uncommon Guide to the Art of Long-Term World Travel"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
       "Strategy",
       "Mental Models"
     ]
@@ -35853,6 +36178,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "work-optional-retire-early-the-non-penny-pinching-way",
+    "title": "Work Optional: Retire Early the Non-Penny-Pinching Way",
+    "author": "Tanja Hester",
+    "category": "Money & Investing",
+    "subcategory": "Financial Independence & FIRE",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Financial independence is not an exercise in extreme penny-pinching; it is a masterclass in behavioral mechanics and lifestyle systems engineering. By aligning capital with personal values and automating your wealth engines, you can make full-time work entirely optional decades ahead of schedule.",
+      "coreThesis": "Retirement is an operational status of total time sovereignty, not an age milestone; by designing your ideal lifestyle first and automating the gap between career earnings and core expenses, work transforms from a compulsory survival mechanism into a purely elective pursuit.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Work Optional: Retire Early the Non-Penny-Pinching Way"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
       "Strategy",
       "Mental Models"
     ]
