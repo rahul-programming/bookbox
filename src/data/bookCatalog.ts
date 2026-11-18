@@ -27,6 +27,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "a-treasury-of-the-buddha-s-words-discourses-from-majjhima": "./books/aTreasuryOfTheBuddhaSWordsDiscoursesFromMajjhimaExpanded.ts",
   "a-young-people-s-life-of-the-buddha": "./books/aYoungPeopleSLifeOfTheBuddhaExpanded.ts",
   "abhidhamma-in-practice": "./books/abhidhammaInPracticeExpanded.ts",
+  "abhidhamma-studies-researches-in-buddhist-psychology": "./books/abhidhammaStudiesResearchesInBuddhistPsychologyExpanded.ts",
   "abundant-exalted-immeasurable-the-brahmaviharas": "./books/abundantExaltedImmeasurableTheBrahmaviharasExpanded.ts",
   "after-buddhism-rethinking-dharma-for-a-secular-age": "./books/afterBuddhismRethinkingDharmaForASecularAgeExpanded.ts",
   "alchemy-the-dark-art-and-curious-science-of-creating-magic-i": "./books/alchemyTheDarkArtAndCuriousScienceOfCreatingMagicIExpanded.ts",
@@ -181,6 +182,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "don-t-take-your-life-personally": "./books/donTTakeYourLifePersonallyExpanded.ts",
   "dopamine-nation-finding-balance-in-the-age-of-indulgence": "./books/dopamineNationFindingBalanceInTheAgeOfIndulgenceExpanded.ts",
   "dorie-clark-stand-out-how-to-find-your-breakthrough-idea-and": "./books/dorieClarkStandOutHowToFindYourBreakthroughIdeaAndExpanded.ts",
+  "doubt-is-their-product": "./books/doubtIsTheirProductExpanded.ts",
   "dzogchen-heart-essence-of-the-great-perfection": "./books/dzogchenHeartEssenceOfTheGreatPerfectionExpanded.ts",
   "early-buddhist-meditation-studies": "./books/earlyBuddhistMeditationStudiesExpanded.ts",
   "early-buddhist-metaphysics": "./books/earlyBuddhistMetaphysicsExpanded.ts",
@@ -347,6 +349,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "manual-of-right-view-ditthi-dipani": "./books/manualOfRightViewDitthiDipaniExpanded.ts",
   "manual-of-the-factors-of-enlightenment-bodhipakkhiya-dipani": "./books/manualOfTheFactorsOfEnlightenmentBodhipakkhiyaDipaniExpanded.ts",
   "manual-of-the-four-noble-truths-saccavanta-dipani": "./books/manualOfTheFourNobleTruthsSaccavantaDipaniExpanded.ts",
+  "manual-of-the-noble-path-magganga-dipani": "./books/manualOfTheNoblePathMaggangaDipaniExpanded.ts",
   "manual-of-the-path-to-higher-knowledge-patthanuddesa-dipani": "./books/manualOfThePathToHigherKnowledgePatthanuddesaDipaniExpanded.ts",
   "manual-of-the-supreme-man-uttamapurisa-dipani": "./books/manualOfTheSupremeManUttamapurisaDipaniExpanded.ts",
   "many-ways-to-nirvana-reflections-on-happiness": "./books/manyWaysToNirvanaReflectionsOnHappinessExpanded.ts",
@@ -553,7 +556,9 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "survival-and-karma-in-buddhist-perspective": "./books/survivalAndKarmaInBuddhistPerspectiveExpanded.ts",
   "sync-how-order-emerges-from-chaos": "./books/syncHowOrderEmergesFromChaosExpanded.ts",
   "talk-like-ted-the-9-public-speaking-secrets-of-the-world-s-t": "./books/talkLikeTedThe9PublicSpeakingSecretsOfTheWorldSTExpanded.ts",
+  "taming-the-mind-dhammapada-chapter-on-consciousness": "./books/tamingTheMindDhammapadaChapterOnConsciousnessExpanded.ts",
   "taming-the-mind-discourses-on-mind-training": "./books/tamingTheMindDiscoursesOnMindTrainingExpanded.ts",
+  "taming-the-tiger-within-meditations-on-difficult-emotions": "./books/tamingTheTigerWithinMeditationsOnDifficultEmotionsExpanded.ts",
   "teaching-and-training-at-pa-auk-monastery": "./books/teachingAndTrainingAtPaAukMonasteryExpanded.ts",
   "teachings-of-a-buddhist-monk": "./books/teachingsOfABuddhistMonkExpanded.ts",
   "teachings-on-love": "./books/teachingsOnLoveExpanded.ts",
@@ -591,6 +596,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-art-of-rhetoric": "./books/theArtOfRhetoricExpanded.ts",
   "the-art-of-seduction": "./books/theArtOfSeductionExpanded.ts",
   "the-art-of-speaking": "./books/theArtOfSpeakingExpanded.ts",
+  "the-art-of-thinking-clearly": "./books/theArtOfThinkingClearlyExpanded.ts",
   "the-art-of-work": "./books/theArtOfWorkExpanded.ts",
   "the-assertiveness-workbook": "./books/theAssertivenessWorkbookExpanded.ts",
   "the-asynchronous-mindset": "./books/theAsynchronousMindsetExpanded.ts",
@@ -638,6 +644,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-dance-of-anger": "./books/theDanceOfAngerExpanded.ts",
   "the-dawn-of-abhidharma": "./books/theDawnOfAbhidharmaExpanded.ts",
   "the-definitive-book-of-body-language": "./books/theDefinitiveBookOfBodyLanguageExpanded.ts",
+  "the-demon-haunted-world": "./books/theDemonHauntedWorldExpanded.ts",
   "the-dhammapada-a-new-translation": "./books/theDhammapadaANewTranslationExpanded.ts",
   "the-dhammapada-a-translation-of-the-buddhist-classic": "./books/theDhammapadaATranslationOfTheBuddhistClassicExpanded.ts",
   "the-dhammapada": "./books/theDhammapadaExpanded.ts",
@@ -653,6 +660,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-diamond-that-cuts-through-illusion": "./books/theDiamondThatCutsThroughIllusionExpanded.ts",
   "the-dip-a-little-book-that-teaches-you-when-to-quit": "./books/theDipALittleBookThatTeachesYouWhenToQuitExpanded.ts",
   "the-discourse-on-right-view-sammaditthi-sutta": "./books/theDiscourseOnRightViewSammaditthiSuttaExpanded.ts",
+  "the-discourse-on-the-fruits-of-recluseship-samannaphala-sutta": "./books/theDiscourseOnTheFruitsOfRecluseshipSamannaphalaSuttaExpanded.ts",
   "the-discourse-on-the-root-of-existence-mulapariyaya-sutta": "./books/theDiscourseOnTheRootOfExistenceMulapariyayaSuttaExpanded.ts",
   "the-discourse-on-the-seven-purifications": "./books/theDiscourseOnTheSevenPurificationsExpanded.ts",
   "the-discourse-on-the-snake-simile-alagaddupama-sutta": "./books/theDiscourseOnTheSnakeSimileAlagaddupamaSuttaExpanded.ts",
@@ -721,6 +729,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-manuals-of-dhamma-collected-works": "./books/theManualsOfDhammaCollectedWorksExpanded.ts",
   "the-mechanism-of-the-five-aggregates": "./books/theMechanismOfTheFiveAggregatesExpanded.ts",
   "the-memory-book": "./books/theMemoryBookExpanded.ts",
+  "the-message-of-the-buddha": "./books/theMessageOfTheBuddhaExpanded.ts",
   "the-middle-length-discourses-of-the-buddha-majjhima-nikaya": "./books/theMiddleLengthDiscoursesOfTheBuddhaMajjhimaNikayaExpanded.ts",
   "the-middle-way-faith-grounded-in-reason": "./books/theMiddleWayFaithGroundedInReasonExpanded.ts",
   "the-mind-and-the-way-buddhist-reflections-on-life": "./books/theMindAndTheWayBuddhistReflectionsOnLifeExpanded.ts",
@@ -799,6 +808,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-state-of-mind-called-beautiful": "./books/theStateOfMindCalledBeautifulExpanded.ts",
   "the-status-game-on-social-position-and-how-we-use-it": "./books/theStatusGameOnSocialPositionAndHowWeUseItExpanded.ts",
   "the-storyteller-s-secret": "./books/theStorytellerSSecretExpanded.ts",
+  "the-structure-of-scientific-revolutions": "./books/theStructureOfScientificRevolutionsExpanded.ts",
   "the-sun-my-heart-from-mindfulness-to-insight-contemplation": "./books/theSunMyHeartFromMindfulnessToInsightContemplationExpanded.ts",
   "the-sutta-discovery-early-buddhist-teachings": "./books/theSuttaDiscoveryEarlyBuddhistTeachingsExpanded.ts",
   "the-sutta-nipata-early-buddhist-poetry": "./books/theSuttaNipataEarlyBuddhistPoetryExpanded.ts",
@@ -1851,6 +1861,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Abhidhamma in Practice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "abhidhamma-studies-researches-in-buddhist-psychology",
+    "title": "Abhidhamma Studies: Researches in Buddhist Psychology",
+    "author": "Nyanaponika Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1949,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind is not a rigid solid object; it is an ever-flowing symphony of momentary mental factors. Nyanaponika Thera unpacks the ancient Buddhist psychology of the Abhidhamma to show how dissecting awareness into its dynamic ingredients dissolves the illusion of ego and delivers unshakable peace.",
+      "coreThesis": "The self is not a static entity but a rapid succession of interdependent mental events; understanding both their granular pieces and relational connections dissolves grasping and frees the mind.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Abhidhamma Studies: Researches in Buddhist Psychology"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -7240,6 +7285,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "doubt-is-their-product",
+    "title": "Doubt Is Their Product",
+    "author": "David Michaels",
+    "category": "Psychology",
+    "subcategory": "Decision Making",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 90,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "In 'Doubt Is Their Product', epidemiologist and former federal safety official David Michaels exposes how corporate product-defense campaigns systematically corrupt science to block regulation and public accountability. Borrowing directly from Big Tobacco's historic memo\\u2014'Doubt is our product since it is the best means of competing with the \\",
+      "coreThesis": "Corporate-sponsored scientific uncertainty is not an honest byproduct of the scientific method, but a commercially manufactured weapon deployed to paralyze federal regulation, evade civil liability, and delay public health protections at the expense of human lives.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Doubt Is Their Product"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Psychology",
       "Strategy",
       "Mental Models"
     ]
@@ -13036,6 +13116,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Manual of the Four Noble Truths (Saccavanta Dipani)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "manual-of-the-noble-path-magganga-dipani",
+    "title": "Manual of the Noble Path (Magganga Dipani)",
+    "author": "Ven. Ledi Sayadaw",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1965,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Ven. Ledi Sayadaw strips away esoteric mystique to reveal the Noble Eightfold Path as an exact, everyday operating system for total mental liberation. It is an unvarnished masterclass in turning ethics, focus, and clarity into a living vehicle of freedom.",
+      "coreThesis": "Liberation is an exact craft where ethical conduct calms the mind, and disciplined mindfulness yields the piercing insight that dissolves self-clinging forever.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Manual of the Noble Path (Magganga Dipani)"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -20244,6 +20359,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "taming-the-mind-dhammapada-chapter-on-consciousness",
+    "title": "Taming the Mind: Dhammapada Chapter on Consciousness",
+    "author": "Acharya Buddharakkhita",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1985,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your mind is either your most destructive adversary or your greatest life ally. This classical manual shows you how to train your restless attention with the calm precision of a master artisan.",
+      "coreThesis": "Suffering and freedom do not come from external conditions; an untrained mind creates its own turmoil, while a tamed, well-directed consciousness is the supreme source of lasting peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Taming the Mind: Dhammapada Chapter on Consciousness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "taming-the-mind-discourses-on-mind-training",
     "title": "Taming the Mind: Discourses on Mind Training",
     "author": "BPS Anthology",
@@ -20267,6 +20417,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Taming the Mind: Discourses on Mind Training"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "taming-the-tiger-within-meditations-on-difficult-emotions",
+    "title": "Taming the Tiger Within: Meditations on Difficult Emotions",
+    "author": "Thich Nhat Hanh",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When difficult emotions flare up, fighting them only adds fuel to the fire. Thich Nhat Hanh reveals how to gently cradle our anger and fear like a caring parent, transforming burning inner turmoil into clear, compassionate insight.",
+      "coreThesis": "Difficult emotions are not enemies to destroy, but vulnerable parts of ourselves calling for gentle, mindful stewardship.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Taming the Tiger Within: Meditations on Difficult Emotions"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -21569,6 +21754,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-art-of-thinking-clearly",
+    "title": "The Art of Thinking Clearly",
+    "author": "Rolf Dobelli",
+    "category": "Psychology",
+    "subcategory": "Cognitive Biases & Logic",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 495,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "'The Art of Thinking Clearly' catalogs 99 pervasive cognitive biases, behavioral heuristics, and systematic thinking errors that subtly distort human decision-making. Rolf Dobelli demonstrates that irrationality is not random incompetence but an evolved, hardwired architecture ill-suited for the complex, abstract modern world. By learning to identify these recurring mental traps\\u2014from survivorship bias to the sunk cost fallacy\\u2014readers acquire a practical radar for intellectual error. The book argues that peak performance stems not from acquiring flashes of genius, but from the relentless, systematic subtraction of foolishness.",
+      "coreThesis": "Human irrationality is not accidental error but a systematic evolutionary byproduct; therefore, sound judgment is achieved not by chasing brilliant insights, but by rigorously identifying and subtracting cognitive biases via negativa.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Art of Thinking Clearly"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Psychology",
       "Strategy",
       "Mental Models"
     ]
@@ -23216,6 +23436,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-demon-haunted-world",
+    "title": "The Demon-Haunted World",
+    "author": "Carl Sagan",
+    "category": "Psychology",
+    "subcategory": "Cognitive Biases & Logic",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 125,
+    "publishedYear": 1995,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "In 'The Demon-Haunted World', Carl Sagan delivers a passionate, rigorous defense of empirical inquiry as humanity's primary defense against ignorance, superstition, and ideological manipulation. He demonstrates that science is far more than a body of knowledge; it is an egalitarian mindset combining childlike awe with ruthless, systematic skepticism. By dissecting alien abductions, historical witch trials, and institutional anti-intellectualism, Sagan proves that a populace stripped of skeptical inquiry inevitably falls prey to charlatans and authoritarian demagogues. Ultimately, the book serves as an urgent manifesto establishing that critical thinking is not merely an intellectual virtue, but a non-negotiable prerequisite for democratic liberty.",
+      "coreThesis": "Science is an error-correcting, skeptical habit of mind whose systematic demand for evidence is humanity's sole reliable bulwark against superstition, cognitive delusion, and authoritarian control.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Demon-Haunted World"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-dhammapada-a-new-translation",
     "title": "The Dhammapada: A New Translation",
     "author": "Bhikkhu Bodhi",
@@ -23729,6 +23984,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Discourse on Right View: Sammaditthi Sutta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-discourse-on-the-fruits-of-recluseship-samannaphala-sutta",
+    "title": "The Discourse on the Fruits of Recluseship: Samannaphala Sutta",
+    "author": "Bhikkhu Bodhi",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1989,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When power and material luxury leave the heart restless and hollow, what tangible freedom does inner discipline actually deliver? Bhikkhu Bodhi translates the Buddha's definitive masterclass on the contemplative path, showing step-by-step how ethical clarity, focused calm, and razor-sharp awareness systematically liberate the human mind right here in this life.",
+      "coreThesis": "Genuine spiritual practice produces immediate, verifiable fruits in this very life, guiding the practitioner from ethical simplicity and sensory calm into deep meditative joy and the permanent liberation of understanding.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Discourse on the Fruits of Recluseship: Samannaphala Sutta"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -26112,6 +26402,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-message-of-the-buddha",
+    "title": "The Message of the Buddha",
+    "author": "K.N. Jayatilleke",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 1975,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Strip away centuries of mystical haze and ritual dust: early Buddhism is an empirical laboratory for your own mind. By treating consciousness with the precision of a master gardener tending soil, Jayatilleke reveals how seeing reality as pure process unties the knots of human suffering.",
+      "coreThesis": "Suffering is an avoidable friction born from grasping at a constantly moving world with an imaginary, permanent self; when direct empirical awareness sees life as an unbroken stream of cause and effect, the restless mind naturally drops its burden and settles into unshakeable peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Message of the Buddha"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -28838,6 +29163,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-structure-of-scientific-revolutions",
+    "title": "The Structure of Scientific Revolutions",
+    "author": "Thomas S. Kuhn",
+    "category": "Psychology",
+    "subcategory": "Decision Making",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 1962,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Thomas Kuhn's landmark 1962 treatise completely demolishes the standard textbook view of science as a neat, linear accumulation of facts and eternal truths. Instead, Kuhn reveals that mature science operates within consensus-driven frameworks called paradigms, which channel energy into rigorous puzzle-solving until mounting, unresolvable anomalies trigger systemic crisis. Resolution occurs not through dispassionate algorithmic proof, but through a scientific revolution\\u2014a disruptive, non-cumulative conceptual rupture where the scientific community undergoes a collective Gestalt shift to a fundamentally incommensurable worldview. Ultimately, the work repositions scientific progress as an evolutionary struggle across discontinuous paradigms, fundamentally redefining the philosophy and sociology of knowledge.",
+      "coreThesis": "Scientific development is not a cumulative linear progression toward absolute objective truth, but an episodic, cyclical sequence in which conservative normal science (puzzle-solving within an accepted paradigm) is repeatedly disrupted by anomalies and crises, culminating in non-cumulative revolutions that replace incommensurable worldviews.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Structure of Scientific Revolutions"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Psychology",
       "Strategy",
       "Mental Models"
     ]
