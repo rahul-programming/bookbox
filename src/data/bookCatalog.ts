@@ -220,6 +220,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "fear-essential-wisdom-for-getting-through-the-storm": "./books/fearEssentialWisdomForGettingThroughTheStormExpanded.ts",
   "feeling-good-the-new-mood-therapy": "./books/feelingGoodTheNewMoodTherapyExpanded.ts",
   "fierce-conversations-achieving-success-at-work-and-in-life-o": "./books/fierceConversationsAchievingSuccessAtWorkAndInLifeOExpanded.ts",
+  "financial-freedom-a-proven-path-to-all-the-money-you-will-ev": "./books/financialFreedomAProvenPathToAllTheMoneyYouWillEvExpanded.ts",
   "find-your-why": "./books/findYourWhyExpanded.ts",
   "finding-the-missing-peace-a-primer-of-meditation": "./books/findingTheMissingPeaceAPrimerOfMeditationExpanded.ts",
   "finding-your-voice": "./books/findingYourVoiceExpanded.ts",
@@ -386,6 +387,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "meditations-4-dhamma-talks": "./books/meditations4DhammaTalksExpanded.ts",
   "meditations-5-dhamma-talks": "./books/meditations5DhammaTalksExpanded.ts",
   "meditations": "./books/meditationsExpanded.ts",
+  "meet-the-frugalwoods-achieving-freedom-through-minimal-spend": "./books/meetTheFrugalwoodsAchievingFreedomThroughMinimalSpendExpanded.ts",
   "meeting-the-shadow-the-hidden-power-of-the-dark-side-of-huma": "./books/meetingTheShadowTheHiddenPowerOfTheDarkSideOfHumaExpanded.ts",
   "memories-dreams-reflections": "./books/memoriesDreamsReflectionsExpanded.ts",
   "methods-of-persuasion": "./books/methodsOfPersuasionExpanded.ts",
@@ -505,6 +507,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "rest-why-you-get-more-done-when-you-work-less": "./books/restWhyYouGetMoreDoneWhenYouWorkLessExpanded.ts",
   "rethinking-narcissism-anger": "./books/rethinkingNarcissismAngerExpanded.ts",
   "rhetoric": "./books/rhetoricExpanded.ts",
+  "rich-dad-poor-dad": "./books/richDadPoorDadExpanded.ts",
   "right-concentration-a-practical-guide-to-the-jhanas": "./books/rightConcentrationAPracticalGuideToTheJhanasExpanded.ts",
   "right-livelihood-in-buddhist-perspective": "./books/rightLivelihoodInBuddhistPerspectiveExpanded.ts",
   "right-mindfulness-memory-and-ardency-on-the-buddhist-path": "./books/rightMindfulnessMemoryAndArdencyOnTheBuddhistPathExpanded.ts",
@@ -552,6 +555,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "small-boat-great-mountain-reflections-on-dzogchen-and-theravada": "./books/smallBoatGreatMountainReflectionsOnDzogchenAndTheravadaExpanded.ts",
   "smart-brevity-the-power-of-saying-more-with-less": "./books/smartBrevityThePowerOfSayingMoreWithLessExpanded.ts",
   "smart-choices": "./books/smartChoicesExpanded.ts",
+  "smart-women-finish-rich": "./books/smartWomenFinishRichExpanded.ts",
   "snakes-in-suits-when-psychopaths-go-to-work": "./books/snakesInSuitsWhenPsychopathsGoToWorkExpanded.ts",
   "so-good-they-can-t-ignore-you": "./books/soGoodTheyCanTIgnoreYouExpanded.ts",
   "socratic-logic": "./books/socraticLogicExpanded.ts",
@@ -640,6 +644,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-assertiveness-workbook": "./books/theAssertivenessWorkbookExpanded.ts",
   "the-asynchronous-mindset": "./books/theAsynchronousMindsetExpanded.ts",
   "the-attention-merchants": "./books/theAttentionMerchantsExpanded.ts",
+  "the-automatic-millionaire": "./books/theAutomaticMillionaireExpanded.ts",
   "the-black-swan": "./books/theBlackSwanExpanded.ts",
   "the-blooming-of-a-lotus-guided-meditations": "./books/theBloomingOfALotusGuidedMeditationsExpanded.ts",
   "the-body-keeps-the-score": "./books/theBodyKeepsTheScoreExpanded.ts",
@@ -767,6 +772,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-karma-of-questions-essays-on-the-buddhist-path": "./books/theKarmaOfQuestionsEssaysOnTheBuddhistPathExpanded.ts",
   "the-key-to-liberation": "./books/theKeyToLiberationExpanded.ts",
   "the-life-of-sariputta": "./books/theLifeOfSariputtaExpanded.ts",
+  "the-little-book-of-common-sense-investing": "./books/theLittleBookOfCommonSenseInvestingExpanded.ts",
   "the-logic-of-scientific-discovery": "./books/theLogicOfScientificDiscoveryExpanded.ts",
   "the-long-discourses-of-the-buddha-digha-nikaya": "./books/theLongDiscoursesOfTheBuddhaDighaNikayaExpanded.ts",
   "the-look-the-secret-language-of-the-eyes": "./books/theLookTheSecretLanguageOfTheEyesExpanded.ts",
@@ -846,6 +852,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-silent-language": "./books/theSilentLanguageExpanded.ts",
   "the-simile-of-the-cloth-vatthupama-sutta": "./books/theSimileOfTheClothVatthupamaSuttaExpanded.ts",
   "the-simile-of-the-raft-crossing-over-the-stream": "./books/theSimileOfTheRaftCrossingOverTheStreamExpanded.ts",
+  "the-simple-path-to-wealth": "./books/theSimplePathToWealthExpanded.ts",
   "the-skill-of-release": "./books/theSkillOfReleaseExpanded.ts",
   "the-sleep-solution": "./books/theSleepSolutionExpanded.ts",
   "the-social-animal": "./books/theSocialAnimalExpanded.ts",
@@ -869,6 +876,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-three-basic-facts-of-existence-impermanence-anicca": "./books/theThreeBasicFactsOfExistenceImpermanenceAniccaExpanded.ts",
   "the-three-basic-facts-of-existence-non-self-anatta": "./books/theThreeBasicFactsOfExistenceNonSelfAnattaExpanded.ts",
   "the-three-basic-facts-of-existence-suffering-dukkha": "./books/theThreeBasicFactsOfExistenceSufferingDukkhaExpanded.ts",
+  "the-total-money-makeover-a-proven-plan-for-financial-fitness": "./books/theTotalMoneyMakeoverAProvenPlanForFinancialFitnessExpanded.ts",
   "the-tree-of-enlightenment": "./books/theTreeOfEnlightenmentExpanded.ts",
   "the-truth-about-children-and-divorce": "./books/theTruthAboutChildrenAndDivorceExpanded.ts",
   "the-truth-detector-an-ex-fbi-agent-s-guide-for-getting-peopl": "./books/theTruthDetectorAnExFbiAgentSGuideForGettingPeoplExpanded.ts",
@@ -987,12 +995,14 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "yes-50-scientifically-proven-ways-to-be-persuasive": "./books/yes50ScientificallyProvenWaysToBePersuasiveExpanded.ts",
   "you-are-here-discovering-the-magic-of-the-present-moment": "./books/youAreHereDiscoveringTheMagicOfThePresentMomentExpanded.ts",
   "you-are-not-so-smart": "./books/youAreNotSoSmartExpanded.ts",
+  "you-need-a-budget-ynab": "./books/youNeedABudgetYnabExpanded.ts",
   "you-say-more-than-you-think": "./books/youSayMoreThanYouThinkExpanded.ts",
   "your-erroneous-zones": "./books/yourErroneousZonesExpanded.ts",
   "your-money-or-your-life": "./books/yourMoneyOrYourLifeExpanded.ts",
   "your-perfect-right-assertiveness-and-equality-in-your-life-a": "./books/yourPerfectRightAssertivenessAndEqualityInYourLifeAExpanded.ts",
   "your-true-home-the-everyday-wisdom-of-thich-nhat-hanh": "./books/yourTrueHomeTheEverydayWisdomOfThichNhatHanhExpanded.ts",
-  "zen-keys-a-guide-to-zen-practice": "./books/zenKeysAGuideToZenPracticeExpanded.ts"
+  "zen-keys-a-guide-to-zen-practice": "./books/zenKeysAGuideToZenPracticeExpanded.ts",
+  "zero-debt-the-ultimate-guide-to-financial-freedom": "./books/zeroDebtTheUltimateGuideToFinancialFreedomExpanded.ts"
 };
 
 export const SEED_BOARDS: StashBoard[] = [
@@ -8678,6 +8688,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "financial-freedom-a-proven-path-to-all-the-money-you-will-ev",
+    "title": "Financial Freedom: A Proven Path to All the Money You Will Ever Need",
+    "author": "Grant Sabatier",
+    "category": "Money & Investing",
+    "subcategory": "Personal Finance & Budgeting",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Money is not paper to buy status\\u2014it is stored time and personal sovereignty. Cut the cord on traditional retirement timelines by maximizing your savings rate, capturing side income, and letting compound returns buy back your remaining decades.",
+      "coreThesis": "Money is frozen time, and financial independence is simply buying back your clock by supercharging the gap between what you earn and what you consume.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Financial Freedom: A Proven Path to All the Money You Will Ever Need"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "find-your-why",
     "title": "Find Your Why",
     "author": "Simon Sinek, David Mead, Peter Docker",
@@ -14482,6 +14527,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "meet-the-frugalwoods-achieving-freedom-through-minimal-spend",
+    "title": "Meet the Frugalwoods: Achieving Freedom Through Minimal Spending",
+    "author": "Elizabeth Willard Thames",
+    "category": "Money & Investing",
+    "subcategory": "Personal Finance & Budgeting",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Money is not a score to hoard or status to flaunt\\u2014it is fuel to purchase back your mortal time. By decoupling everyday happiness from modern retail consumption, anyone can build a fortress of autonomy and design a life true to their deepest values.",
+      "coreThesis": "Frugality is not about depriving yourself of pleasure; it is a high-leverage tool to strip away mindless consumer defaults, buy back your finite time, and direct your resources toward what genuinely brings purpose.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Meet the Frugalwoods: Achieving Freedom Through Minimal Spending"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "meeting-the-shadow-the-hidden-power-of-the-dark-side-of-huma",
     "title": "Meeting the Shadow: The Hidden Power of the Dark Side of Human Nature",
     "author": "Connie Zweig & Jeremiah Abrams",
@@ -18643,6 +18723,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "rich-dad-poor-dad",
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert T. Kiyosaki",
+    "category": "Money & Investing",
+    "subcategory": "Personal Finance & Budgeting",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1997,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most people spend their entire lives sprinting on a financial treadmill without realizing they are running in place. This book reveals the hidden plumbing of money, showing how to redirect your cash flow toward self-sustaining assets rather than lifestyle drain.",
+      "coreThesis": "Financial independence is not determined by how much income you earn, but by the mechanical direction in which your money flows: true wealth emerges when your assets generate enough cash to feed your lifestyle without your active labor.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Rich Dad Poor Dad"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "right-concentration-a-practical-guide-to-the-jhanas",
     "title": "Right Concentration: A Practical Guide to the Jhanas",
     "author": "Leigh Brasington",
@@ -20279,6 +20394,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "smart-women-finish-rich",
+    "title": "Smart Women Finish Rich",
+    "author": "David Bach",
+    "category": "Money & Investing",
+    "subcategory": "Personal Finance & Budgeting",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1998,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Money is not a spreadsheet problem; it is a closed-loop energy system powered by personal values and daily micro-habits. David Bach systematically deconstructs financial intimidation into automated, value-driven architecture that guarantees lifetime financial sovereignty.",
+      "coreThesis": "True wealth is built not by complex financial gymnastics, but by aligning daily cash flow with core personal values and automating systematic compounding into distinct functional baskets.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Smart Women Finish Rich"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -23354,6 +23504,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-automatic-millionaire",
+    "title": "The Automatic Millionaire",
+    "author": "David Bach",
+    "category": "Money & Investing",
+    "subcategory": "Personal Finance & Budgeting",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Building true wealth does not require extreme discipline, high income, or grueling budgets. By automating your cash flow once, your financial engine quietly compounds your freedom in the background for life.",
+      "coreThesis": "Wealth is built through automated cash flow architecture, not willpower. When you pay yourself first through irreversible automation, compounding works for you uninterrupted.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Automatic Millionaire"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
       "Strategy",
       "Mental Models"
     ]
@@ -27798,6 +27983,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-little-book-of-common-sense-investing",
+    "title": "The Little Book of Common Sense Investing",
+    "author": "John C. Bogle",
+    "category": "Money & Investing",
+    "subcategory": "Investing & Asset Allocation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 90,
+    "publishedYear": 2007,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop searching for the needle in the financial haystack when you can simply buy the entire field. John Bogle dismantles Wall Street's lucrative hype to prove that doing less, paying almost nothing in fees, and patiently holding the entire economy is the only guaranteed way to capture your fair share of market wealth.",
+      "coreThesis": "The stock market is a positive-sum business machine that becomes a net loser's game after subtracting the frictional tolls of fees, trading costs, and taxes. By owning the entire market through low-cost index funds and holding it permanently, you guarantee yourself your rightful share of economic compounding.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Little Book of Common Sense Investing"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-logic-of-scientific-discovery",
     "title": "The Logic of Scientific Discovery",
     "author": "Karl Popper",
@@ -30558,6 +30778,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-simple-path-to-wealth",
+    "title": "The Simple Path to Wealth",
+    "author": "JL Collins",
+    "category": "Money & Investing",
+    "subcategory": "Financial Independence & FIRE",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 175,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Financial independence is not an exclusive club for Wall Street elites; it is the predictable byproduct of spending less than you earn, avoiding debt like the plague, and parking the surplus in broad-market index funds. JL Collins strips away the financial industry's smoke and mirrors to deliver a bulletproof blueprint for reclaiming absolute control over your time.",
+      "coreThesis": "True wealth is the purchase of your own freedom and autonomy. You achieve it not through market timing or stock picking, but by living well below your means, aggressively eliminating debt, and investing the difference in low-cost total stock market index funds while steadfastly ignoring market noise.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Simple Path to Wealth"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-skill-of-release",
     "title": "The Skill of Release",
     "author": "Ajahn Lee Dhammadharo",
@@ -31357,6 +31612,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-total-money-makeover-a-proven-plan-for-financial-fitness",
+    "title": "The Total Money Makeover: A Proven Plan for Financial Fitness",
+    "author": "Dave Ramsey",
+    "category": "Money & Investing",
+    "subcategory": "Personal Finance & Budgeting",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2003,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Winning with money is eighty percent emotional behavior and only twenty percent head knowledge. Strip away the toxic illusion that debt is a tool, attack obligations with furious intensity, and build lasting financial sovereignty.",
+      "coreThesis": "Financial peace requires shifting habits over spreadsheets: crush debt with focused behavioral intensity and reclaim your income to build unbreakable resilience.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Total Money Makeover: A Proven Plan for Financial Fitness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
       "Strategy",
       "Mental Models"
     ]
@@ -35487,6 +35777,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "you-need-a-budget-ynab",
+    "title": "You Need a Budget (YNAB)",
+    "author": "Jesse Mecham",
+    "category": "Money & Investing",
+    "subcategory": "Personal Finance & Budgeting",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most personal budgets fail because they run on fantasy projections instead of physical reality. This book replaces guilt and guesswork with a clean four-rule operating system that treats money like liquid inventory\\u2014giving every dollar a mission before life makes the decision for you.",
+      "coreThesis": "Financial clarity does not come from forecasting hypothetical wealth, but from intentionally assigning active roles to the exact cash you possess today while building buffers against the inevitable friction of life.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "You Need a Budget (YNAB)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "you-say-more-than-you-think",
     "title": "You Say More Than You Think",
     "author": "Janine Driver",
@@ -35692,6 +36017,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "zero-debt-the-ultimate-guide-to-financial-freedom",
+    "title": "Zero-Debt: The Ultimate Guide to Financial Freedom",
+    "author": "Lynnette Khalfani-Cox",
+    "category": "Money & Investing",
+    "subcategory": "Personal Finance & Budgeting",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 160,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Debt is not a moral failing; it is a mechanical leak in your financial engine that drains power through compounded interest and high fees. This guide provides a battle-tested, 31-day operational blueprint to plug the leaks, negotiate with creditors, and restore full control over your money.",
+      "coreThesis": "Financial freedom is achieved not through sudden windfalls, but by methodically eliminating high-interest friction, enforcing statutory consumer rights, and redirecting reclaimed cash flow into automated reserves.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Zero-Debt: The Ultimate Guide to Financial Freedom"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
       "Strategy",
       "Mental Models"
     ]

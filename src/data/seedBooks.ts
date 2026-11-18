@@ -992,6 +992,16 @@ import { THE_SECRET_LANGUAGE_OF_MONEY_BOOK } from './books/theSecretLanguageOfMo
 import { HAPPY_MONEY_THE_SCIENCE_OF_HAPPIER_SPENDING_BOOK } from './books/happyMoneyTheScienceOfHappierSpendingExpanded';
 import { DIE_WITH_ZERO_GETTING_ALL_YOU_CAN_FROM_YOUR_MONEY_AND_YOUR_L_BOOK } from './books/dieWithZeroGettingAllYouCanFromYourMoneyAndYourLExpanded';
 import { I_WILL_TEACH_YOU_TO_BE_RICH_BOOK } from './books/iWillTeachYouToBeRichExpanded';
+import { THE_TOTAL_MONEY_MAKEOVER_A_PROVEN_PLAN_FOR_FINANCIAL_FITNESS_BOOK } from './books/theTotalMoneyMakeoverAProvenPlanForFinancialFitnessExpanded';
+import { YOU_NEED_A_BUDGET_YNAB_BOOK } from './books/youNeedABudgetYnabExpanded';
+import { THE_SIMPLE_PATH_TO_WEALTH_BOOK } from './books/theSimplePathToWealthExpanded';
+import { MEET_THE_FRUGALWOODS_ACHIEVING_FREEDOM_THROUGH_MINIMAL_SPEND_BOOK } from './books/meetTheFrugalwoodsAchievingFreedomThroughMinimalSpendExpanded';
+import { SMART_WOMEN_FINISH_RICH_BOOK } from './books/smartWomenFinishRichExpanded';
+import { THE_AUTOMATIC_MILLIONAIRE_BOOK } from './books/theAutomaticMillionaireExpanded';
+import { FINANCIAL_FREEDOM_A_PROVEN_PATH_TO_ALL_THE_MONEY_YOU_WILL_EV_BOOK } from './books/financialFreedomAProvenPathToAllTheMoneyYouWillEvExpanded';
+import { ZERO_DEBT_THE_ULTIMATE_GUIDE_TO_FINANCIAL_FREEDOM_BOOK } from './books/zeroDebtTheUltimateGuideToFinancialFreedomExpanded';
+import { RICH_DAD_POOR_DAD_BOOK } from './books/richDadPoorDadExpanded';
+import { THE_LITTLE_BOOK_OF_COMMON_SENSE_INVESTING_BOOK } from './books/theLittleBookOfCommonSenseInvestingExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -1984,7 +1994,17 @@ export const SEED_BOOKS: Book[] = [
   THE_SECRET_LANGUAGE_OF_MONEY_BOOK,
   HAPPY_MONEY_THE_SCIENCE_OF_HAPPIER_SPENDING_BOOK,
   DIE_WITH_ZERO_GETTING_ALL_YOU_CAN_FROM_YOUR_MONEY_AND_YOUR_L_BOOK,
-  I_WILL_TEACH_YOU_TO_BE_RICH_BOOK
+  I_WILL_TEACH_YOU_TO_BE_RICH_BOOK,
+  THE_TOTAL_MONEY_MAKEOVER_A_PROVEN_PLAN_FOR_FINANCIAL_FITNESS_BOOK,
+  YOU_NEED_A_BUDGET_YNAB_BOOK,
+  THE_SIMPLE_PATH_TO_WEALTH_BOOK,
+  MEET_THE_FRUGALWOODS_ACHIEVING_FREEDOM_THROUGH_MINIMAL_SPEND_BOOK,
+  SMART_WOMEN_FINISH_RICH_BOOK,
+  THE_AUTOMATIC_MILLIONAIRE_BOOK,
+  FINANCIAL_FREEDOM_A_PROVEN_PATH_TO_ALL_THE_MONEY_YOU_WILL_EV_BOOK,
+  ZERO_DEBT_THE_ULTIMATE_GUIDE_TO_FINANCIAL_FREEDOM_BOOK,
+  RICH_DAD_POOR_DAD_BOOK,
+  THE_LITTLE_BOOK_OF_COMMON_SENSE_INVESTING_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -2979,7 +2999,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(THE_SECRET_LANGUAGE_OF_MONEY_BOOK.ideaCards || []),
   ...(HAPPY_MONEY_THE_SCIENCE_OF_HAPPIER_SPENDING_BOOK.ideaCards || []),
   ...(DIE_WITH_ZERO_GETTING_ALL_YOU_CAN_FROM_YOUR_MONEY_AND_YOUR_L_BOOK.ideaCards || []),
-  ...(I_WILL_TEACH_YOU_TO_BE_RICH_BOOK.ideaCards || [])
+  ...(I_WILL_TEACH_YOU_TO_BE_RICH_BOOK.ideaCards || []),
+  ...(THE_TOTAL_MONEY_MAKEOVER_A_PROVEN_PLAN_FOR_FINANCIAL_FITNESS_BOOK.ideaCards || []),
+  ...(YOU_NEED_A_BUDGET_YNAB_BOOK.ideaCards || []),
+  ...(THE_SIMPLE_PATH_TO_WEALTH_BOOK.ideaCards || []),
+  ...(MEET_THE_FRUGALWOODS_ACHIEVING_FREEDOM_THROUGH_MINIMAL_SPEND_BOOK.ideaCards || []),
+  ...(SMART_WOMEN_FINISH_RICH_BOOK.ideaCards || []),
+  ...(THE_AUTOMATIC_MILLIONAIRE_BOOK.ideaCards || []),
+  ...(FINANCIAL_FREEDOM_A_PROVEN_PATH_TO_ALL_THE_MONEY_YOU_WILL_EV_BOOK.ideaCards || []),
+  ...(ZERO_DEBT_THE_ULTIMATE_GUIDE_TO_FINANCIAL_FREEDOM_BOOK.ideaCards || []),
+  ...(RICH_DAD_POOR_DAD_BOOK.ideaCards || []),
+  ...(THE_LITTLE_BOOK_OF_COMMON_SENSE_INVESTING_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
