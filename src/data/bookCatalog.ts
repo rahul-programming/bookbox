@@ -29,6 +29,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "abhidhamma-in-practice": "./books/abhidhammaInPracticeExpanded.ts",
   "abhidhamma-studies-researches-in-buddhist-psychology": "./books/abhidhammaStudiesResearchesInBuddhistPsychologyExpanded.ts",
   "abundant-exalted-immeasurable-the-brahmaviharas": "./books/abundantExaltedImmeasurableTheBrahmaviharasExpanded.ts",
+  "adult-children-of-emotionally-immature-parents-how-to-heal-f": "./books/adultChildrenOfEmotionallyImmatureParentsHowToHealFExpanded.ts",
   "after-buddhism-rethinking-dharma-for-a-secular-age": "./books/afterBuddhismRethinkingDharmaForASecularAgeExpanded.ts",
   "alchemy-the-dark-art-and-curious-science-of-creating-magic-i": "./books/alchemyTheDarkArtAndCuriousScienceOfCreatingMagicIExpanded.ts",
   "algorithms-to-live-by": "./books/algorithmsToLiveByExpanded.ts",
@@ -200,6 +201,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "emotions-revealed-recognizing-faces-and-feelings-to-improve-": "./books/emotionsRevealedRecognizingFacesAndFeelingsToImproveExpanded.ts",
   "essentialism-the-disciplined-pursuit-of-less": "./books/essentialismTheDisciplinedPursuitOfLessExpanded.ts",
   "ethics-for-the-new-millennium": "./books/ethicsForTheNewMillenniumExpanded.ts",
+  "even-if-it-costs-me-my-life": "./books/evenIfItCostsMeMyLifeExpanded.ts",
   "everybody-writes-your-go-to-guide-to-creating-ridiculously-g": "./books/everybodyWritesYourGoToGuideToCreatingRidiculouslyGExpanded.ts",
   "everything-arises-everything-falls-away": "./books/everythingArisesEverythingFallsAwayExpanded.ts",
   "everything-s-an-argument": "./books/everythingSAnArgumentExpanded.ts",
@@ -259,6 +261,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "head-and-heart-together-essays-on-the-buddhist-path": "./books/headAndHeartTogetherEssaysOnTheBuddhistPathExpanded.ts",
   "healing-anger-the-power-of-patience": "./books/healingAngerThePowerOfPatienceExpanded.ts",
   "healing-back-pain-the-mind-body-connection": "./books/healingBackPainTheMindBodyConnectionExpanded.ts",
+  "healing-developmental-trauma-how-early-trauma-affects-self-r": "./books/healingDevelopmentalTraumaHowEarlyTraumaAffectsSelfRExpanded.ts",
   "healing-the-shame-that-binds-you": "./books/healingTheShameThatBindsYouExpanded.ts",
   "heart-advice-of-a-mahamudra-master": "./books/heartAdviceOfAMahamudraMasterExpanded.ts",
   "heart-to-heart-a-conversational-guide-to-awakening": "./books/heartToHeartAConversationalGuideToAwakeningExpanded.ts",
@@ -307,6 +310,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "intuitive-awareness-living-in-the-unconditioned": "./books/intuitiveAwarenessLivingInTheUnconditionedExpanded.ts",
   "investigating-the-dhamma-a-collection-of-essays": "./books/investigatingTheDhammaACollectionOfEssaysExpanded.ts",
   "invisible-influence-the-hidden-forces-that-shape-behavior": "./books/invisibleInfluenceTheHiddenForcesThatShapeBehaviorExpanded.ts",
+  "it-didn-t-start-with-you-how-inherited-family-trauma-shapes-": "./books/itDidnTStartWithYouHowInheritedFamilyTraumaShapesExpanded.ts",
   "it-s-called-a-breakup-because-it-s-broken": "./books/itSCalledABreakupBecauseItSBrokenExpanded.ts",
   "journey-to-mindfulness-autobiography": "./books/journeyToMindfulnessAutobiographyExpanded.ts",
   "just-listen-discover-the-secret-to-getting-through-to-absolu": "./books/justListenDiscoverTheSecretToGettingThroughToAbsoluExpanded.ts",
@@ -407,6 +411,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "mom-s-house-dad-s-house-a-complete-guide-for-parents-who-are": "./books/momSHouseDadSHouseACompleteGuideForParentsWhoAreExpanded.ts",
   "monetizing-innovation": "./books/monetizingInnovationExpanded.ts",
   "moonwalking-with-einstein": "./books/moonwalkingWithEinsteinExpanded.ts",
+  "mother-hunger-how-to-hurt-heal-and-nurture-the-missing-eleme": "./books/motherHungerHowToHurtHealAndNurtureTheMissingElemeExpanded.ts",
   "my-land-and-my-people-the-original-autobiography": "./books/myLandAndMyPeopleTheOriginalAutobiographyExpanded.ts",
   "negotiating-the-nonnegotiable-how-to-resolve-your-most-emoti": "./books/negotiatingTheNonnegotiableHowToResolveYourMostEmotiExpanded.ts",
   "negotiation-genius": "./books/negotiationGeniusExpanded.ts",
@@ -485,6 +490,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "rebirth-in-early-buddhism-and-current-research": "./books/rebirthInEarlyBuddhismAndCurrentResearchExpanded.ts",
   "rebuilding-when-your-relationship-ends": "./books/rebuildingWhenYourRelationshipEndsExpanded.ts",
   "reclaiming-conversation-the-power-of-talk-in-a-digital-age": "./books/reclaimingConversationThePowerOfTalkInADigitalAgeExpanded.ts",
+  "recovering-from-emotionally-immature-parents": "./books/recoveringFromEmotionallyImmatureParentsExpanded.ts",
   "reflections-on-the-dhamma": "./books/reflectionsOnTheDhammaExpanded.ts",
   "reinventing-you": "./books/reinventingYouExpanded.ts",
   "reinventing-your-life": "./books/reinventingYourLifeExpanded.ts",
@@ -499,6 +505,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "right-mindfulness-memory-and-ardency-on-the-buddhist-path": "./books/rightMindfulnessMemoryAndArdencyOnTheBuddhistPathExpanded.ts",
   "risk-savvy-how-to-make-good-decisions": "./books/riskSavvyHowToMakeGoodDecisionsExpanded.ts",
   "rule-the-room-a-unique-system-for-easy-selling-and-presentat": "./books/ruleTheRoomAUniqueSystemForEasySellingAndPresentatExpanded.ts",
+  "running-on-empty-overcome-your-childhood-emotional-neglect": "./books/runningOnEmptyOvercomeYourChildhoodEmotionalNeglectExpanded.ts",
   "samsara-nirvana-and-buddha-nature": "./books/samsaraNirvanaAndBuddhaNatureExpanded.ts",
   "satipatthana-meditation-a-practice-guide": "./books/satipatthanaMeditationAPracticeGuideExpanded.ts",
   "satipatthana-the-direct-path-to-realization": "./books/satipatthanaTheDirectPathToRealizationExpanded.ts",
@@ -699,6 +706,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-distracted-mind-ancient-brains-in-a-high-tech-world": "./books/theDistractedMindAncientBrainsInAHighTechWorldExpanded.ts",
   "the-divided-mind-the-epidemic-of-mindbody-disorders": "./books/theDividedMindTheEpidemicOfMindbodyDisordersExpanded.ts",
   "the-doctrine-of-anatta-in-the-nikayas": "./books/theDoctrineOfAnattaInTheNikayasExpanded.ts",
+  "the-drama-of-the-gifted-child-the-search-for-the-true-self": "./books/theDramaOfTheGiftedChildTheSearchForTheTrueSelfExpanded.ts",
   "the-easy-way-to-stop-smoking-stop-drinking": "./books/theEasyWayToStopSmokingStopDrinkingExpanded.ts",
   "the-elements-of-eloquence-how-to-turn-the-perfect-english-ph": "./books/theElementsOfEloquenceHowToTurnThePerfectEnglishPhExpanded.ts",
   "the-elephant-footprint-cula-hatthipadopama-sutta": "./books/theElephantFootprintCulaHatthipadopamaSuttaExpanded.ts",
@@ -897,6 +905,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "touching-peace-practicing-the-art-of-mindful-living": "./books/touchingPeacePracticingTheArtOfMindfulLivingExpanded.ts",
   "toward-a-true-kinship-of-faiths": "./books/towardATrueKinshipOfFaithsExpanded.ts",
   "toward-eternal-peace-discourse-on-nibbana": "./books/towardEternalPeaceDiscourseOnNibbanaExpanded.ts",
+  "toxic-parents-overcoming-their-hurtful-legacy-and-reclaiming": "./books/toxicParentsOvercomingTheirHurtfulLegacyAndReclaimingExpanded.ts",
   "transcendental-dependent-arising": "./books/transcendentalDependentArisingExpanded.ts",
   "transcending-reflections-on-finding-meaning-in-suffering": "./books/transcendingReflectionsOnFindingMeaningInSufferingExpanded.ts",
   "transformation-and-healing-satipatthana-sutra": "./books/transformationAndHealingSatipatthanaSutraExpanded.ts",
@@ -943,6 +952,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "who-s-pulling-your-strings": "./books/whoSPullingYourStringsExpanded.ts",
   "why-we-get-sick": "./books/whyWeGetSickExpanded.ts",
   "why-we-sleep-unlocking-the-power-of-sleep-and-dreams": "./books/whyWeSleepUnlockingThePowerOfSleepAndDreamsExpanded.ts",
+  "will-i-ever-be-good-enough-healing-the-daughters-of-narcissi": "./books/willIEverBeGoodEnoughHealingTheDaughtersOfNarcissiExpanded.ts",
   "willpower-doesn-t-work": "./books/willpowerDoesnTWorkExpanded.ts",
   "wim-hof-the-wim-hof-method": "./books/wimHofTheWimHofMethodExpanded.ts",
   "win-every-argument-the-art-of-debating-persuading-and-public": "./books/winEveryArgumentTheArtOfDebatingPersuadingAndPublicExpanded.ts",
@@ -1978,6 +1988,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "adult-children-of-emotionally-immature-parents-how-to-heal-f",
+    "title": "Adult Children of Emotionally Immature Parents: How to Heal from Distant, Rejecting, or Self-Involved Parents",
+    "author": "Lindsay C. Gibson",
+    "category": "Communication",
+    "subcategory": "Parenting & Family",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When emotional depth is missing in your foundation, adult relationships feel like running an engine with dry gears. Lindsay Gibson decodes the hidden operating systems of self-absorbed caregivers and provides a lucid blueprint for reclaiming personal autonomy without guilt.",
+      "coreThesis": "Emotional loneliness stems from expecting emotional depth from people who lack the capacity to provide it; genuine freedom comes from relinquishing the fantasy of parental change and adopting clear, detached boundaries.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Adult Children of Emotionally Immature Parents: How to Heal from Distant, Rejecting, or Self-Involved Parents"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -7960,6 +8005,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "even-if-it-costs-me-my-life",
+    "title": "Even If It Costs Me My Life",
+    "author": "Stephan Hausner",
+    "category": "Communication",
+    "subcategory": "Parenting & Family",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "What if severe chronic illness isn't just a breakdown in your cellular machinery, but an unconscious circuit breaker carrying an overloaded family system? Stephan Hausner reveals how hidden relational feedback loops drive somatic disease\\u2014and how restoring systemic balance frees the body to heal.",
+      "coreThesis": "Chronic illness is frequently an unconscious somatic attempt to balance an unresolved family ecosystem; true healing begins when we return unearned ancestral burdens and take our rightful place in the relational network.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Even If It Costs Me My Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "everybody-writes-your-go-to-guide-to-creating-ridiculously-g",
     "title": "Everybody Writes: Your Go-To Guide to Creating Ridiculously Good Content",
     "author": "Ann Handley",
@@ -10022,6 +10102,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "healing-developmental-trauma-how-early-trauma-affects-self-r",
+    "title": "Healing Developmental Trauma: How Early Trauma Affects Self-Regulation, Self-Image, and the Capacity for Relationship",
+    "author": "Laurence Heller & Aline LaPierre",
+    "category": "Communication",
+    "subcategory": "Parenting & Family",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your chronic adult anxieties, perfectionism, and intimacy roadblocks are not character defects\\u2014they are brilliant survival software programmed when your environment could not meet your core biological needs. By learning how your nervous system wired these adaptive circuits, you can upgrade your internal operating system and restore natural emotional vitality.",
+      "coreThesis": "Developmental trauma is not what happened to you in the past, but the persistent internal disconnect between your mind and body organized around outdated survival strategies.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Healing Developmental Trauma: How Early Trauma Affects Self-Regulation, Self-Image, and the Capacity for Relationship"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "healing-the-shame-that-binds-you",
     "title": "Healing the Shame that Binds You",
     "author": "John Bradshaw",
@@ -11695,6 +11810,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "it-didn-t-start-with-you-how-inherited-family-trauma-shapes-",
+    "title": "It Didn't Start with You: How Inherited Family Trauma Shapes Who We Are and How to End the Cycle",
+    "author": "Mark Wolynn",
+    "category": "Communication",
+    "subcategory": "Parenting & Family",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your chronic anxieties, unexplainable fears, and self-sabotaging instincts may not be your personal creations, but biological echoes passed down from ancestors who never resolved them. Mark Wolynn delivers a sharp, scientific blueprint to decode your subconscious verbal quirks, trace the hidden emotional circuits in your family tree, and rewire your nervous system for lasting freedom.",
+      "coreThesis": "Unresolved generational trauma alters gene expression and family relational patterns, projecting ancestral suffering into your present life until you decode its hidden language and consciously close the biological feedback loop.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "It Didn't Start with You: How Inherited Family Trauma Shapes Who We Are and How to End the Cycle"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -15196,6 +15346,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "mother-hunger-how-to-hurt-heal-and-nurture-the-missing-eleme",
+    "title": "Mother Hunger: How to Hurt, Heal, and Nurture the Missing Element in Your Life",
+    "author": "Kelly McDaniel",
+    "category": "Communication",
+    "subcategory": "Parenting & Family",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2021,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Just like a biological seedling deprived of sunlight and mineral-rich soil, human emotional architecture buckles when early maternal nurturance, protection, and guidance are missing. Kelly McDaniel illuminates the hidden autonomic mechanics behind chronic emptiness and provides a precise blueprint to rewire your nervous system for lasting security.",
+      "coreThesis": "Mother Hunger is a physiological and developmental attachment deficit caused by the absence of early nurturance, protection, or guidance; true recovery comes not from fixing external relationships, but from somatic regulation, grief integration, and building earned internal security.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mother Hunger: How to Hurt, Heal, and Nurture the Missing Element in Your Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "my-land-and-my-people-the-original-autobiography",
     "title": "My Land and My People: The Original Autobiography",
     "author": "Dalai Lama",
@@ -17923,6 +18108,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "recovering-from-emotionally-immature-parents",
+    "title": "Recovering from Emotionally Immature Parents",
+    "author": "Lindsay C. Gibson",
+    "category": "Communication",
+    "subcategory": "Parenting & Family",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Think of family friction not as a personal failure, but as a faulty electrical circuit: when parents lack emotional maturity, they overload the relationship with drama and coercion. This guide hands you the diagnostic blueprints and practical tools to rewire your emotional circuits, protect your boundaries, and step into unshakable adult autonomy.",
+      "coreThesis": "Emotional immaturity in parents creates predictable, coercive feedback loops that hijack your reality, but recognizing their developmental limits allows you to disengage from their emotional storms and reclaim your sovereign self.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Recovering from Emotionally Immature Parents"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "reflections-on-the-dhamma",
     "title": "Reflections on the Dhamma",
     "author": "Venerable Narada Mahathera",
@@ -18407,6 +18627,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "running-on-empty-overcome-your-childhood-emotional-neglect",
+    "title": "Running on Empty: Overcome Your Childhood Emotional Neglect",
+    "author": "Jonice Webb",
+    "category": "Communication",
+    "subcategory": "Parenting & Family",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Emotional neglect is not what happened to you\\u2014it is the silent, invisible vacuum of what failed to happen. By mapping your emotional dashboard and restoring suppressed sensory signals, you can turn off chronic self-blame and finally run on a full internal tank.",
+      "coreThesis": "Childhood Emotional Neglect is an invisible wound of omission where unseen, unmirrored feelings leave adults disconnected from their vital emotional telemetry, requiring deliberate conscious recalibration to restore self-worth and genuine fulfillment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Running on Empty: Overcome Your Childhood Emotional Neglect"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
@@ -25401,6 +25656,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-drama-of-the-gifted-child-the-search-for-the-true-self",
+    "title": "The Drama of the Gifted Child: The Search for the True Self",
+    "author": "Alice Miller",
+    "category": "Communication",
+    "subcategory": "Parenting & Family",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1979,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Beneath high-functioning perfectionism often lies an ingenious psychological trade-off: trading genuine emotions for external approval. Alice Miller uncovers the hidden feedback loops that disconnect accomplished adults from their authentic vitality\\u2014and charts the scientific path to reclaim it.",
+      "coreThesis": "Perfectionism and emotional emptiness are defense mechanisms born from suppressing genuine feelings to maintain belonging. Sustainable vitality requires systematically feeling and mourning unexpressed truths to restore the authentic self.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Drama of the Gifted Child: The Search for the True Self"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-easy-way-to-stop-smoking-stop-drinking",
     "title": "The Easy Way to Stop Smoking / Stop Drinking",
     "author": "Allen Carr",
@@ -32319,6 +32609,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "toxic-parents-overcoming-their-hurtful-legacy-and-reclaiming",
+    "title": "Toxic Parents: Overcoming Their Hurtful Legacy and Reclaiming Your Life",
+    "author": "Susan Forward",
+    "category": "Communication",
+    "subcategory": "Parenting & Family",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 1989,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Toxic family dynamics operate like faulty household wiring\\u2014shocking anyone who touches the circuit until someone steps up to trace the cables and ground the current. Susan Forward provides the empirical diagnostic manual and surgical tools needed to dismantle inherited guilt, uncouple from dysfunctional parents, and reclaim genuine adulthood.",
+      "coreThesis": "You are not responsible for the damage inflicted upon you as a vulnerable child, but you are 100 percent responsible for rewiring your adult boundaries and reclaiming your personal sovereignty today.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Toxic Parents: Overcoming Their Hurtful Legacy and Reclaiming Your Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "transcendental-dependent-arising",
     "title": "Transcendental Dependent Arising",
     "author": "Bhikkhu Bodhi",
@@ -33923,6 +34248,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Finance",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "will-i-ever-be-good-enough-healing-the-daughters-of-narcissi",
+    "title": "Will I Ever Be Good Enough? Healing the Daughters of Narcissistic Mothers",
+    "author": "Karyl McBride",
+    "category": "Communication",
+    "subcategory": "Parenting & Family",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When a mother's love acts like a one-way mirror, a daughter spends her life performing for reflections that never bounce back. This book deconstructs maternal narcissism like an emotional mechanic, equipping women to rewire their self-worth and break generational loops.",
+      "coreThesis": "A daughter's chronic sense of inadequacy is not a personal failure, but the predictable output of maternal narcissism\\u2014a dynamic healed only by grieving the mother she never had and actively constructing an autonomous internal identity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Will I Ever Be Good Enough? Healing the Daughters of Narcissistic Mothers"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
       "Strategy",
       "Mental Models"
     ]
