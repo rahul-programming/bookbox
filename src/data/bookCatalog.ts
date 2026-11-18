@@ -162,6 +162,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "dhatukatha-discourse-on-elements": "./books/dhatukathaDiscourseOnElementsExpanded.ts",
   "dictionary-of-pali-proper-names-volume-1": "./books/dictionaryOfPaliProperNamesVolume1Expanded.ts",
   "dictionary-of-pali-proper-names-volume-2": "./books/dictionaryOfPaliProperNamesVolume2Expanded.ts",
+  "die-with-zero-getting-all-you-can-from-your-money-and-your-l": "./books/dieWithZeroGettingAllYouCanFromYourMoneyAndYourLExpanded.ts",
   "difficult-conversations-how-to-discuss-what-matters-most": "./books/difficultConversationsHowToDiscussWhatMattersMostExpanded.ts",
   "dig-your-well-before-you-re-thirsty": "./books/digYourWellBeforeYouReThirstyExpanded.ts",
   "digital-body-language-how-to-build-trust-and-connection-no-m": "./books/digitalBodyLanguageHowToBuildTrustAndConnectionNoMExpanded.ts",
@@ -256,6 +257,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "good-reasons-for-better-arguments": "./books/goodReasonsForBetterArgumentsExpanded.ts",
   "great-disciples-of-the-buddha-their-lives-and-legacy": "./books/greatDisciplesOfTheBuddhaTheirLivesAndLegacyExpanded.ts",
   "guide-through-the-abhidhamma-pitaka": "./books/guideThroughTheAbhidhammaPitakaExpanded.ts",
+  "happy-money-the-science-of-happier-spending": "./books/happyMoneyTheScienceOfHappierSpendingExpanded.ts",
   "he-s-just-not-that-into-you": "./books/heSJustNotThatIntoYouExpanded.ts",
   "he-understanding-masculine-psychology": "./books/heUnderstandingMasculinePsychologyExpanded.ts",
   "head-and-heart-together-essays-on-the-buddhist-path": "./books/headAndHeartTogetherEssaysOnTheBuddhistPathExpanded.ts",
@@ -288,6 +290,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "i-give-you-my-life-the-autobiography-of-ayya-khema": "./books/iGiveYouMyLifeTheAutobiographyOfAyyaKhemaExpanded.ts",
   "i-hear-you-the-surprisingly-simple-skill-behind-extraordinar": "./books/iHearYouTheSurprisinglySimpleSkillBehindExtraordinarExpanded.ts",
   "i-thought-it-was-just-me-but-it-isn-t": "./books/iThoughtItWasJustMeButItIsnTExpanded.ts",
+  "i-will-teach-you-to-be-rich": "./books/iWillTeachYouToBeRichExpanded.ts",
   "ikigai-the-japanese-secret-to-a-long-and-happy-life": "./books/ikigaiTheJapaneseSecretToALongAndHappyLifeExpanded.ts",
   "improv-wisdom-don-t-prepare-just-show-up": "./books/improvWisdomDonTPrepareJustShowUpExpanded.ts",
   "in-defense-of-food": "./books/inDefenseOfFoodExpanded.ts",
@@ -343,6 +346,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "living-nonviolent-communication": "./books/livingNonviolentCommunicationExpanded.ts",
   "living-the-dhamma-hour-by-hour": "./books/livingTheDhammaHourByHourExpanded.ts",
   "living-the-dhammapada-practical-everyday-wisdom": "./books/livingTheDhammapadaPracticalEverydayWisdomExpanded.ts",
+  "loaded-money-psychology-and-how-to-get-ahead-without-leaving": "./books/loadedMoneyPsychologyAndHowToGetAheadWithoutLeavingExpanded.ts",
   "logic-a-very-short-introduction": "./books/logicAVeryShortIntroductionExpanded.ts",
   "logically-fallacious": "./books/logicallyFallaciousExpanded.ts",
   "long-story-short-the-only-storytelling-guide-you-ll-ever-nee": "./books/longStoryShortTheOnlyStorytellingGuideYouLlEverNeeExpanded.ts",
@@ -388,6 +392,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "mind-in-comfort-and-ease-the-vision-of-the-great-perfection": "./books/mindInComfortAndEaseTheVisionOfTheGreatPerfectionExpanded.ts",
   "mind-like-fire-unbound": "./books/mindLikeFireUnboundExpanded.ts",
   "mind-of-clear-light-advice-on-living-well-and-dying-consciously": "./books/mindOfClearLightAdviceOnLivingWellAndDyingConsciouslyExpanded.ts",
+  "mind-over-money-overcoming-the-money-disorders-that-threaten": "./books/mindOverMoneyOvercomingTheMoneyDisordersThatThreatenExpanded.ts",
   "mind-over-mood": "./books/mindOverMoodExpanded.ts",
   "mind-overcoming-its-canker-asavas": "./books/mindOvercomingItsCankerAsavasExpanded.ts",
   "mindfully-facing-disease-and-death": "./books/mindfullyFacingDiseaseAndDeathExpanded.ts",
@@ -772,6 +777,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-message-of-the-buddha": "./books/theMessageOfTheBuddhaExpanded.ts",
   "the-middle-length-discourses-of-the-buddha-majjhima-nikaya": "./books/theMiddleLengthDiscoursesOfTheBuddhaMajjhimaNikayaExpanded.ts",
   "the-middle-way-faith-grounded-in-reason": "./books/theMiddleWayFaithGroundedInReasonExpanded.ts",
+  "the-millionaire-next-door-the-surprising-secrets-of-america-": "./books/theMillionaireNextDoorTheSurprisingSecretsOfAmericaExpanded.ts",
   "the-mind-and-the-way-buddhist-reflections-on-life": "./books/theMindAndTheWayBuddhistReflectionsOnLifeExpanded.ts",
   "the-mind-that-knows": "./books/theMindThatKnowsExpanded.ts",
   "the-mindful-way-commentary-on-the-dhammapada": "./books/theMindfulWayCommentaryOnTheDhammapadaExpanded.ts",
@@ -827,6 +833,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-roots-of-good-and-evil": "./books/theRootsOfGoodAndEvilExpanded.ts",
   "the-scout-mindset": "./books/theScoutMindsetExpanded.ts",
   "the-second-mountain-the-quest-for-a-moral-life": "./books/theSecondMountainTheQuestForAMoralLifeExpanded.ts",
+  "the-secret-language-of-money": "./books/theSecretLanguageOfMoneyExpanded.ts",
   "the-selfish-gene": "./books/theSelfishGeneExpanded.ts",
   "the-seven-basic-plots-why-we-tell-stories": "./books/theSevenBasicPlotsWhyWeTellStoriesExpanded.ts",
   "the-seven-factors-of-enlightenment-bojjhanga": "./books/theSevenFactorsOfEnlightenmentBojjhangaExpanded.ts",
@@ -843,6 +850,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-sleep-solution": "./books/theSleepSolutionExpanded.ts",
   "the-social-animal": "./books/theSocialAnimalExpanded.ts",
   "the-socratic-method-of-psychotherapy": "./books/theSocraticMethodOfPsychotherapyExpanded.ts",
+  "the-soul-of-money-transforming-your-relationship-with-wealth": "./books/theSoulOfMoneyTransformingYourRelationshipWithWealthExpanded.ts",
   "the-soulful-art-of-persuasion": "./books/theSoulfulArtOfPersuasionExpanded.ts",
   "the-sound-of-silence-selected-teachings": "./books/theSoundOfSilenceSelectedTeachingsExpanded.ts",
   "the-spectrum-of-buddhism": "./books/theSpectrumOfBuddhismExpanded.ts",
@@ -959,6 +967,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "winning-body-language": "./books/winningBodyLanguageExpanded.ts",
   "wired-for-love": "./books/wiredForLoveExpanded.ts",
   "wired-for-story-the-writer-s-guide-to-using-brain-science-to": "./books/wiredForStoryTheWriterSGuideToUsingBrainScienceToExpanded.ts",
+  "wired-for-wealth": "./books/wiredForWealthExpanded.ts",
   "wisdom-develops-samadhi": "./books/wisdomDevelopsSamadhiExpanded.ts",
   "wisdom-wide-and-deep-mastering-jhana-and-vipassana": "./books/wisdomWideAndDeepMasteringJhanaAndVipassanaExpanded.ts",
   "wit-the-power-of-verbal-play": "./books/witThePowerOfVerbalPlayExpanded.ts",
@@ -980,6 +989,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "you-are-not-so-smart": "./books/youAreNotSoSmartExpanded.ts",
   "you-say-more-than-you-think": "./books/youSayMoreThanYouThinkExpanded.ts",
   "your-erroneous-zones": "./books/yourErroneousZonesExpanded.ts",
+  "your-money-or-your-life": "./books/yourMoneyOrYourLifeExpanded.ts",
   "your-perfect-right-assertiveness-and-equality-in-your-life-a": "./books/yourPerfectRightAssertivenessAndEqualityInYourLifeAExpanded.ts",
   "your-true-home-the-everyday-wisdom-of-thich-nhat-hanh": "./books/yourTrueHomeTheEverydayWisdomOfThichNhatHanhExpanded.ts",
   "zen-keys-a-guide-to-zen-practice": "./books/zenKeysAGuideToZenPracticeExpanded.ts"
@@ -6640,6 +6650,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "die-with-zero-getting-all-you-can-from-your-money-and-your-l",
+    "title": "Die with Zero: Getting All You Can from Your Money and Your Life",
+    "author": "Bill Perkins",
+    "category": "Money & Investing",
+    "subcategory": "Money Psychology",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Money is merely fuel for living, yet most disciplined savers work decades longer than necessary and die hoarding tanks full of gas they will never burn. Perkins delivers a ruthless, mathematical blueprint to extract maximum fulfillment from your finite health, time, and earnings before the clock runs out.",
+      "coreThesis": "Your life is the sum of your experiences, and money is simply fuel to fund them; dying with unspent wealth is uncompensated labor that you gave away for nothing.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Die with Zero: Getting All You Can from Your Money and Your Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "difficult-conversations-how-to-discuss-what-matters-most",
     "title": "Difficult Conversations: How to Discuss What Matters Most",
     "author": "Douglas Stone, Bruce Patton, Sheila Heen",
@@ -9927,6 +9972,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "happy-money-the-science-of-happier-spending",
+    "title": "Happy Money: The Science of Happier Spending",
+    "author": "Elizabeth Dunn & Michael Norton",
+    "category": "Money & Investing",
+    "subcategory": "Money Psychology",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most people treat money like raw horsepower, assuming more fuel automatically guarantees a better ride. In reality, how you steer and allocate every dollar dictates whether your wealth delivers genuine life satisfaction or just silent lifestyle creep.",
+      "coreThesis": "Money reliably yields happiness only when spent to eliminate daily friction, cultivate shared human experiences, and preserve scarce time, rather than to accumulate depreciating material status symbols.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Happy Money: The Science of Happier Spending"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "he-s-just-not-that-into-you",
     "title": "He's Just Not That Into You",
     "author": "Greg Behrendt & Liz Tuccillo",
@@ -11040,6 +11120,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "i-will-teach-you-to-be-rich",
+    "title": "I Will Teach You to Be Rich",
+    "author": "Ramit Sethi",
+    "category": "Money & Investing",
+    "subcategory": "Personal Finance & Budgeting",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2009,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop obsessing over the price of a daily cup of coffee and start building an automated financial engine that runs quietly in the background. Master a handful of high-impact moves once, and you can spend guilt-free on what you love while effortlessly growing real wealth.",
+      "coreThesis": "Financial freedom comes from automating a few high-leverage structural decisions once, allowing you to spend ruthlessly on what you love and ignore daily micro-budgeting entirely.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "I Will Teach You to Be Rich"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
       "Strategy",
       "Mental Models"
     ]
@@ -12969,6 +13084,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "loaded-money-psychology-and-how-to-get-ahead-without-leaving",
+    "title": "Loaded: Money, Psychology, and How to Get Ahead Without Leaving Your Values Behind",
+    "author": "Sarah Newcomb",
+    "category": "Money & Investing",
+    "subcategory": "Money Psychology",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Traditional financial advice treats your balance sheet like an arithmetic problem, but your bank account is actually governed by hidden emotional programming and unresolved narratives. Sarah Newcomb delivers a battle-tested blueprint to dismantle toxic money scripts and build enduring financial sovereignty without compromising your integrity.",
+      "coreThesis": "Financial struggle is rarely an issue of basic math; it is a breakdown of emotional alignment where unconscious psychological scripts and misplaced status-seeking subvert true independence.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Loaded: Money, Psychology, and How to Get Ahead Without Leaving Your Values Behind"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "logic-a-very-short-introduction",
     "title": "Logic: A Very Short Introduction",
     "author": "Graham Priest",
@@ -14537,6 +14687,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "mind-over-money-overcoming-the-money-disorders-that-threaten",
+    "title": "Mind Over Money: Overcoming the Money Disorders That Threaten Our Financial Health",
+    "author": "Brad Klontz & Ted Klontz",
+    "category": "Money & Investing",
+    "subcategory": "Money Psychology",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2009,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Knowing how to balance a budget is useless if your emotional nervous system is secretly running the ledger. This book diagnoses the subconscious money scripts and psychological disorders that sabotage your balance sheet, giving you the practical tools to break generational money patterns and build real financial sovereignty.",
+      "coreThesis": "Financial behavior is driven by subconscious emotional scripts, not spreadsheet logic; lasting wealth requires identifying and rewriting the hidden psychological traumas that govern how you manage money.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mind Over Money: Overcoming the Money Disorders That Threaten Our Financial Health"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
       "Strategy",
       "Mental Models"
     ]
@@ -27962,6 +28147,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-millionaire-next-door-the-surprising-secrets-of-america-",
+    "title": "The Millionaire Next Door: The Surprising Secrets of America's Wealthy",
+    "author": "Thomas J. Stanley & William D. Danko",
+    "category": "Money & Investing",
+    "subcategory": "Money Psychology",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1996,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most genuine millionaires don't drive sports cars, wear designer suits, or live in mansions. They live down your street, budget ruthlessly, and value complete financial sovereignty over the shallow applause of neighbors.",
+      "coreThesis": "Wealth is what you keep and compound, not what you spend and display; true financial freedom demands living far below your earnings regardless of your income level.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Millionaire Next Door: The Surprising Secrets of America's Wealthy"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-mind-and-the-way-buddhist-reflections-on-life",
     "title": "The Mind and the Way: Buddhist Reflections on Life",
     "author": "Ajahn Sumedho",
@@ -29884,6 +30104,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-secret-language-of-money",
+    "title": "The Secret Language of Money",
+    "author": "David Krueger",
+    "category": "Money & Investing",
+    "subcategory": "Money Psychology",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2009,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Money is never just math; it is a mirror reflecting our deepest insecurities, desires, and unexamined emotional scripts. Mastering your balance sheet requires first rewriting the psychological narrative that quietly sabotages your financial decisions.",
+      "coreThesis": "Money speaks in two languages: the literal arithmetic of numbers and the unconscious narrative of emotional symbolism. You can only achieve true wealth and lasting peace of mind when you identify and rewrite the unexamined psychological script driving your financial behavior.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Secret Language of Money"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-selfish-gene",
     "title": "The Selfish Gene",
     "author": "Richard Dawkins",
@@ -30438,6 +30693,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-soul-of-money-transforming-your-relationship-with-wealth",
+    "title": "The Soul of Money: Transforming Your Relationship with Wealth and Happiness",
+    "author": "Lynne Twist",
+    "category": "Money & Investing",
+    "subcategory": "Money Psychology",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2003,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop running on the exhausting, unyielding treadmill of unexamined consumption. Lynne Twist exposes the toxic psychological lie of scarcity and delivers a battle-tested blueprint to turn money into a disciplined tool for integrity, freedom, and lasting peace of mind.",
+      "coreThesis": "Scarcity is an engineered cultural illusion designed to keep you insecure; true wealth is achieved when you define 'enough' and direct money as a conscious current behind your deepest principles.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Soul of Money: Transforming Your Relationship with Wealth and Happiness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
       "Strategy",
       "Mental Models"
     ]
@@ -34498,6 +34788,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "wired-for-wealth",
+    "title": "Wired for Wealth",
+    "author": "Brad Klontz, Ted Klontz, Rick Kahler",
+    "category": "Money & Investing",
+    "subcategory": "Money Psychology",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most people manage money using an outdated internal operating system inherited during childhood without ever reading the manual. This book provides the diagnostic toolkit to reprogram self-defeating money scripts and build quiet, durable wealth.",
+      "coreThesis": "Financial behavior is driven by unconscious, inherited money scripts; until you rewrite these hidden operating rules, raw financial knowledge will never produce lasting solvency.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Wired for Wealth"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "wisdom-develops-samadhi",
     "title": "Wisdom Develops Samadhi",
     "author": "Ajahn Maha Bua",
@@ -35227,6 +35552,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "your-money-or-your-life",
+    "title": "Your Money or Your Life",
+    "author": "Vicki Robin & Joe Dominguez",
+    "category": "Money & Investing",
+    "subcategory": "Money Psychology",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1992,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Money is not paper or status\\u2014it is the irreplaceable chunk of your finite lifespan you trade to get it. When you price every purchase in hours of your life rather than dollars, mindless consumerism stops and financial sovereignty begins.",
+      "coreThesis": "Money is something you choose to trade your finite life energy for. Financial independence is attained by cutting wasteful consumption, calculating your real hourly wage, and building an investment cushion whose passive returns permanently exceed your living expenses.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Your Money or Your Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
       "Strategy",
       "Mental Models"
     ]
