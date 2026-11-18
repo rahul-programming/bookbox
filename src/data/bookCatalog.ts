@@ -140,6 +140,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "decisive": "./books/decisiveExpanded.ts",
   "deep-down-we-know": "./books/deepDownWeKnowExpanded.ts",
   "deep-work": "./books/deepWorkExpanded.ts",
+  "deepening-insight-a-practical-guide-to-the-buddhas-incremental-path": "./books/deepeningInsightAPracticalGuideToTheBuddhasIncrementalPathExpanded.ts",
   "dependent-arising-a-practical-guide-to-early-buddhist-teachings": "./books/dependentArisingAPracticalGuideToEarlyBuddhistTeachingsExpanded.ts",
   "dependent-origination-paticca-samuppada": "./books/dependentOriginationPaticcaSamuppadaExpanded.ts",
   "designing-your-life-how-to-build-a-well-lived-joyful-life": "./books/designingYourLifeHowToBuildAWellLivedJoyfulLifeExpanded.ts",
@@ -235,6 +236,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "getting-past-no-negotiating-with-difficult-people": "./books/gettingPastNoNegotiatingWithDifficultPeopleExpanded.ts",
   "getting-things-done-the-art-of-stress-free-productivity": "./books/gettingThingsDoneTheArtOfStressFreeProductivityExpanded.ts",
   "getting-to-yes-negotiating-agreement-without-giving-in": "./books/gettingToYesNegotiatingAgreementWithoutGivingInExpanded.ts",
+  "give-and-take-why-helping-others-drives-our-success": "./books/giveAndTakeWhyHelpingOthersDrivesOurSuccessExpanded.ts",
   "give-it-up-and-be-happy": "./books/giveItUpAndBeHappyExpanded.ts",
   "gods-and-the-universe-in-buddhist-perspective": "./books/godsAndTheUniverseInBuddhistPerspectiveExpanded.ts",
   "going-for-refuge-and-taking-the-precepts": "./books/goingForRefugeAndTakingThePreceptsExpanded.ts",
@@ -389,10 +391,13 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "my-land-and-my-people-the-original-autobiography": "./books/myLandAndMyPeopleTheOriginalAutobiographyExpanded.ts",
   "negotiating-the-nonnegotiable-how-to-resolve-your-most-emoti": "./books/negotiatingTheNonnegotiableHowToResolveYourMostEmotiExpanded.ts",
   "negotiation-genius": "./books/negotiationGeniusExpanded.ts",
+  "networking-for-people-who-hate-networking": "./books/networkingForPeopleWhoHateNetworkingExpanded.ts",
+  "never-eat-alone-and-other-secrets-to-success-one-relationshi": "./books/neverEatAloneAndOtherSecretsToSuccessOneRelationshiExpanded.ts",
   "never-split-the-difference-negotiating-as-if-your-life-depen": "./books/neverSplitTheDifferenceNegotiatingAsIfYourLifeDepenExpanded.ts",
   "no-ajahn-chah-reflections-of-a-master": "./books/noAjahnChahReflectionsOfAMasterExpanded.ts",
   "no-bad-parts-healing-trauma-and-restoring-wholeness-with-the": "./books/noBadPartsHealingTraumaAndRestoringWholenessWithTheExpanded.ts",
   "no-hard-feelings-the-secret-power-of-embracing-emotions-at-w": "./books/noHardFeelingsTheSecretPowerOfEmbracingEmotionsAtWExpanded.ts",
+  "no-inner-core-an-introduction-to-the-doctrine-of-anatta": "./books/noInnerCoreAnIntroductionToTheDoctrineOfAnattaExpanded.ts",
   "no-more-mr-nice-guy": "./books/noMoreMrNiceGuyExpanded.ts",
   "no-mud-no-lotus-the-art-of-transforming-suffering": "./books/noMudNoLotusTheArtOfTransformingSufferingExpanded.ts",
   "noble-strategy-essays-on-the-buddhist-path": "./books/nobleStrategyEssaysOnTheBuddhistPathExpanded.ts",
@@ -483,6 +488,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "scarcity-why-having-too-little-means-so-much": "./books/scarcityWhyHavingTooLittleMeansSoMuchExpanded.ts",
   "search-inside-yourself": "./books/searchInsideYourselfExpanded.ts",
   "searching-for-the-self": "./books/searchingForTheSelfExpanded.ts",
+  "seeing-like-a-state": "./books/seeingLikeAStateExpanded.ts",
   "seeing-systems-unlocking-the-mysteries-of-organizational-lif": "./books/seeingSystemsUnlockingTheMysteriesOfOrganizationalLifExpanded.ts",
   "seeing-that-frees-meditations-on-emptiness": "./books/seeingThatFreesMeditationsOnEmptinessExpanded.ts",
   "seeking-buddho-teachings-on-meditation": "./books/seekingBuddhoTeachingsOnMeditationExpanded.ts",
@@ -526,6 +532,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "start-with-no-the-negotiating-tools-that-the-pros-don-t-want": "./books/startWithNoTheNegotiatingToolsThatTheProsDonTWantExpanded.ts",
   "start-with-why-how-great-leaders-inspire-everyone-to-take-ac": "./books/startWithWhyHowGreatLeadersInspireEveryoneToTakeAcExpanded.ts",
   "starting-strength-basic-barbell-training": "./books/startingStrengthBasicBarbellTrainingExpanded.ts",
+  "status-anxiety": "./books/statusAnxietyExpanded.ts",
   "steal-the-show-from-speeches-to-job-interviews-to-deal-closi": "./books/stealTheShowFromSpeechesToJobInterviewsToDealClosiExpanded.ts",
   "stick-with-it": "./books/stickWithItExpanded.ts",
   "stillness-flowing-the-life-and-teachings-of-ajahn-chah": "./books/stillnessFlowingTheLifeAndTeachingsOfAjahnChahExpanded.ts",
@@ -558,6 +565,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-1-page-marketing-plan": "./books/the1PageMarketingPlanExpanded.ts",
   "the-1-rule": "./books/the1RuleExpanded.ts",
   "the-22-immutable-laws-of-marketing": "./books/the22ImmutableLawsOfMarketingExpanded.ts",
+  "the-2-hour-cocktail-party-how-to-build-big-relationships-wit": "./books/the2HourCocktailPartyHowToBuildBigRelationshipsWitExpanded.ts",
   "the-48-laws-of-power": "./books/the48LawsOfPowerExpanded.ts",
   "the-5-second-rule": "./books/the5SecondRuleExpanded.ts",
   "the-80-20-principle": "./books/the8020PrincipleExpanded.ts",
@@ -696,6 +704,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-heritage-of-the-sangha": "./books/theHeritageOfTheSanghaExpanded.ts",
   "the-hidden-dimension": "./books/theHiddenDimensionExpanded.ts",
   "the-humorous-approach": "./books/theHumorousApproachExpanded.ts",
+  "the-image-a-guide-to-pseudo-events-in-america": "./books/theImageAGuideToPseudoEventsInAmericaExpanded.ts",
   "the-information-diet": "./books/theInformationDietExpanded.ts",
   "the-invisible-gorilla-how-our-intuitions-deceive-us": "./books/theInvisibleGorillaHowOurIntuitionsDeceiveUsExpanded.ts",
   "the-island-an-anthology-of-the-buddha-s-teachings-on-nibbana": "./books/theIslandAnAnthologyOfTheBuddhaSTeachingsOnNibbanaExpanded.ts",
@@ -795,6 +804,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-sutta-nipata-early-buddhist-poetry": "./books/theSuttaNipataEarlyBuddhistPoetryExpanded.ts",
   "the-suttanipata-an-ancient-collection-of-discourses": "./books/theSuttanipataAnAncientCollectionOfDiscoursesExpanded.ts",
   "the-systems-view-of-life": "./books/theSystemsViewOfLifeExpanded.ts",
+  "the-theory-of-the-leisure-class": "./books/theTheoryOfTheLeisureClassExpanded.ts",
   "the-thousandfold-verse-dhammapada-sahassa-vagga": "./books/theThousandfoldVerseDhammapadaSahassaVaggaExpanded.ts",
   "the-three-basic-facts-of-existence-impermanence-anicca": "./books/theThreeBasicFactsOfExistenceImpermanenceAniccaExpanded.ts",
   "the-three-basic-facts-of-existence-non-self-anatta": "./books/theThreeBasicFactsOfExistenceNonSelfAnattaExpanded.ts",
@@ -5800,6 +5810,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "deepening-insight-a-practical-guide-to-the-buddhas-incremental-path",
+    "title": "Deepening Insight: A Practical Guide to the Buddha's Incremental Path",
+    "author": "Bhikkhu Analayo",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 2021,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Every human reaction\\u2014from sudden rage to compulsive craving\\u2014ignites at the microscopic spark of a feeling tone. Bhikkhu An\\u0101layo delivers a calm, razor-sharp manual for disarming mental turmoil at its raw sensory origin before it ever hardens into suffering.",
+      "coreThesis": "Suffering does not come from what we feel, but from our automatic reaction to the feeling; by mindfully observing sensations as temporary and impersonal, we dissolve the fuel that feeds emotional distress.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Deepening Insight: A Practical Guide to the Buddha's Incremental Path"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "dependent-arising-a-practical-guide-to-early-buddhist-teachings",
     "title": "Dependent Arising: A Practical Guide to Early Buddhist Teachings",
     "author": "Bhikkhu Analayo",
@@ -9117,6 +9162,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "give-and-take-why-helping-others-drives-our-success",
+    "title": "Give and Take: Why Helping Others Drives Our Success",
+    "author": "Adam Grant",
+    "category": "Leadership & Career",
+    "subcategory": "Personal Brand & Reputation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Success is not an individual zero-sum extraction; it is an ecosystem compounding play. By mastering 'otherish' giving\\u2014protecting your downside while creating outsized value for others\\u2014you construct an indestructible reputational moat.",
+      "coreThesis": "Selfish extraction creates immediate returns but long-term reputational bankruptcy; otherish giving creates short-term asymmetry that compounds into an insurmountable reputational moat.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Give and Take: Why Helping Others Drives Our Success"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
@@ -14506,6 +14586,76 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "networking-for-people-who-hate-networking",
+    "title": "Networking for People Who Hate Networking",
+    "author": "Devora Zack",
+    "category": "Leadership & Career",
+    "subcategory": "Personal Brand & Reputation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Traditional networking is a high-cost, low-yield game of collecting business cards that yields zero real trust. Devora Zack arms analytical and introverted operators with a disciplined blueprint to turn quiet observation and focused depth into an unassailable relationship moat.",
+      "coreThesis": "Sustainable professional influence is built through strategic depth, disciplined listening, and calibrated execution\\u2014not the frantic, surface-level theater of conventional networking.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Networking for People Who Hate Networking"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "never-eat-alone-and-other-secrets-to-success-one-relationshi",
+    "title": "Never Eat Alone: And Other Secrets to Success, One Relationship at a Time",
+    "author": "Keith Ferrazzi",
+    "category": "Leadership & Career",
+    "subcategory": "Personal Brand & Reputation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 155,
+    "publishedYear": 2005,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Success is not an individual marathon; it is an organized team sport where the density of your alliances determines the height of your ceiling. Ferrazzi dismantles sleazy glad-handing and presents a razor-sharp tactical blueprint for engineering compounding relationship equity through relentless generosity and systematic outreach.",
+      "coreThesis": "Individual talent sets your baseline, but your relational network sets your ceiling; compounding competitive advantage belongs to those who systematically deliver selfless value to key nodes before ever asking for return.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Never Eat Alone: And Other Secrets to Success, One Relationship at a Time"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "never-split-the-difference-negotiating-as-if-your-life-depen",
     "title": "Never Split the Difference: Negotiating As If Your Life Depended On It",
     "author": "Chris Voss with Tahl Raz",
@@ -14641,6 +14791,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "no-inner-core-an-introduction-to-the-doctrine-of-anatta",
+    "title": "No Inner Core: An Introduction to the Doctrine of Anatta",
+    "author": "Sayadaw U Silananda",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1999,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You are not an isolated boss running a body; you are a flowing, living process. Discover the freedom of letting go of the phantom ego and experiencing life as it truly unfolds.",
+      "coreThesis": "There is no permanent, unchanging self or central controller within body and mind; what we call 'I' is an interrelated stream of natural processes that arise and pass away according to causes.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "No Inner Core: An Introduction to the Doctrine of Anatta"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -17791,6 +17976,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "seeing-like-a-state",
+    "title": "Seeing Like a State",
+    "author": "James C. Scott",
+    "category": "Leadership & Career",
+    "subcategory": "Workplace Politics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1998,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Top-down masterminds fail because they mistake neat spreadsheets for real-world reality. When leaders erase local street smarts in favor of sterile corporate blueprints, systems inevitably collapse.",
+      "coreThesis": "Systems collapse when top-down authorities sacrifice practical, local wisdom to impose sterile, standardized order for the sake of centralized control.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Seeing Like a State"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "seeing-systems-unlocking-the-mysteries-of-organizational-lif",
     "title": "Seeing Systems: Unlocking the Mysteries of Organizational Life",
     "author": "Barry Oshry",
@@ -19291,6 +19511,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "status-anxiety",
+    "title": "Status Anxiety",
+    "author": "Alain de Botton",
+    "category": "Leadership & Career",
+    "subcategory": "Workplace Politics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Status anxiety is the silent tax you pay for letting other people define your scorecard. Master the hidden incentives driving modern prestige to reclaim operational freedom and build unshakeable sovereign worth.",
+      "coreThesis": "Status anxiety is the corrosive fear of being judged second-rate by an audience whose approval you do not actually need; true sovereignty comes from setting your own internal balance sheet.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Status Anxiety"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "steal-the-show-from-speeches-to-job-interviews-to-deal-closi",
     "title": "Steal the Show: From Speeches to Job Interviews to Deal-Closing Pitches",
     "author": "Michael Port",
@@ -20397,6 +20652,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The 22 Immutable Laws of Marketing"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-2-hour-cocktail-party-how-to-build-big-relationships-wit",
+    "title": "The 2-Hour Cocktail Party: How to Build Big Relationships with Small Gatherings",
+    "author": "Nick Gray",
+    "category": "Leadership & Career",
+    "subcategory": "Personal Brand & Reputation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 2022,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop collecting lifeless business cards and start manufacturing high-leverage social capital through systematically engineered, two-hour micro-gatherings. This playbook strips away entertaining fluff to give you a repeatable tactical blueprint for dominating network density and relationship architecture.",
+      "coreThesis": "You do not build high-value relationships by attending noisy events; you build them by becoming the centralized host of structured, frictionless, time-capped micro-gatherings.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The 2-Hour Cocktail Party: How to Build Big Relationships with Small Gatherings"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -25233,6 +25523,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-image-a-guide-to-pseudo-events-in-america",
+    "title": "The Image: A Guide to Pseudo-Events in America",
+    "author": "Daniel J. Boorstin",
+    "category": "Leadership & Career",
+    "subcategory": "Workplace Politics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1962,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "We live in a world flooded with staged spectacles, where engineered impressions routinely drown out substance. Master the mechanics of pseudo-events so you can distinguish real competitive moats from synthetic public relations theater.",
+      "coreThesis": "Modern culture has replaced authentic reality with engineered 'pseudo-events' and synthetic images, creating an illusion economy where visibility is prized over real competence.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Image: A Guide to Pseudo-Events in America"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-information-diet",
     "title": "The Information Diet",
     "author": "Clay A. Johnson",
@@ -28689,6 +29014,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "the-theory-of-the-leisure-class",
+    "title": "The Theory of the Leisure Class",
+    "author": "Thorstein Veblen",
+    "category": "Leadership & Career",
+    "subcategory": "Workplace Politics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 1899,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "People do not purchase luxury goods or adopt complex rituals for comfort; they buy them to prove they can afford to waste resources. Thorstein Veblen dismantles the hidden mechanics of human vanity, revealing how status, taste, and corporate rivalries are driven by competitive waste.",
+      "coreThesis": "Human consumption and lifestyle choices are primarily competitive weapons designed to signal social superiority through visible waste of time, effort, and money.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Theory of the Leisure Class"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
