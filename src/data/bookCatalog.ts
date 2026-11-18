@@ -82,6 +82,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "born-to-run": "./books/bornToRunExpanded.ts",
   "boundaries-when-to-say-yes-how-to-say-no-to-take-control-of-": "./books/boundariesWhenToSayYesHowToSayNoToTakeControlOfExpanded.ts",
   "brahmavihara-the-four-immeasurables-in-early-buddhism": "./books/brahmaviharaTheFourImmeasurablesInEarlyBuddhismExpanded.ts",
+  "breakthrough-rapid-reading": "./books/breakthroughRapidReadingExpanded.ts",
   "breakthrough-realizing-the-deathless-in-this-life": "./books/breakthroughRealizingTheDeathlessInThisLifeExpanded.ts",
   "breath-by-breath-the-liberating-practice-of-insight": "./books/breathByBreathTheLiberatingPracticeOfInsightExpanded.ts",
   "breath-the-new-science-of-a-lost-art": "./books/breathTheNewScienceOfALostArtExpanded.ts",
@@ -159,6 +160,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "dictionary-of-pali-proper-names-volume-1": "./books/dictionaryOfPaliProperNamesVolume1Expanded.ts",
   "dictionary-of-pali-proper-names-volume-2": "./books/dictionaryOfPaliProperNamesVolume2Expanded.ts",
   "difficult-conversations-how-to-discuss-what-matters-most": "./books/difficultConversationsHowToDiscussWhatMattersMostExpanded.ts",
+  "dig-your-well-before-you-re-thirsty": "./books/digYourWellBeforeYouReThirstyExpanded.ts",
   "digital-body-language-how-to-build-trust-and-connection-no-m": "./books/digitalBodyLanguageHowToBuildTrustAndConnectionNoMExpanded.ts",
   "dimensions-of-buddhist-thought-collected-essays": "./books/dimensionsOfBuddhistThoughtCollectedEssaysExpanded.ts",
   "disarming-the-narcissist": "./books/disarmingTheNarcissistExpanded.ts",
@@ -226,6 +228,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "four-thousand-weeks-time-management-for-mortals": "./books/fourThousandWeeksTimeManagementForMortalsExpanded.ts",
   "freedom-in-exile-the-autobiography-of-the-dalai-lama": "./books/freedomInExileTheAutobiographyOfTheDalaiLamaExpanded.ts",
   "freeing-the-natural-voice": "./books/freeingTheNaturalVoiceExpanded.ts",
+  "friend-of-a-friend-understanding-the-hidden-networks-that-ca": "./books/friendOfAFriendUnderstandingTheHiddenNetworksThatCaExpanded.ts",
   "from-heart-to-heart-selected-dhamma-talks": "./books/fromHeartToHeartSelectedDhammaTalksExpanded.ts",
   "fundamentals-of-buddhism": "./books/fundamentalsOfBuddhismExpanded.ts",
   "fundamentals-of-buddhism-four-lectures": "./books/fundamentalsOfBuddhismFourLecturesExpanded.ts",
@@ -270,6 +273,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "how-to-win-any-argument": "./books/howToWinAnyArgumentExpanded.ts",
   "humble-inquiry-the-gentle-art-of-asking-instead-of-telling": "./books/humbleInquiryTheGentleArtOfAskingInsteadOfTellingExpanded.ts",
   "humor-seriously-why-humor-is-a-secret-weapon-in-business-and": "./books/humorSeriouslyWhyHumorIsASecretWeaponInBusinessAndExpanded.ts",
+  "hyperfocus-how-to-be-more-productive-in-a-world-of-distracti": "./books/hyperfocusHowToBeMoreProductiveInAWorldOfDistractiExpanded.ts",
   "i-give-you-my-life-the-autobiography-of-ayya-khema": "./books/iGiveYouMyLifeTheAutobiographyOfAyyaKhemaExpanded.ts",
   "i-hear-you-the-surprisingly-simple-skill-behind-extraordinar": "./books/iHearYouTheSurprisinglySimpleSkillBehindExtraordinarExpanded.ts",
   "i-thought-it-was-just-me-but-it-isn-t": "./books/iThoughtItWasJustMeButItIsnTExpanded.ts",
@@ -445,6 +449,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "practical-vipassana-meditative-exercises": "./books/practicalVipassanaMeditativeExercisesExpanded.ts",
   "pre-suasion-a-revolutionary-way-to-influence-and-persuade": "./books/preSuasionARevolutionaryWayToInfluenceAndPersuadeExpanded.ts",
   "predictably-irrational-the-hidden-forces-that-shape-our-deci": "./books/predictablyIrrationalTheHiddenForcesThatShapeOurDeciExpanded.ts",
+  "presence-bringing-your-boldest-self-to-your-biggest-challeng": "./books/presenceBringingYourBoldestSelfToYourBiggestChallengExpanded.ts",
   "presentation-zen-simple-ideas-on-presentation-design-and-del": "./books/presentationZenSimpleIdeasOnPresentationDesignAndDelExpanded.ts",
   "primal-leadership": "./books/primalLeadershipExpanded.ts",
   "process-of-consciousness-according-to-abhidhamma": "./books/processOfConsciousnessAccordingToAbhidhammaExpanded.ts",
@@ -550,11 +555,13 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "strangers-to-ourselves-discovering-the-adaptive-unconscious": "./books/strangersToOurselvesDiscoveringTheAdaptiveUnconsciousExpanded.ts",
   "super-thinking-the-big-book-of-mental-models": "./books/superThinkingTheBigBookOfMentalModelsExpanded.ts",
   "supercommunicators-how-to-unlock-the-secret-language-of-conn": "./books/supercommunicatorsHowToUnlockTheSecretLanguageOfConnExpanded.ts",
+  "superconnector-stop-networking-and-start-building-business-r": "./books/superconnectorStopNetworkingAndStartBuildingBusinessRExpanded.ts",
   "superforecasting-the-art-and-science-of-prediction": "./books/superforecastingTheArtAndScienceOfPredictionExpanded.ts",
   "superiority-conceit-in-buddhist-traditions": "./books/superiorityConceitInBuddhistTraditionsExpanded.ts",
   "supramundane-consciousness-lokuttara-citta": "./books/supramundaneConsciousnessLokuttaraCittaExpanded.ts",
   "survival-and-karma-in-buddhist-perspective": "./books/survivalAndKarmaInBuddhistPerspectiveExpanded.ts",
   "sync-how-order-emerges-from-chaos": "./books/syncHowOrderEmergesFromChaosExpanded.ts",
+  "taking-the-work-out-of-networking": "./books/takingTheWorkOutOfNetworkingExpanded.ts",
   "talk-like-ted-the-9-public-speaking-secrets-of-the-world-s-t": "./books/talkLikeTedThe9PublicSpeakingSecretsOfTheWorldSTExpanded.ts",
   "taming-the-mind-dhammapada-chapter-on-consciousness": "./books/tamingTheMindDhammapadaChapterOnConsciousnessExpanded.ts",
   "taming-the-mind-discourses-on-mind-training": "./books/tamingTheMindDiscoursesOnMindTrainingExpanded.ts",
@@ -622,6 +629,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-business-of-expertise-how-entrepreneurial-advisors-maste": "./books/theBusinessOfExpertiseHowEntrepreneurialAdvisorsMasteExpanded.ts",
   "the-case-for-rebirth": "./books/theCaseForRebirthExpanded.ts",
   "the-catalyst-how-to-change-anyone-s-mind": "./books/theCatalystHowToChangeAnyoneSMindExpanded.ts",
+  "the-charisma-myth-how-anyone-can-master-the-art-and-science-": "./books/theCharismaMythHowAnyoneCanMasterTheArtAndScienceExpanded.ts",
   "the-checklist-manifesto": "./books/theChecklistManifestoExpanded.ts",
   "the-choice-factory-25-behavioral-biases-that-influence-what-": "./books/theChoiceFactory25BehavioralBiasesThatInfluenceWhatExpanded.ts",
   "the-circadian-code": "./books/theCircadianCodeExpanded.ts",
@@ -634,6 +642,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-compound-effect": "./books/theCompoundEffectExpanded.ts",
   "the-conception-of-buddhist-nirvana": "./books/theConceptionOfBuddhistNirvanaExpanded.ts",
   "the-connected-discourses-of-the-buddha-samyutta-nikaya": "./books/theConnectedDiscoursesOfTheBuddhaSamyuttaNikayaExpanded.ts",
+  "the-connector-s-advantage": "./books/theConnectorSAdvantageExpanded.ts",
   "the-copywriter-s-handbook": "./books/theCopywriterSHandbookExpanded.ts",
   "the-courage-to-be-disliked": "./books/theCourageToBeDislikedExpanded.ts",
   "the-covert-passive-aggressive-narcissist": "./books/theCovertPassiveAggressiveNarcissistExpanded.ts",
@@ -829,6 +838,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-voice-book-caring-for-protecting-and-improving-your-voic": "./books/theVoiceBookCaringForProtectingAndImprovingYourVoicExpanded.ts",
   "the-war-of-art": "./books/theWarOfArtExpanded.ts",
   "the-way-of-mindfulness-satipatthana-sutta-commentary": "./books/theWayOfMindfulnessSatipatthanaSuttaCommentaryExpanded.ts",
+  "the-way-out-a-mindbody-approach-to-healing-chronic-pain": "./books/theWayOutAMindbodyApproachToHealingChronicPainExpanded.ts",
   "the-way-to-nibbana": "./books/theWayToNibbanaExpanded.ts",
   "the-way-to-the-guru-meditative-guidance": "./books/theWayToTheGuruMeditativeGuidanceExpanded.ts",
   "the-willpower-instinct": "./books/theWillpowerInstinctExpanded.ts",
@@ -3794,6 +3804,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "breakthrough-rapid-reading",
+    "title": "Breakthrough Rapid Reading",
+    "author": "Peter Kump",
+    "category": "Productivity",
+    "subcategory": "Daily Systems & Workflows",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 170,
+    "publishedYear": 1998,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop creeping along the information highway in first gear. Breakthrough Rapid Reading gives you the training protocol to quiet your inner vocal echo, guide your eyes with athletic discipline, and process knowledge as fast as your brain can think.",
+      "coreThesis": "Reading speed is not an innate genetic limit but a trainable physical and cognitive habit: by using your hand as a pacer and silencing the inner voice, you can process ideas at the true speed of thought.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Breakthrough Rapid Reading"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "breakthrough-realizing-the-deathless-in-this-life",
     "title": "Breakthrough: Realizing the Deathless in This Life",
     "author": "Ajahn Amaro",
@@ -6485,6 +6530,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "dig-your-well-before-you-re-thirsty",
+    "title": "Dig Your Well Before You're Thirsty",
+    "author": "Harvey Mackay",
+    "category": "Leadership & Career",
+    "subcategory": "Personal Brand & Reputation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 415,
+    "publishedYear": 1997,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When sudden drought or crisis hits your career, digging a well on the spot is a fatal mistake\\u2014you must drill into the bedrock long before you ever need a sip. Harvey Mackay delivers an unsentimental masterclass on engineering an unshakeable relational moat that turns personal goodwill into your greatest competitive advantage.",
+      "coreThesis": "Professional security and outsized leverage are built entirely on pre-emptive goodwill; you must deposit value, trust, and intelligence into relationships long before circumstances compel you to make a withdrawal.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Dig Your Well Before You're Thirsty"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "digital-body-language-how-to-build-trust-and-connection-no-m",
     "title": "Digital Body Language: How to Build Trust and Connection, No Matter the Distance",
     "author": "Erica Dhawan",
@@ -8827,6 +8907,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "friend-of-a-friend-understanding-the-hidden-networks-that-ca",
+    "title": "Friend of a Friend: Understanding the Hidden Networks That Can Transform Your Life and Your Career",
+    "author": "David Burkus",
+    "category": "Leadership & Career",
+    "subcategory": "Personal Brand & Reputation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Traditional networking is broken because collecting business cards creates zero strategic leverage. Real career power comes from reading the social circuit board, bridging isolated clusters, and exploiting the mathematical laws of network science.",
+      "coreThesis": "You do not need to build a network from scratch; you already inhabit an expansive web where your greatest career upside lies in dormant ties and the structural holes between isolated clusters.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Friend of a Friend: Understanding the Hidden Networks That Can Transform Your Life and Your Career"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "from-heart-to-heart-selected-dhamma-talks",
     "title": "From Heart to Heart: Selected Dhamma Talks",
     "author": "Ajahn Jayasaro",
@@ -10360,6 +10475,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "hyperfocus-how-to-be-more-productive-in-a-world-of-distracti",
+    "title": "Hyperfocus: How to Be More Productive in a World of Distraction",
+    "author": "Chris Bailey",
+    "category": "Productivity",
+    "subcategory": "Focus & Deep Work",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Attention is your mind's most precious operating currency, yet most days slip away on autopilot. By learning to balance pin-point hyperfocus with deliberate, wandering scatterfocus, you unlock both fierce execution and effortless creative breakthroughs.",
+      "coreThesis": "Peak productivity is an intentional dance between two complementary mental states: laser-sharp hyperfocus for execution and wide-ranging scatterfocus for creativity and recovery.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Hyperfocus: How to Be More Productive in a World of Distraction"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
       "Strategy",
       "Mental Models"
     ]
@@ -16484,6 +16634,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "presence-bringing-your-boldest-self-to-your-biggest-challeng",
+    "title": "Presence: Bringing Your Boldest Self to Your Biggest Challenges",
+    "author": "Amy Cuddy",
+    "category": "Communication",
+    "subcategory": "Social Skills & Charisma",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When high stakes strike, you don't need a charismatic mask\\u2014you need your body to convince your brain that you are safe, capable, and ready. Amy Cuddy shows how tiny adjustments in physical posture rewire internal chemistry and dissolve paralyzing anxiety.",
+      "coreThesis": "Your body doesn't just reflect how you feel; it actively dictates how you think, feel, and perform under pressure.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Presence: Bringing Your Boldest Self to Your Biggest Challenges"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "presentation-zen-simple-ideas-on-presentation-design-and-del",
     "title": "Presentation Zen: Simple Ideas on Presentation Design and Delivery",
     "author": "Garr Reynolds",
@@ -20151,6 +20336,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "superconnector-stop-networking-and-start-building-business-r",
+    "title": "Superconnector: Stop Networking and Start Building Business Relationships That Matter",
+    "author": "Scott Gerber & Ryan Paugh",
+    "category": "Leadership & Career",
+    "subcategory": "Personal Brand & Reputation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 95,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Traditional networking is a low-yield numbers game driven by desperate extraction; true Superconnectors build high-leverage ecosystems by engineering value for others with zero upfront demands. By curating elite nodes, protecting your social bandwidth, and delivering asymmetric solutions, you construct an unassailable professional moat.",
+      "coreThesis": "Sustainable professional power belongs not to those who aggressively extract favors, but to the selective hubs who engineer transformative, unprompted value for high-trust peers.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Superconnector: Stop Networking and Start Building Business Relationships That Matter"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "superforecasting-the-art-and-science-of-prediction",
     "title": "Superforecasting: The Art and Science of Prediction",
     "author": "Philip E. Tetlock & Dan Gardner",
@@ -20321,6 +20541,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "taking-the-work-out-of-networking",
+    "title": "Taking the Work Out of Networking",
+    "author": "Karen Wickre",
+    "category": "Leadership & Career",
+    "subcategory": "Personal Brand & Reputation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop treating networking like a desperate fire drill when you need a job; build an enduring, low-friction relationship pipeline that compounds quietly before you ever need it.",
+      "coreThesis": "Sustainable networking is not aggressive self-promotion, but a disciplined, low-friction habit of casual maintenance and mutual value creation practiced when you need nothing in return.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Taking the Work Out of Networking"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -22667,6 +22922,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-charisma-myth-how-anyone-can-master-the-art-and-science-",
+    "title": "The Charisma Myth: How Anyone Can Master the Art and Science of Personal Magnetism",
+    "author": "Olivia Fox Cabane",
+    "category": "Leadership & Career",
+    "subcategory": "Personal Brand & Reputation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Charisma is neither a mystical genetic gift nor an elusive art; it is a measurable behavioral toolkit grounded in presence, power, and warmth. Master these nonverbal mechanics and you control how counterparties perceive your competence, trust, and executive authority in every high-stakes room.",
+      "coreThesis": "Charisma is an engineered behavioral output resulting from the conscious calibration of presence, power, and warmth. Control your internal cognitive state, and your external nonverbal signals will project irresistible authority and trust.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Charisma Myth: How Anyone Can Master the Art and Science of Personal Magnetism"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-checklist-manifesto",
     "title": "The Checklist Manifesto",
     "author": "Atul Gawande",
@@ -23081,6 +23371,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-connector-s-advantage",
+    "title": "The Connector\\u2019s Advantage",
+    "author": "Michelle Tillis Lederman",
+    "category": "Leadership & Career",
+    "subcategory": "Personal Brand & Reputation",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Networking is not a greasy transactional tax paid at conferences; it is an asymmetrical competitive moat built on disciplined human infrastructure. Master the seven mental models of elite connectors to transform every relationship into a compounding strategic asset.",
+      "coreThesis": "Sustainable professional influence is not extracted through aggressive transactional deals, but generated by embedding yourself as a high-trust, generous node within a compounding relational network.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Connector\\u2019s Advantage"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
@@ -29897,6 +30222,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-way-out-a-mindbody-approach-to-healing-chronic-pain",
+    "title": "The Way Out: A Mindbody Approach to Healing Chronic Pain",
+    "author": "Alan Gordon & Alon Ziv",
+    "category": "Health & Longevity",
+    "subcategory": "Longevity & Vitality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2021,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Chronic pain is rarely a permanent structural breakdown of the body; it is a hypersensitive smoke alarm stuck in a false feedback loop inside the central nervous system. By systematically replacing fear with mindful curiosity, you can teach the brain to silence its false danger signals and permanently switch off the alarm.",
+      "coreThesis": "Chronic pain is an error of central predictive threat assessment\\u2014a neuroplastic false alarm perpetuated by fear\\u2014that can be deactivated by training the brain to perceive safe bodily sensations as benign.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Way Out: A Mindbody Approach to Healing Chronic Pain"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Health & Longevity",
       "Strategy",
       "Mental Models"
     ]
