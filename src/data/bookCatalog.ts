@@ -353,6 +353,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "know-your-mind-the-four-foundations-of-mindfulness": "./books/knowYourMindTheFourFoundationsOfMindfulnessExpanded.ts",
   "knowing-and-seeing-teachings-of-pa-auk-monastery": "./books/knowingAndSeeingTeachingsOfPaAukMonasteryExpanded.ts",
   "known-the-handbook-for-building-and-unleashing-your-personal": "./books/knownTheHandbookForBuildingAndUnleashingYourPersonalExpanded.ts",
+  "lateral-thinking-creativity-step-by-step": "./books/lateralThinkingCreativityStepByStepExpanded.ts",
   "lead-with-a-story": "./books/leadWithAStoryExpanded.ts",
   "leaders-eat-last-why-some-teams-pull-together-and-others-don": "./books/leadersEatLastWhySomeTeamsPullTogetherAndOthersDonExpanded.ts",
   "learn-like-a-pro": "./books/learnLikeAProExpanded.ts",
@@ -404,6 +405,8 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "manual-of-the-supreme-man-uttamapurisa-dipani": "./books/manualOfTheSupremeManUttamapurisaDipaniExpanded.ts",
   "many-ways-to-nirvana-reflections-on-happiness": "./books/manyWaysToNirvanaReflectionsOnHappinessExpanded.ts",
   "mastering-the-complex-sale": "./books/masteringTheComplexSaleExpanded.ts",
+  "mastery": "./books/masteryExpanded.ts",
+  "mastery-the-keys-to-success-and-long-term-fulfillment": "./books/masteryTheKeysToSuccessAndLongTermFulfillmentExpanded.ts",
   "mating-in-captivity-unlocking-erotic-intelligence": "./books/matingInCaptivityUnlockingEroticIntelligenceExpanded.ts",
   "measure-what-matters-how-google-bono-and-the-gates-foundatio": "./books/measureWhatMattersHowGoogleBonoAndTheGatesFoundatioExpanded.ts",
   "meditation-instructions-for-intensive-practice": "./books/meditationInstructionsForIntensivePracticeExpanded.ts",
@@ -478,6 +481,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "one-dharma-the-emerging-western-buddhism": "./books/oneDharmaTheEmergingWesternBuddhismExpanded.ts",
   "one-small-step-can-change-your-life-the-kaizen-way": "./books/oneSmallStepCanChangeYourLifeTheKaizenWayExpanded.ts",
   "opening-the-door-of-your-heart": "./books/openingTheDoorOfYourHeartExpanded.ts",
+  "orbiting-the-giant-hairball-a-corporate-fool-s-guide-to-surv": "./books/orbitingTheGiantHairballACorporateFoolSGuideToSurvExpanded.ts",
   "our-appointment-with-life-the-bhaddekaratta-sutta": "./books/ourAppointmentWithLifeTheBhaddekarattaSuttaExpanded.ts",
   "our-real-home-teachings-for-approaching-death": "./books/ourRealHomeTeachingsForApproachingDeathExpanded.ts",
   "outlive-the-science-and-art-of-longevity": "./books/outliveTheScienceAndArtOfLongevityExpanded.ts",
@@ -492,6 +496,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "peace-is-a-dynamic-process": "./books/peaceIsADynamicProcessExpanded.ts",
   "peace-is-every-step-the-path-of-mindfulness-in-everyday-life": "./books/peaceIsEveryStepThePathOfMindfulnessInEverydayLifeExpanded.ts",
   "peak-performance": "./books/peakPerformanceExpanded.ts",
+  "peak-secrets-from-the-new-science-of-expertise": "./books/peakSecretsFromTheNewScienceOfExpertiseExpanded.ts",
   "perennial-seller-the-art-of-making-and-marketing-work-that-l": "./books/perennialSellerTheArtOfMakingAndMarketingWorkThatLExpanded.ts",
   "permission-to-feel": "./books/permissionToFeelExpanded.ts",
   "personal-space": "./books/personalSpaceExpanded.ts",
@@ -582,6 +587,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "simple-teachings-on-higher-truths": "./books/simpleTeachingsOnHigherTruthsExpanded.ts",
   "simplicity-parenting-using-the-extraordinary-power-of-less-t": "./books/simplicityParentingUsingTheExtraordinaryPowerOfLessTExpanded.ts",
   "sing-your-story": "./books/singYourStoryExpanded.ts",
+  "six-thinking-hats": "./books/sixThinkingHatsExpanded.ts",
   "skill-in-questions-how-the-buddha-taught": "./books/skillInQuestionsHowTheBuddhaTaughtExpanded.ts",
   "skin-in-the-game": "./books/skinInTheGameExpanded.ts",
   "sleep-smarter": "./books/sleepSmarterExpanded.ts",
@@ -604,6 +610,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "spent-sex-evolution-and-consumer-behavior": "./books/spentSexEvolutionAndConsumerBehaviorExpanded.ts",
   "split-second-persuasion": "./books/splitSecondPersuasionExpanded.ts",
   "splitting-protecting-yourself-while-divorcing-someone-with-b": "./books/splittingProtectingYourselfWhileDivorcingSomeoneWithBExpanded.ts",
+  "sprint-how-to-solve-big-problems-and-test-new-ideas-in-just-": "./books/sprintHowToSolveBigProblemsAndTestNewIdeasInJustExpanded.ts",
   "spy-the-lie-former-cia-officers-teach-you-how-to-detect-dece": "./books/spyTheLieFormerCiaOfficersTeachYouHowToDetectDeceExpanded.ts",
   "stages-of-meditation-commentary-on-the-bhavanakrama": "./books/stagesOfMeditationCommentaryOnTheBhavanakramaExpanded.ts",
   "stand-up-comedy-the-book": "./books/standUpComedyTheBookExpanded.ts",
@@ -735,6 +742,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-covert-passive-aggressive-narcissist": "./books/theCovertPassiveAggressiveNarcissistExpanded.ts",
   "the-craft-of-scientific-presentations": "./books/theCraftOfScientificPresentationsExpanded.ts",
   "the-craft-of-the-heart": "./books/theCraftOfTheHeartExpanded.ts",
+  "the-creative-act-a-way-of-being": "./books/theCreativeActAWayOfBeingExpanded.ts",
   "the-creative-habit-learn-it-and-use-it-for-life": "./books/theCreativeHabitLearnItAndUseItForLifeExpanded.ts",
   "the-crossroads-of-should-and-must": "./books/theCrossroadsOfShouldAndMustExpanded.ts",
   "the-crowd-a-study-of-the-popular-mind": "./books/theCrowdAStudyOfThePopularMindExpanded.ts",
@@ -1029,6 +1037,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "when-panic-attacks": "./books/whenPanicAttacksExpanded.ts",
   "when-the-iron-eagle-flies-buddhism-for-the-west": "./books/whenTheIronEagleFliesBuddhismForTheWestExpanded.ts",
   "when-the-scientific-secrets-of-perfect-timing": "./books/whenTheScientificSecretsOfPerfectTimingExpanded.ts",
+  "where-good-ideas-come-from-the-natural-history-of-innovation": "./books/whereGoodIdeasComeFromTheNaturalHistoryOfInnovationExpanded.ts",
   "where-to-draw-the-line-how-to-set-healthy-boundaries-every-d": "./books/whereToDrawTheLineHowToSetHealthyBoundariesEveryDExpanded.ts",
   "who-gets-what-and-why": "./books/whoGetsWhatAndWhyExpanded.ts",
   "who-is-my-self-a-guide-to-buddhist-meditation": "./books/whoIsMySelfAGuideToBuddhistMeditationExpanded.ts",
@@ -1070,6 +1079,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "your-money-or-your-life": "./books/yourMoneyOrYourLifeExpanded.ts",
   "your-perfect-right-assertiveness-and-equality-in-your-life-a": "./books/yourPerfectRightAssertivenessAndEqualityInYourLifeAExpanded.ts",
   "your-true-home-the-everyday-wisdom-of-thich-nhat-hanh": "./books/yourTrueHomeTheEverydayWisdomOfThichNhatHanhExpanded.ts",
+  "zen-in-the-art-of-archery": "./books/zenInTheArtOfArcheryExpanded.ts",
   "zen-keys-a-guide-to-zen-practice": "./books/zenKeysAGuideToZenPracticeExpanded.ts",
   "zero-debt-the-ultimate-guide-to-financial-freedom": "./books/zeroDebtTheUltimateGuideToFinancialFreedomExpanded.ts",
   "zero-to-one-notes-on-startups-or-how-to-build-the-future": "./books/zeroToOneNotesOnStartupsOrHowToBuildTheFutureExpanded.ts"
@@ -13410,6 +13420,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "lateral-thinking-creativity-step-by-step",
+    "title": "Lateral Thinking: Creativity Step by Step",
+    "author": "Edward de Bono",
+    "category": "Creativity & Expression",
+    "subcategory": "Ideation & Brainstorming",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 120,
+    "publishedYear": 1970,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Traditional logic refines existing patterns like a shovel digging an established hole deeper, but it cannot decide where to dig next. Lateral thinking is the mechanical toolkit for hopping out of that trench and breaking ground on entirely new terrain.",
+      "coreThesis": "Creativity is not an enigmatic talent; it is the deliberate, mechanical restructuring of entrenched perceptual patterns.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Lateral Thinking: Creativity Step by Step"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "lead-with-a-story",
     "title": "Lead with a Story",
     "author": "Paul Smith",
@@ -15188,6 +15233,76 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "mastery",
+    "title": "Mastery",
+    "author": "Robert Greene",
+    "category": "Creativity & Expression",
+    "subcategory": "Craftsmanship & Mastery",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mastery is not an innate genetic lottery ticket; it is a neurological transformation earned through deliberate apprenticeship. By syncing your work with your deepest wiring, you unlock an intuitive understanding of complex systems that looks like magic to outsiders.",
+      "coreThesis": "Mastery is a predictable biological process where sustained focus and immersive practice hardwire complex patterns into intuition, granting effortless command over your chosen domain.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mastery"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "mastery-the-keys-to-success-and-long-term-fulfillment",
+    "title": "Mastery: The Keys to Success and Long-Term Fulfillment",
+    "author": "George Leonard",
+    "category": "Creativity & Expression",
+    "subcategory": "Craftsmanship & Mastery",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 1991,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Real success is not an overnight sprint\\u2014it is a steady biological curve where genuine growth happens on the quiet plateaus. When you learn to love routine repetition instead of chasing quick highs, sustainable excellence takes care of itself.",
+      "coreThesis": "Mastery is not a trophy at the end of a sprint, but an ongoing process where true growth occurs during the long, quiet plateaus of regular practice.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mastery: The Keys to Success and Long-Term Fulfillment"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -17780,6 +17895,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "orbiting-the-giant-hairball-a-corporate-fool-s-guide-to-surv",
+    "title": "Orbiting the Giant Hairball: A Corporate Fool's Guide to Surviving with Grace",
+    "author": "Gordon MacKenzie",
+    "category": "Creativity & Expression",
+    "subcategory": "Ideation & Brainstorming",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 120,
+    "publishedYear": 1998,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Every mature organization inevitably becomes a gravitational tangle of legacy rules, but creative survival doesn't require quitting or surrendering\\u2014it requires entering a stable, self-directed orbit. By balancing institutional gravity with creative velocity, you harvest the enterprise's immense resources without getting crushed by its bureaucratic density.",
+      "coreThesis": "True creative vitality within an institution requires establishing a deliberate orbit: close enough to harness corporate capital and scale, but distant enough to avoid suffocating in bureaucratic gravity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Orbiting the Giant Hairball: A Corporate Fool's Guide to Surviving with Grace"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "our-appointment-with-life-the-bhaddekaratta-sutta",
     "title": "Our Appointment with Life: The Bhaddekaratta Sutta",
     "author": "Thich Nhat Hanh",
@@ -18265,6 +18415,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "peak-secrets-from-the-new-science-of-expertise",
+    "title": "Peak: Secrets from the New Science of Expertise",
+    "author": "Anders Ericsson & Robert Pool",
+    "category": "Creativity & Expression",
+    "subcategory": "Craftsmanship & Mastery",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mastery is not an innate gift wired into your DNA; it is a physical and cognitive structure you construct deliberately. By replacing mindless repetition with targeted, feedback-rich practice, anyone can reshape their brain and push past seemingly fixed human limits.",
+      "coreThesis": "Exceptional ability is not born from innate genetic gifts, but engineered through deliberate practice\\u2014focused, uncomfortable training guided by clear feedback that builds superior mental models.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Peak: Secrets from the New Science of Expertise"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -21414,6 +21599,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "six-thinking-hats",
+    "title": "Six Thinking Hats",
+    "author": "Edward de Bono",
+    "category": "Creativity & Expression",
+    "subcategory": "Ideation & Brainstorming",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 215,
+    "publishedYear": 1985,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Human thinking jams when we try to analyze data, spot risks, generate ideas, and manage feelings all in the same breath. By separating cognition into six distinct, color-coded channels, Six Thinking Hats turns chaotic debate into a coordinated, parallel exploration where teams solve tough problems in a fraction of the time.",
+      "coreThesis": "Adversarial debate fails because the human brain cannot effectively process facts, feelings, risks, benefits, and creativity simultaneously; separating these cognitive modes into sequential, parallel steps transforms friction-filled argument into collaborative, multidimensional problem-solving.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Six Thinking Hats"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "skill-in-questions-how-the-buddha-taught",
     "title": "Skill in Questions: How the Buddha Taught",
     "author": "Thanissaro Bhikkhu",
@@ -22176,6 +22396,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "sprint-how-to-solve-big-problems-and-test-new-ideas-in-just-",
+    "title": "Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days",
+    "author": "Jake Knapp, John Zeratsky, Braden Kowitz",
+    "category": "Creativity & Expression",
+    "subcategory": "Ideation & Brainstorming",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop squandering months debating untested hypotheses in endless committees. Sprint compresses the product development loop into a rigorous five-day experimental laboratory, guiding teams from problem definition to live customer verification.",
+      "coreThesis": "Fast-forward into the future by building a realistic surface facade in one day, eliminating political debate through empirical customer feedback gathered from five structured interviews.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -26756,6 +27011,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-creative-act-a-way-of-being",
+    "title": "The Creative Act: A Way of Being",
+    "author": "Rick Rubin",
+    "category": "Creativity & Expression",
+    "subcategory": "Ideation & Brainstorming",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 390,
+    "publishedYear": 2023,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Creativity is not a rare genetic lottery or a bolt of lightning; it is an open sensory receiver tuned to the ambient signals of daily life. By stripping away ego and building disciplined, quiet habits, anyone can transform subtle everyday observations into enduring craft.",
+      "coreThesis": "Creativity is not something you fabricate through sheer will; it is a way of paying attention, tuning your internal receiver, and giving uninhibited form to what you notice.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Creative Act: A Way of Being"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -37038,6 +37328,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "where-good-ideas-come-from-the-natural-history-of-innovation",
+    "title": "Where Good Ideas Come From: The Natural History of Innovation",
+    "author": "Steven Johnson",
+    "category": "Creativity & Expression",
+    "subcategory": "Ideation & Brainstorming",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Groundbreaking ideas are not solitary lightning bolts struck in empty rooms. They are living riverbeds fed by stray hunches, accidental collisions, and shared soil.",
+      "coreThesis": "Innovation is a connected ecosystem rather than an isolated epiphany; ideas flourish when half-formed hunches collide within open, liquid networks.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Where Good Ideas Come From: The Natural History of Innovation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "where-to-draw-the-line-how-to-set-healthy-boundaries-every-d",
     "title": "Where to Draw the Line: How to Set Healthy Boundaries Every Day",
     "author": "Anne Katherine",
@@ -38467,6 +38792,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "zen-in-the-art-of-archery",
+    "title": "Zen in the Art of Archery",
+    "author": "Eugen Herrigel",
+    "category": "Creativity & Expression",
+    "subcategory": "Craftsmanship & Mastery",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1948,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mastery does not come from trying harder; it happens when you step out of your own way. Eugen Herrigel uncovers the counterintuitive paradox where letting go of your desire to hit the bullseye is the very thing that hits it.",
+      "coreThesis": "Peak performance occurs only when the conscious ego surrenders control, allowing trained intuition to execute without the interference of deliberate intention.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Zen in the Art of Archery"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
