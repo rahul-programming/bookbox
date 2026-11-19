@@ -1142,6 +1142,16 @@ import { THE_SICKNESS_UNTO_DEATH_BOOK } from './books/theSicknessUntoDeathExpand
 import { BEING_AND_TIME_BOOK } from './books/beingAndTimeExpanded';
 import { IRRATIONAL_MAN_A_STUDY_IN_EXISTENTIAL_PHILOSOPHY_BOOK } from './books/irrationalManAStudyInExistentialPhilosophyExpanded';
 import { THE_PLAGUE_BOOK } from './books/thePlagueExpanded';
+import { NICOMACHEAN_ETHICS_BOOK } from './books/nicomacheanEthicsExpanded';
+import { THE_CONSOLATIONS_OF_PHILOSOPHY_BOOK } from './books/theConsolationsOfPhilosophyExpanded';
+import { AFTER_VIRTUE_BOOK } from './books/afterVirtueExpanded';
+import { HOW_TO_BE_A_STOIC_BOOK } from './books/howToBeAStoicExpanded';
+import { A_SMALL_TREATISE_ON_THE_GREAT_VIRTUES_BOOK } from './books/aSmallTreatiseOnTheGreatVirtuesExpanded';
+import { THE_NICOMACHEAN_ETHICS_EXPLAINED_BOOK } from './books/theNicomacheanEthicsExplainedExpanded';
+import { PHILOSOPHY_AS_A_WAY_OF_LIFE_SPIRITUAL_EXERCISES_FROM_SOCRATE_BOOK } from './books/philosophyAsAWayOfLifeSpiritualExercisesFromSocrateExpanded';
+import { WHAT_WE_OWE_TO_EACH_OTHER_BOOK } from './books/whatWeOweToEachOtherExpanded';
+import { JUSTICE_WHAT_S_THE_RIGHT_THING_TO_DO_BOOK } from './books/justiceWhatSTheRightThingToDoExpanded';
+import { THE_LIFE_YOU_CAN_SAVE_ACTING_NOW_TO_END_WORLD_POVERTY_BOOK } from './books/theLifeYouCanSaveActingNowToEndWorldPovertyExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -2284,7 +2294,17 @@ export const SEED_BOOKS: Book[] = [
   THE_SICKNESS_UNTO_DEATH_BOOK,
   BEING_AND_TIME_BOOK,
   IRRATIONAL_MAN_A_STUDY_IN_EXISTENTIAL_PHILOSOPHY_BOOK,
-  THE_PLAGUE_BOOK
+  THE_PLAGUE_BOOK,
+  NICOMACHEAN_ETHICS_BOOK,
+  THE_CONSOLATIONS_OF_PHILOSOPHY_BOOK,
+  AFTER_VIRTUE_BOOK,
+  HOW_TO_BE_A_STOIC_BOOK,
+  A_SMALL_TREATISE_ON_THE_GREAT_VIRTUES_BOOK,
+  THE_NICOMACHEAN_ETHICS_EXPLAINED_BOOK,
+  PHILOSOPHY_AS_A_WAY_OF_LIFE_SPIRITUAL_EXERCISES_FROM_SOCRATE_BOOK,
+  WHAT_WE_OWE_TO_EACH_OTHER_BOOK,
+  JUSTICE_WHAT_S_THE_RIGHT_THING_TO_DO_BOOK,
+  THE_LIFE_YOU_CAN_SAVE_ACTING_NOW_TO_END_WORLD_POVERTY_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -3429,7 +3449,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(THE_SICKNESS_UNTO_DEATH_BOOK.ideaCards || []),
   ...(BEING_AND_TIME_BOOK.ideaCards || []),
   ...(IRRATIONAL_MAN_A_STUDY_IN_EXISTENTIAL_PHILOSOPHY_BOOK.ideaCards || []),
-  ...(THE_PLAGUE_BOOK.ideaCards || [])
+  ...(THE_PLAGUE_BOOK.ideaCards || []),
+  ...(NICOMACHEAN_ETHICS_BOOK.ideaCards || []),
+  ...(THE_CONSOLATIONS_OF_PHILOSOPHY_BOOK.ideaCards || []),
+  ...(AFTER_VIRTUE_BOOK.ideaCards || []),
+  ...(HOW_TO_BE_A_STOIC_BOOK.ideaCards || []),
+  ...(A_SMALL_TREATISE_ON_THE_GREAT_VIRTUES_BOOK.ideaCards || []),
+  ...(THE_NICOMACHEAN_ETHICS_EXPLAINED_BOOK.ideaCards || []),
+  ...(PHILOSOPHY_AS_A_WAY_OF_LIFE_SPIRITUAL_EXERCISES_FROM_SOCRATE_BOOK.ideaCards || []),
+  ...(WHAT_WE_OWE_TO_EACH_OTHER_BOOK.ideaCards || []),
+  ...(JUSTICE_WHAT_S_THE_RIGHT_THING_TO_DO_BOOK.ideaCards || []),
+  ...(THE_LIFE_YOU_CAN_SAVE_ACTING_NOW_TO_END_WORLD_POVERTY_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [

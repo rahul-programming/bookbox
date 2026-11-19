@@ -25,6 +25,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "a-practical-guide-to-vipassana-meditation": "./books/aPracticalGuideToVipassanaMeditationExpanded.ts",
   "a-random-walk-down-wall-street": "./books/aRandomWalkDownWallStreetExpanded.ts",
   "a-simple-way-the-heart-of-the-practice": "./books/aSimpleWayTheHeartOfThePracticeExpanded.ts",
+  "a-small-treatise-on-the-great-virtues": "./books/aSmallTreatiseOnTheGreatVirtuesExpanded.ts",
   "a-still-forest-pool-insight-meditation-of-achaan-chah": "./books/aStillForestPoolInsightMeditationOfAchaanChahExpanded.ts",
   "a-taste-of-freedom": "./books/aTasteOfFreedomExpanded.ts",
   "a-technique-for-producing-ideas": "./books/aTechniqueForProducingIdeasExpanded.ts",
@@ -37,6 +38,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "adult-children-of-emotionally-immature-parents-how-to-heal-f": "./books/adultChildrenOfEmotionallyImmatureParentsHowToHealFExpanded.ts",
   "afford-anything": "./books/affordAnythingExpanded.ts",
   "after-buddhism-rethinking-dharma-for-a-secular-age": "./books/afterBuddhismRethinkingDharmaForASecularAgeExpanded.ts",
+  "after-virtue": "./books/afterVirtueExpanded.ts",
   "alchemy-the-dark-art-and-curious-science-of-creating-magic-i": "./books/alchemyTheDarkArtAndCuriousScienceOfCreatingMagicIExpanded.ts",
   "algorithms-to-live-by": "./books/algorithmsToLiveByExpanded.ts",
   "all-about-asset-allocation": "./books/allAboutAssetAllocationExpanded.ts",
@@ -314,6 +316,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "hooked-how-to-build-habit-forming-products": "./books/hookedHowToBuildHabitFormingProductsExpanded.ts",
   "hope-and-help-for-your-nerves": "./books/hopeAndHelpForYourNervesExpanded.ts",
   "how-not-to-be-wrong-the-power-of-mathematical-thinking": "./books/howNotToBeWrongThePowerOfMathematicalThinkingExpanded.ts",
+  "how-to-be-a-stoic": "./books/howToBeAStoicExpanded.ts",
   "how-to-decide": "./books/howToDecideExpanded.ts",
   "how-to-have-impossible-conversations": "./books/howToHaveImpossibleConversationsExpanded.ts",
   "how-to-live-without-fear-and-worry": "./books/howToLiveWithoutFearAndWorryExpanded.ts",
@@ -361,6 +364,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "just-listen-discover-the-secret-to-getting-through-to-absolu": "./books/justListenDiscoverTheSecretToGettingThroughToAbsoluExpanded.ts",
   "just-one-more-breath-teachings-on-meditation-and-life": "./books/justOneMoreBreathTeachingsOnMeditationAndLifeExpanded.ts",
   "just-one-word-mindfulness": "./books/justOneWordMindfulnessExpanded.ts",
+  "justice-what-s-the-right-thing-to-do": "./books/justiceWhatSTheRightThingToDoExpanded.ts",
   "kamma-and-its-fruit-explorations-in-buddhist-karma": "./books/kammaAndItsFruitExplorationsInBuddhistKarmaExpanded.ts",
   "karma-and-rebirth": "./books/karmaAndRebirthExpanded.ts",
   "kathavatthu-points-of-controversy": "./books/kathavatthuPointsOfControversyExpanded.ts",
@@ -479,6 +483,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "never-eat-alone-and-other-secrets-to-success-one-relationshi": "./books/neverEatAloneAndOtherSecretsToSuccessOneRelationshiExpanded.ts",
   "never-finished-unshackle-your-mind-and-win-the-war-within": "./books/neverFinishedUnshackleYourMindAndWinTheWarWithinExpanded.ts",
   "never-split-the-difference-negotiating-as-if-your-life-depen": "./books/neverSplitTheDifferenceNegotiatingAsIfYourLifeDepenExpanded.ts",
+  "nicomachean-ethics": "./books/nicomacheanEthicsExpanded.ts",
   "no-ajahn-chah-reflections-of-a-master": "./books/noAjahnChahReflectionsOfAMasterExpanded.ts",
   "no-bad-parts-healing-trauma-and-restoring-wholeness-with-the": "./books/noBadPartsHealingTraumaAndRestoringWholenessWithTheExpanded.ts",
   "no-drama-discipline": "./books/noDramaDisciplineExpanded.ts",
@@ -525,6 +530,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "permission-to-feel": "./books/permissionToFeelExpanded.ts",
   "personal-space": "./books/personalSpaceExpanded.ts",
   "perspectives-on-satipatthana": "./books/perspectivesOnSatipatthanaExpanded.ts",
+  "philosophy-as-a-way-of-life-spiritual-exercises-from-socrate": "./books/philosophyAsAWayOfLifeSpiritualExercisesFromSocrateExpanded.ts",
   "pivot-the-only-move-that-matters-is-your-next-one": "./books/pivotTheOnlyMoveThatMattersIsYourNextOneExpanded.ts",
   "plato-s-republic-selected-dialogues": "./books/platoSRepublicSelectedDialoguesExpanded.ts",
   "play-bigger-how-pirates-dreamers-and-innovators-create-and-d": "./books/playBiggerHowPiratesDreamersAndInnovatorsCreateAndDExpanded.ts",
@@ -772,6 +778,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-connected-discourses-of-the-buddha-samyutta-nikaya": "./books/theConnectedDiscoursesOfTheBuddhaSamyuttaNikayaExpanded.ts",
   "the-connector-s-advantage": "./books/theConnectorSAdvantageExpanded.ts",
   "the-conscious-parent-transforming-ourselves-empowering-our-c": "./books/theConsciousParentTransformingOurselvesEmpoweringOurCExpanded.ts",
+  "the-consolations-of-philosophy": "./books/theConsolationsOfPhilosophyExpanded.ts",
   "the-copywriter-s-handbook": "./books/theCopywriterSHandbookExpanded.ts",
   "the-courage-to-be-disliked": "./books/theCourageToBeDislikedExpanded.ts",
   "the-covert-passive-aggressive-narcissist": "./books/theCovertPassiveAggressiveNarcissistExpanded.ts",
@@ -877,6 +884,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-key-to-liberation": "./books/theKeyToLiberationExpanded.ts",
   "the-lean-startup-how-today-s-entrepreneurs-use-continuous-in": "./books/theLeanStartupHowTodaySEntrepreneursUseContinuousInExpanded.ts",
   "the-life-of-sariputta": "./books/theLifeOfSariputtaExpanded.ts",
+  "the-life-you-can-save-acting-now-to-end-world-poverty": "./books/theLifeYouCanSaveActingNowToEndWorldPovertyExpanded.ts",
   "the-little-book-of-common-sense-investing": "./books/theLittleBookOfCommonSenseInvestingExpanded.ts",
   "the-little-book-of-talent": "./books/theLittleBookOfTalentExpanded.ts",
   "the-logic-of-scientific-discovery": "./books/theLogicOfScientificDiscoveryExpanded.ts",
@@ -900,6 +908,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-moral-animal": "./books/theMoralAnimalExpanded.ts",
   "the-myth-of-sisyphus": "./books/theMythOfSisyphusExpanded.ts",
   "the-narcissist-you-know": "./books/theNarcissistYouKnowExpanded.ts",
+  "the-nicomachean-ethics-explained": "./books/theNicomacheanEthicsExplainedExpanded.ts",
   "the-noble-eightfold-path-way-to-the-end-of-suffering": "./books/theNobleEightfoldPathWayToTheEndOfSufferingExpanded.ts",
   "the-noble-quest-ariyapariyesana-sutta": "./books/theNobleQuestAriyapariyesanaSuttaExpanded.ts",
   "the-nonverbal-advantage": "./books/theNonverbalAdvantageExpanded.ts",
@@ -1087,6 +1096,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "what-doesn-t-kill-us-the-new-psychology-of-posttraumatic-gro": "./books/whatDoesnTKillUsTheNewPsychologyOfPosttraumaticGroExpanded.ts",
   "what-every-body-is-saying": "./books/whatEveryBodyIsSayingExpanded.ts",
   "what-the-buddha-taught": "./books/whatTheBuddhaTaughtExpanded.ts",
+  "what-we-owe-to-each-other": "./books/whatWeOweToEachOtherExpanded.ts",
   "when-awareness-becomes-natural": "./books/whenAwarenessBecomesNaturalExpanded.ts",
   "when-bad-things-happen-to-good-people": "./books/whenBadThingsHappenToGoodPeopleExpanded.ts",
   "when-i-say-no-i-feel-guilty": "./books/whenISayNoIFeelGuiltyExpanded.ts",
@@ -2013,6 +2023,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "a-small-treatise-on-the-great-virtues",
+    "title": "A Small Treatise on the Great Virtues",
+    "author": "Andr\\u00e9 Comte-Sponville",
+    "category": "Philosophy",
+    "subcategory": "Philosophical Life Guides",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 90,
+    "publishedYear": 1996,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Virtue is not an innate gift or a dry set of commandments, but an art of living practiced daily like physical conditioning. Andr\\u00e9 Comte-Sponville delivers an inspiring, secular guide to mastering the eighteen qualities that transform ordinary conduct into genuine human excellence.",
+      "coreThesis": "Virtue is our moral muscle memory: by practicing good habits from basic courtesy to selfless love, we sculpt our humanity and discover lasting inner peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "A Small Treatise on the Great Virtues"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "a-still-forest-pool-insight-meditation-of-achaan-chah",
     "title": "A Still Forest Pool: Insight Meditation of Achaan Chah",
     "author": "Ajahn Chah (Jack Kornfield & Paul Breiter eds.)",
@@ -2428,6 +2473,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "after-virtue",
+    "title": "After Virtue",
+    "author": "Alasdair MacIntyre",
+    "category": "Philosophy",
+    "subcategory": "Philosophical Life Guides",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 95,
+    "publishedYear": 1981,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Modern moral talk is broken because we argue endlessly over rules without knowing what a good human life is for. By rediscovering shared practices, personal character, and community, we can rebuild meaning in an age of empty noise.",
+      "coreThesis": "Modern moral debates are endless and hollow because we abandoned the idea of a shared human purpose (telos). True ethics is restored only when we cultivate character through shared crafts, coherent personal narratives, and local communities of virtue.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "After Virtue"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
       "Strategy",
       "Mental Models"
     ]
@@ -12116,6 +12196,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "how-to-be-a-stoic",
+    "title": "How to Be a Stoic",
+    "author": "Massimo Pigliucci",
+    "category": "Philosophy",
+    "subcategory": "Philosophical Life Guides",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Life is a storm of uncontrollable events, but your mind is a fortress you govern completely. Massimo Pigliucci translates ancient Stoic wisdom into a practical, modern blueprint for unflinching inner peace, clear ethical purpose, and emotional mastery.",
+      "coreThesis": "True tranquility and human flourishing arise when we rigorously separate what we control from what we do not, focusing our energy solely on cultivating moral character and rational action.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "How to Be a Stoic"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "how-to-decide",
     "title": "How to Decide",
     "author": "Annie Duke",
@@ -13755,6 +13870,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "justice-what-s-the-right-thing-to-do",
+    "title": "Justice: What's the Right Thing to Do?",
+    "author": "Michael J. Sandel",
+    "category": "Philosophy",
+    "subcategory": "Philosophical Life Guides",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2009,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Justice is not merely a dry calculation of numbers or a ledger of personal liberties. It is a shared journey toward cultivating moral character and tending the garden of our common community.",
+      "coreThesis": "Justice is fundamentally teleological and virtue-centered: we cannot build a fair society merely by maximizing happiness or protecting neutral freedoms, but only by reasoned deliberation on the moral good and collective excellence.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Justice: What's the Right Thing to Do?"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
       "Strategy",
       "Mental Models"
     ]
@@ -17886,6 +18036,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "nicomachean-ethics",
+    "title": "Nicomachean Ethics",
+    "author": "Aristotle",
+    "category": "Philosophy",
+    "subcategory": "Philosophical Life Guides",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Happiness is not an accidental mood or a finished trophy you put on a shelf; it is an active craft you practice every single day. By steering your daily habits between wasteful excess and timid deficiency, you forge an unshakeable inner life.",
+      "coreThesis": "Human flourishing is an active, lifelong practice of reason in accordance with virtue, achieved by steering daily habits toward the balanced mean between harmful extremes.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Nicomachean Ethics"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "no-ajahn-chah-reflections-of-a-master",
     "title": "No Ajahn Chah: Reflections of a Master",
     "author": "Ajahn Chah",
@@ -19490,6 +19675,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "philosophy-as-a-way-of-life-spiritual-exercises-from-socrate",
+    "title": "Philosophy as a Way of Life: Spiritual Exercises from Socrates to Foucault",
+    "author": "Pierre Hadot",
+    "category": "Philosophy",
+    "subcategory": "Philosophical Life Guides",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 1995,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Philosophy was never meant to be a dry academic lecture; it began as a daily training discipline for the human spirit. Pierre Hadot reveals how ancient wisdom offers practical spiritual exercises to quiet inner turmoil, expand perspective, and master everyday life.",
+      "coreThesis": "Ancient philosophy was not a system of abstract doctrines, but a lived therapeutic discipline of daily mental exercises designed to transform how human beings perceive reality and conduct their lives.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Philosophy as a Way of Life: Spiritual Exercises from Socrates to Foucault"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
       "Strategy",
       "Mental Models"
     ]
@@ -28126,6 +28346,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-consolations-of-philosophy",
+    "title": "The Consolations of Philosophy",
+    "author": "Alain de Botton",
+    "category": "Philosophy",
+    "subcategory": "Philosophical Life Guides",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2000,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Philosophy was never meant to be dry textbook jargon; it is a practical emergency toolkit for the aches of real life. Alain de Botton pairs six legendary thinkers with our most painful everyday struggles, turning ancient wisdom into steady emotional medicine.",
+      "coreThesis": "Wisdom is the deliberate craft of adjusting our expectations to reality, transforming daily suffering from a source of shame into fuel for emotional poise and maturity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Consolations of Philosophy"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-copywriter-s-handbook",
     "title": "The Copywriter's Handbook",
     "author": "Robert W. Bly",
@@ -31798,6 +32053,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-life-you-can-save-acting-now-to-end-world-poverty",
+    "title": "The Life You Can Save: Acting Now to End World Poverty",
+    "author": "Peter Singer",
+    "category": "Philosophy",
+    "subcategory": "Philosophical Life Guides",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2009,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "If you saw someone drowning in a shallow pool, you would step in without hesitation, even if it ruined your shoes. In an interconnected world, sparing surplus resources to save lives in extreme poverty is the very same choice.",
+      "coreThesis": "Failing to help those trapped in life-threatening poverty when you possess surplus resources carries the same moral gravity as watching someone drown when rescue costs you almost nothing.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Life You Can Save: Acting Now to End World Poverty"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-little-book-of-common-sense-investing",
     "title": "The Little Book of Common Sense Investing",
     "author": "John C. Bogle",
@@ -32596,6 +32886,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-nicomachean-ethics-explained",
+    "title": "The Nicomachean Ethics Explained",
+    "author": "Selected commentaries on Aristotle's practical wisdom",
+    "category": "Philosophy",
+    "subcategory": "Philosophical Life Guides",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "True fulfillment is not a passive mood you fall into, but an active discipline you hone every day. By steering between emotional extremes with practical wisdom, you cultivate an unshakeable character that anchors you through life's storms.",
+      "coreThesis": "Flourishing is the continuous activity of human excellence guided by practical reason, mastered through lifelong habits that hold the balanced middle between extremes.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Nicomachean Ethics Explained"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
       "Strategy",
       "Mental Models"
     ]
@@ -39133,6 +39458,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "what-we-owe-to-each-other",
+    "title": "What We Owe to Each Other",
+    "author": "T.M. Scanlon",
+    "category": "Philosophy",
+    "subcategory": "Philosophical Life Guides",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1998,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Living ethically is not about tallying happiness scores or obeying rigid dogma. It is the quiet discipline of choosing principles that any person could freely accept across an honest kitchen table.",
+      "coreThesis": "An action is morally right only if it conforms to principles that no one affected could reasonably reject.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "What We Owe to Each Other"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
       "Strategy",
       "Mental Models"
     ]
