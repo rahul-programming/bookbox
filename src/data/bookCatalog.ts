@@ -61,6 +61,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "arahattamagga-arahattaphala-the-path-to-arahantship": "./books/arahattamaggaArahattaphalaThePathToArahantshipExpanded.ts",
   "argumentation-and-debate-critical-thinking-for-reasoned-deci": "./books/argumentationAndDebateCriticalThinkingForReasonedDeciExpanded.ts",
   "asset-allocation-balancing-financial-risk": "./books/assetAllocationBalancingFinancialRiskExpanded.ts",
+  "at-the-existentialist-caf-freedom-being-and-apricot-cocktail": "./books/atTheExistentialistCafFreedomBeingAndApricotCocktailExpanded.ts",
   "atomic-habits": "./books/atomicHabitsExpanded.ts",
   "attached-the-new-science-of-adult-attachment-and-how-it-can-": "./books/attachedTheNewScienceOfAdultAttachmentAndHowItCanExpanded.ts",
   "attacking-faulty-reasoning": "./books/attackingFaultyReasoningExpanded.ts",
@@ -73,6 +74,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "be-prepared-how-to-think-on-your-feet-and-stand-up-to-bullie": "./books/bePreparedHowToThinkOnYourFeetAndStandUpToBullieExpanded.ts",
   "be-the-go-to-how-to-own-your-competitive-market": "./books/beTheGoToHowToOwnYourCompetitiveMarketExpanded.ts",
   "becoming-a-supple-leopard": "./books/becomingASuppleLeopardExpanded.ts",
+  "being-and-time": "./books/beingAndTimeExpanded.ts",
   "being-dharma-the-essence-of-the-buddha-s-teachings": "./books/beingDharmaTheEssenceOfTheBuddhaSTeachingsExpanded.ts",
   "being-logical-a-guide-to-good-thinking": "./books/beingLogicalAGuideToGoodThinkingExpanded.ts",
   "being-nobody-going-nowhere-meditations-on-the-path": "./books/beingNobodyGoingNowhereMeditationsOnThePathExpanded.ts",
@@ -224,6 +226,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "effortless-make-it-easier-to-do-what-matters-most": "./books/effortlessMakeItEasierToDoWhatMattersMostExpanded.ts",
   "eight-dates-essential-conversations-for-a-lifetime-of-love": "./books/eightDatesEssentialConversationsForALifetimeOfLoveExpanded.ts",
   "eight-mindful-steps-to-happiness": "./books/eightMindfulStepsToHappinessExpanded.ts",
+  "either-or": "./books/eitherOrExpanded.ts",
   "elastic-habits": "./books/elasticHabitsExpanded.ts",
   "emotional-agility": "./books/emotionalAgilityExpanded.ts",
   "emotions-revealed-recognizing-faces-and-feelings-to-improve-": "./books/emotionsRevealedRecognizingFacesAndFeelingsToImproveExpanded.ts",
@@ -238,6 +241,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "evolutionary-psychology-the-new-science-of-the-mind": "./books/evolutionaryPsychologyTheNewScienceOfTheMindExpanded.ts",
   "executive-presence-the-missing-link-between-merit-and-succes": "./books/executivePresenceTheMissingLinkBetweenMeritAndSuccesExpanded.ts",
   "exhaustion-a-history": "./books/exhaustionAHistoryExpanded.ts",
+  "existentialism-is-a-humanism": "./books/existentialismIsAHumanismExpanded.ts",
   "expert-political-judgment": "./books/expertPoliticalJudgmentExpanded.ts",
   "eye-to-eye-how-people-interact-with-gaze": "./books/eyeToEyeHowPeopleInteractWithGazeExpanded.ts",
   "face-reading-in-chinese-medicine": "./books/faceReadingInChineseMedicineExpanded.ts",
@@ -350,6 +354,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "intuitive-awareness-living-in-the-unconditioned": "./books/intuitiveAwarenessLivingInTheUnconditionedExpanded.ts",
   "investigating-the-dhamma-a-collection-of-essays": "./books/investigatingTheDhammaACollectionOfEssaysExpanded.ts",
   "invisible-influence-the-hidden-forces-that-shape-behavior": "./books/invisibleInfluenceTheHiddenForcesThatShapeBehaviorExpanded.ts",
+  "irrational-man-a-study-in-existential-philosophy": "./books/irrationalManAStudyInExistentialPhilosophyExpanded.ts",
   "it-didn-t-start-with-you-how-inherited-family-trauma-shapes-": "./books/itDidnTStartWithYouHowInheritedFamilyTraumaShapesExpanded.ts",
   "it-s-called-a-breakup-because-it-s-broken": "./books/itSCalledABreakupBecauseItSBrokenExpanded.ts",
   "journey-to-mindfulness-autobiography": "./books/journeyToMindfulnessAutobiographyExpanded.ts",
@@ -782,6 +787,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-dawn-of-abhidharma": "./books/theDawnOfAbhidharmaExpanded.ts",
   "the-definitive-book-of-body-language": "./books/theDefinitiveBookOfBodyLanguageExpanded.ts",
   "the-demon-haunted-world": "./books/theDemonHauntedWorldExpanded.ts",
+  "the-denial-of-death": "./books/theDenialOfDeathExpanded.ts",
   "the-dhammapada-a-new-translation": "./books/theDhammapadaANewTranslationExpanded.ts",
   "the-dhammapada-a-translation-of-the-buddhist-classic": "./books/theDhammapadaATranslationOfTheBuddhistClassicExpanded.ts",
   "the-dhammapada": "./books/theDhammapadaExpanded.ts",
@@ -892,6 +898,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-miracle-of-mindfulness": "./books/theMiracleOfMindfulnessExpanded.ts",
   "the-model-thinker": "./books/theModelThinkerExpanded.ts",
   "the-moral-animal": "./books/theMoralAnimalExpanded.ts",
+  "the-myth-of-sisyphus": "./books/theMythOfSisyphusExpanded.ts",
   "the-narcissist-you-know": "./books/theNarcissistYouKnowExpanded.ts",
   "the-noble-eightfold-path-way-to-the-end-of-suffering": "./books/theNobleEightfoldPathWayToTheEndOfSufferingExpanded.ts",
   "the-noble-quest-ariyapariyesana-sutta": "./books/theNobleQuestAriyapariyesanaSuttaExpanded.ts",
@@ -915,6 +922,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-path-to-deliverance-handbook-of-meditation": "./books/thePathToDeliveranceHandbookOfMeditationExpanded.ts",
   "the-patimokkha-monastic-discipline-rules": "./books/thePatimokkhaMonasticDisciplineRulesExpanded.ts",
   "the-philosophy-of-the-abhidhamma": "./books/thePhilosophyOfTheAbhidhammaExpanded.ts",
+  "the-plague": "./books/thePlagueExpanded.ts",
   "the-polyvagal-theory-in-therapy": "./books/thePolyvagalTheoryInTherapyExpanded.ts",
   "the-power-of-a-positive-no-how-to-say-no-and-still-get-to-ye": "./books/thePowerOfAPositiveNoHowToSayNoAndStillGetToYeExpanded.ts",
   "the-power-of-body-language": "./books/thePowerOfBodyLanguageExpanded.ts",
@@ -954,6 +962,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-seven-stages-of-purification": "./books/theSevenStagesOfPurificationExpanded.ts",
   "the-shallows-what-the-internet-is-doing-to-our-brains": "./books/theShallowsWhatTheInternetIsDoingToOurBrainsExpanded.ts",
   "the-shape-of-suffering-a-study-of-dependent-co-arising": "./books/theShapeOfSufferingAStudyOfDependentCoArisingExpanded.ts",
+  "the-sickness-unto-death": "./books/theSicknessUntoDeathExpanded.ts",
   "the-signal-and-the-noise": "./books/theSignalAndTheNoiseExpanded.ts",
   "the-silent-language": "./books/theSilentLanguageExpanded.ts",
   "the-simile-of-the-cloth-vatthupama-sutta": "./books/theSimileOfTheClothVatthupamaSuttaExpanded.ts",
@@ -972,6 +981,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-state-of-mind-called-beautiful": "./books/theStateOfMindCalledBeautifulExpanded.ts",
   "the-status-game-on-social-position-and-how-we-use-it": "./books/theStatusGameOnSocialPositionAndHowWeUseItExpanded.ts",
   "the-storyteller-s-secret": "./books/theStorytellerSSecretExpanded.ts",
+  "the-stranger": "./books/theStrangerExpanded.ts",
   "the-structure-of-scientific-revolutions": "./books/theStructureOfScientificRevolutionsExpanded.ts",
   "the-sun-my-heart-from-mindfulness-to-insight-contemplation": "./books/theSunMyHeartFromMindfulnessToInsightContemplationExpanded.ts",
   "the-sutta-discovery-early-buddhist-teachings": "./books/theSuttaDiscoveryEarlyBuddhistTeachingsExpanded.ts",
@@ -3261,6 +3271,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "at-the-existentialist-caf-freedom-being-and-apricot-cocktail",
+    "title": "At the Existentialist Caf\\u00e9: Freedom, Being, and Apricot Cocktails",
+    "author": "Sarah Bakewell",
+    "category": "Philosophy",
+    "subcategory": "Existentialism & Meaning",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Sarah Bakewell brings 20th-century existentialism down from the ivory tower into the noisy Parisian caf\\u00e9, showing that philosophy is not a parlor game but the art of choosing who you become in every moment. It reveals that when external blueprints vanish, your choices are the only compass you have.",
+      "coreThesis": "Human beings are not defined by any pre-existing blueprint; you define your essence entirely through the choices you make and the actions you take every day.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "At the Existentialist Caf\\u00e9: Freedom, Being, and Apricot Cocktails"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "atomic-habits",
     "title": "Atomic Habits",
     "author": "James Clear",
@@ -3675,6 +3720,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Finance",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "being-and-time",
+    "title": "Being and Time",
+    "author": "Martin Heidegger",
+    "category": "Philosophy",
+    "subcategory": "Existentialism & Meaning",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1927,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "We spend our lives drifting through autopilot routines, forgetting what it means to actually be alive. By confronting the finite boundary of our mortality, we awaken to authentic purpose and ownership.",
+      "coreThesis": "Human existence is fundamentally practical engagement shaped by time; only by confronting our finite mortality can we break free from social autopilot and live with authentic purpose.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Being and Time"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
       "Strategy",
       "Mental Models"
     ]
@@ -8960,6 +9040,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "either-or",
+    "title": "Either/Or",
+    "author": "S\\u00f8ren Kierkegaard",
+    "category": "Philosophy",
+    "subcategory": "Existentialism & Meaning",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 1843,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Are you living merely for fleeting moments of pleasure, or have you made the decisive choice to stand for something lasting? This timeless masterpiece reveals that real freedom begins not in keeping every option open, but in choosing who you will become.",
+      "coreThesis": "A meaningful life cannot be found in drifting among detached pleasures; it emerges only when you consciously choose yourself and anchor your freedom in duty, commitment, and truth.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Either/Or"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "elastic-habits",
     "title": "Elastic Habits",
     "author": "Stephen Guise",
@@ -9445,6 +9560,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "existentialism-is-a-humanism",
+    "title": "Existentialism Is a Humanism",
+    "author": "Jean-Paul Sartre",
+    "category": "Philosophy",
+    "subcategory": "Existentialism & Meaning",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1946,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You are not born with a pre-written script or an assigned destiny; you are the author of every step you take. Sartre strips away comforting excuses to reveal that human freedom is total, demanding, and the quiet foundation of all genuine dignity.",
+      "coreThesis": "Human existence precedes essence: we are born without a fixed blueprint, and our character is defined solely by the sum of our deliberate actions and ongoing commitments.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Existentialism Is a Humanism"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
       "Strategy",
       "Mental Models"
     ]
@@ -13353,6 +13503,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Invisible Influence: The Hidden Forces that Shape Behavior"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "irrational-man-a-study-in-existential-philosophy",
+    "title": "Irrational Man: A Study in Existential Philosophy",
+    "author": "William Barrett",
+    "category": "Philosophy",
+    "subcategory": "Existentialism & Meaning",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 1958,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Pure reason gives us remarkable technical blueprints, yet leaves the human heart stranded in cold abstraction. William Barrett invites us to step out of the sterile lecture hall and embrace the full, authentic weight of mortal life with calm clarity and courageous responsibility.",
+      "coreThesis": "Human wholeness cannot be achieved through intellectual detachment alone; true wisdom demands that we acknowledge our mortality, embrace our irrational depths, and accept personal responsibility for every action we take.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Irrational Man: A Study in Existential Philosophy"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -28466,6 +28651,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-denial-of-death",
+    "title": "The Denial of Death",
+    "author": "Ernest Becker",
+    "category": "Philosophy",
+    "subcategory": "Existentialism & Meaning",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 1973,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "We spend our lives building towers of ambition and status, not out of greed, but to quiet a whispered secret: we are mortal. Ernest Becker invites us to step down from the noise, face our finitude with serene courage, and discover genuine peace beyond ego.",
+      "coreThesis": "Human civilization and individual egos are driven by the unconscious terror of death. True freedom arrives only when we dismantle our desperate vanity and accept our mortal limits with tranquil dignity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Denial of Death"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-dhammapada-a-new-translation",
     "title": "The Dhammapada: A New Translation",
     "author": "Bhikkhu Bodhi",
@@ -32311,6 +32531,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-myth-of-sisyphus",
+    "title": "The Myth of Sisyphus",
+    "author": "Albert Camus",
+    "category": "Philosophy",
+    "subcategory": "Existentialism & Meaning",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 1942,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Life offers no built-in script or cosmic guarantee, yet that void is not an excuse for despair\\u2014it is an invitation to total clarity and unshakeable inner freedom. By owning daily effort without demanding eternal applause, you transform routine labor into personal triumph.",
+      "coreThesis": "Cosmic meaning is not handed down from above; authentic dignity begins when you accept life's silence and master your daily labor with quiet joy.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Myth of Sisyphus"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-narcissist-you-know",
     "title": "The Narcissist You Know",
     "author": "Joseph Burgo",
@@ -33110,6 +33365,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-plague",
+    "title": "The Plague",
+    "author": "Albert Camus",
+    "category": "Philosophy",
+    "subcategory": "Existentialism & Meaning",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1947,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When an indifferent plague locks down a coastal city, a dedicated physician rejects panic and false hope to wage a quiet, daily fight for human dignity. Camus reveals that when life strips away all comfort, our truest purpose is simply doing our honest duty beside one another.",
+      "coreThesis": "The universe is indifferent to our plans, but our dignity is forged by performing our honest duty and caring for our neighbors without demanding a cosmic reward.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Plague"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
       "Strategy",
       "Mental Models"
     ]
@@ -34479,6 +34769,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-sickness-unto-death",
+    "title": "The Sickness Unto Death",
+    "author": "S\\u00f8ren Kierkegaard",
+    "category": "Philosophy",
+    "subcategory": "Existentialism & Meaning",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1849,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your deepest exhaustion is not caused by heavy workloads or bad luck, but by the quiet strain of running away from your authentic self. Real peace begins the moment you stop building a counterfeit life and dare to stand grounded in reality.",
+      "coreThesis": "Despair is not an emotional bad mood caused by external loss, but an internal misalignment where a person either despises their authentic self or attempts to invent one independent of truth.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Sickness Unto Death"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-signal-and-the-noise",
     "title": "The Signal and the Noise",
     "author": "Nate Silver",
@@ -35103,6 +35428,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-stranger",
+    "title": "The Stranger",
+    "author": "Albert Camus",
+    "category": "Philosophy",
+    "subcategory": "Existentialism & Meaning",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 1942,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When a quiet man refuses to pretend to feel emotions he does not possess, society sentences him to death for violating its unspoken script. This profound masterpiece asks whether you dare to look at reality without masks and still find deep, unshakeable peace.",
+      "coreThesis": "True freedom begins when you stop performing emotions to placate the world, accept the universe's quiet indifference, and anchor your peace entirely in the present reality.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Stranger"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
       "Strategy",
       "Mental Models"
     ]

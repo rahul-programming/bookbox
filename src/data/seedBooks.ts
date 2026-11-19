@@ -1132,6 +1132,16 @@ import { CUTTING_THROUGH_SPIRITUAL_MATERIALISM_BOOK } from './books/cuttingThrou
 import { ZEN_FLESH_ZEN_BONES_BOOK } from './books/zenFleshZenBonesExpanded';
 import { THE_MIRACLE_OF_MINDFULNESS_BOOK } from './books/theMiracleOfMindfulnessExpanded';
 import { BE_HERE_NOW_BOOK } from './books/beHereNowExpanded';
+import { THE_MYTH_OF_SISYPHUS_BOOK } from './books/theMythOfSisyphusExpanded';
+import { EXISTENTIALISM_IS_A_HUMANISM_BOOK } from './books/existentialismIsAHumanismExpanded';
+import { THE_STRANGER_BOOK } from './books/theStrangerExpanded';
+import { EITHER_OR_BOOK } from './books/eitherOrExpanded';
+import { THE_DENIAL_OF_DEATH_BOOK } from './books/theDenialOfDeathExpanded';
+import { AT_THE_EXISTENTIALIST_CAF_FREEDOM_BEING_AND_APRICOT_COCKTAIL_BOOK } from './books/atTheExistentialistCafFreedomBeingAndApricotCocktailExpanded';
+import { THE_SICKNESS_UNTO_DEATH_BOOK } from './books/theSicknessUntoDeathExpanded';
+import { BEING_AND_TIME_BOOK } from './books/beingAndTimeExpanded';
+import { IRRATIONAL_MAN_A_STUDY_IN_EXISTENTIAL_PHILOSOPHY_BOOK } from './books/irrationalManAStudyInExistentialPhilosophyExpanded';
+import { THE_PLAGUE_BOOK } from './books/thePlagueExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -2264,7 +2274,17 @@ export const SEED_BOOKS: Book[] = [
   CUTTING_THROUGH_SPIRITUAL_MATERIALISM_BOOK,
   ZEN_FLESH_ZEN_BONES_BOOK,
   THE_MIRACLE_OF_MINDFULNESS_BOOK,
-  BE_HERE_NOW_BOOK
+  BE_HERE_NOW_BOOK,
+  THE_MYTH_OF_SISYPHUS_BOOK,
+  EXISTENTIALISM_IS_A_HUMANISM_BOOK,
+  THE_STRANGER_BOOK,
+  EITHER_OR_BOOK,
+  THE_DENIAL_OF_DEATH_BOOK,
+  AT_THE_EXISTENTIALIST_CAF_FREEDOM_BEING_AND_APRICOT_COCKTAIL_BOOK,
+  THE_SICKNESS_UNTO_DEATH_BOOK,
+  BEING_AND_TIME_BOOK,
+  IRRATIONAL_MAN_A_STUDY_IN_EXISTENTIAL_PHILOSOPHY_BOOK,
+  THE_PLAGUE_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -3399,7 +3419,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(CUTTING_THROUGH_SPIRITUAL_MATERIALISM_BOOK.ideaCards || []),
   ...(ZEN_FLESH_ZEN_BONES_BOOK.ideaCards || []),
   ...(THE_MIRACLE_OF_MINDFULNESS_BOOK.ideaCards || []),
-  ...(BE_HERE_NOW_BOOK.ideaCards || [])
+  ...(BE_HERE_NOW_BOOK.ideaCards || []),
+  ...(THE_MYTH_OF_SISYPHUS_BOOK.ideaCards || []),
+  ...(EXISTENTIALISM_IS_A_HUMANISM_BOOK.ideaCards || []),
+  ...(THE_STRANGER_BOOK.ideaCards || []),
+  ...(EITHER_OR_BOOK.ideaCards || []),
+  ...(THE_DENIAL_OF_DEATH_BOOK.ideaCards || []),
+  ...(AT_THE_EXISTENTIALIST_CAF_FREEDOM_BEING_AND_APRICOT_COCKTAIL_BOOK.ideaCards || []),
+  ...(THE_SICKNESS_UNTO_DEATH_BOOK.ideaCards || []),
+  ...(BEING_AND_TIME_BOOK.ideaCards || []),
+  ...(IRRATIONAL_MAN_A_STUDY_IN_EXISTENTIAL_PHILOSOPHY_BOOK.ideaCards || []),
+  ...(THE_PLAGUE_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
