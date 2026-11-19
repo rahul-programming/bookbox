@@ -14,6 +14,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "a-discourse-on-the-cula-vedalla-sutta": "./books/aDiscourseOnTheCulaVedallaSuttaExpanded.ts",
   "a-discourse-on-the-maha-vedalla-sutta": "./books/aDiscourseOnTheMahaVedallaSuttaExpanded.ts",
   "a-discourse-on-the-sakkapanha-sutta": "./books/aDiscourseOnTheSakkapanhaSuttaExpanded.ts",
+  "a-guide-to-the-good-life-the-ancient-art-of-stoic-joy": "./books/aGuideToTheGoodLifeTheAncientArtOfStoicJoyExpanded.ts",
   "a-handbook-of-rhetorical-devices": "./books/aHandbookOfRhetoricalDevicesExpanded.ts",
   "a-heart-of-wisdom-the-twin-verses-of-the-dhammapada": "./books/aHeartOfWisdomTheTwinVersesOfTheDhammapadaExpanded.ts",
   "a-life-of-blessing-celebrating-virtue-and-stillness": "./books/aLifeOfBlessingCelebratingVirtueAndStillnessExpanded.ts",
@@ -200,6 +201,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "discourse-on-the-tuwathaka-sutta": "./books/discourseOnTheTuwathakaSuttaExpanded.ts",
   "discourse-on-the-vammika-sutta": "./books/discourseOnTheVammikaSuttaExpanded.ts",
   "discourse-on-the-wheel-of-dhamma": "./books/discourseOnTheWheelOfDhammaExpanded.ts",
+  "discourses-and-selected-writings": "./books/discoursesAndSelectedWritingsExpanded.ts",
   "discourses-on-the-satipatthana-sutta": "./books/discoursesOnTheSatipatthanaSuttaExpanded.ts",
   "distinction-a-social-critique-of-the-judgement-of-taste": "./books/distinctionASocialCritiqueOfTheJudgementOfTasteExpanded.ts",
   "do-the-work": "./books/doTheWorkExpanded.ts",
@@ -233,6 +235,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "evil-and-punishment-the-danda-vagga-of-the-dhammapada": "./books/evilAndPunishmentTheDandaVaggaOfTheDhammapadaExpanded.ts",
   "evolutionary-psychology-the-new-science-of-the-mind": "./books/evolutionaryPsychologyTheNewScienceOfTheMindExpanded.ts",
   "executive-presence-the-missing-link-between-merit-and-succes": "./books/executivePresenceTheMissingLinkBetweenMeritAndSuccesExpanded.ts",
+  "exhaustion-a-history": "./books/exhaustionAHistoryExpanded.ts",
   "expert-political-judgment": "./books/expertPoliticalJudgmentExpanded.ts",
   "eye-to-eye-how-people-interact-with-gaze": "./books/eyeToEyeHowPeopleInteractWithGazeExpanded.ts",
   "face-reading-in-chinese-medicine": "./books/faceReadingInChineseMedicineExpanded.ts",
@@ -314,6 +317,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "how-to-spot-a-liar": "./books/howToSpotALiarExpanded.ts",
   "how-to-take-smart-notes": "./books/howToTakeSmartNotesExpanded.ts",
   "how-to-talk-so-kids-will-listen-listen-so-kids-will-talk": "./books/howToTalkSoKidsWillListenListenSoKidsWillTalkExpanded.ts",
+  "how-to-think-like-a-roman-emperor-the-stoic-philosophy-of-ma": "./books/howToThinkLikeARomanEmperorTheStoicPhilosophyOfMaExpanded.ts",
   "how-to-win-any-argument": "./books/howToWinAnyArgumentExpanded.ts",
   "humble-inquiry-the-gentle-art-of-asking-instead-of-telling": "./books/humbleInquiryTheGentleArtOfAskingInsteadOfTellingExpanded.ts",
   "humor-seriously-why-humor-is-a-secret-weapon-in-business-and": "./books/humorSeriouslyWhyHumorIsASecretWeaponInBusinessAndExpanded.ts",
@@ -366,6 +370,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "learn-like-a-pro": "./books/learnLikeAProExpanded.ts",
   "learned-optimism": "./books/learnedOptimismExpanded.ts",
   "left-neglected": "./books/leftNeglectedExpanded.ts",
+  "letters-from-a-stoic-epistulae-morales-ad-lucilium": "./books/lettersFromAStoicEpistulaeMoralesAdLuciliumExpanded.ts",
   "liespotting-proven-techniques-to-detect-deception": "./books/liespottingProvenTechniquesToDetectDeceptionExpanded.ts",
   "life-is-in-the-transitions": "./books/lifeIsInTheTransitionsExpanded.ts",
   "lighting-the-path-the-four-noble-truths": "./books/lightingThePathTheFourNobleTruthsExpanded.ts",
@@ -486,6 +491,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "on-the-orator-de-oratore": "./books/onTheOratorDeOratoreExpanded.ts",
   "on-the-path-an-anthology-of-suttas-on-the-noble-eightfold-path": "./books/onThePathAnAnthologyOfSuttasOnTheNobleEightfoldPathExpanded.ts",
   "on-the-path-to-freedom": "./books/onThePathToFreedomExpanded.ts",
+  "on-the-shortness-of-life": "./books/onTheShortnessOfLifeExpanded.ts",
   "on-writing-well-the-classic-guide-to-writing-nonfiction": "./books/onWritingWellTheClassicGuideToWritingNonfictionExpanded.ts",
   "one-dharma-the-emerging-western-buddhism": "./books/oneDharmaTheEmergingWesternBuddhismExpanded.ts",
   "one-small-step-can-change-your-life-the-kaizen-way": "./books/oneSmallStepCanChangeYourLifeTheKaizenWayExpanded.ts",
@@ -497,6 +503,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "outlive-the-science-and-art-of-longevity": "./books/outliveTheScienceAndArtOfLongevityExpanded.ts",
   "overcoming-destructive-anger": "./books/overcomingDestructiveAngerExpanded.ts",
   "overcoming-gravity": "./books/overcomingGravityExpanded.ts",
+  "overwhelmed-work-love-and-play-when-no-one-has-the-time": "./books/overwhelmedWorkLoveAndPlayWhenNoOneHasTheTimeExpanded.ts",
   "owning-your-own-shadow": "./books/owningYourOwnShadowExpanded.ts",
   "pali-buddhist-review-anthologies": "./books/paliBuddhistReviewAnthologiesExpanded.ts",
   "parami-ways-to-cross-life-s-floats": "./books/paramiWaysToCrossLifeSFloatsExpanded.ts",
@@ -637,6 +644,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "steal-the-show-from-speeches-to-job-interviews-to-deal-closi": "./books/stealTheShowFromSpeechesToJobInterviewsToDealClosiExpanded.ts",
   "stick-with-it": "./books/stickWithItExpanded.ts",
   "stillness-flowing-the-life-and-teachings-of-ajahn-chah": "./books/stillnessFlowingTheLifeAndTeachingsOfAjahnChahExpanded.ts",
+  "stoicism-and-the-art-of-happiness": "./books/stoicismAndTheArtOfHappinessExpanded.ts",
   "stolen-focus-why-you-can-t-pay-attention": "./books/stolenFocusWhyYouCanTPayAttentionExpanded.ts",
   "stop-caretaking-the-borderline-or-narcissist": "./books/stopCaretakingTheBorderlineOrNarcissistExpanded.ts",
   "stop-walking-on-eggshells": "./books/stopWalkingOnEggshellsExpanded.ts",
@@ -765,6 +773,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-creative-habit-learn-it-and-use-it-for-life": "./books/theCreativeHabitLearnItAndUseItForLifeExpanded.ts",
   "the-crossroads-of-should-and-must": "./books/theCrossroadsOfShouldAndMustExpanded.ts",
   "the-crowd-a-study-of-the-popular-mind": "./books/theCrowdAStudyOfThePopularMindExpanded.ts",
+  "the-daily-stoic-366-meditations-on-wisdom-perseverance-and-t": "./books/theDailyStoic366MeditationsOnWisdomPerseveranceAndTExpanded.ts",
   "the-dance-of-anger": "./books/theDanceOfAngerExpanded.ts",
   "the-dawn-of-abhidharma": "./books/theDawnOfAbhidharmaExpanded.ts",
   "the-definitive-book-of-body-language": "./books/theDefinitiveBookOfBodyLanguageExpanded.ts",
@@ -912,6 +921,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-practice-of-vipassana-meditation": "./books/thePracticeOfVipassanaMeditationExpanded.ts",
   "the-practice-which-leads-to-nibbana": "./books/thePracticeWhichLeadsToNibbanaExpanded.ts",
   "the-practicing-mind-developing-focus-and-discipline-in-your-": "./books/thePracticingMindDevelopingFocusAndDisciplineInYourExpanded.ts",
+  "the-practicing-stoic-a-philosophical-user-s-manual": "./books/thePracticingStoicAPhilosophicalUserSManualExpanded.ts",
   "the-prince": "./books/thePrinceExpanded.ts",
   "the-progress-of-insight": "./books/theProgressOfInsightExpanded.ts",
   "the-progress-of-insight-through-mental-noting": "./books/theProgressOfInsightThroughMentalNotingExpanded.ts",
@@ -1594,6 +1604,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "a-guide-to-the-good-life-the-ancient-art-of-stoic-joy",
+    "title": "A Guide to the Good Life: The Ancient Art of Stoic Joy",
+    "author": "William B. Irvine",
+    "category": "Philosophy",
+    "subcategory": "Stoicism & Ancient Wisdom",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 110,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Ancient Stoicism is not a grim endurance test, but a master craft designed to produce calm, unshakeable joy in daily living. William B. Irvine dusts off Roman wisdom to show how a few daily mental habits can protect your peace in any storm.",
+      "coreThesis": "A fulfilling life requires an explicit philosophy of life, and Stoicism provides the operating manual: by governing what is within your control and mentally inoculating yourself against loss, you achieve lasting tranquility and joy.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "A Guide to the Good Life: The Ancient Art of Stoic Joy"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
       "Strategy",
       "Mental Models"
     ]
@@ -8100,6 +8145,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "discourses-and-selected-writings",
+    "title": "Discourses and Selected Writings",
+    "author": "Epictetus",
+    "category": "Philosophy",
+    "subcategory": "Stoicism & Ancient Wisdom",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Written from the lived experience of a former slave, this timeless masterpiece offers a battle-tested blueprint for emotional invulnerability and sovereign peace of mind. It strips away academic pretense to teach one liberating art: mastering your own mind while gracefully letting go of everything else.",
+      "coreThesis": "Distress never arises from outer circumstances, but solely from our judgments about them; true peace and invulnerability belong exclusively to those who master their own volition and surrender all claim over what lies outside their control.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Discourses and Selected Writings"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "discourses-on-the-satipatthana-sutta",
     "title": "Discourses on the Satipatthana Sutta",
     "author": "S.N. Goenka",
@@ -9250,6 +9330,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "exhaustion-a-history",
+    "title": "Exhaustion: A History",
+    "author": "Anna Katharina Schaffner",
+    "category": "Productivity",
+    "subcategory": "Energy & Burnout",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Exhaustion isn't a modern personal failure\\u2014it is a perennial human challenge wearing a fresh disguise in every era. Learn how history's greatest thinkers diagnosed depletion, strip away guilt, and engineer a sustainable daily rhythm that restores real agency.",
+      "coreThesis": "Human fatigue is never just a personal weakness or a mechanical malfunction\\u2014it is a timeless biological signal that our daily demands have outpaced our boundaries and values.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Exhaustion: A History"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
       "Strategy",
       "Mental Models"
     ]
@@ -12085,6 +12200,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "how-to-think-like-a-roman-emperor-the-stoic-philosophy-of-ma",
+    "title": "How to Think Like a Roman Emperor: The Stoic Philosophy of Marcus Aurelius",
+    "author": "Donald Robertson",
+    "category": "Philosophy",
+    "subcategory": "Stoicism & Ancient Wisdom",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step into the boots of Rome's philosopher-king to learn how modern cognitive behavioral therapy and ancient Stoicism forge an unbreakable, peaceful mind. Donald Robertson shows how master tools of rational reflection turn life's worst storms into quiet personal triumphs.",
+      "coreThesis": "External events possess no power to hurt your character; by separating raw circumstances from your subjective judgments, you build an unassailable sanctuary of reason, duty, and quiet serenity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "How to Think Like a Roman Emperor: The Stoic Philosophy of Marcus Aurelius"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "how-to-win-any-argument",
     "title": "How to Win Any Argument",
     "author": "Robert Mayer",
@@ -13900,6 +14050,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Personal Growth",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "letters-from-a-stoic-epistulae-morales-ad-lucilium",
+    "title": "Letters from a Stoic (Epistulae Morales ad Lucilium)",
+    "author": "Seneca",
+    "category": "Philosophy",
+    "subcategory": "Stoicism & Ancient Wisdom",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 620,
+    "publishedYear": 65,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Written from the twilight of imperial Rome, these timeless letters offer a warm, intimate masterclass in reclaiming your fleeting hours, stilling inner anxiety, and building an unshakeable sanctuary of peace within your own mind. It is not an abstract lecture, but an urgent, practical toolkit for living with quiet dignity, courageous perspective, and clear-eyed equanimity.",
+      "coreThesis": "External events and the flight of time lie entirely outside our control, but the cultivation of our reasoned character is ours alone. By anchoring happiness in inner virtue rather than fickle fortune, we attain an unshakeable tranquility that no circumstance can diminish.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Letters from a Stoic (Epistulae Morales ad Lucilium)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
       "Strategy",
       "Mental Models"
     ]
@@ -18100,6 +18285,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "on-the-shortness-of-life",
+    "title": "On the Shortness of Life",
+    "author": "Seneca",
+    "category": "Philosophy",
+    "subcategory": "Stoicism & Ancient Wisdom",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 100,
+    "publishedYear": 49,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Life is not short\\u2014we simply waste the lion's share of it on trivial distractions and unpaid social debts. Seneca offers a timeless wake-up call to stop sleepwalking through our calendar and reclaim ownership of our most precious non-renewable asset.",
+      "coreThesis": "Life is long enough if you know how to use it; it feels painfully short only because we squander our finite hours on trivial obligations and postpone living until it is too late.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "On the Shortness of Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "on-writing-well-the-classic-guide-to-writing-nonfiction",
     "title": "On Writing Well: The Classic Guide to Writing Nonfiction",
     "author": "William Zinsser",
@@ -18480,6 +18700,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Finance",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "overwhelmed-work-love-and-play-when-no-one-has-the-time",
+    "title": "Overwhelmed: Work, Love, and Play When No One Has the Time",
+    "author": "Brigid Schulte",
+    "category": "Productivity",
+    "subcategory": "Energy & Burnout",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Busyness is not a badge of honor; it is an engineered operational crisis. Brigid Schulte exposes why modern life feels like drowning in fragmented minutes and delivers a tactical roadmap to reclaim sovereign, restorative time.",
+      "coreThesis": "Overwhelm is not a personal failure of discipline or time management, but a broken cultural operating system that fractures attention into useless scrap\\u2014one that can be systematically dismantled through boundary design, equitable domestic teamwork, and non-negotiable blocks of deep work and true play.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Overwhelmed: Work, Love, and Play When No One Has the Time"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
       "Strategy",
       "Mental Models"
     ]
@@ -23376,6 +23631,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "stoicism-and-the-art-of-happiness",
+    "title": "Stoicism and the Art of Happiness",
+    "author": "Donald Robertson",
+    "category": "Philosophy",
+    "subcategory": "Stoicism & Ancient Wisdom",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Ancient wisdom meets modern cognitive science to forge an unshakable inner sanctuary. Donald Robertson translates classical Stoic philosophy into a practical manual for emotional self-mastery, quiet courage, and enduring peace.",
+      "coreThesis": "Distress springs not from external events, but from the unexamined opinions we form about them. By dedicating our energy exclusively to our own judgments and moral choices, we unlock enduring equanimity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Stoicism and the Art of Happiness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "stolen-focus-why-you-can-t-pay-attention",
     "title": "Stolen Focus: Why You Can't Pay Attention",
     "author": "Johann Hari",
@@ -27846,6 +28136,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-daily-stoic-366-meditations-on-wisdom-perseverance-and-t",
+    "title": "The Daily Stoic: 366 Meditations on Wisdom, Perseverance, and the Art of Living",
+    "author": "Ryan Holiday & Stephen Hanselman",
+    "category": "Philosophy",
+    "subcategory": "Stoicism & Ancient Wisdom",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Life does not disturb us; our opinions about life do. By returning daily to the wisdom of Marcus Aurelius, Seneca, and Epictetus, this book offers a quiet, reliable compass for finding calm resolve in a frantic world.",
+      "coreThesis": "You cannot control external events, only your perception of them and your response to them. Freedom and tranquility begin the moment you align your choices with virtue and release everything else.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Daily Stoic: 366 Meditations on Wisdom, Perseverance, and the Art of Living"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
       "Strategy",
       "Mental Models"
     ]
@@ -32985,6 +33310,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-practicing-stoic-a-philosophical-user-s-manual",
+    "title": "The Practicing Stoic: A Philosophical User's Manual",
+    "author": "Ward Farnsworth",
+    "category": "Philosophy",
+    "subcategory": "Stoicism & Ancient Wisdom",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "A timeless user's manual for the human mind, organizing ancient Stoic wisdom into clear, practical psychological tools. It teaches you how to master your interpretations so outside chaos cannot disturb your inner calm.",
+      "coreThesis": "Suffering stems not from what happens in the world, but from the unexamined judgments we make about it. Master your interpretations, and you master your life.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Practicing Stoic: A Philosophical User's Manual"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
       "Strategy",
       "Mental Models"
     ]
