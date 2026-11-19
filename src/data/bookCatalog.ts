@@ -26,6 +26,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "a-simple-way-the-heart-of-the-practice": "./books/aSimpleWayTheHeartOfThePracticeExpanded.ts",
   "a-still-forest-pool-insight-meditation-of-achaan-chah": "./books/aStillForestPoolInsightMeditationOfAchaanChahExpanded.ts",
   "a-taste-of-freedom": "./books/aTasteOfFreedomExpanded.ts",
+  "a-technique-for-producing-ideas": "./books/aTechniqueForProducingIdeasExpanded.ts",
   "a-theory-of-cognitive-dissonance": "./books/aTheoryOfCognitiveDissonanceExpanded.ts",
   "a-treasury-of-the-buddha-s-words-discourses-from-majjhima": "./books/aTreasuryOfTheBuddhaSWordsDiscoursesFromMajjhimaExpanded.ts",
   "a-young-people-s-life-of-the-buddha": "./books/aYoungPeopleSLifeOfTheBuddhaExpanded.ts",
@@ -81,6 +82,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "beyond-mindfulness-in-plain-english": "./books/beyondMindfulnessInPlainEnglishExpanded.ts",
   "beyond-religion-ethics-for-a-whole-world": "./books/beyondReligionEthicsForAWholeWorldExpanded.ts",
   "bhavana-mind-development-in-everyday-reality": "./books/bhavanaMindDevelopmentInEverydayRealityExpanded.ts",
+  "big-magic-creative-living-beyond-fear": "./books/bigMagicCreativeLivingBeyondFearExpanded.ts",
   "bird-by-bird-some-instructions-on-writing-and-life": "./books/birdByBirdSomeInstructionsOnWritingAndLifeExpanded.ts",
   "blink-the-art-of-the-glance": "./books/blinkTheArtOfTheGlanceExpanded.ts",
   "blink-the-power-of-thinking-without-thinking": "./books/blinkThePowerOfThinkingWithoutThinkingExpanded.ts",
@@ -146,6 +148,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "corporate-confidential-50-secrets-your-company-doesn-t-want-": "./books/corporateConfidential50SecretsYourCompanyDoesnTWantExpanded.ts",
   "cracking-the-walnut-secret-teachings-on-awakening": "./books/crackingTheWalnutSecretTeachingsOnAwakeningExpanded.ts",
   "creating-true-peace-ending-violence-in-yourself-and-the-world": "./books/creatingTruePeaceEndingViolenceInYourselfAndTheWorldExpanded.ts",
+  "creative-confidence-unleashing-the-creative-potential-within": "./books/creativeConfidenceUnleashingTheCreativePotentialWithinExpanded.ts",
   "crucial-conversations-tools-for-talking-when-stakes-are-high": "./books/crucialConversationsToolsForTalkingWhenStakesAreHighExpanded.ts",
   "cues-master-the-secret-language-of-charismatic-communication": "./books/cuesMasterTheSecretLanguageOfCharismaticCommunicationExpanded.ts",
   "curation-the-power-of-selection-in-a-world-of-excess": "./books/curationThePowerOfSelectionInAWorldOfExcessExpanded.ts",
@@ -196,6 +199,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "discourses-on-the-satipatthana-sutta": "./books/discoursesOnTheSatipatthanaSuttaExpanded.ts",
   "distinction-a-social-critique-of-the-judgement-of-taste": "./books/distinctionASocialCritiqueOfTheJudgementOfTasteExpanded.ts",
   "do-the-work": "./books/doTheWorkExpanded.ts",
+  "do-the-work-overcome-resistance-and-get-out-of-your-own-way": "./books/doTheWorkOvercomeResistanceAndGetOutOfYourOwnWayExpanded.ts",
   "don-t-hold-back-monastic-reflections-on-practice": "./books/donTHoldBackMonasticReflectionsOnPracticeExpanded.ts",
   "don-t-look-at-the-mind-with-contempt": "./books/donTLookAtTheMindWithContemptExpanded.ts",
   "don-t-take-your-life-personally": "./books/donTTakeYourLifePersonallyExpanded.ts",
@@ -608,6 +612,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "start-with-why-how-great-leaders-inspire-everyone-to-take-ac": "./books/startWithWhyHowGreatLeadersInspireEveryoneToTakeAcExpanded.ts",
   "starting-strength-basic-barbell-training": "./books/startingStrengthBasicBarbellTrainingExpanded.ts",
   "status-anxiety": "./books/statusAnxietyExpanded.ts",
+  "steal-like-an-artist-10-things-nobody-told-you-about-being-c": "./books/stealLikeAnArtist10ThingsNobodyToldYouAboutBeingCExpanded.ts",
   "steal-the-show-from-speeches-to-job-interviews-to-deal-closi": "./books/stealTheShowFromSpeechesToJobInterviewsToDealClosiExpanded.ts",
   "stick-with-it": "./books/stickWithItExpanded.ts",
   "stillness-flowing-the-life-and-teachings-of-ajahn-chah": "./books/stillnessFlowingTheLifeAndTeachingsOfAjahnChahExpanded.ts",
@@ -668,6 +673,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-art-of-dialogue": "./books/theArtOfDialogueExpanded.ts",
   "the-art-of-disappearing-the-path-to-lasting-joy": "./books/theArtOfDisappearingThePathToLastingJoyExpanded.ts",
   "the-art-of-everyday-assertiveness": "./books/theArtOfEverydayAssertivenessExpanded.ts",
+  "the-art-of-fear-why-conquering-fear-won-t-work-and-what-to-d": "./books/theArtOfFearWhyConqueringFearWonTWorkAndWhatToDExpanded.ts",
   "the-art-of-happiness-a-handbook-for-living": "./books/theArtOfHappinessAHandbookForLivingExpanded.ts",
   "the-art-of-happiness-at-work": "./books/theArtOfHappinessAtWorkExpanded.ts",
   "the-art-of-happiness-in-a-troubled-world": "./books/theArtOfHappinessInATroubledWorldExpanded.ts",
@@ -681,6 +687,8 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-art-of-thinking-clearly": "./books/theArtOfThinkingClearlyExpanded.ts",
   "the-art-of-war": "./books/theArtOfWarExpanded.ts",
   "the-art-of-work": "./books/theArtOfWorkExpanded.ts",
+  "the-artist-s-journey": "./books/theArtistSJourneyExpanded.ts",
+  "the-artist-s-way-a-spiritual-path-to-higher-creativity": "./books/theArtistSWayASpiritualPathToHigherCreativityExpanded.ts",
   "the-assertiveness-workbook": "./books/theAssertivenessWorkbookExpanded.ts",
   "the-asynchronous-mindset": "./books/theAsynchronousMindsetExpanded.ts",
   "the-attention-merchants": "./books/theAttentionMerchantsExpanded.ts",
@@ -727,6 +735,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-covert-passive-aggressive-narcissist": "./books/theCovertPassiveAggressiveNarcissistExpanded.ts",
   "the-craft-of-scientific-presentations": "./books/theCraftOfScientificPresentationsExpanded.ts",
   "the-craft-of-the-heart": "./books/theCraftOfTheHeartExpanded.ts",
+  "the-creative-habit-learn-it-and-use-it-for-life": "./books/theCreativeHabitLearnItAndUseItForLifeExpanded.ts",
   "the-crossroads-of-should-and-must": "./books/theCrossroadsOfShouldAndMustExpanded.ts",
   "the-crowd-a-study-of-the-popular-mind": "./books/theCrowdAStudyOfThePopularMindExpanded.ts",
   "the-dance-of-anger": "./books/theDanceOfAngerExpanded.ts",
@@ -987,6 +996,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "true-love-a-practice-for-awakening-the-heart": "./books/trueLoveAPracticeForAwakeningTheHeartExpanded.ts",
   "tug-of-vow-monastic-training-in-the-forest-tradition": "./books/tugOfVowMonasticTrainingInTheForestTraditionExpanded.ts",
   "turn-the-ship-around-a-true-story-of-turning-followers-into-": "./books/turnTheShipAroundATrueStoryOfTurningFollowersIntoExpanded.ts",
+  "turning-pro-tap-your-inner-power-and-create-your-life-s-work": "./books/turningProTapYourInnerPowerAndCreateYourLifeSWorkExpanded.ts",
   "turning-the-wheel-of-truth": "./books/turningTheWheelOfTruthExpanded.ts",
   "ultralearning": "./books/ultralearningExpanded.ts",
   "unconditional-love-and-the-abhidhamma": "./books/unconditionalLoveAndTheAbhidhammaExpanded.ts",
@@ -1963,6 +1973,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "a-technique-for-producing-ideas",
+    "title": "A Technique for Producing Ideas",
+    "author": "James Webb Young",
+    "category": "Creativity & Expression",
+    "subcategory": "Ideation & Brainstorming",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1939,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Creativity is not a stroke of divine lightning; it is an operable, predictable mental assembly line. By mastering the five-stage pipeline of gathering, digesting, incubating, capturing, and shaping, anyone can reliably produce breakthrough ideas on demand.",
+      "coreThesis": "An idea is nothing more nor less than a new combination of old elements, and the capacity to bring those elements together depends entirely on the ability to see relationships.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "A Technique for Producing Ideas"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -3885,6 +3930,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "big-magic-creative-living-beyond-fear",
+    "title": "Big Magic: Creative Living Beyond Fear",
+    "author": "Elizabeth Gilbert",
+    "category": "Creativity & Expression",
+    "subcategory": "Overcoming Creative Resistance",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Creativity is not a terrifying test of your worth, but a hidden ecosystem of wild ideas searching for willing human partners. When you stop treating fear as a roadblock and treat making things as an everyday adventure, creative living becomes as natural as breathing.",
+      "coreThesis": "Creative living is the choice to follow curiosity over fear, treating ideas as willing collaborators rather than terrifying high-stakes tests.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Big Magic: Creative Living Beyond Fear"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -6162,6 +6242,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "creative-confidence-unleashing-the-creative-potential-within",
+    "title": "Creative Confidence: Unleashing the Creative Potential Within Us All",
+    "author": "Tom Kelley & David Kelley",
+    "category": "Creativity & Expression",
+    "subcategory": "Ideation & Brainstorming",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Creativity is not an exclusive genetic gift reserved for eccentric artists; it is a fundamental cognitive muscle that anyone can rehabilitate and strengthen. By replacing paralyzing perfectionism with rapid physical prototyping, you transform anxiety into an unstoppable engine of real-world problem solving.",
+      "coreThesis": "Creativity is an active behavioral muscle powered by guided mastery, empathy, and rapid prototyping, not an innate genetic gift reserved for a chosen few.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Creative Confidence: Unleashing the Creative Potential Within Us All"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "crucial-conversations-tools-for-talking-when-stakes-are-high",
     "title": "Crucial Conversations: Tools for Talking When Stakes Are High",
     "author": "Joseph Grenny, Kerry Patterson, Ron McMillan, Al Switzler",
@@ -7905,6 +8020,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "do-the-work-overcome-resistance-and-get-out-of-your-own-way",
+    "title": "Do the Work: Overcome Resistance and Get Out of Your Own Way",
+    "author": "Steven Pressfield",
+    "category": "Creativity & Expression",
+    "subcategory": "Overcoming Creative Resistance",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Any meaningful creative or professional endeavor triggers an automatic counter-force of friction, hesitation, and self-doubt. Learn to recognize this predictable resistance as a navigational compass and deploy a battle-tested protocol to start immediately, survive the messy midpoint slump, and reliably ship finished work.",
+      "coreThesis": "Resistance is an active, universal counter-force that intensifies in direct proportion to the importance of the endeavor; victory requires treating creativity as an objective operational craft rather than a fragile emotional state.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Do the Work: Overcome Resistance and Get Out of Your Own Way"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -22311,6 +22461,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "steal-like-an-artist-10-things-nobody-told-you-about-being-c",
+    "title": "Steal Like an Artist: 10 Things Nobody Told You About Being Creative",
+    "author": "Austin Kleon",
+    "category": "Creativity & Expression",
+    "subcategory": "Ideation & Brainstorming",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Creativity is not immaculate conception; it is the deliberate cross-pollination of the ideas you collect. By curating inputs and embracing generative constraints, anyone can transform ordinary influences into breakthrough craft.",
+      "coreThesis": "Originality is an illusion born of hidden sources; enduring creative breakthroughs occur when you deliberately curate, remix, and subtract from existing ideas within disciplined daily routines.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Steal Like an Artist: 10 Things Nobody Told You About Being Creative"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "steal-the-show-from-speeches-to-job-interviews-to-deal-closi",
     "title": "Steal the Show: From Speeches to Job Interviews to Deal-Closing Pitches",
     "author": "Michael Port",
@@ -24409,6 +24594,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-art-of-fear-why-conquering-fear-won-t-work-and-what-to-d",
+    "title": "The Art of Fear: Why Conquering Fear Won't Work and What to Do Instead",
+    "author": "Kristen Ulmer",
+    "category": "Creativity & Expression",
+    "subcategory": "Overcoming Creative Resistance",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop waging war on your survival instincts: fear is not a malfunction to eradicate, but a high-voltage biological navigation system designed to sharpen your focus. By shifting from suppression to active collaboration, you turn paralyzing resistance into effortless, high-performance flow.",
+      "coreThesis": "Fear is natural biological information, not an enemy to destroy; resisting it breeds chronic dysfunction, while acknowledging and feeling it unlocks peak presence and effortless flow.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Art of Fear: Why Conquering Fear Won't Work and What to Do Instead"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-art-of-happiness-a-handbook-for-living",
     "title": "The Art of Happiness: A Handbook for Living",
     "author": "Dalai Lama & Howard C. Cutler",
@@ -24859,6 +25079,76 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-artist-s-journey",
+    "title": "The Artist's Journey",
+    "author": "Steven Pressfield",
+    "category": "Creativity & Expression",
+    "subcategory": "Overcoming Creative Resistance",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Surviving life's chaotic initial hurdles is merely Phase One; the true adventure begins when you stop wandering the exterior terrain and plunge into your internal laboratory to turn your scars into signal.",
+      "coreThesis": "The external trials of life merely gather the raw fuel; true maturity lies in taking the internal journey to discover who you are and transforming your unique history into a distilled gift for others.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Artist's Journey"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-artist-s-way-a-spiritual-path-to-higher-creativity",
+    "title": "The Artist's Way: A Spiritual Path to Higher Creativity",
+    "author": "Julia Cameron",
+    "category": "Creativity & Expression",
+    "subcategory": "Ideation & Brainstorming",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 1992,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Creativity is not an elite genetic gift; it is a natural human biological reflex that gets clogged by fear and self-criticism. By installing two simple daily feedback loops, anyone can clear the emotional pipes and restore their innate expressive flow.",
+      "coreThesis": "Creativity is the default operational state of the human mind, blocked only by fear, perfectionism, and internal censorship. Removing these blocks through disciplined daily emotional clearing and regular sensory input automatically restarts natural generative flow.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Artist's Way: A Spiritual Path to Higher Creativity"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -26466,6 +26756,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-creative-habit-learn-it-and-use-it-for-life",
+    "title": "The Creative Habit: Learn It and Use It for Life",
+    "author": "Twyla Tharp",
+    "category": "Creativity & Expression",
+    "subcategory": "Overcoming Creative Resistance",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2003,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Creativity is not a stroke of divine lightning; it is an automatic muscle trained by daily discipline, unyielding physical habit, and clear mental systems. Legendary choreographer Twyla Tharp pulls back the curtain to demonstrate how reliable rituals turn the fear of the blank canvas into a steady, renewable engine of output.",
+      "coreThesis": "Inspiration is the natural byproduct of continuous preparation and ritualized discipline, not a capricious gift of nature. When you build automatic habits to start, organize, and refine your work, creative flow transforms from an unpredictable accident into an on-demand reality.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Creative Habit: Learn It and Use It for Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -35554,6 +35879,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "turning-pro-tap-your-inner-power-and-create-your-life-s-work",
+    "title": "Turning Pro: Tap Your Inner Power and Create Your Life's Work",
+    "author": "Steven Pressfield",
+    "category": "Creativity & Expression",
+    "subcategory": "Overcoming Creative Resistance",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop playing theater with your potential: Steven Pressfield delivers a brutal, unsentimental blueprint for dismantling the cheap addictions of the amateur and adopting the relentless operating discipline of a true professional.",
+      "coreThesis": "Turning pro is a clean, internal decision to stop running shadow careers and subordinate daily emotions to relentless, craft-centered execution.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Turning Pro: Tap Your Inner Power and Create Your Life's Work"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
