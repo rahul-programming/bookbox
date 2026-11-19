@@ -81,6 +81,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "beyond-mindfulness-in-plain-english": "./books/beyondMindfulnessInPlainEnglishExpanded.ts",
   "beyond-religion-ethics-for-a-whole-world": "./books/beyondReligionEthicsForAWholeWorldExpanded.ts",
   "bhavana-mind-development-in-everyday-reality": "./books/bhavanaMindDevelopmentInEverydayRealityExpanded.ts",
+  "bird-by-bird-some-instructions-on-writing-and-life": "./books/birdByBirdSomeInstructionsOnWritingAndLifeExpanded.ts",
   "blink-the-art-of-the-glance": "./books/blinkTheArtOfTheGlanceExpanded.ts",
   "blink-the-power-of-thinking-without-thinking": "./books/blinkThePowerOfThinkingWithoutThinkingExpanded.ts",
   "blue-ocean-strategy": "./books/blueOceanStrategyExpanded.ts",
@@ -142,6 +143,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "content-inc-how-entrepreneurs-use-content-to-build-massive-a": "./books/contentIncHowEntrepreneursUseContentToBuildMassiveAExpanded.ts",
   "continuous-mindfulness-in-dynamic-living": "./books/continuousMindfulnessInDynamicLivingExpanded.ts",
   "conversational-intelligence-how-great-leaders-build-trust-an": "./books/conversationalIntelligenceHowGreatLeadersBuildTrustAnExpanded.ts",
+  "corporate-confidential-50-secrets-your-company-doesn-t-want-": "./books/corporateConfidential50SecretsYourCompanyDoesnTWantExpanded.ts",
   "cracking-the-walnut-secret-teachings-on-awakening": "./books/crackingTheWalnutSecretTeachingsOnAwakeningExpanded.ts",
   "creating-true-peace-ending-violence-in-yourself-and-the-world": "./books/creatingTruePeaceEndingViolenceInYourselfAndTheWorldExpanded.ts",
   "crucial-conversations-tools-for-talking-when-stakes-are-high": "./books/crucialConversationsToolsForTalkingWhenStakesAreHighExpanded.ts",
@@ -220,6 +222,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "everything-s-an-argument": "./books/everythingSAnArgumentExpanded.ts",
   "evil-and-punishment-the-danda-vagga-of-the-dhammapada": "./books/evilAndPunishmentTheDandaVaggaOfTheDhammapadaExpanded.ts",
   "evolutionary-psychology-the-new-science-of-the-mind": "./books/evolutionaryPsychologyTheNewScienceOfTheMindExpanded.ts",
+  "executive-presence-the-missing-link-between-merit-and-succes": "./books/executivePresenceTheMissingLinkBetweenMeritAndSuccesExpanded.ts",
   "expert-political-judgment": "./books/expertPoliticalJudgmentExpanded.ts",
   "eye-to-eye-how-people-interact-with-gaze": "./books/eyeToEyeHowPeopleInteractWithGazeExpanded.ts",
   "face-reading-in-chinese-medicine": "./books/faceReadingInChineseMedicineExpanded.ts",
@@ -273,6 +276,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "great-disciples-of-the-buddha-their-lives-and-legacy": "./books/greatDisciplesOfTheBuddhaTheirLivesAndLegacyExpanded.ts",
   "guide-through-the-abhidhamma-pitaka": "./books/guideThroughTheAbhidhammaPitakaExpanded.ts",
   "happy-money-the-science-of-happier-spending": "./books/happyMoneyTheScienceOfHappierSpendingExpanded.ts",
+  "hbr-guide-to-office-politics": "./books/hbrGuideToOfficePoliticsExpanded.ts",
   "he-s-just-not-that-into-you": "./books/heSJustNotThatIntoYouExpanded.ts",
   "he-understanding-masculine-psychology": "./books/heUnderstandingMasculinePsychologyExpanded.ts",
   "head-and-heart-together-essays-on-the-buddhist-path": "./books/headAndHeartTogetherEssaysOnTheBuddhistPathExpanded.ts",
@@ -379,6 +383,8 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "make-time-how-to-focus-on-what-matters-every-day": "./books/makeTimeHowToFocusOnWhatMattersEveryDayExpanded.ts",
   "man-and-his-symbols": "./books/manAndHisSymbolsExpanded.ts",
   "man-s-search-for-meaning": "./books/manSSearchForMeaningExpanded.ts",
+  "managing-the-boss": "./books/managingTheBossExpanded.ts",
+  "managing-up-how-to-move-up-win-at-work-and-succeed-with-any-": "./books/managingUpHowToMoveUpWinAtWorkAndSucceedWithAnyExpanded.ts",
   "manual-of-abhidhamma-abhidhammattha-sangaha": "./books/manualOfAbhidhammaAbhidhammatthaSangahaExpanded.ts",
   "manual-of-buddhist-vipassana-practice": "./books/manualOfBuddhistVipassanaPracticeExpanded.ts",
   "manual-of-insight": "./books/manualOfInsightExpanded.ts",
@@ -622,6 +628,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "superiority-conceit-in-buddhist-traditions": "./books/superiorityConceitInBuddhistTraditionsExpanded.ts",
   "supramundane-consciousness-lokuttara-citta": "./books/supramundaneConsciousnessLokuttaraCittaExpanded.ts",
   "survival-and-karma-in-buddhist-perspective": "./books/survivalAndKarmaInBuddhistPerspectiveExpanded.ts",
+  "survival-of-the-savvy-high-integrity-political-tactics-for-c": "./books/survivalOfTheSavvyHighIntegrityPoliticalTacticsForCExpanded.ts",
   "sync-how-order-emerges-from-chaos": "./books/syncHowOrderEmergesFromChaosExpanded.ts",
   "taking-the-work-out-of-networking": "./books/takingTheWorkOutOfNetworkingExpanded.ts",
   "talk-like-ted-the-9-public-speaking-secrets-of-the-world-s-t": "./books/talkLikeTedThe9PublicSpeakingSecretsOfTheWorldSTExpanded.ts",
@@ -672,6 +679,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-art-of-seduction": "./books/theArtOfSeductionExpanded.ts",
   "the-art-of-speaking": "./books/theArtOfSpeakingExpanded.ts",
   "the-art-of-thinking-clearly": "./books/theArtOfThinkingClearlyExpanded.ts",
+  "the-art-of-war": "./books/theArtOfWarExpanded.ts",
   "the-art-of-work": "./books/theArtOfWorkExpanded.ts",
   "the-assertiveness-workbook": "./books/theAssertivenessWorkbookExpanded.ts",
   "the-asynchronous-mindset": "./books/theAsynchronousMindsetExpanded.ts",
@@ -863,6 +871,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-practice-of-sila-morality-in-the-tipitaka": "./books/thePracticeOfSilaMoralityInTheTipitakaExpanded.ts",
   "the-practice-of-vipassana-meditation": "./books/thePracticeOfVipassanaMeditationExpanded.ts",
   "the-practice-which-leads-to-nibbana": "./books/thePracticeWhichLeadsToNibbanaExpanded.ts",
+  "the-prince": "./books/thePrinceExpanded.ts",
   "the-progress-of-insight": "./books/theProgressOfInsightExpanded.ts",
   "the-progress-of-insight-through-mental-noting": "./books/theProgressOfInsightThroughMentalNotingExpanded.ts",
   "the-promise-of-sleep": "./books/thePromiseOfSleepExpanded.ts",
@@ -928,6 +937,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-upward-spiral": "./books/theUpwardSpiralExpanded.ts",
   "the-uses-of-argument": "./books/theUsesOfArgumentExpanded.ts",
   "the-voice-book-caring-for-protecting-and-improving-your-voic": "./books/theVoiceBookCaringForProtectingAndImprovingYourVoicExpanded.ts",
+  "the-war-of-art-break-through-the-blocks-and-win-your-inner-c": "./books/theWarOfArtBreakThroughTheBlocksAndWinYourInnerCExpanded.ts",
   "the-war-of-art": "./books/theWarOfArtExpanded.ts",
   "the-way-of-mindfulness-satipatthana-sutta-commentary": "./books/theWayOfMindfulnessSatipatthanaSuttaCommentaryExpanded.ts",
   "the-way-out-a-mindbody-approach-to-healing-chronic-pain": "./books/theWayOutAMindbodyApproachToHealingChronicPainExpanded.ts",
@@ -3880,6 +3890,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "bird-by-bird-some-instructions-on-writing-and-life",
+    "title": "Bird by Bird: Some Instructions on Writing and Life",
+    "author": "Anne Lamott",
+    "category": "Creativity & Expression",
+    "subcategory": "Overcoming Creative Resistance",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 150,
+    "publishedYear": 1994,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Creative work stalls not from a lack of talent, but because cognitive overload and perfectionism choke the brain's natural generative pathways. Anne Lamott reveals how shrinking your immediate scope, welcoming messy first drafts, and building tight feedback loops turns paralysis into steady, compounding creative momentum.",
+      "coreThesis": "Excellence is an emergent property of messy, iterative drafts narrowed down to tiny, manageable units of immediate attention.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Bird by Bird: Some Instructions on Writing and Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "blink-the-art-of-the-glance",
     "title": "Blink: The Art of the Glance",
     "author": "Selected papers on rapid eye-tracking and social perception.",
@@ -6007,6 +6052,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "corporate-confidential-50-secrets-your-company-doesn-t-want-",
+    "title": "Corporate Confidential: 50 Secrets Your Company Doesn't Want You to Know",
+    "author": "Cynthia Shapiro",
+    "category": "Leadership & Career",
+    "subcategory": "Workplace Politics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2005,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Think of employment not as an extended family, but as a hard-nosed, commercial joint venture where survival belongs to those who recognize unwritten rules. Cynthia Shapiro pulls back the curtain to reveal why stellar performance alone won't protect you\\u2014and how strategic alignment keeps you bulletproof.",
+      "coreThesis": "A corporation exists to protect its own capital and eliminate liability; career survival demands abandoning naive ideals of workplace fairness to proactively manage executive risk perceptions.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Corporate Confidential: 50 Secrets Your Company Doesn't Want You to Know"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
@@ -8740,6 +8820,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "executive-presence-the-missing-link-between-merit-and-succes",
+    "title": "Executive Presence: The Missing Link Between Merit and Success",
+    "author": "Sylvia Ann Hewlett",
+    "category": "Leadership & Career",
+    "subcategory": "Workplace Politics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Raw competence gets you on the roster; executive presence determines whether you get the captain's armband. This book breaks down the exact psychological signals leaders use to decide who gets trusted with real power.",
+      "coreThesis": "Competence gets you promoted into contention, but executive presence\\u2014signaled through gravitas, communication, and appearance\\u2014determines who actually secures command.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Executive Presence: The Missing Link Between Merit and Success"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "expert-political-judgment",
     "title": "Expert Political Judgment",
     "author": "Philip E. Tetlock",
@@ -10587,6 +10702,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "hbr-guide-to-office-politics",
+    "title": "HBR Guide to Office Politics",
+    "author": "Karen Dillon",
+    "category": "Leadership & Career",
+    "subcategory": "Workplace Politics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Office politics is not corrupt manipulation; it is the natural law of human resource allocation inside every enterprise. Master the invisible currents of power, alignment, and incentives, or surrender your career trajectory to those who do.",
+      "coreThesis": "Workplace politics is the unavoidable operational reality of allocating scarce organizational power; success requires mastering human incentives and building strategic leverage with absolute integrity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "HBR Guide to Office Politics"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
@@ -14293,6 +14443,76 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "managing-the-boss",
+    "title": "Managing the Boss",
+    "author": "Peter Drucker",
+    "category": "Leadership & Career",
+    "subcategory": "Workplace Politics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your boss is neither an all-knowing sovereign nor an obstacle to circumvent; they are the primary gatekeeper whose operational effectiveness directly dictates your organizational leverage. Managing upward is cold-blooded operational hygiene: diagnose how your superior absorbs reality, feed their strengths, and neutralize nasty surprises before they detonate.",
+      "coreThesis": "Managing the boss is not brown-nosing or political gamesmanship; it is the non-negotiable professional discipline of making your superior's strengths fully productive while neutralizing the damage of their weaknesses.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Managing the Boss"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "managing-up-how-to-move-up-win-at-work-and-succeed-with-any-",
+    "title": "Managing Up: How to Move up, Win at Work, and Succeed with Any Type of Boss",
+    "author": "Mary Abbajay",
+    "category": "Leadership & Career",
+    "subcategory": "Workplace Politics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 110,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your boss is the single most consequential variable in your career trajectory, and waiting for them to change is a losing wager. Managing up is the strategic discipline of decoding your manager's operating system, neutralizing friction, and transforming an asymmetrical relationship into your primary career moat.",
+      "coreThesis": "You cannot control your manager's temperament or competence, but you can entirely control how you interface with their operating style. Managing up is the deliberate practice of adapting your execution to solve your boss's problems, thereby converting organizational asymmetry into personal career leverage.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Managing Up: How to Move up, Win at Work, and Succeed with Any Type of Boss"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
@@ -22790,6 +23010,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "survival-of-the-savvy-high-integrity-political-tactics-for-c",
+    "title": "Survival of the Savvy: High-Integrity Political Tactics for Career and Company Success",
+    "author": "Rick Brandon & Marty Seldman",
+    "category": "Leadership & Career",
+    "subcategory": "Workplace Politics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 115,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Competence without political acumen is organizational suicide. Brandon and Seldman deliver an unsentimental blueprint for wielding ethical power, neutralizing covert sabotage, and ensuring merit actually triumphs on the corporate chessboard.",
+      "coreThesis": "Organizational politics is an unavoidable law of human systems; true professional excellence demands balancing exceptional substance with ethical political mastery so merit and integrity actually prevail.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Survival of the Savvy: High-Integrity Political Tactics for Career and Company Success"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "sync-how-order-emerges-from-chaos",
     "title": "Sync: How Order Emerges from Chaos",
     "author": "Steven Strogatz",
@@ -24534,6 +24789,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-art-of-war",
+    "title": "The Art of War",
+    "author": "Sun Tzu",
+    "category": "Leadership & Career",
+    "subcategory": "Workplace Politics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Supreme mastery is winning without fighting. Master strategists engineer conditions where victory is already secured before execution ever begins.",
+      "coreThesis": "Victory is won before the battle is fought; defeat is guaranteed to those who fight first and seek victory later through brute force.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Art of War"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
@@ -31215,6 +31505,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-prince",
+    "title": "The Prince",
+    "author": "Niccol\\u00f2 Machiavelli",
+    "category": "Leadership & Career",
+    "subcategory": "Workplace Politics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 1532,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop governing through wishful thinking and start navigating the boardroom chessboard as it actually exists. This unsentimental masterclass strips away moral posturing to show how sovereign authority is won, exercised, and insulated against systemic chaos.",
+      "coreThesis": "Sustainable leadership demands seeing the world as it operates, not as it should; enduring power relies entirely on sovereign self-sufficiency, aligned incentives, and decisive execution.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Prince"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-progress-of-insight",
     "title": "The Progress of Insight",
     "author": "Mahasi Sayadaw",
@@ -33475,6 +33800,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Voice Book: Caring for, Protecting, and Improving Your Voice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-war-of-art-break-through-the-blocks-and-win-your-inner-c",
+    "title": "The War of Art: Break Through the Blocks and Win Your Inner Creative Battles",
+    "author": "Steven Pressfield",
+    "category": "Creativity & Expression",
+    "subcategory": "Overcoming Creative Resistance",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2002,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Procrastination and creative paralysis are not moral flaws; they are systemic counter-forces generated by the human mind whenever we step toward meaningful growth. Learn to treat creative work like a disciplined daily trade, disarm internal sabotage, and tap into effortless creative momentum.",
+      "coreThesis": "Resistance is an inevitable internal counter-force that scales directly with the importance of your work; winning requires trading amateur emotionalism for the quiet, unglamorous mechanics of daily professional practice.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The War of Art: Break Through the Blocks and Win Your Inner Creative Battles"
     },
     "reflectionExercises": [],
     "actionItems": [],
