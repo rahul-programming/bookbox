@@ -20,6 +20,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "a-life-of-blessing-celebrating-virtue-and-stillness": "./books/aLifeOfBlessingCelebratingVirtueAndStillnessExpanded.ts",
   "a-million-miles-in-a-thousand-years": "./books/aMillionMilesInAThousandYearsExpanded.ts",
   "a-mind-for-numbers": "./books/aMindForNumbersExpanded.ts",
+  "a-new-earth-awakening-to-your-life-s-purpose": "./books/aNewEarthAwakeningToYourLifeSPurposeExpanded.ts",
   "a-pali-grammar-for-beginners": "./books/aPaliGrammarForBeginnersExpanded.ts",
   "a-path-with-heart-a-guide-through-the-perils-and-promises-of": "./books/aPathWithHeartAGuideThroughThePerilsAndPromisesOfExpanded.ts",
   "a-policy-of-kindness-anthology-of-writings": "./books/aPolicyOfKindnessAnthologyOfWritingsExpanded.ts",
@@ -45,6 +46,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "all-about-asset-allocation": "./books/allAboutAssetAllocationExpanded.ts",
   "all-of-us-beset-by-birth-decay-and-death": "./books/allOfUsBesetByBirthDecayAndDeathExpanded.ts",
   "alone-together-why-we-expect-more-from-technology-and-less-f": "./books/aloneTogetherWhyWeExpectMoreFromTechnologyAndLessFExpanded.ts",
+  "already-free-buddhism-meets-psychotherapy-on-the-path-of-lib": "./books/alreadyFreeBuddhismMeetsPsychotherapyOnThePathOfLibExpanded.ts",
   "an-analysis-of-the-sutta-nipata": "./books/anAnalysisOfTheSuttaNipataExpanded.ts",
   "an-illustrated-book-of-bad-arguments": "./books/anIllustratedBookOfBadArgumentsExpanded.ts",
   "an-inquiring-mind-s-journey-into-vipassana": "./books/anInquiringMindSJourneyIntoVipassanaExpanded.ts",
@@ -255,6 +257,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "factfulness": "./books/factfulnessExpanded.ts",
   "faith-trusting-your-own-deepest-experience": "./books/faithTrustingYourOwnDeepestExperienceExpanded.ts",
   "fallacies-and-argument-appraisal": "./books/fallaciesAndArgumentAppraisalExpanded.ts",
+  "falling-into-grace-insights-on-the-end-of-suffering": "./books/fallingIntoGraceInsightsOnTheEndOfSufferingExpanded.ts",
   "farnsworth-s-classical-english-rhetoric": "./books/farnsworthSClassicalEnglishRhetoricExpanded.ts",
   "farnsworth-s-classical-english-style": "./books/farnsworthSClassicalEnglishStyleExpanded.ts",
   "fear-essential-wisdom-for-getting-through-the-storm": "./books/fearEssentialWisdomForGettingThroughTheStormExpanded.ts",
@@ -389,6 +392,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "learned-optimism": "./books/learnedOptimismExpanded.ts",
   "left-neglected": "./books/leftNeglectedExpanded.ts",
   "letters-from-a-stoic-epistulae-morales-ad-lucilium": "./books/lettersFromAStoicEpistulaeMoralesAdLuciliumExpanded.ts",
+  "letting-go-the-pathway-of-surrender": "./books/lettingGoThePathwayOfSurrenderExpanded.ts",
   "liespotting-proven-techniques-to-detect-deception": "./books/liespottingProvenTechniquesToDetectDeceptionExpanded.ts",
   "life-is-in-the-transitions": "./books/lifeIsInTheTransitionsExpanded.ts",
   "lighting-the-path-the-four-noble-truths": "./books/lightingThePathTheFourNobleTruthsExpanded.ts",
@@ -564,6 +568,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "purification-of-mind-and-view": "./books/purificationOfMindAndViewExpanded.ts",
   "purity-of-heart-essays-on-the-buddhist-path": "./books/purityOfHeartEssaysOnTheBuddhistPathExpanded.ts",
   "quit-like-a-millionaire": "./books/quitLikeAMillionaireExpanded.ts",
+  "radical-acceptance-embracing-your-life-with-the-heart-of-a-b": "./books/radicalAcceptanceEmbracingYourLifeWithTheHeartOfABExpanded.ts",
   "radical-acceptance": "./books/radicalAcceptanceExpanded.ts",
   "radical-buddhism-the-early-pali-suttas": "./books/radicalBuddhismTheEarlyPaliSuttasExpanded.ts",
   "radical-candor-be-a-kick-ass-boss-without-losing-your-humani": "./books/radicalCandorBeAKickAssBossWithoutLosingYourHumaniExpanded.ts",
@@ -841,6 +846,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-elephant-in-the-brain-hidden-motives-in-everyday-life": "./books/theElephantInTheBrainHiddenMotivesInEverydayLifeExpanded.ts",
   "the-elimination-of-anger": "./books/theEliminationOfAngerExpanded.ts",
   "the-end-of-burnout-why-work-drains-us-and-how-to-build-bette": "./books/theEndOfBurnoutWhyWorkDrainsUsAndHowToBuildBetteExpanded.ts",
+  "the-end-of-your-world-clear-teachings-on-the-nature-of-enlig": "./books/theEndOfYourWorldClearTeachingsOnTheNatureOfEnligExpanded.ts",
   "the-energy-of-prayer-how-to-deepen-your-spiritual-practice": "./books/theEnergyOfPrayerHowToDeepenYourSpiritualPracticeExpanded.ts",
   "the-essence-of-buddha-abhidhamma": "./books/theEssenceOfBuddhaAbhidhammaExpanded.ts",
   "the-essence-of-the-heart-sutra": "./books/theEssenceOfTheHeartSutraExpanded.ts",
@@ -956,6 +962,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-power-of-habit": "./books/thePowerOfHabitExpanded.ts",
   "the-power-of-mindfulness": "./books/thePowerOfMindfulnessExpanded.ts",
   "the-power-of-mindfulness-in-daily-living": "./books/thePowerOfMindfulnessInDailyLivingExpanded.ts",
+  "the-power-of-now-a-guide-to-spiritual-enlightenment": "./books/thePowerOfNowAGuideToSpiritualEnlightenmentExpanded.ts",
   "the-power-of-when": "./books/thePowerOfWhenExpanded.ts",
   "the-practice-of-sila-morality-in-the-tipitaka": "./books/thePracticeOfSilaMoralityInTheTipitakaExpanded.ts",
   "the-practice-of-vipassana-meditation": "./books/thePracticeOfVipassanaMeditationExpanded.ts",
@@ -1010,6 +1017,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-stranger": "./books/theStrangerExpanded.ts",
   "the-structure-of-scientific-revolutions": "./books/theStructureOfScientificRevolutionsExpanded.ts",
   "the-sun-my-heart-from-mindfulness-to-insight-contemplation": "./books/theSunMyHeartFromMindfulnessToInsightContemplationExpanded.ts",
+  "the-surrender-experiment-my-journey-into-life-s-perfection": "./books/theSurrenderExperimentMyJourneyIntoLifeSPerfectionExpanded.ts",
   "the-sutta-discovery-early-buddhist-teachings": "./books/theSuttaDiscoveryEarlyBuddhistTeachingsExpanded.ts",
   "the-sutta-nipata-early-buddhist-poetry": "./books/theSuttaNipataEarlyBuddhistPoetryExpanded.ts",
   "the-suttanipata-an-ancient-collection-of-discourses": "./books/theSuttanipataAnAncientCollectionOfDiscoursesExpanded.ts",
@@ -1028,6 +1036,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-udana-inspired-utterances-of-the-buddha": "./books/theUdanaInspiredUtterancesOfTheBuddhaExpanded.ts",
   "the-universe-in-a-single-atom-convergence-of-science-and-spirituality": "./books/theUniverseInASingleAtomConvergenceOfScienceAndSpiritualityExpanded.ts",
   "the-unspoken-rules-secrets-to-starting-your-career-off-right": "./books/theUnspokenRulesSecretsToStartingYourCareerOffRightExpanded.ts",
+  "the-untethered-soul-the-journey-beyond-yourself": "./books/theUntetheredSoulTheJourneyBeyondYourselfExpanded.ts",
   "the-upside-of-irrationality": "./books/theUpsideOfIrrationalityExpanded.ts",
   "the-upward-spiral": "./books/theUpwardSpiralExpanded.ts",
   "the-uses-of-argument": "./books/theUsesOfArgumentExpanded.ts",
@@ -1082,6 +1091,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "treatise-on-the-vipassana-insight-practice": "./books/treatiseOnTheVipassanaInsightPracticeExpanded.ts",
   "trillion-dollar-coach-the-leadership-playbook-of-silicon-val": "./books/trillionDollarCoachTheLeadershipPlaybookOfSiliconValExpanded.ts",
   "true-love-a-practice-for-awakening-the-heart": "./books/trueLoveAPracticeForAwakeningTheHeartExpanded.ts",
+  "true-refuge-finding-peace-and-freedom-in-your-own-awakened-m": "./books/trueRefugeFindingPeaceAndFreedomInYourOwnAwakenedMExpanded.ts",
   "tug-of-vow-monastic-training-in-the-forest-tradition": "./books/tugOfVowMonasticTrainingInTheForestTraditionExpanded.ts",
   "turn-the-ship-around-a-true-story-of-turning-followers-into-": "./books/turnTheShipAroundATrueStoryOfTurningFollowersIntoExpanded.ts",
   "turning-pro-tap-your-inner-power-and-create-your-life-s-work": "./books/turningProTapYourInnerPowerAndCreateYourLifeSWorkExpanded.ts",
@@ -1865,6 +1875,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "a-new-earth-awakening-to-your-life-s-purpose",
+    "title": "A New Earth: Awakening to Your Life's Purpose",
+    "author": "Eckhart Tolle",
+    "category": "Spirituality",
+    "subcategory": "Universal Non-Duality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2005,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your chronic anxiety and inner unrest do not stem from your life circumstances, but from mistaking your stream of thinking for your actual self. By stepping back into alert, silent presence, you dissolve psychological friction and unlock genuine, effortless purpose in everyday action.",
+      "coreThesis": "Human suffering is born from mistaking conditioned mental noise and past emotional trauma for your true identity; waking up means recognizing yourself as the silent, unshakeable awareness behind every thought and emotion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "A New Earth: Awakening to Your Life's Purpose"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -2737,6 +2782,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "already-free-buddhism-meets-psychotherapy-on-the-path-of-lib",
+    "title": "Already Free: Buddhism Meets Psychotherapy on the Path of Liberation",
+    "author": "Bruce Tift",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You do not need to finish fixing your personal history before claiming peace. Real freedom happens the exact moment you drop the struggle and inhabit the living present as whole.",
+      "coreThesis": "Human liberation does not require completing your psychological self-improvement project; it blossoms when you hold your developmental healing within the immediate realization that open awareness is already free.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Already Free: Buddhism Meets Psychotherapy on the Path of Liberation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -10083,6 +10163,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "falling-into-grace-insights-on-the-end-of-suffering",
+    "title": "Falling into Grace: Insights on the End of Suffering",
+    "author": "Adyashanti",
+    "category": "Spirituality",
+    "subcategory": "Universal Non-Duality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Suffering does not come from what happens to you, but from arguing with what is. Stop fighting the stream of life, open your hands, and discover that peace is already holding you.",
+      "coreThesis": "Suffering dissolves the instant we stop demanding that reality conform to our thoughts and surrender into the quiet awareness that is already present.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Falling into Grace: Insights on the End of Suffering"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "farnsworth-s-classical-english-rhetoric",
     "title": "Farnsworth's Classical English Rhetoric",
     "author": "Ward Farnsworth",
@@ -14765,6 +14880,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "letting-go-the-pathway-of-surrender",
+    "title": "Letting Go: The Pathway of Surrender",
+    "author": "David R. Hawkins",
+    "category": "Spirituality",
+    "subcategory": "Universal Non-Duality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 105,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Suffering does not come from the world around you; it comes from the heavy pressure cooker of suppressed emotions you carry inside. By quietly feeling physical sensations without resisting, analyzing, or venting them, their trapped energy dissolves naturally, leaving behind lucid clarity, effortless peace, and radiant presence.",
+      "coreThesis": "Inner freedom is achieved not by changing external conditions or analyzing thoughts, but by surrendering your resistance to feeling raw emotions, allowing trapped energy to dissolve naturally into silent awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Letting Go: The Pathway of Surrender"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -20883,6 +21033,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "radical-acceptance-embracing-your-life-with-the-heart-of-a-b",
+    "title": "Radical Acceptance: Embracing Your Life with the Heart of a Buddha",
+    "author": "Tara Brach",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2003,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most adults spend life locked inside a painful, invisible prison\\u2014the chronic belief that they are somehow deficient. Radical Acceptance reveals how to step out of this trance through clear seeing and openhearted tenderness, discovering the boundless peace already waiting inside.",
+      "coreThesis": "Suffering deepens whenever we resist our immediate experience or judge ourselves as fundamentally deficient; true liberation comes from clearly seeing reality as it is and embracing it with unconditional warmth.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Radical Acceptance: Embracing Your Life with the Heart of a Buddha"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -30571,6 +30756,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-end-of-your-world-clear-teachings-on-the-nature-of-enlig",
+    "title": "The End of Your World: Clear Teachings on the Nature of Enlightenment",
+    "author": "Adyashanti",
+    "category": "Spirituality",
+    "subcategory": "Universal Non-Duality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Spiritual enlightenment is rarely the peaceful end of all trouble\\u2014it is the direct end of your illusory separate world. Adyashanti provides an uncensored, practical field guide for navigating life after awakening, showing you how to embody absolute clarity in ordinary daily existence.",
+      "coreThesis": "Enlightenment is not a glamorous trophy or an escape hatch from reality, but the complete unraveling of the illusory self and the grounded embodiment of effortless awareness in everyday human life.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The End of Your World: Clear Teachings on the Nature of Enlightenment"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-energy-of-prayer-how-to-deepen-your-spiritual-practice",
     "title": "The Energy of Prayer: How to Deepen Your Spiritual Practice",
     "author": "Thich Nhat Hanh",
@@ -34590,6 +34810,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-power-of-now-a-guide-to-spiritual-enlightenment",
+    "title": "The Power of Now: A Guide to Spiritual Enlightenment",
+    "author": "Eckhart Tolle",
+    "category": "Spirituality",
+    "subcategory": "Universal Non-Duality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1997,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most human suffering is a phantom created by an overactive mind replaying yesterday or fearing tomorrow. By stepping out of the mental noise into the present moment, you discover an unshakeable inner peace that is already here.",
+      "coreThesis": "You are not the compulsive thinker in your head; you are the silent, witnessing awareness beneath it. Real freedom begins the moment you inhabit the present moment fully and stop resisting what is.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Power of Now: A Guide to Spiritual Enlightenment"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-power-of-when",
     "title": "The Power of When",
     "author": "Michael Breus",
@@ -36478,6 +36733,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-surrender-experiment-my-journey-into-life-s-perfection",
+    "title": "The Surrender Experiment: My Journey into Life's Perfection",
+    "author": "Michael A. Singer",
+    "category": "Spirituality",
+    "subcategory": "Universal Non-Duality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 200,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "What happens when you stop fighting reality and let life run itself? This true chronicle shows how yielding personal resistance turns everyday circumstances into an effortless, astonishing adventure.",
+      "coreThesis": "True freedom is not getting the world to fit your personal preferences; it is releasing your personal resistance so life's natural intelligence can flow through you unobstructed.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Surrender Experiment: My Journey into Life's Perfection"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-sutta-discovery-early-buddhist-teachings",
     "title": "The Sutta Discovery: Early Buddhist Teachings",
     "author": "Piya Tan & Bhikkhu Analayo",
@@ -37102,6 +37392,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-untethered-soul-the-journey-beyond-yourself",
+    "title": "The Untethered Soul: The Journey Beyond Yourself",
+    "author": "Michael A. Singer",
+    "category": "Spirituality",
+    "subcategory": "Universal Non-Duality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 95,
+    "publishedYear": 2007,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You are not the relentless voice chattering in your head\\u2014you are the calm, quiet awareness listening to it. By learning to relax and release past emotional blockages instead of defending them, you unlock profound freedom, boundless energy, and unconditional peace.",
+      "coreThesis": "You are pure conscious awareness, not the neurotic mental chatter in your head. Freedom comes from relaxing behind your thoughts and letting stored emotional pain pass through without resistance.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Untethered Soul: The Journey Beyond Yourself"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -38982,6 +39307,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "True Love: A Practice for Awakening the Heart"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "true-refuge-finding-peace-and-freedom-in-your-own-awakened-m",
+    "title": "True Refuge: Finding Peace and Freedom in Your Own Awakened Mind",
+    "author": "Tara Brach",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 2013,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When chronic stress, illness, or heartbreak strip away your false securities, where do you turn? Tara Brach reveals how to step out of the exhausting trance of inadequacy and take refuge in the unshakeable stillness of your own awakened awareness.",
+      "coreThesis": "Genuine peace is never found by controlling external circumstances or perfecting yourself; it is discovered by resting directly in the open, compassionate awareness that is already your true home.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "True Refuge: Finding Peace and Freedom in Your Own Awakened Mind"
     },
     "reflectionExercises": [],
     "actionItems": [],
