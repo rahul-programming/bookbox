@@ -268,6 +268,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "going-for-refuge-and-taking-the-precepts": "./books/goingForRefugeAndTakingThePreceptsExpanded.ts",
   "going-home-jesus-and-buddha-as-brothers": "./books/goingHomeJesusAndBuddhaAsBrothersExpanded.ts",
   "good-reasons-for-better-arguments": "./books/goodReasonsForBetterArgumentsExpanded.ts",
+  "good-to-great-why-some-companies-make-the-leap-and-others-do": "./books/goodToGreatWhySomeCompaniesMakeTheLeapAndOthersDoExpanded.ts",
   "great-at-work-how-top-performers-do-less-work-better-and-ach": "./books/greatAtWorkHowTopPerformersDoLessWorkBetterAndAchExpanded.ts",
   "great-disciples-of-the-buddha-their-lives-and-legacy": "./books/greatDisciplesOfTheBuddhaTheirLivesAndLegacyExpanded.ts",
   "guide-through-the-abhidhamma-pitaka": "./books/guideThroughTheAbhidhammaPitakaExpanded.ts",
@@ -283,6 +284,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "heart-to-heart-a-conversational-guide-to-awakening": "./books/heartToHeartAConversationalGuideToAwakeningExpanded.ts",
   "heedfulness-the-deathless-path-of-the-dhammapada": "./books/heedfulnessTheDeathlessPathOfTheDhammapadaExpanded.ts",
   "hell-yeah-or-no": "./books/hellYeahOrNoExpanded.ts",
+  "high-output-management": "./books/highOutputManagementExpanded.ts",
   "hold-me-tight-seven-conversations-for-a-lifetime-of-love": "./books/holdMeTightSevenConversationsForALifetimeOfLoveExpanded.ts",
   "honoring-the-self": "./books/honoringTheSelfExpanded.ts",
   "hooked-how-to-build-habit-forming-products": "./books/hookedHowToBuildHabitFormingProductsExpanded.ts",
@@ -344,6 +346,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "knowing-and-seeing-teachings-of-pa-auk-monastery": "./books/knowingAndSeeingTeachingsOfPaAukMonasteryExpanded.ts",
   "known-the-handbook-for-building-and-unleashing-your-personal": "./books/knownTheHandbookForBuildingAndUnleashingYourPersonalExpanded.ts",
   "lead-with-a-story": "./books/leadWithAStoryExpanded.ts",
+  "leaders-eat-last-why-some-teams-pull-together-and-others-don": "./books/leadersEatLastWhySomeTeamsPullTogetherAndOthersDonExpanded.ts",
   "learn-like-a-pro": "./books/learnLikeAProExpanded.ts",
   "learned-optimism": "./books/learnedOptimismExpanded.ts",
   "liespotting-proven-techniques-to-detect-deception": "./books/liespottingProvenTechniquesToDetectDeceptionExpanded.ts",
@@ -392,6 +395,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "many-ways-to-nirvana-reflections-on-happiness": "./books/manyWaysToNirvanaReflectionsOnHappinessExpanded.ts",
   "mastering-the-complex-sale": "./books/masteringTheComplexSaleExpanded.ts",
   "mating-in-captivity-unlocking-erotic-intelligence": "./books/matingInCaptivityUnlockingEroticIntelligenceExpanded.ts",
+  "measure-what-matters-how-google-bono-and-the-gates-foundatio": "./books/measureWhatMattersHowGoogleBonoAndTheGatesFoundatioExpanded.ts",
   "meditation-instructions-for-intensive-practice": "./books/meditationInstructionsForIntensivePracticeExpanded.ts",
   "meditation-now-inner-peace-through-inner-wisdom": "./books/meditationNowInnerPeaceThroughInnerWisdomExpanded.ts",
   "meditation-on-perception-ten-healing-practices": "./books/meditationOnPerceptionTenHealingPracticesExpanded.ts",
@@ -434,6 +438,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "monetizing-innovation": "./books/monetizingInnovationExpanded.ts",
   "moonwalking-with-einstein": "./books/moonwalkingWithEinsteinExpanded.ts",
   "mother-hunger-how-to-hurt-heal-and-nurture-the-missing-eleme": "./books/motherHungerHowToHurtHealAndNurtureTheMissingElemeExpanded.ts",
+  "multipliers-how-the-best-leaders-make-everyone-smarter": "./books/multipliersHowTheBestLeadersMakeEveryoneSmarterExpanded.ts",
   "my-land-and-my-people-the-original-autobiography": "./books/myLandAndMyPeopleTheOriginalAutobiographyExpanded.ts",
   "negotiating-the-nonnegotiable-how-to-resolve-your-most-emoti": "./books/negotiatingTheNonnegotiableHowToResolveYourMostEmotiExpanded.ts",
   "negotiation-genius": "./books/negotiationGeniusExpanded.ts",
@@ -488,6 +493,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "poor-charlie-s-almanack": "./books/poorCharlieSAlmanackExpanded.ts",
   "positioning-the-battle-for-your-mind": "./books/positioningTheBattleForYourMindExpanded.ts",
   "power-questions-build-relationships-win-new-business-and-inf": "./books/powerQuestionsBuildRelationshipsWinNewBusinessAndInfExpanded.ts",
+  "power-why-some-people-have-it-and-others-don-t": "./books/powerWhySomePeopleHaveItAndOthersDonTExpanded.ts",
   "practical-vipassana-meditative-exercises": "./books/practicalVipassanaMeditativeExercisesExpanded.ts",
   "pre-suasion-a-revolutionary-way-to-influence-and-persuade": "./books/preSuasionARevolutionaryWayToInfluenceAndPersuadeExpanded.ts",
   "predictably-irrational-the-hidden-forces-that-shape-our-deci": "./books/predictablyIrrationalTheHiddenForcesThatShapeOurDeciExpanded.ts",
@@ -637,6 +643,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-2-hour-cocktail-party-how-to-build-big-relationships-wit": "./books/the2HourCocktailPartyHowToBuildBigRelationshipsWitExpanded.ts",
   "the-48-laws-of-power": "./books/the48LawsOfPowerExpanded.ts",
   "the-4-hour-workweek": "./books/the4HourWorkweekExpanded.ts",
+  "the-5-dysfunctions-of-a-team": "./books/the5DysfunctionsOfATeamExpanded.ts",
   "the-5-love-languages-the-secret-to-love-that-lasts": "./books/the5LoveLanguagesTheSecretToLoveThatLastsExpanded.ts",
   "the-5-second-rule": "./books/the5SecondRuleExpanded.ts",
   "the-80-20-principle": "./books/the8020PrincipleExpanded.ts",
@@ -757,6 +764,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-experience-of-samadhi-in-depth-exploration": "./books/theExperienceOfSamadhiInDepthExplorationExpanded.ts",
   "the-experiential-path-of-satipatthana": "./books/theExperientialPathOfSatipatthanaExpanded.ts",
   "the-face-of-emotion": "./books/theFaceOfEmotionExpanded.ts",
+  "the-fearless-organization-creating-psychological-safety-in-t": "./books/theFearlessOrganizationCreatingPsychologicalSafetyInTExpanded.ts",
   "the-fifth-discipline": "./books/theFifthDisciplineExpanded.ts",
   "the-fire-sermon-adittapariyaya-sutta": "./books/theFireSermonAdittapariyayaSuttaExpanded.ts",
   "the-first-90-days-proven-strategies-for-getting-up-to-speed-": "./books/theFirst90DaysProvenStrategiesForGettingUpToSpeedExpanded.ts",
@@ -965,8 +973,10 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "treasure-of-the-dhamma": "./books/treasureOfTheDhammaExpanded.ts",
   "treasury-of-truth-illustrated-dhammapada": "./books/treasuryOfTruthIllustratedDhammapadaExpanded.ts",
   "treatise-on-the-vipassana-insight-practice": "./books/treatiseOnTheVipassanaInsightPracticeExpanded.ts",
+  "trillion-dollar-coach-the-leadership-playbook-of-silicon-val": "./books/trillionDollarCoachTheLeadershipPlaybookOfSiliconValExpanded.ts",
   "true-love-a-practice-for-awakening-the-heart": "./books/trueLoveAPracticeForAwakeningTheHeartExpanded.ts",
   "tug-of-vow-monastic-training-in-the-forest-tradition": "./books/tugOfVowMonasticTrainingInTheForestTraditionExpanded.ts",
+  "turn-the-ship-around-a-true-story-of-turning-followers-into-": "./books/turnTheShipAroundATrueStoryOfTurningFollowersIntoExpanded.ts",
   "turning-the-wheel-of-truth": "./books/turningTheWheelOfTruthExpanded.ts",
   "ultralearning": "./books/ultralearningExpanded.ts",
   "unconditional-love-and-the-abhidhamma": "./books/unconditionalLoveAndTheAbhidhammaExpanded.ts",
@@ -10407,6 +10417,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "good-to-great-why-some-companies-make-the-leap-and-others-do",
+    "title": "Good to Great: Why Some Companies Make the Leap... and Others Don't",
+    "author": "Jim Collins",
+    "category": "Leadership & Career",
+    "subcategory": "Team Leadership",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2001,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Greatness is not an accident of circumstance or charismatic genius; it is a disciplined sequence of decisions executed with ruthless clarity. Jim Collins dismantles corporate myth-making to show how ordinary companies engineered sustainable, asymmetric market dominance.",
+      "coreThesis": "Enduring greatness is the cumulative result of disciplined people, disciplined thought, and disciplined action compounding relentlessly over time.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Good to Great: Why Some Companies Make the Leap... and Others Don't"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "great-at-work-how-top-performers-do-less-work-better-and-ach",
     "title": "Great at Work: How Top Performers Do Less, Work Better, and Achieve More",
     "author": "Morten T. Hansen",
@@ -10927,6 +10972,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "high-output-management",
+    "title": "High Output Management",
+    "author": "Andrew S. Grove",
+    "category": "Leadership & Career",
+    "subcategory": "Team Leadership",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 1983,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "A manager's output is not their own inbox or busywork\\u2014it is the net output of the entire team they influence. Learn how to run your business like a precision kitchen, eliminating bottlenecks and multiplying every hour worked.",
+      "coreThesis": "A manager's total output equals the output of their organization plus the output of the neighboring organizations under their influence; maximum results come from applying high-leverage actions to the process's limiting step.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "High Output Management"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
@@ -13065,6 +13145,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "leaders-eat-last-why-some-teams-pull-together-and-others-don",
+    "title": "Leaders Eat Last: Why Some Teams Pull Together and Others Don't",
+    "author": "Simon Sinek",
+    "category": "Leadership & Career",
+    "subcategory": "Team Leadership",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 135,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Leadership is not an executive privilege; it is an asymmetrical risk contract. When leaders build a perimeter of internal safety, teams stop wasting energy dodging office politics and deploy all firepower against market competition.",
+      "coreThesis": "Teams unlock peak execution only when internal psychological safety is guaranteed, freeing human biology to collaborate internally and fight external threats together.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Leaders Eat Last: Why Some Teams Pull Together and Others Don't"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "learn-like-a-pro",
     "title": "Learn Like a Pro",
     "author": "Barbara Oakley & Olav Schewe",
@@ -14743,6 +14858,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "measure-what-matters-how-google-bono-and-the-gates-foundatio",
+    "title": "Measure What Matters: How Google, Bono, and the Gates Foundation Rock the World with OKRs",
+    "author": "John Doerr",
+    "category": "Leadership & Career",
+    "subcategory": "Team Leadership",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 105,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Ideas are cheap commodity; disciplined, transparent execution is the only true competitive moat. This operational guide provides the battle-tested blueprint for turning fuzzy aspirations into concrete, high-velocity organizational outcomes.",
+      "coreThesis": "Elite performance demands ruthless focus on a few measurable outcomes, made radically transparent across the entire organization and continuously tracked through real-time feedback.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Measure What Matters: How Google, Bono, and the Gates Foundation Rock the World with OKRs"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "meditation-instructions-for-intensive-practice",
     "title": "Meditation Instructions for Intensive Practice",
     "author": "Sayadaw U Silananda",
@@ -16206,6 +16356,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "multipliers-how-the-best-leaders-make-everyone-smarter",
+    "title": "Multipliers: How the Best Leaders Make Everyone Smarter",
+    "author": "Liz Wiseman",
+    "category": "Leadership & Career",
+    "subcategory": "Team Leadership",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most organizations leave half their collective intelligence on the table because leaders act as bottlenecks rather than catalysts. Mastering the Multiplier playbook unlocks up to twice the output from the exact same payroll without burning out talent.",
+      "coreThesis": "Leadership leverage is not about how much you know or control; it is about how much intelligence and capability you extract from the people around you.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Multipliers: How the Best Leaders Make Everyone Smarter"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
@@ -18094,6 +18279,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "power-why-some-people-have-it-and-others-don-t",
+    "title": "Power: Why Some People Have It and Others Don't",
+    "author": "Jeffrey Pfeffer",
+    "category": "Leadership & Career",
+    "subcategory": "Workplace Politics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop waiting for the workplace to fairly reward your quiet competence. Power is a pragmatic, neutral craft of controlling resources, securing visibility, and engineering alliances\\u2014and those who refuse to learn its rules will always be governed by those who do.",
+      "coreThesis": "Organizational advancement is governed by visibility, resource control, and strategic relationship architecture, not by the naive belief that job performance automatically rewards itself.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Power: Why Some People Have It and Others Don't"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
@@ -23304,6 +23524,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-5-dysfunctions-of-a-team",
+    "title": "The 5 Dysfunctions of a Team",
+    "author": "Patrick Lencioni",
+    "category": "Leadership & Career",
+    "subcategory": "Team Leadership",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 150,
+    "publishedYear": 2002,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Great talent collapses when guarded egos treat team meetings like diplomatic peace treaties rather than operational war rooms. Patrick Lencioni breaks down the root causes of team paralysis and proves that disciplined vulnerability, fiery debate, and peer accountability are the true engines of market dominance.",
+      "coreThesis": "A team functions only when collective outcomes take precedence over individual protection, achieved through a progressive chain of vulnerability, candid ideological debate, decisive commitment, and direct peer accountability.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The 5 Dysfunctions of a Team"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-5-love-languages-the-secret-to-love-that-lasts",
     "title": "The 5 Love Languages: The Secret to Love that Lasts",
     "author": "Gary Chapman",
@@ -27496,6 +27751,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-fearless-organization-creating-psychological-safety-in-t",
+    "title": "The Fearless Organization: Creating Psychological Safety in the Workplace",
+    "author": "Amy C. Edmondson",
+    "category": "Leadership & Career",
+    "subcategory": "Team Leadership",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Fear does not motivate excellence; it merely forces bad news underground until catastrophic damage is inevitable. Psychological safety is not about comfort\\u2014it is the tactical prerequisite for rapid risk detection and high-speed execution under uncertainty.",
+      "coreThesis": "In knowledge-intensive work, the greatest business risk is unvoiced truth. Psychological safety is the tactical climate where candor carries no personal penalty, enabling immediate error detection and collective execution.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Fearless Organization: Creating Psychological Safety in the Workplace"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
@@ -34769,6 +35059,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "trillion-dollar-coach-the-leadership-playbook-of-silicon-val",
+    "title": "Trillion Dollar Coach: The Leadership Playbook of Silicon Valley's Bill Campbell",
+    "author": "Eric Schmidt, Jonathan Rosenberg, Alan Eagle",
+    "category": "Leadership & Career",
+    "subcategory": "Team Leadership",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Behind the historic trillion-dollar market valuations of Apple, Google, and Intuit stood a single former college football coach: Bill Campbell. This playbook uncovers the battle-tested blueprint of the executive mentor who proved operational excellence and fierce human connection are the true engines of tech dominance.",
+      "coreThesis": "To build an enduring, high-growth enterprise, you must coach the team before you solve the problem\\u2014because managerial authority comes from empowering people to execute together with radical trust and relentless discipline.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Trillion Dollar Coach: The Leadership Playbook of Silicon Valley's Bill Campbell"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "true-love-a-practice-for-awakening-the-heart",
     "title": "True Love: A Practice for Awakening the Heart",
     "author": "Thich Nhat Hanh",
@@ -34834,6 +35159,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "turn-the-ship-around-a-true-story-of-turning-followers-into-",
+    "title": "Turn the Ship Around! A True Story of Turning Followers into Leaders",
+    "author": "L. David Marquet",
+    "category": "Leadership & Career",
+    "subcategory": "Team Leadership",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 145,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Beneath crushing ocean depths aboard a failing nuclear submarine, one captain surrendered absolute control to liberate human genius. By transforming passive order-takers into self-directed leaders, he turned the worst crew in the fleet into its crowning triumph.",
+      "coreThesis": "True leadership does not create loyal followers; it emancipates latent leaders by distributing control to where the information actually lives, anchored by technical competence and organizational clarity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Turn the Ship Around! A True Story of Turning Followers into Leaders"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
