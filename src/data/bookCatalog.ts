@@ -69,6 +69,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "awareness-alone-is-not-enough": "./books/awarenessAloneIsNotEnoughExpanded.ts",
   "banter-master-small-talk-sexy-banter-and-flirting": "./books/banterMasterSmallTalkSexyBanterAndFlirtingExpanded.ts",
   "bargaining-for-advantage-negotiation-strategies-for-reasonab": "./books/bargainingForAdvantageNegotiationStrategiesForReasonabExpanded.ts",
+  "be-here-now": "./books/beHereNowExpanded.ts",
   "be-prepared-how-to-think-on-your-feet-and-stand-up-to-bullie": "./books/bePreparedHowToThinkOnYourFeetAndStandUpToBullieExpanded.ts",
   "be-the-go-to-how-to-own-your-competitive-market": "./books/beTheGoToHowToOwnYourCompetitiveMarketExpanded.ts",
   "becoming-a-supple-leopard": "./books/becomingASuppleLeopardExpanded.ts",
@@ -156,6 +157,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "crucial-conversations-tools-for-talking-when-stakes-are-high": "./books/crucialConversationsToolsForTalkingWhenStakesAreHighExpanded.ts",
   "cues-master-the-secret-language-of-charismatic-communication": "./books/cuesMasterTheSecretLanguageOfCharismaticCommunicationExpanded.ts",
   "curation-the-power-of-selection-in-a-world-of-excess": "./books/curationThePowerOfSelectionInAWorldOfExcessExpanded.ts",
+  "cutting-through-spiritual-materialism": "./books/cuttingThroughSpiritualMaterialismExpanded.ts",
   "dana-the-practice-of-giving": "./books/danaThePracticeOfGivingExpanded.ts",
   "dangerous-personalities": "./books/dangerousPersonalitiesExpanded.ts",
   "daring-greatly": "./books/daringGreatlyExpanded.ts",
@@ -671,6 +673,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "taming-the-mind-dhammapada-chapter-on-consciousness": "./books/tamingTheMindDhammapadaChapterOnConsciousnessExpanded.ts",
   "taming-the-mind-discourses-on-mind-training": "./books/tamingTheMindDiscoursesOnMindTrainingExpanded.ts",
   "taming-the-tiger-within-meditations-on-difficult-emotions": "./books/tamingTheTigerWithinMeditationsOnDifficultEmotionsExpanded.ts",
+  "tao-te-ching": "./books/taoTeChingExpanded.ts",
   "teaching-and-training-at-pa-auk-monastery": "./books/teachingAndTrainingAtPaAukMonasteryExpanded.ts",
   "teachings-of-a-buddhist-monk": "./books/teachingsOfABuddhistMonkExpanded.ts",
   "teachings-on-love": "./books/teachingsOnLoveExpanded.ts",
@@ -730,6 +733,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-bogleheads-guide-to-investing": "./books/theBogleheadsGuideToInvestingExpanded.ts",
   "the-book-of-boundaries": "./books/theBookOfBoundariesExpanded.ts",
   "the-book-of-joy-lasting-happiness-in-a-changing-world": "./books/theBookOfJoyLastingHappinessInAChangingWorldExpanded.ts",
+  "the-book-of-tea": "./books/theBookOfTeaExpanded.ts",
   "the-book-of-the-discipline-vinaya-pitaka": "./books/theBookOfTheDisciplineVinayaPitakaExpanded.ts",
   "the-brain-that-changes-itself": "./books/theBrainThatChangesItselfExpanded.ts",
   "the-brand-called-you": "./books/theBrandCalledYouExpanded.ts",
@@ -854,6 +858,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-humorous-approach": "./books/theHumorousApproachExpanded.ts",
   "the-image-a-guide-to-pseudo-events-in-america": "./books/theImageAGuideToPseudoEventsInAmericaExpanded.ts",
   "the-information-diet": "./books/theInformationDietExpanded.ts",
+  "the-inner-citadel-the-meditations-of-marcus-aurelius": "./books/theInnerCitadelTheMeditationsOfMarcusAureliusExpanded.ts",
   "the-intelligent-investor": "./books/theIntelligentInvestorExpanded.ts",
   "the-invisible-gorilla-how-our-intuitions-deceive-us": "./books/theInvisibleGorillaHowOurIntuitionsDeceiveUsExpanded.ts",
   "the-island-an-anthology-of-the-buddha-s-teachings-on-nibbana": "./books/theIslandAnAnthologyOfTheBuddhaSTeachingsOnNibbanaExpanded.ts",
@@ -884,6 +889,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-mind-that-knows": "./books/theMindThatKnowsExpanded.ts",
   "the-mindful-way-commentary-on-the-dhammapada": "./books/theMindfulWayCommentaryOnTheDhammapadaExpanded.ts",
   "the-miracle-of-mindfulness-an-introduction-to-meditation": "./books/theMiracleOfMindfulnessAnIntroductionToMeditationExpanded.ts",
+  "the-miracle-of-mindfulness": "./books/theMiracleOfMindfulnessExpanded.ts",
   "the-model-thinker": "./books/theModelThinkerExpanded.ts",
   "the-moral-animal": "./books/theMoralAnimalExpanded.ts",
   "the-narcissist-you-know": "./books/theNarcissistYouKnowExpanded.ts",
@@ -992,6 +998,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-war-of-art-break-through-the-blocks-and-win-your-inner-c": "./books/theWarOfArtBreakThroughTheBlocksAndWinYourInnerCExpanded.ts",
   "the-war-of-art": "./books/theWarOfArtExpanded.ts",
   "the-way-of-mindfulness-satipatthana-sutta-commentary": "./books/theWayOfMindfulnessSatipatthanaSuttaCommentaryExpanded.ts",
+  "the-way-of-zen": "./books/theWayOfZenExpanded.ts",
   "the-way-out-a-mindbody-approach-to-healing-chronic-pain": "./books/theWayOutAMindbodyApproachToHealingChronicPainExpanded.ts",
   "the-way-to-nibbana": "./books/theWayToNibbanaExpanded.ts",
   "the-way-to-the-guru-meditative-guidance": "./books/theWayToTheGuruMeditativeGuidanceExpanded.ts",
@@ -1119,10 +1126,13 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "your-money-or-your-life": "./books/yourMoneyOrYourLifeExpanded.ts",
   "your-perfect-right-assertiveness-and-equality-in-your-life-a": "./books/yourPerfectRightAssertivenessAndEqualityInYourLifeAExpanded.ts",
   "your-true-home-the-everyday-wisdom-of-thich-nhat-hanh": "./books/yourTrueHomeTheEverydayWisdomOfThichNhatHanhExpanded.ts",
+  "zen-flesh-zen-bones": "./books/zenFleshZenBonesExpanded.ts",
   "zen-in-the-art-of-archery": "./books/zenInTheArtOfArcheryExpanded.ts",
   "zen-keys-a-guide-to-zen-practice": "./books/zenKeysAGuideToZenPracticeExpanded.ts",
+  "zen-mind-beginner-s-mind": "./books/zenMindBeginnerSMindExpanded.ts",
   "zero-debt-the-ultimate-guide-to-financial-freedom": "./books/zeroDebtTheUltimateGuideToFinancialFreedomExpanded.ts",
-  "zero-to-one-notes-on-startups-or-how-to-build-the-future": "./books/zeroToOneNotesOnStartupsOrHowToBuildTheFutureExpanded.ts"
+  "zero-to-one-notes-on-startups-or-how-to-build-the-future": "./books/zeroToOneNotesOnStartupsOrHowToBuildTheFutureExpanded.ts",
+  "zhuangzi-chuang-tzu-basic-writings": "./books/zhuangziChuangTzuBasicWritingsExpanded.ts"
 };
 
 export const SEED_BOARDS: StashBoard[] = [
@@ -3518,6 +3528,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Bargaining for Advantage: Negotiation Strategies for Reasonable People"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "be-here-now",
+    "title": "Be Here Now",
+    "author": "Ram Dass",
+    "category": "Philosophy",
+    "subcategory": "Eastern Philosophy",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1971,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your endless mental chatter about yesterday's regrets and tomorrow's worries is keeping you trapped outside your own life. Be Here Now is an unvarnished blueprint for dropping your mental luggage and living with total clarity in the only moment that actually exists.",
+      "coreThesis": "You are not your thoughts, emotions, or social resume; you are the silent witness observing them. When you release grasping for the future and resistance to the past, the present moment becomes an infinite reservoir of freedom and peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Be Here Now"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -6567,6 +6612,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "cutting-through-spiritual-materialism",
+    "title": "Cutting Through Spiritual Materialism",
+    "author": "Ch\\u00f6gyam Trungpa",
+    "category": "Philosophy",
+    "subcategory": "Eastern Philosophy",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 1973,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "The greatest obstacle to genuine self-mastery is using spiritual practices to polish and protect the very ego we seek to transcend. This timeless masterpiece cuts through our self-deception, guiding us toward unvarnished clarity, quiet humility, and grounded peace.",
+      "coreThesis": "Enlightenment is not the accumulation of spiritual achievements, but the total surrender of the ego's urge to collect, control, and protect itself.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Cutting Through Spiritual Materialism"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
       "Strategy",
       "Mental Models"
     ]
@@ -24574,6 +24654,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "tao-te-ching",
+    "title": "Tao Te Ching",
+    "author": "Lao Tzu",
+    "category": "Philosophy",
+    "subcategory": "Eastern Philosophy",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 405,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop fighting the current of reality. By abandoning frantic control and moving with the natural grain of life, you gain effortless leverage, unshakeable poise, and quiet mastery.",
+      "coreThesis": "Alignment beats enforcement: by abandoning ego and cooperating with the natural flow of reality rather than forcing it, you achieve maximum effect with minimal friction.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Tao Te Ching"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "teaching-and-training-at-pa-auk-monastery",
     "title": "Teaching and Training at Pa-Auk Monastery",
     "author": "Pa-Auk Sayadaw",
@@ -26633,6 +26748,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-book-of-tea",
+    "title": "The Book of Tea",
+    "author": "Kakuzo Okakura",
+    "category": "Philosophy",
+    "subcategory": "Eastern Philosophy",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1906,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Greatness is not found in grand conquests, but in reverencing the small, everyday moments of existence. 'The Book of Tea' unveils Teaism as a timeless art of living\\u2014showing how a humble cup of tea can anchor an unshakeable inner peace amidst a loud and demanding world.",
+      "coreThesis": "True nobility and peace lie in reverencing the simple and imperfect, cultivating inner spaciousness to appreciate life as it unfolds.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Book of Tea"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
       "Strategy",
       "Mental Models"
     ]
@@ -30973,6 +31123,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-inner-citadel-the-meditations-of-marcus-aurelius",
+    "title": "The Inner Citadel: The Meditations of Marcus Aurelius",
+    "author": "Pierre Hadot",
+    "category": "Philosophy",
+    "subcategory": "Stoicism & Ancient Wisdom",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1998,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Pierre Hadot decodes Marcus Aurelius's private notebook to reveal the operating system of ancient Stoicism: a sanctuary within the mind that remains unshakeable amidst the storms of life.",
+      "coreThesis": "External events possess no intrinsic power to harm the soul; peace is won by retiring into the unassailable fortress of the mind through objective judgment, acceptance of nature, and selfless action.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Inner Citadel: The Meditations of Marcus Aurelius"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-intelligent-investor",
     "title": "The Intelligent Investor",
     "author": "Benjamin Graham",
@@ -32017,6 +32202,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-miracle-of-mindfulness",
+    "title": "The Miracle of Mindfulness",
+    "author": "Thich Nhat Hanh",
+    "category": "Philosophy",
+    "subcategory": "Eastern Philosophy",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1975,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Life slips away when we treat today as a mere waiting room for tomorrow. Thich Nhat Hanh reveals how anchoring attention in your breath and hands turns ordinary daily labor into profound inner peace.",
+      "coreThesis": "The present moment is the only home you will ever inhabit; living with full attention transforms routine daily action into an enduring sanctuary of peace.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Miracle of Mindfulness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
       "Strategy",
       "Mental Models"
     ]
@@ -35792,6 +36012,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-way-of-zen",
+    "title": "The Way of Zen",
+    "author": "Alan Watts",
+    "category": "Philosophy",
+    "subcategory": "Eastern Philosophy",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1957,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop trying to grasp the flowing river of life with rigid conceptual fists. Zen shows that genuine mastery and peace arrive when you step out of your own way and act from quiet, spontaneous presence.",
+      "coreThesis": "Reality is a seamless, ever-shifting flow that cannot be trapped in rigid concepts; true clarity begins when you release the illusion of the separate ego and trust your immediate, unforced awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Way of Zen"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
       "Strategy",
       "Mental Models"
     ]
@@ -40237,6 +40492,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "zen-flesh-zen-bones",
+    "title": "Zen Flesh, Zen Bones",
+    "author": "Paul Reps & Nyogen Senzaki",
+    "category": "Philosophy",
+    "subcategory": "Eastern Philosophy",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1957,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Before Zen was wrapped in academic theory, it was a sharp spark struck against the stone of ordinary daily life. This timeless anthology strips away dogma to show that freedom is found not by accumulating ideas, but by emptying your cup right where you stand.",
+      "coreThesis": "Enlightenment is not the accumulation of spiritual knowledge, but the immediate, unforced awareness that emerges when you empty your mind of pretension and meet the present moment as it is.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Zen Flesh, Zen Bones"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "zen-in-the-art-of-archery",
     "title": "Zen in the Art of Archery",
     "author": "Eugen Herrigel",
@@ -40307,6 +40597,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "zen-mind-beginner-s-mind",
+    "title": "Zen Mind, Beginner's Mind",
+    "author": "Shunryu Suzuki",
+    "category": "Philosophy",
+    "subcategory": "Eastern Philosophy",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 190,
+    "publishedYear": 1970,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "In the beginner's mind there are many possibilities, but in the expert's mind there are few. This quiet masterpiece strips away mysticism to reveal meditation not as a technique to attain something, but as the art of living fully right now.",
+      "coreThesis": "Wisdom is not about accumulating expert knowledge or chasing peak experiences, but about maintaining an open, uncluttered mind that meets every ordinary moment with total presence.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Zen Mind, Beginner's Mind"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "zero-debt-the-ultimate-guide-to-financial-freedom",
     "title": "Zero-Debt: The Ultimate Guide to Financial Freedom",
     "author": "Lynnette Khalfani-Cox",
@@ -40372,6 +40697,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "zhuangzi-chuang-tzu-basic-writings",
+    "title": "Zhuangzi (Chuang Tzu: Basic Writings)",
+    "author": "Burton Watson trans.",
+    "category": "Philosophy",
+    "subcategory": "Eastern Philosophy",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 1964,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step out of the grinding rat race of rigid judgments, frantic striving, and social posturing to discover a calm, effortless way of moving through existence. Burton Watson's celebrated translation opens a doorway to inner equanimity by aligning your everyday actions with the natural flow of life.",
+      "coreThesis": "True freedom and vitality emerge when we abandon rigid judgments and ego-driven striving, moving instead through life with effortless, adaptive responsiveness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Zhuangzi (Chuang Tzu: Basic Writings)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Philosophy",
       "Strategy",
       "Mental Models"
     ]

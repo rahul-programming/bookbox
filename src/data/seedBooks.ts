@@ -1122,6 +1122,16 @@ import { HOW_TO_THINK_LIKE_A_ROMAN_EMPEROR_THE_STOIC_PHILOSOPHY_OF_MA_BOOK } fro
 import { THE_PRACTICING_STOIC_A_PHILOSOPHICAL_USER_S_MANUAL_BOOK } from './books/thePracticingStoicAPhilosophicalUserSManualExpanded';
 import { ON_THE_SHORTNESS_OF_LIFE_BOOK } from './books/onTheShortnessOfLifeExpanded';
 import { STOICISM_AND_THE_ART_OF_HAPPINESS_BOOK } from './books/stoicismAndTheArtOfHappinessExpanded';
+import { THE_INNER_CITADEL_THE_MEDITATIONS_OF_MARCUS_AURELIUS_BOOK } from './books/theInnerCitadelTheMeditationsOfMarcusAureliusExpanded';
+import { TAO_TE_CHING_BOOK } from './books/taoTeChingExpanded';
+import { ZEN_MIND_BEGINNER_S_MIND_BOOK } from './books/zenMindBeginnerSMindExpanded';
+import { THE_WAY_OF_ZEN_BOOK } from './books/theWayOfZenExpanded';
+import { ZHUANGZI_CHUANG_TZU_BASIC_WRITINGS_BOOK } from './books/zhuangziChuangTzuBasicWritingsExpanded';
+import { THE_BOOK_OF_TEA_BOOK } from './books/theBookOfTeaExpanded';
+import { CUTTING_THROUGH_SPIRITUAL_MATERIALISM_BOOK } from './books/cuttingThroughSpiritualMaterialismExpanded';
+import { ZEN_FLESH_ZEN_BONES_BOOK } from './books/zenFleshZenBonesExpanded';
+import { THE_MIRACLE_OF_MINDFULNESS_BOOK } from './books/theMiracleOfMindfulnessExpanded';
+import { BE_HERE_NOW_BOOK } from './books/beHereNowExpanded';
 export const SEED_BOOKS: Book[] = [
   ALGORITHMS_TO_LIVE_BY_BOOK,
   ATOMIC_HABITS_BOOK,
@@ -2244,7 +2254,17 @@ export const SEED_BOOKS: Book[] = [
   HOW_TO_THINK_LIKE_A_ROMAN_EMPEROR_THE_STOIC_PHILOSOPHY_OF_MA_BOOK,
   THE_PRACTICING_STOIC_A_PHILOSOPHICAL_USER_S_MANUAL_BOOK,
   ON_THE_SHORTNESS_OF_LIFE_BOOK,
-  STOICISM_AND_THE_ART_OF_HAPPINESS_BOOK
+  STOICISM_AND_THE_ART_OF_HAPPINESS_BOOK,
+  THE_INNER_CITADEL_THE_MEDITATIONS_OF_MARCUS_AURELIUS_BOOK,
+  TAO_TE_CHING_BOOK,
+  ZEN_MIND_BEGINNER_S_MIND_BOOK,
+  THE_WAY_OF_ZEN_BOOK,
+  ZHUANGZI_CHUANG_TZU_BASIC_WRITINGS_BOOK,
+  THE_BOOK_OF_TEA_BOOK,
+  CUTTING_THROUGH_SPIRITUAL_MATERIALISM_BOOK,
+  ZEN_FLESH_ZEN_BONES_BOOK,
+  THE_MIRACLE_OF_MINDFULNESS_BOOK,
+  BE_HERE_NOW_BOOK
 ];
 
 export const SEED_IDEAS: IdeaCard[] = [
@@ -3369,7 +3389,17 @@ export const SEED_IDEAS: IdeaCard[] = [
   ...(HOW_TO_THINK_LIKE_A_ROMAN_EMPEROR_THE_STOIC_PHILOSOPHY_OF_MA_BOOK.ideaCards || []),
   ...(THE_PRACTICING_STOIC_A_PHILOSOPHICAL_USER_S_MANUAL_BOOK.ideaCards || []),
   ...(ON_THE_SHORTNESS_OF_LIFE_BOOK.ideaCards || []),
-  ...(STOICISM_AND_THE_ART_OF_HAPPINESS_BOOK.ideaCards || [])
+  ...(STOICISM_AND_THE_ART_OF_HAPPINESS_BOOK.ideaCards || []),
+  ...(THE_INNER_CITADEL_THE_MEDITATIONS_OF_MARCUS_AURELIUS_BOOK.ideaCards || []),
+  ...(TAO_TE_CHING_BOOK.ideaCards || []),
+  ...(ZEN_MIND_BEGINNER_S_MIND_BOOK.ideaCards || []),
+  ...(THE_WAY_OF_ZEN_BOOK.ideaCards || []),
+  ...(ZHUANGZI_CHUANG_TZU_BASIC_WRITINGS_BOOK.ideaCards || []),
+  ...(THE_BOOK_OF_TEA_BOOK.ideaCards || []),
+  ...(CUTTING_THROUGH_SPIRITUAL_MATERIALISM_BOOK.ideaCards || []),
+  ...(ZEN_FLESH_ZEN_BONES_BOOK.ideaCards || []),
+  ...(THE_MIRACLE_OF_MINDFULNESS_BOOK.ideaCards || []),
+  ...(BE_HERE_NOW_BOOK.ideaCards || [])
 ];
 
 export const SEED_BOARDS: StashBoard[] = [
