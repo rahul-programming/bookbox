@@ -21,6 +21,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "a-million-miles-in-a-thousand-years": "./books/aMillionMilesInAThousandYearsExpanded.ts",
   "a-mind-for-numbers": "./books/aMindForNumbersExpanded.ts",
   "a-pali-grammar-for-beginners": "./books/aPaliGrammarForBeginnersExpanded.ts",
+  "a-path-with-heart-a-guide-through-the-perils-and-promises-of": "./books/aPathWithHeartAGuideThroughThePerilsAndPromisesOfExpanded.ts",
   "a-policy-of-kindness-anthology-of-writings": "./books/aPolicyOfKindnessAnthologyOfWritingsExpanded.ts",
   "a-practical-guide-to-vipassana-meditation": "./books/aPracticalGuideToVipassanaMeditationExpanded.ts",
   "a-random-walk-down-wall-street": "./books/aRandomWalkDownWallStreetExpanded.ts",
@@ -273,6 +274,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "freeing-the-natural-voice": "./books/freeingTheNaturalVoiceExpanded.ts",
   "friend-of-a-friend-understanding-the-hidden-networks-that-ca": "./books/friendOfAFriendUnderstandingTheHiddenNetworksThatCaExpanded.ts",
   "from-heart-to-heart-selected-dhamma-talks": "./books/fromHeartToHeartSelectedDhammaTalksExpanded.ts",
+  "full-catastrophe-living": "./books/fullCatastropheLivingExpanded.ts",
   "fundamentals-of-buddhism": "./books/fundamentalsOfBuddhismExpanded.ts",
   "fundamentals-of-buddhism-four-lectures": "./books/fundamentalsOfBuddhismFourLecturesExpanded.ts",
   "fundamentals-of-vipassana-meditation": "./books/fundamentalsOfVipassanaMeditationExpanded.ts",
@@ -349,6 +351,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "inner-strength-sixteen-aspects-of-the-dhamma": "./books/innerStrengthSixteenAspectsOfTheDhammaExpanded.ts",
   "inner-work-using-dreams-and-active-imagination-for-personal-": "./books/innerWorkUsingDreamsAndActiveImaginationForPersonalExpanded.ts",
   "insight-meditation-the-path-to-peace": "./books/insightMeditationThePathToPeaceExpanded.ts",
+  "insight-meditation-the-practice-of-freedom": "./books/insightMeditationThePracticeOfFreedomExpanded.ts",
   "insight-meditation-workshop-manual": "./books/insightMeditationWorkshopManualExpanded.ts",
   "institutes-of-oratory": "./books/institutesOfOratoryExpanded.ts",
   "interbeing-fourteen-precepts-of-engaged-buddhism": "./books/interbeingFourteenPreceptsOfEngagedBuddhismExpanded.ts",
@@ -406,6 +409,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "louder-than-words-take-your-career-from-average-to-exception": "./books/louderThanWordsTakeYourCareerFromAverageToExceptionExpanded.ts",
   "love-sense-the-revolutionary-new-science-of-romantic-relatio": "./books/loveSenseTheRevolutionaryNewScienceOfRomanticRelatioExpanded.ts",
   "loving-kindness-in-plain-english": "./books/lovingKindnessInPlainEnglishExpanded.ts",
+  "lovingkindness-the-revolutionary-art-of-happiness": "./books/lovingkindnessTheRevolutionaryArtOfHappinessExpanded.ts",
   "maha-kassapa-father-of-the-sangha": "./books/mahaKassapaFatherOfTheSanghaExpanded.ts",
   "maha-moggallana-master-of-psychic-power": "./books/mahaMoggallanaMasterOfPsychicPowerExpanded.ts",
   "make-it-stick-the-science-of-successful-learning": "./books/makeItStickTheScienceOfSuccessfulLearningExpanded.ts",
@@ -460,6 +464,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "mindfulness-a-practical-guide-to-awakening-vol-4-dhammas": "./books/mindfulnessAPracticalGuideToAwakeningVol4DhammasExpanded.ts",
   "mindfulness-bliss-and-beyond-a-meditator-s-handbook": "./books/mindfulnessBlissAndBeyondAMeditatorSHandbookExpanded.ts",
   "mindfulness-for-health-and-vitality": "./books/mindfulnessForHealthAndVitalityExpanded.ts",
+  "mindfulness-in-plain-english": "./books/mindfulnessInPlainEnglishExpanded.ts",
   "mindfulness-of-breathing-a-practice-guide-and-translations": "./books/mindfulnessOfBreathingAPracticeGuideAndTranslationsExpanded.ts",
   "mindfulness-of-breathing-buddhist-texts-commentaries": "./books/mindfulnessOfBreathingBuddhistTextsCommentariesExpanded.ts",
   "mindfulness-of-breathing-four-elements-meditation": "./books/mindfulnessOfBreathingFourElementsMeditationExpanded.ts",
@@ -561,6 +566,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "range-why-generalists-triumph-in-a-specialized-world": "./books/rangeWhyGeneralistsTriumphInASpecializedWorldExpanded.ts",
   "rational-recovery": "./books/rationalRecoveryExpanded.ts",
   "reading-the-buddha-s-discourses-in-pali": "./books/readingTheBuddhaSDiscoursesInPaliExpanded.ts",
+  "real-happiness-the-power-of-meditation": "./books/realHappinessThePowerOfMeditationExpanded.ts",
   "realizing-the-profound-view": "./books/realizingTheProfoundViewExpanded.ts",
   "realizing-the-truth-through-sensations": "./books/realizingTheTruthThroughSensationsExpanded.ts",
   "rebirth-as-doctrine-and-experience-essays-and-case-studies": "./books/rebirthAsDoctrineAndExperienceEssaysAndCaseStudiesExpanded.ts",
@@ -602,6 +608,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "seeing-systems-unlocking-the-mysteries-of-organizational-lif": "./books/seeingSystemsUnlockingTheMysteriesOfOrganizationalLifExpanded.ts",
   "seeing-that-frees-meditations-on-emptiness": "./books/seeingThatFreesMeditationsOnEmptinessExpanded.ts",
   "seeking-buddho-teachings-on-meditation": "./books/seekingBuddhoTeachingsOnMeditationExpanded.ts",
+  "seeking-the-heart-of-wisdom": "./books/seekingTheHeartOfWisdomExpanded.ts",
   "self-compassion-the-proven-power-of-being-kind-to-yourself": "./books/selfCompassionTheProvenPowerOfBeingKindToYourselfExpanded.ts",
   "selves-and-not-self-buddhist-epistemology": "./books/selvesAndNotSelfBuddhistEpistemologyExpanded.ts",
   "set-boundaries-find-peace-a-guide-to-reclaiming-yourself": "./books/setBoundariesFindPeaceAGuideToReclaimingYourselfExpanded.ts",
@@ -863,6 +870,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-great-discourse-on-the-lion-s-roar-maha-sihanada-sutta": "./books/theGreatDiscourseOnTheLionSRoarMahaSihanadaSuttaExpanded.ts",
   "the-great-mental-models-vol-1-2": "./books/theGreatMentalModelsVol12Expanded.ts",
   "the-greater-discourse-on-voidness-maha-sunnata-sutta": "./books/theGreaterDiscourseOnVoidnessMahaSunnataSuttaExpanded.ts",
+  "the-heart-of-buddhist-meditation": "./books/theHeartOfBuddhistMeditationExpanded.ts",
   "the-heart-of-compassion-a-practical-approach": "./books/theHeartOfCompassionAPracticalApproachExpanded.ts",
   "the-heart-of-practice-ajaan-mun-s-dhamma-sermons": "./books/theHeartOfPracticeAjaanMunSDhammaSermonsExpanded.ts",
   "the-heart-of-the-buddha-s-teaching": "./books/theHeartOfTheBuddhaSTeachingExpanded.ts",
@@ -900,6 +908,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-millionaire-fastlane": "./books/theMillionaireFastlaneExpanded.ts",
   "the-millionaire-next-door-the-surprising-secrets-of-america-": "./books/theMillionaireNextDoorTheSurprisingSecretsOfAmericaExpanded.ts",
   "the-mind-and-the-way-buddhist-reflections-on-life": "./books/theMindAndTheWayBuddhistReflectionsOnLifeExpanded.ts",
+  "the-mind-illuminated-a-complete-meditation-guide-integrating": "./books/theMindIlluminatedACompleteMeditationGuideIntegratingExpanded.ts",
   "the-mind-that-knows": "./books/theMindThatKnowsExpanded.ts",
   "the-mindful-way-commentary-on-the-dhammapada": "./books/theMindfulWayCommentaryOnTheDhammapadaExpanded.ts",
   "the-miracle-of-mindfulness-an-introduction-to-meditation": "./books/theMiracleOfMindfulnessAnIntroductionToMeditationExpanded.ts",
@@ -1105,6 +1114,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "when-the-scientific-secrets-of-perfect-timing": "./books/whenTheScientificSecretsOfPerfectTimingExpanded.ts",
   "where-good-ideas-come-from-the-natural-history-of-innovation": "./books/whereGoodIdeasComeFromTheNaturalHistoryOfInnovationExpanded.ts",
   "where-to-draw-the-line-how-to-set-healthy-boundaries-every-d": "./books/whereToDrawTheLineHowToSetHealthyBoundariesEveryDExpanded.ts",
+  "wherever-you-go-there-you-are-mindfulness-meditation-in-ever": "./books/whereverYouGoThereYouAreMindfulnessMeditationInEverExpanded.ts",
   "who-gets-what-and-why": "./books/whoGetsWhatAndWhyExpanded.ts",
   "who-is-my-self-a-guide-to-buddhist-meditation": "./books/whoIsMySelfAGuideToBuddhistMeditationExpanded.ts",
   "who-moved-my-cheese": "./books/whoMovedMyCheeseExpanded.ts",
@@ -1871,6 +1881,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "A Pali Grammar for Beginners"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "a-path-with-heart-a-guide-through-the-perils-and-promises-of",
+    "title": "A Path with Heart: A Guide Through the Perils and Promises of Spiritual Life",
+    "author": "Jack Kornfield",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 115,
+    "publishedYear": 1993,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Spiritual practice is not an escape from reality, but an unflinching homecoming to the raw, tender reality of everyday life. Jack Kornfield offers a masterclass in grounding mystical wisdom into emotional maturity, compassionate relationships, and everyday sanity.",
+      "coreThesis": "Enlightenment is not a distant, heroic summit, but an immediate, intimate reconciliation with your own imperfect human heart.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "A Path with Heart: A Guide Through the Perils and Promises of Spiritual Life"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -10692,6 +10737,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "full-catastrophe-living",
+    "title": "Full Catastrophe Living",
+    "author": "Jon Kabat-Zinn",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 180,
+    "publishedYear": 1990,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You cannot stop the turbulent waves of illness, change, and adversity, but you can learn to surf them. By meeting everyday chaos with grounded moment-to-moment attention, you reclaim your innate wholeness and transform relentless stress into lasting peace.",
+      "coreThesis": "Wholeness is your birthright, not something you must assemble; by meeting the unavoidable turbulence of life with open, non-judgmental presence, pain loses its power to become suffering.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Full Catastrophe Living"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "fundamentals-of-buddhism",
     "title": "Fundamentals of Buddhism",
     "author": "Peter Della Santina",
@@ -13350,6 +13430,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "insight-meditation-the-practice-of-freedom",
+    "title": "Insight Meditation: The Practice of Freedom",
+    "author": "Joseph Goldstein",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1993,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Liberation is not an elusive altered state or an exotic prize\\u2014it is the innate freedom of awareness resting in reality exactly as it is right now. Joseph Goldstein demystifies insight meditation with grounded clarity, showing how every ordinary moment of daily life holds the open doorway to awakening.",
+      "coreThesis": "Suffering does not come from the changing conditions of life, but from our mind's habit of clinging and resisting; freedom is the direct, experiential discovery of peace when we meet every present experience with unclenched awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Insight Meditation: The Practice of Freedom"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "insight-meditation-workshop-manual",
     "title": "Insight Meditation Workshop Manual",
     "author": "Sayadaw U Thondara",
@@ -15344,6 +15459,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "lovingkindness-the-revolutionary-art-of-happiness",
+    "title": "Lovingkindness: The Revolutionary Art of Happiness",
+    "author": "Sharon Salzberg",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 1995,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Happiness is not a stroke of luck or a passive mood\\u2014it is an inner craft cultivated through deliberate warmth. Sharon Salzberg unveils lovingkindness as a practical training system that tears down the illusion of isolation and anchors your daily life in unshakable connection.",
+      "coreThesis": "Genuine love is not an elusive emotional state but an intentional, trainable mental quality that frees the heart from fear and division.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Lovingkindness: The Revolutionary Art of Happiness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "maha-kassapa-father-of-the-sangha",
     "title": "Maha Kassapa: Father of the Sangha",
     "author": "Hellmuth Hecker",
@@ -17220,6 +17370,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Mindfulness for Health and Vitality"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "mindfulness-in-plain-english",
+    "title": "Mindfulness in Plain English",
+    "author": "Bhante Henepola Gunaratana",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 1992,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mindfulness is not an exotic trance or an intellectual puzzle; it is the practical art of seeing your direct experience exactly as it is without reactive judgment. Bhante Gunaratana provides an unpretentious, hands-on field manual for training attention, calming emotional turbulence, and waking up to daily life.",
+      "coreThesis": "True peace comes not from manipulating external circumstances, but from training the mind to observe every passing physical and mental sensation with non-reactive, bare attention.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mindfulness in Plain English"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -20763,6 +20948,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "real-happiness-the-power-of-meditation",
+    "title": "Real Happiness: The Power of Meditation",
+    "author": "Sharon Salzberg",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Real happiness is not an elusive stroke of good luck; it is an internal muscle of steady attention, open-hearted awareness, and radical resilience cultivated breath by breath.",
+      "coreThesis": "Happiness is an inward capacity of clear attention and unconditional friendliness that deepens every single time you notice your mind has wandered and choose to gently start over.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Real Happiness: The Power of Meditation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "realizing-the-profound-view",
     "title": "Realizing the Profound View",
     "author": "Dalai Lama & Thubten Chodron",
@@ -22183,6 +22403,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Seeking Buddho: Teachings on Meditation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "seeking-the-heart-of-wisdom",
+    "title": "Seeking the Heart of Wisdom",
+    "author": "Joseph Goldstein & Jack Kornfield",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 1987,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop fighting the turbulent weather of your thoughts and discover the calm, radiant sky of your own clear awareness. This foundational guide unlocks the art of insight meditation to transform everyday stress and emotional reactivity into deep inner peace and open-hearted wisdom.",
+      "coreThesis": "Freedom is found not by trying to control the uncontrollable flow of life, but by resting in pure, non-judgmental awareness of things exactly as they are.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Seeking the Heart of Wisdom"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -31318,6 +31573,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-heart-of-buddhist-meditation",
+    "title": "The Heart of Buddhist Meditation",
+    "author": "Nyanaponika Thera",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1962,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Before you try to fix, polish, or control the mind, you must first learn to see it precisely as it is. Nyanaponika Thera presents the timeless heart of Satipatthana: bare attention and clear comprehension as the ultimate tools for psychological freedom.",
+      "coreThesis": "Liberation from suffering is achieved through bare attention and clear comprehension\\u2014observing reality cleanly without immediate reaction, then acting with grounded ethical clarity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Heart of Buddhist Meditation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-heart-of-compassion-a-practical-approach",
     "title": "The Heart of Compassion: A Practical Approach",
     "author": "Dalai Lama",
@@ -32600,6 +32890,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The Mind and the Way: Buddhist Reflections on Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-mind-illuminated-a-complete-meditation-guide-integrating",
+    "title": "The Mind Illuminated: A Complete Meditation Guide Integrating Buddhist Wisdom and Brain Science",
+    "author": "John Yates",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 90,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Meditation is not a mysterious guessing game; it is an exact, learnable craft of training attention and open awareness in perfect harmony. By blending classical Buddhist samatha-vipassana with modern neuroscience, this definitive roadmap demystifies every sitting stage from restless mind-wandering to effortless, radiant awakening.",
+      "coreThesis": "Awakening is an accessible, natural human capacity realized when focused attention and open awareness are systematically trained to unify the disparate sub-minds into crystalline tranquility and insight.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Mind Illuminated: A Complete Meditation Guide Integrating Buddhist Wisdom and Brain Science"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -39773,6 +40098,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "wherever-you-go-there-you-are-mindfulness-meditation-in-ever",
+    "title": "Wherever You Go, There You Are: Mindfulness Meditation in Everyday Life",
+    "author": "Jon Kabat-Zinn",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 335,
+    "publishedYear": 1994,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You cannot outrun your own mind by changing jobs, partners, or zip codes\\u2014because wherever you go, your internal weather follows. Jon Kabat-Zinn provides a grounded, crystal-clear field manual for stepping out of exhausting mental autopilot and inhabiting the only moment you will ever actually own: right here, right now.",
+      "coreThesis": "Peace does not come from escaping your circumstances, but from inhabiting your present experience with open, non-judgmental awareness. When you stop chasing the next moment, you discover that the current moment is already complete.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Wherever You Go, There You Are: Mindfulness Meditation in Everyday Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
