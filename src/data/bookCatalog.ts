@@ -119,6 +119,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "built-from-broken": "./books/builtFromBrokenExpanded.ts",
   "built-to-sell-creating-a-business-that-can-thrive-without-yo": "./books/builtToSellCreatingABusinessThatCanThriveWithoutYoExpanded.ts",
   "bullshit-jobs-on-bullshit": "./books/bullshitJobsOnBullshitExpanded.ts",
+  "can-t-hurt-me-master-your-mind-and-defy-the-odds": "./books/canTHurtMeMasterYourMindAndDefyTheOddsExpanded.ts",
   "captivate-the-science-of-succeeding-with-people": "./books/captivateTheScienceOfSucceedingWithPeopleExpanded.ts",
   "central-conception-of-buddhism-and-meaning-of-dharma": "./books/centralConceptionOfBuddhismAndMeaningOfDharmaExpanded.ts",
   "choose-fi-your-blueprint-to-financial-independence": "./books/chooseFiYourBlueprintToFinancialIndependenceExpanded.ts",
@@ -278,6 +279,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "good-to-great-why-some-companies-make-the-leap-and-others-do": "./books/goodToGreatWhySomeCompaniesMakeTheLeapAndOthersDoExpanded.ts",
   "great-at-work-how-top-performers-do-less-work-better-and-ach": "./books/greatAtWorkHowTopPerformersDoLessWorkBetterAndAchExpanded.ts",
   "great-disciples-of-the-buddha-their-lives-and-legacy": "./books/greatDisciplesOfTheBuddhaTheirLivesAndLegacyExpanded.ts",
+  "grit-the-power-of-passion-and-perseverance": "./books/gritThePowerOfPassionAndPerseveranceExpanded.ts",
   "guide-through-the-abhidhamma-pitaka": "./books/guideThroughTheAbhidhammaPitakaExpanded.ts",
   "happy-money-the-science-of-happier-spending": "./books/happyMoneyTheScienceOfHappierSpendingExpanded.ts",
   "hbr-guide-to-office-politics": "./books/hbrGuideToOfficePoliticsExpanded.ts",
@@ -457,6 +459,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "negotiation-genius": "./books/negotiationGeniusExpanded.ts",
   "networking-for-people-who-hate-networking": "./books/networkingForPeopleWhoHateNetworkingExpanded.ts",
   "never-eat-alone-and-other-secrets-to-success-one-relationshi": "./books/neverEatAloneAndOtherSecretsToSuccessOneRelationshiExpanded.ts",
+  "never-finished-unshackle-your-mind-and-win-the-war-within": "./books/neverFinishedUnshackleYourMindAndWinTheWarWithinExpanded.ts",
   "never-split-the-difference-negotiating-as-if-your-life-depen": "./books/neverSplitTheDifferenceNegotiatingAsIfYourLifeDepenExpanded.ts",
   "no-ajahn-chah-reflections-of-a-master": "./books/noAjahnChahReflectionsOfAMasterExpanded.ts",
   "no-bad-parts-healing-trauma-and-restoring-wholeness-with-the": "./books/noBadPartsHealingTraumaAndRestoringWholenessWithTheExpanded.ts",
@@ -578,6 +581,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "setting-in-motion-the-wheel-of-truth": "./books/settingInMotionTheWheelOfTruthExpanded.ts",
   "7-powers-the-foundations-of-business-strategy": "./books/sevenPowersExpanded.ts",
   "she-understanding-feminine-psychology": "./books/sheUnderstandingFemininePsychologyExpanded.ts",
+  "shop-class-as-soulcraft-an-inquiry-into-the-value-of-work": "./books/shopClassAsSoulcraftAnInquiryIntoTheValueOfWorkExpanded.ts",
   "show-your-work-10-ways-to-share-your-creativity-and-get-disc": "./books/showYourWork10WaysToShareYourCreativityAndGetDiscExpanded.ts",
   "show-your-work": "./books/showYourWorkExpanded.ts",
   "siblings-without-rivalry": "./books/siblingsWithoutRivalryExpanded.ts",
@@ -643,6 +647,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "survival-of-the-savvy-high-integrity-political-tactics-for-c": "./books/survivalOfTheSavvyHighIntegrityPoliticalTacticsForCExpanded.ts",
   "sync-how-order-emerges-from-chaos": "./books/syncHowOrderEmergesFromChaosExpanded.ts",
   "taking-the-work-out-of-networking": "./books/takingTheWorkOutOfNetworkingExpanded.ts",
+  "talent-is-overrated-what-really-separates-world-class-perfor": "./books/talentIsOverratedWhatReallySeparatesWorldClassPerforExpanded.ts",
   "talk-like-ted-the-9-public-speaking-secrets-of-the-world-s-t": "./books/talkLikeTedThe9PublicSpeakingSecretsOfTheWorldSTExpanded.ts",
   "taming-the-mind-dhammapada-chapter-on-consciousness": "./books/tamingTheMindDhammapadaChapterOnConsciousnessExpanded.ts",
   "taming-the-mind-discourses-on-mind-training": "./books/tamingTheMindDiscoursesOnMindTrainingExpanded.ts",
@@ -742,6 +747,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-covert-passive-aggressive-narcissist": "./books/theCovertPassiveAggressiveNarcissistExpanded.ts",
   "the-craft-of-scientific-presentations": "./books/theCraftOfScientificPresentationsExpanded.ts",
   "the-craft-of-the-heart": "./books/theCraftOfTheHeartExpanded.ts",
+  "the-craftsman": "./books/theCraftsmanExpanded.ts",
   "the-creative-act-a-way-of-being": "./books/theCreativeActAWayOfBeingExpanded.ts",
   "the-creative-habit-learn-it-and-use-it-for-life": "./books/theCreativeHabitLearnItAndUseItForLifeExpanded.ts",
   "the-crossroads-of-should-and-must": "./books/theCrossroadsOfShouldAndMustExpanded.ts",
@@ -837,6 +843,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-lean-startup-how-today-s-entrepreneurs-use-continuous-in": "./books/theLeanStartupHowTodaySEntrepreneursUseContinuousInExpanded.ts",
   "the-life-of-sariputta": "./books/theLifeOfSariputtaExpanded.ts",
   "the-little-book-of-common-sense-investing": "./books/theLittleBookOfCommonSenseInvestingExpanded.ts",
+  "the-little-book-of-talent": "./books/theLittleBookOfTalentExpanded.ts",
   "the-logic-of-scientific-discovery": "./books/theLogicOfScientificDiscoveryExpanded.ts",
   "the-long-discourses-of-the-buddha-digha-nikaya": "./books/theLongDiscoursesOfTheBuddhaDighaNikayaExpanded.ts",
   "the-look-the-secret-language-of-the-eyes": "./books/theLookTheSecretLanguageOfTheEyesExpanded.ts",
@@ -863,6 +870,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-now-habit": "./books/theNowHabitExpanded.ts",
   "the-numerical-discourses-of-the-buddha-anguttara-nikaya": "./books/theNumericalDiscoursesOfTheBuddhaAnguttaraNikayaExpanded.ts",
   "the-obesity-code": "./books/theObesityCodeExpanded.ts",
+  "the-obstacle-is-the-way-the-timeless-art-of-turning-trials-i": "./books/theObstacleIsTheWayTheTimelessArtOfTurningTrialsIExpanded.ts",
   "the-one-thing": "./books/theOneThingExpanded.ts",
   "the-other-shore-a-new-translation-of-the-heart-sutra": "./books/theOtherShoreANewTranslationOfTheHeartSutraExpanded.ts",
   "the-oxygen-advantage": "./books/theOxygenAdvantageExpanded.ts",
@@ -888,6 +896,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-practice-of-sila-morality-in-the-tipitaka": "./books/thePracticeOfSilaMoralityInTheTipitakaExpanded.ts",
   "the-practice-of-vipassana-meditation": "./books/thePracticeOfVipassanaMeditationExpanded.ts",
   "the-practice-which-leads-to-nibbana": "./books/thePracticeWhichLeadsToNibbanaExpanded.ts",
+  "the-practicing-mind-developing-focus-and-discipline-in-your-": "./books/thePracticingMindDevelopingFocusAndDisciplineInYourExpanded.ts",
   "the-prince": "./books/thePrinceExpanded.ts",
   "the-progress-of-insight": "./books/theProgressOfInsightExpanded.ts",
   "the-progress-of-insight-through-mental-noting": "./books/theProgressOfInsightThroughMentalNotingExpanded.ts",
@@ -938,6 +947,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-sutta-nipata-early-buddhist-poetry": "./books/theSuttaNipataEarlyBuddhistPoetryExpanded.ts",
   "the-suttanipata-an-ancient-collection-of-discourses": "./books/theSuttanipataAnAncientCollectionOfDiscoursesExpanded.ts",
   "the-systems-view-of-life": "./books/theSystemsViewOfLifeExpanded.ts",
+  "the-talent-code-greatness-isn-t-born-it-s-grown-here-s-how": "./books/theTalentCodeGreatnessIsnTBornItSGrownHereSHowExpanded.ts",
   "the-theory-of-the-leisure-class": "./books/theTheoryOfTheLeisureClassExpanded.ts",
   "the-thousandfold-verse-dhammapada-sahassa-vagga": "./books/theThousandfoldVerseDhammapadaSahassaVaggaExpanded.ts",
   "the-three-basic-facts-of-existence-impermanence-anicca": "./books/theThreeBasicFactsOfExistenceImpermanenceAniccaExpanded.ts",
@@ -5234,6 +5244,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "can-t-hurt-me-master-your-mind-and-defy-the-odds",
+    "title": "Can't Hurt Me: Master Your Mind and Defy the Odds",
+    "author": "David Goggins",
+    "category": "Personal Growth",
+    "subcategory": "Resilience & Mental Toughness",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your brain operates like an overprotective thermostat, falsely signaling total exhaustion when you are only running at roughly forty percent of capacity. By understanding the mind's hidden feedback loops, you can bypass your internal safety valves and engineer authentic mental antifragility.",
+      "coreThesis": "The human brain is an overly cautious survival governor that caps effort at forty percent to protect you from discomfort; true capacity is unlocked through intentional exposure to friction.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Can't Hurt Me: Master Your Mind and Defy the Odds"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Personal Growth",
       "Strategy",
       "Mental Models"
     ]
@@ -10792,6 +10837,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "grit-the-power-of-passion-and-perseverance",
+    "title": "Grit: The Power of Passion and Perseverance",
+    "author": "Angela Duckworth",
+    "category": "Personal Growth",
+    "subcategory": "Resilience & Mental Toughness",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Raw talent is merely cheap potential; sustained, targeted effort is the ultimate competitive moat. In high-uncertainty arenas, the prize goes not to the fastest starter, but to the operator who refuses to leave the field.",
+      "coreThesis": "Achievement is not determined by raw genetic endowment, but by the compounding multiplier of sustained effort directed toward a single, long-term strategic objective.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Grit: The Power of Passion and Perseverance"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Personal Growth",
       "Strategy",
       "Mental Models"
     ]
@@ -17056,6 +17136,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "never-finished-unshackle-your-mind-and-win-the-war-within",
+    "title": "Never Finished: Unshackle Your Mind and Win the War Within",
+    "author": "David Goggins",
+    "category": "Personal Growth",
+    "subcategory": "Resilience & Mental Toughness",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2022,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Human performance breaks down not because our physical hardware hits a true mechanical wall, but because internal warning signals pull the emergency brake far too early. By treating the mind like a biological testing laboratory, you can recalibrate those protective governor switches and discover that your true capacity lies miles beyond where comfort ends.",
+      "coreThesis": "Human capacity is governed by self-protective psychological switches rather than hard biological walls; by systematically auditing and desensitizing those internal alarms, mental growth becomes an infinite, lifelong process.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Never Finished: Unshackle Your Mind and Win the War Within"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Personal Growth",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "never-split-the-difference-negotiating-as-if-your-life-depen",
     "title": "Never Split the Difference: Negotiating As If Your Life Depended On It",
     "author": "Chris Voss with Tahl Raz",
@@ -21284,6 +21399,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "shop-class-as-soulcraft-an-inquiry-into-the-value-of-work",
+    "title": "Shop Class as Soulcraft: An Inquiry into the Value of Work",
+    "author": "Matthew B. Crawford",
+    "category": "Creativity & Expression",
+    "subcategory": "Craftsmanship & Mastery",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2009,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When you fix an engine, bake sourdough from scratch, or prune an orchard, physical reality provides immediate, objective truth that corporate office politics can never fake. This book reveals the hidden science of craftsmanship: how working with your hands sharpens your mind, cures mental fatigue, and restores genuine agency.",
+      "coreThesis": "True intellectual mastery occurs when thought and physical action unite against the unyielding feedback of material reality, making skilled manual craft far more mentally demanding and personally liberating than abstract corporate work.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Shop Class as Soulcraft: An Inquiry into the Value of Work"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "show-your-work-10-ways-to-share-your-creativity-and-get-disc",
     "title": "Show Your Work! 10 Ways to Share Your Creativity and Get Discovered",
     "author": "Austin Kleon",
@@ -23549,6 +23699,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "talent-is-overrated-what-really-separates-world-class-perfor",
+    "title": "Talent Is Overrated: What Really Separates World-Class Performers",
+    "author": "Geoff Colvin",
+    "category": "Creativity & Expression",
+    "subcategory": "Craftsmanship & Mastery",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Greatness is not a lottery ticket stamped at birth\\u2014it is an engineered outcome. Decades of cognitive science reveal that world-class capability comes down to a specific, high-feedback regimen called deliberate practice.",
+      "coreThesis": "Elite performance is neither the result of innate genetic gifts nor mere accumulation of routine experience; it is produced by thousands of hours of deliberate practice designed to stretch existing capabilities through continuous, immediate feedback.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Talent Is Overrated: What Really Separates World-Class Performers"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -27016,6 +27201,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-craftsman",
+    "title": "The Craftsman",
+    "author": "Richard Sennett",
+    "category": "Creativity & Expression",
+    "subcategory": "Craftsmanship & Mastery",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mastery is not an abstract intellectual trick\\u2014it is a continuous physical feedback loop between human hands, curious brains, and real-world friction. Doing good work for its own sake transforms ordinary effort into deep human dignity.",
+      "coreThesis": "Thinking and doing are inseparable halves of human intelligence; true mastery emerges when hands and mind cooperate in a continuous dialogue with the real world.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Craftsman"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-creative-act-a-way-of-being",
     "title": "The Creative Act: A Way of Being",
     "author": "Rick Rubin",
@@ -30338,6 +30558,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-little-book-of-talent",
+    "title": "The Little Book of Talent",
+    "author": "Daniel Coyle",
+    "category": "Creativity & Expression",
+    "subcategory": "Craftsmanship & Mastery",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 260,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mastery is not an innate genetic gift, but a physical biological circuit constructed through precise, high-friction practice. By understanding how the brain insulates neural pathways, anyone can transform awkward struggle into effortless automaticity using 52 field-tested rules.",
+      "coreThesis": "Skill is a physical cellular insulation (myelin) built along neural circuits when you reach at the edge of your ability and immediately correct mistakes.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Little Book of Talent"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-logic-of-scientific-discovery",
     "title": "The Logic of Scientific Discovery",
     "author": "Karl Popper",
@@ -31246,6 +31501,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-obstacle-is-the-way-the-timeless-art-of-turning-trials-i",
+    "title": "The Obstacle Is the Way: The Timeless Art of Turning Trials into Triumph",
+    "author": "Ryan Holiday",
+    "category": "Personal Growth",
+    "subcategory": "Resilience & Mental Toughness",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 140,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When external events derail your itinerary, the roadblock isn't halting your voyage\\u2014it has just provided the exact terrain your engine was built to conquer. By running every disruption through a disciplined three-part circuit of Perception, Action, and Will, friction ceases to be dead weight and transforms into rocket fuel.",
+      "coreThesis": "Adversity is not an interruption to the mission; it provides the physical raw material that advances the mission.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Obstacle Is the Way: The Timeless Art of Turning Trials into Triumph"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Personal Growth",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-one-thing",
     "title": "The ONE Thing",
     "author": "Gary Keller & Jay Papasan",
@@ -32115,6 +32405,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-practicing-mind-developing-focus-and-discipline-in-your-",
+    "title": "The Practicing Mind: Developing Focus and Discipline in Your Life",
+    "author": "Thomas M. Sterner",
+    "category": "Creativity & Expression",
+    "subcategory": "Craftsmanship & Mastery",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Mastery is not a static trophy waiting at the finish line\\u2014it is a cognitive discipline of falling in love with the mechanics of the current step. By synchronizing your mind with the physical task directly in front of you, frustration vanishes and peak performance emerges naturally.",
+      "coreThesis": "True focus and discipline arise when you detach from the final outcome and invest your entire cognitive energy into the exact physical process occurring in the present moment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Practicing Mind: Developing Focus and Discipline in Your Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
       "Strategy",
       "Mental Models"
     ]
@@ -33864,6 +34189,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "the-talent-code-greatness-isn-t-born-it-s-grown-here-s-how",
+    "title": "The Talent Code: Greatness Isn't Born. It's Grown. Here's How.",
+    "author": "Daniel Coyle",
+    "category": "Creativity & Expression",
+    "subcategory": "Craftsmanship & Mastery",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2009,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Exceptional skill is not an innate gift wired at birth, but an organic biological process of wrapping neural circuits in a living insulator called myelin. By aligning focused practice, emotional ignition, and surgical coaching, anyone can build world-class capability from scratch.",
+      "coreThesis": "Mastery is the physiological accumulation of myelin insulating your neural pathways, built through deliberate error-correcting practice, emotional ignition, and targeted micro-coaching.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Talent Code: Greatness Isn't Born. It's Grown. Here's How."
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
