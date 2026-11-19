@@ -63,16 +63,19 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "approaching-the-buddhist-path": "./books/approachingTheBuddhistPathExpanded.ts",
   "arahattamagga-arahattaphala-the-path-to-arahantship": "./books/arahattamaggaArahattaphalaThePathToArahantshipExpanded.ts",
   "argumentation-and-debate-critical-thinking-for-reasoned-deci": "./books/argumentationAndDebateCriticalThinkingForReasonedDeciExpanded.ts",
+  "ashtavakra-gita": "./books/ashtavakraGitaExpanded.ts",
   "asset-allocation-balancing-financial-risk": "./books/assetAllocationBalancingFinancialRiskExpanded.ts",
   "at-the-existentialist-caf-freedom-being-and-apricot-cocktail": "./books/atTheExistentialistCafFreedomBeingAndApricotCocktailExpanded.ts",
   "atomic-habits": "./books/atomicHabitsExpanded.ts",
   "attached-the-new-science-of-adult-attachment-and-how-it-can-": "./books/attachedTheNewScienceOfAdultAttachmentAndHowItCanExpanded.ts",
   "attacking-faulty-reasoning": "./books/attackingFaultyReasoningExpanded.ts",
   "attention-span": "./books/attentionSpanExpanded.ts",
+  "awake-it-s-your-turn": "./books/awakeItSYourTurnExpanded.ts",
   "awakening-the-mind-lightening-the-heart": "./books/awakeningTheMindLighteningTheHeartExpanded.ts",
   "awareness-alone-is-not-enough": "./books/awarenessAloneIsNotEnoughExpanded.ts",
   "banter-master-small-talk-sexy-banter-and-flirting": "./books/banterMasterSmallTalkSexyBanterAndFlirtingExpanded.ts",
   "bargaining-for-advantage-negotiation-strategies-for-reasonab": "./books/bargainingForAdvantageNegotiationStrategiesForReasonabExpanded.ts",
+  "be-as-you-are-the-teachings-of-sri-ramana-maharshi": "./books/beAsYouAreTheTeachingsOfSriRamanaMaharshiExpanded.ts",
   "be-here-now": "./books/beHereNowExpanded.ts",
   "be-prepared-how-to-think-on-your-feet-and-stand-up-to-bullie": "./books/bePreparedHowToThinkOnYourFeetAndStandUpToBullieExpanded.ts",
   "be-the-go-to-how-to-own-your-competitive-market": "./books/beTheGoToHowToOwnYourCompetitiveMarketExpanded.ts",
@@ -333,6 +336,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "humble-inquiry-the-gentle-art-of-asking-instead-of-telling": "./books/humbleInquiryTheGentleArtOfAskingInsteadOfTellingExpanded.ts",
   "humor-seriously-why-humor-is-a-secret-weapon-in-business-and": "./books/humorSeriouslyWhyHumorIsASecretWeaponInBusinessAndExpanded.ts",
   "hyperfocus-how-to-be-more-productive-in-a-world-of-distracti": "./books/hyperfocusHowToBeMoreProductiveInAWorldOfDistractiExpanded.ts",
+  "i-am-that": "./books/iAmThatExpanded.ts",
   "i-give-you-my-life-the-autobiography-of-ayya-khema": "./books/iGiveYouMyLifeTheAutobiographyOfAyyaKhemaExpanded.ts",
   "i-hear-you-the-surprisingly-simple-skill-behind-extraordinar": "./books/iHearYouTheSurprisinglySimpleSkillBehindExtraordinarExpanded.ts",
   "i-thought-it-was-just-me-but-it-isn-t": "./books/iThoughtItWasJustMeButItIsnTExpanded.ts",
@@ -504,6 +508,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "nudge-improving-decisions-about-health-wealth-and-happiness": "./books/nudgeImprovingDecisionsAboutHealthWealthAndHappinessExpanded.ts",
   "old-age-and-mortality-the-jara-vagga": "./books/oldAgeAndMortalityTheJaraVaggaExpanded.ts",
   "old-path-white-clouds-walking-in-the-footsteps-of-the-buddha": "./books/oldPathWhiteCloudsWalkingInTheFootstepsOfTheBuddhaExpanded.ts",
+  "on-having-no-head-zen-and-the-rediscovery-of-the-obvious": "./books/onHavingNoHeadZenAndTheRediscoveryOfTheObviousExpanded.ts",
   "on-love-dhamma-talks-on-metta": "./books/onLoveDhammaTalksOnMettaExpanded.ts",
   "on-the-orator-de-oratore": "./books/onTheOratorDeOratoreExpanded.ts",
   "on-the-path-an-anthology-of-suttas-on-the-noble-eightfold-path": "./books/onThePathAnAnthologyOfSuttasOnTheNobleEightfoldPathExpanded.ts",
@@ -751,6 +756,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-bogleheads-guide-to-investing": "./books/theBogleheadsGuideToInvestingExpanded.ts",
   "the-book-of-boundaries": "./books/theBookOfBoundariesExpanded.ts",
   "the-book-of-joy-lasting-happiness-in-a-changing-world": "./books/theBookOfJoyLastingHappinessInAChangingWorldExpanded.ts",
+  "the-book-of-not-knowing-exploring-the-true-nature-of-self-mi": "./books/theBookOfNotKnowingExploringTheTrueNatureOfSelfMiExpanded.ts",
   "the-book-of-tea": "./books/theBookOfTeaExpanded.ts",
   "the-book-of-the-discipline-vinaya-pitaka": "./books/theBookOfTheDisciplineVinayaPitakaExpanded.ts",
   "the-brain-that-changes-itself": "./books/theBrainThatChangesItselfExpanded.ts",
@@ -816,6 +822,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-dhammapada-with-the-story-of-the-buddha": "./books/theDhammapadaWithTheStoryOfTheBuddhaExpanded.ts",
   "the-diamond-that-cuts-through-illusion": "./books/theDiamondThatCutsThroughIllusionExpanded.ts",
   "the-dip-a-little-book-that-teaches-you-when-to-quit": "./books/theDipALittleBookThatTeachesYouWhenToQuitExpanded.ts",
+  "the-direct-path-a-user-guide": "./books/theDirectPathAUserGuideExpanded.ts",
   "the-discourse-on-right-view-sammaditthi-sutta": "./books/theDiscourseOnRightViewSammaditthiSuttaExpanded.ts",
   "the-discourse-on-the-fruits-of-recluseship-samannaphala-sutta": "./books/theDiscourseOnTheFruitsOfRecluseshipSamannaphalaSuttaExpanded.ts",
   "the-discourse-on-the-root-of-existence-mulapariyaya-sutta": "./books/theDiscourseOnTheRootOfExistenceMulapariyayaSuttaExpanded.ts",
@@ -917,6 +924,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-moral-animal": "./books/theMoralAnimalExpanded.ts",
   "the-myth-of-sisyphus": "./books/theMythOfSisyphusExpanded.ts",
   "the-narcissist-you-know": "./books/theNarcissistYouKnowExpanded.ts",
+  "the-nature-of-consciousness-essays-on-the-unity-of-mind-and-": "./books/theNatureOfConsciousnessEssaysOnTheUnityOfMindAndExpanded.ts",
   "the-nicomachean-ethics-explained": "./books/theNicomacheanEthicsExplainedExpanded.ts",
   "the-noble-eightfold-path-way-to-the-end-of-suffering": "./books/theNobleEightfoldPathWayToTheEndOfSufferingExpanded.ts",
   "the-noble-quest-ariyapariyesana-sutta": "./books/theNobleQuestAriyapariyesanaSuttaExpanded.ts",
@@ -1013,6 +1021,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-three-basic-facts-of-existence-non-self-anatta": "./books/theThreeBasicFactsOfExistenceNonSelfAnattaExpanded.ts",
   "the-three-basic-facts-of-existence-suffering-dukkha": "./books/theThreeBasicFactsOfExistenceSufferingDukkhaExpanded.ts",
   "the-total-money-makeover-a-proven-plan-for-financial-fitness": "./books/theTotalMoneyMakeoverAProvenPlanForFinancialFitnessExpanded.ts",
+  "the-transparency-of-things-contemplating-the-nature-of-exper": "./books/theTransparencyOfThingsContemplatingTheNatureOfExperExpanded.ts",
   "the-tree-of-enlightenment": "./books/theTreeOfEnlightenmentExpanded.ts",
   "the-truth-about-children-and-divorce": "./books/theTruthAboutChildrenAndDivorceExpanded.ts",
   "the-truth-detector-an-ex-fbi-agent-s-guide-for-getting-peopl": "./books/theTruthDetectorAnExFbiAgentSGuideForGettingPeoplExpanded.ts",
@@ -1098,6 +1107,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "vocal-power": "./books/vocalPowerExpanded.ts",
   "voice-and-the-actor": "./books/voiceAndTheActorExpanded.ts",
   "volition-the-real-mastermind-behind-kamma": "./books/volitionTheRealMastermindBehindKammaExpanded.ts",
+  "waking-up-a-guide-to-spirituality-without-religion": "./books/wakingUpAGuideToSpiritualityWithoutReligionExpanded.ts",
   "was-the-buddha-a-pessimist": "./books/wasTheBuddhaAPessimistExpanded.ts",
   "we-need-to-talk-how-to-have-conversations-that-matter": "./books/weNeedToTalkHowToHaveConversationsThatMatterExpanded.ts",
   "what-buddhists-believe": "./books/whatBuddhistsBelieveExpanded.ts",
@@ -3361,6 +3371,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "ashtavakra-gita",
+    "title": "Ashtavakra Gita",
+    "author": "Classical Advaita Scripture",
+    "category": "Spirituality",
+    "subcategory": "Advaita Vedanta",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 100,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You do not need to build your freedom through decades of arduous striving; you are already the open sky in which all clouds come and go. Ashtavakra Gita cuts through spiritual consumerism to reveal that enlightenment is not an achievement, but the sudden cessation of identifying with your mental weather.",
+      "coreThesis": "You are not an imperfect mind striving to reach perfection; you are the unblemished awareness in which all experiences occur, immediately free the moment you stop mistaking yourself for your thoughts.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Ashtavakra Gita"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "asset-allocation-balancing-financial-risk",
     "title": "Asset Allocation: Balancing Financial Risk",
     "author": "Roger C. Gibson",
@@ -3570,6 +3615,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "awake-it-s-your-turn",
+    "title": "Awake: It's Your Turn",
+    "author": "Angelo DiLullo",
+    "category": "Spirituality",
+    "subcategory": "Universal Non-Duality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 85,
+    "publishedYear": 2021,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Awakening is not a mystical trophy reserved for monks; it is your natural, direct perception waiting beneath the constant chatter of the thinking mind. Dr. Angelo DiLullo provides a field manual that strips away spiritual jargon and guides you step-by-step into immediate reality.",
+      "coreThesis": "Suffering is maintained by unconscious identification with the mind's ongoing commentary. By anchoring attention in immediate sensory reality and welcoming emotional contractions without resistance, the illusory sense of separation naturally dissolves into effortless presence.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Awake: It's Your Turn"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "awakening-the-mind-lightening-the-heart",
     "title": "Awakening the Mind, Lightening the Heart",
     "author": "Dalai Lama",
@@ -3705,6 +3785,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "be-as-you-are-the-teachings-of-sri-ramana-maharshi",
+    "title": "Be As You Are: The Teachings of Sri Ramana Maharshi",
+    "author": "David Godman ed.",
+    "category": "Spirituality",
+    "subcategory": "Advaita Vedanta",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 105,
+    "publishedYear": 1985,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop chasing enlightenment across the globe: you are already the peace you seek. Sri Ramana Maharshi cuts through spiritual complexity with a single, direct question: 'Who am I?'",
+      "coreThesis": "You are not your wandering thoughts, emotions, or bodily identity; you are the permanent awareness in which they appear, easily uncovered by tracing the sense of 'I' back to its silent source.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Be As You Are: The Teachings of Sri Ramana Maharshi"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -12800,6 +12915,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "i-am-that",
+    "title": "I Am That",
+    "author": "Nisargadatta Maharaj",
+    "category": "Spirituality",
+    "subcategory": "Advaita Vedanta",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 505,
+    "publishedYear": 1973,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You are not a stressed passenger trapped in a fragile body, but the vast, quiet sky in which your entire life and every thought appears. By quietly resting in the simple feeling of 'I exist' before adding a single label, you awaken to an unshakeable freedom that has never left you.",
+      "coreThesis": "You are the unchanging, luminous awareness in which thoughts, feelings, and the entire universe arise\\u2014not the mortal body or mental stories you mistakenly identify with.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "I Am That"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "i-give-you-my-life-the-autobiography-of-ayya-khema",
     "title": "I Give You My Life: The Autobiography of Ayya Khema",
     "author": "Ayya Khema",
@@ -18768,6 +18918,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Old Path White Clouds: Walking in the Footsteps of the Buddha"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "on-having-no-head-zen-and-the-rediscovery-of-the-obvious",
+    "title": "On Having No Head: Zen and the Rediscovery of the Obvious",
+    "author": "Douglas E. Harding",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1961,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop imagining what you look like from across the room and look directly at what is looking. In a single glance, discover that you are not a cramped eight-pound head peering out at the universe, but the vast, silent, boundless capacity in which the entire world happens.",
+      "coreThesis": "From your own first-person perspective, you are not an object with a head inside the world; you are the boundless, spotless void in which the entire world occurs.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "On Having No Head: Zen and the Rediscovery of the Obvious"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -27413,6 +27598,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-book-of-not-knowing-exploring-the-true-nature-of-self-mi",
+    "title": "The Book of Not Knowing: Exploring the True Nature of Self, Mind, and Consciousness",
+    "author": "Peter Ralston",
+    "category": "Spirituality",
+    "subcategory": "Universal Non-Duality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 125,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most human suffering stems from mistaking our mental menu for the actual meal. By learning to lay down the reflex of 'knowing,' we uncover the pristine, unconditioned reality that has been hiding in plain sight our entire lives.",
+      "coreThesis": "Genuine liberation and awakening are discovered not by accumulating more knowledge, but by radically relinquishing our unquestioned certainty and directly experiencing reality before thought interprets it.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Book of Not Knowing: Exploring the True Nature of Self, Mind, and Consciousness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-book-of-tea",
     "title": "The Book of Tea",
     "author": "Kakuzo Okakura",
@@ -29681,6 +29901,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-direct-path-a-user-guide",
+    "title": "The Direct Path: A User Guide",
+    "author": "Greg Goode",
+    "category": "Spirituality",
+    "subcategory": "Universal Non-Duality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop searching for enlightenment across distant mountains and look directly at what is reading these words right now. Through simple, surgical everyday perceptual experiments, Greg Goode proves that you are not a fragile entity trapped inside a physical head, but the boundless, unconfined field of awareness in which every experience unfolds.",
+      "coreThesis": "Separation is an untested conceptual assumption; upon direct experiential investigation, no boundary exists between awareness and the world, body, or mind arising within it.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Direct Path: A User Guide"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -33216,6 +33471,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-nature-of-consciousness-essays-on-the-unity-of-mind-and-",
+    "title": "The Nature of Consciousness: Essays on the Unity of Mind and Matter",
+    "author": "Rupert Spira",
+    "category": "Spirituality",
+    "subcategory": "Universal Non-Duality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "What if reality is not built out of dead matter, but is pure, living awareness experiencing itself? Rupert Spira presents a direct, grounded path to dismantle the illusion of separation and discover lasting inner peace.",
+      "coreThesis": "Consciousness is the fundamental reality of the universe, and our true identity is this infinite, peaceful knowing rather than a fragile, separate body-mind.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Nature of Consciousness: Essays on the Unity of Mind and Matter"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-nicomachean-ethics-explained",
     "title": "The Nicomachean Ethics Explained",
     "author": "Selected commentaries on Aristotle's practical wisdom",
@@ -36572,6 +36862,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-transparency-of-things-contemplating-the-nature-of-exper",
+    "title": "The Transparency of Things: Contemplating the Nature of Experience",
+    "author": "Rupert Spira",
+    "category": "Spirituality",
+    "subcategory": "Universal Non-Duality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 220,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "What if the peace and clarity you spend years chasing are already the very fabric of your immediate awareness? Rupert Spira shows that the world is not made of solid, separate objects outside you, but is a transparent dance of consciousness knowing itself.",
+      "coreThesis": "Experience is never split into an inside observer and an outside world; reality is a seamless, transparent whole of pure awareness knowing itself in every perception.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Transparency of Things: Contemplating the Nature of Experience"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-tree-of-enlightenment",
     "title": "The Tree of Enlightenment",
     "author": "Peter Della Santina",
@@ -39531,6 +39856,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Volition: The Real Mastermind Behind Kamma"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "waking-up-a-guide-to-spirituality-without-religion",
+    "title": "Waking Up: A Guide to Spirituality Without Religion",
+    "author": "Sam Harris",
+    "category": "Spirituality",
+    "subcategory": "Universal Non-Duality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You do not need religious mythology to experience profound spiritual liberation. By looking closely at your immediate experience right now, you can discover that the anxious inner ego is an illusion, revealing an open expanse of quiet clarity.",
+      "coreThesis": "The conventional sense of self is a cognitive illusion; consciousness is already free, open, and at peace when you look directly for the thinker of your thoughts.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Waking Up: A Guide to Spirituality Without Religion"
     },
     "reflectionExercises": [],
     "actionItems": [],
