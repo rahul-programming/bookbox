@@ -147,6 +147,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "continuous-mindfulness-in-dynamic-living": "./books/continuousMindfulnessInDynamicLivingExpanded.ts",
   "conversational-intelligence-how-great-leaders-build-trust-an": "./books/conversationalIntelligenceHowGreatLeadersBuildTrustAnExpanded.ts",
   "corporate-confidential-50-secrets-your-company-doesn-t-want-": "./books/corporateConfidential50SecretsYourCompanyDoesnTWantExpanded.ts",
+  "courage-under-fire-testing-epictetus-s-doctrines-in-a-labora": "./books/courageUnderFireTestingEpictetusSDoctrinesInALaboraExpanded.ts",
   "cracking-the-walnut-secret-teachings-on-awakening": "./books/crackingTheWalnutSecretTeachingsOnAwakeningExpanded.ts",
   "creating-true-peace-ending-violence-in-yourself-and-the-world": "./books/creatingTruePeaceEndingViolenceInYourselfAndTheWorldExpanded.ts",
   "creative-confidence-unleashing-the-creative-potential-within": "./books/creativeConfidenceUnleashingTheCreativePotentialWithinExpanded.ts",
@@ -160,6 +161,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "dbt-skills-training-handouts-and-worksheets": "./books/dbtSkillsTrainingHandoutsAndWorksheetsExpanded.ts",
   "decisive": "./books/decisiveExpanded.ts",
   "deep-down-we-know": "./books/deepDownWeKnowExpanded.ts",
+  "deep-survival-who-lives-who-dies-and-why": "./books/deepSurvivalWhoLivesWhoDiesAndWhyExpanded.ts",
   "deep-work": "./books/deepWorkExpanded.ts",
   "deepening-insight-a-practical-guide-to-the-buddhas-incremental-path": "./books/deepeningInsightAPracticalGuideToTheBuddhasIncrementalPathExpanded.ts",
   "dependent-arising-a-practical-guide-to-early-buddhist-teachings": "./books/dependentArisingAPracticalGuideToEarlyBuddhistTeachingsExpanded.ts",
@@ -219,6 +221,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "elastic-habits": "./books/elasticHabitsExpanded.ts",
   "emotional-agility": "./books/emotionalAgilityExpanded.ts",
   "emotions-revealed-recognizing-faces-and-feelings-to-improve-": "./books/emotionsRevealedRecognizingFacesAndFeelingsToImproveExpanded.ts",
+  "endure-mind-body-and-the-curiously-elastic-limits-of-human-p": "./books/endureMindBodyAndTheCuriouslyElasticLimitsOfHumanPExpanded.ts",
   "essentialism-the-disciplined-pursuit-of-less": "./books/essentialismTheDisciplinedPursuitOfLessExpanded.ts",
   "ethics-for-the-new-millennium": "./books/ethicsForTheNewMillenniumExpanded.ts",
   "even-if-it-costs-me-my-life": "./books/evenIfItCostsMeMyLifeExpanded.ts",
@@ -484,6 +487,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "one-dharma-the-emerging-western-buddhism": "./books/oneDharmaTheEmergingWesternBuddhismExpanded.ts",
   "one-small-step-can-change-your-life-the-kaizen-way": "./books/oneSmallStepCanChangeYourLifeTheKaizenWayExpanded.ts",
   "opening-the-door-of-your-heart": "./books/openingTheDoorOfYourHeartExpanded.ts",
+  "option-b-facing-adversity-building-resilience-and-finding-jo": "./books/optionBFacingAdversityBuildingResilienceAndFindingJoExpanded.ts",
   "orbiting-the-giant-hairball-a-corporate-fool-s-guide-to-surv": "./books/orbitingTheGiantHairballACorporateFoolSGuideToSurvExpanded.ts",
   "our-appointment-with-life-the-bhaddekaratta-sutta": "./books/ourAppointmentWithLifeTheBhaddekarattaSuttaExpanded.ts",
   "our-real-home-teachings-for-approaching-death": "./books/ourRealHomeTeachingsForApproachingDeathExpanded.ts",
@@ -546,6 +550,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "reinventing-your-life": "./books/reinventingYourLifeExpanded.ts",
   "relax-and-be-aware-mindfulness-in-daily-life": "./books/relaxAndBeAwareMindfulnessInDailyLifeExpanded.ts",
   "remote-office-not-required": "./books/remoteOfficeNotRequiredExpanded.ts",
+  "resilience-hard-won-wisdom-for-living-a-better-life": "./books/resilienceHardWonWisdomForLivingABetterLifeExpanded.ts",
   "resonate-present-visual-stories-that-transform-audiences": "./books/resonatePresentVisualStoriesThatTransformAudiencesExpanded.ts",
   "rest-why-you-get-more-done-when-you-work-less": "./books/restWhyYouGetMoreDoneWhenYouWorkLessExpanded.ts",
   "rethinking-narcissism-anger": "./books/rethinkingNarcissismAngerExpanded.ts",
@@ -566,6 +571,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "say-what-you-mean-a-mindful-approach-to-nonviolent-communica": "./books/sayWhatYouMeanAMindfulApproachToNonviolentCommunicaExpanded.ts",
   "saying-no-to-say-yes": "./books/sayingNoToSayYesExpanded.ts",
   "scale": "./books/scaleExpanded.ts",
+  "scarcity-brain": "./books/scarcityBrainExpanded.ts",
   "scarcity-why-having-too-little-means-so-much": "./books/scarcityWhyHavingTooLittleMeansSoMuchExpanded.ts",
   "search-inside-yourself": "./books/searchInsideYourselfExpanded.ts",
   "searching-for-the-self": "./books/searchingForTheSelfExpanded.ts",
@@ -637,6 +643,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "straight-from-the-heart-dhamma-talks": "./books/straightFromTheHeartDhammaTalksExpanded.ts",
   "strangers-to-ourselves-discovering-the-adaptive-unconscious": "./books/strangersToOurselvesDiscoveringTheAdaptiveUnconsciousExpanded.ts",
   "strategize-to-win": "./books/strategizeToWinExpanded.ts",
+  "strong-at-the-broken-places": "./books/strongAtTheBrokenPlacesExpanded.ts",
   "super-thinking-the-big-book-of-mental-models": "./books/superThinkingTheBigBookOfMentalModelsExpanded.ts",
   "supercommunicators-how-to-unlock-the-secret-language-of-conn": "./books/supercommunicatorsHowToUnlockTheSecretLanguageOfConnExpanded.ts",
   "superconnector-stop-networking-and-start-building-business-r": "./books/superconnectorStopNetworkingAndStartBuildingBusinessRExpanded.ts",
@@ -729,10 +736,12 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-catalyst-how-to-change-anyone-s-mind": "./books/theCatalystHowToChangeAnyoneSMindExpanded.ts",
   "the-charisma-myth-how-anyone-can-master-the-art-and-science-": "./books/theCharismaMythHowAnyoneCanMasterTheArtAndScienceExpanded.ts",
   "the-checklist-manifesto": "./books/theChecklistManifestoExpanded.ts",
+  "the-choice-embrace-the-possible": "./books/theChoiceEmbraceThePossibleExpanded.ts",
   "the-choice-factory-25-behavioral-biases-that-influence-what-": "./books/theChoiceFactory25BehavioralBiasesThatInfluenceWhatExpanded.ts",
   "the-circadian-code": "./books/theCircadianCodeExpanded.ts",
   "the-clock-of-vipassana-has-struck": "./books/theClockOfVipassanaHasStruckExpanded.ts",
   "the-coaching-habit-say-less-ask-more-change-the-way-you-lead": "./books/theCoachingHabitSayLessAskMoreChangeTheWayYouLeadExpanded.ts",
+  "the-comfort-crisis-embrace-discomfort-to-reclaim-your-wild-h": "./books/theComfortCrisisEmbraceDiscomfortToReclaimYourWildHExpanded.ts",
   "the-comic-toolbox-how-to-be-funny-even-if-you-re-not": "./books/theComicToolboxHowToBeFunnyEvenIfYouReNotExpanded.ts",
   "the-compassionate-life": "./books/theCompassionateLifeExpanded.ts",
   "the-compassionate-mind": "./books/theCompassionateMindExpanded.ts",
@@ -1026,6 +1035,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "untamed": "./books/untamedExpanded.ts",
   "untangled-guiding-teenage-girls-through-the-seven-transition": "./books/untangledGuidingTeenageGirlsThroughTheSevenTransitionExpanded.ts",
   "unwinding-anxiety": "./books/unwindingAnxietyExpanded.ts",
+  "upside-of-stress-why-stress-is-good-for-you-and-how-to-get-g": "./books/upsideOfStressWhyStressIsGoodForYouAndHowToGetGExpanded.ts",
   "vagabonding-an-uncommon-guide-to-the-art-of-long-term-world-": "./books/vagabondingAnUncommonGuideToTheArtOfLongTermWorldExpanded.ts",
   "venerable-acariya-mun-bhuridatta-spiritual-biography": "./books/venerableAcariyaMunBhuridattaSpiritualBiographyExpanded.ts",
   "vibhanga-the-book-of-analysis": "./books/vibhangaTheBookOfAnalysisExpanded.ts",
@@ -6227,6 +6237,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "courage-under-fire-testing-epictetus-s-doctrines-in-a-labora",
+    "title": "Courage Under Fire: Testing Epictetus's Doctrines in a Laboratory of Human Behavior",
+    "author": "James Bond Stockdale",
+    "category": "Personal Growth",
+    "subcategory": "Resilience & Mental Toughness",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1993,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "What happens when an ancient philosophy faces the ultimate real-world stress test in an eight-year crucible of solitary confinement and torture? Stockdale shows how treating life like an immutable physical system allows you to protect your inner operating core against impossible odds.",
+      "coreThesis": "You cannot control external circumstances, but you retain absolute dominion over your moral purpose and internal choices; preserving this boundary renders you invincible to psychological destruction.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Courage Under Fire: Testing Epictetus's Doctrines in a Laboratory of Human Behavior"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Personal Growth",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "cracking-the-walnut-secret-teachings-on-awakening",
     "title": "Cracking the Walnut: Secret Teachings on Awakening",
     "author": "Thich Nhat Hanh",
@@ -6676,6 +6721,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "deep-survival-who-lives-who-dies-and-why",
+    "title": "Deep Survival: Who Lives, Who Dies, and Why",
+    "author": "Laurence Gonzales",
+    "category": "Personal Growth",
+    "subcategory": "Overcoming Trauma & Adversity",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 2003,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Survival is not a test of brute muscle or machismo; it is a high-stakes masterclass in cognitive science. Laurence Gonzales decodes why highly trained experts make catastrophic mistakes under pressure and how ordinary people tap into clear-eyed neurobiology to survive life's deadliest trials.",
+      "coreThesis": "Disaster strikes when our internal mental models clash with physical reality; survival belongs to those who tame emotional panic, embrace the world as it actually is, and take disciplined micro-actions.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Deep Survival: Who Lives, Who Dies, and Why"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Personal Growth",
       "Strategy",
       "Mental Models"
     ]
@@ -8740,6 +8820,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "endure-mind-body-and-the-curiously-elastic-limits-of-human-p",
+    "title": "Endure: Mind, Body, and the Curiously Elastic Limits of Human Performance",
+    "author": "Alex Hutchinson",
+    "category": "Personal Growth",
+    "subcategory": "Resilience & Mental Toughness",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When your body screams that it has reached empty, you have actually only tapped roughly eighty percent of your real capacity. The true finish line is negotiated not by muscle fibers, but by a cautious brain acting as a safety brake.",
+      "coreThesis": "Exhaustion is not an abrupt physical wall where the machine breaks down, but an elastic psychological boundary created by a protective brain to keep us safe.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Endure: Mind, Body, and the Curiously Elastic Limits of Human Performance"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Personal Growth",
       "Strategy",
       "Mental Models"
     ]
@@ -18010,6 +18125,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "option-b-facing-adversity-building-resilience-and-finding-jo",
+    "title": "Option B: Facing Adversity, Building Resilience, and Finding Joy",
+    "author": "Sheryl Sandberg & Adam Grant",
+    "category": "Personal Growth",
+    "subcategory": "Overcoming Trauma & Adversity",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When life blows up your ideal flight path, you don't stall in mid-air\\u2014you re-calibrate the navigation instruments and fly Option B. Sheryl Sandberg and Adam Grant reveal the psychological mechanics of resilience, showing that grit is not a rare genetic endowment, but a dynamic feedback system you can deliberately strengthen.",
+      "coreThesis": "Resilience is not a fixed character trait you either possess or lack; it is an adaptable cognitive and emotional muscle that can be systematically rebuilt through deliberate mental reframing, open social connection, and proactive self-compassion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Option B: Facing Adversity, Building Resilience, and Finding Joy"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Personal Growth",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "orbiting-the-giant-hairball-a-corporate-fool-s-guide-to-surv",
     "title": "Orbiting the Giant Hairball: A Corporate Fool's Guide to Surviving with Grace",
     "author": "Gordon MacKenzie",
@@ -20178,6 +20328,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "resilience-hard-won-wisdom-for-living-a-better-life",
+    "title": "Resilience: Hard-Won Wisdom for Living a Better Life",
+    "author": "Eric Greitens",
+    "category": "Personal Growth",
+    "subcategory": "Resilience & Mental Toughness",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 115,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Resilience is not a passive shock absorber that bounces you back to your old self\\u2014it is an active psychological engine that uses friction, adversity, and strain to forge a stronger, wiser system.",
+      "coreThesis": "Resilience is not the absence of difficulty or a return to an unbroken past, but the active virtue of transforming hardship into wisdom, strength, and purposeful action.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Resilience: Hard-Won Wisdom for Living a Better Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Personal Growth",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "resonate-present-visual-stories-that-transform-audiences",
     "title": "Resonate: Present Visual Stories that Transform Audiences",
     "author": "Nancy Duarte",
@@ -20873,6 +21058,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "scarcity-brain",
+    "title": "Scarcity Brain",
+    "author": "Michael Easter",
+    "category": "Personal Growth",
+    "subcategory": "Resilience & Mental Toughness",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2023,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Our brains evolved in an unforgiving world of drought, famine, and predators where grabbing every scrap of food and status meant survival. Today, that identical ancient wiring is trapped in a world of endless hyper-abundance, leaving us endlessly hooked on manufactured loops of craving.",
+      "coreThesis": "Human brains are biologically hardwired to relentlessly seek, hoard, and crave resources to survive scarcity, but in a world of limitless artificial abundance, this ancient operating system drives chronic dissatisfaction unless we deliberately design healthy friction and define our threshold of 'enough.'",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Scarcity Brain"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Personal Growth",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -23351,6 +23571,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "strong-at-the-broken-places",
+    "title": "Strong at the Broken Places",
+    "author": "Richard M. Cohen",
+    "category": "Personal Growth",
+    "subcategory": "Overcoming Trauma & Adversity",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2008,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When severe adversity cracks your baseline reality, the fractured edges reveal how human resilience actually operates. Richard M. Cohen maps the exact behavioral feedback loops through which five ordinary adults convert biological catastrophe into durable personal agency.",
+      "coreThesis": "Wholeness is not the preservation of an unblemished life, but the deliberate capacity to rebuild functional agency and profound meaning directly at the fracture points of suffering.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Strong at the Broken Places"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Personal Growth",
       "Strategy",
       "Mental Models"
     ]
@@ -26571,6 +26826,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-choice-embrace-the-possible",
+    "title": "The Choice: Embrace the Possible",
+    "author": "Edith Eger",
+    "category": "Personal Growth",
+    "subcategory": "Overcoming Trauma & Adversity",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 115,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Suffering is an unavoidable physical collision, but psychological imprisonment is an optional feedback loop. Drawing on Auschwitz survival and decades of clinical psychotherapy, Dr. Edith Eger maps the exact mechanics of emotional freedom: the ultimate human choice lies between remaining a passive victim of circumstances or stepping into active agency.",
+      "coreThesis": "Trauma is an involuntary event, but victimhood is a voluntary identity; true freedom begins the exact second we realize the door to our mental prison is unlocked from the inside.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Choice: Embrace the Possible"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Personal Growth",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-choice-factory-25-behavioral-biases-that-influence-what-",
     "title": "The Choice Factory: 25 Behavioral Biases That Influence What We Buy",
     "author": "Richard Shotton",
@@ -26706,6 +26996,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-comfort-crisis-embrace-discomfort-to-reclaim-your-wild-h",
+    "title": "The Comfort Crisis: Embrace Discomfort to Reclaim Your Wild, Happy, Healthy Self",
+    "author": "Michael Easter",
+    "category": "Personal Growth",
+    "subcategory": "Resilience & Mental Toughness",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 105,
+    "publishedYear": 2021,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Modern life removed all physical hardship, but in eliminating discomfort, we quietly engineered chronic anxiety, metabolic illness, and mental fragility. By deliberately reintroducing cold, boredom, hunger, heavy loads, and wild nature, you switch on hidden biological machinery that makes you feel profoundly alive.",
+      "coreThesis": "Our bodies and minds evolved to thrive against physical friction; stripping away all discomfort has warped our mental and metabolic baseline, and deliberate hardship is the precise antidote.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Comfort Crisis: Embrace Discomfort to Reclaim Your Wild, Happy, Healthy Self"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Personal Growth",
       "Strategy",
       "Mental Models"
     ]
@@ -36948,6 +37273,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "upside-of-stress-why-stress-is-good-for-you-and-how-to-get-g",
+    "title": "Upside of Stress: Why Stress Is Good for You, and How to Get Good at It",
+    "author": "Kelly McGonigal",
+    "category": "Personal Growth",
+    "subcategory": "Overcoming Trauma & Adversity",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stress isn't toxic exhaust that breaks down your engine; it is high-octane fuel engineered to power peak performance. When you stop fleeing pressure and understand its neurobiological machinery, your body transforms from an anxious threat detector into a focused, resilient powerhouse.",
+      "coreThesis": "Stress is an adaptive physiological resource that mobilizes energy, focus, and connection; how you think about stress dictates whether it damages your health or builds antifragile resilience.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Upside of Stress: Why Stress Is Good for You, and How to Get Good at It"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Personal Growth",
       "Strategy",
       "Mental Models"
     ]
