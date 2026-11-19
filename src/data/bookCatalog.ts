@@ -1,6 +1,8 @@
 import { Book, StashBoard, IdeaCard } from '../types';
 
 export const BOOK_LOADER_MAP: Record<string, string> = {
+  "100m-leads-how-to-get-strangers-to-want-to-buy-your-stuff": "./books/100mLeadsHowToGetStrangersToWantToBuyYourStuffExpanded.ts",
+  "100m-offers-how-to-make-offers-so-good-people-feel-stupid-sa": "./books/100mOffersHowToMakeOffersSoGoodPeopleFeelStupidSaExpanded.ts",
   "10-days-to-faster-reading": "./books/10DaysToFasterReadingExpanded.ts",
   "168-hours-you-have-more-time-than-you-think": "./books/168HoursYouHaveMoreTimeThanYouThinkExpanded.ts",
   "3-d-negotiation-powerful-tools-to-change-the-game-in-your-mo": "./books/3DNegotiationPowerfulToolsToChangeTheGameInYourMoExpanded.ts",
@@ -112,6 +114,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "building-a-second-brain": "./books/buildingASecondBrainExpanded.ts",
   "building-a-storybrand-clarify-your-message-so-customers-will": "./books/buildingAStorybrandClarifyYourMessageSoCustomersWillExpanded.ts",
   "built-from-broken": "./books/builtFromBrokenExpanded.ts",
+  "built-to-sell-creating-a-business-that-can-thrive-without-yo": "./books/builtToSellCreatingABusinessThatCanThriveWithoutYoExpanded.ts",
   "bullshit-jobs-on-bullshit": "./books/bullshitJobsOnBullshitExpanded.ts",
   "captivate-the-science-of-succeeding-with-people": "./books/captivateTheScienceOfSucceedingWithPeopleExpanded.ts",
   "central-conception-of-buddhism-and-meaning-of-dharma": "./books/centralConceptionOfBuddhismAndMeaningOfDharmaExpanded.ts",
@@ -124,6 +127,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "clear-thinking": "./books/clearThinkingExpanded.ts",
   "cognitive-psychology-mind-and-brain": "./books/cognitivePsychologyMindAndBrainExpanded.ts",
   "common-stocks-and-uncommon-profits": "./books/commonStocksAndUncommonProfitsExpanded.ts",
+  "company-of-one-why-staying-small-is-the-next-big-thing-for-b": "./books/companyOfOneWhyStayingSmallIsTheNextBigThingForBExpanded.ts",
   "compassion-and-emptiness-in-early-buddhist-meditation": "./books/compassionAndEmptinessInEarlyBuddhistMeditationExpanded.ts",
   "complexity-a-guided-tour": "./books/complexityAGuidedTourExpanded.ts",
   "comprehensive-commentary-on-the-abhidhammattha-sangaha": "./books/comprehensiveCommentaryOnTheAbhidhammatthaSangahaExpanded.ts",
@@ -569,6 +573,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "smart-women-finish-rich": "./books/smartWomenFinishRichExpanded.ts",
   "snakes-in-suits-when-psychopaths-go-to-work": "./books/snakesInSuitsWhenPsychopathsGoToWorkExpanded.ts",
   "so-good-they-can-t-ignore-you": "./books/soGoodTheyCanTIgnoreYouExpanded.ts",
+  "so-good-they-can-t-ignore-you-why-skills-trump-passion-in-th": "./books/soGoodTheyCanTIgnoreYouWhySkillsTrumpPassionInThExpanded.ts",
   "socratic-logic": "./books/socraticLogicExpanded.ts",
   "solving-the-procrastination-puzzle": "./books/solvingTheProcrastinationPuzzleExpanded.ts",
   "somatics-reawakening-the-mind-s-control-of-movement": "./books/somaticsReawakeningTheMindSControlOfMovementExpanded.ts",
@@ -619,6 +624,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "thank-you-for-arguing": "./books/thankYouForArguingExpanded.ts",
   "thank-you-for-arguing-what-aristotle-lincoln-and-homer-simps": "./books/thankYouForArguingWhatAristotleLincolnAndHomerSimpsExpanded.ts",
   "thanks-for-the-feedback-the-science-and-art-of-receiving-fee": "./books/thanksForTheFeedbackTheScienceAndArtOfReceivingFeeExpanded.ts",
+  "the-100-startup": "./books/the100StartupExpanded.ts",
   "the-1-page-marketing-plan": "./books/the1PageMarketingPlanExpanded.ts",
   "the-1-rule": "./books/the1RuleExpanded.ts",
   "the-22-immutable-laws-of-marketing": "./books/the22ImmutableLawsOfMarketingExpanded.ts",
@@ -630,6 +636,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-80-20-principle": "./books/the8020PrincipleExpanded.ts",
   "the-accountability-manifesto": "./books/theAccountabilityManifestoExpanded.ts",
   "the-all-embracing-net-of-views-brahmajala-sutta": "./books/theAllEmbracingNetOfViewsBrahmajalaSuttaExpanded.ts",
+  "the-almanack-of-naval-ravikant-a-guide-to-wealth-and-happine": "./books/theAlmanackOfNavalRavikantAGuideToWealthAndHappineExpanded.ts",
   "the-anapanasati-sutta-full-translation-and-notes": "./books/theAnapanasatiSuttaFullTranslationAndNotesExpanded.ts",
   "the-anxiety-and-phobia-workbook": "./books/theAnxietyAndPhobiaWorkbookExpanded.ts",
   "the-anxious-generation-how-the-great-rewiring-of-childhood-i": "./books/theAnxiousGenerationHowTheGreatRewiringOfChildhoodIExpanded.ts",
@@ -730,6 +737,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-divided-mind-the-epidemic-of-mindbody-disorders": "./books/theDividedMindTheEpidemicOfMindbodyDisordersExpanded.ts",
   "the-doctrine-of-anatta-in-the-nikayas": "./books/theDoctrineOfAnattaInTheNikayasExpanded.ts",
   "the-drama-of-the-gifted-child-the-search-for-the-true-self": "./books/theDramaOfTheGiftedChildTheSearchForTheTrueSelfExpanded.ts",
+  "the-e-myth-revisited-why-most-small-businesses-don-t-work-an": "./books/theEMythRevisitedWhyMostSmallBusinessesDonTWorkAnExpanded.ts",
   "the-easy-way-to-stop-smoking-stop-drinking": "./books/theEasyWayToStopSmokingStopDrinkingExpanded.ts",
   "the-elements-of-eloquence-how-to-turn-the-perfect-english-ph": "./books/theElementsOfEloquenceHowToTurnThePerfectEnglishPhExpanded.ts",
   "the-elephant-footprint-cula-hatthipadopama-sutta": "./books/theElephantFootprintCulaHatthipadopamaSuttaExpanded.ts",
@@ -799,6 +807,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-message-of-the-buddha": "./books/theMessageOfTheBuddhaExpanded.ts",
   "the-middle-length-discourses-of-the-buddha-majjhima-nikaya": "./books/theMiddleLengthDiscoursesOfTheBuddhaMajjhimaNikayaExpanded.ts",
   "the-middle-way-faith-grounded-in-reason": "./books/theMiddleWayFaithGroundedInReasonExpanded.ts",
+  "the-millionaire-fastlane": "./books/theMillionaireFastlaneExpanded.ts",
   "the-millionaire-next-door-the-surprising-secrets-of-america-": "./books/theMillionaireNextDoorTheSurprisingSecretsOfAmericaExpanded.ts",
   "the-mind-and-the-way-buddhist-reflections-on-life": "./books/theMindAndTheWayBuddhistReflectionsOnLifeExpanded.ts",
   "the-mind-that-knows": "./books/theMindThatKnowsExpanded.ts",
@@ -1022,7 +1031,8 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "your-perfect-right-assertiveness-and-equality-in-your-life-a": "./books/yourPerfectRightAssertivenessAndEqualityInYourLifeAExpanded.ts",
   "your-true-home-the-everyday-wisdom-of-thich-nhat-hanh": "./books/yourTrueHomeTheEverydayWisdomOfThichNhatHanhExpanded.ts",
   "zen-keys-a-guide-to-zen-practice": "./books/zenKeysAGuideToZenPracticeExpanded.ts",
-  "zero-debt-the-ultimate-guide-to-financial-freedom": "./books/zeroDebtTheUltimateGuideToFinancialFreedomExpanded.ts"
+  "zero-debt-the-ultimate-guide-to-financial-freedom": "./books/zeroDebtTheUltimateGuideToFinancialFreedomExpanded.ts",
+  "zero-to-one-notes-on-startups-or-how-to-build-the-future": "./books/zeroToOneNotesOnStartupsOrHowToBuildTheFutureExpanded.ts"
 };
 
 export const SEED_BOARDS: StashBoard[] = [
@@ -1053,6 +1063,76 @@ export const SEED_BOARDS: StashBoard[] = [
 ];
 
 export const BOOK_CATALOG: Book[] = [
+  {
+    "id": "100m-leads-how-to-get-strangers-to-want-to-buy-your-stuff",
+    "title": "$100M Leads: How to Get Strangers to Want to Buy Your Stuff",
+    "author": "Alex Hormozi",
+    "category": "Money & Investing",
+    "subcategory": "Personal Finance & Budgeting",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 100,
+    "publishedYear": 2023,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Customer generation is not mystical artistic lightning\\u2014it is mechanical plumbing governed by strict input-output physics. If you master the four elemental methods of broadcasting value and multiply them through leverage, business poverty becomes mathematically impossible.",
+      "coreThesis": "Getting strangers to buy is a deterministic physics problem solved by executing massive daily volume across four core channels, then amplifying those channels through leverage and lead-getters until demand permanently outstrips capacity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "$100M Leads: How to Get Strangers to Want to Buy Your Stuff"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "100m-offers-how-to-make-offers-so-good-people-feel-stupid-sa",
+    "title": "$100M Offers: How to Make Offers So Good People Feel Stupid Saying No",
+    "author": "Alex Hormozi",
+    "category": "Money & Investing",
+    "subcategory": "Personal Finance & Budgeting",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2021,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Transform ordinary services into category-of-one solutions that render price resistance completely obsolete. By systematically optimizing the underlying psychological equations of value and risk, you compel buyers to eagerly say yes.",
+      "coreThesis": "Price resistance is not a measure of customer frugality, but a direct diagnostic of weak perceived value and unaddressed transactional friction. When you maximize perceived certainty while driving time delays and client effort toward zero, price ceases to be a limiting factor.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "$100M Offers: How to Make Offers So Good People Feel Stupid Saying No"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
   {
     "id": "10-days-to-faster-reading",
     "title": "10 Days to Faster Reading",
@@ -4934,6 +5014,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "built-to-sell-creating-a-business-that-can-thrive-without-yo",
+    "title": "Built to Sell: Creating a Business That Can Thrive Without You",
+    "author": "John Warrillow",
+    "category": "Money & Investing",
+    "subcategory": "Personal Finance & Budgeting",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "If your business stalls every time you take a vacation, you don't own an asset\\u2014you own an exhausting, unmarketable job. Discover the elegant mechanical blueprint that transforms chaotic service work into an automated, self-driving revenue engine built to thrive without you.",
+      "coreThesis": "A business achieves maximum financial value and operational resilience only when it functions as an independent, modular system completely detached from the owner's personal labor.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Built to Sell: Creating a Business That Can Thrive Without You"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "bullshit-jobs-on-bullshit",
     "title": "Bullshit Jobs & On Bullshit",
     "author": "Harry Frankfurt",
@@ -5341,6 +5456,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Common Stocks and Uncommon Profits"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "company-of-one-why-staying-small-is-the-next-big-thing-for-b",
+    "title": "Company of One: Why Staying Small Is the Next Big Thing for Business",
+    "author": "Paul Jarvis",
+    "category": "Money & Investing",
+    "subcategory": "Personal Finance & Budgeting",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Bigger is not inherently better\\u2014it is often just heavier, slower, and far more brittle. Paul Jarvis exposes the modern growth obsession as an evolutionary trap and reveals how keeping your operation intentionally lean yields superior financial sovereignty, operational agility, and personal peace.",
+      "coreThesis": "Deliberately limiting headcount and operational complexity is the ultimate competitive advantage, producing higher profit margins, profound resilience, and genuine lifestyle sovereignty.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Company of One: Why Staying Small Is the Next Big Thing for Business"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -20907,6 +21057,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "so-good-they-can-t-ignore-you-why-skills-trump-passion-in-th",
+    "title": "So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love",
+    "author": "Cal Newport",
+    "category": "Leadership & Career",
+    "subcategory": "Career Growth & Promotion",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop searching for your pre-existing 'passion'\\u2014it is a trap that breeds anxiety and fragile careers. True professional leverage and autonomy are earned exclusively by treating your work like a master artisan, compounding rare and valuable skills until the market has no choice but to deal on your terms.",
+      "coreThesis": "Fulfillment and autonomy in work do not stem from discovering an elusive pre-existing passion; they are high-value dividends generated by compounding rare, bankable skills through deliberate practice.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "socratic-logic",
     "title": "Socratic Logic",
     "author": "Peter Kreeft",
@@ -22654,6 +22839,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-100-startup",
+    "title": "The $100 Startup",
+    "author": "Chris Guillebeau",
+    "category": "Money & Investing",
+    "subcategory": "Personal Finance & Budgeting",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Transform everyday competencies into an autonomous, cash-flowing enterprise with virtually zero capital outlay. By viewing entrepreneurship as an experimental science of value exchange rather than a high-stakes financial gamble, you can build a sustainable living on your own terms.",
+      "coreThesis": "Financial autonomy does not require venture capital or corporate infrastructure; it requires identifying where your existing competence solves a distinct human problem and packaging that solution into an immediate, testable offer.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The $100 Startup"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-1-page-marketing-plan",
     "title": "The 1-Page Marketing Plan",
     "author": "Allan Dib",
@@ -23034,6 +23254,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-almanack-of-naval-ravikant-a-guide-to-wealth-and-happine",
+    "title": "The Almanack of Naval Ravikant: A Guide to Wealth and Happiness",
+    "author": "Eric Jorgenson",
+    "category": "Money & Investing",
+    "subcategory": "Personal Finance & Budgeting",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 190,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Wealth is an engine you build once to deliver freedom indefinitely; happiness is an internal baseline skill you maintain daily. Stop renting your time by the hour, master permissionless leverage, and trade social status games for unvarnished personal sovereignty.",
+      "coreThesis": "True freedom combines financial independence built on asymmetric leverage with internal peace built on deliberate emotional discipline.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Almanack of Naval Ravikant: A Guide to Wealth and Happiness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
       "Strategy",
       "Mental Models"
     ]
@@ -26536,6 +26791,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-e-myth-revisited-why-most-small-businesses-don-t-work-an",
+    "title": "The E-Myth Revisited: Why Most Small Businesses Don't Work and What to Do About It",
+    "author": "Michael E. Gerber",
+    "category": "Money & Investing",
+    "subcategory": "Personal Finance & Budgeting",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 95,
+    "publishedYear": 1995,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most businesses fail not from a lack of passion, but because skilled technicians build grueling self-made prisons instead of self-regulating systems. Discover the architectural blueprint that transforms any chaotic everyday enterprise into a predictable, turn-key machine that thrives without you.",
+      "coreThesis": "A successful business is a reliable, turn-key machine engineered to operate predictably through ordinary people and explicit systems, liberating the owner to work on the business rather than inside it.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The E-Myth Revisited: Why Most Small Businesses Don't Work and What to Do About It"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-easy-way-to-stop-smoking-stop-drinking",
     "title": "The Easy Way to Stop Smoking / Stop Drinking",
     "author": "Allen Carr",
@@ -28942,6 +29232,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-millionaire-fastlane",
+    "title": "The Millionaire Fastlane",
+    "author": "MJ DeMarco",
+    "category": "Money & Investing",
+    "subcategory": "Personal Finance & Budgeting",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 225,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Wealth is not a forty-year waiting room or a lottery ticket\\u2014it is a predictable engineering problem governed by leverage, control, and mathematical scale. By stepping off the time-for-money treadmill and constructing systems that solve widespread human problems, you build an automated pipeline that delivers financial sovereignty in years rather than decades.",
+      "coreThesis": "True financial freedom is engineered by divorcing income from linear human time through scalable, controlled business systems that solve acute human problems.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Millionaire Fastlane"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
       "Strategy",
       "Mental Models"
     ]
@@ -36765,6 +37090,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Zero-Debt: The Ultimate Guide to Financial Freedom"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "zero-to-one-notes-on-startups-or-how-to-build-the-future",
+    "title": "Zero to One: Notes on Startups, or How to Build the Future",
+    "author": "Peter Thiel with Blake Masters",
+    "category": "Money & Investing",
+    "subcategory": "Personal Finance & Budgeting",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Copying existing models moves the world from 1 to n, adding more of the familiar. True breakthroughs move the needle from 0 to 1, building singular monopolies that solve unsolved problems.",
+      "coreThesis": "Durable value is never generated by competing in crowded markets; it is created by uncovering hidden secrets and building a proprietary, uncontested monopoly that moves the world from zero to one.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Zero to One: Notes on Startups, or How to Build the Future"
     },
     "reflectionExercises": [],
     "actionItems": [],
