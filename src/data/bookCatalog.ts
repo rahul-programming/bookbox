@@ -119,6 +119,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "built-from-broken": "./books/builtFromBrokenExpanded.ts",
   "built-to-sell-creating-a-business-that-can-thrive-without-yo": "./books/builtToSellCreatingABusinessThatCanThriveWithoutYoExpanded.ts",
   "bullshit-jobs-on-bullshit": "./books/bullshitJobsOnBullshitExpanded.ts",
+  "burnout-the-secret-to-unlocking-the-stress-cycle": "./books/burnoutTheSecretToUnlockingTheStressCycleExpanded.ts",
   "can-t-hurt-me-master-your-mind-and-defy-the-odds": "./books/canTHurtMeMasterYourMindAndDefyTheOddsExpanded.ts",
   "captivate-the-science-of-succeeding-with-people": "./books/captivateTheScienceOfSucceedingWithPeopleExpanded.ts",
   "central-conception-of-buddhism-and-meaning-of-dharma": "./books/centralConceptionOfBuddhismAndMeaningOfDharmaExpanded.ts",
@@ -209,6 +210,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "dopamine-nation-finding-balance-in-the-age-of-indulgence": "./books/dopamineNationFindingBalanceInTheAgeOfIndulgenceExpanded.ts",
   "dorie-clark-stand-out-how-to-find-your-breakthrough-idea-and": "./books/dorieClarkStandOutHowToFindYourBreakthroughIdeaAndExpanded.ts",
   "doubt-is-their-product": "./books/doubtIsTheirProductExpanded.ts",
+  "dying-for-a-paycheck": "./books/dyingForAPaycheckExpanded.ts",
   "dzogchen-heart-essence-of-the-great-perfection": "./books/dzogchenHeartEssenceOfTheGreatPerfectionExpanded.ts",
   "early-buddhist-meditation-studies": "./books/earlyBuddhistMeditationStudiesExpanded.ts",
   "early-buddhist-metaphysics": "./books/earlyBuddhistMetaphysicsExpanded.ts",
@@ -363,6 +365,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "leaders-eat-last-why-some-teams-pull-together-and-others-don": "./books/leadersEatLastWhySomeTeamsPullTogetherAndOthersDonExpanded.ts",
   "learn-like-a-pro": "./books/learnLikeAProExpanded.ts",
   "learned-optimism": "./books/learnedOptimismExpanded.ts",
+  "left-neglected": "./books/leftNeglectedExpanded.ts",
   "liespotting-proven-techniques-to-detect-deception": "./books/liespottingProvenTechniquesToDetectDeceptionExpanded.ts",
   "life-is-in-the-transitions": "./books/lifeIsInTheTransitionsExpanded.ts",
   "lighting-the-path-the-four-noble-truths": "./books/lightingThePathTheFourNobleTruthsExpanded.ts",
@@ -604,6 +607,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "sleeping-dreaming-and-dying-exploration-of-consciousness": "./books/sleepingDreamingAndDyingExplorationOfConsciousnessExpanded.ts",
   "slide-ology-the-art-and-science-of-creating-great-presentati": "./books/slideOlogyTheArtAndScienceOfCreatingGreatPresentatiExpanded.ts",
   "slight-edge": "./books/slightEdgeExpanded.ts",
+  "slow-productivity-the-lost-art-of-accomplishment-without-bur": "./books/slowProductivityTheLostArtOfAccomplishmentWithoutBurExpanded.ts",
   "small-boat-great-mountain-reflections-on-dzogchen-and-theravada": "./books/smallBoatGreatMountainReflectionsOnDzogchenAndTheravadaExpanded.ts",
   "smart-brevity-the-power-of-saying-more-with-less": "./books/smartBrevityThePowerOfSayingMoreWithLessExpanded.ts",
   "smart-choices": "./books/smartChoicesExpanded.ts",
@@ -796,6 +800,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-elephant-footprint-cula-hatthipadopama-sutta": "./books/theElephantFootprintCulaHatthipadopamaSuttaExpanded.ts",
   "the-elephant-in-the-brain-hidden-motives-in-everyday-life": "./books/theElephantInTheBrainHiddenMotivesInEverydayLifeExpanded.ts",
   "the-elimination-of-anger": "./books/theEliminationOfAngerExpanded.ts",
+  "the-end-of-burnout-why-work-drains-us-and-how-to-build-bette": "./books/theEndOfBurnoutWhyWorkDrainsUsAndHowToBuildBetteExpanded.ts",
   "the-energy-of-prayer-how-to-deepen-your-spiritual-practice": "./books/theEnergyOfPrayerHowToDeepenYourSpiritualPracticeExpanded.ts",
   "the-essence-of-buddha-abhidhamma": "./books/theEssenceOfBuddhaAbhidhammaExpanded.ts",
   "the-essence-of-the-heart-sutra": "./books/theEssenceOfTheHeartSutraExpanded.ts",
@@ -846,6 +851,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-itivuttaka-the-buddha-s-sayings": "./books/theItivuttakaTheBuddhaSSayingsExpanded.ts",
   "the-journey-from-abandonment-to-healing": "./books/theJourneyFromAbandonmentToHealingExpanded.ts",
   "the-joy-of-living-and-dying-in-peace": "./books/theJoyOfLivingAndDyingInPeaceExpanded.ts",
+  "the-joy-of-missing-out-jomo": "./books/theJoyOfMissingOutJomoExpanded.ts",
   "the-kalama-sutta-the-buddha-s-charter-of-free-inquiry": "./books/theKalamaSuttaTheBuddhaSCharterOfFreeInquiryExpanded.ts",
   "the-karma-of-questions-essays-on-the-buddhist-path": "./books/theKarmaOfQuestionsEssaysOnTheBuddhistPathExpanded.ts",
   "the-key-to-liberation": "./books/theKeyToLiberationExpanded.ts",
@@ -1016,6 +1022,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "transformation-and-healing-satipatthana-sutra": "./books/transformationAndHealingSatipatthanaSutraExpanded.ts",
   "transforming-the-mind-generating-compassion": "./books/transformingTheMindGeneratingCompassionExpanded.ts",
   "transitions-making-sense-of-life-s-changes": "./books/transitionsMakingSenseOfLifeSChangesExpanded.ts",
+  "trauma-and-recovery-the-aftermath-of-violence": "./books/traumaAndRecoveryTheAftermathOfViolenceExpanded.ts",
   "treasure-of-the-dhamma": "./books/treasureOfTheDhammaExpanded.ts",
   "treasury-of-truth-illustrated-dhammapada": "./books/treasuryOfTruthIllustratedDhammapadaExpanded.ts",
   "treatise-on-the-vipassana-insight-practice": "./books/treatiseOnTheVipassanaInsightPracticeExpanded.ts",
@@ -1050,9 +1057,11 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "we-need-to-talk-how-to-have-conversations-that-matter": "./books/weNeedToTalkHowToHaveConversationsThatMatterExpanded.ts",
   "what-buddhists-believe": "./books/whatBuddhistsBelieveExpanded.ts",
   "what-color-is-your-parachute": "./books/whatColorIsYourParachuteExpanded.ts",
+  "what-doesn-t-kill-us-the-new-psychology-of-posttraumatic-gro": "./books/whatDoesnTKillUsTheNewPsychologyOfPosttraumaticGroExpanded.ts",
   "what-every-body-is-saying": "./books/whatEveryBodyIsSayingExpanded.ts",
   "what-the-buddha-taught": "./books/whatTheBuddhaTaughtExpanded.ts",
   "when-awareness-becomes-natural": "./books/whenAwarenessBecomesNaturalExpanded.ts",
+  "when-bad-things-happen-to-good-people": "./books/whenBadThingsHappenToGoodPeopleExpanded.ts",
   "when-i-say-no-i-feel-guilty": "./books/whenISayNoIFeelGuiltyExpanded.ts",
   "when-panic-attacks": "./books/whenPanicAttacksExpanded.ts",
   "when-the-iron-eagle-flies-buddhism-for-the-west": "./books/whenTheIronEagleFliesBuddhismForTheWestExpanded.ts",
@@ -1070,6 +1079,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "wim-hof-the-wim-hof-method": "./books/wimHofTheWimHofMethodExpanded.ts",
   "win-every-argument-the-art-of-debating-persuading-and-public": "./books/winEveryArgumentTheArtOfDebatingPersuadingAndPublicExpanded.ts",
   "winning-body-language": "./books/winningBodyLanguageExpanded.ts",
+  "wintering-the-power-of-rest-and-retreat-in-difficult-times": "./books/winteringThePowerOfRestAndRetreatInDifficultTimesExpanded.ts",
   "wired-for-love": "./books/wiredForLoveExpanded.ts",
   "wired-for-story-the-writer-s-guide-to-using-brain-science-to": "./books/wiredForStoryTheWriterSGuideToUsingBrainScienceToExpanded.ts",
   "wired-for-wealth": "./books/wiredForWealthExpanded.ts",
@@ -5259,6 +5269,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "burnout-the-secret-to-unlocking-the-stress-cycle",
+    "title": "Burnout: The Secret to Unlocking the Stress Cycle",
+    "author": "Emily Nagoski & Amelia Nagoski",
+    "category": "Productivity",
+    "subcategory": "Energy & Burnout",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Eliminating work problems does not eliminate the physical wear-and-tear trapped in your body. True renewal happens only when you actively complete the biological stress cycle every single day.",
+      "coreThesis": "Stress is an involuntary physical cycle that must be actively completed in the body, completely separate from removing the intellectual stressor that triggered it.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Burnout: The Secret to Unlocking the Stress Cycle"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "can-t-hurt-me-master-your-mind-and-defy-the-odds",
     "title": "Can't Hurt Me: Master Your Mind and Defy the Odds",
     "author": "David Goggins",
@@ -8400,6 +8445,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "dying-for-a-paycheck",
+    "title": "Dying for a Paycheck",
+    "author": "Jeffrey Pfeffer",
+    "category": "Productivity",
+    "subcategory": "Energy & Burnout",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop trading your physiological health for professional achievement. Just as world-class athletes balance intense exertion with structured recovery, sustainable success requires designing high-autonomy environments that protect your core energy reserves.",
+      "coreThesis": "Human sustainability is the ultimate foundation of lasting performance; sacrificing personal health, autonomy, and sleep for a job is a design flaw that destroys both individual vitality and collective achievement.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Dying for a Paycheck"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
       "Strategy",
       "Mental Models"
     ]
@@ -13785,6 +13865,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "left-neglected",
+    "title": "Left Neglected",
+    "author": "Lisa Genova",
+    "category": "Personal Growth",
+    "subcategory": "Overcoming Trauma & Adversity",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 195,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When a catastrophic car crash destroys a high-powered executive's ability to perceive the left half of her physical world, she is forced to confront how her breakneck career had already blinded her to the human half of her life. Lisa Genova uses a rare neurological condition as a vivid magnifying glass to reveal how modern overachievement amputates our awareness\\u2014and how radical attention can rebuild an antifragile existence.",
+      "coreThesis": "Attention is not an infinite resource that can be endlessly partitioned; when we run our lives at maximum speed, our mental searchlight narrows until half of our reality becomes invisible. True resilience requires deliberately slowing down the machine, admitting vulnerability, and retraining our awareness to see the whole plate.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Left Neglected"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Personal Growth",
       "Strategy",
       "Mental Models"
     ]
@@ -22213,6 +22328,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "slow-productivity-the-lost-art-of-accomplishment-without-bur",
+    "title": "Slow Productivity: The Lost Art of Accomplishment Without Burnout",
+    "author": "Cal Newport",
+    "category": "Productivity",
+    "subcategory": "Energy & Burnout",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2024,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop mistaking frantic motion for meaningful achievement. Master the three timeless principles of slow productivity to produce career-defining work without burning out.",
+      "coreThesis": "True accomplishment is measured by the enduring quality of what you complete over years, not the volume of frantic activity you display each day.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Slow Productivity: The Lost Art of Accomplishment Without Burnout"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "small-boat-great-mountain-reflections-on-dzogchen-and-theravada",
     "title": "Small Boat, Great Mountain: Reflections on Dzogchen and Theravada",
     "author": "Ajahn Amaro",
@@ -28926,6 +29076,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-end-of-burnout-why-work-drains-us-and-how-to-build-bette",
+    "title": "The End of Burnout: Why Work Drains Us and How to Build Better Lives",
+    "author": "Jonathan Malesic",
+    "category": "Productivity",
+    "subcategory": "Energy & Burnout",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2022,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop treating career overload like a personal stamina deficit and reclaim your agency from the trap of work worship. This book shows you how to dethrone your job as your sole identity and build an energizing, balanced life with unbreakable everyday boundaries.",
+      "coreThesis": "Burnout occurs when there is an unbridgeable canyon between the spiritual meaning we expect from work and the cold economic reality jobs provide. Healing requires dethroning work as our primary identity and rebuilding our lives around community, leisure, and shared human dignity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The End of Burnout: Why Work Drains Us and How to Build Better Lives"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-energy-of-prayer-how-to-deepen-your-spiritual-practice",
     "title": "The Energy of Prayer: How to Deepen Your Spiritual Practice",
     "author": "Thich Nhat Hanh",
@@ -30668,6 +30853,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-joy-of-missing-out-jomo",
+    "title": "The Joy of Missing Out (JOMO)",
+    "author": "Christina Crook",
+    "category": "Productivity",
+    "subcategory": "Energy & Burnout",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop running your life on high-alert overdrive. The Joy of Missing Out provides the practical blueprint to ditch reactive digital friction and build an intentional, deeply focused daily rhythm.",
+      "coreThesis": "True freedom and lasting energy do not come from consuming more information, but from strategically cutting the noise to protect the few things that truly matter.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Joy of Missing Out (JOMO)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
       "Strategy",
       "Mental Models"
     ]
@@ -36614,6 +36834,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "trauma-and-recovery-the-aftermath-of-violence",
+    "title": "Trauma and Recovery: The Aftermath of Violence",
+    "author": "Judith L. Herman",
+    "category": "Personal Growth",
+    "subcategory": "Overcoming Trauma & Adversity",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 1992,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Trauma is not a personal character flaw; it is a profound biological and social electrical surge that trips your internal safety breakers. Recovery is the step-by-step restoration of control, narrative, and community trust.",
+      "coreThesis": "Trauma overpowers and isolates human beings by destroying autonomy and trust; genuine recovery can only happen by methodically rebuilding safety, narrating truth, and reconnecting with community.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Trauma and Recovery: The Aftermath of Violence"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Personal Growth",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "treasure-of-the-dhamma",
     "title": "Treasure of the Dhamma",
     "author": "K. Sri Dhammananda",
@@ -37803,6 +38058,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "what-doesn-t-kill-us-the-new-psychology-of-posttraumatic-gro",
+    "title": "What Doesn't Kill Us: The New Psychology of Posttraumatic Growth",
+    "author": "Stephen Joseph",
+    "category": "Personal Growth",
+    "subcategory": "Overcoming Trauma & Adversity",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Adversity does not just test our breaking point; it exposes the hidden mechanics of human adaptation. Trauma shatters our baseline assumptions about safety and control, creating the rare structural freedom to rebuild a richer, wiser, and more intentional life.",
+      "coreThesis": "Trauma is not merely a wound that leaves us scarred; it is an involuntary cognitive earthquake that demolishes fragile illusions, granting us the structural materials to build a far more resilient, purposeful reality.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "What Doesn't Kill Us: The New Psychology of Posttraumatic Growth"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Personal Growth",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "what-every-body-is-saying",
     "title": "What Every BODY is Saying",
     "author": "Joe Navarro with Marvin Karlins",
@@ -37903,6 +38193,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "when-bad-things-happen-to-good-people",
+    "title": "When Bad Things Happen to Good People",
+    "author": "Harold S. Kushner",
+    "category": "Personal Growth",
+    "subcategory": "Overcoming Trauma & Adversity",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1981,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When disaster strikes, we reflexively search for hidden faults in ourselves or a cosmic masterplan, but what if the universe simply runs on unyielding natural laws and genuine randomness? This groundbreaking inquiry dismantles moral guilt around tragedy, showing that true resilience begins when we stop asking why misfortune happened and start mobilizing how we respond.",
+      "coreThesis": "Pain and catastrophe are not moral verdicts or deliberate punishments; they are natural occurrences in an impartial physical world, and our power lies not in deciphering why they hit, but in choosing courage, connection, and purposeful renewal in response.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "When Bad Things Happen to Good People"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Personal Growth",
       "Strategy",
       "Mental Models"
     ]
@@ -38498,6 +38823,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "wintering-the-power-of-rest-and-retreat-in-difficult-times",
+    "title": "Wintering: The Power of Rest and Retreat in Difficult Times",
+    "author": "Katherine May",
+    "category": "Productivity",
+    "subcategory": "Energy & Burnout",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 85,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop treating exhaustion as a personal failure\\u2014winter is not the enemy of peak performance, but the biological pit stop that powers it. Katherine May delivers a masterclass in strategic retreat, showing you how to downshift friction, replenish depleted reserves, and return stronger.",
+      "coreThesis": "Rest is not a luxury reward earned after continuous burnout; it is an active, recurring biological necessity required to survive adversity, rebuild stamina, and sustain long-term peak performance.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Wintering: The Power of Rest and Retreat in Difficult Times"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
       "Strategy",
       "Mental Models"
     ]
