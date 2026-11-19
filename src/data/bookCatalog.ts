@@ -158,6 +158,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "deepening-insight-a-practical-guide-to-the-buddhas-incremental-path": "./books/deepeningInsightAPracticalGuideToTheBuddhasIncrementalPathExpanded.ts",
   "dependent-arising-a-practical-guide-to-early-buddhist-teachings": "./books/dependentArisingAPracticalGuideToEarlyBuddhistTeachingsExpanded.ts",
   "dependent-origination-paticca-samuppada": "./books/dependentOriginationPaticcaSamuppadaExpanded.ts",
+  "designing-your-career": "./books/designingYourCareerExpanded.ts",
   "designing-your-life-how-to-build-a-well-lived-joyful-life": "./books/designingYourLifeHowToBuildAWellLivedJoyfulLifeExpanded.ts",
   "dhamma-everywhere-freeing-the-mind-across-all-postures": "./books/dhammaEverywhereFreeingTheMindAcrossAllPosturesExpanded.ts",
   "dhamma-padetha-collection-of-insight-essays": "./books/dhammaPadethaCollectionOfInsightEssaysExpanded.ts",
@@ -267,6 +268,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "going-for-refuge-and-taking-the-precepts": "./books/goingForRefugeAndTakingThePreceptsExpanded.ts",
   "going-home-jesus-and-buddha-as-brothers": "./books/goingHomeJesusAndBuddhaAsBrothersExpanded.ts",
   "good-reasons-for-better-arguments": "./books/goodReasonsForBetterArgumentsExpanded.ts",
+  "great-at-work-how-top-performers-do-less-work-better-and-ach": "./books/greatAtWorkHowTopPerformersDoLessWorkBetterAndAchExpanded.ts",
   "great-disciples-of-the-buddha-their-lives-and-legacy": "./books/greatDisciplesOfTheBuddhaTheirLivesAndLegacyExpanded.ts",
   "guide-through-the-abhidhamma-pitaka": "./books/guideThroughTheAbhidhammaPitakaExpanded.ts",
   "happy-money-the-science-of-happier-spending": "./books/happyMoneyTheScienceOfHappierSpendingExpanded.ts",
@@ -350,6 +352,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "like-a-clear-sky-dhamma-reflections": "./books/likeAClearSkyDhammaReflectionsExpanded.ts",
   "limitless": "./books/limitlessExpanded.ts",
   "linked-how-everything-is-connected": "./books/linkedHowEverythingIsConnectedExpanded.ts",
+  "linship-are-you-indispensable": "./books/linshipAreYouIndispensableExpanded.ts",
   "listen-like-you-mean-it-reclaiming-the-lost-art-of-true-conn": "./books/listenLikeYouMeanItReclaimingTheLostArtOfTrueConnExpanded.ts",
   "live-in-a-better-way-reflections-on-truth-love-and-happiness": "./books/liveInABetterWayReflectionsOnTruthLoveAndHappinessExpanded.ts",
   "living-buddha-living-christ": "./books/livingBuddhaLivingChristExpanded.ts",
@@ -387,6 +390,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "manual-of-the-path-to-higher-knowledge-patthanuddesa-dipani": "./books/manualOfThePathToHigherKnowledgePatthanuddesaDipaniExpanded.ts",
   "manual-of-the-supreme-man-uttamapurisa-dipani": "./books/manualOfTheSupremeManUttamapurisaDipaniExpanded.ts",
   "many-ways-to-nirvana-reflections-on-happiness": "./books/manyWaysToNirvanaReflectionsOnHappinessExpanded.ts",
+  "mastering-the-complex-sale": "./books/masteringTheComplexSaleExpanded.ts",
   "mating-in-captivity-unlocking-erotic-intelligence": "./books/matingInCaptivityUnlockingEroticIntelligenceExpanded.ts",
   "meditation-instructions-for-intensive-practice": "./books/meditationInstructionsForIntensivePracticeExpanded.ts",
   "meditation-now-inner-peace-through-inner-wisdom": "./books/meditationNowInnerPeaceThroughInnerWisdomExpanded.ts",
@@ -501,6 +505,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "quit-like-a-millionaire": "./books/quitLikeAMillionaireExpanded.ts",
   "radical-acceptance": "./books/radicalAcceptanceExpanded.ts",
   "radical-buddhism-the-early-pali-suttas": "./books/radicalBuddhismTheEarlyPaliSuttasExpanded.ts",
+  "radical-candor-be-a-kick-ass-boss-without-losing-your-humani": "./books/radicalCandorBeAKickAssBossWithoutLosingYourHumaniExpanded.ts",
   "radical-compassion": "./books/radicalCompassionExpanded.ts",
   "range-why-generalists-triumph-in-a-specialized-world": "./books/rangeWhyGeneralistsTriumphInASpecializedWorldExpanded.ts",
   "rational-recovery": "./books/rationalRecoveryExpanded.ts",
@@ -603,6 +608,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "storyworthy-engage-teach-persuade-and-change-your-life-throu": "./books/storyworthyEngageTeachPersuadeAndChangeYourLifeThrouExpanded.ts",
   "straight-from-the-heart-dhamma-talks": "./books/straightFromTheHeartDhammaTalksExpanded.ts",
   "strangers-to-ourselves-discovering-the-adaptive-unconscious": "./books/strangersToOurselvesDiscoveringTheAdaptiveUnconsciousExpanded.ts",
+  "strategize-to-win": "./books/strategizeToWinExpanded.ts",
   "super-thinking-the-big-book-of-mental-models": "./books/superThinkingTheBigBookOfMentalModelsExpanded.ts",
   "supercommunicators-how-to-unlock-the-secret-language-of-conn": "./books/supercommunicatorsHowToUnlockTheSecretLanguageOfConnExpanded.ts",
   "superconnector-stop-networking-and-start-building-business-r": "./books/superconnectorStopNetworkingAndStartBuildingBusinessRExpanded.ts",
@@ -753,6 +759,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-face-of-emotion": "./books/theFaceOfEmotionExpanded.ts",
   "the-fifth-discipline": "./books/theFifthDisciplineExpanded.ts",
   "the-fire-sermon-adittapariyaya-sutta": "./books/theFireSermonAdittapariyayaSuttaExpanded.ts",
+  "the-first-90-days-proven-strategies-for-getting-up-to-speed-": "./books/theFirst90DaysProvenStrategiesForGettingUpToSpeedExpanded.ts",
   "the-five-mental-hindrances-and-their-conquest": "./books/theFiveMentalHindrancesAndTheirConquestExpanded.ts",
   "the-flowers-of-enlightenment-dhammapada-chapter-4": "./books/theFlowersOfEnlightenmentDhammapadaChapter4Expanded.ts",
   "the-forty-rules-of-love": "./books/theFortyRulesOfLoveExpanded.ts",
@@ -886,6 +893,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-soulful-art-of-persuasion": "./books/theSoulfulArtOfPersuasionExpanded.ts",
   "the-sound-of-silence-selected-teachings": "./books/theSoundOfSilenceSelectedTeachingsExpanded.ts",
   "the-spectrum-of-buddhism": "./books/theSpectrumOfBuddhismExpanded.ts",
+  "the-start-up-of-you": "./books/theStartUpOfYouExpanded.ts",
   "the-state-of-affairs-rethinking-infidelity": "./books/theStateOfAffairsRethinkingInfidelityExpanded.ts",
   "the-state-of-mind-called-beautiful": "./books/theStateOfMindCalledBeautifulExpanded.ts",
   "the-status-game-on-social-position-and-how-we-use-it": "./books/theStatusGameOnSocialPositionAndHowWeUseItExpanded.ts",
@@ -907,6 +915,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-truth-detector-an-ex-fbi-agent-s-guide-for-getting-peopl": "./books/theTruthDetectorAnExFbiAgentSGuideForGettingPeoplExpanded.ts",
   "the-udana-inspired-utterances-of-the-buddha": "./books/theUdanaInspiredUtterancesOfTheBuddhaExpanded.ts",
   "the-universe-in-a-single-atom-convergence-of-science-and-spirituality": "./books/theUniverseInASingleAtomConvergenceOfScienceAndSpiritualityExpanded.ts",
+  "the-unspoken-rules-secrets-to-starting-your-career-off-right": "./books/theUnspokenRulesSecretsToStartingYourCareerOffRightExpanded.ts",
   "the-upside-of-irrationality": "./books/theUpsideOfIrrationalityExpanded.ts",
   "the-upward-spiral": "./books/theUpwardSpiralExpanded.ts",
   "the-uses-of-argument": "./books/theUsesOfArgumentExpanded.ts",
@@ -982,6 +991,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "was-the-buddha-a-pessimist": "./books/wasTheBuddhaAPessimistExpanded.ts",
   "we-need-to-talk-how-to-have-conversations-that-matter": "./books/weNeedToTalkHowToHaveConversationsThatMatterExpanded.ts",
   "what-buddhists-believe": "./books/whatBuddhistsBelieveExpanded.ts",
+  "what-color-is-your-parachute": "./books/whatColorIsYourParachuteExpanded.ts",
   "what-every-body-is-saying": "./books/whatEveryBodyIsSayingExpanded.ts",
   "what-the-buddha-taught": "./books/whatTheBuddhaTaughtExpanded.ts",
   "when-awareness-becomes-natural": "./books/whenAwarenessBecomesNaturalExpanded.ts",
@@ -6550,6 +6560,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "designing-your-career",
+    "title": "Designing Your Career",
+    "author": "Stanford Life Design Lab curriculum.",
+    "category": "Leadership & Career",
+    "subcategory": "Career Growth & Promotion",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop treating career growth like an engineering blueprint with a single predefined destination and start executing it like an agile product design. By systematically prototyping low-risk experiments and interrogating real-world feedback, you build competitive moats and capture upside while eliminating catastrophic downside.",
+      "coreThesis": "A successful career cannot be analyzed or predicted in advance; it must be built dynamically through iterative prototypes, bias to action, and strategic adaptation to real-world market signals.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Designing Your Career"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "designing-your-life-how-to-build-a-well-lived-joyful-life",
     "title": "Designing Your Life: How to Build a Well-Lived, Joyful Life",
     "author": "Bill Burnett & Dave Evans",
@@ -10362,6 +10407,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "great-at-work-how-top-performers-do-less-work-better-and-ach",
+    "title": "Great at Work: How Top Performers Do Less, Work Better, and Achieve More",
+    "author": "Morten T. Hansen",
+    "category": "Leadership & Career",
+    "subcategory": "Career Growth & Promotion",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Hard work alone is a losing strategy. Peak performers don't work longer hours; they ruthlessly cut away secondary tasks and execute a tiny set of high-leverage priorities with obsessive precision.",
+      "coreThesis": "Elite performance is driven by deliberate subtraction followed by fanatical depth, not the sheer volume of hours logged.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Great at Work: How Top Performers Do Less, Work Better, and Achieve More"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "great-disciples-of-the-buddha-their-lives-and-legacy",
     "title": "Great Disciples of the Buddha: Their Lives and Legacy",
     "author": "Nyanaponika Thera & Hellmuth Hecker",
@@ -13264,6 +13344,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "linship-are-you-indispensable",
+    "title": "Linship: Are You Indispensable?",
+    "author": "Seth Godin",
+    "category": "Leadership & Career",
+    "subcategory": "Career Growth & Promotion",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "If your job comes with an instruction manual, someone cheaper or faster will inevitably replace you. To build an unassailable career moat, you must stop operating as an interchangeable cog and become a linchpin\\u2014an indispensable orchestrator who solves messy ambiguity and ships critical work.",
+      "coreThesis": "Safety in the modern economy is an illusion; the only durable career security comes from stepping into ambiguity, doing emotional labor without a manual, and becoming the vital connector an organization cannot afford to lose.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Linship: Are You Indispensable?"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "listen-like-you-mean-it-reclaiming-the-lost-art-of-true-conn",
     "title": "Listen Like You Mean It: Reclaiming the Lost Art of True Connection",
     "author": "Ximena Vengoechea",
@@ -14553,6 +14668,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "mastering-the-complex-sale",
+    "title": "Mastering the Complex Sale",
+    "author": "Jeff Thull",
+    "category": "Leadership & Career",
+    "subcategory": "Career Growth & Promotion",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2003,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop pitching capabilities to gatekeepers and start diagnosing costly business bottlenecks with corporate leaders. High-stakes sales are won when you master the economics of the problem before offering a cure.",
+      "coreThesis": "Enterprise sales are won on the depth of your diagnosis rather than the polish of your pitch: when you quantify the customer's cost of inaction, price ceases to be the governing decision criterion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mastering the Complex Sale"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
@@ -18543,6 +18693,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "radical-candor-be-a-kick-ass-boss-without-losing-your-humani",
+    "title": "Radical Candor: Be a Kick-Ass Boss Without Losing Your Humanity",
+    "author": "Kim Scott",
+    "category": "Leadership & Career",
+    "subcategory": "Team Leadership",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most managers fail because they choose between being liked and demanding excellence. Radical Candor shows you how to challenge people directly while proving you care personally, turning honest feedback into a sustainable competitive edge.",
+      "coreThesis": "Exceptional leadership requires pairing deep personal care with uncompromising direct challenge, ensuring criticism accelerates growth rather than breeding resentment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Radical Candor: Be a Kick-Ass Boss Without Losing Your Humanity"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "radical-compassion",
     "title": "Radical Compassion",
     "author": "Tara Brach",
@@ -22101,6 +22286,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "strategize-to-win",
+    "title": "Strategize to Win",
+    "author": "Carla A. Harris",
+    "category": "Leadership & Career",
+    "subcategory": "Career Growth & Promotion",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Hard work alone will not earn you a seat at the decision table; career advancement is an intentional game of leverage, perception, and political capital. Carla Harris delivers a tactical playbook on how to build performance currency, bank relationship equity, and engineer high-stakes promotion outcomes.",
+      "coreThesis": "Excellence in execution gets you noticed, but relationships get you promoted; winning in any organization requires strategically converting early performance currency into political relationship capital.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Strategize to Win"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
@@ -27350,6 +27570,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-first-90-days-proven-strategies-for-getting-up-to-speed-",
+    "title": "The First 90 Days: Proven Strategies for Getting Up to Speed Faster and Smarter",
+    "author": "Michael D. Watkins",
+    "category": "Leadership & Career",
+    "subcategory": "Career Growth & Promotion",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2003,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Transitions are make-or-break crucible moments where small missteps compound into irreversible failure. This playbook provides a battle-tested blueprint to seize momentum, neutralize risk, and reach the breakeven point faster.",
+      "coreThesis": "Leadership transitions are asymmetric risk zones where early actions produce lasting operational trajectories; methodically accelerating your learning curve and securing early alignment cuts the time required to become a net value producer.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The First 90 Days: Proven Strategies for Getting Up to Speed Faster and Smarter"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-five-mental-hindrances-and-their-conquest",
     "title": "The Five Mental Hindrances and Their Conquest",
     "author": "Nyanaponika Thera",
@@ -31998,6 +32253,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-start-up-of-you",
+    "title": "The Start-up of You",
+    "author": "Reid Hoffman & Ben Casnocha",
+    "category": "Leadership & Career",
+    "subcategory": "Career Growth & Promotion",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Traditional career ladders have collapsed into turbulent white-water rapids where loyalty guarantees nothing. To survive and dominate, you must run your career like an agile Silicon Valley startup: stay in permanent beta, engineer a defensible moat, and leverage strategic alliances to hunt asymmetric upside.",
+      "coreThesis": "You are the founder and CEO of your own career enterprise, which demands an adaptive entrepreneurial operating model: stay in permanent beta, plan for iterative pivots, and leverage high-trust networks to capture asymmetric breakout opportunities.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Start-up of You"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-state-of-affairs-rethinking-infidelity",
     "title": "The State of Affairs: Rethinking Infidelity",
     "author": "Esther Perel",
@@ -32727,6 +33017,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-unspoken-rules-secrets-to-starting-your-career-off-right",
+    "title": "The Unspoken Rules: Secrets to Starting Your Career Off Right",
+    "author": "Gorick Ng",
+    "category": "Leadership & Career",
+    "subcategory": "Career Growth & Promotion",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 2021,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Landing a job gets you onto the playing field, but career trajectory is dictated by a shadow scorecard nobody writes down. Master the hidden levers of competence, commitment, and compatibility to turn raw effort into lasting institutional leverage.",
+      "coreThesis": "Career advancement is not determined by raw effort or technical pedigree alone, but by decoding the unspoken scorecard of competence, commitment, and compatibility to eliminate operational drag for your team.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Unspoken Rules: Secrets to Starting Your Career Off Right"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
@@ -35348,6 +35673,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "what-color-is-your-parachute",
+    "title": "What Color Is Your Parachute?",
+    "author": "Richard N. Bolles",
+    "category": "Leadership & Career",
+    "subcategory": "Career Growth & Promotion",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1970,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop blasting resumes into black holes like a gambler buying lottery tickets. The job search is an asymmetrical campaign where self-inventory, hidden networks, and diagnostic interviewing dictate your market value.",
+      "coreThesis": "The hiring market is built on risk aversion, not fairness; reverse the odds by conducting an exhaustive personal inventory and pitching direct solutions to the specific leaders empowered to hire you.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "What Color Is Your Parachute?"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Leadership & Career",
       "Strategy",
       "Mental Models"
     ]
