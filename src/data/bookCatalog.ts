@@ -75,6 +75,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "awake-it-s-your-turn": "./books/awakeItSYourTurnExpanded.ts",
   "awakening-the-mind-lightening-the-heart": "./books/awakeningTheMindLighteningTheHeartExpanded.ts",
   "awareness-alone-is-not-enough": "./books/awarenessAloneIsNotEnoughExpanded.ts",
+  "awe-the-new-science-of-everyday-wonder-and-how-it-can-transf": "./books/aweTheNewScienceOfEverydayWonderAndHowItCanTransfExpanded.ts",
   "banter-master-small-talk-sexy-banter-and-flirting": "./books/banterMasterSmallTalkSexyBanterAndFlirtingExpanded.ts",
   "bargaining-for-advantage-negotiation-strategies-for-reasonab": "./books/bargainingForAdvantageNegotiationStrategiesForReasonabExpanded.ts",
   "be-as-you-are-the-teachings-of-sri-ramana-maharshi": "./books/beAsYouAreTheTeachingsOfSriRamanaMaharshiExpanded.ts",
@@ -325,6 +326,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "hope-and-help-for-your-nerves": "./books/hopeAndHelpForYourNervesExpanded.ts",
   "how-not-to-be-wrong-the-power-of-mathematical-thinking": "./books/howNotToBeWrongThePowerOfMathematicalThinkingExpanded.ts",
   "how-to-be-a-stoic": "./books/howToBeAStoicExpanded.ts",
+  "how-to-change-your-mind-what-the-new-science-of-psychedelics": "./books/howToChangeYourMindWhatTheNewScienceOfPsychedelicsExpanded.ts",
   "how-to-decide": "./books/howToDecideExpanded.ts",
   "how-to-have-impossible-conversations": "./books/howToHaveImpossibleConversationsExpanded.ts",
   "how-to-live-without-fear-and-worry": "./books/howToLiveWithoutFearAndWorryExpanded.ts",
@@ -418,6 +420,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "love-sense-the-revolutionary-new-science-of-romantic-relatio": "./books/loveSenseTheRevolutionaryNewScienceOfRomanticRelatioExpanded.ts",
   "loving-kindness-in-plain-english": "./books/lovingKindnessInPlainEnglishExpanded.ts",
   "lovingkindness-the-revolutionary-art-of-happiness": "./books/lovingkindnessTheRevolutionaryArtOfHappinessExpanded.ts",
+  "lsd-and-the-mind-of-the-universe": "./books/lsdAndTheMindOfTheUniverseExpanded.ts",
   "maha-kassapa-father-of-the-sangha": "./books/mahaKassapaFatherOfTheSanghaExpanded.ts",
   "maha-moggallana-master-of-psychic-power": "./books/mahaMoggallanaMasterOfPsychicPowerExpanded.ts",
   "make-it-stick-the-science-of-successful-learning": "./books/makeItStickTheScienceOfSuccessfulLearningExpanded.ts",
@@ -499,6 +502,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "nicomachean-ethics": "./books/nicomacheanEthicsExpanded.ts",
   "no-ajahn-chah-reflections-of-a-master": "./books/noAjahnChahReflectionsOfAMasterExpanded.ts",
   "no-bad-parts-healing-trauma-and-restoring-wholeness-with-the": "./books/noBadPartsHealingTraumaAndRestoringWholenessWithTheExpanded.ts",
+  "no-boundary-eastern-and-western-approaches-to-personal-growt": "./books/noBoundaryEasternAndWesternApproachesToPersonalGrowtExpanded.ts",
   "no-drama-discipline": "./books/noDramaDisciplineExpanded.ts",
   "no-hard-feelings-the-secret-power-of-embracing-emotions-at-w": "./books/noHardFeelingsTheSecretPowerOfEmbracingEmotionsAtWExpanded.ts",
   "no-inner-core-an-introduction-to-the-doctrine-of-anatta": "./books/noInnerCoreAnIntroductionToTheDoctrineOfAnattaExpanded.ts",
@@ -798,6 +802,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-conscious-parent-transforming-ourselves-empowering-our-c": "./books/theConsciousParentTransformingOurselvesEmpoweringOurCExpanded.ts",
   "the-consolations-of-philosophy": "./books/theConsolationsOfPhilosophyExpanded.ts",
   "the-copywriter-s-handbook": "./books/theCopywriterSHandbookExpanded.ts",
+  "the-cosmic-game-explorations-of-the-frontiers-of-human-consc": "./books/theCosmicGameExplorationsOfTheFrontiersOfHumanConscExpanded.ts",
   "the-courage-to-be-disliked": "./books/theCourageToBeDislikedExpanded.ts",
   "the-covert-passive-aggressive-narcissist": "./books/theCovertPassiveAggressiveNarcissistExpanded.ts",
   "the-craft-of-scientific-presentations": "./books/theCraftOfScientificPresentationsExpanded.ts",
@@ -838,6 +843,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-distracted-mind-ancient-brains-in-a-high-tech-world": "./books/theDistractedMindAncientBrainsInAHighTechWorldExpanded.ts",
   "the-divided-mind-the-epidemic-of-mindbody-disorders": "./books/theDividedMindTheEpidemicOfMindbodyDisordersExpanded.ts",
   "the-doctrine-of-anatta-in-the-nikayas": "./books/theDoctrineOfAnattaInTheNikayasExpanded.ts",
+  "the-doors-of-perception": "./books/theDoorsOfPerceptionExpanded.ts",
   "the-drama-of-the-gifted-child-the-search-for-the-true-self": "./books/theDramaOfTheGiftedChildTheSearchForTheTrueSelfExpanded.ts",
   "the-e-myth-revisited-why-most-small-businesses-don-t-work-an": "./books/theEMythRevisitedWhyMostSmallBusinessesDonTWorkAnExpanded.ts",
   "the-easy-way-to-stop-smoking-stop-drinking": "./books/theEasyWayToStopSmokingStopDrinkingExpanded.ts",
@@ -855,6 +861,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-experience-of-samadhi-in-depth-exploration": "./books/theExperienceOfSamadhiInDepthExplorationExpanded.ts",
   "the-experiential-path-of-satipatthana": "./books/theExperientialPathOfSatipatthanaExpanded.ts",
   "the-face-of-emotion": "./books/theFaceOfEmotionExpanded.ts",
+  "the-farther-reaches-of-human-nature": "./books/theFartherReachesOfHumanNatureExpanded.ts",
   "the-fearless-organization-creating-psychological-safety-in-t": "./books/theFearlessOrganizationCreatingPsychologicalSafetyInTExpanded.ts",
   "the-fifth-discipline": "./books/theFifthDisciplineExpanded.ts",
   "the-fire-sermon-adittapariyaya-sutta": "./books/theFireSermonAdittapariyayaSuttaExpanded.ts",
@@ -1009,6 +1016,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-soulful-art-of-persuasion": "./books/theSoulfulArtOfPersuasionExpanded.ts",
   "the-sound-of-silence-selected-teachings": "./books/theSoundOfSilenceSelectedTeachingsExpanded.ts",
   "the-spectrum-of-buddhism": "./books/theSpectrumOfBuddhismExpanded.ts",
+  "the-spectrum-of-consciousness": "./books/theSpectrumOfConsciousnessExpanded.ts",
   "the-start-up-of-you": "./books/theStartUpOfYouExpanded.ts",
   "the-state-of-affairs-rethinking-infidelity": "./books/theStateOfAffairsRethinkingInfidelityExpanded.ts",
   "the-state-of-mind-called-beautiful": "./books/theStateOfMindCalledBeautifulExpanded.ts",
@@ -1040,6 +1048,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-upside-of-irrationality": "./books/theUpsideOfIrrationalityExpanded.ts",
   "the-upward-spiral": "./books/theUpwardSpiralExpanded.ts",
   "the-uses-of-argument": "./books/theUsesOfArgumentExpanded.ts",
+  "the-varieties-of-religious-experience": "./books/theVarietiesOfReligiousExperienceExpanded.ts",
   "the-voice-book-caring-for-protecting-and-improving-your-voic": "./books/theVoiceBookCaringForProtectingAndImprovingYourVoicExpanded.ts",
   "the-war-of-art-break-through-the-blocks-and-win-your-inner-c": "./books/theWarOfArtBreakThroughTheBlocksAndWinYourInnerCExpanded.ts",
   "the-war-of-art": "./books/theWarOfArtExpanded.ts",
@@ -1085,6 +1094,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "transformation-and-healing-satipatthana-sutra": "./books/transformationAndHealingSatipatthanaSutraExpanded.ts",
   "transforming-the-mind-generating-compassion": "./books/transformingTheMindGeneratingCompassionExpanded.ts",
   "transitions-making-sense-of-life-s-changes": "./books/transitionsMakingSenseOfLifeSChangesExpanded.ts",
+  "transpersonal-psychology-in-psychoanalysis": "./books/transpersonalPsychologyInPsychoanalysisExpanded.ts",
   "trauma-and-recovery-the-aftermath-of-violence": "./books/traumaAndRecoveryTheAftermathOfViolenceExpanded.ts",
   "treasure-of-the-dhamma": "./books/treasureOfTheDhammaExpanded.ts",
   "treasury-of-truth-illustrated-dhammapada": "./books/treasuryOfTruthIllustratedDhammapadaExpanded.ts",
@@ -3788,6 +3798,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Awareness Alone Is Not Enough"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "awe-the-new-science-of-everyday-wonder-and-how-it-can-transf",
+    "title": "Awe: The New Science of Everyday Wonder and How It Can Transform Your Life",
+    "author": "Dacher Keltner",
+    "category": "Spirituality",
+    "subcategory": "Universal Non-Duality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2023,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step out of the claustrophobic room of the ego and discover the quiet, life-altering power of awe that is already waiting in every ordinary moment. Backed by cutting-edge neuroscience and ancient contemplative wisdom, this book reveals how everyday wonder dissolves chronic mental suffering and awakens you to universal belonging.",
+      "coreThesis": "Awe is our innate biological pathway to self-transcendence, quietening the anxious ego and directly awakening us to our boundless connection with all of existence.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Awe: The New Science of Everyday Wonder and How It Can Transform Your Life"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -12541,6 +12586,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "how-to-change-your-mind-what-the-new-science-of-psychedelics",
+    "title": "How to Change Your Mind: What the New Science of Psychedelics Teaches Us",
+    "author": "Michael Pollan",
+    "category": "Spirituality",
+    "subcategory": "Buddhism & Zen",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Our daily minds get stuck in rutted grooves of self-criticism, anxiety, and habit. Discover how shutting down the ego's control room reveals the vast, calm ocean of pure awareness that was always there.",
+      "coreThesis": "The ego is a temporary mental construct, not your true identity; quiet the brain's default narrator, and direct, luminous awareness naturally re-emerges.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "How to Change Your Mind: What the New Science of Psychedelics Teaches Us"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "how-to-decide",
     "title": "How to Decide",
     "author": "Annie Duke",
@@ -15794,6 +15874,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "lsd-and-the-mind-of-the-universe",
+    "title": "LSD and the Mind of the Universe",
+    "author": "Christopher M. Bache",
+    "category": "Spirituality",
+    "subcategory": "Universal Non-Duality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Over two decades of disciplined, high-dose inner explorations reveal that individual consciousness is an inseparable aperture of a living, loving cosmos. By stepping beyond the isolated ego, we uncover an oceanic awareness evolving toward a luminous, unified future.",
+      "coreThesis": "The human ego is not a separate entity but a temporary focal point of a living, boundless cosmic intelligence. By consciously surrendering our defensive boundaries, we discover that our deepest nature is pure, loving, and indestructible light.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "LSD and the Mind of the Universe"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "maha-kassapa-father-of-the-sangha",
     "title": "Maha Kassapa: Father of the Sangha",
     "author": "Hellmuth Hecker",
@@ -18621,6 +18736,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "no-boundary-eastern-and-western-approaches-to-personal-growt",
+    "title": "No Boundary: Eastern and Western Approaches to Personal Growth",
+    "author": "Ken Wilber",
+    "category": "Spirituality",
+    "subcategory": "Universal Non-Duality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1979,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "All human psychological suffering stems from drawing imaginary boundaries across a seamless reality. By tracing these boundary lines backward, you can journey from fragmented self-doubt into unbroken, spacious wholeness.",
+      "coreThesis": "Every psychological conflict arises from an imaginary boundary drawn across seamless awareness; true liberation is not winning the battle across the border, but recognizing that the border never existed.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "No Boundary: Eastern and Western Approaches to Personal Growth"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -29076,6 +29226,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-cosmic-game-explorations-of-the-frontiers-of-human-consc",
+    "title": "The Cosmic Game: Explorations of the Frontiers of Human Consciousness",
+    "author": "Stanislav Grof",
+    "category": "Spirituality",
+    "subcategory": "Universal Non-Duality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 1998,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You are not an isolated spark struggling inside a mechanical universe; you are the entire ocean experiencing itself through a temporary wave. Discover the profound architecture of non-dual consciousness and awaken from the spell of separate selfhood into lucid, compassionate presence.",
+      "coreThesis": "Individual consciousness is a purposeful disguise assumed by a single, infinite Source; waking up to this truth dissolves existential fear and reveals that all of life is a sacred, self-exploring dance.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Cosmic Game: Explorations of the Frontiers of Human Consciousness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-courage-to-be-disliked",
     "title": "The Courage to Be Disliked",
     "author": "Ichiro Kishimi & Fumitake Koga",
@@ -30476,6 +30661,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-doors-of-perception",
+    "title": "The Doors of Perception",
+    "author": "Aldous Huxley",
+    "category": "Spirituality",
+    "subcategory": "Universal Non-Duality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1954,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your everyday mind acts as an aggressive filter, screening out ninety-nine percent of reality just to help you survive. By opening the doors of perception, Aldous Huxley reveals what happens when that mental gate swings wide to reveal existence in its direct, luminous reality.",
+      "coreThesis": "The human brain functions as an evolutionary filter that restricts direct consciousness; when this filter relaxes, we awaken to the unmediated radiance and profound interconnectedness of reality as it truly is.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Doors of Perception"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-drama-of-the-gifted-child-the-search-for-the-true-self",
     "title": "The Drama of the Gifted Child: The Search for the True Self",
     "author": "Alice Miller",
@@ -31066,6 +31286,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-farther-reaches-of-human-nature",
+    "title": "The Farther Reaches of Human Nature",
+    "author": "Abraham H. Maslow",
+    "category": "Spirituality",
+    "subcategory": "Universal Non-Duality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 115,
+    "publishedYear": 1971,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Beyond mere survival and personal achievement lies an open horizon where you transcend the narrow ego and settle into living unity. Maslow reveals that deep spiritual realization is not an esoteric escape, but your innate human nature waking up to its ultimate home.",
+      "coreThesis": "Human potential does not terminate at individual self-fulfillment; its natural summit is self-transcendence, where the ego dissolves into selfless awareness and lives in devoted service to truth, beauty, and unity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Farther Reaches of Human Nature"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -36453,6 +36708,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-spectrum-of-consciousness",
+    "title": "The Spectrum of Consciousness",
+    "author": "Ken Wilber",
+    "category": "Spirituality",
+    "subcategory": "Universal Non-Duality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 1977,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "You are not an isolated ego trapped inside a bag of skin; you are pure awareness experiencing life through multiple lenses. Ken Wilber's classic unifies Eastern contemplative liberation and Western psychotherapy into one seamless map of human wholeness.",
+      "coreThesis": "Human consciousness is a continuous spectrum spanning from disowned psychological shadow to boundless, non-dual presence. Suffering arises when we mistake mental boundaries for reality, and freedom emerges as we dismantle those artificial divisions layer by layer.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Spectrum of Consciousness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-start-up-of-you",
     "title": "The Start-up of You",
     "author": "Reid Hoffman & Ben Casnocha",
@@ -37532,6 +37822,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-varieties-of-religious-experience",
+    "title": "The Varieties of Religious Experience",
+    "author": "William James",
+    "category": "Spirituality",
+    "subcategory": "Universal Non-Duality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 100,
+    "publishedYear": 1902,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step past rigid dogma and discover spirituality where it actually lives: as a direct, felt experience of wholeness in your own awareness. William James proves that when you stop clinging to a small ego and surrender to life's deeper flow, profound healing naturally follows.",
+      "coreThesis": "Authentic spirituality is a direct psychological encounter with the boundless life behind the ego, verified not by belief or doctrine, but by the practical peace and love it yields in daily conduct.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Varieties of Religious Experience"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
@@ -39104,6 +39429,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "transpersonal-psychology-in-psychoanalysis",
+    "title": "Transpersonal Psychology in Psychoanalysis",
+    "author": "Stanislav Grof",
+    "category": "Spirituality",
+    "subcategory": "Universal Non-Duality",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1985,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Step beyond the confines of ordinary ego-identity into the vast, open ocean of primary awareness. Stanislav Grof expands traditional psychoanalysis to reveal that psychological suffering dissolves when we awaken to our interconnected, transcendent nature.",
+      "coreThesis": "Human consciousness is not an isolated byproduct of the brain or personal childhood history, but a boundless, interconnected field that realizes lasting liberation when the ego yields to primary awareness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Transpersonal Psychology in Psychoanalysis"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Spirituality",
       "Strategy",
       "Mental Models"
     ]
