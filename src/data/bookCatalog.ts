@@ -165,6 +165,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "conversational-intelligence-how-great-leaders-build-trust-an": "./books/conversationalIntelligenceHowGreatLeadersBuildTrustAnExpanded.ts",
   "corporate-confidential-50-secrets-your-company-doesn-t-want-": "./books/corporateConfidential50SecretsYourCompanyDoesnTWantExpanded.ts",
   "courage-under-fire-testing-epictetus-s-doctrines-in-a-labora": "./books/courageUnderFireTestingEpictetusSDoctrinesInALaboraExpanded.ts",
+  "cracking-the-sales-management-code-the-secrets-to-measuring-": "./books/crackingTheSalesManagementCodeTheSecretsToMeasuringExpanded.ts",
   "cracking-the-walnut-secret-teachings-on-awakening": "./books/crackingTheWalnutSecretTeachingsOnAwakeningExpanded.ts",
   "creating-true-peace-ending-violence-in-yourself-and-the-world": "./books/creatingTruePeaceEndingViolenceInYourselfAndTheWorldExpanded.ts",
   "creative-confidence-unleashing-the-creative-potential-within": "./books/creativeConfidenceUnleashingTheCreativePotentialWithinExpanded.ts",
@@ -245,6 +246,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "eight-mindful-steps-to-happiness": "./books/eightMindfulStepsToHappinessExpanded.ts",
   "either-or": "./books/eitherOrExpanded.ts",
   "elastic-habits": "./books/elasticHabitsExpanded.ts",
+  "elite-sales-strategies-a-guide-to-being-one-up-creating-valu": "./books/eliteSalesStrategiesAGuideToBeingOneUpCreatingValuExpanded.ts",
   "emotional-agility": "./books/emotionalAgilityExpanded.ts",
   "emotions-revealed-recognizing-faces-and-feelings-to-improve-": "./books/emotionsRevealedRecognizingFacesAndFeelingsToImproveExpanded.ts",
   "endure-mind-body-and-the-curiously-elastic-limits-of-human-p": "./books/endureMindBodyAndTheCuriouslyElasticLimitsOfHumanPExpanded.ts",
@@ -279,6 +281,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "finding-the-missing-peace-a-primer-of-meditation": "./books/findingTheMissingPeaceAPrimerOfMeditationExpanded.ts",
   "finding-your-voice": "./books/findingYourVoiceExpanded.ts",
   "flash-of-lightning-in-the-dark-of-night": "./books/flashOfLightningInTheDarkOfNightExpanded.ts",
+  "flip-the-script-getting-people-to-think-your-idea-is-their-i": "./books/flipTheScriptGettingPeopleToThinkYourIdeaIsTheirIExpanded.ts",
   "flow-the-psychology-of-optimal-experience": "./books/flowThePsychologyOfOptimalExperienceExpanded.ts",
   "focused-and-fearless-meditator-s-guide-to-deep-joy-and-calm": "./books/focusedAndFearlessMeditatorSGuideToDeepJoyAndCalmExpanded.ts",
   "following-in-the-buddha-s-footsteps": "./books/followingInTheBuddhaSFootstepsExpanded.ts",
@@ -409,6 +412,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "lateral-thinking-creativity-step-by-step": "./books/lateralThinkingCreativityStepByStepExpanded.ts",
   "lead-with-a-story": "./books/leadWithAStoryExpanded.ts",
   "leaders-eat-last-why-some-teams-pull-together-and-others-don": "./books/leadersEatLastWhySomeTeamsPullTogetherAndOthersDonExpanded.ts",
+  "leading-sales-compensation-a-guide-to-designing-plans-that-d": "./books/leadingSalesCompensationAGuideToDesigningPlansThatDExpanded.ts",
   "learn-like-a-pro": "./books/learnLikeAProExpanded.ts",
   "learned-optimism": "./books/learnedOptimismExpanded.ts",
   "left-neglected": "./books/leftNeglectedExpanded.ts",
@@ -519,6 +523,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "networking-for-people-who-hate-networking": "./books/networkingForPeopleWhoHateNetworkingExpanded.ts",
   "never-eat-alone-and-other-secrets-to-success-one-relationshi": "./books/neverEatAloneAndOtherSecretsToSuccessOneRelationshiExpanded.ts",
   "never-finished-unshackle-your-mind-and-win-the-war-within": "./books/neverFinishedUnshackleYourMindAndWinTheWarWithinExpanded.ts",
+  "never-lose-a-customer-again-turn-any-sale-into-lifelong-loya": "./books/neverLoseACustomerAgainTurnAnySaleIntoLifelongLoyaExpanded.ts",
   "never-split-the-difference-negotiating-as-if-your-life-depen": "./books/neverSplitTheDifferenceNegotiatingAsIfYourLifeDepenExpanded.ts",
   "new-sales-simplified-the-essential-handbook-for-prospecting-": "./books/newSalesSimplifiedTheEssentialHandbookForProspectingExpanded.ts",
   "nicomachean-ethics": "./books/nicomacheanEthicsExpanded.ts",
@@ -536,6 +541,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "now-is-the-knowing": "./books/nowIsTheKnowingExpanded.ts",
   "nudge": "./books/nudgeExpanded.ts",
   "nudge-improving-decisions-about-health-wealth-and-happiness": "./books/nudgeImprovingDecisionsAboutHealthWealthAndHappinessExpanded.ts",
+  "objections-the-ultimate-guide-for-mastering-the-art-and-scie": "./books/objectionsTheUltimateGuideForMasteringTheArtAndScieExpanded.ts",
   "offline-free-your-mind-from-smartphone-addiction": "./books/offlineFreeYourMindFromSmartphoneAddictionExpanded.ts",
   "old-age-and-mortality-the-jara-vagga": "./books/oldAgeAndMortalityTheJaraVaggaExpanded.ts",
   "old-path-white-clouds-walking-in-the-footsteps-of-the-buddha": "./books/oldPathWhiteCloudsWalkingInTheFootstepsOfTheBuddhaExpanded.ts",
@@ -654,6 +660,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "seeking-buddho-teachings-on-meditation": "./books/seekingBuddhoTeachingsOnMeditationExpanded.ts",
   "seeking-the-heart-of-wisdom": "./books/seekingTheHeartOfWisdomExpanded.ts",
   "self-compassion-the-proven-power-of-being-kind-to-yourself": "./books/selfCompassionTheProvenPowerOfBeingKindToYourselfExpanded.ts",
+  "sell-or-be-sold-how-to-get-your-way-in-business-and-in-life": "./books/sellOrBeSoldHowToGetYourWayInBusinessAndInLifeExpanded.ts",
   "sell-with-a-story-how-to-capture-attention-build-trust-and-c": "./books/sellWithAStoryHowToCaptureAttentionBuildTrustAndCExpanded.ts",
   "selling-to-the-c-suite-what-every-executive-wants-you-to-kno": "./books/sellingToTheCSuiteWhatEveryExecutiveWantsYouToKnoExpanded.ts",
   "selves-and-not-self-buddhist-epistemology": "./books/selvesAndNotSelfBuddhistEpistemologyExpanded.ts",
@@ -1036,6 +1043,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-promise-of-sleep": "./books/thePromiseOfSleepExpanded.ts",
   "the-psychological-aspect-of-buddhism": "./books/thePsychologicalAspectOfBuddhismExpanded.ts",
   "the-psychological-attitude-of-early-buddhist-philosophy": "./books/thePsychologicalAttitudeOfEarlyBuddhistPhilosophyExpanded.ts",
+  "the-psychology-of-selling-increase-your-sales-faster-and-eas": "./books/thePsychologyOfSellingIncreaseYourSalesFasterAndEasExpanded.ts",
   "the-pure-soul-the-brahmana-vagga-of-the-dhammapada": "./books/thePureSoulTheBrahmanaVaggaOfTheDhammapadaExpanded.ts",
   "the-questions-of-king-milinda-milindapanha": "./books/theQuestionsOfKingMilindaMilindapanhaExpanded.ts",
   "the-quick-and-easy-way-to-effective-speaking": "./books/theQuickAndEasyWayToEffectiveSpeakingExpanded.ts",
@@ -1046,6 +1054,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-road-to-inner-freedom": "./books/theRoadToInnerFreedomExpanded.ts",
   "the-roots-of-good-and-evil": "./books/theRootsOfGoodAndEvilExpanded.ts",
   "the-saas-sales-method-sales-as-a-science": "./books/theSaasSalesMethodSalesAsAScienceExpanded.ts",
+  "the-sales-acceleration-formula-using-data-technology-and-inb": "./books/theSalesAccelerationFormulaUsingDataTechnologyAndInbExpanded.ts",
   "the-sandler-rules-49-timeless-selling-principles": "./books/theSandlerRules49TimelessSellingPrinciplesExpanded.ts",
   "the-scout-mindset": "./books/theScoutMindsetExpanded.ts",
   "the-second-mountain-the-quest-for-a-moral-life": "./books/theSecondMountainTheQuestForAMoralLifeExpanded.ts",
@@ -1189,6 +1198,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "volition-the-real-mastermind-behind-kamma": "./books/volitionTheRealMastermindBehindKammaExpanded.ts",
   "waking-up-a-guide-to-spirituality-without-religion": "./books/wakingUpAGuideToSpiritualityWithoutReligionExpanded.ts",
   "was-the-buddha-a-pessimist": "./books/wasTheBuddhaAPessimistExpanded.ts",
+  "way-of-the-wolf-straight-line-selling-master-the-art-of-pers": "./books/wayOfTheWolfStraightLineSellingMasterTheArtOfPersExpanded.ts",
   "we-need-to-talk-how-to-have-conversations-that-matter": "./books/weNeedToTalkHowToHaveConversationsThatMatterExpanded.ts",
   "what-buddhists-believe": "./books/whatBuddhistsBelieveExpanded.ts",
   "what-color-is-your-parachute": "./books/whatColorIsYourParachuteExpanded.ts",
@@ -7017,6 +7027,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "cracking-the-sales-management-code-the-secrets-to-measuring-",
+    "title": "Cracking the Sales Management Code: The Secrets to Measuring and Managing Sales Performance",
+    "author": "Jason Jordan & Michelle Vazzana",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop trying to manage revenue\\u2014you cannot directly manage an outcome any more than a gardener can pull on stems to make plants grow. This book unlocks the operational physics of sales by revealing the causal chain linking daily frontline activities to intermediate objectives and final business results.",
+      "coreThesis": "You cannot manage business outcomes; you can only manage the frontline activities that causally influence sales objectives, which in turn produce those financial outcomes.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Cracking the Sales Management Code: The Secrets to Measuring and Managing Sales Performance"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "cracking-the-walnut-secret-teachings-on-awakening",
     "title": "Cracking the Walnut: Secret Teachings on Awakening",
     "author": "Thich Nhat Hanh",
@@ -9815,6 +9860,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "elite-sales-strategies-a-guide-to-being-one-up-creating-valu",
+    "title": "Elite Sales Strategies: A Guide to Being One-Up, Creating Value, and Becoming Truly Consultative",
+    "author": "Anthony Iannarino",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2022,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Traditional selling casts you as an order-taker begging for attention; true consultative mastery requires stepping into the 'One-Up' position of a trusted navigator. By diagnosing systemic market forces your buyers cannot see from inside their day-to-day operations, you transform sales calls into indispensable strategic briefings.",
+      "coreThesis": "Sales effectiveness is governed by information disparity: buyers rarely make major purchasing decisions, while elite sellers guide them constantly. When you use that systemic vantage point to make sense of complex realities and guide client change, you earn the right to lead as a trusted advisor.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Elite Sales Strategies: A Guide to Being One-Up, Creating Value, and Becoming Truly Consultative"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "emotional-agility",
     "title": "Emotional Agility",
     "author": "Susan David",
@@ -10998,6 +11078,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "flip-the-script-getting-people-to-think-your-idea-is-their-i",
+    "title": "Flip the Script: Getting People to Think Your Idea Is Their Idea",
+    "author": "Oren Klaff",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When you push people to buy, their evolutionary defense systems instantly flare up to reject you. By engineering subtle cognitive breadcrumbs instead of hard pitches, you guide buyers to connect the dots on their own\\u2014transforming your sale into their discovery.",
+      "coreThesis": "People instinctively defend their autonomy and resist ideas forced upon them, but they will passionately commit to conclusions they believe they discovered themselves.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Flip the Script: Getting People to Think Your Idea Is Their Idea"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
@@ -15550,6 +15665,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "leading-sales-compensation-a-guide-to-designing-plans-that-d",
+    "title": "Leading Sales Compensation: A Guide to Designing Plans That Drive Growth",
+    "author": "Chad Albrecht & Steve Couckuyt",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Sales compensation is not an administrative payroll task; it is the behavioral nervous system of your entire commercial engine. When you adjust the payout formula, you alter where human energy, focus, and strategic ambition flow across every customer conversation.",
+      "coreThesis": "Salespeople do not work for your corporate mission statement; they work the compensation plan you hand them. Align the economic reward curve directly with your strategic objective, and organizational growth follows automatically.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Leading Sales Compensation: A Guide to Designing Plans That Drive Growth"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "learn-like-a-pro",
     "title": "Learn Like a Pro",
     "author": "Barbara Oakley & Olav Schewe",
@@ -19396,6 +19546,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "never-lose-a-customer-again-turn-any-sale-into-lifelong-loya",
+    "title": "Never Lose a Customer Again: Turn Any Sale into Lifelong Loyalty in 100 Days",
+    "author": "Joey Coleman",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 75,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most businesses obsess over chasing the sale, only to abandon buyers during the most fragile transition in commerce. Joey Coleman reveals the behavioral mechanics of the First 100 Days, demonstrating how engineering emotional safety turns first-time purchasers into fierce lifelong advocates.",
+      "coreThesis": "Lifetime customer loyalty is not decided at contract renewal, but engineered through emotional validation during the first 100 days post-sale.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Never Lose a Customer Again: Turn Any Sale into Lifelong Loyalty in 100 Days"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "never-split-the-difference-negotiating-as-if-your-life-depen",
     "title": "Never Split the Difference: Negotiating As If Your Life Depended On It",
     "author": "Chris Voss with Tahl Raz",
@@ -19978,6 +20163,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Nudge: Improving Decisions About Health, Wealth, and Happiness"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "objections-the-ultimate-guide-for-mastering-the-art-and-scie",
+    "title": "Objections: The Ultimate Guide for Mastering The Art and Science of Getting Past No",
+    "author": "Jeb Blount",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Objections are not personal rejections or dead ends; they are predictable friction points generated by human cognitive wiring. By mastering emotional self-regulation and systematic conversational frameworks, you transform awkward resistance into collaborative deal momentum.",
+      "coreThesis": "Objections are natural cognitive friction points, not personal rejections; mastering emotional regulation and disciplined asking turns resistance into predictable forward progress.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Objections: The Ultimate Guide for Mastering The Art and Science of Getting Past No"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -24110,6 +24330,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "sell-or-be-sold-how-to-get-your-way-in-business-and-in-life",
+    "title": "Sell or Be Sold: How to Get Your Way in Business and in Life",
+    "author": "Grant Cardone",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 110,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Every day you either transmit your conviction to the world or absorb someone else's doubts. Learn the systematic behavioral science of alignment, momentum, and decisive influence to make deals flow naturally.",
+      "coreThesis": "Persuasion is a universal law of human interaction where the mind with the greatest conviction, clear agreement, and decisive action invariably leads the outcome.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Sell or Be Sold: How to Get Your Way in Business and in Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
@@ -37470,6 +37725,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-psychology-of-selling-increase-your-sales-faster-and-eas",
+    "title": "The Psychology of Selling: Increase Your Sales Faster and Easier Than You Ever Thought Possible",
+    "author": "Brian Tracy",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2004,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Selling is not an unpredictable lottery of charisma; it is an exact cognitive feedback loop where invisible mental scripts dictate real-world revenue. Master the internal psychology of the seller and the hidden decision mechanics of the buyer, and closing becomes as predictable as gravity.",
+      "coreThesis": "Sales results are the direct external mirror of an individual's internal self-concept, and transactions succeed only when the seller systematically neutralizes the buyer's instinctive fear of loss through deep diagnosis and unconditional trust.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Psychology of Selling: Increase Your Sales Faster and Easier Than You Ever Thought Possible"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-pure-soul-the-brahmana-vagga-of-the-dhammapada",
     "title": "The Pure Soul: The Brahmana Vagga of the Dhammapada",
     "author": "Bhikkhu Bodhi",
@@ -37808,6 +38098,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "The SaaS Sales Method: Sales as a Science"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-sales-acceleration-formula-using-data-technology-and-inb",
+    "title": "The Sales Acceleration Formula: Using Data, Technology, and Inbound Selling to go from $0 to $100 Million",
+    "author": "Mark Roberge",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Traditional sales management relies on gut instinct, charismatic bluster, and unrepeatable luck. Mark Roberge re-engineers revenue generation into an exact, testable science\\u2014building a predictable $100M revenue engine out of structured hiring, diagnostic coaching, and data-driven marketing alignment.",
+      "coreThesis": "Sustainable hypergrowth is not achieved through charismatic artistry, but by engineering a transparent, data-driven revenue laboratory where hiring, training, coaching, and lead flow operate as predictable, measurable processes.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Sales Acceleration Formula: Using Data, Technology, and Inbound Selling to go from $0 to $100 Million"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -42813,6 +43138,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "way-of-the-wolf-straight-line-selling-master-the-art-of-pers",
+    "title": "Way of the Wolf: Straight Line Selling: Master the Art of Persuasion, Influence, and Success",
+    "author": "Jordan Belfort",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Persuasion is not mystical charisma\\u2014it is a repeatable feedback loop of emotional and logical certainty. Master the Straight Line System to guide every customer smoothly from initial greeting to enthusiastic commitment without wasting a single move.",
+      "coreThesis": "Every sale is identical: an exchange where the seller systematically elevates the buyer's emotional and logical certainty across the product, the salesperson, and the company to a perfect score before asking for the close.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Way of the Wolf: Straight Line Selling: Master the Art of Persuasion, Influence, and Success"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
