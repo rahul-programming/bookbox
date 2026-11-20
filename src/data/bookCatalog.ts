@@ -150,6 +150,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "compassion-and-emptiness-in-early-buddhist-meditation": "./books/compassionAndEmptinessInEarlyBuddhistMeditationExpanded.ts",
   "complexity-a-guided-tour": "./books/complexityAGuidedTourExpanded.ts",
   "comprehensive-commentary-on-the-abhidhammattha-sangaha": "./books/comprehensiveCommentaryOnTheAbhidhammatthaSangahaExpanded.ts",
+  "conceptual-selling": "./books/conceptualSellingExpanded.ts",
   "confession-of-a-buddhist-atheist": "./books/confessionOfABuddhistAtheistExpanded.ts",
   "confessions-of-a-public-speaker": "./books/confessionsOfAPublicSpeakerExpanded.ts",
   "connecting-across-differences": "./books/connectingAcrossDifferencesExpanded.ts",
@@ -169,6 +170,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "crucial-conversations-tools-for-talking-when-stakes-are-high": "./books/crucialConversationsToolsForTalkingWhenStakesAreHighExpanded.ts",
   "cues-master-the-secret-language-of-charismatic-communication": "./books/cuesMasterTheSecretLanguageOfCharismaticCommunicationExpanded.ts",
   "curation-the-power-of-selection-in-a-world-of-excess": "./books/curationThePowerOfSelectionInAWorldOfExcessExpanded.ts",
+  "customercentric-selling": "./books/customercentricSellingExpanded.ts",
   "cutting-through-spiritual-materialism": "./books/cuttingThroughSpiritualMaterialismExpanded.ts",
   "dana-the-practice-of-giving": "./books/danaThePracticeOfGivingExpanded.ts",
   "dangerous-personalities": "./books/dangerousPersonalitiesExpanded.ts",
@@ -263,6 +265,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "faith-trusting-your-own-deepest-experience": "./books/faithTrustingYourOwnDeepestExperienceExpanded.ts",
   "fallacies-and-argument-appraisal": "./books/fallaciesAndArgumentAppraisalExpanded.ts",
   "falling-into-grace-insights-on-the-end-of-suffering": "./books/fallingIntoGraceInsightsOnTheEndOfSufferingExpanded.ts",
+  "fanatical-prospecting-the-ultimate-guide-to-opening-sales-co": "./books/fanaticalProspectingTheUltimateGuideToOpeningSalesCoExpanded.ts",
   "farnsworth-s-classical-english-rhetoric": "./books/farnsworthSClassicalEnglishRhetoricExpanded.ts",
   "farnsworth-s-classical-english-style": "./books/farnsworthSClassicalEnglishStyleExpanded.ts",
   "fear-essential-wisdom-for-getting-through-the-storm": "./books/fearEssentialWisdomForGettingThroughTheStormExpanded.ts",
@@ -290,6 +293,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "fundamentals-of-buddhism-four-lectures": "./books/fundamentalsOfBuddhismFourLecturesExpanded.ts",
   "fundamentals-of-vipassana-meditation": "./books/fundamentalsOfVipassanaMeditationExpanded.ts",
   "gaining-inner-peace-through-satipatthana": "./books/gainingInnerPeaceThroughSatipatthanaExpanded.ts",
+  "gap-selling-getting-the-customer-to-yes": "./books/gapSellingGettingTheCustomerToYesExpanded.ts",
   "gaslighting-recognize-manipulative-and-emotionally-abusive-p": "./books/gaslightingRecognizeManipulativeAndEmotionallyAbusivePExpanded.ts",
   "gentle-bridges-conversations-with-the-dalai-lama-on-mind-sciences": "./books/gentleBridgesConversationsWithTheDalaiLamaOnMindSciencesExpanded.ts",
   "get-out-of-your-mind-and-into-your-life": "./books/getOutOfYourMindAndIntoYourLifeExpanded.ts",
@@ -456,6 +460,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "manual-of-the-supreme-man-uttamapurisa-dipani": "./books/manualOfTheSupremeManUttamapurisaDipaniExpanded.ts",
   "many-ways-to-nirvana-reflections-on-happiness": "./books/manyWaysToNirvanaReflectionsOnHappinessExpanded.ts",
   "mastering-the-complex-sale": "./books/masteringTheComplexSaleExpanded.ts",
+  "mastering-the-complex-sale-how-to-compete-and-win-when-the-s": "./books/masteringTheComplexSaleHowToCompeteAndWinWhenTheSExpanded.ts",
   "mastery": "./books/masteryExpanded.ts",
   "mastery-the-keys-to-success-and-long-term-fulfillment": "./books/masteryTheKeysToSuccessAndLongTermFulfillmentExpanded.ts",
   "mating-in-captivity-unlocking-erotic-intelligence": "./books/matingInCaptivityUnlockingEroticIntelligenceExpanded.ts",
@@ -573,6 +578,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "power-why-some-people-have-it-and-others-don-t": "./books/powerWhySomePeopleHaveItAndOthersDonTExpanded.ts",
   "practical-vipassana-meditative-exercises": "./books/practicalVipassanaMeditativeExercisesExpanded.ts",
   "pre-suasion-a-revolutionary-way-to-influence-and-persuade": "./books/preSuasionARevolutionaryWayToInfluenceAndPersuadeExpanded.ts",
+  "predictable-revenue-turn-your-business-into-a-sales-machine-": "./books/predictableRevenueTurnYourBusinessIntoASalesMachineExpanded.ts",
   "predictably-irrational-the-hidden-forces-that-shape-our-deci": "./books/predictablyIrrationalTheHiddenForcesThatShapeOurDeciExpanded.ts",
   "presence-bringing-your-boldest-self-to-your-biggest-challeng": "./books/presenceBringingYourBoldestSelfToYourBiggestChallengExpanded.ts",
   "presentation-zen-simple-ideas-on-presentation-design-and-del": "./books/presentationZenSimpleIdeasOnPresentationDesignAndDelExpanded.ts",
@@ -639,6 +645,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "seeking-buddho-teachings-on-meditation": "./books/seekingBuddhoTeachingsOnMeditationExpanded.ts",
   "seeking-the-heart-of-wisdom": "./books/seekingTheHeartOfWisdomExpanded.ts",
   "self-compassion-the-proven-power-of-being-kind-to-yourself": "./books/selfCompassionTheProvenPowerOfBeingKindToYourselfExpanded.ts",
+  "sell-with-a-story-how-to-capture-attention-build-trust-and-c": "./books/sellWithAStoryHowToCaptureAttentionBuildTrustAndCExpanded.ts",
   "selves-and-not-self-buddhist-epistemology": "./books/selvesAndNotSelfBuddhistEpistemologyExpanded.ts",
   "set-boundaries-find-peace-a-guide-to-reclaiming-yourself": "./books/setBoundariesFindPeaceAGuideToReclaimingYourselfExpanded.ts",
   "set-for-life-dominate-life-money-and-the-american-dream": "./books/setForLifeDominateLifeMoneyAndTheAmericanDreamExpanded.ts",
@@ -673,6 +680,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "so-good-they-can-t-ignore-you": "./books/soGoodTheyCanTIgnoreYouExpanded.ts",
   "so-good-they-can-t-ignore-you-why-skills-trump-passion-in-th": "./books/soGoodTheyCanTIgnoreYouWhySkillsTrumpPassionInThExpanded.ts",
   "socratic-logic": "./books/socraticLogicExpanded.ts",
+  "solution-selling-creating-buyers-in-difficult-markets": "./books/solutionSellingCreatingBuyersInDifficultMarketsExpanded.ts",
   "solving-the-procrastination-puzzle": "./books/solvingTheProcrastinationPuzzleExpanded.ts",
   "somatics-reawakening-the-mind-s-control-of-movement": "./books/somaticsReawakeningTheMindSControlOfMovementExpanded.ts",
   "soulful-simplicity-how-living-with-less-can-lead-to-so-much-": "./books/soulfulSimplicityHowLivingWithLessCanLeadToSoMuchExpanded.ts",
@@ -1020,6 +1028,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-righteous-mind-why-good-people-are-divided-by-politics-a": "./books/theRighteousMindWhyGoodPeopleAreDividedByPoliticsAExpanded.ts",
   "the-road-to-inner-freedom": "./books/theRoadToInnerFreedomExpanded.ts",
   "the-roots-of-good-and-evil": "./books/theRootsOfGoodAndEvilExpanded.ts",
+  "the-sandler-rules-49-timeless-selling-principles": "./books/theSandlerRules49TimelessSellingPrinciplesExpanded.ts",
   "the-scout-mindset": "./books/theScoutMindsetExpanded.ts",
   "the-second-mountain-the-quest-for-a-moral-life": "./books/theSecondMountainTheQuestForAMoralLifeExpanded.ts",
   "the-secret-language-of-money": "./books/theSecretLanguageOfMoneyExpanded.ts",
@@ -1068,6 +1077,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-three-basic-facts-of-existence-suffering-dukkha": "./books/theThreeBasicFactsOfExistenceSufferingDukkhaExpanded.ts",
   "the-total-money-makeover-a-proven-plan-for-financial-fitness": "./books/theTotalMoneyMakeoverAProvenPlanForFinancialFitnessExpanded.ts",
   "the-transparency-of-things-contemplating-the-nature-of-exper": "./books/theTransparencyOfThingsContemplatingTheNatureOfExperExpanded.ts",
+  "the-transparency-sale-how-unexpected-honesty-and-understandi": "./books/theTransparencySaleHowUnexpectedHonestyAndUnderstandiExpanded.ts",
   "the-tree-of-enlightenment": "./books/theTreeOfEnlightenmentExpanded.ts",
   "the-truth-about-children-and-divorce": "./books/theTruthAboutChildrenAndDivorceExpanded.ts",
   "the-truth-detector-an-ex-fbi-agent-s-guide-for-getting-peopl": "./books/theTruthDetectorAnExFbiAgentSGuideForGettingPeoplExpanded.ts",
@@ -6462,6 +6472,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "conceptual-selling",
+    "title": "Conceptual Selling",
+    "author": "Robert B. Miller & Stephen E. Heiman",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 90,
+    "publishedYear": 1987,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Customers don't buy your product, service, or feature checklist\\u2014they buy their own internal mental picture of what life looks like after their problem is solved. 'Conceptual Selling' provides the systematic, psychological operating manual to uncover that exact mental picture and co-engineer a mutual win every single conversation.",
+      "coreThesis": "Buyers never purchase a vendor's product or service specifications; they buy their own internal concept of the outcome, meaning effective selling is a collaborative diagnostic inquiry that aligns solution capabilities with the customer's mental model.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Conceptual Selling"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "confession-of-a-buddhist-atheist",
     "title": "Confession of a Buddhist Atheist",
     "author": "Stephen Batchelor",
@@ -7122,6 +7167,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "customercentric-selling",
+    "title": "CustomerCentric Selling",
+    "author": "Michael T. Bosworth, John R. Holland, Frank Visgatis",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 100,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Traditional selling fails because it forces buyers to endure product monologues rather than helping them solve operational bottlenecks. CustomerCentric Selling rebuilds sales as an investigative diagnostic science, turning reps into consultative problem-solvers who guide clients to envision, engineer, and validate their own ideal solutions.",
+      "coreThesis": "Buyers resist being sold to but love buying when an expert guides them to uncover root operational problems and architect their own verifiable solutions.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "CustomerCentric Selling"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
@@ -10413,6 +10493,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "fanatical-prospecting-the-ultimate-guide-to-opening-sales-co",
+    "title": "Fanatical Prospecting: The Ultimate Guide to Opening Sales Conversations",
+    "author": "Jeb Blount",
+    "category": "Sales & Persuasion",
+    "subcategory": "Prospecting & Outreach",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 115,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Sales slumps are not sudden strokes of bad luck\\u2014they are the direct mathematical consequence of neglecting your pipeline weeks earlier. This playbook breaks down the science of outbound engagement, showing how daily, multi-channel outreach eliminates desperation and creates predictable revenue.",
+      "coreThesis": "Your pipeline is a direct reflection of the outreach you did ninety days ago; consistent, disciplined daily prospecting is the only antidote to sales volatility.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Fanatical Prospecting: The Ultimate Guide to Opening Sales Conversations"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "farnsworth-s-classical-english-rhetoric",
     "title": "Farnsworth's Classical English Rhetoric",
     "author": "Ward Farnsworth",
@@ -11352,6 +11467,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "gap-selling-getting-the-customer-to-yes",
+    "title": "Gap Selling: Getting the Customer to Yes",
+    "author": "Keenan",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 105,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Customers never purchase products or software features; they purchase an escape hatch from their current operational breakdown to a superior future state. True closing power comes not from charismatic pitching, but from precisely mapping and calculating the mathematical void between where a buyer is stuck and where they need to land.",
+      "coreThesis": "The value of a sale is entirely determined by the size and urgency of the gap between a customer's broken current reality and their desired future state.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Gap Selling: Getting the Customer to Yes"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
@@ -17163,6 +17313,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "mastering-the-complex-sale-how-to-compete-and-win-when-the-s",
+    "title": "Mastering the Complex Sale: How to Compete and Win When the Stakes are High",
+    "author": "Jeff Thull",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2003,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When stakes are high, conventional selling fails because presenting answers before diagnosing the disease forces your solution into a cutthroat price war. By adopting the methodical rigor of an expert physician, you transform high-stakes sales from defensive pitching into high-margin, collaborative diagnostic engagements.",
+      "coreThesis": "Enterprise customers do not buy complex solutions based on product features; they buy when a disciplined diagnostic process exposes the intolerable financial cost of their current reality.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Mastering the Complex Sale: How to Compete and Win When the Stakes are High"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "mastery",
     "title": "Mastery",
     "author": "Robert Greene",
@@ -21254,6 +21439,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "predictable-revenue-turn-your-business-into-a-sales-machine-",
+    "title": "Predictable Revenue: Turn Your Business Into a Sales Machine with the $100M Best Practices of Salesforce.com",
+    "author": "Aaron Ross & Marylou Tyler",
+    "category": "Sales & Persuasion",
+    "subcategory": "Prospecting & Outreach",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Sales is not an unpredictable art practiced by lone-wolf heroes; it is an engineered machine. By breaking revenue into specialized assembly-line roles and replacing cold calls with targeted referral outreach, any company can create a reliable, recurring flow of pipeline.",
+      "coreThesis": "Predictable revenue is an engineered byproduct of strict role specialization and targeted, referral-based outbound prospecting.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Predictable Revenue: Turn Your Business Into a Sales Machine with the $100M Best Practices of Salesforce.com"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "predictably-irrational-the-hidden-forces-that-shape-our-deci",
     "title": "Predictably Irrational: The Hidden Forces That Shape Our Decisions",
     "author": "Dan Ariely",
@@ -23560,6 +23780,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "sell-with-a-story-how-to-capture-attention-build-trust-and-c",
+    "title": "Sell with a Story: How to Capture Attention, Build Trust, and Close the Sale",
+    "author": "Paul Smith",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 125,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Human brains are wired to resist sales arguments and lecture slides, but lean in when hearing a compelling story. Mastering intentional, bite-sized narrative frameworks transforms transactional pitches into empathetic partnerships that naturally close deals.",
+      "coreThesis": "Buyers make decisions based on emotion and justify them with logic; structured business storytelling is the proven vehicle that delivers both, transforming sales conversations from skeptical debates into collaborative problem-solving.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Sell with a Story: How to Capture Attention, Build Trust, and Close the Sale"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "selves-and-not-self-buddhist-epistemology",
     "title": "Selves and Not-Self: Buddhist Epistemology",
     "author": "Thanissaro Bhikkhu",
@@ -24742,6 +24997,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "solution-selling-creating-buyers-in-difficult-markets",
+    "title": "Solution Selling: Creating Buyers in Difficult Markets",
+    "author": "Michael T. Bosworth",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 1995,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop pitching tools to people who don't know their engine is smoking. Solution Selling replaces feature lectures with diagnostic inquiry, turning quiet organizational drag into high-priority executive action.",
+      "coreThesis": "Buyers do not buy products or features; they purchase relief from business pain through a solution vision they helped design.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Solution Selling: Creating Buyers in Difficult Markets"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
@@ -36880,6 +37170,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-sandler-rules-49-timeless-selling-principles",
+    "title": "The Sandler Rules: 49 Timeless Selling Principles",
+    "author": "David Mattson",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 245,
+    "publishedYear": 2009,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Traditional selling is a broken dance where eager vendors audition and wary buyers hide behind polite deflections. The Sandler Rules completely flips the board, teaching you to run sales conversations like an objective doctor diagnosing a patient rather than a street hawker begging for attention.",
+      "coreThesis": "Buyers make decisions emotionally and justify them intellectually, meaning true sales mastery comes from diagnostic questioning and mutual clarity rather than high-pressure persuasion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Sandler Rules: 49 Timeless Selling Principles"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-scout-mindset",
     "title": "The Scout Mindset",
     "author": "Julia Galef",
@@ -38552,6 +38877,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-transparency-sale-how-unexpected-honesty-and-understandi",
+    "title": "The Transparency Sale: How Unexpected Honesty and Understanding the Brain Affect the Buying Process",
+    "author": "Todd Caponi",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Flawless perfection signals hidden danger to the human brain; unexpected honesty disarms skepticism and accelerates decision velocity. By embracing an authentic '4.2 to 4.5 star' reality, sellers eliminate buyer resistance and engineer predictable, high-margin pipeline cycles.",
+      "coreThesis": "The human brain views perfection as an evolutionary threat; proactively exposing your product's boundaries disarms buyer skepticism, eliminates friction, and closes deals faster at higher values.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Transparency Sale: How Unexpected Honesty and Understanding the Brain Affect the Buying Process"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
