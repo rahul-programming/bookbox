@@ -200,6 +200,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "difficult-conversations-how-to-discuss-what-matters-most": "./books/difficultConversationsHowToDiscussWhatMattersMostExpanded.ts",
   "dig-your-well-before-you-re-thirsty": "./books/digYourWellBeforeYouReThirstyExpanded.ts",
   "digital-body-language-how-to-build-trust-and-connection-no-m": "./books/digitalBodyLanguageHowToBuildTrustAndConnectionNoMExpanded.ts",
+  "digital-minimalism-choosing-a-focused-life-in-a-noisy-world": "./books/digitalMinimalismChoosingAFocusedLifeInANoisyWorldExpanded.ts",
   "dimensions-of-buddhist-thought-collected-essays": "./books/dimensionsOfBuddhistThoughtCollectedEssaysExpanded.ts",
   "disarming-the-narcissist": "./books/disarmingTheNarcissistExpanded.ts",
   "discourse-on-dependent-origination": "./books/discourseOnDependentOriginationExpanded.ts",
@@ -302,6 +303,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "going-home-jesus-and-buddha-as-brothers": "./books/goingHomeJesusAndBuddhaAsBrothersExpanded.ts",
   "good-reasons-for-better-arguments": "./books/goodReasonsForBetterArgumentsExpanded.ts",
   "good-to-great-why-some-companies-make-the-leap-and-others-do": "./books/goodToGreatWhySomeCompaniesMakeTheLeapAndOthersDoExpanded.ts",
+  "goodbye-things-the-new-japanese-minimalism": "./books/goodbyeThingsTheNewJapaneseMinimalismExpanded.ts",
   "great-at-work-how-top-performers-do-less-work-better-and-ach": "./books/greatAtWorkHowTopPerformersDoLessWorkBetterAndAchExpanded.ts",
   "great-disciples-of-the-buddha-their-lives-and-legacy": "./books/greatDisciplesOfTheBuddhaTheirLivesAndLegacyExpanded.ts",
   "grit-the-power-of-passion-and-perseverance": "./books/gritThePowerOfPassionAndPerseveranceExpanded.ts",
@@ -373,6 +375,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "it-didn-t-start-with-you-how-inherited-family-trauma-shapes-": "./books/itDidnTStartWithYouHowInheritedFamilyTraumaShapesExpanded.ts",
   "it-s-called-a-breakup-because-it-s-broken": "./books/itSCalledABreakupBecauseItSBrokenExpanded.ts",
   "journey-to-mindfulness-autobiography": "./books/journeyToMindfulnessAutobiographyExpanded.ts",
+  "joy-at-work-organizing-your-professional-life": "./books/joyAtWorkOrganizingYourProfessionalLifeExpanded.ts",
   "just-listen-discover-the-secret-to-getting-through-to-absolu": "./books/justListenDiscoverTheSecretToGettingThroughToAbsoluExpanded.ts",
   "just-one-more-breath-teachings-on-meditation-and-life": "./books/justOneMoreBreathTeachingsOnMeditationAndLifeExpanded.ts",
   "just-one-word-mindfulness": "./books/justOneWordMindfulnessExpanded.ts",
@@ -387,6 +390,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "know-your-mind-the-four-foundations-of-mindfulness": "./books/knowYourMindTheFourFoundationsOfMindfulnessExpanded.ts",
   "knowing-and-seeing-teachings-of-pa-auk-monastery": "./books/knowingAndSeeingTeachingsOfPaAukMonasteryExpanded.ts",
   "known-the-handbook-for-building-and-unleashing-your-personal": "./books/knownTheHandbookForBuildingAndUnleashingYourPersonalExpanded.ts",
+  "l-art-de-la-simplicit-how-to-live-more-with-less": "./books/lArtDeLaSimplicitHowToLiveMoreWithLessExpanded.ts",
   "lateral-thinking-creativity-step-by-step": "./books/lateralThinkingCreativityStepByStepExpanded.ts",
   "lead-with-a-story": "./books/leadWithAStoryExpanded.ts",
   "leaders-eat-last-why-some-teams-pull-together-and-others-don": "./books/leadersEatLastWhySomeTeamsPullTogetherAndOthersDonExpanded.ts",
@@ -592,6 +596,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "reinventing-you": "./books/reinventingYouExpanded.ts",
   "reinventing-your-life": "./books/reinventingYourLifeExpanded.ts",
   "relax-and-be-aware-mindfulness-in-daily-life": "./books/relaxAndBeAwareMindfulnessInDailyLifeExpanded.ts",
+  "remodelista-the-organized-home": "./books/remodelistaTheOrganizedHomeExpanded.ts",
   "remote-office-not-required": "./books/remoteOfficeNotRequiredExpanded.ts",
   "resilience-hard-won-wisdom-for-living-a-better-life": "./books/resilienceHardWonWisdomForLivingABetterLifeExpanded.ts",
   "resonate-present-visual-stories-that-transform-audiences": "./books/resonatePresentVisualStoriesThatTransformAudiencesExpanded.ts",
@@ -659,7 +664,9 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "socratic-logic": "./books/socraticLogicExpanded.ts",
   "solving-the-procrastination-puzzle": "./books/solvingTheProcrastinationPuzzleExpanded.ts",
   "somatics-reawakening-the-mind-s-control-of-movement": "./books/somaticsReawakeningTheMindSControlOfMovementExpanded.ts",
+  "soulful-simplicity-how-living-with-less-can-lead-to-so-much-": "./books/soulfulSimplicityHowLivingWithLessCanLeadToSoMuchExpanded.ts",
   "sources-of-power": "./books/sourcesOfPowerExpanded.ts",
+  "spark-joy-an-illustrated-master-class-on-the-art-of-organizi": "./books/sparkJoyAnIllustratedMasterClassOnTheArtOfOrganiziExpanded.ts",
   "spatial-behavior-a-geographic-and-psychological-perspective": "./books/spatialBehaviorAGeographicAndPsychologicalPerspectiveExpanded.ts",
   "speak-peace-in-a-world-of-conflict": "./books/speakPeaceInAWorldOfConflictExpanded.ts",
   "spent-sex-evolution-and-consumer-behavior": "./books/spentSexEvolutionAndConsumerBehaviorExpanded.ts",
@@ -911,6 +918,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-karma-of-questions-essays-on-the-buddhist-path": "./books/theKarmaOfQuestionsEssaysOnTheBuddhistPathExpanded.ts",
   "the-key-to-liberation": "./books/theKeyToLiberationExpanded.ts",
   "the-lean-startup-how-today-s-entrepreneurs-use-continuous-in": "./books/theLeanStartupHowTodaySEntrepreneursUseContinuousInExpanded.ts",
+  "the-life-changing-magic-of-tidying-up-the-japanese-art-of-de": "./books/theLifeChangingMagicOfTidyingUpTheJapaneseArtOfDeExpanded.ts",
   "the-life-of-sariputta": "./books/theLifeOfSariputtaExpanded.ts",
   "the-life-you-can-save-acting-now-to-end-world-poverty": "./books/theLifeYouCanSaveActingNowToEndWorldPovertyExpanded.ts",
   "the-little-book-of-common-sense-investing": "./books/theLittleBookOfCommonSenseInvestingExpanded.ts",
@@ -931,10 +939,12 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-mind-illuminated-a-complete-meditation-guide-integrating": "./books/theMindIlluminatedACompleteMeditationGuideIntegratingExpanded.ts",
   "the-mind-that-knows": "./books/theMindThatKnowsExpanded.ts",
   "the-mindful-way-commentary-on-the-dhammapada": "./books/theMindfulWayCommentaryOnTheDhammapadaExpanded.ts",
+  "the-minimalist-home-a-room-by-room-guide-to-a-decluttered-re": "./books/theMinimalistHomeARoomByRoomGuideToADeclutteredReExpanded.ts",
   "the-miracle-of-mindfulness-an-introduction-to-meditation": "./books/theMiracleOfMindfulnessAnIntroductionToMeditationExpanded.ts",
   "the-miracle-of-mindfulness": "./books/theMiracleOfMindfulnessExpanded.ts",
   "the-model-thinker": "./books/theModelThinkerExpanded.ts",
   "the-moral-animal": "./books/theMoralAnimalExpanded.ts",
+  "the-more-of-less-finding-the-life-you-want-under-everything-": "./books/theMoreOfLessFindingTheLifeYouWantUnderEverythingExpanded.ts",
   "the-myth-of-sisyphus": "./books/theMythOfSisyphusExpanded.ts",
   "the-narcissist-you-know": "./books/theNarcissistYouKnowExpanded.ts",
   "the-nature-of-consciousness-essays-on-the-unity-of-mind-and-": "./books/theNatureOfConsciousnessEssaysOnTheUnityOfMindAndExpanded.ts",
@@ -8180,6 +8190,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "digital-minimalism-choosing-a-focused-life-in-a-noisy-world",
+    "title": "Digital Minimalism: Choosing a Focused Life in a Noisy World",
+    "author": "Cal Newport",
+    "category": "Productivity",
+    "subcategory": "Digital Detox & Attention",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop treating your attention like spare pocket change for tech monopolies. Take back your focus, redesign your environment, and build a calm, high-impact life driven by deep human connection instead of notifications.",
+      "coreThesis": "A focused life requires curating your digital tools to serve your deepest values while aggressively ignoring the noisy rest.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Digital Minimalism: Choosing a Focused Life in a Noisy World"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "dimensions-of-buddhist-thought-collected-essays",
     "title": "Dimensions of Buddhist Thought: Collected Essays",
     "author": "Francis Story",
@@ -11747,6 +11792,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "goodbye-things-the-new-japanese-minimalism",
+    "title": "Goodbye, Things: The New Japanese Minimalism",
+    "author": "Fumio Sasaki",
+    "category": "Productivity",
+    "subcategory": "Organization & Minimalism",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Strip away the physical noise and discover that less friction means vastly more agency. Fumio Sasaki offers an energizing blueprint to discard possessions, silence visual clutter, and reclaim your time, energy, and freedom.",
+      "coreThesis": "Minimalism is a practical operating system that removes physical and cognitive friction, allowing you to redirect your finite time and focus toward what truly moves the needle in your life.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Goodbye, Things: The New Japanese Minimalism"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "great-at-work-how-top-performers-do-less-work-better-and-ach",
     "title": "Great at Work: How Top Performers Do Less, Work Better, and Achieve More",
     "author": "Morten T. Hansen",
@@ -14230,6 +14310,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "joy-at-work-organizing-your-professional-life",
+    "title": "Joy at Work: Organizing Your Professional Life",
+    "author": "Marie Kondo & Scott Sonenshein",
+    "category": "Productivity",
+    "subcategory": "Organization & Minimalism",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Transform your career by stripping away the physical, digital, and calendar clutter that drags down your workdays. Discover how applying deliberate minimalism to your desk, inbox, and meetings turns daily labor into pure professional momentum.",
+      "coreThesis": "Clutter across your desk, inbox, and schedule drains mental bandwidth and fuels burnout; ruthlessly curating what you keep restores control, focus, and joy at work.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Joy at Work: Organizing Your Professional Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "just-listen-discover-the-secret-to-getting-through-to-absolu",
     "title": "Just Listen: Discover the Secret to Getting Through to Absolutely Anyone",
     "author": "Mark Goulston",
@@ -14715,6 +14830,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "l-art-de-la-simplicit-how-to-live-more-with-less",
+    "title": "L'Art de la Simplicit\\u00e9: How to Live More with Less",
+    "author": "Dominique Loreau",
+    "category": "Productivity",
+    "subcategory": "Organization & Minimalism",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2005,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Strip away the physical, bodily, and mental excess that creates friction in your days. Master the Japanese art of refined subtraction to build effortless focus, peak energy, and deep everyday serenity.",
+      "coreThesis": "Subtracting physical, biological, and psychological clutter liberates finite energy, transforming everyday life into an elegant, high-clarity masterpiece.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "L'Art de la Simplicit\\u00e9: How to Live More with Less"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
       "Strategy",
       "Mental Models"
     ]
@@ -21888,6 +22038,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "remodelista-the-organized-home",
+    "title": "Remodelista: The Organized Home",
+    "author": "Julie Carlson & Margot Guralnick",
+    "category": "Productivity",
+    "subcategory": "Organization & Minimalism",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Transform domestic chaos into calm, high-performance daily elegance by designing spaces with durable natural materials and frictionless routines. It is not about obsessive sterile perfection; it is about setting up your living environment so staying organized feels completely automatic.",
+      "coreThesis": "A calm, functional home is not created by hiding junk in plastic bins, but by radically editing what you own, choosing durable natural materials, and designing intuitive daily drop-zones that make order the path of least resistance.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Remodelista: The Organized Home"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "remote-office-not-required",
     "title": "Remote: Office Not Required",
     "author": "Jason Fried & David Heinemeier Hansson",
@@ -24227,6 +24412,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "soulful-simplicity-how-living-with-less-can-lead-to-so-much-",
+    "title": "Soulful Simplicity: How Living with Less Can Lead to So Much More",
+    "author": "Courtney Carver",
+    "category": "Productivity",
+    "subcategory": "Organization & Minimalism",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop running on the hamster wheel of burnout, endless shopping, and chronic overcommitment. Courtney Carver shows you how stripping away physical and calendar clutter restores your physical health, mental focus, and everyday joy.",
+      "coreThesis": "Decluttering is not just about organizing physical stuff; it is an act of radical self-preservation that trades superficial abundance for physical health, deep relationships, and peace of mind.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Soulful Simplicity: How Living with Less Can Lead to So Much More"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "sources-of-power",
     "title": "Sources of Power",
     "author": "Gary Klein",
@@ -24258,6 +24478,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "spark-joy-an-illustrated-master-class-on-the-art-of-organizi",
+    "title": "Spark Joy: An Illustrated Master Class on the Art of Organizing and Tidying Up",
+    "author": "Marie Kondo",
+    "category": "Productivity",
+    "subcategory": "Organization & Minimalism",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Transform your physical living space into an engine for personal clarity, daily momentum, and high-performance calm. Marie Kondo delivers the definitive visual masterclass to eliminate physical drag and build an environment where every single possession serves your highest life goals.",
+      "coreThesis": "Tidying is an active audit of your values: by surrounding yourself exclusively with possessions that fuel energy or serve vital utility, you eliminate subconscious friction and cultivate the clarity required to master your daily life.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Spark Joy: An Illustrated Master Class on the Art of Organizing and Tidying Up"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -33038,6 +33293,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-life-changing-magic-of-tidying-up-the-japanese-art-of-de",
+    "title": "The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing",
+    "author": "Marie Kondo",
+    "category": "Productivity",
+    "subcategory": "Organization & Minimalism",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Tidying is not a chore of endlessly moving clutter around; it is a decisive personal reset that aligns your physical surroundings with your ideal life. Keep only what sparks genuine joy, discard the rest with gratitude, and build an environment that fuels clarity and momentum every single day.",
+      "coreThesis": "A clean, orderly life is achieved not through clever storage, but through a singular, category-by-category audit where you intentionally choose what sparks joy and release everything else.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-life-of-sariputta",
     "title": "The Life of Sariputta",
     "author": "Nyanaponika Thera",
@@ -33737,6 +34027,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-minimalist-home-a-room-by-room-guide-to-a-decluttered-re",
+    "title": "The Minimalist Home: A Room-by-Room Guide to a Decluttered, Refocused Life",
+    "author": "Joshua Becker",
+    "category": "Productivity",
+    "subcategory": "Organization & Minimalism",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your home should be a launchpad for your life, not an expensive storage warehouse for stagnant clutter. By systematically clearing physical excess room by room, you strip away friction and reclaim the energy, time, and focus required for what truly matters.",
+      "coreThesis": "Minimalism is not about owning as little as possible, but about removing everything that distracts you from living with clarity, purpose, and maximum agency.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Minimalist Home: A Room-by-Room Guide to a Decluttered, Refocused Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-miracle-of-mindfulness-an-introduction-to-meditation",
     "title": "The Miracle of Mindfulness: An Introduction to Meditation",
     "author": "Thich Nhat Hanh",
@@ -33871,6 +34196,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-more-of-less-finding-the-life-you-want-under-everything-",
+    "title": "The More of Less: Finding the Life You Want Under Everything You Own",
+    "author": "Joshua Becker",
+    "category": "Productivity",
+    "subcategory": "Organization & Minimalism",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Clutter is not just physical mess; it is unmade decisions stealing your focus, money, and time. Clear away the excess stuff to instantly unlock the bandwidth for the goals and relationships that actually matter.",
+      "coreThesis": "True abundance is found not by accumulating more possessions, but by intentionally removing the nonessential to make space for what matters most.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The More of Less: Finding the Life You Want Under Everything You Own"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
       "Strategy",
       "Mental Models"
     ]
