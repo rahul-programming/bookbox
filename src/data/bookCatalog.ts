@@ -178,11 +178,13 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "daring-greatly": "./books/daringGreatlyExpanded.ts",
   "daughters-and-sons-buddhist-wisdom-on-parenting": "./books/daughtersAndSonsBuddhistWisdomOnParentingExpanded.ts",
   "dbt-skills-training-handouts-and-worksheets": "./books/dbtSkillsTrainingHandoutsAndWorksheetsExpanded.ts",
+  "dealstorming-the-secret-weapon-that-solves-your-toughest-sal": "./books/dealstormingTheSecretWeaponThatSolvesYourToughestSalExpanded.ts",
   "decisive": "./books/decisiveExpanded.ts",
   "deep-down-we-know": "./books/deepDownWeKnowExpanded.ts",
   "deep-survival-who-lives-who-dies-and-why": "./books/deepSurvivalWhoLivesWhoDiesAndWhyExpanded.ts",
   "deep-work": "./books/deepWorkExpanded.ts",
   "deepening-insight-a-practical-guide-to-the-buddhas-incremental-path": "./books/deepeningInsightAPracticalGuideToTheBuddhasIncrementalPathExpanded.ts",
+  "demand-side-sales-101-stop-selling-and-help-your-customers-m": "./books/demandSideSales101StopSellingAndHelpYourCustomersMExpanded.ts",
   "dependent-arising-a-practical-guide-to-early-buddhist-teachings": "./books/dependentArisingAPracticalGuideToEarlyBuddhistTeachingsExpanded.ts",
   "dependent-origination-paticca-samuppada": "./books/dependentOriginationPaticcaSamuppadaExpanded.ts",
   "designing-your-career": "./books/designingYourCareerExpanded.ts",
@@ -440,6 +442,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "lsd-and-the-mind-of-the-universe": "./books/lsdAndTheMindOfTheUniverseExpanded.ts",
   "maha-kassapa-father-of-the-sangha": "./books/mahaKassapaFatherOfTheSanghaExpanded.ts",
   "maha-moggallana-master-of-psychic-power": "./books/mahaMoggallanaMasterOfPsychicPowerExpanded.ts",
+  "major-account-sales-strategy": "./books/majorAccountSalesStrategyExpanded.ts",
   "make-it-stick-the-science-of-successful-learning": "./books/makeItStickTheScienceOfSuccessfulLearningExpanded.ts",
   "make-time-how-to-focus-on-what-matters-every-day": "./books/makeTimeHowToFocusOnWhatMattersEveryDayExpanded.ts",
   "man-and-his-symbols": "./books/manAndHisSymbolsExpanded.ts",
@@ -571,12 +574,14 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "personal-space": "./books/personalSpaceExpanded.ts",
   "perspectives-on-satipatthana": "./books/perspectivesOnSatipatthanaExpanded.ts",
   "philosophy-as-a-way-of-life-spiritual-exercises-from-socrate": "./books/philosophyAsAWayOfLifeSpiritualExercisesFromSocrateExpanded.ts",
+  "pitch-anything-an-innovative-method-for-presenting-persuadin": "./books/pitchAnythingAnInnovativeMethodForPresentingPersuadinExpanded.ts",
   "pivot-the-only-move-that-matters-is-your-next-one": "./books/pivotTheOnlyMoveThatMattersIsYourNextOneExpanded.ts",
   "plato-s-republic-selected-dialogues": "./books/platoSRepublicSelectedDialoguesExpanded.ts",
   "play-bigger-how-pirates-dreamers-and-innovators-create-and-d": "./books/playBiggerHowPiratesDreamersAndInnovatorsCreateAndDExpanded.ts",
   "playing-with-fire-financial-independence-retire-early": "./books/playingWithFireFinancialIndependenceRetireEarlyExpanded.ts",
   "poor-charlie-s-almanack": "./books/poorCharlieSAlmanackExpanded.ts",
   "positioning-the-battle-for-your-mind": "./books/positioningTheBattleForYourMindExpanded.ts",
+  "power-base-selling-secrets-of-an-intrigue-seller": "./books/powerBaseSellingSecretsOfAnIntrigueSellerExpanded.ts",
   "power-questions-build-relationships-win-new-business-and-inf": "./books/powerQuestionsBuildRelationshipsWinNewBusinessAndInfExpanded.ts",
   "power-why-some-people-have-it-and-others-don-t": "./books/powerWhySomePeopleHaveItAndOthersDonTExpanded.ts",
   "practical-vipassana-meditative-exercises": "./books/practicalVipassanaMeditativeExercisesExpanded.ts",
@@ -642,6 +647,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "scarcity-why-having-too-little-means-so-much": "./books/scarcityWhyHavingTooLittleMeansSoMuchExpanded.ts",
   "search-inside-yourself": "./books/searchInsideYourselfExpanded.ts",
   "searching-for-the-self": "./books/searchingForTheSelfExpanded.ts",
+  "secrets-of-closing-the-sale": "./books/secretsOfClosingTheSaleExpanded.ts",
   "seeing-like-a-state": "./books/seeingLikeAStateExpanded.ts",
   "seeing-systems-unlocking-the-mysteries-of-organizational-lif": "./books/seeingSystemsUnlockingTheMysteriesOfOrganizationalLifExpanded.ts",
   "seeing-that-frees-meditations-on-emptiness": "./books/seeingThatFreesMeditationsOnEmptinessExpanded.ts",
@@ -828,6 +834,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-circadian-code": "./books/theCircadianCodeExpanded.ts",
   "the-clock-of-vipassana-has-struck": "./books/theClockOfVipassanaHasStruckExpanded.ts",
   "the-coaching-habit-say-less-ask-more-change-the-way-you-lead": "./books/theCoachingHabitSayLessAskMoreChangeTheWayYouLeadExpanded.ts",
+  "the-collaborative-sale-solution-selling-in-a-buyer-driven-wo": "./books/theCollaborativeSaleSolutionSellingInABuyerDrivenWoExpanded.ts",
   "the-comfort-crisis-embrace-discomfort-to-reclaim-your-wild-h": "./books/theComfortCrisisEmbraceDiscomfortToReclaimYourWildHExpanded.ts",
   "the-comic-toolbox-how-to-be-funny-even-if-you-re-not": "./books/theComicToolboxHowToBeFunnyEvenIfYouReNotExpanded.ts",
   "the-compassionate-life": "./books/theCompassionateLifeExpanded.ts",
@@ -943,6 +950,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-invisible-gorilla-how-our-intuitions-deceive-us": "./books/theInvisibleGorillaHowOurIntuitionsDeceiveUsExpanded.ts",
   "the-island-an-anthology-of-the-buddha-s-teachings-on-nibbana": "./books/theIslandAnAnthologyOfTheBuddhaSTeachingsOnNibbanaExpanded.ts",
   "the-itivuttaka-the-buddha-s-sayings": "./books/theItivuttakaTheBuddhaSSayingsExpanded.ts",
+  "the-jolt-effect-how-high-performers-overcome-customer-indeci": "./books/theJoltEffectHowHighPerformersOvercomeCustomerIndeciExpanded.ts",
   "the-journey-from-abandonment-to-healing": "./books/theJourneyFromAbandonmentToHealingExpanded.ts",
   "the-joy-of-living-and-dying-in-peace": "./books/theJoyOfLivingAndDyingInPeaceExpanded.ts",
   "the-joy-of-missing-out-jomo": "./books/theJoyOfMissingOutJomoExpanded.ts",
@@ -1037,6 +1045,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-righteous-mind-why-good-people-are-divided-by-politics-a": "./books/theRighteousMindWhyGoodPeopleAreDividedByPoliticsAExpanded.ts",
   "the-road-to-inner-freedom": "./books/theRoadToInnerFreedomExpanded.ts",
   "the-roots-of-good-and-evil": "./books/theRootsOfGoodAndEvilExpanded.ts",
+  "the-saas-sales-method-sales-as-a-science": "./books/theSaasSalesMethodSalesAsAScienceExpanded.ts",
   "the-sandler-rules-49-timeless-selling-principles": "./books/theSandlerRules49TimelessSellingPrinciplesExpanded.ts",
   "the-scout-mindset": "./books/theScoutMindsetExpanded.ts",
   "the-second-mountain-the-quest-for-a-moral-life": "./books/theSecondMountainTheQuestForAMoralLifeExpanded.ts",
@@ -1168,6 +1177,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "unwinding-anxiety": "./books/unwindingAnxietyExpanded.ts",
   "upside-of-stress-why-stress-is-good-for-you-and-how-to-get-g": "./books/upsideOfStressWhyStressIsGoodForYouAndHowToGetGExpanded.ts",
   "vagabonding-an-uncommon-guide-to-the-art-of-long-term-world-": "./books/vagabondingAnUncommonGuideToTheArtOfLongTermWorldExpanded.ts",
+  "value-as-a-service-embracing-the-coming-disruption": "./books/valueAsAServiceEmbracingTheComingDisruptionExpanded.ts",
   "venerable-acariya-mun-bhuridatta-spiritual-biography": "./books/venerableAcariyaMunBhuridattaSpiritualBiographyExpanded.ts",
   "vibhanga-the-book-of-analysis": "./books/vibhangaTheBookOfAnalysisExpanded.ts",
   "vipassana-meditation-guidelines": "./books/vipassanaMeditationGuidelinesExpanded.ts",
@@ -7462,6 +7472,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "dealstorming-the-secret-weapon-that-solves-your-toughest-sal",
+    "title": "Dealstorming: The Secret Weapon That Solves Your Toughest Sales Challenges",
+    "author": "Tim Sanders",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When high-stakes deals stall in complex enterprise committees, lone-wolf persistence fails. Dealstorming unlocks the hidden problem-solving power of your entire company to systematically engineer winning solutions.",
+      "coreThesis": "Enterprise sales bottlenecks are structural engineering puzzles, not persuasion deficits; solving them requires assembling cross-functional collective intelligence to co-create custom solutions.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Dealstorming: The Secret Weapon That Solves Your Toughest Sales Challenges"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "decisive",
     "title": "Decisive",
     "author": "Chip Heath & Dan Heath",
@@ -7630,6 +7675,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "demand-side-sales-101-stop-selling-and-help-your-customers-m",
+    "title": "Demand-Side Sales 101: Stop Selling and Help Your Customers Make Progress",
+    "author": "Bob Moesta",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop pitching product features into a void; understand the hidden physics of why people switch. When you diagnose the specific tension in a customer's life, selling transforms from an uphill push into an irresistible downhill pull.",
+      "coreThesis": "People do not purchase products based on features; they hire solutions to solve a struggling moment and propel their lives forward.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Demand-Side Sales 101: Stop Selling and Help Your Customers Make Progress"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
@@ -16624,6 +16704,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "major-account-sales-strategy",
+    "title": "Major Account Sales Strategy",
+    "author": "Neil Rackham",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1989,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Selling big deals isn't about charismatic persuasion; it is about navigating the intricate psychological machinery of how committee decisions evolve over time. Master the invisible currents of organizational buying to position your solution before competitors even know an opportunity exists.",
+      "coreThesis": "Enterprise sales success is determined by aligning your strategy with the buyer's evolving psychological phases, shaping their decision criteria early, and systematically neutralizing perceived risk.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Major Account Sales Strategy"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "make-it-stick-the-science-of-successful-learning",
     "title": "Make It Stick: The Science of Successful Learning",
     "author": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
@@ -21205,6 +21320,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "pitch-anything-an-innovative-method-for-presenting-persuadin",
+    "title": "Pitch Anything: An Innovative Method for Presenting, Persuading, and Winning the Deal",
+    "author": "Oren Klaff",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most pitches fail because you deliver complex ideas to an evolutionary survival brain that treats unfamiliar data like a threat. Win the room by mastering cognitive status, colliding social frames, and turning yourself into the prize they must chase.",
+      "coreThesis": "Human decisions are governed by ancient survival instincts and status games; you only win high-stakes deals when you control the social frame, elevate your local status, and make the buyer chase you as the prize.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Pitch Anything: An Innovative Method for Presenting, Persuading, and Winning the Deal"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "pivot-the-only-move-that-matters-is-your-next-one",
     "title": "Pivot: The Only Move That Matters Is Your Next One",
     "author": "Jenny Blake",
@@ -21409,6 +21559,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "power-base-selling-secrets-of-an-intrigue-seller",
+    "title": "Power Base Selling: Secrets of an Intrigue Seller",
+    "author": "Jim Holden",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 1990,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Enterprise sales deals are never won on product spec sheets or feature checklists; they are won in the shadows of corporate politics. Power Base Selling delivers the battle-tested blueprint to map hidden influence, recruit internal power brokers, and engineer decisive competitive victories.",
+      "coreThesis": "B2B enterprise buying decisions are political outcomes driven by informal networks of influence rather than formal organizational hierarchies. Victory belongs to the seller who identifies internal power brokers ('Foxes'), aligns with their personal and business stakes, and executes deliberate competitive maneuvers.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Power Base Selling: Secrets of an Intrigue Seller"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
@@ -23681,6 +23866,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "secrets-of-closing-the-sale",
+    "title": "Secrets of Closing the Sale",
+    "author": "Zig Ziglar",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 185,
+    "publishedYear": 1984,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Closing a deal is not an aggressive act of arm-twisting; it is an act of guided clarity that frees another person from the paralysis of indecision. When you align absolute ethical conviction with deep human empathy, closing becomes the natural, relieving final step of a mutual problem-solving journey.",
+      "coreThesis": "You can get everything in life you want if you will just help enough other people get what they want. Persuasion is an empathetic transference of genuine belief, guiding buyers past fear into decisions that serve their own best interests.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Secrets of Closing the Sale"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
@@ -30186,6 +30406,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-collaborative-sale-solution-selling-in-a-buyer-driven-wo",
+    "title": "The Collaborative Sale: Solution Selling in a Buyer-Driven World",
+    "author": "Keith M. Eades & Timothy T. Sullivan",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "When buyers already know all your product specs before picking up the phone, old-school pitch tactics collapse. This book provides the definitive scientific blueprint for transforming from an unwanted vendor into an indispensable co-creator of business value.",
+      "coreThesis": "Because modern buyers research solutions independently before contacting vendors, sales success requires abandoning one-sided pitches and co-creating value through situational fluency, shared problem diagnosis, and structured collaboration plans.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Collaborative Sale: Solution Selling in a Buyer-Driven World"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-comfort-crisis-embrace-discomfort-to-reclaim-your-wild-h",
     "title": "The Comfort Crisis: Embrace Discomfort to Reclaim Your Wild, Happy, Healthy Self",
     "author": "Michael Easter",
@@ -34208,6 +34463,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-jolt-effect-how-high-performers-overcome-customer-indeci",
+    "title": "The JOLT Effect: How High Performers Overcome Customer Indecision",
+    "author": "Matthew Dixon & Ted McKenna",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2022,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Deals do not die because customers love their status quo; they die because decision-makers fear getting blamed if the change goes sideways. High performers win not by turning up the pressure, but by actively stripping the personal risk out of the purchase.",
+      "coreThesis": "Customers do not freeze out of loyalty to their current situation; they freeze out of acute terror of personal blame for a bad purchase. Closing modern deals requires shifting focus from proving value (combating FOMO) to eliminating the fear of messing up (FOMU).",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The JOLT Effect: How High Performers Overcome Customer Indecision"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-journey-from-abandonment-to-healing",
     "title": "The Journey from Abandonment to Healing",
     "author": "Susan Anderson",
@@ -37490,6 +37780,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-saas-sales-method-sales-as-a-science",
+    "title": "The SaaS Sales Method: Sales as a Science",
+    "author": "Jacco van der Kooij & Fernando Pizarro",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop treating sales like theatrical charisma and start engineering it like a precision chemistry lab. When revenue is recurring, a signed contract is not the finish line\\u2014it is merely the halfway ignition point of a continuous value loop.",
+      "coreThesis": "Sustainable recurring revenue is an engineered byproduct of continuous customer impact, governed by mathematical pipeline velocity rather than charismatic individual heroics.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The SaaS Sales Method: Sales as a Science"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
@@ -42068,6 +42393,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "value-as-a-service-embracing-the-coming-disruption",
+    "title": "Value As a Service: Embracing the Coming Disruption",
+    "author": "J.B. Wood, Thomas Lah, Todd Hewlin",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Selling features and logging hours is dead; the modern market rewards only verified business outcomes. To dominate your pipeline, you must stop charging for the tools and start guaranteeing the harvest.",
+      "coreThesis": "The competitive battleground has permanently shifted from selling tools and subscriptions to delivering continuous, quantifiable business outcomes.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Value As a Service: Embracing the Coming Disruption"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
