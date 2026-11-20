@@ -145,6 +145,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "class-a-guide-through-the-american-status-system": "./books/classAGuideThroughTheAmericanStatusSystemExpanded.ts",
   "clear-thinking": "./books/clearThinkingExpanded.ts",
   "cognitive-psychology-mind-and-brain": "./books/cognitivePsychologyMindAndBrainExpanded.ts",
+  "combo-prospecting-the-powerful-one-two-punch-that-fills-your": "./books/comboProspectingThePowerfulOneTwoPunchThatFillsYourExpanded.ts",
   "common-stocks-and-uncommon-profits": "./books/commonStocksAndUncommonProfitsExpanded.ts",
   "company-of-one-why-staying-small-is-the-next-big-thing-for-b": "./books/companyOfOneWhyStayingSmallIsTheNextBigThingForBExpanded.ts",
   "compassion-and-emptiness-in-early-buddhist-meditation": "./books/compassionAndEmptinessInEarlyBuddhistMeditationExpanded.ts",
@@ -516,6 +517,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "never-eat-alone-and-other-secrets-to-success-one-relationshi": "./books/neverEatAloneAndOtherSecretsToSuccessOneRelationshiExpanded.ts",
   "never-finished-unshackle-your-mind-and-win-the-war-within": "./books/neverFinishedUnshackleYourMindAndWinTheWarWithinExpanded.ts",
   "never-split-the-difference-negotiating-as-if-your-life-depen": "./books/neverSplitTheDifferenceNegotiatingAsIfYourLifeDepenExpanded.ts",
+  "new-sales-simplified-the-essential-handbook-for-prospecting-": "./books/newSalesSimplifiedTheEssentialHandbookForProspectingExpanded.ts",
   "nicomachean-ethics": "./books/nicomacheanEthicsExpanded.ts",
   "no-ajahn-chah-reflections-of-a-master": "./books/noAjahnChahReflectionsOfAMasterExpanded.ts",
   "no-bad-parts-healing-trauma-and-restoring-wholeness-with-the": "./books/noBadPartsHealingTraumaAndRestoringWholenessWithTheExpanded.ts",
@@ -549,6 +551,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "organized-simplicity-the-clutter-free-approach-to-small-styl": "./books/organizedSimplicityTheClutterFreeApproachToSmallStylExpanded.ts",
   "our-appointment-with-life-the-bhaddekaratta-sutta": "./books/ourAppointmentWithLifeTheBhaddekarattaSuttaExpanded.ts",
   "our-real-home-teachings-for-approaching-death": "./books/ourRealHomeTeachingsForApproachingDeathExpanded.ts",
+  "outbound-sales-no-fluff-the-direct-path-to-calling-and-email": "./books/outboundSalesNoFluffTheDirectPathToCallingAndEmailExpanded.ts",
   "outlive-the-science-and-art-of-longevity": "./books/outliveTheScienceAndArtOfLongevityExpanded.ts",
   "overcoming-destructive-anger": "./books/overcomingDestructiveAngerExpanded.ts",
   "overcoming-gravity": "./books/overcomingGravityExpanded.ts",
@@ -646,6 +649,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "seeking-the-heart-of-wisdom": "./books/seekingTheHeartOfWisdomExpanded.ts",
   "self-compassion-the-proven-power-of-being-kind-to-yourself": "./books/selfCompassionTheProvenPowerOfBeingKindToYourselfExpanded.ts",
   "sell-with-a-story-how-to-capture-attention-build-trust-and-c": "./books/sellWithAStoryHowToCaptureAttentionBuildTrustAndCExpanded.ts",
+  "selling-to-the-c-suite-what-every-executive-wants-you-to-kno": "./books/sellingToTheCSuiteWhatEveryExecutiveWantsYouToKnoExpanded.ts",
   "selves-and-not-self-buddhist-epistemology": "./books/selvesAndNotSelfBuddhistEpistemologyExpanded.ts",
   "set-boundaries-find-peace-a-guide-to-reclaiming-yourself": "./books/setBoundariesFindPeaceAGuideToReclaimingYourselfExpanded.ts",
   "set-for-life-dominate-life-money-and-the-american-dream": "./books/setForLifeDominateLifeMoneyAndTheAmericanDreamExpanded.ts",
@@ -674,6 +678,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "slow-productivity-the-lost-art-of-accomplishment-without-bur": "./books/slowProductivityTheLostArtOfAccomplishmentWithoutBurExpanded.ts",
   "small-boat-great-mountain-reflections-on-dzogchen-and-theravada": "./books/smallBoatGreatMountainReflectionsOnDzogchenAndTheravadaExpanded.ts",
   "smart-brevity-the-power-of-saying-more-with-less": "./books/smartBrevityThePowerOfSayingMoreWithLessExpanded.ts",
+  "smart-calling-eliminate-the-fear-failure-and-rejection-from-": "./books/smartCallingEliminateTheFearFailureAndRejectionFromExpanded.ts",
   "smart-choices": "./books/smartChoicesExpanded.ts",
   "smart-women-finish-rich": "./books/smartWomenFinishRichExpanded.ts",
   "snakes-in-suits-when-psychopaths-go-to-work": "./books/snakesInSuitsWhenPsychopathsGoToWorkExpanded.ts",
@@ -716,6 +721,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "storyworthy-engage-teach-persuade-and-change-your-life-throu": "./books/storyworthyEngageTeachPersuadeAndChangeYourLifeThrouExpanded.ts",
   "straight-from-the-heart-dhamma-talks": "./books/straightFromTheHeartDhammaTalksExpanded.ts",
   "strangers-to-ourselves-discovering-the-adaptive-unconscious": "./books/strangersToOurselvesDiscoveringTheAdaptiveUnconsciousExpanded.ts",
+  "strategic-selling-the-unique-sales-system-proven-successful-": "./books/strategicSellingTheUniqueSalesSystemProvenSuccessfulExpanded.ts",
   "strategize-to-win": "./books/strategizeToWinExpanded.ts",
   "strong-at-the-broken-places": "./books/strongAtTheBrokenPlacesExpanded.ts",
   "super-thinking-the-big-book-of-mental-models": "./books/superThinkingTheBigBookOfMentalModelsExpanded.ts",
@@ -737,6 +743,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "teaching-and-training-at-pa-auk-monastery": "./books/teachingAndTrainingAtPaAukMonasteryExpanded.ts",
   "teachings-of-a-buddhist-monk": "./books/teachingsOfABuddhistMonkExpanded.ts",
   "teachings-on-love": "./books/teachingsOnLoveExpanded.ts",
+  "tech-powered-sales-achieve-superhuman-sales-skills": "./books/techPoweredSalesAchieveSuperhumanSalesSkillsExpanded.ts",
   "ted-talks-the-official-ted-guide-to-public-speaking": "./books/tedTalksTheOfficialTedGuideToPublicSpeakingExpanded.ts",
   "telling-lies-clues-to-deceit-in-the-marketplace-politics-and": "./books/tellingLiesCluesToDeceitInTheMarketplacePoliticsAndExpanded.ts",
   "ten-arguments-for-deleting-your-social-media-accounts-right-": "./books/tenArgumentsForDeletingYourSocialMediaAccountsRightExpanded.ts",
@@ -952,9 +959,11 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-logic-of-scientific-discovery": "./books/theLogicOfScientificDiscoveryExpanded.ts",
   "the-long-discourses-of-the-buddha-digha-nikaya": "./books/theLongDiscoursesOfTheBuddhaDighaNikayaExpanded.ts",
   "the-look-the-secret-language-of-the-eyes": "./books/theLookTheSecretLanguageOfTheEyesExpanded.ts",
+  "the-lost-art-of-closing-winning-10-commitments-that-drive-sa": "./books/theLostArtOfClosingWinning10CommitmentsThatDriveSaExpanded.ts",
   "the-lucifer-effect-understanding-how-good-people-turn-evil": "./books/theLuciferEffectUnderstandingHowGoodPeopleTurnEvilExpanded.ts",
   "the-manuals-of-dhamma-collected-works": "./books/theManualsOfDhammaCollectedWorksExpanded.ts",
   "the-mechanism-of-the-five-aggregates": "./books/theMechanismOfTheFiveAggregatesExpanded.ts",
+  "the-mega-deal-secrets-to-winning-multi-million-dollar-contra": "./books/theMegaDealSecretsToWinningMultiMillionDollarContraExpanded.ts",
   "the-memory-book": "./books/theMemoryBookExpanded.ts",
   "the-message-of-the-buddha": "./books/theMessageOfTheBuddhaExpanded.ts",
   "the-middle-length-discourses-of-the-buddha-majjhima-nikaya": "./books/theMiddleLengthDiscoursesOfTheBuddhaMajjhimaNikayaExpanded.ts",
@@ -1075,6 +1084,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-three-basic-facts-of-existence-impermanence-anicca": "./books/theThreeBasicFactsOfExistenceImpermanenceAniccaExpanded.ts",
   "the-three-basic-facts-of-existence-non-self-anatta": "./books/theThreeBasicFactsOfExistenceNonSelfAnattaExpanded.ts",
   "the-three-basic-facts-of-existence-suffering-dukkha": "./books/theThreeBasicFactsOfExistenceSufferingDukkhaExpanded.ts",
+  "the-top-sales-leader-playbook": "./books/theTopSalesLeaderPlaybookExpanded.ts",
   "the-total-money-makeover-a-proven-plan-for-financial-fitness": "./books/theTotalMoneyMakeoverAProvenPlanForFinancialFitnessExpanded.ts",
   "the-transparency-of-things-contemplating-the-nature-of-exper": "./books/theTransparencyOfThingsContemplatingTheNatureOfExperExpanded.ts",
   "the-transparency-sale-how-unexpected-honesty-and-understandi": "./books/theTransparencySaleHowUnexpectedHonestyAndUnderstandiExpanded.ts",
@@ -6293,6 +6303,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "combo-prospecting-the-powerful-one-two-punch-that-fills-your",
+    "title": "Combo Prospecting: The Powerful One-Two Punch That Fills Your Pipeline and Wins Sales",
+    "author": "Tony J. Hughes",
+    "category": "Sales & Persuasion",
+    "subcategory": "Prospecting & Outreach",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Single-channel sales outreach is dead, and cold calling alone is obsolete. Combo Prospecting delivers a battle-tested blueprint that blends telephone grit with digital acumen to break through executive gates and dominate your pipeline.",
+      "coreThesis": "Executive decision-makers do not respond to isolated outreach; breakthrough pipeline generation requires executing tightly orchestrated, multi-channel 'combos' that fuse phone, voicemail, email, and social proof into a rapid blitz of commercial value.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Combo Prospecting: The Powerful One-Two Punch That Fills Your Pipeline and Wins Sales"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
@@ -19271,6 +19316,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "new-sales-simplified-the-essential-handbook-for-prospecting-",
+    "title": "New Sales. Simplified.: The Essential Handbook for Prospecting and New Business Development",
+    "author": "Mike Weinberg",
+    "category": "Sales & Persuasion",
+    "subcategory": "Prospecting & Outreach",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "New business development is not an elusive art form reserved for silver-tongued charismatics; it is a predictable mechanical system built on target selection, sharp narrative weapons, and disciplined execution. Master this triad, and prospecting shifts from anxiety-inducing guesswork into a dependable engine for steady revenue growth.",
+      "coreThesis": "Sustainable business development is an engineered discipline, not an accident of personality: select a finite list of ideal targets, arm yourself with a customer-centric story, and execute focused prospecting sprints on an inviolable calendar rhythm.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "New Sales. Simplified.: The Essential Handbook for Prospecting and New Business Development"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "nicomachean-ethics",
     "title": "Nicomachean Ethics",
     "author": "Aristotle",
@@ -20420,6 +20500,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "outbound-sales-no-fluff-the-direct-path-to-calling-and-email",
+    "title": "Outbound Sales, No Fluff: The Direct Path to Calling and Emailing Modern Buyers",
+    "author": "Rex Biberston & Ryan Reisert",
+    "category": "Sales & Persuasion",
+    "subcategory": "Prospecting & Outreach",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Cold outreach is not an art of charismatic persuasion\\u2014it is an empirical engineering discipline governed by conversion physics and human psychology. Master the direct, no-nonsense mechanics of telephone and email prospecting to build a predictable, self-sustaining sales pipeline.",
+      "coreThesis": "Outbound sales is a predictable operational science: systematic list curation, honest direct phone conversations, and transparent conversion math consistently outperform charismatic guesswork.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Outbound Sales, No Fluff: The Direct Path to Calling and Emailing Modern Buyers"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
@@ -23815,6 +23930,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "selling-to-the-c-suite-what-every-executive-wants-you-to-kno",
+    "title": "Selling to the C-Suite: What Every Executive Wants You to Know About Successfully Selling to the Top",
+    "author": "Nicholas A.C. Read & Stephen J. Bistritz",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2009,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Groundbreaking research based on direct interviews with over 500 corporate executives reveals the exact cognitive triggers and decision curves leaders use to buy. It demystifies the C-suite corridor, handing sales professionals an empirical blueprint to become trusted boardroom advisors.",
+      "coreThesis": "Senior executives actively seek external insight during early strategic problem definition, but they filter out product peddlers\\u2014meaning sales professionals must engage early as consultative business diagnosticians who speak the language of enterprise risk and financial return.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Selling to the C-Suite: What Every Executive Wants You to Know About Successfully Selling to the Top"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "selves-and-not-self-buddhist-epistemology",
     "title": "Selves and Not-Self: Buddhist Epistemology",
     "author": "Thanissaro Bhikkhu",
@@ -24788,6 +24938,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "smart-calling-eliminate-the-fear-failure-and-rejection-from-",
+    "title": "Smart Calling: Eliminate the Fear, Failure, and Rejection from Cold Calling",
+    "author": "Art Sobczak",
+    "category": "Sales & Persuasion",
+    "subcategory": "Prospecting & Outreach",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 100,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Cold calling fails because the human brain is wired to reject blind interruptions; Smart Calling transforms cold intrusion into warm, context-rich problem solving. By mining trigger events and presenting tailored value propositions, you eliminate rejection before you dial.",
+      "coreThesis": "Cold calling dies when context begins; by anchoring every conversation in pre-call intelligence and tailored value, sales outreach shifts from intrusive friction to welcome collaboration.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Smart Calling: Eliminate the Fear, Failure, and Rejection from Cold Calling"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
@@ -26261,6 +26446,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "strategic-selling-the-unique-sales-system-proven-successful-",
+    "title": "Strategic Selling: The Unique Sales System Proven Successful by the World's Best Companies",
+    "author": "Robert B. Miller & Stephen E. Heiman",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 1985,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Complex sales are not won by individual charisma in high-pressure meetings; they are engineered behind the scenes by understanding the hidden human ecosystem of an organization. This book unveils the behavioral physics of corporate purchasing so you can navigate internal politics, defuse hidden vetoes, and build deals that stick.",
+      "coreThesis": "A complex deal is a multi-stakeholder ecosystem where lasting success requires satisfying the distinct functional roles and private personal motivations of all key buying influences.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Strategic Selling: The Unique Sales System Proven Successful by the World's Best Companies"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "strategize-to-win",
     "title": "Strategize to Win",
     "author": "Carla A. Harris",
@@ -26989,6 +27209,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "tech-powered-sales-achieve-superhuman-sales-skills",
+    "title": "Tech-Powered Sales: Achieve Superhuman Sales Skills",
+    "author": "Justin Michael & Tony Hughes",
+    "category": "Sales & Persuasion",
+    "subcategory": "Prospecting & Outreach",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2021,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Technology does not replace elite dealmakers; it turns them into lethal, high-output operators by stripping away clerical friction. Master the machine, deploy asymmetric automation, and secure unfair competitive advantage in modern enterprise prospecting.",
+      "coreThesis": "Sales professionals will not be replaced by artificial intelligence, but sales professionals who master and orchestrate technology will systematically displace those who do not.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Tech-Powered Sales: Achieve Superhuman Sales Skills"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
@@ -34512,6 +34767,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-lost-art-of-closing-winning-10-commitments-that-drive-sa",
+    "title": "The Lost Art of Closing: Winning 10 Commitments That Drive Sales",
+    "author": "Anthony Iannarino",
+    "category": "Sales & Persuasion",
+    "subcategory": "Prospecting & Outreach",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 85,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Closing is not an aggressive final sprint at the end of a deal; it is a relay of ten small, collaborative commitments that make final agreement natural and effortless. By mastering this step-by-step architecture, you turn chaotic sales conversations into predictable, value-driven partnerships.",
+      "coreThesis": "Closing is not a singular event that occurs at the end of a sales cycle, but an interconnected chain of ten incremental commitments made throughout the entire journey. When you help clients systematically resolve uncertainty and co-create solutions at every stage, the final decision becomes effortless.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Lost Art of Closing: Winning 10 Commitments That Drive Sales"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-lucifer-effect-understanding-how-good-people-turn-evil",
     "title": "The Lucifer Effect: Understanding How Good People Turn Evil",
     "author": "Philip Zimbardo",
@@ -34612,6 +34902,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-mega-deal-secrets-to-winning-multi-million-dollar-contra",
+    "title": "The Mega-Deal: Secrets to Winning Multi-Million Dollar Contracts",
+    "author": "Jamie Turner",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2021,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Landing an eight-figure contract is not about peddling features faster; it is about functioning as an architect who realigns an enterprise's vital organs. By swapping transactional pitching for peer-to-peer executive whispering, you transform high-stakes enterprise sales into a systematic, reproducible science.",
+      "coreThesis": "Whale-sized enterprise contracts are never won by pitching products from the bottom up; they are captured by diagnosing board-level imperatives at the top, proving undeniable fiscal ROI with audited pilots, and orchestrating executive alliances that outmaneuver procurement commoditization.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Mega-Deal: Secrets to Winning Multi-Million Dollar Contracts"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
@@ -38807,6 +39132,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-top-sales-leader-playbook",
+    "title": "The TOP Sales Leader Playbook",
+    "author": "Lisa D. Magnuson",
+    "category": "Sales & Persuasion",
+    "subcategory": "Prospecting & Outreach",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most sales teams burn out chasing dozens of small fish because they lack the machinery to catch a whale. Lisa Magnuson reveals the precise engineering system top sales leaders use to consistently close deals five times their average contract size.",
+      "coreThesis": "Winning transformative '5X' enterprise contracts is an organizational engineering discipline, not a heroic individual act. Sustainable revenue leaps happen when sales leaders orchestrate cross-functional teams around rigorous qualification, strategic war rooms, and executive-level alignment.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The TOP Sales Leader Playbook"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
