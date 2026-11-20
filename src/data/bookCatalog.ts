@@ -200,6 +200,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "difficult-conversations-how-to-discuss-what-matters-most": "./books/difficultConversationsHowToDiscussWhatMattersMostExpanded.ts",
   "dig-your-well-before-you-re-thirsty": "./books/digYourWellBeforeYouReThirstyExpanded.ts",
   "digital-body-language-how-to-build-trust-and-connection-no-m": "./books/digitalBodyLanguageHowToBuildTrustAndConnectionNoMExpanded.ts",
+  "digital-detox-the-ultimate-guide-to-unplugging": "./books/digitalDetoxTheUltimateGuideToUnpluggingExpanded.ts",
   "digital-minimalism-choosing-a-focused-life-in-a-noisy-world": "./books/digitalMinimalismChoosingAFocusedLifeInANoisyWorldExpanded.ts",
   "dimensions-of-buddhist-thought-collected-essays": "./books/dimensionsOfBuddhistThoughtCollectedEssaysExpanded.ts",
   "disarming-the-narcissist": "./books/disarmingTheNarcissistExpanded.ts",
@@ -257,6 +258,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "face-reading-in-chinese-medicine": "./books/faceReadingInChineseMedicineExpanded.ts",
   "facets-of-buddhist-thought": "./books/facetsOfBuddhistThoughtExpanded.ts",
   "factfulness": "./books/factfulnessExpanded.ts",
+  "fair-play-a-game-changing-solution-for-when-you-have-too-muc": "./books/fairPlayAGameChangingSolutionForWhenYouHaveTooMucExpanded.ts",
   "faith-trusting-your-own-deepest-experience": "./books/faithTrustingYourOwnDeepestExperienceExpanded.ts",
   "fallacies-and-argument-appraisal": "./books/fallaciesAndArgumentAppraisalExpanded.ts",
   "falling-into-grace-insights-on-the-end-of-suffering": "./books/fallingIntoGraceInsightsOnTheEndOfSufferingExpanded.ts",
@@ -328,6 +330,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "hope-and-help-for-your-nerves": "./books/hopeAndHelpForYourNervesExpanded.ts",
   "how-not-to-be-wrong-the-power-of-mathematical-thinking": "./books/howNotToBeWrongThePowerOfMathematicalThinkingExpanded.ts",
   "how-to-be-a-stoic": "./books/howToBeAStoicExpanded.ts",
+  "how-to-break-up-with-your-phone": "./books/howToBreakUpWithYourPhoneExpanded.ts",
   "how-to-change-your-mind-what-the-new-science-of-psychedelics": "./books/howToChangeYourMindWhatTheNewScienceOfPsychedelicsExpanded.ts",
   "how-to-decide": "./books/howToDecideExpanded.ts",
   "how-to-have-impossible-conversations": "./books/howToHaveImpossibleConversationsExpanded.ts",
@@ -372,6 +375,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "investigating-the-dhamma-a-collection-of-essays": "./books/investigatingTheDhammaACollectionOfEssaysExpanded.ts",
   "invisible-influence-the-hidden-forces-that-shape-behavior": "./books/invisibleInfluenceTheHiddenForcesThatShapeBehaviorExpanded.ts",
   "irrational-man-a-study-in-existential-philosophy": "./books/irrationalManAStudyInExistentialPhilosophyExpanded.ts",
+  "irresistible-the-rise-of-addictive-technology-and-the-busine": "./books/irresistibleTheRiseOfAddictiveTechnologyAndTheBusineExpanded.ts",
   "it-didn-t-start-with-you-how-inherited-family-trauma-shapes-": "./books/itDidnTStartWithYouHowInheritedFamilyTraumaShapesExpanded.ts",
   "it-s-called-a-breakup-because-it-s-broken": "./books/itSCalledABreakupBecauseItSBrokenExpanded.ts",
   "journey-to-mindfulness-autobiography": "./books/journeyToMindfulnessAutobiographyExpanded.ts",
@@ -518,6 +522,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "now-is-the-knowing": "./books/nowIsTheKnowingExpanded.ts",
   "nudge": "./books/nudgeExpanded.ts",
   "nudge-improving-decisions-about-health-wealth-and-happiness": "./books/nudgeImprovingDecisionsAboutHealthWealthAndHappinessExpanded.ts",
+  "offline-free-your-mind-from-smartphone-addiction": "./books/offlineFreeYourMindFromSmartphoneAddictionExpanded.ts",
   "old-age-and-mortality-the-jara-vagga": "./books/oldAgeAndMortalityTheJaraVaggaExpanded.ts",
   "old-path-white-clouds-walking-in-the-footsteps-of-the-buddha": "./books/oldPathWhiteCloudsWalkingInTheFootstepsOfTheBuddhaExpanded.ts",
   "on-having-no-head-zen-and-the-rediscovery-of-the-obvious": "./books/onHavingNoHeadZenAndTheRediscoveryOfTheObviousExpanded.ts",
@@ -688,6 +693,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "stoicism-and-the-art-of-happiness": "./books/stoicismAndTheArtOfHappinessExpanded.ts",
   "stolen-focus-why-you-can-t-pay-attention": "./books/stolenFocusWhyYouCanTPayAttentionExpanded.ts",
   "stop-caretaking-the-borderline-or-narcissist": "./books/stopCaretakingTheBorderlineOrNarcissistExpanded.ts",
+  "stop-reading-the-news-a-manifesto-for-a-happier-calmer-and-w": "./books/stopReadingTheNewsAManifestoForAHappierCalmerAndWExpanded.ts",
   "stop-walking-on-eggshells": "./books/stopWalkingOnEggshellsExpanded.ts",
   "stories-of-the-dhammapada": "./books/storiesOfTheDhammapadaExpanded.ts",
   "stories-that-stick": "./books/storiesThatStickExpanded.ts",
@@ -718,6 +724,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "teachings-on-love": "./books/teachingsOnLoveExpanded.ts",
   "ted-talks-the-official-ted-guide-to-public-speaking": "./books/tedTalksTheOfficialTedGuideToPublicSpeakingExpanded.ts",
   "telling-lies-clues-to-deceit-in-the-marketplace-politics-and": "./books/tellingLiesCluesToDeceitInTheMarketplacePoliticsAndExpanded.ts",
+  "ten-arguments-for-deleting-your-social-media-accounts-right-": "./books/tenArgumentsForDeletingYourSocialMediaAccountsRightExpanded.ts",
   "thank-you-for-arguing": "./books/thankYouForArguingExpanded.ts",
   "thank-you-for-arguing-what-aristotle-lincoln-and-homer-simps": "./books/thankYouForArguingWhatAristotleLincolnAndHomerSimpsExpanded.ts",
   "thanks-for-the-feedback-the-science-and-art-of-receiving-fee": "./books/thanksForTheFeedbackTheScienceAndArtOfReceivingFeeExpanded.ts",
@@ -792,6 +799,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-catalyst-how-to-change-anyone-s-mind": "./books/theCatalystHowToChangeAnyoneSMindExpanded.ts",
   "the-charisma-myth-how-anyone-can-master-the-art-and-science-": "./books/theCharismaMythHowAnyoneCanMasterTheArtAndScienceExpanded.ts",
   "the-checklist-manifesto": "./books/theChecklistManifestoExpanded.ts",
+  "the-checklist-manifesto-how-to-get-things-right": "./books/theChecklistManifestoHowToGetThingsRightExpanded.ts",
   "the-choice-embrace-the-possible": "./books/theChoiceEmbraceThePossibleExpanded.ts",
   "the-choice-factory-25-behavioral-biases-that-influence-what-": "./books/theChoiceFactory25BehavioralBiasesThatInfluenceWhatExpanded.ts",
   "the-circadian-code": "./books/theCircadianCodeExpanded.ts",
@@ -905,6 +913,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-hidden-dimension": "./books/theHiddenDimensionExpanded.ts",
   "the-humorous-approach": "./books/theHumorousApproachExpanded.ts",
   "the-image-a-guide-to-pseudo-events-in-america": "./books/theImageAGuideToPseudoEventsInAmericaExpanded.ts",
+  "the-information-diet-a-case-for-conscious-consumption": "./books/theInformationDietACaseForConsciousConsumptionExpanded.ts",
   "the-information-diet": "./books/theInformationDietExpanded.ts",
   "the-inner-citadel-the-meditations-of-marcus-aurelius": "./books/theInnerCitadelTheMeditationsOfMarcusAureliusExpanded.ts",
   "the-intelligent-investor": "./books/theIntelligentInvestorExpanded.ts",
@@ -1041,6 +1050,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-suttanipata-an-ancient-collection-of-discourses": "./books/theSuttanipataAnAncientCollectionOfDiscoursesExpanded.ts",
   "the-systems-view-of-life": "./books/theSystemsViewOfLifeExpanded.ts",
   "the-talent-code-greatness-isn-t-born-it-s-grown-here-s-how": "./books/theTalentCodeGreatnessIsnTBornItSGrownHereSHowExpanded.ts",
+  "the-tech-wise-family": "./books/theTechWiseFamilyExpanded.ts",
   "the-theory-of-the-leisure-class": "./books/theTheoryOfTheLeisureClassExpanded.ts",
   "the-thousandfold-verse-dhammapada-sahassa-vagga": "./books/theThousandfoldVerseDhammapadaSahassaVaggaExpanded.ts",
   "the-three-basic-facts-of-existence-impermanence-anicca": "./books/theThreeBasicFactsOfExistenceImpermanenceAniccaExpanded.ts",
@@ -8190,6 +8200,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "digital-detox-the-ultimate-guide-to-unplugging",
+    "title": "Digital Detox: The Ultimate Guide to Unplugging",
+    "author": "Selected tactical guides.",
+    "category": "Productivity",
+    "subcategory": "Digital Detox & Attention",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2021,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop letting algorithms dictate your day and take back command of your mental bandwidth. This tactical playbook gives you the exact tools to break screen compulsion, restore peak focus, and build sustainable boundaries that stick.",
+      "coreThesis": "Technology is an outstanding tool but a tyrannical boss; reclaiming your life requires designing friction into your environment so intentional action permanently replaces unconscious reflex.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Digital Detox: The Ultimate Guide to Unplugging"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "digital-minimalism-choosing-a-focused-life-in-a-noisy-world",
     "title": "Digital Minimalism: Choosing a Focused Life in a Noisy World",
     "author": "Cal Newport",
@@ -10180,6 +10225,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "fair-play-a-game-changing-solution-for-when-you-have-too-muc",
+    "title": "Fair Play: A Game-Changing Solution for When You Have Too Much to Do (and More Life to Live)",
+    "author": "Eve Rodsky",
+    "category": "Productivity",
+    "subcategory": "Organization & Minimalism",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop drowning in invisible mental to-do lists and reclaim hours of your life each week. By treating household logistics like a high-performing professional team with crystal-clear ownership, you eliminate daily resentment and make room for what truly energizes you.",
+      "coreThesis": "A healthy, equitable partnership requires full end-to-end ownership of household responsibilities, freeing both partners from invisible mental load so each can reclaim their time and creative vitality.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Fair Play: A Game-Changing Solution for When You Have Too Much to Do (and More Life to Live)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -12666,6 +12746,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "how-to-break-up-with-your-phone",
+    "title": "How to Break Up with Your Phone",
+    "author": "Catherine Price",
+    "category": "Productivity",
+    "subcategory": "Digital Detox & Attention",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your phone is not an innocent pocket tool\\u2014it is a meticulously engineered slot machine siphoning your most irreplaceable resource: your attention. This book delivers a practical, guilt-free 30-day playbook to reset your digital environment, break the autopilot reflex, and regain control of your life.",
+      "coreThesis": "Your attention is your life; reclaiming it does not mean discarding your phone, but intentionally redesigning your environment and daily rituals so the device serves your goals rather than exploiting your instincts.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "How to Break Up with Your Phone"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "how-to-change-your-mind-what-the-new-science-of-psychedelics",
     "title": "How to Change Your Mind: What the New Science of Psychedelics Teaches Us",
     "author": "Michael Pollan",
@@ -14200,6 +14315,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "irresistible-the-rise-of-addictive-technology-and-the-busine",
+    "title": "Irresistible: The Rise of Addictive Technology and the Business of Keeping Us Hooked",
+    "author": "Adam Alter",
+    "category": "Productivity",
+    "subcategory": "Digital Detox & Attention",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your lack of digital focus is not a personal character flaw; it is an engineered design contest you were never equipped to win alone. Learn how to reconstruct your physical environment and daily routines to reclaim total mastery over your attention.",
+      "coreThesis": "Behavioral addiction is an engineered byproduct of modern software design that exploits fundamental human vulnerabilities, but deliberate environmental architecture restores your personal autonomy.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Irresistible: The Rise of Addictive Technology and the Business of Keeping Us Hooked"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
       "Strategy",
       "Mental Models"
     ]
@@ -19305,6 +19455,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "offline-free-your-mind-from-smartphone-addiction",
+    "title": "Offline: Free Your Mind from Smartphone Addiction",
+    "author": "Desi Hariharan",
+    "category": "Productivity",
+    "subcategory": "Digital Detox & Attention",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Your smartphone was engineered by the sharpest minds on earth to capture your attention and auction it to advertisers. Regain the driver's seat of your life with clear environmental boundaries and practical daily routines that put technology back in its place as a tool, not a master.",
+      "coreThesis": "Digital distraction is an environmental design problem, not a character flaw; reclaiming your mind requires building intentional physical and temporal friction against predatory algorithms.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Offline: Free Your Mind from Smartphone Addiction"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
       "Strategy",
       "Mental Models"
     ]
@@ -25251,6 +25436,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "stop-reading-the-news-a-manifesto-for-a-happier-calmer-and-w",
+    "title": "Stop Reading the News: A Manifesto for a Happier, Calmer and Wiser Life",
+    "author": "Rolf Dobelli",
+    "category": "Productivity",
+    "subcategory": "Digital Detox & Attention",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 175,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Cut the digital noise and reclaim your sanity: modern news is mental junk food engineered to keep you anxious, distracted, and reactive. Going on a strict news diet frees up hundreds of hours of deep focus, eliminates synthetic stress, and unlocks genuine real-world agency.",
+      "coreThesis": "News is toxic, irrelevant mental junk food designed to harvest your attention; eliminating it completely restores emotional equanimity, sharpens deep thinking, and frees your energy for things you can actually control.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Stop Reading the News: A Manifesto for a Happier, Calmer and Wiser Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "stop-walking-on-eggshells",
     "title": "Stop Walking on Eggshells",
     "author": "Paul T. Mason & Randi Kreger",
@@ -26294,6 +26514,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "ten-arguments-for-deleting-your-social-media-accounts-right-",
+    "title": "Ten Arguments for Deleting Your Social Media Accounts Right Now",
+    "author": "Jaron Lanier",
+    "category": "Productivity",
+    "subcategory": "Digital Detox & Attention",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Reclaim your mind, your attention, and your sovereignty by stepping off the algorithmic hamster wheel. Deleting social media is not anti-tech; it is the ultimate pro-human upgrade.",
+      "coreThesis": "Modern social media platforms are behavior-modification machines engineered to monetize your outrage, and deleting your accounts is the fastest way to reclaim your cognitive autonomy and emotional well-being.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Ten Arguments for Deleting Your Social Media Accounts Right Now"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
       "Strategy",
       "Mental Models"
     ]
@@ -28883,6 +29138,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "the-checklist-manifesto-how-to-get-things-right",
+    "title": "The Checklist Manifesto: How to Get Things Right",
+    "author": "Atul Gawande",
+    "category": "Productivity",
+    "subcategory": "Organization & Minimalism",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2009,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Even the most brilliant experts fail when complexity overwhelms memory. A simple, disciplined checklist provides an external cognitive skeleton that guarantees baseline excellence every single time.",
+      "coreThesis": "Human memory and concentration are vulnerable to cognitive overload, but simple, well-designed checklists provide a cognitive scaffold that prevents preventable failure and frees judgment for complex decisions.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Checklist Manifesto: How to Get Things Right"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -32833,6 +33123,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-information-diet-a-case-for-conscious-consumption",
+    "title": "The Information Diet: A Case for Conscious Consumption",
+    "author": "Clay A. Johnson",
+    "category": "Productivity",
+    "subcategory": "Digital Detox & Attention",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 55,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Just as industrial food processing flooded our bodies with cheap junk calories, the attention economy has flooded our minds with cheap mental sugar. Clay Johnson hands you the nutritional playbook to purge digital clutter, master conscious consumption, and reclaim razor-sharp focus.",
+      "coreThesis": "Information overload is a personal consumption problem, not a technology problem. By taking conscious ownership of our digital diet\\u2014prioritizing raw data over processed opinion and setting firm consumption boundaries\\u2014we reclaim agency, focus, and mental clarity.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Information Diet: A Case for Conscious Consumption"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
       "Strategy",
       "Mental Models"
     ]
@@ -37587,6 +37912,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Creativity & Expression",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-tech-wise-family",
+    "title": "The Tech-Wise Family",
+    "author": "Andy Crouch",
+    "category": "Productivity",
+    "subcategory": "Digital Detox & Attention",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop letting devices dictate your household rhythm\\u2014put technology back in its proper place as a tool for creation rather than an engine of distraction. Andy Crouch delivers a tactical masterclass in designing environments where genuine human connection and deep focus naturally thrive.",
+      "coreThesis": "Technology must be kept in its proper place as a secondary tool that supports real-world human capability, rather than an omnipresent environment that displaces active creation and physical presence.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Tech-Wise Family"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
       "Strategy",
       "Mental Models"
     ]
