@@ -72,6 +72,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "attached-the-new-science-of-adult-attachment-and-how-it-can-": "./books/attachedTheNewScienceOfAdultAttachmentAndHowItCanExpanded.ts",
   "attacking-faulty-reasoning": "./books/attackingFaultyReasoningExpanded.ts",
   "attention-span": "./books/attentionSpanExpanded.ts",
+  "automate-your-life": "./books/automateYourLifeExpanded.ts",
   "awake-it-s-your-turn": "./books/awakeItSYourTurnExpanded.ts",
   "awakening-the-mind-lightening-the-heart": "./books/awakeningTheMindLighteningTheHeartExpanded.ts",
   "awareness-alone-is-not-enough": "./books/awarenessAloneIsNotEnoughExpanded.ts",
@@ -325,6 +326,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "hell-yeah-or-no": "./books/hellYeahOrNoExpanded.ts",
   "high-output-management": "./books/highOutputManagementExpanded.ts",
   "hold-me-tight-seven-conversations-for-a-lifetime-of-love": "./books/holdMeTightSevenConversationsForALifetimeOfLoveExpanded.ts",
+  "home-management-plain-and-simple": "./books/homeManagementPlainAndSimpleExpanded.ts",
   "honoring-the-self": "./books/honoringTheSelfExpanded.ts",
   "hooked-how-to-build-habit-forming-products": "./books/hookedHowToBuildHabitFormingProductsExpanded.ts",
   "hope-and-help-for-your-nerves": "./books/hopeAndHelpForYourNervesExpanded.ts",
@@ -335,6 +337,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "how-to-decide": "./books/howToDecideExpanded.ts",
   "how-to-have-impossible-conversations": "./books/howToHaveImpossibleConversationsExpanded.ts",
   "how-to-live-without-fear-and-worry": "./books/howToLiveWithoutFearAndWorryExpanded.ts",
+  "how-to-manage-your-home-without-losing-your-mind": "./books/howToManageYourHomeWithoutLosingYourMindExpanded.ts",
   "how-to-practice-the-way-to-a-meaningful-life": "./books/howToPracticeTheWayToAMeaningfulLifeExpanded.ts",
   "how-to-read-a-book": "./books/howToReadABookExpanded.ts",
   "how-to-see-yourself-as-you-really-are": "./books/howToSeeYourselfAsYouReallyAreExpanded.ts",
@@ -387,6 +390,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "kamma-and-its-fruit-explorations-in-buddhist-karma": "./books/kammaAndItsFruitExplorationsInBuddhistKarmaExpanded.ts",
   "karma-and-rebirth": "./books/karmaAndRebirthExpanded.ts",
   "kathavatthu-points-of-controversy": "./books/kathavatthuPointsOfControversyExpanded.ts",
+  "keep-house-living-with-depression": "./books/keepHouseLivingWithDepressionExpanded.ts",
   "keeping-the-breath-in-mind-lessons-in-samadhi": "./books/keepingTheBreathInMindLessonsInSamadhiExpanded.ts",
   "kill-it-with-fire-manage-aging-computer-systems-and-communic": "./books/killItWithFireManageAgingComputerSystemsAndCommunicExpanded.ts",
   "kindness-clarity-and-insight": "./books/kindnessClarityAndInsightExpanded.ts",
@@ -537,6 +541,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "opening-the-door-of-your-heart": "./books/openingTheDoorOfYourHeartExpanded.ts",
   "option-b-facing-adversity-building-resilience-and-finding-jo": "./books/optionBFacingAdversityBuildingResilienceAndFindingJoExpanded.ts",
   "orbiting-the-giant-hairball-a-corporate-fool-s-guide-to-surv": "./books/orbitingTheGiantHairballACorporateFoolSGuideToSurvExpanded.ts",
+  "organized-simplicity-the-clutter-free-approach-to-small-styl": "./books/organizedSimplicityTheClutterFreeApproachToSmallStylExpanded.ts",
   "our-appointment-with-life-the-bhaddekaratta-sutta": "./books/ourAppointmentWithLifeTheBhaddekarattaSuttaExpanded.ts",
   "our-real-home-teachings-for-approaching-death": "./books/ourRealHomeTeachingsForApproachingDeathExpanded.ts",
   "outlive-the-science-and-art-of-longevity": "./books/outliveTheScienceAndArtOfLongevityExpanded.ts",
@@ -651,6 +656,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "simple-teachings-on-higher-truths": "./books/simpleTeachingsOnHigherTruthsExpanded.ts",
   "simplicity-parenting-using-the-extraordinary-power-of-less-t": "./books/simplicityParentingUsingTheExtraordinaryPowerOfLessTExpanded.ts",
   "sing-your-story": "./books/singYourStoryExpanded.ts",
+  "sink-reflections": "./books/sinkReflectionsExpanded.ts",
   "six-thinking-hats": "./books/sixThinkingHatsExpanded.ts",
   "skill-in-questions-how-the-buddha-taught": "./books/skillInQuestionsHowTheBuddhaTaughtExpanded.ts",
   "skin-in-the-game": "./books/skinInTheGameExpanded.ts",
@@ -675,6 +681,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "spatial-behavior-a-geographic-and-psychological-perspective": "./books/spatialBehaviorAGeographicAndPsychologicalPerspectiveExpanded.ts",
   "speak-peace-in-a-world-of-conflict": "./books/speakPeaceInAWorldOfConflictExpanded.ts",
   "spent-sex-evolution-and-consumer-behavior": "./books/spentSexEvolutionAndConsumerBehaviorExpanded.ts",
+  "spin-selling": "./books/spinSellingExpanded.ts",
   "split-second-persuasion": "./books/splitSecondPersuasionExpanded.ts",
   "splitting-protecting-yourself-while-divorcing-someone-with-b": "./books/splittingProtectingYourselfWhileDivorcingSomeoneWithBExpanded.ts",
   "sprint-how-to-solve-big-problems-and-test-new-ideas-in-just-": "./books/sprintHowToSolveBigProblemsAndTestNewIdeasInJustExpanded.ts",
@@ -797,6 +804,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-business-of-expertise-how-entrepreneurial-advisors-maste": "./books/theBusinessOfExpertiseHowEntrepreneurialAdvisorsMasteExpanded.ts",
   "the-case-for-rebirth": "./books/theCaseForRebirthExpanded.ts",
   "the-catalyst-how-to-change-anyone-s-mind": "./books/theCatalystHowToChangeAnyoneSMindExpanded.ts",
+  "the-challenger-sale-taking-control-of-the-customer-conversat": "./books/theChallengerSaleTakingControlOfTheCustomerConversatExpanded.ts",
   "the-charisma-myth-how-anyone-can-master-the-art-and-science-": "./books/theCharismaMythHowAnyoneCanMasterTheArtAndScienceExpanded.ts",
   "the-checklist-manifesto": "./books/theChecklistManifestoExpanded.ts",
   "the-checklist-manifesto-how-to-get-things-right": "./books/theChecklistManifestoHowToGetThingsRightExpanded.ts",
@@ -926,6 +934,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-kalama-sutta-the-buddha-s-charter-of-free-inquiry": "./books/theKalamaSuttaTheBuddhaSCharterOfFreeInquiryExpanded.ts",
   "the-karma-of-questions-essays-on-the-buddhist-path": "./books/theKarmaOfQuestionsEssaysOnTheBuddhistPathExpanded.ts",
   "the-key-to-liberation": "./books/theKeyToLiberationExpanded.ts",
+  "the-lazy-genius-way-embrace-what-matters-ditch-what-doesn-t-": "./books/theLazyGeniusWayEmbraceWhatMattersDitchWhatDoesnTExpanded.ts",
   "the-lean-startup-how-today-s-entrepreneurs-use-continuous-in": "./books/theLeanStartupHowTodaySEntrepreneursUseContinuousInExpanded.ts",
   "the-life-changing-magic-of-tidying-up-the-japanese-art-of-de": "./books/theLifeChangingMagicOfTidyingUpTheJapaneseArtOfDeExpanded.ts",
   "the-life-of-sariputta": "./books/theLifeOfSariputtaExpanded.ts",
@@ -970,6 +979,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-other-shore-a-new-translation-of-the-heart-sutra": "./books/theOtherShoreANewTranslationOfTheHeartSutraExpanded.ts",
   "the-oxygen-advantage": "./books/theOxygenAdvantageExpanded.ts",
   "the-pali-literature-of-ceylon": "./books/thePaliLiteratureOfCeylonExpanded.ts",
+  "the-paper-solution-what-to-shred-what-to-save-and-how-to-sto": "./books/thePaperSolutionWhatToShredWhatToSaveAndHowToStoExpanded.ts",
   "the-paradox-of-becoming-finding-freedom-in-the-cycle-of-becoming": "./books/theParadoxOfBecomingFindingFreedomInTheCycleOfBecomingExpanded.ts",
   "the-paradox-of-choice": "./books/theParadoxOfChoiceExpanded.ts",
   "the-path-made-clear": "./books/thePathMadeClearExpanded.ts",
@@ -3720,6 +3730,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Psychology",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "automate-your-life",
+    "title": "Automate Your Life",
+    "author": "Various modern administrative manuals on paperless document management and personal life ops.",
+    "category": "Productivity",
+    "subcategory": "Organization & Minimalism",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop acting like a burned-out administrative assistant inside your own private life. By replacing manual paperwork and repetitive chores with automated digital pipelines, you reclaim your mental bandwidth for the work and relationships that actually matter.",
+      "coreThesis": "Friction is the ultimate thief of human potential; when you systematically automate administrative chores and paper management, you convert chronic background anxiety into reliable creative energy.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Automate Your Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
       "Strategy",
       "Mental Models"
     ]
@@ -12572,6 +12617,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "home-management-plain-and-simple",
+    "title": "Home Management Plain and Simple",
+    "author": "Kim Brenneman",
+    "category": "Productivity",
+    "subcategory": "Organization & Minimalism",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 235,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop running your home like an exhausted firefighter extinguishing endless crises and start operating it like a finely tuned expedition crew. Kim Brenneman reveals how structured daily anchor routines and batch-processed thematic days transform household maintenance into effortless background momentum.",
+      "coreThesis": "Household serenity and productivity are not achieved through sheer willpower or endless frantic effort, but by engineering repeatable daily anchors and dedicated thematic batch days that eliminate decision fatigue.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Home Management Plain and Simple"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "honoring-the-self",
     "title": "Honoring the Self",
     "author": "Nathaniel Branden",
@@ -12915,6 +12995,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "how-to-manage-your-home-without-losing-your-mind",
+    "title": "How to Manage Your Home Without Losing Your Mind",
+    "author": "Dana K. White",
+    "category": "Productivity",
+    "subcategory": "Organization & Minimalism",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 145,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop treating a messy home like an exhausting marathon project that requires an entire weekend of panic-cleaning. Learn the counterintuitive, friction-free rules that keep physical environments perpetually functional through automated daily baselines and aggressive inventory limits.",
+      "coreThesis": "A functional home is not created by occasional heroic cleaning sprees or intricate organization systems, but by anchoring automated daily maintenance baselines and aggressively capping physical possessions at the capacity of your available containers.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "How to Manage Your Home Without Losing Your Mind"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
       "Strategy",
       "Mental Models"
     ]
@@ -14735,6 +14850,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "keep-house-living-with-depression",
+    "title": "Keep House Living with Depression",
+    "author": "KC Davis",
+    "category": "Productivity",
+    "subcategory": "Organization & Minimalism",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 205,
+    "publishedYear": 2022,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop treating domestic maintenance as a moral exam and start engineering your space to serve your life. Master the mechanics of low-friction environment design so you can run your home with effortless momentum, even on your lowest-energy days.",
+      "coreThesis": "Care tasks are morally neutral and exist solely to serve your human functionality; designing friction-free, adaptive systems and eliminating shame restores immediate agency in any overwhelmed space.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Keep House Living with Depression"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
       "Strategy",
       "Mental Models"
     ]
@@ -19985,6 +20135,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "organized-simplicity-the-clutter-free-approach-to-small-styl",
+    "title": "Organized Simplicity: The Clutter-Free Approach to Small-Style Living",
+    "author": "Tsh Oxenreider",
+    "category": "Productivity",
+    "subcategory": "Organization & Minimalism",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 80,
+    "publishedYear": 2010,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop running on the consumer hamster wheel and transform your home from an exhausting warehouse into an energizing launchpad. Tsh Oxenreider hands you a battle-tested blueprint to purge physical drag, streamline household logistics, and build effortless daily momentum.",
+      "coreThesis": "True simplicity is the intentional curation of your environment, schedule, and resources so your home ceases to be a draining storage unit and becomes an efficient engine for what matters most.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Organized Simplicity: The Clutter-Free Approach to Small-Style Living"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "our-appointment-with-life-the-bhaddekaratta-sutta",
     "title": "Our Appointment with Life: The Bhaddekaratta Sutta",
     "author": "Thich Nhat Hanh",
@@ -23969,6 +24154,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "sink-reflections",
+    "title": "Sink Reflections",
+    "author": "Marla Cilley",
+    "category": "Productivity",
+    "subcategory": "Organization & Minimalism",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 85,
+    "publishedYear": 2002,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Eliminate domestic chaos and decision fatigue not by exhausting weekend cleaning marathons, but by building bulletproof fifteen-minute micro-habits that keep your environment perpetually reset.",
+      "coreThesis": "Sustainable order is not the product of heroic cleaning marathons, but the compounding result of tiny, frictionless routines that prevent clutter at the source.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Sink Reflections"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "six-thinking-hats",
     "title": "Six Thinking Hats",
     "author": "Edward de Bono",
@@ -24794,6 +25014,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Spent: Sex, Evolution, and Consumer Behavior"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "spin-selling",
+    "title": "SPIN Selling",
+    "author": "Neil Rackham",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 1988,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Groundbreaking empirical research dismantles decades of slick sales myths, proving that big deals aren't won by pushy closing lines, but by asking precise, diagnostic questions that help buyers discover the true cost of their unresolved problems.",
+      "coreThesis": "Large sales are won or lost in the investigating stage: buyers do not commit because of clever closing tricks, but because diagnostic questioning makes the hidden cost of their problem substantially heavier than the price of your solution.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "SPIN Selling"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -29067,6 +29322,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-challenger-sale-taking-control-of-the-customer-conversat",
+    "title": "The Challenger Sale: Taking Control of the Customer Conversation",
+    "author": "Matthew Dixon & Brent Adamson",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most businesses believe great sales come from friendly relationships, but the science reveals that customers don't buy because you are likable\\u2014they buy because you make them smarter about their own business. The top performers win by challenging existing assumptions and guiding clients out of hidden blind spots.",
+      "coreThesis": "Sustained sales success comes from teaching customers something new about their own business, tailoring the message to organizational priorities, and taking control of the commercial dialogue.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Challenger Sale: Taking Control of the Customer Conversation"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
@@ -33583,6 +33873,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-lazy-genius-way-embrace-what-matters-ditch-what-doesn-t-",
+    "title": "The Lazy Genius Way: Embrace What Matters, Ditch What Doesn't, and Get Stuff Done",
+    "author": "Kendra Adachi",
+    "category": "Productivity",
+    "subcategory": "Organization & Minimalism",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop trying to do everything right; be a genius about the things that matter and lazy about the things that don't. This book provides 13 pragmatic operating principles to design a low-friction life tailored to your personal priorities.",
+      "coreThesis": "You do not need to try harder; you need to be a genius about what matters to you and lazy about what does not.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Lazy Genius Way: Embrace What Matters, Ditch What Doesn't, and Get Stuff Done"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-lean-startup-how-today-s-entrepreneurs-use-continuous-in",
     "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
     "author": "Eric Ries",
@@ -35116,6 +35441,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-paper-solution-what-to-shred-what-to-save-and-how-to-sto",
+    "title": "The Paper Solution: What to Shred, What to Save, and How to Stop It from Taking Over Your Life",
+    "author": "Lisa Woodruff",
+    "category": "Productivity",
+    "subcategory": "Organization & Minimalism",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 95,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Paper clutter is not a moral failing; it is an engineering problem caused by obsolete filing systems. The Paper Solution gives you a plug-and-play operating system to eliminate 85% of your paper backlog and run your entire household from a single weekly routine and portable reference binders.",
+      "coreThesis": "Up to 85% of household paper is actionable noise that can be discarded, while the remaining 15% should be managed through an active weekly triage basket and portable, category-specific binders instead of a dead filing cabinet.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Paper Solution: What to Shred, What to Save, and How to Stop It from Taking Over Your Life"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Productivity",
       "Strategy",
       "Mental Models"
     ]
