@@ -47,6 +47,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "all-of-us-beset-by-birth-decay-and-death": "./books/allOfUsBesetByBirthDecayAndDeathExpanded.ts",
   "alone-together-why-we-expect-more-from-technology-and-less-f": "./books/aloneTogetherWhyWeExpectMoreFromTechnologyAndLessFExpanded.ts",
   "already-free-buddhism-meets-psychotherapy-on-the-path-of-lib": "./books/alreadyFreeBuddhismMeetsPsychotherapyOnThePathOfLibExpanded.ts",
+  "amp-it-up-leading-for-hypergrowth-by-raising-expectations-in": "./books/ampItUpLeadingForHypergrowthByRaisingExpectationsInExpanded.ts",
   "an-analysis-of-the-sutta-nipata": "./books/anAnalysisOfTheSuttaNipataExpanded.ts",
   "an-illustrated-book-of-bad-arguments": "./books/anIllustratedBookOfBadArgumentsExpanded.ts",
   "an-inquiring-mind-s-journey-into-vipassana": "./books/anInquiringMindSJourneyIntoVipassanaExpanded.ts",
@@ -260,6 +261,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "everything-s-an-argument": "./books/everythingSAnArgumentExpanded.ts",
   "evil-and-punishment-the-danda-vagga-of-the-dhammapada": "./books/evilAndPunishmentTheDandaVaggaOfTheDhammapadaExpanded.ts",
   "evolutionary-psychology-the-new-science-of-the-mind": "./books/evolutionaryPsychologyTheNewScienceOfTheMindExpanded.ts",
+  "execution-the-discipline-of-getting-things-done": "./books/executionTheDisciplineOfGettingThingsDoneExpanded.ts",
   "executive-presence-the-missing-link-between-merit-and-succes": "./books/executivePresenceTheMissingLinkBetweenMeritAndSuccesExpanded.ts",
   "exhaustion-a-history": "./books/exhaustionAHistoryExpanded.ts",
   "existentialism-is-a-humanism": "./books/existentialismIsAHumanismExpanded.ts",
@@ -279,6 +281,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "feeling-good-the-new-mood-therapy": "./books/feelingGoodTheNewMoodTherapyExpanded.ts",
   "fierce-conversations-achieving-success-at-work-and-in-life-o": "./books/fierceConversationsAchievingSuccessAtWorkAndInLifeOExpanded.ts",
   "financial-freedom-a-proven-path-to-all-the-money-you-will-ev": "./books/financialFreedomAProvenPathToAllTheMoneyYouWillEvExpanded.ts",
+  "financial-intelligence-a-manager-s-guide-to-knowing-what-the": "./books/financialIntelligenceAManagerSGuideToKnowingWhatTheExpanded.ts",
   "find-your-why": "./books/findYourWhyExpanded.ts",
   "finding-the-missing-peace-a-primer-of-meditation": "./books/findingTheMissingPeaceAPrimerOfMeditationExpanded.ts",
   "finding-your-voice": "./books/findingYourVoiceExpanded.ts",
@@ -320,6 +323,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "good-to-great-why-some-companies-make-the-leap-and-others-do": "./books/goodToGreatWhySomeCompaniesMakeTheLeapAndOthersDoExpanded.ts",
   "goodbye-things-the-new-japanese-minimalism": "./books/goodbyeThingsTheNewJapaneseMinimalismExpanded.ts",
   "great-at-work-how-top-performers-do-less-work-better-and-ach": "./books/greatAtWorkHowTopPerformersDoLessWorkBetterAndAchExpanded.ts",
+  "great-by-choice-uncertainty-chaos-and-luck-why-some-thrive-d": "./books/greatByChoiceUncertaintyChaosAndLuckWhySomeThriveDExpanded.ts",
   "great-disciples-of-the-buddha-their-lives-and-legacy": "./books/greatDisciplesOfTheBuddhaTheirLivesAndLegacyExpanded.ts",
   "grit-the-power-of-passion-and-perseverance": "./books/gritThePowerOfPassionAndPerseveranceExpanded.ts",
   "guide-through-the-abhidhamma-pitaka": "./books/guideThroughTheAbhidhammaPitakaExpanded.ts",
@@ -469,6 +473,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "manual-of-the-path-to-higher-knowledge-patthanuddesa-dipani": "./books/manualOfThePathToHigherKnowledgePatthanuddesaDipaniExpanded.ts",
   "manual-of-the-supreme-man-uttamapurisa-dipani": "./books/manualOfTheSupremeManUttamapurisaDipaniExpanded.ts",
   "many-ways-to-nirvana-reflections-on-happiness": "./books/manyWaysToNirvanaReflectionsOnHappinessExpanded.ts",
+  "margin-of-safety-risk-averse-value-investing-strategies-for-": "./books/marginOfSafetyRiskAverseValueInvestingStrategiesForExpanded.ts",
   "mastering-the-complex-sale": "./books/masteringTheComplexSaleExpanded.ts",
   "mastering-the-complex-sale-how-to-compete-and-win-when-the-s": "./books/masteringTheComplexSaleHowToCompeteAndWinWhenTheSExpanded.ts",
   "mastery": "./books/masteryExpanded.ts",
@@ -601,6 +606,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "presentation-zen-simple-ideas-on-presentation-design-and-del": "./books/presentationZenSimpleIdeasOnPresentationDesignAndDelExpanded.ts",
   "primal-leadership": "./books/primalLeadershipExpanded.ts",
   "principles-for-navigating-big-debt-crises": "./books/principlesForNavigatingBigDebtCrisesExpanded.ts",
+  "principles-life-and-work": "./books/principlesLifeAndWorkExpanded.ts",
   "process-of-consciousness-according-to-abhidhamma": "./books/processOfConsciousnessAccordingToAbhidhammaExpanded.ts",
   "protection-through-satipatthana": "./books/protectionThroughSatipatthanaExpanded.ts",
   "the-psychology-of-money-timeless-lessons-on-wealth-greed-and": "./books/psychologyOfMoneyExpanded.ts",
@@ -608,6 +614,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "puggalapannatti-designation-of-human-types": "./books/puggalapannattiDesignationOfHumanTypesExpanded.ts",
   "purification-of-mind-and-view": "./books/purificationOfMindAndViewExpanded.ts",
   "purity-of-heart-essays-on-the-buddhist-path": "./books/purityOfHeartEssaysOnTheBuddhistPathExpanded.ts",
+  "quality-investing-owning-the-best-companies-for-the-long-ter": "./books/qualityInvestingOwningTheBestCompaniesForTheLongTerExpanded.ts",
   "quit-like-a-millionaire": "./books/quitLikeAMillionaireExpanded.ts",
   "radical-acceptance-embracing-your-life-with-the-heart-of-a-b": "./books/radicalAcceptanceEmbracingYourLifeWithTheHeartOfABExpanded.ts",
   "radical-acceptance": "./books/radicalAcceptanceExpanded.ts",
@@ -1019,6 +1026,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-obstacle-is-the-way-the-timeless-art-of-turning-trials-i": "./books/theObstacleIsTheWayTheTimelessArtOfTurningTrialsIExpanded.ts",
   "the-one-thing": "./books/theOneThingExpanded.ts",
   "the-other-shore-a-new-translation-of-the-heart-sutra": "./books/theOtherShoreANewTranslationOfTheHeartSutraExpanded.ts",
+  "the-outsiders-eight-unconventional-ceos-and-their-radically-": "./books/theOutsidersEightUnconventionalCeosAndTheirRadicallyExpanded.ts",
   "the-oxygen-advantage": "./books/theOxygenAdvantageExpanded.ts",
   "the-pali-literature-of-ceylon": "./books/thePaliLiteratureOfCeylonExpanded.ts",
   "the-paper-solution-what-to-shred-what-to-save-and-how-to-sto": "./books/thePaperSolutionWhatToShredWhatToSaveAndHowToStoExpanded.ts",
@@ -1196,6 +1204,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "unwinding-anxiety": "./books/unwindingAnxietyExpanded.ts",
   "upside-of-stress-why-stress-is-good-for-you-and-how-to-get-g": "./books/upsideOfStressWhyStressIsGoodForYouAndHowToGetGExpanded.ts",
   "vagabonding-an-uncommon-guide-to-the-art-of-long-term-world-": "./books/vagabondingAnUncommonGuideToTheArtOfLongTermWorldExpanded.ts",
+  "valuation-measuring-and-managing-the-value-of-companies": "./books/valuationMeasuringAndManagingTheValueOfCompaniesExpanded.ts",
   "value-as-a-service-embracing-the-coming-disruption": "./books/valueAsAServiceEmbracingTheComingDisruptionExpanded.ts",
   "venerable-acariya-mun-bhuridatta-spiritual-biography": "./books/venerableAcariyaMunBhuridattaSpiritualBiographyExpanded.ts",
   "vibhanga-the-book-of-analysis": "./books/vibhangaTheBookOfAnalysisExpanded.ts",
@@ -1252,6 +1261,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "words-of-truth-a-buddhist-prayer-for-peace": "./books/wordsOfTruthABuddhistPrayerForPeaceExpanded.ts",
   "words-that-work-it-s-not-what-you-say-it-s-what-people-hear": "./books/wordsThatWorkItSNotWhatYouSayItSWhatPeopleHearExpanded.ts",
   "work-optional-retire-early-the-non-penny-pinching-way": "./books/workOptionalRetireEarlyTheNonPennyPinchingWayExpanded.ts",
+  "working-backwards-insights-stories-and-secrets-from-inside-a": "./books/workingBackwardsInsightsStoriesAndSecretsFromInsideAExpanded.ts",
   "working-in-public-the-making-and-maintenance-of-open-source-": "./books/workingInPublicTheMakingAndMaintenanceOfOpenSourceExpanded.ts",
   "working-with-emotional-intelligence": "./books/workingWithEmotionalIntelligenceExpanded.ts",
   "write-of-passage-digital-writing-treatises": "./books/writeOfPassageDigitalWritingTreatisesExpanded.ts",
@@ -2907,6 +2917,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "amp-it-up-leading-for-hypergrowth-by-raising-expectations-in",
+    "title": "Amp It Up: Leading for Hypergrowth by Raising Expectations, Increasing Urgency, and Elevating Intensity",
+    "author": "Frank Slootman",
+    "category": "Business & Strategy",
+    "subcategory": "Strategy & Competitive Moats",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 95,
+    "publishedYear": 2022,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most underperforming companies suffer from a self-inflicted lack of intensity, not flawed strategy or insufficient capital. By raising expectations, accelerating decision cycles, and eliminating passengers, leaders can unlock radical hypergrowth with the exact same team they already have.",
+      "coreThesis": "Hypergrowth is not unlocked by discovering a miraculous new strategy or changing your entire staff; it is unlocked by demanding world-class standards, compressing timelines to the absolute limit, and focusing all organizational energy on ruthless daily execution.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Amp It Up: Leading for Hypergrowth by Raising Expectations, Increasing Urgency, and Elevating Intensity"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
       "Strategy",
       "Mental Models"
     ]
@@ -10360,6 +10405,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "execution-the-discipline-of-getting-things-done",
+    "title": "Execution: The Discipline of Getting Things Done",
+    "author": "Larry Bossidy & Ram Charan",
+    "category": "Business & Strategy",
+    "subcategory": "Strategy & Competitive Moats",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2002,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Great strategy without relentless execution is an expensive daydream. Real market dominance belongs not to visionary thinkers, but to leaders who master the gritty, disciplined machinery of getting things done.",
+      "coreThesis": "Execution is a disciplined, systematic practice of linking people, strategy, and operating realities with rigorous accountability and unflinching realism.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Execution: The Discipline of Getting Things Done"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "executive-presence-the-missing-link-between-merit-and-succes",
     "title": "Executive Presence: The Missing Link Between Merit and Success",
     "author": "Sylvia Ann Hewlett",
@@ -11018,6 +11098,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "financial-intelligence-a-manager-s-guide-to-knowing-what-the",
+    "title": "Financial Intelligence: A Manager's Guide to Knowing What the Numbers Really Mean",
+    "author": "Karen Berman & Joe Knight",
+    "category": "Business & Strategy",
+    "subcategory": "Economics & Market Dynamics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 155,
+    "publishedYear": 2006,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Accounting is not a precision science; it is a discipline built on subjective estimates, rules of thumb, and human bias. Mastering financial intelligence gives operators the strategic lens to detect hidden assumptions, protect cash flow, and deploy capital with lethal accuracy.",
+      "coreThesis": "Financial statements reflect subjective operational judgments rather than objective scientific truths; competitive advantage belongs to leaders who separate accounting estimates from real cash dynamics.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Financial Intelligence: A Manager's Guide to Knowing What the Numbers Really Mean"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
       "Strategy",
       "Mental Models"
     ]
@@ -12452,6 +12567,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Leadership & Career",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "great-by-choice-uncertainty-chaos-and-luck-why-some-thrive-d",
+    "title": "Great by Choice: Uncertainty, Chaos, and Luck--Why Some Thrive Despite Them All",
+    "author": "Jim Collins & Morten T. Hansen",
+    "category": "Business & Strategy",
+    "subcategory": "Strategy & Competitive Moats",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2011,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Greatness in chaotic times is never an accident of luck or circumstance. It is a conscious, disciplined choice executed through calculated bets, rigorous pacing, and relentless vigilance.",
+      "coreThesis": "Discipline, empirical validation, and relentless paranoia\\u2014not visionary gambling or superior luck\\u2014determine who survives chaos and dominates turbulent markets.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Great by Choice: Uncertainty, Chaos, and Luck--Why Some Thrive Despite Them All"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
       "Strategy",
       "Mental Models"
     ]
@@ -17668,6 +17818,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "margin-of-safety-risk-averse-value-investing-strategies-for-",
+    "title": "Margin of Safety: Risk-Averse Value Investing Strategies for the Thoughtful Investor",
+    "author": "Seth A. Klarman",
+    "category": "Business & Strategy",
+    "subcategory": "Economics & Market Dynamics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 1991,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most market participants spend their lives obsessing over how much money they can make, but true wealth builders obsess over how to avoid losing what they already have. Margin of Safety is a masterclass in treating investing not as an exciting sprint for status, but as an uncompromising discipline of survival and value.",
+      "coreThesis": "Long-term investment success is not achieved by chasing peak returns, but by rigorously preventing irreversible losses through buying solid assets at a deep discount to conservative intrinsic value.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Margin of Safety: Risk-Averse Value Investing Strategies for the Thoughtful Investor"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "mastering-the-complex-sale",
     "title": "Mastering the Complex Sale",
     "author": "Jeff Thull",
@@ -22284,6 +22469,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "principles-life-and-work",
+    "title": "Principles: Life and Work",
+    "author": "Ray Dalio",
+    "category": "Business & Strategy",
+    "subcategory": "Strategy & Competitive Moats",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2017,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most operators fail because their egos hide their mistakes from their operating models. Ray Dalio treats life and business as precision-engineered machines, turning painful blunders into codified algorithmic principles that guarantee market dominance over time.",
+      "coreThesis": "Pain plus reflection equals progress: treat reality as an objective machine, systematize decision rules, and let an idea meritocracy eliminate blind spots.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Principles: Life and Work"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "process-of-consciousness-according-to-abhidhamma",
     "title": "Process of Consciousness according to Abhidhamma",
     "author": "Dr. Mehm Tin Mon",
@@ -22523,6 +22743,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Spirituality",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "quality-investing-owning-the-best-companies-for-the-long-ter",
+    "title": "Quality Investing: Owning the Best Companies for the Long Term",
+    "author": "Lawrence A. Cunningham, Torkell T. Eide, Patrick Hargreaves",
+    "category": "Business & Strategy",
+    "subcategory": "Economics & Market Dynamics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2016,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop chasing speculative turnarounds and hyperactive trading. True long-term wealth comes from owning rare, resilient compounders that generate high returns on capital and quietly reinvest their earnings for decades.",
+      "coreThesis": "Sustained market outperformance comes from identifying and holding companies with high, durable returns on invested capital that can reinvest cash flow at attractive rates without succumbing to competitive erosion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Quality Investing: Owning the Best Companies for the Long Term"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
       "Strategy",
       "Mental Models"
     ]
@@ -36896,6 +37151,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-outsiders-eight-unconventional-ceos-and-their-radically-",
+    "title": "The Outsiders: Eight Unconventional CEOs and Their Radically Rational Blueprint for Success",
+    "author": "William N. Thorndike Jr.",
+    "category": "Business & Strategy",
+    "subcategory": "Economics & Market Dynamics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2012,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Great CEOs are not charismatic cheerleaders; they are ruthless, calculating capital allocators. Outperforming the market by a factor of twenty requires treating every dollar of cash flow like an investor sizing up a portfolio.",
+      "coreThesis": "A CEO's ultimate responsibility is not operational cheerleading, but optimizing per-share value through relentless, rational capital allocation.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Outsiders: Eight Unconventional CEOs and Their Radically Rational Blueprint for Success"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-oxygen-advantage",
     "title": "The Oxygen Advantage",
     "author": "Patrick McKeown",
@@ -43083,6 +43373,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "valuation-measuring-and-managing-the-value-of-companies",
+    "title": "Valuation: Measuring and Managing the Value of Companies",
+    "author": "McKinsey & Company",
+    "category": "Business & Strategy",
+    "subcategory": "Economics & Market Dynamics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 195,
+    "publishedYear": 2020,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Strip away the quarterly earnings theater, hype cycles, and accounting smoke screens to see the hard math behind corporate power. True business value boils down to a single iron law: earning more cash on your capital than that capital costs to rent.",
+      "coreThesis": "A company creates enduring economic value solely by generating cash flows at a rate of return exceeding its cost of capital; growth creates wealth only when paired with high returns, and destroys wealth when it is not.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Valuation: Measuring and Managing the Value of Companies"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "value-as-a-service-embracing-the-coming-disruption",
     "title": "Value As a Service: Embracing the Coming Disruption",
     "author": "J.B. Wood, Thomas Lah, Todd Hewlin",
@@ -45038,6 +45363,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Money & Investing",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "working-backwards-insights-stories-and-secrets-from-inside-a",
+    "title": "Working Backwards: Insights, Stories, and Secrets from Inside Amazon",
+    "author": "Colin Bryar & Bill Carr",
+    "category": "Business & Strategy",
+    "subcategory": "Strategy & Competitive Moats",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2021,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop building products forwards from existing assets and guessing what markets might want. Working Backwards details the repeatable operational machine\\u2014from PR/FAQs and six-page memos to single-threaded ownership\\u2014that turned Amazon from an online bookstore into a multi-industry juggernaut.",
+      "coreThesis": "Sustainable innovation is not a lightning strike of genius; it is an engineered machine that starts at the customer's ideal outcome and works backwards through autonomous ownership, written narratives, and controllable input metrics.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Working Backwards: Insights, Stories, and Secrets from Inside Amazon"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
       "Strategy",
       "Mental Models"
     ]
