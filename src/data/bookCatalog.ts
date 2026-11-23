@@ -161,6 +161,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "contemplation-of-feeling-the-second-foundation": "./books/contemplationOfFeelingTheSecondFoundationExpanded.ts",
   "contemplation-of-the-mind-the-third-foundation": "./books/contemplationOfTheMindTheThirdFoundationExpanded.ts",
   "content-inc-how-entrepreneurs-use-content-to-build-massive-a": "./books/contentIncHowEntrepreneursUseContentToBuildMassiveAExpanded.ts",
+  "continuous-discovery-habits-discover-products-that-create-cu": "./books/continuousDiscoveryHabitsDiscoverProductsThatCreateCuExpanded.ts",
   "continuous-mindfulness-in-dynamic-living": "./books/continuousMindfulnessInDynamicLivingExpanded.ts",
   "conversational-intelligence-how-great-leaders-build-trust-an": "./books/conversationalIntelligenceHowGreatLeadersBuildTrustAnExpanded.ts",
   "corporate-confidential-50-secrets-your-company-doesn-t-want-": "./books/corporateConfidential50SecretsYourCompanyDoesnTWantExpanded.ts",
@@ -250,6 +251,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "emotional-agility": "./books/emotionalAgilityExpanded.ts",
   "emotions-revealed-recognizing-faces-and-feelings-to-improve-": "./books/emotionsRevealedRecognizingFacesAndFeelingsToImproveExpanded.ts",
   "endure-mind-body-and-the-curiously-elastic-limits-of-human-p": "./books/endureMindBodyAndTheCuriouslyElasticLimitsOfHumanPExpanded.ts",
+  "escaping-the-build-trap-how-effective-product-management-cre": "./books/escapingTheBuildTrapHowEffectiveProductManagementCreExpanded.ts",
   "essentialism-the-disciplined-pursuit-of-less": "./books/essentialismTheDisciplinedPursuitOfLessExpanded.ts",
   "ethics-for-the-new-millennium": "./books/ethicsForTheNewMillenniumExpanded.ts",
   "even-if-it-costs-me-my-life": "./books/evenIfItCostsMeMyLifeExpanded.ts",
@@ -542,6 +544,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "nudge": "./books/nudgeExpanded.ts",
   "nudge-improving-decisions-about-health-wealth-and-happiness": "./books/nudgeImprovingDecisionsAboutHealthWealthAndHappinessExpanded.ts",
   "objections-the-ultimate-guide-for-mastering-the-art-and-scie": "./books/objectionsTheUltimateGuideForMasteringTheArtAndScieExpanded.ts",
+  "obviously-awesome-how-to-nail-product-positioning-so-custome": "./books/obviouslyAwesomeHowToNailProductPositioningSoCustomeExpanded.ts",
   "offline-free-your-mind-from-smartphone-addiction": "./books/offlineFreeYourMindFromSmartphoneAddictionExpanded.ts",
   "old-age-and-mortality-the-jara-vagga": "./books/oldAgeAndMortalityTheJaraVaggaExpanded.ts",
   "old-path-white-clouds-walking-in-the-footsteps-of-the-buddha": "./books/oldPathWhiteCloudsWalkingInTheFootstepsOfTheBuddhaExpanded.ts",
@@ -640,6 +643,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "risk-savvy-how-to-make-good-decisions": "./books/riskSavvyHowToMakeGoodDecisionsExpanded.ts",
   "rule-the-room-a-unique-system-for-easy-selling-and-presentat": "./books/ruleTheRoomAUniqueSystemForEasySellingAndPresentatExpanded.ts",
   "running-on-empty-overcome-your-childhood-emotional-neglect": "./books/runningOnEmptyOvercomeYourChildhoodEmotionalNeglectExpanded.ts",
+  "sales-management-simplified-the-straight-truth-about-getting": "./books/salesManagementSimplifiedTheStraightTruthAboutGettingExpanded.ts",
   "samsara-nirvana-and-buddha-nature": "./books/samsaraNirvanaAndBuddhaNatureExpanded.ts",
   "satipatthana-meditation-a-practice-guide": "./books/satipatthanaMeditationAPracticeGuideExpanded.ts",
   "satipatthana-the-direct-path-to-realization": "./books/satipatthanaTheDirectPathToRealizationExpanded.ts",
@@ -649,6 +653,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "say-what-you-mean-a-mindful-approach-to-nonviolent-communica": "./books/sayWhatYouMeanAMindfulApproachToNonviolentCommunicaExpanded.ts",
   "saying-no-to-say-yes": "./books/sayingNoToSayYesExpanded.ts",
   "scale": "./books/scaleExpanded.ts",
+  "scaling-up-how-a-few-companies-make-it-and-why-the-rest-don-": "./books/scalingUpHowAFewCompaniesMakeItAndWhyTheRestDonExpanded.ts",
   "scarcity-brain": "./books/scarcityBrainExpanded.ts",
   "scarcity-why-having-too-little-means-so-much": "./books/scarcityWhyHavingTooLittleMeansSoMuchExpanded.ts",
   "search-inside-yourself": "./books/searchInsideYourselfExpanded.ts",
@@ -864,6 +869,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-creative-habit-learn-it-and-use-it-for-life": "./books/theCreativeHabitLearnItAndUseItForLifeExpanded.ts",
   "the-crossroads-of-should-and-must": "./books/theCrossroadsOfShouldAndMustExpanded.ts",
   "the-crowd-a-study-of-the-popular-mind": "./books/theCrowdAStudyOfThePopularMindExpanded.ts",
+  "the-customer-funded-business-start-finance-or-grow-your-comp": "./books/theCustomerFundedBusinessStartFinanceOrGrowYourCompExpanded.ts",
   "the-daily-stoic-366-meditations-on-wisdom-perseverance-and-t": "./books/theDailyStoic366MeditationsOnWisdomPerseveranceAndTExpanded.ts",
   "the-dance-of-anger": "./books/theDanceOfAngerExpanded.ts",
   "the-dawn-of-abhidharma": "./books/theDawnOfAbhidharmaExpanded.ts",
@@ -935,6 +941,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-genesis-of-the-bodhisattva-ideal": "./books/theGenesisOfTheBodhisattvaIdealExpanded.ts",
   "the-gift-of-fear-survival-signals-that-protect-us-from-viole": "./books/theGiftOfFearSurvivalSignalsThatProtectUsFromVioleExpanded.ts",
   "the-gifts-of-imperfection": "./books/theGiftsOfImperfectionExpanded.ts",
+  "the-goal-a-process-of-ongoing-improvement": "./books/theGoalAProcessOfOngoingImprovementExpanded.ts",
   "the-good-heart-a-buddhist-perspective-on-jesus": "./books/theGoodHeartABuddhistPerspectiveOnJesusExpanded.ts",
   "the-gracious-flow-of-dharma": "./books/theGraciousFlowOfDharmaExpanded.ts",
   "the-great-book-of-protection-maha-paritta": "./books/theGreatBookOfProtectionMahaParittaExpanded.ts",
@@ -942,12 +949,14 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-great-discourse-on-the-lion-s-roar-maha-sihanada-sutta": "./books/theGreatDiscourseOnTheLionSRoarMahaSihanadaSuttaExpanded.ts",
   "the-great-mental-models-vol-1-2": "./books/theGreatMentalModelsVol12Expanded.ts",
   "the-greater-discourse-on-voidness-maha-sunnata-sutta": "./books/theGreaterDiscourseOnVoidnessMahaSunnataSuttaExpanded.ts",
+  "the-hard-thing-about-hard-things-building-a-business-when-th": "./books/theHardThingAboutHardThingsBuildingABusinessWhenThExpanded.ts",
   "the-heart-of-buddhist-meditation": "./books/theHeartOfBuddhistMeditationExpanded.ts",
   "the-heart-of-compassion-a-practical-approach": "./books/theHeartOfCompassionAPracticalApproachExpanded.ts",
   "the-heart-of-practice-ajaan-mun-s-dhamma-sermons": "./books/theHeartOfPracticeAjaanMunSDhammaSermonsExpanded.ts",
   "the-heart-of-the-buddha-s-teaching": "./books/theHeartOfTheBuddhaSTeachingExpanded.ts",
   "the-heritage-of-the-sangha": "./books/theHeritageOfTheSanghaExpanded.ts",
   "the-hidden-dimension": "./books/theHiddenDimensionExpanded.ts",
+  "the-high-velocity-sales-organization": "./books/theHighVelocitySalesOrganizationExpanded.ts",
   "the-humorous-approach": "./books/theHumorousApproachExpanded.ts",
   "the-image-a-guide-to-pseudo-events-in-america": "./books/theImageAGuideToPseudoEventsInAmericaExpanded.ts",
   "the-information-diet-a-case-for-conscious-consumption": "./books/theInformationDietACaseForConsciousConsumptionExpanded.ts",
@@ -965,6 +974,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "the-karma-of-questions-essays-on-the-buddhist-path": "./books/theKarmaOfQuestionsEssaysOnTheBuddhistPathExpanded.ts",
   "the-key-to-liberation": "./books/theKeyToLiberationExpanded.ts",
   "the-lazy-genius-way-embrace-what-matters-ditch-what-doesn-t-": "./books/theLazyGeniusWayEmbraceWhatMattersDitchWhatDoesnTExpanded.ts",
+  "the-lean-product-playbook-how-to-innovate-with-minimum-viabl": "./books/theLeanProductPlaybookHowToInnovateWithMinimumViablExpanded.ts",
   "the-lean-startup-how-today-s-entrepreneurs-use-continuous-in": "./books/theLeanStartupHowTodaySEntrepreneursUseContinuousInExpanded.ts",
   "the-life-changing-magic-of-tidying-up-the-japanese-art-of-de": "./books/theLifeChangingMagicOfTidyingUpTheJapaneseArtOfDeExpanded.ts",
   "the-life-of-sariputta": "./books/theLifeOfSariputtaExpanded.ts",
@@ -6887,6 +6897,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "continuous-discovery-habits-discover-products-that-create-cu",
+    "title": "Continuous Discovery Habits: Discover Products that Create Customer Value and Business Value",
+    "author": "Teresa Torres",
+    "category": "Business & Strategy",
+    "subcategory": "Scaling & Growth",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2021,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop building features that nobody uses. Discover how a product trio can build weekly feedback habits, test assumptions in days, and guarantee that every sprint drives real customer and business impact.",
+      "coreThesis": "Sustainable product success is not built on big upfront predictions, but on small, weekly discovery habits that connect real customer needs directly to business outcomes.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Continuous Discovery Habits: Discover Products that Create Customer Value and Business Value"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "continuous-mindfulness-in-dynamic-living",
     "title": "Continuous Mindfulness in Dynamic Living",
     "author": "Sayadaw U Ottamathara",
@@ -9995,6 +10040,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Personal Growth",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "escaping-the-build-trap-how-effective-product-management-cre",
+    "title": "Escaping the Build Trap: How Effective Product Management Creates Real Value",
+    "author": "Melissa Perri",
+    "category": "Business & Strategy",
+    "subcategory": "Scaling & Growth",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 125,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Shipping software is an operational cost; solving customer problems is the only source of enterprise profit. Stop confusing shipping speed with market victory and transform your organization from a mindless feature factory into an outcome-driven economic powerhouse.",
+      "coreThesis": "Enterprise value is created by solving real customer problems within profitable unit economics, not by the raw volume of features deployed to production.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Escaping the Build Trap: How Effective Product Management Creates Real Value"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
       "Strategy",
       "Mental Models"
     ]
@@ -20210,6 +20290,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "obviously-awesome-how-to-nail-product-positioning-so-custome",
+    "title": "Obviously Awesome: How to Nail Product Positioning so Customers Get It, Buy It, Love It",
+    "author": "April Dunford",
+    "category": "Business & Strategy",
+    "subcategory": "Scaling & Growth",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2019,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Great products fail every day not because they lack features, but because they force buyers to guess where they fit on the shelf. Positioning provides the deliberate mental frame that turns complex capabilities into an obvious, high-margin purchase decision.",
+      "coreThesis": "Positioning is the deliberate act of establishing the context that makes your product's unique value obvious to the specific customers who care the most.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Obviously Awesome: How to Nail Product Positioning so Customers Get It, Buy It, Love It"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "offline-free-your-mind-from-smartphone-addiction",
     "title": "Offline: Free Your Mind from Smartphone Addiction",
     "author": "Desi Hariharan",
@@ -23637,6 +23752,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "sales-management-simplified-the-straight-truth-about-getting",
+    "title": "Sales Management. Simplified.: The Straight Truth About Getting Exceptional Results from Your Sales Team",
+    "author": "Mike Weinberg",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 130,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Sales teams do not fail because salespeople forget how to sell; they fail because sales leadership lacks structural discipline. Mike Weinberg strips away corporate noise to reveal a blunt, mechanics-first blueprint that turns chaotic sales departments into predictable revenue engines.",
+      "coreThesis": "Sales management failure is an organizational design problem, not a frontline talent defect. Exceptional sales results occur naturally when leaders implement a disciplined rhythm of culture, coaching, and accountability.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Sales Management. Simplified.: The Straight Truth About Getting Exceptional Results from Your Sales Team"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "samsara-nirvana-and-buddha-nature",
     "title": "Samsara, Nirvana, and Buddha Nature",
     "author": "Dalai Lama & Thubten Chodron",
@@ -23948,6 +24098,41 @@ export const BOOK_CATALOG: Book[] = [
     "tags": [
       "Psychology",
       "Core Insights"
+    ]
+  },
+  {
+    "id": "scaling-up-how-a-few-companies-make-it-and-why-the-rest-don-",
+    "title": "Scaling Up: How a Few Companies Make It... and Why the Rest Don't (Rockefeller Habits 2.0)",
+    "author": "Verne Harnish",
+    "category": "Business & Strategy",
+    "subcategory": "Strategy & Competitive Moats",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 65,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Growing an organization does not require working eighty-hour weeks in chaos; it requires locking in a dependable operational rhythm. Scaling Up gives you the definitive master playbook to align your team, clarify your strategy, execute flawlessly, and generate surplus cash flow.",
+      "coreThesis": "Sustainable business expansion is not an accident of genius, but the disciplined habit of making right decisions across People, Strategy, Execution, and Cash, anchored by a tight daily operating rhythm.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Scaling Up: How a Few Companies Make It... and Why the Rest Don't (Rockefeller Habits 2.0)"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
+      "Strategy",
+      "Mental Models"
     ]
   },
   {
@@ -31466,6 +31651,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-customer-funded-business-start-finance-or-grow-your-comp",
+    "title": "The Customer Funded Business: Start, Finance, or Grow Your Company with Your Customers' Cash",
+    "author": "John Mullins",
+    "category": "Business & Strategy",
+    "subcategory": "Scaling & Growth",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop begging investors for permission to build your company. Fund your venture with customer cash, retain 100% equity, and let real sales validate your competitive moat.",
+      "coreThesis": "The best and cheapest capital is customer revenue collected before delivery; customer cash eliminates dilution, proves genuine demand, and builds an antifragile business.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Customer Funded Business: Start, Finance, or Grow Your Company with Your Customers' Cash"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-daily-stoic-366-meditations-on-wisdom-perseverance-and-t",
     "title": "The Daily Stoic: 366 Meditations on Wisdom, Perseverance, and the Art of Living",
     "author": "Ryan Holiday & Stephen Hanselman",
@@ -33949,6 +34169,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-goal-a-process-of-ongoing-improvement",
+    "title": "The Goal: A Process of Ongoing Improvement",
+    "author": "Eliyahu M. Goldratt",
+    "category": "Business & Strategy",
+    "subcategory": "Strategy & Competitive Moats",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 200,
+    "publishedYear": 1984,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "A business is not a collection of independent departments\\u2014it is a single chain whose output is governed entirely by its weakest link. Stop running every machine at full throttle; balance the flow to the bottleneck, slash excess inventory, and watch cash generation soar.",
+      "coreThesis": "The true goal of an enterprise is to make money by accelerating flow, which is dictated entirely by its system constraint; any efficiency gain outside the bottleneck is a dangerous illusion.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Goal: A Process of Ongoing Improvement"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-good-heart-a-buddhist-perspective-on-jesus",
     "title": "The Good Heart: A Buddhist Perspective on Jesus",
     "author": "Dalai Lama",
@@ -34193,6 +34448,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "the-hard-thing-about-hard-things-building-a-business-when-th",
+    "title": "The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers",
+    "author": "Ben Horowitz",
+    "category": "Business & Strategy",
+    "subcategory": "Entrepreneurship & Startups",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 45,
+    "publishedYear": 2014,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Most management books teach you how to sail in calm waters; this book teaches you what to do when the ship is taking on water and the engine is on fire. Ben Horowitz strips away startup romance to deliver an unvarnished field guide for surviving crisis, leading under crushing uncertainty, and making calls where every option hurts.",
+      "coreThesis": "There are no universal recipes for running a startup; real leadership is the ability to confront brutal realities, manage your own psychology during catastrophic uncertainty, and execute decisive choices when every available path carries severe risk.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "the-heart-of-buddhist-meditation",
     "title": "The Heart of Buddhist Meditation",
     "author": "Nyanaponika Thera",
@@ -34398,6 +34688,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Communication",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-high-velocity-sales-organization",
+    "title": "The High-Velocity Sales Organization",
+    "author": "Chet Holmes & Philip Delves Broughton",
+    "category": "Sales & Persuasion",
+    "subcategory": "Sales Strategy & Closing",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 50,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop relying on charismatic lone wolves and chaotic hustle. Transform your sales team into a calibrated, high-flow hydraulic engine where strategy, talent, and data-driven infrastructure drive predictable, premium revenue.",
+      "coreThesis": "Sustainable revenue growth is not driven by persuasive personality tricks, but by an executive-led operating system where calibrated talent, diagnostic strategy, and automated infrastructure remove pipeline friction.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The High-Velocity Sales Organization"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Sales & Persuasion",
       "Strategy",
       "Mental Models"
     ]
@@ -34993,6 +35318,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Productivity",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "the-lean-product-playbook-how-to-innovate-with-minimum-viabl",
+    "title": "The Lean Product Playbook: How to Innovate with Minimum Viable Products and Rapid Customer Feedback",
+    "author": "Dan Olsen",
+    "category": "Business & Strategy",
+    "subcategory": "Scaling & Growth",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 70,
+    "publishedYear": 2015,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop squandering scarce engineering capital on polished solutions nobody wants. Dan Olsen provides a battle-tested, repeatable blueprint to systematically validate customer demand and engineer authentic product-market fit before writing heavy code.",
+      "coreThesis": "Product-market fit is not serendipity; it is an engineered state achieved by rigorously defining customer problems before building solutions, and systematically validating value propositions through rapid, low-fidelity customer feedback loops.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "The Lean Product Playbook: How to Innovate with Minimum Viable Products and Rapid Customer Feedback"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
       "Strategy",
       "Mental Models"
     ]
