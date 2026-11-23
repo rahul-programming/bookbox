@@ -166,6 +166,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "continuous-mindfulness-in-dynamic-living": "./books/continuousMindfulnessInDynamicLivingExpanded.ts",
   "conversational-intelligence-how-great-leaders-build-trust-an": "./books/conversationalIntelligenceHowGreatLeadersBuildTrustAnExpanded.ts",
   "corporate-confidential-50-secrets-your-company-doesn-t-want-": "./books/corporateConfidential50SecretsYourCompanyDoesnTWantExpanded.ts",
+  "corporate-finance-theory-and-practice": "./books/corporateFinanceTheoryAndPracticeExpanded.ts",
   "courage-under-fire-testing-epictetus-s-doctrines-in-a-labora": "./books/courageUnderFireTestingEpictetusSDoctrinesInALaboraExpanded.ts",
   "cracking-the-sales-management-code-the-secrets-to-measuring-": "./books/crackingTheSalesManagementCodeTheSecretsToMeasuringExpanded.ts",
   "cracking-the-walnut-secret-teachings-on-awakening": "./books/crackingTheWalnutSecretTeachingsOnAwakeningExpanded.ts",
@@ -176,6 +177,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "curation-the-power-of-selection-in-a-world-of-excess": "./books/curationThePowerOfSelectionInAWorldOfExcessExpanded.ts",
   "customercentric-selling": "./books/customercentricSellingExpanded.ts",
   "cutting-through-spiritual-materialism": "./books/cuttingThroughSpiritualMaterialismExpanded.ts",
+  "damodaran-on-valuation-security-analysis-for-investment-and-": "./books/damodaranOnValuationSecurityAnalysisForInvestmentAndExpanded.ts",
   "dana-the-practice-of-giving": "./books/danaThePracticeOfGivingExpanded.ts",
   "dangerous-personalities": "./books/dangerousPersonalitiesExpanded.ts",
   "daring-greatly": "./books/daringGreatlyExpanded.ts",
@@ -265,6 +267,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "executive-presence-the-missing-link-between-merit-and-succes": "./books/executivePresenceTheMissingLinkBetweenMeritAndSuccesExpanded.ts",
   "exhaustion-a-history": "./books/exhaustionAHistoryExpanded.ts",
   "existentialism-is-a-humanism": "./books/existentialismIsAHumanismExpanded.ts",
+  "expectations-investing-reading-stock-prices-for-better-retur": "./books/expectationsInvestingReadingStockPricesForBetterReturExpanded.ts",
   "expert-political-judgment": "./books/expertPoliticalJudgmentExpanded.ts",
   "eye-to-eye-how-people-interact-with-gaze": "./books/eyeToEyeHowPeopleInteractWithGazeExpanded.ts",
   "face-reading-in-chinese-medicine": "./books/faceReadingInChineseMedicineExpanded.ts",
@@ -282,6 +285,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "fierce-conversations-achieving-success-at-work-and-in-life-o": "./books/fierceConversationsAchievingSuccessAtWorkAndInLifeOExpanded.ts",
   "financial-freedom-a-proven-path-to-all-the-money-you-will-ev": "./books/financialFreedomAProvenPathToAllTheMoneyYouWillEvExpanded.ts",
   "financial-intelligence-a-manager-s-guide-to-knowing-what-the": "./books/financialIntelligenceAManagerSGuideToKnowingWhatTheExpanded.ts",
+  "financial-shenanigans-how-to-detect-accounting-gimmicks-and-": "./books/financialShenanigansHowToDetectAccountingGimmicksAndExpanded.ts",
   "find-your-why": "./books/findYourWhyExpanded.ts",
   "finding-the-missing-peace-a-primer-of-meditation": "./books/findingTheMissingPeaceAPrimerOfMeditationExpanded.ts",
   "finding-your-voice": "./books/findingYourVoiceExpanded.ts",
@@ -666,6 +670,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "search-inside-yourself": "./books/searchInsideYourselfExpanded.ts",
   "searching-for-the-self": "./books/searchingForTheSelfExpanded.ts",
   "secrets-of-closing-the-sale": "./books/secretsOfClosingTheSaleExpanded.ts",
+  "security-analysis": "./books/securityAnalysisExpanded.ts",
   "seeing-like-a-state": "./books/seeingLikeAStateExpanded.ts",
   "seeing-systems-unlocking-the-mysteries-of-organizational-lif": "./books/seeingSystemsUnlockingTheMysteriesOfOrganizationalLifExpanded.ts",
   "seeing-that-frees-meditations-on-emptiness": "./books/seeingThatFreesMeditationsOnEmptinessExpanded.ts",
@@ -7082,6 +7087,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "corporate-finance-theory-and-practice",
+    "title": "Corporate Finance: Theory and Practice",
+    "author": "Pierre Vernimmen et al.",
+    "category": "Business & Strategy",
+    "subcategory": "Economics & Market Dynamics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 260,
+    "publishedYear": 2005,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Corporate finance is not accounting paperwork; it is the strategic engine room of capital allocation. If you deploy a single dollar without earning more than its opportunity cost, you are destroying value\\u2014no matter how shiny your revenue growth looks.",
+      "coreThesis": "A company creates genuine economic value only when the return on its invested capital exceeds its weighted cost of capital, and it maintains solvency only when accounting paper earnings translate into real, unencumbered cash flows.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Corporate Finance: Theory and Practice"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "courage-under-fire-testing-epictetus-s-doctrines-in-a-labora",
     "title": "Courage Under Fire: Testing Epictetus's Doctrines in a Laboratory of Human Behavior",
     "author": "James Bond Stockdale",
@@ -7427,6 +7467,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Philosophy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "damodaran-on-valuation-security-analysis-for-investment-and-",
+    "title": "Damodaran on Valuation: Security Analysis for Investment and Corporate Finance",
+    "author": "Aswath Damodaran",
+    "category": "Business & Strategy",
+    "subcategory": "Economics & Market Dynamics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 90,
+    "publishedYear": 2006,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Price is what you pay in an emotional crowd; value is the actual cold cash a business puts into your pocket. Damodaran equips you with the unvarnished engineering discipline needed to strip away Wall Street hype and price businesses on hard, enduring cash flows.",
+      "coreThesis": "A business is worth only the present value of the cash flows it generates over its lifetime, discounted for the uncertainty of actually receiving them. Everything else is pure market noise and human mood swings.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Damodaran on Valuation: Security Analysis for Investment and Corporate Finance"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
       "Strategy",
       "Mental Models"
     ]
@@ -10545,6 +10620,41 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "expectations-investing-reading-stock-prices-for-better-retur",
+    "title": "Expectations Investing: Reading Stock Prices for Better Returns",
+    "author": "Alfred Rappaport & Michael J. Mauboussin",
+    "category": "Business & Strategy",
+    "subcategory": "Economics & Market Dynamics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 60,
+    "publishedYear": 2001,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop guessing where a stock is headed. Instead, read the market price like a racetrack tote board to discover what the crowd expects, then strike only when the hurdle is set wrong.",
+      "coreThesis": "Stock prices already reflect consensus expectations of future corporate performance. Outsized investment returns come not from identifying great companies, but from correctly anticipating shifts in the market's price-implied expectations.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Expectations Investing: Reading Stock Prices for Better Returns"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
     "id": "expert-political-judgment",
     "title": "Expert Political Judgment",
     "author": "Philip E. Tetlock",
@@ -11126,6 +11236,41 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Financial Intelligence: A Manager's Guide to Knowing What the Numbers Really Mean"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "financial-shenanigans-how-to-detect-accounting-gimmicks-and-",
+    "title": "Financial Shenanigans: How to Detect Accounting Gimmicks and Fraud in Financial Reports",
+    "author": "Howard M. Schilit",
+    "category": "Business & Strategy",
+    "subcategory": "Economics & Market Dynamics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 100,
+    "publishedYear": 2018,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Corporate financial statements are often marketing brochures dressed in mathematical precision. This book is the tactical radar system that exposes how executive management distorts earnings, fabricates cash flows, and conceals structural decay.",
+      "coreThesis": "Accounting earnings are an opinion, but cash flow is a hard fact; whenever reported profits consistently diverge from cold cash generation, management is concealing structural weakness.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Financial Shenanigans: How to Detect Accounting Gimmicks and Fraud in Financial Reports"
     },
     "reflectionExercises": [],
     "actionItems": [],
@@ -24561,6 +24706,41 @@ export const BOOK_CATALOG: Book[] = [
     "ideaCards": [],
     "tags": [
       "Sales & Persuasion",
+      "Strategy",
+      "Mental Models"
+    ]
+  },
+  {
+    "id": "security-analysis",
+    "title": "Security Analysis",
+    "author": "Benjamin Graham & David L. Dodd",
+    "category": "Business & Strategy",
+    "subcategory": "Economics & Market Dynamics",
+    "coverColor": "from-slate-900 to-indigo-950",
+    "coverEmoji": "\ud83d\udcd6",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 260,
+    "publishedYear": 1934,
+    "totalChapters": 10,
+    "isLoaded": false,
+    "onePageSummary": {
+      "elevatorPitch": "Stop treating market quotations like an oracle and start evaluating corporate assets like a seasoned real estate buyer inspecting the foundation. This masterwork delivers the foundational battle-tested playbook for extracting mispriced securities with asymmetric upside and ruthless downside protection.",
+      "coreThesis": "An investment operation is one which, upon thorough analysis, promises safety of principal and an adequate return; operations not meeting these requirements are speculative. Sustainable outperformance comes from exploiting the persistent gap between volatile market price and verifiable intrinsic business value using an uncompromising margin of safety.",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Security Analysis"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "tags": [
+      "Business & Strategy",
       "Strategy",
       "Mental Models"
     ]

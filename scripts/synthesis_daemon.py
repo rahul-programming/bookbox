@@ -24,6 +24,11 @@ import signal
 from datetime import datetime, timezone
 from classifier import classify_book
 
+# Ensure /opt/homebrew/bin and /usr/local/bin are present in PATH for npm/node/git
+for p in ["/opt/homebrew/bin", "/usr/local/bin"]:
+    if p not in os.environ.get("PATH", ""):
+        os.environ["PATH"] = f"{p}:{os.environ.get('PATH', '')}"
+
 WORKSPACE_DIR = "/Users/rahulsharma/Documents/coding/myapps/bookbox"
 TRACKER_PATH = os.path.join(WORKSPACE_DIR, "src/data/synthesis_tracker.json")
 LOG_PATH = os.path.join(WORKSPACE_DIR, "logs/synthesis_daemon.log")
@@ -59,18 +64,33 @@ def query_agy(prompt, timeout=360, effort="low"):
     m = re.search(r"```(?:json)?\s*([\s\S]*?)\s*```", text)
     if m:
         text = m.group(1).strip()
-    import json_repair
     try:
+        import json_repair
         return json_repair.loads(text)
+    except Exception:
+        pass
+    try:
+        import json
+        return json.loads(text)
     except Exception:
         start = text.find('{')
         end = text.rfind('}')
         if start != -1 and end != -1:
-            return json_repair.loads(text[start:end+1])
+            try:
+                import json_repair
+                return json_repair.loads(text[start:end+1])
+            except Exception:
+                import json
+                return json.loads(text[start:end+1])
         start_arr = text.find('[')
         end_arr = text.rfind(']')
         if start_arr != -1 and end_arr != -1:
-            return json_repair.loads(text[start_arr:end_arr+1])
+            try:
+                import json_repair
+                return json_repair.loads(text[start_arr:end_arr+1])
+            except Exception:
+                import json
+                return json.loads(text[start_arr:end_arr+1])
         raise
 
 def clean_quotes(s):
@@ -126,7 +146,13 @@ def sanitize_action_items(raw_items, book_id):
 
 def sanitize_stories(raw_stories, book_id):
     sanitized = []
-    for i, st in enumerate(raw_stories):
+    flat = []
+    for item in raw_stories:
+        if isinstance(item, list):
+            flat.extend([x for x in item if isinstance(x, dict)])
+        elif isinstance(item, dict):
+            flat.append(item)
+    for i, st in enumerate(flat):
         title = clean_quotes(str(st.get("title", f"Case Study {i+1}")))
         chars = clean_quotes(str(st.get("charactersOrSubject", title.split(":")[0])))
         sanitized.append({
@@ -399,7 +425,17 @@ Output ONLY valid raw JSON without preamble.
         log("Stage 1/5: (Cached) TOC and 1-Page Summary already generated.")
 
     toc_data = draft["toc"]
-    chapters = toc_data.get("chapters", [])
+    raw_chapters = toc_data.get("chapters", [])
+    chapters = []
+    def unpack_chapters(items):
+        for item in items:
+            if isinstance(item, list):
+                unpack_chapters(item)
+            elif isinstance(item, dict):
+                chapters.append(item)
+    unpack_chapters(raw_chapters)
+    toc_data["chapters"] = chapters
+    toc_data["totalChapters"] = len(chapters)
     for idx, c in enumerate(chapters):
         if c.get("chapterNumber") is None or c.get("chapterNumber") == 0:
             c["chapterNumber"] = idx + 1
@@ -497,7 +533,7 @@ Category: {dim_name} ({sub_name})
 
 Written in simple, gripping, plain English like a compelling real-world narrative. Universally relatable, zero academic jargon, not juvenile or child-centric.
 - Real companies, historical figures, or scientific experiments proving or disproving the book's core ideas.
-- Each narrative must be 400-800 words in length.
+- Each narrative must be 250-450 words in length.
 - STRICT: Use clean quotation marks "text", NEVER **text** or **"text"**.
 - Schema:
   {{
@@ -516,7 +552,11 @@ Output ONLY raw valid JSON.
         s1_data = query_agy(prompt_s1, timeout=600, effort="low")
         s1_list = s1_data.get("stories", [])
         if isinstance(s1_list, list):
-            draft["stories"].extend(s1_list)
+            for item in s1_list:
+                if isinstance(item, list):
+                    draft["stories"].extend([x for x in item if isinstance(x, dict)])
+                elif isinstance(item, dict):
+                    draft["stories"].append(item)
             with open(draft_file, "w") as f:
                 json.dump(draft, f, indent=2)
 
@@ -530,7 +570,7 @@ Category: {dim_name} ({sub_name})
 
 Written in simple, gripping, plain English like a compelling real-world narrative. Universally relatable, zero academic jargon, not juvenile or child-centric.
 - Real companies, historical figures, or scientific experiments proving or disproving the book's core ideas.
-- Each narrative must be 400-800 words in length.
+- Each narrative must be 250-450 words in length.
 - STRICT: Use clean quotation marks "text", NEVER **text** or **"text"**.
 - Schema:
   {{
@@ -549,7 +589,11 @@ Output ONLY raw valid JSON.
         s2_data = query_agy(prompt_s2, timeout=600, effort="low")
         s2_list = s2_data.get("stories", [])
         if isinstance(s2_list, list):
-            draft["stories"].extend(s2_list)
+            for item in s2_list:
+                if isinstance(item, list):
+                    draft["stories"].extend([x for x in item if isinstance(x, dict)])
+                elif isinstance(item, dict):
+                    draft["stories"].append(item)
             with open(draft_file, "w") as f:
                 json.dump(draft, f, indent=2)
 
