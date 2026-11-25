@@ -1289,7 +1289,12 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "zero-to-one-notes-on-startups-or-how-to-build-the-future": "./books/zeroToOneNotesOnStartupsOrHowToBuildTheFutureExpanded.ts",
   "zhuangzi-chuang-tzu-basic-writings": "./books/zhuangziChuangTzuBasicWritingsExpanded.ts",
   "jokes-keynotes-public-speaking-1-stand-out-stage-icebreakers-for": "./performance/jokesKeynotesPublicSpeaking1StandOutStageIcebreakersForPerformance.ts",
-  "stories-keynotes-public-speaking-1-opening-hooks-that-silence-a": "./performance/storiesKeynotesPublicSpeaking1OpeningHooksThatSilenceAPerformance.ts"
+  "stories-keynotes-public-speaking-1-opening-hooks-that-silence-a": "./performance/storiesKeynotesPublicSpeaking1OpeningHooksThatSilenceAPerformance.ts",
+  "stories-keynotes-public-speaking-2-tech-fail-stage-mishap-recove": "./performance/storiesKeynotesPublicSpeaking2TechFailStageMishapRecovePerformance.ts",
+  "stories-keynotes-public-speaking-3-unforgettable-turning-points": "./performance/storiesKeynotesPublicSpeaking3UnforgettableTurningPointsPerformance.ts",
+  "stories-keynotes-public-speaking-4-surprising-historical-paradox": "./performance/storiesKeynotesPublicSpeaking4SurprisingHistoricalParadoxPerformance.ts",
+  "stories-keynotes-public-speaking-5-audience-vulnerability-storie": "./performance/storiesKeynotesPublicSpeaking5AudienceVulnerabilityStoriePerformance.ts",
+  "stories-keynotes-public-speaking-6-bridge-stories-for-heavy-data": "./performance/storiesKeynotesPublicSpeaking6BridgeStoriesForHeavyDataPerformance.ts"
 };
 
 export const SEED_BOARDS: StashBoard[] = [
@@ -50243,6 +50248,196 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Opening Hooks That Silence a Restless Room"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "performancePieces": [],
+    "tags": [
+      "Stories & Jokes",
+      "Keynotes & Public Speaking",
+      "Third-Person Storytelling"
+    ]
+  },
+  {
+    "id": "stories-keynotes-public-speaking-2-tech-fail-stage-mishap-recove",
+    "title": "Tech-Fail & Stage Mishap Recovery Tales",
+    "author": "BookBox Stage Repertoire",
+    "category": "Stories & Jokes",
+    "subcategory": "Keynotes & Public Speaking",
+    "bookFormat": "stories",
+    "coverColor": "from-rose-900 to-amber-950",
+    "coverEmoji": "\ud83c\udfad",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 514,
+    "publishedYear": 2026,
+    "totalChapters": 50,
+    "isLoaded": false,
+    "contentVersion": "7939eac5",
+    "onePageSummary": {
+      "elevatorPitch": "50 detailed third-person stories (10\u201315 min each) for Keynotes & Public Speaking: True-to-life stories about slides crashing, mics dying, and winning the room back. Complete with usage triggers, vocal emphasis, and pause cues.",
+      "coreThesis": "True-to-life stories about slides crashing, mics dying, and winning the room back",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Tech-Fail & Stage Mishap Recovery Tales"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "performancePieces": [],
+    "tags": [
+      "Stories & Jokes",
+      "Keynotes & Public Speaking",
+      "Third-Person Storytelling"
+    ]
+  },
+  {
+    "id": "stories-keynotes-public-speaking-3-unforgettable-turning-points",
+    "title": "Unforgettable Turning Points for Closing Keynotes",
+    "author": "BookBox Stage Repertoire",
+    "category": "Stories & Jokes",
+    "subcategory": "Keynotes & Public Speaking",
+    "bookFormat": "stories",
+    "coverColor": "from-rose-900 to-amber-950",
+    "coverEmoji": "\ud83c\udfad",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 519,
+    "publishedYear": 2026,
+    "totalChapters": 50,
+    "isLoaded": false,
+    "contentVersion": "388b65ad",
+    "onePageSummary": {
+      "elevatorPitch": "50 detailed third-person stories (10\u201315 min each) for Keynotes & Public Speaking: Emotional, high-stakes final stories that leave audiences standing. Complete with usage triggers, vocal emphasis, and pause cues.",
+      "coreThesis": "Emotional, high-stakes final stories that leave audiences standing",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Unforgettable Turning Points for Closing Keynotes"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "performancePieces": [],
+    "tags": [
+      "Stories & Jokes",
+      "Keynotes & Public Speaking",
+      "Third-Person Storytelling"
+    ]
+  },
+  {
+    "id": "stories-keynotes-public-speaking-4-surprising-historical-paradox",
+    "title": "Surprising Historical Paradoxes for Thought Leaders",
+    "author": "BookBox Stage Repertoire",
+    "category": "Stories & Jokes",
+    "subcategory": "Keynotes & Public Speaking",
+    "bookFormat": "stories",
+    "coverColor": "from-rose-900 to-amber-950",
+    "coverEmoji": "\ud83c\udfad",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 515,
+    "publishedYear": 2026,
+    "totalChapters": 50,
+    "isLoaded": false,
+    "contentVersion": "a9fb5054",
+    "onePageSummary": {
+      "elevatorPitch": "50 detailed third-person stories (10\u201315 min each) for Keynotes & Public Speaking: Counter-intuitive real-world history anecdotes that anchor big ideas. Complete with usage triggers, vocal emphasis, and pause cues.",
+      "coreThesis": "Counter-intuitive real-world history anecdotes that anchor big ideas",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Surprising Historical Paradoxes for Thought Leaders"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "performancePieces": [],
+    "tags": [
+      "Stories & Jokes",
+      "Keynotes & Public Speaking",
+      "Third-Person Storytelling"
+    ]
+  },
+  {
+    "id": "stories-keynotes-public-speaking-5-audience-vulnerability-storie",
+    "title": "Audience Vulnerability Stories That Build Instant Trust",
+    "author": "BookBox Stage Repertoire",
+    "category": "Stories & Jokes",
+    "subcategory": "Keynotes & Public Speaking",
+    "bookFormat": "stories",
+    "coverColor": "from-rose-900 to-amber-950",
+    "coverEmoji": "\ud83c\udfad",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 513,
+    "publishedYear": 2026,
+    "totalChapters": 50,
+    "isLoaded": false,
+    "contentVersion": "aca13dfe",
+    "onePageSummary": {
+      "elevatorPitch": "50 detailed third-person stories (10\u201315 min each) for Keynotes & Public Speaking: Self-revelation stories speakers use when facing skeptical listeners. Complete with usage triggers, vocal emphasis, and pause cues.",
+      "coreThesis": "Self-revelation stories speakers use when facing skeptical listeners",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Audience Vulnerability Stories That Build Instant Trust"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "performancePieces": [],
+    "tags": [
+      "Stories & Jokes",
+      "Keynotes & Public Speaking",
+      "Third-Person Storytelling"
+    ]
+  },
+  {
+    "id": "stories-keynotes-public-speaking-6-bridge-stories-for-heavy-data",
+    "title": "Bridge Stories for Heavy Data Slides",
+    "author": "BookBox Stage Repertoire",
+    "category": "Stories & Jokes",
+    "subcategory": "Keynotes & Public Speaking",
+    "bookFormat": "stories",
+    "coverColor": "from-rose-900 to-amber-950",
+    "coverEmoji": "\ud83c\udfad",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 515,
+    "publishedYear": 2026,
+    "totalChapters": 50,
+    "isLoaded": false,
+    "contentVersion": "6ec832c0",
+    "onePageSummary": {
+      "elevatorPitch": "50 detailed third-person stories (10\u201315 min each) for Keynotes & Public Speaking: Humanizing spreadsheets, KPIs, and quarterly metrics with vivid people stories. Complete with usage triggers, vocal emphasis, and pause cues.",
+      "coreThesis": "Humanizing spreadsheets, KPIs, and quarterly metrics with vivid people stories",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Bridge Stories for Heavy Data Slides"
     },
     "reflectionExercises": [],
     "actionItems": [],
