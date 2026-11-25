@@ -102,7 +102,8 @@ export async function initDatabase(): Promise<void> {
       } else if (!existing.isCustom) {
         const hasStandardContent = existing.blinks && existing.blinks.length > 0;
         const hasPerfContent = existing.performancePieces && existing.performancePieces.length > 0;
-        if (existing.isLoaded && (hasStandardContent || hasPerfContent)) {
+        const versionChanged = Boolean(b.contentVersion && existing.contentVersion !== b.contentVersion);
+        if (existing.isLoaded && (hasStandardContent || hasPerfContent) && !versionChanged) {
           toPut.push({
             ...existing,
             title: b.title,

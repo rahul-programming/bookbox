@@ -11,6 +11,7 @@ import os
 import glob
 import re
 import json
+import hashlib
 
 WORKSPACE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BOOKS_DIR = os.path.join(WORKSPACE_DIR, "src/data/books")
@@ -40,6 +41,7 @@ def build_catalog():
         
         with open(f, "r", encoding="utf-8") as fp:
             c = fp.read()
+        content_ver = hashlib.md5(c.encode("utf-8")).hexdigest()[:8]
         
         m_id = re.search(r'"id":\s*"([^"]+)"', c)
         if not m_id:
@@ -80,6 +82,7 @@ def build_catalog():
             "publishedYear": int(m_year.group(1)) if m_year else 2020,
             "totalChapters": blink_count,
             "isLoaded": False,
+            "contentVersion": content_ver,
             "onePageSummary": {
                 "elevatorPitch": m_pitch.group(1) if m_pitch else "",
                 "coreThesis": m_thesis.group(1) if m_thesis else "",
@@ -103,6 +106,7 @@ def build_catalog():
         rel_path = f"./performance/{basename}"
         with open(f, "r", encoding="utf-8") as fp:
             c = fp.read()
+        content_ver = hashlib.md5(c.encode("utf-8")).hexdigest()[:8]
 
         # Extract JSON payload after '='
         eq_idx = c.find("= {")
@@ -137,6 +141,7 @@ def build_catalog():
             "publishedYear": obj.get("publishedYear", 2026),
             "totalChapters": obj.get("totalChapters") or len(pieces),
             "isLoaded": False,
+            "contentVersion": content_ver,
             "onePageSummary": {
                 "elevatorPitch": one_page.get("elevatorPitch", ""),
                 "coreThesis": one_page.get("coreThesis", ""),

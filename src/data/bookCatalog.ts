@@ -1288,8 +1288,7 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "zero-debt-the-ultimate-guide-to-financial-freedom": "./books/zeroDebtTheUltimateGuideToFinancialFreedomExpanded.ts",
   "zero-to-one-notes-on-startups-or-how-to-build-the-future": "./books/zeroToOneNotesOnStartupsOrHowToBuildTheFutureExpanded.ts",
   "zhuangzi-chuang-tzu-basic-writings": "./books/zhuangziChuangTzuBasicWritingsExpanded.ts",
-  "jokes-keynotes-public-speaking-1-stand-out-stage-icebreakers-for": "./performance/jokesKeynotesPublicSpeaking1StandOutStageIcebreakersForPerformance.ts",
-  "stories-keynotes-public-speaking-1-opening-hooks-that-silence-a": "./performance/storiesKeynotesPublicSpeaking1OpeningHooksThatSilenceAPerformance.ts"
+  "jokes-keynotes-public-speaking-1-stand-out-stage-icebreakers-for": "./performance/jokesKeynotesPublicSpeaking1StandOutStageIcebreakersForPerformance.ts"
 };
 
 export const SEED_BOARDS: StashBoard[] = [
@@ -1334,6 +1333,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2023,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "89834205",
     "onePageSummary": {
       "elevatorPitch": "Customer generation is not mystical artistic lightning\\u2014it is mechanical plumbing governed by strict input-output physics. If you master the four elemental methods of broadcasting value and multiply them through leverage, business poverty becomes mathematically impossible.",
       "coreThesis": "Getting strangers to buy is a deterministic physics problem solved by executing massive daily volume across four core channels, then amplifying those channels through leverage and lead-getters until demand permanently outstrips capacity.",
@@ -1371,6 +1371,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "16baa476",
     "onePageSummary": {
       "elevatorPitch": "Transform ordinary services into category-of-one solutions that render price resistance completely obsolete. By systematically optimizing the underlying psychological equations of value and risk, you compel buyers to eagerly say yes.",
       "coreThesis": "Price resistance is not a measure of customer frugality, but a direct diagnostic of weak perceived value and unaddressed transactional friction. When you maximize perceived certainty while driving time delays and client effort toward zero, price ceases to be a limiting factor.",
@@ -1408,6 +1409,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9eef4c74",
     "onePageSummary": {
       "elevatorPitch": "Your brain processes visual data at supercomputer speeds, yet your eyes are trapped using first-grade acoustic training. By decoupling physical voice mechanics from optical pattern recognition, you unlock effortless reading velocity and sharper retention.",
       "coreThesis": "Reading speed is limited by mechanical habits\\u2014inner speech, narrow focus, and visual back-tracking\\u2014not by mental comprehension. Streamlining ocular mechanics enables faster intake and deeper understanding.",
@@ -1445,6 +1447,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7e30cb2e",
     "onePageSummary": {
       "elevatorPitch": "Stop cramming your life into frantic 24-hour sprints and claim the full canvas of your 168-hour week. You have ample time to master your craft, nurture deep relationships, and recharge when you build around your genuine core competencies.",
       "coreThesis": "Time is a choice, not a crisis; viewed through the realistic canvas of a 168-hour week, you have abundant space to excel professionally and flourish personally once you dedicate your hours exclusively to your core competencies.",
@@ -1482,6 +1485,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2006,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "963af67d",
     "onePageSummary": {
       "elevatorPitch": "Most deals are won or lost before anyone sits down at the conference table. 3-D Negotiation reveals how to bypass face-to-face deadlocks by reshaping the parties, incentives, and structural architecture of the deal itself.",
       "coreThesis": "Great dealmakers do not rely on interpersonal persuasion at the table; they engineer structural leverage and joint value away from the table so that agreement becomes the natural, inevitable outcome.",
@@ -1519,6 +1523,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5fa1c32e",
     "onePageSummary": {
       "elevatorPitch": "Awakening is not a vague mystical trance, but a systematic science of mind. Pa-Auk Sayadaw provides the master operating manual: forge an unshakeable laser of concentration, dissect reality at the subatomic level, and walk the proven highway to total liberation.",
       "coreThesis": "Deep spiritual awakening requires transforming ordinary scattered attention into an immaculate, laser-focused lens that directly dismantles the illusion of a solid self through precise, empirical observation.",
@@ -1556,6 +1561,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4d83cbbb",
     "onePageSummary": {
       "elevatorPitch": "By placing ancient parallel scriptures side-by-side like synchronized flight recorders, this investigation strips away centuries of sectarian dust to reveal the clean, universal mechanics of human mental liberation.",
       "coreThesis": "Cross-referencing early textual traditions reveals that liberating insight is not an exclusive sectarian creed, but a universal, empirical protocol for halting self-reinforcing cognitive loops.",
@@ -1593,6 +1599,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d0fd4055",
     "onePageSummary": {
       "elevatorPitch": "Imagine holding two distinct flight-recorder black boxes from different airlines that witnessed the exact same historical events. Bhikkhu An\\u0101layo cross-examines ancient Pali and Chinese records to reveal the core cognitive mechanics of mindfulness beneath centuries of cultural paint.",
       "coreThesis": "Authentic spiritual awakening is an empirical, cross-cultural science of mind: by stripping away historical transmission drift, the core teachings reveal a universal, practical technology for debugging sensory reactivity and realizing baseline mental freedom.",
@@ -1630,6 +1637,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1993,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0d7c3a42",
     "onePageSummary": {
       "elevatorPitch": "Your mind is not a single, solid self; it is a rapid stream of micro-moments that can be understood, cleaned, and liberated. This book provides the ultimate high-definition blueprint of human consciousness to dissolve suffering directly at its roots.",
       "coreThesis": "Suffering arises because we mistake a rapid flow of conditioned mind-moments for an enduring self; dismantling experience into its ultimate mental and physical components unlocks authentic spiritual freedom.",
@@ -1667,6 +1675,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1982,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "06149b8f",
     "onePageSummary": {
       "elevatorPitch": "Think of human thought as an engine: informal fallacies clog the fuel lines, while formal logic provides the exact structural blueprint that guarantees the machine runs without seizing. Patrick Hurley and Lori Watson turn reasoning from a messy intuitive art into a crisp, observable science of truth.",
       "coreThesis": "An argument is a physical structure governed by exact mechanical laws: if its foundation premises are true and its deductive geometry is valid, its conclusion is as unbreakable as gravity.",
@@ -1704,6 +1713,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1981,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3bb921f9",
     "onePageSummary": {
       "elevatorPitch": "Stop fighting the turbulent weather of your thoughts and discover the calm observer underneath. Through an intimate ancient dialogue, this practical manual shows how observing your sensations without grabbing or pushing them away dismantles anxiety and reveals natural inner peace.",
       "coreThesis": "Suffering is not caused by the natural flow of experiences, but by the friction of clinging to them as a fixed 'I.' When you observe sensations with lucid, non-reactive mindfulness, the illusion of an isolated ego dissolves into peaceful freedom.",
@@ -1741,6 +1751,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1981,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8970e1cd",
     "onePageSummary": {
       "elevatorPitch": "Step out of the tangled web of mental reactivity and experience the direct, unshakeable stillness of pure awareness. This masterwork unpacks the architecture of your own mind so you can systematically dissolve stress at its root.",
       "coreThesis": "Suffering occurs when you mistake passing mental impressions for a solid self; true peace arises the moment you observe these phenomena as impermanent, impersonal processes.",
@@ -1778,6 +1789,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1980,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f46fd551",
     "onePageSummary": {
       "elevatorPitch": "Why do beings who yearn for peace remain perpetually at war with themselves and the world? Mahasi Sayadaw unpicks the Buddha's dialogue with the king of gods to reveal how bare, momentary mindfulness dismantles emotional conflict at its very root.",
       "coreThesis": "Hostility, anxiety, and conflict do not stem from the outside world, but from the chain reaction of sensory craving, envy, and conceptual proliferation\\u2014a cycle that dissolves entirely through immediate, non-judgmental mindfulness.",
@@ -1815,6 +1827,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e8c98a2f",
     "onePageSummary": {
       "elevatorPitch": "Ancient Stoicism is not a grim endurance test, but a master craft designed to produce calm, unshakeable joy in daily living. William B. Irvine dusts off Roman wisdom to show how a few daily mental habits can protect your peace in any storm.",
       "coreThesis": "A fulfilling life requires an explicit philosophy of life, and Stoicism provides the operating manual: by governing what is within your control and mentally inoculating yourself against loss, you achieve lasting tranquility and joy.",
@@ -1852,6 +1865,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1997,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1f02f9c7",
     "onePageSummary": {
       "elevatorPitch": "Rhetorical devices are not ornamental poetry; they are precision gears engineered to control attention, memory, and cognitive friction. Robert A. Harris maps sixty fundamental verbal mechanisms that transform everyday speaking into compelling, memorable persuasion.",
       "coreThesis": "Speech is a cognitive engineering problem: rhetorical devices are mechanical tools that steer human attention, regulate mental processing speed, and permanently anchor ideas in memory.",
@@ -1889,6 +1903,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1989,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6ea8868e",
     "onePageSummary": {
       "elevatorPitch": "Your mind shapes your entire world: every joy or sorrow you experience is the natural harvest of your own habitual intentions. Bhikkhu Pesala reveals how practical, relentless awareness cleanses inner friction and awakens unshakeable peace right in the midst of daily life.",
       "coreThesis": "Consciousness precedes all experience: cleanse your intention of greed and ill-will, and genuine peace follows as an effortless law of nature.",
@@ -1926,6 +1941,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8f976224",
     "onePageSummary": {
       "elevatorPitch": "Stop chasing external luck and discover how genuine blessing is an inside job built through conscious virtue and serene inner stillness.",
       "coreThesis": "True blessing is not an external windfall granted by chance, but the natural fruit of cultivating ethical clarity, open generosity, and deep contemplative stillness.",
@@ -1963,6 +1979,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3c574e47",
     "onePageSummary": {
       "elevatorPitch": "When filmmakers set out to turn Donald Miller's memoir into a movie, they exposed an uncomfortable truth: real life was too comfortable, passive, and dull for the screen. By learning the fundamental architecture of storytelling, Miller discovered how anyone can edit their habits, embrace productive conflict, and author a life of quiet nobility and lasting meaning.",
       "coreThesis": "A life acquires profound meaning only when an individual desires something noble, embraces necessary conflict, and allows the struggle to transform their character.",
@@ -2000,6 +2017,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "799a8357",
     "onePageSummary": {
       "elevatorPitch": "Your brain operates two distinct mental operating systems: a narrow spotlight and a wide-angle lens. Learning isn't about raw intellectual horsepower, but knowing when to switch the gears.",
       "coreThesis": "True intellectual mastery comes from toggling between focused and diffuse mental modes while compressing core ideas into modular neural chunks.",
@@ -2036,6 +2054,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6b16690d",
     "onePageSummary": {
       "elevatorPitch": "Your chronic anxiety and inner unrest do not stem from your life circumstances, but from mistaking your stream of thinking for your actual self. By stepping back into alert, silent presence, you dissolve psychological friction and unlock genuine, effortless purpose in everyday action.",
       "coreThesis": "Human suffering is born from mistaking conditioned mental noise and past emotional trauma for your true identity; waking up means recognizing yourself as the silent, unshakeable awareness behind every thought and emotion.",
@@ -2073,6 +2092,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1952,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2bc2c91e",
     "onePageSummary": {
       "elevatorPitch": "Step past third-party interpretations and encounter the original voice of the Buddha directly. This handbook strips away centuries of commentary, giving you the practical keys to read the core texts of liberation in their pristine, living tongue.",
       "coreThesis": "Direct engagement with the original words of the Buddha dissolves translation bias, revealing the teachings on mindfulness, non-attachment, and liberation with unmistakable clarity and precision.",
@@ -2110,6 +2130,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1993,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fe7e4e57",
     "onePageSummary": {
       "elevatorPitch": "Spiritual practice is not an escape from reality, but an unflinching homecoming to the raw, tender reality of everyday life. Jack Kornfield offers a masterclass in grounding mystical wisdom into emotional maturity, compassionate relationships, and everyday sanity.",
       "coreThesis": "Enlightenment is not a distant, heroic summit, but an immediate, intimate reconciliation with your own imperfect human heart.",
@@ -2147,6 +2168,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1990,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "07a139a7",
     "onePageSummary": {
       "elevatorPitch": "Kindness is not a soft, sentimental luxury\\u2014it is an indispensable operating system for human survival and inner freedom. In this lucid anthology, the Dalai Lama strips spirituality of ritual fog and reveals how practical compassion calms the mind and repairs our fractured world.",
       "coreThesis": "Genuine peace is neither passive nor pious; it is the natural byproduct of training the mind in universal responsibility and practicing kindness as our daily operating policy.",
@@ -2184,6 +2206,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "42d73a66",
     "onePageSummary": {
       "elevatorPitch": "Liberation is not an abstract philosophy reserved for forest monasteries; it is an exact, experiential science available right inside your physical body. By learning to observe bodily sensations without craving or aversion, you dismantle the subconscious roots of human suffering.",
       "coreThesis": "Suffering dissolves when you directly observe physical sensations with balanced awareness, realizing that impermanence governs all things and freeing the mind from blind reaction.",
@@ -2221,6 +2244,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1973,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "353db83e",
     "onePageSummary": {
       "elevatorPitch": "Financial markets behave like complex ecological systems where prices instantly digest all known information into a random walk. Trying to outguess the collective crowd is a costly illusion; the real key to compounding wealth is owning the entire economy through low-cost index funds.",
       "coreThesis": "Short-term stock price movements are inherently unpredictable because prices already reflect all known information. An investor's most reliable path to superior long-term wealth is capturing total market returns through low-cost, broadly diversified index funds while ruthlessly eliminating fees.",
@@ -2258,6 +2282,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e59da6a9",
     "onePageSummary": {
       "elevatorPitch": "Stop treating spiritual freedom like a distant promotion you must exhaust yourself to earn. True peace is the ground beneath your feet the instant you stop fighting your immediate experience.",
       "coreThesis": "Suffering dissolves not when we successfully control our circumstances, but when we drop our resistance and rest in the clear, compassionate awareness of things as they actually are.",
@@ -2295,6 +2320,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1996,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6bde69d4",
     "onePageSummary": {
       "elevatorPitch": "Virtue is not an innate gift or a dry set of commandments, but an art of living practiced daily like physical conditioning. Andr\\u00e9 Comte-Sponville delivers an inspiring, secular guide to mastering the eighteen qualities that transform ordinary conduct into genuine human excellence.",
       "coreThesis": "Virtue is our moral muscle memory: by practicing good habits from basic courtesy to selfless love, we sculpt our humanity and discover lasting inner peace.",
@@ -2332,6 +2358,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1985,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "872dd024",
     "onePageSummary": {
       "elevatorPitch": "Your mind is like a wild forest pool: when you stop churning the water with desires and complaints, the sediment settles on its own, and the clearest truths of life reflect effortlessly on the surface. Ajahn Chah strips spirituality of scholastic mysticism to deliver a radically down-to-earth manual for living free from anxiety and emotional entanglement.",
       "coreThesis": "Suffering is born entirely from grasping what cannot be kept and resisting what cannot be prevented; true peace is not the absence of disturbance, but non-clinging awareness in the midst of it all.",
@@ -2369,6 +2396,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1980,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2b7b4fb5",
     "onePageSummary": {
       "elevatorPitch": "Stop fighting the waves of life and step back onto the dry ground of pure awareness. Ajahn Chah strips spiritual practice of all mystical jargon, offering an earthy, razor-sharp blueprint for tasting total inner freedom right here, right now.",
       "coreThesis": "Suffering is not caused by the transient world, but by our grasping onto what cannot stay; letting go completely brings unshakeable, immediate peace.",
@@ -2406,6 +2434,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1939,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fffbd17b",
     "onePageSummary": {
       "elevatorPitch": "Creativity is not a stroke of divine lightning; it is an operable, predictable mental assembly line. By mastering the five-stage pipeline of gathering, digesting, incubating, capturing, and shaping, anyone can reliably produce breakthrough ideas on demand.",
       "coreThesis": "An idea is nothing more nor less than a new combination of old elements, and the capacity to bring those elements together depends entirely on the ability to see relationships.",
@@ -2443,6 +2472,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1957,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "afb538a5",
     "onePageSummary": {
       "elevatorPitch": "Your brain hates holding two conflicting truths just like your body hates physical hunger. Leon Festinger reveals the hidden psychological engine that forces us to bend reality, justify bad choices, and rewrite our beliefs just to protect our peace of mind.",
       "coreThesis": "Mental contradiction creates an unbearable psychological tension that compels people to distort their beliefs, hunt for confirmation, and rewrite history just to make their choices feel right.",
@@ -2480,6 +2510,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1977,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e3df0757",
     "onePageSummary": {
       "elevatorPitch": "Step into the living workshop of the Buddha through pristine, direct dialogues translated with diamond clarity. Discover how ancient contemplative wisdom untangles the knots of modern stress, ego-clinging, and emotional fatigue.",
       "coreThesis": "Suffering is not an inherent flaw in reality, but a predictable friction caused by clinging to transient experiences; seeing things clearly as they are brings instant, durable peace.",
@@ -2517,6 +2548,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1927,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2e8afb5d",
     "onePageSummary": {
       "elevatorPitch": "Strip away centuries of complex ritual to witness the Buddha as a practical physician of the mind. This masterwork shows how genuine freedom is found not in running away from life, but in seeing clearly through our everyday illusions.",
       "coreThesis": "Suffering is not an inescapable fate, but a mental knot created by clinging to changing conditions; it unbinds the moment we see reality with calm, non-reactive clarity.",
@@ -2554,6 +2586,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1985,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4b3658e3",
     "onePageSummary": {
       "elevatorPitch": "Stop mistaking your racing stream of thoughts for a permanent self. N.K.G. Mendis translates the intricate psychological blueprints of classical Theravada Buddhism into direct, moment-to-moment tools for everyday mental clarity and genuine peace.",
       "coreThesis": "The self is not a permanent entity but a rapid, unbroken sequence of mental and physical events; systematically observing these components in daily life dissolves clinging and yields unshakable inner freedom.",
@@ -2591,6 +2624,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1949,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8ae39254",
     "onePageSummary": {
       "elevatorPitch": "Your mind is not a rigid solid object; it is an ever-flowing symphony of momentary mental factors. Nyanaponika Thera unpacks the ancient Buddhist psychology of the Abhidhamma to show how dissecting awareness into its dynamic ingredients dissolves the illusion of ego and delivers unshakable peace.",
       "coreThesis": "The self is not a static entity but a rapid succession of interdependent mental events; understanding both their granular pieces and relational connections dissolves grasping and frees the mind.",
@@ -2628,6 +2662,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d4d5c4d5",
     "onePageSummary": {
       "elevatorPitch": "Your heart is not a fragile room to be defended, but an boundless atmosphere waiting to be uncovered. Ajahn Pasanno reveals how the Brahmaviharas transform loving-kindness, compassion, appreciative joy, and equanimity from fragile emotions into an unshakeable vehicle for direct awakening.",
       "coreThesis": "The heart's natural state is boundless and hospitable; by training the mind to abandon defensive contraction and radiate unconditional goodwill, the Brahmaviharas become direct vehicles for complete spiritual liberation.",
@@ -2665,6 +2700,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ddf249b2",
     "onePageSummary": {
       "elevatorPitch": "When emotional depth is missing in your foundation, adult relationships feel like running an engine with dry gears. Lindsay Gibson decodes the hidden operating systems of self-absorbed caregivers and provides a lucid blueprint for reclaiming personal autonomy without guilt.",
       "coreThesis": "Emotional loneliness stems from expecting emotional depth from people who lack the capacity to provide it; genuine freedom comes from relinquishing the fantasy of parental change and adopting clear, detached boundaries.",
@@ -2702,6 +2738,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "509e26e8",
     "onePageSummary": {
       "elevatorPitch": "You can afford anything, but you cannot afford everything\\u2014every dollar and hour spent is a non-negotiable vote for one reality and a quiet cancellation of another. Paula Pant deconstructs money not as a moral scoreboard, but as an engineering framework for reclaiming personal sovereignty.",
       "coreThesis": "Resource allocation is fundamentally zero-sum: every expenditure is an active trade-off, and true wealth emerges when you deliberately widen and deploy 'The Gap' between earning and spending to buy back unconditional control over your time.",
@@ -2739,6 +2776,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "32625696",
     "onePageSummary": {
       "elevatorPitch": "What if the Buddha was never interested in founding a religion of dogmas, karma, and rebirth, but was offering an intensely practical medical toolkit for living fully in an uncertain world? Stephen Batchelor strips away centuries of mystical sediment to uncover a grounded, radical practice of everyday human flourishing.",
       "coreThesis": "The Dharma is not a metaphysical religion of dogmas, karma, and rebirth, but a pragmatic therapeutic discipline: an actionable fourfold task that enables human flourishing right here in the secular world.",
@@ -2776,6 +2814,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1981,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fcfb521f",
     "onePageSummary": {
       "elevatorPitch": "Modern moral talk is broken because we argue endlessly over rules without knowing what a good human life is for. By rediscovering shared practices, personal character, and community, we can rebuild meaning in an age of empty noise.",
       "coreThesis": "Modern moral debates are endless and hollow because we abandoned the idea of a shared human purpose (telos). True ethics is restored only when we cultivate character through shared crafts, coherent personal narratives, and local communities of virtue.",
@@ -2813,6 +2852,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a2e52b5c",
     "onePageSummary": {
       "elevatorPitch": "The world isn't an engineering blueprint; it's a living ecosystem governed by psychology rather than rigid logic. If you solve human problems using pure reason alone, you miss the counter-intuitive 'alchemy' that actually changes minds, moves markets, and unlocks magic.",
       "coreThesis": "Human behavior is psychological, not logical; the most transformative breakthroughs come not from perfecting mechanical efficiency, but from reframing subjective perception.",
@@ -2850,6 +2890,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d22580b0",
     "onePageSummary": {
       "elevatorPitch": "Computer science is not just for silicon chips; it is the hidden arithmetic of human sanity. Discover how classic computational trade-offs can elegantly untangle your toughest everyday dilemmas.",
       "coreThesis": "Human struggles with time and choices are fundamental resource allocation dilemmas. Applying computational strategies transforms everyday anxiety into elegant, mathematically sound decisions.",
@@ -2886,6 +2927,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "327b9832",
     "onePageSummary": {
       "elevatorPitch": "Stop trying to predict tomorrow's weather in the financial markets and start engineering an all-terrain vehicle built to thrive across every economic season. Rick Ferri reveals how asset allocation\\u2014not stock picking or market timing\\u2014drives virtually all your long-term investment success.",
       "coreThesis": "Over 90 percent of investment return variability and portfolio safety is determined by how you split your capital across broad asset classes, not which individual securities you pick or when you try to time the market.",
@@ -2923,6 +2965,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1987,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e5141e03",
     "onePageSummary": {
       "elevatorPitch": "Every human is bound to the same inescapable journey of birth, aging, and decline. Ayya Khema hands you the blueprint to build an unshakeable inner island of peace right in the middle of life's stormy seas.",
       "coreThesis": "Suffering is not caused by life's inevitable impermanence, but by our desperate struggle to anchor an ego to things that change; liberating peace comes from stepping down as 'somebody' and establishing a disciplined inner sanctuary.",
@@ -2960,6 +3003,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e134e7a3",
     "onePageSummary": {
       "elevatorPitch": "We demand more from technology and less from each other, trading messy human intimacy for frictionless digital control. This book pulls back the curtain on how constant connectivity leaves us hyper-networked yet profoundly isolated.",
       "coreThesis": "Digital hyper-connectivity creates a false illusion of community that actually starves us of real intimacy and deep solitude.",
@@ -2997,6 +3041,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "419ac26e",
     "onePageSummary": {
       "elevatorPitch": "You do not need to finish fixing your personal history before claiming peace. Real freedom happens the exact moment you drop the struggle and inhabit the living present as whole.",
       "coreThesis": "Human liberation does not require completing your psychological self-improvement project; it blossoms when you hold your developmental healing within the immediate realization that open awareness is already free.",
@@ -3034,6 +3079,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2022,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "af9481c5",
     "onePageSummary": {
       "elevatorPitch": "Most underperforming companies suffer from a self-inflicted lack of intensity, not flawed strategy or insufficient capital. By raising expectations, accelerating decision cycles, and eliminating passengers, leaders can unlock radical hypergrowth with the exact same team they already have.",
       "coreThesis": "Hypergrowth is not unlocked by discovering a miraculous new strategy or changing your entire staff; it is unlocked by demanding world-class standards, compressing timelines to the absolute limit, and focusing all organizational energy on ruthless daily execution.",
@@ -3071,6 +3117,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8109d364",
     "onePageSummary": {
       "elevatorPitch": "Step out of the mental noise of opinions and anxieties by discovering the earliest, most pristine contemplative manual of Buddhism. Learn to shed mental burdens like worn-out clothes and abide in luminous, unshakeable presence.",
       "coreThesis": "Genuine spiritual awakening is not the collection of new philosophical opinions, but the radical shedding of egoic clinging and dogmatism to reveal pristine, immediate peace.",
@@ -3108,6 +3155,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4499f8ea",
     "onePageSummary": {
       "elevatorPitch": "Every day, flawed arguments masquerade as ironclad logic by exploiting blind spots in human wiring. This visual field guide exposes the 19 most common reasoning traps, giving you an x-ray lens to diagnose rhetorical sleight of hand in real time.",
       "coreThesis": "An argument's validity depends strictly on its logical architecture and empirical foundations, never on rhetorical volume, emotional threats, or the personality of the speaker.",
@@ -3145,6 +3193,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "288ec67c",
     "onePageSummary": {
       "elevatorPitch": "Stop fighting the turbulent currents of your thoughts and step onto the dry riverbank of direct observation. This book provides a master craftsman's blueprint for dismantling everyday anxiety, uncovering natural inner stillness, and discovering freedom right in the middle of life's daily demands.",
       "coreThesis": "Suffering is born from mistaking transient mental and physical events for a permanent self; meticulous, non-reactive observation systematically dissolves this confusion, unveiling natural, unconditioned peace.",
@@ -3182,6 +3231,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1979,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3265f626",
     "onePageSummary": {
       "elevatorPitch": "Step into the engine room of human decision-making: discover how everyday arguments really function as living, load-bearing mechanical bridges rather than sterile textbook equations. Toulmin, Rieke, and Janik crack open the hidden anatomy of persuasion to show how evidence transforms into sound judgment.",
       "coreThesis": "Human reasoning is a practical diagnostic craft rather than an idealized mathematical calculation: every robust argument functions like a well-engineered bridge whose structural soundness depends on anchoring concrete facts to validated principles while transparently mapping its own operational limits.",
@@ -3219,6 +3269,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e1a6d7e9",
     "onePageSummary": {
       "elevatorPitch": "Happiness is not an accidental stroke of luck; it is a mental discipline cultivated by opening your heart to others. The Dalai Lama provides a lucid, step-by-step masterclass on transforming everyday irritation into boundless compassion and unshakable inner clarity.",
       "coreThesis": "Genuine inner peace arises not from rearranging external circumstances, but from training the mind in impartial compassion and recognizing our deep, interdependent connection with all life.",
@@ -3256,6 +3307,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "54ebbeab",
     "onePageSummary": {
       "elevatorPitch": "Step beyond sensory chaos into an architecturally precise cartography of pure, luminous consciousness. Dr. Mehm Tin Mon shows how tranquil absorption refines human awareness into radiant stillness\\u2014and why true freedom requires seeing through even the most exalted peace.",
       "coreThesis": "The Fine-Material Realm is the natural outer reflection of an inner mind purified by deep meditative stillness; yet, because even the most radiant celestial peace is impermanent, true liberation demands advancing from tranquility to liberating insight.",
@@ -3293,6 +3345,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6423beda",
     "onePageSummary": {
       "elevatorPitch": "Imagine stripping away your physical body, senses, and surroundings until only pure, boundless awareness remains. Dr. Mehm Tin Mon charts the ultimate frontiers of the formless mind\\u2014and reveals why even cosmic stillness must be let go to find true freedom.",
       "coreThesis": "The formless realm represents the mind's peak capacity for stillness without physical matter, yet true liberation requires seeing that even sublime peace is impermanent and stepping beyond it.",
@@ -3330,6 +3383,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9aad407b",
     "onePageSummary": {
       "elevatorPitch": "Step out of the restless current of sensory craving and discover how your mind constructs your daily reality. This book maps the architecture of the sensuous realm to reveal the clear, open doorway to lasting inner peace.",
       "coreThesis": "The sensuous realm is a mental landscape shaped entirely by intention and craving; by seeing the impermanence of sensory input with quiet mindfulness, consciousness naturally unties its knots and rests in liberation.",
@@ -3367,6 +3421,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1980,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "18502c37",
     "onePageSummary": {
       "elevatorPitch": "Step into the intimate inner circle of the Buddha through the life of Ananda, the devoted attendant who remembered every teaching. It reveals how profound personal service, deep emotional vulnerability, and final spiritual liberation converge in everyday living.",
       "coreThesis": "Selfless service and deep human warmth do not hinder spiritual awakening; when balanced with clear awareness and honest release, dedicated care for others becomes the direct path to freedom.",
@@ -3404,6 +3459,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1992,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d74ac74a",
     "onePageSummary": {
       "elevatorPitch": "Liberation does not require exhaustive intellectual scholarship\\u2014it requires unbroken awareness of the very breath sustaining your life right now. Venerable Webu Sayadaw strips meditation down to its rawest, most powerful essence: feel the breath touch the upper lip, stay there, and discover lasting inner calm.",
       "coreThesis": "Continuous, unbroken mindfulness of the breath touching the upper lip gathers the wandering mind, burns away inner defilements, and directly reveals liberation here and now.",
@@ -3441,6 +3497,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1988,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b077df07",
     "onePageSummary": {
       "elevatorPitch": "Your breath is not just air\\u2014it is the direct operating dashboard of your nervous system, mind, and emotional freedom. Buddhadasa Bhikkhu strips away centuries of ritualistic dust to offer a hands-on manual for mastering every layer of your inner life with each simple inhalation and exhalation.",
       "coreThesis": "Total psychological freedom is not found in esoteric trances or far-off temples, but in clearly understanding and steadying your body, emotions, and mind through direct, natural breath awareness in the present moment.",
@@ -3478,6 +3535,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1959,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "dee58a5e",
     "onePageSummary": {
       "elevatorPitch": "Stop searching for an eternal self to polish or fearing an empty void to avoid; true freedom begins the exact second you see that you were never a solid, trapped identity to begin with.",
       "coreThesis": "Liberation is not the destruction of a real self nor the discovery of an eternal soul; it is the immediate peace of dropping a phantom burden you never actually had to carry.",
@@ -3515,6 +3573,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e7f713ab",
     "onePageSummary": {
       "elevatorPitch": "Anger is not a character flaw or a beast to cage; it is a sensitive dashboard warning light signaling an internal emergency. Discover how to treat emotional flare-ups like kitchen grease fires\\u2014cooling the heat instantly with breath and compost rather than fueling the blaze.",
       "coreThesis": "Anger is an internal fire fueled by distorted perception and unaddressed suffering; cooling it requires soothing your own biological storm first before attempting to fix the relationship.",
@@ -3552,6 +3611,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1984,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d0fb5230",
     "onePageSummary": {
       "elevatorPitch": "Can a ruthless killer rewrite his destiny and touch total inner peace? Hellmuth Hecker unfolds the classic Buddhist chronicle of Angulimala to prove that no past mistake is fatal when direct awareness halts the momentum of harm.",
       "coreThesis": "No past conditioning or moral failure is permanent; the moment outward aggression stops and awareness awakens, direct liberation becomes possible.",
@@ -3589,6 +3649,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4e3a90f8",
     "onePageSummary": {
       "elevatorPitch": "Some things shatter under pressure, but living systems actually grow stronger from shocks. Discover the hidden mechanical law that turns chaos, stress, and volatility into your greatest fuel.",
       "coreThesis": "Wind extinguishes a delicate candle but energizes a roaring wildfire. Structure your life and systems so you gain from unexpected disorder instead of hiding from it.",
@@ -3625,6 +3686,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1488ed02",
     "onePageSummary": {
       "elevatorPitch": "Step into spiritual practice without dogmatic baggage by treating your own consciousness as a living laboratory for peace, compassion, and lucid insight. This foundational masterwork provides a practical, clear bridge between ancient Buddhist realization and everyday modern life.",
       "coreThesis": "Lasting peace and liberation from suffering are cultivated by systematically investigating your own mind, dismantling self-centered illusions, and opening your heart with active compassion.",
@@ -3662,6 +3724,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9d0c0d3c",
     "onePageSummary": {
       "elevatorPitch": "A rare, uncompromising firsthand account of full spiritual liberation from one of the Thai Forest Tradition's most revered masters. It delivers a direct, surgical roadmap to dismantling ego and discovering unshakeable inner freedom.",
       "coreThesis": "Suffering ends not through philosophical belief, but through the uncompromising investigation of the mind that dissolves the mistaken illusion of a separate self.",
@@ -3699,6 +3762,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7fe412f1",
     "onePageSummary": {
       "elevatorPitch": "Decisions made on gut feel or charisma are reckless gambles when the stakes are high. Freeley and Steinberg deliver a masterclass in dialectical architecture, arming you to pressure-test every proposition, expose hidden structural flaws in competing arguments, and execute decisions that withstand ruthless scrutiny.",
       "coreThesis": "Reasoned decision-making is an objective risk-management system where every claim must survive rigorous evidentiary audits, structural validation, and adversarial refutation before capital or credibility is committed.",
@@ -3736,6 +3800,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "152a7a25",
     "onePageSummary": {
       "elevatorPitch": "You do not need to build your freedom through decades of arduous striving; you are already the open sky in which all clouds come and go. Ashtavakra Gita cuts through spiritual consumerism to reveal that enlightenment is not an achievement, but the sudden cessation of identifying with your mental weather.",
       "coreThesis": "You are not an imperfect mind striving to reach perfection; you are the unblemished awareness in which all experiences occur, immediately free the moment you stop mistaking yourself for your thoughts.",
@@ -3773,6 +3838,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1989,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a2e79d1d",
     "onePageSummary": {
       "elevatorPitch": "Wealth building is not an Olympic sprint to predict the weather; it is sound engineering. Roger C. Gibson reveals how combining distinct, imperfectly synchronized asset classes produces an investment vehicle with smoother rides and superior endurance than any single asset could achieve alone.",
       "coreThesis": "Long-term investment success is dictated not by predicting market swings or picking winning individual stocks, but by engineering a disciplined asset allocation across non-correlated asset classes that balances growth potential with emotional endurance.",
@@ -3810,6 +3876,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2495c3ca",
     "onePageSummary": {
       "elevatorPitch": "Sarah Bakewell brings 20th-century existentialism down from the ivory tower into the noisy Parisian caf\\u00e9, showing that philosophy is not a parlor game but the art of choosing who you become in every moment. It reveals that when external blueprints vanish, your choices are the only compass you have.",
       "coreThesis": "Human beings are not defined by any pre-existing blueprint; you define your essence entirely through the choices you make and the actions you take every day.",
@@ -3847,6 +3914,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d11afe4a",
     "onePageSummary": {
       "elevatorPitch": "Transform your life not by overhauling your goals, but by engineering tiny, effortless daily systems that compound into massive results. You do not rise to the level of your ambitions; you fall to the level of your systems.",
       "coreThesis": "You do not rise to the level of your goals; you fall to the level of your systems. Tiny atomic habits compound over time into life-changing identity shifts.",
@@ -3883,6 +3951,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0b15ed88",
     "onePageSummary": {
       "elevatorPitch": "Romantic turbulence is not a character defect\\u2014it is biological circuitry. By decoding the hidden mechanics of adult attachment, you can stop fighting your neurobiology and build lasting intimacy with scientific clarity.",
       "coreThesis": "Human attachment needs are hardwired biological imperatives rather than personal weaknesses; true emotional independence is only achieved from the platform of a dependable, secure connection.",
@@ -3920,6 +3989,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1980,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "97c19725",
     "onePageSummary": {
       "elevatorPitch": "Think of human communication as an intricate bridge: if any support beam is cracked or unanchored, the entire crossing collapses under pressure. T. Edward Damer provides a diagnostic blueprint to spot structural flaws in everyday reasoning and neutralize deceptive debate tactics in real time.",
       "coreThesis": "A reliable argument functions like a well-engineered load-bearing arch: it stands only when its premises meet five strict standards\\u2014sound structure, undeniable relevance, credible acceptability, adequate sufficiency, and proactive rebuttal of counterevidence.",
@@ -3957,6 +4027,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2023,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3c070819",
     "onePageSummary": {
       "elevatorPitch": "Dr. Gloria Mark debunks the toxic myth of unbroken eight-hour focus, revealing how your mind's natural attentional rhythms ebb and flow across screens. By viewing attention as a replenishable mental battery rather than an engine that can redline without stopping, you can eliminate digital exhaustion and master your daily cognitive energy.",
       "coreThesis": "Human attention is a finite, rhythmic cognitive resource that naturally fluctuates; sustainable productivity and mental well-being come not from forcing continuous focus, but from synchronizing demanding tasks with natural cognitive rhythms and restorative balance.",
@@ -3994,6 +4065,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0590e2a4",
     "onePageSummary": {
       "elevatorPitch": "Stop acting like a burned-out administrative assistant inside your own private life. By replacing manual paperwork and repetitive chores with automated digital pipelines, you reclaim your mental bandwidth for the work and relationships that actually matter.",
       "coreThesis": "Friction is the ultimate thief of human potential; when you systematically automate administrative chores and paper management, you convert chronic background anxiety into reliable creative energy.",
@@ -4031,6 +4103,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3f369be5",
     "onePageSummary": {
       "elevatorPitch": "Awakening is not a mystical trophy reserved for monks; it is your natural, direct perception waiting beneath the constant chatter of the thinking mind. Dr. Angelo DiLullo provides a field manual that strips away spiritual jargon and guides you step-by-step into immediate reality.",
       "coreThesis": "Suffering is maintained by unconscious identification with the mind's ongoing commentary. By anchoring attention in immediate sensory reality and welcoming emotional contractions without resistance, the illusory sense of separation naturally dissolves into effortless presence.",
@@ -4068,6 +4141,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0b61e647",
     "onePageSummary": {
       "elevatorPitch": "Suffering is not a life sentence, but a misperception born from an overinflated ego. Here is a practical, step-by-step blueprint to transform daily emotional friction into boundless clarity and unshakable compassion.",
       "coreThesis": "Genuine inner peace arises not by escaping reality, but by training the mind to exchange rigid self-cherishing for universal compassion and seeing through the illusion of a separate self.",
@@ -4105,6 +4179,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c9491f54",
     "onePageSummary": {
       "elevatorPitch": "Mindfulness without wisdom is merely passive recording. True freedom comes when you check the quality of your observing mind and investigate experience with relaxed curiosity.",
       "coreThesis": "Awareness alone cannot liberate the mind; genuine freedom arises only when awareness is paired with right attitude and wisdom that observes without craving, aversion, or personal ownership.",
@@ -4142,6 +4217,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2023,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "47edf1ac",
     "onePageSummary": {
       "elevatorPitch": "Step out of the claustrophobic room of the ego and discover the quiet, life-altering power of awe that is already waiting in every ordinary moment. Backed by cutting-edge neuroscience and ancient contemplative wisdom, this book reveals how everyday wonder dissolves chronic mental suffering and awakens you to universal belonging.",
       "coreThesis": "Awe is our innate biological pathway to self-transcendence, quietening the anxious ego and directly awakening us to our boundless connection with all of existence.",
@@ -4179,6 +4255,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fd0f74c3",
     "onePageSummary": {
       "elevatorPitch": "Transform everyday conversational small talk into an exhilarating game of low-stakes psychological tennis. Discover how wit, tension, and playful misdirection turn mundane exchanges into electric human connection.",
       "coreThesis": "Banter is an agile, low-stakes game of mutual verbal play that replaces factual interrogation with emotional resonance and spontaneous wit.",
@@ -4216,6 +4293,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "04ad2f57",
     "onePageSummary": {
       "elevatorPitch": "Negotiation is not a bare-knuckle brawl; it is an information-gathering science governed by predictable human dynamics. By aligning your personal style with situational leverage and objective standards, you can secure phenomenal outcomes without sacrificing your ethics.",
       "coreThesis": "Effective negotiation is a disciplined process of information discovery, where genuine leverage flows from matching your personal style to objective standards and the other party's hidden priorities.",
@@ -4253,6 +4331,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1985,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d3effd26",
     "onePageSummary": {
       "elevatorPitch": "Stop chasing enlightenment across the globe: you are already the peace you seek. Sri Ramana Maharshi cuts through spiritual complexity with a single, direct question: 'Who am I?'",
       "coreThesis": "You are not your wandering thoughts, emotions, or bodily identity; you are the permanent awareness in which they appear, easily uncovered by tracing the sense of 'I' back to its silent source.",
@@ -4290,6 +4369,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1971,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3a95b35a",
     "onePageSummary": {
       "elevatorPitch": "Your endless mental chatter about yesterday's regrets and tomorrow's worries is keeping you trapped outside your own life. Be Here Now is an unvarnished blueprint for dropping your mental luggage and living with total clarity in the only moment that actually exists.",
       "coreThesis": "You are not your thoughts, emotions, or social resume; you are the silent witness observing them. When you release grasping for the future and resistance to the past, the present moment becomes an infinite reservoir of freedom and peace.",
@@ -4327,6 +4407,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "333fd87f",
     "onePageSummary": {
       "elevatorPitch": "When verbal predators strike, your nervous system wants to freeze, fumble, or rage. This treatise reveals how to turn panic into poise, dissect hostile verbal aggression on the fly, and neutralize social intimidation with scientific precision.",
       "coreThesis": "Verbal bullying is not a debate over facts; it is an asymmetrical exploit of your nervous system that dissolves the moment you withhold emotional reactivity and reframe the social interaction.",
@@ -4364,6 +4445,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "de12e7b8",
     "onePageSummary": {
       "elevatorPitch": "If your customers treat you like an interchangeable commodity, you are forced to slash prices until your business starves. Theresa Lina delivers a battle-tested blueprint to claim category ownership, dictate premium pricing, and turn your brand into the default market choice.",
       "coreThesis": "Category dominance belongs to those who solve a specific, high-stakes problem so decisively that alternatives look like reckless compromises.",
@@ -4401,6 +4483,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1a9cd165",
     "onePageSummary": {
       "elevatorPitch": "Your body is a finely engineered chassis designed for effortless, pain-free performance if you respect its mechanical tolerances. Starrett and Cordoza reveal how small daily habits and simple self-maintenance tools restore supple, lifelong athleticism.",
       "coreThesis": "Human pain and athletic breakdown stem from poor movement mechanics and neglected soft tissue, both of which can be permanently self-corrected through spinal bracing, rotational torque, and daily physical maintenance.",
@@ -4438,6 +4521,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1927,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3342fbeb",
     "onePageSummary": {
       "elevatorPitch": "We spend our lives drifting through autopilot routines, forgetting what it means to actually be alive. By confronting the finite boundary of our mortality, we awaken to authentic purpose and ownership.",
       "coreThesis": "Human existence is fundamentally practical engagement shaped by time; only by confronting our finite mortality can we break free from social autopilot and live with authentic purpose.",
@@ -4475,6 +4559,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a9a83da6",
     "onePageSummary": {
       "elevatorPitch": "Stop chasing peace as an external trophy and learn to settle the mind right where you stand. Ajahn Chah strips away mystical jargon to reveal that true freedom is simply letting go of what you cannot control.",
       "coreThesis": "Suffering is born from holding onto impermanent things; freedom is the natural ease that occurs when you open your hand and let things be as they are.",
@@ -4512,6 +4597,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e82a1ddd",
     "onePageSummary": {
       "elevatorPitch": "Logic is not dry math or ivory-tower theory; it is the invisible physics of clear thinking. Learn how everyday thoughts either lock cleanly into reality or wobble and collapse like an uneven kitchen table.",
       "coreThesis": "Logic is the practical art of aligning human thought with objective reality so our conclusions remain structurally sound, truthful, and clear.",
@@ -4549,6 +4635,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1987,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e59c0b09",
     "onePageSummary": {
       "elevatorPitch": "Stop exhausting yourself trying to build an empire out of your ego. When you drop the heavy luggage of being a 'somebody' rushing 'somewhere', genuine freedom and quiet joy meet you right where you sit.",
       "coreThesis": "Suffering stems from the exhausting urge to manufacture and protect a solid identity; true, unshakable peace arises when you drop the burden of self-importance and settle into bare, open awareness.",
@@ -4586,6 +4673,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ff6e3904",
     "onePageSummary": {
       "elevatorPitch": "Academic and analytical slide decks routinely collapse under the weight of pasted report text and unreadable chart dumps. Better Presentations rewires scholarly communication around human cognitive perception, turning complex research findings into crisp, persuasive live visual narratives.",
       "coreThesis": "A slide deck is an ambient visual complement to your spoken voice, not a printed document projected on a wall; design it to guide human visual attention, not to serve as your teleprompter.",
@@ -4623,6 +4711,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1098878b",
     "onePageSummary": {
       "elevatorPitch": "Human behavior fails not from a lack of willpower, but from flawed system design and misdiagnosed cognitive wiring. By understanding your psychological response to expectations and eliminating friction, you can automate habits without exhausting mental fuel.",
       "coreThesis": "Sustainable habits are not forged through raw willpower, but engineered by aligning daily routines with your innate cognitive temperament to eliminate in-the-moment decision-making.",
@@ -4660,6 +4749,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "672aca07",
     "onePageSummary": {
       "elevatorPitch": "Stop searching for enlightenment in mystical slogans; genuine freedom is an exacting craft of mindful discernment. Thanissaro Bhikkhu cuts through modern spiritual romance to reveal Nirvana as the unconditioned peace that emerges when mental fabrications are clearly understood and put down.",
       "coreThesis": "Nirvana is not an emotional mood or a cosmic location, but the radical unbinding that occurs when the mind masters discernment, drops all fabricated identities, and steps outside the cycle of craving.",
@@ -4697,6 +4787,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1976,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9f73c271",
     "onePageSummary": {
       "elevatorPitch": "Culture is the invisible operating system running your mind, dictating how you talk, move, and think without your knowledge. By decoding this silent script, you gain the superpower to see the hidden mechanics shaping every conversation, workplace, and relationship.",
       "coreThesis": "Culture is an unconscious biological and cognitive filter that dictates how we perceive space, time, and human interaction. We can only achieve true self-awareness and cross-cultural harmony by recognizing and stepping beyond our silent programming.",
@@ -4734,6 +4825,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2022,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9294f7d8",
     "onePageSummary": {
       "elevatorPitch": "You do not have to be a helpless passenger inside your own runaway mind. Based on an ancient, battle-tested Buddhist manual, this book provides five practical mental levers to dismantle distraction and restore lasting inner stillness.",
       "coreThesis": "Distracting thoughts persist only because we unconsciously fuel them; by applying five progressive, classical strategies, anyone can dismantle mental agitation and cultivate unshakable serenity.",
@@ -4771,6 +4863,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9e1cd02d",
     "onePageSummary": {
       "elevatorPitch": "Mindfulness shows you what is happening; deep concentration gives you the unshakable stillness to see through it. This lucid guide shows everyday practitioners how to access the luminous states of deep meditative absorption (jhanas) to uproot suffering and discover profound inner freedom.",
       "coreThesis": "Deep concentration and mindfulness are two inseparable wings of contemplative practice; mastering focused absorption quiets mental turbulence and provides the unshakable stability necessary for liberating insight.",
@@ -4808,6 +4901,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bbcb653c",
     "onePageSummary": {
       "elevatorPitch": "Religion is like tea, but universal human warmth is like clean water: you can live without tea, but nobody survives without water. This book provides a clear, practical blueprint for an ethical, deeply compassionate life that requires no dogma, no rituals, and no supernatural beliefs.",
       "coreThesis": "Human flourishing does not depend on religious allegiance, but on secular ethics rooted in our shared biology, rational discernment, and an educated, compassionate heart.",
@@ -4845,6 +4939,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0a284eed",
     "onePageSummary": {
       "elevatorPitch": "Meditation is not a mystical retreat from life, but the direct mental calibration required to navigate daily existence without being hijacked by stress, reactivity, and fear. Chanmyay Sayadaw provides a crystal-clear masterclass on turning every breath, step, and sensation into an instrument of profound liberation.",
       "coreThesis": "Suffering arises because we unconsciously identify with transient sensations and thoughts; by maintaining uninterrupted, objective awareness through mental noting in all daily activities, the illusion of ego dissolves into liberating clarity.",
@@ -4882,6 +4977,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9ebdcde6",
     "onePageSummary": {
       "elevatorPitch": "Creativity is not a terrifying test of your worth, but a hidden ecosystem of wild ideas searching for willing human partners. When you stop treating fear as a roadblock and treat making things as an everyday adventure, creative living becomes as natural as breathing.",
       "coreThesis": "Creative living is the choice to follow curiosity over fear, treating ideas as willing collaborators rather than terrifying high-stakes tests.",
@@ -4919,6 +5015,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1994,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fd367aeb",
     "onePageSummary": {
       "elevatorPitch": "Creative work stalls not from a lack of talent, but because cognitive overload and perfectionism choke the brain's natural generative pathways. Anne Lamott reveals how shrinking your immediate scope, welcoming messy first drafts, and building tight feedback loops turns paralysis into steady, compounding creative momentum.",
       "coreThesis": "Excellence is an emergent property of messy, iterative drafts narrowed down to tiny, manageable units of immediate attention.",
@@ -4956,6 +5053,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "79c7e574",
     "onePageSummary": {
       "elevatorPitch": "Before you speak a single word, your eyes execute hundreds of ballistic micro-movements that broadcast your confidence, focus, and intentions. This analysis decodes the hidden physics of eye tracking to show how split-second glances govern social hierarchy, trust, and persuasion.",
       "coreThesis": "Human eyes are not passive receivers of light; they are active, dual-channel transceivers that broadcast autonomic nervous system states and decode social rank in split-second visual bursts.",
@@ -4993,6 +5091,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f19f933c",
     "onePageSummary": {
       "elevatorPitch": "Great decisions do not require endless data; they require protecting your subconscious radar from noise. Master the two-second window where instinct either outsmarts analysis or walks into a trap.",
       "coreThesis": "Split-second intuitive judgment can outperform months of formal analysis, but only when protected from ambient bias, sensory overload, and overthinking.",
@@ -5029,6 +5128,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3c520662",
     "onePageSummary": {
       "elevatorPitch": "Stop fighting over table scraps in shark-infested waters where everyone looks, talks, and charges the exact same. Break the status quo by engineering a distinct space where competition becomes irrelevant.",
       "coreThesis": "Sustainable dominance comes from making competition irrelevant, breaking the trade-off between differentiation and low cost by opening entirely new, uncontested space.",
@@ -5066,6 +5166,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1982,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "07ff4826",
     "onePageSummary": {
       "elevatorPitch": "Peace is not the absence of life's storms; it is the wisdom to stop wrestling with them. Ajahn Chah strips away mystical jargon to reveal how everyday awareness and radical non-clinging dismantle anxiety at the root.",
       "coreThesis": "Suffering is caused solely by clinging to things that naturally change; true peace is realized the moment we stop demanding the world be anything other than what it is.",
@@ -5103,6 +5204,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1970,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "dd0ee5e3",
     "onePageSummary": {
       "elevatorPitch": "Words represent only the overt script of human interaction; our physical movements run the real engine underneath. Julius Fast demystifies kinesics, revealing how spatial bubbles, micro-gestures, and unconscious posture broadcast our truest intentions before we speak a single syllable.",
       "coreThesis": "Human communication is primarily non-verbal; our bodies constantly broadcast our genuine emotional and territorial realities through involuntary physical patterns that speak louder and earlier than words.",
@@ -5140,6 +5242,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "61f08936",
     "onePageSummary": {
       "elevatorPitch": "When you eliminate every second of downtime with a smartphone screen, you starve your brain of the exact neural state required to solve hard problems. Boredom is not dead time; it is the incubation chamber where your mind connects disparate dots into brilliant ideas.",
       "coreThesis": "Boredom is not an emotional defect to be medicated with pixels, but a vital biological trigger that launches constructive mind-wandering and creative synthesis.",
@@ -5177,6 +5280,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "23dc281a",
     "onePageSummary": {
       "elevatorPitch": "Humans didn't evolve to sit behind desks or nurse blown-out knees\\u2014our anatomy is nature\\u2019s supreme long-distance hunting machine. By decoding the reclusive Tarahumara runners and stripped-down biomechanics, this book reveals how rediscovering natural movement turns running from a punishing chore into effortless vitality.",
       "coreThesis": "Humans are evolutionary endurance athletes engineered to run long distances with light, injury-free mechanics, and unlocking that stamina requires stripping away artificial shoe cushioning and reclaiming relaxed, joyful movement.",
@@ -5214,6 +5318,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1992,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fe77760c",
     "onePageSummary": {
       "elevatorPitch": "Just like a house needs walls and a property fence to keep out weeds while letting in sunlight, human beings require clear structural perimeters to thrive. This book reverse-engineers the psychological architecture of saying 'no' without guilt, revealing why clear limits are the foundation of genuine connection and freedom.",
       "coreThesis": "You are entirely responsible for what lives inside your psychological perimeter and not responsible for what belongs outside it; clarifying this property line is the prerequisite for authentic love and personal freedom.",
@@ -5251,6 +5356,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c001babd",
     "onePageSummary": {
       "elevatorPitch": "What if your hardest emotional friction could be dissolved using the exact same systems thinking behind field mechanics and open space? Bhikkhu Analayo reveals early Buddhism's master circuit: pairing boundless emotional resonance with radical cognitive openness to build an unshakeable, frictionless operating system.",
       "coreThesis": "Boundless goodwill and structural emptiness are complementary control systems: radiating immeasurable care prevents emptiness from turning cold, while realizing emptiness keeps boundless care completely free from burnout and grasping.",
@@ -5288,6 +5394,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1998,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3fcef1e6",
     "onePageSummary": {
       "elevatorPitch": "Stop creeping along the information highway in first gear. Breakthrough Rapid Reading gives you the training protocol to quiet your inner vocal echo, guide your eyes with athletic discipline, and process knowledge as fast as your brain can think.",
       "coreThesis": "Reading speed is not an innate genetic limit but a trainable physical and cognitive habit: by using your hand as a pacer and silencing the inner voice, you can process ideas at the true speed of thought.",
@@ -5325,6 +5432,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6b3ed150",
     "onePageSummary": {
       "elevatorPitch": "Liberation is not an exotic future achievement\\u2014it is an immediate shift in perspective right where you sit. Ajahn Amaro unpacks the classic breakthrough of stream-entry, showing how to step out of mental turbulence and discover the unshakable, deathless nature of pure awareness.",
       "coreThesis": "The deathless is not a distant celestial prize, but the unconditioned space of awareness already present behind all experience, uncovered the moment we stop clinging to transient identities.",
@@ -5362,6 +5470,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1998,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9bc5a900",
     "onePageSummary": {
       "elevatorPitch": "Your breath is an ever-present sanctuary and a precision instrument for waking up from the trance of daily stress. Larry Rosenberg illuminates the ancient Anapanasati practice as an accessible, direct path to profound emotional freedom and inner silence.",
       "coreThesis": "Mindfulness of breathing is a complete, self-contained vehicle for liberation that steadies the nervous system, illuminates mental fabrications, and reveals the profound freedom of living without clinging.",
@@ -5399,6 +5508,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cda5fdf6",
     "onePageSummary": {
       "elevatorPitch": "Humans have forgotten how to breathe properly, triggering a cascade of modern chronic ailments from sleep apnea to anxiety. By reclaiming simple, evolutionary breathing habits, anyone can transform their physical endurance, mental clarity, and longevity in minutes a day.",
       "coreThesis": "How we breathe matters just as much as what we eat or how much we exercise, and switching to slow, light nasal breathing is the single most accessible biological upgrade available to modern humans.",
@@ -5436,6 +5546,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1990,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "91336d42",
     "onePageSummary": {
       "elevatorPitch": "Your breath is an unwavering bridge reuniting scattered attention with the vibrant reality of living. Thich Nhat Hanh translates an ancient Buddhist manual into an effortless, grounded discipline for steadying the heart and awakening to life in the present moment.",
       "coreThesis": "Breath is the living bridge between scattered thoughts and embodied reality; by gently observing the in-breath and out-breath without strain, you calm the nervous system, cradle challenging emotions with compassion, and realize that true life is found only in the present moment.",
@@ -5473,6 +5584,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2022,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "703b59d2",
     "onePageSummary": {
       "elevatorPitch": "Meditation is not an uphill fight to pin down a wandering mind; it is coming home to the natural rhythm that already sustains your life. Ajahn Sucitto restores the Buddha's breath meditation to what it was always meant to be: an embodied, somatic journey from tension to liberation.",
       "coreThesis": "Liberation does not come from controlling your mind through force, but from inhabiting your body with kind awareness\\u2014allowing the natural breath-energy to dissolve contractions until heart and world rest in unclenched peace.",
@@ -5510,6 +5622,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ba902258",
     "onePageSummary": {
       "elevatorPitch": "Wisdom without heart turns cold and sterile, while compassion without clear sight collapses into exhausted burnout. This book unites deep meditative serenity with fierce emotional warmth, teaching you how to dwell in open awareness without clinging to a single conditioned thought.",
       "coreThesis": "Genuine spiritual freedom arises from the seamless union of radical mental openness and unconditional benevolence: seeing things as they actually are without grasping, and meeting every experience with an undefended heart.",
@@ -5547,6 +5660,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1958,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7e475244",
     "onePageSummary": {
       "elevatorPitch": "Centuries before modern physics dissolved solid matter into shifting energetic fields, the Buddha discovered the exact same fluid reality within human consciousness. This seminal anthology bridges lab-bench empirical science and direct meditative awareness, offering a clear, grounded path to freedom from illusion.",
       "coreThesis": "Both modern scientific exploration and Buddhist contemplative practice arrive at the identical truth: reality is an interdependent, dynamic process devoid of a permanent, isolated self.",
@@ -5584,6 +5698,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1993,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6fa49a9f",
     "onePageSummary": {
       "elevatorPitch": "Modern society built a world of astonishing speed and material wealth, yet left our inner lives depleted and restless. This timeless collection reveals that today's global crises are not mechanical accidents, but the unchecked human ego mirrored on a massive scale\\u2014and offers the clear, calming medicine of direct contemplative awareness to heal it.",
       "coreThesis": "The crisis of modern civilization is an outward projection of unmanaged craving, fear, and ego-clinging; true global renewal begins only by anchoring immediate awareness in non-attachment, ethical clarity, and interbeing.",
@@ -5621,6 +5736,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1990,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "88992b05",
     "onePageSummary": {
       "elevatorPitch": "When a river fills with sludge, looking only at the water never cures the problem\\u2014you have to inspect the factory upstream. Bhikkhu Bodhi shows that our burning planet is merely the outward symptom of an untended, toxic mind, offering a serene, practical path to purify consciousness and heal our shared world.",
       "coreThesis": "Our environmental collapse is the outward shadow cast by an uncultivated mind gripped by greed and separation; purifying inner awareness through contentment and interconnected wisdom naturally restores outer balance.",
@@ -5658,6 +5774,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1962,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e2efa42c",
     "onePageSummary": {
       "elevatorPitch": "Step off the treadmill of seeking salvation outside yourself. Nyanaponika Thera offers a serene, razor-sharp look into how awakening is not found in an external creator, but realized right here in the uncluttered clarity of your own direct awareness.",
       "coreThesis": "Genuine liberation requires no external creator: the universe operates by lawful cause and effect, and true peace is realized only through personal responsibility and direct mindful insight.",
@@ -5695,6 +5812,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1933,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f91c4c79",
     "onePageSummary": {
       "elevatorPitch": "Buddhism is not a set of dogmas to believe, but a practical science of mental liberation you verify directly in your daily experience. Venerable Narada strips away superstition to reveal the Buddha's timeless blueprint for overcoming suffering and mastering the mind.",
       "coreThesis": "Suffering arises not from outer circumstance, but from clinging to a phantom ego in an ever-changing world; by training the mind in ethical conduct, calm focus, and direct insight, anyone can realize unshakeable inner peace.",
@@ -5732,6 +5850,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1988,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "292f04cf",
     "onePageSummary": {
       "elevatorPitch": "Step out of the mental courtroom of rigid dogma into direct, uncluttered awareness. Discover how ancient contemplative wisdom deconstructs the exhausting illusion of ego to reveal effortless peace in daily life.",
       "coreThesis": "Suffering stems from mistaking fluid, impermanent experiences for a solid, isolated self; freedom emerges the moment awareness stops clinging and rests in direct reality.",
@@ -5769,6 +5888,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1997,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b6e7c131",
     "onePageSummary": {
       "elevatorPitch": "Strip away centuries of dogma, superstition, and ritual, and Buddhism becomes a radical, practical art of living awake in an uncertain world. It is not something to believe in, but something to practice every single day.",
       "coreThesis": "The Dharma is an existential craft, not a belief system: by embracing deep agnosticism and meeting impermanence directly, we awaken to immediate freedom in everyday life.",
@@ -5806,6 +5926,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1952,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "859ae58f",
     "onePageSummary": {
       "elevatorPitch": "Nyanatiloka Mahathera's classic manual cuts through centuries of speculative confusion to hand you the exact operational vocabulary of human consciousness. It serves as an uncompromising, serene blueprint that transforms abstract Buddhist philosophy into direct, practical clarity for everyday awakening.",
       "coreThesis": "Human suffering arises from misunderstanding the fluid components of consciousness as a solid, permanent 'self'; by precisely identifying and deconstructing these mental elements, you dissolve the illusion and rest in immediate liberation.",
@@ -5843,6 +5964,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1921,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a0ab9985",
     "onePageSummary": {
       "elevatorPitch": "Mind is the master architect of your entire reality. Eugene Watson Burlingame's translation of the canonical Dhammapada Commentary unlocks the vivid, ground-level stories that turn Buddhist psychological theory into immediate, lived wisdom.",
       "coreThesis": "Your mind shapes your experience as an ox's hoof shapes its tracks: train your awareness with vigilant heedfulness, and peace inevitably follows.",
@@ -5880,6 +6002,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1921,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "014d66cb",
     "onePageSummary": {
       "elevatorPitch": "Step directly into the vibrant, living world where the Buddha\\u2019s verses were born\\u2014illuminating how everyday greed, pride, and restlessness dissolve when met with pure awareness. Through gritty human parables, this commentary proves that freedom from suffering is not an abstract theory, but an immediate, moment-to-moment training of your own mind.",
       "coreThesis": "Suffering and peace are direct results of your own mental habits, not external circumstances. You are your own primary refuge, and liberation blooms the moment you cease blaming the world and train your immediate attention with radical honesty and kindness.",
@@ -5917,6 +6040,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1921,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9aefdc9a",
     "onePageSummary": {
       "elevatorPitch": "Step into the living laboratory of early Buddhist wisdom where real human struggles meet the razor-sharp clarity of awakening. This commentary transforms ancient verses into urgent, practical mirrors for shedding ego, taming inner turbulence, and finding unshakeable peace.",
       "coreThesis": "Suffering is an internal friction born of unexamined craving and self-delusion; true freedom begins the moment awareness stops clinging and rests in tranquil, harmless clarity.",
@@ -5954,6 +6078,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1932,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "60eb0966",
     "onePageSummary": {
       "elevatorPitch": "Step behind the mind's conceptual chatter and discover reality as an ever-flowing stream of vivid, ungraspable moments. This masterwork shows how clear thinking and meditative awareness together dissolve mental illusions, guiding you to profound inner peace and practical clarity.",
       "coreThesis": "Ultimate reality is an unbroken, dynamic stream of point-instants directly met in present awareness, while all conceptual names and categories are convenient mental maps that must never be mistaken for living truth.",
@@ -5991,6 +6116,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1930,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f25d4fba",
     "onePageSummary": {
       "elevatorPitch": "Step out of mental chatter and touch reality as it actually is. This classic guide unveils the bridge between raw sensory awareness and razor-sharp everyday discernment, freeing your mind from self-made delusions.",
       "coreThesis": "Direct perception connects you to the bare, unlabelled truth of the present moment, while mindful reasoning safely guides your actions by distinguishing living reality from mental projections.",
@@ -6028,6 +6154,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1982,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1034e5f6",
     "onePageSummary": {
       "elevatorPitch": "Step into the direct life stories of remarkable women who transformed grief, betrayal, vanity, and social constraint into radical spiritual freedom. Through their journeys, discover how the highest states of mindfulness and inner peace are fully accessible in everyday adult life.",
       "coreThesis": "Total liberation from suffering is not determined by gender, social role, or past trauma, but by the immediate willingness to see impermanence clearly and release the gripping mind.",
@@ -6065,6 +6192,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2022,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5efa3d94",
     "onePageSummary": {
       "elevatorPitch": "Your mind is a brilliant engine for having ideas, not a dusty warehouse for storing them. Building a Second Brain reveals how to construct an external digital workshop that captures, distills, and synthesizes your knowledge so you can create effortlessly.",
       "coreThesis": "Your brain is designed to generate insights, not hoard information; by systematically capturing and organizing ideas outside your head, you turn passive consumption into high-leverage creative output.",
@@ -6102,6 +6230,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5ecc17c9",
     "onePageSummary": {
       "elevatorPitch": "If you confuse, you lose. Positioning your brand as the expert guide rather than the heroic protagonist cuts through market noise and forces customers to pay attention.",
       "coreThesis": "Customers do not buy the best products; they buy the products they can understand the fastest. Win market share by positioning the customer as the hero and your brand as the guide who hands them a foolproof plan to succeed.",
@@ -6139,6 +6268,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b33ba772",
     "onePageSummary": {
       "elevatorPitch": "Stop treating joint pain like an inevitable mechanical breakdown and start training your connective tissue like the living, adaptable biological network it is. Scott Hogan translates musculoskeletal science into a step-by-step blueprint to rebuild tendons, ligaments, and joint mechanics from the inside out.",
       "coreThesis": "Joint pain is primarily a structural adaptation signal rather than a permanent life sentence; by applying controlled mechanical load, active end-range mobility, and disciplined periodization, you stimulate living collagen networks to remodel and rebuild.",
@@ -6176,6 +6306,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "08f25929",
     "onePageSummary": {
       "elevatorPitch": "If your business stalls every time you take a vacation, you don't own an asset\\u2014you own an exhausting, unmarketable job. Discover the elegant mechanical blueprint that transforms chaotic service work into an automated, self-driving revenue engine built to thrive without you.",
       "coreThesis": "A business achieves maximum financial value and operational resilience only when it functions as an independent, modular system completely detached from the owner's personal labor.",
@@ -6213,6 +6344,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ebc2261e",
     "onePageSummary": {
       "elevatorPitch": "Lying is a calculated counterfeit, but bullshit is complete indifference to whether the coin is real at all. Discover the hidden mechanics of discourse where truth is not attacked, but quietly abandoned for optics.",
       "coreThesis": "The liar respects the authority of the truth enough to actively conceal it, whereas the bullshitter is far more corrosive because they disregard the truth entirely to focus solely on impression management.",
@@ -6250,6 +6382,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "487b44e7",
     "onePageSummary": {
       "elevatorPitch": "Eliminating work problems does not eliminate the physical wear-and-tear trapped in your body. True renewal happens only when you actively complete the biological stress cycle every single day.",
       "coreThesis": "Stress is an involuntary physical cycle that must be actively completed in the body, completely separate from removing the intellectual stressor that triggered it.",
@@ -6287,6 +6420,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "15d72318",
     "onePageSummary": {
       "elevatorPitch": "Your brain operates like an overprotective thermostat, falsely signaling total exhaustion when you are only running at roughly forty percent of capacity. By understanding the mind's hidden feedback loops, you can bypass your internal safety valves and engineer authentic mental antifragility.",
       "coreThesis": "The human brain is an overly cautious survival governor that caps effort at forty percent to protect you from discomfort; true capacity is unlocked through intentional exposure to friction.",
@@ -6324,6 +6458,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3cc99a72",
     "onePageSummary": {
       "elevatorPitch": "Charisma is not an innate genetic lottery ticket\\u2014it is a systematic, readable science of behavioral engineering. By learning the mechanics of non-verbal cues, conversational sparks, and personality decoding, anyone can transform social awkwardness into effortless influence.",
       "coreThesis": "Human interaction is governed by predictable psychological formulas and non-verbal feedback loops; decoding these hidden behavioral mechanics turns awkward encounters into authentic, magnetic connections.",
@@ -6361,6 +6496,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1923,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7b8d102c",
     "onePageSummary": {
       "elevatorPitch": "You are not a solid, static self trapped inside a heavy body\\u2014you are an ever-flowing river of momentary sensations, thoughts, and awareness. Discover the foundational Buddhist insight that dissolves the illusion of an isolated ego and reveals immediate, effortless inner freedom.",
       "coreThesis": "Reality contains no permanent souls or enduring substances, but is an unbroken stream of momentary physical and mental flashes governed by causal harmony; realizing this directly dissolves suffering.",
@@ -6398,6 +6534,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f4137458",
     "onePageSummary": {
       "elevatorPitch": "Financial Independence is not a grueling marathon reserved for Wall Street elites\\u2014it is an elegant, modular mechanical system anyone can build to reclaim total ownership over their time. By fine-tuning three core dials\\u2014spending deliberately, maximizing income, and investing passively\\u2014you construct a self-propelling flywheel that sets you free decades ahead of schedule.",
       "coreThesis": "Financial independence is an engineered system of intentional habits, lifestyle optimization, and passive index investing that converts surplus income into permanent personal autonomy.",
@@ -6435,6 +6572,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6e15a8f5",
     "onePageSummary": {
       "elevatorPitch": "Step into the living chronicle of a modern spiritual renaissance that demystified enlightenment into a practical, repeatable science of mind. This volume reveals how timeless contemplative wisdom broke through cultural dogma to provide everyday people with direct tools for lasting peace.",
       "coreThesis": "Suffering stems from unconscious mental reactions to physical sensations; by observing these sensations with unbroken equanimity, the mind dissolves deep conditioning and discovers universal freedom in the present moment.",
@@ -6472,6 +6610,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ccd1dd8c",
     "onePageSummary": {
       "elevatorPitch": "Your mind is not a single, unchangeable identity\\u2014it is an ever-shifting river of momentary awareness shaped by specific mental ingredients. By learning to clearly recognize these ingredients as they arise, you dismantle anxiety, break compulsive reactions, and awaken to direct, liberating peace.",
       "coreThesis": "There is no permanent, fixed self behind your conscious experience\\u2014only fleeting moments of awareness flavored by conditioned mental factors. Freedom is found not by controlling the mind, but by clearly seeing what is actually present without clinging.",
@@ -6509,6 +6648,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1983,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "52d3fd5f",
     "onePageSummary": {
       "elevatorPitch": "You do not need to silence your mind; you only need to step back and realize that your awareness is already silent. Ajahn Sumedho offers a masterclass in shedding emotional clutter and resting in spacious, unshakeable freedom.",
       "coreThesis": "Suffering occurs when we identify with passing thoughts and feelings; genuine liberation is resting as the silent, unconditioned witness that peacefully contains them all.",
@@ -6546,6 +6686,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1979,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f7007759",
     "onePageSummary": {
       "elevatorPitch": "Stop wrestling with your restless mind and simply flip on the inner light switch. Ajahn Chah reveals that true freedom comes not from stopping thoughts, but from resting as the silent, unshakeable observer who sees all things rise and fall.",
       "coreThesis": "Suffering occurs only when the mind clings to ever-shifting conditions; by resting in steady, luminous awareness ('the one who knows'), we see through illusions and discover unshakeable inner peace.",
@@ -6583,6 +6724,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1983,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "65e87434",
     "onePageSummary": {
       "elevatorPitch": "Paul Fussell exposes the invisible chessboard of American status, proving that taste, vocabulary, and micro-habits\\u2014not net worth\\u2014determine your true social capital. It is an unsparing strategic manual for reading unspoken hierarchy, spotting status anxiety, and deciding whether to compete or opt out.",
       "coreThesis": "Social class in America is governed by cultural capital, autonomy, and aesthetic signaling rather than mere money, and anxious striving inevitably advertises the very insecurity it attempts to hide.",
@@ -6620,6 +6762,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2023,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "556db892",
     "onePageSummary": {
       "elevatorPitch": "Master the quiet, ordinary moments where destiny is shaped, before mindless reaction steals your peace. True wisdom lies not in sudden brilliance, but in conquering the internal defaults that cloud judgment.",
       "coreThesis": "Extraordinary life outcomes flow from avoiding unforced errors in ordinary moments by mastering automatic defaults. Cultivating stillness between impulse and action preserves reason and protects long-term peace.",
@@ -6656,6 +6799,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2006,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3aff4272",
     "onePageSummary": {
       "elevatorPitch": "Your mind is not a mysterious ghost in a machine; it is a masterfully integrated information engine running on specialized biological circuits. Smith and Kosslyn reveal the secret neural gears behind everyday attention, memory, and choices, showing how your physical brain constructs your lived reality.",
       "coreThesis": "The mind is the functional output of localized, collaborative neural networks that filter sensory chaos, manipulate representations on a limited workbench, and direct purposeful behavior.",
@@ -6693,6 +6837,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2949ba69",
     "onePageSummary": {
       "elevatorPitch": "Single-channel sales outreach is dead, and cold calling alone is obsolete. Combo Prospecting delivers a battle-tested blueprint that blends telephone grit with digital acumen to break through executive gates and dominate your pipeline.",
       "coreThesis": "Executive decision-makers do not respond to isolated outreach; breakthrough pipeline generation requires executing tightly orchestrated, multi-channel 'combos' that fuse phone, voicemail, email, and social proof into a rapid blitz of commercial value.",
@@ -6730,6 +6875,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1958,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "93738e72",
     "onePageSummary": {
       "elevatorPitch": "Great investing works like identifying championship thoroughbreds rather than buying discounted junk at a flea market. Philip Fisher reveals how investigating a company's internal engine, management culture, and competitive moat delivers life-changing wealth over decades.",
       "coreThesis": "Sustained, generational investment returns come from owning a small concentration of exceptionally managed companies with scalable markets and never selling them as long as their operational engine remains elite.",
@@ -6767,6 +6913,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "dffea9f9",
     "onePageSummary": {
       "elevatorPitch": "Bigger is not inherently better\\u2014it is often just heavier, slower, and far more brittle. Paul Jarvis exposes the modern growth obsession as an evolutionary trap and reveals how keeping your operation intentionally lean yields superior financial sovereignty, operational agility, and personal peace.",
       "coreThesis": "Deliberately limiting headcount and operational complexity is the ultimate competitive advantage, producing higher profit margins, profound resilience, and genuine lifestyle sovereignty.",
@@ -6804,6 +6951,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "208e936b",
     "onePageSummary": {
       "elevatorPitch": "What if boundless empathy and radical detachment are not opposites, but the two wings of a single aerodynamic glider? This guide maps the underlying neural and mental architecture that turns boundless warmth into the ultimate gateway to inner freedom.",
       "coreThesis": "Compassion expands the emotional boundaries of the heart to infinity, while emptiness systematically dissolves the illusion of an isolated self, unlocking profound freedom without emotional numbness.",
@@ -6841,6 +6989,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e767d090",
     "onePageSummary": {
       "elevatorPitch": "Step behind the curtain of reality to discover how mindless individual parts spontaneously self-organize into brilliant, living wholes. Melanie Mitchell illuminates the hidden software driving ant colonies, immune systems, brain networks, and chaotic markets without anyone in charge.",
       "coreThesis": "Profound order, adaptation, and intelligence arise spontaneously from the interactions of decentralized parts governed by simple local rules, rendering linear reductionism obsolete.",
@@ -6877,6 +7026,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1956,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cb643712",
     "onePageSummary": {
       "elevatorPitch": "Step into the ultimate user manual for your mind, where ancient contemplative science strips away the illusion of a solid ego. Discover how every moment of perception is an assembly line of fleeting elements that you can observe, understand, and liberate.",
       "coreThesis": "The self is not an unchanging soul but a ceaseless, lawful river of mental and physical events; seeing this stream clearly dissolves attachment and reveals natural liberation.",
@@ -6914,6 +7064,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1987,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "eecf6b73",
     "onePageSummary": {
       "elevatorPitch": "Customers don't buy your product, service, or feature checklist\\u2014they buy their own internal mental picture of what life looks like after their problem is solved. 'Conceptual Selling' provides the systematic, psychological operating manual to uncover that exact mental picture and co-engineer a mutual win every single conversation.",
       "coreThesis": "Buyers never purchase a vendor's product or service specifications; they buy their own internal concept of the outcome, meaning effective selling is a collaborative diagnostic inquiry that aligns solution capabilities with the customer's mental model.",
@@ -6951,6 +7102,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b1559cfb",
     "onePageSummary": {
       "elevatorPitch": "Strip away centuries of religious mythology and discover the Buddha not as an omniscient deity, but as a practical guide for living wisely in an uncertain world. Stephen Batchelor blends intimate memoir with historical detective work to recover a radically grounded, secular path to inner freedom.",
       "coreThesis": "The historical Buddha was not a cosmic deity founding a religion of belief, but an existential doctor prescribing a practical four-part therapy to awaken peace within this mortal life.",
@@ -6988,6 +7140,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "361ad858",
     "onePageSummary": {
       "elevatorPitch": "Public speaking is not an innate genetic gift\\u2014it is an engineered feedback loop between human attention and physical room dynamics. Scott Berkun pulls back the curtain to reveal the practical mechanics, psychological quirks, and field-tested habits that turn panic into powerful communication.",
       "coreThesis": "Great speaking is not theatrical charisma; it is the deliberate craft of managing human attention, physical room mechanics, and biological nervous energy to serve the audience.",
@@ -7025,6 +7178,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7f1e2831",
     "onePageSummary": {
       "elevatorPitch": "Human conflict is rarely a clash of incompatible values; it is an engineering breakdown caused by confusing diagnostic judgments with vital underlying needs. By treating communication like a precision feedback system, this book shows how anyone can de-escalate volatile disputes and establish immediate, genuine alignment.",
       "coreThesis": "All human conflict stems from expressing unmet universal needs through moralistic judgment; resolving discord requires systematically decoding surface hostility into shared human requirements and concrete, collaborative actions.",
@@ -7062,6 +7216,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "db218a9e",
     "onePageSummary": {
       "elevatorPitch": "When a partnership ends, our biological fight-or-flight reflexes urge us toward scorched-earth conflict. Conscious Uncoupling provides a systematic engineering blueprint to defuse that destructive circuit, transform acute grief into radical self-insight, and redesign the relationship into a healthy, cooperative post-romantic alliance.",
       "coreThesis": "A breakup is not a moral failure to be punished through blame, but a critical developmental transition that can be navigated with conscious emotional regulation, self-accountability, and mutual goodwill.",
@@ -7099,6 +7254,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "755e60e7",
     "onePageSummary": {
       "elevatorPitch": "Things don't catch on by random luck or massive ad budgets; they spread because they tap into basic human social wiring. Virality isn't magic\\u2014it's a predictable craft anyone can engineer.",
       "coreThesis": "Ideas and products spread virally not by chance, but when they deliver social prestige, connect to frequent daily cues, trigger high arousal, and travel inside useful stories.",
@@ -7136,6 +7292,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c564863e",
     "onePageSummary": {
       "elevatorPitch": "Mindfulness is not a vague relaxation exercise; it is high-resolution cognitive reverse-engineering. Bhikkhu An\\u0101layo pulls back the curtain on the fourth foundation of mindfulness, revealing how your mind's internal operating system constructs reality and how you can systematically dismantle suffering.",
       "coreThesis": "Suffering is not an inherent flaw in human consciousness, but the predictable output of unexamined causal feedback loops. When you observe your experience through structured principles rather than personal drama, psychological bondage dissolves into clear, non-reactive freedom.",
@@ -7173,6 +7330,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1983,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "09807ea5",
     "onePageSummary": {
       "elevatorPitch": "Every emotional storm in human life begins with an unnoticed spark of bare physical or mental sensation. By learning to observe this raw sensory tone before reaction takes over, you intercept stress at its root and claim genuine inner freedom.",
       "coreThesis": "Suffering does not arise from sensations themselves, but from blindly reacting to their hedonic tone; observing feeling with bare, detached awareness dissolves craving and aversion at their exact point of origin.",
@@ -7210,6 +7368,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6ddfbced",
     "onePageSummary": {
       "elevatorPitch": "Stop getting pushed around by the turbulent weather inside your head. Joseph Goldstein reveals how stepping back into raw, non-judgmental awareness turns your mind from a chaotic storm into clear, tranquil open space.",
       "coreThesis": "The mind is not a fixed personal self, but an impermanent flow of conditioned mental states that dissolve harmlessly when met with lucid, non-reactive awareness.",
@@ -7247,6 +7406,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9adad2e4",
     "onePageSummary": {
       "elevatorPitch": "Stop manufacturing products in a vacuum and praying for buyers. Build an obsessed, owned audience first through focused intellectual authority, then monetize by selling them exactly what they already demand.",
       "coreThesis": "The lowest-risk way to launch a business is to build a loyal, owned audience first and engineer the product second.",
@@ -7284,6 +7444,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "968e98f4",
     "onePageSummary": {
       "elevatorPitch": "Stop building features that nobody uses. Discover how a product trio can build weekly feedback habits, test assumptions in days, and guarantee that every sprint drives real customer and business impact.",
       "coreThesis": "Sustainable product success is not built on big upfront predictions, but on small, weekly discovery habits that connect real customer needs directly to business outcomes.",
@@ -7321,6 +7482,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8a28e8ee",
     "onePageSummary": {
       "elevatorPitch": "Meditation is not an escape hatch from modern life; it is the clear lens through which life is lived. Sayadaw U Ottamathara dismantles the boundary between formal sitting and daily chaos, showing how unbroken awareness turns every chore, interaction, and obstacle into effortless liberation.",
       "coreThesis": "Suffering dissolves when awareness ceases to be a scheduled appointment and becomes an uninterrupted way of engaging with life's dynamic movement.",
@@ -7358,6 +7520,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1ad0e030",
     "onePageSummary": {
       "elevatorPitch": "Words do not merely transmit data\\u2014they spark biochemical reactions that either lock our brains down in defensive fear or unlock our prefrontal cortex for brilliant co-creation. Judith E. Glaser reveals the hidden neuroscience of human dialogue and provides the practical tools needed to turn every interaction into a catalyst for extraordinary trust and mutual innovation.",
       "coreThesis": "To get to the next level of greatness depends on the quality of the culture, which depends on the quality of relationships, which depends on the quality of conversations; everything happens through conversation.",
@@ -7395,6 +7558,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5cc22a8a",
     "onePageSummary": {
       "elevatorPitch": "Think of employment not as an extended family, but as a hard-nosed, commercial joint venture where survival belongs to those who recognize unwritten rules. Cynthia Shapiro pulls back the curtain to reveal why stellar performance alone won't protect you\\u2014and how strategic alignment keeps you bulletproof.",
       "coreThesis": "A corporation exists to protect its own capital and eliminate liability; career survival demands abandoning naive ideals of workplace fairness to proactively manage executive risk perceptions.",
@@ -7432,6 +7596,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c55e3c78",
     "onePageSummary": {
       "elevatorPitch": "Corporate finance is not accounting paperwork; it is the strategic engine room of capital allocation. If you deploy a single dollar without earning more than its opportunity cost, you are destroying value\\u2014no matter how shiny your revenue growth looks.",
       "coreThesis": "A company creates genuine economic value only when the return on its invested capital exceeds its weighted cost of capital, and it maintains solvency only when accounting paper earnings translate into real, unencumbered cash flows.",
@@ -7469,6 +7634,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1993,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "666e9990",
     "onePageSummary": {
       "elevatorPitch": "What happens when an ancient philosophy faces the ultimate real-world stress test in an eight-year crucible of solitary confinement and torture? Stockdale shows how treating life like an immutable physical system allows you to protect your inner operating core against impossible odds.",
       "coreThesis": "You cannot control external circumstances, but you retain absolute dominion over your moral purpose and internal choices; preserving this boundary renders you invincible to psychological destruction.",
@@ -7506,6 +7672,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "dba8c74b",
     "onePageSummary": {
       "elevatorPitch": "Stop trying to manage revenue\\u2014you cannot directly manage an outcome any more than a gardener can pull on stems to make plants grow. This book unlocks the operational physics of sales by revealing the causal chain linking daily frontline activities to intermediate objectives and final business results.",
       "coreThesis": "You cannot manage business outcomes; you can only manage the frontline activities that causally influence sales objectives, which in turn produce those financial outcomes.",
@@ -7543,6 +7710,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2023,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "083285ba",
     "onePageSummary": {
       "elevatorPitch": "N\\u0101g\\u0101rjuna\\u2019s brilliant razor meets Thich Nhat Hanh\\u2019s gentle touch to crack open the rigid mental shells that trap us in anxiety, division, and fear. By dismantling every fixed view, this book releases you into the calm, interconnected freedom of direct experience.",
       "coreThesis": "Suffering stems from mistaking our mental concepts for living reality; by letting go of rigid dualisms through the lens of interbeing, we discover that peace is already our natural state.",
@@ -7580,6 +7748,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8ca22a25",
     "onePageSummary": {
       "elevatorPitch": "World peace is not negotiated across diplomatic tables; it is seeded in how you handle your own anger during morning traffic. Thich Nhat Hanh delivers a concrete, field-tested manual for transforming inner friction into genuine harmony across your home, community, and society.",
       "coreThesis": "Peace in the world is impossible without peace in the individual, because outer conflict is simply unaddressed inner violence projected onto others.",
@@ -7617,6 +7786,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "00f65448",
     "onePageSummary": {
       "elevatorPitch": "Creativity is not an exclusive genetic gift reserved for eccentric artists; it is a fundamental cognitive muscle that anyone can rehabilitate and strengthen. By replacing paralyzing perfectionism with rapid physical prototyping, you transform anxiety into an unstoppable engine of real-world problem solving.",
       "coreThesis": "Creativity is an active behavioral muscle powered by guided mastery, empathy, and rapid prototyping, not an innate genetic gift reserved for a chosen few.",
@@ -7654,6 +7824,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "89db8845",
     "onePageSummary": {
       "elevatorPitch": "When stakes climb and emotions flare, human biology defaults to silence or violence. This field manual reveals the hidden physics of high-stakes dialogue, equipping you to turn tense confrontations into breakthrough agreements.",
       "coreThesis": "The success of our careers, health, and relationships hinges on how we handle conversations where opinions differ, stakes are high, and emotions run hot. Psychological safety, not blunt force, is the prerequisite for unlocking honest truth.",
@@ -7691,6 +7862,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2022,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "00090886",
     "onePageSummary": {
       "elevatorPitch": "Every human interaction is governed by a silent, continuous broadcast of micro-signals: balance warmth and competence, and you command the room without saying a word.",
       "coreThesis": "Charisma is not an innate gift but a decipherable science governed by balancing two social signals: warmth, which establishes mutual trust, and competence, which establishes professional respect.",
@@ -7728,6 +7900,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "28284a5e",
     "onePageSummary": {
       "elevatorPitch": "In an economy drowned in infinite supply and negligible reproduction costs, value permanently shifts from making more things to selecting what matters. Curation is not a polite museum term\\u2014it is an aggressive, high-stakes filter that builds defensible competitive moats out of noise.",
       "coreThesis": "When supply is infinite, production ceases to be an advantage. Real economic value and defensible authority migrate entirely to the filter: the disciplined act of selecting, reducing, and arranging inputs to deliver clarity.",
@@ -7765,6 +7938,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a45b7f38",
     "onePageSummary": {
       "elevatorPitch": "Traditional selling fails because it forces buyers to endure product monologues rather than helping them solve operational bottlenecks. CustomerCentric Selling rebuilds sales as an investigative diagnostic science, turning reps into consultative problem-solvers who guide clients to envision, engineer, and validate their own ideal solutions.",
       "coreThesis": "Buyers resist being sold to but love buying when an expert guides them to uncover root operational problems and architect their own verifiable solutions.",
@@ -7802,6 +7976,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1973,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "881b1bc5",
     "onePageSummary": {
       "elevatorPitch": "The greatest obstacle to genuine self-mastery is using spiritual practices to polish and protect the very ego we seek to transcend. This timeless masterpiece cuts through our self-deception, guiding us toward unvarnished clarity, quiet humility, and grounded peace.",
       "coreThesis": "Enlightenment is not the accumulation of spiritual achievements, but the total surrender of the ego's urge to collect, control, and protect itself.",
@@ -7839,6 +8014,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2006,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "47b91d55",
     "onePageSummary": {
       "elevatorPitch": "Price is what you pay in an emotional crowd; value is the actual cold cash a business puts into your pocket. Damodaran equips you with the unvarnished engineering discipline needed to strip away Wall Street hype and price businesses on hard, enduring cash flows.",
       "coreThesis": "A business is worth only the present value of the cash flows it generates over its lifetime, discounted for the uncertainty of actually receiving them. Everything else is pure market noise and human mood swings.",
@@ -7876,6 +8052,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1990,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "805a6b42",
     "onePageSummary": {
       "elevatorPitch": "Generosity is not a financial transaction or moral tax; it is the fundamental art of opening the clenched fist of the ego. By practicing deliberate giving, you systematically dissolve greed, cultivate quiet joy, and build the unshakeable inner freedom required for deep awakening.",
       "coreThesis": "True generosity is the intentional surrender of grasping that frees the mind from self-centered anxiety and establishes the essential foundation for liberation.",
@@ -7913,6 +8090,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e7f8fb74",
     "onePageSummary": {
       "elevatorPitch": "Written by a seasoned FBI behavioral profiler, this operational field guide dismantles the camouflage of everyday human hazards. It equips you with sensory tripwires to spot, outmaneuver, and quarantine toxic individuals before they wreck your life.",
       "coreThesis": "Dangerous personalities are defined not by psychiatric labels, but by the trail of psychological, financial, and physical erosion they leave behind; your primary responsibility is systematic threat detection and boundary defense, not rehabilitation.",
@@ -7950,6 +8128,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3fc3b720",
     "onePageSummary": {
       "elevatorPitch": "Vulnerability is not weakness\\u2014it is the biological birthplace of innovation, joy, and authentic human connection. Stepping into the arena requires putting down your psychological armor and daring to be seen when outcomes are completely out of your control.",
       "coreThesis": "Vulnerability is not the measure of weakness, but the truest operational measure of human courage and authentic connection.",
@@ -7987,6 +8166,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "dfc0a128",
     "onePageSummary": {
       "elevatorPitch": "Parenting and filial devotion are not burdens of duty, but sacred training grounds for awakening direct empathy and transcending the ego. Ajahn Jayasaro reveals how honoring our roots becomes the quiet engine of genuine emotional freedom and spiritual maturity.",
       "coreThesis": "True spiritual maturity begins when we step outside self-centered entitlement to recognize the profound sacrifices that gave us life, transforming filial gratitude into an active practice of liberation.",
@@ -8024,6 +8204,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8e1b1329",
     "onePageSummary": {
       "elevatorPitch": "Think of your mind as a high-performance engine that occasionally redlines; this book is the definitive, field-tested owner's manual for diagnosing stalls and regaining full steering control. Instead of vague advice to 'stay calm,' Marsha Linehan provides exact, modular mechanical protocols to navigate high-stakes personal and interpersonal storms.",
       "coreThesis": "Emotional suffering becomes unmanageable only when acute pain is met with behavioral avoidance and denial; by synthesizing radical self-acceptance with structured behavioral skills, you can ride out any emotional surge and build a life worth living.",
@@ -8061,6 +8242,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bc9bebdb",
     "onePageSummary": {
       "elevatorPitch": "When high-stakes deals stall in complex enterprise committees, lone-wolf persistence fails. Dealstorming unlocks the hidden problem-solving power of your entire company to systematically engineer winning solutions.",
       "coreThesis": "Enterprise sales bottlenecks are structural engineering puzzles, not persuasion deficits; solving them requires assembling cross-functional collective intelligence to co-create custom solutions.",
@@ -8098,6 +8280,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1de81442",
     "onePageSummary": {
       "elevatorPitch": "Human decision-making operates like a narrow flashlight beam in a dark warehouse. This book equips you with a floodlight system to systematically outsmart your own hidden cognitive blind spots.",
       "coreThesis": "Intuition and gut instinct are plagued by systematic cognitive traps; lasting success requires a conscious, structured process that widens perspective, tests reality, detaches from emotion, and prepares for miscalculations.",
@@ -8134,6 +8317,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fc2b2ab6",
     "onePageSummary": {
       "elevatorPitch": "You do not need to construct wisdom from scratch; deep down, intuitive awareness already knows how to navigate reality when conditioned panic gets out of the way. Ajahn Munindo offers a calm, steady hand that guides you out of mental entanglements back into the quiet sanity that has been present all along.",
       "coreThesis": "Wisdom is an inherent quality of uncluttered awareness rather than an intellectual achievement. When you stop feeding emotional reactivity and rest in direct experiential presence, you uncover a steady, unshakeable knowing that already understands how to live freely.",
@@ -8171,6 +8355,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9db48856",
     "onePageSummary": {
       "elevatorPitch": "Survival is not a test of brute muscle or machismo; it is a high-stakes masterclass in cognitive science. Laurence Gonzales decodes why highly trained experts make catastrophic mistakes under pressure and how ordinary people tap into clear-eyed neurobiology to survive life's deadliest trials.",
       "coreThesis": "Disaster strikes when our internal mental models clash with physical reality; survival belongs to those who tame emotional panic, embrace the world as it actually is, and take disciplined micro-actions.",
@@ -8208,6 +8393,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "71ed8ca2",
     "onePageSummary": {
       "elevatorPitch": "Master the art of unbroken focus to produce rare, high-value breakthroughs in a distracted economy. Reclaim your mental bandwidth and turn daily effort into massive, tangible career momentum.",
       "coreThesis": "The ability to perform deep, distraction-free work is becoming increasingly rare just as its economic value is skyrocketing. Those who master this discipline will dominate their fields and find deeper professional fulfillment.",
@@ -8244,6 +8430,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b3e5cda7",
     "onePageSummary": {
       "elevatorPitch": "Every human reaction\\u2014from sudden rage to compulsive craving\\u2014ignites at the microscopic spark of a feeling tone. Bhikkhu An\\u0101layo delivers a calm, razor-sharp manual for disarming mental turmoil at its raw sensory origin before it ever hardens into suffering.",
       "coreThesis": "Suffering does not come from what we feel, but from our automatic reaction to the feeling; by mindfully observing sensations as temporary and impersonal, we dissolve the fuel that feeds emotional distress.",
@@ -8281,6 +8468,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "abb425e7",
     "onePageSummary": {
       "elevatorPitch": "Stop pitching product features into a void; understand the hidden physics of why people switch. When you diagnose the specific tension in a customer's life, selling transforms from an uphill push into an irresistible downhill pull.",
       "coreThesis": "People do not purchase products based on features; they hire solutions to solve a struggling moment and propel their lives forward.",
@@ -8318,6 +8506,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d973cd45",
     "onePageSummary": {
       "elevatorPitch": "Human suffering is not a mystical curse or a permanent personal defect; it is the predictable output of a twelve-part mechanical feedback loop. By revealing the precise ignition points where sensations turn into compulsive reactivity, Bhikkhu An\\u0101layo shows how to dismantle psychological friction using clear-eyed systems engineering.",
       "coreThesis": "Suffering is an automated chain reaction driven by specific causes, and by observing the gap between raw feeling and emotional craving, the entire cycle can be consciously powered down.",
@@ -8355,6 +8544,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1959,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bd36d3d1",
     "onePageSummary": {
       "elevatorPitch": "Suffering is not a permanent curse or a flaw in your soul; it is a mechanical chain reaction driven by unconscious habits. By clearly observing the link between sensation and craving, you can cut the chain and step into immediate inner peace.",
       "coreThesis": "Every psychological and existential suffering arises dependent on specific causal conditions, and by bringing awake awareness to sensory experience, the causal chain dissolves naturally into lasting freedom.",
@@ -8392,6 +8582,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "764edae1",
     "onePageSummary": {
       "elevatorPitch": "Stop treating career growth like an engineering blueprint with a single predefined destination and start executing it like an agile product design. By systematically prototyping low-risk experiments and interrogating real-world feedback, you build competitive moats and capture upside while eliminating catastrophic downside.",
       "coreThesis": "A successful career cannot be analyzed or predicted in advance; it must be built dynamically through iterative prototypes, bias to action, and strategic adaptation to real-world market signals.",
@@ -8429,6 +8620,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "eeac7b00",
     "onePageSummary": {
       "elevatorPitch": "Life is not an engineering problem waiting for a single correct solution, but an ongoing design project waiting to be explored. By treating your path like an iterative craft, you replace paralyzing existential anxiety with quiet clarity and steady forward motion.",
       "coreThesis": "A fulfilling life is not discovered through abstract contemplation, but built through active curiosity, small prototypes, and thoughtful iteration.",
@@ -8466,6 +8658,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "585d981e",
     "onePageSummary": {
       "elevatorPitch": "Meditation is not an intense cushion sprint where you battle your own thoughts; it is a gentle, 24/7 background awareness that frees the mind in the middle of real life. Sayadaw U Tejaniya strips away mystical pretension to show how checking the attitude of your observing mind transforms driving, washing dishes, and daily stress into effortless awakening.",
       "coreThesis": "Liberation does not come from controlling your mental experiences, but from maintaining a relaxed, continuous awareness that observes the nature of the mind without greed or aversion.",
@@ -8503,6 +8696,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d4f63f23",
     "onePageSummary": {
       "elevatorPitch": "Mindfulness is not an escape from reality; it is the master key to meeting everyday life with clean hands and an unshakeable heart. Sayadaw U Kundalabhivamsa distills centuries of contemplative insight into immediate, practical tools for living peacefully and dying without fear.",
       "coreThesis": "Suffering arises from mistaking fleeting mental weather for a solid, permanent self; consistent moment-to-moment awareness dissolves this illusion and uncovers natural peace.",
@@ -8540,6 +8734,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1998,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c9cc24a0",
     "onePageSummary": {
       "elevatorPitch": "Your mind is the master architect of your entire reality; train it with vigilant craftsmanship, and sorrow cannot touch you.",
       "coreThesis": "Mind precedes all mental states; train your attention with relentless heedfulness, and you eradicate suffering at its root.",
@@ -8577,6 +8772,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1993,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8b3c919b",
     "onePageSummary": {
       "elevatorPitch": "Your mind is the master architect of every joy and agony you experience. By training awareness and relinquishing egoic grasping, you can step out of the storm of reactive conditioning into unshakable inner clarity.",
       "coreThesis": "Suffering and freedom do not come from external conditions; they are born directly from the state of your own mind. By cultivating vigilant awareness and letting go of grasping, inner peace becomes your permanent baseline.",
@@ -8614,6 +8810,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1981,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e8611f06",
     "onePageSummary": {
       "elevatorPitch": "Step out of the restless turbulence of your conditioned mind and discover the calm, radiant presence already resting within your direct awareness.",
       "coreThesis": "Suffering is an internal habit born of unconscious identification with thought, and lasting peace arrives the moment you step back to witness the mind without judgment.",
@@ -8651,6 +8848,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1991,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2b13de68",
     "onePageSummary": {
       "elevatorPitch": "Stop collecting second-hand spiritual concepts and wake up to the living reality breathing within you right now. Osho transforms the Buddha's ancient Dhammapada into an urgent, razor-sharp guide to shedding mental clutter and tasting authentic inner freedom.",
       "coreThesis": "Suffering is the friction created when an unconscious, grasping ego resists the living reality of the present; liberation is the natural clarity that appears when you stop analyzing life and dare to witness it as it is.",
@@ -8688,6 +8886,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1991,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "55157da8",
     "onePageSummary": {
       "elevatorPitch": "Step off the exhausting treadmill of secondhand knowledge and awaken to the silent, untamed awareness already waiting within you. Osho uses Gautam Buddha's verses to reveal that peace is not an accomplishment you chase, but the clarity you uncover when the mental dust settles.",
       "coreThesis": "Enlightenment is not a future prize won by accumulating borrowed knowledge, but the immediate realization of your unshakeable, sky-like awareness through silent witnessing.",
@@ -8725,6 +8924,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1980,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4fe54179",
     "onePageSummary": {
       "elevatorPitch": "Your entire life is shaped by your attention; train your mind, and you dismantle suffering at its root. The Dhammapada delivers timeless, razor-sharp guidance on cultivating inner stillness, moral discipline, and direct spiritual freedom.",
       "coreThesis": "Your mind creates your world; by mastering your thoughts and releasing craving, you attain indestructible peace and genuine freedom.",
@@ -8762,6 +8962,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1900,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "421de125",
     "onePageSummary": {
       "elevatorPitch": "Imagine holding an exact, step-by-step master blueprint of your own consciousness that disproves anxiety and ego right at the root. The Dhammasangani reveals that your mind is not a frozen, broken personal identity, but a flowing stream of momentary ingredients that you can understand, purify, and liberate right now.",
       "coreThesis": "You are not a rigid, isolated ego trapped inside a body; you are open awareness observing a rapid stream of conditioned mental and physical events that can be understood, cleansed, and liberated in this very moment.",
@@ -8799,6 +9000,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "15d7ce71",
     "onePageSummary": {
       "elevatorPitch": "Dharma is not a religion, ritual, or sectarian creed\\u2014it is the universal operating manual of nature itself. By observing physical sensations with radical equanimity, you dismantle mental agitation at its biological root and awaken to effortless inner peace.",
       "coreThesis": "Dharma is the impartial, universal law of cause and effect governing all life; when we stop reacting blindly to bodily sensations and observe reality as it is, suffering dissolves naturally.",
@@ -8836,6 +9038,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1962,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0f1aa267",
     "onePageSummary": {
       "elevatorPitch": "Dhatukatha is the ultimate diagnostic manual for human experience, dismantling the illusion of a solid 'self' through fourteen rigorous analytical tests. By systematically auditing every thought, sensation, and physical element, it reveals that you are not a permanent ego, but a flowing orchestra of impersonal natural processes.",
       "coreThesis": "Every human experience is an impersonal combination of distinct physical and mental elements; because these elements merely associate, dissociate, and pass away according to natural law, no independent self or ego exists anywhere within them.",
@@ -8873,6 +9076,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1937,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e408b7d5",
     "onePageSummary": {
       "elevatorPitch": "Step into the living landscape where the Buddha walked and taught. This monumental compendium turns abstract spiritual philosophy into an intimate, grounded map of real human beings discovering liberation.",
       "coreThesis": "Enlightenment is never an abstract concept; it is an immediate, living reality discovered by ordinary human beings who met their everyday circumstances with unwavering presence and non-attachment.",
@@ -8910,6 +9114,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1938,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "82a6abb0",
     "onePageSummary": {
       "elevatorPitch": "Step into the living landscape of early Buddhism, where every person, mountain, forest grove, and river comes alive as an immediate mirror of awakening. Malalasekera's masterwork maps the human drama of the Pali Canon, showing that liberation is not an abstract theory, but an embodied path walked by real people in real places.",
       "coreThesis": "Enlightenment is never an aloof, disembodied idea; it is a timeless, lived human reality etched into real personalities, relationships, and everyday environments.",
@@ -8947,6 +9152,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fd8993a7",
     "onePageSummary": {
       "elevatorPitch": "Money is merely fuel for living, yet most disciplined savers work decades longer than necessary and die hoarding tanks full of gas they will never burn. Perkins delivers a ruthless, mathematical blueprint to extract maximum fulfillment from your finite health, time, and earnings before the clock runs out.",
       "coreThesis": "Your life is the sum of your experiences, and money is simply fuel to fund them; dying with unspent wealth is uncompensated labor that you gave away for nothing.",
@@ -8984,6 +9190,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5e108d0d",
     "onePageSummary": {
       "elevatorPitch": "Tough conversations derail not because we lack words, but because hidden psychological currents drag us off course. Discover the hidden mechanics behind conflict and turn high-friction clashes into mutual learning.",
       "coreThesis": "A difficult conversation is never just about the surface facts; it is a learning journey across three levels\\u2014what happened, what was felt, and who we are.",
@@ -9021,6 +9228,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1997,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "703fe563",
     "onePageSummary": {
       "elevatorPitch": "When sudden drought or crisis hits your career, digging a well on the spot is a fatal mistake\\u2014you must drill into the bedrock long before you ever need a sip. Harvey Mackay delivers an unsentimental masterclass on engineering an unshakeable relational moat that turns personal goodwill into your greatest competitive advantage.",
       "coreThesis": "Professional security and outsized leverage are built entirely on pre-emptive goodwill; you must deposit value, trust, and intelligence into relationships long before circumstances compel you to make a withdrawal.",
@@ -9058,6 +9266,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "48e01dc0",
     "onePageSummary": {
       "elevatorPitch": "In a world where physical gestures have vanished behind screens, your punctuation, response cadence, and channel choices are your new facial expressions. Master the hidden physics of virtual communication to turn daily digital anxiety into effortless trust and alignment.",
       "coreThesis": "Digital body language\\u2014composed of punctuation, pacing, formatting, and channel selection\\u2014has replaced physical cues as the primary engine of workplace trust and connection.",
@@ -9095,6 +9304,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b6876087",
     "onePageSummary": {
       "elevatorPitch": "Stop letting algorithms dictate your day and take back command of your mental bandwidth. This tactical playbook gives you the exact tools to break screen compulsion, restore peak focus, and build sustainable boundaries that stick.",
       "coreThesis": "Technology is an outstanding tool but a tyrannical boss; reclaiming your life requires designing friction into your environment so intentional action permanently replaces unconscious reflex.",
@@ -9132,6 +9342,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4a741e91",
     "onePageSummary": {
       "elevatorPitch": "Stop treating your attention like spare pocket change for tech monopolies. Take back your focus, redesign your environment, and build a calm, high-impact life driven by deep human connection instead of notifications.",
       "coreThesis": "A focused life requires curating your digital tools to serve your deepest values while aggressively ignoring the noisy rest.",
@@ -9169,6 +9380,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1976,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1783abb2",
     "onePageSummary": {
       "elevatorPitch": "Francis Story bridges ancient Dhamma and modern empirical science, showing that the universe is not an arbitrary creation but a dynamic, self-regulating stream of cause and effect. By learning to observe the mind with scientific precision, you unlock an unshakeable, practical freedom right in the midst of daily life.",
       "coreThesis": "Suffering arises from attempting to grasp an unchanging self within an ever-shifting psychophysical flux; true liberation occurs when rational inquiry and direct meditative insight align with the natural law of cause and effect.",
@@ -9206,6 +9418,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "eeffd7d5",
     "onePageSummary": {
       "elevatorPitch": "Stop taking the bait and step out of the emotional crossfire: discover the hidden psychological wiring of self-absorbed personalities and master the exact communication blueprint to neutralize their defensive attacks.",
       "coreThesis": "Narcissistic aggression is an automated defense against deep-seated vulnerability, and you can only neutralize it by mastering your own emotional triggers and pairing genuine empathy with unshakeable personal boundaries.",
@@ -9243,6 +9456,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1982,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "923113a9",
     "onePageSummary": {
       "elevatorPitch": "Suffering is not a mystery or a cosmic punishment; it is a mechanical chain reaction triggered the moment bare contact turns into blind craving. Mahasi Sayadaw lays bare the exact gears of existence and shows you how simple, mindful awareness can uncouple the train right at your doorstep.",
       "coreThesis": "Human suffering is neither random nor permanent, but a predictable chain reaction produced when unmindful contact turns into craving and clinging; by observing experiences as they arise without grasping, the entire cycle naturally uncouples.",
@@ -9280,6 +9494,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1963,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "576d8c32",
     "onePageSummary": {
       "elevatorPitch": "Stop trying to micromanage a self that doesn't exist. Mahasi Sayadaw unlocks the Buddha's most radical liberating discourse, showing through direct awareness that the burden of 'I' dissolves the moment you observe what is actually happening.",
       "coreThesis": "Nothing within your physical body or mental flow belongs to you, obeys your absolute command, or forms a permanent self; acknowledging this impersonal reality through direct observation dissolves suffering and reveals authentic liberation.",
@@ -9317,6 +9532,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1980,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0ef8a452",
     "onePageSummary": {
       "elevatorPitch": "Your mind is constantly living somewhere\\u2014either in the noisy storms of reaction or in the unshakeable stillness of pure awareness. This masterwork provides the exact architectural blueprint to relocate your daily life into the calm, noble sanctuary of awakened presence.",
       "coreThesis": "Liberation is not acquired through belief or esoteric rituals, but discovered through continuous, direct observation of the present moment, which transforms the mind from a turbulent battleground into a noble, serene sanctuary.",
@@ -9354,6 +9570,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1963,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f312992d",
     "onePageSummary": {
       "elevatorPitch": "Before trusting any spiritual path, subject it to the ultimate trial: inspect its teacher's conduct under a magnifying glass, then turn that same relentless awareness inward to witness how your senses construct reality. Mahasi Sayadaw transforms an ancient nocturnal dialogue into a razor-sharp, practical operating manual for direct psychological liberation.",
       "coreThesis": "Genuine spiritual awakening demands ruthless ethical scrutiny of conduct followed by bare, moment-to-moment sensory awareness that halts the automated generation of an ego.",
@@ -9391,6 +9608,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1977,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8a6e970c",
     "onePageSummary": {
       "elevatorPitch": "Step off the runaway train of overthinking and discover the quiet eye of conscious awareness. This classical masterpiece deconstructs how raw sensory impressions morph into crippling mental drama\\u2014and how you can untangle the knot in real time.",
       "coreThesis": "Human conflict and suffering arise not from the external world, but from the uncontrolled proliferation of concepts that the mind superimposes onto raw sensory experience. Cutting this proliferation at the root restores natural peace and freedom from all dispute.",
@@ -9428,6 +9646,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1981,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7a664b8c",
     "onePageSummary": {
       "elevatorPitch": "When an elderly monk begged for a practice simple enough to master before death, the Buddha gave him the ultimate shortcut to liberation: intercept reality at the five senses before your mind invents a story about it. Mahasi Sayadaw unlocks this ancient formula into a surgical, moment-to-moment manual for immediate peace.",
       "coreThesis": "Suffering is manufactured entirely in the split-second lag between sensory contact and mental projection; by resting in bare, immediate awareness at the six sense doors, craving cannot ignite and the mind abides in natural liberation.",
@@ -9465,6 +9684,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1982,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2811eba1",
     "onePageSummary": {
       "elevatorPitch": "Mah\\u0101si Say\\u0101daw unpacks the Buddha\\u2019s timeless blueprint for emotional freedom: how to dismantle craving, regret, and anxiety before your days run out. Through lucid mindfulness, discover how to dwell in an unshakeable inner peace that sensory storms cannot disturb.",
       "coreThesis": "Genuine liberation is not a distant philosophical concept, but the immediate cessation of craving, regret, and ego-clinging through momentary bare awareness practiced before death.",
@@ -9502,6 +9722,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1969,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "68f30ddf",
     "onePageSummary": {
       "elevatorPitch": "Spiritual practice is not an intellectual salon or a peaceful escape into daydreaming\\u2014it is an exacting, daily craft of scrubbing away ego grit. Mahasi Sayadaw turns the Buddha's Sallekha Sutta into an uncompromising, surgical field guide for dismantling forty-four mental toxins to reveal effortless, radiant freedom.",
       "coreThesis": "Genuine spiritual enlightenment is not a mystical high or an exotic theory, but the systematic, daily scrubbing away of forty-four inner defilements through bare mindfulness and ethical rigor.",
@@ -9539,6 +9760,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1982,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "92ffdb9a",
     "onePageSummary": {
       "elevatorPitch": "Whether you are taking your first mindful breath or dwelling in profound spiritual freedom, the practice never changes: observe whatever arises in the mind and body right now. Mahasi Sayadaw unlocks the ancient S\\u012blavanta Sutta to reveal that the beginner's mirror and the master's mirror are identical.",
       "coreThesis": "From the very first steps of spiritual practice to total awakening, the single direct path to liberation is the continuous, bare observation of impermanence, suffering, and selflessness within your immediate bodily and mental experiences.",
@@ -9576,6 +9798,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1976,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bf835389",
     "onePageSummary": {
       "elevatorPitch": "Cut through endless mental chatter and reclaim authentic peace right in the middle of daily life. Mahasi Sayadaw reveals the direct, practical manual for dismantling the ego's false narratives through plain, moment-to-moment awareness.",
       "coreThesis": "Suffering dissolves the moment you stop spinning personal stories around bare sensory inputs and instead observe all experiences rising and vanishing with detached, moment-by-moment mindfulness.",
@@ -9613,6 +9836,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1965,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "32dfb45c",
     "onePageSummary": {
       "elevatorPitch": "Your mind is an earthen ant-hill simmering with nighttime anxieties and erupting in daytime compulsions. Discover how Buddha's most ingenious parabolic riddle hands you the exact spade needed to dig up inner clutter and uncover unshakeable peace.",
       "coreThesis": "The human personality is a smoking mound of conditioned habits; by applying continuous mindful attention as a digging blade, you expose and discard every mental obstacle until pure, unconditioned freedom remains.",
@@ -9650,6 +9874,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1981,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "38709522",
     "onePageSummary": {
       "elevatorPitch": "Think of human dissatisfaction not as an inescapable curse, but as a predictable mechanical glitch in how our attention processes reality. In this masterclass commentary, Mah\\u0101si Say\\u0101daw strips away mysticism to reveal the Buddha's foundational discourse as an exact, empirical blueprint for debugging mental suffering.",
       "coreThesis": "Psychological stress is a mechanical feedback loop triggered by friction between volatile reality and rigid craving; systematically calibrating bare sensory awareness unties this loop at its root.",
@@ -9687,6 +9912,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "64ae7514",
     "onePageSummary": {
       "elevatorPitch": "Written from the lived experience of a former slave, this timeless masterpiece offers a battle-tested blueprint for emotional invulnerability and sovereign peace of mind. It strips away academic pretense to teach one liberating art: mastering your own mind while gracefully letting go of everything else.",
       "coreThesis": "Distress never arises from outer circumstances, but solely from our judgments about them; true peace and invulnerability belong exclusively to those who master their own volition and surrender all claim over what lies outside their control.",
@@ -9724,6 +9950,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "42978cb7",
     "onePageSummary": {
       "elevatorPitch": "Step beyond dry spiritual philosophy and discover the Buddha's master blueprint for complete emotional freedom through the living laboratory of your own body. Learn how silent, objective observation of physical sensations unties lifelong knots of stress, anxiety, and reactivity from the inside out.",
       "coreThesis": "Suffering is maintained by blind, automatic reactions to physical sensations; by observing every bodily and mental event with patient, objective equanimity, you dissolve subconscious conditioning and discover genuine liberation.",
@@ -9761,6 +9988,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1979,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "acfa5f86",
     "onePageSummary": {
       "elevatorPitch": "Your personal taste is not an authentic quirk; it is a finely tuned radar tracking your position on the corporate and social chessboard. Master the hidden currency of status signaling to navigate office politics, build defensible moats, and spot the unspoken rules governing executive authority.",
       "coreThesis": "Individual taste is not a private aesthetic preference, but an ingrained classification system used to signal social rank and police the boundaries of power.",
@@ -9798,6 +10026,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0709e0f1",
     "onePageSummary": {
       "elevatorPitch": "Stop thinking and start building: Resistance is an active, universal force designed to kill your best ideas before you can share them. This battle-tested field guide gives you the tactical roadmap to crush hesitation, navigate the messy middle, and ship your creative work on schedule.",
       "coreThesis": "Resistance is an active, toxic law of nature engineered to prevent your growth, and the only countermeasure is relentless, imperfect forward momentum until the work is shipped.",
@@ -9835,6 +10064,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "629d654d",
     "onePageSummary": {
       "elevatorPitch": "Any meaningful creative or professional endeavor triggers an automatic counter-force of friction, hesitation, and self-doubt. Learn to recognize this predictable resistance as a navigational compass and deploy a battle-tested protocol to start immediately, survive the messy midpoint slump, and reliably ship finished work.",
       "coreThesis": "Resistance is an active, universal counter-force that intensifies in direct proportion to the importance of the endeavor; victory requires treating creativity as an objective operational craft rather than a fragile emotional state.",
@@ -9872,6 +10102,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b3d48e0b",
     "onePageSummary": {
       "elevatorPitch": "Stop treating spiritual freedom like a distant finish line and discover what happens when you commit completely to the ground right beneath your feet. Drawing from decades of Thai Forest monastic wisdom, Ajahn Pasanno shows how holding nothing back in your everyday awareness unlocks an effortless, unshakeable inner peace.",
       "coreThesis": "Genuine liberation is not something added to the self, but the profound freedom realized when you stop withholding your honest attention and cleanly let go of grasping in the present moment.",
@@ -9909,6 +10140,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2006,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "65b798fc",
     "onePageSummary": {
       "elevatorPitch": "Stop wrestling with your restless mind and start studying it like a curious scientist. Sayadaw U Tejaniya reveals that the secret to lasting inner freedom is not forcing mental silence, but cultivating a relaxed, judgment-free awareness that treats every mental state as natural data.",
       "coreThesis": "Suffering is caused not by messy thoughts, but by the subtle aversion and contempt with which you judge them; liberation arises when you observe every mental state with relaxed, non-interfering awareness.",
@@ -9946,6 +10178,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e21df8f5",
     "onePageSummary": {
       "elevatorPitch": "Stop turning your daily thoughts and emotions into a dramatic personal courtroom. By stepping back into spacious awareness, you realize that life's weather does not define the sky.",
       "coreThesis": "You are not your transient thoughts, feelings, or conditioned personality; resting as the silent awareness that witnesses them frees you from taking life personally.",
@@ -9983,6 +10216,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2b845487",
     "onePageSummary": {
       "elevatorPitch": "We live in an era where high-octane rewards are available on demand, throwing our ancient survival wiring completely out of gear. Dr. Anna Lembke reveals how balancing the neurological seesaw of pleasure and pain is the hidden key to lasting peace and focus.",
       "coreThesis": "Pleasure and pain are processed in the same brain regions and constantly counterbalance each other; chasing constant high-stimulus pleasure inadvertently builds a crushing baseline of chronic pain and craving.",
@@ -10020,6 +10254,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d84efc62",
     "onePageSummary": {
       "elevatorPitch": "Raw competence is a commodity in an oversaturated market; lasting executive authority belongs to those who package proprietary insight into scalable, defensible intellectual capital. Stand Out delivers the exact playbook for engineering a breakthrough perspective and systematically converting it into institutional gravity and widespread market influence.",
       "coreThesis": "Professional excellence without distinct positioning is a losing hand; durable authority requires identifying a proprietary niche, codifying it into an operational framework, and assembling an active community around it.",
@@ -10057,6 +10292,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ad0df1ea",
     "onePageSummary": {
       "elevatorPitch": "In 'Doubt Is Their Product', epidemiologist and former federal safety official David Michaels exposes how corporate product-defense campaigns systematically corrupt science to block regulation and public accountability. Borrowing directly from Big Tobacco's historic memo\\u2014'Doubt is our product since it is the best means of competing with the \\",
       "coreThesis": "Corporate-sponsored scientific uncertainty is not an honest byproduct of the scientific method, but a commercially manufactured weapon deployed to paralyze federal regulation, evade civil liability, and delay public health protections at the expense of human lives.",
@@ -10094,6 +10330,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e7b8c315",
     "onePageSummary": {
       "elevatorPitch": "Stop trading your physiological health for professional achievement. Just as world-class athletes balance intense exertion with structured recovery, sustainable success requires designing high-autonomy environments that protect your core energy reserves.",
       "coreThesis": "Human sustainability is the ultimate foundation of lasting performance; sacrificing personal health, autonomy, and sleep for a job is a design flaw that destroys both individual vitality and collective achievement.",
@@ -10131,6 +10368,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2000,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "94718c08",
     "onePageSummary": {
       "elevatorPitch": "Stop chasing enlightenment like a distant shore. Your own clear, present awareness is already complete, pure, and resting quietly beneath the noise of daily thinking.",
       "coreThesis": "Your natural state of awareness is already pristine, self-luminous, and free; liberation is not about constructing a new state of mind, but simply relaxing into the unconditioned clear light that has always been present.",
@@ -10168,6 +10406,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ed2d0720",
     "onePageSummary": {
       "elevatorPitch": "What if ancient meditation wasn't mystical detachment, but a rigorous, precision-engineered operating system for human attention? Bhikkhu An\\u0101layo investigates the oldest surviving source texts to reveal the core mechanics of mental clarity, perception, and emotional resilience.",
       "coreThesis": "Meditation in early Buddhism is an active, unified cognitive feedback system where steady attention, bodily awareness, and boundless goodwill work together to dismantle emotional reactivity.",
@@ -10205,6 +10444,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ae9216c4",
     "onePageSummary": {
       "elevatorPitch": "Step out of the illusion of a solid, anxious ego and look directly under the hood of consciousness. This book reveals reality not as rigid things, but as a fluid, interconnected river of experiential moments.",
       "coreThesis": "Reality is not made of solid, independent entities, but is an interconnected, flowing stream of momentary experiential events that dissolve the illusion of a separate self.",
@@ -10242,6 +10482,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2022,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "43498b6d",
     "onePageSummary": {
       "elevatorPitch": "Before printing presses or flash drives, ancient meditators preserved vast libraries of philosophy purely through spoken sound. This book reverse-engineers the remarkable cognitive mechanics, peer-to-peer protocols, and human glitches of our species' most enduring oral network.",
       "coreThesis": "Early Buddhist scriptures are neither rigid stenographic transcripts nor arbitrary myths, but the reliable output of a disciplined, peer-to-peer oral memory network shaped by predictable cognitive dynamics and communal error-correction.",
@@ -10279,6 +10520,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1963,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cc24b656",
     "onePageSummary": {
       "elevatorPitch": "Stop mistaking the map for the landscape: discover the ancient, rigorous blueprint for testing your spiritual life like a scientist tests reality. This landmark work shows how authentic awakening is grounded in direct personal perception rather than blind dogmatic belief.",
       "coreThesis": "Enlightenment is not a dogma to be believed, but an empirical truth to be personally verified through purified attention and direct experiential insight.",
@@ -10316,6 +10558,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5bd68ce4",
     "onePageSummary": {
       "elevatorPitch": "What if personal finance isn't an accounting chore, but an elegant physics problem of friction, leverage, and metabolic energy? By treating your household as an interconnected ecosystem rather than a passive conduit for consumer spending, you can compress a forty-year career into five years of deliberate design.",
       "coreThesis": "Financial independence is fundamentally a function of systemic lifestyle efficiency rather than absolute income; by shifting from a specialized consumer to a self-reliant polymath, saving 70% to 80% of your earnings mathematically compresses forty years of work into five.",
@@ -10353,6 +10596,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "36e9000d",
     "onePageSummary": {
       "elevatorPitch": "Stop burning out by believing that greater achievement requires grinding harder. Learn how to remove internal and external friction so doing what matters most becomes your easiest default option.",
       "coreThesis": "Life does not have to be relentless friction; by stripping away needless complexity, you can make essential progress both sustainable and effortless.",
@@ -10390,6 +10634,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c8d21d91",
     "onePageSummary": {
       "elevatorPitch": "Groundbreaking relationship science reveals that love is not a static stroke of luck, but an ongoing scientific experiment fueled by deliberate curiosity. Eight structured, distraction-free conversations show you how to calibrate the vital mechanics of your bond for life.",
       "coreThesis": "A lasting relationship is not an effortless emotional state, but an intentional, lifelong conversation maintained through relentless curiosity, mutual attunement, and psychological safety.",
@@ -10427,6 +10672,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bb7cd6fd",
     "onePageSummary": {
       "elevatorPitch": "Meditation on the cushion is only one spoke of the wheel\\u2014true peace requires training how you see, speak, work, and respond to every moment. Bhante Gunaratana translates the ancient Noble Eightfold Path into an immediate, practical roadmap for living with radiant ease in daily modern life.",
       "coreThesis": "Suffering is not caused by the external world, but by how an untrained mind grasps and resists experience; genuine happiness emerges naturally when wisdom, ethical integrity, and focused awareness are practiced simultaneously as an interconnected way of being.",
@@ -10464,6 +10710,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1843,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d8392d66",
     "onePageSummary": {
       "elevatorPitch": "Are you living merely for fleeting moments of pleasure, or have you made the decisive choice to stand for something lasting? This timeless masterpiece reveals that real freedom begins not in keeping every option open, but in choosing who you will become.",
       "coreThesis": "A meaningful life cannot be found in drifting among detached pleasures; it emerges only when you consciously choose yourself and anchor your freedom in duty, commitment, and truth.",
@@ -10501,6 +10748,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a297229c",
     "onePageSummary": {
       "elevatorPitch": "Rigid habits snap when life gets messy; elastic habits bend, stretch, and keep your momentum alive every single day. By offering flexible tiers of intensity and multiple ways to win, this system turns daily consistency from a fragile chore into an unbreakable streak.",
       "coreThesis": "True discipline is not rigid perfection; it is elastic resilience that adapts daily effort to real-world energy while preserving an unbroken chain of action.",
@@ -10538,6 +10786,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2022,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9bad49e2",
     "onePageSummary": {
       "elevatorPitch": "Traditional selling casts you as an order-taker begging for attention; true consultative mastery requires stepping into the 'One-Up' position of a trusted navigator. By diagnosing systemic market forces your buyers cannot see from inside their day-to-day operations, you transform sales calls into indispensable strategic briefings.",
       "coreThesis": "Sales effectiveness is governed by information disparity: buyers rarely make major purchasing decisions, while elite sellers guide them constantly. When you use that systemic vantage point to make sense of complex realities and guide client change, you earn the right to lead as a trusted advisor.",
@@ -10575,6 +10824,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "73598fae",
     "onePageSummary": {
       "elevatorPitch": "Tough emotions are not defects to suppress\\u2014they are your brain's dashboard gauges showing what matters most. Emotional agility is the art of unhooking from automatic mental traps so you can act on your deepest values instead of your temporary impulses.",
       "coreThesis": "Your thoughts and emotions are useful advisory data, not ironclad directives; true resilience comes from acknowledging them with curiosity and choosing actions aligned with your core values.",
@@ -10612,6 +10862,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bbc54e69",
     "onePageSummary": {
       "elevatorPitch": "Your face is an open-source biological instrument panel flashing micro-signals before your conscious mind even realizes what it feels. Master this hidden circuitry, and you unlock the ability to spot genuine feelings, navigate conflicts, and connect with people on an entirely new frequency.",
       "coreThesis": "Human emotional expressions are hardwired, universal biological signals that involuntarily broadcast genuine feelings across the face, offering an objective window into the human mind when observed with precision.",
@@ -10649,6 +10900,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "56a2f682",
     "onePageSummary": {
       "elevatorPitch": "When your body screams that it has reached empty, you have actually only tapped roughly eighty percent of your real capacity. The true finish line is negotiated not by muscle fibers, but by a cautious brain acting as a safety brake.",
       "coreThesis": "Exhaustion is not an abrupt physical wall where the machine breaks down, but an elastic psychological boundary created by a protective brain to keep us safe.",
@@ -10686,6 +10938,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "16d49d9e",
     "onePageSummary": {
       "elevatorPitch": "Shipping software is an operational cost; solving customer problems is the only source of enterprise profit. Stop confusing shipping speed with market victory and transform your organization from a mindless feature factory into an outcome-driven economic powerhouse.",
       "coreThesis": "Enterprise value is created by solving real customer problems within profitable unit economics, not by the raw volume of features deployed to production.",
@@ -10723,6 +10976,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "345656c5",
     "onePageSummary": {
       "elevatorPitch": "Stop trying to do it all and start making your highest possible contribution by doing only what is essential. This is your playbook for replacing chaotic busyness with deliberate, high-impact focus.",
       "coreThesis": "Almost everything in life is noise; by ruthlessly eliminating the non-essential, you focus your finite energy entirely on the vital few.",
@@ -10760,6 +11014,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b3fbd7e2",
     "onePageSummary": {
       "elevatorPitch": "Material comfort can furnish a house, but only genuine inner discipline and warm-heartedness can bring peace to the person living inside it. The Dalai Lama outlines a secular, universally accessible moral roadmap rooted in human interdependence, clear discernment, and radical compassion.",
       "coreThesis": "Enduring happiness and global peace require no dogma or magic; they flow naturally from secular ethics grounded in the clear awareness of our shared human interdependence and unconditional compassion.",
@@ -10797,6 +11052,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e3e94ce2",
     "onePageSummary": {
       "elevatorPitch": "What if severe chronic illness isn't just a breakdown in your cellular machinery, but an unconscious circuit breaker carrying an overloaded family system? Stephan Hausner reveals how hidden relational feedback loops drive somatic disease\\u2014and how restoring systemic balance frees the body to heal.",
       "coreThesis": "Chronic illness is frequently an unconscious somatic attempt to balance an unresolved family ecosystem; true healing begins when we return unearned ancestral burdens and take our rightful place in the relational network.",
@@ -10834,6 +11090,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f2929967",
     "onePageSummary": {
       "elevatorPitch": "In a digital-first economy where your written word is your storefront, sloppy communication carries catastrophic reputational risk. Clear, empathetic, and ruthlessly edited writing is not an artistic luxury\\u2014it is an asymmetrical competitive moat that commands authority, signals competence, and compounds market influence.",
       "coreThesis": "Your writing is your digital reputation; clarity, relentless customer empathy, and surgical editing form the ultimate competitive moat for commanding attention and professional respect.",
@@ -10871,6 +11128,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e19b2cc3",
     "onePageSummary": {
       "elevatorPitch": "Freedom is not found by freezing life in place, but by learning to relax your grip on things that were never yours to keep. Ajahn Chah offers crystal-clear, grounded wisdom that turns everyday observation into an open door to lasting peace.",
       "coreThesis": "All experiences, thoughts, and feelings arise naturally and dissolve on their own; true peace arrives the moment you stop clinging to them or mistaking them for who you are.",
@@ -10908,6 +11166,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ac9fa97a",
     "onePageSummary": {
       "elevatorPitch": "Every sentence, road sign, menu design, and dress code is a quiet bid to influence how you perceive reality. Once you see the underlying architecture of persuasion, everyday human interaction shifts from random noise into an elegant, predictable system.",
       "coreThesis": "All human communication is an intentional act of persuasion, and every enduring argument functions as a mechanical system held together by visible evidence and invisible assumptions.",
@@ -10945,6 +11204,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1962,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2718fff1",
     "onePageSummary": {
       "elevatorPitch": "Evil and punishment are not distant courtroom verdicts delivered by an external judge; they are immediate laws of physics operating within human consciousness. Sister Vajira unlocks the Danda Vagga to reveal that cruelty burns the holder first, while radical empathy and inner mastery dissolve all suffering at its root.",
       "coreThesis": "Harm inflicted upon another is fundamentally self-inflicted harm; by identifying with the vulnerability of all life and training the mind into stillness, one dismantles the root mechanism of suffering.",
@@ -10982,6 +11242,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f3489da2",
     "onePageSummary": {
       "elevatorPitch": "Your brain is not an empty blank slate; it is a precision Swiss Army knife packed with specialized psychological tools forged by ancestral survival challenges. By uncovering the evolutionary blueprints behind our desires, jealousies, and alliances, David Buss reveals the hidden biological machinery driving modern human behavior.",
       "coreThesis": "The human mind is an ensemble of specialized, domain-specific adaptations designed by natural and sexual selection to solve recurrent ancestral survival and reproductive challenges.",
@@ -11019,6 +11280,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0ded5f4e",
     "onePageSummary": {
       "elevatorPitch": "Great strategy without relentless execution is an expensive daydream. Real market dominance belongs not to visionary thinkers, but to leaders who master the gritty, disciplined machinery of getting things done.",
       "coreThesis": "Execution is a disciplined, systematic practice of linking people, strategy, and operating realities with rigorous accountability and unflinching realism.",
@@ -11056,6 +11318,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "dc915da5",
     "onePageSummary": {
       "elevatorPitch": "Raw competence gets you on the roster; executive presence determines whether you get the captain's armband. This book breaks down the exact psychological signals leaders use to decide who gets trusted with real power.",
       "coreThesis": "Competence gets you promoted into contention, but executive presence\\u2014signaled through gravitas, communication, and appearance\\u2014determines who actually secures command.",
@@ -11093,6 +11356,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ca771daa",
     "onePageSummary": {
       "elevatorPitch": "Exhaustion isn't a modern personal failure\\u2014it is a perennial human challenge wearing a fresh disguise in every era. Learn how history's greatest thinkers diagnosed depletion, strip away guilt, and engineer a sustainable daily rhythm that restores real agency.",
       "coreThesis": "Human fatigue is never just a personal weakness or a mechanical malfunction\\u2014it is a timeless biological signal that our daily demands have outpaced our boundaries and values.",
@@ -11130,6 +11394,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1946,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2fb52a12",
     "onePageSummary": {
       "elevatorPitch": "You are not born with a pre-written script or an assigned destiny; you are the author of every step you take. Sartre strips away comforting excuses to reveal that human freedom is total, demanding, and the quiet foundation of all genuine dignity.",
       "coreThesis": "Human existence precedes essence: we are born without a fixed blueprint, and our character is defined solely by the sum of our deliberate actions and ongoing commitments.",
@@ -11167,6 +11432,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b1ce9b77",
     "onePageSummary": {
       "elevatorPitch": "Stop guessing where a stock is headed. Instead, read the market price like a racetrack tote board to discover what the crowd expects, then strike only when the hurdle is set wrong.",
       "coreThesis": "Stock prices already reflect consensus expectations of future corporate performance. Outsized investment returns come not from identifying great companies, but from correctly anticipating shifts in the market's price-implied expectations.",
@@ -11204,6 +11470,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b9259803",
     "onePageSummary": {
       "elevatorPitch": "Step into the cognitive laboratory where twenty years of real-world expert forecasts get dissected. Discover why famous pundits barely beat coin tosses while humble, adaptable thinkers quietly master foresight.",
       "coreThesis": "Foresight depends far more on how you think than what you know: adaptable, multi-perspective thinkers routinely outperform single-minded ideological experts.",
@@ -11240,6 +11507,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1988,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "25885c62",
     "onePageSummary": {
       "elevatorPitch": "Human eyes are not just sensory receivers; they are active broadcast towers transmitting social status, cognitive load, and relational intent in millisecond bursts. Discover the invisible feedback loops and behavioral physics that govern every conversation before a single word is processed.",
       "coreThesis": "Gaze is an active social signaling system that regulates conversational flow, projects hierarchy through visual dominance ratios, and leaks internal autonomic states through involuntary ocular reflexes.",
@@ -11277,6 +11545,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "538571f7",
     "onePageSummary": {
       "elevatorPitch": "Your face is not a static mask, but a real-time living dashboard reflecting internal organ health, emotional history, and behavioral tendencies. By decoding its anatomical contours and vascular shifts, you unlock a rigorous non-verbal diagnostic system refined over millennia.",
       "coreThesis": "The human face is a dynamic biological map where physical features, micro-discolorations, and crease lines reveal internal organ integrity, constitutional reserves, and habitual emotional processing.",
@@ -11314,6 +11583,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "da5f5610",
     "onePageSummary": {
       "elevatorPitch": "Buddhism is not a blind faith or an esoteric puzzle, but a razor-sharp, practical science of human freedom. Jayatilleke strips away superstition to reveal a verifiable path for calming the restless mind and seeing reality as it truly is.",
       "coreThesis": "Suffering dissolves when we treat life as an empirical experiment: by observing our mental habits clearly, releasing our tight grip on a false self, and living in quiet harmony with cause and effect.",
@@ -11351,6 +11621,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "da31e5ae",
     "onePageSummary": {
       "elevatorPitch": "Our brains carry outdated survival heuristics that twist global reality into an ongoing crisis. Discover how ten hidden cognitive instincts warp our judgment and how simple data habits restore clarity.",
       "coreThesis": "The world is in a far better state than dramatic headlines suggest, because ten evolutionary cognitive instincts consistently distort our perception of reality.",
@@ -11387,6 +11658,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bb231843",
     "onePageSummary": {
       "elevatorPitch": "Stop drowning in invisible mental to-do lists and reclaim hours of your life each week. By treating household logistics like a high-performing professional team with crystal-clear ownership, you eliminate daily resentment and make room for what truly energizes you.",
       "coreThesis": "A healthy, equitable partnership requires full end-to-end ownership of household responsibilities, freeing both partners from invisible mental load so each can reclaim their time and creative vitality.",
@@ -11424,6 +11696,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5b639b0b",
     "onePageSummary": {
       "elevatorPitch": "Faith is not about forcing yourself to believe impossible doctrines; it is cultivating the courageous willingness to trust your own immediate, living experience. Sharon Salzberg reclaims faith as an inner compass of clarity, resilience, and unconditional belonging.",
       "coreThesis": "Genuine faith is not belief in external dogma, but an experiential trust in your own capacity to navigate life, meet suffering with compassion, and abide in the open truth of the present moment.",
@@ -11461,6 +11734,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2007,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ce310268",
     "onePageSummary": {
       "elevatorPitch": "Arguments are not static blueprints on a whiteboard\\u2014they are living exchanges shaped by speaker, audience, and real-time social context. Christopher W. Tindale reveals the hidden mechanics of human reasoning, showing you how to pinpoint flawed patterns and calibrate arguments with surgical precision.",
       "coreThesis": "Fallacies are contextual breakdowns in dialogue rather than mechanical rule violations, meaning an argument's validity depends on its audience, purpose, and conversational dynamics.",
@@ -11498,6 +11772,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e1bb8692",
     "onePageSummary": {
       "elevatorPitch": "Suffering does not come from what happens to you, but from arguing with what is. Stop fighting the stream of life, open your hands, and discover that peace is already holding you.",
       "coreThesis": "Suffering dissolves the instant we stop demanding that reality conform to our thoughts and surrender into the quiet awareness that is already present.",
@@ -11535,6 +11810,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b960c50a",
     "onePageSummary": {
       "elevatorPitch": "Sales slumps are not sudden strokes of bad luck\\u2014they are the direct mathematical consequence of neglecting your pipeline weeks earlier. This playbook breaks down the science of outbound engagement, showing how daily, multi-channel outreach eliminates desperation and creates predictable revenue.",
       "coreThesis": "Your pipeline is a direct reflection of the outreach you did ninety days ago; consistent, disciplined daily prospecting is the only antidote to sales volatility.",
@@ -11572,6 +11848,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6d8d5ef6",
     "onePageSummary": {
       "elevatorPitch": "Great oratory is not mystical charisma; it is cognitive engineering operating through exact linguistic circuits. Ward Farnsworth deconstructs the physical mechanics of classical rhetoric, revealing how calibrated word orders manipulate audience attention, expectation, and memory like precision clockwork.",
       "coreThesis": "Memorable speech is an engineered structural system: classical rhetorical figures survive because they exploit universal cognitive wiring, converting fleeting sounds into permanent mental impressions.",
@@ -11609,6 +11886,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1c0b869b",
     "onePageSummary": {
       "elevatorPitch": "Great prose is not accidental art; it is an acoustic and cognitive machine engineered to move the human nervous system. Ward Farnsworth decodes the mechanical levers of classical style so any speaker or writer can produce irresistible clarity, authority, and rhythm.",
       "coreThesis": "Memorable style is an applied science of cognitive and acoustic patterns: by deliberately contrasting Saxon simplicity with Latinate elevation, calibrating sentence mechanics, and tuning terminal cadences, you control how ideas land in the human mind.",
@@ -11646,6 +11924,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "243c8112",
     "onePageSummary": {
       "elevatorPitch": "Fear is not an enemy to outrun, but a vulnerable inner alarm asking for mindful embrace. By learning to stop running and breathe directly with our dread, we touch true fearlessness and discover unshakeable calm in any storm.",
       "coreThesis": "Fear flourishes only when we flee from it into projections of past and future; embracing the present moment with mindful breath transforms dread into clear, compassionate freedom.",
@@ -11683,6 +11962,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1980,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "54c74f4b",
     "onePageSummary": {
       "elevatorPitch": "Your feelings do not reflect absolute reality; they reflect the internal stories you tell yourself. Learn the psychological mechanics of cognitive distortion to debug negative emotions and rewire your mood with scientific precision.",
       "coreThesis": "Emotions are not mysterious, unprompted forces; they are the direct biological echoes of conscious and unconscious thoughts. By systematically detecting and correcting distorted cognitive filters, you can reliably regulate your emotional life.",
@@ -11720,6 +12000,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "052b679a",
     "onePageSummary": {
       "elevatorPitch": "Our careers, relationships, and companies succeed or fail one conversation at a time. By replacing polite pretenses with courageous, candid dialogue, you dissolve persistent friction and spark breakthrough clarity.",
       "coreThesis": "The conversation is not just a tool for the relationship; the conversation IS the relationship. Real progress happens gradually, then suddenly, one courageous dialogue at a time.",
@@ -11757,6 +12038,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "09e97cb7",
     "onePageSummary": {
       "elevatorPitch": "Money is not paper to buy status\\u2014it is stored time and personal sovereignty. Cut the cord on traditional retirement timelines by maximizing your savings rate, capturing side income, and letting compound returns buy back your remaining decades.",
       "coreThesis": "Money is frozen time, and financial independence is simply buying back your clock by supercharging the gap between what you earn and what you consume.",
@@ -11794,6 +12076,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2006,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "af92e8c9",
     "onePageSummary": {
       "elevatorPitch": "Accounting is not a precision science; it is a discipline built on subjective estimates, rules of thumb, and human bias. Mastering financial intelligence gives operators the strategic lens to detect hidden assumptions, protect cash flow, and deploy capital with lethal accuracy.",
       "coreThesis": "Financial statements reflect subjective operational judgments rather than objective scientific truths; competitive advantage belongs to leaders who separate accounting estimates from real cash dynamics.",
@@ -11831,6 +12114,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6d6f14cb",
     "onePageSummary": {
       "elevatorPitch": "Corporate financial statements are often marketing brochures dressed in mathematical precision. This book is the tactical radar system that exposes how executive management distorts earnings, fabricates cash flows, and conceals structural decay.",
       "coreThesis": "Accounting earnings are an opinion, but cash flow is a hard fact; whenever reported profits consistently diverge from cold cash generation, management is concealing structural weakness.",
@@ -11868,6 +12152,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0a314fb8",
     "onePageSummary": {
       "elevatorPitch": "Before you choose which mountain to climb or how fast to run, you must understand the quiet compass inside your chest. Find Your Why provides a hands-on, step-by-step discipline to uncover your enduring purpose and bring serenity to daily decisions.",
       "coreThesis": "Your purpose is not an aspiration you invent for the future; it is an enduring truth distilled from your past that clarifies how you naturally serve the world.",
@@ -11905,6 +12190,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bcfdc1b8",
     "onePageSummary": {
       "elevatorPitch": "Peace is not an elusive prize waiting in a far-off sanctuary; it is your mind's natural baseline when you stop wrestling with the present moment. In this masterfully lucid primer, Ajahn Amaro distills decades of forest tradition practice into a direct, refreshingly practical roadmap for everyday tranquility.",
       "coreThesis": "Peace is not something created by straining effort; it is what remains when you stop fueling mental conflict and rest in the silent, innate awareness of the present moment.",
@@ -11942,6 +12228,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7034676d",
     "onePageSummary": {
       "elevatorPitch": "Your voice is not a static biological quirk; it is a mechanical acoustic wind instrument powered by physical feedback loops. By unlocking posture, breath support, and resonance chambers, anyone can project effortless power and magnetic clarity.",
       "coreThesis": "Authentic vocal power does not come from pushing the throat, but from releasing physical tension and letting natural breath resonate freely throughout the body.",
@@ -11979,6 +12266,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1994,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d20eac14",
     "onePageSummary": {
       "elevatorPitch": "Just as a solitary lightning flash illuminates an entire landscape on a pitch-black night, a single genuine impulse of selfless compassion can instantly dissolve the suffocating darkness of human suffering. In this masterclass commentary, the Dalai Lama provides a direct, practical manual for transforming irritation, sorrow, and daily friction into indestructible mental clarity and boundless warmth.",
       "coreThesis": "Genuine inner liberation is found not by insulating the self from harm, but by dissolving self-absorption through radical compassion and seeing the interconnected emptiness of all phenomena.",
@@ -12016,6 +12304,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c22b724d",
     "onePageSummary": {
       "elevatorPitch": "When you push people to buy, their evolutionary defense systems instantly flare up to reject you. By engineering subtle cognitive breadcrumbs instead of hard pitches, you guide buyers to connect the dots on their own\\u2014transforming your sale into their discovery.",
       "coreThesis": "People instinctively defend their autonomy and resist ideas forced upon them, but they will passionately commit to conclusions they believe they discovered themselves.",
@@ -12053,6 +12342,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1990,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cf199bf2",
     "onePageSummary": {
       "elevatorPitch": "Happiness is not something that happens to you; it is a skill you cultivate by directing your attention. When your skills match an engaging challenge, self-consciousness vanishes, time bends, and everyday living becomes deeply enjoyable.",
       "coreThesis": "Genuine fulfillment occurs when psychic energy is invested in clearly defined, challenging tasks that stretch our capabilities and bring order to consciousness.",
@@ -12090,6 +12380,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2cb03b47",
     "onePageSummary": {
       "elevatorPitch": "Deep meditation is not an exhausting battle against stray thoughts, but a gentle art of relaxing so completely into present awareness that the mind lights up with natural joy. Shaila Catherine provides an extraordinarily lucid manual to unlock the classical Buddhist jhanas\\u2014systematic states of profound stillness that dissolve fear and reveal unshakeable freedom.",
       "coreThesis": "Profound mental stillness is cultivated through release rather than force, and when the mind rests in unshakable absorption, it gains the lucidity to dismantle all clinging and awaken into lasting peace.",
@@ -12127,6 +12418,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4b7f2a67",
     "onePageSummary": {
       "elevatorPitch": "A definitive, cross-tradition masterclass on the three higher trainings\\u2014ethical conduct, meditative focus, and penetrative wisdom\\u2014revealing how to systematically liberate the human mind from recurring suffering.",
       "coreThesis": "Genuine inner liberation requires building an unyielding ethical baseline that stills internal turmoil, establishing focused concentration, and deploying penetrating awareness to dismantle the illusion of an autonomous, permanent self.",
@@ -12164,6 +12456,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "39b05fdc",
     "onePageSummary": {
       "elevatorPitch": "Your mind is naturally crystal-clear and quiet; it only suffers because it chases every passing mood like a leaf caught in a gust of wind. In 'Food for the Heart', master Ajahn Chah hands you the direct, earthy tools to stop fighting your life and rest in unshakeable freedom.",
       "coreThesis": "Suffering does not come from what happens to you, but from grasping what cannot be held. Freedom is opening your clenched fist and letting reality be exactly what it is.",
@@ -12201,6 +12494,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "24ad0eae",
     "onePageSummary": {
       "elevatorPitch": "Beneath every tidy success story lies a vast sea of invisible luck. This investigation reveals the hidden machinery fooling our brains into seeing skill where chaos reigns.",
       "coreThesis": "We mistake lucky outcomes for superior skill because our brains crave neat narratives over hidden randomness.",
@@ -12237,6 +12531,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e68b9c8b",
     "onePageSummary": {
       "elevatorPitch": "Liberation is not an abstract philosophy; it is a practical, body-centered science of observing reality exactly as it is without reacting. This definitive collection reveals how selfless service and daily awareness dissolve the ego and generate authentic, lasting peace.",
       "coreThesis": "Suffering begins the moment you react with craving or aversion to physical sensations; freedom is attained by observing reality objectively with equanimity and expressing that inner peace through selfless service.",
@@ -12274,6 +12569,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "95905495",
     "onePageSummary": {
       "elevatorPitch": "Resentment is an involuntary physiological alarm stuck on repeat, draining battery life long after the intruder has left. Dr. Fred Luskin reveals the exact cognitive mechanics to silence the alarm, evict toxic squatters from your mental real estate, and reclaim total command over your nervous system.",
       "coreThesis": "A grievance is an active cognitive loop sustained by rigid expectations and personal blame; forgiveness is the deliberate reclamation of your nervous system by aligning with reality and evicting past hurts from your present attention.",
@@ -12311,6 +12607,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "54f134de",
     "onePageSummary": {
       "elevatorPitch": "You only get about four thousand weeks on Earth, and standard productivity hacks will never help you do it all. Embrace your limits, ditch the treadmill of inbox zero, and build a vibrant daily routine around what genuinely counts.",
       "coreThesis": "Your lifespan is roughly four thousand weeks, meaning you can never do everything. Freedom and peace arrive when you boldly choose what to neglect and focus deeply on the few commitments that matter.",
@@ -12348,6 +12645,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1990,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1f030baf",
     "onePageSummary": {
       "elevatorPitch": "Even when stripped of home, nation, and physical sanctuary, true inner freedom remains entirely untouchable. 'Freedom in Exile' reveals how radical compassion and calm mindfulness transform devastating political displacement into an engine for universal goodwill.",
       "coreThesis": "External conditions can strip away your home and comfort, but your inner peace remains invulnerable when anchored in non-attachment and unconditional compassion.",
@@ -12385,6 +12683,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1976,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a52ee895",
     "onePageSummary": {
       "elevatorPitch": "Your natural voice is already fully formed; decades of social conditioning, physical tension, and defensive habits have simply muffled it under heavy armor. By dismantling unconscious muscular locks from the spine to the jaw, Kristin Linklater provides a rigorous roadmap to restore effortless resonance, emotional truth, and room-commanding vocal power.",
       "coreThesis": "Authentic vocal power is not built by forcing or manufacturing sound, but by stripping away the physical tensions and psychological armor that block the body's innate acoustic resonance.",
@@ -12422,6 +12721,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d171c12a",
     "onePageSummary": {
       "elevatorPitch": "Traditional networking is broken because collecting business cards creates zero strategic leverage. Real career power comes from reading the social circuit board, bridging isolated clusters, and exploiting the mathematical laws of network science.",
       "coreThesis": "You do not need to build a network from scratch; you already inhabit an expansive web where your greatest career upside lies in dormant ties and the structural holes between isolated clusters.",
@@ -12459,6 +12759,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f8965ae7",
     "onePageSummary": {
       "elevatorPitch": "Liberation is not an abstract intellectual puzzle, but a direct encounter with your immediate awareness. This work strips away esoteric religious clutter to show how real awakening passes from heart to heart through gritty simplicity and radical presence.",
       "coreThesis": "Genuine spiritual wisdom is directly realized within the quiet, unclouded heart, bypassing intellectual concepts through honest moment-to-moment awareness.",
@@ -12496,6 +12797,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1990,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "240a50e6",
     "onePageSummary": {
       "elevatorPitch": "You cannot stop the turbulent waves of illness, change, and adversity, but you can learn to surf them. By meeting everyday chaos with grounded moment-to-moment attention, you reclaim your innate wholeness and transform relentless stress into lasting peace.",
       "coreThesis": "Wholeness is your birthright, not something you must assemble; by meeting the unavoidable turbulence of life with open, non-judgmental presence, pain loses its power to become suffering.",
@@ -12533,6 +12835,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1984,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d2de21a2",
     "onePageSummary": {
       "elevatorPitch": "Strip away centuries of mystical haze: Buddhism is an empirical owner's manual for your own mind. Peter Della Santina offers a serene, razor-sharp guide to resolving inner turbulence through direct awareness and practical insight.",
       "coreThesis": "Suffering is not an inescapable fate, but a mechanical byproduct of misperceiving dynamic change as permanent and grasping after a nonexistent static self; seeing reality as it is dissolves friction and yields lasting peace.",
@@ -12570,6 +12873,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1949,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4a772882",
     "onePageSummary": {
       "elevatorPitch": "Strip away mystique, ritual, and dogma to discover a surgical, liberating science of your own conscious experience. Venerable Nyanatiloka delivers an uncompromising masterclass on how suffering operates and how direct mental training dissolves it completely.",
       "coreThesis": "Suffering is not an inescapable curse but a conditioned chain reaction driven by ignorance and grasping; by systematically cultivating direct mindful awareness, the entire chain of mental friction dissolves into absolute freedom.",
@@ -12607,6 +12911,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1961,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d81422e1",
     "onePageSummary": {
       "elevatorPitch": "Step out of the exhausting storm of your conceptual thoughts and witness reality directly as it unfolds. Mahasi Sayadaw reveals the time-tested manual of bare awareness that dismantles chronic tension, dissolving the illusion of a separate self through simple, continuous observation.",
       "coreThesis": "Suffering dissolves when you stop identifying with passing sensations and instead observe every bodily and mental event with continuous, non-reactive awareness.",
@@ -12644,6 +12949,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1951,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8825a86b",
     "onePageSummary": {
       "elevatorPitch": "Stop wrestling with your runaway mind; simply step back and name reality as it occurs. Mahasi Sayadaw reveals the direct, practical manual for dismantling anxiety and discovering unshakable inner stillness through real-time experiential attention.",
       "coreThesis": "Suffering is sustained entirely by misidentifying with transient bodily sensations and passing thoughts; by applying silent, bare mental noting to every experience in the present moment, the illusion of an ego dissolves into enduring inner quietude.",
@@ -12681,6 +12987,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1f44761d",
     "onePageSummary": {
       "elevatorPitch": "Customers never purchase products or software features; they purchase an escape hatch from their current operational breakdown to a superior future state. True closing power comes not from charismatic pitching, but from precisely mapping and calculating the mathematical void between where a buyer is stuck and where they need to land.",
       "coreThesis": "The value of a sale is entirely determined by the size and urgency of the gap between a customer's broken current reality and their desired future state.",
@@ -12718,6 +13025,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "087ea205",
     "onePageSummary": {
       "elevatorPitch": "Gaslighting is not a miscommunication\\u2014it is an asymmetrical psychological war of attrition engineered to hijack your internal compass. Stephanie Moulton Sarkis provides the field manual to detect distorted reality loops, establish airtight boundaries, and reclaim absolute self-trust.",
       "coreThesis": "Gaslighting is a systematic campaign of perceptual sabotage designed to induce self-doubt and establish control; your only winning move is to stop debating reality and anchor yourself in cold, verifiable facts.",
@@ -12755,6 +13063,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1992,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f49e3f5a",
     "onePageSummary": {
       "elevatorPitch": "When cutting-edge neuroscientists and the Dalai Lama sit down in Dharamsala, two monumental traditions of inquiry meet not to debate dogmas, but to cross-examine reality. This landmark dialogue reveals that inspecting your mind under the quiet lens of direct awareness uncovers the very same dynamic, centerless nature that biology and cognitive science discover in the physical world.",
       "coreThesis": "Mind and matter are interdependent, dynamic processes devoid of a static, standalone self; genuine knowledge demands uniting rigorous external empirical measurement with disciplined, first-person experiential awareness.",
@@ -12792,6 +13101,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e889f955",
     "onePageSummary": {
       "elevatorPitch": "Your mind is an overzealous survival engine wired to solve problems by fighting or fleeing, but treating unwanted emotions like kitchen fires only fans the flames. This foundational ACT guide reveals how stepping out of the mental boxing ring frees you to build a vital, purpose-driven life.",
       "coreThesis": "Suffering occurs when we treat our mind's descriptive thoughts as literal commands and run from unavoidable pain; freedom begins when we accept our inner weather and move toward our chosen values.",
@@ -12829,6 +13139,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "65f99015",
     "onePageSummary": {
       "elevatorPitch": "When people hide the truth, aggressive interrogation triggers defensive walls like water hitting a hot skillet. Former CIA polygraph and interrogation specialists reveal how calm, structured monologues dismantle self-preservation instincts and make honesty feel like the safest path forward.",
       "coreThesis": "People do not withhold the truth because they enjoy lying; they hide it to protect themselves from immediate negative consequences. By removing confrontation and delivering an empathetic monologue that minimizes short-term shame, you turn truth-telling into the most appealing psychological choice.",
@@ -12866,6 +13177,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1991,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bc323cca",
     "onePageSummary": {
       "elevatorPitch": "When high-stakes negotiations stall against aggressive stonewalling and fiery hostility, brute force guarantees mutual defeat. William Ury reveals the counterintuitive behavioral mechanics of Breakthrough Negotiation\\u2014a battle-tested blueprint to disarm hostility, bypass ideological roadblocks, and turn stubborn adversaries into cooperative problem-solvers.",
       "coreThesis": "Hostile negotiations are cracked not by meeting pressure with counter-pressure, but by mastering your own reactions and systematically clearing the five psychological barriers standing between your counterpart and a durable agreement.",
@@ -12903,6 +13215,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2213257c",
     "onePageSummary": {
       "elevatorPitch": "When a relationship collapses, your brain experiences acute chemical withdrawal and systemic disruption. This field guide provides an exact, behavioral blueprint to halt the spiral, recalibrate your internal circuitry, and convert heartbreak into your greatest life upgrade.",
       "coreThesis": "A breakup is not a failure of character or a catastrophic dead end; it is a vital structural diagnostic that exposes your boundary deficits and offers a systematic window to rebuild genuine self-worth.",
@@ -12940,6 +13253,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1988,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6fbb6015",
     "onePageSummary": {
       "elevatorPitch": "Romantic attraction isn't random chemistry\\u2014it is a precision guidance system designed by your subconscious to find someone who matches your childhood emotional blueprint. When friction sparks, it is not proof you picked the wrong partner, but the hidden engine trying to heal your oldest wounds.",
       "coreThesis": "Romantic attraction is an unconscious homing beacon targeting the exact emotional profile needed to heal childhood wounds; intentional dialogue transforms the resulting conflict into profound, enduring connection.",
@@ -12977,6 +13291,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7e1f94e1",
     "onePageSummary": {
       "elevatorPitch": "Your mind is a brilliant studio for having ideas, not an overstuffed attic for storing them. Getting Things Done builds an external operating system that clears your headspace, kills anxiety, and translates every ambition into immediate, effortless action.",
       "coreThesis": "Stress does not come from having too much work; it comes from breaking agreements with yourself that your mind tries to track without an airtight system. By externalizing every commitment into concrete next actions within trusted buckets, you free your mind to focus entirely on execution and creativity.",
@@ -13014,6 +13329,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1981,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9e6458d6",
     "onePageSummary": {
       "elevatorPitch": "Most negotiations stall because people dig into stubborn trenches like two drivers refusing to yield in a narrow alleyway. Principled negotiation unlocks agreement by attacking the underlying problem together rather than attacking each other.",
       "coreThesis": "Wise agreements come from focusing on underlying human interests and fair standards rather than defending stubborn personal positions.",
@@ -13051,6 +13367,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "54dc05e6",
     "onePageSummary": {
       "elevatorPitch": "Success is not an individual zero-sum extraction; it is an ecosystem compounding play. By mastering 'otherish' giving\\u2014protecting your downside while creating outsized value for others\\u2014you construct an indestructible reputational moat.",
       "coreThesis": "Selfish extraction creates immediate returns but long-term reputational bankruptcy; otherish giving creates short-term asymmetry that compounds into an insurmountable reputational moat.",
@@ -13088,6 +13405,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1989,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b379eb98",
     "onePageSummary": {
       "elevatorPitch": "Happiness does not come from piling more onto your plate, but from having the courage to set down what you never needed to carry. Ayya Khema offers a clear, compassionate roadmap for trading the exhaustion of endless craving for the unshakeable peace of an unburdened mind.",
       "coreThesis": "Genuine, lasting happiness is not an achievement of accumulation, but the profound freedom that arises when you voluntarily release your craving to control, defend, and possess.",
@@ -13125,6 +13443,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1972,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "56422325",
     "onePageSummary": {
       "elevatorPitch": "Step into a breathtakingly modern Buddhist cosmos where even gods must die and universes breathe in endless cycles. Francis Story dissolves the divide between ancient spiritual insight and modern cosmology, pointing you back to direct, liberated awareness.",
       "coreThesis": "The universe is an infinite, self-regulating stream of causes and conditions without an absolute beginning or supreme creator; true liberation arises not from worshipping impermanent celestial beings, but through mastering one's own mind via clear insight.",
@@ -13162,6 +13481,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1981,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "39cc1048",
     "onePageSummary": {
       "elevatorPitch": "Before you can still the mind in deep meditation, you must anchor your life in unwavering direction and clean conduct. Bhikkhu Bodhi illuminates the twin foundations of Buddhist practice\\u2014taking refuge and undertaking moral precepts\\u2014revealing them not as ancient dogmas, but as practical tools for psychological stability and ultimate liberation.",
       "coreThesis": "True inner freedom requires an intentional compass of ultimate trust and practical guardrails of ethical restraint to quiet guilt, stabilize attention, and dissolve ego-driven suffering.",
@@ -13199,6 +13519,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "620ada55",
     "onePageSummary": {
       "elevatorPitch": "Jesus and the Buddha are not rival religious figures competing for souls, but spiritual brothers teaching the exact same art of mindful presence, reconciliation, and deep peace. By returning to the sacred sanctuary of your own conscious breathing, you discover that the Kingdom of God and the Pure Land are fully alive here and now.",
       "coreThesis": "True spiritual life is not an adherence to abstract dogmas, but an experiential homecoming to the present moment where mindfulness, compassion, and divine presence naturally dissolve alienation and unite all spiritual traditions.",
@@ -13236,6 +13557,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1996,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a9f60105",
     "onePageSummary": {
       "elevatorPitch": "Arguments are not verbal weapons designed for combat; they are collaborative calibration tools designed to uncover reality. By treating dialogue as structural engineering, this book reveals the hidden mechanics of how good reasons assemble into rock-solid conclusions.",
       "coreThesis": "A constructive argument is not an instrument of personal victory, but a cooperative architectural structure whose strength depends entirely on the acceptability, relevance, and sufficiency of its supporting reasons.",
@@ -13273,6 +13595,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "230a8a77",
     "onePageSummary": {
       "elevatorPitch": "Greatness is not an accident of circumstance or charismatic genius; it is a disciplined sequence of decisions executed with ruthless clarity. Jim Collins dismantles corporate myth-making to show how ordinary companies engineered sustainable, asymmetric market dominance.",
       "coreThesis": "Enduring greatness is the cumulative result of disciplined people, disciplined thought, and disciplined action compounding relentlessly over time.",
@@ -13310,6 +13633,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0d8faad5",
     "onePageSummary": {
       "elevatorPitch": "Strip away the physical noise and discover that less friction means vastly more agency. Fumio Sasaki offers an energizing blueprint to discard possessions, silence visual clutter, and reclaim your time, energy, and freedom.",
       "coreThesis": "Minimalism is a practical operating system that removes physical and cognitive friction, allowing you to redirect your finite time and focus toward what truly moves the needle in your life.",
@@ -13347,6 +13671,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "eade06ba",
     "onePageSummary": {
       "elevatorPitch": "Hard work alone is a losing strategy. Peak performers don't work longer hours; they ruthlessly cut away secondary tasks and execute a tiny set of high-leverage priorities with obsessive precision.",
       "coreThesis": "Elite performance is driven by deliberate subtraction followed by fanatical depth, not the sheer volume of hours logged.",
@@ -13384,6 +13709,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "efd28118",
     "onePageSummary": {
       "elevatorPitch": "Greatness in chaotic times is never an accident of luck or circumstance. It is a conscious, disciplined choice executed through calculated bets, rigorous pacing, and relentless vigilance.",
       "coreThesis": "Discipline, empirical validation, and relentless paranoia\\u2014not visionary gambling or superior luck\\u2014determine who survives chaos and dominates turbulent markets.",
@@ -13421,6 +13747,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1997,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "595f9eeb",
     "onePageSummary": {
       "elevatorPitch": "Enlightenment is not a uniform mold; it is a prism through which distinct human temperaments achieve complete inner freedom. By chronicling twenty-four real men and women\\u2014scholars, outlaws, grief-stricken mothers, and wealthy executives\\u2014this book reveals how every personality type can transform daily friction into liberating clarity.",
       "coreThesis": "Human liberation does not require an identical personality or an escape from everyday reality; any life condition, skill, or temperament can become the direct vehicle for complete inner freedom when met with clear awareness and non-attachment.",
@@ -13458,6 +13785,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "da3100ce",
     "onePageSummary": {
       "elevatorPitch": "Raw talent is merely cheap potential; sustained, targeted effort is the ultimate competitive moat. In high-uncertainty arenas, the prize goes not to the fastest starter, but to the operator who refuses to leave the field.",
       "coreThesis": "Achievement is not determined by raw genetic endowment, but by the compounding multiplier of sustained effort directed toward a single, long-term strategic objective.",
@@ -13495,6 +13823,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1938,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4a2f9c41",
     "onePageSummary": {
       "elevatorPitch": "Step behind the curtain of the thinking mind into an exact blueprint of your moment-to-moment experience. Nyanatiloka Mahathera deconstructs the illusion of a solid self into an organic, interconnected flow of awareness and conditional factors.",
       "coreThesis": "The perceived solid self is a convenient illusion created by rapid, interdependent streams of mind and matter. By systematically recognizing these elemental components and their causal conditions, the mind untangles craving and wakes up to genuine freedom.",
@@ -13532,6 +13861,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "79d5176a",
     "onePageSummary": {
       "elevatorPitch": "Most people treat money like raw horsepower, assuming more fuel automatically guarantees a better ride. In reality, how you steer and allocate every dollar dictates whether your wealth delivers genuine life satisfaction or just silent lifestyle creep.",
       "coreThesis": "Money reliably yields happiness only when spent to eliminate daily friction, cultivate shared human experiences, and preserve scarce time, rather than to accumulate depreciating material status symbols.",
@@ -13569,6 +13899,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1f9ac390",
     "onePageSummary": {
       "elevatorPitch": "Office politics is not corrupt manipulation; it is the natural law of human resource allocation inside every enterprise. Master the invisible currents of power, alignment, and incentives, or surrender your career trajectory to those who do.",
       "coreThesis": "Workplace politics is the unavoidable operational reality of allocating scarce organizational power; success requires mastering human incentives and building strategic leverage with absolute integrity.",
@@ -13606,6 +13937,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "750c0d56",
     "onePageSummary": {
       "elevatorPitch": "Stop deciphering mixed signals like cryptic hieroglyphics and start treating romantic interest like a green traffic light. If a partner wants to be with you, their actions make the road completely clear; if they don't, indecision is your answer.",
       "coreThesis": "A person who truly desires your company will consistently overcome barriers to pursue and keep you. When you have to invent excuses to explain their lack of effort, their inaction is already your answer.",
@@ -13643,6 +13975,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1974,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8477019f",
     "onePageSummary": {
       "elevatorPitch": "Why does external success often leave modern adults feeling mysteriously wounded, numb, or mechanically hollow? Robert A. Johnson uses the legendary Parsifal myth as a precise psychological circuit diagram, showing how reconciling our driven executive engine with inner emotional depth heals mid-life burnout.",
       "coreThesis": "Psychological maturity requires transitioning from driven, ego-fueled conquest to conscious inner reconciliation, healing the deep alienation of modern achievement by reconnecting the mind's executive drive with genuine soul and emotional integrity.",
@@ -13680,6 +14013,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "77864401",
     "onePageSummary": {
       "elevatorPitch": "Meditation is neither cold, dry intellectual detachment nor fuzzy, boundless emotionalism. Thanissaro Bhikkhu unites clear discernment with an open heart, offering a tough-minded, practical training manual for genuine spiritual freedom.",
       "coreThesis": "Authentic liberation requires uniting analytical discernment with universal goodwill, turning the mind into a disciplined craftsman capable of dismantling its own suffering.",
@@ -13717,6 +14051,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1997,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cf4874ec",
     "onePageSummary": {
       "elevatorPitch": "Anger is an internal fire that burns down your own home before singeing anyone else. By mastering contemplative patience, you transform adversaries into indispensable spiritual trainers and reclaim unshakeable inner peace.",
       "coreThesis": "Anger is an entirely irrational, self-inflicted poison that erodes clarity and joy; genuine patience is the active, supreme mental strength that transforms every interpersonal conflict into fuel for spiritual liberation.",
@@ -13754,6 +14089,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1991,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "34268018",
     "onePageSummary": {
       "elevatorPitch": "Most chronic back pain isn't a broken spine; it is an ingenious protective illusion engineered by your own nervous system. By pulling back the curtain on this hidden feedback loop, you disarm the brain's alarm system and turn off the pain.",
       "coreThesis": "Chronic back pain is rarely a structural defect; it is a subconscious decoy engineered through mild oxygen deprivation to distract you from buried emotional tension. Exposing the decoy breaks the circuit and cures the pain.",
@@ -13791,6 +14127,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0fd183a9",
     "onePageSummary": {
       "elevatorPitch": "Your chronic adult anxieties, perfectionism, and intimacy roadblocks are not character defects\\u2014they are brilliant survival software programmed when your environment could not meet your core biological needs. By learning how your nervous system wired these adaptive circuits, you can upgrade your internal operating system and restore natural emotional vitality.",
       "coreThesis": "Developmental trauma is not what happened to you in the past, but the persistent internal disconnect between your mind and body organized around outdated survival strategies.",
@@ -13828,6 +14165,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1988,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "17a62fae",
     "onePageSummary": {
       "elevatorPitch": "Guilt says you made a mistake; toxic shame says you *are* a mistake. John Bradshaw decodes the hidden operating system of self-contempt and provides a blueprint to rewire your emotional circuitry for genuine self-worth.",
       "coreThesis": "Toxic shame is an internalized identity of defectiveness inherited from broken relational systems, which dissolves only when brought out of hiding through conscious self-compassion, cognitive restructuring, and authentic human connection.",
@@ -13865,6 +14203,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a7666f96",
     "onePageSummary": {
       "elevatorPitch": "Stop wrestling with your thoughts and discover the calm clarity that has been inside you the entire time. This handbook strips away spiritual complexity and teaches you to rest directly in pure, undisturbed awareness.",
       "coreThesis": "Your mind's true nature is already pristine, spacious, and free; you do not need to construct peace, you only need to stop manipulating your immediate awareness.",
@@ -13902,6 +14241,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2023,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "db1b00a3",
     "onePageSummary": {
       "elevatorPitch": "When you step out of mental chatter, life reveals itself as an interconnected living web rather than an isolated battleground. A serene, direct dialogue reminding us that healing the outer world begins with cultivating an untangled, warm-hearted mind.",
       "coreThesis": "Individual peace and planetary survival share the exact same root: seeing through the illusion of self-isolation and meeting every living being with clear, practical compassion.",
@@ -13939,6 +14279,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7f357075",
     "onePageSummary": {
       "elevatorPitch": "Wake up from the autopilot of daily life. Heedfulness turns ordinary moment-to-moment attention into an unshakeable sanctuary beyond anxiety, grasping, and burnout.",
       "coreThesis": "Continuous, vigilant presence of mind is the sole bridge between automated suffering and enduring freedom. When you guard your awareness with consistent care, you unlock a steady peace untouched by life's volatility.",
@@ -13976,6 +14317,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e4b02908",
     "onePageSummary": {
       "elevatorPitch": "Stop drowning in lukewarm commitments: if an opportunity doesn't trigger an automatic, wholehearted 'Hell Yeah!', treat it as an absolute 'No'. Derek Sivers hands you the ultimate mental toolkit to strip away obligation, master your daily energy, and pour your life force exclusively into what genuinely matters.",
       "coreThesis": "If an opportunity or commitment does not evoke an undeniable, enthusiastic 'Hell Yeah!', it is an immediate 'No'. Relentless subtraction of the mediocre is the only way to create the empty space required for true excellence to take root.",
@@ -14013,6 +14355,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1983,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "796585f3",
     "onePageSummary": {
       "elevatorPitch": "A manager's output is not their own inbox or busywork\\u2014it is the net output of the entire team they influence. Learn how to run your business like a precision kitchen, eliminating bottlenecks and multiplying every hour worked.",
       "coreThesis": "A manager's total output equals the output of their organization plus the output of the neighboring organizations under their influence; maximum results come from applying high-leverage actions to the process's limiting step.",
@@ -14050,6 +14393,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d1ad2df4",
     "onePageSummary": {
       "elevatorPitch": "Romantic conflict is not a flaw in communication technique; it is a neurological distress signal triggered by threatened connection. By decoding the hidden attachment feedback loops that hijack our brains, partners can shift from hostile defense cycles into deep, enduring security.",
       "coreThesis": "Adult romantic love is an innate mammalian survival attachment system, and relationship distress is an automatic panic response to emotional disconnection that can be repaired through vulnerable, responsive connection.",
@@ -14087,6 +14431,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6afd9be0",
     "onePageSummary": {
       "elevatorPitch": "Stop running your home like an exhausted firefighter extinguishing endless crises and start operating it like a finely tuned expedition crew. Kim Brenneman reveals how structured daily anchor routines and batch-processed thematic days transform household maintenance into effortless background momentum.",
       "coreThesis": "Household serenity and productivity are not achieved through sheer willpower or endless frantic effort, but by engineering repeatable daily anchors and dedicated thematic batch days that eliminate decision fatigue.",
@@ -14124,6 +14469,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1983,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f120db39",
     "onePageSummary": {
       "elevatorPitch": "Your self-esteem is not an emotional trophy you win from other people's applause; it is the operating system and immune system of your own mind. Nathaniel Branden decodes the hidden psychological circuits of approval addiction, providing an empowering blueprint to claim autonomy, dismantle guilt, and anchor your self-worth internally.",
       "coreThesis": "Self-esteem is an internal biological and cognitive requirement generated only by self-directed consciousness and personal integrity\\u2014never by external applause, social conformity, or self-sacrificing compliance.",
@@ -14161,6 +14507,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c2e9d618",
     "onePageSummary": {
       "elevatorPitch": "Why do we reach for our phones before our feet hit the floor in the morning? Discover the hidden psychological machinery that turns everyday products into irresistible, subconscious reflexes.",
       "coreThesis": "Products achieve enduring dominance not through relentless advertising, but by encoding themselves into subconscious feedback loops that resolve internal emotional discomforts in seconds.",
@@ -14198,6 +14545,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1969,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fd152c01",
     "onePageSummary": {
       "elevatorPitch": "Chronic anxiety is not a broken mind; it is an oversensitive nervous system trapped in a self-igniting biofeedback loop. By replacing instinctive tension with active, biological non-resistance, you pull the oxygen out of the fear furnace.",
       "coreThesis": "Anxiety is maintained entirely by your reaction to its physical sensations; when you eliminate the 'second fear' of the symptoms themselves, the nervous system naturally resets and heals.",
@@ -14235,6 +14583,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8a06a50e",
     "onePageSummary": {
       "elevatorPitch": "Most strategic failures stem from bad arithmetic rather than bad intentions. Master mathematical thinking to spot asymmetric leverage and strip away self-deceiving illusions.",
       "coreThesis": "Mathematical thinking is tactical common sense systematized to eliminate blind spots and exploit asymmetric realities under uncertainty.",
@@ -14271,6 +14620,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "21ecf6f4",
     "onePageSummary": {
       "elevatorPitch": "Life is a storm of uncontrollable events, but your mind is a fortress you govern completely. Massimo Pigliucci translates ancient Stoic wisdom into a practical, modern blueprint for unflinching inner peace, clear ethical purpose, and emotional mastery.",
       "coreThesis": "True tranquility and human flourishing arise when we rigorously separate what we control from what we do not, focusing our energy solely on cultivating moral character and rational action.",
@@ -14308,6 +14658,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9b86fe04",
     "onePageSummary": {
       "elevatorPitch": "Your phone is not an innocent pocket tool\\u2014it is a meticulously engineered slot machine siphoning your most irreplaceable resource: your attention. This book delivers a practical, guilt-free 30-day playbook to reset your digital environment, break the autopilot reflex, and regain control of your life.",
       "coreThesis": "Your attention is your life; reclaiming it does not mean discarding your phone, but intentionally redesigning your environment and daily rituals so the device serves your goals rather than exploiting your instincts.",
@@ -14345,6 +14696,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "91fd8009",
     "onePageSummary": {
       "elevatorPitch": "Our daily minds get stuck in rutted grooves of self-criticism, anxiety, and habit. Discover how shutting down the ego's control room reveals the vast, calm ocean of pure awareness that was always there.",
       "coreThesis": "The ego is a temporary mental construct, not your true identity; quiet the brain's default narrator, and direct, luminous awareness naturally re-emerges.",
@@ -14382,6 +14734,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9ce6b005",
     "onePageSummary": {
       "elevatorPitch": "Most operators confuse execution quality with pure luck, mistaking lucky breaks for genius. This manual builds an unsentimental, probabilistic architecture to engineer superior long-run odds.",
       "coreThesis": "A quality decision is not defined by its outcome, but by the rigorous probabilistic process used to navigate uncertainty before the result is known.",
@@ -14418,6 +14771,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a9049e53",
     "onePageSummary": {
       "elevatorPitch": "When disagreement strikes, treating people like malfunctioning computers that need data updates guarantees mutual defensiveness. This book provides a masterclass in conversational mechanics\\u2014showing you how to replace verbal boxing matches with collaborative inquiry that naturally opens rigid minds.",
       "coreThesis": "People do not abandon deeply held beliefs through forced factual submission; minds evolve only when conversational safety and Socratic questioning prompt individuals to inspect their own epistemology.",
@@ -14455,6 +14809,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1989,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "55434d23",
     "onePageSummary": {
       "elevatorPitch": "Fear and worry do not come from the world around you; they stem entirely from an untrained mind clutching at things it cannot keep. This masterwork reveals how practical mindfulness, ethical clarity, and daily non-attachment permanently dismantle anxiety at its root.",
       "coreThesis": "Worry is an artificial burden born of selfish craving and resistance to natural change; understand life as it truly is, and fear loses all power over you.",
@@ -14492,6 +14847,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fbb829a8",
     "onePageSummary": {
       "elevatorPitch": "Stop treating a messy home like an exhausting marathon project that requires an entire weekend of panic-cleaning. Learn the counterintuitive, friction-free rules that keep physical environments perpetually functional through automated daily baselines and aggressive inventory limits.",
       "coreThesis": "A functional home is not created by occasional heroic cleaning sprees or intricate organization systems, but by anchoring automated daily maintenance baselines and aggressively capping physical possessions at the capacity of your available containers.",
@@ -14529,6 +14885,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "749fd70f",
     "onePageSummary": {
       "elevatorPitch": "Happiness is not an accident of circumstance\\u2014it is a trainable inner skill. The Dalai Lama distills centuries of Tibetan contemplative science into a lucid, step-by-step masterclass on purifying daily actions, calming the mind, and uncovering the deep nature of reality.",
       "coreThesis": "Genuine, unshakable peace is achieved by uniting rigorous ethical discipline, laser-focused mental stillness, and the liberating wisdom of emptiness in the service of universal compassion.",
@@ -14566,6 +14923,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1972,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6510dd6a",
     "onePageSummary": {
       "elevatorPitch": "Most people treat reading like lounging in a passenger seat, but true comprehension requires grabbing the wheel and driving hard. This definitive manual unveils reading as an athletic, cognitive discipline that stretches your mental bandwidth and turns passive scanning into active mastery.",
       "coreThesis": "True reading is an active cognitive sport where understanding increases only in proportion to the intensity of mental effort invested. By mastering progressive levels of reading\\u2014from structural scouting to cross-book synthesis\\u2014readers transform information intake into profound intellectual growth.",
@@ -14603,6 +14961,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2006,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "59860268",
     "onePageSummary": {
       "elevatorPitch": "Most of our anxiety and anger comes from defending an imaginary, rigid ego that does not actually exist. By investigating your immediate experience with quiet, surgical precision, you dissolve this inner tension and uncover a natural, unshakeable compassion.",
       "coreThesis": "You do not exist as a solid, independent entity isolated from the world; seeing that your identity is an interconnected, ever-changing process dissolves fear and naturally awakens boundless compassion.",
@@ -14640,6 +14999,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0342e506",
     "onePageSummary": {
       "elevatorPitch": "Deception is an engine under heavy cognitive load, and every lie inevitably leaks through physiological heat. Master the interrogator's science of baselining to spot the subtle cracks between words and nervous systems.",
       "coreThesis": "There is no single universal tell for a lie; deception is discovered by measuring abrupt departures from a person's calibrated baseline under targeted cognitive stress.",
@@ -14677,6 +15037,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c50fdf8b",
     "onePageSummary": {
       "elevatorPitch": "Stop treating your brain as a storage closet and build an interconnected thinking partner that compound-interests your knowledge over time. By capturing atomic ideas and linking them bottom-up, you never face a blank screen again.",
       "coreThesis": "Thinking occurs through externalized, interconnected notes rather than inside biological working memory alone; writing is not the summary of thought, but the vehicle that builds it.",
@@ -14714,6 +15075,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1980,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "097eaa7b",
     "onePageSummary": {
       "elevatorPitch": "Human friction isn't caused by broken intentions, but by broken feedback loops. When you stop ordering, lecturing, and judging\\u2014and start mirroring reality with calm, descriptive precision\\u2014resistance dissolves into natural collaboration.",
       "coreThesis": "Cooperation is not extracted through authority or coercion; it is unlocked when emotional reality is validated and communication shifts from character judgment to objective description.",
@@ -14751,6 +15113,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "36b459b3",
     "onePageSummary": {
       "elevatorPitch": "Step into the boots of Rome's philosopher-king to learn how modern cognitive behavioral therapy and ancient Stoicism forge an unbreakable, peaceful mind. Donald Robertson shows how master tools of rational reflection turn life's worst storms into quiet personal triumphs.",
       "coreThesis": "External events possess no power to hurt your character; by separating raw circumstances from your subjective judgments, you build an unassailable sanctuary of reason, duty, and quiet serenity.",
@@ -14788,6 +15151,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e278eff0",
     "onePageSummary": {
       "elevatorPitch": "Persuasion is an engineering problem, not a volume contest. By replacing aggressive debate with psychological judo, you guide opponents into choosing your conclusion willingly without a single raised voice.",
       "coreThesis": "You do not win an argument by defeating an opponent; you win by transforming the debate into a collaborative zone where your outcome is the counterpart's most reasonable choice.",
@@ -14825,6 +15189,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d61f3921",
     "onePageSummary": {
       "elevatorPitch": "Telling dominates human conversation, but when complex systems fail, directive orders blind us to the ground truth. Edgar Schein reveals how genuine, humble questioning unlocks mission-critical data, diffuses defensive barriers, and builds unbreakable trust.",
       "coreThesis": "Genuine collaboration and error-free execution require trading the impulse to tell for the discipline of asking questions to which you do not already know the answer, consciously choosing vulnerability to access critical truth.",
@@ -14862,6 +15227,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4e2f0ef5",
     "onePageSummary": {
       "elevatorPitch": "Humor is not an innate talent reserved for stand-up comedians; it is an underutilized psychological catalyst that builds trust, diffuses friction, and sharpens creative problem-solving. By learning the mechanics of levity, anyone can transform ordinary workplace interactions into memorable, high-trust collaborations.",
       "coreThesis": "Humor is a learnable behavioral skill and high-leverage cognitive tool that signals confidence, builds instant rapport, and drives creative performance in high-stakes environments.",
@@ -14899,6 +15265,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "563229d7",
     "onePageSummary": {
       "elevatorPitch": "Attention is your mind's most precious operating currency, yet most days slip away on autopilot. By learning to balance pin-point hyperfocus with deliberate, wandering scatterfocus, you unlock both fierce execution and effortless creative breakthroughs.",
       "coreThesis": "Peak productivity is an intentional dance between two complementary mental states: laser-sharp hyperfocus for execution and wide-ranging scatterfocus for creativity and recovery.",
@@ -14936,6 +15303,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1973,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1dc91cf3",
     "onePageSummary": {
       "elevatorPitch": "You are not a stressed passenger trapped in a fragile body, but the vast, quiet sky in which your entire life and every thought appears. By quietly resting in the simple feeling of 'I exist' before adding a single label, you awaken to an unshakeable freedom that has never left you.",
       "coreThesis": "You are the unchanging, luminous awareness in which thoughts, feelings, and the entire universe arise\\u2014not the mortal body or mental stories you mistakenly identify with.",
@@ -14973,6 +15341,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1998,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b1f0af96",
     "onePageSummary": {
       "elevatorPitch": "Before she became one of the twentieth century's most revered Buddhist meditation masters, Ayya Khema survived Nazi terror, wartime internment in China, and suburban California domesticity. This extraordinary memoir illuminates how a lifetime of tumultuous upheaval transformed into total inner liberation and selfless spiritual service.",
       "coreThesis": "True freedom is not found by finding a safe corner in an unpredictable world, but by relinquishing the illusion of an isolated self and transforming one's life into openhanded awareness and selfless service.",
@@ -15010,6 +15379,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1c8d2e62",
     "onePageSummary": {
       "elevatorPitch": "Most arguments do not stem from bad logic; they stem from emotional starvation. This book reveals the simple mechanical lever that diffuses defensive tension, builds trust, and makes every conversation work: validation.",
       "coreThesis": "People cannot process logic or collaborate constructively until their emotional reality has been acknowledged and validated.",
@@ -15047,6 +15417,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2007,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7a7f7bfc",
     "onePageSummary": {
       "elevatorPitch": "Shame thrives in dark corners of silence and tells you that you are fundamentally broken. By mapping its biological tripwires and shining the light of empathy on your hidden struggles, you dismantle social paralysis and step into authentic self-worth.",
       "coreThesis": "Shame derives its destructive power from secrecy, silence, and judgment; exposing it through self-awareness and empathic connection permanently breaks its hold over your identity.",
@@ -15084,6 +15455,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f4116e76",
     "onePageSummary": {
       "elevatorPitch": "Stop obsessing over the price of a daily cup of coffee and start building an automated financial engine that runs quietly in the background. Master a handful of high-impact moves once, and you can spend guilt-free on what you love while effortlessly growing real wealth.",
       "coreThesis": "Financial freedom comes from automating a few high-leverage structural decisions once, allowing you to spend ruthlessly on what you love and ignore daily micro-budgeting entirely.",
@@ -15121,6 +15493,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cda42860",
     "onePageSummary": {
       "elevatorPitch": "Longevity is not an accident of genetics; it is the quiet byproduct of having an authentic reason to wake up each dawn. By aligning purposeful daily action with calm self-restraint, you transform ordinary living into an enduring source of vitality.",
       "coreThesis": "A long and serene life arises when daily presence, moderate habits, and close community revolve around an enduring personal purpose.",
@@ -15158,6 +15531,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d5959d15",
     "onePageSummary": {
       "elevatorPitch": "Life does not run on a rehearsed script; it operates like a live, unscripted feedback loop. Stanford pioneer Patricia Ryan Madson shows how thirteen simple improvisational rules rewire our defensive reflexes into effortless wit, presence, and real-time responsiveness.",
       "coreThesis": "Spontaneous wit and effective presence do not stem from flawless advance preparation, but from trusting the live environment and treating every interaction as an offer to be accepted and built upon.",
@@ -15195,6 +15569,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "96450351",
     "onePageSummary": {
       "elevatorPitch": "Eat food. Not too much. Mostly plants. In seven immortal words, Michael Pollan exposes how reductionist food science hijacked our dinner plates and reveals how returning to real, living ingredients restores lifelong metabolic health.",
       "coreThesis": "The modern Western diet of engineered, nutrient-stripped commodities is the root cause of chronic metabolic illness; true vitality requires abandoning reductionist food science in favor of real, traditional, whole foods eaten with mindful moderation.",
@@ -15232,6 +15607,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c4e7b6d2",
     "onePageSummary": {
       "elevatorPitch": "Compassion is not a fragile emotion or weak sentimentality\\u2014it is a robust, trainable skill that dismantles everyday ego-fixation and liberates the mind. The Dalai Lama and Thubten Chodron deliver an exact blueprint for awakening universal empathy and radical resilience in the thick of ordinary life.",
       "coreThesis": "The instinctive obsession with putting oneself first is the primary engine of human discontent, whereas systematically training the mind in boundless compassion is the most direct path to inner freedom and outer harmony.",
@@ -15269,6 +15645,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1996,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "88872b8c",
     "onePageSummary": {
       "elevatorPitch": "Step into the behavioral mechanics lab: manipulators aren't misunderstood, wounded souls acting out of anxiety\\u2014they are skilled fighters actively angling to win while concealing their punches. Once you see the hidden levers of covert aggression, you can reset the rules of engagement and render their tactics completely powerless.",
       "coreThesis": "Manipulative behavior is not an emotional cry for help rooted in neurosis, but an intentional, covert combat strategy designed to dominate others while keeping the aggressor's social image spotless.",
@@ -15306,6 +15683,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "16e8cd11",
     "onePageSummary": {
       "elevatorPitch": "Ajahn Chah strips away ornate monastic dogma to hand you 108 razor-sharp, down-to-earth parables on taming your mind. Discover why inner peace isn't an exotic destination, but the simple, radical art of putting down the heavy rocks you carry every day.",
       "coreThesis": "Suffering comes not from changing circumstances, but from grasping what naturally slips away; true peace is the effortless baseline revealed the moment you drop what you carry.",
@@ -15343,6 +15721,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2783e0b7",
     "onePageSummary": {
       "elevatorPitch": "Direct from humanity's oldest contemplative treasury, this book distills the historical Buddha's core discourses into a clear, stepwise manual for mastering the mind and finding unshakeable peace amidst life's storms.",
       "coreThesis": "Suffering arises because we grasp tightly at fleeting experiences and mistake a transient mind-body process for a solid self; train the mind in calm mindfulness and penetrating insight, and you step into timeless freedom.",
@@ -15380,6 +15759,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a0d1f215",
     "onePageSummary": {
       "elevatorPitch": "Addiction isn't a moral defect or an inescapable genetic curse\\u2014it is a survival response to unaddressed emotional pain. By examining the brain's internal wiring, this book reveals why we chase quick fixes and how genuine healing begins with curiosity rather than punishment.",
       "coreThesis": "Addiction is never the primary problem; it is a desperate attempt to solve deep, unsoothed emotional pain. Real recovery requires shifting our core question from 'Why the addiction?' to 'Why the pain?'",
@@ -15417,6 +15797,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1992,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "753afa27",
     "onePageSummary": {
       "elevatorPitch": "Liberation is not an elusive myth reserved for ancient monks; it is a direct, achievable reality attainable right now through uncompromising, moment-to-moment mindfulness. Sayadaw U Pandita provides a razor-sharp, practical field manual to dismantle suffering and awaken in this very life.",
       "coreThesis": "Complete freedom from suffering is directly accessible in this immediate lifetime through rigorous, unbroken, moment-to-moment mindfulness of mind and body.",
@@ -15454,6 +15835,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ccfe8ed0",
     "onePageSummary": {
       "elevatorPitch": "Distraction is not a technology problem; it is a human discomfort problem. By mastering the hidden emotional discomforts behind your impulses, you can design an ironclad operating system for your attention and live by deliberate design.",
       "coreThesis": "Distraction is always an unhealthy escape from internal discomfort; you can only become focused when you manage emotional triggers and align your calendar with your core values.",
@@ -15491,6 +15873,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1984,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ad59c437",
     "onePageSummary": {
       "elevatorPitch": "Human decision-making operates like an internal autopilot governed by hidden trigger mechanisms. Master the six universal psychological levers that drive automatic compliance, and you will instantly decode why people say 'yes' when they mean 'no.'",
       "coreThesis": "Human beings rely on automatic, cue-triggered shortcuts to navigate complex choices, making our decisions predictable and easily influenced by anyone who activates these universal psychological levers.",
@@ -15528,6 +15911,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1998,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ae83b8b6",
     "onePageSummary": {
       "elevatorPitch": "Ajahn Lee shows that true inner strength is not an abstract philosophy, but a practical craftsmanship of breath and mind developed right inside your ribcage. By refining your attention like an artisan working with raw gold, you transform daily mental reactivity into unshakable, natural freedom.",
       "coreThesis": "Genuine liberation is an empirical craft: by mastering bodily breath energy and cultivating silent, non-clinging discernment, awareness frees itself from all fabricated suffering.",
@@ -15565,6 +15949,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1986,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "452eb36a",
     "onePageSummary": {
       "elevatorPitch": "Your conscious ego is only the tip of the iceberg; beneath the surface runs a massive, self-regulating inner intelligence. Robert A. Johnson hands you a practical laboratory manual to decode your dreams and hold direct, two-way conversations with your deeper self.",
       "coreThesis": "Wholeness requires establishing a deliberate, respectful communication channel between the conscious ego and the unconscious mind through disciplined symbolic work and physical rituals.",
@@ -15602,6 +15987,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1979,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8eea2514",
     "onePageSummary": {
       "elevatorPitch": "Stop wrestling with your mind and start watching it work. Venerable Sayadaw U Sobhana strips away centuries of mystical fog to deliver an exact, step-by-step practical manual for uncovering unshakable inner stillness right in the middle of everyday life.",
       "coreThesis": "Suffering dissolves the exact instant you stop identifying with passing thoughts and physical sensations, meeting every present-moment experience with neutral, bare awareness.",
@@ -15639,6 +16025,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1993,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cca37bca",
     "onePageSummary": {
       "elevatorPitch": "Liberation is not an elusive altered state or an exotic prize\\u2014it is the innate freedom of awareness resting in reality exactly as it is right now. Joseph Goldstein demystifies insight meditation with grounded clarity, showing how every ordinary moment of daily life holds the open doorway to awakening.",
       "coreThesis": "Suffering does not come from the changing conditions of life, but from our mind's habit of clinging and resisting; freedom is the direct, experiential discovery of peace when we meet every present experience with unclenched awareness.",
@@ -15676,6 +16063,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1996,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2b282e3b",
     "onePageSummary": {
       "elevatorPitch": "A crystal-clear, hands-on field manual for training direct awareness and dismantling mental friction without dogma or mystification. It translates ancient insight practice into a step-by-step diagnostic toolkit for modern everyday sanity.",
       "coreThesis": "Suffering dissolves when attention shifts from believing mental narratives to directly observing the real-time physical and mental sensations that make up each fleeting moment.",
@@ -15713,6 +16101,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 95,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "daacfbd1",
     "onePageSummary": {
       "elevatorPitch": "Mastery in communication is not a bag of superficial stage tricks, but an integrated operating system linking raw character, disciplined logic, and physical delivery. Quintilian breaks down human persuasion with surgical precision, showing how an upright mind transforms clear thinking into irresistible public influence.",
       "coreThesis": "True eloquence is the natural resonance of an upright character expressing clear, rigorous thought through disciplined physical mechanics.",
@@ -15750,6 +16139,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1987,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1bedb6c5",
     "onePageSummary": {
       "elevatorPitch": "Spirituality is not an escape hatch from the messy world\\u2014it is the direct practice of clarity and compassion in the middle of it. Thich Nhat Hanh translates ancient Zen discipline into fourteen razor-sharp guidelines for living awake in modern society.",
       "coreThesis": "You do not exist in isolation; you 'inter-are' with everything around you, meaning personal mindfulness and compassionate social action are inseparable.",
@@ -15787,6 +16177,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a74400e7",
     "onePageSummary": {
       "elevatorPitch": "Stream-entry is not a vague mystical trance, but a precise, verifiable milestone where the mind catches its first direct glimpse of the unconditioned. Thanissaro Bhikkhu maps the exact practical training required to step into the current of liberation and ensure total freedom from suffering.",
       "coreThesis": "The first stage of awakening is a verifiable shift in perception won by systematic mental craftsmanship: when attention ceases feeding habitual reactive fabrications, the mind directly touches the unconditioned and enters an irreversible current toward total liberation.",
@@ -15824,6 +16215,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9e632f4d",
     "onePageSummary": {
       "elevatorPitch": "Think of human communication as an invisible power grid: most conflicts arise from short-circuits, loose connections, and bad wiring rather than malice. Copi, Cohen, and Rodych hand you the master multimeter and blueprint to inspect, test, and build unbreakable reasoning.",
       "coreThesis": "Sound reasoning is an objective, testable science governed by structural mechanics; strip away rhetoric and emotional charge, and an argument's validity can be engineered and verified as rigorously as a physical bridge.",
@@ -15861,6 +16253,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0ce19066",
     "onePageSummary": {
       "elevatorPitch": "Stop wrestling with your busy mind and step back into the quiet space that notices the struggle. Freedom isn't something you build\\u2014it is the wide-open sky of awareness already present behind every passing storm.",
       "coreThesis": "Suffering occurs only when we identify with passing mental and emotional weather; true liberation is directly recognizing and resting in the untouched, open space of awareness that holds it all.",
@@ -15898,6 +16291,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c6cec055",
     "onePageSummary": {
       "elevatorPitch": "Cut through fashionable spiritual marketing and inspect the raw balance sheet of the human mind with one of modern Buddhism\\u2019s sharpest forensic auditors. Bhikkhu Bodhi delivers an unvarnished masterclass in emotional risk management, proving that real freedom comes from auditing false mental assets rather than buying into feel-good fads.",
       "coreThesis": "Genuine mental freedom is not achieved through trendy intellectual compromises, but through the rigorous, unvarnished audit and liquidation of toxic emotional attachments.",
@@ -15935,6 +16329,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "86c1187b",
     "onePageSummary": {
       "elevatorPitch": "We believe our choices are completely independent, yet invisible social gravity shapes everything from the cars we drive to the careers we pursue. Jonah Berger unpacks the hidden physics of social influence, showing you how to steer these currents instead of drifting with the tide.",
       "coreThesis": "Human behavior is continually guided by invisible social forces that push us toward conformity, pull us toward differentiation, and subtly dictate our performance.",
@@ -15972,6 +16367,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1958,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "50432d8e",
     "onePageSummary": {
       "elevatorPitch": "Pure reason gives us remarkable technical blueprints, yet leaves the human heart stranded in cold abstraction. William Barrett invites us to step out of the sterile lecture hall and embrace the full, authentic weight of mortal life with calm clarity and courageous responsibility.",
       "coreThesis": "Human wholeness cannot be achieved through intellectual detachment alone; true wisdom demands that we acknowledge our mortality, embrace our irrational depths, and accept personal responsibility for every action we take.",
@@ -16009,6 +16405,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "80a2635c",
     "onePageSummary": {
       "elevatorPitch": "Your lack of digital focus is not a personal character flaw; it is an engineered design contest you were never equipped to win alone. Learn how to reconstruct your physical environment and daily routines to reclaim total mastery over your attention.",
       "coreThesis": "Behavioral addiction is an engineered byproduct of modern software design that exploits fundamental human vulnerabilities, but deliberate environmental architecture restores your personal autonomy.",
@@ -16046,6 +16443,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8bc640c7",
     "onePageSummary": {
       "elevatorPitch": "Your chronic anxieties, unexplainable fears, and self-sabotaging instincts may not be your personal creations, but biological echoes passed down from ancestors who never resolved them. Mark Wolynn delivers a sharp, scientific blueprint to decode your subconscious verbal quirks, trace the hidden emotional circuits in your family tree, and rewire your nervous system for lasting freedom.",
       "coreThesis": "Unresolved generational trauma alters gene expression and family relational patterns, projecting ancestral suffering into your present life until you decode its hidden language and consciously close the biological feedback loop.",
@@ -16083,6 +16481,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f79bff9a",
     "onePageSummary": {
       "elevatorPitch": "When an engine throws a rod, turning the key harder will not fix the mechanical disaster. This book treats post-relationship grief like a malfunctioning behavioral feedback loop, giving you the operational circuit-breakers needed to shut down emotional leakage and rebuild sovereign vitality.",
       "coreThesis": "A breakup is not an ambiguous puzzle waiting to be solved; it is conclusive proof of structural collapse that demands an immediate, disciplined circuit breaker to restore personal agency.",
@@ -16120,6 +16519,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2534065a",
     "onePageSummary": {
       "elevatorPitch": "Mindfulness is not a tranquil spa escape; it is the master key to clear seeing forged in the furnace of real human struggle. Bhante G.'s life reveals how bare awareness transforms poverty, sickness, racial prejudice, and heartbreak into unwavering liberation.",
       "coreThesis": "Enlightenment is not an exotic trance, but ordinary life met with clean, non-clinging awareness and boundless loving-kindness.",
@@ -16157,6 +16557,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cda521ec",
     "onePageSummary": {
       "elevatorPitch": "Transform your career by stripping away the physical, digital, and calendar clutter that drags down your workdays. Discover how applying deliberate minimalism to your desk, inbox, and meetings turns daily labor into pure professional momentum.",
       "coreThesis": "Clutter across your desk, inbox, and schedule drains mental bandwidth and fuels burnout; ruthlessly curating what you keep restores control, focus, and joy at work.",
@@ -16194,6 +16595,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f9de627a",
     "onePageSummary": {
       "elevatorPitch": "When communication stalls, pushing harder only locks the emotional brakes tighter. By mastering hostage-negotiator neuroscience, you can neutralize fight-or-flight defensiveness and guide any stubborn mind from pure hostility to willing cooperation.",
       "coreThesis": "People do not open their minds because they understand your logic; they open their minds when they realize you understand their reality.",
@@ -16231,6 +16633,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9b8bc2d5",
     "onePageSummary": {
       "elevatorPitch": "Stop running on the consumerist treadmill of craving and discovering the quiet freedom already present in your direct awareness. Ajahn Amaro masterfully illuminates how stepping out of the cycle of 'just one more' opens the boundless, effortless joy of celebrating life as it is.",
       "coreThesis": "Suffering is perpetuated by the delusion that fulfillment lies in 'just one more' gratification; genuine liberation arises when mindful awareness intercepts the urge to grasp, revealing our inherent completeness through appreciative joy.",
@@ -16268,6 +16671,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7379b821",
     "onePageSummary": {
       "elevatorPitch": "Cut through endless spiritual debates and overthinking with a single, direct command: wake up to this immediate breath, see thoughts as passing weather, and drop what hurts.",
       "coreThesis": "Suffering is not caused by life's fluctuating conditions, but by our habit of grasping what changes; seeing this clearly in the immediate moment through bare mindfulness is the entire path to peace.",
@@ -16305,6 +16709,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5c99f90e",
     "onePageSummary": {
       "elevatorPitch": "Justice is not merely a dry calculation of numbers or a ledger of personal liberties. It is a shared journey toward cultivating moral character and tending the garden of our common community.",
       "coreThesis": "Justice is fundamentally teleological and virtue-centered: we cannot build a fair society merely by maximizing happiness or protecting neutral freedoms, but only by reasoned deliberation on the moral good and collective excellence.",
@@ -16342,6 +16747,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1975,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "00dd8857",
     "onePageSummary": {
       "elevatorPitch": "Karma is not a rigid fate written in stone, but the living steering wheel of your immediate awareness. Master your present intentions, and you rewrite the entire trajectory of your inner life.",
       "coreThesis": "Karma is neither blind fatalism nor chance luck; it is dynamic, intention-driven causality where present-moment mindfulness can dissolve the grip of past momentum.",
@@ -16379,6 +16785,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1959,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "472b6bc7",
     "onePageSummary": {
       "elevatorPitch": "You are neither the victim of blind genetic luck nor the property of an external judge; your present experience is the exact harvest of your past intentions. Nyanatiloka Mahathera delivers a razor-sharp, grounding manual that demystifies how actions create destiny\\u2014and how conscious awareness sets you free.",
       "coreThesis": "Every conscious intention acts as a living seed that inexorably ripens into your future experience; by ending craving in the present moment, the chain of rebirth dissolves into liberation.",
@@ -16416,6 +16823,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1915,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d49ca422",
     "onePageSummary": {
       "elevatorPitch": "Step into antiquity's sharpest spiritual courtroom, where centuries of subtle ego-traps, spiritual superstitions, and metaphysical illusions are dismantled by the blade of clear mindfulness. It is a timeless masterclass in clearing the mind's clutter so direct liberation can breathe.",
       "coreThesis": "Genuine spiritual awakening is not an accumulation of esoteric dogmatic beliefs, but the radical dismantling of the illusory self through lucid, relentless investigation of immediate experience.",
@@ -16453,6 +16861,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2022,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "484182e0",
     "onePageSummary": {
       "elevatorPitch": "Stop treating domestic maintenance as a moral exam and start engineering your space to serve your life. Master the mechanics of low-friction environment design so you can run your home with effortless momentum, even on your lowest-energy days.",
       "coreThesis": "Care tasks are morally neutral and exist solely to serve your human functionality; designing friction-free, adaptive systems and eliminating shame restores immediate agency in any overwhelmed space.",
@@ -16490,6 +16899,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1953,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "823a92eb",
     "onePageSummary": {
       "elevatorPitch": "Your breath is not just air in the lungs\\u2014it is an internal energy grid you can actively tune to dissolve tension and stabilize awareness. Master Thai forest teacher Ajahn Lee provides a manual for transforming ordinary respiration into a sanctuary of profound meditative stillness and liberating insight.",
       "coreThesis": "Breath is an active, malleable life energy that can be systematically refined to calm the nervous system, unify attention, and awaken liberating discernment.",
@@ -16527,6 +16937,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "dd7b403e",
     "onePageSummary": {
       "elevatorPitch": "Legacy systems fail not because their technology grows obsolete, but because human organizations lose the institutional memory and communication habits that sustain them. Marianne Bellotti reveals how to modernize foundational infrastructure without burning everything down in a high-risk rewrite.",
       "coreThesis": "Complex systems survive and adapt when organizations treat modernization as an ongoing socio-technical habit of communication and incremental refactoring, rather than a catastrophic total rewrite.",
@@ -16564,6 +16975,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1984,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a0268757",
     "onePageSummary": {
       "elevatorPitch": "Your mind is not broken; it is simply clouded by habitual grasping and unchecked reactions. By pairing active kindness with razor-sharp insight, you discover an unwavering inner clarity that transforms how you live, work, and relate to the world.",
       "coreThesis": "Genuine freedom arises when boundless compassion softens the heart while analytical wisdom dissolves the illusion of a separate, rigid self, revealing the luminous clarity naturally present in immediate awareness.",
@@ -16601,6 +17013,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1990,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "be1972eb",
     "onePageSummary": {
       "elevatorPitch": "Human maturity isn't automatic; it is an internal operating system built on four distinct structural engines. Master their dynamics, or your psyche defaults to destructive shadow loops that quietly derail your career, relationships, and purpose.",
       "coreThesis": "Psychological maturity requires consciously balancing four archetypal energies\\u2014the King, Warrior, Magician, and Lover\\u2014because unintegrated energies inevitably degrade into destructive bi-polar shadow states of active inflation or passive collapse.",
@@ -16638,6 +17051,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1991,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4e059a9a",
     "onePageSummary": {
       "elevatorPitch": "Your mind creates your entire experience of reality, yet most people let it run like an unruly driverless vehicle. Ayya Khema hands you the keys to your inner world, demonstrating how steady mindfulness and deep calm dismantle the anxious ego and open a wellspring of quiet freedom.",
       "coreThesis": "Suffering is simply the reflex of an untrained mind grasping at pleasant moments and resisting unpleasant ones; knowing your mind through steady observation dissolves the illusion of ego and reveals lasting inner freedom.",
@@ -16675,6 +17089,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4bef4f0d",
     "onePageSummary": {
       "elevatorPitch": "A master manual that turns meditation from vague relaxation into an exact, step-by-step science of seeing your own mind and body under high-power concentration. By steadying attention like a precision lens, you learn to dissolve the illusion of self and experience profound inner peace.",
       "coreThesis": "Liberation from suffering is achieved not through blind faith or intellectual study, but by training the mind to razor-sharp stillness so it can directly see the transparent, momentary nature of all mental and physical phenomena.",
@@ -16712,6 +17127,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8d8fdc75",
     "onePageSummary": {
       "elevatorPitch": "Being exceptional at your craft is useless if the market cannot find you. This playbook reveals the repeatable four-step blueprint to engineer legitimate authority, command market pricing, and build an unassailable career moat.",
       "coreThesis": "Reputation is not an accident of charisma; it is a systematically engineered asset built by marrying a sustainable interest with uncontested market space, consistent content production, and an actionable audience.",
@@ -16749,6 +17165,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "031a7c36",
     "onePageSummary": {
       "elevatorPitch": "Strip away the physical, bodily, and mental excess that creates friction in your days. Master the Japanese art of refined subtraction to build effortless focus, peak energy, and deep everyday serenity.",
       "coreThesis": "Subtracting physical, biological, and psychological clutter liberates finite energy, transforming everyday life into an elegant, high-clarity masterpiece.",
@@ -16786,6 +17203,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1970,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cf91205e",
     "onePageSummary": {
       "elevatorPitch": "Traditional logic refines existing patterns like a shovel digging an established hole deeper, but it cannot decide where to dig next. Lateral thinking is the mechanical toolkit for hopping out of that trench and breaking ground on entirely new terrain.",
       "coreThesis": "Creativity is not an enigmatic talent; it is the deliberate, mechanical restructuring of entrenched perceptual patterns.",
@@ -16823,6 +17241,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "daf34e8b",
     "onePageSummary": {
       "elevatorPitch": "Human cognition is biologically wired to reject raw directives and forget dry bullet points. By treating stories as high-resolution operational flight simulators, leaders can download complex values, strategy, and judgment straight into their team's mental operating system.",
       "coreThesis": "Data informs the intellect, but narrative trains human judgment; true leadership operates by embedding abstract principles into concrete stories that function as mental flight simulators for autonomous decision-making.",
@@ -16860,6 +17279,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cf7076cf",
     "onePageSummary": {
       "elevatorPitch": "Leadership is not an executive privilege; it is an asymmetrical risk contract. When leaders build a perimeter of internal safety, teams stop wasting energy dodging office politics and deploy all firepower against market competition.",
       "coreThesis": "Teams unlock peak execution only when internal psychological safety is guaranteed, freeing human biology to collaborate internally and fight external threats together.",
@@ -16897,6 +17317,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "65c8f3ed",
     "onePageSummary": {
       "elevatorPitch": "Sales compensation is not an administrative payroll task; it is the behavioral nervous system of your entire commercial engine. When you adjust the payout formula, you alter where human energy, focus, and strategic ambition flow across every customer conversation.",
       "coreThesis": "Salespeople do not work for your corporate mission statement; they work the compensation plan you hand them. Align the economic reward curve directly with your strategic objective, and organizational growth follows automatically.",
@@ -16934,6 +17355,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f5fc386f",
     "onePageSummary": {
       "elevatorPitch": "Learning is not an innate genetic gift; it is a mechanical biological craft governed by how your brain weaves and consolidates neural wires. Master two distinct modes of thinking and you can master any skill on demand.",
       "coreThesis": "Deep competence is forged by alternating focused effort with subconscious diffuse incubation, cementing neural pathways through active retrieval rather than passive consumption.",
@@ -16971,6 +17393,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1991,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b24b27bc",
     "onePageSummary": {
       "elevatorPitch": "Helplessness is not an ingrained flaw\\u2014it is a conditioned reflex you can systematically unlearn. By rewiring the automatic inner script you use during setbacks, you transform chronic mental gridlock into durable stamina and daily agency.",
       "coreThesis": "Helplessness is a learned reaction driven by flawed explanatory habits; by disputing catastrophic self-talk with concrete evidence, anyone can build enduring resilience.",
@@ -17008,6 +17431,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "60b5c7ab",
     "onePageSummary": {
       "elevatorPitch": "When a catastrophic car crash destroys a high-powered executive's ability to perceive the left half of her physical world, she is forced to confront how her breakneck career had already blinded her to the human half of her life. Lisa Genova uses a rare neurological condition as a vivid magnifying glass to reveal how modern overachievement amputates our awareness\\u2014and how radical attention can rebuild an antifragile existence.",
       "coreThesis": "Attention is not an infinite resource that can be endlessly partitioned; when we run our lives at maximum speed, our mental searchlight narrows until half of our reality becomes invisible. True resilience requires deliberately slowing down the machine, admitting vulnerability, and retraining our awareness to see the whole plate.",
@@ -17045,6 +17469,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 65,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "09518d24",
     "onePageSummary": {
       "elevatorPitch": "Written from the twilight of imperial Rome, these timeless letters offer a warm, intimate masterclass in reclaiming your fleeting hours, stilling inner anxiety, and building an unshakeable sanctuary of peace within your own mind. It is not an abstract lecture, but an urgent, practical toolkit for living with quiet dignity, courageous perspective, and clear-eyed equanimity.",
       "coreThesis": "External events and the flight of time lie entirely outside our control, but the cultivation of our reasoned character is ours alone. By anchoring happiness in inner virtue rather than fickle fortune, we attain an unshakeable tranquility that no circumstance can diminish.",
@@ -17082,6 +17507,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "62cf8817",
     "onePageSummary": {
       "elevatorPitch": "Suffering does not come from the world around you; it comes from the heavy pressure cooker of suppressed emotions you carry inside. By quietly feeling physical sensations without resisting, analyzing, or venting them, their trapped energy dissolves naturally, leaving behind lucid clarity, effortless peace, and radiant presence.",
       "coreThesis": "Inner freedom is achieved not by changing external conditions or analyzing thoughts, but by surrendering your resistance to feeling raw emotions, allowing trapped energy to dissolve naturally into silent awareness.",
@@ -17119,6 +17545,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e5ab5009",
     "onePageSummary": {
       "elevatorPitch": "Deception is not an invisible phantom\\u2014it leaves distinct physical footprints across facial muscles, body language, and vocal syntax. Pamela Meyer reveals the scientific mechanics of deceit so you can spot red flags, cut through fog, and build rock-solid trust.",
       "coreThesis": "A lie has no power until someone chooses to believe it; by systematically tracking deviations from baseline verbal, facial, and physical patterns, anyone can accurately detect deception and cultivate authentic trust.",
@@ -17156,6 +17583,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9305682a",
     "onePageSummary": {
       "elevatorPitch": "The neat, linear career-and-family staircase is dead; real life is an undulating ecosystem punctuated by recurring disruptions and massive personal earthquakes. Bruce Feiler decodes hundreds of real-life reinventions to reveal a master toolkit for navigating the messy middle and turning unavoidable upheaval into renewal.",
       "coreThesis": "Adulthood is not a tidy, predictable straight line, but a dynamic series of nonlinear disruptions; mastering the art of life transitions is the fundamental survival skill of modern existence.",
@@ -17193,6 +17621,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8f1ea56e",
     "onePageSummary": {
       "elevatorPitch": "A crystal-clear blueprint for inner peace from the Dalai Lama, mapping how ancient contemplative wisdom can systematically untangle mental friction and cultivate genuine compassion.",
       "coreThesis": "Human suffering is not an unchangeable fate but a treatable condition born of misunderstanding and grasping, which can be permanently dissolved through disciplined ethical conduct, courageous compassion, and clear insight into reality.",
@@ -17230,6 +17659,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0187ac56",
     "onePageSummary": {
       "elevatorPitch": "Your mind is not the turbulent storm of thoughts racing through your head; it is the vast, quiet sky that effortlessly holds them. By learning to step back into this spacious awareness, you stop drowning in passing mental weather and discover an unshakeable inner peace available right in the middle of everyday life.",
       "coreThesis": "Suffering occurs only when we mistake temporary passing thoughts and emotional weather for who we are; true liberation is simply remembering to rest as the spacious, clear awareness that observes them without resistance.",
@@ -17267,6 +17697,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1c5c013d",
     "onePageSummary": {
       "elevatorPitch": "Imagine discovering that your brain isn't a plain cardboard box, but a secret Tony Stark high-tech suit waiting for you to turn the power on! This book hands you the instruction manual to upgrade your memory, read like a rocket, and unlock your true brain superpowers.",
       "coreThesis": "Your brain is not fixed like a statue; it is a superpower muscle that can expand and unlock limitless abilities when you combine belief, daily fuel, and proven learning cheat-codes.",
@@ -17304,6 +17735,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6c07ddf1",
     "onePageSummary": {
       "elevatorPitch": "Beneath nature, internet architecture, and corporate markets lies a single hidden blueprint. Master the invisible topology of hubs to navigate complexity without getting caught off guard.",
       "coreThesis": "Real-world networks do not organize randomly; they evolve into scale-free webs where critical hubs govern resilience, flow, and systemic vulnerability.",
@@ -17340,6 +17772,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2b8550a4",
     "onePageSummary": {
       "elevatorPitch": "If your job comes with an instruction manual, someone cheaper or faster will inevitably replace you. To build an unassailable career moat, you must stop operating as an interchangeable cog and become a linchpin\\u2014an indispensable orchestrator who solves messy ambiguity and ships critical work.",
       "coreThesis": "Safety in the modern economy is an illusion; the only durable career security comes from stepping into ambiguity, doing emotional labor without a manual, and becoming the vital connector an organization cannot afford to lose.",
@@ -17377,6 +17810,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5f5cc1da",
     "onePageSummary": {
       "elevatorPitch": "Most people treat conversations like bumper cars, waiting for a pause simply to crash in with their own thoughts. Ximena Vengoechea transforms everyday listening into a high-precision observational art that decodes what people truly mean beneath what they say.",
       "coreThesis": "Genuine connection occurs not by orchestrating brilliant responses, but by cultivating an open, observant posture that decodes the speaker's unvarnished truth without hijacking the exchange.",
@@ -17414,6 +17848,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "60b205d3",
     "onePageSummary": {
       "elevatorPitch": "Enduring joy is not an accident of circumstance, but an interior skill trained through deliberate mental discipline and an open heart. The Dalai Lama outlines how calming reactive impulses and cultivating boundless warmth transforms ordinary life into an effortless sanctuary of peace.",
       "coreThesis": "Authentic happiness arises not from rearranging external conditions, but from retraining our internal awareness through ethical self-discipline, lucid wisdom, and active compassion.",
@@ -17451,6 +17886,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7e32a269",
     "onePageSummary": {
       "elevatorPitch": "When you strip away rigid dogma, the heart of spiritual life is not an argument over concepts, but the immediate art of being awake and compassionate. Thich Nhat Hanh builds a luminous bridge between East and West, showing how mindfulness and the Holy Spirit both awaken the divine right here in daily life.",
       "coreThesis": "Authentic spirituality is not an intellectual allegiance to doctrine, but a living practice of mindfulness and compassion that reveals the sacred within the present moment.",
@@ -17488,6 +17924,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1992,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "265df6b3",
     "onePageSummary": {
       "elevatorPitch": "Stop chasing peace as if it were an object to acquire; genuine freedom begins the moment you stop fighting reality and observe your mind with unwavering, neutral clarity.",
       "coreThesis": "Suffering occurs only when you demand that impermanent things remain static; true peace arises naturally when you observe experience without grasping or resistance.",
@@ -17525,6 +17962,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f60b72cd",
     "onePageSummary": {
       "elevatorPitch": "Stop drifting along the quiet currents of circumstance and consciously architect your days from the end backwards. Living Forward provides a practical blueprint to anchor your fleeting hours to what matters most before the river runs dry.",
       "coreThesis": "Life naturally drifts into chaos and regret unless deliberately anchored by a written plan designed backwards from your ultimate legacy.",
@@ -17562,6 +18000,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6faa56c2",
     "onePageSummary": {
       "elevatorPitch": "Human communication operates on invisible feedback loops where moralistic judgment triggers automatic defensive resistance. This book delivers a practical diagnostic toolkit to decode emotional data, neutralize conflict, and build durable trust in any relationship.",
       "coreThesis": "All interpersonal hostility is the tragic expression of unmet universal human needs; decoding these signals transforms conflict into collaborative connection.",
@@ -17599,6 +18038,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9fcd018f",
     "onePageSummary": {
       "elevatorPitch": "Liberation does not hide on remote mountain peaks or require abandoning ordinary life. This guide shows how to convert every standard hour of work, conversation, and routine into steady, unshakable inner peace.",
       "coreThesis": "Awakening is not an event waiting in the future, but the direct practice of keeping awareness clean and non-reactive through the ordinary hours of everyday life.",
@@ -17636,6 +18076,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1988,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5b69f6c3",
     "onePageSummary": {
       "elevatorPitch": "The mind is not an uncontrollable weather pattern; it is a garden that produces either tranquil harvest or suffocating brambles depending on where you aim your daily attention. Venerable Dhammananda transforms humanity's most timeless contemplative verses into a clean, practical playbook for mastering everyday living.",
       "coreThesis": "Your mind shapes every contour of your lived experience: by training daily attention and abandoning reactionary clinging, you extinguish suffering at its source.",
@@ -17673,6 +18114,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "382a60d2",
     "onePageSummary": {
       "elevatorPitch": "Traditional financial advice treats your balance sheet like an arithmetic problem, but your bank account is actually governed by hidden emotional programming and unresolved narratives. Sarah Newcomb delivers a battle-tested blueprint to dismantle toxic money scripts and build enduring financial sovereignty without compromising your integrity.",
       "coreThesis": "Financial struggle is rarely an issue of basic math; it is a breakdown of emotional alignment where unconscious psychological scripts and misplaced status-seeking subvert true independence.",
@@ -17710,6 +18152,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2000,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b6879ddc",
     "onePageSummary": {
       "elevatorPitch": "Think of logic not as dry schoolroom rules, but as the hidden structural physics behind every argument and decision. Graham Priest peels back everyday language to reveal the fascinating, mind-bending gearwork that determines whether our conclusions actually hold water.",
       "coreThesis": "Logic is the foundational plumbing of human thought, providing formal tools to test whether conclusions genuinely follow from premises across certainty, uncertainty, and paradox.",
@@ -17747,6 +18190,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "107f851f",
     "onePageSummary": {
       "elevatorPitch": "Think of human conversation like a complex engine: when it sputters, a hidden reasoning defect is usually jamming the gears. 'Logically Fallacious' serves as an x-ray diagnostic manual that exposes over 300 structural flaws in human argument, equipping you to spot faulty wiring and think with scientific precision.",
       "coreThesis": "An argument is a physical structure whose integrity depends entirely on valid connections between premises and conclusions; identifying predictable fallacy patterns allows us to dismantle deceptive claims and rebuild our own reasoning on bedrock evidence.",
@@ -17784,6 +18228,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8859e6a5",
     "onePageSummary": {
       "elevatorPitch": "Great storytelling is not an elite circus act reserved for extraordinary adventurers; it is a repeatable cognitive science of transforming ordinary friction into shared human connection. Margot Leitman hands you the diagnostic toolkit to mine your everyday missteps and deliver them with unvarnished, magnetic impact.",
       "coreThesis": "Audiences do not connect with flawless heroes reciting polished scripts; they bond with vulnerable human beings who dissect real missteps with emotional honesty and structural clarity.",
@@ -17821,6 +18266,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6ed17a93",
     "onePageSummary": {
       "elevatorPitch": "Human communication operates like a high-voltage electrical grid: without a dedicated receiver, conversational energy backfires into destructive defensive sparks. This book reveals the hidden psychological circuitry of listening\\u2014showing why our brains instinctively scramble to defend ourselves, and how deliberate receptive attention transforms conflict into deep interpersonal resonance.",
       "coreThesis": "Genuine listening is not a passive biological recording, but a disciplined psychological choice to temporarily quiet our own defensive ego so another person feels profoundly witnessed and emotionally safe.",
@@ -17858,6 +18304,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5cdc0ddd",
     "onePageSummary": {
       "elevatorPitch": "Depression and anxiety are not defective brain hardware; they are precision biological warning lights signaling that essential human needs have been unplugged. Discover the hidden social feedback loops driving our emotional collapse and the concrete systems required to plug ourselves back into a living world.",
       "coreThesis": "Depression is not a mechanical malfunction of broken brain chemistry, but an intelligent, natural alarm system alerting us that our fundamental biological and social needs remain unmet.",
@@ -17895,6 +18342,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "95de3ec1",
     "onePageSummary": {
       "elevatorPitch": "Words deliver the brief, but silent physical signals close the transaction. Mastering nonverbal intelligence equips leaders with an asymmetric radar to decode unspoken friction, project unflinching authority, and command the room.",
       "coreThesis": "Professional leverage is won or lost in silent execution: by mastering the comfort/discomfort paradigm, you read counterparts with total clarity while deliberately projecting unquestioned credibility.",
@@ -17932,6 +18380,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d496de09",
     "onePageSummary": {
       "elevatorPitch": "Romantic love is neither an accidental chemical high nor a fragile mystery; it is an exquisitely designed mammalian survival system hardwired into human neurobiology. By mastering the clear attachment signals beneath everyday friction, partners can diagnose their destructive cycles and build lifelong resilience together.",
       "coreThesis": "Human adults are biologically hardwired for emotional attachment, meaning a dependable, responsive romantic bond is not an optional luxury or sign of weakness, but a foundational survival requirement that stabilizes our brain, body, and nervous system.",
@@ -17969,6 +18418,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "13ad2e88",
     "onePageSummary": {
       "elevatorPitch": "Anger and resentment are like drinking poison while expecting the other person to suffer; loving-kindness is the lucid art of purifying your own heart first. Bhante Gunaratana translates ancient Buddhist metta practice into direct, down-to-earth tools to dissolve hostility and cultivate genuine warmth in everyday life.",
       "coreThesis": "Loving-kindness is not passive weakness or sentimental optimism; it is the mind's natural state of clarity and harmlessness, cultivated systematically to liberate the heart from anger and suffering.",
@@ -18006,6 +18456,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "65404afb",
     "onePageSummary": {
       "elevatorPitch": "Happiness is not a stroke of luck or a passive mood\\u2014it is an inner craft cultivated through deliberate warmth. Sharon Salzberg unveils lovingkindness as a practical training system that tears down the illusion of isolation and anchors your daily life in unshakable connection.",
       "coreThesis": "Genuine love is not an elusive emotional state but an intentional, trainable mental quality that frees the heart from fear and division.",
@@ -18043,6 +18494,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f7461095",
     "onePageSummary": {
       "elevatorPitch": "Over two decades of disciplined, high-dose inner explorations reveal that individual consciousness is an inseparable aperture of a living, loving cosmos. By stepping beyond the isolated ego, we uncover an oceanic awareness evolving toward a luminous, unified future.",
       "coreThesis": "The human ego is not a separate entity but a temporary focal point of a living, boundless cosmic intelligence. By consciously surrendering our defensive boundaries, we discover that our deepest nature is pure, loving, and indestructible light.",
@@ -18080,6 +18532,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1987,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c7bb172f",
     "onePageSummary": {
       "elevatorPitch": "Step into the quiet, steadfast wilderness with Maha Kassapa\\u2014the Buddha's austere counterpart whose unwavering discipline and serene detachment preserved the Dhamma for the world.",
       "coreThesis": "True spiritual freedom and enduring clarity arise not from acquiring more, but from voluntary simplicity, relentless self-discipline, and unshakeable non-attachment.",
@@ -18117,6 +18570,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1979,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bd8d03d7",
     "onePageSummary": {
       "elevatorPitch": "Even the greatest master of supernormal power cannot outrun the iron law of cause and effect. Hellmuth Hecker reveals how extraordinary mental discipline is meaningless unless anchored in radical non-attachment and serene acceptance of karma.",
       "coreThesis": "Supernormal mental capacities and extraordinary focus are merely secondary instruments; true liberation lies in understanding universal causality, cultivating unshakable mindfulness, and abiding in complete non-attachment even when facing the fruition of past karma.",
@@ -18154,6 +18608,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1989,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f7a513a5",
     "onePageSummary": {
       "elevatorPitch": "Selling big deals isn't about charismatic persuasion; it is about navigating the intricate psychological machinery of how committee decisions evolve over time. Master the invisible currents of organizational buying to position your solution before competitors even know an opportunity exists.",
       "coreThesis": "Enterprise sales success is determined by aligning your strategy with the buyer's evolving psychological phases, shaping their decision criteria early, and systematically neutralizing perceived risk.",
@@ -18191,6 +18646,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ede818e1",
     "onePageSummary": {
       "elevatorPitch": "Stop wasting hours on passive rereading and unlock effortless, lifelong mastery. Transform friction into momentum by training your mind like an elite athlete.",
       "coreThesis": "Durable learning requires effortful mental retrieval and spaced variety. When retention feels challenging, your brain builds permanent neural architecture.",
@@ -18227,6 +18683,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "81a93ddb",
     "onePageSummary": {
       "elevatorPitch": "Stop running on automatic pilot: reclaim your day by designing smart defaults around a single meaningful highlight instead of racing through an endless to-do list.",
       "coreThesis": "You do not need more hours in the day; you need to reclaim your agency by picking one daily focal point and redesigning your environment so distractions lose by default.",
@@ -18264,6 +18721,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1964,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a6da5836",
     "onePageSummary": {
       "elevatorPitch": "Your rational mind is merely the dashboard of a massive submarine operating in deep, uncharted waters. By learning to read the symbolic dials and dream signals of your unconscious, you unlock a hidden operating manual for personal balance and authentic growth.",
       "coreThesis": "Human reason alone cannot navigate the complexities of life; true psychological health and maturity require deciphering and integrating the symbolic wisdom generated by our deeper unconscious mind.",
@@ -18301,6 +18759,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1946,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c573f5bd",
     "onePageSummary": {
       "elevatorPitch": "When external circumstances strip away every comfort and freedom, your ultimate power is how you interpret what is happening. By finding a concrete purpose to serve, you unlock an inner resilience that no hardship can extinguish.",
       "coreThesis": "Forces beyond your control can take away almost everything you possess except one thing: your freedom to choose how you will respond to the situation.",
@@ -18338,6 +18797,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4ee86491",
     "onePageSummary": {
       "elevatorPitch": "Your boss is neither an all-knowing sovereign nor an obstacle to circumvent; they are the primary gatekeeper whose operational effectiveness directly dictates your organizational leverage. Managing upward is cold-blooded operational hygiene: diagnose how your superior absorbs reality, feed their strengths, and neutralize nasty surprises before they detonate.",
       "coreThesis": "Managing the boss is not brown-nosing or political gamesmanship; it is the non-negotiable professional discipline of making your superior's strengths fully productive while neutralizing the damage of their weaknesses.",
@@ -18375,6 +18835,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "73994704",
     "onePageSummary": {
       "elevatorPitch": "Your boss is the single most consequential variable in your career trajectory, and waiting for them to change is a losing wager. Managing up is the strategic discipline of decoding your manager's operating system, neutralizing friction, and transforming an asymmetrical relationship into your primary career moat.",
       "coreThesis": "You cannot control your manager's temperament or competence, but you can entirely control how you interface with their operating style. Managing up is the deliberate practice of adapting your execution to solve your boss's problems, thereby converting organizational asymmetry into personal career leverage.",
@@ -18412,6 +18873,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1956,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f90a04b5",
     "onePageSummary": {
       "elevatorPitch": "Stop mistaking the contents of your thoughts for who you are. This definitive guidebook breaks the mind into clear, workable elements, showing you precisely how each moment arises, how suffering forms, and how genuine freedom is realized right here.",
       "coreThesis": "The mind is not a monolithic self, but a dynamic, lawful stream of momentary consciousness and mental factors that can be understood, purified, and freed from suffering.",
@@ -18449,6 +18911,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1efc5acb",
     "onePageSummary": {
       "elevatorPitch": "Step into your own mind like a calm master craftsman inspecting raw materials, discovering that suffering ends the moment you observe life exactly as it unfolds without clinging or recoil.",
       "coreThesis": "Suffering is maintained solely by your unconscious habit of reacting to sensations; by neutrally noting experiences as they arise and pass away, you realize non-self and attain peace.",
@@ -18486,6 +18949,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6d751449",
     "onePageSummary": {
       "elevatorPitch": "Think of your conscious mind as a high-speed operating system running layered simulations over raw sensory data. Manual of Insight serves as the definitive engineering teardown and laboratory manual for debugging that simulation in real time to reveal reality as it actually is.",
       "coreThesis": "The illusion of an unchanging, isolated self is simply a cognitive rendering error created by mental delay; by logging raw sensory inputs in real time, the mind exposes the ephemeral nature of all phenomena and attains unconditioned freedom.",
@@ -18523,6 +18987,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1915,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e8be8d95",
     "onePageSummary": {
       "elevatorPitch": "Ven. Ledi Sayadaw's seminal masterpiece strips away thousands of years of scholastic dust to expose the human ego as an innocent optical illusion. With the precision of a seasoned watchmaker and the tenderness of a forest contemplative, this manual teaches you how to directly observe your mind and body until unshakeable peace naturally reveals itself.",
       "coreThesis": "Suffering is maintained by a continuous misinterpretation of fluid physical and mental processes as an enduring self; observing their rapid arising and dissolution dissolves this illusion and unveils effortless liberation.",
@@ -18560,6 +19025,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1961,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ae560cb7",
     "onePageSummary": {
       "elevatorPitch": "Step out of the mental fog of confusion into luminous, direct awareness. Ven. Ledi Sayadaw hands you a pocket lantern to dismantle the mirage of the ego and discover genuine, unshakable inner freedom.",
       "coreThesis": "Suffering dissolves when direct contemplative insight illuminates experiential reality, revealing that the personal self is not a solid entity but a transparent flow of causes and conditions.",
@@ -18597,6 +19063,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1961,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3b268f49",
     "onePageSummary": {
       "elevatorPitch": "Your breath is a built-in compass for inner peace that travels with you everywhere. Venerable Ledi Sayadaw shows how observing simple in-and-out breaths systematically dissolves anxiety, stabilizes focus, and opens the door to complete emotional liberation.",
       "coreThesis": "Deliberate, steady awareness of the natural breath calms mental turbulence and reveals that all suffering arises from grasping at passing phenomena, unlocking enduring peace and clarity in ordinary daily life.",
@@ -18634,6 +19101,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1901,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "14230e28",
     "onePageSummary": {
       "elevatorPitch": "You are not a stressed manager frantically piloting a fragile body and racing mind; you are the wide-open space witnessing a seamless natural flow. Ven. Ledi Sayadaw hands you the master blueprint to dismantle the illusion of the ego and discover unshakeable inner calm.",
       "coreThesis": "The self is not a permanent inner owner, but an ever-shifting confluence of impersonal mental and physical conditions. True peace arrives when you stop defending a concept and rest in direct, unconditioned awareness.",
@@ -18671,6 +19139,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1900,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1f3da40c",
     "onePageSummary": {
       "elevatorPitch": "Your life is neither a helpless script written in the past nor an arbitrary accident; it is an active workshop where clear understanding and present action rebuild reality in every breath. Ven. Ledi Sayadaw clears the mental windshield, dissolving ancient illusions of ego to reveal the natural freedom right in front of you.",
       "coreThesis": "Suffering is born of distorted vision that mistakes natural processes for an isolated, permanent self. When you see clear cause and effect, present effort dissolves fatalism, and non-attachment unlocks immediate inner freedom.",
@@ -18708,6 +19177,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1904,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "537dc9c6",
     "onePageSummary": {
       "elevatorPitch": "Ven. Ledi Sayadaw strips away monastic elitism to reveal the Buddha's thirty-seven wings of enlightenment as a practical, step-by-step toolkit for any committed person. It is the definitive operating manual for transforming scattered human attention into an unshakeable vehicle of freedom.",
       "coreThesis": "Enlightenment is not a mystical accident, but the systematic outcome of balancing and strengthening thirty-seven natural mental faculties accessible to any earnest seeker in daily life.",
@@ -18745,6 +19215,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1903,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d4a31572",
     "onePageSummary": {
       "elevatorPitch": "Ven. Ledi Sayadaw dissects the Four Noble Truths not as abstract dogmas, but as an empirical diagnostic manual for the mind. By exposing the sixteen hidden gears of craving and suffering, this classic work hands you the exact blueprint to dismantle inner turmoil and experience genuine liberation.",
       "coreThesis": "Suffering is an inevitable mechanical consequence of mistaking impermanent processes for a permanent self; dismantling that friction requires direct, analytical awareness of how craving drives the mind.",
@@ -18782,6 +19253,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1965,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d1a3106d",
     "onePageSummary": {
       "elevatorPitch": "Ven. Ledi Sayadaw strips away esoteric mystique to reveal the Noble Eightfold Path as an exact, everyday operating system for total mental liberation. It is an unvarnished masterclass in turning ethics, focus, and clarity into a living vehicle of freedom.",
       "coreThesis": "Liberation is an exact craft where ethical conduct calms the mind, and disciplined mindfulness yields the piercing insight that dissolves self-clinging forever.",
@@ -18819,6 +19291,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1935,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "feb83b9e",
     "onePageSummary": {
       "elevatorPitch": "Step behind the illusion of an isolated, separate self and discover how every thought, breath, and action is an interconnected flow of natural laws. Ven. Ledi Sayadaw breaks down the twenty-four conditions governing human experience, handing you the ultimate master key to deep peace and mental freedom.",
       "coreThesis": "Nothing in mind or nature stands alone or possesses an unchanging self; every phenomenon arises, functions, and dissolves purely through dynamic, mutually dependent conditions.",
@@ -18856,6 +19329,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1900,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "abf62bef",
     "onePageSummary": {
       "elevatorPitch": "You are not trapped by your conditioning; you are simply running on unexamined habit. Ven. Ledi Sayadaw provides the clear, uncompromising manual to transform from a distracted survivor into a truly noble, liberated human being.",
       "coreThesis": "True human greatness is realized not through external power or pious ritual, but by directly dissecting the illusion of the self through sharp, disciplined mindfulness and daily moral excellence.",
@@ -18893,6 +19367,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e8c5213e",
     "onePageSummary": {
       "elevatorPitch": "Happiness is not an accidental jackpot or a stroke of luck\\u2014it is a trainable mental discipline rooted in seeing reality as it actually is. In this lucid guide, the Dalai Lama strips away esoteric jargon to present a practical blueprint for transforming inner affliction into lasting peace and universal compassion.",
       "coreThesis": "Genuine, lasting happiness is not an external acquisition, but an internal skill achieved by seeing reality accurately, purifying destructive mental afflictions, and expanding self-centered preoccupation into universal compassion.",
@@ -18930,6 +19405,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1991,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "aa90dc3e",
     "onePageSummary": {
       "elevatorPitch": "Most market participants spend their lives obsessing over how much money they can make, but true wealth builders obsess over how to avoid losing what they already have. Margin of Safety is a masterclass in treating investing not as an exciting sprint for status, but as an uncompromising discipline of survival and value.",
       "coreThesis": "Long-term investment success is not achieved by chasing peak returns, but by rigorously preventing irreversible losses through buying solid assets at a deep discount to conservative intrinsic value.",
@@ -18967,6 +19443,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cd0206ca",
     "onePageSummary": {
       "elevatorPitch": "Stop pitching capabilities to gatekeepers and start diagnosing costly business bottlenecks with corporate leaders. High-stakes sales are won when you master the economics of the problem before offering a cure.",
       "coreThesis": "Enterprise sales are won on the depth of your diagnosis rather than the polish of your pitch: when you quantify the customer's cost of inaction, price ceases to be the governing decision criterion.",
@@ -19004,6 +19481,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "17ccc2ba",
     "onePageSummary": {
       "elevatorPitch": "When stakes are high, conventional selling fails because presenting answers before diagnosing the disease forces your solution into a cutthroat price war. By adopting the methodical rigor of an expert physician, you transform high-stakes sales from defensive pitching into high-margin, collaborative diagnostic engagements.",
       "coreThesis": "Enterprise customers do not buy complex solutions based on product features; they buy when a disciplined diagnostic process exposes the intolerable financial cost of their current reality.",
@@ -19041,6 +19519,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4a0f3b20",
     "onePageSummary": {
       "elevatorPitch": "Mastery is not an innate genetic lottery ticket; it is a neurological transformation earned through deliberate apprenticeship. By syncing your work with your deepest wiring, you unlock an intuitive understanding of complex systems that looks like magic to outsiders.",
       "coreThesis": "Mastery is a predictable biological process where sustained focus and immersive practice hardwire complex patterns into intuition, granting effortless command over your chosen domain.",
@@ -19078,6 +19557,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1991,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1e585fd5",
     "onePageSummary": {
       "elevatorPitch": "Real success is not an overnight sprint\\u2014it is a steady biological curve where genuine growth happens on the quiet plateaus. When you learn to love routine repetition instead of chasing quick highs, sustainable excellence takes care of itself.",
       "coreThesis": "Mastery is not a trophy at the end of a sprint, but an ongoing process where true growth occurs during the long, quiet plateaus of regular practice.",
@@ -19115,6 +19595,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2006,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d0a5f74e",
     "onePageSummary": {
       "elevatorPitch": "Love seeks comfort, safety, and closeness, but desire demands mystery, unpredictability, and space. Unlocking erotic intelligence means mastering the mechanical balance between the warmth of home and the wild spark of the unknown.",
       "coreThesis": "Desire does not thrive on complete safety and psychological fusion; it requires separateness, mystery, and the deliberate creation of space between two autonomous individuals.",
@@ -19152,6 +19633,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "00fab9f1",
     "onePageSummary": {
       "elevatorPitch": "Ideas are cheap commodity; disciplined, transparent execution is the only true competitive moat. This operational guide provides the battle-tested blueprint for turning fuzzy aspirations into concrete, high-velocity organizational outcomes.",
       "coreThesis": "Elite performance demands ruthless focus on a few measurable outcomes, made radically transparent across the entire organization and continuously tracked through real-time feedback.",
@@ -19189,6 +19671,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1990,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1dcfb500",
     "onePageSummary": {
       "elevatorPitch": "A surgical, field-tested manual for stripping away mental noise and discovering reality as it actually unfolds moment by moment. Sayadaw U Silananda provides a transparent blueprint to turn every physical sensation and wandering thought into pure insight.",
       "coreThesis": "Suffering stems from blindly identifying with fleeting sensations and thoughts; sustained, non-judgmental labeling of current experience directly reveals the impersonal, impermanent nature of reality, bringing immediate mental freedom.",
@@ -19226,6 +19709,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d56e9671",
     "onePageSummary": {
       "elevatorPitch": "World peace begins with inner peace, and inner peace is a practical science of mental hygiene. By dispassionately observing natural physical sensations, Vipassana deconditions compulsive reactivity and awakens genuine, lasting freedom in daily life.",
       "coreThesis": "Suffering is rooted in blind subconscious reactivity to physical sensations; by observing natural reality within without craving or aversion, the mind unties its knot of misery and discovers enduring peace.",
@@ -19263,6 +19747,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fb7f124e",
     "onePageSummary": {
       "elevatorPitch": "Suffering is not caused by what you experience, but by the distorted lens through which you perceive it. By retraining perception through ten classic Buddhist contemplations, you can dissolve chronic anxiety, release clinging, and unlock deep mental clarity.",
       "coreThesis": "Suffering arises because the untrained mind projects permanence, ownership, and false pleasure onto fluid conditions; by deliberately cultivating clear, objective perceptions, you untie psychological knots and realize enduring inner freedom.",
@@ -19300,6 +19785,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "22c64545",
     "onePageSummary": {
       "elevatorPitch": "Step into the control room of your own consciousness and watch how thoughts, reactions, and identities are constructed in real time. Bhikkhu An\\u0101layo delivers a masterclass in contemplative reverse-engineering, turning mindfulness into a precision instrument that dissolves cognitive noise without fighting it.",
       "coreThesis": "You are not the internal narrative streaming through your head, but the unmoving awareness in which that stream flows. By observing mental states with mirror-like impartiality, psychological reactivity naturally starves from lack of fuel.",
@@ -19337,6 +19823,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "aa47d17d",
     "onePageSummary": {
       "elevatorPitch": "Meditation is not a passive mental spa; it is a master craft of inner engineering. Thanissaro Bhikkhu offers forty direct, practical field-talks that show you how to use breath, ethics, and relentless discernment to liberate the mind from self-inflicted friction.",
       "coreThesis": "Suffering is not an inescapable fate imposed by the world, but an unskillful internal fabrication that dissolves completely when the mind masters the craft of breath awareness, ethical restraint, and lucid discernment.",
@@ -19374,6 +19861,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2006,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1bc89428",
     "onePageSummary": {
       "elevatorPitch": "Stop treating meditation as passive escape; treat it as master craftsmanship. These evening talks show you how to forge the breath into a portable sanctuary of unshakable clarity in an unruly world.",
       "coreThesis": "Suffering is not an inevitable fact of life, but an unskillful habit that dissolves when the mind actively cultivates breath-centered stillness and razor-sharp discernment.",
@@ -19411,6 +19899,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2006,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "aa0d45a7",
     "onePageSummary": {
       "elevatorPitch": "Meditations 3 cuts through misty spiritual romanticism to reveal meditation as a master artisan's craft\\u2014training you to use the physical breath to dismantle self-inflicted distress and discover unconditioned freedom.",
       "coreThesis": "Genuine peace is an active, trainable craft: by mastering breath energy and disarming reactive perceptions, you dissolve internal friction and awaken to an unconditioned freedom right where you are.",
@@ -19448,6 +19937,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1afbf1cc",
     "onePageSummary": {
       "elevatorPitch": "Stop treating meditation as a passive zoning-out exercise and start practicing it as an exacting, hands-on craft. Thanissaro Bhikkhu delivers a direct masterclass on tuning breath energy and mastering mental intentions to achieve unshakable inner freedom.",
       "coreThesis": "Suffering is not an inescapable fate or a fixed identity, but an active misstep in how we manufacture our experience. By training awareness through full-body breath mastery and ethical discernment, we systematically dismantle craving and awaken to unconditioned peace.",
@@ -19485,6 +19975,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "04c1486a",
     "onePageSummary": {
       "elevatorPitch": "Meditation is not passive zoning out or escaping the world; it is precision craftwork that trains you to master your own attention, dissolve reactive stress, and build an unshakable inner refuge.",
       "coreThesis": "Suffering is an active, ongoing fabrication that you unknowingly manufacture; by learning the practical craft of breath meditation and clear self-observation, you can dismantle that fabrication and discover an unconditional, blameless peace.",
@@ -19522,6 +20013,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 180,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "44b5423a",
     "onePageSummary": {
       "elevatorPitch": "Your peace does not depend on a chaotic world falling into line. It blooms when you master the small quiet sanctuary of your own mind.",
       "coreThesis": "You possess sovereign authority over your judgments, desires, and actions. Master your inner thoughts, and no external storm can breach your serenity.",
@@ -19558,6 +20050,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "766854bc",
     "onePageSummary": {
       "elevatorPitch": "Money is not a score to hoard or status to flaunt\\u2014it is fuel to purchase back your mortal time. By decoupling everyday happiness from modern retail consumption, anyone can build a fortress of autonomy and design a life true to their deepest values.",
       "coreThesis": "Frugality is not about depriving yourself of pleasure; it is a high-leverage tool to strip away mindless consumer defaults, buy back your finite time, and direct your resources toward what genuinely brings purpose.",
@@ -19595,6 +20088,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1991,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "df26f5fb",
     "onePageSummary": {
       "elevatorPitch": "Your disowned weaknesses do not vanish just because you ignore them; they operate in the dark, hijacking your decisions and sabotaging your relationships. Integrating your shadow transforms hidden liabilities into your sharpest competitive advantages.",
       "coreThesis": "Wholeness, not moral perfection, is the prerequisite for sanity and effective execution. The parts of yourself you refuse to own will inevitably own you.",
@@ -19632,6 +20126,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1961,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e682fffe",
     "onePageSummary": {
       "elevatorPitch": "What if your conscious mind is just a tiny boat floating on a vast, ancient ocean of instincts and shared symbols? Carl Jung takes you behind the curtain of his own mind to reveal how excavating your hidden thoughts turns life from a chaotic storm into an integrated masterpiece.",
       "coreThesis": "Your conscious ego is only a fraction of who you are; true psychological maturity requires courageously exploring, understanding, and integrating the vast unconscious depths of your mind.",
@@ -19669,6 +20164,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9d18349c",
     "onePageSummary": {
       "elevatorPitch": "Decisions are rarely made in the moment of choice; they are quietly engineered long before the question is even asked. Nick Kolenda reveals the hidden psychological assembly line that shapes human compliance from the shadows.",
       "coreThesis": "Human decisions are governed by subconscious associative networks, meaning genuine persuasion occurs by engineering the environment and mindset long before the formal ask is ever delivered.",
@@ -19706,6 +20202,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2007,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b5134c3e",
     "onePageSummary": {
       "elevatorPitch": "Stop fighting your wandering mind and uncover the unshakeable stillness already resting beneath your thoughts. In this masterwork, the Dalai Lama provides a lucid roadmap to Dzogchen, showing you how to settle into effortless, luminous awareness.",
       "coreThesis": "Your mind's true nature is already open, luminous, and free; lasting comfort is not created by straining, but by resting effortlessly in direct, compassionate awareness.",
@@ -19743,6 +20240,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1993,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "22946ad9",
     "onePageSummary": {
       "elevatorPitch": "Nibbana does not mean annihilation or going dark into nothingness; it means radical, cooling release. When you understand how an ancient flame lets go of its fuel, you uncover the direct, practical path to unbinding your own mind.",
       "coreThesis": "Suffering is an active process sustained solely by what the mind clings to; withdraw the fuel, and consciousness naturally cools into unconfined, timeless freedom.",
@@ -19780,6 +20278,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9017c367",
     "onePageSummary": {
       "elevatorPitch": "Death is not a grim end to be feared, but the most profound meditation retreat of a lifetime. By mastering conscious awareness today, you turn life's ultimate mystery into an open gateway of unconditional peace.",
       "coreThesis": "Death is a natural, predictable dissolution of coarse physical and mental layers that reveals our pristine, fundamental awareness. When met with disciplined mindfulness and boundless compassion, it becomes the supreme opportunity for spiritual liberation.",
@@ -19817,6 +20316,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "584e0996",
     "onePageSummary": {
       "elevatorPitch": "Knowing how to balance a budget is useless if your emotional nervous system is secretly running the ledger. This book diagnoses the subconscious money scripts and psychological disorders that sabotage your balance sheet, giving you the practical tools to break generational money patterns and build real financial sovereignty.",
       "coreThesis": "Financial behavior is driven by subconscious emotional scripts, not spreadsheet logic; lasting wealth requires identifying and rewriting the hidden psychological traumas that govern how you manage money.",
@@ -19854,6 +20354,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "474640a8",
     "onePageSummary": {
       "elevatorPitch": "Your moods do not originate from external circumstances, but from the rapid interpretations running through your mind. By treating thoughts like testable hypotheses rather than absolute truths, you can rewire persistent emotional feedback loops.",
       "coreThesis": "Emotions are produced not by life events, but by how we interpret them; systematically examining and balancing automatic thoughts reclaims control over emotional and behavioral patterns.",
@@ -19891,6 +20392,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8d12af82",
     "onePageSummary": {
       "elevatorPitch": "Your mind isn't broken, but it is leaking peace through unguarded psychological taints called cankers. This classic manual reveals the ancient, battle-tested blueprint to plug those mental leaks, tame reactivity, and reclaim effortless inner stillness.",
       "coreThesis": "Suffering is not caused by external events, but by unexamined mental effluents that leak into our perception; systematically mastering wise attention and applying seven practical behavioral filters completely purifies the mind.",
@@ -19928,6 +20430,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "070a273a",
     "onePageSummary": {
       "elevatorPitch": "What if severe illness and physical mortality are not biological failures to run from, but the ultimate diagnostic laboratory for radical inner freedom? Bhikkhu Analayo decodes early Buddhist psychology into a precise, systematic operating manual for training the mind to remain calm, clear, and utterly fear-free\\u2014even as the physical body breaks down.",
       "coreThesis": "Physical pain and biological mortality are natural, non-negotiable parameters of physical existence, but psychological suffering is an optional secondary feedback loop that completely dissolves when consciousness uncouples from bodily ownership.",
@@ -19965,6 +20468,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3e151d9f",
     "onePageSummary": {
       "elevatorPitch": "Your physical body is not an identity to cling to or polish, but a natural, ever-shifting landscape where genuine liberation begins. Joseph Goldstein demystifies early Buddhist somatic meditation to reveal how observing simple physical sensations dissolves self-inflicted distress and reveals unshakeable freedom.",
       "coreThesis": "Awakening begins when you stop identifying with the physical body as 'self' and start observing somatic sensations directly as a flux of impersonal natural conditions.",
@@ -20002,6 +20506,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "67aa4cb0",
     "onePageSummary": {
       "elevatorPitch": "Every emotional storm starts with an almost imperceptible spark: the raw feeling tone of pleasant, unpleasant, or neutral. Catch this spark at the doorstep of your mind, and you disarm lifelong reactivity before it turns into suffering.",
       "coreThesis": "Suffering is not caused by pleasant, unpleasant, or neutral feelings, but by our automatic addiction to chasing, fighting, or ignoring them. By recognizing feeling tones the instant they arise, you dismantle habitual reactivity and awaken to unconditioned peace.",
@@ -20039,6 +20544,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "feaeb1ef",
     "onePageSummary": {
       "elevatorPitch": "Mindfulness is not a temporary relaxation pill for a busy day; it is a meticulous, step-by-step master key to genuine spiritual awakening. By learning to observe the direct texture of your mind and body without grasping or resistance, you dismantle lifelong suffering and uncover radiant inner peace.",
       "coreThesis": "Suffering dissolves when we stop mistaking transient mental and physical events for a solid self, using bare, continuous mindfulness to step into immediate unconditioned freedom.",
@@ -20076,6 +20582,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "60a81bb1",
     "onePageSummary": {
       "elevatorPitch": "Mindfulness is not a temporary stress-relief tool; it is a systematic laboratory manual for mental liberation. Joseph Goldstein unlocks the profound fourth foundation of mindfulness\\u2014Dhammas\\u2014showing how clear observation deconstructs everyday suffering into pure freedom.",
       "coreThesis": "Suffering occurs because we misidentify fluid sensory phenomena as a permanent 'self.' By systematically observing the natural laws of mental experience without clinging or aversion, the mind liberates itself into natural, unconditioned peace.",
@@ -20113,6 +20620,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2006,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fa35cc22",
     "onePageSummary": {
       "elevatorPitch": "Meditation is not a grim endurance test of force, but the art of letting go until the mind settles into profound stillness, radiant bliss, and liberating insight.",
       "coreThesis": "Deep peace and liberating wisdom arise not from willful control, but from the radical relinquishment of doing, allowing the mind to rest in its natural state of effortless stillness and radiant joy.",
@@ -20150,6 +20658,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0222da89",
     "onePageSummary": {
       "elevatorPitch": "Meditation is not about escaping your messy human life\\u2014it is the practical craft of seeing reality exactly as it is without flinching. Bhante Gunaratana cuts away esoteric fog to hand you a grounded owner's manual for waking up to genuine peace and energetic clarity.",
       "coreThesis": "Suffering is not caused by the events of your life, but by your unconscious resistance to reality; by observing direct experience with bare, friendly attention, you dismantle friction and uncover natural vitality and peace.",
@@ -20187,6 +20696,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1992,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "dde17370",
     "onePageSummary": {
       "elevatorPitch": "Mindfulness is not an exotic trance or an intellectual puzzle; it is the practical art of seeing your direct experience exactly as it is without reactive judgment. Bhante Gunaratana provides an unpretentious, hands-on field manual for training attention, calming emotional turbulence, and waking up to daily life.",
       "coreThesis": "True peace comes not from manipulating external circumstances, but from training the mind to observe every passing physical and mental sensation with non-reactive, bare attention.",
@@ -20224,6 +20734,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "51edbdb7",
     "onePageSummary": {
       "elevatorPitch": "Think of your breath not as a passive background hum, but as an interactive dashboard for your autonomic nervous system and conscious mind. Bhikkhu An\\u0101layo decodes the ancient 16-step breath protocol into a clean, systematic feedback loop that recalibrates physiological stress, emotional reactivity, and mental fixation.",
       "coreThesis": "The breath is a bidirectional control dial linking body and consciousness; methodically observing its changing nuances systematically recalibrates neural arousal, deconstructs reactive self-referential habits, and reveals the fluid non-dual nature of immediate experience.",
@@ -20261,6 +20772,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1952,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1038b17b",
     "onePageSummary": {
       "elevatorPitch": "Your breath is not just air moving through your lungs; it is a built-in compass pointing straight back to clear presence. This book delivers the ancient, time-tested manual on how observing everyday breathing systematically frees your mind from stress, distraction, and ego.",
       "coreThesis": "Breath is the universal bridge between physical body and silent mind; resting steady, non-judgmental attention on respiration dissolves reactivity and reveals natural liberation.",
@@ -20298,6 +20810,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b7fca144",
     "onePageSummary": {
       "elevatorPitch": "Transform everyday breathing and physical bodily sensations into an ultra-sharp microscope of direct awareness. This classic meditation manual offers a concrete, laboratory-grade roadmap to quiet the restless mind and perceive physical existence at the level of raw ultimate reality.",
       "coreThesis": "Deep mental stillness and true spiritual liberation are not mysterious accidents, but the direct result of systematically calming the breath to develop luminous concentration, then turning that radiant awareness upon physical reality to dismantle the illusion of a solid self.",
@@ -20335,6 +20848,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ff02c9d6",
     "onePageSummary": {
       "elevatorPitch": "Your physical body is not just a biological vehicle; it is the master instrument board and primary anchor for mental freedom. Bhikkhu An\\u0101layo reveals how tuning directly into somatic mechanics systematically dissolves chronic stress, mental rumination, and existential confusion.",
       "coreThesis": "Grounding sustained awareness directly in the physical body breaks the feedback loop of compulsive mental storytelling and exposes the fluid, ungraspable nature of all lived experience.",
@@ -20372,6 +20886,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1985,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "45748bd9",
     "onePageSummary": {
       "elevatorPitch": "Stop trying to forcefully silence your noisy mind and instead discover the silent sky in which every storm naturally dissolves. Ajahn Sumedho reveals mindfulness not as an exhausting mental chore, but as direct, effortless resting in the unshakeable stillness behind every passing thought.",
       "coreThesis": "Suffering occurs only when we identify with passing thoughts and feelings; freedom is discovered the moment we rest in the open, unconditioned awareness that peacefully observes them.",
@@ -20409,6 +20924,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1988,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "dd6ecee9",
     "onePageSummary": {
       "elevatorPitch": "Your breath is not just air moving through lungs; it is the master steering wheel of your mind, nervous system, and emotional freedom. Buddhadasa Bhikkhu delivers a crystal-clear, step-by-step masterclass on how to use every inhalation and exhalation to dismantle stress, drop inner friction, and awaken to natural peace.",
       "coreThesis": "Suffering occurs when we cling to ever-changing bodily states, emotions, and thoughts; by anchoring attention in the breath across its natural stages, we awaken to impermanence and step into unshakeable inner peace.",
@@ -20446,6 +20962,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1991,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "14a29d62",
     "onePageSummary": {
       "elevatorPitch": "MindScience captures the historic first summit where Harvard medical scientists and Buddhist contemplative masters met to map human consciousness. It proves that ancient meditation is an empirical inner science capable of rewiring the nervous system and unlocking radical peace.",
       "coreThesis": "Human consciousness and physical biology exist in a dynamic, two-way feedback loop where disciplined awareness directly transforms the nervous system, proving that genuine mental well-being is a trainable skill rather than a fixed genetic trait.",
@@ -20483,6 +21000,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2006,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b1ea3376",
     "onePageSummary": {
       "elevatorPitch": "Your brain is an adaptable muscle, not an immutable statue. Discover the hidden psychological lever that separates brittle perfectionism from limitless resilience.",
       "coreThesis": "Human potential is a dynamic capacity forged through effort and adaptive strategy, not a fixed pool of genetic talent. Believing your abilities can grow changes how you process friction, failure, and lifelong mastery.",
@@ -20520,6 +21038,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b0ffb602",
     "onePageSummary": {
       "elevatorPitch": "Stop waiting for inspiration and start shrinking your daily actions until failure is impossible. By demanding just one push-up, one page read, or one paragraph written every day, you bypass mental friction and build permanent momentum.",
       "coreThesis": "True behavioral change does not come from superhuman motivation, but from shrinking daily actions until they are 'too small to fail,' turning consistency into an effortless reflex.",
@@ -20557,6 +21076,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f54512f4",
     "onePageSummary": {
       "elevatorPitch": "Standard economics assumes we are cold, robotic calculating machines called 'Econs'\\u2014yet actual humans are messy, impulsive, and wonderfully irrational. Richard Thaler reveals how invisible psychological quirks shape our wallets, our markets, and our daily choices, showing how designing for real human nature transforms the world.",
       "coreThesis": "Human economic decisions are not governed by robotic optimization, but by systematic psychological shortcuts, emotional accounting, and self-control battles. Recognizing these predictable quirks allows us to design smarter choices that work with human nature rather than against it.",
@@ -20594,6 +21114,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2007,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7a039920",
     "onePageSummary": {
       "elevatorPitch": "We are rarely deliberate liars; instead, our brains run an automated PR department that rewrites reality to protect our fragile egos. Tavris and Aronson reveal the invisible mental gears that turn honest errors into entrenched delusions\\u2014and show us how to break the cycle.",
       "coreThesis": "Self-justification is not deliberate deceit, but an unconscious defense mechanism driven by cognitive dissonance that blinds us to our blunders and polarizes our relationships.",
@@ -20631,6 +21152,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1997,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f04fcfad",
     "onePageSummary": {
       "elevatorPitch": "Divorce does not terminate a family system; it reorganizes a single headquarters into a two-campus corporate partnership. By trading emotional grievance for businesslike protocols, parents can run calm, highly synchronized dual-household operations without courtroom warfare.",
       "coreThesis": "Separation is not the destruction of a family but the administrative redesign of a shared enterprise into two autonomous, cooperating households governed by businesslike boundaries.",
@@ -20668,6 +21190,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0310b55e",
     "onePageSummary": {
       "elevatorPitch": "Most innovations fail not because the engineering is bad, but because companies build products first and guess the price at the finish line. Designing around price turns innovation from an expensive gamble into predictable profit.",
       "coreThesis": "Never build a product and then wonder what to charge; determine what customers will pay first, and design the product to match that price.",
@@ -20705,6 +21228,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c2367248",
     "onePageSummary": {
       "elevatorPitch": "Great memory is not a genetic gift reserved for savants. It is an ancient mechanical art anyone can deliberately rebuild.",
       "coreThesis": "Extraordinary memory is an acquired athletic skill rooted in human evolutionary biology rather than innate biological genius.",
@@ -20741,6 +21265,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0f5e2e20",
     "onePageSummary": {
       "elevatorPitch": "Just like a biological seedling deprived of sunlight and mineral-rich soil, human emotional architecture buckles when early maternal nurturance, protection, and guidance are missing. Kelly McDaniel illuminates the hidden autonomic mechanics behind chronic emptiness and provides a precise blueprint to rewire your nervous system for lasting security.",
       "coreThesis": "Mother Hunger is a physiological and developmental attachment deficit caused by the absence of early nurturance, protection, or guidance; true recovery comes not from fixing external relationships, but from somatic regulation, grief integration, and building earned internal security.",
@@ -20778,6 +21303,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8c16de32",
     "onePageSummary": {
       "elevatorPitch": "Most organizations leave half their collective intelligence on the table because leaders act as bottlenecks rather than catalysts. Mastering the Multiplier playbook unlocks up to twice the output from the exact same payroll without burning out talent.",
       "coreThesis": "Leadership leverage is not about how much you know or control; it is about how much intelligence and capability you extract from the people around you.",
@@ -20815,6 +21341,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1962,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d15d8af3",
     "onePageSummary": {
       "elevatorPitch": "Written in the immediate aftermath of losing his nation, the Dalai Lama\\u2019s original autobiography reveals how unshakeable inner peace and fierce compassion survive the ultimate geopolitical catastrophe. It is an enduring testament to meeting violent disruption not with hatred, but with clarity, disciplined non-violence, and radical non-attachment.",
       "coreThesis": "External sovereignty and physical territory can be stripped away overnight, but genuine inner freedom and compassionate presence remain indestructible when anchored beyond ego and resentment.",
@@ -20852,6 +21379,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b6cb4fc2",
     "onePageSummary": {
       "elevatorPitch": "When arguments turn bitter, we stop fighting over practical solutions and start defending our survival as a self. Daniel Shapiro reveals the hidden psychological tripwires that pull us into tribal warfare and provides a surgical toolkit to defuse explosive emotional conflicts.",
       "coreThesis": "Deep conflict is rarely about the surface issue; it is a primal fight to defend threatened identity against emotional lures that hijack rational thought.",
@@ -20889,6 +21417,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2007,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1beb5a9c",
     "onePageSummary": {
       "elevatorPitch": "Negotiation is not a bar brawl or a mystical charisma contest; it is an investigative science of discovering hidden value and outsmarting cognitive biases. By shifting from aggressive posturing to diagnostic inquiry, you turn conflict into high-yield problem solving.",
       "coreThesis": "Brilliant outcomes come from treating negotiation as an investigative discipline that methodically uncovers hidden constraints, trades non-competing priorities, and mitigates universal psychological biases.",
@@ -20926,6 +21455,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c836cc53",
     "onePageSummary": {
       "elevatorPitch": "Traditional networking is a high-cost, low-yield game of collecting business cards that yields zero real trust. Devora Zack arms analytical and introverted operators with a disciplined blueprint to turn quiet observation and focused depth into an unassailable relationship moat.",
       "coreThesis": "Sustainable professional influence is built through strategic depth, disciplined listening, and calibrated execution\\u2014not the frantic, surface-level theater of conventional networking.",
@@ -20963,6 +21493,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c297cb12",
     "onePageSummary": {
       "elevatorPitch": "Success is not an individual marathon; it is an organized team sport where the density of your alliances determines the height of your ceiling. Ferrazzi dismantles sleazy glad-handing and presents a razor-sharp tactical blueprint for engineering compounding relationship equity through relentless generosity and systematic outreach.",
       "coreThesis": "Individual talent sets your baseline, but your relational network sets your ceiling; compounding competitive advantage belongs to those who systematically deliver selfless value to key nodes before ever asking for return.",
@@ -21000,6 +21531,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2022,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "37ecc71a",
     "onePageSummary": {
       "elevatorPitch": "Human performance breaks down not because our physical hardware hits a true mechanical wall, but because internal warning signals pull the emergency brake far too early. By treating the mind like a biological testing laboratory, you can recalibrate those protective governor switches and discover that your true capacity lies miles beyond where comfort ends.",
       "coreThesis": "Human capacity is governed by self-protective psychological switches rather than hard biological walls; by systematically auditing and desensitizing those internal alarms, mental growth becomes an infinite, lifelong process.",
@@ -21037,6 +21569,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "eb564884",
     "onePageSummary": {
       "elevatorPitch": "Most businesses obsess over chasing the sale, only to abandon buyers during the most fragile transition in commerce. Joey Coleman reveals the behavioral mechanics of the First 100 Days, demonstrating how engineering emotional safety turns first-time purchasers into fierce lifelong advocates.",
       "coreThesis": "Lifetime customer loyalty is not decided at contract renewal, but engineered through emotional validation during the first 100 days post-sale.",
@@ -21074,6 +21607,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "04cea7be",
     "onePageSummary": {
       "elevatorPitch": "Negotiation is not a mathematical equation or a polite battle of logic; it is an exercise in emotional navigation. By learning how the human brain actually processes risk and trust, you can steer high-stakes conversations with surgical calm.",
       "coreThesis": "Human beings are fundamentally emotional, irrational, and defensive; lasting agreement happens only when you disarm their threat circuitry through tactical empathy and let them feel in total control.",
@@ -21111,6 +21645,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "859c76a2",
     "onePageSummary": {
       "elevatorPitch": "New business development is not an elusive art form reserved for silver-tongued charismatics; it is a predictable mechanical system built on target selection, sharp narrative weapons, and disciplined execution. Master this triad, and prospecting shifts from anxiety-inducing guesswork into a dependable engine for steady revenue growth.",
       "coreThesis": "Sustainable business development is an engineered discipline, not an accident of personality: select a finite list of ideal targets, arm yourself with a customer-centric story, and execute focused prospecting sprints on an inviolable calendar rhythm.",
@@ -21148,6 +21683,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "34e6ca5b",
     "onePageSummary": {
       "elevatorPitch": "Happiness is not an accidental mood or a finished trophy you put on a shelf; it is an active craft you practice every single day. By steering your daily habits between wasteful excess and timid deficiency, you forge an unshakeable inner life.",
       "coreThesis": "Human flourishing is an active, lifelong practice of reason in accordance with virtue, achieved by steering daily habits toward the balanced mean between harmful extremes.",
@@ -21185,6 +21721,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1994,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "69e9232b",
     "onePageSummary": {
       "elevatorPitch": "Stop wrestling with reality: true peace is not the absence of storms, but the wisdom to leave the heart unhooked. In short, razor-sharp reflections, Thai forest master Ajahn Chah strips spirituality down to practical, unshakeable stillness.",
       "coreThesis": "Suffering is born from resisting change and grasping at what cannot be held; when you release attachment to outcomes and self-image, unconditioned peace is already present.",
@@ -21222,6 +21759,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d2e87bcc",
     "onePageSummary": {
       "elevatorPitch": "Your mind is not a single monolith but a dynamic internal crew where no bad members exist\\u2014only wounded specialists stuck in extreme survival roles. Learn how to step into the conductor's seat and lead your inner system with clarity, calm, and confidence.",
       "coreThesis": "The human mind is a naturally multiple system of protective parts gathered around an indestructible core Self; lasting healing happens not by exiling difficult impulses, but by leading them with curious, compassionate self-awareness.",
@@ -21259,6 +21797,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1979,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "904bef97",
     "onePageSummary": {
       "elevatorPitch": "All human psychological suffering stems from drawing imaginary boundaries across a seamless reality. By tracing these boundary lines backward, you can journey from fragmented self-doubt into unbroken, spacious wholeness.",
       "coreThesis": "Every psychological conflict arises from an imaginary boundary drawn across seamless awareness; true liberation is not winning the battle across the border, but recognizing that the border never existed.",
@@ -21296,6 +21835,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9a977fbe",
     "onePageSummary": {
       "elevatorPitch": "Human brains cannot absorb corrective instruction while engulfed in high-stress emotional storms. True discipline is not punitive retribution, but neurobiological calibration: connect to soothe the nervous system first, then redirect higher faculties toward constructive repair.",
       "coreThesis": "Discipline is fundamentally education rather than retribution; rational behavioral course-correction is neurologically impossible until emotional threat circuits have been soothed through attuned human connection.",
@@ -21333,6 +21873,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ca9e58d3",
     "onePageSummary": {
       "elevatorPitch": "Emotions are not operational errors; they are vital telemetry. Learn to calibrate, communicate, and channel feelings like a precision instrument to protect focus, eliminate misfires, and outexecute the competition.",
       "coreThesis": "Emotions are informational signals rather than operational directives; organizations that systematically decode and regulate them gain an unassailable advantage in team velocity, decision quality, and operational resilience.",
@@ -21370,6 +21911,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "15b60bc6",
     "onePageSummary": {
       "elevatorPitch": "You are not an isolated boss running a body; you are a flowing, living process. Discover the freedom of letting go of the phantom ego and experiencing life as it truly unfolds.",
       "coreThesis": "There is no permanent, unchanging self or central controller within body and mind; what we call 'I' is an interrelated stream of natural processes that arise and pass away according to causes.",
@@ -21407,6 +21949,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d81c2a02",
     "onePageSummary": {
       "elevatorPitch": "Beneath compulsive agreeableness lies a covert behavioral circuit built on shame, hidden demands, and quiet resentment. Uncover the subtle machinery of people-pleasing and rewire your operating system for grounded, uncompromising authenticity.",
       "coreThesis": "Trying to control the world through pleasing others is an exhausting, manipulative defense mechanism; genuine confidence emerges only when you own your needs, accept friction, and validate yourself.",
@@ -21444,6 +21987,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9da1a905",
     "onePageSummary": {
       "elevatorPitch": "Suffering is not a failure of life to be eradicated, but the fertile compost from which genuine peace, compassion, and awakening bloom.",
       "coreThesis": "Suffering and joy are complementary parts of one living reality; when embraced with mindful awareness, our deepest wounds become the raw material for genuine peace and compassion.",
@@ -21481,6 +22025,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fe896cce",
     "onePageSummary": {
       "elevatorPitch": "Buddhism is not a passive philosophy of mere acceptance, but an empowering master craft for training the mind toward total emotional freedom. Thanissaro Bhikkhu reveals the Dhamma as a pragmatic, noble strategy where every intention becomes a skillful tool to dismantle suffering.",
       "coreThesis": "The spiritual path is a deliberate, skillful strategy of action that transforms present intention, using ethical clarity and focused awareness to unbind the heart from all suffering.",
@@ -21518,6 +22063,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c4bd74bf",
     "onePageSummary": {
       "elevatorPitch": "Human conflict is rarely a clash of incompatible people\\u2014it is a signaling failure between shared human needs. This book reveals the hidden psychological wiring of conversation, offering a precise operating system to defuse defensive triggers and build real cooperation.",
       "coreThesis": "Behind every sharp judgment and defensive reaction lies a universal human need struggling to be heard. When we separate clear observations from evaluations and state concrete needs rather than demands, conflict naturally dissolves into collaboration.",
@@ -21555,6 +22101,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "97e19aa8",
     "onePageSummary": {
       "elevatorPitch": "Compulsive niceness is not a moral virtue; it is an anxiety-fueled defense mechanism that trades authentic connection for temporary conflict avoidance. Dr. Aziz Gazipura reverse-engineers the psychology of people-pleasing and provides a systematic training manual for asserting boundaries, tolerating social friction, and reclaiming autonomy.",
       "coreThesis": "Niceness is fear-based compliance masquerading as virtue; genuine self-respect and lasting relationships require speaking directly, enforcing boundaries, and enduring the temporary discomfort of other people's disapproval.",
@@ -21592,6 +22139,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1989,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f8ab1c59",
     "onePageSummary": {
       "elevatorPitch": "Yesterday is a memory and tomorrow is the unknown\\u2014peace begins the moment you stop fighting your experience and rest in direct awareness right now. Ajahn Sumedho reveals how stepping back from mental chatter uncovers an unshakeable clarity that is already present.",
       "coreThesis": "Suffering is born from identifying with transient mental states; enduring peace emerges when you rest as the knowing witness of all arising and passing phenomena.",
@@ -21629,6 +22177,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e80a5b8c",
     "onePageSummary": {
       "elevatorPitch": "Small environmental tweaks hold enormous power over the choices you make every day. By redesigning subtle defaults, we can steer better decisions without banning a single alternative.",
       "coreThesis": "Human decisions are heavily steered by environmental cues, so designing thoughtful defaults helps people choose better without restricting their freedom.",
@@ -21665,6 +22214,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a8b90cb4",
     "onePageSummary": {
       "elevatorPitch": "Human beings rarely make financial or life choices like cold, calculating spreadsheets\\u2014they default to whatever path offers the least resistance. By quietly rearranging the terrain of daily choices, you can protect yourself from your own worst impulses and let discipline run on autopilot.",
       "coreThesis": "Humans do not act like rational calculators; we naturally follow the path of least resistance. If you shape the environment so the default choice is the prudent choice, long-term survival and wealth take care of themselves.",
@@ -21702,6 +22252,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "20ccd08f",
     "onePageSummary": {
       "elevatorPitch": "Objections are not personal rejections or dead ends; they are predictable friction points generated by human cognitive wiring. By mastering emotional self-regulation and systematic conversational frameworks, you transform awkward resistance into collaborative deal momentum.",
       "coreThesis": "Objections are natural cognitive friction points, not personal rejections; mastering emotional regulation and disciplined asking turns resistance into predictable forward progress.",
@@ -21739,6 +22290,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "58802f3a",
     "onePageSummary": {
       "elevatorPitch": "Great products fail every day not because they lack features, but because they force buyers to guess where they fit on the shelf. Positioning provides the deliberate mental frame that turns complex capabilities into an obvious, high-margin purchase decision.",
       "coreThesis": "Positioning is the deliberate act of establishing the context that makes your product's unique value obvious to the specific customers who care the most.",
@@ -21776,6 +22328,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "030f54f0",
     "onePageSummary": {
       "elevatorPitch": "Your smartphone was engineered by the sharpest minds on earth to capture your attention and auction it to advertisers. Regain the driver's seat of your life with clear environmental boundaries and practical daily routines that put technology back in its place as a tool, not a master.",
       "coreThesis": "Digital distraction is an environmental design problem, not a character flaw; reclaiming your mind requires building intentional physical and temporal friction against predatory algorithms.",
@@ -21813,6 +22366,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f402357f",
     "onePageSummary": {
       "elevatorPitch": "Aging and mortality are not sudden personal tragedies to flee from, but the very chisel that carves away egoic delusion. Bhikkhu Anigha unlocks the ancient Jar\\u0101 Vagga verses to reveal that recognizing bodily decay is the swiftest doorway to absolute inner freedom.",
       "coreThesis": "Old age and physical dissolution are not flaws in our existence to be denied or mourned, but natural realities that, when observed directly without craving, permanently dismantle the architecture of suffering.",
@@ -21850,6 +22404,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1991,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f5e1c682",
     "onePageSummary": {
       "elevatorPitch": "Step into the living footsteps of Siddhartha Gautama as an ordinary human being who uncovered the art of quiet freedom in everyday reality. This masterwork shows that peace is not an unreachable prize at the end of the road\\u2014it is the very ground you step on right now.",
       "coreThesis": "Peace and liberation are not distant goals to achieve in another world; they are uncovered directly in this present moment whenever you bring kind, clear awareness to your everyday actions.",
@@ -21887,6 +22442,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1961,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "84d49d75",
     "onePageSummary": {
       "elevatorPitch": "Stop imagining what you look like from across the room and look directly at what is looking. In a single glance, discover that you are not a cramped eight-pound head peering out at the universe, but the vast, silent, boundless capacity in which the entire world happens.",
       "coreThesis": "From your own first-person perspective, you are not an object with a head inside the world; you are the boundless, spotless void in which the entire world occurs.",
@@ -21924,6 +22480,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b544d761",
     "onePageSummary": {
       "elevatorPitch": "Most suffering in relationships comes from confusing love with possessive clinging. In this lucid discourse, Ajahn Jayasaro reveals how unhooking goodwill from attachment transforms love from an anxious transaction into a boundless, freeing refuge.",
       "coreThesis": "Genuine love is not an anxious desire to possess another person, but the purified, unconditional wish for their true well-being, freed from craving and grounded in wisdom.",
@@ -21961,6 +22518,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "78b986d9",
     "onePageSummary": {
       "elevatorPitch": "Speaking well is not a cheap party trick\\u2014it is the ultimate human operating system that turns deep knowledge into collective momentum. Cicero reveals the hidden machinery of persuasion, showing that true influence happens only when broad mental substance meets disciplined vocal and physical delivery.",
       "coreThesis": "True eloquence is deep philosophical understanding brought to life through emotional resonance, disciplined structure, and magnetic physical delivery.",
@@ -21998,6 +22556,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3e4ca704",
     "onePageSummary": {
       "elevatorPitch": "Suffering is not a permanent trap, but a practical problem with an exact, hands-on mechanical solution. Thanissaro Bhikkhu curates the Buddha's original operating manual to show how deliberate ethical discipline, focused awareness, and meditative stillness assemble a reliable craft for total spiritual freedom.",
       "coreThesis": "The Noble Eightfold Path is a deliberate, pragmatic training program that transforms how you generate intention, turning every action, thought, and breath into a direct vehicle toward the unconditioned peace of liberation.",
@@ -22035,6 +22594,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "acb0ac1b",
     "onePageSummary": {
       "elevatorPitch": "Real freedom is not an exotic escape; it is waking up from the mental fog of identification and seeing reality with surgical clarity. Sayadaw U Pandita delivers an uncompromising, practical blueprint for deconstructing suffering and mastering your own mind in real time.",
       "coreThesis": "Suffering dissolves when continuous, precise awareness observes sensory experience directly, dismantling the false assumption of a solid, independent self.",
@@ -22072,6 +22632,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 49,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "08f2b122",
     "onePageSummary": {
       "elevatorPitch": "Life is not short\\u2014we simply waste the lion's share of it on trivial distractions and unpaid social debts. Seneca offers a timeless wake-up call to stop sleepwalking through our calendar and reclaim ownership of our most precious non-renewable asset.",
       "coreThesis": "Life is long enough if you know how to use it; it feels painfully short only because we squander our finite hours on trivial obligations and postpone living until it is too late.",
@@ -22109,6 +22670,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1976,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3c1d06b1",
     "onePageSummary": {
       "elevatorPitch": "Your words are the mirror of your character, signaling your hidden standards before you ever enter the room. Master the architecture of simplicity, and you command lasting respect through clarity, warmth, and quiet authority.",
       "coreThesis": "Prose is the mirror of character: stripped of vanity and clutter, clear writing becomes the ultimate signal of authority, emotional truth, and respect.",
@@ -22146,6 +22708,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "dda2f335",
     "onePageSummary": {
       "elevatorPitch": "Cut through sectarian confusion and discover the single, beating heart of contemplative wisdom: liberation through non-clinging. Joseph Goldstein distills ancient traditions into a lucid, pragmatic compass for waking up in modern daily life.",
       "coreThesis": "Authentic spiritual liberation is not measured by doctrinal allegiance or esoteric philosophy, but by a single universal touchstone: the mind's freedom from clinging.",
@@ -22183,6 +22746,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f240599e",
     "onePageSummary": {
       "elevatorPitch": "Big radical goals trigger hardwired neurological alarm bells that lock us into freeze, fear, and procrastination. By shrinking ambitions down to absurdly effortless micro-actions, Kaizen silently sneaks past the brain's defense perimeter to engineer effortless lifelong transformation.",
       "coreThesis": "Radical change triggers our brain's innate biological resistance, whereas ridiculously tiny micro-steps bypass neural alarm systems to foster effortless, compounding transformation.",
@@ -22220,6 +22784,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b11a2058",
     "onePageSummary": {
       "elevatorPitch": "Life drops unexpected truckloads of mess at your doorstep, but you don't have to carry the stench inside. Through disarming wit and profound mindfulness parables, Ajahn Brahm shows how opening the door of your heart to messy reality turns life's hardest moments into rich fertilizer for abiding peace.",
       "coreThesis": "Suffering does not come from painful events, but from our internal resistance to them; when you unconditionally welcome reality with patience, compassion, and open-hearted awareness, life's worst manure transforms into the fertilizer of wisdom.",
@@ -22257,6 +22822,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4a581704",
     "onePageSummary": {
       "elevatorPitch": "When life blows up your ideal flight path, you don't stall in mid-air\\u2014you re-calibrate the navigation instruments and fly Option B. Sheryl Sandberg and Adam Grant reveal the psychological mechanics of resilience, showing that grit is not a rare genetic endowment, but a dynamic feedback system you can deliberately strengthen.",
       "coreThesis": "Resilience is not a fixed character trait you either possess or lack; it is an adaptable cognitive and emotional muscle that can be systematically rebuilt through deliberate mental reframing, open social connection, and proactive self-compassion.",
@@ -22294,6 +22860,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1998,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "99bd913e",
     "onePageSummary": {
       "elevatorPitch": "Every mature organization inevitably becomes a gravitational tangle of legacy rules, but creative survival doesn't require quitting or surrendering\\u2014it requires entering a stable, self-directed orbit. By balancing institutional gravity with creative velocity, you harvest the enterprise's immense resources without getting crushed by its bureaucratic density.",
       "coreThesis": "True creative vitality within an institution requires establishing a deliberate orbit: close enough to harness corporate capital and scale, but distant enough to avoid suffocating in bureaucratic gravity.",
@@ -22331,6 +22898,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fabf6540",
     "onePageSummary": {
       "elevatorPitch": "Stop running on the consumer hamster wheel and transform your home from an exhausting warehouse into an energizing launchpad. Tsh Oxenreider hands you a battle-tested blueprint to purge physical drag, streamline household logistics, and build effortless daily momentum.",
       "coreThesis": "True simplicity is the intentional curation of your environment, schedule, and resources so your home ceases to be a draining storage unit and becomes an efficient engine for what matters most.",
@@ -22368,6 +22936,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1990,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9aaa6d5b",
     "onePageSummary": {
       "elevatorPitch": "Life has already scheduled a meeting with you right now, yet your mind is constantly out of the office chasing dead memories or phantom futures. This classic guide hands you the practical keys to show up, sit down, and reclaim your direct experience before your life passes you by.",
       "coreThesis": "Life is available only in the present moment; to be caught in the ghosts of the past or dreams of the future is to miss your only real appointment with reality.",
@@ -22405,6 +22974,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1987,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c1308cbf",
     "onePageSummary": {
       "elevatorPitch": "Your physical body is a borrowed shelter that will inevitably crumble\\u2014peace comes not from fighting the wreckage, but from discovering the timeless awareness that was never born and cannot die.",
       "coreThesis": "The physical body is merely borrowed matter bound for decay; our real home is the clear, unattached mind resting in peaceful awareness.",
@@ -22442,6 +23012,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a6de7745",
     "onePageSummary": {
       "elevatorPitch": "Cold outreach is not an art of charismatic persuasion\\u2014it is an empirical engineering discipline governed by conversion physics and human psychology. Master the direct, no-nonsense mechanics of telephone and email prospecting to build a predictable, self-sustaining sales pipeline.",
       "coreThesis": "Outbound sales is a predictable operational science: systematic list curation, honest direct phone conversations, and transparent conversion math consistently outperform charismatic guesswork.",
@@ -22479,6 +23050,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2023,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4cf52f80",
     "onePageSummary": {
       "elevatorPitch": "Stop waiting for the check-engine light to flash on your body before taking action. Outlive reveals how to overhaul your biological engine decades before breakdown occurs, matching a long life with peak physical vitality and mental sharpness.",
       "coreThesis": "True longevity requires shifting from reactive treatment to proactive prevention decades before symptoms arise, pairing cardiovascular fitness, muscle stability, metabolic health, and emotional resilience to safeguard healthspan alongside lifespan.",
@@ -22516,6 +23088,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1977,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4d887f60",
     "onePageSummary": {
       "elevatorPitch": "Anger is not a chemical surge forced upon you by bad drivers, broken appliances, or unfair bosses\\u2014it is an internal interpretation error. Master the hidden cognitive code behind your reactions, and you can switch off the internal furnace whenever life goes off script.",
       "coreThesis": "External events and difficult people do not make you angry; you anger yourself by converting flexible preferences into rigid, dogmatic demands on reality.",
@@ -22553,6 +23126,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2969baed",
     "onePageSummary": {
       "elevatorPitch": "Your skeleton is a system of adjustable levers, and gravity is a constant gravitational field waiting to be mastered. Steven Low decodes bodyweight strength into an exact engineering science, showing you how to build elite, injury-proof physical power without ever stepping foot into a commercial gym.",
       "coreThesis": "Bodyweight strength is not an unpredictable art; it is Newtonian physics and cellular biology applied to human levers, where manipulating mechanical advantage builds elite power and durable connective tissue.",
@@ -22590,6 +23164,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ace2b424",
     "onePageSummary": {
       "elevatorPitch": "Busyness is not a badge of honor; it is an engineered operational crisis. Brigid Schulte exposes why modern life feels like drowning in fragmented minutes and delivers a tactical roadmap to reclaim sovereign, restorative time.",
       "coreThesis": "Overwhelm is not a personal failure of discipline or time management, but a broken cultural operating system that fractures attention into useless scrap\\u2014one that can be systematically dismantled through boundary design, equitable domestic teamwork, and non-negotiable blocks of deep work and true play.",
@@ -22627,6 +23202,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1991,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7be21b7a",
     "onePageSummary": {
       "elevatorPitch": "Think of your personality like a well-lit home where half the rooms were locked and darkened to look neat for the neighbors. Robert A. Johnson gives you the master key to reopen the basement, reclaim your trapped vitality, and achieve true psychological wholeness.",
       "coreThesis": "Wholeness requires integrating both the light and dark aspects of human nature. Whatever we disown does not disappear; it rules us from behind the scenes until we consciously claim it.",
@@ -22664,6 +23240,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1982,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6a5dafbb",
     "onePageSummary": {
       "elevatorPitch": "A crystal-clear distillation of early Buddhist wisdom that strips away historical dust to reveal the timeless mechanics of human freedom. It hands you a serene, grounded blueprint for turning raw attention directly into lasting liberation.",
       "coreThesis": "Suffering is maintained by gripping transient phenomena; clarity arises when relentless self-clinging gives way to serene, unadorned observation of the present moment.",
@@ -22701,6 +23278,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6bdd0996",
     "onePageSummary": {
       "elevatorPitch": "When life's relentless demands threaten to pull you under, spiritual practice is not an abstract theory\\u2014it is a dependable raft built from daily virtues. Ajahn Sucitto demonstrates how ten classical inner qualities transform everyday stress into clear, grounded spiritual freedom.",
       "coreThesis": "Enlightenment is built not through extraordinary feats, but by consistently cultivating ten grounded, everyday virtues that carry the mind across the turbulent currents of reactivity to lasting peace.",
@@ -22738,6 +23316,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "90fb861d",
     "onePageSummary": {
       "elevatorPitch": "Your reactions under pressure are rarely about the present moment; they are ancient muscle memory firing from unresolved chapters of your own past. When you map your internal wiring and make peace with your personal history, you gain conscious control over how you show up in every relationship.",
       "coreThesis": "The single strongest predictor of healthy, secure relationships is the degree to which an adult has made coherent sense of their own childhood experiences.",
@@ -22775,6 +23354,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1969,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d7e03cd6",
     "onePageSummary": {
       "elevatorPitch": "Step into the engine room of reality where nothing exists in isolation. Sayadaw U Narada unlocks the crown jewel of Buddhist psychology, proving that what you call a 'self' is simply a brilliant, fluid dance of interconnected conditions.",
       "coreThesis": "Nothing in the universe stands alone or arises without cause; every experience is an impermanent event sustained by an intricate web of twenty-four conditional relations.",
@@ -22812,6 +23392,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1980,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bcf5c091",
     "onePageSummary": {
       "elevatorPitch": "Suffering does not come from the noisy world around you; it comes entirely from clutching things that change. Ajahn Chah hands you the plain, practical wisdom to put down the heavy rock you never realized you were carrying.",
       "coreThesis": "Suffering occurs only when the mind grasps and resists reality; absolute peace appears the moment you open your hands and let experience flow without clinging.",
@@ -22849,6 +23430,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d07fcf25",
     "onePageSummary": {
       "elevatorPitch": "Peace is not a static retirement home where life stops moving; it is learning how to ride a bicycle smoothly across uneven ground. Master monk Ajahn Sumedho reveals how direct awareness transforms daily emotional chaos into grounded, unshakeable freedom.",
       "coreThesis": "Peace is not the total absence of life's friction, but the active, unconditioned awareness that holds every shifting condition without clinging.",
@@ -22886,6 +23468,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1991,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6a8b29ba",
     "onePageSummary": {
       "elevatorPitch": "Peace is not a distant destination waiting at the finish line of personal striving; it is the immediate physical reality of your next breath, your next step, and your next mindful choice.",
       "coreThesis": "Peace is not a future milestone achieved by eliminating problems; it is the living capacity to be fully awake, kind, and non-attached in this exact breath and step.",
@@ -22923,6 +23506,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ce6e1f40",
     "onePageSummary": {
       "elevatorPitch": "World-class performance isn't about nonstop grinding\\u2014it is about cycling smart stress with aggressive recovery. Master the science of deliberate strain, strategic rest, and purpose-driven focus to achieve elite results without burning out.",
       "coreThesis": "Sustainable peak performance across any domain follows a universal biological truth: Stress + Rest = Growth.",
@@ -22960,6 +23544,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "dbe96fdc",
     "onePageSummary": {
       "elevatorPitch": "Mastery is not an innate gift wired into your DNA; it is a physical and cognitive structure you construct deliberately. By replacing mindless repetition with targeted, feedback-rich practice, anyone can reshape their brain and push past seemingly fixed human limits.",
       "coreThesis": "Exceptional ability is not born from innate genetic gifts, but engineered through deliberate practice\\u2014focused, uncomfortable training guided by clear feedback that builds superior mental models.",
@@ -22997,6 +23582,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "024f9d64",
     "onePageSummary": {
       "elevatorPitch": "Most products flare up and vanish overnight like dry brush, while true classics endure like ancient redwood trees. Ryan Holiday reveals the ruthless blueprint for crafting, positioning, and marketing work designed to sell steadily for decades.",
       "coreThesis": "Enduring commercial success is an architectural decision, not a lottery ticket: lasting work requires an inherently great product, ruthless positioning for a specific tribe, and an owned distribution engine.",
@@ -23034,6 +23620,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5f656787",
     "onePageSummary": {
       "elevatorPitch": "Emotions are not irrational glitches to suppress\\u2014they are high-fidelity biometric data streams. By shifting from a defensive emotion judge to an inquisitive emotion scientist, you unlock the exact operating system required to navigate pressure, master self-regulation, and lead effectively.",
       "coreThesis": "Emotions are vital biometric data, not character flaws; when we cultivate the scientific discipline to recognize, name, and regulate our internal states, we regain sovereign control over our cognitive choices and relational systems.",
@@ -23071,6 +23658,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1969,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "25676804",
     "onePageSummary": {
       "elevatorPitch": "Every human carries an invisible, portable bubble of personal space that expands and contracts based on trust, status, and environment. Robert Sommer pulls back the curtain on this hidden architecture, revealing how everyday rooms quietly dictate whether we connect, compete, or retreat.",
       "coreThesis": "Human beings inhabit an invisible, portable territory whose boundaries constantly negotiate privacy, status, and social warmth; physical architecture must serve these biological and behavioral feedback loops rather than institutional convenience.",
@@ -23108,6 +23696,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "16b1adf4",
     "onePageSummary": {
       "elevatorPitch": "Think of human awareness as sophisticated dashboard software for navigating reality. Bhikkhu Analayo reverse-engineers early mindfulness manuals to reveal how systematically monitoring your body, feelings, mind states, and mental patterns rewires cognitive reactivity into absolute clarity.",
       "coreThesis": "Mindfulness is an open, receptive observational system that decouples raw experience from automatic emotional reactivity, transforming reactive suffering into lucid comprehension.",
@@ -23145,6 +23734,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ae56e33b",
     "onePageSummary": {
       "elevatorPitch": "Philosophy was never meant to be a dry academic lecture; it began as a daily training discipline for the human spirit. Pierre Hadot reveals how ancient wisdom offers practical spiritual exercises to quiet inner turmoil, expand perspective, and master everyday life.",
       "coreThesis": "Ancient philosophy was not a system of abstract doctrines, but a lived therapeutic discipline of daily mental exercises designed to transform how human beings perceive reality and conduct their lives.",
@@ -23182,6 +23772,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c342bd0f",
     "onePageSummary": {
       "elevatorPitch": "Most pitches fail because you deliver complex ideas to an evolutionary survival brain that treats unfamiliar data like a threat. Win the room by mastering cognitive status, colliding social frames, and turning yourself into the prize they must chase.",
       "coreThesis": "Human decisions are governed by ancient survival instincts and status games; you only win high-stakes deals when you control the social frame, elevate your local status, and make the buyer chase you as the prize.",
@@ -23219,6 +23810,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "dee706ae",
     "onePageSummary": {
       "elevatorPitch": "Stop leaping off career cliffs in blind panic\\u2014career reinvention is a deliberate, scientific cycle of planting your foundation, scanning options, testing pilots, and executing crisp launches.",
       "coreThesis": "Career reinvention is not a reckless leap into the unknown, but an intentional, agile process of building on your established strengths through small, low-risk experiments before making a full transition.",
@@ -23256,6 +23848,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2384d0f7",
     "onePageSummary": {
       "elevatorPitch": "What if your everyday decisions are driven by illusions on a wall, and true freedom begins only when you inspect the projector? Plato maps human psychology and social organization into a working feedback engine, showing how rigorous inquiry dismantles false confidence and builds lasting internal clarity.",
       "coreThesis": "Justice is internal harmony: when reason guides emotional drive to manage appetites, both an individual mind and an entire society run smoothly, immune to self-sabotage.",
@@ -23293,6 +23886,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e07e0fb7",
     "onePageSummary": {
       "elevatorPitch": "Stop fighting over crumbs in someone else's market. The most dominant players in history don't beat the competition\\u2014they make the competition irrelevant by inventing the problem only they can solve.",
       "coreThesis": "The best company doesn't win; the company that defines the problem and creates the category wins and captures 76% of the value.",
@@ -23330,6 +23924,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7bd605d5",
     "onePageSummary": {
       "elevatorPitch": "Most professionals are running on an endless treadmill where every pay raise simply buys heavier lifestyle weights. Playing with FIRE reveals the underlying mechanics of consumer traps and hands you the engineering blueprint to buy back forty years of your life.",
       "coreThesis": "Financial independence is not a function of raw income, but of the mathematical gap between what you earn and what you consume; drastically widening that gap lets you buy back your lifetime.",
@@ -23367,6 +23962,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "13282bc3",
     "onePageSummary": {
       "elevatorPitch": "You do not need brilliance to build durable wealth; you only need to avoid chronic stupidity. Master a handful of big ideas across disciplines and let compounding do the heavy lifting.",
       "coreThesis": "Durable wealth and clear judgment come from avoiding predictable human folly through multidisciplinary thinking.",
@@ -23403,6 +23999,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1981,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2af57d9c",
     "onePageSummary": {
       "elevatorPitch": "Positioning is not about altering what you build; it is about anchoring a single, uncontested idea inside the customer's mind. In an overcrowded world, the winner is not the superior product, but the player who stakes out the sharpest, earliest mental real estate.",
       "coreThesis": "Victory in business and executive reputation is decided in the prospect's mind, where owning one simple, distinctive word beats product superiority every time.",
@@ -23440,6 +24037,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1990,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e6a999eb",
     "onePageSummary": {
       "elevatorPitch": "Enterprise sales deals are never won on product spec sheets or feature checklists; they are won in the shadows of corporate politics. Power Base Selling delivers the battle-tested blueprint to map hidden influence, recruit internal power brokers, and engineer decisive competitive victories.",
       "coreThesis": "B2B enterprise buying decisions are political outcomes driven by informal networks of influence rather than formal organizational hierarchies. Victory belongs to the seller who identifies internal power brokers ('Foxes'), aligns with their personal and business stakes, and executes deliberate competitive maneuvers.",
@@ -23477,6 +24075,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e873ebba",
     "onePageSummary": {
       "elevatorPitch": "Stop pitching answers to problems you haven't diagnosed. Power Questions hands you the master key to executive dialogue\\u2014trading one-way presentations for surgical questions that reframe stakes, command boardroom trust, and win business without selling.",
       "coreThesis": "Conversational control belongs to the person asking the questions, not the one giving the answers. Tactical inquiry dismantles client defenses, uncovers unpriced risk, and positions you as a strategic partner rather than an interchangeable vendor.",
@@ -23514,6 +24113,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "90565a32",
     "onePageSummary": {
       "elevatorPitch": "Stop waiting for the workplace to fairly reward your quiet competence. Power is a pragmatic, neutral craft of controlling resources, securing visibility, and engineering alliances\\u2014and those who refuse to learn its rules will always be governed by those who do.",
       "coreThesis": "Organizational advancement is governed by visibility, resource control, and strategic relationship architecture, not by the naive belief that job performance automatically rewards itself.",
@@ -23551,6 +24151,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1954,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c6f22951",
     "onePageSummary": {
       "elevatorPitch": "Think of your consciousness as an operating system running millions of unexamined automated background scripts\\u2014this manual offers the precise, step-by-step diagnostic toolkit to inspect and debug them in real time. By applying simple descriptive labels to raw bodily feedback and fleeting thoughts, you strip away emotional static and discover how moment-to-moment reality actually operates.",
       "coreThesis": "Subjective suffering is caused by confusing rapid, impersonal sensory data with a fixed personal identity; systematically labeling raw sensations in real time breaks this illusion and restores baseline mental freedom.",
@@ -23588,6 +24189,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2c0c30f2",
     "onePageSummary": {
       "elevatorPitch": "Master persuaders do not change minds with superior arguments; they change the mental landscape before making the pitch. What you focus on right before a choice quietly dictates what you decide.",
       "coreThesis": "The secret to effective persuasion lies not in what you say, but in what you place in the listener's mind immediately before you speak.",
@@ -23625,6 +24227,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2e806c8f",
     "onePageSummary": {
       "elevatorPitch": "Sales is not an unpredictable art practiced by lone-wolf heroes; it is an engineered machine. By breaking revenue into specialized assembly-line roles and replacing cold calls with targeted referral outreach, any company can create a reliable, recurring flow of pipeline.",
       "coreThesis": "Predictable revenue is an engineered byproduct of strict role specialization and targeted, referral-based outbound prospecting.",
@@ -23662,6 +24265,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "032a1ea7",
     "onePageSummary": {
       "elevatorPitch": "Human decision-making is not randomly flawed; it is systematically biased along predictable, exploitable vectors. Master these irrational patterns to construct robust operational moats, optimize pricing architectures, and eliminate self-inflicted strategic errors.",
       "coreThesis": "Human irrationality is not random or chaotic; it is systematic, repetitive, and completely predictable. Strategic advantage comes from designing incentives, pricing, and operational systems that account for these hardwired cognitive biases rather than assuming rational actors.",
@@ -23699,6 +24303,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0bf82ffe",
     "onePageSummary": {
       "elevatorPitch": "When high stakes strike, you don't need a charismatic mask\\u2014you need your body to convince your brain that you are safe, capable, and ready. Amy Cuddy shows how tiny adjustments in physical posture rewire internal chemistry and dissolve paralyzing anxiety.",
       "coreThesis": "Your body doesn't just reflect how you feel; it actively dictates how you think, feel, and perform under pressure.",
@@ -23736,6 +24341,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2ed158b1",
     "onePageSummary": {
       "elevatorPitch": "Most presentations overload human attention by treating visual slides like teleprompters. Presentation Zen decodes the cognitive mechanics of human attention, showing you how to strip away clutter and deliver unforgettable visual stories.",
       "coreThesis": "A presentation is a human performance amplified by visual imagery, not a document projected on a wall. Maximum influence happens when you strip away digital clutter to let clarity, narrative contrast, and human presence connect directly with listener psychology.",
@@ -23773,6 +24379,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1d143151",
     "onePageSummary": {
       "elevatorPitch": "Great leadership is not determined by spreadsheets or strategic plans, but by human biology: leaders act as emotional thermostats whose internal state automatically synchronizes the nervous systems of everyone in the room. By mastering your emotional resonance across six distinct behavioral styles, you transform emotional contagion from an invisible hazard into your organization's ultimate competitive engine.",
       "coreThesis": "A leader's primary biological task is emotional regulation: because human nervous systems synchronize with authority figures through open-loop limbic circuitry, resonant leadership unlocks team cognition while dissonant leadership paralyzes it.",
@@ -23810,6 +24417,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "41c03f89",
     "onePageSummary": {
       "elevatorPitch": "Debt crises seem like chaotic financial thunderstorms, but they actually follow strict, repeatable laws of physics. Once you master the hidden machine of credit, you can spot the warning signs and protect your life raft before the tidal wave hits.",
       "coreThesis": "Debt cycles are not unpredictable accidents; they are mechanical cause-and-effect loops driven by human greed, shortsightedness, and the math of borrowing from our future selves.",
@@ -23847,6 +24455,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cf327399",
     "onePageSummary": {
       "elevatorPitch": "Most operators fail because their egos hide their mistakes from their operating models. Ray Dalio treats life and business as precision-engineered machines, turning painful blunders into codified algorithmic principles that guarantee market dominance over time.",
       "coreThesis": "Pain plus reflection equals progress: treat reality as an objective machine, systematize decision rules, and let an idea meritocracy eliminate blind spots.",
@@ -23884,6 +24493,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "dd3532c8",
     "onePageSummary": {
       "elevatorPitch": "What if your mind is not a permanent thinker, but a breathtakingly fast stream of momentary mental events? Dr. Mehm Tin Mon dismantles the mechanics of your consciousness to show exactly where suffering begins and how serene insight sets you free.",
       "coreThesis": "Consciousness is an orderly stream of momentary, dependently arisen processes rather than a fixed self, and liberating peace is realized the moment we see through this rapid rhythm with mindful non-attachment.",
@@ -23921,6 +24531,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1967,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "566cbc34",
     "onePageSummary": {
       "elevatorPitch": "Worldly harmony does not begin with managing others; it begins with mastering your own mind. Nyanaponika Thera shows how radical self-awareness becomes the ultimate armor for yourself and your community.",
       "coreThesis": "Protecting oneself through mindfulness safeguards the world, and protecting others through kindness safeguards oneself.",
@@ -23958,6 +24569,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3d96889b",
     "onePageSummary": {
       "elevatorPitch": "Doing well with money has little to do with smarts and everything to do with behavior. Financial success is not hard science; it is the quiet art of enduring survival.",
       "coreThesis": "Financial prosperity is determined by behavioral endurance and emotional restraint rather than analytical intellect. True wealth is the unspent capital that grants total autonomy over your time.",
@@ -23994,6 +24606,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "83440316",
     "onePageSummary": {
       "elevatorPitch": "Step inside the deceptive psychological machinery of predatory charm and discover the exact mechanics required to dismantle toxic conditioning and reclaim your sovereignty.",
       "coreThesis": "Toxic manipulation is an engineered behavioral trap that exploits genuine empathy; permanent recovery requires dismantling cognitive dissonance, enforcing total non-engagement, and transforming unexamined vulnerabilities into conscious self-respect.",
@@ -24031,6 +24644,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1924,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d2d1fa91",
     "onePageSummary": {
       "elevatorPitch": "While ultimate reality reveals no permanent ego, our daily mental habits are unmistakably real. This classical Buddhist masterwork provides a crystal-clear psychological mirror to diagnose your inner tendencies and chart an exact course toward emotional freedom.",
       "coreThesis": "The individual self is a practical convention rather than a fixed soul, yet diagnosing your unique psychological patterns is essential for untangling suffering and awakening into steady, compassionate freedom.",
@@ -24068,6 +24682,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e8b97bf7",
     "onePageSummary": {
       "elevatorPitch": "Stop mistaking the turbulent weather on the surface of your life for who you actually are. This masterclass reveals how quiet concentration and razor-sharp self-observation systematically dissolve existential anxiety, leaving direct, unshakeable peace.",
       "coreThesis": "Suffering occurs when you mistake a shifting stream of physical sensations and mental habits for a permanent self; steadying the mind dismantles this illusion and reveals inherent freedom.",
@@ -24105,6 +24720,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2006,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "679a9982",
     "onePageSummary": {
       "elevatorPitch": "Stop treating mindfulness like a spa day and discover the Buddha's true training manual: a masterclass in emotional craftsmanship, rigorous honesty, and total mental freedom.",
       "coreThesis": "Spiritual purity is not passive surrender, but an active, discerning craft: by testing intentions and refining attention, the mind unbinds itself from suffering.",
@@ -24142,6 +24758,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "10d8e949",
     "onePageSummary": {
       "elevatorPitch": "Stop chasing speculative turnarounds and hyperactive trading. True long-term wealth comes from owning rare, resilient compounders that generate high returns on capital and quietly reinvest their earnings for decades.",
       "coreThesis": "Sustained market outperformance comes from identifying and holding companies with high, durable returns on invested capital that can reinvest cash flow at attractive rates without succumbing to competitive erosion.",
@@ -24179,6 +24796,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bc8a4514",
     "onePageSummary": {
       "elevatorPitch": "You do not need a windfall, a lucky tech startup, or decades chained to a desk to buy your freedom. By treating personal finance as an engineering problem rather than a status contest, you can systematically build a self-sustaining portfolio and retire decades ahead of the crowd.",
       "coreThesis": "Financial freedom is an optimization equation solved by decoupling income from status symbols, maximizing low-cost global equity compounding, and shielding your portfolio against early retirement market volatility.",
@@ -24216,6 +24834,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c75e39e6",
     "onePageSummary": {
       "elevatorPitch": "Most adults spend life locked inside a painful, invisible prison\\u2014the chronic belief that they are somehow deficient. Radical Acceptance reveals how to step out of this trance through clear seeing and openhearted tenderness, discovering the boundless peace already waiting inside.",
       "coreThesis": "Suffering deepens whenever we resist our immediate experience or judge ourselves as fundamentally deficient; true liberation comes from clearly seeing reality as it is and embracing it with unconditional warmth.",
@@ -24253,6 +24872,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "32f19ff8",
     "onePageSummary": {
       "elevatorPitch": "Most adults spend their lives trapped in an invisible feedback loop of self-criticism, convinced they are fundamentally broken or falling short. Radical Acceptance reveals the psychological mechanics to dismantle this chronic inner friction, showing how embracing reality as it is\\u2014without judgment\\u2014restores your resilience, clarity, and peace.",
       "coreThesis": "Suffering is not caused by difficult emotions, but by our relentless war against them. True emotional freedom begins the moment you stop treating yourself as a defect to be fixed and start observing your life with clear eyes and unconditional goodwill.",
@@ -24290,6 +24910,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1982,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "05b12f4a",
     "onePageSummary": {
       "elevatorPitch": "The Buddha did not offer a pair of warm slippers for cozy armchair contemplation\\u2014he offered a sharp scalpel to dismantle delusion. This work strips away decorative spiritual trends to reveal early Buddhism as an urgent, uncompromising inner revolution for direct liberation.",
       "coreThesis": "Genuine liberation requires directly uprooting the hidden engine of craving rather than soothing its symptoms, confronting impermanence with unvarnished clarity to attain unconditional peace.",
@@ -24327,6 +24948,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4a632c2d",
     "onePageSummary": {
       "elevatorPitch": "Most managers fail because they choose between being liked and demanding excellence. Radical Candor shows you how to challenge people directly while proving you care personally, turning honest feedback into a sustainable competitive edge.",
       "coreThesis": "Exceptional leadership requires pairing deep personal care with uncompromising direct challenge, ensuring criticism accelerates growth rather than breeding resentment.",
@@ -24364,6 +24986,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e71dbbe1",
     "onePageSummary": {
       "elevatorPitch": "When emotional storms hit, our default response is to crash the engine or slam on the brakes in panic. Radical Compassion provides an engineer's systematic diagnostic tool\\u2014the RAIN protocol\\u2014to defuse internal alarms, soothe the biological stress response, and restore lucid control within minutes.",
       "coreThesis": "Suffering is an automated feedback loop sustained by resisting raw emotion; systematically acknowledging, exploring, and soothing somatic tension immediately restores prefrontal clarity and disarms internal shame.",
@@ -24401,6 +25024,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "aba043a2",
     "onePageSummary": {
       "elevatorPitch": "We are constantly told that early hyper-specialization is the only road to mastery, but modern reality proves the opposite. In a messy, unpredictable world, the biggest breakthroughs belong to curious generalists who wander widely, cross-pollinate ideas, and connect hidden dots.",
       "coreThesis": "In complex, evolving systems, broad exploratory sampling beats early specialization, because conceptual flexibility and cross-domain pattern matching generate far greater long-term impact than narrow mechanical speed.",
@@ -24438,6 +25062,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1996,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fd13a757",
     "onePageSummary": {
       "elevatorPitch": "Addiction is not a chronic biological defect; it is a communication glitch between your rational prefrontal steering wheel and your primal survival engine. Learn to decode that internal signal, draw a clear line in the sand, and step off the recovery carousel for good.",
       "coreThesis": "You are the conscious driver with exclusive physical control over your body; any internal thought or desire suggesting future substance use is merely mechanical noise from an overactive survival instinct that you can effortlessly recognize and disregard.",
@@ -24475,6 +25100,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "aad814a4",
     "onePageSummary": {
       "elevatorPitch": "Step past third-hand interpretations and listen directly to the Buddha's ancient voice. By pairing original core teachings with rigorous, transparent word-by-word breakdowns, this work turns the language of liberation into an immediate, living mirror for your own mind.",
       "coreThesis": "Direct engagement with the original words of the Dhamma demystifies awakening, revealing liberation not as a mystical belief, but as an empirical, condition-by-condition training of immediate awareness.",
@@ -24512,6 +25138,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a73ac1fc",
     "onePageSummary": {
       "elevatorPitch": "Real happiness is not an elusive stroke of good luck; it is an internal muscle of steady attention, open-hearted awareness, and radical resilience cultivated breath by breath.",
       "coreThesis": "Happiness is an inward capacity of clear attention and unconditional friendliness that deepens every single time you notice your mind has wandered and choose to gently start over.",
@@ -24549,6 +25176,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2023,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "216efb2a",
     "onePageSummary": {
       "elevatorPitch": "When you look closely at your life, suffering starts with a single mistake: assuming you and the things around you possess an untouchable, solid core. This book gives you the analytical toolkit to dismantle that illusion and discover the boundless freedom of living without rigid grasping.",
       "coreThesis": "Nothing in the universe\\u2014including your personal self\\u2014exists independently or from its own side; realizing this fluid interdependence frees you from all clinging and suffering while leaving practical daily life completely intact.",
@@ -24586,6 +25214,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1990,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d8f6bbe3",
     "onePageSummary": {
       "elevatorPitch": "Stop wrestling endlessly with turbulent mental thoughts and dive straight into the body's physical sensations to dismantle anxiety, craving, and anger at their biological roots. S.N. Goenka proves that observing bodily sensations with quiet, balanced equanimity unravels subconscious conditioning and reveals genuine inner liberation.",
       "coreThesis": "Suffering is ignited not by external events, but by reactive habits toward physical bodily sensations. By observing these sensations objectively without craving or aversion, you directly realize impermanence and dissolve mental conditioning at its roots.",
@@ -24623,6 +25252,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1975,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d9e00f68",
     "onePageSummary": {
       "elevatorPitch": "Death is not a brick wall or the magical transfer of a ghost; it is an ongoing river of cause and effect where yesterday's habits shape tomorrow's existence. Francis Story unites rigorous empirical field research with classic Buddhist insight to prove that consciousness continues without an unchanging soul.",
       "coreThesis": "Consciousness is a causally continuous stream of karmic momentum that persists beyond physical death without an unchanging soul, and seeing this dynamic flow directly liberates the mind from fear, craving, and ego-clinging.",
@@ -24660,6 +25290,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b84ead51",
     "onePageSummary": {
       "elevatorPitch": "What if consciousness does not end at biological shutdown, but streams forward like a river navigating changing terrain? This book unites ancient contemplative blueprints with rigorous empirical research to investigate consciousness continuity without dogmatic superstition.",
       "coreThesis": "Rebirth is not the migration of an unchanging soul, but an interdependent, dynamic stream of consciousness sustained by behavioral momentum and verified by cross-disciplinary evidence.",
@@ -24697,6 +25328,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1981,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "86e29475",
     "onePageSummary": {
       "elevatorPitch": "When a long-term relationship shatters, the aftermath feels like total seismic collapse. This classic manual reveals that grief is not a chaotic spiral, but an orderly climb up a nineteen-step mountain toward psychological independence.",
       "coreThesis": "A breakup is not a catastrophic system error, but an orderly reconstruction process where untangling from a partner builds autonomous self-worth.",
@@ -24734,6 +25366,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "75739045",
     "onePageSummary": {
       "elevatorPitch": "We traded high-friction, high-yield dialogue for sanitized digital messaging\\u2014and destroyed our baseline capacity for empathy, focus, and leadership in the process. Reclaiming spontaneous face-to-face talk is not nostalgic sentiment; it is the ultimate competitive advantage for clear thinking and resilient collaboration.",
       "coreThesis": "Frictionless digital messaging offers the illusion of continuous connection while systematically degrading empathy, critical reflection, and deep collaboration. High-bandwidth, face-to-face dialogue remains the only reliable protocol for building genuine trust, resilience, and operational clarity.",
@@ -24771,6 +25404,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2cde1b32",
     "onePageSummary": {
       "elevatorPitch": "Think of family friction not as a personal failure, but as a faulty electrical circuit: when parents lack emotional maturity, they overload the relationship with drama and coercion. This guide hands you the diagnostic blueprints and practical tools to rewire your emotional circuits, protect your boundaries, and step into unshakable adult autonomy.",
       "coreThesis": "Emotional immaturity in parents creates predictable, coercive feedback loops that hijack your reality, but recognizing their developmental limits allows you to disengage from their emotional storms and reclaim your sovereign self.",
@@ -24808,6 +25442,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1964,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "30aa7f25",
     "onePageSummary": {
       "elevatorPitch": "Step out of mental exhaustion and discover the lucid stillness of direct awareness. Venerable N\\u0101rada Mah\\u0101thera cuts through spiritual dogma to hand you a practical, laboratory-grade manual for inner peace.",
       "coreThesis": "Suffering ceases the moment you stop demanding impermanent things provide lasting satisfaction, training the mind to rest in clear, non-clinging awareness.",
@@ -24845,6 +25480,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fa098538",
     "onePageSummary": {
       "elevatorPitch": "Your professional reputation is an operating system running whether you configure it or not. By applying deliberate feedback loops, low-risk field tests, and clear narrative architecture, you can methodically rewire how the world perceives your capabilities and value.",
       "coreThesis": "Professional reputation is not an immutable identity set in stone, but an ongoing feedback loop that you can systematically measure, prototype, and re-engineer through visible proof and clear narrative framing.",
@@ -24882,6 +25518,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1993,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "06c04207",
     "onePageSummary": {
       "elevatorPitch": "Why do we repeatedly stumble into the exact same painful relationship patterns and self-sabotaging habits? Schema therapy reveals the hidden behavioral blueprints running in your background\\u2014and hands you the diagnostic toolkit to reprogram them for good.",
       "coreThesis": "Self-defeating life patterns are not permanent personality flaws, but outdated childhood survival programs that can be systematically identified, challenged, and rewired.",
@@ -24919,6 +25556,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "76fd0e66",
     "onePageSummary": {
       "elevatorPitch": "Stop wrestling with your mind on the meditation cushion and discover that true freedom lives right inside your daily routine. Sayadaw U Tejaniya reveals how effortless, continuous awareness during everyday moments dissolves suffering faster than forceful concentration ever could.",
       "coreThesis": "Enlightenment is not manufactured through forceful concentration, but uncovered through continuous, relaxed awareness that observes both life and the observing mind with zero aversion or craving.",
@@ -24956,6 +25594,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "69d01e65",
     "onePageSummary": {
       "elevatorPitch": "Transform domestic chaos into calm, high-performance daily elegance by designing spaces with durable natural materials and frictionless routines. It is not about obsessive sterile perfection; it is about setting up your living environment so staying organized feels completely automatic.",
       "coreThesis": "A calm, functional home is not created by hiding junk in plastic bins, but by radically editing what you own, choosing durable natural materials, and designing intuitive daily drop-zones that make order the path of least resistance.",
@@ -24993,6 +25632,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ac0b5de7",
     "onePageSummary": {
       "elevatorPitch": "Offices function like highway traffic jams: dense, noisy, and constantly interrupting the forward momentum of actual work. By replacing physical presence with asynchronous clarity, organizations unlock global talent and deep, sustained cognitive flow.",
       "coreThesis": "Meaningful cognitive work demands sustained uninterrupted focus, which modern physical offices inherently destroy; judging professionals by tangible output rather than seat time unlocks superior autonomy, broader talent, and saner lives.",
@@ -25030,6 +25670,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1a569fb7",
     "onePageSummary": {
       "elevatorPitch": "Resilience is not a passive shock absorber that bounces you back to your old self\\u2014it is an active psychological engine that uses friction, adversity, and strain to forge a stronger, wiser system.",
       "coreThesis": "Resilience is not the absence of difficulty or a return to an unbroken past, but the active virtue of transforming hardship into wisdom, strength, and purposeful action.",
@@ -25067,6 +25708,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a107c77c",
     "onePageSummary": {
       "elevatorPitch": "Great presentations do not just broadcast data; they synchronize minds like matched tuning forks. By casting your audience as the hero and alternating between current flaws and future possibilities, you turn passive listeners into an active movement.",
       "coreThesis": "Audience persuasion occurs when a speaker acts as a humble guide, using the rhythmic contrast between current reality and future possibility to inspire collective action.",
@@ -25104,6 +25746,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cf8d4dfe",
     "onePageSummary": {
       "elevatorPitch": "Rest is not the absence of work; it is an active biological engine that drives creative breakthroughs and sustainable focus. Master deliberate recovery to double your creative output while slashing your working hours in half.",
       "coreThesis": "Work and rest are inseparable halves of the same biological feedback loop; elite focus and breakthrough creativity are fueled by deliberate, active recovery rather than endless marathon hours.",
@@ -25141,6 +25784,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cf910d10",
     "onePageSummary": {
       "elevatorPitch": "Narcissism is not an all-or-nothing character flaw\\u2014it is a finely tuned psychological thermostat governing self-worth. Dialed too low, you erase your needs; dialed too high, you scorch everyone around you.",
       "coreThesis": "Narcissism is a spectrum of the universal human drive to feel special: operating in the middle range fuels resilience, secure boundaries, and vital passion, while extremes at either end trigger systemic relational breakdown.",
@@ -25178,6 +25822,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d8c360c8",
     "onePageSummary": {
       "elevatorPitch": "Persuasion is not mystical charisma or dark manipulation\\u2014it is an observable, engineered physics of human cognition. Aristotle unpacks the exact mechanics of how minds change, offering a diagnostic toolkit for crafting arguments that inform, resonate, and endure.",
       "coreThesis": "Persuasion is the systematic discipline of observing the available means of proof in any given situation and assembling credibility, emotional resonance, and logical clarity into an undeniable case.",
@@ -25215,6 +25860,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1997,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0d87ebf0",
     "onePageSummary": {
       "elevatorPitch": "Most people spend their entire lives sprinting on a financial treadmill without realizing they are running in place. This book reveals the hidden plumbing of money, showing how to redirect your cash flow toward self-sustaining assets rather than lifestyle drain.",
       "coreThesis": "Financial independence is not determined by how much income you earn, but by the mechanical direction in which your money flows: true wealth emerges when your assets generate enough cash to feed your lifestyle without your active labor.",
@@ -25252,6 +25898,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3d39a664",
     "onePageSummary": {
       "elevatorPitch": "Deep meditative joy is not a mystical gift reserved for hermits in mountain caves\\u2014it is a trainable natural faculty accessible to any dedicated modern practitioner. Leigh Brasington demystifies the Buddhist jh\\u0101nas into an exact, reproducible sequence that transforms steady attention into a powerful engine for spiritual liberation.",
       "coreThesis": "The jh\\u0101nas are accessible, natural states of deep mental absorption that soothe the nervous system and sharpen attention into an unstoppable instrument for liberating insight.",
@@ -25289,6 +25936,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1984,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "43ffe12e",
     "onePageSummary": {
       "elevatorPitch": "Work consumes most of your waking life, yet most people treat it as a spiritual compromise. This classic guide shows how turning your daily vocation into a conscious craft of non-harm is the fastest path to mental peace and genuine inner freedom.",
       "coreThesis": "How you make your living either continuously agitates your consciousness or clarifies it; work aligned with harmlessness and honest care becomes meditation in action.",
@@ -25326,6 +25974,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9d9858bd",
     "onePageSummary": {
       "elevatorPitch": "Mindfulness is not passive, open-ended daydreaming\\u2014it is an active, trained vigilance that protects your attention and steers your mind toward unshakeable clarity.",
       "coreThesis": "Right mindfulness is active, memory-anchored vigilance that uses purposeful effort to abandon destructive habits and establish deep mental stillness.",
@@ -25363,6 +26012,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f99621a9",
     "onePageSummary": {
       "elevatorPitch": "When navigating deep uncertainty, complex algorithms fail while robust rules of thumb dominate. Master strategist Gerd Gigerenzer demonstrates how simple heuristics cut through administrative paralysis to deliver decisive results.",
       "coreThesis": "In an uncertain world, complex calculations produce systemic fragility, whereas transparent, experience-tested heuristics yield superior, robust decisions.",
@@ -25399,6 +26049,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bb00afa3",
     "onePageSummary": {
       "elevatorPitch": "Public speaking is not an innate charisma lottery; it is an exact behavioral science. By treating your presentation like an engineered circuit of human attention, you can reliably command any room from opening hook to final ovation.",
       "coreThesis": "Commanding a room is a predictable mechanical craft: when you align what you deliver with how human brains process attention, credibility and persuasion follow automatically.",
@@ -25436,6 +26087,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "72599935",
     "onePageSummary": {
       "elevatorPitch": "Emotional neglect is not what happened to you\\u2014it is the silent, invisible vacuum of what failed to happen. By mapping your emotional dashboard and restoring suppressed sensory signals, you can turn off chronic self-blame and finally run on a full internal tank.",
       "coreThesis": "Childhood Emotional Neglect is an invisible wound of omission where unseen, unmirrored feelings leave adults disconnected from their vital emotional telemetry, requiring deliberate conscious recalibration to restore self-worth and genuine fulfillment.",
@@ -25473,6 +26125,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "dc6221a3",
     "onePageSummary": {
       "elevatorPitch": "Sales teams do not fail because salespeople forget how to sell; they fail because sales leadership lacks structural discipline. Mike Weinberg strips away corporate noise to reveal a blunt, mechanics-first blueprint that turns chaotic sales departments into predictable revenue engines.",
       "coreThesis": "Sales management failure is an organizational design problem, not a frontline talent defect. Exceptional sales results occur naturally when leaders implement a disciplined rhythm of culture, coaching, and accountability.",
@@ -25510,6 +26163,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a170301e",
     "onePageSummary": {
       "elevatorPitch": "Suffering is not a permanent life sentence; it is simply a mechanical glitch in how you interpret yourself and the world. By recognizing the innate, unstained clarity of your own mind, you can systematically dismantle anxiety and touch durable inner freedom.",
       "coreThesis": "Suffering arises from misperceiving the self as solid and independent, but because mental afflictions are adventitious and awareness is fundamentally pure, complete freedom is entirely attainable through insight and causal understanding.",
@@ -25547,6 +26201,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a53a0882",
     "onePageSummary": {
       "elevatorPitch": "Bhikkhu An\\u0101layo strips ancient contemplative practice down to its core engineering principles, transforming the foundational Buddhist meditation manual into a modular, testable operating manual for human consciousness. By treating the mind like a self-regulating dynamical system rather than an mystical enigma, this guide shows exactly how to decondition cognitive bias, dissolve psychological clinging, and access radical perceptual freedom.",
       "coreThesis": "Psychological suffering is an automated system error caused by mistaking transient physical and mental processes for a permanent personal identity; systematically observing these processes through embodied, non-reactive awareness dismantles the feedback loops of clinging and uncovers effortless mental liberation.",
@@ -25584,6 +26239,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f0a9083f",
     "onePageSummary": {
       "elevatorPitch": "Mindfulness is not a vague relaxation trick\\u2014it is a high-precision diagnostic instrument for auditing human consciousness. Bhikkhu Analayo reverse-engineers the earliest manual on awareness, offering an empirical laboratory blueprint to observe cognitive feedback loops and unhook habitual suffering in real time.",
       "coreThesis": "Suffering is maintained by automatic cognitive feedback loops, and systematically observing the bare mechanics of experience\\u2014body, feeling tones, mental states, and natural patterns\\u2014dismantles the reactive machinery of the mind.",
@@ -25621,6 +26277,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1971,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "50e8be48",
     "onePageSummary": {
       "elevatorPitch": "Think of your conscious mind as a high-speed operating system running countless automated subroutines behind your back. Mahasi Sayadaw hands you the diagnostic logging manual to track every cognitive signal in real time, dissolve stubborn mental friction, and reboot baseline awareness into effortless clarity.",
       "coreThesis": "Suffering is an operational glitch caused by mistaking fluid, impermanent sensory signals for an enduring, solid identity; real-time mental tagging dissolves this feedback loop into direct, liberating insight.",
@@ -25658,6 +26315,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8345b9fd",
     "onePageSummary": {
       "elevatorPitch": "Stop fighting your body and discover how the simple act of chewing can set you free. By pairing ancient Zen wisdom with modern Harvard nutritional science, this book turns every meal into a path of liberation, lasting health, and peace.",
       "coreThesis": "Sustainable physical vitality is not achieved through willpower and dietary deprivation, but through waking up to the present moment and meeting your body, food, and emotional life with lucid, compassionate awareness.",
@@ -25695,6 +26353,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1998,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5d5ce1ab",
     "onePageSummary": {
       "elevatorPitch": "Chronic insomnia is not a broken biological motor; it is a miscalibrated thermostat fueled by performance anxiety and conditioned bedroom frustration. By dismantling catastrophizing self-talk and retraining sleep habits through clinically proven CBT-I, you can permanently restore your natural ability to sleep soundly without pills.",
       "coreThesis": "Insomnia is a learned pattern of mental hyperarousal and conditioned bedroom anxiety, which can be permanently cured by rewiring faulty sleep beliefs and consolidating time in bed.",
@@ -25732,6 +26391,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "82850817",
     "onePageSummary": {
       "elevatorPitch": "Most conversations fail not because our logic is flawed, but because our nervous systems hijack our words before we even finish listening. By fusing contemplative mindfulness, somatic nervous-system regulation, and Nonviolent Communication, this book reveals the hidden biological and psychological feedback loops that turn friction into collaborative flow.",
       "coreThesis": "Constructive communication is an embodied, systemic discipline where conversational outcomes depend on grounding nervous-system presence, holding an unwavering intention to connect, and focusing attention on universal human needs rather than positional strategies.",
@@ -25769,6 +26429,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9b6a1176",
     "onePageSummary": {
       "elevatorPitch": "Every automatic 'yes' you give out of social anxiety is a silent, binding 'no' stolen from your real priorities and well-being. Master the clinical mechanics of boundary defense to reclaim your autonomy without alienating the people who matter.",
       "coreThesis": "Saying 'no' is not relationship sabotage; it is the fundamental conservation law that protects your finite cognitive and emotional capacity so your 'yes' retains genuine value.",
@@ -25806,6 +26467,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "795e25b6",
     "onePageSummary": {
       "elevatorPitch": "Beneath the apparent chaos of living beasts, bustling metropolises, and multinational corporations lies a startling mathematical harmony. Discover how hidden network physics dictates the heartbeat of a mouse, the vitality of Tokyo, and the inevitable mortality of Wall Street giants.",
       "coreThesis": "Universal mathematical scaling laws govern biological life, urban expansion, and corporate mortality through the shared geometry of internal distribution networks. While biology and corporations plateau under sublinear limits, cities thrive on superlinear social acceleration that requires ever-faster innovation cycles to survive.",
@@ -25842,6 +26504,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f4b70d70",
     "onePageSummary": {
       "elevatorPitch": "Growing an organization does not require working eighty-hour weeks in chaos; it requires locking in a dependable operational rhythm. Scaling Up gives you the definitive master playbook to align your team, clarify your strategy, execute flawlessly, and generate surplus cash flow.",
       "coreThesis": "Sustainable business expansion is not an accident of genius, but the disciplined habit of making right decisions across People, Strategy, Execution, and Cash, anchored by a tight daily operating rhythm.",
@@ -25879,6 +26542,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2023,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3eb546ec",
     "onePageSummary": {
       "elevatorPitch": "Our brains evolved in an unforgiving world of drought, famine, and predators where grabbing every scrap of food and status meant survival. Today, that identical ancient wiring is trapped in a world of endless hyper-abundance, leaving us endlessly hooked on manufactured loops of craving.",
       "coreThesis": "Human brains are biologically hardwired to relentlessly seek, hoard, and crave resources to survive scarcity, but in a world of limitless artificial abundance, this ancient operating system drives chronic dissatisfaction unless we deliberately design healthy friction and define our threshold of 'enough.'",
@@ -25916,6 +26580,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ad5f6a19",
     "onePageSummary": {
       "elevatorPitch": "When you have too little of something critical\\u2014time, money, or calories\\u2014your mind automatically hijacks your attention. This creates a powerful focus on today's emergency while silently sabotaging your ability to plan for tomorrow.",
       "coreThesis": "Scarcity alters how we think: chronic deficits hijack our working mental bandwidth, forcing tunnel vision that solves immediate emergencies at the devastating expense of long-term foresight.",
@@ -25953,6 +26618,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b42daefe",
     "onePageSummary": {
       "elevatorPitch": "Emotional intelligence is not a mystical personality trait; it is a trainable set of neural circuits. By strengthening attention like a physical muscle, anyone can rewire their mind for calm focus, peak resilience, and effortless empathy.",
       "coreThesis": "Emotional intelligence is a hard cognitive skill built on attention training, enabling you to master inner states, read social dynamics with precision, and navigate high-pressure situations with calm clarity.",
@@ -25990,6 +26656,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2022,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "661f839e",
     "onePageSummary": {
       "elevatorPitch": "You are not a rigid, isolated statue battling the world; you are a living, interconnected process mistaken for a solid self. By systematically dismantling the phantom ego, this book delivers the master key to unshakeable inner freedom.",
       "coreThesis": "The independent, unchanging self we instinctively protect does not exist; recognizing that identity is merely a dynamic, dependently arisen label dissolves anxiety and awakens boundless compassion.",
@@ -26027,6 +26694,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1984,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fd3a6d07",
     "onePageSummary": {
       "elevatorPitch": "Closing a deal is not an aggressive act of arm-twisting; it is an act of guided clarity that frees another person from the paralysis of indecision. When you align absolute ethical conviction with deep human empathy, closing becomes the natural, relieving final step of a mutual problem-solving journey.",
       "coreThesis": "You can get everything in life you want if you will just help enough other people get what they want. Persuasion is an empathetic transference of genuine belief, guiding buyers past fear into decisions that serve their own best interests.",
@@ -26064,6 +26732,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1934,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "637bc3c1",
     "onePageSummary": {
       "elevatorPitch": "Stop treating market quotations like an oracle and start evaluating corporate assets like a seasoned real estate buyer inspecting the foundation. This masterwork delivers the foundational battle-tested playbook for extracting mispriced securities with asymmetric upside and ruthless downside protection.",
       "coreThesis": "An investment operation is one which, upon thorough analysis, promises safety of principal and an adequate return; operations not meeting these requirements are speculative. Sustainable outperformance comes from exploiting the persistent gap between volatile market price and verifiable intrinsic business value using an uncompromising margin of safety.",
@@ -26101,6 +26770,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1998,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e4a5435e",
     "onePageSummary": {
       "elevatorPitch": "Top-down masterminds fail because they mistake neat spreadsheets for real-world reality. When leaders erase local street smarts in favor of sterile corporate blueprints, systems inevitably collapse.",
       "coreThesis": "Systems collapse when top-down authorities sacrifice practical, local wisdom to impose sterile, standardized order for the sake of centralized control.",
@@ -26138,6 +26808,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a984f9e5",
     "onePageSummary": {
       "elevatorPitch": "Step behind the curtain of organizational life to discover the invisible systemic currents governing workplace friction. Human conflict is rarely a clash of flawed personalities; it is the predictable choreography of systemic positions.",
       "coreThesis": "Organizational friction stems from structural conditions rather than flawed character. True effectiveness requires diagnosing systemic dynamics and choosing conscious partnership over unconscious reflex.",
@@ -26174,6 +26845,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f04c4a66",
     "onePageSummary": {
       "elevatorPitch": "Suffering is not built into reality; it is built into the rigid lenses through which we view it. Rob Burbea offers a masterclass in contemplative freedom, showing how shifting your way of looking dismantles anxiety, dissolves the ego, and reveals the profound, open peace of everyday life.",
       "coreThesis": "Experience does not exist independently of our way of looking; when grasping subsides, perceived phenomena lose their solidity and reveal their liberating, empty nature.",
@@ -26211,6 +26883,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2006,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c24ed502",
     "onePageSummary": {
       "elevatorPitch": "Your mind already possesses an unshakeable inner refuge, yet daily distraction keeps you looking outside for peace. 'Seeking Buddho' offers an authentic, grounded field guide from the Thai Forest Tradition to train undivided attention, master mental stillness, and wake up to your true nature.",
       "coreThesis": "Genuine liberation is realized when concentrated stillness stabilizes the mind, enabling clear insight into impermanence and awakening the unshakeable awareness already present within.",
@@ -26248,6 +26921,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1987,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3fdd4014",
     "onePageSummary": {
       "elevatorPitch": "Stop fighting the turbulent weather of your thoughts and discover the calm, radiant sky of your own clear awareness. This foundational guide unlocks the art of insight meditation to transform everyday stress and emotional reactivity into deep inner peace and open-hearted wisdom.",
       "coreThesis": "Freedom is found not by trying to control the uncontrollable flow of life, but by resting in pure, non-judgmental awareness of things exactly as they are.",
@@ -26285,6 +26959,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "481b5a7f",
     "onePageSummary": {
       "elevatorPitch": "Self-criticism is bad risk management that paralyzes decision-making under stress. Dr. Kristin Neff outlines a battle-tested protocol to treat yourself as a high-value ally, turning setbacks into rapid data loops instead of costly emotional spirals.",
       "coreThesis": "Beating yourself up destroys cognitive bandwidth and execution speed; treating yourself as a valuable asset under pressure is the ultimate competitive moat.",
@@ -26322,6 +26997,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6f8c245c",
     "onePageSummary": {
       "elevatorPitch": "Every day you either transmit your conviction to the world or absorb someone else's doubts. Learn the systematic behavioral science of alignment, momentum, and decisive influence to make deals flow naturally.",
       "coreThesis": "Persuasion is a universal law of human interaction where the mind with the greatest conviction, clear agreement, and decisive action invariably leads the outcome.",
@@ -26359,6 +27035,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c29b508d",
     "onePageSummary": {
       "elevatorPitch": "Human brains are wired to resist sales arguments and lecture slides, but lean in when hearing a compelling story. Mastering intentional, bite-sized narrative frameworks transforms transactional pitches into empathetic partnerships that naturally close deals.",
       "coreThesis": "Buyers make decisions based on emotion and justify them with logic; structured business storytelling is the proven vehicle that delivers both, transforming sales conversations from skeptical debates into collaborative problem-solving.",
@@ -26396,6 +27073,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "929c6064",
     "onePageSummary": {
       "elevatorPitch": "Groundbreaking research based on direct interviews with over 500 corporate executives reveals the exact cognitive triggers and decision curves leaders use to buy. It demystifies the C-suite corridor, handing sales professionals an empirical blueprint to become trusted boardroom advisors.",
       "coreThesis": "Senior executives actively seek external insight during early strategic problem definition, but they filter out product peddlers\\u2014meaning sales professionals must engage early as consultative business diagnosticians who speak the language of enterprise risk and financial return.",
@@ -26433,6 +27111,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9f4e7665",
     "onePageSummary": {
       "elevatorPitch": "Stop asking who you are and start noticing what your mind is doing. The Buddha never taught that you have no self; he gave you 'self' and 'not-self' as precision tools to dismantle suffering and uncover boundless peace.",
       "coreThesis": "Self and not-self are not doctrines about your metaphysical identity; they are practical perceptual strategies designed to systematically dismantle suffering until unconditioned freedom is realized.",
@@ -26470,6 +27149,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1b499b58",
     "onePageSummary": {
       "elevatorPitch": "Healthy relationships do not run on mind reading; they run on clean, well-marked road signs. Nedra Glover Tawwab reveals how clear boundary scripting is not an act of hostility, but the foundational engineering protocol that preserves your peace and deepens mutual trust.",
       "coreThesis": "Boundaries are not selfish walls that isolate you from others; they are the explicit rules of engagement that make safe, lasting human connection possible.",
@@ -26507,6 +27187,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3c643e52",
     "onePageSummary": {
       "elevatorPitch": "Traditional financial advice prepares you to retire comfortably at sixty-five, but Scott Trench outlines an aggressive, staged blueprint to achieve complete financial autonomy in your twenties or thirties. By eliminating your largest recurring expense\\u2014housing\\u2014and reinvesting surplus cash flow into income-producing assets, you build the runway to work on your own terms for life.",
       "coreThesis": "Early financial independence is engineered by eliminating the biggest fixed cost of living through house hacking, generating high-margin scalable income, and reinvesting the surplus into cash-flowing assets that replace the need for traditional corporate employment.",
@@ -26544,6 +27225,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2c5a607a",
     "onePageSummary": {
       "elevatorPitch": "Your voice is not a fixed genetic roll of the dice; it is a mechanical wind instrument governed by tuneable physics. By mastering diaphragmatic airflow and blending your chest and head registers into a seamless middle voice, you transform your everyday speech from dull noise into an magnetic, resonant signal.",
       "coreThesis": "Human voice is an adjustable biomechanical wind instrument; by combining diaphragmatic breath control with a blended middle register, anyone can eliminate vocal strain and speak with magnetic, effortless authority.",
@@ -26581,6 +27263,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1981,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bb0d60b8",
     "onePageSummary": {
       "elevatorPitch": "Stop searching for lasting peace in passing experiences: this masterwork maps the Buddha's foundational sermon into an uncompromising, practical instruction manual for genuine mental freedom.",
       "coreThesis": "Suffering ceases not through extreme asceticism or escapist pleasures, but through grounded, moment-by-moment mindfulness that exposes the impermanence of all things and cuts craving at its root.",
@@ -26618,6 +27301,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6ac68cf5",
     "onePageSummary": {
       "elevatorPitch": "Operational excellence keeps you alive today, but only structural Power prevents rivals from crushing you tomorrow. If you lack a durable moat, fierce competition will inevitably grind your profit margins down to zero.",
       "coreThesis": "Durable business value requires Power: a set of structural conditions creating a persistent benefit combined with an unassailable barrier against competitors.",
@@ -26654,6 +27338,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1976,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f0eca335",
     "onePageSummary": {
       "elevatorPitch": "Human maturity begins when romantic illusions shatter. By reverse-engineering the ancient myth of Psyche and Eros, Robert Johnson reveals the precise psychological blueprint every adult must follow to replace naive dependence with resilient selfhood.",
       "coreThesis": "Psychological wholeness is earned only when you shatter romantic projections, accept the pain of conscious awareness, and complete practical tasks that integrate intuitive wisdom with disciplined discernment.",
@@ -26691,6 +27376,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b1bbd541",
     "onePageSummary": {
       "elevatorPitch": "When you fix an engine, bake sourdough from scratch, or prune an orchard, physical reality provides immediate, objective truth that corporate office politics can never fake. This book reveals the hidden science of craftsmanship: how working with your hands sharpens your mind, cures mental fatigue, and restores genuine agency.",
       "coreThesis": "True intellectual mastery occurs when thought and physical action unite against the unyielding feedback of material reality, making skilled manual craft far more mentally demanding and personally liberating than abstract corporate work.",
@@ -26728,6 +27414,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6263443b",
     "onePageSummary": {
       "elevatorPitch": "Stop hiding in the shed polishing a masterpiece nobody knows exists. By documenting your daily work in public, you build an asymmetrical discovery engine that turns your everyday craft into a magnetic professional moat.",
       "coreThesis": "Discovery is an active byproduct of daily visibility: sharing your learning exhaust in public builds a durable, compound reputation far faster than hoarding a finished product.",
@@ -26765,6 +27452,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1fe302d6",
     "onePageSummary": {
       "elevatorPitch": "Stop hiding in a solitary laboratory waiting for a bolt of inspiration; treat your daily work like an open workshop where documenting the process turns quiet effort into an organic magnet for collaborators and opportunities.",
       "coreThesis": "Creativity is a communal network effect rather than a solitary flash of genius; by consistently sharing your unfinished experiments and daily process, you build a generative magnet for community, feedback, and career longevity.",
@@ -26802,6 +27490,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1987,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a34290ce",
     "onePageSummary": {
       "elevatorPitch": "Human friction is not an anomaly to extinguish; it is a predictable mechanical reaction to forced proximity and competing incentives. By replacing the courtroom judge mentality with systems mediation, you dismantle rivalry at its behavioral source.",
       "coreThesis": "Rivalry dissolves when authority stops acting as a courtroom referee and instead acknowledges raw feelings, abandons uniform comparisons, and equips individuals to negotiate their own equilibrium.",
@@ -26839,6 +27528,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1984,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "39eeb532",
     "onePageSummary": {
       "elevatorPitch": "While your spoken words articulate conscious intent, your physical posture broadcasts your real subconscious state in real time. Allan Pease provides an illuminating field manual that decodes the silent choreography of everyday human interaction.",
       "coreThesis": "Human bodies run evolutionary biological scripts that expose true thoughts and emotions through consistent physical patterns, which can be systematically decoded and harmonized through clusters, context, and spatial awareness.",
@@ -26876,6 +27566,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b5236806",
     "onePageSummary": {
       "elevatorPitch": "In a culture addicted to endless stimulation, silence is not an empty void\\u2014it is the vital ground of clarity, healing, and freedom. Thich Nhat Hanh shows how turning down your internal mental chatter unlocks the courage to meet your life exactly as it is.",
       "coreThesis": "Silence is the essential foundation for knowing who you are and hearing what life is asking of you. By gently stepping out of the continuous stream of compulsive thinking, you awaken to peace, freedom, and connection right here in the present moment.",
@@ -26913,6 +27604,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1996,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "96a9e8bd",
     "onePageSummary": {
       "elevatorPitch": "Your mind is like an open sky that has mistaken passing weather for its own identity. Ajahn Amaro shows how walking through life without mental baggage reveals the quiet peace already resting beneath all your noise.",
       "coreThesis": "Suffering occurs when we grasp at changing experiences; genuine peace is discovered by resting as the silent, unattached awareness that holds all things.",
@@ -26950,6 +27642,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "45b54f8d",
     "onePageSummary": {
       "elevatorPitch": "Ajahn Anan dismantles spiritual complexity with the warmth of a master gardener, showing that liberation from suffering is not an exotic mountain retreat but a clean, grounded way of seeing reality right in the middle of domestic and work life. It is an indispensable manual for calming a turbulent mind, untangling everyday friction, and resting in an unshakeable inner home.",
       "coreThesis": "Suffering is not caused by life's changing circumstances, but by our clinging to them; by cultivating moral integrity, present-moment attention, and clear seeing, we discover an unshakeable inner peace that is already here.",
@@ -26987,6 +27680,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3df56fb2",
     "onePageSummary": {
       "elevatorPitch": "Modern life floods domestic operating systems with sensory clutter, toxic information leakage, and calendar bloat. By aggressively stripping away non-essential inputs, leaders restore focus, emotional resilience, and deep stability.",
       "coreThesis": "Human flourishing is constrained by systemic sensory and scheduling overload; reducing external friction through disciplined subtraction builds unshakeable internal resilience.",
@@ -27024,6 +27718,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "66acab50",
     "onePageSummary": {
       "elevatorPitch": "Singing is not mere pitch matching; it is the deliberate calibration of acoustic physics, phonetic timing, and emotional narrative. This guide uncovers the operational mechanics that transform a standard vocal delivery into a compelling, spontaneous story.",
       "coreThesis": "Authentic vocal storytelling emerges when technical vocal mechanics and harmonic discipline become automated, allowing real-time narrative presence and spontaneous emotional truth to lead.",
@@ -27061,6 +27756,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1a6c9c46",
     "onePageSummary": {
       "elevatorPitch": "Eliminate domestic chaos and decision fatigue not by exhausting weekend cleaning marathons, but by building bulletproof fifteen-minute micro-habits that keep your environment perpetually reset.",
       "coreThesis": "Sustainable order is not the product of heroic cleaning marathons, but the compounding result of tiny, frictionless routines that prevent clutter at the source.",
@@ -27098,6 +27794,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1985,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1789a028",
     "onePageSummary": {
       "elevatorPitch": "Human thinking jams when we try to analyze data, spot risks, generate ideas, and manage feelings all in the same breath. By separating cognition into six distinct, color-coded channels, Six Thinking Hats turns chaotic debate into a coordinated, parallel exploration where teams solve tough problems in a fraction of the time.",
       "coreThesis": "Adversarial debate fails because the human brain cannot effectively process facts, feelings, risks, benefits, and creativity simultaneously; separating these cognitive modes into sequential, parallel steps transforms friction-filled argument into collaborative, multidimensional problem-solving.",
@@ -27135,6 +27832,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a402ee6d",
     "onePageSummary": {
       "elevatorPitch": "Master the art of spiritual inquiry: discover how asking the right questions\\u2014and deliberately ignoring the wrong ones\\u2014becomes the master key to personal peace and liberation.",
       "coreThesis": "Awakening is not about possessing universal theoretical knowledge, but about mastering the fourfold craft of questioning so that every thought actively dissolves suffering.",
@@ -27172,6 +27870,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "46d7f7a2",
     "onePageSummary": {
       "elevatorPitch": "Never trust an architect who does not sleep inside the building he designs. Real authority demands personal downside risk.",
       "coreThesis": "You cannot possess genuine knowledge or moral authority without absorbing direct personal downside from your own decisions.",
@@ -27208,6 +27907,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7fa7b314",
     "onePageSummary": {
       "elevatorPitch": "Think of sleep not as lost time, but as the master mechanic that rebuilds your body, sharpens your mind, and burns fat while you rest. Master the environmental levers around light, temperature, and biology, and you unlock your highest daily performance.",
       "coreThesis": "Sleep is the fundamental operating system for human health, cognition, and body composition; when you engineer your environment and daily rhythms to align with your circadian biology, effortless energy and recovery follow automatically.",
@@ -27245,6 +27945,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1997,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ee9a5482",
     "onePageSummary": {
       "elevatorPitch": "When waking daylight fades, where does your awareness actually go? In this historic Dharamsala summit, the Dalai Lama and pioneering neuroscientists explore the frontiers of sleep, lucid dreaming, and dying to illuminate the unbroken awareness within us all.",
       "coreThesis": "The ego is not a permanent fixture but a fleeting daytime projection; by investigating sleep, dreams, and death, we uncover the indestructible baseline of luminous, open awareness.",
@@ -27282,6 +27983,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9de962c7",
     "onePageSummary": {
       "elevatorPitch": "Slide:ology deconstructs the hidden visual mechanics of communication, showing why dumping raw bullet points onto a screen overwhelms the human brain and how intentional design turns complex ideas into immediate optical clarity.",
       "coreThesis": "A slide is an optical support system designed to clarify and accelerate human perception, never a spoken teleprompter or a print document disguised on a screen.",
@@ -27319,6 +28021,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b9de9eb4",
     "onePageSummary": {
       "elevatorPitch": "Massive success and quiet failure are produced by the exact same mechanism: tiny, seemingly insignificant daily choices compounded over time. Master the mundane actions that are easy to do and easy not to do, and time becomes your ultimate competitive advantage.",
       "coreThesis": "Simple daily disciplines repeated consistently over time compound into extraordinary achievement, while simple daily neglects repeated consistently compound into silent failure.",
@@ -27356,6 +28059,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2024,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4d8171d4",
     "onePageSummary": {
       "elevatorPitch": "Stop mistaking frantic motion for meaningful achievement. Master the three timeless principles of slow productivity to produce career-defining work without burning out.",
       "coreThesis": "True accomplishment is measured by the enduring quality of what you complete over years, not the volume of frantic activity you display each day.",
@@ -27393,6 +28097,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "13367a8d",
     "onePageSummary": {
       "elevatorPitch": "What happens when the pristine, step-by-step discipline of Therav\\u0101da meditation meets the direct, panoramic freedom of Tibetan Dzogchen? Ajahn Amaro reveals that both ancient rivers flow into the exact same ocean of primordial, unattached awareness.",
       "coreThesis": "Enlightenment is neither a far-off achievement nor the exclusive property of any single tradition; it is the immediate, unconditioned awareness that naturally reveals itself the moment you stop clinging to passing mental states.",
@@ -27430,6 +28135,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2022,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8a2cf13a",
     "onePageSummary": {
       "elevatorPitch": "Most professional communication is a chaotic traffic jam of bloat, jargon, and buried points that readers ignore. Smart Brevity gives you the blueprint to strip the fat, command attention, and turn every email, memo, and meeting into an unmistakable competitive advantage.",
       "coreThesis": "Brevity is not about cutting out substance; it is about doing the hard editorial work for your reader so only what is essential, urgent, and actionable survives.",
@@ -27467,6 +28173,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ad9ba33c",
     "onePageSummary": {
       "elevatorPitch": "Cold calling fails because the human brain is wired to reject blind interruptions; Smart Calling transforms cold intrusion into warm, context-rich problem solving. By mining trigger events and presenting tailored value propositions, you eliminate rejection before you dial.",
       "coreThesis": "Cold calling dies when context begins; by anchoring every conversation in pre-call intelligence and tailored value, sales outreach shifts from intrusive friction to welcome collaboration.",
@@ -27504,6 +28211,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "316583f0",
     "onePageSummary": {
       "elevatorPitch": "Decisions are the steering wheel of your life, yet most people drive blindfolded by hidden cognitive biases and knee-jerk impulses. This masterwork unpacks the hidden mechanics of choice, turning messy judgment calls into an elegant, repeatable science.",
       "coreThesis": "You cannot control the dice of luck, but you can master the architecture of your choices. High-quality structured processes consistently produce superior life outcomes.",
@@ -27540,6 +28248,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1998,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9985d4e8",
     "onePageSummary": {
       "elevatorPitch": "Money is not a spreadsheet problem; it is a closed-loop energy system powered by personal values and daily micro-habits. David Bach systematically deconstructs financial intimidation into automated, value-driven architecture that guarantees lifetime financial sovereignty.",
       "coreThesis": "True wealth is built not by complex financial gymnastics, but by aligning daily cash flow with core personal values and automating systematic compounding into distinct functional baskets.",
@@ -27577,6 +28286,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2006,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d4ebec70",
     "onePageSummary": {
       "elevatorPitch": "Charismatic predators don't just lurk in crime documentaries; they interview brilliantly, wear tailored suits, and climb corporate ladders by exploiting systemic blind spots. Babiak and Hare illuminate the hidden operating system of the workplace psychopath and deliver the diagnostic toolkit to disarm them.",
       "coreThesis": "Corporate psychopaths use glib charm and emotional detachment to exploit organizational chaos, climbing executive ranks by dividing teams and weaponizing workplace trust against good-faith performers.",
@@ -27614,6 +28324,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "978b1c10",
     "onePageSummary": {
       "elevatorPitch": "Stop searching for a pre-packaged passion and start building rare, undeniable craftsmanship that commands respect. True career fulfillment is not found\\u2014it is systematically constructed through accumulated leverage, deliberate practice, and earned autonomy.",
       "coreThesis": "Fulfilling work is not discovered by following pre-existing passion, but engineered by acquiring rare and valuable skills that buy autonomy, mastery, and purpose.",
@@ -27651,6 +28362,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a3006f4b",
     "onePageSummary": {
       "elevatorPitch": "Stop searching for your pre-existing 'passion'\\u2014it is a trap that breeds anxiety and fragile careers. True professional leverage and autonomy are earned exclusively by treating your work like a master artisan, compounding rare and valuable skills until the market has no choice but to deal on your terms.",
       "coreThesis": "Fulfillment and autonomy in work do not stem from discovering an elusive pre-existing passion; they are high-value dividends generated by compounding rare, bankable skills through deliberate practice.",
@@ -27688,6 +28400,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c49e9ae6",
     "onePageSummary": {
       "elevatorPitch": "Human thought functions like a precision engine operating on three interconnected gears: understanding, judging, and reasoning. Peter Kreeft restores classical Socratic dialogue and Aristotelian deduction into a living diagnostic tool for navigating complex real-world claims.",
       "coreThesis": "Sound human thinking relies on three interdependent acts of the mind\\u2014clear understanding of terms, true judgments in propositions, and valid reasoning in syllogisms\\u2014which together form the ultimate quality-control mechanism for truth.",
@@ -27725,6 +28438,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9689c6c2",
     "onePageSummary": {
       "elevatorPitch": "Stop pitching tools to people who don't know their engine is smoking. Solution Selling replaces feature lectures with diagnostic inquiry, turning quiet organizational drag into high-priority executive action.",
       "coreThesis": "Buyers do not buy products or features; they purchase relief from business pain through a solution vision they helped design.",
@@ -27762,6 +28476,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "17df8799",
     "onePageSummary": {
       "elevatorPitch": "Procrastination isn't poor time management\\u2014it is an emotional coping mechanism gone wrong. Master the science of short-term mood regulation, lower your activation barrier, and build unstoppable daily momentum.",
       "coreThesis": "Procrastination is an emotional regulation problem, not a time management flaw; momentum begins only when you lower the activation threshold and just get started.",
@@ -27799,6 +28514,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1988,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "006c12dd",
     "onePageSummary": {
       "elevatorPitch": "Chronic stiffness and age-related aches are not wear-and-tear on your joints; they are software glitches in your nervous system. By replacing forceful stretching with conscious cortical recalibration, you can teach tight muscles how to let go on command.",
       "coreThesis": "The stiffness and pain commonly blamed on aging are actually Sensory-Motor Amnesia\\u2014a learned neurological amnesia that can be completely reversed by deliberately re-educating the brain's motor control over chronically locked muscles.",
@@ -27836,6 +28552,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5fe76cce",
     "onePageSummary": {
       "elevatorPitch": "Stop running on the hamster wheel of burnout, endless shopping, and chronic overcommitment. Courtney Carver shows you how stripping away physical and calendar clutter restores your physical health, mental focus, and everyday joy.",
       "coreThesis": "Decluttering is not just about organizing physical stuff; it is an act of radical self-preservation that trades superficial abundance for physical health, deep relationships, and peace of mind.",
@@ -27873,6 +28590,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1998,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fea89fff",
     "onePageSummary": {
       "elevatorPitch": "Traditional decision theory demands spreadsheets and decision trees, but real combat and crisis commanders execute winning moves in seconds. Gary Klein reveals the tactical engine of true expertise: pattern recognition, mental simulation, and decisive execution under high-stakes uncertainty.",
       "coreThesis": "Master practitioners do not waste time comparing multiple options under pressure. They recognize recognizable patterns instantly and use mental simulation to validate a single viable action.",
@@ -27909,6 +28627,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f7ba7817",
     "onePageSummary": {
       "elevatorPitch": "Transform your physical living space into an engine for personal clarity, daily momentum, and high-performance calm. Marie Kondo delivers the definitive visual masterclass to eliminate physical drag and build an environment where every single possession serves your highest life goals.",
       "coreThesis": "Tidying is an active audit of your values: by surrounding yourself exclusively with possessions that fuel energy or serve vital utility, you eliminate subconscious friction and cultivate the clarity required to master your daily life.",
@@ -27946,6 +28665,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1997,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f463e1c8",
     "onePageSummary": {
       "elevatorPitch": "We don't live in the objective physical universe; we live inside a mental map sketchily drafted by our senses and pruned by our habits. This landmark work unites environmental psychology and geography to reveal the hidden cognitive rules that govern how we walk, shop, commute, and claim territory.",
       "coreThesis": "Human movement and spatial choices are not driven by objective geography, but by subjective, imperfect cognitive maps filtered through bounded rationality, time constraints, and emotional meaning.",
@@ -27983,6 +28703,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "33b2c410",
     "onePageSummary": {
       "elevatorPitch": "Every conflict is simply the tragic, distorted expression of an unmet human need. When you decode the underlying biological and psychological drivers behind hostility, peace transforms from a vague moral ideal into an exact engineering protocol.",
       "coreThesis": "Hostility and violence are tragic expressions of unmet universal needs; translating static judgments into actionable observations and needs reliably dissolves conflict.",
@@ -28020,6 +28741,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "268bf563",
     "onePageSummary": {
       "elevatorPitch": "We spend billions buying manufactured products to signal fitness traits that evolution already gave us the power to demonstrate for free. By decoding consumerism through evolutionary biology, this book reveals how to step off the commercial treadmill and build authentic social status.",
       "coreThesis": "Modern consumerism is an evolutionary signaling error: we purchase expensive goods to broadcast fitness, intelligence, and character traits that are communicated far more persuasively through direct, natural human behavior.",
@@ -28057,6 +28779,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1988,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a3c24ab8",
     "onePageSummary": {
       "elevatorPitch": "Groundbreaking empirical research dismantles decades of slick sales myths, proving that big deals aren't won by pushy closing lines, but by asking precise, diagnostic questions that help buyers discover the true cost of their unresolved problems.",
       "coreThesis": "Large sales are won or lost in the investigating stage: buyers do not commit because of clever closing tricks, but because diagnostic questioning makes the hidden cost of their problem substantially heavier than the price of your solution.",
@@ -28094,6 +28817,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0ac58d76",
     "onePageSummary": {
       "elevatorPitch": "Human decisions rarely pivot on lengthy logical arguments; they flip in split seconds when the right sensory tripwires are triggered. Kevin Dutton unpacks the cognitive mechanics of instantaneous influence, showing how master persuaders bypass conscious resistance like a key sliding into a lock.",
       "coreThesis": "Instant persuasion is not a contest of logic, but a hardwired evolutionary reflex that flips critical skepticism into sudden consent when triggered by precise sensory cues.",
@@ -28131,6 +28855,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0aa7fdb5",
     "onePageSummary": {
       "elevatorPitch": "When high-conflict personalities enter family court, ordinary disputes transform into asymmetric psychological warfare where charm masks chaos and false narratives weaponize the legal system. This definitive tactical guide reveals the behavioral blueprints of borderline and narcissistic dynamics, equipping you with the empirical tools to dismantle distortions, protect assets, and exit the storm intact.",
       "coreThesis": "High-conflict divorce is driven by unconscious psychological defenses that externalize internal shame through systemic blame and legal weaponization; surviving it requires replacing emotional counterattacks with forensic documentation, airtight boundaries, and disciplined, low-contact communication.",
@@ -28168,6 +28893,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9a3dc415",
     "onePageSummary": {
       "elevatorPitch": "Stop squandering months debating untested hypotheses in endless committees. Sprint compresses the product development loop into a rigorous five-day experimental laboratory, guiding teams from problem definition to live customer verification.",
       "coreThesis": "Fast-forward into the future by building a realistic surface facade in one day, eliminating political debate through empirical customer feedback gathered from five structured interviews.",
@@ -28205,6 +28931,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "708c2e8c",
     "onePageSummary": {
       "elevatorPitch": "Written by seasoned CIA interrogators, this book reveals the exact behavioral feedback loops people trigger when concealing the truth. Learn to spot deception within a strict five-second window using scientific observation rather than guesswork.",
       "coreThesis": "Deception creates measurable cognitive friction that leaks through verbal and physical evasion within five seconds of a stimulus question.",
@@ -28242,6 +28969,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5d056fdf",
     "onePageSummary": {
       "elevatorPitch": "Meditation is neither blank escapism nor daydreaming; it is the deliberate marriage of razor-sharp stillness and analytical clarity. In this masterclass on Kamalashila\\u2019s Bhavanakrama, the Dalai Lama delivers a rigorous, step-by-step roadmap to train your mind, dissolve self-deception, and awaken boundless compassion.",
       "coreThesis": "Genuine inner liberation requires both an unshakable, focused mind and analytical insight into reality, rooted in universal compassion.",
@@ -28279,6 +29007,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1989,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e8415d24",
     "onePageSummary": {
       "elevatorPitch": "Comedy is not mystical lightning or an innate genetic trait; it is an engineered pressure-relief valve built on authentic observation and cognitive surprise. Judy Carter deconstructs the stage craft into a repeatable, modular laboratory process that transforms daily friction and vulnerability into magnetic public influence.",
       "coreThesis": "Laughter is a physiological reaction to the sudden release of cognitive tension, created when authentic human vulnerability and everyday friction are channeled through disciplined structural pivots.",
@@ -28316,6 +29045,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "41a3c045",
     "onePageSummary": {
       "elevatorPitch": "You do not need an exotic monastery or years of quiet retreats to find peace; you only need the courage to witness reality as it is right now. Bhante Gunaratana strips away mystical jargon to offer a refreshingly honest, field-tested manual for training the restless mind.",
       "coreThesis": "Suffering stems from blindly grasping at transient pleasures and resisting inevitable discomfort; through gentle, non-judgmental awareness of the breath, anyone can awaken to unshakeable clarity right where they stand.",
@@ -28353,6 +29083,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "88307bd6",
     "onePageSummary": {
       "elevatorPitch": "Stop chasing the seductive trap of 'win-win' compromises and start by inviting the word 'no'. By eliminating emotional neediness and controlling your own behavioral process, you unlock true leverage and discover what the other side actually needs.",
       "coreThesis": "A durable agreement is born only when people feel safe enough to say 'no'; real negotiating power lies in eliminating personal neediness and strictly managing your own behavioral process.",
@@ -28390,6 +29121,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3aece762",
     "onePageSummary": {
       "elevatorPitch": "Most strive to survive through pressure, price cuts, and endless noise. True resonance begins inward, anchoring every action to an unshakeable purpose that draws others like a calm flame.",
       "coreThesis": "People do not buy what you do; they buy why you do it. Lasting influence is not forced from the outside, but radiates naturally from centered conviction.",
@@ -28427,6 +29159,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "85c6d286",
     "onePageSummary": {
       "elevatorPitch": "Strength is not a specialized talent; it is the fundamental mechanical baseline that elevates every other physical capability in life. By mastering five basic barbell movements and incrementally adding tiny amounts of weight each workout, you trigger an undeniable biological adaptation engine.",
       "coreThesis": "Strength is the foundational physical attribute of human biology; applying incremental, measurable stress through multi-joint barbell movements systematically forces the entire neuromuscular system to adapt and grow stronger.",
@@ -28464,6 +29197,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5a2cfe48",
     "onePageSummary": {
       "elevatorPitch": "Status anxiety is the silent tax you pay for letting other people define your scorecard. Master the hidden incentives driving modern prestige to reclaim operational freedom and build unshakeable sovereign worth.",
       "coreThesis": "Status anxiety is the corrosive fear of being judged second-rate by an audience whose approval you do not actually need; true sovereignty comes from setting your own internal balance sheet.",
@@ -28501,6 +29235,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2fe5ca75",
     "onePageSummary": {
       "elevatorPitch": "Creativity is not immaculate conception; it is the deliberate cross-pollination of the ideas you collect. By curating inputs and embracing generative constraints, anyone can transform ordinary influences into breakthrough craft.",
       "coreThesis": "Originality is an illusion born of hidden sources; enduring creative breakthroughs occur when you deliberately curate, remix, and subtract from existing ideas within disciplined daily routines.",
@@ -28538,6 +29273,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0b073fc5",
     "onePageSummary": {
       "elevatorPitch": "Master the hidden performance mechanics actors use to captivate crowds and turn high-stakes pitches, job interviews, and keynote presentations into standing ovations.",
       "coreThesis": "Every high-stakes interaction is an act of performance; by mastering actor-grade preparation, objectives, and presence, you shift from self-conscious panic to selfless service.",
@@ -28575,6 +29311,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7d30f9e1",
     "onePageSummary": {
       "elevatorPitch": "Stop blaming your personality or praying for more willpower. Lasting change is not an internal character virtue\\u2014it is a mechanical systems problem solved by structural behavioral engineering.",
       "coreThesis": "You do not need to change who you are to change what you do; lasting transformation happens when you engineer the external ecosystem and psychological levers surrounding your actions.",
@@ -28612,6 +29349,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "faeb5148",
     "onePageSummary": {
       "elevatorPitch": "Step into the definitive, serene biography of Ajahn Chah, the forest monk whose direct wisdom transformed modern global mindfulness. It proves that lasting inner peace is not found by stopping the chaotic currents of life, but by resting as the clear riverbed through which everything freely flows.",
       "coreThesis": "Suffering occurs only when we demand that changing things stay still; true peace is not a quiet environment, but the unshakable awareness that watches life arise and pass without clinging.",
@@ -28649,6 +29387,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ba065e28",
     "onePageSummary": {
       "elevatorPitch": "Ancient wisdom meets modern cognitive science to forge an unshakable inner sanctuary. Donald Robertson translates classical Stoic philosophy into a practical manual for emotional self-mastery, quiet courage, and enduring peace.",
       "coreThesis": "Distress springs not from external events, but from the unexamined opinions we form about them. By dedicating our energy exclusively to our own judgments and moral choices, we unlock enduring equanimity.",
@@ -28686,6 +29425,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2022,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "044e2bce",
     "onePageSummary": {
       "elevatorPitch": "Your inability to focus is not a personal character flaw; it is the calculated byproduct of an extractive modern ecosystem designed to capture and fracture your mind. Reclaiming attention requires treating mental bandwidth not like a private willpower battle, but like clean water\\u2014a shared ecological resource that must be fiercely protected.",
       "coreThesis": "Our collapsing focus is not an individual moral failure but a systemic environmental poisoning caused by extractive business models, chronic overwork, and sensory overload. Restoring deep focus requires both personal boundaries and collective political resistance against the architectures designed to fragment us.",
@@ -28723,6 +29463,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "695832a4",
     "onePageSummary": {
       "elevatorPitch": "Step behind the curtain of high-conflict relationships to reveal the hidden machinery locking you into emotional rescue loops. Learn how to shut off the cycle, set unbreakable boundaries, and reclaim your personal sovereignty.",
       "coreThesis": "You cannot manage or cure another adult's personality disorder, but you can dismantle the destructive feedback loop by refusing to serve as their emotional shock absorber.",
@@ -28760,6 +29501,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bc88db57",
     "onePageSummary": {
       "elevatorPitch": "Cut the digital noise and reclaim your sanity: modern news is mental junk food engineered to keep you anxious, distracted, and reactive. Going on a strict news diet frees up hundreds of hours of deep focus, eliminates synthetic stress, and unlocks genuine real-world agency.",
       "coreThesis": "News is toxic, irrelevant mental junk food designed to harvest your attention; eliminating it completely restores emotional equanimity, sharpens deep thinking, and frees your energy for things you can actually control.",
@@ -28797,6 +29539,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1998,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "804e1077",
     "onePageSummary": {
       "elevatorPitch": "When someone close to you experiences emotional third-degree burns, your instinct is to tiptoe\\u2014yet accommodating the blast radius only feeds the fire. This groundbreaking manual unpacks the hidden mechanics of borderline relational dynamics, handing you the blueprint to reclaim your autonomy, reset structural boundaries, and stop walking on eggshells.",
       "coreThesis": "You cannot control, cure, or cause another person's emotional dysregulation; real peace begins the moment you replace accommodation with unyielding personal boundaries.",
@@ -28834,6 +29577,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1988,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3ac3c6cd",
     "onePageSummary": {
       "elevatorPitch": "Ground timeless spiritual wisdom in real human drama: see how every verse of the Dhammapada was forged in the heat of daily conflicts, family heartbreaks, and practical moral crossroads.",
       "coreThesis": "Your mind shapes your entire reality, and lasting peace is not a gift from external circumstances, but the natural fruit of disciplined awareness and compassionate self-mastery.",
@@ -28871,6 +29615,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e48fcb6c",
     "onePageSummary": {
       "elevatorPitch": "Human brains are wired to resist abstract data, but they involuntarily sync with narrative structure. Kindra Hall provides the practical engineering blueprint to turn everyday moments into strategic stories that captivate attention, dissolve skepticism, and trigger decisive action.",
       "coreThesis": "Data informs the intellect, but story governs human decision-making. By engineering specific narratives around characters and pivotal moments, communicators build psychological bridges that transform abstract ideas into irresistible action.",
@@ -28908,6 +29653,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1997,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "282d4451",
     "onePageSummary": {
       "elevatorPitch": "Great stories are not accidents of lightning-strike inspiration; they are finely tuned dynamic systems governed by universal laws of human behavior and cause-and-effect pressure. Robert McKee decodes the hidden physics of narrative, showing you how to turn raw human conflict into irresistible, emotionally transformative experiences.",
       "coreThesis": "A story is an organic dynamic system where true human character and meaning are forged only when unexpected friction shatters expectations and demands difficult choices under mounting pressure.",
@@ -28945,6 +29691,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a20ff680",
     "onePageSummary": {
       "elevatorPitch": "Great storytellers do not lead wilder lives; they operate with better sensory instruments to capture and execute everyday inflection points. Master storyteller Matthew Dicks provides an operational blueprint to locate, engineer, and deliver high-stakes personal narratives that command rooms and drive human decisions.",
       "coreThesis": "A powerful story is never about extraordinary external events, but about a five-second shift in human perspective made visible through vulnerability, cause-and-effect friction, and disciplined structure.",
@@ -28982,6 +29729,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1987,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "22b7bf1f",
     "onePageSummary": {
       "elevatorPitch": "Strip away scholastic debates and encounter the raw, fierce reality of meditation practice straight from a Thai Forest master. This collection offers a practical manual for dissecting physical pain, dissolving inner illusions, and unveiling genuine, unconditioned freedom.",
       "coreThesis": "Suffering is maintained by blind identification with physical sensations and mental chatter; relentless discernment in the present moment completely dismantles this illusion, revealing the mind's native, indestructible freedom.",
@@ -29019,6 +29767,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "06d5c89b",
     "onePageSummary": {
       "elevatorPitch": "You are not the sole author of your mind, but the spokesperson explaining decisions already made beneath the surface. Discover the powerful, adaptive unconscious that runs your daily life and learn how to truly understand yourself from the outside in.",
       "coreThesis": "The conscious mind is an interpretive storyteller rather than an omniscient controller; genuine self-insight comes not from inward gaze, but from observing and reshaping our outward actions.",
@@ -29056,6 +29805,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1985,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fe7ef58d",
     "onePageSummary": {
       "elevatorPitch": "Complex sales are not won by individual charisma in high-pressure meetings; they are engineered behind the scenes by understanding the hidden human ecosystem of an organization. This book unveils the behavioral physics of corporate purchasing so you can navigate internal politics, defuse hidden vetoes, and build deals that stick.",
       "coreThesis": "A complex deal is a multi-stakeholder ecosystem where lasting success requires satisfying the distinct functional roles and private personal motivations of all key buying influences.",
@@ -29093,6 +29843,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bc6aae78",
     "onePageSummary": {
       "elevatorPitch": "Hard work alone will not earn you a seat at the decision table; career advancement is an intentional game of leverage, perception, and political capital. Carla Harris delivers a tactical playbook on how to build performance currency, bank relationship equity, and engineer high-stakes promotion outcomes.",
       "coreThesis": "Excellence in execution gets you noticed, but relationships get you promoted; winning in any organization requires strategically converting early performance currency into political relationship capital.",
@@ -29130,6 +29881,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6eea02cc",
     "onePageSummary": {
       "elevatorPitch": "When severe adversity cracks your baseline reality, the fractured edges reveal how human resilience actually operates. Richard M. Cohen maps the exact behavioral feedback loops through which five ordinary adults convert biological catastrophe into durable personal agency.",
       "coreThesis": "Wholeness is not the preservation of an unblemished life, but the deliberate capacity to rebuild functional agency and profound meaning directly at the fracture points of suffering.",
@@ -29167,6 +29919,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "961a3bb6",
     "onePageSummary": {
       "elevatorPitch": "Most bad choices happen not because people lack intelligence, but because they reach for the wrong cognitive tool. *Super Thinking* equips you with a master toolkit of cross-disciplinary mental models so you can navigate complex life, career, and business decisions with quiet, surgical clarity.",
       "coreThesis": "You cannot solve multifaceted, non-linear challenges using a single mental lens; true judgment comes from assembling a versatile latticework of recurring models across disciplines to systematically reduce errors and spot hidden leverage.",
@@ -29204,6 +29957,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2024,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "71cd4b21",
     "onePageSummary": {
       "elevatorPitch": "Every conversation fails when two people speak on completely different psychological frequencies. Master the three hidden conversational modes to align brainwaves and unlock effortless, genuine connection.",
       "coreThesis": "Genuine connection requires the Matching Principle: to communicate effectively, you must identify and join the specific conversation channel\\u2014practical, emotional, or social\\u2014the other person is in before trying to persuade, solve, or lead.",
@@ -29241,6 +29995,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1c9a20c6",
     "onePageSummary": {
       "elevatorPitch": "Traditional networking is a low-yield numbers game driven by desperate extraction; true Superconnectors build high-leverage ecosystems by engineering value for others with zero upfront demands. By curating elite nodes, protecting your social bandwidth, and delivering asymmetric solutions, you construct an unassailable professional moat.",
       "coreThesis": "Sustainable professional power belongs not to those who aggressively extract favors, but to the selective hubs who engineer transformative, unprompted value for high-trust peers.",
@@ -29278,6 +30033,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1571b5d5",
     "onePageSummary": {
       "elevatorPitch": "Most high-profile forecasters are no better than dart-throwing chimpanzees because they prioritize dogma over scorekeeping. Winning under uncertainty demands running your mind like a probabilistic tournament, not a confirmation-bias machine.",
       "coreThesis": "Foresight is not a rare mystical gift, but an actionable, trainable craft rooted in granular probabilistic thinking, base-rate calibration, and relentless intellectual humility.",
@@ -29314,6 +30070,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "79bc89af",
     "onePageSummary": {
       "elevatorPitch": "Even spiritual paths designed to dissolve the ego end up manufacturing brand-new pedestals of self-importance. Bhikkhu An\\u0101layo investigates how ancient institutions and modern practitioners alike quietly transform tools of freedom into status symbols.",
       "coreThesis": "Conceit is the ego's most resilient survival tactic, stealthily turning the very spiritual frameworks meant to dismantle pride into weapons of tribal and intellectual supremacy.",
@@ -29351,6 +30108,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7740dfde",
     "onePageSummary": {
       "elevatorPitch": "Step out of the restless cycle of conditioned thought into direct, unshakeable freedom. Dr. Mehm Tin Mon provides the master blueprint for waking up from the movie screen of the mind into raw, liberating reality.",
       "coreThesis": "Suffering ceases permanently when conscious awareness pierces through the illusion of a solid self and anchors in the unconditioned stillness of Nibb\\u0101na.",
@@ -29388,6 +30146,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1969,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "659b3971",
     "onePageSummary": {
       "elevatorPitch": "Death is neither a brick wall that snuffs out awareness nor an elevator carrying a permanent ego to eternity. It is an evolving river of habit and intention that you can observe, understand, and master in this very breath.",
       "coreThesis": "Human existence is not a fixed monument that gets destroyed at death, but a flowing stream of conscious energy propelled by intentional action; by understanding this natural cause-and-effect, one finds freedom from both fearful clinging and moral nihilism.",
@@ -29425,6 +30184,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2130bec5",
     "onePageSummary": {
       "elevatorPitch": "Competence without political acumen is organizational suicide. Brandon and Seldman deliver an unsentimental blueprint for wielding ethical power, neutralizing covert sabotage, and ensuring merit actually triumphs on the corporate chessboard.",
       "coreThesis": "Organizational politics is an unavoidable law of human systems; true professional excellence demands balancing exceptional substance with ethical political mastery so merit and integrity actually prevail.",
@@ -29462,6 +30222,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "22c2fd66",
     "onePageSummary": {
       "elevatorPitch": "Beneath nature's chaotic surface lies a hidden drive toward spontaneous coordination. Steven Strogatz reveals how thousands of independent actors lock into effortless, simultaneous harmony.",
       "coreThesis": "Spontaneous order is not an accident but a mathematical inevitability when vibrating agents influence one another through feedback.",
@@ -29498,6 +30259,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c558b882",
     "onePageSummary": {
       "elevatorPitch": "Stop treating networking like a desperate fire drill when you need a job; build an enduring, low-friction relationship pipeline that compounds quietly before you ever need it.",
       "coreThesis": "Sustainable networking is not aggressive self-promotion, but a disciplined, low-friction habit of casual maintenance and mutual value creation practiced when you need nothing in return.",
@@ -29535,6 +30297,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1dacf97e",
     "onePageSummary": {
       "elevatorPitch": "Greatness is not a lottery ticket stamped at birth\\u2014it is an engineered outcome. Decades of cognitive science reveal that world-class capability comes down to a specific, high-feedback regimen called deliberate practice.",
       "coreThesis": "Elite performance is neither the result of innate genetic gifts nor mere accumulation of routine experience; it is produced by thousands of hours of deliberate practice designed to stretch existing capabilities through continuous, immediate feedback.",
@@ -29572,6 +30335,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ff255a83",
     "onePageSummary": {
       "elevatorPitch": "Great ideas stay invisible unless they are delivered in a way that aligns with how the human brain actually processes information. Carmine Gallo decodes the cognitive blueprint behind the world's most viral TED talks to show you how to captivate any room.",
       "coreThesis": "Public speaking is an applied neurological craft where genuine emotion, unexpected novelty, and concise multisensory delivery align with the brain's natural wiring to make ideas impossible to ignore.",
@@ -29609,6 +30373,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1985,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bdbe48ce",
     "onePageSummary": {
       "elevatorPitch": "Your mind is either your most destructive adversary or your greatest life ally. This classical manual shows you how to train your restless attention with the calm precision of a master artisan.",
       "coreThesis": "Suffering and freedom do not come from external conditions; an untrained mind creates its own turmoil, while a tamed, well-directed consciousness is the supreme source of lasting peace.",
@@ -29646,6 +30411,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1963,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a601ef9b",
     "onePageSummary": {
       "elevatorPitch": "An unexamined, chaotic mind is like a vehicle running downhill without brakes, while a trained mind is your most reliable instrument of peace and freedom. This canonical anthology provides the foundational blueprint for transforming scattered mental reactivity into steady, luminous clarity.",
       "coreThesis": "The human mind left unguided is the primary architect of human distress, but systematically trained and guarded, it becomes an inexhaustible fountain of peace and genuine freedom.",
@@ -29683,6 +30449,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "02e23022",
     "onePageSummary": {
       "elevatorPitch": "When difficult emotions flare up, fighting them only adds fuel to the fire. Thich Nhat Hanh reveals how to gently cradle our anger and fear like a caring parent, transforming burning inner turmoil into clear, compassionate insight.",
       "coreThesis": "Difficult emotions are not enemies to destroy, but vulnerable parts of ourselves calling for gentle, mindful stewardship.",
@@ -29720,6 +30487,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3342c864",
     "onePageSummary": {
       "elevatorPitch": "Stop fighting the current of reality. By abandoning frantic control and moving with the natural grain of life, you gain effortless leverage, unshakeable poise, and quiet mastery.",
       "coreThesis": "Alignment beats enforcement: by abandoning ego and cooperating with the natural flow of reality rather than forcing it, you achieve maximum effect with minimal friction.",
@@ -29757,6 +30525,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6013c557",
     "onePageSummary": {
       "elevatorPitch": "Experience the gold standard of classical Buddhist meditation distilled into a lucid, step-by-step master plan. This guide bridges deep absorption with razor-sharp insight, showing you how to turn your mind into an ultra-precise laboratory for genuine spiritual awakening.",
       "coreThesis": "Profound spiritual liberation is achieved systematically when ethical conduct quiets mental turmoil, deep concentration stabilizes and illuminates attention, and penetrating insight dismantles the illusion of an autonomous self.",
@@ -29794,6 +30563,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1990,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b505ceb1",
     "onePageSummary": {
       "elevatorPitch": "Stop fighting your noisy thoughts and learn the quiet art of laying down your burdens. Ajahn Sumedho offers a refreshingly human, warm guide to waking up inside ordinary life by discovering the unshakeable stillness behind every passing storm.",
       "coreThesis": "Suffering is not caused by life's conditions, but by our clinging to them; genuine freedom is the immediate, effortless release of grasping by resting as the silent knowing awareness.",
@@ -29831,6 +30601,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1997,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cce6693b",
     "onePageSummary": {
       "elevatorPitch": "Love is not an intoxicating emotional seizure or a barter of codependency; it is a practical, daily craft of cultivated awareness. Thich Nhat Hanh presents a masterclass in relational mindfulness, showing that you can only love someone as deeply as you understand their pain and care for your own.",
       "coreThesis": "Understanding is the very substance of love: to love without understanding another's suffering is not love, but mere attachment and possession.",
@@ -29868,6 +30639,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cba7776e",
     "onePageSummary": {
       "elevatorPitch": "Technology does not replace elite dealmakers; it turns them into lethal, high-output operators by stripping away clerical friction. Master the machine, deploy asymmetric automation, and secure unfair competitive advantage in modern enterprise prospecting.",
       "coreThesis": "Sales professionals will not be replaced by artificial intelligence, but sales professionals who master and orchestrate technology will systematically displace those who do not.",
@@ -29905,6 +30677,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "78a34203",
     "onePageSummary": {
       "elevatorPitch": "Public speaking is not an innate theatrical gift; it is the cognitive science of building a living idea inside someone else's mind. By replacing self-focused performance with audience-focused idea replication, anyone can deliver talks that spark curiosity, reshape worldviews, and spread across the globe.",
       "coreThesis": "A successful presentation is not a theatrical display; it is the deliberate construction of an idea inside the listener's brain using common language, relatable metaphors, and an unbroken throughline.",
@@ -29942,6 +30715,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1985,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b433ab60",
     "onePageSummary": {
       "elevatorPitch": "Deception creates friction between conscious words and involuntary biology. Learn how emotional leakage, fleeting facial signals, and vocal shifts expose hidden truths beneath spoken masks.",
       "coreThesis": "Lying generates emotional and cognitive friction that leaks through involuntary non-verbal channels, but no single cue proves deceit; reliable detection requires tracking deviations from a known baseline across multiple behavioral streams.",
@@ -29979,6 +30753,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "283b6897",
     "onePageSummary": {
       "elevatorPitch": "Reclaim your mind, your attention, and your sovereignty by stepping off the algorithmic hamster wheel. Deleting social media is not anti-tech; it is the ultimate pro-human upgrade.",
       "coreThesis": "Modern social media platforms are behavior-modification machines engineered to monetize your outrage, and deleting your accounts is the fastest way to reclaim your cognitive autonomy and emotional well-being.",
@@ -30016,6 +30791,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2007,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "287d5a9d",
     "onePageSummary": {
       "elevatorPitch": "Persuasion is not a battlefield where you obliterate rivals; it is an invisible operating system of human psychology that guides decisions. Learn the mechanics of ancient dialectic to effortlessly steer friction toward consensus.",
       "coreThesis": "Arguing is not fighting to dominate; it is the deliberate science of shifting human desire, trust, and future choices to achieve lasting agreement.",
@@ -30053,6 +30829,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2007,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0c9bd548",
     "onePageSummary": {
       "elevatorPitch": "Persuasion is not a gladiatorial brawl to destroy an adversary; it is the deliberate design of human consent. By shifting conversations from past blame to future choice, you steer people into choosing your outcome willingly.",
       "coreThesis": "Genuine persuasion does not defeat opponents; it aligns audience desires with future action by channeling character, emotion, and choice.",
@@ -30090,6 +30867,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1f0974f3",
     "onePageSummary": {
       "elevatorPitch": "Most feedback advice focuses on how to give critique, but the real power plant sits entirely in the hands of the receiver. Mastering how you absorb, filter, and calibrate incoming information unlocks rapid personal evolution while shielding your sense of self.",
       "coreThesis": "The receiver holds total power in the feedback equation; mastering the internal filters that process critique allows you to learn from anyone without letting them define your worth.",
@@ -30127,6 +30905,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1c0864f4",
     "onePageSummary": {
       "elevatorPitch": "Transform everyday competencies into an autonomous, cash-flowing enterprise with virtually zero capital outlay. By viewing entrepreneurship as an experimental science of value exchange rather than a high-stakes financial gamble, you can build a sustainable living on your own terms.",
       "coreThesis": "Financial autonomy does not require venture capital or corporate infrastructure; it requires identifying where your existing competence solves a distinct human problem and packaging that solution into an immediate, testable offer.",
@@ -30164,6 +30943,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "af1a7367",
     "onePageSummary": {
       "elevatorPitch": "Most businesses run on random acts of promotion that burn cash without accountable return. The 1-Page Marketing Plan forces your entire growth engine onto a single 9-box grid, converting marketing from an unpredictable expense into a high-margin asset.",
       "coreThesis": "Marketing is not an artistic indulgence; it is a measurable direct-response engine designed to reliably transform strangers into loyal, high-lifetime-value promoters.",
@@ -30201,6 +30981,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9fc795f7",
     "onePageSummary": {
       "elevatorPitch": "Radical success is not built on theatrical, heroic leaps, but on invisible daily micro-improvements that compound quietly beneath the surface. By falling in love with daily execution rather than obsessing over distant outcomes, you transform consistency from a chore into an automatic competitive advantage.",
       "coreThesis": "Monumental achievement is not the result of sudden grand gestures, but the mathematical inevitability of small daily improvements compounded through disciplined systems and process-first devotion.",
@@ -30238,6 +31019,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1993,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e2d60c0d",
     "onePageSummary": {
       "elevatorPitch": "Marketing is not an engineering contest over who builds a better mousetrap; it is a cutthroat psychological battle to stake out uncontested real estate in the prospect's mind. Master these twenty-two unsentimental rules of positioning, or watch your superior product get ground to dust by a competitor who seized the mental high ground first.",
       "coreThesis": "Markets are not won in factories or spreadsheets, but inside the narrow, stubborn corridors of human perception. To win, you must either be first into the prospect's mind or deliberately sacrifice breadth to own a sharp, uncontested mental category.",
@@ -30275,6 +31057,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2022,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "da1be510",
     "onePageSummary": {
       "elevatorPitch": "Stop collecting lifeless business cards and start manufacturing high-leverage social capital through systematically engineered, two-hour micro-gatherings. This playbook strips away entertaining fluff to give you a repeatable tactical blueprint for dominating network density and relationship architecture.",
       "coreThesis": "You do not build high-value relationships by attending noisy events; you build them by becoming the centralized host of structured, frictionless, time-capped micro-gatherings.",
@@ -30312,6 +31095,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1998,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "813b78c5",
     "onePageSummary": {
       "elevatorPitch": "Power is not an elective course; it is the operating system of human hierarchy. Master the unwritten rules of human leverage, or spend your career navigating traps set by those who have.",
       "coreThesis": "Power is an unavoidable social force governed by timeless laws; survival and success require clinical detachment, emotional discipline, and absolute mastery of human incentives.",
@@ -30349,6 +31133,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2007,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "eb1f17be",
     "onePageSummary": {
       "elevatorPitch": "Stop trading forty years of forty-hour weeks for a delayed-gratification retirement you may never enjoy. By re-engineering your relationship with time, eliminating cognitive clutter, and constructing automated systems, you can live like a millionaire today on a fraction of the budget.",
       "coreThesis": "True wealth is not measured by the size of your bank account, but by the currency of time and mobility: the ability to control what you do, when you do it, and where you live.",
@@ -30386,6 +31171,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9b9d2811",
     "onePageSummary": {
       "elevatorPitch": "Great talent collapses when guarded egos treat team meetings like diplomatic peace treaties rather than operational war rooms. Patrick Lencioni breaks down the root causes of team paralysis and proves that disciplined vulnerability, fiery debate, and peer accountability are the true engines of market dominance.",
       "coreThesis": "A team functions only when collective outcomes take precedence over individual protection, achieved through a progressive chain of vulnerability, candid ideological debate, decisive commitment, and direct peer accountability.",
@@ -30423,6 +31209,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1992,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "00249e91",
     "onePageSummary": {
       "elevatorPitch": "Human relationships do not fail from a lack of love, but from a fatal translation error. By decoding your partner's distinct emotional operating system, you can stop broadcasting signals into empty static and start fueling real connection.",
       "coreThesis": "Emotional connection thrives not on the volume of effort expended, but on transmitting care in the recipient's native psychological dialect.",
@@ -30460,6 +31247,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "affc002b",
     "onePageSummary": {
       "elevatorPitch": "You are always one five-second decision away from an entirely different life. When you count backward 5-4-3-2-1 and move immediately, you silence self-doubt and outrun hesitation before your brain can hit the brakes.",
       "coreThesis": "You will rarely feel like doing hard, uncomfortable things; counting backward 5-4-3-2-1 manually activates your prefrontal cortex, enabling you to take immediate physical action before self-doubt paralyzes you.",
@@ -30497,6 +31285,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1997,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "aef169a7",
     "onePageSummary": {
       "elevatorPitch": "Stop mistaking frantic motion for meaningful progress. The 80/20 Principle shows you how to locate the vital 20 percent of your actions, relationships, and decisions that create 80 percent of your real-world momentum\\u2014enabling you to accomplish exponentially more by doing drastically less.",
       "coreThesis": "A predictable minority of causes, inputs, or efforts generates the overwhelming majority of results, rewards, or impacts; peak effectiveness comes from ruthlessly pruning the trivial majority to supercharge the vital few.",
@@ -30534,6 +31323,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1a5e3fbf",
     "onePageSummary": {
       "elevatorPitch": "Relying purely on willpower is a behavioral dead end\\u2014human beings are hardwired to bargain with themselves when no one is looking. By installing structured external observation and social pre-commitments, you turn fragile intentions into automated, non-negotiable execution.",
       "coreThesis": "Accountability is not punitive oversight or an admission of weakness\\u2014it is an engineered behavioral scaffolding that transforms private intentions into observable, non-negotiable reality.",
@@ -30571,6 +31361,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1978,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f0b98f53",
     "onePageSummary": {
       "elevatorPitch": "Step out of the tangled web of opinions, dogmas, and mental debates into the calm clarity of direct awareness. This foundational Buddhist text reveals how all rigid beliefs trap the human heart, and points the way to unshakeable inner peace.",
       "coreThesis": "Every fixed opinion about the self and reality is an unexamined reaction to sensory contact, and complete spiritual freedom is realized not by adopting the right dogma, but by relinquishing the urge to grasp any view whatsoever.",
@@ -30608,6 +31399,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6c783b94",
     "onePageSummary": {
       "elevatorPitch": "Wealth is an engine you build once to deliver freedom indefinitely; happiness is an internal baseline skill you maintain daily. Stop renting your time by the hour, master permissionless leverage, and trade social status games for unvarnished personal sovereignty.",
       "coreThesis": "True freedom combines financial independence built on asymmetric leverage with internal peace built on deliberate emotional discipline.",
@@ -30645,6 +31437,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1997,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "dfd4d889",
     "onePageSummary": {
       "elevatorPitch": "Your breath is not just air entering your lungs\\u2014it is an internal laboratory for training attention, calming turbulence, and uncovering ultimate mental freedom. In this canonical manual, Bhikkhu Thanissaro unlocks the Buddha's master blueprint for turning ordinary breathing into profound awakening.",
       "coreThesis": "The conscious breath is a complete, self-contained vehicle for liberation that harmonizes the physical body, heals emotional turbulence, and frees the mind from all grasping.",
@@ -30682,6 +31475,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1990,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8601575a",
     "onePageSummary": {
       "elevatorPitch": "Anxiety is not a permanent personality defect; it is a hypersensitive alarm system stuck in a runaway feedback loop. This seminal manual provides an exhaustive, field-tested toolkit to systematically decondition physical panic, reprogram cognitive distortions, and rebuild autonomic resilience.",
       "coreThesis": "Panic and anxiety disorders are self-perpetuating feedback loops driven by physiological hyperreactivity and catastrophic cognitive interpretations; systematic bodily down-regulation combined with hierarchical behavioral exposure rewires the brain's alarm system for lasting emotional equilibrium.",
@@ -30719,6 +31513,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2024,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fefb66bf",
     "onePageSummary": {
       "elevatorPitch": "Human psychology thrives on physical friction, spontaneous real-world practice, and undivided attention. When modern algorithms quietly replaced tangible daily life with nonstop digital feeds, they triggered a massive structural collapse in emotional well-being.",
       "coreThesis": "Human emotional health collapses when tangible physical independence and shared presence are replaced by hyper-connected, algorithmically engineered screen environments.",
@@ -30756,6 +31551,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1959,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ae6c9b7f",
     "onePageSummary": {
       "elevatorPitch": "Your brain does not start as a blank notebook; it ships from the factory preloaded with an ancient, shared operating system. By decoding the hidden archetypes running in your mental background, you stop living on autopilot and take command of your own self-reinvention.",
       "coreThesis": "Human psychology is anchored in a universal, inherited architecture of symbolic archetypes; true maturity and mental resilience come from integrating these hidden operating dynamics into daily conscious life.",
@@ -30793,6 +31589,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8560afd0",
     "onePageSummary": {
       "elevatorPitch": "Meditation is not a grim wrestling match with your thoughts, but the craft of befriending your own attention. Richard Shankman provides an indispensable master manual that harmonizes deep concentration (samatha) and liberating insight (vipassana) into one seamless, accessible journey.",
       "coreThesis": "Deep concentration and liberating insight are mutually reinforcing halves of one practice: a calm, collected mind allows you to see experience clearly, untangle clinging, and rest in effortless freedom.",
@@ -30830,6 +31627,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1831,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cce3c655",
     "onePageSummary": {
       "elevatorPitch": "Human debate is rarely a search for truth; it is an instinctual arena where fragile vanity fights for dominance. Schopenhauer dismantles the machinery of verbal combat so you can spot cognitive tricks instantly and stay unshakeable under rhetorical fire.",
       "coreThesis": "Dialectical debate is driven by vanity rather than objective reality; dissecting its bad-faith maneuvers gives you an immune system against manipulation.",
@@ -30867,6 +31665,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1991,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e7a531f3",
     "onePageSummary": {
       "elevatorPitch": "Your breath is not an abstract concept; it is an immediate physical doorway into reality. By observing bodily sensations with microscopic precision, you dismantle lifelong mental conditioning and discover radical, unshakeable freedom.",
       "coreThesis": "Continuous, moment-to-moment bare awareness of physical sensations effortlessly burns away habitual mental conditioning, revealing the unconditioned freedom already present beneath reactive ego-grasping.",
@@ -30904,6 +31703,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4b95246f",
     "onePageSummary": {
       "elevatorPitch": "Communication is an active metabolic system: what you feed your mind directly determines the health of the words you transmit. Master the quiet mechanics of deep listening and conscious speech to defuse conflict before it detonates.",
       "coreThesis": "Relational harmony is governed by input quality and nervous-system calibration: listen deeply to neutralize defensive threat responses, and speak with compassionate precision to sustain healthy social ecosystems.",
@@ -30941,6 +31741,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1996,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5a8e5d7e",
     "onePageSummary": {
       "elevatorPitch": "Most arguments fail because people treat conversations like ping-pong matches to win rather than scientific expeditions to discover truth. David Bohm reveals how tapping into the collective stream of dialogue can dissolve ideological gridlock and unlock genuine collective intelligence.",
       "coreThesis": "Human thought functions as a contagious, systemic reflex rather than private wisdom; only by suspending our assumptions in open dialogue can we break defensive feedback loops and access collective intelligence.",
@@ -30978,6 +31779,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "75f7dde4",
     "onePageSummary": {
       "elevatorPitch": "Lasting peace is not something you acquire; it is what remains when you stop defending and sustaining the illusion of the 'doer'. Ajahn Brahm maps the direct, joyful path of letting go until the burdensome ego completely steps aside.",
       "coreThesis": "Suffering is maintained by the exhausting habit of grasping and managing an illusory self; supreme happiness arrives when you stop doing and let the ego dissolve into still awareness.",
@@ -31015,6 +31817,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1001fdda",
     "onePageSummary": {
       "elevatorPitch": "Assertiveness is neither combative hostility nor fragile submission; it is the precision engineering of personal boundaries that keeps your life functioning without friction. Patrick King reveals how to turn down exploitative requests, dismantle chronic compliance, and communicate your needs with clinical clarity.",
       "coreThesis": "Assertiveness is the indispensable middle path between silent resentment and aggressive hostility, functioning as a clean communication protocol that defends your bandwidth and preserves mutual respect.",
@@ -31052,6 +31855,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "dab5d383",
     "onePageSummary": {
       "elevatorPitch": "Stop waging war on your survival instincts: fear is not a malfunction to eradicate, but a high-voltage biological navigation system designed to sharpen your focus. By shifting from suppression to active collaboration, you turn paralyzing resistance into effortless, high-performance flow.",
       "coreThesis": "Fear is natural biological information, not an enemy to destroy; resisting it breeds chronic dysfunction, while acknowledging and feeling it unlocks peak presence and effortless flow.",
@@ -31089,6 +31893,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1998,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9f00c2b5",
     "onePageSummary": {
       "elevatorPitch": "Happiness is not a lucky lottery ticket\\u2014it is an internal craft you build with steady practice. By blending Eastern contemplative discipline with Western psychology, this guide shows you how to anchor an unshakable inner peace amid life's inevitable storms.",
       "coreThesis": "The fundamental purpose of human life is happiness, and this state is achievable not through external acquisition, but by systematically training the mind through compassion, perspective, and emotional awareness.",
@@ -31126,6 +31931,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7804405c",
     "onePageSummary": {
       "elevatorPitch": "Your job cannot make you happy or miserable on its own\\u2014the mind that meets the job determines everything. By cultivating inner clarity and active compassion, any workplace becomes fertile ground for peace and purposeful living.",
       "coreThesis": "Workplace joy does not depend on changing your job, but on transforming your mind. When you replace ego-defense with compassion, realistic appraisal, and ethical purpose, work becomes an avenue for genuine peace.",
@@ -31163,6 +31969,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "96244f86",
     "onePageSummary": {
       "elevatorPitch": "When global chaos, political tribalism, and relentless 24-hour news cycles threaten your peace of mind, genuine sanctuary is not found by withdrawing behind defensive walls. By joining ancient contemplative clarity with modern psychiatric insight, the Dalai Lama and Dr. Howard Cutler reveal how to build an unshakable inner equilibrium grounded in common humanity and active compassion.",
       "coreThesis": "Individual serenity and societal harmony are inseparable: true happiness in a fractured world is attained not by retreating into isolated self-interest, but by dismantling prejudice and anchoring the mind in our shared human condition.",
@@ -31200,6 +32007,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1987,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4c1e4195",
     "onePageSummary": {
       "elevatorPitch": "Suffering is not caused by external events, but by your unconscious, automatic reactions to physical sensations in your body. By observing these fleeting sensations with rigorous equanimity, you dismantle lifelong habits of anger, craving, and misery at their root.",
       "coreThesis": "Human misery originates in our automatic reactions to bodily sensations; by observing sensations objectively with perfect equanimity, we dissolve mental conditioning and achieve lasting freedom.",
@@ -31237,6 +32045,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1926,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bc603ddd",
     "onePageSummary": {
       "elevatorPitch": "Your brain is designed to generate ideas, not to serve as a warehouse for them. By treating notes as modular physical gears rather than static diary entries, you turn everyday observation into an automated engine of scientific discovery.",
       "coreThesis": "Genuine insight does not happen during capture; it emerges when modular, atomic observations are decoupled from chronological time and physically shuffled into novel structural combinations.",
@@ -31274,6 +32083,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4562cf26",
     "onePageSummary": {
       "elevatorPitch": "Persuasion is not a battering ram of aggressive pressure; it is a precision system of emotional de-escalation that invites others into voluntary cooperation. By removing ego friction and protecting the other person's dignity, you get what you want by helping them feel valued, understood, and victorious.",
       "coreThesis": "Genuine persuasion is the art of getting what you want while creating an outcome that leaves the other person genuinely satisfied with themselves and eager to collaborate again.",
@@ -31311,6 +32121,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "224f859d",
     "onePageSummary": {
       "elevatorPitch": "Mental agility on your feet is not a genetic reflex or a ruthless debate contest; it is a trainable perceptual operating system. By swapping combat for curiosity, you can navigate high-pressure exchanges, sharp rebuttals, and unexpected conversational pivots with effortless elegance.",
       "coreThesis": "Conversational agility and wit stem not from defensive intellectual combat, but from perceptual flexibility that extracts concepts and explores parallel alternatives in real time.",
@@ -31348,6 +32159,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 95,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c9e9a9e0",
     "onePageSummary": {
       "elevatorPitch": "Mastering high-stakes communication is not about learning flashy parlor tricks; it is about calibrating an interconnected system of clear thinking, structured logic, and genuine character. Quintilian breaks down human persuasion into an exact science, revealing how authentic credibility and disciplined design move audiences to decisive action.",
       "coreThesis": "Genuine persuasion is the natural output of an ethical mind trained in systematic logic, transparent expression, and empathetic delivery. Technique without integrity collapses into cheap manipulation, while moral truth without disciplined craft remains unheard.",
@@ -31385,6 +32197,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "64f0f510",
     "onePageSummary": {
       "elevatorPitch": "Seduction is not a mystical gift or physical fluke, but a subtle psychological feedback loop that bends human desire. By understanding how the human mind yearns to escape routine, anyone can dissolve emotional friction and inspire voluntary compliance.",
       "coreThesis": "Direct persuasion creates friction and triggers psychological resistance, whereas seduction draws people in by mirroring their unspoken desires and leading them to persuade themselves.",
@@ -31422,6 +32235,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1761,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3f727eea",
     "onePageSummary": {
       "elevatorPitch": "Your voice is not a static identity card; it is a precision acoustic instrument governed by pressure, resonance, and muscle dynamics. Master the physical mechanics of breath, pitch modulation, and spatial projection, and you can command any room with effortless authority.",
       "coreThesis": "Eloquence is an applied acoustical science: authoritative speaking depends on mastering diaphragmatic breath pressure, vocal tract resonance, and dynamic modulation rather than brute physical force.",
@@ -31459,6 +32273,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b96e5f09",
     "onePageSummary": {
       "elevatorPitch": "'The Art of Thinking Clearly' catalogs 99 pervasive cognitive biases, behavioral heuristics, and systematic thinking errors that subtly distort human decision-making. Rolf Dobelli demonstrates that irrationality is not random incompetence but an evolved, hardwired architecture ill-suited for the complex, abstract modern world. By learning to identify these recurring mental traps\\u2014from survivorship bias to the sunk cost fallacy\\u2014readers acquire a practical radar for intellectual error. The book argues that peak performance stems not from acquiring flashes of genius, but from the relentless, systematic subtraction of foolishness.",
       "coreThesis": "Human irrationality is not accidental error but a systematic evolutionary byproduct; therefore, sound judgment is achieved not by chasing brilliant insights, but by rigorously identifying and subtracting cognitive biases via negativa.",
@@ -31496,6 +32311,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f4ada8a1",
     "onePageSummary": {
       "elevatorPitch": "Supreme mastery is winning without fighting. Master strategists engineer conditions where victory is already secured before execution ever begins.",
       "coreThesis": "Victory is won before the battle is fought; defeat is guaranteed to those who fight first and seek victory later through brute force.",
@@ -31533,6 +32349,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "541c8faf",
     "onePageSummary": {
       "elevatorPitch": "Vocation is not an exotic destination to be hunted down; it is a quiet, continuous conversation with the life you are already living.",
       "coreThesis": "A calling is not found through an impulsive leap, but assembled over time by listening to your history, embracing disciplined practice, and serving something larger than yourself.",
@@ -31570,6 +32387,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "71a1eb6c",
     "onePageSummary": {
       "elevatorPitch": "Surviving life's chaotic initial hurdles is merely Phase One; the true adventure begins when you stop wandering the exterior terrain and plunge into your internal laboratory to turn your scars into signal.",
       "coreThesis": "The external trials of life merely gather the raw fuel; true maturity lies in taking the internal journey to discover who you are and transforming your unique history into a distilled gift for others.",
@@ -31607,6 +32425,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1992,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "baa5fadd",
     "onePageSummary": {
       "elevatorPitch": "Creativity is not an elite genetic gift; it is a natural human biological reflex that gets clogged by fear and self-criticism. By installing two simple daily feedback loops, anyone can clear the emotional pipes and restore their innate expressive flow.",
       "coreThesis": "Creativity is the default operational state of the human mind, blocked only by fear, perfectionism, and internal censorship. Removing these blocks through disciplined daily emotional clearing and regular sensory input automatically restarts natural generative flow.",
@@ -31644,6 +32463,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2000,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7b0e84c6",
     "onePageSummary": {
       "elevatorPitch": "Human communication operates under precise feedback mechanics: silence invites intrusion, aggression triggers counter-defenses, but assertion stabilizes the entire system. Randy Paterson delivers an empirical, cognitive-behavioral operating manual for calibrating your voice, holding your perimeter, and expressing your genuine reality without conflict or capitulation.",
       "coreThesis": "Assertiveness is neither dominance nor submission; it is the transparent, responsible transmission of personal boundaries, needs, and opinions that preserves self-respect while honoring the autonomy of others.",
@@ -31681,6 +32501,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3658a3e0",
     "onePageSummary": {
       "elevatorPitch": "Most modern work feels like a chaotic kitchen where chefs yell across stations instead of following clear tickets. 'The Asynchronous Mindset' rewires work from noisy real-time interruptions to calm, written clarity.",
       "coreThesis": "True productivity is not measured by the velocity of your reply, but by the uninterrupted depth of your output.",
@@ -31718,6 +32539,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a7d7b648",
     "onePageSummary": {
       "elevatorPitch": "Human attention has become the planet's most aggressively mined natural resource. Tim Wu charts how media barons, ad agencies, and tech titans spent 180 years converting our waking conscious moments into tradeable commercial real estate.",
       "coreThesis": "Human attention is a finite, precious asset that commercial platforms capture through 'free' services and resell to advertisers, making the deliberate defense of mental boundaries essential to living a sovereign life.",
@@ -31755,6 +32577,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8808d90b",
     "onePageSummary": {
       "elevatorPitch": "Building true wealth does not require extreme discipline, high income, or grueling budgets. By automating your cash flow once, your financial engine quietly compounds your freedom in the background for life.",
       "coreThesis": "Wealth is built through automated cash flow architecture, not willpower. When you pay yourself first through irreversible automation, compounding works for you uninterrupted.",
@@ -31792,6 +32615,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2007,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ffcd4c7d",
     "onePageSummary": {
       "elevatorPitch": "History is not driven by the predictable daily grind; it is commanded entirely by rare, high-impact shocks. Master strategists survive not by predicting lightning, but by constructing lightning rods and capturing the power.",
       "coreThesis": "Rare, unpredicted shocks govern all complex systems, making detailed forecasting futile. True strategic advantage comes from capping fatal downside while engineering uncapped exposure to positive windfalls.",
@@ -31828,6 +32652,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1993,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "51bbbd7f",
     "onePageSummary": {
       "elevatorPitch": "Mindfulness is not an abstract theory or an intellectual philosophy\\u2014it is practical heart surgery carried out through the simple rhythm of conscious breathing. This classic contemplative manual translates ancient Buddhist psychology into direct, experiential exercises that heal emotional fractures and awaken immediate presence.",
       "coreThesis": "Suffering dissolves not by fleeing our discomfort, but by returning home to the body with conscious breathing and holding every thought and emotion in compassionate, spacious awareness.",
@@ -31865,6 +32690,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e5c3f55e",
     "onePageSummary": {
       "elevatorPitch": "Your rational mind can rationalize past hardships, but your physiology remembers every shock wave. Bessel van der Kolk reveals how overwhelming stress physically alters brain wiring, stress hormones, and bodily tissues\\u2014and charts a revolutionary path to reclaim your nervous system through somatic mastery.",
       "coreThesis": "Trauma is not merely a psychological memory of past adversity; it is an active, ongoing physiological miscalibration that reconfigures brain wiring and bodily systems until safety is reclaimed somatically.",
@@ -31902,6 +32728,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2006,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2241b311",
     "onePageSummary": {
       "elevatorPitch": "Wall Street wants you to treat investing like an exotic casino where brokers harvest the rake. The Bogleheads prove that building sovereign, lasting wealth requires doing the exact opposite: owning the entire productive economy at rock-bottom cost and leaving it alone.",
       "coreThesis": "Successful investing is an exercise in cost minimization and emotional restraint: own the whole market through low-cost index funds, diversify across basic asset classes, and stay the course through all economic cycles.",
@@ -31939,6 +32766,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2022,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8c7f4077",
     "onePageSummary": {
       "elevatorPitch": "Boundaries are not punitive walls designed to push people out; they are operational guardrails that make long-term connection, professional stamina, and mental clarity sustainable. Melissa Urban replaces exhausting emotional guesswork with a battle-tested, three-tier verbal playbook that protects your finite energy while preserving your most vital relationships.",
       "coreThesis": "A boundary is never an attempt to control another person's actions; it is a clear, compassionate declaration of the actions you will take to protect your own mental and physical capacity.",
@@ -31976,6 +32804,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bc10c779",
     "onePageSummary": {
       "elevatorPitch": "Joy is not a fortunate accident of comfortable external conditions, but an internal muscular skill cultivated through the furnace of life's inevitable adversity. In this historic meeting of hearts, two spiritual giants reveal that true liberation arrives when we stop guarding the fragile ego and open outward in unconditional generosity.",
       "coreThesis": "Enduring joy is an inner capacity that is independent of external circumstances, forged not by dodging suffering, but by dissolving the narrow ego into selfless compassion and universal perspective.",
@@ -32013,6 +32842,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c8f9bf74",
     "onePageSummary": {
       "elevatorPitch": "Most human suffering stems from mistaking our mental menu for the actual meal. By learning to lay down the reflex of 'knowing,' we uncover the pristine, unconditioned reality that has been hiding in plain sight our entire lives.",
       "coreThesis": "Genuine liberation and awakening are discovered not by accumulating more knowledge, but by radically relinquishing our unquestioned certainty and directly experiencing reality before thought interprets it.",
@@ -32050,6 +32880,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1906,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8760ef53",
     "onePageSummary": {
       "elevatorPitch": "Greatness is not found in grand conquests, but in reverencing the small, everyday moments of existence. 'The Book of Tea' unveils Teaism as a timeless art of living\\u2014showing how a humble cup of tea can anchor an unshakeable inner peace amidst a loud and demanding world.",
       "coreThesis": "True nobility and peace lie in reverencing the simple and imperfect, cultivating inner spaciousness to appreciate life as it unfolds.",
@@ -32087,6 +32918,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1938,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "08577624",
     "onePageSummary": {
       "elevatorPitch": "Monastic rules are not rigid cages; they are the riverbanks that channel scattered human energy into an ocean of quiet freedom. I.B. Horner\\u2019s masterwork reveals how transparent ethical boundaries create the stillness required for spiritual awakening.",
       "coreThesis": "Enlightening awareness requires uncompromised ethical boundaries; outer discipline purifies behavioral friction so the mind can awaken to natural stillness.",
@@ -32124,6 +32956,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2007,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b07089bb",
     "onePageSummary": {
       "elevatorPitch": "Your brain is not an immutable machine hardwired in early childhood. It behaves like a living ecosystem that constantly reshapes itself in response to experience.",
       "coreThesis": "The brain physically redesigns its cellular architecture based on what you repeatedly think, feel, and practice. Mental activity drives biological form throughout entire human lifespans.",
@@ -32160,6 +32993,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9c084d7c",
     "onePageSummary": {
       "elevatorPitch": "Corporate tenure is dead, and flying under the radar is professional suicide: in an era of relentless automation and outsourcing, you are the chief executive, head marketer, and lead strategist of Me Inc. Peters provides a tactical blueprint to strip away corporate anonymity and engineer an unmistakable, defensible personal brand anchored in high-impact execution.",
       "coreThesis": "You are not an employee of a corporation; you are an independent enterprise whose market value depends on building rare capabilities, treating assignments as signature projects, and asserting unmistakable distinction.",
@@ -32197,6 +33031,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1964,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5763c97a",
     "onePageSummary": {
       "elevatorPitch": "Liberation is not an otherworldly mystery; it is an immediate, verifiable training of your own mind. Venerable Narada strips away superstition to reveal the Buddha's timeless blueprint for emotional resilience, ethical mastery, and profound inner peace.",
       "coreThesis": "Suffering arises from clinging to an illusion of a static, separate ego; freedom is realized here and now by training the mind through ethical discipline, collected awareness, and penetrating insight.",
@@ -32234,6 +33069,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1964,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bdc0a779",
     "onePageSummary": {
       "elevatorPitch": "Suffering is not a mystery or a cosmic punishment; it is a mechanical reaction to clutching what changes. Walk this timeless, step-by-step master roadmap to quiet mental chaos and uncover unshakeable clarity in the middle of everyday life.",
       "coreThesis": "Suffering arises whenever we demand permanence from an impermanent world; true freedom is found by systematically training our conduct, attention, and wisdom along a balanced, eight-step road to complete clarity.",
@@ -32271,6 +33107,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1921,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a2c024f5",
     "onePageSummary": {
       "elevatorPitch": "Your mind shapes your entire reality; tame it, and you walk untouched through the turbulence of life. This timeless translation cuts straight to the root of suffering, showing you how to cultivate unbreakable inner peace right in the middle of everyday friction.",
       "coreThesis": "Suffering and joy are not dictated by external circumstances, but by the state of your own mind. By cultivating vigilant mindfulness and releasing attachment, you attain natural, unwavering peace.",
@@ -32308,6 +33145,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1914,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fc3aa7d2",
     "onePageSummary": {
       "elevatorPitch": "Step inside history's most sophisticated lab for inner freedom: the Buddha did not view the mind as a rigid identity, but as a living river of clean, observable processes. By learning to see thoughts and emotions as transient events rather than 'me,' you reclaim direct mastery over your immediate experience.",
       "coreThesis": "The human mind is not an unchanging entity or an isolated soul, but a dynamic, ever-changing stream of conditioned events that can be thoroughly understood, decluttered, and liberated from suffering.",
@@ -32345,6 +33183,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1997,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b6a886f5",
     "onePageSummary": {
       "elevatorPitch": "Stop fighting your restless mind and start tuning it like a precision instrument. Ayya Khema decodes the Buddha's definitive, step-by-step meditative roadmap, showing how stillness and self-inquiry dissolve the illusion of the ego.",
       "coreThesis": "Deep meditative concentration and radical insight are two halves of a single organic movement: stabilizing the mind dissolves inner noise, allowing direct awareness to expose the fabricated ego and unveil natural freedom.",
@@ -32382,6 +33221,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1965,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5bf43094",
     "onePageSummary": {
       "elevatorPitch": "Francis Story delivers an incisive, grounded masterclass on how ancient Buddhist psychology directly dismantles the modern epidemic of mental friction, anxiety, and inner division. By treating consciousness not as a fixed identity but as an improvable craft, this work hands you the exact contemplative tools to restore organic emotional sanity.",
       "coreThesis": "Mental anguish is neither a random curse nor a permanent identity; it is the predictable friction generated by clinging to an illusory, rigid ego. Psychological health is realized through direct, bare awareness that sees thoughts as passing phenomena and systematically frees consciousness from grasping.",
@@ -32419,6 +33259,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1987,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9e329cc3",
     "onePageSummary": {
       "elevatorPitch": "Dr. K.D.P. Wickremasinghe unlocks ancient Buddhist psychology to show that peace of mind is not a rare accident, but a trainable daily skill. By diagnosing mental suffering at its root and prescribing systematic inner training, this work transforms your awareness into an unshakeable sanctuary.",
       "coreThesis": "Genuine mental health is not the passive absence of symptom, but the active mastery of consciousness\\u2014achieved by recognizing the impermanent nature of thoughts, releasing egoic attachment, and anchoring awareness in clear, compassionate presence.",
@@ -32456,6 +33297,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1994,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "22e55a6e",
     "onePageSummary": {
       "elevatorPitch": "Far from being dry legalism, this masterpiece reveals Buddhist monastic discipline as high-precision engineering for the human mind. It demonstrates how clean ethical boundaries protect meditation, silence mental chatter, and cultivate fearless inner peace.",
       "coreThesis": "External ethical boundaries are the indispensable foundation of inner stillness; when intention and action are completely harmless, the mind rests in unshakeable clarity.",
@@ -32493,6 +33335,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "67d9c764",
     "onePageSummary": {
       "elevatorPitch": "While modern life treats rules as bureaucratic shackles, this masterwork reveals ancient monastic discipline as the ultimate architecture of freedom. It transforms every routine physical act\\u2014from tailoring a robe to resolving a group grievance\\u2014into razor-sharp mindfulness that dissolves the ego.",
       "coreThesis": "Enlightenment does not occur in an ethical vacuum; meticulous external discipline in material habits and communal harmony creates the unshakeable container required for profound internal stillness and liberation from ego.",
@@ -32530,6 +33373,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1989,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "35c5d233",
     "onePageSummary": {
       "elevatorPitch": "Loving-kindness is not passive sentimental wishing; it is an active, invincible mental science that dissolves hostility and frees the mind from within. Acharya Buddharakkhita delivers the definitive master manual on how to systematically train goodwill into an unshakeable inner refuge.",
       "coreThesis": "Genuine loving-kindness is a systematic mental discipline that uproots resentment, transforms human vulnerability into an unshakeable protective field, and leads directly to spiritual liberation.",
@@ -32567,6 +33411,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "292abcfd",
     "onePageSummary": {
       "elevatorPitch": "Most advisory firms operate as submissive, commoditized vendors begging for scraps because they refuse to make hard strategic trade-offs. David C. Baker provides the ruthless blueprint for building drop-dead positioning, clinical detachment, and immense pricing power as an indispensable expert.",
       "coreThesis": "Scarcity is the sole source of leverage: true expertise requires radical positioning that deliberately turns away most business to command monopolistic pricing power on the remaining slice.",
@@ -32604,6 +33449,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1959,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5e45cf0e",
     "onePageSummary": {
       "elevatorPitch": "Death is not a sudden finish line, nor does it transport an unchanging soul\\u2014it is simply a link in an unbroken stream of cause and effect. By understanding consciousness as flowing momentum rather than a fixed identity, we discover how every choice shapes both today and the life to come.",
       "coreThesis": "Consciousness is an ongoing causal current driven by volitional desire rather than a permanent entity, continuing from moment to moment and lifetime to lifetime until craving is dissolved in awakened awareness.",
@@ -32641,6 +33487,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8822692a",
     "onePageSummary": {
       "elevatorPitch": "Most people try to change minds by pushing harder, adding facts, and dialing up the pressure. Real change happens like chemistry: instead of pumping in brute energy, you remove the hidden friction that holds people in place.",
       "coreThesis": "To change someone's mind, stop pushing harder and start removing the barriers preventing them from moving.",
@@ -32678,6 +33525,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3f2d50ef",
     "onePageSummary": {
       "elevatorPitch": "Most businesses believe great sales come from friendly relationships, but the science reveals that customers don't buy because you are likable\\u2014they buy because you make them smarter about their own business. The top performers win by challenging existing assumptions and guiding clients out of hidden blind spots.",
       "coreThesis": "Sustained sales success comes from teaching customers something new about their own business, tailoring the message to organizational priorities, and taking control of the commercial dialogue.",
@@ -32715,6 +33563,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "883abf5f",
     "onePageSummary": {
       "elevatorPitch": "Charisma is neither a mystical genetic gift nor an elusive art; it is a measurable behavioral toolkit grounded in presence, power, and warmth. Master these nonverbal mechanics and you control how counterparties perceive your competence, trust, and executive authority in every high-stakes room.",
       "coreThesis": "Charisma is an engineered behavioral output resulting from the conscious calibration of presence, power, and warmth. Control your internal cognitive state, and your external nonverbal signals will project irresistible authority and trust.",
@@ -32752,6 +33601,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1d581b48",
     "onePageSummary": {
       "elevatorPitch": "Stop relying on sheer willpower and foggy memory to run your high-stakes days. A simple, disciplined checklist removes mental drag and guarantees elite execution every single time.",
       "coreThesis": "Knowledge has outpaced human memory, making simple checklists essential for consistent, flawless performance.",
@@ -32788,6 +33638,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "165c00e5",
     "onePageSummary": {
       "elevatorPitch": "Even the most brilliant experts fail when complexity overwhelms memory. A simple, disciplined checklist provides an external cognitive skeleton that guarantees baseline excellence every single time.",
       "coreThesis": "Human memory and concentration are vulnerable to cognitive overload, but simple, well-designed checklists provide a cognitive scaffold that prevents preventable failure and frees judgment for complex decisions.",
@@ -32825,6 +33676,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "809a7196",
     "onePageSummary": {
       "elevatorPitch": "Suffering is an unavoidable physical collision, but psychological imprisonment is an optional feedback loop. Drawing on Auschwitz survival and decades of clinical psychotherapy, Dr. Edith Eger maps the exact mechanics of emotional freedom: the ultimate human choice lies between remaining a passive victim of circumstances or stepping into active agency.",
       "coreThesis": "Trauma is an involuntary event, but victimhood is a voluntary identity; true freedom begins the exact second we realize the door to our mental prison is unlocked from the inside.",
@@ -32862,6 +33714,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "08338132",
     "onePageSummary": {
       "elevatorPitch": "Human buyers are not calculating spreadsheets; we are instinct-driven creatures navigating daily friction through subconscious rules of thumb. Richard Shotton maps the 25 hidden psychological shortcuts that actually guide consumer purchasing, giving marketers the exact levers to trigger action.",
       "coreThesis": "Consumers make decisions based on cognitive shortcuts and contextual cues rather than objective logic; win the context, and you win the choice.",
@@ -32899,6 +33752,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7b32af10",
     "onePageSummary": {
       "elevatorPitch": "Your body is not a machine that runs identically at all hours; it is a synchronized orchestra where timing changes everything. By simply aligning when you eat, sleep, move, and seek sunlight, you can unlock effortless energy, sharper focus, and peak health without extreme deprivation.",
       "coreThesis": "Peak energy, sustained health, and metabolic efficiency depend less on what you consume and far more on when you act, because biological clocks dictate optimal windows for digestion, movement, and repair.",
@@ -32936,6 +33790,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "54c19c1a",
     "onePageSummary": {
       "elevatorPitch": "Liberation is not an abstract philosophy reserved for forest monasteries; it is an exact, hands-on craft you practice inside your own nervous system. By observing physical sensations with quiet objectivity, you discover that every disturbance rises only to pass away.",
       "coreThesis": "Suffering dissolves when you directly experience the universal law of impermanence (Anicca) through bodily sensations with calm, non-reactive awareness.",
@@ -32973,6 +33828,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a19521ac",
     "onePageSummary": {
       "elevatorPitch": "Most leaders suffer from an 'Advice Monster' reflex that keeps them exhausted and their teams dependent. By replacing quick answers with seven precision questions, you unlock self-reliance, slash micromanagement, and transform how conversations produce real work.",
       "coreThesis": "Telling people answers creates fragile dependency, while disciplined curiosity builds resilient capacity; true leadership lies in staying curious a little longer and rushing to advice a little slower.",
@@ -33010,6 +33866,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cf0faf34",
     "onePageSummary": {
       "elevatorPitch": "When buyers already know all your product specs before picking up the phone, old-school pitch tactics collapse. This book provides the definitive scientific blueprint for transforming from an unwanted vendor into an indispensable co-creator of business value.",
       "coreThesis": "Because modern buyers research solutions independently before contacting vendors, sales success requires abandoning one-sided pitches and co-creating value through situational fluency, shared problem diagnosis, and structured collaboration plans.",
@@ -33047,6 +33904,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "296a1412",
     "onePageSummary": {
       "elevatorPitch": "Modern life removed all physical hardship, but in eliminating discomfort, we quietly engineered chronic anxiety, metabolic illness, and mental fragility. By deliberately reintroducing cold, boredom, hunger, heavy loads, and wild nature, you switch on hidden biological machinery that makes you feel profoundly alive.",
       "coreThesis": "Our bodies and minds evolved to thrive against physical friction; stripping away all discomfort has warped our mental and metabolic baseline, and deliberate hardship is the precise antidote.",
@@ -33084,6 +33942,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1994,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4d1ebc79",
     "onePageSummary": {
       "elevatorPitch": "Humor is not an innate mystical gift\\u2014it is an observable engineering system powered by two interacting forces: truth and pain. By mastering a toolkit of deliberate mechanical levers, anyone can diagnose, construct, and deliver compelling comedic moments on demand.",
       "coreThesis": "Comedy is the systemic collision of truth and pain, engineered by taking an authentic human flaw or vulnerability and heightening it through a disciplined sequence of contrast, escalation, and surprise.",
@@ -33121,6 +33980,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "05fe9ea7",
     "onePageSummary": {
       "elevatorPitch": "Compassion is not a soft sentimental luxury; it is the ultimate survival tool and the most rational pathway to personal freedom. The Dalai Lama reveals how training your mind toward universal warm-heartedness systematically dismantles anxiety and unlocks unshakable peace.",
       "coreThesis": "Genuine compassion is not emotional weakness or religious piety; it is the sharpest, most rational tool for dissolving the mental prison of the ego and experiencing enduring personal peace.",
@@ -33158,6 +34018,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3a7ef2cf",
     "onePageSummary": {
       "elevatorPitch": "Your brain is not broken\\u2014it is an ancient survival machine caught in a modern high-pressure feedback loop. Learn the biological mechanics of self-compassion to disarm internal alarm bells and deliberately steer your nervous system toward calm clarity and resilient strength.",
       "coreThesis": "Suffering is not a personal character defect but the natural design glitch of an evolved brain; by actively training our neurobiological soothing system, we disarm internal threat loops and build deep psychological strength.",
@@ -33195,6 +34056,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f750ef56",
     "onePageSummary": {
       "elevatorPitch": "Fasting is not deliberate starvation\\u2014it is your body's built-in hybrid engine switching from fuel storage to fuel burning. By controlling when you eat rather than just what you eat, you trigger a cellular cleanup cycle that restores insulin sensitivity, strips visceral fat, and sharpens mental focus.",
       "coreThesis": "Obesity and type 2 diabetes are driven by hormonal signaling rather than caloric math; lowering insulin through scheduled fasting unlocks stored body fat and triggers vital cellular repair.",
@@ -33232,6 +34094,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "61a46ee7",
     "onePageSummary": {
       "elevatorPitch": "Extraordinary success is never delivered by lightning strikes or heroic overnight breakthroughs. It is the mathematical byproduct of tiny, invisible daily choices repeated consistently over long horizons of time.",
       "coreThesis": "Radical lifelong transformation is the mechanical sum of small, smart choices executed consistently over time.",
@@ -33269,6 +34132,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1927,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "62aa0ac3",
     "onePageSummary": {
       "elevatorPitch": "Nirvana is not a far-off void or total extinction, but the serene art of seeing this very life without the distortion of a clinging ego. When you drop mental labels, ordinary experience reveals itself as immediate, luminous freedom.",
       "coreThesis": "Nirvana and everyday reality are not two separate realms; liberation is simply experiencing ordinary life stripped of egoic attachment and conceptual confusion.",
@@ -33306,6 +34170,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2000,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "24a339c1",
     "onePageSummary": {
       "elevatorPitch": "Imagine holding the master operating manual for human consciousness. Translated with supreme clarity by Bhikkhu Bodhi, this collection strips away dogma to show you exactly how suffering is manufactured\\u2014and how you can shut down the factory for good.",
       "coreThesis": "Suffering is not an inescapable fate, but a mechanical byproduct of grasping at impermanent things as a permanent self; dismantle the grasping through clear, non-reactive awareness, and freedom naturally reveals itself.",
@@ -33343,6 +34208,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ce1f4487",
     "onePageSummary": {
       "elevatorPitch": "Networking is not a greasy transactional tax paid at conferences; it is an asymmetrical competitive moat built on disciplined human infrastructure. Master the seven mental models of elite connectors to transform every relationship into a compounding strategic asset.",
       "coreThesis": "Sustainable professional influence is not extracted through aggressive transactional deals, but generated by embedding yourself as a high-trust, generous node within a compounding relational network.",
@@ -33380,6 +34246,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6bd30ce1",
     "onePageSummary": {
       "elevatorPitch": "Stop trying to engineer the other person to fit your unexamined ego; real leadership begins by debugging your own internal operating system. When you replace coercive control with clear-eyed self-awareness, you build resilient, high-trust alliances that naturally thrive.",
       "coreThesis": "Authentic authority is not about managing external behavior through control, but about mastering your own internal reactions to create an unshakeable container for mutual growth.",
@@ -33417,6 +34284,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2000,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e722ad2e",
     "onePageSummary": {
       "elevatorPitch": "Philosophy was never meant to be dry textbook jargon; it is a practical emergency toolkit for the aches of real life. Alain de Botton pairs six legendary thinkers with our most painful everyday struggles, turning ancient wisdom into steady emotional medicine.",
       "coreThesis": "Wisdom is the deliberate craft of adjusting our expectations to reality, transforming daily suffering from a source of shame into fuel for emotional poise and maturity.",
@@ -33454,6 +34322,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1985,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2335729d",
     "onePageSummary": {
       "elevatorPitch": "Words are not art projects\\u2014they are capital allocation instruments designed to alter human behavior. Robert W. Bly delivers the definitive playbook for turning clear language into predictable commercial leverage.",
       "coreThesis": "Copywriting is salesmanship deployed through language: its worth is measured purely by response rates and closed business, not artistic approval.",
@@ -33491,6 +34360,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1998,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cb5ef19b",
     "onePageSummary": {
       "elevatorPitch": "You are not an isolated spark struggling inside a mechanical universe; you are the entire ocean experiencing itself through a temporary wave. Discover the profound architecture of non-dual consciousness and awaken from the spell of separate selfhood into lucid, compassionate presence.",
       "coreThesis": "Individual consciousness is a purposeful disguise assumed by a single, infinite Source; waking up to this truth dissolves existential fear and reveals that all of life is a sacred, self-exploring dance.",
@@ -33528,6 +34398,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "13ac3f3f",
     "onePageSummary": {
       "elevatorPitch": "Your past does not control your present; the unspoken goals you choose right now dictate your entire life. By drawing sharp boundary lines between what is your duty and what belongs to others, you unlock immediate, unshakeable freedom.",
       "coreThesis": "Happiness is not something awarded by external approval; it is an internal choice unlocked by separating your own responsibilities from other people's expectations and living fully in the present moment.",
@@ -33565,6 +34436,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7c14da9e",
     "onePageSummary": {
       "elevatorPitch": "While overt bullies blast through the front door with megaphones, covert narcissists quietly siphon the foundation under the floorboards while offering you a cup of tea. This book illuminates the invisible mechanics of disguised psychological manipulation so you can identify the leak, stop self-blame, and rebuild your reality.",
       "coreThesis": "Psychological abuse is most devastating not when it is loud, but when it is disguised as quiet innocence, eroding your confidence from within while presenting a spotless face to the world.",
@@ -33602,6 +34474,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "61ef19b2",
     "onePageSummary": {
       "elevatorPitch": "Most technical talks collapse under bullet points and dense data, burying brilliant discoveries beneath cognitive noise. Michael Alley provides an engineering blueprint for transforming dry technical reports into compelling, visual, and memorable spoken narratives.",
       "coreThesis": "A scientific presentation succeeds only when engineered for human cognitive bandwidth: replace bullet-heavy outlines with concise verbal claims anchored to direct visual evidence.",
@@ -33639,6 +34512,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1939,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "936ee318",
     "onePageSummary": {
       "elevatorPitch": "Mastering your own mind is not an abstract mystical dream\\u2014it is an exact, hands-on craft akin to fine woodworking or tuning an engine. Ajahn Lee provides a no-nonsense workshop manual that trains your breath and attention to dissolve mental friction and uncover unshakable peace.",
       "coreThesis": "Genuine inner liberation is an attainable practical trade: by purifying your ethical conduct and mastering conscious breath awareness, you dismantle mental agitation and reveal an indestructible wellspring of clarity and peace.",
@@ -33676,6 +34550,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9beb6ae1",
     "onePageSummary": {
       "elevatorPitch": "Mastery is not an abstract intellectual trick\\u2014it is a continuous physical feedback loop between human hands, curious brains, and real-world friction. Doing good work for its own sake transforms ordinary effort into deep human dignity.",
       "coreThesis": "Thinking and doing are inseparable halves of human intelligence; true mastery emerges when hands and mind cooperate in a continuous dialogue with the real world.",
@@ -33713,6 +34588,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2023,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7609fec3",
     "onePageSummary": {
       "elevatorPitch": "Creativity is not a rare genetic lottery or a bolt of lightning; it is an open sensory receiver tuned to the ambient signals of daily life. By stripping away ego and building disciplined, quiet habits, anyone can transform subtle everyday observations into enduring craft.",
       "coreThesis": "Creativity is not something you fabricate through sheer will; it is a way of paying attention, tuning your internal receiver, and giving uninhibited form to what you notice.",
@@ -33750,6 +34626,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4d54d68a",
     "onePageSummary": {
       "elevatorPitch": "Creativity is not a stroke of divine lightning; it is an automatic muscle trained by daily discipline, unyielding physical habit, and clear mental systems. Legendary choreographer Twyla Tharp pulls back the curtain to demonstrate how reliable rituals turn the fear of the blank canvas into a steady, renewable engine of output.",
       "coreThesis": "Inspiration is the natural byproduct of continuous preparation and ritualized discipline, not a capricious gift of nature. When you build automatic habits to start, organize, and refine your work, creative flow transforms from an unpredictable accident into an on-demand reality.",
@@ -33787,6 +34664,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cf84569e",
     "onePageSummary": {
       "elevatorPitch": "Every day you stand at a quiet fork in the trail: walk the well-paved highway of other people's expectations, or step onto the steep path of your authentic calling. Choosing your calling is not an act of selfish rebellion, but a quiet, necessary pilgrimage toward genuine inner peace and wholeness.",
       "coreThesis": "Human life continually bifurcates into Should\\u2014the inherited demands of external conditioning\\u2014and Must\\u2014the quiet, unavoidable duty to live out one's genuine nature. True equanimity is achieved only when we summon the courage to choose Must and share its fruit with the world.",
@@ -33824,6 +34702,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1895,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f7152611",
     "onePageSummary": {
       "elevatorPitch": "When sensible people gather in a group, their personal intellect melts into a single, highly emotional collective creature. Discover the hidden social physics behind viral hysterias, market panics, and magnetic political movements.",
       "coreThesis": "An individual inside a crowd surrenders rational self-command, merging into a unified collective organism ruled entirely by vivid imagery, unconscious impulses, and rapid emotional contagion.",
@@ -33861,6 +34740,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "643bd5ca",
     "onePageSummary": {
       "elevatorPitch": "Stop begging investors for permission to build your company. Fund your venture with customer cash, retain 100% equity, and let real sales validate your competitive moat.",
       "coreThesis": "The best and cheapest capital is customer revenue collected before delivery; customer cash eliminates dilution, proves genuine demand, and builds an antifragile business.",
@@ -33898,6 +34778,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "56144f2b",
     "onePageSummary": {
       "elevatorPitch": "Life does not disturb us; our opinions about life do. By returning daily to the wisdom of Marcus Aurelius, Seneca, and Epictetus, this book offers a quiet, reliable compass for finding calm resolve in a frantic world.",
       "coreThesis": "You cannot control external events, only your perception of them and your response to them. Freedom and tranquility begin the moment you align your choices with virtue and release everything else.",
@@ -33935,6 +34816,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1985,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e0aa8d9b",
     "onePageSummary": {
       "elevatorPitch": "Anger is not a destructive defect to extinguish\\u2014it is an engine warning light alerting you that your boundaries are leaking. Discover how changing your own predictable relational steps permanently rewires the entire interactive dance.",
       "coreThesis": "Anger is an internal signal pointing to an unaddressed boundary or loss of self; lasting change comes not from fighting to reform the other person, but from altering your own steps in the systemic dance.",
@@ -33972,6 +34854,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "52ae44d1",
     "onePageSummary": {
       "elevatorPitch": "Bhikkhu An\\u0101layo operates like an intellectual forensic investigator, tracing how early Buddhism's lean, experiential survival guide got reverse-engineered into an encyclopedic cognitive operating system. It reveals the exact mechanics through which practical mindfulness routines evolved into scholastic architecture.",
       "coreThesis": "The Abhidharma evolved organically from early communal recitation checklists into an intricate psychological architecture, demonstrating how practical contemplative insights inevitably systematize, abstract, and seek retrospective authority as traditions mature.",
@@ -34009,6 +34892,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7751d511",
     "onePageSummary": {
       "elevatorPitch": "While your words deliver the deliberate script, your physical posture, micro-movements, and spatial orientation broadcast your genuine thoughts in real time. Allan and Barbara Pease pull back the curtain on the silent biological broadcast that determines whether people trust, resist, or follow you.",
       "coreThesis": "Human words express intellectual arguments, but human bodies involuntarily broadcast underlying emotional convictions and intentions. True interpersonal intelligence requires reading silent gesture clusters in context rather than relying on spoken statements alone.",
@@ -34046,6 +34930,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7cd05a85",
     "onePageSummary": {
       "elevatorPitch": "In 'The Demon-Haunted World', Carl Sagan delivers a passionate, rigorous defense of empirical inquiry as humanity's primary defense against ignorance, superstition, and ideological manipulation. He demonstrates that science is far more than a body of knowledge; it is an egalitarian mindset combining childlike awe with ruthless, systematic skepticism. By dissecting alien abductions, historical witch trials, and institutional anti-intellectualism, Sagan proves that a populace stripped of skeptical inquiry inevitably falls prey to charlatans and authoritarian demagogues. Ultimately, the book serves as an urgent manifesto establishing that critical thinking is not merely an intellectual virtue, but a non-negotiable prerequisite for democratic liberty.",
       "coreThesis": "Science is an error-correcting, skeptical habit of mind whose systematic demand for evidence is humanity's sole reliable bulwark against superstition, cognitive delusion, and authoritarian control.",
@@ -34083,6 +34968,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1973,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2c170412",
     "onePageSummary": {
       "elevatorPitch": "We spend our lives building towers of ambition and status, not out of greed, but to quiet a whispered secret: we are mortal. Ernest Becker invites us to step down from the noise, face our finitude with serene courage, and discover genuine peace beyond ego.",
       "coreThesis": "Human civilization and individual egos are driven by the unconscious terror of death. True freedom arrives only when we dismantle our desperate vanity and accept our mortal limits with tranquil dignity.",
@@ -34120,6 +35006,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1985,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "47090d51",
     "onePageSummary": {
       "elevatorPitch": "The Dhammapada is the definitive handbook of contemplative psychology, distilling liberation down to a simple, piercing truth: you do not suffer because of the world, but because of your untrained mind. By waking up to immediate conscious awareness and mastering your inner state, you discover an unshakeable peace untouched by the storms of daily life.",
       "coreThesis": "Mind is the forerunner of every experience; master your own mind through clear, vigilant awareness, and the cycle of suffering naturally dissolves.",
@@ -34157,6 +35044,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "12afa830",
     "onePageSummary": {
       "elevatorPitch": "Your entire life is an exact reflection of how you steer your attention. The Dhammapada offers an unsparing, practical manual for training the mind so you can live with absolute poise and zero unnecessary suffering.",
       "coreThesis": "Suffering and freedom are generated entirely from within. Train attention with vigilant heedfulness, and peace naturally replaces turbulence.",
@@ -34194,6 +35082,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1985,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e9e5b58c",
     "onePageSummary": {
       "elevatorPitch": "Your mind is the master workshop that shapes every joy and sorrow you experience. The Dhammapada gives you the timeless, practical blueprint to tame runaway thoughts and step into unshakeable inner peace.",
       "coreThesis": "All that we are arises from our thoughts, and our peace depends entirely on our own mental mastery. By training the mind, extinguishing selfish craving, and living mindfully, anyone can attain complete inner liberation.",
@@ -34231,6 +35120,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "790d89b5",
     "onePageSummary": {
       "elevatorPitch": "Your mind shapes your entire reality, and unexamined thought is the sole engine of human friction. Abbot George Burke reveals the Dhammapada not as ancient dogma, but as a direct, practical field manual for training awareness and realizing lasting inner freedom.",
       "coreThesis": "Suffering is born of an undisciplined mind chasing transient desires, while freedom is realized through steady mindfulness, ethical integrity, and direct insight into our true nature.",
@@ -34268,6 +35158,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1985,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b2956540",
     "onePageSummary": {
       "elevatorPitch": "Your life is shaped entirely by the quality of your attention. Master your mind like a skilled gardener, and peace naturally follows every step you take.",
       "coreThesis": "Mind is the forerunner of every experience; by cultivating disciplined, clear attention and shedding selfish craving, you liberate yourself from all inner suffering.",
@@ -34305,6 +35196,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1881,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b9776c9c",
     "onePageSummary": {
       "elevatorPitch": "Your life is shaped by the quality of your attention. The Dhammapada offers an unvarnished manual for training your mind, stepping off the treadmill of reactive craving, and awakening to lasting peace right now.",
       "coreThesis": "Suffering and peace are direct products of your own mental habits. When you train attention and release grasping, enduring freedom naturally arises.",
@@ -34342,6 +35234,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1976,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "241c2c1f",
     "onePageSummary": {
       "elevatorPitch": "Your life is shaped by the quality of your attention: train your mind, and peace follows you like your own shadow. Thomas Byrom's lyric translation strips away scholastic dust to present the Buddha's most direct, practical manual for inner freedom.",
       "coreThesis": "Suffering and serenity are not gifts from the world; they are the exact harvest of your own thoughts and cultivated awareness. When you tame and clarify your mind, freedom is immediate and permanent.",
@@ -34379,6 +35272,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1950,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "eeeb2dcf",
     "onePageSummary": {
       "elevatorPitch": "Your mind is the master architect of your reality: train it, and peace follows you like your shadow; neglect it, and suffering trails behind like a heavy wagon wheel. S. Radhakrishnan translates Buddhism's foundational ethical compass into a direct, urgent manual for inner mastery and timeless liberation.",
       "coreThesis": "Suffering and joy are direct products of our own mental habits; mastering attention and letting go of grasping dissolves illusion and reveals innate, unshakeable freedom.",
@@ -34416,6 +35310,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c1e0db09",
     "onePageSummary": {
       "elevatorPitch": "Your mind is the master architect of your entire world. Sangharakshita strips away dry scholastic dogma to deliver a surgical, practical handbook on training your inner awareness for unshakeable peace.",
       "coreThesis": "Every quality of your lived experience originates in your own state of consciousness; tame the mind, and you dismantle suffering at its root.",
@@ -34453,6 +35348,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1973,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "459d6c75",
     "onePageSummary": {
       "elevatorPitch": "Your life flows wherever your attention points. Master your mind like an artisan shaping fine timber, and you replace friction and craving with an unshakeable, silent freedom.",
       "coreThesis": "Suffering and peace are internal creations rooted in how we direct our awareness. By mastering our wandering thoughts and letting go of grasping desires, we awaken to natural, untroubled clarity.",
@@ -34490,6 +35386,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1986,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e438fac3",
     "onePageSummary": {
       "elevatorPitch": "Your mind is the master architect of your entire reality. By training your attention with the precision of a craftsman, you can dismantle anxiety and access steady, untroubled clarity right in the middle of daily life.",
       "coreThesis": "Suffering and peace are mental creations governed by intentional choice; master your own mind through alert mindfulness, and freedom from suffering naturally follows.",
@@ -34527,6 +35424,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "28c4cb49",
     "onePageSummary": {
       "elevatorPitch": "Step into the timeless, poetic heart of ancient wisdom where human suffering is unmasked not as a cosmic curse, but as an untamed mind that can be trained into luminous peace. Valerie Roebuck's evocative translation pairs poignant aphorisms with the narrative soul of the Buddha's world, offering an intimate mirror to our daily struggles with anger, craving, and peace.",
       "coreThesis": "Our entire reality is authored and sculpted by our thoughts; by training the restless mind with relentless gentleness, we extinguish the fires of craving and uncover our innate peace.",
@@ -34564,6 +35462,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1992,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "563fbc87",
     "onePageSummary": {
       "elevatorPitch": "Cut through your daily anxiety and mental fog with the diamond-sharp wisdom of the Diamond Sutra. Thich Nhat Hanh translates profound ancient non-duality into a practical, serene way to live free from mental traps and emotional burnout.",
       "coreThesis": "Suffering dissolves when we see through the illusion of a separate self and recognize that all things exist only in dynamic, interconnected relationship.",
@@ -34601,6 +35500,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2007,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1bb6b1f8",
     "onePageSummary": {
       "elevatorPitch": "Winners do not endure everything blindly\\u2014they aggressively quit dead ends early so they can pour all their fuel into breaking through the one barrier that actually matters. In any complex system, the grueling slog in the middle is not a design flaw; it is the exact moat that filters out the competition.",
       "coreThesis": "Scarcity creates disproportionate value, and The Dip is the natural barrier that creates scarcity; therefore, quit dead ends immediately to concentrate all resources on conquering the one Dip that leads to mastery.",
@@ -34638,6 +35538,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8f28c93a",
     "onePageSummary": {
       "elevatorPitch": "Stop searching for enlightenment across distant mountains and look directly at what is reading these words right now. Through simple, surgical everyday perceptual experiments, Greg Goode proves that you are not a fragile entity trapped inside a physical head, but the boundless, unconfined field of awareness in which every experience unfolds.",
       "coreThesis": "Separation is an untested conceptual assumption; upon direct experiential investigation, no boundary exists between awareness and the world, body, or mind arising within it.",
@@ -34675,6 +35576,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1991,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c748b63c",
     "onePageSummary": {
       "elevatorPitch": "Right View is not a rigid dogma to defend, but the pristine lens through which you see reality exactly as it operates. By tracing your emotional turmoil to its immediate root causes, this text shows you how to dismantle suffering before it takes hold.",
       "coreThesis": "Suffering is not an inescapable fate or a personal identity, but a mechanical byproduct of distorted perception that ceases the instant you understand and withdraw its causal fuel.",
@@ -34712,6 +35614,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1989,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3ee4916e",
     "onePageSummary": {
       "elevatorPitch": "When power and material luxury leave the heart restless and hollow, what tangible freedom does inner discipline actually deliver? Bhikkhu Bodhi translates the Buddha's definitive masterclass on the contemplative path, showing step-by-step how ethical clarity, focused calm, and razor-sharp awareness systematically liberate the human mind right here in this life.",
       "coreThesis": "Genuine spiritual practice produces immediate, verifiable fruits in this very life, guiding the practitioner from ethical simplicity and sensory calm into deep meditative joy and the permanent liberation of understanding.",
@@ -34749,6 +35652,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1980,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e3de4be6",
     "onePageSummary": {
       "elevatorPitch": "Suffering is not caused by the world itself, but by the quiet mental reflex that turns naked experience into 'me' and 'mine.' Bhikkhu Bodhi illuminates the Buddha's most radical map for unmasking this illusion, pointing directly to natural, unconditioned freedom.",
       "coreThesis": "Suffering arises because consciousness habitually superimposes the illusion of a self onto neutral phenomena; total liberation comes from meeting direct experience without building an identity upon it.",
@@ -34786,6 +35690,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1987,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "80ea9ef3",
     "onePageSummary": {
       "elevatorPitch": "Awakening is not a mystical lottery ticket; it is a clear, step-by-step engineering manual for inner freedom. Sayadaw U Thittila unpacks the classic seven-stage roadmap that transforms everyday moral integrity into unshakeable liberation.",
       "coreThesis": "Genuine spiritual liberation is an orderly, progressive unveiling: upright conduct calms the mind, mental calm reveals things as they truly are, and seeing reality clearly dissolves the roots of suffering forever.",
@@ -34823,6 +35728,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1962,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "132b6422",
     "onePageSummary": {
       "elevatorPitch": "Stop turning your spiritual journey into an intellectual ego trip. This timeless manual reveals how to use wisdom as a practical life raft to cross life's stormy waters, and how to set it down once you reach the shore.",
       "coreThesis": "Wisdom is an instrument for crossing from confusion to peace, not an ornament to wear or a weapon to wield. Truth liberates only when practiced without clinging to the concepts used to reach it.",
@@ -34860,6 +35766,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1960,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9e2f1174",
     "onePageSummary": {
       "elevatorPitch": "When unwanted mental storms and destructive thought loops hijack your clarity, blind resistance only fuels the flame. This classic discourse reveals an ancient, time-tested cognitive toolkit of five tiered strategies to dissolve mental noise and restore pristine inner stillness.",
       "coreThesis": "Distracting, harmful thoughts lose their grip not through frantic resistance, but through an orderly progression from gentle cognitive redirection down to resolute stillness.",
@@ -34897,6 +35804,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ded38326",
     "onePageSummary": {
       "elevatorPitch": "People-pleasing is not a benign personality quirk or noble virtue; it is a compulsive psychological syndrome fueled by approval addiction, catastrophic fear of conflict, and self-erasing habits. Dr. Harriet Braiker provides a rigorous, eye-opening diagnosis and a laboratory-tested 21-day blueprint to cure chronic compliance and reclaim your authentic autonomy.",
       "coreThesis": "People-pleasing is a compulsive survival mechanism driven by cognitive distortions and fear of negative emotions, which can only be cured by systematically breaking approval addiction and installing firm boundaries.",
@@ -34934,6 +35842,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9978b82f",
     "onePageSummary": {
       "elevatorPitch": "Human brains are ancient biological foraging engines built for survival, suddenly thrust into an endless digital buffet engineered for distraction. Discover the exact neurological mismatch sabotaging your attention and the practical scientific blueprint to reclaim cognitive mastery.",
       "coreThesis": "Human attention suffers from an evolutionary mismatch between ancient, limited-capacity cognitive control systems and hyper-connected information environments; conquering distraction requires both upgrading our biological hardware and systematically engineering our external conditions.",
@@ -34971,6 +35880,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2006,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c2eb3a62",
     "onePageSummary": {
       "elevatorPitch": "Your chronic back pain, recurring migraines, and gut flares are rarely mechanical breakdowns\\u2014they are your brain's clever decoy strategy to divert attention from unacknowledged emotional pressure. Unmask the psychological decoy, and the physical fire alarm turns off on its own.",
       "coreThesis": "Chronic pain is frequently a purposeful, brain-orchestrated distraction designed to protect us from experiencing intolerable repressed emotions; exposing this mechanism neutralizes the pain at its physiological root.",
@@ -35008,6 +35918,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1966,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b3536e83",
     "onePageSummary": {
       "elevatorPitch": "Imagine spending your entire life guarding and furnishing a house, only to realize the house is completely empty and always has been. Dr. Malalasekera unpacks the Buddha's most revolutionary insight: the solid 'I' you defend every day is not an entity, but a flowing stream.",
       "coreThesis": "There is no static, permanent soul hiding behind human experience; existence is an ever-changing process, and recognizing that nothing belongs to 'me' dissolves suffering at the root.",
@@ -35045,6 +35956,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1954,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8e1b748c",
     "onePageSummary": {
       "elevatorPitch": "Your everyday mind acts as an aggressive filter, screening out ninety-nine percent of reality just to help you survive. By opening the doors of perception, Aldous Huxley reveals what happens when that mental gate swings wide to reveal existence in its direct, luminous reality.",
       "coreThesis": "The human brain functions as an evolutionary filter that restricts direct consciousness; when this filter relaxes, we awaken to the unmediated radiance and profound interconnectedness of reality as it truly is.",
@@ -35082,6 +35994,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1979,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "251aaaaa",
     "onePageSummary": {
       "elevatorPitch": "Beneath high-functioning perfectionism often lies an ingenious psychological trade-off: trading genuine emotions for external approval. Alice Miller uncovers the hidden feedback loops that disconnect accomplished adults from their authentic vitality\\u2014and charts the scientific path to reclaim it.",
       "coreThesis": "Perfectionism and emotional emptiness are defense mechanisms born from suppressing genuine feelings to maintain belonging. Sustainable vitality requires systematically feeling and mourning unexpressed truths to restore the authentic self.",
@@ -35119,6 +36032,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d37c5cec",
     "onePageSummary": {
       "elevatorPitch": "Most businesses fail not from a lack of passion, but because skilled technicians build grueling self-made prisons instead of self-regulating systems. Discover the architectural blueprint that transforms any chaotic everyday enterprise into a predictable, turn-key machine that thrives without you.",
       "coreThesis": "A successful business is a reliable, turn-key machine engineered to operate predictably through ordinary people and explicit systems, liberating the owner to work on the business rather than inside it.",
@@ -35156,6 +36070,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1985,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "344f89b3",
     "onePageSummary": {
       "elevatorPitch": "Addiction is not a comforting sanctuary you sacrifice, but a sinister cognitive trap where every dose merely cures the chemical withdrawal created by the previous one. By dismantling subconscious brainwashing rather than fighting physical cravings with willpower, you don't surrender a friend\\u2014you escape an engineered parasite.",
       "coreThesis": "Addiction provides zero genuine pleasure or psychological crutch; it is an engineered feedback loop where each dose merely relieves the chemical withdrawal caused by the preceding dose. When you eliminate the cognitive illusion of sacrifice, the physical habit collapses effortlessly.",
@@ -35193,6 +36108,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "30e94830",
     "onePageSummary": {
       "elevatorPitch": "Great speech is not a mysterious mystical gift; it is precision mechanical engineering for the human brain. By mastering classical figures of speech, anyone can snap words together like gears to make ideas unforgettable.",
       "coreThesis": "Eloquence is structural technology, not romantic inspiration: phrasing becomes memorable because specific mechanical formulas exploit the predictable cognitive quirks of human auditory processing.",
@@ -35230,6 +36146,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d75c53f4",
     "onePageSummary": {
       "elevatorPitch": "Do not settle for secondhand belief or intellectual cleverness\\u2014track the real footsteps of awareness until you see the truth directly for yourself. Bhikkhu Bodhi translates the Buddha's timeless field guide to verifying spiritual freedom through direct, unshakeable experience.",
       "coreThesis": "Genuine spiritual liberation cannot be verified by outward reputation, debate, or pleasant meditative feelings; it is realized only when the seeker walks the gradual path of ethical discipline and stillness to directly eradicate mental clinging.",
@@ -35267,6 +36184,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4770ac9b",
     "onePageSummary": {
       "elevatorPitch": "Human beings are walking public relations firms running 24/7 damage control for hidden evolutionary agendas. Master the actual rules of the board\\u2014signaling, status tournaments, and plausible deniability\\u2014or remain the unwitting dupe of institutional theatre.",
       "coreThesis": "Our minds are built to hide our real, self-serving motives from ourselves so we can convincingly deceive everyone around us. True power and strategic clarity come from auditing what people actually signal and protect, not what they publicly profess.",
@@ -35304,6 +36222,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1975,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5666f750",
     "onePageSummary": {
       "elevatorPitch": "Anger is not an immovable personality flaw, but a toxic ember you choose to pick up with bare hands hoping to burn someone else. Ven. K. Piyatissa Thera presents the classical Buddhist playbook\\u2014an eight-tiered cognitive toolkit designed to de-escalate, dismantle, and extinguish resentment before it consumes your inner peace.",
       "coreThesis": "Hostility hurts only the person who harbors it; true emotional liberation occurs when we view provocation through the lens of impermanence and meet aggression with deliberate, radiant goodwill.",
@@ -35341,6 +36260,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2022,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d4e729c7",
     "onePageSummary": {
       "elevatorPitch": "Stop treating career overload like a personal stamina deficit and reclaim your agency from the trap of work worship. This book shows you how to dethrone your job as your sole identity and build an energizing, balanced life with unbreakable everyday boundaries.",
       "coreThesis": "Burnout occurs when there is an unbridgeable canyon between the spiritual meaning we expect from work and the cold economic reality jobs provide. Healing requires dethroning work as our primary identity and rebuilding our lives around community, leisure, and shared human dignity.",
@@ -35378,6 +36298,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "94652e3a",
     "onePageSummary": {
       "elevatorPitch": "Spiritual enlightenment is rarely the peaceful end of all trouble\\u2014it is the direct end of your illusory separate world. Adyashanti provides an uncensored, practical field guide for navigating life after awakening, showing you how to embody absolute clarity in ordinary daily existence.",
       "coreThesis": "Enlightenment is not a glamorous trophy or an escape hatch from reality, but the complete unraveling of the illusory self and the grounded embodiment of effortless awareness in everyday human life.",
@@ -35415,6 +36336,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2006,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9936c3e4",
     "onePageSummary": {
       "elevatorPitch": "Prayer is not a desperate plea sent across the cosmos to a distant sovereign; it is a clean, focused current of mindfulness generated right here within your own breathing body. When heart, body, and mind align, your loving intention directly shifts the fabric of reality and heals human suffering from the inside out.",
       "coreThesis": "Authentic prayer is not a petition to a distant, external entity, but the focused, embodied energy of mindfulness and compassion generated through the non-dual realization that the one who prays and the one who hears are fundamentally one.",
@@ -35452,6 +36374,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3583d2fc",
     "onePageSummary": {
       "elevatorPitch": "Demystify the human mind with a precise psychological blueprint that reveals consciousness as an ever-shifting stream rather than a rigid self. Discover how seeing through mental illusions opens the door to lasting inner peace.",
       "coreThesis": "The illusion of a solid, permanent ego dissolves when experience is observed at high resolution, revealing that lasting freedom arises naturally from understanding how thoughts, feelings, and matter condition one another from moment to moment.",
@@ -35489,6 +36412,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4b1c5a43",
     "onePageSummary": {
       "elevatorPitch": "Unlock Buddhism's most celebrated text on reality and liberation through lucid, masterclass guidance from the Dalai Lama. Discover how realizing the emptiness of independent existence untangles anxiety and unlocks unshakeable, active compassion.",
       "coreThesis": "Suffering arises from grasping onto people, things, and our own egos as solid, independent entities; realizing that everything exists interdependently dissolves defensive fear and awakens boundless, active compassion.",
@@ -35526,6 +36450,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1991,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cbd3f19a",
     "onePageSummary": {
       "elevatorPitch": "Stop overcomplicating spiritual freedom: anchor your attention to the simple physical touch of your breath, right now, without dropping it for a single moment. Venerable Webu Sayadaw strips away all dry scholastic debate to deliver the raw, immediate engine of awakening.",
       "coreThesis": "Enlightenment is not a distant intellectual philosophy, but the direct result of keeping continuous, unwavering awareness on the touch of the breath in every posture and waking second.",
@@ -35563,6 +36488,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1994,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2fb6e747",
     "onePageSummary": {
       "elevatorPitch": "Human attraction is neither a mystical accident nor a modern social invention; it is a precision-engineered biological guidance system shaped over hundreds of thousands of years. David M. Buss lifts the hood on romantic behavior, revealing the ancient evolutionary blueprints that dictate whom we desire, why we compete, and how we stay together.",
       "coreThesis": "Human romance, desire, and heartbreak are driven by evolved psychological adaptations designed to solve distinct ancestral mating challenges, which we can navigate consciously once we decode their underlying mechanisms.",
@@ -35600,6 +36526,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3ffe2c51",
     "onePageSummary": {
       "elevatorPitch": "Stop fighting your wandering mind with brute force; true concentration is not a white-knuckled vice, but a warm, collected stillness born from letting go. Richard Shankman demystifies Buddhist sam\\u0101dhi to reveal how profound mental peace and penetrating insight naturally arise together.",
       "coreThesis": "Sam\\u0101dhi is the natural settling of the mind through non-attachment and ease, providing the quiet stability through which liberating insight spontaneously emerges.",
@@ -35637,6 +36564,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "86a79f33",
     "onePageSummary": {
       "elevatorPitch": "Stop wrestling with your mind on the meditation cushion. Discover how continuous, relaxed awareness transforms every ordinary waking moment into direct freedom.",
       "coreThesis": "Awakening happens not by forcing the mind into an artificial stillness, but by maintaining a continuous, relaxed awareness that observes all mental and physical experiences with the right attitude.",
@@ -35674,6 +36602,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1971,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "653d2a83",
     "onePageSummary": {
       "elevatorPitch": "Your face is not a passive mirror; it is an active command center directing how you think, decide, and connect. By cracking the universal biological code of facial expressions, this work reveals how subtle muscle twitches drive human motivation and emotional reality.",
       "coreThesis": "Human emotions are autonomous, biologically hardwired motivational programs expressed through universal facial muscle configurations that actively regulate internal feeling states via real-time somatic feedback.",
@@ -35711,6 +36640,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1971,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4f4265ca",
     "onePageSummary": {
       "elevatorPitch": "Beyond mere survival and personal achievement lies an open horizon where you transcend the narrow ego and settle into living unity. Maslow reveals that deep spiritual realization is not an esoteric escape, but your innate human nature waking up to its ultimate home.",
       "coreThesis": "Human potential does not terminate at individual self-fulfillment; its natural summit is self-transcendence, where the ego dissolves into selfless awareness and lives in devoted service to truth, beauty, and unity.",
@@ -35748,6 +36678,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7da9c1a0",
     "onePageSummary": {
       "elevatorPitch": "Fear does not motivate excellence; it merely forces bad news underground until catastrophic damage is inevitable. Psychological safety is not about comfort\\u2014it is the tactical prerequisite for rapid risk detection and high-speed execution under uncertainty.",
       "coreThesis": "In knowledge-intensive work, the greatest business risk is unvoiced truth. Psychological safety is the tactical climate where candor carries no personal penalty, enabling immediate error detection and collective execution.",
@@ -35785,6 +36716,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1990,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1b375df3",
     "onePageSummary": {
       "elevatorPitch": "Most teams fail because they treat isolated symptoms rather than invisible circular feedback loops. Master the hidden physics of organizational learning to unlock breakthrough collective intelligence.",
       "coreThesis": "Organizations excel only when they abandon linear blame and treat challenges as interdependent feedback systems.",
@@ -35821,6 +36753,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1960,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "19f9f8fa",
     "onePageSummary": {
       "elevatorPitch": "Your mind is constantly handling burning coals of sensory craving, knee-jerk irritation, and stubborn confusion. This ancient masterwork shows you how to recognize the heat, drop the embers, and step out into immediate, unshakable peace.",
       "coreThesis": "Human experience is continually consumed by the friction of grasping, aversion, and confusion; true freedom arrives the moment you stop feeding fuel to sensory reactions and allow awareness to cool down.",
@@ -35858,6 +36791,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f38692a4",
     "onePageSummary": {
       "elevatorPitch": "Transitions are make-or-break crucible moments where small missteps compound into irreversible failure. This playbook provides a battle-tested blueprint to seize momentum, neutralize risk, and reach the breakeven point faster.",
       "coreThesis": "Leadership transitions are asymmetric risk zones where early actions produce lasting operational trajectories; methodically accelerating your learning curve and securing early alignment cuts the time required to become a net value producer.",
@@ -35895,6 +36829,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1961,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "832bfb43",
     "onePageSummary": {
       "elevatorPitch": "Your mind is naturally pristine and clear like mountain water, but daily life continually stirs up sediment, heat, and weeds. Master the five universal mental traps that rob you of clarity, and discover how quiet, compassionate observation dissolves inner friction without brute struggle.",
       "coreThesis": "The five hindrances are temporary mental contaminants, not your true identity; by meeting them with precise mindfulness and targeted remedies, their power evaporates and natural inner peace returns.",
@@ -35932,6 +36867,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1963,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "982c5919",
     "onePageSummary": {
       "elevatorPitch": "Just as an artist selects fresh blossoms to weave an enduring garland, you can curate your awareness and habits to build a serene, unshakable life. Narada Mahathera illuminates the classic verses on the fragile beauty of life, showing how to live with the lightness of a bee and the deep scent of genuine virtue.",
       "coreThesis": "Human existence is as delicate and ephemeral as morning foam, yet when disciplined by mindfulness and gentle integrity, every fleeting moment can be woven into an enduring garland of wholesome action and liberation.",
@@ -35969,6 +36905,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "00633355",
     "onePageSummary": {
       "elevatorPitch": "When a settled woman reads an unpublished tale of a wandering mystic and a legendary poet, her tidy suburban life cracks open. Elif Shafak weaves a luminous tapestry showing that love is not a gentle ornament, but a wild fire that breaks us open to remake us whole.",
       "coreThesis": "Divine love demands the dismantling of the ego, proving that true spiritual awakening begins only when we risk security to embrace vulnerable connection.",
@@ -36005,6 +36942,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2023,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ff651488",
     "onePageSummary": {
       "elevatorPitch": "Nirvana is not an exotic otherworldly destination; it is the silent engine room of perception when you stop manufacturing mental clutter. Bhikkhu An\\u0101layo decodes early meditation records with scientific precision to reveal the exact mechanics of inner liberation.",
       "coreThesis": "Awakening is not something manufactured; it is what remains when you dismantle the habitual mental habit of stamping raw reality with subjective emotional labels.",
@@ -36042,6 +36980,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fa050609",
     "onePageSummary": {
       "elevatorPitch": "Stop treating spirituality as wishful thinking and start treating it as precise, laboratory-grade mental training. This book delivers the foundational blueprint for understanding your mind, debugging your habitual reactions, and building an unshakable life of wisdom and inner peace.",
       "coreThesis": "Genuine spiritual transformation demands rigorous intellectual investigation, disciplined daily meditation, and meticulous ethical responsibility\\u2014liberation is realized when we align our actions with the exact causal laws of mind and reality.",
@@ -36079,6 +37018,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1aeebd2d",
     "onePageSummary": {
       "elevatorPitch": "Mindfulness is not a temporary relaxation trick; it is an exact, radical inspection of your immediate experience that dissolves compulsive suffering at its root. Bhikkhu Bodhi's canonical translation provides the timeless operating manual for observing body, sensation, mind, and reality with total clarity.",
       "coreThesis": "Suffering dissolves when you stop fighting your moment-to-moment experience and instead observe body, feelings, mind, and natural laws with lucid, non-clinging presence.",
@@ -36116,6 +37056,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1990,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e465d01d",
     "onePageSummary": {
       "elevatorPitch": "Sayadaw U Silananda unpacks Buddhism's core manual on liberation, turning ancient meditation scripture into an exact, step-by-step training guide for modern living. By learning to observe the body, feelings, mind, and reality without clinging, you dismantle anxiety at the root and uncover unflappable peace.",
       "coreThesis": "Suffering dissolves when you stop mistaking fleeting physical and mental events for a solid, permanent 'self.' Sustained, non-judgmental awareness of the present moment reveals things as they actually are and delivers unshakable liberation.",
@@ -36153,6 +37094,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9a6c1d14",
     "onePageSummary": {
       "elevatorPitch": "Mindfulness is not a vague relaxation trick; it is a systematic, step-by-step diagnostic toolkit for your immediate human experience. Bhante Gunaratana translates the Buddha's master discourse on meditation into clear, everyday instructions that teach you how to see life without distortion and live free from reactive suffering.",
       "coreThesis": "Suffering arises when we blindly identify with fluctuating physical sensations and passing mental events; by cultivating steady, objective awareness across body, feelings, mind, and truth, we awaken to freedom right here in ordinary life.",
@@ -36190,6 +37132,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1992,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "27c60561",
     "onePageSummary": {
       "elevatorPitch": "Suffering is not a personal defect or an inevitable life sentence\\u2014it is simply friction caused by clutching tightly to things that constantly move. By shifting from dramatic personal grievance to quiet, direct observation, you unlock immediate inner peace in the middle of everyday chaos.",
       "coreThesis": "Suffering occurs only when the mind clings to passing conditions; by recognizing tension objectively and releasing attachment, immediate peace naturally reveals itself.",
@@ -36227,6 +37170,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1967,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "41762719",
     "onePageSummary": {
       "elevatorPitch": "Life is not an unmoving solid statue; it is an open flame that must constantly burn fresh fuel to survive. By clearly seeing the four physical and psychological 'foods' you consume every second, you break unconscious cravings and uncover unshakable inner freedom.",
       "coreThesis": "Every aspect of human existence\\u2014from physical flesh to personal identity\\u2014is a conditioned process sustained solely by what it consumes; inspecting and calming your intake of physical, sensory, and mental fuel dissolves the illusion of an ego and brings lasting peace.",
@@ -36264,6 +37208,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c7bfe333",
     "onePageSummary": {
       "elevatorPitch": "Investing is not a lottery ticket or an elite guessing contest; it is an endurance marathon built on four unyielding pillars: Theory, History, Psychology, and Business. Master these four realities, cut out Wall Street's fee-extracting middlemen, and you secure genuine financial independence.",
       "coreThesis": "Successful investing does not require outsmarting the market; it requires understanding economic theory, respecting financial history, mastering your own psychological weaknesses, and ruthlessly minimizing Wall Street's predatory fees through disciplined, diversified asset allocation.",
@@ -36301,6 +37246,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1958,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "eee77767",
     "onePageSummary": {
       "elevatorPitch": "Nyanaponika Thera distills the ancient Buddhist practice of the Four Sublime States into a profound blueprint for emotional freedom and boundless goodwill. It teaches you how to systematically train your mind so compassion and serenity become your natural baseline, rather than fleeting accidental moods.",
       "coreThesis": "Genuine inner peace and social freedom arise when the heart systematically replaces self-centered reactions with four boundless, mutually balancing mental states: unconditional goodwill, courageous compassion, shared joy, and insight-grounded equanimity.",
@@ -36338,6 +37284,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f338722a",
     "onePageSummary": {
       "elevatorPitch": "Stop trying to carve humans like a carpenter building a chair from raw lumber; start cultivating rich soil like a gardener stewarding a biodiverse ecosystem.",
       "coreThesis": "The purpose of nurturing the next generation is not to shape a predictable finished product, but to sustain a resilient, diverse ecosystem capable of thriving in an uncertain future.",
@@ -36375,6 +37322,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1997,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "388ba39c",
     "onePageSummary": {
       "elevatorPitch": "Your mind is not the turbulent weather of your passing thoughts, but the vast, luminous sky in which all weather unfolds. This canonical masterpiece bridges practical Tibetan wisdom and sharp direct contemplation to guide you into recognizing your own untouched, awake awareness.",
       "coreThesis": "The true nature of your mind is intrinsically clear, spacious, and aware; suffering occurs only when you mistake passing mental clouds for a solid, unchanging self.",
@@ -36412,6 +37360,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2ae99e57",
     "onePageSummary": {
       "elevatorPitch": "What if the iconic spiritual hero wasn't born as an untouchable blueprint, but evolved step-by-step like a software patch through human storytelling? Bhikkhu An\\u0101layo investigates ancient source code to reveal how ordinary trial-and-error human growth was gradually reverse-engineered into a cosmic ideal.",
       "coreThesis": "The bodhisattva ideal was not a monolithic, pre-planned doctrine, but an organic textual evolution that retrofitted an ordinary seeker's fallible human struggles into a cosmic, replicable blueprint of universal awakening.",
@@ -36449,6 +37398,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1997,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "67f2f15c",
     "onePageSummary": {
       "elevatorPitch": "Your subconscious mind is a high-speed prediction engine that spots danger long before your conscious logic can catch up. By tuning into your biological radar and spotting manipulative compliance traps, you unlock an innate sensory security system built to keep you safe.",
       "coreThesis": "Intuition is not mystical superstition but rapid, unconscious data processing designed to preserve life, and prioritizing social politeness over these biological survival signals leaves people vulnerable to calculated manipulation.",
@@ -36486,6 +37436,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "52f26421",
     "onePageSummary": {
       "elevatorPitch": "Human beings are wired for deep social connection, yet we systematically sabotage our own belonging by running an exhaustingly brittle operating system: perfectionism. Bren\\u00e9 Brown unpacks a decade of qualitative behavioral research to reveal how dismantling our protective armor unlocks genuine emotional resilience.",
       "coreThesis": "Worthiness has no entrance prerequisites; lasting belonging arises not from flawless performance, but from cultivating the daily courage to be seen in all our messy, imperfect reality.",
@@ -36523,6 +37474,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1984,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "827d6822",
     "onePageSummary": {
       "elevatorPitch": "A business is not a collection of independent departments\\u2014it is a single chain whose output is governed entirely by its weakest link. Stop running every machine at full throttle; balance the flow to the bottleneck, slash excess inventory, and watch cash generation soar.",
       "coreThesis": "The true goal of an enterprise is to make money by accelerating flow, which is dictated entirely by its system constraint; any efficiency gain outside the bottleneck is a dangerous illusion.",
@@ -36560,6 +37512,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1996,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c58274be",
     "onePageSummary": {
       "elevatorPitch": "When one of the world's foremost Buddhist masters reads the Christian Gospels, doctrinal walls dissolve into a luminous masterclass on unconditional love, inner silence, and universal human goodness.",
       "coreThesis": "Genuine spirituality is measured not by intellectual adherence to dogma, but by the warmth, humility, and active compassion with which we treat every living being.",
@@ -36597,6 +37550,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1994,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "93fa6eaf",
     "onePageSummary": {
       "elevatorPitch": "Step off the treadmill of emotional reactivity and discover the universal mechanics of your own mind. S.N. Goenka strips away ritual and dogma to offer a practical, experiential blueprint for real mental liberation.",
       "coreThesis": "Suffering stems from unconscious mental reactions to physical sensations; by observing these changing sensations with non-reactive equanimity, the mind purifies itself and uncovers lasting peace.",
@@ -36634,6 +37588,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1975,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3368a40b",
     "onePageSummary": {
       "elevatorPitch": "Real protection is not a lucky charm or an invisible shield; it is the natural resilience of a mind grounded in truth, compassion, and clear awareness. Ven. Piyadassi Thera presents the classical Buddhist sanctuary of Paritta chanting as a living psychological toolkit that dispels fear, stabilizes inner peace, and brings genuine clarity to daily life.",
       "coreThesis": "Genuine safety cannot be purchased from without; it is the natural psychological consequence of an ethical life, a compassionate heart, and a mind anchored in reality.",
@@ -36671,6 +37626,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1984,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e6a8c375",
     "onePageSummary": {
       "elevatorPitch": "When you pull on a single thread of personal suffering, you find the entire fabric of human conditioning attached to it. Bhikkhu Bodhi unlocks the Buddha's definitive masterclass on causation to reveal how untangling cause and effect dissolves the illusion of the separate ego.",
       "coreThesis": "Suffering and identity are not fixed entities, but reciprocal processes sustained by interlocking conditions; seeing how they arise naturally dissolves the illusion of an ego and brings liberation.",
@@ -36708,6 +37664,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1993,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e6a9ff5a",
     "onePageSummary": {
       "elevatorPitch": "When a departed disciple claims spiritual enlightenment is merely abstract logic, the Buddha responds not with wounded pride, but with an earth-shattering disclosure of what total mental freedom actually looks like. The Great Discourse on the Lion's Roar provides an uncompromising blueprint of unshakeable clarity, cutting through spiritual vanity and pointing straight to direct, liberated awareness.",
       "coreThesis": "Genuine spiritual awakening is not speculative logic or self-punishing asceticism, but the direct experiential purification of the mind that completely uproots craving and suffering.",
@@ -36745,6 +37702,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "05cb5c36",
     "onePageSummary": {
       "elevatorPitch": "Reality operates on timeless systemic rules rather than chaotic randomness. Mastering core mental models gives you high-definition lenses to decode human nature and sound decision-making.",
       "coreThesis": "Better thinking is not about acquiring raw facts; it is about applying multidisciplinary mental models to navigate reality accurately.",
@@ -36781,6 +37739,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1965,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b86819e9",
     "onePageSummary": {
       "elevatorPitch": "Stop packing your mind with needless noise. This ancient manual shows you how to clear the mental clutter and rest naturally in spacious, unshakable clarity.",
       "coreThesis": "Voidness is not a cold philosophical void; it is the natural ease and unburdened clarity discovered when you stop cluttering your awareness with ego, chatter, and attachment.",
@@ -36818,6 +37777,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b6932265",
     "onePageSummary": {
       "elevatorPitch": "Most management books teach you how to sail in calm waters; this book teaches you what to do when the ship is taking on water and the engine is on fire. Ben Horowitz strips away startup romance to deliver an unvarnished field guide for surviving crisis, leading under crushing uncertainty, and making calls where every option hurts.",
       "coreThesis": "There are no universal recipes for running a startup; real leadership is the ability to confront brutal realities, manage your own psychology during catastrophic uncertainty, and execute decisive choices when every available path carries severe risk.",
@@ -36855,6 +37815,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1962,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "59af1c52",
     "onePageSummary": {
       "elevatorPitch": "Before you try to fix, polish, or control the mind, you must first learn to see it precisely as it is. Nyanaponika Thera presents the timeless heart of Satipatthana: bare attention and clear comprehension as the ultimate tools for psychological freedom.",
       "coreThesis": "Liberation from suffering is achieved through bare attention and clear comprehension\\u2014observing reality cleanly without immediate reaction, then acting with grounded ethical clarity.",
@@ -36892,6 +37853,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1cacf93f",
     "onePageSummary": {
       "elevatorPitch": "Inner peace is not an accident of good luck; it is a trainable skill cultivated by calming the ego and opening your heart. The Dalai Lama delivers a direct, grounded blueprint for turning daily friction into unshakable compassion and mental clarity.",
       "coreThesis": "Genuine lasting peace arises when you quiet self-centered grasping and deliberately cultivate warmhearted concern for all living beings.",
@@ -36929,6 +37891,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1950,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a447ea4b",
     "onePageSummary": {
       "elevatorPitch": "Cut through endless intellectual theory and discover the radiant stillness already resting at the center of your awareness. Ajahn Mun strips away philosophical clutter to reveal meditation as a practical, uncompromising craft of inner liberation.",
       "coreThesis": "Suffering is maintained by clinging to mental fabrications, but when continuous awareness inspects the heart directly, defilements dissolve and original radiance is restored.",
@@ -36966,6 +37929,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1998,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e14fe32e",
     "onePageSummary": {
       "elevatorPitch": "Suffering is not a life sentence or a moral failing; it is the raw organic compost from which genuine peace, clarity, and joy are cultivated. By learning to stop running and gently embrace what is present right now, you step immediately into living freedom.",
       "coreThesis": "Suffering and joy are inseparable counterparts of the same reality; by mindfully understanding and embracing our pain rather than fleeing it, we transform it directly into peace and freedom.",
@@ -37003,6 +37967,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1974,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "59983c33",
     "onePageSummary": {
       "elevatorPitch": "Spiritual practice was never meant to be a quiet retreat from life, but an active force of clarity and service within it. Walpola Rahula demonstrates that true liberation walks directly into the heart of the community to heal real suffering.",
       "coreThesis": "Genuine spiritual awakening does not withdraw from the world; it expresses its inner freedom through courageous, compassionate service to everyday human life.",
@@ -37040,6 +38005,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1966,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ad6a1e5a",
     "onePageSummary": {
       "elevatorPitch": "Just like fish swim unaware of the water around them, humans move inside invisible, culturally programmed bubbles of space that dictate every conversation, relationship, and stress level. Edward T. Hall decodes these hidden sensory zones to reveal why physical distance speaks louder than words.",
       "coreThesis": "Space is an active, unconscious dimension of culture; humans inhabit invisible sensory bubbles whose unspoken boundaries govern comfort, stress, and communication.",
@@ -37077,6 +38043,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1be2f871",
     "onePageSummary": {
       "elevatorPitch": "Stop relying on charismatic lone wolves and chaotic hustle. Transform your sales team into a calibrated, high-flow hydraulic engine where strategy, talent, and data-driven infrastructure drive predictable, premium revenue.",
       "coreThesis": "Sustainable revenue growth is not driven by persuasive personality tricks, but by an executive-led operating system where calibrated talent, diagnostic strategy, and automated infrastructure remove pipeline friction.",
@@ -37114,6 +38081,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b3a67b59",
     "onePageSummary": {
       "elevatorPitch": "Laughter is not a lucky accident\\u2014it is a precise neural reaction to broken expectations. Discover how everyday conversational wit operates like a fine-tuned engine, turning ordinary dialogue into engaging, magnetic connection.",
       "coreThesis": "Conversational humor is an applied science of expectation management: by setting up predictable patterns and sharply pivoting with perfect timing, you disarm social tension and create instant shared rapport.",
@@ -37151,6 +38119,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1962,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "500fca09",
     "onePageSummary": {
       "elevatorPitch": "We live in a world flooded with staged spectacles, where engineered impressions routinely drown out substance. Master the mechanics of pseudo-events so you can distinguish real competitive moats from synthetic public relations theater.",
       "coreThesis": "Modern culture has replaced authentic reality with engineered 'pseudo-events' and synthetic images, creating an illusion economy where visibility is prized over real competence.",
@@ -37188,6 +38157,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c4acf087",
     "onePageSummary": {
       "elevatorPitch": "Just as industrial food processing flooded our bodies with cheap junk calories, the attention economy has flooded our minds with cheap mental sugar. Clay Johnson hands you the nutritional playbook to purge digital clutter, master conscious consumption, and reclaim razor-sharp focus.",
       "coreThesis": "Information overload is a personal consumption problem, not a technology problem. By taking conscious ownership of our digital diet\\u2014prioritizing raw data over processed opinion and setting firm consumption boundaries\\u2014we reclaim agency, focus, and mental clarity.",
@@ -37225,6 +38195,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "42f08c75",
     "onePageSummary": {
       "elevatorPitch": "Just as our biology craves sugar and fat in an age of processed food abundance, our brains crave sensationalism and validation in an age of algorithmic media. Clay Johnson delivers the ultimate nutritional guide for your mind, teaching you to curate high-signal information and build lasting cognitive fitness.",
       "coreThesis": "Just as physical health is determined by what we put into our bodies, mental clarity and civic competence are determined by the quality and discipline of the information we consume.",
@@ -37262,6 +38233,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1998,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7d37491e",
     "onePageSummary": {
       "elevatorPitch": "Pierre Hadot decodes Marcus Aurelius's private notebook to reveal the operating system of ancient Stoicism: a sanctuary within the mind that remains unshakeable amidst the storms of life.",
       "coreThesis": "External events possess no intrinsic power to harm the soul; peace is won by retiring into the unassailable fortress of the mind through objective judgment, acceptance of nature, and selfless action.",
@@ -37299,6 +38271,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1949,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a1556fd5",
     "onePageSummary": {
       "elevatorPitch": "Real investing is not about outsmarting the casino; it is about building an unshakeable fortress against human folly and market turbulence. By treating shares as real business stakes and buying only with a generous safety margin, you master the quiet art of enduring wealth.",
       "coreThesis": "Investment success is not a function of financial brilliance or forecasting ability, but of emotional control and insisting on a margin of safety when buying productive assets.",
@@ -37336,6 +38309,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "983ac36e",
     "onePageSummary": {
       "elevatorPitch": "We believe our senses capture reality like an HD dashboard camera, yet our minds routinely miss enormous details right in front of us. This eye-opening work dismantles everyday intuitions to show where human perception short-circuits\\u2014and how to see clearly.",
       "coreThesis": "Our intuitions give us a convincing feeling of total awareness, yet our minds operate through severe, predictable illusions of attention, memory, confidence, knowledge, cause, and potential. Real mastery begins by accepting these mental limits and structuring external checks around them.",
@@ -37373,6 +38347,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4c23c129",
     "onePageSummary": {
       "elevatorPitch": "Nibb\\u0101na is not a distant, mythical heaven or cold void\\u2014it is the cool, unshakeable sanctuary of awareness available right now when you stop adding fuel to the fires of mental reactivity. This definitive anthology maps the Buddha's most direct teachings on liberation, translating ancient canonical wisdom into practical, everyday awakening.",
       "coreThesis": "Liberation is not an exotic destination to be attained in the future, but the cool, unconditioned peace that naturally reveals itself when the mind stops fueling reactivity and clinging.",
@@ -37410,6 +38385,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1991,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "00f57518",
     "onePageSummary": {
       "elevatorPitch": "Step into the most intimate collection of the Buddha's spontaneous teachings, preserved by memory as short, crystalline utterances that dismantle egoic friction and reveal radiant inner stillness. It is an unvarnished owner's manual for direct awakening, showing how everyday mental habits forge either boundless freedom or perpetual restlessness.",
       "coreThesis": "Human suffering is neither mysterious nor permanent; it is fueled by identifiable mental defilements, and can be completely dismantled through steady mindfulness, moral integrity, and direct insight into our unconditioned nature.",
@@ -37447,6 +38423,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2022,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cc6d1f61",
     "onePageSummary": {
       "elevatorPitch": "Deals do not die because customers love their status quo; they die because decision-makers fear getting blamed if the change goes sideways. High performers win not by turning up the pressure, but by actively stripping the personal risk out of the purchase.",
       "coreThesis": "Customers do not freeze out of loyalty to their current situation; they freeze out of acute terror of personal blame for a bad purchase. Closing modern deals requires shifting focus from proving value (combating FOMO) to eliminating the fear of messing up (FOMU).",
@@ -37484,6 +38461,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2000,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "513a4856",
     "onePageSummary": {
       "elevatorPitch": "Heartbreak is not merely an emotional setback; it is a primal neurological shockwave that triggers ancient survival circuitry. Susan Anderson reveals the systematic mechanics of abandonment grief and provides an exact operational toolkit to convert acute emotional devastation into radical personal autonomy.",
       "coreThesis": "Abandonment triggers hardwired primal panic that naturally collapses into self-blame, but systematically navigating its predictable neurological stages transforms catastrophic loss into unshakeable self-reliance.",
@@ -37521,6 +38499,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1997,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "dd99bb19",
     "onePageSummary": {
       "elevatorPitch": "Death is not a tragedy to hide from, but life's most clarifying mirror. By looking directly at our impermanence with quiet courage, we strip away superficial trivialities and uncover an unshakable inner peace that ennobles every breath.",
       "coreThesis": "A peaceful death is the natural harvest of a conscious, compassionate life; by befriending impermanence, we dismantle fear and awaken to the joyous, interconnected reality of each present moment.",
@@ -37558,6 +38537,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "89dd7a5d",
     "onePageSummary": {
       "elevatorPitch": "Stop running your life on high-alert overdrive. The Joy of Missing Out provides the practical blueprint to ditch reactive digital friction and build an intentional, deeply focused daily rhythm.",
       "coreThesis": "True freedom and lasting energy do not come from consuming more information, but from strategically cutting the noise to protect the few things that truly matter.",
@@ -37595,6 +38575,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1959,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "78e0bbbc",
     "onePageSummary": {
       "elevatorPitch": "Step out of the storm of conflicting dogmas and test spiritual truth directly in your own immediate living awareness. Here is the world's most timeless charter of inner discernment: do not accept any teaching until you verify its fruit in your own peace of mind.",
       "coreThesis": "Truth is never validated by pedigree, tradition, or rhetorical brilliance, but by the direct, observable impact an attitude or teaching has upon the peace and purity of your immediate experience.",
@@ -37632,6 +38613,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7429f977",
     "onePageSummary": {
       "elevatorPitch": "Your questions are not passive queries\\u2014they are the blueprints molding your reality, suffering, and freedom. Thanissaro Bhikkhu reveals Buddhist practice not as vague mystical surrender, but as an active master craft of questioning, testing, and mastering the mind.",
       "coreThesis": "Every question you ask is an intentional action that shapes your experience; liberation is realized by asking skillful questions that actively dismantle suffering and verify freedom for yourself.",
@@ -37669,6 +38651,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ec469010",
     "onePageSummary": {
       "elevatorPitch": "Liberation is not an unreachable mystical summit; it is the natural, unshakeable calm discovered when you stop chasing pleasant thoughts and stop running from unpleasant ones.",
       "coreThesis": "Freedom from suffering comes not from controlling your thoughts or arranging perfect conditions, but from observing every arising experience with non-clinging awareness.",
@@ -37706,6 +38689,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "46cddec9",
     "onePageSummary": {
       "elevatorPitch": "Stop trying to do everything right; be a genius about the things that matter and lazy about the things that don't. This book provides 13 pragmatic operating principles to design a low-friction life tailored to your personal priorities.",
       "coreThesis": "You do not need to try harder; you need to be a genius about what matters to you and lazy about what does not.",
@@ -37743,6 +38727,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "45cad1b7",
     "onePageSummary": {
       "elevatorPitch": "Stop squandering scarce engineering capital on polished solutions nobody wants. Dan Olsen provides a battle-tested, repeatable blueprint to systematically validate customer demand and engineer authentic product-market fit before writing heavy code.",
       "coreThesis": "Product-market fit is not serendipity; it is an engineered state achieved by rigorously defining customer problems before building solutions, and systematically validating value propositions through rapid, low-fidelity customer feedback loops.",
@@ -37780,6 +38765,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "44dd2b50",
     "onePageSummary": {
       "elevatorPitch": "Most ambitious ventures fail not from lack of effort, but from building things nobody actually wants. The Lean Startup replaces guesswork and rigid master plans with rapid scientific feedback loops that turn uncertainty into predictable progress.",
       "coreThesis": "A startup is a scientific experiment designed to discover how to build a sustainable enterprise before resources run out. Validated learning\\u2014proven by observed human behavior\\u2014is the only real measure of progress under extreme uncertainty.",
@@ -37817,6 +38803,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1ac3f463",
     "onePageSummary": {
       "elevatorPitch": "Tidying is not a chore of endlessly moving clutter around; it is a decisive personal reset that aligns your physical surroundings with your ideal life. Keep only what sparks genuine joy, discard the rest with gratitude, and build an environment that fuels clarity and momentum every single day.",
       "coreThesis": "A clean, orderly life is achieved not through clever storage, but through a singular, category-by-category audit where you intentionally choose what sparks joy and release everything else.",
@@ -37854,6 +38841,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1987,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e30dd943",
     "onePageSummary": {
       "elevatorPitch": "Step into the inner life of the Buddha's greatest student and discover how razor-sharp intellect transforms into radical inner peace. This classic biography reveals how pure clarity, deep humility, and everyday mindfulness dismantle anxiety and anchor your mind in unwavering calm.",
       "coreThesis": "Supreme wisdom is not cold intellectual analysis; it is the calm, direct recognition of mental states as fleeting events, freeing the heart to act with boundless patience and humility.",
@@ -37891,6 +38879,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e35fa33d",
     "onePageSummary": {
       "elevatorPitch": "If you saw someone drowning in a shallow pool, you would step in without hesitation, even if it ruined your shoes. In an interconnected world, sparing surplus resources to save lives in extreme poverty is the very same choice.",
       "coreThesis": "Failing to help those trapped in life-threatening poverty when you possess surplus resources carries the same moral gravity as watching someone drown when rescue costs you almost nothing.",
@@ -37928,6 +38917,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2007,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ca8f1c4d",
     "onePageSummary": {
       "elevatorPitch": "Stop searching for the needle in the financial haystack when you can simply buy the entire field. John Bogle dismantles Wall Street's lucrative hype to prove that doing less, paying almost nothing in fees, and patiently holding the entire economy is the only guaranteed way to capture your fair share of market wealth.",
       "coreThesis": "The stock market is a positive-sum business machine that becomes a net loser's game after subtracting the frictional tolls of fees, trading costs, and taxes. By owning the entire market through low-cost index funds and holding it permanently, you guarantee yourself your rightful share of economic compounding.",
@@ -37965,6 +38955,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8672a47a",
     "onePageSummary": {
       "elevatorPitch": "Mastery is not an innate genetic gift, but a physical biological circuit constructed through precise, high-friction practice. By understanding how the brain insulates neural pathways, anyone can transform awkward struggle into effortless automaticity using 52 field-tested rules.",
       "coreThesis": "Skill is a physical cellular insulation (myelin) built along neural circuits when you reach at the edge of your ability and immediately correct mistakes.",
@@ -38002,6 +38993,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1934,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "493b43d9",
     "onePageSummary": {
       "elevatorPitch": "No amount of white swan sightings can prove all swans are white, yet a single black swan shatters the claim forever. Progress thrives not by protecting our cherished beliefs, but by deliberately hunting for the flaw that breaks them.",
       "coreThesis": "Scientific knowledge advances not by verifying theories through repeated observations, but by subjecting bold, falsifiable guesses to relentless attempts at refutation.",
@@ -38038,6 +39030,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e236fdb7",
     "onePageSummary": {
       "elevatorPitch": "Step directly into the original dialogues that shaped Eastern philosophy, translated into luminous, accessible English. This collection strips away religious mystery to hand you a grounded, field-tested manual for training the restless mind and finding unwavering freedom in daily life.",
       "coreThesis": "Suffering is not an inescapable fate, but a mechanical friction created by grasping at transient thoughts and circumstances; by cultivating steady, non-reactive mindfulness, anyone can untangle the mind and rest in immediate, lasting peace.",
@@ -38075,6 +39068,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "88caa124",
     "onePageSummary": {
       "elevatorPitch": "Your eyes are twin biometric projectors broadcasting your hidden thoughts, stress levels, and desires milliseconds before your mouth can frame a sentence. Master oculesics to decode the involuntary micro-signals that govern human connection, authority, and trust.",
       "coreThesis": "The human gaze is an involuntary biological communication protocol that continuously broadcasts status, emotional arousal, and cognitive processing long before spoken words register.",
@@ -38112,6 +39106,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6ca83d91",
     "onePageSummary": {
       "elevatorPitch": "Closing is not an aggressive final sprint at the end of a deal; it is a relay of ten small, collaborative commitments that make final agreement natural and effortless. By mastering this step-by-step architecture, you turn chaotic sales conversations into predictable, value-driven partnerships.",
       "coreThesis": "Closing is not a singular event that occurs at the end of a sales cycle, but an interconnected chain of ten incremental commitments made throughout the entire journey. When you help clients systematically resolve uncertainty and co-create solutions at every stage, the final decision becomes effortless.",
@@ -38149,6 +39144,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2007,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "223cd483",
     "onePageSummary": {
       "elevatorPitch": "Human cruelty is rarely born from rotten internal souls\\u2014it is manufactured by bad barrels and flawed operating systems. Philip Zimbardo reveals the hidden social machinery that drives ordinary, decent people to commit unspeakable harm, alongside the everyday blueprint to resist it.",
       "coreThesis": "Human behavior is shaped far more by surrounding situational forces and systemic design than by static character traits. To prevent cruelty and foster everyday integrity, we must fix the barrels and build the situational courage to resist.",
@@ -38186,6 +39182,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cbd829aa",
     "onePageSummary": {
       "elevatorPitch": "Ven. Ledi Sayadaw breaks down complex spiritual philosophy into an exact, practical owner's manual for everyday human consciousness. By exposing our mental illusions through clear self-observation, this work shows anyone how to dismantle anxiety and discover lasting internal freedom.",
       "coreThesis": "Suffering dissolves when you directly observe your body and mind as a flowing process of changing conditions rather than a solid, personal self.",
@@ -38223,6 +39220,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2000,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "39bab951",
     "onePageSummary": {
       "elevatorPitch": "Your mind and body are not an indivisible person; they are a five-part relay team passing the baton so fast that it creates the optical illusion of an ego. Once you see the moving gears under the hood, the entire burden of personal anxiety quietly dissolves.",
       "coreThesis": "Human identity is not a permanent entity but a rapid five-part relay of physical and mental events; seeing how these parts interact dissolves the illusion of an ego and frees the heart from clinging.",
@@ -38260,6 +39258,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cfa73af1",
     "onePageSummary": {
       "elevatorPitch": "Landing an eight-figure contract is not about peddling features faster; it is about functioning as an architect who realigns an enterprise's vital organs. By swapping transactional pitching for peer-to-peer executive whispering, you transform high-stakes enterprise sales into a systematic, reproducible science.",
       "coreThesis": "Whale-sized enterprise contracts are never won by pitching products from the bottom up; they are captured by diagnosing board-level imperatives at the top, proving undeniable fiscal ROI with audited pilots, and orchestrating executive alliances that outmaneuver procurement commoditization.",
@@ -38297,6 +39296,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1974,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6b74dc85",
     "onePageSummary": {
       "elevatorPitch": "Your brain is not a sieve; it is an extraordinary visual search engine trapped beneath bad indexing habits. By converting slippery abstractions into vivid mental snapshots, this book hands you the blueprint for an unshakeable, photographic memory.",
       "coreThesis": "Memory is not an innate genetic container but a trained visual indexing habit: any abstract data can be permanently recalled by translating it into vivid, exaggerated physical imagery and anchoring it to a known reference point.",
@@ -38334,6 +39334,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1975,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bf806559",
     "onePageSummary": {
       "elevatorPitch": "Strip away centuries of mystical haze and ritual dust: early Buddhism is an empirical laboratory for your own mind. By treating consciousness with the precision of a master gardener tending soil, Jayatilleke reveals how seeing reality as pure process unties the knots of human suffering.",
       "coreThesis": "Suffering is an avoidable friction born from grasping at a constantly moving world with an imaginary, permanent self; when direct empirical awareness sees life as an unbroken stream of cause and effect, the restless mind naturally drops its burden and settles into unshakeable peace.",
@@ -38371,6 +39372,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "36abfa28",
     "onePageSummary": {
       "elevatorPitch": "Step directly into the lively, practical dialogues of the historical Buddha as he diagnoses the mechanics of human discontent and reveals the exact, repeatable blueprint for lasting peace. Far from abstract dogma, this is a hands-on field manual for training attention, clearing emotional clutter, and waking up to reality right where you are.",
       "coreThesis": "Suffering is not an inescapable fate, but a mechanical friction generated whenever an untamed mind clings to fleeting experiences as a rigid self; by seeing things as they actually are, this friction permanently dissolves.",
@@ -38408,6 +39410,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "dcf4e7d5",
     "onePageSummary": {
       "elevatorPitch": "Faith without critical reasoning is blind trust, while intellect without an open heart is sterile cynicism. The Dalai Lama guides you through the Buddhist Middle Way, showing how clear-eyed logic and deep contemplation dissolve existential anxiety and awaken boundless compassion.",
       "coreThesis": "Things exist purely in relationship to causes and conditions, entirely devoid of independent, solid reality; recognizing this dependent nature frees the mind from rigid extremes and transforms intellect into fearless, active compassion.",
@@ -38445,6 +39448,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6386ba7e",
     "onePageSummary": {
       "elevatorPitch": "Wealth is not a forty-year waiting room or a lottery ticket\\u2014it is a predictable engineering problem governed by leverage, control, and mathematical scale. By stepping off the time-for-money treadmill and constructing systems that solve widespread human problems, you build an automated pipeline that delivers financial sovereignty in years rather than decades.",
       "coreThesis": "True financial freedom is engineered by divorcing income from linear human time through scalable, controlled business systems that solve acute human problems.",
@@ -38482,6 +39486,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1996,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "61dd10e6",
     "onePageSummary": {
       "elevatorPitch": "Most genuine millionaires don't drive sports cars, wear designer suits, or live in mansions. They live down your street, budget ruthlessly, and value complete financial sovereignty over the shallow applause of neighbors.",
       "coreThesis": "Wealth is what you keep and compound, not what you spend and display; true financial freedom demands living far below your earnings regardless of your income level.",
@@ -38519,6 +39524,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "15a73ebb",
     "onePageSummary": {
       "elevatorPitch": "Stop fighting the weather of your own mind. Ajahn Sumedho shows how stepping back from mental chatter into calm, spacious awareness transforms daily stress into effortless peace.",
       "coreThesis": "Suffering is created when we fight reality and cling to fleeting mental states; freedom is found by resting in the silent, spacious awareness that observes life exactly as it is.",
@@ -38556,6 +39562,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9fe71896",
     "onePageSummary": {
       "elevatorPitch": "Meditation is not a mysterious guessing game; it is an exact, learnable craft of training attention and open awareness in perfect harmony. By blending classical Buddhist samatha-vipassana with modern neuroscience, this definitive roadmap demystifies every sitting stage from restless mind-wandering to effortless, radiant awakening.",
       "coreThesis": "Awakening is an accessible, natural human capacity realized when focused attention and open awareness are systematically trained to unify the disparate sub-minds into crystalline tranquility and insight.",
@@ -38593,6 +39600,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6b7f2123",
     "onePageSummary": {
       "elevatorPitch": "Stop wrestling with your wandering thoughts and discover the quiet observer already looking through your eyes. Ajahn Anan reveals how awakening is not a distant summit to conquer, but an immediate return to the untainted awareness that knows every passing moment.",
       "coreThesis": "Suffering occurs only when you mistake passing mental weather for your true identity; freedom is remembering that you are the silent, unshakeable awareness that knows the storm.",
@@ -38630,6 +39638,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "75b11653",
     "onePageSummary": {
       "elevatorPitch": "Your mind shapes your entire experience of reality: train it with care, and tranquility follows you like an unwavering shadow. This classic contemplative commentary strips away dogmatic clutter to reveal the practical art of mental liberation in everyday life.",
       "coreThesis": "Suffering is not caused by the external world, but by an untrained mind clinging to illusions; cultivate vigilant, compassionate awareness to dwell in immediate freedom.",
@@ -38667,6 +39676,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e5f1cacb",
     "onePageSummary": {
       "elevatorPitch": "Your home should be a launchpad for your life, not an expensive storage warehouse for stagnant clutter. By systematically clearing physical excess room by room, you strip away friction and reclaim the energy, time, and focus required for what truly matters.",
       "coreThesis": "Minimalism is not about owning as little as possible, but about removing everything that distracts you from living with clarity, purpose, and maximum agency.",
@@ -38704,6 +39714,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1975,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fd22bd88",
     "onePageSummary": {
       "elevatorPitch": "Peace is not an elusive prize waiting at the end of a retreat; it is available in the very cup of tea you are holding right now. By reclaiming your breath in ordinary moments, you turn routine daily chores into the ultimate meditation practice.",
       "coreThesis": "The present moment is the only moment in which you are truly alive; treating everyday actions with conscious awareness transforms ordinary life into sacred peace.",
@@ -38741,6 +39752,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1975,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "33ef1ea9",
     "onePageSummary": {
       "elevatorPitch": "Life slips away when we treat today as a mere waiting room for tomorrow. Thich Nhat Hanh reveals how anchoring attention in your breath and hands turns ordinary daily labor into profound inner peace.",
       "coreThesis": "The present moment is the only home you will ever inhabit; living with full attention transforms routine daily action into an enduring sanctuary of peace.",
@@ -38778,6 +39790,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ce82e143",
     "onePageSummary": {
       "elevatorPitch": "Step into the control room of human reality, where simple mathematical lenses crack open hidden social machinery. No single lens shows the whole picture, but a diverse toolkit reveals the invisible gears driving our chaotic world.",
       "coreThesis": "Wisdom springs from an ensemble of diverse formal models, because overlapping analytical lenses cancel out individual blind spots. A single model is only a helpful caricature, but many models unlock deep systemic comprehension.",
@@ -38814,6 +39827,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1994,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2ebcda7e",
     "onePageSummary": {
       "elevatorPitch": "Human morality is not a divine compass, but a masterfully crafted evolutionary toolkit designed to help social primates survive and reproduce. By exposing the hidden biological wiring behind our noble virtues and selfish hypocrisies, Robert Wright shows how understanding our primal design is the only way to genuinely master it.",
       "coreThesis": "Our moral sentiments, romantic yearnings, and social ideals were forged by natural selection to propagate genes, not to deliver objective truth or universal goodwill; recognizing our built-in hypocrisies is the prerequisite for genuine moral growth.",
@@ -38851,6 +39865,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "77cc014f",
     "onePageSummary": {
       "elevatorPitch": "Clutter is not just physical mess; it is unmade decisions stealing your focus, money, and time. Clear away the excess stuff to instantly unlock the bandwidth for the goals and relationships that actually matter.",
       "coreThesis": "True abundance is found not by accumulating more possessions, but by intentionally removing the nonessential to make space for what matters most.",
@@ -38888,6 +39903,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1942,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "160e571e",
     "onePageSummary": {
       "elevatorPitch": "Life offers no built-in script or cosmic guarantee, yet that void is not an excuse for despair\\u2014it is an invitation to total clarity and unshakeable inner freedom. By owning daily effort without demanding eternal applause, you transform routine labor into personal triumph.",
       "coreThesis": "Cosmic meaning is not handed down from above; authentic dignity begins when you accept life's silence and master your daily labor with quiet joy.",
@@ -38925,6 +39941,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a9b25a2d",
     "onePageSummary": {
       "elevatorPitch": "Behind every arrogant posture, bullying tirade, and manipulative charmer lurks an unbearable core of hidden shame. Clinical psychologist Joseph Burgo unmasks the spectrum of extreme narcissism and provides a practical, field-tested toolkit to protect your sanity without getting pulled into their crossfire.",
       "coreThesis": "Extreme narcissism is an unconscious, armor-plated defense mechanism designed to repel deep-seated shame by constantly projecting defectiveness and inferiority onto others.",
@@ -38962,6 +39979,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8c3453ea",
     "onePageSummary": {
       "elevatorPitch": "What if reality is not built out of dead matter, but is pure, living awareness experiencing itself? Rupert Spira presents a direct, grounded path to dismantle the illusion of separation and discover lasting inner peace.",
       "coreThesis": "Consciousness is the fundamental reality of the universe, and our true identity is this infinite, peaceful knowing rather than a fragile, separate body-mind.",
@@ -38999,6 +40017,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "dfd54826",
     "onePageSummary": {
       "elevatorPitch": "True fulfillment is not a passive mood you fall into, but an active discipline you hone every day. By steering between emotional extremes with practical wisdom, you cultivate an unshakeable character that anchors you through life's storms.",
       "coreThesis": "Flourishing is the continuous activity of human excellence guided by practical reason, mastered through lifelong habits that hold the balanced middle between extremes.",
@@ -39036,6 +40055,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1984,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2e67c47d",
     "onePageSummary": {
       "elevatorPitch": "Suffering is not a life sentence\\u2014it is an internal friction created by misperceiving reality. Bhikkhu Bodhi delivers a masterclass on the Buddha's timeless blueprint, showing how eight interconnected habits systematically untangle anxiety and deliver unshakeable inner peace.",
       "coreThesis": "Suffering arises because we mistake transient sensations for a solid, permanent self; liberation is realized by cultivating an integrated training in ethical harmony, calm focus, and penetrating experiential wisdom.",
@@ -39073,6 +40093,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1974,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ae6c3d2d",
     "onePageSummary": {
       "elevatorPitch": "Stop building your life upon quicksand. This ancient spiritual masterpiece reveals how to pivot from chasing fragile, fleeting securities to uncovering the unshakeable peace already present within pure awareness.",
       "coreThesis": "True freedom begins the moment you stop demanding lasting fulfillment from impermanent things and instead discover the deathless, unconditioned peace of direct awareness.",
@@ -39110,6 +40131,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "af3017b2",
     "onePageSummary": {
       "elevatorPitch": "Long before you finish your opening sentence, your posture, gaze, and micro-movements have already negotiated the room. Body language is not mystical mind reading; it is a visible biological dashboard that broadcasts your true confidence, warmth, and intentions in real time.",
       "coreThesis": "Nonverbal cues are involuntary biological readouts that overpower verbal speech; achieving true influence requires reading clusters against baselines while deliberately projecting physical warmth and competence.",
@@ -39147,6 +40169,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "df31636d",
     "onePageSummary": {
       "elevatorPitch": "What if depression isn't just severe sadness, but an acute loss of emotional vitality and agency? Andrew Solomon constructs an exhaustive, compassionate master atlas mapping the neurological, chemical, historical, and cultural terrain of human despair.",
       "coreThesis": "Depression is not the presence of sadness, but the total absence of emotional vitality; enduring recovery requires integrating pharmacological calibration, therapeutic restructuring, and deep communal support into a permanent personal maintenance ecosystem.",
@@ -39184,6 +40207,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1989,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8ff0a083",
     "onePageSummary": {
       "elevatorPitch": "Stop fighting your willpower and cure procrastination by scheduling guilt-free rest and play first. When work is no longer an open-ended prison sentence, your natural drive and focus instantly turn back on.",
       "coreThesis": "Procrastination is an emotional defense mechanism against fear and unrewarded pressure; when you guarantee guilt-free play and replace coercive self-talk with short, focused starting sprints, productive momentum becomes automatic.",
@@ -39221,6 +40245,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "546c5ed2",
     "onePageSummary": {
       "elevatorPitch": "The Buddha's most practical handbook of liberation, systematically categorized from ones to elevens like a master blueprint for human consciousness. It cuts through mystification to show how steady awareness, calm discipline, and clear seeing dissolve everyday suffering.",
       "coreThesis": "Suffering is not an inevitable life sentence; it is a mechanical byproduct of an uninspected mind that dissolves completely when wholesome habits, steady awareness, and clear insight are methodically cultivated.",
@@ -39258,6 +40283,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3faab996",
     "onePageSummary": {
       "elevatorPitch": "Obesity is not a moral failing of willpower or a simple mathematical mistake of calories, but an internal hormonal thermostat stuck on high. By understanding that insulin commands the body to hoard fuel, you can use dietary composition and meal timing to reset your metabolic gauge.",
       "coreThesis": "Obesity is a multihormonal disorder of energy partitioning driven by chronically elevated insulin and insulin resistance, not a simple caloric surplus.",
@@ -39295,6 +40321,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "72c40940",
     "onePageSummary": {
       "elevatorPitch": "When external events derail your itinerary, the roadblock isn't halting your voyage\\u2014it has just provided the exact terrain your engine was built to conquer. By running every disruption through a disciplined three-part circuit of Perception, Action, and Will, friction ceases to be dead weight and transforms into rocket fuel.",
       "coreThesis": "Adversity is not an interruption to the mission; it provides the physical raw material that advances the mission.",
@@ -39332,6 +40359,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "efe577df",
     "onePageSummary": {
       "elevatorPitch": "Extraordinary results are rarely the product of working harder; they come from aiming all your energy at a single lead domino that topples every other obstacle. Master the art of extreme focus, protect your peak hours, and watch clarity replace burnout.",
       "coreThesis": "Extraordinary success is sequential, not simultaneous: by identifying and executing your single most impactful priority first, everything else becomes easier or unnecessary.",
@@ -39369,6 +40397,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "32aec734",
     "onePageSummary": {
       "elevatorPitch": "Stop fearing life, loss, and death by realizing you were never an isolated island in the first place. Thich Nhat Hanh cuts through centuries of confusing jargon to show that emptiness is not a terrifying void, but the vibrant, interconnected reality of everything in existence.",
       "coreThesis": "Emptiness does not mean you do not exist; it means you are empty of an isolated, permanent self and full of the entire universe.",
@@ -39406,6 +40435,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "057819a0",
     "onePageSummary": {
       "elevatorPitch": "Great CEOs are not charismatic cheerleaders; they are ruthless, calculating capital allocators. Outperforming the market by a factor of twenty requires treating every dollar of cash flow like an investor sizing up a portfolio.",
       "coreThesis": "A CEO's ultimate responsibility is not operational cheerleading, but optimizing per-share value through relentless, rational capital allocation.",
@@ -39443,6 +40473,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6d783412",
     "onePageSummary": {
       "elevatorPitch": "Most people believe taking huge gulps of air delivers more oxygen, but modern science reveals the exact opposite: overbreathing starves your muscles and brain. By learning to breathe less through your nose, you unlock hidden endurance, sharper focus, and natural altitude conditioning without leaving sea level.",
       "coreThesis": "Oxygen delivery to your vital tissues is governed not by how deeply you inhale, but by how efficiently you conserve carbon dioxide through quiet, rhythmic nasal breathing.",
@@ -39480,6 +40511,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1928,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cd7b5cec",
     "onePageSummary": {
       "elevatorPitch": "When civil unrest and human memory faltered, a humble island gathered the Buddha's direct path to freedom and preserved it against the tides of time. Malalasekera illuminates how this living wisdom library was safeguarded across millennia to awaken everyday minds right now.",
       "coreThesis": "The true guardian of peace is disciplined awareness: kingdoms decay and conditions shift endlessly, but distilled meditative wisdom remains pristine when preserved with humility and care.",
@@ -39517,6 +40549,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8ddbc0d8",
     "onePageSummary": {
       "elevatorPitch": "Paper clutter is not a moral failing; it is an engineering problem caused by obsolete filing systems. The Paper Solution gives you a plug-and-play operating system to eliminate 85% of your paper backlog and run your entire household from a single weekly routine and portable reference binders.",
       "coreThesis": "Up to 85% of household paper is actionable noise that can be discarded, while the remaining 15% should be managed through an active weekly triage basket and portable, category-specific binders instead of a dead filing cabinet.",
@@ -39554,6 +40587,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9ec5775a",
     "onePageSummary": {
       "elevatorPitch": "You cannot escape suffering by trying to destroy your ego; you escape by using a healthy, focused mind as a practical raft until you reach the opposite shore.",
       "coreThesis": "Liberation does not come from destroying the self, but from skillfully using a disciplined identity and focused stillness as a temporary raft to cross beyond all identity.",
@@ -39591,6 +40625,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a2c4db00",
     "onePageSummary": {
       "elevatorPitch": "Modern culture promises that multiplying choices multiplies freedom, but cognitive mechanics reveal the exact opposite. Too many paths trigger analysis paralysis, inflated expectations, and relentless self-blame.",
       "coreThesis": "Unrestrained choice transforms freedom into mental paralysis and chronic regret. Cultivating voluntary constraints and choosing 'good enough' reliably unlocks genuine well-being.",
@@ -39627,6 +40662,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "164f0af9",
     "onePageSummary": {
       "elevatorPitch": "Your life is speaking to you every single day through quiet nudges and gut instincts. When you learn to listen to those subtle whispers, your authentic purpose unfolds with calm clarity.",
       "coreThesis": "Your purpose is not an elusive prize to chase, but an inner compass already active inside you that demands quiet listening, disciplined alignment, and selfless service.",
@@ -39664,6 +40700,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1961,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ea658dcc",
     "onePageSummary": {
       "elevatorPitch": "Before you can quiet the mind, you must calm the storm of daily conduct; *The Path of Freedom* delivers a pristine, ancient engineering manual for purifying human awareness from restless confusion into radical inner peace. It strips spiritual practice of superstition, presenting an orderly, step-by-step roadmap from ethical alignment to unwavering stillness and total mental liberation.",
       "coreThesis": "Genuine spiritual freedom is not an elusive altered state, but the natural result of living with ethical clarity, steadying attention through tailored meditation, and seeing through the illusion of a solid self.",
@@ -39701,6 +40738,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1961,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "cca5c24f",
     "onePageSummary": {
       "elevatorPitch": "Suffering does not come from life's events, but from our frantic impulse to claim and hold them. By opening your grip and seeing through the illusion of ownership, inner peace becomes your immediate, natural baseline.",
       "coreThesis": "Suffering arises entirely from mistaking transient experiences for a permanent self; release the grasping, and peace immediately reveals itself as your natural state.",
@@ -39738,6 +40776,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1956,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e8407660",
     "onePageSummary": {
       "elevatorPitch": "Regarded as the master operating manual for the human mind, this classic work provides a systematic, ground-level blueprint for clearing inner turbulence and awakening to lasting freedom.",
       "coreThesis": "Genuine inner freedom is not an accidental flash of luck, but a stepwise cultivation: grounded ethics calm the storm, concentrated focus steadies the vision, and direct insight dissolves the illusion of an isolated ego.",
@@ -39775,6 +40814,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1985,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9ec323f9",
     "onePageSummary": {
       "elevatorPitch": "Serenity settles the turbulent silt of the mind; insight sees straight to the bedrock of reality. Bhante Gunaratana illuminates the classical Buddhist path of meditative absorption, transforming deep concentration into the sharpest lens for lasting inner freedom.",
       "coreThesis": "Profound mental stillness and penetrative insight are interdependent: serene absorption quietens the noise of the mind so that wisdom can directly see through the illusion of self and end suffering.",
@@ -39812,6 +40852,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1952,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b2366400",
     "onePageSummary": {
       "elevatorPitch": "Step into the ultimate original manual of inner freedom, where twenty-five centuries of Buddhist meditation are distilled into a clear, no-nonsense roadmap. Cut through mental clutter and discover how ethical clarity, stable attention, and piercing insight dismantle stress at its root.",
       "coreThesis": "Genuine inner liberation is not mystical chance, but an orderly training of the mind: clean ethical living quiets inner turmoil, steady concentration unifies attention, and direct insight into impermanence dissolves the illusion of an isolated ego.",
@@ -39849,6 +40890,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "90e78953",
     "onePageSummary": {
       "elevatorPitch": "The Patimokkha is not a rigid penal code, but the ancient blueprint for an unburdened mind. By creating clean external boundaries, it strips away mental friction so pure awareness can rest in stillness.",
       "coreThesis": "Genuine inner freedom requires clear outer boundaries; when ethical conduct eliminates remorse and guilt, the mind effortlessly settles into tranquil, unshakeable awareness.",
@@ -39886,6 +40928,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1946,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9f193bc6",
     "onePageSummary": {
       "elevatorPitch": "Step behind the curtain of your own mind and discover that the heavy ego you carry is not a permanent stone statue, but a flowing, luminous stream of momentary events. E.W. Adikaram illuminates the ancient Buddhist architecture of consciousness, giving you the contemplative blueprint to dissolve psychological baggage and rest in immediate, liberated awareness.",
       "coreThesis": "You are not a solid, permanent ego trapped in a hostile world, but a radiant, interconnected continuum of momentary mental events. By seeing the fine mechanics of consciousness in immediate experience, clinging evaporates and natural inner freedom reveals itself.",
@@ -39923,6 +40966,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1947,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "63953b56",
     "onePageSummary": {
       "elevatorPitch": "When an indifferent plague locks down a coastal city, a dedicated physician rejects panic and false hope to wage a quiet, daily fight for human dignity. Camus reveals that when life strips away all comfort, our truest purpose is simply doing our honest duty beside one another.",
       "coreThesis": "The universe is indifferent to our plans, but our dignity is forged by performing our honest duty and caring for our neighbors without demanding a cosmic reward.",
@@ -39960,6 +41004,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2e532aeb",
     "onePageSummary": {
       "elevatorPitch": "Your thoughts and moods do not drive your body; your autonomic nervous system drives your thoughts and moods. Deb Dana decodes the biological operating system running beneath conscious awareness, giving you a practical toolkit to steer out of survival panic and anchor into calm connection.",
       "coreThesis": "Our internal state dictates our story: physiological safety is the prerequisite for rational thinking, clear communication, and emotional resilience.",
@@ -39997,6 +41042,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2007,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d308a0e9",
     "onePageSummary": {
       "elevatorPitch": "Saying no is not an act of aggression; it is an act of strategic defense that protects your highest-value assets without burning critical relationships. Master the Yes-No-Yes sandwich to turn defensive refusals into constructive, durable agreements.",
       "coreThesis": "A powerful No is never a destructive reaction to someone else; it is the tactical defense of a deeper, pre-existing affirmative priority delivered with absolute clarity and calm operational respect.",
@@ -40034,6 +41080,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2007,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7841f820",
     "onePageSummary": {
       "elevatorPitch": "Words represent only the surface contract in negotiation and human interaction; your non-verbal signaling controls the actual leverage. Tonya Reiman provides a tactical manual for decoding involuntary behavioral signals and engineering your physical presence to dominate every encounter.",
       "coreThesis": "Human decision-making is driven by evolutionary non-verbal cues that bypass rational filters; commanding the silent physical channel guarantees asymmetric influence and impenetrable credibility.",
@@ -40071,6 +41118,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1944f2aa",
     "onePageSummary": {
       "elevatorPitch": "Stop trying to manage your hours and start mastering your energy. True high performance is not a marathon of nonstop grinding, but a rhythm of short, focused sprints backed by deliberate recovery.",
       "coreThesis": "Energy, not time, is the fundamental currency of high performance; sustainable excellence requires balancing rhythmic energy expenditure with disciplined recovery across body, emotions, mind, and spirit.",
@@ -40108,6 +41156,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "79a12459",
     "onePageSummary": {
       "elevatorPitch": "Your daily decisions are not intentional choices\\u2014over forty percent are automated routines running on cognitive autopilot. Master the mechanics of the habit loop, and you seize direct control over human performance, organizational execution, and market behavior.",
       "coreThesis": "Habits run on a three-part mechanical loop\\u2014cue, routine, reward\\u2014and can never be eradicated, only modified by inserting a new routine between the existing cue and craving.",
@@ -40145,6 +41194,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1968,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "87bb437d",
     "onePageSummary": {
       "elevatorPitch": "Mindfulness is not a rigid battle against your thoughts, but an extraordinarily calm, quiet power that transforms the mind simply by seeing things as they are. By practicing bare, non-judgmental attention, you unlock clarity, inner stillness, and freedom from habitual reaction.",
       "coreThesis": "Direct, non-reactive observation\\u2014Bare Attention\\u2014possesses an inherent, quiet strength that untangles mental clutter, disarms compulsive habits, and reveals reality with liberating clarity.",
@@ -40182,6 +41232,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1968,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "37800eb3",
     "onePageSummary": {
       "elevatorPitch": "Step out of mental turbulence and discover the quiet power of bare attention: observing your experience cleanly before reactivity hijacks your peace.",
       "coreThesis": "Freedom from psychological suffering does not require fighting your mind, but holding present experience in calm, non-reactive bare attention.",
@@ -40219,6 +41270,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1997,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5f5dad9f",
     "onePageSummary": {
       "elevatorPitch": "Most human suffering is a phantom created by an overactive mind replaying yesterday or fearing tomorrow. By stepping out of the mental noise into the present moment, you discover an unshakeable inner peace that is already here.",
       "coreThesis": "You are not the compulsive thinker in your head; you are the silent, witnessing awareness beneath it. Real freedom begins the moment you inhabit the present moment fully and stop resisting what is.",
@@ -40256,6 +41308,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "83a9bc38",
     "onePageSummary": {
       "elevatorPitch": "Stop forcing yourself into someone else's 5 AM routine and unlock the hidden power of your biological clock. When you match your daily actions to your internal biological rhythm, peak performance transforms from an exhausting battle into second nature.",
       "coreThesis": "Peak productivity is not a test of raw willpower; it is an act of biological timing. Aligning what you do with your genetically hardwired chronotype unlocks effortless focus, deeper recovery, and superior daily performance.",
@@ -40293,6 +41346,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "dc667c45",
     "onePageSummary": {
       "elevatorPitch": "Morality in early Buddhism is not a set of restrictive dogmas designed to control you, but a master craft of mental hygiene that silences inner agitation. By aligning your speech, work, and conduct, you build a serene, guilt-free runway where genuine meditation and direct spiritual liberation become effortless.",
       "coreThesis": "Authentic moral conduct is not external obedience, but practical mental hygiene; clearing away harmful action eliminates inner remorse, naturally generating the calm clarity required for spiritual awakening.",
@@ -40330,6 +41384,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1993,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d472273e",
     "onePageSummary": {
       "elevatorPitch": "Transform raw physical discomfort and mental distraction into crystal-clear insight through the gentle, meticulous art of moment-to-moment noting. A masterclass in Theravada Vipassana, this classic guide shows how direct, kind observation uncouples awareness from suffering.",
       "coreThesis": "Suffering dissolves when sensations and thoughts are observed directly with calm, continuous mindfulness rather than resisted through mental aversion or grasped with craving.",
@@ -40367,6 +41422,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1998,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "55c02c20",
     "onePageSummary": {
       "elevatorPitch": "Stop mistaking mental concepts for reality. This master manual turns your attention into a high-powered laboratory microscope, systematically dismantling the illusion of self until liberation reveals itself.",
       "coreThesis": "Profound, unshakeable mental stillness generates the luminous clarity required to dissect physical and mental phenomena into their momentary components, extinguishing ignorance and realizing unconditional freedom.",
@@ -40404,6 +41460,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "aa530dc0",
     "onePageSummary": {
       "elevatorPitch": "Mastery is not a static trophy waiting at the finish line\\u2014it is a cognitive discipline of falling in love with the mechanics of the current step. By synchronizing your mind with the physical task directly in front of you, frustration vanishes and peak performance emerges naturally.",
       "coreThesis": "True focus and discipline arise when you detach from the final outcome and invest your entire cognitive energy into the exact physical process occurring in the present moment.",
@@ -40441,6 +41498,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "572d5747",
     "onePageSummary": {
       "elevatorPitch": "A timeless user's manual for the human mind, organizing ancient Stoic wisdom into clear, practical psychological tools. It teaches you how to master your interpretations so outside chaos cannot disturb your inner calm.",
       "coreThesis": "Suffering stems not from what happens in the world, but from the unexamined judgments we make about it. Master your interpretations, and you master your life.",
@@ -40478,6 +41536,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1532,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "43b6f78d",
     "onePageSummary": {
       "elevatorPitch": "Stop governing through wishful thinking and start navigating the boardroom chessboard as it actually exists. This unsentimental masterclass strips away moral posturing to show how sovereign authority is won, exercised, and insulated against systemic chaos.",
       "coreThesis": "Sustainable leadership demands seeing the world as it operates, not as it should; enduring power relies entirely on sovereign self-sufficiency, aligned incentives, and decisive execution.",
@@ -40515,6 +41574,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1965,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4bf04527",
     "onePageSummary": {
       "elevatorPitch": "What if your sense of an isolated 'self' is simply an optical illusion created by the high frame-rate of conscious thoughts? Mahasi Sayadaw breaks open the internal machinery of human perception like a master engineer, charting the exact developmental stages of psychological liberation.",
       "coreThesis": "The human ego is not a permanent entity but a continuous cognitive feedback loop, which systematically deconstructs when observed with relentless, high-resolution mindfulness.",
@@ -40552,6 +41612,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1965,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e9186906",
     "onePageSummary": {
       "elevatorPitch": "Stop wrestling with your mind and start labeling what is actually happening. This classic roadmap reveals how simple, steady mental noting dissolves emotional turmoil and leads directly to enduring spiritual freedom.",
       "coreThesis": "Suffering dissolves when you stop identifying with passing thoughts and physical sensations, observing them objectively through continuous, gentle present-moment notation until the mind discovers unconditioned freedom.",
@@ -40589,6 +41650,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "624daa03",
     "onePageSummary": {
       "elevatorPitch": "Sleep is not a passive timeout from real life; it is an active biological maintenance cycle governed by two opposing internal engines. Mastering these twin engines unlocks peak daytime vitality and safeguards long-term health.",
       "coreThesis": "Your daytime energy and vitality are determined by an exact mathematical balance between your accumulated Sleep Debt and your 24-hour Circadian Clock.",
@@ -40626,6 +41688,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1972,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2b1dbb20",
     "onePageSummary": {
       "elevatorPitch": "Long before modern therapy, the Buddha diagnosed human dissatisfaction as an untrained mental reflex rather than a cosmic defect. This book lays out early Buddhism's master blueprint for observing your thoughts, dismantling ego illusions, and regaining serenity from the inside out.",
       "coreThesis": "Human distress is not imposed by the external world, but constructed moment by moment in the untrained mind; by systematically observing and cleansing mental volitions, true liberation is realized right here.",
@@ -40663,6 +41726,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1939,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2b7f38be",
     "onePageSummary": {
       "elevatorPitch": "Lama Anagarika Govinda strips away religious dogma to reveal early Buddhism as an exact, empirical psychology of human liberation. By mapping the swift current of your thoughts, this masterpiece shows how waking up to immediate awareness dissolves suffering and reveals natural inner peace.",
       "coreThesis": "The self is not a static soul to defend, but a dynamic, interconnected stream of conscious moments; by observing this stream without clinging, suffering naturally dissolves into direct, compassionate clarity.",
@@ -40700,6 +41764,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8966f301",
     "onePageSummary": {
       "elevatorPitch": "Selling is not an unpredictable lottery of charisma; it is an exact cognitive feedback loop where invisible mental scripts dictate real-world revenue. Master the internal psychology of the seller and the hidden decision mechanics of the buyer, and closing becomes as predictable as gravity.",
       "coreThesis": "Sales results are the direct external mirror of an individual's internal self-concept, and transactions succeed only when the seller systematically neutralizes the buyer's instinctive fear of loss through deep diagnosis and unconditional trust.",
@@ -40737,6 +41802,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1985,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f50d696c",
     "onePageSummary": {
       "elevatorPitch": "Authentic nobility has nothing to do with social status, pedigree, or ritual performance\\u2014it is the direct fruit of an unburdened, pristine awareness. This culminating teaching reveals how anyone can dismantle mental clinging and inhabit a state of quiet, unshakable inner freedom.",
       "coreThesis": "True spiritual purity is not an inherited privilege or an external performance, but the inner freedom of a mind stripped clean of craving, hostility, and self-centered delusion.",
@@ -40774,6 +41840,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1890,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ed5d8e0b",
     "onePageSummary": {
       "elevatorPitch": "When a sharp, skeptical king interrogates an unflappable monk, ancient philosophical puzzles crack open into immediate, everyday clarity. It is the ultimate guide to discovering who you actually are when the illusion of ego falls away.",
       "coreThesis": "The self is not an unchanging inner owner, but a dynamic, interconnected process of awareness and action that can be understood and liberated through clear inquiry.",
@@ -40811,6 +41878,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1962,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d00194cd",
     "onePageSummary": {
       "elevatorPitch": "Public speaking is not an elusive genetic gift, but an engineerable behavioral circuit where stage fright is converted into kinetic drive. Master the exact conversational mechanics that align human attention, dismantle cognitive resistance, and move listeners to decisive action.",
       "coreThesis": "Compelling public speaking is an enlarged, authentic conversation fueled by lived conviction and structured to serve the listener's mental bandwidth rather than a performer's ego.",
@@ -40848,6 +41916,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "03fde275",
     "onePageSummary": {
       "elevatorPitch": "Mindfulness is not a temporary quiet escape from real life\\u2014it is the continuous recognition of things exactly as they are. By grounding awareness in the classic Satipatthana framework, you learn to rest in the natural clarity of awareness whether sitting in silence or driving through rush-hour traffic.",
       "coreThesis": "Awareness itself is intrinsically luminous and free; by sustaining continuous, non-judgmental presence with body, feelings, and thoughts, we dissolve habitual grasping and live with effortless peace.",
@@ -40885,6 +41954,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1971,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8f7c59de",
     "onePageSummary": {
       "elevatorPitch": "Liberation is not a distant, supernatural miracle; it is an organic harvest cultivated through thirty-seven exact, practical qualities of mind. Ven. Ledi Sayadaw breaks down the mechanics of awakening with the precision of an engineer and the tenderness of an elder guide.",
       "coreThesis": "Awakening is a methodical cultivation of thirty-seven mental qualities that anyone can nurture right in the midst of ordinary life. Freedom occurs naturally when mindfulness and discernment clear away the mistaken illusion of a separate, permanent self.",
@@ -40922,6 +41992,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1992,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "89b1397d",
     "onePageSummary": {
       "elevatorPitch": "Your natural voice is not broken; it is merely imprisoned beneath decades of accumulated physical tension and defensive habits. By viewing the voice as a finely tuned biological instrument, Patsy Rodenburg shows how releasing bodily friction restores effortless resonance, authority, and expressive power.",
       "coreThesis": "Powerful, resonant speech does not come from forcing sound outward; it happens when you systematically eliminate bodily tension, allowing your natural breath and physical resonators to communicate with unblocked authority.",
@@ -40959,6 +42030,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4813e272",
     "onePageSummary": {
       "elevatorPitch": "Why do decent, reasonable people turn into hostile rivals over politics and faith? Jonathan Haidt reveals that our moral judgments run on automatic gut instincts, while our logic merely works overtime to justify them.",
       "coreThesis": "Intuitions come first, strategic reasoning comes second, and morality binds us into loyal teams while blinding us to alternative viewpoints.",
@@ -40996,6 +42068,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1982,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c6251b00",
     "onePageSummary": {
       "elevatorPitch": "Stop fighting the turbulent current of life and discover the unshakeable stillness of an examined mind. This timeless guide reveals that lasting peace is not a distant belief system, but an immediate, practical art of clear seeing available in every breath.",
       "coreThesis": "Inner freedom is not acquired by escaping the world, but by purifying attention and seeing that the self is an open, flowing process rather than a solid castle to defend.",
@@ -41033,6 +42106,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1978,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a3e50715",
     "onePageSummary": {
       "elevatorPitch": "Your mind is an ecosystem shaped entirely by six root motives: three poison the soil, while three make it flourish. By learning to identify and uproot greed, aversion, and delusion at their psychological source, you unlock unshakeable clarity and lasting inner freedom.",
       "coreThesis": "All psychological suffering and moral failure originate from greed, hatred, and delusion; genuine liberation arises when clear mindfulness and insight replace these poisons with generosity, loving-kindness, and wisdom.",
@@ -41070,6 +42144,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "81685e55",
     "onePageSummary": {
       "elevatorPitch": "Stop treating sales like theatrical charisma and start engineering it like a precision chemistry lab. When revenue is recurring, a signed contract is not the finish line\\u2014it is merely the halfway ignition point of a continuous value loop.",
       "coreThesis": "Sustainable recurring revenue is an engineered byproduct of continuous customer impact, governed by mathematical pipeline velocity rather than charismatic individual heroics.",
@@ -41107,6 +42182,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "44eb797b",
     "onePageSummary": {
       "elevatorPitch": "Traditional sales management relies on gut instinct, charismatic bluster, and unrepeatable luck. Mark Roberge re-engineers revenue generation into an exact, testable science\\u2014building a predictable $100M revenue engine out of structured hiring, diagnostic coaching, and data-driven marketing alignment.",
       "coreThesis": "Sustainable hypergrowth is not achieved through charismatic artistry, but by engineering a transparent, data-driven revenue laboratory where hiring, training, coaching, and lead flow operate as predictable, measurable processes.",
@@ -41144,6 +42220,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a372a6a0",
     "onePageSummary": {
       "elevatorPitch": "Traditional selling is a broken dance where eager vendors audition and wary buyers hide behind polite deflections. The Sandler Rules completely flips the board, teaching you to run sales conversations like an objective doctor diagnosing a patient rather than a street hawker begging for attention.",
       "coreThesis": "Buyers make decisions emotionally and justify them intellectually, meaning true sales mastery comes from diagnostic questioning and mutual clarity rather than high-pressure persuasion.",
@@ -41181,6 +42258,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "99b8e1ed",
     "onePageSummary": {
       "elevatorPitch": "True strength lies not in defending your fortress, but in mapping the terrain honestly. When you seek reality over victory, you discover unshakeable calm and lasting clarity.",
       "coreThesis": "Wisdom begins when the desire to see reality accurately outweighs the impulse to defend personal pride.",
@@ -41217,6 +42295,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "12e52fef",
     "onePageSummary": {
       "elevatorPitch": "When scaling the mountain of personal ambition leaves you burnt out and empty, an entirely different peak awaits. This book charts how personal breakdown can trigger an identity evolution from self-centered achievement to radical, generative commitment.",
       "coreThesis": "True fulfillment is not achieved by maximizing personal freedom and individual status, but by joyfully surrendering autonomy to four deep commitments: vocation, marriage, philosophy/faith, and community.",
@@ -41254,6 +42333,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "23a8fef4",
     "onePageSummary": {
       "elevatorPitch": "Money is never just math; it is a mirror reflecting our deepest insecurities, desires, and unexamined emotional scripts. Mastering your balance sheet requires first rewriting the psychological narrative that quietly sabotages your financial decisions.",
       "coreThesis": "Money speaks in two languages: the literal arithmetic of numbers and the unconscious narrative of emotional symbolism. You can only achieve true wealth and lasting peace of mind when you identify and rewrite the unexamined psychological script driving your financial behavior.",
@@ -41291,6 +42371,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1976,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "702bebe1",
     "onePageSummary": {
       "elevatorPitch": "We are temporary vehicles engineered by immortal code. Strip away sentiment, and nature reveals an eye-opening truth: genes drive life to perpetuate themselves, yet understanding this code gives us the unique power to defy it.",
       "coreThesis": "The fundamental unit of natural selection is not the species or the individual, but the self-copying gene. Living organisms are transient survival vehicles designed to propagate their underlying code.",
@@ -41328,6 +42409,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4f9dc977",
     "onePageSummary": {
       "elevatorPitch": "Human storytelling operates on a hidden universal operating system: just seven core archetypal plot blueprints that mirror our psychological quest for balance and maturity. By decoding these timeless narrative algorithms, we uncover not only why great stories move us, but how human minds make sense of real-world crises, growth, and renewal.",
       "coreThesis": "All storytelling is an evolutionary psychological toolkit governed by seven universal plot patterns, designed to guide the human mind from egocentric imbalance toward integrated maturity and wholeness.",
@@ -41365,6 +42447,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1960,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1e9dada7",
     "onePageSummary": {
       "elevatorPitch": "Awakening is not a mystical lottery; it is an exact psychological science of tuning seven qualities of conscious awareness. Piyadassi Thera provides a master blueprint for harmonizing active energy and calm stillness into direct inner freedom.",
       "coreThesis": "Enlightenment is the natural fruition of seven balanced mental factors supervised by constant mindfulness, transforming raw reactive awareness into liberated, unshakable peace.",
@@ -41402,6 +42485,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4b530775",
     "onePageSummary": {
       "elevatorPitch": "What if marital success is not an inscrutable mystery, but a measurable biological and behavioral system with clear rules? Decades of laboratory data prove that enduring love hinges on micro-moments of emotional friendship and structural repair, not conflict-free perfection.",
       "coreThesis": "Lasting love is built on the mundane architecture of daily emotional connection and mutual respect, which creates an immunological buffer against inevitable perpetual conflicts.",
@@ -41439,6 +42523,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "884f6132",
     "onePageSummary": {
       "elevatorPitch": "Our memory is not a broken camcorder; it is a living editing suite that trims clutter so we can make swift decisions. Its seven everyday flaws are actually the hidden price tags of an adaptive, brilliant mind.",
       "coreThesis": "Memory glitches are not biological bugs; they are the natural trade-offs of an efficient, flexible system designed for survival rather than verbatim recording.",
@@ -41476,6 +42561,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1983,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "161d7bf2",
     "onePageSummary": {
       "elevatorPitch": "Awakening is not an accidental lightning bolt\\u2014it is a precise, reproducible process of clearing away mental dust step by step. Matara Sri Nanarama provides a direct, master-crafted roadmap detailing how disciplined attention turns everyday confusion into unshakeable spiritual freedom.",
       "coreThesis": "Genuine spiritual liberation is a systematic sequence of mental clarities, where ethical integrity settles the mind, deep stillness unlocks objective seeing, and thorough observation dissolves the illusion of a separate self.",
@@ -41513,6 +42599,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e5611b8a",
     "onePageSummary": {
       "elevatorPitch": "Your brain is not fixed cement\\u2014it is living soil shaped by every tool you touch. By trading deep books for the relentless stream of digital feeds, we are rewiring our minds for rapid skimming at the expense of sustained contemplation.",
       "coreThesis": "The brain physically adapts to the media tools it uses most: by trading linear reading for rapid online skimming, we sacrifice deep, reflective thinking for fast, fragmented data processing.",
@@ -41550,6 +42637,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f401b480",
     "onePageSummary": {
       "elevatorPitch": "Suffering is not an inescapable fate or a single historical accident; it is an active mechanical loop your mind continuously manufactures right now. By learning where to unplug this causal feedback circuit in real-time, you dismantle stress at its root and step into profound, unconditioned peace.",
       "coreThesis": "Suffering is an active, ongoing process of mental fabrication sustained by real-time feedback loops. By developing calm discernment at key causal junctions in the present moment, you stop feeding the loop and bring stress to an end.",
@@ -41587,6 +42675,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1849,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9885ad01",
     "onePageSummary": {
       "elevatorPitch": "Your deepest exhaustion is not caused by heavy workloads or bad luck, but by the quiet strain of running away from your authentic self. Real peace begins the moment you stop building a counterfeit life and dare to stand grounded in reality.",
       "coreThesis": "Despair is not an emotional bad mood caused by external loss, but an internal misalignment where a person either despises their authentic self or attempts to invent one independent of truth.",
@@ -41624,6 +42713,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a20c0ac7",
     "onePageSummary": {
       "elevatorPitch": "We generate more data daily than ever, yet our ability to foresee disasters barely improves. Discover the hidden mechanics of probability that separate genuine truth from seductive statistical static.",
       "coreThesis": "The future is inherently probabilistic, not deterministic. Accurate prediction demands filtering out overwhelming noise and constantly updating your beliefs as new evidence arrives.",
@@ -41660,6 +42750,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1959,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a374a26d",
     "onePageSummary": {
       "elevatorPitch": "Beneath every spoken conversation lies an invisible, silent language of time, distance, and rhythm running like hidden code in the background. Anthropologist Edward T. Hall reveals the subconscious social architecture that dictates human behavior long before anyone utters a syllable.",
       "coreThesis": "Culture is communication, and its most influential rules are unspoken patterns of time, physical space, and social rhythm that dictate human behavior below conscious awareness.",
@@ -41697,6 +42788,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1963,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d400322a",
     "onePageSummary": {
       "elevatorPitch": "Before you can dye fabric a brilliant color, you must scour out the grease, grime, and grit. Nyanaponika Thera translates the Buddha's timeless masterclass on cleansing the sixteen mental stains that distort everyday perception and awaken effortless inner freedom.",
       "coreThesis": "The natural luminous clarity of awareness is obscured only by visiting impurities; recognize and dissolve these emotional stains, and the mind spontaneously realizes freedom and universal goodwill.",
@@ -41734,6 +42826,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1962,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1b87f9e3",
     "onePageSummary": {
       "elevatorPitch": "Your beliefs and meditation practices are life rafts built to carry you across turbulent waters, not heavy monuments to carry on your back once you reach the shore. This classic Buddhist treatise offers an indispensable masterclass in spiritual pragmatism, teaching you how to use wisdom to cross the river of suffering and cultivate the ultimate freedom to let go.",
       "coreThesis": "Spiritual teachings and practices are functional vehicles meant solely for crossing out of suffering; when you reach direct understanding, clinging to doctrine becomes the final obstacle to true freedom.",
@@ -41771,6 +42864,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ca13cedc",
     "onePageSummary": {
       "elevatorPitch": "Financial independence is not an exclusive club for Wall Street elites; it is the predictable byproduct of spending less than you earn, avoiding debt like the plague, and parking the surplus in broad-market index funds. JL Collins strips away the financial industry's smoke and mirrors to deliver a bulletproof blueprint for reclaiming absolute control over your time.",
       "coreThesis": "True wealth is the purchase of your own freedom and autonomy. You achieve it not through market timing or stock picking, but by living well below your means, aggressively eliminating debt, and investing the difference in low-cost total stock market index funds while steadfastly ignoring market noise.",
@@ -41808,6 +42902,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e09bb887",
     "onePageSummary": {
       "elevatorPitch": "Liberation is not an accident or a vague philosophy\\u2014it is a refined craft mastered breath by breath. Ajahn Lee shows how to train the mind like an artisan, using conscious breath work to ground stillness, untangle suffering, and attain complete unbinding.",
       "coreThesis": "Freedom from suffering is not an abstract concept, but a technical art developed by mastering bodily breath energy and mental stillness until grasping dissolves naturally.",
@@ -41845,6 +42940,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ef5b6ac7",
     "onePageSummary": {
       "elevatorPitch": "Stop trying to force sleep like a stubborn car engine\\u2014it is an innate biological reflex, not a high-stakes performance test. Dr. W. Chris Winter reveals the hidden neurological dials of sleep drive and circadian rhythm so you can extinguish nighttime panic and reclaim deep, natural rest.",
       "coreThesis": "Sleep is an involuntary biological drive that cannot be forced, only permitted; fixing sleep requires aligning circadian timing, preserving daytime sleep pressure, and stripping away bed-associated anxiety.",
@@ -41882,6 +42978,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1972,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8ee55204",
     "onePageSummary": {
       "elevatorPitch": "We imagine ourselves as free-thinking captains of our own minds, but invisible social currents steer our every choice. This book pulls back the curtain on the hidden mental machinery that dictates how we conform, justify our errors, and connect with others.",
       "coreThesis": "People are fundamentally shaped by their social environment, constantly bending reality and inventing justifications to protect their self-worth and belong to the pack.",
@@ -41919,6 +43016,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "effabd83",
     "onePageSummary": {
       "elevatorPitch": "Stop lecturing the mind into changing\\u2014learn how to interrogate your own assumptions like an expert scientist inspecting a blueprint. By turning rigid convictions into collaborative questions, this book reveals the precise dialectical engine that restores rational clarity and emotional balance.",
       "coreThesis": "Genuine psychological change occurs not by receiving outside advice, but through systematic, collaborative questioning that exposes faulty assumptions and cultivates character virtues from within.",
@@ -41956,6 +43054,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1d2c80e1",
     "onePageSummary": {
       "elevatorPitch": "Stop running on the exhausting, unyielding treadmill of unexamined consumption. Lynne Twist exposes the toxic psychological lie of scarcity and delivers a battle-tested blueprint to turn money into a disciplined tool for integrity, freedom, and lasting peace of mind.",
       "coreThesis": "Scarcity is an engineered cultural illusion designed to keep you insecure; true wealth is achieved when you define 'enough' and direct money as a conscious current behind your deepest principles.",
@@ -41993,6 +43092,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f9994aed",
     "onePageSummary": {
       "elevatorPitch": "Mastery over influence is not an arm-wrestling contest of slick tricks, but a magnetic gravitational field cultivated through character. By practicing eleven daily habits across four human principles, you transform persuasion from an aggressive sales pitch into an authentic, compounding relationship.",
       "coreThesis": "Durable persuasion is an organic byproduct of personal character, not transactional technique; true influence attracts willing alignment by compounding authenticity, generosity, empathy, and integrity.",
@@ -42030,6 +43130,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2007,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2f90338d",
     "onePageSummary": {
       "elevatorPitch": "You do not need to silence your noisy thoughts to find peace; you only need to tune your ear to the spacious, quiet awareness in which those thoughts already come and go. Through the simple practice of listening to the subtle inner 'sound of silence,' Ajahn Sumedho reveals that liberation is not an exotic future achievement, but your immediate, uncluttered natural state.",
       "coreThesis": "Suffering stems from identifying with passing thoughts and demanding that life conform to personal desires; true liberation is realized the moment you take refuge in the silent, spacious awareness that effortlessly witnesses all change.",
@@ -42067,6 +43168,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1991,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "92a5a796",
     "onePageSummary": {
       "elevatorPitch": "Step out of mental chaos into natural clarity. Ven. Piyadassi unpacks the practical psychology of Buddhism as an accessible toolkit for modern inner freedom.",
       "coreThesis": "Suffering is an internal friction born of clinging to transient conditions. True peace arrives when we train the mind to observe reality clearly, dropping the illusion of an isolated, defensive ego.",
@@ -42104,6 +43206,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1977,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1394a7a8",
     "onePageSummary": {
       "elevatorPitch": "You are not an isolated ego trapped inside a bag of skin; you are pure awareness experiencing life through multiple lenses. Ken Wilber's classic unifies Eastern contemplative liberation and Western psychotherapy into one seamless map of human wholeness.",
       "coreThesis": "Human consciousness is a continuous spectrum spanning from disowned psychological shadow to boundless, non-dual presence. Suffering arises when we mistake mental boundaries for reality, and freedom emerges as we dismantle those artificial divisions layer by layer.",
@@ -42141,6 +43244,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8cfa0011",
     "onePageSummary": {
       "elevatorPitch": "Traditional career ladders have collapsed into turbulent white-water rapids where loyalty guarantees nothing. To survive and dominate, you must run your career like an agile Silicon Valley startup: stay in permanent beta, engineer a defensible moat, and leverage strategic alliances to hunt asymmetric upside.",
       "coreThesis": "You are the founder and CEO of your own career enterprise, which demands an adaptive entrepreneurial operating model: stay in permanent beta, plan for iterative pivots, and leverage high-trust networks to capture asymmetric breakout opportunities.",
@@ -42178,6 +43282,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7f324b71",
     "onePageSummary": {
       "elevatorPitch": "Infidelity is not merely a symptom of a broken marriage; it is a profound diagnostic window into the human condition, desire, and identity. Esther Perel pulls back the emotional curtain to show how couples can transform relational catastrophe into honest psychological reinvention.",
       "coreThesis": "Affairs are rarely about finding another person; they are about reconnecting with a lost self, exposing the hidden fault lines of modern romanticism and offering an unexpected catalyst for systemic relationship redesign.",
@@ -42215,6 +43320,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2006,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "599acab8",
     "onePageSummary": {
       "elevatorPitch": "Step out of the storm of mental reactivity into pristine clarity. Revered meditation master Sayadaw U Pandita provides a rigorous, practical blueprint for training your mind until calm awareness becomes your natural home.",
       "coreThesis": "Genuine inner peace is cultivated through ethical discipline, protective goodwill, and razor-sharp moment-to-moment awareness that cuts cleanly through conditioned reactivity.",
@@ -42252,6 +43358,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9637214e",
     "onePageSummary": {
       "elevatorPitch": "Human life is an unending competition for social standing, run by an ancient operating system that dictates every promotion, conflict, and cultural civil war. Master the three fundamental games\\u2014Dominance, Virtue, and Success\\u2014or remain their blind pawn.",
       "coreThesis": "Human behavior is not driven primarily by money or power, but by an instinctual drive to secure status within social hierarchies. Lasting influence comes from mastering competence-driven prestige rather than brute dominance or moral posturing.",
@@ -42289,6 +43396,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "19eb424a",
     "onePageSummary": {
       "elevatorPitch": "Your raw data is like loose seeds on pavement\\u2014it blows away without ever taking root. Carmine Gallo decodes the neurochemical mechanics of how master communicators wrap facts in narrative to spark dopamine, ignite belief, and drive decisive action.",
       "coreThesis": "Ideas do not spread on analytical merit alone; they spread when wrapped in narrative structures that trigger biological empathy and make complex truths unforgettable.",
@@ -42326,6 +43434,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1942,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0b98852f",
     "onePageSummary": {
       "elevatorPitch": "When a quiet man refuses to pretend to feel emotions he does not possess, society sentences him to death for violating its unspoken script. This profound masterpiece asks whether you dare to look at reality without masks and still find deep, unshakeable peace.",
       "coreThesis": "True freedom begins when you stop performing emotions to placate the world, accept the universe's quiet indifference, and anchor your peace entirely in the present reality.",
@@ -42363,6 +43472,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1962,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "05618a9e",
     "onePageSummary": {
       "elevatorPitch": "Thomas Kuhn's landmark 1962 treatise completely demolishes the standard textbook view of science as a neat, linear accumulation of facts and eternal truths. Instead, Kuhn reveals that mature science operates within consensus-driven frameworks called paradigms, which channel energy into rigorous puzzle-solving until mounting, unresolvable anomalies trigger systemic crisis. Resolution occurs not through dispassionate algorithmic proof, but through a scientific revolution\\u2014a disruptive, non-cumulative conceptual rupture where the scientific community undergoes a collective Gestalt shift to a fundamentally incommensurable worldview. Ultimately, the work repositions scientific progress as an evolutionary struggle across discontinuous paradigms, fundamentally redefining the philosophy and sociology of knowledge.",
       "coreThesis": "Scientific development is not a cumulative linear progression toward absolute objective truth, but an episodic, cyclical sequence in which conservative normal science (puzzle-solving within an accepted paradigm) is repeatedly disrupted by anomalies and crises, culminating in non-cumulative revolutions that replace incommensurable worldviews.",
@@ -42400,6 +43510,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1988,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3a19ee7d",
     "onePageSummary": {
       "elevatorPitch": "Mindfulness is not an escape from reality; it is the lens that reveals you are already woven into everything around you. Discover how breathing, peeling an orange, and walking on the earth dissolve the illusion of an isolated self.",
       "coreThesis": "You are not an isolated self trapped inside a body, but an interconnected process of 'interbeing' continuously sustained by the entire universe.",
@@ -42437,6 +43548,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "81ea7b26",
     "onePageSummary": {
       "elevatorPitch": "What happens when you stop fighting reality and let life run itself? This true chronicle shows how yielding personal resistance turns everyday circumstances into an effortless, astonishing adventure.",
       "coreThesis": "True freedom is not getting the world to fit your personal preferences; it is releasing your personal resistance so life's natural intelligence can flow through you unobstructed.",
@@ -42474,6 +43586,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "46de5ec0",
     "onePageSummary": {
       "elevatorPitch": "Strip away millennia of cultural rituals and meet the historical Buddha as an incisive behavioral systems analyst. This work dismantles the machinery of everyday stress using early textual forensics, revealing a repeatable protocol for cognitive freedom.",
       "coreThesis": "Psychological distress is an automated feedback loop triggered when consciousness misidentifies changing, uncontrollable events as a permanent self; dismantling this mistaken assumption through systematic observation permanently switches off reactive suffering.",
@@ -42511,6 +43624,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1985,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2807dcb4",
     "onePageSummary": {
       "elevatorPitch": "Step into the oldest, most direct verses of early Buddhism, stripped of institutional dogma and ornate ritual. This text delivers pure, unembellished guidance on living lightly, dropping mental disputes, and crossing life's turbulent floods with absolute inner freedom.",
       "coreThesis": "Genuine liberation is not the acquisition of superior beliefs or possessions, but the radical, peaceful release of all grasping, defensiveness, and mental clinging.",
@@ -42548,6 +43662,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0a188792",
     "onePageSummary": {
       "elevatorPitch": "Step into the oldest, most intimate verses of the Buddha before religious dogma took root. Here is a stripped-down, practical handbook for shedding anxiety, ending petty arguments, and discovering unconditional peace right where you stand.",
       "coreThesis": "True freedom is not found in defending beliefs or accumulating possessions, but in loosening your mental grip, shedding ideological disputes, and dwelling in peaceful, unattached awareness.",
@@ -42585,6 +43700,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "eb21fba0",
     "onePageSummary": {
       "elevatorPitch": "Step behind the curtain of everyday reality to discover life not as a machine, but as an interconnected, self-generating web. Once you see the hidden feedback loops connecting biology, mind, and society, the entire world reveals its hidden operating system.",
       "coreThesis": "Life is a self-generating, interconnected network of relationships where cognition, biology, and society form an inseparable whole that cannot be understood through isolated parts.",
@@ -42621,6 +43737,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4e171d52",
     "onePageSummary": {
       "elevatorPitch": "Exceptional skill is not an innate gift wired at birth, but an organic biological process of wrapping neural circuits in a living insulator called myelin. By aligning focused practice, emotional ignition, and surgical coaching, anyone can build world-class capability from scratch.",
       "coreThesis": "Mastery is the physiological accumulation of myelin insulating your neural pathways, built through deliberate error-correcting practice, emotional ignition, and targeted micro-coaching.",
@@ -42658,6 +43775,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c881fcd7",
     "onePageSummary": {
       "elevatorPitch": "Stop letting devices dictate your household rhythm\\u2014put technology back in its proper place as a tool for creation rather than an engine of distraction. Andy Crouch delivers a tactical masterclass in designing environments where genuine human connection and deep focus naturally thrive.",
       "coreThesis": "Technology must be kept in its proper place as a secondary tool that supports real-world human capability, rather than an omnipresent environment that displaces active creation and physical presence.",
@@ -42695,6 +43813,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1899,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "70416ba4",
     "onePageSummary": {
       "elevatorPitch": "People do not purchase luxury goods or adopt complex rituals for comfort; they buy them to prove they can afford to waste resources. Thorstein Veblen dismantles the hidden mechanics of human vanity, revealing how status, taste, and corporate rivalries are driven by competitive waste.",
       "coreThesis": "Human consumption and lifestyle choices are primarily competitive weapons designed to signal social superiority through visible waste of time, effort, and money.",
@@ -42732,6 +43851,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d1b26ef8",
     "onePageSummary": {
       "elevatorPitch": "Cut through the noisy overload of modern life with ancient verses that weigh quality over volume. A single sentence heard in stillness delivers greater liberation than a thousand hollow speeches.",
       "coreThesis": "One moment of lucid awareness and self-mastery holds more spiritual value than a lifetime spent chasing superficial achievements or consuming endless empty words.",
@@ -42769,6 +43889,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1981,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "11b2997c",
     "onePageSummary": {
       "elevatorPitch": "Stop trying to freeze a flowing river: discover how embracing the relentless flux of life dissolves anxiety, softens ego, and unlocks deep, unshakeable peace.",
       "coreThesis": "Every physical and mental phenomenon is an ongoing process in constant motion; recognizing this continuous flux dissolves compulsive clinging and reveals enduring mental freedom.",
@@ -42806,6 +43927,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1981,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a073773d",
     "onePageSummary": {
       "elevatorPitch": "You are not a static manager trapped behind your eyes; you are the open sky through which weather passes. This anthology dismantles the illusion of an isolated ego to reveal the boundless peace already present right here.",
       "coreThesis": "There is no permanent, independent self lurking inside your experience; suffering dissolves the moment you cease defending a phantom identity and rest in selfless, flowing reality.",
@@ -42843,6 +43965,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1973,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b55fdf0f",
     "onePageSummary": {
       "elevatorPitch": "Suffering is not a personal failure or cosmic punishment; it is the natural friction produced when we expect impermanent things to provide permanent satisfaction. By facing this basic fact directly, we step out of reactive anxiety and discover unshakable inner peace.",
       "coreThesis": "Suffering is an inescapable feature of all compounded existence; true liberation arises not by rearranging external circumstances, but by clearly seeing their unreliability and releasing the habit of grasping.",
@@ -42880,6 +44003,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6be93c44",
     "onePageSummary": {
       "elevatorPitch": "Most sales teams burn out chasing dozens of small fish because they lack the machinery to catch a whale. Lisa Magnuson reveals the precise engineering system top sales leaders use to consistently close deals five times their average contract size.",
       "coreThesis": "Winning transformative '5X' enterprise contracts is an organizational engineering discipline, not a heroic individual act. Sustainable revenue leaps happen when sales leaders orchestrate cross-functional teams around rigorous qualification, strategic war rooms, and executive-level alignment.",
@@ -42917,6 +44041,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "801abab1",
     "onePageSummary": {
       "elevatorPitch": "Winning with money is eighty percent emotional behavior and only twenty percent head knowledge. Strip away the toxic illusion that debt is a tool, attack obligations with furious intensity, and build lasting financial sovereignty.",
       "coreThesis": "Financial peace requires shifting habits over spreadsheets: crush debt with focused behavioral intensity and reclaim your income to build unbreakable resilience.",
@@ -42954,6 +44079,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8c75dcb9",
     "onePageSummary": {
       "elevatorPitch": "What if the peace and clarity you spend years chasing are already the very fabric of your immediate awareness? Rupert Spira shows that the world is not made of solid, separate objects outside you, but is a transparent dance of consciousness knowing itself.",
       "coreThesis": "Experience is never split into an inside observer and an outside world; reality is a seamless, transparent whole of pure awareness knowing itself in every perception.",
@@ -42991,6 +44117,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "38cc620e",
     "onePageSummary": {
       "elevatorPitch": "Flawless perfection signals hidden danger to the human brain; unexpected honesty disarms skepticism and accelerates decision velocity. By embracing an authentic '4.2 to 4.5 star' reality, sellers eliminate buyer resistance and engineer predictable, high-margin pipeline cycles.",
       "coreThesis": "The human brain views perfection as an evolutionary threat; proactively exposing your product's boundaries disarms buyer skepticism, eliminates friction, and closes deals faster at higher values.",
@@ -43028,6 +44155,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1997,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3d7e1a8f",
     "onePageSummary": {
       "elevatorPitch": "Demystify Buddhist thought with a master practitioner who bridges ancient wisdom and modern clarity. This comprehensive guide turns abstract eastern philosophy into practical tools for emotional freedom, mental stillness, and daily clarity.",
       "coreThesis": "Suffering is not a life sentence, but a cognitive miscalibration caused by mistaking fluid experiences for a permanent self. By seeing through this illusion with disciplined attention and compassion, the mind unhooks from reactivity and rests in natural freedom.",
@@ -43065,6 +44193,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b756200d",
     "onePageSummary": {
       "elevatorPitch": "Divorce is an intense mechanical reorganization of a family system, where unmanaged adult grief masquerades as toxic conflict. By separating raw spousal emotions from executive parenting duties, adults can protect family stability and ensure everyone emerges resilient.",
       "coreThesis": "The true damage of divorce stems not from the restructuring of the household, but from ongoing interparental hostility driven by unacknowledged grief. Lasting resilience occurs when adults build rigid boundaries between their expired romantic partnership and their ongoing shared parental duties.",
@@ -43102,6 +44231,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b32d930e",
     "onePageSummary": {
       "elevatorPitch": "Direct questions trigger human defensiveness, but subtle conversational mechanics can open minds effortlessly. Former FBI behavioral analyst Jack Schafer reveals how to harvest the unvarnished truth by working with human psychological wiring rather than against it.",
       "coreThesis": "Direct interrogation activates defensive psychological armor; deliberate conversational elicitation triggers our hardwired urge to correct, educate, and connect, prompting people to reveal the truth voluntarily.",
@@ -43139,6 +44269,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1990,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "373ae4f2",
     "onePageSummary": {
       "elevatorPitch": "Direct from the earliest Buddhist scriptures, the Udana captures the Buddha's spontaneous exclamations of spiritual breakthrough. It cuts through religious dogma to reveal the timeless peace of an uncluttered mind.",
       "coreThesis": "Suffering is born from grasping at temporary conditions; freedom is immediately tasted whenever the mind releases its clinging and rests in unconditioned awareness.",
@@ -43176,6 +44307,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e5f96eff",
     "onePageSummary": {
       "elevatorPitch": "When modern physics zooms into the atom, solid matter dissolves into relationships; when a meditator examines the mind, a rigid ego vanishes into open awareness. This book builds a seamless bridge between empirical research and inner contemplative practice to guide human progress with clarity and heart.",
       "coreThesis": "Empirical science and contemplative spirituality are mutually complementary disciplines of inquiry: when both investigate reality honestly without dogmatic attachment, they converge on interdependence and reveal that ethical compassion is essential for human survival.",
@@ -43213,6 +44345,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0e8ecdb6",
     "onePageSummary": {
       "elevatorPitch": "Landing a job gets you onto the playing field, but career trajectory is dictated by a shadow scorecard nobody writes down. Master the hidden levers of competence, commitment, and compatibility to turn raw effort into lasting institutional leverage.",
       "coreThesis": "Career advancement is not determined by raw effort or technical pedigree alone, but by decoding the unspoken scorecard of competence, commitment, and compatibility to eliminate operational drag for your team.",
@@ -43250,6 +44383,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2007,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fd55f98c",
     "onePageSummary": {
       "elevatorPitch": "You are not the relentless voice chattering in your head\\u2014you are the calm, quiet awareness listening to it. By learning to relax and release past emotional blockages instead of defending them, you unlock profound freedom, boundless energy, and unconditional peace.",
       "coreThesis": "You are pure conscious awareness, not the neurotic mental chatter in your head. Freedom comes from relaxing behind your thoughts and letting stored emotional pain pass through without resistance.",
@@ -43287,6 +44421,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "977a3cc2",
     "onePageSummary": {
       "elevatorPitch": "Standard economics assumes we are calculating calculators, but our true superpower lies in our emotional, non-linear quirks. By learning the hidden gears of human behavior, you can turn your irrational impulses into purpose, deep satisfaction, and resilient relationships.",
       "coreThesis": "Human irrationality is not a software bug to be erased, but an evolved operating system that produces purpose, pride, and social bonds when understood and navigated empirically.",
@@ -43324,6 +44459,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "23a0bcd8",
     "onePageSummary": {
       "elevatorPitch": "Depression is not a broken engine; it is a complex mechanical system caught in a self-reinforcing downward spin. By executing deliberate, tiny physical and cognitive adjustments, you can reverse the gears and trigger an unstoppable upward spiral.",
       "coreThesis": "Depression is a feedback loop driven by the natural wiring of interconnected brain circuits; any tiny positive change in action, environment, or thought mechanically shifts neural chemistry and reverses the spiral.",
@@ -43361,6 +44497,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1958,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d86282d0",
     "onePageSummary": {
       "elevatorPitch": "Human reasoning is not a rigid mathematical equation; it is a practical trial in the courtroom of daily life. When you inspect an argument like an engineer inspecting a bridge, you reveal the precise joints and stress points that decide whether an idea stands or collapses.",
       "coreThesis": "Sound arguments are practical structures built to withstand scrutiny in specific real-world contexts, not timeless mathematical deductions.",
@@ -43398,6 +44535,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1902,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8716a9cd",
     "onePageSummary": {
       "elevatorPitch": "Step past rigid dogma and discover spirituality where it actually lives: as a direct, felt experience of wholeness in your own awareness. William James proves that when you stop clinging to a small ego and surrender to life's deeper flow, profound healing naturally follows.",
       "coreThesis": "Authentic spirituality is a direct psychological encounter with the boundless life behind the ego, verified not by belief or doctrine, but by the practical peace and love it yields in daily conduct.",
@@ -43435,6 +44573,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "75cac7a5",
     "onePageSummary": {
       "elevatorPitch": "Your voice is not an invisible mystery; it is an organic acoustic wind instrument governed by clear physical feedback loops. Master the structural chain of posture, breath flow, and resonant chambers, and you can command any room with effortless, injury-free clarity.",
       "coreThesis": "Vocal power and clarity are physical engineering outcomes produced by breath support and acoustic resonance, not muscular strain in the throat.",
@@ -43472,6 +44611,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ccf4a8a3",
     "onePageSummary": {
       "elevatorPitch": "Procrastination and creative paralysis are not moral flaws; they are systemic counter-forces generated by the human mind whenever we step toward meaningful growth. Learn to treat creative work like a disciplined daily trade, disarm internal sabotage, and tap into effortless creative momentum.",
       "coreThesis": "Resistance is an inevitable internal counter-force that scales directly with the importance of your work; winning requires trading amateur emotionalism for the quiet, unglamorous mechanics of daily professional practice.",
@@ -43509,6 +44649,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e3f10f6c",
     "onePageSummary": {
       "elevatorPitch": "Procrastination is not a moral failing or lack of willpower; it is an active, invisible friction called Resistance that attacks the moment you attempt meaningful work. The only antidote is shedding the amateur mindset and turning pro: showing up to your workspace every single day regardless of weather, mood, or motivation.",
       "coreThesis": "Resistance is an active, universal force that opposes every positive transformation; victory comes not from waiting for inspiration, but from adopting the daily, unglamorous discipline of a professional who shows up and executes rain or shine.",
@@ -43546,6 +44687,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1941,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2db5bbc4",
     "onePageSummary": {
       "elevatorPitch": "Step off the runaway treadmill of emotional reactivity and discover the original operating manual for human consciousness. Soma Thera's classic translation opens the definitive ancient map for observing your body, feelings, and thoughts with absolute clarity and unshakable inner freedom.",
       "coreThesis": "Suffering dissolves when you stop identifying with passing physical and mental phenomena, resting instead in sustained, non-judgmental bare attention.",
@@ -43583,6 +44725,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1957,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c79945c4",
     "onePageSummary": {
       "elevatorPitch": "Stop trying to grasp the flowing river of life with rigid conceptual fists. Zen shows that genuine mastery and peace arrive when you step out of your own way and act from quiet, spontaneous presence.",
       "coreThesis": "Reality is a seamless, ever-shifting flow that cannot be trapped in rigid concepts; true clarity begins when you release the illusion of the separate ego and trust your immediate, unforced awareness.",
@@ -43620,6 +44763,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8fda03ac",
     "onePageSummary": {
       "elevatorPitch": "Chronic pain is rarely a permanent structural breakdown of the body; it is a hypersensitive smoke alarm stuck in a false feedback loop inside the central nervous system. By systematically replacing fear with mindful curiosity, you can teach the brain to silence its false danger signals and permanently switch off the alarm.",
       "coreThesis": "Chronic pain is an error of central predictive threat assessment\\u2014a neuroplastic false alarm perpetuated by fear\\u2014that can be deactivated by training the brain to perceive safe bodily sensations as benign.",
@@ -43657,6 +44801,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ba30ae6f",
     "onePageSummary": {
       "elevatorPitch": "Stop searching for enlightenment in endless philosophical theory\\u2014liberation sits right beneath your nose with every incoming and outgoing breath. Venerable Webu Sayadaw strips away all esoteric clutter to deliver the most radically simple, immediately actionable blueprint for lasting mental stillness ever recorded.",
       "coreThesis": "Total liberation from suffering requires no encyclopedic scholarship, only continuous, unbroken awareness of the breath anchored to the present touch point.",
@@ -43694,6 +44839,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1992,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b7eaac0f",
     "onePageSummary": {
       "elevatorPitch": "Cut through spiritual romanticism with surgical mindfulness. This rigorous guide demonstrates how direct, microscopic attention to your immediate sensory reality dissolves mental friction and delivers lasting inner liberation.",
       "coreThesis": "Enlightenment is not a distant, esoteric trance; it is the natural consequence of unbroken, precise awareness brought to this very moment.",
@@ -43731,6 +44877,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ce6e2522",
     "onePageSummary": {
       "elevatorPitch": "Your mind is not a single engine, but an intricate team of specialized departments that frequently clash under pressure. By learning how these neural circuits communicate, you can turn chaotic mental breakdowns into seamless mental breakthroughs.",
       "coreThesis": "Mental balance and emotional maturity are not innate luck; they are the natural byproduct of deliberately integrating the brain's emotional, analytical, survival, and social circuits through everyday communication.",
@@ -43768,6 +44915,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "14530165",
     "onePageSummary": {
       "elevatorPitch": "Willpower is not a moral character trait\\u2014it is a biological battery and a strategic asset you must manage like scarce capital. Master your physiology, align your incentives, and build pre-commitments so temptation never enters the arena.",
       "coreThesis": "Willpower is a depletable biological operating system governed by physiology and incentives; long-term execution succeeds by engineering external pre-commitments rather than relying on raw restraint.",
@@ -43805,6 +44953,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1996,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "832d896d",
     "onePageSummary": {
       "elevatorPitch": "Awakening is not mystical luck or vague surrender; it is a practical, master craft anyone can develop through disciplined attention. This anthology reveals the Buddha's definitive engineering manual for purifying attention and experiencing unshakable freedom right now.",
       "coreThesis": "Suffering is an active process generated by unexamined intentions, and liberation is a practical, trainable craft achieved by aligning attention, stillness, and clear discernment with immediate reality.",
@@ -43842,6 +44991,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "88a953a1",
     "onePageSummary": {
       "elevatorPitch": "Forgiveness is not a moral concession to your adversary; it is the ultimate act of emotional self-defense. In these intimate dialogues, the Dalai Lama reveals how releasing resentment cleanses the mind of toxic poison and unlocks unshakeable inner peace.",
       "coreThesis": "Forgiveness is an act of rational self-preservation that dismantles inner resentment, freeing awareness from the destructive grip of hatred to restore clear perception and profound compassion.",
@@ -43879,6 +45029,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1993,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e8131f69",
     "onePageSummary": {
       "elevatorPitch": "Stop drifting through life on the autopilot of craving and ego defense. Hellmuth Hecker illuminates the Buddha's timeless contrast between the foolish mind that creates its own storms and the wise mind that builds an unshakeable sanctuary within.",
       "coreThesis": "Suffering is not inflicted from the outside but generated by our own unconscious delusion; wisdom begins the moment we recognize our own confusion and consciously anchor our mind in wakeful, non-reactive presence.",
@@ -43916,6 +45067,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1907,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6c7fc96d",
     "onePageSummary": {
       "elevatorPitch": "A pure, unvarnished synthesis of the Buddha's original discourses arranged into an exact practical manual for ending inner friction. It replaces mystical abstraction with an empirical roadmap to genuine mental freedom.",
       "coreThesis": "Suffering arises not from outer events, but from grasping at constantly changing mental and physical experiences as a solid 'me'; seeing through this illusion directly dissolves all mental anguish.",
@@ -43953,6 +45105,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "eba44350",
     "onePageSummary": {
       "elevatorPitch": "Your life today is the harvest of your past intentions, and every conscious choice right now plants tomorrow's garden. Discover the microscopic mechanics of karma and learn how to dismantle compulsive mental conditioning to achieve genuine inner peace.",
       "coreThesis": "Karma is the natural law of volitional intention bearing corresponding fruit; by training immediate awareness, you cultivate wholesome habits and ultimately untie the karmic knots that bind the mind.",
@@ -43990,6 +45143,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1995,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "692d8571",
     "onePageSummary": {
       "elevatorPitch": "A crystal-clear, step-by-step masterclass by the Dalai Lama that demystifies Tibetan Buddhism, showing you how to turn every daily irritation into profound compassion and open-sky wisdom.",
       "coreThesis": "Suffering stems from mistaking our fleeting ego for a permanent, solid entity; freedom arises naturally when we pair rigorous insight into our interdependence with active, warm-hearted compassion.",
@@ -44027,6 +45181,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1977,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "688855f5",
     "onePageSummary": {
       "elevatorPitch": "Just as a serpent steps out of a dried-up skin without looking back, the awakened mind naturally discards resentment, craving, and rigid self-images. Nyanaponika Thera transforms an ancient seventeen-verse Buddhist chant into an urgent, practical guide for shedding emotional baggage and living in unburdened awareness.",
       "coreThesis": "Genuine inner freedom occurs naturally when awareness clearly sees that anger, craving, and fixed self-images are restrictive dead husks, allowing the mind to shed them cleanly without regret or identity.",
@@ -44064,6 +45219,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "002dfb95",
     "onePageSummary": {
       "elevatorPitch": "Chronic anxiety is not an intellectual crisis; it is a brain glitch running an ultra-sensitive home smoke alarm that blares at harmless burnt toast. When you discover how worry tricks you into treating phantom doubts as real fires, you can stop throwing emotional gasoline on the flames and disarm the feedback loop forever.",
       "coreThesis": "Worry tricks you by disguising everyday uncertainty as imminent danger, but treating that illusion like a genuine emergency is the precise fuel that keeps it alive.",
@@ -44101,6 +45257,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b6a87665",
     "onePageSummary": {
       "elevatorPitch": "When you shut down the financial release valve of compulsive spending, what raw emotional machinery gets exposed? Cait Flanders documents a twelve-month consumer fast that reveals how buying less isn't about frugal deprivation\\u2014it is about dismantling the hidden numbing agents running your adult life.",
       "coreThesis": "Compulsive spending is rarely about acquiring goods; it is an emotional shock absorber used to numb daily friction, and eliminating it exposes the exact life adjustments required for true freedom.",
@@ -44138,6 +45295,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ae6b82fe",
     "onePageSummary": {
       "elevatorPitch": "The Therag\\u0101th\\u0101 is an intimate anthology of raw victory songs composed by individuals who confronted their deepest mental suffering, broke free, and found unshakable stillness. It offers a practical mirror showing that awakening is not an unattainable myth, but an immediate psychological reality available to anyone willing to train their attention.",
       "coreThesis": "Suffering ceases when you stop mistaking passing thoughts and sensations for your true identity, resting instead in clear, unattached awareness.",
@@ -44175,6 +45333,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c4681d27",
     "onePageSummary": {
       "elevatorPitch": "Hear the oldest recorded voices of spiritually liberated women who cast aside societal expectations, heartbreak, and domestic drudgery to awaken directly to timeless inner freedom. Through raw, unvarnished verse, these early Buddhist practitioners prove that profound awakening is not an abstract theory, but an immediate, living reality within everyday human grasp.",
       "coreThesis": "Total spiritual liberation is accessible to anyone right now through clear, honest mindfulness that cuts through emotional clinging and reveals our innate, unshakable peace.",
@@ -44212,6 +45371,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "828e64cf",
     "onePageSummary": {
       "elevatorPitch": "Stop hiding your prices and dodging tough questions; whoever answers the customer's deepest doubts with total, unvarnished clarity wins the entire market.",
       "coreThesis": "Trust is built when a company willingly answers every uncomfortable question its buyers have; whoever tells the absolute truth first and clearest owns the market.",
@@ -44249,6 +45409,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3a462ee9",
     "onePageSummary": {
       "elevatorPitch": "In a volatile world, intelligence is not about how fast you think\\u2014it is about how quickly you can unlearn obsolete assumptions. Strategic advantage belongs to leaders who treat their convictions like hypotheses waiting to be tested, not fortresses to defend.",
       "coreThesis": "Progress depends on unlearning and updating your assumptions faster than the operating environment changes. Treating beliefs as provisional hypotheses\\u2014rather than core identities\\u2014is the ultimate cognitive moat against obsolescence.",
@@ -44286,6 +45447,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2023,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "30250a5a",
     "onePageSummary": {
       "elevatorPitch": "Most spontaneous speaking fails not from a lack of intelligence, but because our internal cognitive alarm system floods our working memory when we try to be perfect. By trading perfectionism for simple structural recipes, you can turn sudden, high-stakes conversational pressure into effortless clarity.",
       "coreThesis": "Spontaneous communication is an engineering challenge of cognitive load management, unlocked not by trying to speak brilliantly, but by calming the nervous system and pouring thoughts into simple, reusable structures.",
@@ -44323,6 +45485,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "db96a513",
     "onePageSummary": {
       "elevatorPitch": "Your brain runs on two distinct engines that shape every choice you make. Peek behind the curtain to see how hidden mental reflexes secretly guide your daily decisions.",
       "coreThesis": "Human judgment is guided by fast automatic heuristics that generate efficient everyday choices while producing systematic cognitive blind spots.",
@@ -44359,6 +45522,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3f1a3262",
     "onePageSummary": {
       "elevatorPitch": "Life is not a game of chess with visible pieces; it is a foggy landscape governed by hidden variables and luck. Mastering the art of probabilistic bets transforms blind anxiety into clear, scientific judgment.",
       "coreThesis": "Quality decisions do not guarantee winning outcomes because life contains hidden information and uncontrollable luck. Evaluating choices as probabilistic bets protects against cognitive biases and builds resilient judgment.",
@@ -44395,6 +45559,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "763702bc",
     "onePageSummary": {
       "elevatorPitch": "Beneath everyday chaos lies a quiet web of unseen feedback loops guiding modern life. Master these secret mechanics to see how small tweaks unlock massive change.",
       "coreThesis": "System behavior is driven by internal structure rather than external shocks. Shift the underlying information flows and rules to effortlessly reshape outcomes.",
@@ -44431,6 +45596,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ce701d6d",
     "onePageSummary": {
       "elevatorPitch": "Your voice is not just a carrier pipe for words; it is an ancient evolutionary biometric instrument that reveals your health, status, and innermost emotions before your brain even chooses a sentence. Discover the hidden mechanics behind human speech and learn how pitch, resonance, and cadence quietly govern every room you step into.",
       "coreThesis": "The human voice is an ancient biological and social instrument whose physical acoustics telegraph emotion, status, and evolutionary fitness far faster than vocabulary alone.",
@@ -44468,6 +45634,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "80242c11",
     "onePageSummary": {
       "elevatorPitch": "Quitting alcohol does not require lifelong white-knuckle willpower; it requires systematically exposing the subconscious illusions that make you desire it in the first place. When you align your unconscious beliefs with biological reality, the urge to drink simply evaporates.",
       "coreThesis": "Alcohol dependency is an engineered conflict between conscious logic and conditioned subconscious desire; dismantle the false beliefs that alcohol delivers genuine pleasure or stress relief, and the craving disappears without willpower.",
@@ -44505,6 +45672,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d691bc43",
     "onePageSummary": {
       "elevatorPitch": "Stop trading your precious lifespan for pennies of convenience. Ashley Whillans delivers an actionable behavioral playbook to shift from chronic time poverty to time affluence, proving that reclaiming your hours generates far greater happiness and performance than chasing incremental dollars.",
       "coreThesis": "Time is an irreplaceable, non-renewable asset that yields exponentially higher happiness and well-being than incremental wealth; winning back your life requires deliberately buying, protecting, and spending time on high-value human experiences.",
@@ -44542,6 +45710,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0cf98769",
     "onePageSummary": {
       "elevatorPitch": "Liberation is not an abstract philosophy; it is an uncompromising craft of direct, real-time attention. Sayadaw U Pandita provides a clinical, compassionate masterclass in dismantling suffering by observing reality exactly as it rises and falls.",
       "coreThesis": "Suffering dissolves when unbroken, moment-to-moment awareness intercepts raw experience at the senses before mental habits twist it into craving and conflict.",
@@ -44579,6 +45748,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "47de7a41",
     "onePageSummary": {
       "elevatorPitch": "Stop beating yourself up for lacking willpower. Real, lasting transformation happens when you make behaviors so tiny they require zero effort and anchor them to routines you already do every single day.",
       "coreThesis": "Behavior happens when Motivation, Ability, and a Prompt collide at once; by shrinking any desired action into a tiny step and anchoring it to an existing routine, change becomes effortless and permanent.",
@@ -44616,6 +45786,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1990,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c41bd909",
     "onePageSummary": {
       "elevatorPitch": "Stop hoarding meditation theories and light the flame within your direct experience. Webu Sayadaw strips spiritual awakening down to a single physical spot, revealing how relentless, unbroken awareness of the breath naturally consumes suffering at its root.",
       "coreThesis": "Continuous, unbroken awareness anchored on the physical sensation of the breath at the nostril tip naturally suppresses mental afflictions and sparks the radiant fire of awakening.",
@@ -44653,6 +45824,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6842c8c8",
     "onePageSummary": {
       "elevatorPitch": "Whether you are a physician advising a patient, an engineer pitching an architecture change, or a parent organizing a family schedule, you spend your days selling. Persuasion is no longer a slimy transaction\\u2014it is the universal human craft of moving others to action.",
       "coreThesis": "Sales has transformed from transactional manipulation into the universal human art of moving others through empathy, resilience, and clarity of purpose.",
@@ -44690,6 +45862,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1992,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5964566a",
     "onePageSummary": {
       "elevatorPitch": "When severe pain or mortal illness strikes, your mind does not have to collapse with the body. Ajahn Maha Bua offers a fearless, practical roadmap to dissect physical suffering and discover the unshakeable awareness that never dies.",
       "coreThesis": "The body experiences pain and inevitably perishes, but the pure knowing awareness observing it does not die. Liberation comes from dissecting sensation from mind and letting go of all clinging.",
@@ -44727,6 +45900,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1996,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "64242461",
     "onePageSummary": {
       "elevatorPitch": "Stop spinning your wheels in the agonizing gray zone of relationship ambivalence. Mira Kirshenbaum delivers an engineering-grade diagnostic checklist that cuts through mental fog to reveal whether your partnership has a viable future or is fundamentally beyond repair.",
       "coreThesis": "Chronic relationship ambivalence cannot be cured by pros-and-cons lists; it requires systematic diagnostic stress tests that identify whether the partnership possesses the baseline structural health needed to thrive.",
@@ -44764,6 +45938,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1992,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "db3c45c8",
     "onePageSummary": {
       "elevatorPitch": "Peace is not a distant trophy waiting at the end of a long struggle; it is a physical reality waiting under your feet each time you step into the present moment. Thich Nhat Hanh hands you the practical tools to transform everyday friction, sorrow, and daily pressure into living serenity.",
       "coreThesis": "Peace is available in every breath and step; by embracing our suffering without aversion, we touch the living miracle of the present moment and cultivate lasting compassion.",
@@ -44801,6 +45976,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bc58c8be",
     "onePageSummary": {
       "elevatorPitch": "In a fractured world torn by dogma, the Dalai Lama offers a serene, practical path to global peace: hold firm personal faith while embracing every other tradition as a fellow traveler on the road to compassion. It is a masterclass in seeing through the ego's tribal boundaries to honor the shared human heartbeat beneath all worship.",
       "coreThesis": "Individual spiritual devotion requires single-minded dedication to one path, but a harmonious world demands recognizing that many distinct paths skillfully guide different human hearts toward the same universal summit of compassion.",
@@ -44838,6 +46014,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2000,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "70144b4b",
     "onePageSummary": {
       "elevatorPitch": "World peace is impossible without inner peace, and inner peace is not a passive mood\\u2014it is a precise, trainable master craft. Pa-Auk Sayadaw lays out the canonical Buddhist blueprint to dismantle the mental engines of friction and realize Nibb\\u0101na, the ultimate unconditioned stillness.",
       "coreThesis": "True peace cannot be engineered externally; it is realized only when the disciplined mind dismantles greed, hatred, and delusion through concentration and insight, touching the unconditioned reality of Nibb\\u0101na.",
@@ -44875,6 +46052,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1989,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b0e295b1",
     "onePageSummary": {
       "elevatorPitch": "Toxic family dynamics operate like faulty household wiring\\u2014shocking anyone who touches the circuit until someone steps up to trace the cables and ground the current. Susan Forward provides the empirical diagnostic manual and surgical tools needed to dismantle inherited guilt, uncouple from dysfunctional parents, and reclaim genuine adulthood.",
       "coreThesis": "You are not responsible for the damage inflicted upon you as a vulnerable child, but you are 100 percent responsible for rewiring your adult boundaries and reclaiming your personal sovereignty today.",
@@ -44912,6 +46090,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1980,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "82a3e15a",
     "onePageSummary": {
       "elevatorPitch": "Suffering is not a permanent trap, but the exact compost out of which your spiritual awakening naturally blooms. Discover the Buddha's hidden upward spiral of cause and effect that transforms everyday friction into unshakable freedom.",
       "coreThesis": "Awakening is not an accidental event or an act of force, but a lawful, natural chain reaction where meeting life's inevitable friction with clear awareness naturally unfolds into joy, stillness, and liberation.",
@@ -44949,6 +46128,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1999,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ec342f22",
     "onePageSummary": {
       "elevatorPitch": "Pain in life is as inevitable as weather, but psychological anguish is entirely manufactured by our mental resistance. Discover how ancient contemplative wisdom transforms daily friction, loss, and hardship into grounded clarity and boundless compassion.",
       "coreThesis": "Pain is an inescapable fact of physical existence, but suffering is an optional mental habit caused by ego-grasping; by shifting awareness from selfish resistance to open compassion and interdependence, adversity transforms into profound inner peace.",
@@ -44986,6 +46166,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1990,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "aa65e194",
     "onePageSummary": {
       "elevatorPitch": "Stop fighting your inner life and learn to inhabit your immediate reality with serene, grounded awareness. Thich Nhat Hanh translates Buddhism's most fundamental meditation guide into practical, everyday tools for deep mental clarity and lasting peace.",
       "coreThesis": "Suffering dissolves when we stop escaping our present experience and instead illuminate the body, feelings, mind, and reality with gentle, non-reactive awareness.",
@@ -45023,6 +46204,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2000,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "873c468f",
     "onePageSummary": {
       "elevatorPitch": "Your mind is not a fixed stone monument; it is a fertile garden that grows whatever seeds you consciously water. This book delivers a serene, practical manual for transforming daily emotional friction into boundless compassion and unshakable inner clarity.",
       "coreThesis": "Genuine happiness arises not from protecting an anxious ego, but from radically retraining the mind to cherish others and seeing the transparent, interconnected nature of all reality.",
@@ -45060,6 +46242,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1980,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "024dfe6f",
     "onePageSummary": {
       "elevatorPitch": "Change is just an external event like a new job or house, but transition is the profound internal rewire that makes it work. To truly start anything new in life, you must first master the art of ending well.",
       "coreThesis": "Situational change is an external event that happens instantly, but personal transition is an organic, three-stage internal transformation that begins only when you fully mourn and dismantle what has ended.",
@@ -45097,6 +46280,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1985,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f964d1e1",
     "onePageSummary": {
       "elevatorPitch": "Step beyond the confines of ordinary ego-identity into the vast, open ocean of primary awareness. Stanislav Grof expands traditional psychoanalysis to reveal that psychological suffering dissolves when we awaken to our interconnected, transcendent nature.",
       "coreThesis": "Human consciousness is not an isolated byproduct of the brain or personal childhood history, but a boundless, interconnected field that realizes lasting liberation when the ego yields to primary awareness.",
@@ -45134,6 +46318,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1992,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b000f0a2",
     "onePageSummary": {
       "elevatorPitch": "Trauma is not a personal character flaw; it is a profound biological and social electrical surge that trips your internal safety breakers. Recovery is the step-by-step restoration of control, narrative, and community trust.",
       "coreThesis": "Trauma overpowers and isolates human beings by destroying autonomy and trust; genuine recovery can only happen by methodically rebuilding safety, narrating truth, and reconnecting with community.",
@@ -45171,6 +46356,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1994,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "180e6d6c",
     "onePageSummary": {
       "elevatorPitch": "A timeless treasury of practical contemplative wisdom that cuts through modern mental noise to reveal the stillness already present within you. Venerable K. Sri Dhammananda distills the essential teachings of the Dhammapada into direct, grounded guidance for mastering the mind and living with compassionate clarity.",
       "coreThesis": "Suffering and peace are self-created states of consciousness; by disciplining the mind, seeing impermanence clearly, and letting go of grasping, one discovers unshakeable inner freedom amidst everyday life.",
@@ -45208,6 +46394,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1993,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4e27cd86",
     "onePageSummary": {
       "elevatorPitch": "Your mind shapes your entire experience of reality. By training attention, shedding craving, and cultivating moment-to-moment clarity, you can navigate life's inevitable storms with unshakable serenity.",
       "coreThesis": "Every state of suffering or peace originates entirely within the mind; when awareness is disciplined and stripped of selfish grasping, freedom is your natural state.",
@@ -45245,6 +46432,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1950,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e69a42ce",
     "onePageSummary": {
       "elevatorPitch": "Stop fighting your thoughts and start tracking reality with laboratory precision. This masterwork is the definitive field guide to peeling away mental delusion and awakening directly to the unshakeable peace hidden within ordinary, present awareness.",
       "coreThesis": "Suffering is sustained only by clinging to an imagined, unchanging ego; by impartially noting the birth and death of each present sensation and thought, consciousness naturally unties its own knots and tastes liberation.",
@@ -45282,6 +46470,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2fb9e620",
     "onePageSummary": {
       "elevatorPitch": "Behind the historic trillion-dollar market valuations of Apple, Google, and Intuit stood a single former college football coach: Bill Campbell. This playbook uncovers the battle-tested blueprint of the executive mentor who proved operational excellence and fierce human connection are the true engines of tech dominance.",
       "coreThesis": "To build an enduring, high-growth enterprise, you must coach the team before you solve the problem\\u2014because managerial authority comes from empowering people to execute together with radical trust and relentless discipline.",
@@ -45319,6 +46508,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b32e3836",
     "onePageSummary": {
       "elevatorPitch": "Love is not a passive sentiment or a dramatic emotional contract\\u2014it is an active capacity of mindful presence that can be trained like any daily discipline. Thich Nhat Hanh cuts through romantic illusions to reveal how anchoring your attention in the present moment transforms relationships into sanctuaries of genuine peace and understanding.",
       "coreThesis": "Authentic love is the capacity to be fully present for yourself and another, offering freedom, compassion, and deep listening rather than possessive attachment.",
@@ -45356,6 +46546,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "77d5c3a1",
     "onePageSummary": {
       "elevatorPitch": "When chronic stress, illness, or heartbreak strip away your false securities, where do you turn? Tara Brach reveals how to step out of the exhausting trance of inadequacy and take refuge in the unshakeable stillness of your own awakened awareness.",
       "coreThesis": "Genuine peace is never found by controlling external circumstances or perfecting yourself; it is discovered by resting directly in the open, compassionate awareness that is already your true home.",
@@ -45393,6 +46584,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "194c3612",
     "onePageSummary": {
       "elevatorPitch": "Vows are not cages built to trap your vitality; they are riverbanks designed to turn chaotic mental rapids into a clean, focused current of liberation. Master forest monk Ajahn Amaro reveals how submitting to radical simplicity and deliberate discipline unlocks an unshakeable, spacious freedom right in the middle of daily life.",
       "coreThesis": "Authentic freedom is never found by expanding our options to satisfy every passing craving, but by establishing firm boundaries that extinguish the illusion of the self-centered ego.",
@@ -45430,6 +46622,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "598015fe",
     "onePageSummary": {
       "elevatorPitch": "Beneath crushing ocean depths aboard a failing nuclear submarine, one captain surrendered absolute control to liberate human genius. By transforming passive order-takers into self-directed leaders, he turned the worst crew in the fleet into its crowning triumph.",
       "coreThesis": "True leadership does not create loyal followers; it emancipates latent leaders by distributing control to where the information actually lives, anchored by technical competence and organizational clarity.",
@@ -45467,6 +46660,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1e11e4eb",
     "onePageSummary": {
       "elevatorPitch": "Stop playing theater with your potential: Steven Pressfield delivers a brutal, unsentimental blueprint for dismantling the cheap addictions of the amateur and adopting the relentless operating discipline of a true professional.",
       "coreThesis": "Turning pro is a clean, internal decision to stop running shadow careers and subordinate daily emotions to relentless, craft-centered execution.",
@@ -45504,6 +46698,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "04a46fc4",
     "onePageSummary": {
       "elevatorPitch": "Ajahn Sucitto takes the Buddha's inaugural teaching\\u2014the foundation of all Buddhist wisdom\\u2014and turns it into a clear, living field manual for navigating modern human stress and discovering unshakeable inner peace.",
       "coreThesis": "Suffering is not caused by the natural turbulence of life, but by the mind's automatic reflex to clutch and resist; freedom arrives the exact instant we open our hands and step out of the grip of craving.",
@@ -45541,6 +46736,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2d96f0e7",
     "onePageSummary": {
       "elevatorPitch": "Traditional education moves like a glacier, but modern careers demand supersonic adaptation. Ultralearning hands you the playbook to master hard skills fast, shatter career plateaus, and build unstoppable personal momentum.",
       "coreThesis": "Deep expertise is not a gift for the privileged few; it is a repeatable protocol powered by direct practice, aggressive recall, and relentless feedback.",
@@ -45577,6 +46773,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1975,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "47d22af3",
     "onePageSummary": {
       "elevatorPitch": "Stop trying to manufacture unconditional love through willpower. Discover how genuine loving-kindness arises naturally once you clearly see the difference between grasping attachment and pure, selfless goodwill.",
       "coreThesis": "Unconditional love is not an emotional performance or personal possession; it is the natural warmth of awareness that shines whenever the illusion of a grasping self dissolves.",
@@ -45614,6 +46811,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2005,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "2240a821",
     "onePageSummary": {
       "elevatorPitch": "Freedom is not a far-off trophy won through spiritual struggle; it is the unexpected, quiet discovery of peace waiting whenever you stop fighting your own experience.",
       "coreThesis": "Genuine freedom is not achieved by perfecting your circumstances or suppressing difficult emotions, but by resting as the spacious, compassionate awareness that welcomes all of life without clinging or aversion.",
@@ -45651,6 +46849,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4bfda02a",
     "onePageSummary": {
       "elevatorPitch": "Your chronic pain is genuine, but your body isn't broken\\u2014your brain's danger alarm is simply stuck on high. By understanding the neuroscience of Mind Body Syndrome, you can retrain your neural pathways and turn off the false alarm for good.",
       "coreThesis": "Chronic pain is often a learned neuroplastic alarm created by an overprotective brain rather than damaged physical tissue; when you replace fear with evidence of safety, the brain unlearns the pain.",
@@ -45688,6 +46887,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4a4fdfeb",
     "onePageSummary": {
       "elevatorPitch": "Raw data informs, but structured narrative forces decisions. Master the tactical craft of storytelling to cut through cognitive noise, establish immediate trust, and mobilize stakeholders with zero wasted effort.",
       "coreThesis": "Data merely validates conclusions, while structured narrative drives human commitment. He who controls the story controls the decision.",
@@ -45725,6 +46925,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1975,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "729abf7a",
     "onePageSummary": {
       "elevatorPitch": "Every human face is an open-source biological instrument engineered with a universal mechanical alphabet. By mastering the physical blueprint of facial muscle movements, you can decode raw, unfiltered human emotion before words even leave the mouth.",
       "coreThesis": "The human face communicates core emotional states through universally hardwired biological muscle movements that leak authentic psychological truths despite voluntary social masking.",
@@ -45762,6 +46963,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a4f5840f",
     "onePageSummary": {
       "elevatorPitch": "Stock market volatility is not an unpredictable storm out to sink you, but an engine of wealth creation once you understand its underlying physics. Unshakeable gives you the battle-tested rules, fiduciary filters, and psychological armor needed to thrive in any market climate.",
       "coreThesis": "Financial peace of mind is not achieved by predicting market weather, but by building an antifragile portfolio and mastering your behavioral reflexes so that every crisis works in your favor.",
@@ -45799,6 +47001,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "08dd1e8d",
     "onePageSummary": {
       "elevatorPitch": "Untamed reveals how human beings are systematically domesticated by cultural expectations, trading their authentic wild instincts for social approval. Glennon Doyle delivers an invigorating field guide to dismantling those invisible cages and trusting your own internal compass.",
       "coreThesis": "Human fulfillment requires unlearning cultural domestication, tuning out the noise of external consensus, and anchoring every life decision in your own quiet internal knowing.",
@@ -45836,6 +47039,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "521d9ac0",
     "onePageSummary": {
       "elevatorPitch": "Adolescence in teenage girls is not erratic chaos; it is a predictable, biological engineering upgrade. Discover the hidden developmental tracks that turn bewildering friction into masterclasses in adult autonomy.",
       "coreThesis": "Teenage volatility is not broken behavior to be punished, but an orderly developmental sequence of seven essential transitions required to manufacture an independent adult.",
@@ -45873,6 +47077,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "15d140c4",
     "onePageSummary": {
       "elevatorPitch": "Anxiety is not an incurable character flaw\\u2014it is a learned habit loop driven by your brain's survival machinery. By trading exhausting willpower for curious awareness, you can recalibrate your brain's internal reward pricing and dissolve worry at its root.",
       "coreThesis": "Anxiety persists because the brain mistakes worrying for a protective habit; true relief comes not from fighting the feeling with willpower, but from clearly seeing its true physical cost and offering the nervous system the superior reward of curious awareness.",
@@ -45910,6 +47115,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3f485920",
     "onePageSummary": {
       "elevatorPitch": "Stress isn't toxic exhaust that breaks down your engine; it is high-octane fuel engineered to power peak performance. When you stop fleeing pressure and understand its neurobiological machinery, your body transforms from an anxious threat detector into a focused, resilient powerhouse.",
       "coreThesis": "Stress is an adaptive physiological resource that mobilizes energy, focus, and connection; how you think about stress dictates whether it damages your health or builds antifragile resilience.",
@@ -45947,6 +47153,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "552384e6",
     "onePageSummary": {
       "elevatorPitch": "Money is merely a measuring tape, but unallocated time is the actual territory of human freedom. Rolf Potts unpacks the operational physics of trading consumer clutter for radical calendar ownership through intentional, low-cost world travel.",
       "coreThesis": "True wealth is not measured by the quantity of possessions you accumulate, but by the abundance of self-directed time you control. By deliberately lowering ongoing financial overhead, anyone can purchase uninterrupted months of radical life autonomy.",
@@ -45984,6 +47191,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8a4f1811",
     "onePageSummary": {
       "elevatorPitch": "Strip away the quarterly earnings theater, hype cycles, and accounting smoke screens to see the hard math behind corporate power. True business value boils down to a single iron law: earning more cash on your capital than that capital costs to rent.",
       "coreThesis": "A company creates enduring economic value solely by generating cash flows at a rate of return exceeding its cost of capital; growth creates wealth only when paired with high returns, and destroys wealth when it is not.",
@@ -46021,6 +47229,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "74dd61a7",
     "onePageSummary": {
       "elevatorPitch": "Selling features and logging hours is dead; the modern market rewards only verified business outcomes. To dominate your pipeline, you must stop charging for the tools and start guaranteeing the harvest.",
       "coreThesis": "The competitive battleground has permanently shifted from selling tools and subscriptions to delivering continuous, quantifiable business outcomes.",
@@ -46058,6 +47267,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2002,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "15b1890c",
     "onePageSummary": {
       "elevatorPitch": "Step into the deep wilderness with Thailand's greatest modern forest master to discover how stripping away comfort reveals unshakable inner freedom. This extraordinary spiritual biography proves that complete enlightenment is not an ancient myth, but a living, practical reality achievable right here and now.",
       "coreThesis": "Total liberation from suffering is achieved not by escaping the world, but by turning awareness directly upon the mind to burn away all self-deception through unwavering mindfulness and courageous self-investigation.",
@@ -46095,6 +47305,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1969,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "88955f22",
     "onePageSummary": {
       "elevatorPitch": "When you take apart an engine bolt by bolt, the illusion of a solid machine dissolves into working parts\\u2014and your suffering vanishes with it. Sayadaw U Thittila\\u2019s canonical translation of the Vibhanga provides the ultimate precision blueprint for dismantling the ego and resting in calm, luminous awareness.",
       "coreThesis": "Suffering dissolves when you systematically dissect your rigid sense of self into fleeting physical and mental components, revealing that freedom is already present in direct, non-clinging awareness.",
@@ -46132,6 +47343,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1983,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6ef8afe0",
     "onePageSummary": {
       "elevatorPitch": "Stop fighting your wandering mind and learn to observe reality exactly as it unfolds right now. Chanmyay Sayadaw offers a direct, no-nonsense roadmap to Vipassana insight using continuous, everyday mindfulness.",
       "coreThesis": "Suffering dissolves when you silently and non-reactively label every physical sensation and mental state the exact instant it arises.",
@@ -46169,6 +47381,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1997,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "12bf3a6f",
     "onePageSummary": {
       "elevatorPitch": "Step out of the storm of chronic overthinking and awaken to reality as it actually unfolds in your immediate physical and mental experience. Venerable Chanmyay Sayadaw delivers a masterclass in classic Burmese insight meditation, turning moment-to-moment awareness into a direct scalpel for emotional freedom.",
       "coreThesis": "Suffering ceases not by suppressing thoughts or escaping the world, but by observing the body and mind in real time with continuous, label-assisted, non-judgmental awareness until the illusion of a separate self dissolves naturally.",
@@ -46206,6 +47419,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0883d444",
     "onePageSummary": {
       "elevatorPitch": "Vipassana Talks from Mahasi Sasana Yeiktha reveals meditation not as a mystical retreat from life, but as an exact, moment-to-moment training in seeing reality without egoic distortion. Through the classic Mahasi noting method, Sayadaw U Lakkhana delivers an unadorned owner's manual for dismantling anxiety, reactive habits, and existential suffering.",
       "coreThesis": "Suffering dissolves when awareness meets each immediate sensation, thought, and emotion with precise, non-reactive noting, revealing reality as an impermanent, ungraspable process free of a permanent self.",
@@ -46243,6 +47457,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4f62ee88",
     "onePageSummary": {
       "elevatorPitch": "Spiritual freedom is not a delayed reward reserved for an afterlife\\u2014it is a practical, tangible transformation of consciousness available in this very breath. Ayya Khema takes one of the Buddha's most famous discourses and turns it into a transparent blueprint for mastering the mind and tasting unconditional inner peace.",
       "coreThesis": "Enlightenment is not a post-mortem promise or esoteric mystery, but an immediate psychological reality attained by systematically decluttering the senses, steadying attention, and tasting the profound stillness already present within consciousness.",
@@ -46280,6 +47495,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2003,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6b972896",
     "onePageSummary": {
       "elevatorPitch": "Your vocal delivery is a high-leverage instrument that directly governs your credibility and authority long before people evaluate your raw logic. Master your physical vocal apparatus to eliminate hesitation and command rooms with unwavering vocal stability.",
       "coreThesis": "Authority is primarily an auditory and physical signal: systematically mastering the mechanics of breath, posture, and vocal resonance ensures your delivery carries undeniable weight and command under extreme operational pressure.",
@@ -46317,6 +47533,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1973,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0e4a11aa",
     "onePageSummary": {
       "elevatorPitch": "Your voice is not an isolated throat mechanism\\u2014it is a physical acoustic engine powered by full-body breath, kinetic muscularity, and unfiltered emotional intent. Discover how releasing structural friction transforms ordinary speech into an effortless, resonant wave that commands any room.",
       "coreThesis": "Authentic vocal power is an engineering principle: releasing physical tension and anchoring speech in full-body breath mechanics naturally amplifies clarity, resonance, and emotional authority without vocal strain.",
@@ -46354,6 +47571,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1990,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "151d2a0d",
     "onePageSummary": {
       "elevatorPitch": "Kamma is neither cosmic punishment nor unalterable destiny; it is the natural harvest of your own psychological intent. By mastering volition in this immediate breath, you stop being a helpless victim of your past and become the deliberate architect of your inner freedom.",
       "coreThesis": "Action is defined by the mental intention behind it, meaning your current state of awareness\\u2014not cosmic destiny\\u2014is the true author of your reality and your freedom.",
@@ -46391,6 +47609,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "942ff1ea",
     "onePageSummary": {
       "elevatorPitch": "You do not need religious mythology to experience profound spiritual liberation. By looking closely at your immediate experience right now, you can discover that the anxious inner ego is an illusion, revealing an open expanse of quiet clarity.",
       "coreThesis": "The conventional sense of self is a cognitive illusion; consciousness is already free, open, and at peace when you look directly for the thinker of your thoughts.",
@@ -46428,6 +47647,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e5a420b4",
     "onePageSummary": {
       "elevatorPitch": "The Buddha did not come to paint existence gray; he came as a master physician offering the practical medicine for complete, unshakable peace. S.N. Goenka dismantles the age-old myth of Buddhist gloom to reveal a profoundly optimistic, experiential science of living.",
       "coreThesis": "The Buddha was a realist and a supreme spiritual physician, diagnosing suffering only to deliver the practical, experiential cure that unlocks supreme and lasting peace.",
@@ -46465,6 +47685,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "eaa50df1",
     "onePageSummary": {
       "elevatorPitch": "Persuasion is not mystical charisma\\u2014it is a repeatable feedback loop of emotional and logical certainty. Master the Straight Line System to guide every customer smoothly from initial greeting to enthusiastic commitment without wasting a single move.",
       "coreThesis": "Every sale is identical: an exchange where the seller systematically elevates the buyer's emotional and logical certainty across the product, the salesperson, and the company to a perfect score before asking for the close.",
@@ -46502,6 +47723,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0e83a142",
     "onePageSummary": {
       "elevatorPitch": "We talk constantly through glass screens and polished monologues, yet we have forgotten the biological craft of actually speaking to one another. Celeste Headlee reveals the scientific feedback loops of human dialogue and gives us the practical tools to turn friction into genuine connection.",
       "coreThesis": "Meaningful conversation is not a performance of intelligence or persuasive debate, but an active discipline of curiosity and deep listening that requires setting aside ego to discover the other person's reality.",
@@ -46539,6 +47761,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1964,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a566c9ed",
     "onePageSummary": {
       "elevatorPitch": "Buddhism is not a system of blind faith or passive ritual, but a rational, empirical manual for mastering your own mind and ending suffering. Venerable Dhammananda cuts through centuries of cultural superstition to reveal an emancipatory way of life grounded in personal accountability and direct insight.",
       "coreThesis": "Liberation is entirely in your own hands: by understanding reality as impermanent and interconnected, you cease clinging to illusions and dismantle suffering through deliberate mental culture.",
@@ -46576,6 +47799,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1970,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6a883ef3",
     "onePageSummary": {
       "elevatorPitch": "Stop blasting resumes into black holes like a gambler buying lottery tickets. The job search is an asymmetrical campaign where self-inventory, hidden networks, and diagnostic interviewing dictate your market value.",
       "coreThesis": "The hiring market is built on risk aversion, not fairness; reverse the odds by conducting an exhaustive personal inventory and pitching direct solutions to the specific leaders empowered to hire you.",
@@ -46613,6 +47837,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ccb965af",
     "onePageSummary": {
       "elevatorPitch": "Adversity does not just test our breaking point; it exposes the hidden mechanics of human adaptation. Trauma shatters our baseline assumptions about safety and control, creating the rare structural freedom to rebuild a richer, wiser, and more intentional life.",
       "coreThesis": "Trauma is not merely a wound that leaves us scarred; it is an involuntary cognitive earthquake that demolishes fragile illusions, granting us the structural materials to build a far more resilient, purposeful reality.",
@@ -46650,6 +47875,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0d6ff96d",
     "onePageSummary": {
       "elevatorPitch": "Human words are filtered through conscious social polish, but the body operates on an involuntary, primal circuit that broadcasts our true psychological state in real time. Former FBI counterintelligence agent Joe Navarro reveals how decoding micro-signals\\u2014from restless feet to pacifying neck touches\\u2014gives you a dynamic radar for authentic human emotion.",
       "coreThesis": "The subconscious limbic brain cannot lie; reading genuine human intentions requires observing bottom-up physiological cues\\u2014starting at the feet and moving up to the face\\u2014tracked in behavioral clusters against an established baseline.",
@@ -46687,6 +47913,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1959,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e8e476b1",
     "onePageSummary": {
       "elevatorPitch": "Suffering is not a mystical curse\\u2014it is a functional friction caused by gripping tightly onto things that are constantly moving. Walpola Rahula strips away religious mythology to present the Buddha's original teachings as an empirical, practical science of inner freedom.",
       "coreThesis": "Suffering ceases when you stop grasping at a shifting reality with an imaginary self, replacing reactive attachment with lucid, direct awareness.",
@@ -46724,6 +47951,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1998,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0146e0f3",
     "onePageSummary": {
       "elevatorPitch": "Living ethically is not about tallying happiness scores or obeying rigid dogma. It is the quiet discipline of choosing principles that any person could freely accept across an honest kitchen table.",
       "coreThesis": "An action is morally right only if it conforms to principles that no one affected could reasonably reject.",
@@ -46761,6 +47989,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2016,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fd48ed22",
     "onePageSummary": {
       "elevatorPitch": "Meditation is not an escape from reality\\u2014it is learning to watch reality unfold without tension or interference. Sayadaw U Tejaniya reveals how gentle, uninterrupted awareness turns everyday routines into direct liberation.",
       "coreThesis": "Mindfulness is not about forcing the mind into artificial stillness; it is the effortless, continuous recognition of mental states with a relaxed attitude of non-judgmental wisdom.",
@@ -46798,6 +48027,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1981,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3e352f44",
     "onePageSummary": {
       "elevatorPitch": "When disaster strikes, we reflexively search for hidden faults in ourselves or a cosmic masterplan, but what if the universe simply runs on unyielding natural laws and genuine randomness? This groundbreaking inquiry dismantles moral guilt around tragedy, showing that true resilience begins when we stop asking why misfortune happened and start mobilizing how we respond.",
       "coreThesis": "Pain and catastrophe are not moral verdicts or deliberate punishments; they are natural occurrences in an impartial physical world, and our power lies not in deciphering why they hit, but in choosing courage, connection, and purposeful renewal in response.",
@@ -46835,6 +48065,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1975,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f6a94afb",
     "onePageSummary": {
       "elevatorPitch": "Human conflict operates on predictable psychological feedback loops where guilt and anxiety are engineered to make you surrender your autonomy. Manuel J. Smith reveals the exact verbal scripts and behavioral mechanics needed to absorb criticism calmly, state boundaries effortlessly, and say no without an ounce of remorse.",
       "coreThesis": "You possess the absolute, inalienable right to be the ultimate judge of your own behavior, choices, and emotions; guilt arises only when you mistakenly surrender that judgment to someone else.",
@@ -46872,6 +48103,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2006,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "707ffd4d",
     "onePageSummary": {
       "elevatorPitch": "Panic and chronic anxiety are not incurable neurochemical defects, but miswired smoke alarms triggered by cognitive distortions and suppressed feelings. Master an engineering toolkit of 40 drug-free techniques that rewire your physiological threat response on demand.",
       "coreThesis": "Anxiety is not caused by external circumstances or biological deficits, but by distorted internal interpretations and unexpressed emotions that hijack the nervous system; dismantling these faulty cognitive scripts and confronting sensations directly permanently resets the alarm.",
@@ -46909,6 +48141,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1991,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "39acfd85",
     "onePageSummary": {
       "elevatorPitch": "When the mind stops wrestling with reality, an unshakeable inner peace reveals itself. Ayya Khema demystifies deep Buddhist contemplation, showing modern adults how to transform everyday stress into clear, radiant liberation.",
       "coreThesis": "Suffering is not caused by external life events, but by our compulsive clinging to transient sensations; by steadying the mind in quiet joy and observing reality without grasping, we uncover lasting inner freedom.",
@@ -46946,6 +48179,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7a01ad1d",
     "onePageSummary": {
       "elevatorPitch": "Timing is not an intuitive art or lucky guess; it is an exact science that determines whether your efforts fly or flop. Learn when your brain is primed for analytical execution, creative insight, or restful recovery, and take control of your day.",
       "coreThesis": "Timing is an evidence-based science of biological rhythms and psychological phases; scheduling the right task for the right temporal window dramatically outperforms raw willpower.",
@@ -46983,6 +48217,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d3547ede",
     "onePageSummary": {
       "elevatorPitch": "Groundbreaking ideas are not solitary lightning bolts struck in empty rooms. They are living riverbeds fed by stray hunches, accidental collisions, and shared soil.",
       "coreThesis": "Innovation is a connected ecosystem rather than an isolated epiphany; ideas flourish when half-formed hunches collide within open, liquid networks.",
@@ -47020,6 +48255,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2000,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "62541fdd",
     "onePageSummary": {
       "elevatorPitch": "Healthy boundaries are not hostile concrete walls that isolate you\\u2014they are precision cellular membranes that let warmth in while keeping toxins out. Anne Katherine reveals the exact interpersonal mechanics required to hold your perimeter without guilt, aggression, or collapse.",
       "coreThesis": "A healthy boundary is an act of clarity rather than combat; it defines your psychological territory with semi-permeable precision so that connection flourishes and violation becomes impossible.",
@@ -47057,6 +48293,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1994,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "633f3c3d",
     "onePageSummary": {
       "elevatorPitch": "You cannot outrun your own mind by changing jobs, partners, or zip codes\\u2014because wherever you go, your internal weather follows. Jon Kabat-Zinn provides a grounded, crystal-clear field manual for stepping out of exhausting mental autopilot and inhabiting the only moment you will ever actually own: right here, right now.",
       "coreThesis": "Peace does not come from escaping your circumstances, but from inhabiting your present experience with open, non-judgmental awareness. When you stop chasing the next moment, you discover that the current moment is already complete.",
@@ -47094,6 +48331,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2015,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9685980e",
     "onePageSummary": {
       "elevatorPitch": "Money alone cannot buy you admission to college, a chosen job, or a compatible kidney donor\\u2014both sides must choose each other. Nobel laureate Alvin Roth decodes the invisible architecture of matching markets and shows how intelligent rules prevent chaos, unraveling, and unfairness in everyday life.",
       "coreThesis": "Markets fail not because people are irrational, but because poorly structured matching rules force them into self-protective gaming; stability emerges only when marketplaces are engineered to be thick, unhurried, and safe for honest preference-sharing.",
@@ -47131,6 +48369,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1997,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "34cb20f7",
     "onePageSummary": {
       "elevatorPitch": "Grounding profound ancient wisdom in everyday direct experience, Ayya Khema reveals that genuine peace comes from dismantling the exhausting illusion of a separate ego through structured meditative absorption. This book provides a step-by-step masterclass on settling the mind so deeply that the true, selfless nature of reality becomes self-evident.",
       "coreThesis": "The ego is not a permanent entity to be defended or improved, but a temporary mental construct; by settling the mind into profound meditative stillness, we see through this illusion and awaken to effortless inner freedom.",
@@ -47168,6 +48407,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1998,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "21199039",
     "onePageSummary": {
       "elevatorPitch": "Change isn't an ambush; it's an ecological rhythm. Learn how shedding yesterday's habits unlocks tomorrow's possibilities before comfort turns into stagnation.",
       "coreThesis": "Change is inevitable and relentless; your success depends not on preserving old comfort, but on noticing shifts early and moving swiftly into uncharted terrain.",
@@ -47205,6 +48445,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3f98058d",
     "onePageSummary": {
       "elevatorPitch": "Manipulation is never a solo act; it is an interconnected system running on your exposed psychological buttons. By decoding the hidden mechanics of coercion and replacing automatic compliance with deliberate boundary friction, you can permanently cut the puppet strings.",
       "coreThesis": "Manipulation requires two active participants: an exploiter who pulls the strings and a target whose exposed buttons allow those strings to move them. Neutralize the buttons, and the manipulator loses all operational power.",
@@ -47242,6 +48483,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8ad7c585",
     "onePageSummary": {
       "elevatorPitch": "Most chronic modern diseases are not isolated malfunctions\\u2014they are symptoms of a single underlying metabolic logjam called insulin resistance. By fixing cellular energy dynamics rather than just chasing blood glucose numbers, you can prevent and reverse widespread degenerative illness.",
       "coreThesis": "Insulin resistance driven by chronic hyperinsulinemia is the silent root cause of most modern chronic diseases, and reversing it requires restoring cellular insulin sensitivity through strategic nutrition and muscle activation.",
@@ -47279,6 +48521,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "0bbcd31c",
     "onePageSummary": {
       "elevatorPitch": "Sleep is not a passive luxury\\u2014it is the ultimate biological moat that resets your brain's processing speed and fortifies your physical defense system every single night. Deprive yourself of it, and you run a high-stakes deficit that compounding interest will brutally liquidate.",
       "coreThesis": "Sleep is a non-negotiable biological maintenance cycle that dictates every facet of mental acuity, physical longevity, and emotional resilience. Sacrificing sleep for productivity is an asymmetric gamble that guarantees degraded execution and accelerated systemic failure.",
@@ -47316,6 +48559,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "fffb82bc",
     "onePageSummary": {
       "elevatorPitch": "When a mother's love acts like a one-way mirror, a daughter spends her life performing for reflections that never bounce back. This book deconstructs maternal narcissism like an emotional mechanic, equipping women to rewire their self-worth and break generational loops.",
       "coreThesis": "A daughter's chronic sense of inadequacy is not a personal failure, but the predictable output of maternal narcissism\\u2014a dynamic healed only by grieving the mother she never had and actively constructing an autonomous internal identity.",
@@ -47353,6 +48597,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7e7037f3",
     "onePageSummary": {
       "elevatorPitch": "Stop fighting your biology with exhausting mental strain. Re-engineer your surrounding architecture with hard forcing functions so success becomes the path of least resistance.",
       "coreThesis": "Willpower is a finite, unreliable fuel; enduring behavioral transformation occurs only when you deliberately design an external environment that automates your goals and eliminates failure options.",
@@ -47390,6 +48635,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4043f937",
     "onePageSummary": {
       "elevatorPitch": "Your autonomic nervous system isn't a locked control room\\u2014it is an responsive engine you can consciously steer through cyclic breathwork, hormetic cold immersion, and disciplined focus. By stepping outside modern climate-controlled comfort, you can recalibrate your vascular tone, quiet chronic inflammation, and reclaim natural biological vitality.",
       "coreThesis": "The human autonomic nervous system and immune response can be consciously influenced through controlled hyperventilation, purposeful breath retention, and gradual thermal cold stress.",
@@ -47427,6 +48673,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2023,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "49005b0f",
     "onePageSummary": {
       "elevatorPitch": "Argumentation is not an academic lecture; it is a live psychological contest where human attention, trust, and emotional alignment dictate reality. Master the forensic tools of high-stakes dialectic to dismantle bad-faith rhetoric and sway the only people who actually matter: the audience.",
       "coreThesis": "Victory in any debate does not come from bludgeoning an opponent with cold data, but from capturing the hearts and minds of the watching audience through emotional resonance, ironclad evidence, and defensive mastery.",
@@ -47464,6 +48711,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "333e3674",
     "onePageSummary": {
       "elevatorPitch": "Human brains evaluate physical presence long before rational language ever registers. By organizing non-verbal gestures across specific horizontal planes, you can bypass instinctive social defenses and install immediate trust, clarity, and authority.",
       "coreThesis": "Human perception is governed by evolutionary survival mechanics: placing open gestures deliberately across anatomical planes bypasses primitive skepticism to establish instant trust and decisive influence.",
@@ -47501,6 +48749,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1d2748a0",
     "onePageSummary": {
       "elevatorPitch": "Stop treating exhaustion as a personal failure\\u2014winter is not the enemy of peak performance, but the biological pit stop that powers it. Katherine May delivers a masterclass in strategic retreat, showing you how to downshift friction, replenish depleted reserves, and return stronger.",
       "coreThesis": "Rest is not a luxury reward earned after continuous burnout; it is an active, recurring biological necessity required to survive adversity, rebuild stamina, and sustain long-term peak performance.",
@@ -47538,6 +48787,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3c5c435f",
     "onePageSummary": {
       "elevatorPitch": "Human relationships do not run on good intentions alone; they run on neurobiology. By treating your partnership like an interconnected biological control circuit, you can defuse chronic threat alarms and engineer an unbreakable sanctuary of mutual security.",
       "coreThesis": "A thriving relationship is a shared biological survival pact where partners act as dedicated co-regulators of each other's nervous systems.",
@@ -47575,6 +48825,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "48135994",
     "onePageSummary": {
       "elevatorPitch": "Human brains did not evolve to appreciate ornate prose; they evolved to decode survival simulations disguised as stories. By unlocking how neuroscience processes tension, motive, and cause-and-effect, you can build narratives that hook attention from the first breath and never let go.",
       "coreThesis": "Story is not an artistic indulgence; it is an evolutionary survival mechanism designed to simulate navigating high-stakes human dilemmas.",
@@ -47612,6 +48863,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "69a96187",
     "onePageSummary": {
       "elevatorPitch": "Most people manage money using an outdated internal operating system inherited during childhood without ever reading the manual. This book provides the diagnostic toolkit to reprogram self-defeating money scripts and build quiet, durable wealth.",
       "coreThesis": "Financial behavior is driven by unconscious, inherited money scripts; until you rewrite these hidden operating rules, raw financial knowledge will never produce lasting solvency.",
@@ -47649,6 +48901,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1983,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "673ac2aa",
     "onePageSummary": {
       "elevatorPitch": "Stop forcing a turbulent mind to freeze into silence; learn how sharp, clear investigation naturally dissolves restlessness and ushers in unshakable inner peace.",
       "coreThesis": "Stillness does not always precede insight; actively applying investigative wisdom dissolves mental turbulence and naturally leads the mind into profound, unwavering absorption.",
@@ -47686,6 +48939,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b1f6efee",
     "onePageSummary": {
       "elevatorPitch": "Calm concentration is the lens; penetrating wisdom is the light that reveals reality as it actually is. This practical guide offers an exact, step-by-step blueprint to cultivate unbreakable mental stillness and use it to permanently dismantle the roots of suffering.",
       "coreThesis": "Profound, unshakeable concentration is the essential diagnostic microscope through which the mind clearly perceives its own empty, dynamic nature and permanently unbinds itself from suffering.",
@@ -47723,6 +48977,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2018,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6d53d77b",
     "onePageSummary": {
       "elevatorPitch": "Wit is not decorative humor or lightweight entertainment; it is an asymmetric cognitive weapon designed to destabilize dogmatic assumptions and cut through ambiguity in high-stakes environments. James Geary deconstructs how linguistic agility, pattern recognition, and rapid lateral pivots generate decisive intellectual leverage when conventional thinking hits a wall.",
       "coreThesis": "Wit is rapid-fire pattern recognition compressed into verbal economy, functioning as a high-leverage cognitive strategy to outmaneuver rigid convention and reveal hidden truth.",
@@ -47760,6 +49015,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8416d47a",
     "onePageSummary": {
       "elevatorPitch": "Your breath is not just air entering your lungs\\u2014it is an internal energy network and a direct steering wheel for your attention. Thanissaro Bhikkhu delivers a rigorous, master-craftsman guide from the Thai Forest tradition to turn every breath into an anchor of clear awareness, profound comfort, and lasting freedom.",
       "coreThesis": "Genuine, reliable happiness is an internal craft cultivated by training the mind to harmonize with the breath, replacing compulsive reactive habits with luminous awareness and discernment.",
@@ -47797,6 +49053,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1976,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e91bd773",
     "onePageSummary": {
       "elevatorPitch": "Human communication is full of persuasive traps that look like sound logic but collapse under inspection. S. Morris Engel provides an X-ray scanner for everyday arguments, showing you how to spot linguistic sleights of hand and evaluate claims with surgical clarity.",
       "coreThesis": "An argument is only as dependable as its unstated assumptions and the precision of its language; strip away emotional decoys, and flawed claims collapse under their own structural weight.",
@@ -47834,6 +49091,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2013,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f0effe87",
     "onePageSummary": {
       "elevatorPitch": "Step past external cultural ritual directly into the pristine mechanics of your own immediate awareness. Ajahn Jayasaro presents a lucid, compassionate masterclass that deconstructs Theravada Buddhism into clear, practical principles for everyday life.",
       "coreThesis": "Suffering dissolves when you stop mistaking passing mental weather for an enduring self, training direct awareness to meet reality without attachment or resistance.",
@@ -47871,6 +49129,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1993,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "3f03464b",
     "onePageSummary": {
       "elevatorPitch": "Imagine driving alongside a sleek sports car that looks flawless on the highway, yet completely lacks physical brakes and a steering lock. Robert Hare pulls back the hood on human psychology to reveal how millions of social predators operate without a functioning moral engine.",
       "coreThesis": "Psychopathy is an enduring neurobiological deficit characterized by complete emotional numbness and absent conscience, enabling charming individuals to treat fellow human beings as interchangeable tools for selfish gain.",
@@ -47908,6 +49167,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2012,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "828e7f4b",
     "onePageSummary": {
       "elevatorPitch": "Every word you utter literally reshapes the physical wiring of your brain and the nervous system of whoever hears you. By mastering twelve evidence-based conversational shifts, you can dismantle social threat alarms and forge instant, biological trust.",
       "coreThesis": "A single spoken word triggers measurable neurochemical cascades that either lock the brain in defensive survival mode or synchronize both speakers in shared clarity and mutual trust.",
@@ -47945,6 +49205,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2001,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "d9ef273b",
     "onePageSummary": {
       "elevatorPitch": "Step off the runaway train of overthinking and discover immediate mental ease through simple, precise awareness. This guide strips away esoteric mystery to show you exactly how to train your attention into an unwavering source of peace.",
       "coreThesis": "Suffering dissolves the instant you observe the present moment clearly without grasping or resistance. Continuous, gentle mindfulness reveals that all experiences\\u2014pleasant or painful\\u2014are impermanent events rather than a solid self.",
@@ -47982,6 +49243,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1993,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9e8a7cca",
     "onePageSummary": {
       "elevatorPitch": "Written from exile in the immediate shadow of national tragedy, this timeless Buddhist text reveals how to transform profound personal and political grief into an unstoppable engine of universal peace. It offers the world's most radical spiritual stance: extending fierce, active compassion not only to the suffering, but equally to those inflicting the pain.",
       "coreThesis": "Genuine, lasting peace can never be forged through hatred or retaliation; it emerges only when we realize our radical interdependence and extend boundless compassion to every being, including our oppressors.",
@@ -48019,6 +49281,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2007,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5419fbdc",
     "onePageSummary": {
       "elevatorPitch": "Communication is not measured by the sound waves you transmit, but by the mental pictures your listener actually constructs. By decoding human cognitive filters and calibrating your vocabulary to audience empathy, you can transform ordinary words into unforgettable instruments of persuasion.",
       "coreThesis": "The true meaning of your words resides entirely within the listener's mental filter, not your personal intention; whoever controls the framing controls the reality.",
@@ -48056,6 +49319,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2019,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "5c54d84e",
     "onePageSummary": {
       "elevatorPitch": "Financial independence is not an exercise in extreme penny-pinching; it is a masterclass in behavioral mechanics and lifestyle systems engineering. By aligning capital with personal values and automating your wealth engines, you can make full-time work entirely optional decades ahead of schedule.",
       "coreThesis": "Retirement is an operational status of total time sovereignty, not an age milestone; by designing your ideal lifestyle first and automating the gap between career earnings and core expenses, work transforms from a compulsory survival mechanism into a purely elective pursuit.",
@@ -48093,6 +49357,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "a371e49e",
     "onePageSummary": {
       "elevatorPitch": "Stop building products forwards from existing assets and guessing what markets might want. Working Backwards details the repeatable operational machine\\u2014from PR/FAQs and six-page memos to single-threaded ownership\\u2014that turned Amazon from an online bookstore into a multi-industry juggernaut.",
       "coreThesis": "Sustainable innovation is not a lightning strike of genius; it is an engineered machine that starts at the customer's ideal outcome and works backwards through autonomous ownership, written narratives, and controllable input metrics.",
@@ -48130,6 +49395,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b20b8811",
     "onePageSummary": {
       "elevatorPitch": "Think open source is a harmonious digital barn-raising where everyone cheerfully builds together? In reality, modern public software resembles an exhausted solo musician performing on an open stage in a packed stadium while thousands of spectators demand custom songs for free.",
       "coreThesis": "Digital software creation has evolved from collaborative communal clubs into broadcasted stadium performances, where infinite consumer demand inevitably suffocates creator attention unless protected by strict boundaries and triage filters.",
@@ -48167,6 +49433,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1998,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "dd64ef86",
     "onePageSummary": {
       "elevatorPitch": "Raw intelligence gets your foot in the door, but emotional self-regulation determines how high you climb. Daniel Goleman reveals the hidden biological and interpersonal circuitry that makes top performers thrive under pressure.",
       "coreThesis": "Technical expertise is merely a baseline threshold; superior long-term performance is governed by how effectively you recognize, regulate, and channel emotional energy within yourself and among others.",
@@ -48204,6 +49471,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2020,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ec0e9dab",
     "onePageSummary": {
       "elevatorPitch": "Traditional networking is hand-to-hand combat; online writing is an autonomous radar tower broadcasting your competence to the global market 24/7. Turn your insights into modular digital assets and attract compounding professional leverage without cold outreach.",
       "coreThesis": "Publishing clear, atomic ideas online creates an asymmetric serendipity engine that permanently replaces cold networking with inbound professional and financial leverage.",
@@ -48241,6 +49509,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2021,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "1d9f8a8a",
     "onePageSummary": {
       "elevatorPitch": "Stop collecting books like unopened pantry spices and start connecting them like a vibrant root network. This volume reveals how to turn scattered notes into a living personal wiki that thinks alongside you forever.",
       "coreThesis": "Knowledge compounds only when captured as autonomous, linked units that connect across different domains rather than remaining locked in isolated source summaries.",
@@ -48278,6 +49547,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1983,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c95ebebf",
     "onePageSummary": {
       "elevatorPitch": "The Book of Pairs is an uncompromising, master-level manual that uses two-way questioning to dismantle every mental assumption you make about yourself. By cross-examining everyday experience, it clears away mental confusion and reveals the stillness of direct, unshakeable awareness.",
       "coreThesis": "Genuine peace arises when you cross-examine your mental assumptions from both directions, discovering that no transient thought, emotion, or sensation forms a permanent, self-contained ego.",
@@ -48315,6 +49585,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2008,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ccd1f880",
     "onePageSummary": {
       "elevatorPitch": "Persuasion is not a mystical art reserved for charismatic charmers\\u2014it is a measurable physical science governed by reliable psychological laws. By adjusting tiny, zero-cost conversational levers, you can tilt the odds of compliance dramatically in your favor.",
       "coreThesis": "Persuasive power does not stem from overwhelming force or innate charisma, but from subtle, evidence-based adjustments that harness natural psychological tendencies.",
@@ -48352,6 +49623,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2009,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "8e7f0f4d",
     "onePageSummary": {
       "elevatorPitch": "Stop racing through life toward an imaginary finish line and awaken to the miracle already unfolding right under your feet. Thich Nhat Hanh hands you the master key to profound mental stillness: unifying mind and body through single, deliberate breaths.",
       "coreThesis": "The present moment is the only place where life is actually happening and where true peace can ever be found. By bringing the mind back into harmony with the physical body through conscious breathing, you uncover an inexhaustible reservoir of healing and freedom.",
@@ -48389,6 +49661,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ae51f8d1",
     "onePageSummary": {
       "elevatorPitch": "Step behind the machinery of your own mind and discover the hidden feedback loops running your everyday life. You are not a detached rational observer, but a brilliant self-deluding storyteller who invents reality on the fly.",
       "coreThesis": "You are not a purely logical computer; your conscious self is a storyteller justifying decisions made by subconscious evolutionary circuits.",
@@ -48425,6 +49698,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2017,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "f915519f",
     "onePageSummary": {
       "elevatorPitch": "Most personal budgets fail because they run on fantasy projections instead of physical reality. This book replaces guilt and guesswork with a clean four-rule operating system that treats money like liquid inventory\\u2014giving every dollar a mission before life makes the decision for you.",
       "coreThesis": "Financial clarity does not come from forecasting hypothetical wealth, but from intentionally assigning active roles to the exact cash you possess today while building buffers against the inevitable friction of life.",
@@ -48462,6 +49736,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2010,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "e83cdc4c",
     "onePageSummary": {
       "elevatorPitch": "Your spoken words make up only a tiny sliver of how people evaluate you; your unconscious posture, orientation, and limb placement run the real conversation. Former federal law enforcement investigator Janine Driver reveals the hidden mechanics of human kinesics so you can spot what people really feel and command effortless respect.",
       "coreThesis": "Non-verbal behavior is a reliable window into authentic intent; by actively calibrating your physical alignment and eliminating unconscious self-pacifying leaks, you dramatically amplify personal influence and read hidden interpersonal dynamics.",
@@ -48499,6 +49774,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1976,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "6fa183ad",
     "onePageSummary": {
       "elevatorPitch": "Your emotional state is not caused by the weather, traffic, or other people\\u2014it is manufactured inside your own cognitive engine. Once you map the self-defeating feedback loops running your mind, you can dismantle them and claim complete operational control over your life.",
       "coreThesis": "You are the ultimate architect of your emotional reality: external circumstances only trigger distress when your internal interpretations allow them to.",
@@ -48536,6 +49812,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1992,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "7991b30c",
     "onePageSummary": {
       "elevatorPitch": "Money is not paper or status\\u2014it is the irreplaceable chunk of your finite lifespan you trade to get it. When you price every purchase in hours of your life rather than dollars, mindless consumerism stops and financial sovereignty begins.",
       "coreThesis": "Money is something you choose to trade your finite life energy for. Financial independence is attained by cutting wasteful consumption, calculating your real hourly wage, and building an investment cushion whose passive returns permanently exceed your living expenses.",
@@ -48573,6 +49850,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1970,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "4833927b",
     "onePageSummary": {
       "elevatorPitch": "Assertiveness is not an act of aggression; it is the fundamental physics of equal human interaction. By calibrating your verbal and nonverbal signals to zero submission and zero domination, you build relationships grounded in clarity, mutual dignity, and authentic power.",
       "coreThesis": "Every individual possesses the fundamental right to express their authentic needs, thoughts, and feelings directly and honestly, without violating the equal dignity and boundaries of anyone else.",
@@ -48610,6 +49888,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2011,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "ee2c17e5",
     "onePageSummary": {
       "elevatorPitch": "Your life is only accessible right here and right now\\u2014stop chasing an imaginary future and discover that your true home is already under your feet.",
       "coreThesis": "Peace, happiness, and liberation cannot be found in the future; your true home is direct, compassionate awareness anchored fully in the present moment.",
@@ -48647,6 +49926,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1957,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "45051969",
     "onePageSummary": {
       "elevatorPitch": "Before Zen was wrapped in academic theory, it was a sharp spark struck against the stone of ordinary daily life. This timeless anthology strips away dogma to show that freedom is found not by accumulating ideas, but by emptying your cup right where you stand.",
       "coreThesis": "Enlightenment is not the accumulation of spiritual knowledge, but the immediate, unforced awareness that emerges when you empty your mind of pretension and meet the present moment as it is.",
@@ -48684,6 +49964,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1948,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "26239d00",
     "onePageSummary": {
       "elevatorPitch": "Mastery does not come from trying harder; it happens when you step out of your own way. Eugen Herrigel uncovers the counterintuitive paradox where letting go of your desire to hit the bullseye is the very thing that hits it.",
       "coreThesis": "Peak performance occurs only when the conscious ego surrenders control, allowing trained intuition to execute without the interference of deliberate intention.",
@@ -48721,6 +50002,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1974,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "9bd528ca",
     "onePageSummary": {
       "elevatorPitch": "Zen is not an intellectual philosophy to debate, but a practical key that unlocks direct contact with life right now. By bringing calm, undivided attention to washing a dish or taking a step, you dissolve anxiety and touch profound peace in the present moment.",
       "coreThesis": "Enlightenment is not a distant, supernatural achievement; it is the immediate, conscious awareness of living fully in the present moment through mindful body and mind alignment.",
@@ -48758,6 +50040,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1970,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "bba42f8d",
     "onePageSummary": {
       "elevatorPitch": "In the beginner's mind there are many possibilities, but in the expert's mind there are few. This quiet masterpiece strips away mysticism to reveal meditation not as a technique to attain something, but as the art of living fully right now.",
       "coreThesis": "Wisdom is not about accumulating expert knowledge or chasing peak experiences, but about maintaining an open, uncluttered mind that meets every ordinary moment with total presence.",
@@ -48795,6 +50078,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2004,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "39143d49",
     "onePageSummary": {
       "elevatorPitch": "Debt is not a moral failing; it is a mechanical leak in your financial engine that drains power through compounded interest and high fees. This guide provides a battle-tested, 31-day operational blueprint to plug the leaks, negotiate with creditors, and restore full control over your money.",
       "coreThesis": "Financial freedom is achieved not through sudden windfalls, but by methodically eliminating high-interest friction, enforcing statutory consumer rights, and redirecting reclaimed cash flow into automated reserves.",
@@ -48832,6 +50116,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2014,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "c21e07fb",
     "onePageSummary": {
       "elevatorPitch": "Copying existing models moves the world from 1 to n, adding more of the familiar. True breakthroughs move the needle from 0 to 1, building singular monopolies that solve unsolved problems.",
       "coreThesis": "Durable value is never generated by competing in crowded markets; it is created by uncovering hidden secrets and building a proprietary, uncontested monopoly that moves the world from zero to one.",
@@ -48869,6 +50154,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 1964,
     "totalChapters": 10,
     "isLoaded": false,
+    "contentVersion": "b64c8ff7",
     "onePageSummary": {
       "elevatorPitch": "Step out of the grinding rat race of rigid judgments, frantic striving, and social posturing to discover a calm, effortless way of moving through existence. Burton Watson's celebrated translation opens a doorway to inner equanimity by aligning your everyday actions with the natural flow of life.",
       "coreThesis": "True freedom and vitality emerge when we abandon rigid judgments and ego-driven striving, moving instead through life with effortless, adaptive responsiveness.",
@@ -48906,6 +50192,7 @@ export const BOOK_CATALOG: Book[] = [
     "publishedYear": 2026,
     "totalChapters": 50,
     "isLoaded": false,
+    "contentVersion": "2a76c112",
     "onePageSummary": {
       "elevatorPitch": "50 situational jokes & comedic bits for Keynotes & Public Speaking: Clean, sharp opening jokes that win over quiet audiences in 15 seconds. Each includes exact usage triggers, vocal emphasis, and pause cues.",
       "coreThesis": "Clean, sharp opening jokes that win over quiet audiences in 15 seconds",
@@ -48927,43 +50214,6 @@ export const BOOK_CATALOG: Book[] = [
       "Stories & Jokes",
       "Keynotes & Public Speaking",
       "Jokes & Comedy"
-    ]
-  },
-  {
-    "id": "stories-keynotes-public-speaking-1-opening-hooks-that-silence-a",
-    "title": "Opening Hooks That Silence a Restless Room",
-    "author": "BookBox Stage Repertoire",
-    "category": "Stories & Jokes",
-    "subcategory": "Keynotes & Public Speaking",
-    "bookFormat": "stories",
-    "coverColor": "from-rose-900 to-amber-950",
-    "coverEmoji": "\ud83c\udfad",
-    "coverImageUrl": "",
-    "readingTimeMinutes": 66,
-    "publishedYear": 2026,
-    "totalChapters": 50,
-    "isLoaded": false,
-    "onePageSummary": {
-      "elevatorPitch": "50 situational detailed performance stories for Keynotes & Public Speaking: 30-to-90s dramatic cold opens before a keynote thesis. Each includes exact usage triggers, vocal emphasis, and pause cues.",
-      "coreThesis": "30-to-90s dramatic cold opens before a keynote thesis",
-      "keyPillars": [],
-      "strengths": [],
-      "blindSpotsAndCounterarguments": []
-    },
-    "blinks": [],
-    "mindMap": {
-      "id": "root",
-      "label": "Opening Hooks That Silence a Restless Room"
-    },
-    "reflectionExercises": [],
-    "actionItems": [],
-    "stories": [],
-    "ideaCards": [],
-    "performancePieces": [],
-    "tags": [
-      "Stories & Jokes",
-      "Keynotes & Public Speaking",
-      "Storytelling"
     ]
   }
 ];

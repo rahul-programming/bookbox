@@ -1,6 +1,6 @@
 import { Book } from '../types';
 import { db } from '../db';
-import { BOOK_LOADER_MAP } from './bookCatalog';
+import { BOOK_LOADER_MAP, BOOK_CATALOG } from './bookCatalog';
 
 // Dynamic Vite code-splitting imports for all expanded book files and performance volumes
 const bookModules = import.meta.glob<{ [key: string]: any }>('./books/*Expanded.ts');
@@ -52,8 +52,10 @@ export async function loadFullBook(bookId: string): Promise<Book | null> {
     }
 
     if (exportedBook && exportedBook.id) {
+      const catalogEntry = BOOK_CATALOG.find(c => c.id === exportedBook!.id);
       const fullBook: Book = {
         ...exportedBook,
+        contentVersion: catalogEntry?.contentVersion || exportedBook.contentVersion,
         isLoaded: true
       };
 

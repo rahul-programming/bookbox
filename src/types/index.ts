@@ -192,6 +192,7 @@ export interface Book {
   publishedYear: number;
   totalChapters?: number;
   isLoaded?: boolean;
+  contentVersion?: string;
   onePageSummary: OnePageSummary;
   blinks: Blink[];
   mindMap: MindMapNode;
