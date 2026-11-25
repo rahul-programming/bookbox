@@ -1,19 +1,22 @@
 #!/usr/bin/env python3
 """
 BookBox Autonomous Stories & Jokes Synthesis Daemon
-Processes all 400 volumes (10,000+ detailed stories & 10,000+ crafted jokes)
+Processes all 400 volumes (10,000+ third-person 10-15 min stories & 10,000+ crafted jokes)
 defined in src/data/stories_jokes_tracker.json.
 
-Completely separate from synthesis_daemon.py and standard 15-min book summaries.
-Each volume contains 50 curated performance pieces with:
-- Explicit "Where to Use" triggers, audience fit, bridge-in & bridge-out lines
-- Pro verbal delivery blueprint (pace, vocal tone, pauses, body/eye contact, emphasis words)
-- Stage-annotated script ([EMPHASIS: ...], [PAUSE 1.5s], [LOWER VOICE], [BEAT]) + clean script
-- Narrative/Comedic craft breakdown + room recovery/tag line
+Strict Format Standards:
+- STORIES:
+  * Strictly THIRD-PERSON point of view (he, she, they, named characters — zero I/me/my narration).
+  * Long-form stage depth: 1,300 to 2,000 words (~10-15 minutes spoken at 135 wpm).
+  * Multi-scene arc (Setup -> Rising Tension -> Deepening Obstacle -> Crisis/Turn -> Climax & Payoff).
+  * Full top "Where to Use It" triggers, third-person Bridge-In, Delivery Blueprint, and inline [EMPHASIS]/[PAUSE] cues.
+- JOKES:
+  * Craft-focused multi-beat standup/conversational bits (45-160 words) with comic timing cues & saver lines.
 
 Usage:
-  python3 scripts/stories_jokes_daemon.py             # Run full queue
+  python3 scripts/stories_jokes_daemon.py             # Run full queue with 3 parallel workers
   python3 scripts/stories_jokes_daemon.py --pilot     # Run 1 Story + 1 Joke pilot volume & build check
+  python3 scripts/stories_jokes_daemon.py --workers 3 # Concurrent LLM workers inside each volume
   python3 scripts/stories_jokes_daemon.py --no-git    # Skip automated git commit/push
 """
 
@@ -24,7 +27,9 @@ import json
 import time
 import signal
 import argparse
+import threading
 import subprocess
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from build_catalog import build_catalog
 
@@ -44,10 +49,65 @@ os.makedirs(DRAFT_DIR, exist_ok=True)
 os.makedirs(os.path.dirname(LOG_PATH), exist_ok=True)
 
 RUNNING = True
+LOCK = threading.Lock()
+
+# Rotating narrative archetypes so parallel story calls never converge on identical tropes
+STORY_SEEDS = [
+    "a municipal bridge inspector in Pittsburgh in the 1990s",
+    "a pediatric nurse running a night clinic in rural Oregon",
+    "an apprentice watchmaker in Geneva trying to save a failing shop",
+    "a high-school debate coach preparing an underdog team from Detroit",
+    "a regional orchestra cellist dealing with a broken rehearsal culture",
+    "an emergency dispatcher during a freak winter storm in Minneapolis",
+    "a family-run bakery founder facing a sudden supermarket contract loss",
+    "a junior structural engineer reviewing blueprints for a coastal pier",
+    "a museum curator uncovering a forged signature three days before opening",
+    "a harbor tugboat captain navigating fog with an inexperienced crew",
+    "a retired botany teacher restoring a polluted industrial creek",
+    "a mid-career supply chain director trapped in a port strike",
+    "a restaurant sous-chef holding the line when the head chef walks out",
+    "an aerospace test technician spotting a hairline anomaly nobody wants to delay for",
+    "a community theater stage manager salvaging a premiere with duct tape",
+    "a deaf acoustic architect designing a concert hall from vibration data",
+    "a bush pilot flying medical supplies across flooded northern towns",
+    "a forensic accountant untangling a quiet embezzlement inside a charity",
+    "an urban librarian transforming a shuttered branch into a neighborhood hub",
+    "a software reliability lead managing a holiday blackout across time zones",
+    "a stone mason repairing an 18th-century courthouse steeple",
+    "a wildfire crew boss making a split-second ridge evacuation call",
+    "a small-town newspaper editor refusing to kill a local water-safety story",
+    "a wheelchair marathoner coaching a terrified first-time runner",
+    "a tailor in Naples known for keeping diplomacy calm between rivals",
+    "an industrial safety trainer walking onto an accident-prone factory floor",
+    "a wildlife tracker locating a lost hiker using tiny broken twigs",
+    "a jazz trumpeter relearning how to play after losing two teeth",
+    "a school bus driver noticing a quiet shift in a shy sixth-grader",
+    "a commercial diver welding underwater turbine struts in zero visibility",
+    "a courtroom interpreter catching a nuance that changes a verdict",
+    "a ceramics artisan whose cracked kiln batch sparks a whole design movement",
+    "a customs broker rescuing perishable vaccines stuck at an airport tarmac",
+    "a lighthouse mechanic keeping a foghorn running with bicycle parts",
+    "a vineyard agronomist gambling on an unorthodox pruning method before frost",
+    "a sound engineer for silent films adapting overnight to talkies",
+    "a hospital chaplain uniting two estranged brothers in a waiting room",
+    "a product designer riding delivery trucks at 4 a.m. to see why boxes crush",
+    "a competitive chess arbiter handling an accusation of silent signaling",
+    "a mountain guide turning an ambitious summit group back 200 meters from the top",
+    "a veteran airline gate agent calming 190 stranded passengers with a chalkboard",
+    "a shipyard welder insisting on re-inspecting a seam nobody else cared about",
+    "an ice-cream cart vendor out-maneuvering a corporate chain through memory",
+    "a theater lighting designer working with three burned-out gel frames",
+    "a bicycle courier who maps an entire city's shortcuts to save an organ transport",
+    "a radio producer broadcasting live from a flooded basement studio",
+    "a kindergarten teacher resolving a bitter parent board feud using chairs",
+    "a clocktower technician synchronizing bells across four rival parishes",
+    "a marine biologist convincing skeptical fishermen to test escape hatches",
+    "an independent bookstore owner turning a leaky roof disaster into a revival"
+]
 
 def signal_handler(sig, frame):
     global RUNNING
-    log("Received termination signal. Finishing current batch gracefully...")
+    log("Received termination signal. Finishing active calls gracefully...")
     RUNNING = False
 
 signal.signal(signal.SIGINT, signal_handler)
@@ -55,7 +115,8 @@ signal.signal(signal.SIGTERM, signal_handler)
 
 def log(msg):
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    print(f"[{ts}] {msg}", flush=True)
+    with LOCK:
+        print(f"[{ts}] {msg}", flush=True)
 
 def to_camel_case(slug):
     parts = re.split(r'[^a-zA-Z0-9]+', slug)
@@ -82,7 +143,7 @@ def derive_clean_script(annotated: str) -> str:
 def clean_quotes(s: str) -> str:
     return re.sub(r'\*\*"([^"]+)"\*\*|\*\*([^*]+)\*\*', r'\1\2', str(s or "")).strip()
 
-def query_agy(prompt: str, timeout: int = 360, effort: str = "low"):
+def query_agy(prompt: str, timeout: int = 420, effort: str = "low"):
     cmd = [
         "/opt/homebrew/bin/agy",
         "--disable-slash-commands",
@@ -126,11 +187,29 @@ def load_dedup():
     return {}
 
 def save_dedup(dedup_map):
-    with open(DEDUP_PATH, "w") as f:
-        json.dump(dedup_map, f, indent=2)
+    with LOCK:
+        with open(DEDUP_PATH, "w") as f:
+            json.dump(dedup_map, f, indent=2)
 
 def norm_signature(text: str) -> str:
     return re.sub(r'[^a-z0-9]+', '', text.lower())
+
+def is_third_person_narration(clean_text: str, bridge_in: str = "") -> bool:
+    """Reject first-person narration in stories (quoted character speech is permitted)."""
+    narration = re.sub(r'"[^"]*"|“[^”]*”', ' ', clean_text)
+    narration = re.sub(r"(?:^|(?<=[\s(\[:,—]))'[^']{6,}'", ' ', narration)
+
+    if re.search(r"\bI\b", narration):
+        return False
+    if re.search(r"\b(i'm|i've|i'd|i'll|my|mine|myself|me)\b", narration, flags=re.IGNORECASE):
+        return False
+    if re.search(r"(?:^|[.!?]\s+)(we|our|we're|we've|we'd)\b", narration, flags=re.IGNORECASE):
+        return False
+
+    b_low = bridge_in.lower()
+    if any(p in b_low for p in ("when i ", "my career", "my boss", "happened to me", "i was ", "i worked", "i learned", "i once ", "i ran into")):
+        return False
+    return True
 
 def sanitize_piece(raw: dict, book_id: str, order: int, expected_type: str) -> dict | None:
     if not isinstance(raw, dict):
@@ -145,109 +224,161 @@ def sanitize_piece(raw: dict, book_id: str, order: int, expected_type: str) -> d
     if len(derived_clean) >= 40:
         clean_text = derived_clean
 
-    # Word count guardrails
     word_count = len(clean_text.split())
-    if expected_type == "story" and word_count < 160:
+    # Long-form stories must cover ~10-15 minutes spoken (>= 1,100 words; ~135 wpm = 8-15 min)
+    if expected_type == "story" and word_count < 1100:
         return None
     if expected_type == "joke" and word_count < 25:
         return None
 
-    # Ensure stage markup exists; inject crisp markup if omitted
+    usage = raw.get("usageContext", {}) or {}
+    bridge_in_val = clean_quotes(usage.get("bridgeIn") or (
+        "Consider what happened years ago when a seemingly routine morning forced an unforgettable choice..."
+        if expected_type == "story"
+        else "Speaking of that, consider this for a second..."
+    ))
+
+    if expected_type == "story" and not is_third_person_narration(clean_text, bridge_in_val):
+        return None
+
     if "[" not in annotated:
         annotated = f"[CONVERSATIONAL] {annotated}"
 
-    usage = raw.get("usageContext", {}) or {}
     situations = [clean_quotes(x) for x in (usage.get("situations") or []) if x]
     if not situations:
         situations = [clean_quotes(usage.get("primaryTrigger", "Everyday conversation"))]
 
     delivery = raw.get("deliveryCues", {}) or {}
-    emphasis_phrases = [clean_quotes(x) for x in (delivery.get("keyEmphasisPhrases") or []) if x][:5]
-
+    emphasis_phrases = [clean_quotes(x) for x in (delivery.get("keyEmphasisPhrases") or []) if x][:6]
     craft = raw.get("craftBreakdown", {}) or {}
+
+    if expected_type == "story":
+        # Spoken rate ~135 wpm with dramatic pauses -> 600-960 seconds (10-16 min)
+        est_seconds = max(600, min(960, round((word_count / 135.0) * 60)))
+    else:
+        est_seconds = int(raw.get("spokenDurationSeconds") or max(15, round((word_count / 145.0) * 60)))
 
     return {
         "id": f"{book_id}-piece-{order}",
         "order": order,
         "type": expected_type,
         "title": title,
-        "spokenDurationSeconds": int(raw.get("spokenDurationSeconds") or (95 if expected_type == "story" else 25)),
+        "spokenDurationSeconds": est_seconds,
         "usageContext": {
             "primaryTrigger": clean_quotes(usage.get("primaryTrigger") or situations[0]),
             "situations": situations[:4],
             "audienceVibe": clean_quotes(usage.get("audienceVibe") or "Professional & social gatherings"),
-            "bridgeIn": clean_quotes(usage.get("bridgeIn") or "That actually reminds me of something I ran into recently..."),
-            "bridgeOut": clean_quotes(usage.get("bridgeOut") or "And that's why timing and perspective change everything."),
+            "bridgeIn": bridge_in_val,
+            "bridgeOut": clean_quotes(usage.get("bridgeOut") or "And that outcome shows how quiet judgment outperforms loud certainty."),
             "avoidWhen": clean_quotes(usage.get("avoidWhen") or "")
         },
         "deliveryCues": {
-            "pacingAndEnergy": clean_quotes(delivery.get("pacingAndEnergy") or "Conversational ~125 wpm; slow down slightly before the turn."),
-            "vocalTone": clean_quotes(delivery.get("vocalTone") or "Warm curiosity on setup, then drop pitch slightly on the payoff."),
-            "pauseBeats": clean_quotes(delivery.get("pauseBeats") or "Hold a full 1.5-second silence before delivering the closing line."),
-            "physicalAndEyeContact": clean_quotes(delivery.get("physicalAndEyeContact") or "Steady eye contact during setup; lean in lightly before the turn."),
+            "pacingAndEnergy": clean_quotes(delivery.get("pacingAndEnergy") or "Conversational ~135 wpm; slow down deliberately on turning points and speed up during escalations."),
+            "vocalTone": clean_quotes(delivery.get("vocalTone") or "Grounded curiosity at setup, warm empathy in escalation, quiet conviction at climax."),
+            "pauseBeats": clean_quotes(delivery.get("pauseBeats") or "Hold clean 1.5s–2s silences before major dialogue shifts and the final takeaway."),
+            "physicalAndEyeContact": clean_quotes(delivery.get("physicalAndEyeContact") or "Anchor different sections of the room per scene; lean slightly forward before pivotal lines."),
             "keyEmphasisPhrases": emphasis_phrases
         },
         "annotatedScript": annotated,
         "cleanScript": clean_text,
         "craftBreakdown": {
-            "setupSummary": clean_quotes(craft.get("setupSummary") or "Relatable premise establishing shared expectations."),
-            "turnOrMisdirection": clean_quotes(craft.get("turnOrMisdirection") or "Sharp perspective flip subverting the assumed outcome."),
-            "payoffOrTag": clean_quotes(craft.get("payoffOrTag") or "If the room stays quiet, smile briefly and pivot straight into your next point."),
-            "whyItLands": clean_quotes(craft.get("whyItLands") or "Uses contrast and specificity to trigger instant recognition.")
+            "setupSummary": clean_quotes(craft.get("setupSummary") or "Immersive multi-scene premise grounding characters and stakes."),
+            "turnOrMisdirection": clean_quotes(craft.get("turnOrMisdirection") or "Pivotal moment where external pressure forces a defining reversal."),
+            "payoffOrTag": clean_quotes(craft.get("payoffOrTag") or "Pause 2 seconds after the final line before transitioning seamlessly to your main point."),
+            "whyItLands": clean_quotes(craft.get("whyItLands") or "Vivid third-person specificity allows the audience to witness the transformation without distraction.")
         },
         "tags": [clean_quotes(t) for t in (raw.get("tags") or [expected_type])[:4] if t]
     }
 
-def generate_batch_prompt(vol: dict, batch_num: int, batch_size: int, existing_titles: list[str]) -> str:
-    fmt = vol["bookFormat"]
-    is_story = fmt == "stories"
+def generate_story_prompt(vol: dict, slot_idx: int, seed_character: str, existing_titles: list[str]) -> str:
+    recent_titles = existing_titles[-45:]
+    avoid_block = ""
+    if recent_titles:
+        avoid_block = "STRICT ANTI-DUPLICATION: Do NOT repeat or resemble any of these existing titles:\n- " + "\n- ".join(recent_titles)
+
+    return f"""Write 1 COMPLETE, GRIPPING, LONG-FORM THIRD-PERSON STORY (10 to 15 minutes spoken on stage: **1,400 to 1,850 words**).
+Volume Title: "{vol['title']}"
+Situation Category: {vol['subcategory']}
+Volume Theme: {vol['angle']}
+Story Slot #{slot_idx} Inspiration Seed: Center the story around {seed_character} (give them a realistic full name, vivid setting, and concrete problem aligned to "{vol['angle']}").
+
+CRITICAL RULES (MUST FOLLOW EVERY ONE OR OUTPUT IS REJECTED):
+1. **STRICT THIRD-PERSON POINT OF VIEW ONLY**:
+   - Narrate 100% in third person (`he`, `she`, `they`, character names).
+   - NEVER use first-person pronouns (`I`, `me`, `my`, `mine`, `myself`, `we`, `our`) anywhere in narration outside spoken dialogue enclosed in double quotes `"..."`!
+   - Even `bridgeIn` MUST be third-person/observational (e.g., `"Think back to what unfolded in a small municipal office in Pittsburgh one Tuesday..."` — NEVER `"When I was..."` or `"My friend told me..."`).
+2. **TRUE 10–15 MINUTE SPOKEN LENGTH (1,400 to 1,850 WORDS)**:
+   - Do NOT write a short summary or 300-word anecdote. Build a full 5-part spoken masterclass narrative:
+     * **Act I — World & Inciting Stake (~300 words)**: Sensory details (weather, room textures, specific dates/objects), protagonist's daily routine, and what is suddenly threatened.
+     * **Act II — Escalating Friction (~350 words)**: First failed attempt to solve it, realistic secondary character pushback with crisp spoken dialogue.
+     * **Act III — The Breaking Point (~300 words)**: Late-night exhaustion, self-doubt, unexpected complication raising the stakes.
+     * **Act IV — The Crucial Turn & Dialogue (~350 words)**: A pivotal conversation, observation, or counter-intuitive choice told beat-by-beat.
+     * **Act V — Climax & Resonant Aftermath (~250 words)**: Exact resolution, quiet emotional landing, and enduring ripple effect.
+3. **STAGE DIRECTION MARKUP INSIDE `annotatedScript`**:
+   - Embed readable oral delivery tags directly throughout all 5 acts:
+     * `[EMPHASIS: key phrase]` on crucial turning words
+     * `[PAUSE 1.5s]`, `[PAUSE 2s]`, or `[BEAT]` at major emotional beats
+     * Stage tags like `[SPEED UP]`, `[SLOW DOWN]`, `[LOWER VOICE]`, `[LEAN IN]`, `[WARM SMILE]`, `[STILLNESS]`, `[SCENE SHIFT]`
+4. **TOP PERFORMANCE SHEET**:
+   - `usageContext`: `primaryTrigger`, `situations` (3 specific speaker scenarios), `audienceVibe`, third-person `bridgeIn`, crisp `bridgeOut`, `avoidWhen`.
+   - `deliveryCues`: `pacingAndEnergy`, `vocalTone`, `pauseBeats`, `physicalAndEyeContact`, `keyEmphasisPhrases` (4–6 exact phrases).
+   - `craftBreakdown`: `setupSummary`, `turnOrMisdirection`, `payoffOrTag` (audience transition tip), `whyItLands`.
+
+{avoid_block}
+
+Return JSON ONLY matching this exact schema:
+{{
+  "pieces": [
+    {{
+      "title": "Compelling Memorable Story Title",
+      "spokenDurationSeconds": 780,
+      "usageContext": {{
+        "primaryTrigger": "...",
+        "situations": ["...", "...", "..."],
+        "audienceVibe": "...",
+        "bridgeIn": "...",
+        "bridgeOut": "...",
+        "avoidWhen": "..."
+      }},
+      "deliveryCues": {{
+        "pacingAndEnergy": "...",
+        "vocalTone": "...",
+        "pauseBeats": "...",
+        "physicalAndEyeContact": "...",
+        "keyEmphasisPhrases": ["...", "...", "...", "..."]
+      }},
+      "annotatedScript": "... (1,400-1,850 words in rich third-person prose with inline [STAGE CUES]) ...",
+      "craftBreakdown": {{
+        "setupSummary": "...",
+        "turnOrMisdirection": "...",
+        "payoffOrTag": "...",
+        "whyItLands": "..."
+      }},
+      "tags": ["third-person", "tag2", "tag3"]
+    }}
+  ]
+}}
+Output strictly valid raw JSON with zero markdown preamble or trailing text."""
+
+def generate_joke_batch_prompt(vol: dict, batch_num: int, batch_size: int, existing_titles: list[str]) -> str:
     recent_titles = existing_titles[-45:]
     avoid_block = ""
     if recent_titles:
         avoid_block = "STRICT ANTI-DUPLICATION: Do NOT reuse or rehash any of these titles/premises:\n- " + "\n- ".join(recent_titles)
 
-    if is_story:
-        spec = f"""Generate {batch_size} ORIGINAL, VIVID, DETAILED storytelling pieces (NOT summaries, NOT clichés, NOT fable summaries).
-Volume Title: "{vol['title']}"
-Situation Category: {vol['subcategory']}
-Specific Angle for this Volume: {vol['angle']}
-Batch: {batch_num}
-
-REQUIREMENTS FOR EVERY STORY:
-1. Length & Depth: Each "annotatedScript" MUST be **240 to 420 words** long — rich human characters, specific sensory details, natural spoken dialogue, mounting tension, turning point, and memorable payoff. Write as spoken aloud by a world-class Moth storyteller or keynote speaker.
-2. Top Usage Guidance: Start each story object with crystal-clear "usageContext":
-   - "primaryTrigger": exact 1-line moment to use it (e.g., "When a team panics after losing a major client")
-   - "situations": 3 concrete triggers
-   - "audienceVibe": room tone & audience fit
-   - "bridgeIn": natural conversational segue sentence to smoothly introduce the story aloud
-   - "bridgeOut": crisp closing tie-back sentence linking back to the speaker's point
-   - "avoidWhen": when NOT to tell this story
-3. Pro Delivery Blueprint ("deliveryCues"):
-   - "pacingAndEnergy": specific wpm/tempo shift guidance
-   - "vocalTone": exact pitch/volume instructions (whisper, warmth, dry restraint, urgency)
-   - "pauseBeats": exact timestamps/words where the teller holds silence
-   - "physicalAndEyeContact": posture, hand gesture, and eye-contact direction
-   - "keyEmphasisPhrases": 3 to 5 exact key phrases from the story to punch vocally
-4. Stage Markup Inside "annotatedScript":
-   - Embed readable inline cues directly inside the text:
-     * `[EMPHASIS: phrase]` around high-impact words
-     * `[PAUSE 1.5s]` or `[BEAT]` right before key reveals/turns
-     * Tone cues like `[LOWER VOICE]`, `[SPEED UP]`, `[LEAN IN]`, `[SMILE]`, `[DEADPAN]`
-5. Craft Breakdown ("craftBreakdown"): "setupSummary", "turnOrMisdirection", "payoffOrTag" (recovery line if the room misses it), "whyItLands"."""
-    else:
-        spec = f"""Generate {batch_size} ORIGINAL, SHARP, PERFORMANCE-READY jokes and comedic bits (NOT stale internet one-liners, NOT hacky stereotypes).
+    return f"""Generate {batch_size} ORIGINAL, SHARP, PERFORMANCE-READY jokes and comedic bits (NOT stale internet one-liners, NOT hacky stereotypes).
 Volume Title: "{vol['title']}"
 Situation Category: {vol['subcategory']}
 Specific Angle for this Volume: {vol['angle']}
 Batch: {batch_num}
 
 REQUIREMENTS FOR EVERY JOKE / BIT:
-1. Length & Craft: Each joke must be a multi-beat observational bit, tight setup-escalation-punchline, or razor-sharp rule-of-three comedic riff (**45 to 160 words**) written for live spoken timing like a seasoned stand-up comic or charming emcee. Keep content clever, fresh, and socially calibrated (PG-13 safe for events/work/parties unless angle specifies gentle roast).
+1. Length & Craft: Each joke must be a multi-beat observational bit, tight setup-escalation-punchline, or razor-sharp rule-of-three comedic riff (**50 to 160 words**) written for live spoken timing like a seasoned stand-up comic or charming emcee. Favor universal observational ("everyone knows that moment...", third-person scenarios, room commentary) over fake personal biography. Keep PG-13 clean & smart.
 2. Top Usage Guidance ("usageContext"):
    - "primaryTrigger": exact conversational cue to drop this joke
    - "situations": 3 specific scenarios
    - "audienceVibe": room vibe required
-   - "bridgeIn": natural setup phrase that disguises it as an off-the-cuff remark rather than "hey wanna hear a joke?"
+   - "bridgeIn": natural setup phrase that disguises it as an off-the-cuff remark
    - "bridgeOut": smooth transition back to conversation OR follow-up tag
    - "avoidWhen": when to skip this joke
 3. Pro Comedian Delivery Blueprint ("deliveryCues"):
@@ -257,22 +388,17 @@ REQUIREMENTS FOR EVERY JOKE / BIT:
    - "physicalAndEyeContact": shrug, eyebrow raise, mic/glass prop cue, eye lock
    - "keyEmphasisPhrases": 2 to 4 hit-words to stress cleanly
 4. Stage Markup Inside "annotatedScript":
-   - Embed crisp stage markup directly inside the text:
-     * `[EMPHASIS: punch word]`
-     * `[PAUSE 1s]` or `[BEAT]` right before the misdirection/punchline
-     * Direction tags like `[DEADPAN]`, `[ACT OUT]`, `[SHRUG]`, `[TAG]`, `[CALLBACK]`
-5. Craft Breakdown ("craftBreakdown"): "setupSummary", "turnOrMisdirection", "payoffOrTag" (includes a bonus follow-up tag AND a room-recovery saver line if nobody laughs), "whyItLands"."""
-
-    return f"""{spec}
+   - Embed `[EMPHASIS: punch word]`, `[PAUSE 1s]`, `[BEAT]`, `[DEADPAN]`, `[ACT OUT]`, `[SHRUG]`, `[TAG]`, `[CALLBACK]`
+5. Craft Breakdown ("craftBreakdown"): "setupSummary", "turnOrMisdirection", "payoffOrTag" (bonus follow-up tag + room-recovery saver line if nobody laughs), "whyItLands".
 
 {avoid_block}
 
-Return JSON ONLY with this exact schema:
+Return JSON ONLY:
 {{
   "pieces": [
     {{
-      "title": "Distinct Memorable Hook Title",
-      "spokenDurationSeconds": 90,
+      "title": "...",
+      "spokenDurationSeconds": 25,
       "usageContext": {{
         "primaryTrigger": "...",
         "situations": ["...", "...", "..."],
@@ -299,15 +425,22 @@ Return JSON ONLY with this exact schema:
     }}
   ]
 }}
-Output strictly valid raw JSON with zero markdown preamble or trailing notes."""
+Output strictly valid raw JSON with zero preamble."""
 
-def synthesize_volume(vol: dict, dedup_map: dict) -> bool:
+def _generate_one_story_slot(vol: dict, slot_idx: int, seed_char: str, existing_titles: list[str]):
+    prompt = generate_story_prompt(vol, slot_idx, seed_char, existing_titles)
+    data = query_agy(prompt, timeout=420, effort="low")
+    raw_list = data.get("pieces", [])
+    if not isinstance(raw_list, list) or not raw_list:
+        return None
+    return sanitize_piece(raw_list[0], vol["id"], slot_idx, "story")
+
+def synthesize_volume(vol: dict, dedup_map: dict, workers: int = 3) -> bool:
     book_id = vol["id"]
     fmt = vol["bookFormat"]
     target_count = vol["targetCount"]
     sub = vol["subcategory"]
     expected_type = "story" if fmt == "stories" else "joke"
-    batch_size = 5 if fmt == "stories" else 10
 
     draft_path = os.path.join(DRAFT_DIR, f"{book_id}.json")
     draft = {"pieces": []}
@@ -319,69 +452,142 @@ def synthesize_volume(vol: dict, dedup_map: dict) -> bool:
             draft = {"pieces": []}
 
     pieces = draft.get("pieces", [])
+    # Re-validate cached draft stories under strict 3rd-person + 10-15 min floor
+    if fmt == "stories":
+        pieces = [
+            p for p in pieces
+            if len(p.get("cleanScript", "").split()) >= 1100
+            and is_third_person_narration(p.get("cleanScript", ""), p.get("usageContext", {}).get("bridgeIn", ""))
+        ]
+
     seen_sigs = set(dedup_map.get(sub, []))
     for p in pieces:
         seen_sigs.add(norm_signature(p["title"]))
         seen_sigs.add(norm_signature(p["cleanScript"][:80]))
 
     existing_titles = [p["title"] for p in pieces]
-    batch_num = 1
     stalls = 0
 
-    while len(pieces) < target_count and RUNNING:
-        needed = min(batch_size, target_count - len(pieces))
-        request_count = needed if needed >= 3 else min(batch_size, needed + 2)
-        log(f"[{book_id}] Generating batch {batch_num} ({len(pieces)}/{target_count} done, requesting {request_count} {expected_type}s)...")
+    if fmt == "stories":
+        attempt_round = 0
+        while len(pieces) < target_count and RUNNING:
+            remaining = target_count - len(pieces)
+            batch_n = min(workers, remaining)
+            attempt_round += 1
+            start_slot = len(pieces) + 1
+            log(f"[{book_id}] Generating {batch_n} long-form 3rd-person stories ({len(pieces)}/{target_count} done, round {attempt_round})...")
 
-        prompt = generate_batch_prompt(vol, batch_num, request_count, existing_titles)
-        try:
-            data = query_agy(prompt, timeout=360, effort="low")
-            raw_list = data.get("pieces", [])
-            if not isinstance(raw_list, list):
-                raw_list = []
+            futures_map = {}
+            with ThreadPoolExecutor(max_workers=batch_n) as pool:
+                for offset in range(batch_n):
+                    slot_num = start_slot + offset
+                    seed_char = STORY_SEEDS[(slot_num - 1 + attempt_round * 7) % len(STORY_SEEDS)]
+                    fut = pool.submit(_generate_one_story_slot, vol, slot_num, seed_char, list(existing_titles))
+                    futures_map[fut] = slot_num
 
-            added = 0
-            for raw in raw_list:
-                if len(pieces) >= target_count:
-                    break
-                order = len(pieces) + 1
-                sanitized = sanitize_piece(raw, book_id, order, expected_type)
-                if not sanitized:
-                    continue
-                t_sig = norm_signature(sanitized["title"])
-                b_sig = norm_signature(sanitized["cleanScript"][:80])
-                if t_sig in seen_sigs or b_sig in seen_sigs:
-                    continue
-                seen_sigs.add(t_sig)
-                seen_sigs.add(b_sig)
-                pieces.append(sanitized)
-                existing_titles.append(sanitized["title"])
-                added += 1
+                added = 0
+                quota_hit = False
+                auth_required = False
+                for fut in as_completed(futures_map):
+                    try:
+                        sanitized = fut.result()
+                        if not sanitized:
+                            continue
+                        t_sig = norm_signature(sanitized["title"])
+                        b_sig = norm_signature(sanitized["cleanScript"][:80])
+                        if t_sig in seen_sigs or b_sig in seen_sigs:
+                            continue
+                        seen_sigs.add(t_sig)
+                        seen_sigs.add(b_sig)
+                        pieces.append(sanitized)
+                        existing_titles.append(sanitized["title"])
+                        added += 1
+                    except Exception as e:
+                        err_msg = str(e)
+                        if "Authentication required" in err_msg or "authentication failed" in err_msg.lower():
+                            auth_required = True
+                        elif "RESOURCE_EXHAUSTED" in err_msg or "429" in err_msg:
+                            quota_hit = True
+                            log(f"⚠️ Quota limit encountered on {book_id}: {err_msg[:160]}")
+                        else:
+                            log(f"⚠️ Story slot error on {book_id}: {err_msg[:180]}")
 
             draft["pieces"] = pieces
             with open(draft_path, "w") as f:
                 json.dump(draft, f, indent=2)
 
-            log(f"[{book_id}] Batch {batch_num}: accepted {added} new ({len(pieces)}/{target_count})")
-            batch_num += 1
-            if added == 0:
-                stalls += 1
-                if stalls >= 3:
-                    raise RuntimeError("3 consecutive batches yielded 0 valid unique items")
-            else:
-                stalls = 0
-        except RuntimeError as e:
-            err_msg = str(e)
-            if "RESOURCE_EXHAUSTED" in err_msg or "429" in err_msg:
-                log(f"⚠️ Quota limit encountered on {book_id}: {err_msg[:180]}. Cooling down 120s...")
+            if auth_required:
+                log("🔒 Authentication required for agy CLI. Draft saved; stopping daemon cleanly.")
+                raise PermissionError("agy authentication required")
+
+            if quota_hit:
+                log("Cooling down 120s for quota recovery...")
                 time.sleep(120)
                 continue
-            raise
+
+            log(f"[{book_id}] Round {attempt_round}: accepted {added} new ({len(pieces)}/{target_count})")
+            if added == 0:
+                stalls += 1
+                if stalls >= 5:
+                    raise RuntimeError("5 consecutive story rounds yielded 0 valid items meeting 3rd-person + 1,100w floor")
+            else:
+                stalls = 0
+    else:
+        batch_num = 1
+        while len(pieces) < target_count and RUNNING:
+            needed = min(10, target_count - len(pieces))
+            request_count = needed if needed >= 3 else min(10, needed + 2)
+            log(f"[{book_id}] Generating batch {batch_num} ({len(pieces)}/{target_count} done, requesting {request_count} jokes)...")
+            prompt = generate_joke_batch_prompt(vol, batch_num, request_count, existing_titles)
+            try:
+                data = query_agy(prompt, timeout=360, effort="low")
+                raw_list = data.get("pieces", [])
+                if not isinstance(raw_list, list):
+                    raw_list = []
+
+                added = 0
+                for raw in raw_list:
+                    if len(pieces) >= target_count:
+                        break
+                    sanitized = sanitize_piece(raw, book_id, len(pieces) + 1, "joke")
+                    if not sanitized:
+                        continue
+                    t_sig = norm_signature(sanitized["title"])
+                    b_sig = norm_signature(sanitized["cleanScript"][:80])
+                    if t_sig in seen_sigs or b_sig in seen_sigs:
+                        continue
+                    seen_sigs.add(t_sig)
+                    seen_sigs.add(b_sig)
+                    pieces.append(sanitized)
+                    existing_titles.append(sanitized["title"])
+                    added += 1
+
+                draft["pieces"] = pieces
+                with open(draft_path, "w") as f:
+                    json.dump(draft, f, indent=2)
+
+                log(f"[{book_id}] Batch {batch_num}: accepted {added} new ({len(pieces)}/{target_count})")
+                batch_num += 1
+                if added == 0:
+                    stalls += 1
+                    if stalls >= 3:
+                        raise RuntimeError("3 consecutive joke batches yielded 0 valid unique items")
+                else:
+                    stalls = 0
+            except RuntimeError as e:
+                err_msg = str(e)
+                if "Authentication required" in err_msg or "authentication failed" in err_msg.lower():
+                    log("🔒 Authentication required for agy CLI. Stopping daemon cleanly without marking failure.")
+                    raise PermissionError("agy authentication required")
+                if "RESOURCE_EXHAUSTED" in err_msg or "429" in err_msg:
+                    log(f"⚠️ Quota limit encountered on {book_id}: {err_msg[:180]}. Cooling down 120s...")
+                    time.sleep(120)
+                    continue
+                raise
 
     if not RUNNING:
         return False
 
-    # Re-index orders cleanly 1..N
     for idx, p in enumerate(pieces, 1):
         p["order"] = idx
         p["id"] = f"{book_id}-piece-{idx}"
@@ -403,7 +609,11 @@ def synthesize_volume(vol: dict, dedup_map: dict) -> bool:
         "totalChapters": len(pieces),
         "isLoaded": True,
         "onePageSummary": {
-            "elevatorPitch": f"{len(pieces)} situational {'jokes & comedic bits' if fmt == 'jokes' else 'detailed performance stories'} for {sub}: {vol['angle']}. Each includes exact usage triggers, vocal emphasis, and pause cues.",
+            "elevatorPitch": (
+                f"{len(pieces)} detailed third-person stories (10–15 min each) for {sub}: {vol['angle']}. Complete with usage triggers, vocal emphasis, and pause cues."
+                if fmt == "stories"
+                else f"{len(pieces)} crafted situational jokes & bits for {sub}: {vol['angle']}. Each includes exact usage triggers, vocal emphasis, and pause cues."
+            ),
             "coreThesis": vol["angle"],
             "keyPillars": [],
             "strengths": [],
@@ -416,7 +626,7 @@ def synthesize_volume(vol: dict, dedup_map: dict) -> bool:
         "stories": [],
         "ideaCards": [],
         "performancePieces": pieces,
-        "tags": ["Stories & Jokes", sub, "Jokes & Comedy" if fmt == "jokes" else "Storytelling"]
+        "tags": ["Stories & Jokes", sub, "Jokes & Comedy" if fmt == "jokes" else "Third-Person Storytelling"]
     }
 
     camel = to_camel_case(book_id)
@@ -425,7 +635,7 @@ def synthesize_volume(vol: dict, dedup_map: dict) -> bool:
     file_path = os.path.join(PERF_DIR, file_name)
 
     ts_content = (
-        f"// {vol['title']} ({sub} · {'Jokes' if fmt == 'jokes' else 'Stories'})\n"
+        f"// {vol['title']} ({sub} · {'Jokes' if fmt == 'jokes' else 'Third-Person Stories'})\n"
         f"// Generated by BookBox Performer Pipeline\n\n"
         f"import {{ Book }} from '../../types';\n\n"
         f"export const {screaming}: Book = {json.dumps(book_obj, indent=2)};\n"
@@ -433,7 +643,6 @@ def synthesize_volume(vol: dict, dedup_map: dict) -> bool:
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(ts_content)
 
-    # Save cross-volume dedup signatures (keep recent 400 signatures per pillar)
     pillar_sigs = list(dict.fromkeys(dedup_map.get(sub, []) + [norm_signature(p["title"]) for p in pieces]))
     dedup_map[sub] = pillar_sigs[-400:]
     save_dedup(dedup_map)
@@ -459,7 +668,8 @@ def git_push_batch(count: int):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--pilot", action="store_true", help="Synthesize only 1 Story pilot + 1 Joke pilot volume and verify build")
+    parser.add_argument("--pilot", action="store_true", help="Synthesize pending pilot volume(s) and verify build")
+    parser.add_argument("--workers", type=int, default=3, help="Concurrent LLM workers for long-form stories")
     parser.add_argument("--no-git", action="store_true", help="Skip git commits/pushes")
     args = parser.parse_args()
 
@@ -477,11 +687,11 @@ def main():
         story_pilot = next((v for v in volumes if v["bookFormat"] == "stories" and v["status"] == "pending"), None)
         joke_pilot = next((v for v in volumes if v["bookFormat"] == "jokes" and v["status"] == "pending"), None)
         queue = [v for v in [story_pilot, joke_pilot] if v]
-        log(f"🧪 PILOT MODE: Synthesizing {len(queue)} volumes (1 Story + 1 Joke)...")
+        log(f"🧪 PILOT MODE: Synthesizing {len(queue)} pending pilot volume(s) (workers={args.workers})...")
     else:
         queue = [v for v in volumes if v["status"] in ("pending", "in_progress")]
         log("=" * 80)
-        log(f"🎭 BOOKBOX STORIES & JOKES DAEMON STARTED ({len(queue)} volumes queued)")
+        log(f"🎭 BOOKBOX STORIES & JOKES DAEMON STARTED ({len(queue)} volumes queued, workers={args.workers})")
         log("=" * 80)
 
     batch_completed = 0
@@ -493,7 +703,7 @@ def main():
             json.dump(tracker, f, indent=2)
 
         try:
-            ok = synthesize_volume(vol, dedup_map)
+            ok = synthesize_volume(vol, dedup_map, workers=args.workers)
             if ok:
                 vol["status"] = "completed"
                 vol["completedCount"] = vol["targetCount"]
@@ -508,6 +718,13 @@ def main():
                     if verify_build() and not args.no_git:
                         git_push_batch(batch_completed)
                     batch_completed = 0
+        except PermissionError as auth_err:
+            vol["status"] = "pending"
+            vol["lastError"] = str(auth_err)
+            with open(TRACKER_PATH, "w") as f:
+                json.dump(tracker, f, indent=2)
+            log(f"🛑 Pausing queue cleanly: {auth_err}. Please re-authenticate agy CLI and resume.")
+            break
         except Exception as e:
             vol["retries"] = vol.get("retries", 0) + 1
             vol["status"] = "failed" if vol["retries"] >= 3 else "pending"
@@ -519,7 +736,7 @@ def main():
 
     build_catalog()
     ok_build = verify_build()
-    if ok_build and batch_completed > 0 and not args.pilot and not args.no_git:
+    if ok_build and batch_completed > 0 and not args.no_git:
         git_push_batch(batch_completed)
     log("🏁 Stories & Jokes daemon cycle finished.")
 

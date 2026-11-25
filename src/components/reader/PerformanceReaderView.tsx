@@ -247,9 +247,10 @@ export const PerformanceReaderView: React.FC<PerformanceReaderViewProps> = ({
   }
 
   const isJoke = piece.type === 'joke';
+  const wordCount = piece.cleanScript.trim().split(/\s+/).filter(Boolean).length;
   const durationLabel = piece.spokenDurationSeconds < 60
     ? `${piece.spokenDurationSeconds}s delivery`
-    : `${Math.round(piece.spokenDurationSeconds / 60 * 10) / 10} min delivery`;
+    : `${Math.round(piece.spokenDurationSeconds / 60 * 10) / 10} min delivery · ${wordCount.toLocaleString()} words`;
 
   return (
     <div
