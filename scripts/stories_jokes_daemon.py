@@ -452,7 +452,7 @@ def verify_build():
 
 def git_push_batch(count: int):
     log(f"📦 Pushing batch of {count} performance volumes to git origin main...")
-    subprocess.run(["git", "add", "src/data/performance", "src/data/bookCatalog.ts", "src/data/stories_jokes_tracker.json"], cwd=WORKSPACE_DIR, check=True)
+    subprocess.run(["git", "add", "src/data/performance", "src/data/bookCatalog.ts"], cwd=WORKSPACE_DIR, check=True)
     subprocess.run(["git", "commit", "-m", f"feat(stories-jokes): batch of {count} performance volumes added"], cwd=WORKSPACE_DIR, check=True)
     subprocess.run(["git", "push", "origin", "main"], cwd=WORKSPACE_DIR, check=True)
     log("🚀 Pushed batch to origin main!")
