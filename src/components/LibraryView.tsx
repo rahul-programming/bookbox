@@ -24,6 +24,8 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
 }) => {
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
   const [selectedSubcategory, setSelectedSubcategory] = useState<string>('All');
+  const [selectedFormatFilter, setSelectedFormatFilter] = useState<'all' | 'stories' | 'jokes'>('all');
+  const [visibleCount, setVisibleCount] = useState<number>(30);
   const [searchQuery, setSearchQuery] = useState('');
   const [activeAudioBook, setActiveAudioBook] = useState<Book | null>(null);
 
@@ -32,9 +34,16 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
     if (resetTrigger !== undefined && resetTrigger > 0) {
       setSelectedCategory('All');
       setSelectedSubcategory('All');
+      setSelectedFormatFilter('all');
+      setVisibleCount(30);
       setSearchQuery('');
     }
   }, [resetTrigger]);
+
+  // Reset grid window whenever filters or search change
+  React.useEffect(() => {
+    setVisibleCount(30);
+  }, [selectedCategory, selectedSubcategory, selectedFormatFilter, searchQuery]);
 
   const categories = React.useMemo(() => {
     const cats = new Set<string>();
@@ -78,10 +87,15 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
   const handleCategoryChange = (cat: string) => {
     setSelectedCategory(cat);
     setSelectedSubcategory('All');
+    setSelectedFormatFilter('all');
   };
 
   const filteredBooks = books.filter(b => {
     const matchCat = selectedCategory === 'All' || b.category === selectedCategory;
+    const matchFormat =
+      selectedCategory !== 'Stories & Jokes' ||
+      selectedFormatFilter === 'all' ||
+      b.bookFormat === selectedFormatFilter;
     const matchSub =
       selectedSubcategory === 'All' ||
       !subcategories.length ||
@@ -94,8 +108,11 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
       b.tags.some(t => t.toLowerCase().includes(searchQuery.toLowerCase())) ||
       (b.subcategory && b.subcategory.toLowerCase().includes(searchQuery.toLowerCase()));
 
-    return matchCat && matchSub && matchSearch;
+    return matchCat && matchFormat && matchSub && matchSearch;
   });
+
+  const visibleBooks = filteredBooks.slice(0, visibleCount);
+  const hasMoreBooks = filteredBooks.length > visibleCount;
 
   const dailyPick = books[0] || null;
 
@@ -209,6 +226,32 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
 
       </div>
 
+      {/* Stories vs Jokes Type Filter (shown when Stories & Jokes category is active) */}
+      {selectedCategory === 'Stories & Jokes' && (
+        <div className="flex items-center space-x-2 -mt-2">
+          <span className="text-[11px] font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-wider mr-1">
+            Format:
+          </span>
+          {([
+            { id: 'all', label: 'All Volumes' },
+            { id: 'stories', label: 'Stories' },
+            { id: 'jokes', label: 'Jokes & Bits' }
+          ] as const).map(opt => (
+            <button
+              key={opt.id}
+              onClick={() => setSelectedFormatFilter(opt.id)}
+              className={`px-3 py-1 rounded-full text-xs font-semibold transition cursor-pointer ${
+                selectedFormatFilter === opt.id
+                  ? 'bg-amber-600 text-white shadow-2xs'
+                  : 'bg-amber-50/70 dark:bg-slate-800 text-amber-800 dark:text-amber-300 border border-amber-200 dark:border-slate-700 hover:bg-amber-100/70'
+              }`}
+            >
+              {opt.label}
+            </button>
+          ))}
+        </div>
+      )}
+
       {/* Subcategory Pills (automatically displayed when category has > 5 books) */}
       {subcategories.length > 0 && (
         <div className="flex items-center space-x-2 overflow-x-auto pt-2 pb-4 -mt-1">
@@ -238,19 +281,36 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
           <p className="text-xs mt-1">Try clearing your search query or picking a different category.</p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredBooks.map((book) => (
-            <BookCard
-              key={book.id}
-              book={book}
-              progress={progressMap[book.id]}
-              onSelect={onSelectBook}
-              onStartAudio={(b) => setActiveAudioBook(b)}
-              onToggleFavorite={onToggleFavorite}
-              onToggleCurrentlyReading={onToggleCurrentlyReading}
-            />
-          ))}
-        </div>
+        <>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {visibleBooks.map((book) => (
+              <BookCard
+                key={book.id}
+                book={book}
+                progress={progressMap[book.id]}
+                onSelect={onSelectBook}
+                onStartAudio={(b) => setActiveAudioBook(b)}
+                onToggleFavorite={onToggleFavorite}
+                onToggleCurrentlyReading={onToggleCurrentlyReading}
+              />
+            ))}
+          </div>
+
+          {hasMoreBooks && (
+            <div className="flex flex-col items-center pt-4 space-y-2">
+              <p className="text-xs text-slate-500 dark:text-slate-400">
+                Showing {visibleBooks.length} of {filteredBooks.length} books
+              </p>
+              <button
+                type="button"
+                onClick={() => setVisibleCount(prev => prev + 30)}
+                className="px-6 py-2.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:border-blue-400 text-xs font-bold text-slate-700 dark:text-slate-200 shadow-xs transition cursor-pointer"
+              >
+                Load 30 More Books
+              </button>
+            </div>
+          )}
+        </>
       )}
 
       {/* Floating Audio Player when listening from Library */}

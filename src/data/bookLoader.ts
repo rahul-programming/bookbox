@@ -2,14 +2,23 @@ import { Book } from '../types';
 import { db } from '../db';
 import { BOOK_LOADER_MAP } from './bookCatalog';
 
-// Dynamic Vite code-splitting imports for all expanded book files
+// Dynamic Vite code-splitting imports for all expanded book files and performance volumes
 const bookModules = import.meta.glob<{ [key: string]: any }>('./books/*Expanded.ts');
+const performanceModules = import.meta.glob<{ [key: string]: any }>('./performance/*Performance.ts');
+
+export function hasLoadedBookContent(book: Book): boolean {
+  return Boolean(
+    book.isLoaded &&
+    ((book.blinks && book.blinks.length > 0) ||
+      (book.performancePieces && book.performancePieces.length > 0))
+  );
+}
 
 export async function loadFullBook(bookId: string): Promise<Book | null> {
   // 1. Check if the full book is already cached in IndexedDB with full content
   try {
     const existing = await db.books.get(bookId);
-    if (existing && existing.isLoaded && existing.blinks && existing.blinks.length > 0) {
+    if (existing && hasLoadedBookContent(existing)) {
       return existing;
     }
   } catch (err) {
@@ -18,20 +27,21 @@ export async function loadFullBook(bookId: string): Promise<Book | null> {
 
   // 2. Resolve the dynamic import path from the catalog mapping
   const relPath = BOOK_LOADER_MAP[bookId];
-  if (!relPath || !bookModules[relPath]) {
+  const loaderFn = relPath ? (bookModules[relPath] || performanceModules[relPath]) : undefined;
+  if (!relPath || !loaderFn) {
     console.warn(`[bookLoader] No dynamic loader found for book '${bookId}' at path '${relPath}'`);
     return (await db.books.get(bookId)) || null;
   }
 
   // 3. Dynamically fetch the isolated book chunk on-demand
   try {
-    const module = await bookModules[relPath]();
+    const module = await loaderFn();
     let exportedBook: Book | null = null;
     if (module.default && module.default.id) {
       exportedBook = module.default;
     } else {
       for (const val of Object.values(module)) {
-        if (val && typeof val === 'object' && (val as any).id && (val as any).blinks) {
+        if (val && typeof val === 'object' && (val as any).id && ((val as any).blinks || (val as any).performancePieces)) {
           exportedBook = val as Book;
           break;
         }

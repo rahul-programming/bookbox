@@ -10,9 +10,12 @@ export type Category =
   | 'Personal Growth'
   | 'Philosophy'
   | 'Spirituality'
-  | 'Creativity & Expression';
+  | 'Creativity & Expression'
+  | 'Stories & Jokes';
 
-export type ReaderViewMode = 'blinks' | 'deepdive' | 'actionable' | 'cards' | 'mindmap';
+export type BookFormat = 'standard' | 'stories' | 'jokes';
+
+export type ReaderViewMode = 'blinks' | 'deepdive' | 'actionable' | 'cards' | 'mindmap' | 'performance';
 
 export type ThemeMode = 'light' | 'dark' | 'sepia';
 
@@ -137,12 +140,51 @@ export interface BookStory {
   sourceChapter: string;
 }
 
+export interface PerformanceUsageContext {
+  primaryTrigger: string;        // e.g., "When a client stalls over pricing"
+  situations: string[];          // 3-4 specific situations where this lands best
+  audienceVibe: string;          // e.g., "Skeptical execs" | "Warm dinner group"
+  bridgeIn: string;              // Exact natural transition sentence into the piece
+  bridgeOut: string;             // Tie-back moral or exit/callback line
+  avoidWhen?: string;            // Guardrail: when NOT to use it
+}
+
+export interface PerformanceDeliveryCues {
+  pacingAndEnergy: string;       // e.g., "Unforced, conversational ~120 wpm"
+  vocalTone: string;             // e.g., "Warm curiosity -> drop pitch 15% on the reveal"
+  pauseBeats: string;            // e.g., "Hold 1.5s silence right before the turn"
+  physicalAndEyeContact: string; // e.g., "Lock eyes on setup; shrug & open palms on tag"
+  keyEmphasisPhrases: string[];  // Exact 3-5 phrases/words to punch vocally
+}
+
+export interface PerformanceCraftBreakdown {
+  setupSummary: string;
+  turnOrMisdirection: string;
+  payoffOrTag: string;           // Includes optional recovery/tag line
+  whyItLands: string;            // Psychological or comedic mechanism
+}
+
+export interface PerformancePiece {
+  id: string;
+  order: number;
+  type: 'story' | 'joke';
+  title: string;
+  spokenDurationSeconds: number;
+  usageContext: PerformanceUsageContext;
+  deliveryCues: PerformanceDeliveryCues;
+  annotatedScript: string;       // Marked with [EMPHASIS: ...], [PAUSE 1.5s], [LOWER VOICE], [BEAT], etc.
+  cleanScript: string;           // Clean un-annotated text for smooth reading & TTS playback
+  craftBreakdown: PerformanceCraftBreakdown;
+  tags: string[];
+}
+
 export interface Book {
   id: string; // unique slug, e.g. 'atomic-habits'
   title: string;
   author: string;
   category: Category;
   subcategory?: string;
+  bookFormat?: BookFormat;
   coverColor: string; // gradient / color identifier
   coverEmoji: string;
   coverImageUrl?: string | null;
@@ -157,6 +199,7 @@ export interface Book {
   actionItems?: ActionItem[];
   stories?: BookStory[];
   ideaCards?: IdeaCard[];
+  performancePieces?: PerformancePiece[];
   tags: string[];
   isCustom?: boolean;
 }

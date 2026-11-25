@@ -82,8 +82,11 @@ export const CurrentlyReadingView: React.FC<CurrentlyReadingViewProps> = ({
 
   const mostRecent = readingBooks[0] || null;
   const mostRecentProgress = mostRecent ? progressMap[mostRecent.id] : null;
-  const mostRecentPercent = mostRecent && mostRecent.blinks.length > 0 
-    ? Math.round(((mostRecentProgress?.completedBlinkIds.length ?? 0) / mostRecent.blinks.length) * 100) 
+  const mostRecentTotal = mostRecent
+    ? (mostRecent.totalChapters || mostRecent.performancePieces?.length || mostRecent.blinks.length || 0)
+    : 0;
+  const mostRecentPercent = mostRecent && mostRecentTotal > 0 
+    ? Math.round(((mostRecentProgress?.completedBlinkIds.length ?? 0) / mostRecentTotal) * 100) 
     : 0;
 
   return (
@@ -158,7 +161,7 @@ export const CurrentlyReadingView: React.FC<CurrentlyReadingViewProps> = ({
                   />
                 </div>
                 <span className="text-xs font-semibold text-blue-100">
-                  {mostRecentPercent}% completed ({mostRecentProgress?.completedBlinkIds.length ?? 0}/{mostRecent.blinks.length} chapters)
+                  {mostRecentPercent}% completed ({mostRecentProgress?.completedBlinkIds.length ?? 0}/{mostRecentTotal} {mostRecent.bookFormat === 'jokes' ? 'jokes' : mostRecent.bookFormat === 'stories' ? 'stories' : 'chapters'})
                 </span>
               </div>
             </div>

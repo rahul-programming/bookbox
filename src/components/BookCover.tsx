@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
+import { BookFormat } from '../types';
 
 interface BookCoverProps {
   title: string;
   author: string;
   category?: string;
+  bookFormat?: BookFormat;
+  totalItems?: number;
   coverImageUrl?: string | null;
   size?: 'sm' | 'md' | 'lg';
   className?: string;
@@ -13,6 +16,8 @@ export const BookCover: React.FC<BookCoverProps> = ({
   title,
   author,
   category = 'Productivity',
+  bookFormat = 'standard',
+  totalItems,
   coverImageUrl,
   size = 'md',
   className = ''
@@ -21,7 +26,15 @@ export const BookCover: React.FC<BookCoverProps> = ({
 
   // Category palette for realistic book jacket cover designs
   const getCategoryTheme = (cat: string) => {
+    if (bookFormat === 'jokes') {
+      return { bg: 'from-fuchsia-900 via-purple-950 to-slate-950', accent: 'border-amber-300/40 text-amber-300' };
+    }
+    if (bookFormat === 'stories') {
+      return { bg: 'from-rose-900 via-amber-950 to-stone-950', accent: 'border-amber-400/40 text-amber-200' };
+    }
     switch (cat) {
+      case 'Stories & Jokes':
+        return { bg: 'from-rose-900 via-purple-950 to-slate-950', accent: 'border-amber-300/40 text-amber-200' };
       case 'Productivity':
         return { bg: 'from-blue-800 via-indigo-900 to-slate-950', accent: 'border-blue-400/30 text-blue-200' };
       case 'Psychology':
@@ -91,7 +104,11 @@ export const BookCover: React.FC<BookCoverProps> = ({
       <div className="relative pl-1 pr-0.5 pt-0.5">
         <div className="flex items-center justify-between border-b border-white/15 pb-0.5 mb-1">
           <span className={`text-[7px] font-bold tracking-widest uppercase truncate max-w-[45px] ${theme.accent}`}>
-            {category}
+            {bookFormat === 'jokes'
+              ? `${totalItems || 50} JOKES`
+              : bookFormat === 'stories'
+              ? `${totalItems || 50} STORIES`
+              : category}
           </span>
           <div className="w-1 h-1 rounded-full bg-white/40" />
         </div>

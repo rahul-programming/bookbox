@@ -12,7 +12,8 @@ export const CATEGORIES: Category[] = [
   'Personal Growth',
   'Philosophy',
   'Spirituality',
-  'Creativity & Expression'
+  'Creativity & Expression',
+  'Stories & Jokes'
 ];
 
 export const CATEGORY_SUBCATEGORIES: Record<Category, string[]> = {
@@ -159,6 +160,28 @@ export const CATEGORY_SUBCATEGORIES: Record<Category, string[]> = {
     'Design Thinking & Aesthetics',
     'Humor & Wit in Speaking',
     'Performance & Flow'
+  ],
+  'Stories & Jokes': [
+    'Keynotes & Public Speaking',
+    'Leadership & Team Morale',
+    'Sales, Pitches & Persuasion',
+    'Negotiation & Conflict',
+    'Workplace Politics & Tough Talks',
+    'Networking & Small Talk',
+    'Dinner Parties & Hosting',
+    'Weddings, Toasts & Celebrations',
+    'Dating, Romance & Relationships',
+    'Parenting & Family Chaos',
+    'Failure, Humility & Comebacks',
+    'Tech, Engineering & Startups',
+    'Money, Finance & Careers',
+    'Teaching, Coaching & Mentorship',
+    'Travel & Cultural Mishaps',
+    'Awkward Moments & Quick Saves',
+    'Health, Fitness & Aging',
+    'Deadpan, Wordplay & Sharp Retorts',
+    'Philosophy & Modern Absurdity',
+    'Everyday Observations & Slice-of-Life'
   ]
 };
 

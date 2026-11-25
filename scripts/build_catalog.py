@@ -14,11 +14,13 @@ import json
 
 WORKSPACE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BOOKS_DIR = os.path.join(WORKSPACE_DIR, "src/data/books")
+PERF_DIR = os.path.join(WORKSPACE_DIR, "src/data/performance")
 OUTPUT_FILE = os.path.join(WORKSPACE_DIR, "src/data/bookCatalog.ts")
 
 def build_catalog():
-    files = sorted(glob.glob(os.path.join(BOOKS_DIR, "*Expanded.ts")))
-    print(f"Building catalog from {len(files)} books...")
+    standard_files = sorted(glob.glob(os.path.join(BOOKS_DIR, "*Expanded.ts")))
+    perf_files = sorted(glob.glob(os.path.join(PERF_DIR, "*Performance.ts"))) if os.path.exists(PERF_DIR) else []
+    print(f"Building catalog from {len(standard_files)} standard books + {len(perf_files)} performance volumes...")
 
     covers_map = {}
     covers_path = os.path.join(WORKSPACE_DIR, "src/data/bookCovers.json")
@@ -32,7 +34,7 @@ def build_catalog():
     catalog = []
     id_to_file = {}
 
-    for f in files:
+    for f in standard_files:
         basename = os.path.basename(f)
         rel_path = f"./books/{basename}"
         
@@ -50,7 +52,6 @@ def build_catalog():
         m_cat = re.search(r'"category":\s*"([^"]+)"', c)
         m_sub = re.search(r'"subcategory":\s*"([^"]+)"', c)
         m_color = re.search(r'"coverColor":\s*"([^"]+)"', c)
-        m_emoji = re.search(r'"coverEmoji":\s*"([^"]+)"', c)
         m_time = re.search(r'"readingTimeMinutes":\s*([0-9]+)', c)
         m_year = re.search(r'"publishedYear":\s*([0-9]+)', c)
         m_pitch = re.search(r'"elevatorPitch":\s*"([^"]+)"', c)
@@ -71,6 +72,7 @@ def build_catalog():
             "author": m_author.group(1) if m_author else "",
             "category": m_cat.group(1) if m_cat else "Spirituality",
             "subcategory": m_sub.group(1) if m_sub else "",
+            "bookFormat": "standard",
             "coverColor": m_color.group(1) if m_color else "from-blue-600 to-indigo-700",
             "coverEmoji": "📖",
             "coverImageUrl": covers_map.get(book_id) or "",
@@ -91,7 +93,65 @@ def build_catalog():
             "actionItems": [],
             "stories": [],
             "ideaCards": [],
+            "performancePieces": [],
             "tags": tags[:5]
+        }
+        catalog.append(stub)
+
+    for f in perf_files:
+        basename = os.path.basename(f)
+        rel_path = f"./performance/{basename}"
+        with open(f, "r", encoding="utf-8") as fp:
+            c = fp.read()
+
+        # Extract JSON payload after '='
+        eq_idx = c.find("= {")
+        if eq_idx == -1:
+            continue
+        json_str = c[eq_idx + 2:].strip()
+        if json_str.endswith(";"):
+            json_str = json_str[:-1].strip()
+        try:
+            obj = json.loads(json_str)
+        except Exception:
+            continue
+
+        book_id = obj.get("id", "")
+        if not book_id:
+            continue
+        id_to_file[book_id] = rel_path
+        pieces = obj.get("performancePieces", [])
+        one_page = obj.get("onePageSummary", {})
+
+        stub = {
+            "id": book_id,
+            "title": obj.get("title", ""),
+            "author": obj.get("author", "BookBox Stage Repertoire"),
+            "category": obj.get("category", "Stories & Jokes"),
+            "subcategory": obj.get("subcategory", ""),
+            "bookFormat": obj.get("bookFormat", "stories"),
+            "coverColor": obj.get("coverColor", "from-rose-900 to-amber-950"),
+            "coverEmoji": obj.get("coverEmoji", "🎭"),
+            "coverImageUrl": "",
+            "readingTimeMinutes": obj.get("readingTimeMinutes", 30),
+            "publishedYear": obj.get("publishedYear", 2026),
+            "totalChapters": obj.get("totalChapters") or len(pieces),
+            "isLoaded": False,
+            "onePageSummary": {
+                "elevatorPitch": one_page.get("elevatorPitch", ""),
+                "coreThesis": one_page.get("coreThesis", ""),
+                "keyPillars": [],
+                "strengths": [],
+                "blindSpotsAndCounterarguments": []
+            },
+            "blinks": [],
+            "mindMap": {"id": "root", "label": obj.get("title", "")},
+            "reflectionExercises": [],
+            "actionItems": [],
+            "stories": [],
+            "ideaCards": [],
+            "performancePieces": [],
+            "tags": obj.get("tags", [])[:5]
         }
         catalog.append(stub)
 

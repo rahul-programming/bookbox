@@ -15,6 +15,7 @@ import { DeepDiveView } from './reader/DeepDiveView';
 import { ActionItemsView } from './reader/ActionItemsView';
 import { IdeaCardsView } from './reader/IdeaCardsView';
 import { MindMapView } from './reader/MindMapView';
+import { PerformanceReaderView } from './reader/PerformanceReaderView';
 import { AudioPlayerBar } from './AudioPlayerBar';
 import { 
   ArrowLeft, 
@@ -85,13 +86,21 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
     }
   }, [book.id, initialViewMode]);
 
+  const isPerformanceBook =
+    book.bookFormat === 'stories' ||
+    book.bookFormat === 'jokes' ||
+    Boolean(book.performancePieces && book.performancePieces.length > 0);
+
   // Load or initialize progress
   useEffect(() => {
     const loadProgress = async () => {
       const uid = getActiveUserId();
       const pMap = await getUserProgressMap(uid);
       const existing = pMap[book.id];
-      const maxIdx = Math.max(0, (book.blinks?.length || 1) - 1);
+      const itemCount = isPerformanceBook
+        ? (book.performancePieces?.length || 1)
+        : (book.blinks?.length || 1);
+      const maxIdx = Math.max(0, itemCount - 1);
       if (existing) {
         const targetIndex = (initialBlinkIndex !== undefined && initialBlinkIndex > 0)
           ? initialBlinkIndex
@@ -120,7 +129,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
       }
     };
     loadProgress();
-  }, [book.id, book.blinks?.length]);
+  }, [book.id, book.blinks?.length, book.performancePieces?.length, isPerformanceBook]);
 
   // Instantly reset scroll to top whenever changing view mode, active book, or chapter/blink
   useEffect(() => {
@@ -130,17 +139,25 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
   }, [viewMode, book.id, currentBlinkIndex]);
 
   const hasBlinks = Boolean(book.blinks && book.blinks.length > 0);
+  const hasPerfPieces = Boolean(book.performancePieces && book.performancePieces.length > 0);
+  const hasContent = isPerformanceBook ? hasPerfPieces : hasBlinks;
   const activeBlink = hasBlinks ? (book.blinks[currentBlinkIndex] || book.blinks[0]) : null;
+  const activePiece = hasPerfPieces ? (book.performancePieces![currentBlinkIndex] || book.performancePieces![0]) : null;
 
-  // Set default audio track to current blink on mount (ALWAYS at top level before early returns)
+  // Set default audio track to current blink or performance piece on mount (ALWAYS at top level before early returns)
   useEffect(() => {
-    if (activeBlink) {
+    if (isPerformanceBook && activePiece) {
+      setAudioTrack({
+        headline: activePiece.title,
+        text: activePiece.cleanScript
+      });
+    } else if (activeBlink) {
       setAudioTrack({
         headline: activeBlink.headline,
         text: activeBlink.content
       });
     }
-  }, [book.id, activeBlink?.id]);
+  }, [book.id, activeBlink?.id, activePiece?.id, isPerformanceBook]);
 
   const handleToggleFavorite = async () => {
     const next = await toggleFavorite(book.id);
@@ -162,12 +179,14 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
   };
 
   // Safe fallback loading screen if book is currently streaming or hydrating on-demand
-  if (!hasBlinks) {
+  if (!hasContent) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-slate-50 dark:bg-slate-900 text-slate-500 p-6">
         <div className="w-10 h-10 border-3 border-blue-600 border-t-transparent rounded-full animate-spin mb-4" />
         <h3 className="text-base font-semibold text-slate-800 dark:text-slate-200">Loading "{book.title}"...</h3>
-        <p className="text-xs text-slate-400 mt-1">Fetching chapter deep-dive & interactive diagrams</p>
+        <p className="text-xs text-slate-400 mt-1">
+          {isPerformanceBook ? 'Loading situational scripts & stage cues' : 'Fetching chapter deep-dive & interactive diagrams'}
+        </p>
         <button
           onClick={onBack}
           className="mt-6 px-4 py-2 rounded-xl text-xs font-semibold bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-100 cursor-pointer"
@@ -178,11 +197,38 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
     );
   }
 
-  const currentBlink = book.blinks[currentBlinkIndex] || book.blinks[0];
+  const currentBlink = hasBlinks ? (book.blinks[currentBlinkIndex] || book.blinks[0]) : null;
 
   const handleStartAudio = (headline: string, text: string) => {
     setAudioTrack({ headline, text });
     setIsAudioActive(true);
+  };
+
+  const handlePieceChange = async (newIndex: number) => {
+    const pieces = book.performancePieces || [];
+    if (newIndex >= 0 && newIndex < pieces.length) {
+      setCurrentBlinkIndex(newIndex);
+      onBlinkIndexChange?.(newIndex);
+      window.scrollTo({ top: 0, behavior: 'instant' });
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+      const targetPiece = pieces[newIndex];
+      if (isAudioActive && targetPiece) {
+        handleStartAudio(targetPiece.title, targetPiece.cleanScript);
+      }
+
+      const uid = getActiveUserId();
+      const pMap = await getUserProgressMap(uid);
+      const existing = pMap[book.id];
+      const completed = new Set(existing?.completedBlinkIds || []);
+      if (activePiece) completed.add(activePiece.id);
+
+      await saveUserProgress(book.id, {
+        currentBlinkIndex: newIndex,
+        completedBlinkIds: Array.from(completed),
+        lastReadTimestamp: Date.now()
+      });
+    }
   };
 
   const handleBlinkChange = async (newIndex: number) => {
@@ -240,7 +286,9 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
 
   // Universal Listen button for the current active tab
   const handleUniversalListen = () => {
-    if (viewMode === 'blinks' && activeBlink) {
+    if (isPerformanceBook && activePiece) {
+      handleStartAudio(activePiece.title, activePiece.cleanScript);
+    } else if (viewMode === 'blinks' && activeBlink) {
       handleStartAudio(activeBlink.headline, activeBlink.content);
     } else if (viewMode === 'deepdive') {
       const s = book.onePageSummary;
@@ -268,10 +316,10 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
   };
 
   return (
-    <div className="flex-1 pb-32 w-full max-w-full overflow-x-hidden">
+    <div className="flex-1 pb-32 w-full max-w-full overflow-x-clip">
       
       {/* Sticky Reader Sub-Header */}
-      <div className="sticky top-16 z-30 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 shadow-xs backdrop-blur-md transition-colors w-full max-w-full">
+      <div className="sticky top-16 z-30 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 shadow-xs transition-colors w-full max-w-full">
         <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 h-14 flex items-center justify-between gap-2 sm:gap-4 w-full min-w-0 overflow-x-auto no-scrollbar">
           
           {/* Back button & Book Info */}
@@ -293,8 +341,14 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
             </div>
           </div>
 
-          {/* 4-View Mode Segmented Switcher */}
-          <div className="flex items-center p-1 rounded-xl bg-slate-100 dark:bg-slate-800 text-xs font-semibold">
+          {/* 4-View Mode Segmented Switcher (hidden for Stories & Jokes Performer books) */}
+          {isPerformanceBook ? (
+            <div className="hidden sm:flex items-center space-x-2 px-3 py-1 rounded-full bg-amber-50 dark:bg-amber-950/50 border border-amber-200 dark:border-amber-800 text-xs font-bold text-amber-800 dark:text-amber-300">
+              <span>{book.bookFormat === 'jokes' ? 'Comedy Performance Deck' : 'Storytelling Stage Deck'}</span>
+              {book.subcategory && <span className="text-amber-600/80 dark:text-amber-400/80">· {book.subcategory}</span>}
+            </div>
+          ) : (
+            <div className="flex items-center p-1 rounded-xl bg-slate-100 dark:bg-slate-800 text-xs font-semibold">
             
             <button
               onClick={() => handleSetViewMode('blinks')}
@@ -362,6 +416,7 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
             </button>
 
           </div>
+          )}
 
           {/* Right Controls: Favorite, Reading, Universal Listen & Finish */}
           <div className="flex items-center space-x-1.5 sm:space-x-2">
@@ -419,61 +474,75 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
       </div>
 
       {/* Main View Container with generous top breathing room */}
-      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 w-full max-w-full min-w-0 pt-10 sm:pt-12">
-        {viewMode === 'blinks' && (
-          <KeyInsightsView
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 w-full max-w-full min-w-0 pt-6 sm:pt-8">
+        {isPerformanceBook ? (
+          <PerformanceReaderView
             book={book}
-            currentBlinkIndex={currentBlinkIndex}
-            highlightRange={highlightRange}
-            onBlinkChange={handleBlinkChange}
+            currentIndex={currentBlinkIndex}
+            onPieceChange={handlePieceChange}
             onCompleteBook={handleCompleteBook}
-            onStartAudio={() => handleStartAudio(currentBlink.headline, currentBlink.keyInsight || currentBlink.content)}
-            fontSizeClass={fontClasses[fontSizeIndex]}
-          />
-        )}
-
-        {viewMode === 'deepdive' && (
-          <DeepDiveView
-            book={book}
-            fontSizeClass={fontClasses[fontSizeIndex]}
-            onStartAudio={handleStartAudio}
-            highlightRange={highlightRange}
-            activeAudioHeadline={audioTrack.headline}
-            isAudioActive={isAudioActive}
-          />
-        )}
-
-        {viewMode === 'actionable' && (
-          <ActionItemsView
-            book={book}
-            completedActionIds={completedActionIds}
-            onToggleAction={handleToggleAction}
             onStartAudio={handleStartAudio}
             fontSizeClass={fontClasses[fontSizeIndex]}
             highlightRange={highlightRange}
-            activeAudioHeadline={audioTrack.headline}
-            isAudioActive={isAudioActive}
           />
-        )}
+        ) : (
+          <>
+            {viewMode === 'blinks' && currentBlink && (
+              <KeyInsightsView
+                book={book}
+                currentBlinkIndex={currentBlinkIndex}
+                highlightRange={highlightRange}
+                onBlinkChange={handleBlinkChange}
+                onCompleteBook={handleCompleteBook}
+                onStartAudio={() => handleStartAudio(currentBlink.headline, currentBlink.keyInsight || currentBlink.content)}
+                fontSizeClass={fontClasses[fontSizeIndex]}
+              />
+            )}
 
-        {viewMode === 'cards' && (
-          <IdeaCardsView
-            book={book}
-            onOpenStashModal={onOpenStashModal}
-            onStartAudio={handleStartAudio}
-            fontSizeClass={fontClasses[fontSizeIndex]}
-            highlightRange={highlightRange}
-            activeAudioHeadline={audioTrack.headline}
-            isAudioActive={isAudioActive}
-          />
-        )}
+            {viewMode === 'deepdive' && (
+              <DeepDiveView
+                book={book}
+                fontSizeClass={fontClasses[fontSizeIndex]}
+                onStartAudio={handleStartAudio}
+                highlightRange={highlightRange}
+                activeAudioHeadline={audioTrack.headline}
+                isAudioActive={isAudioActive}
+              />
+            )}
 
-        {viewMode === 'mindmap' && (
-          <MindMapView
-            book={book}
-            onStartAudio={handleStartAudio}
-            fontSizeIndex={fontSizeIndex}
-          />
+            {viewMode === 'actionable' && (
+              <ActionItemsView
+                book={book}
+                completedActionIds={completedActionIds}
+                onToggleAction={handleToggleAction}
+                onStartAudio={handleStartAudio}
+                fontSizeClass={fontClasses[fontSizeIndex]}
+                highlightRange={highlightRange}
+                activeAudioHeadline={audioTrack.headline}
+                isAudioActive={isAudioActive}
+              />
+            )}
+
+            {viewMode === 'cards' && (
+              <IdeaCardsView
+                book={book}
+                onOpenStashModal={onOpenStashModal}
+                onStartAudio={handleStartAudio}
+                fontSizeClass={fontClasses[fontSizeIndex]}
+                highlightRange={highlightRange}
+                activeAudioHeadline={audioTrack.headline}
+                isAudioActive={isAudioActive}
+              />
+            )}
+
+            {viewMode === 'mindmap' && (
+              <MindMapView
+                book={book}
+                onStartAudio={handleStartAudio}
+                fontSizeIndex={fontSizeIndex}
+              />
+            )}
+          </>
         )}
       </div>
 
@@ -485,7 +554,9 @@ export const ReaderView: React.FC<ReaderViewProps> = ({
           activeText={audioTrack.text}
           onSentenceHighlight={(start, len) => setHighlightRange({ start, length: len })}
           onNext={() => {
-            if (viewMode === 'blinks' && currentBlinkIndex < book.blinks.length - 1) {
+            if (isPerformanceBook && currentBlinkIndex < (book.performancePieces?.length || 0) - 1) {
+              handlePieceChange(currentBlinkIndex + 1);
+            } else if (viewMode === 'blinks' && currentBlinkIndex < book.blinks.length - 1) {
               handleBlinkChange(currentBlinkIndex + 1);
             }
           }}

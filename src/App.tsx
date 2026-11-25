@@ -24,7 +24,7 @@ import { StashModal } from './components/StashModal';
 import { ImportExportModal } from './components/ImportExportModal';
 import { AuthModal } from './components/AuthModal';
 import { ErrorBoundary } from './components/ErrorBoundary';
-import { loadFullBook } from './data/bookLoader';
+import { loadFullBook, hasLoadedBookContent } from './data/bookLoader';
 
 interface LastViewState {
   view: 'book' | 'tab';
@@ -147,7 +147,7 @@ export function App() {
             const nextBook = booksRef.current.find(b => b.id === state.bookId);
             if (nextBook) {
               setSelectedBook(nextBook);
-              if (!nextBook.isLoaded || !nextBook.blinks || nextBook.blinks.length === 0) {
+              if (!hasLoadedBookContent(nextBook)) {
                 loadFullBook(nextBook.id).then(full => {
                   if (full) {
                     setSelectedBook(full);
@@ -200,21 +200,24 @@ export function App() {
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
 
-  const handleSelectBook = async (book: Book, initialMode: ReaderViewMode = 'blinks') => {
+  const handleSelectBook = async (book: Book, initialMode?: ReaderViewMode) => {
+    const resolvedMode: ReaderViewMode = initialMode || (
+      (book.bookFormat === 'stories' || book.bookFormat === 'jokes') ? 'performance' : 'blinks'
+    );
     window.history.pushState({ view: 'book', bookId: book.id, tab: activeTabRef.current }, '');
-    setInitialReaderViewMode(initialMode);
+    setInitialReaderViewMode(resolvedMode);
     setSelectedBook(book);
     saveLastViewState({
       view: 'book',
       bookId: book.id,
-      viewMode: initialMode,
+      viewMode: resolvedMode,
       blinkIndex: progressMap[book.id]?.currentBlinkIndex ?? 0,
       tab: activeTabRef.current
     });
     window.scrollTo({ top: 0, behavior: 'instant' });
 
     // On-demand lazy load if full book content not loaded
-    if (!book.isLoaded || !book.blinks || book.blinks.length === 0) {
+    if (!hasLoadedBookContent(book)) {
       const fullBook = await loadFullBook(book.id);
       if (fullBook) {
         setSelectedBook(fullBook);
@@ -379,7 +382,7 @@ export function App() {
               setInitialReaderBlinkIndex(bIndex);
               setSelectedBook(foundBook);
 
-              if (!foundBook.isLoaded || !foundBook.blinks || foundBook.blinks.length === 0) {
+              if (!hasLoadedBookContent(foundBook)) {
                 loadFullBook(foundBook.id).then(full => {
                   if (full) {
                     setSelectedBook(full);
@@ -417,7 +420,7 @@ export function App() {
             setInitialReaderBlinkIndex(latest.currentBlinkIndex ?? 0);
             setSelectedBook(foundBook);
 
-            if (!foundBook.isLoaded || !foundBook.blinks || foundBook.blinks.length === 0) {
+            if (!hasLoadedBookContent(foundBook)) {
               loadFullBook(foundBook.id).then(full => {
                 if (full) {
                   setSelectedBook(full);
@@ -462,7 +465,9 @@ export function App() {
     for (const b of allBooks) {
       const key = `${b.title.trim().toLowerCase().replace(/[^a-z0-9]/g, '')}___${b.author.trim().toLowerCase().replace(/[^a-z0-9]/g, '')}`;
       const prev = dedupedBooksMap.get(key);
-      if (!prev || (b.blinks?.length || 0) > (prev.blinks?.length || 0)) {
+      const prevCount = (prev?.blinks?.length || 0) + (prev?.performancePieces?.length || 0);
+      const currCount = (b.blinks?.length || 0) + (b.performancePieces?.length || 0);
+      if (!prev || currCount > prevCount) {
         dedupedBooksMap.set(key, b);
       }
     }
@@ -582,7 +587,7 @@ export function App() {
           />
 
           {/* Active Tab Screen */}
-          <main className="flex-1 w-full max-w-full overflow-x-hidden">
+          <main className="flex-1 w-full max-w-full overflow-x-clip">
             {activeTab === 'library' && (
               <LibraryView
                 books={books}

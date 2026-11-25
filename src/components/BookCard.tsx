@@ -38,6 +38,8 @@ export const BookCard: React.FC<BookCardProps> = ({
           title={book.title}
           author={book.author}
           category={book.category}
+          bookFormat={book.bookFormat}
+          totalItems={totalBlinks}
           coverImageUrl={book.coverImageUrl}
           size="md"
         />
@@ -94,7 +96,13 @@ export const BookCard: React.FC<BookCardProps> = ({
             )}
             <div className="flex items-center space-x-1">
               <Clock className="w-3 h-3" />
-              <span>{book.readingTimeMinutes} min</span>
+              <span>
+                {book.bookFormat === 'stories'
+                  ? `${totalBlinks} stories`
+                  : book.bookFormat === 'jokes'
+                  ? `${totalBlinks} jokes`
+                  : `${book.readingTimeMinutes} min`}
+              </span>
             </div>
           </div>
         </div>
@@ -144,7 +152,13 @@ export const BookCard: React.FC<BookCardProps> = ({
         ) : (
           <div className="flex items-center space-x-1 text-xs text-blue-600 dark:text-blue-400 font-medium">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>15-min Read</span>
+            <span>
+              {book.bookFormat === 'stories'
+                ? 'Performer Stories'
+                : book.bookFormat === 'jokes'
+                ? 'Comedy Bits & Cues'
+                : '15-min Read'}
+            </span>
           </div>
         )}
 

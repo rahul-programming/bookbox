@@ -87,31 +87,45 @@ export async function initDatabase(): Promise<void> {
     };
     await db.progress.put(initialProgress);
   } else {
-    // Synchronize updated catalog metadata without wiping loaded content
+    // Synchronize updated catalog metadata in one batched bulkPut without wiping loaded content
+    const existingBooks = await db.books.toArray();
+    const existingMap = new Map<string, Book>();
+    for (const eb of existingBooks) {
+      existingMap.set(eb.id, eb);
+    }
+
+    const toPut: Book[] = [];
     for (const b of BOOK_CATALOG) {
-      const existing = await db.books.get(b.id);
+      const existing = existingMap.get(b.id);
       if (!existing) {
-        await db.books.put(b);
+        toPut.push(b);
       } else if (!existing.isCustom) {
-        // If the book was already loaded into IndexedDB by the reader, preserve its full content!
-        if (existing.isLoaded && existing.blinks && existing.blinks.length > 0) {
-          await db.books.put({
+        const hasStandardContent = existing.blinks && existing.blinks.length > 0;
+        const hasPerfContent = existing.performancePieces && existing.performancePieces.length > 0;
+        if (existing.isLoaded && (hasStandardContent || hasPerfContent)) {
+          toPut.push({
             ...existing,
             title: b.title,
             author: b.author,
             category: b.category,
             subcategory: b.subcategory,
-            totalChapters: b.totalChapters || existing.blinks.length,
+            bookFormat: b.bookFormat,
+            totalChapters: b.totalChapters || (hasPerfContent ? existing.performancePieces!.length : existing.blinks.length),
             readingTimeMinutes: b.readingTimeMinutes,
             publishedYear: b.publishedYear,
             coverEmoji: b.coverEmoji,
             coverColor: b.coverColor,
+            coverImageUrl: b.coverImageUrl,
             tags: b.tags
           });
         } else {
-          await db.books.put(b);
+          toPut.push(b);
         }
       }
+    }
+
+    if (toPut.length > 0) {
+      await db.books.bulkPut(toPut);
     }
 
     // 1. Explicitly migrate known legacy/renamed book IDs
@@ -156,7 +170,7 @@ export async function initDatabase(): Promise<void> {
       if (duplicates.length > 1) {
         // Prefer book present in BOOK_CATALOG or with more blinks
         const authoritative = duplicates.find(d => BOOK_CATALOG.some(sb => sb.id === d.id)) ||
-                              [...duplicates].sort((a, b) => (b.blinks?.length || 0) - (a.blinks?.length || 0))[0];
+                              [...duplicates].sort((a, b) => ((b.blinks?.length || 0) + (b.performancePieces?.length || 0)) - ((a.blinks?.length || 0) + (a.performancePieces?.length || 0)))[0];
 
         for (const dup of duplicates) {
           if (dup.id !== authoritative.id) {
