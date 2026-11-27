@@ -1289,12 +1289,18 @@ export const BOOK_LOADER_MAP: Record<string, string> = {
   "zero-to-one-notes-on-startups-or-how-to-build-the-future": "./books/zeroToOneNotesOnStartupsOrHowToBuildTheFutureExpanded.ts",
   "zhuangzi-chuang-tzu-basic-writings": "./books/zhuangziChuangTzuBasicWritingsExpanded.ts",
   "jokes-keynotes-public-speaking-1-stand-out-stage-icebreakers-for": "./performance/jokesKeynotesPublicSpeaking1StandOutStageIcebreakersForPerformance.ts",
+  "jokes-keynotes-public-speaking-2-slide-deck-clicker-mic-fail-jok": "./performance/jokesKeynotesPublicSpeaking2SlideDeckClickerMicFailJokPerformance.ts",
+  "jokes-keynotes-public-speaking-3-latecomers-coffee-breaks-lunch": "./performance/jokesKeynotesPublicSpeaking3LatecomersCoffeeBreaksLunchPerformance.ts",
+  "stories-keynotes-public-speaking-10-graduation-awards-ceremonial": "./performance/storiesKeynotesPublicSpeaking10GraduationAwardsCeremonialPerformance.ts",
   "stories-keynotes-public-speaking-1-opening-hooks-that-silence-a": "./performance/storiesKeynotesPublicSpeaking1OpeningHooksThatSilenceAPerformance.ts",
   "stories-keynotes-public-speaking-2-tech-fail-stage-mishap-recove": "./performance/storiesKeynotesPublicSpeaking2TechFailStageMishapRecovePerformance.ts",
   "stories-keynotes-public-speaking-3-unforgettable-turning-points": "./performance/storiesKeynotesPublicSpeaking3UnforgettableTurningPointsPerformance.ts",
   "stories-keynotes-public-speaking-4-surprising-historical-paradox": "./performance/storiesKeynotesPublicSpeaking4SurprisingHistoricalParadoxPerformance.ts",
   "stories-keynotes-public-speaking-5-audience-vulnerability-storie": "./performance/storiesKeynotesPublicSpeaking5AudienceVulnerabilityStoriePerformance.ts",
-  "stories-keynotes-public-speaking-6-bridge-stories-for-heavy-data": "./performance/storiesKeynotesPublicSpeaking6BridgeStoriesForHeavyDataPerformance.ts"
+  "stories-keynotes-public-speaking-6-bridge-stories-for-heavy-data": "./performance/storiesKeynotesPublicSpeaking6BridgeStoriesForHeavyDataPerformance.ts",
+  "stories-keynotes-public-speaking-7-handling-hostile-q-a-through": "./performance/storiesKeynotesPublicSpeaking7HandlingHostileQAThroughPerformance.ts",
+  "stories-keynotes-public-speaking-8-conference-panel-standout-ane": "./performance/storiesKeynotesPublicSpeaking8ConferencePanelStandoutAnePerformance.ts",
+  "stories-keynotes-public-speaking-9-origin-stories-for-founders-v": "./performance/storiesKeynotesPublicSpeaking9OriginStoriesForFoundersVPerformance.ts"
 };
 
 export const SEED_BOARDS: StashBoard[] = [
@@ -50223,6 +50229,120 @@ export const BOOK_CATALOG: Book[] = [
     ]
   },
   {
+    "id": "jokes-keynotes-public-speaking-2-slide-deck-clicker-mic-fail-jok",
+    "title": "Slide Deck, Clicker & Mic Fail Jokes",
+    "author": "BookBox Comedy Repertoire",
+    "category": "Stories & Jokes",
+    "subcategory": "Keynotes & Public Speaking",
+    "bookFormat": "jokes",
+    "coverColor": "from-fuchsia-900 to-purple-950",
+    "coverEmoji": "\ud83c\udfa4",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 21,
+    "publishedYear": 2026,
+    "totalChapters": 50,
+    "isLoaded": false,
+    "contentVersion": "a4a28add",
+    "onePageSummary": {
+      "elevatorPitch": "50 crafted situational jokes & bits for Keynotes & Public Speaking: Immediate, self-aware quips when AV, Zoom, or microphones glitch mid-talk. Each includes exact usage triggers, vocal emphasis, and pause cues.",
+      "coreThesis": "Immediate, self-aware quips when AV, Zoom, or microphones glitch mid-talk",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Slide Deck, Clicker & Mic Fail Jokes"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "performancePieces": [],
+    "tags": [
+      "Stories & Jokes",
+      "Keynotes & Public Speaking",
+      "Jokes & Comedy"
+    ]
+  },
+  {
+    "id": "jokes-keynotes-public-speaking-3-latecomers-coffee-breaks-lunch",
+    "title": "Latecomers, Coffee Breaks & Lunch-Coma Savers",
+    "author": "BookBox Comedy Repertoire",
+    "category": "Stories & Jokes",
+    "subcategory": "Keynotes & Public Speaking",
+    "bookFormat": "jokes",
+    "coverColor": "from-fuchsia-900 to-purple-950",
+    "coverEmoji": "\ud83c\udfa4",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 22,
+    "publishedYear": 2026,
+    "totalChapters": 50,
+    "isLoaded": false,
+    "contentVersion": "d78cd7da",
+    "onePageSummary": {
+      "elevatorPitch": "50 crafted situational jokes & bits for Keynotes & Public Speaking: Waking up sleepy 2 PM conference rooms and playfully teasing late arrivals. Each includes exact usage triggers, vocal emphasis, and pause cues.",
+      "coreThesis": "Waking up sleepy 2 PM conference rooms and playfully teasing late arrivals",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Latecomers, Coffee Breaks & Lunch-Coma Savers"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "performancePieces": [],
+    "tags": [
+      "Stories & Jokes",
+      "Keynotes & Public Speaking",
+      "Jokes & Comedy"
+    ]
+  },
+  {
+    "id": "stories-keynotes-public-speaking-10-graduation-awards-ceremonial",
+    "title": "Graduation, Awards & Ceremonial Tales",
+    "author": "BookBox Stage Repertoire",
+    "category": "Stories & Jokes",
+    "subcategory": "Keynotes & Public Speaking",
+    "bookFormat": "stories",
+    "coverColor": "from-rose-900 to-amber-950",
+    "coverEmoji": "\ud83c\udfad",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 527,
+    "publishedYear": 2026,
+    "totalChapters": 50,
+    "isLoaded": false,
+    "contentVersion": "5b955fb5",
+    "onePageSummary": {
+      "elevatorPitch": "50 detailed third-person stories (10\u201315 min each) for Keynotes & Public Speaking: Uplifting, memorable human stories for milestone speeches and trophies. Complete with usage triggers, vocal emphasis, and pause cues.",
+      "coreThesis": "Uplifting, memorable human stories for milestone speeches and trophies",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Graduation, Awards & Ceremonial Tales"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "performancePieces": [],
+    "tags": [
+      "Stories & Jokes",
+      "Keynotes & Public Speaking",
+      "Third-Person Storytelling"
+    ]
+  },
+  {
     "id": "stories-keynotes-public-speaking-1-opening-hooks-that-silence-a",
     "title": "Opening Hooks That Silence a Restless Room",
     "author": "BookBox Stage Repertoire",
@@ -50438,6 +50558,120 @@ export const BOOK_CATALOG: Book[] = [
     "mindMap": {
       "id": "root",
       "label": "Bridge Stories for Heavy Data Slides"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "performancePieces": [],
+    "tags": [
+      "Stories & Jokes",
+      "Keynotes & Public Speaking",
+      "Third-Person Storytelling"
+    ]
+  },
+  {
+    "id": "stories-keynotes-public-speaking-7-handling-hostile-q-a-through",
+    "title": "Handling Hostile Q&A Through Parable",
+    "author": "BookBox Stage Repertoire",
+    "category": "Stories & Jokes",
+    "subcategory": "Keynotes & Public Speaking",
+    "bookFormat": "stories",
+    "coverColor": "from-rose-900 to-amber-950",
+    "coverEmoji": "\ud83c\udfad",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 512,
+    "publishedYear": 2026,
+    "totalChapters": 50,
+    "isLoaded": false,
+    "contentVersion": "8fa9981e",
+    "onePageSummary": {
+      "elevatorPitch": "50 detailed third-person stories (10\u201315 min each) for Keynotes & Public Speaking: Deflecting tough, confrontational questions with wisdom and calm. Complete with usage triggers, vocal emphasis, and pause cues.",
+      "coreThesis": "Deflecting tough, confrontational questions with wisdom and calm",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Handling Hostile Q&A Through Parable"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "performancePieces": [],
+    "tags": [
+      "Stories & Jokes",
+      "Keynotes & Public Speaking",
+      "Third-Person Storytelling"
+    ]
+  },
+  {
+    "id": "stories-keynotes-public-speaking-8-conference-panel-standout-ane",
+    "title": "Conference Panel Standout Anecdotes",
+    "author": "BookBox Stage Repertoire",
+    "category": "Stories & Jokes",
+    "subcategory": "Keynotes & Public Speaking",
+    "bookFormat": "stories",
+    "coverColor": "from-rose-900 to-amber-950",
+    "coverEmoji": "\ud83c\udfad",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 511,
+    "publishedYear": 2026,
+    "totalChapters": 50,
+    "isLoaded": false,
+    "contentVersion": "047b986d",
+    "onePageSummary": {
+      "elevatorPitch": "50 detailed third-person stories (10\u201315 min each) for Keynotes & Public Speaking: Short crisp 60-second stories tailored for multi-speaker panels. Complete with usage triggers, vocal emphasis, and pause cues.",
+      "coreThesis": "Short crisp 60-second stories tailored for multi-speaker panels",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Conference Panel Standout Anecdotes"
+    },
+    "reflectionExercises": [],
+    "actionItems": [],
+    "stories": [],
+    "ideaCards": [],
+    "performancePieces": [],
+    "tags": [
+      "Stories & Jokes",
+      "Keynotes & Public Speaking",
+      "Third-Person Storytelling"
+    ]
+  },
+  {
+    "id": "stories-keynotes-public-speaking-9-origin-stories-for-founders-v",
+    "title": "Origin Stories for Founders & Visionaries",
+    "author": "BookBox Stage Repertoire",
+    "category": "Stories & Jokes",
+    "subcategory": "Keynotes & Public Speaking",
+    "bookFormat": "stories",
+    "coverColor": "from-rose-900 to-amber-950",
+    "coverEmoji": "\ud83c\udfad",
+    "coverImageUrl": "",
+    "readingTimeMinutes": 523,
+    "publishedYear": 2026,
+    "totalChapters": 50,
+    "isLoaded": false,
+    "contentVersion": "ed864ee7",
+    "onePageSummary": {
+      "elevatorPitch": "50 detailed third-person stories (10\u201315 min each) for Keynotes & Public Speaking: Crafting the exact moment an obsession or mission began without sounding arrogant. Complete with usage triggers, vocal emphasis, and pause cues.",
+      "coreThesis": "Crafting the exact moment an obsession or mission began without sounding arrogant",
+      "keyPillars": [],
+      "strengths": [],
+      "blindSpotsAndCounterarguments": []
+    },
+    "blinks": [],
+    "mindMap": {
+      "id": "root",
+      "label": "Origin Stories for Founders & Visionaries"
     },
     "reflectionExercises": [],
     "actionItems": [],
