@@ -669,7 +669,7 @@ def git_push_batch(count: int):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--pilot", action="store_true", help="Synthesize pending pilot volume(s) and verify build")
-    parser.add_argument("--workers", type=int, default=3, help="Concurrent LLM workers for long-form stories")
+    parser.add_argument("--workers", type=int, default=1, help="Concurrent LLM workers for long-form stories (default 1 avoids macOS Keychain refresh collisions)")
     parser.add_argument("--no-git", action="store_true", help="Skip git commits/pushes")
     args = parser.parse_args()
 
